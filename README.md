@@ -3,11 +3,9 @@ Updating the handbook into more of a wiki styled handbook. This is very much a w
 
 
 
-
-
 #### **TO-DO**
 
-Re-balance Spells, Each Class should have spells which do all of the following (one or two flavors of each). Also include unique spells for each class that don't fit into these categories, we don't need to necessarily remove or add spells, just change redundant spells to be more unique. Each classes variants of the spells should be specialized for that class. For example, the battlefield control spells for wizard should be more powerful and use less mana and direct offense for warlock should be more powerful and use less mana and so on. Specialized spells should also have more prerequisites. 
+Re-balance Spells, Each Class should have spells which do all of the following (one or two flavors of each). Also include unique spells for each class that don't fit into these categories, we don't need to necessarily remove or add spells, just change redundant spells to be more unique. Each classes variants of the spells should be specialized for that class. For example, the battlefield control spells for wizard should be more powerful and use less mana and direct offense for warlock should be more powerful and use less mana and so on. Specialized spells should also have more prerequisites. I have added most of them but I still need to look through all the spells and add more.
 #### **Direct Offense**
 - Long-Range Single Target (like a sniper rifle)
 - Medium-Range Single Target (a handgun)

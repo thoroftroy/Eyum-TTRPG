@@ -1,14 +1,6 @@
-- Mana Cost: 15
-    
-- Affinity: Infernal
-    
-- Range: 10ft
-    
-- Concentration: Yes (5 minutes)
-    
-- Effect: Summons a small demonic creature (HP = charMod x5, Damage = 1d4).
-    
-- Description: You trace a sigil in the air, and a small, snarling demon claws its way through a rift in space, landing at your side ready to fight at your command.
-    
-
-Upcast: Increase stats (x2) per x2 Mana.
+Mana Cost: 20  
+Affinity: Chaos  
+Range: 30ft  
+Concentration: Yes (5 turns)  
+Effect: Summon a Small fiend in an unoccupied space. It acts on your turn and makes a melee spell attack (reach 5ft) for 1d8 Fire or Necrotic (choose on summon). If you end your turn more than 60ft from it, it vanishes. The fiend cannot be healed.  
+Upcast: Increase to Medium size and 1d10 damage per x3 Mana; at Large size, its reach becomes 10ft.

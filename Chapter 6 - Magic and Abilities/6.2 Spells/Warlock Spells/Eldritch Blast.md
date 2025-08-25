@@ -1,14 +1,7 @@
-- Mana Cost: 6
-    
-- Affinity: Necrotic
-    
-- Range: 60ft
-    
-- Concentration: No
-    
-- Effect: Fires a bolt of dark energy, dealing 2d6 Necrotic damage.
-    
-- Description: You hurl a crackling bolt of dark energy from your hand. It streaks through the air and explodes on contact, burning through flesh with necrotic force.
-    
-
-Upcast: +1d6 damage per x2 Mana as well as 1 additional beam per x2 mana
+Mana Cost: 4
+Affinity: Necrotic
+Range: 150ft  
+Concentration: No  
+Effect: Make a spell attack against one creature you can see. On a hit, deal 1d10 Necrotic damage.
+Upcast: +1 beam per x2 Mana.  
+Prerequisite: Total Level > 3
