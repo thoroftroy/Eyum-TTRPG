@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6217dc1f2bc0d42e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 3 - Character Creation/3.3 Classes/Classes/Physical Classes/Monk.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Monk"
+            }
+          },
+          {
             "id": "bf1b3fd161f14416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 3 - Character Creation/3.2 Races/3.2 Races.md",
+                "file": "Chapter 11 - Lore/Characters/Villians/Kahn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.2 Races"
-            }
-          },
-          {
-            "id": "8dca0bbb4bd0629e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Kahn"
             }
           }
         ]
@@ -174,6 +174,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,45 +183,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf1b3fd161f14416",
+  "active": "6217dc1f2bc0d42e",
   "lastOpenFiles": [
-    "Chapter 3 - Character Creation/3.2 Races/3.2.1 Languages.md",
+    "Chapter 3 - Character Creation/3.3 Classes/Classes/Physical Classes/Fighter.md",
+    "Chapter 3 - Character Creation/3.3 Classes/Classes/Physical Classes/Barbarian.md",
+    "Chapter 11 - Lore/Characters/Side Characters/Ezra.md",
+    "Chapter 11 - Lore/Characters/Main Characters/George.md",
+    "Chapter 11 - Lore/Characters/Main Characters/Illana.md",
+    "Chapter 11 - Lore/Characters/Main Characters/Lucian.md",
+    "Chapter 3 - Character Creation/3.2 Races/Races/Humanoid Races/Human.md",
+    "Chapter 11 - Lore/Characters/Villians/Kahn.md",
+    "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1.1 Alignment.md",
+    "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1 Step-by-Step Character Creation.md",
+    "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.0 Character Creation.md",
+    "Chapter 1 - Introduction/1.0 Table of Contents.md",
+    "Chapter 11 - Lore/11.1 Lore.md",
+    "README.md",
+    "Chapter 11 - Lore/Characters/Side Characters",
+    "Chapter 11 - Lore/Characters/Main Characters",
+    "Chapter 11 - Lore/Characters/Villians",
+    "Chapter 11 - Lore/Characters",
     "Chapter 3 - Character Creation/3.2 Races/3.2 Races.md",
+    "Chapter 11 - Lore",
+    "Chapter 3 - Character Creation/3.2 Races/3.2.1 Languages.md",
     "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1.5 Building Your Backstory.md",
     "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1.4 Classes (Beginner Guide).md",
-    "README.md",
     "Non-Formatted Information.md",
     "Chapter 2 - Core Rules/2.1 Basic Mechanics/2.1.12 Vision and Light.md",
     "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1.3 Vision and Light.md",
-    "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1.1 Alignment.md",
     "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1.2 Speed.md",
-    "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.1 Step-by-Step Character Creation.md",
     "Chapter 2 - Core Rules/2.8 Other Rules/2.8.2 Inspiration.md",
     "Chapter 2 - Core Rules/2.8 Other Rules/2.8.1 Passive Perception.md",
     "Chapter 2 - Core Rules/2.8 Other Rules",
-    "Chapter 3 - Character Creation/3.1 Step-by-Step Character Creation/3.0 Character Creation.md",
     "Chapter 3 - Character Creation/3.3 Classes/3.3.2 Multiclassing.md",
     "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.5 Table Etiquette.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.10 Final Notes.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.1 Setup - What You Need to Play.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.4 Between Combat - Exploration and Roleplay.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.6 What to Expect from the GM.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.5 Session Structure - A Typical Session.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.3 Combat - Structured, Tactical Action.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.2 The Flow of the Game - What Happens During Play.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7 Actually Playing The Game.md",
-    "Chapter 2 - Core Rules/2.7 Actually Playing The Game/2.7.7 What Each Player Needs.md",
-    "Chapter 2 - Core Rules/2.6 Damage Types and Resistances/2.6 Damage Types and Resistances.md",
     "CharacterSheet.png",
     "FixedSheet.png",
     "Chapter 8 - Monsters/Monsters/CR 21+",
     "Chapter 8 - Monsters/Monsters/CR 20",
     "Chapter 8 - Monsters/Monsters/CR 19",
-    "Chapter 8 - Monsters/Monsters/CR 18",
-    "Chapter 8 - Monsters/Monsters/CR 17",
-    "Chapter 8 - Monsters/Monsters/CR 16",
-    "Chapter 8 - Monsters/Monsters/CR 15",
-    "Chapter 8 - Monsters/Monsters/CR 14",
-    "Chapter 8 - Monsters/Monsters/CR 13"
+    "Chapter 8 - Monsters/Monsters/CR 18"
   ]
 }
