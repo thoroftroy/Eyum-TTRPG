@@ -52,6 +52,7 @@ What each class is good at
 | Sorcerer | Direct Offense                                     | Utility, Illusions             | Defense & Support   |
 |  Warlock | Direct Offense, Debuffs, DoTs                      | Battlefield Control            | Defense & Support   |
 |   Wizard | Battlefield Control, Utility, Direct Offense       | Defense, Summoning             | Healing & Support   |
+I think in my spell reworks I forgot to include revival spells for Clerics so I need to make sure that is in there
 
 ----------------------------------------------------------------------------------------
 - Make images for each monster/deity/class/ect
