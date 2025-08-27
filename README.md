@@ -81,3 +81,4 @@ I think in my spell reworks I forgot to include revival spells for Clerics so I 
 	- Starting area recommendations
 	- Doors/things with medium or high toughness/damage resistance (requires at least a roll of 20 damage to do anything or such)
 - Put page number references in sections like the step by step character creation part (This is being replaced with the WIKI creation so I can just put links)
+- We need more races, specifically animal type races. I would like a bat race and a bunch of more typical ones like cats and cows and such, 

@@ -1,19 +1,30 @@
+Veythari  
 Height: Matches original race  
 Weight: Matches original race  
-Lifespan: Slowed aging (approximately 10× normal rate of original race)  
+Lifespan: Slowed aging, approximately 10× the original race  
 Size: Matches original race  
-Speed: +5 ft to base race’s speed  
-Language: Matches original race  
-Description: The Veythari are not born, they are made. Once a mortal, their body and spirit are forever changed after surviving the bite of another Veythari. This transformation is carried through blood; the attacker forces a trace of their own crimson essence into the victim through their fangs, rewriting the victim’s body with mana-laced vitae. Veythari retain all the physical features, racial traits, and cultural markers of their original race, but their eyes often take on a subtle crimson, gold, or violet sheen, and their canines sharpen into predatory fangs. Their movements are unnervingly graceful and silent, and their voices can carry a strange, compelling cadence. Though alive, their altered physiology demands blood as sustenance; while they can survive for short periods without it, their body weakens and their magical prowess fades without regular feeding.  
-Culture: There is no unified Veythari culture; they are scattered among the peoples from which they were turned, blending seamlessly into mortal society or withdrawing into nocturnal enclaves. However, certain shared instincts emerge, an aversion to open sunlight, a subtle predatory awareness of others’ heartbeats, and a compulsion to guard their true nature. Some live openly among their kind in hidden strongholds, where ancient turned elders govern in secrecy and pass down forbidden magical rites. Others are solitary, viewing their existence as a curse, and feeding only when absolutely necessary. All Veythari understand the silent etiquette between their kind: never reveal another Veythari’s identity to outsiders, and never turn a new Veythari without cause.  
-Other: The Veythari template overlays an existing race; the transformed being retains all positive, neutral, and negative affinities of their original race unless directly contradicted by the Veythari traits. Weakness to sunlight (begin taking 1d4 radiant damage per turn after 3 consecutive turns in direct sunlight, ignoring vitality) and weakness to radiant damage. Immune to disease and poison. Requires regular blood consumption (at least once every 7 days) or suffers 1 level of exhaustion per day without it. Gains the following progression:
+Speed: Base race speed +5 ft  
+Language: Original race, Noskaran
 
-- Level 1+: Darkvision 60 ft (or +30 ft if already possessed), bite attack (1d6 piercing + 1d4 necrotic, restores vitality equal to necrotic damage dealt), advantage on Strength (Athletics) checks made to grapple.
-    
-- Level 5+: Blood Charm (Action) (DC 10; increases by +2 every 5 levels). On a failed save, the target is charmed (advantage on Charisma checks against them). If the target fails by more than half the DC, they are heavily charmed and must follow all commands given by the Veythari. Each turn, the victim may attempt another Wisdom save to break free. Heavy charm does not reapply on repeated failures. All charm effects last a maximum of 1 minute unless manually reapplied.
-    
-- Level 10+: Shapechange (bat form; bonus action to shift; flight speed 40 ft). Maintains the same health, vitality, and abilities as normal. May remain in bat form indefinitely.
-    
-- Level 15+: Greater Veythari Form: Gain permanent 25 ft flying speed in normal form, increase bat form speed to 80 ft, and gain resistance to non-magical damage.
-    
-- Level 20+: Legendary Resilience: Once per short rest, when reduced to 0 HP, instead drop to 1 HP.
+Description: The Veythari are made, not born. A living mortal survives the bite of a Veythari, and crimson, mana laced vitae rewrites flesh and spirit. The transformed retain their original race’s features and cultural markers, but the eyes take a subtle crimson, gold, or violet sheen and the canines lengthen to predatory fangs. Movements become unnervingly silent and precise, voice cadence turns compelling, and pulse, breath, and temperature drift toward stillness. They remain alive, but the altered physiology demands blood; without regular feeding the body weakens, reflexes dull, and spellwork frays.
+
+Culture: There is no single Veythari nation. Most hide among their birth peoples or keep to nocturnal enclaves under elder guidance. Common instincts emerge across lines, an aversion to open sunlight, constant awareness of nearby heartbeats, and fierce protection of secrecy. Etiquette among their kind is simple and strict, never reveal another Veythari’s nature to outsiders, never turn a new Veythari without cause, settle disputes away from witnesses, and repay debts quickly. Some rule from behind masks as patrons and scholars; others treat the condition as a curse and feed only when need overwhelms restraint. However they live, all understand the cost of hunger and the weight of an oath.
+
+Other:
+- Template: Apply these traits to a living character; you retain your base race’s features and all affinities unless a Veythari trait directly contradicts them.
+- Sunlight Averse: After 3 consecutive turns in direct, unfiltered sunlight, you take 1d4 radiant damage each turn, ignoring Vitality, until you leave sunlight or gain total cover. You have vulnerability to Radiant damage.
+- Blood Requirement: You must drink blood at least once every 7 days. Each full day beyond this limit imposes 1 level of exhaustion. Exhaustion gained this way ends immediately when you feed.
+- Living Immunities: You are immune to disease and poison.
+- Darkvision: 60 ft, or increase an existing Darkvision range by +30 ft (maximum 120 ft).
+- Bite: Natural weapon, 1d6 piercing + 1d4 necrotic. On a hit against a living, blooded creature, you restore Vitality equal to the necrotic damage rolled. Constructs, elementals, and creatures without blood are unaffected at GM discretion.
+- Predatory Grapple: You have advantage on checks to grapple and to maintain a grapple.
+- Blood Charm: Starting at character level 5, as an action you may target one creature within 30 ft that can see or hear you. DC 10 at levels 5–9, DC 12 at 10–14, DC 14 at 15–19, DC 16 at 20. On a failure the target is charmed for up to 1 minute and you have advantage on Charisma checks against it. If the target fails by more than half the DC, it is heavily charmed for up to 1 minute and must follow your commands within its normal limits. The target repeats the WIS save at the end of each of its turns, ending the effect on a success or if it takes damage from you or your allies. Heavy charm does not reapply on repeated failures within the same use. One use per short rest.
+- Shapechange, Bat: Starting at character level 10, as a bonus action you may assume a bat form with 40 ft fly speed. You retain your Health, Vitality, and abilities. You may remain in bat form indefinitely and revert as a bonus action.
+- Greater Veythari: Starting at character level 15, you gain a permanent 25 ft fly speed in your normal form, your bat form fly speed increases to 80 ft, and you gain resistance to nonmagical bludgeoning, slashing, and piercing damage.
+- Legendary Resilience: Starting at character level 20, once per short rest when you would be reduced to 0 Health, you instead drop to 1 Health.
+
+Positive Affinities: Inherit from base race  
+Neutral Affinities: Inherit from base race  
+Negative Affinities: Inherit from base race
+
+Bonuses: +2 DEX, +2 CHA, -1 CON

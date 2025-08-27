@@ -3,28 +3,23 @@ Weight: 250 - 400 lbs
 Lifespan: 50 - 70 years  
 Size: Medium  
 Speed: 30 ft  
-Language: Common (broken), Tullish
+Language: Common, Tullish
 
-Description: Boaf are tall, broad-shouldered humanoids with thick brown or black fur covering much of their muscular frames. Their faces are brutish and ape-like, with pronounced brows, deep-set eyes, and upward-curving tusks protruding from their lower jaw. Their arms are long and powerful, lending them a predatory, looming stance. While not as physically overwhelming as Grull, their strength is still formidable, and combined with a calculating mind, they are far more dangerous. Their presence carries the weight of command, and their eyes assess every person around them as either a tool or a threat.
+Description: Boaf are tall, broad shouldered humanoids wrapped in dense brown or black fur over slabbed muscle. Faces carry heavy brows, deep set eyes, and upward curving lower tusks that show when they bare their teeth. Arms hang long and powerful, giving them a looming, predatory posture even at rest. They are not as massively built as Grull, but what they lack in raw bulk they replace with calculation, scanning every room for leverage, every person for weakness. Tusks click when they think, fingers drum on hafts and rails, and their gaze weighs others as tool or threat. Dress is practical and hard wearing, reinforced leathers and chain where blows land, trophy cords and rank marks kept where they will be seen first.
 
-Culture: Boaf live by dominance and survival. Leadership is earned through intimidation, cunning, and the ability to keep subordinates in line. They often command bands of Tull and Grull, using fear and manipulation as their greatest weapons. While they see allies as expendable, they rarely waste resources, every creature under their control serves a purpose. Boaf value strength in all its forms: brute force, strategic thinking, and the ability to break an opponent’s will. Most are skilled in battlefield control, herding foes into traps or directing allies for maximum efficiency. Trust is foreign to them, replaced by a constant evaluation of usefulness.
+Culture: Boaf organize around dominance and function. Authority is earned by intimidation, planning, and the ability to keep a line from breaking under pressure. Crews mix muscle and mind, a Boaf leader will drive Tull, Grull, or any hireling into a pattern that serves the objective, and waste is treated as failure. Loyalty is transactional, kept so long as the ledger balances, and every bond is tested by usefulness. They train for battlefield control more than spectacle, channeling enemies into kill lanes, breaking nerve with timed shouts and shows of force, ordering allies to strike where impact will ripple. They hoard favors and secrets, punish betrayal without pause, and replace fallen pieces quickly. Trust is rare, respect is measurable, and a Boaf who promises protection expects tribute, information, or obedience in return. Their stories praise victories won by pressure and positioning as much as by strength, and a quiet commander who never loses is prized above a loud one who wins big and bleeds the team.
 
-Other: Advantage on Charisma saving throws and Double advantage on Intimidation rolls and you may use your strength modifier instead of your charisma modifier for your intimidation rolls. Advantage on resisting Charm like effects and spells. Darkvision of 60 ft. 
+Other:
+- Darkvision: You can see in darkness up to 60 ft.
+- Iron Will: You have advantage on saving throws against the charmed condition and on Charisma saving throws.
+- Intimidation Mastery: You have double advantage on Intimidation checks, and you may use STR instead of CHA for Intimidation.
+- Tyrant’s Pulse: As a bonus action, release an intimidating kinetic surge. Creatures of your choice within 15 ft must succeed on a WIS save, DC 12 + your STR or INT modifier, or be frightened until the start of your next turn.
+- Commanding Presence: As a bonus action, choose one ally within 30 ft who can see or hear you. That ally gains advantage on their next attack roll or saving throw made before the start of your next turn.
+- Heavy Handed: When you hit with a melee attack, add +2 to the damage roll.
+- Battlefield Awareness: You are immune to the surprised condition and you gain +2 to initiative.
 
-Positive Affinities: Physical, Craft, Creation, Utility
-
-Neutral Affinities: Earth
-
-Negative Affinities: Fire, Air, Water, Generic
+Positive Affinities: Physical, Craft, Creation, Utility  
+Neutral Affinities: Earth  
+Negative Affinities: Fire, Air, Water, Generic  
 
 Bonuses: +4 STR, +1 INT, +1 CON
-
-Special Abilities:
-
-- Tyrant’s Pulse: As a bonus action, you may release an intimidating surge of kinetic energy. All creatures of your choice within 15 ft must succeed on a WIS save (DC 12 + your STR or INT modifier) or be Frightened until the start of your next turn.
-    
-- Commanding Presence: As a bonus action, you may grant one allied creature within 30 ft Advantage on their next attack roll or saving throw.
-    
-- Heavy Handed: When you hit with a melee attack, you may add +2 to the damage roll.
-    
-- Battlefield Awareness: You are immune to the surprised condition and gain +2 to initiative.

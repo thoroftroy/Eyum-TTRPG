@@ -5,16 +5,18 @@ Size: Medium
 Speed: 30 ft  
 Language: Common
 
-Description: Zontians are graceful humanoids with skin tones ranging from deep charcoal to soft silver, accented by hair of pure white or metallic sheen. Their eyes shimmer with faint, glowing hues, often pale blue, gold, or lavender, giving them an unearthly calm. Their features are symmetrical and delicate, though not frail, and they move with a measured, deliberate grace. While their physiques are comparable to humans, their bearing is one of quiet confidence and self-possession. Clothing is often adorned with natural symbols, intricate beadwork, or dyed fabrics that reflect their spiritual ties.
+Description: Zontians are graceful humanoids whose skin runs from deep charcoal to soft silver, often contrasted by hair of pure white or a muted metallic sheen. Their eyes hold a faint inner light, pale blue, gold, or lavender, and the glow never quite leaves even in shadow. Features are symmetrical and fine cut without fragility, posture measured, and movement deliberate, like a ceremony learned by heart. Their clothing favors natural symbols and beadwork, dyed fabrics that echo river, leaf, and sky, worn with quiet confidence rather than show. A Zontian’s presence reads as steadying, the feeling that voices should lower and haste should pause. They listen before they speak, weigh before they answer, and when they act it is with the calm precision of someone who treats each choice as part of a larger pattern.
 
-Culture: Zontian culture is steeped in ritual and harmony, built on an unshakable reverence for the natural and divine. They see themselves not as rulers over the land, but as one part of its balance, responsible for safeguarding the rhythm of life. Spiritual leaders, healers, and keepers of ancient traditions hold deep respect, but Zontians rarely enforce strict hierarchies, status is earned through wisdom and service, not force. Music, chanting, and ceremonial dance are woven into daily life, binding communities in shared purpose. Even in foreign lands, Zontians tend to preserve their customs meticulously, believing that their traditions anchor them against corruption and chaos. Outsiders often seek Zontians for guidance in matters of magic, morality, and spiritual balance, but they can be stern with those who disregard the sanctity of nature. Pale-skinned Zontians are exceedingly rare and revered as symbols of enlightenment, though treated with the same communal respect as all others.
+Culture: Zontian life is woven from ritual, harmony, and service. They see themselves as one strand in the balance of land and spirit, keepers rather than rulers, and they measure worth by how well a person steadies the world around them. Hierarchy is gentle and earned, elders guide because they have proven wisdom and a habit of care, not because they grasp for rank. Song, chant, and ceremonial dance carry teaching and law, turning daily work into practiced rites that bind households and villages together. Travel does not shake their customs, Zontians preserve their forms even far from home, believing tradition is an anchor against corruption and chaos. Outsiders seek them for counsel in disputes, for healing in grief, and for judgment when the line between wrong and harm blurs. They can be stern with those who scorn the living world, yet they keep their admonitions clean and specific, correct the deed, guard the bond, and move on. Rare pale skinned Zontians are revered as signs of enlightenment, but in practice they eat at the same tables and labor in the same circles as all others, honor is expressed as duty shared.
 
-Other: Darkvision up to 60 ft. Gain +2 affinity points per level regardless of class. 
+Other:
+- Moonlit Sight: You can see normally in darkness out to 60 ft.
+- Accrual of Grace: You gain +2 Affinity Points each time you gain a class level, regardless of class.
+- Tranquil Resolve: You have advantage on saving throws against being charmed or frightened. Once per short rest, you can end the charmed or frightened condition on yourself as a bonus action.
+- Ceremonial Step: If you move no more than half your speed on your turn, you and one ally you can see within 10 ft gain +1 AC until the start of your next turn.
 
-Positive Affinities: Creation, Utility, Air, Water, Fire, Earth, Craft
+Positive Affinities: Creation, Utility, Air, Water, Fire, Earth, Craft  
+Neutral Affinities: Generic  
+Negative Affinities: Physical  
 
-Neutral Affinities: Generic
-
-Negative Affinities: Physical
-
-Bonuses: +2 WIS, +1 INT, +1 CHAR
+Bonuses: +2 WIS, +1 INT, +1 CHA
