@@ -29,27 +29,27 @@ Mana Dice: 1d4
 - Wholeness of Body (1/Long Rest): Heal for 3 × Monk Level as an action.
 ##### Way of the Shadow:
 - Shadow Step (2 Ki): Teleport up to 30 ft between shadows.
-- Cloak of Shadows: Become invisible in dim light or darkness until you attack or cast a spell.
-- Shadow Strike: Attacks from shadows deal +1d8 necrotic damage.
-- Veil of Darkness (3 Ki): Cast Darkness centered on yourself for 1 minute.
+- Cloak of Shadows (Bonus action): Become invisible in dim light or darkness until you attack or cast a spell.
+- Shadow Strike: Attacks made while in dim light or darkness deal +1d8 necrotic damage.
+- Veil of Darkness (3 Ki): All enemies within 40 ft of you must make a wisdom saving throw (DC 15) or be Blinded for 5 turns. The creatures may repeat the saving throw at the start of their turn to attempt to end the condition early.
 ##### Way of the Elements:
-- Elemental Affinity: Choose an element (Fire, Water, Earth, or Air) at Level 3.
+- Elemental Affinity: Choose an element (Fire, Water, Earth, or Air) and gain resistance to that damage type.
 - Elemental Techniques (costs Ki):
 	- Fire: Flame Wave (2 Ki): 15 ft cone, 3d8 fire damage.
-	- Water: Healing Waters (2 Ki): Heal 2d8 to self or ally.
-	- Earth: Stone Skin (2 Ki): +3 AC for 1 minute.
+	- Water: Healing Waters (2 Ki): Heal 2d8 to self or ally (range of touch).
+	- Earth: Stone Skin (2 Ki): +3 AC for 5 turns.
 	- Air: Gale Strike (2 Ki): 20 ft line, 3d8 wind damage and push enemies 10 ft.
-- Elemental Surge (5 Ki): Unleash your chosen element in a 30 ft radius for 5d10 damage or healing.    
+- Elemental Surge (5 Ki): Unleash your chosen element in a 30 ft radius for 5d10 elemental (based on your chosen element) damage.    
 ##### Way of the Iron Fist:
-- Stunning Blow: Spend 1 Ki to force a Con save (DC = monkLevel + 10) or stun a target until the end of your next turn.
+- Stunning Blow: Spend 1 Ki to force a Con save (DC = monkLevel + 10) to Confuse a target until the end of your next turn.
 - Iron Defense: +2 AC when not wearing armor.
 - Thunder Strike: Your unarmed strikes deal thunder damage and can push targets 5 ft (Strength Saving Throw, DC = monkLevel + 10).
 - Titan’s Wrath (3 Ki): Double unarmed strike damage for one turn.
 ##### Way of the Soulfire (Prerequisite: 1 level in a magical class):
 - Soulfire Infusion: Spend 2 Ki to add 1d10 radiant or necrotic damage to attacks for 1 minute.
 - Flare Step: Teleport up to 20 ft in a burst of flame, dealing 2d6 fire damage at the departure and arrival points.
-- Soul Reclaim (3 Ki): Heal for half the damage dealt when using Soulfire Infusion.
-- Radiant Nova (5 Ki): Emit a 30 ft burst of light, dealing 5d8 radiant damage and blinding enemies for 1 round.
+- Soul Reclaim (3 Ki): Heal for half the damage dealt when using Soulfire Infusion as a bonus action.
+- Radiant Nova (5 Ki): Emit a 30 ft burst of light, dealing 2d8 radiant damage and blinding enemies for 1 round.
 
 Leveling Table
 
@@ -75,3 +75,6 @@ Leveling Table
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill points, +1 Ki Point, +1 Proficiency Upgrade or +1 Skill Point, +2 Stat Points, +4 Skill points, +3 BAp, +3 Ki Points, +2 Stat points        |                                                        | +1 AC                             |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill points, +1 Ki Point                                                                                                                         | +1d8 Base Damage (unarmed/martial)                     |                                   |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill points, +1 Ki Point, +1 Proficiency Upgrade or +1 Skill Point, +2 Stat Points, +4 Skill points, +2 Ap                                       | +10 Base Damage (unarmed/martial), +5 Base Acc (melee) | +1 Feat, +20 speed, +5 initiative |
+
+| Totals |     |     |     |     |
+| ------ | --- | --- | --- | --- |

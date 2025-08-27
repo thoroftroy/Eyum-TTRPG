@@ -55,3 +55,6 @@ Mana Dice: 1d6
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +1 Proficiency Upgrade (or +1 Skill Point); +3 Stat Points; +5 Skill Points; +3 BAp; +2 Stat Points | +1 Base Acc (r/m)                                            | +5 to Stealth; +1d8 Sneak Attack Damage.                                                                             |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point                                                                                                      | +1 Base Acc (r/m)                                            | +1d6 Sneak Attack Damage.                                                                                            |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +1 Proficiency Upgrade (or +1 Skill Point); +3 Stat Points; +5 Skill Points                         | +1 Base Acc (r/m); +5 Base Acc (r/m); +2d6 Base Damage (r/m) | +1 Ap; +1 Rp; +1 Feat; Optional: triple damage at −10 accuracy (declare before attacking); +1 Sneak Attack per turn. |
+
+| Totals |     |     |     |     |
+| ------ | --- | --- | --- | --- |

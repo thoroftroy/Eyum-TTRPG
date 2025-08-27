@@ -19,19 +19,18 @@ Mana Dice: 1d4
 ##### Sharpshooter:
 - +1d6 damage to ranged weapon attacks.
 - Ignore half and three-quarters cover.
-- Double bow range
+- Double bow/crossbow range
 - Focused Shot: Once per turn, add +1d10 to a ranged attack.
-- Volley (1/Short Rest): Attack all enemies within a 10 ft radius (40 ft range).
+- Volley (1/Short Rest): Attack all enemies within a 10 ft radius (80 ft range, cannot be within 20 ft of you) with a maximum number of enemies equal to your Ranger Level * 2.
 ##### Shadow Stalker:
 - +5 to Stealth checks.
-- Shadow Step (1/Short rest): Teleport up to 30 ft to a spot in dim light or darkness.
+- Shadow Step (Bonus action): Teleport up to 30 ft to a spot in dim light or darkness.
 - Ambush: Advantage on attack rolls against surprised enemies.
-- Veil of Shadows (1/Long Rest): Become invisible for 1 minute.
+- Veil of Shadows (1/Short Rest): Become invisible for 1 minute until you attack.
 ##### Elemental Archer (Prerequisite: 1 level in a magical class):
-- Infuse arrows with elemental energy.
-- Elemental Shot: Add +1d8 elemental damage to ranged attacks.
-- Explosive Arrow (1/Short Rest): Deal 2d10 elemental damage in a 15 ft radius.
-- Stormcaller (Concentration): Summon a storm around you, granting +1d6 elemental damage to all ranged attacks.
+- Infuse arrows with elemental energy of your choice between Fire, Earth, Water, and Air.
+- Elemental Shot: Add +1d8 elemental damage (Based on chosen element) to ranged attacks.
+- Explosive Arrow (1/Short Rest): Deal 2d10 elemental (Based on chosen element) damage in a 15 ft radius around an ranged attack (Bonus Action).
 #### Leveling Table
 
 | Level | Dice                                | Points                                                                                                             | Stats                                                                                                                                                                     | Special                                                                      |
@@ -56,3 +55,6 @@ Mana Dice: 1d4
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +1 Proficiency Upgrade (or +1 Skill Point); +5 Skill Points; +1 Ap; +1 BAp; +2 Stat Points        | +1d4 Base Acc (ranged); +2 Base Damage (ranged); +5 ft of range (ranged)                                                                                                  | Add 1 ranged weapon to Expertise list (or +2 Skill Points)                   |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Points; Add 1 ranged weapons to proficiency list or +1 Skill Point                                        | +1d4 Base Acc (ranged); +1d6 Base Damage (ranged)                                                                                                                         |                                                                              |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +1 Proficiency Upgrade (or +1 Skill Point); +5 Skill Points; +1 Ap; +1 Rp                         | +1d4 Base Acc (ranged); +2 Base Damage (ranged); +5 ft of range (ranged); +5 Base Acc (ranged); +1d8 Base Damage (ranged); +10 Base Acc (ranged); +5 Base Damage (ranged) | Add 1 ranged weapon to Expertise list (or +2 Skill Points); +1 Feat; +1 Feat |
+
+| Totals |     |     |     |     |
+| ------ | --- | --- | --- | --- |

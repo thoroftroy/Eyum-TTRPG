@@ -24,20 +24,20 @@ Level 1 Features:
 ##### Blade Master:
 - +1d6 to attack rolls with one-handed swords or daggers.
 - Swift Strike: Attack twice in one action.
-- Parry: Deflect the next melee attack (resets after your next attack).
-- Counter: Counterattack as a reaction after being hit (resets after your next attack).
+- Parry: Take no damage from a melee or ranged attack as a reaction.
+- Counter: After being hit by a melee or ranged attack, as a reaction make a melee or ranged attack against the creature that dealt damage to you if they are in range.
 ###### Shieldbearer:
 - Double shield AC bonus.
-- Block: Reduce next incoming damage by 1d4.
-- Protect: Reduce next damage to an ally by 1d4.
+- Block: Reduce next incoming damage by 1d4 as a bonus action. 
+- Protect: Reduce next damage to an ally by 2d4 as a bonus action. You must be within 5 ft of the ally when they take their damage. Resets at the start of your next turn. 
 ##### Vanguard:
-- Double movement speed and immunity to rough terrain when using spears.
+- Double movement speed and immunity to difficult terrain when holding a spear.
 - Thrown spear attacks gain +1d6 damage.
 - Disengage: Disengage as a free action.
 ###### Spellblade (Prerequisite: 1 level in a magical class):
 - Advantage on concentration saving throws.
-- Magical Enhancement (Concentration): Add +1d10 elemental damage to your blade.
-- Blade Boom: End enhancement to deal 1d10 area damage (10 ft radius).
+- Magical Enhancement (Concentration): Add +1d10 elemental (Fire, earth, water, air; you choose) damage to your blade.
+- Blade Boom: End Magical Enhancement (intentionally) to deal 1d10 elemental (Fire, earth, water, air; based on what you chose using Magical Enhancement) damage (20 ft radius).
 #### Leveling Table
 
 | Level | Dice                                | Points                                                                                                      | Stats                                                                              | Special                                                                                          |
@@ -62,3 +62,6 @@ Level 1 Features:
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill Points; +2 Skill Points; +1 Ap; +1 BAp; +2 Stat Points; +1 Proficiency Upgrade (or +1 Skill Point) | +1 Base Melee Acc; +1d4 Base Melee Damage                                          | +1 AC; Add 1 melee weapon to Expertise list (or +3 to any skill)                                 |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill Points                                                                                             | +1 Base Melee Acc                                                                  |                                                                                                  |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill Points; +2 Skill Points; +1 Proficiency Upgrade (or +1 Skill Point); +1 Ap                         | +1 Base Melee Acc; +1d4 Base Melee Damage; +5 Base Melee Damage; +5 Base Melee Acc | +1 Feat (Every 4); +1 Feat (Every 10); Add 1 melee weapon to Expertise list (or +3 to any skill) |
+
+| Totals |     |     |     |     |
+| ------ | --- | --- | --- | --- |
