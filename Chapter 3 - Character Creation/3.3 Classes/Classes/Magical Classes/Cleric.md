@@ -7,133 +7,56 @@ Vitality Dice: 1d6
 Mana Dice: 1d8
 
 - Weapons: Wands, Staffs
-    
 - Magical Gain: Clerics gain magic from worshiping their deity.
-    
 - Spellcasting Modifier: Wisdom
-    
 - Proficiency Bonus: +2 (increases by 1 every 3 levels)
-    
 - Proficiency: Wisdom, Charisma saving throws
-    
 - Proficiency with Light Armor
-    
-
-Level 1 Feature: Divine Shot
-
+##### Level 1 Feature: Divine Shot
 Divine Shot
-
 - Mana Cost: 0
-    
 - Affinity: Generic
-    
 - Range: 60ft
-    
 - Concentration: No
-    
 - Effect: Fires a bolt of pure energy, dealing 1d4 Force damage.
-    
 - Upcast: For every 3 additional mana spent deal +1 damage
-    
-
-Subclasses (Choose 1 at level 3)
-
+#### Subclasses (Choose 1 at level 3)
 Each domain grants unique abilities and spells related to their god’s focus.
-
 - Life Domain:
-    
-
-- Healing Touch: Gain a healing spell slot that does not consume any mana (once per long rest).
-    
-- Divine Restoration: Healing spells restore an additional +1d8 HP.
-    
-
+	- Healing Touch: Gain a healing spell slot that does not consume any mana (once per long rest).
+	- Divine Restoration: Healing spells restore an additional +1d8 HP.
 - Light Domain:
-    
-
-- Radiant Burst: Once per short rest, deal 2d8 radiant damage in a 10 ft radius.
-    
-- Holy Smite: Deal +1d8 radiant damage against undead and fiends.
-    
-
+	- Radiant Burst: Once per short rest, deal 2d8 radiant damage in a 10 ft radius.
+	- Holy Smite: Deal +1d8 radiant damage against undead and fiends.
 - Nature Domain:
-    
-
-- Elemental Bond: Gain resistance to one elemental damage type.
-    
-- Wild Communion: Speak with plants and animals innately.
-    
-
+	- Elemental Bond: Gain resistance to one elemental damage type.
+	- Wild Communion: Speak with plants and animals innately.
 - War Domain:
-    
-
-- Divine Strike: Once per turn, add +1d8 damage to a weapon attack.
-    
-- Blessed Armor: Gain +2 AC when wearing armor.
-    
-
+	- Divine Strike: Once per turn, add +1d8 damage to a weapon attack.
+	- Blessed Armor: Gain +2 AC when wearing armor.
 - Death Domain:
-    
-
-- Necrotic Grasp: Your healing spells can instead deal necrotic damage.
-    
-- Soul Drain: When you reduce a creature to 0 HP, regain Vitality equal to half your Cleric level.
-    
-
-Leveling Table
-
-Every Class Level (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20):
-
-- +1 die of vitality (+conMod)
-    
-- +1 die of health
-    
-- +2 die of mana (+wisMod)
-    
-- +1 Skill points
-    
-- Learn 1 new Cleric spells
-    
-- +1 Affinity Point
-    
-
-Every 2 Class Levels (2,4,6,8,10,12,14,16,18,20):
-
-- +1 Proficiency Upgrade (choose a skill or weapon to gain proficiency) or +1 Skill Point
-    
-- +2 Skill points
-    
-- +1 die of mana (+wisMod)
-    
-- +1 Base Damage (magical [this increases healing by one as well])
-    
-- +1 Base Acc (magical)
-    
-
-Every 3 Class Levels (3,6,9,12,15,18):
-
-- +1 BAp
-    
-- +2 Stat points
-    
-- Learn 2 new Cleric spells
-    
-
-Every 4 Class Levels (4,8,12,16,20):
-
-- +1 Feat
-    
-- +1 Ap
-    
-- +5 Affinity Point
-    
-
-Every 10 Class Levels (10,20):
-
-- +5 die of mana (+wisMod)
-    
-- +1 Feat
-    
-- +5 Base Damage (magical)
-    
-- +5 Base Acc (magical)
+	- Necrotic Grasp: Your healing spells can instead deal necrotic damage.
+	- Soul Drain: When you reduce a creature to 0 HP, regain Vitality equal to half your Cleric level.
+#### Leveling Table
+|Level|Dice|Points|Stats|Special|
+|---|---|---|---|---|
+|1|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|2|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point)|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell|
+|3|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point, +1 BAp, +2 Stat Points||Learn 1 Cleric spell; +2 additional Cleric spells|
+|4|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 Ap, +5 Affinity Point|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell; +1 Feat|
+|5|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|6|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 BAp, +2 Stat Points|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell; +2 additional Cleric spells|
+|7|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|8|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 Ap, +5 Affinity Point|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell; +1 Feat|
+|9|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point, +1 BAp, +2 Stat Points||Learn 1 Cleric spell; +2 additional Cleric spells|
+|10|+1 VitDice, +1 HitDice, +8 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point)|+1 Base Acc (magical), +1 Base Damage (magical), +5 Base Acc (magical), +5 Base Damage (magical)|Learn 1 Cleric spell; +1 Feat|
+|11|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|12|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 BAp, +2 Stat Points, +1 Ap, +5 Affinity Point|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell; +2 additional Cleric spells; +1 Feat|
+|13|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|14|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point)|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell|
+|15|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point, +1 BAp, +2 Stat Points||Learn 1 Cleric spell; +2 additional Cleric spells|
+|16|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 Ap, +5 Affinity Point|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell; +1 Feat|
+|17|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|18|+1 VitDice, +1 HitDice, +3 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 BAp, +2 Stat Points|+1 Base Acc (magical), +1 Base Damage (magical)|Learn 1 Cleric spell; +2 additional Cleric spells|
+|19|+1 VitDice, +1 HitDice, +2 ManaDice|+1 Skill Point, +1 Affinity Point||Learn 1 Cleric spell|
+|20|+1 VitDice, +1 HitDice, +8 ManaDice|+1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 Ap, +5 Affinity Point|+1 Base Acc (magical), +1 Base Damage (magical), +5 Base Acc (magical), +5 Base Damage (magical)|Learn 1 Cleric spell; +1 Feat; +1 Feat|
