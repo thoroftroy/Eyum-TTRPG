@@ -58,28 +58,25 @@ Rune Slingers hurl physical runes or use them to enhance spell attacks.
 - Arcane Amplification: When using a rune you may consume mana to increase effectiveness (10 mana is +1 to the rune effect).
 #### Leveling Table
 
-|Level|Dice|Points|Stats|Special|
-|---|---|---|---|---|
-|1|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|2|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity||Learn 1 rune; +1 circle size.|
-|3|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity, +2 BAp|+2 Stat Points|Learn 1 rune; +1 circle size.|
-|4|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity||Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.|
-|5|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|6|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +2 BAp|+2 Stat Points|Learn 1 rune; +1 circle size.|
-|7|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|8|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity||Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.|
-|9|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity, +2 BAp|+2 Stat Points|Learn 1 rune; +1 circle size.|
-|10|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +30 Affinity||Learn 1 rune; +1 circle size; +1 Feat.|
-|11|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|12|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +2 BAp|+2 Stat Points|Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.|
-|13|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|14|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity||Learn 1 rune; +1 circle size.|
-|15|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity, +2 BAp|+2 Stat Points|Learn 1 rune; +1 circle size.|
-|16|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity||Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.|
-|17|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|18|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +2 BAp|+2 Stat Points|Learn 1 rune; +1 circle size.|
-|19|+1 VitDie, +1 HitDie, +1 ManaDie|+1 Skill Point, +5 Affinity||Learn 1 rune; +1 circle size.|
-|20|+1 VitDie, +1 HitDie, +1 ManaDie|+3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +30 Affinity||Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item; +1 Feat.|
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |
+| Level | Dice                             | Points                                                                                     | Stats          | Special                                                                         |
+| ----- | -------------------------------- | ------------------------------------------------------------------------------------------ | -------------- | ------------------------------------------------------------------------------- |
+| 1     | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 2     | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity               |                | Learn 1 rune; +1 circle size.                                                   |
+| 3     | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity, +2 BAp                                                        | +2 Stat Points | Learn 1 rune; +1 circle size.                                                   |
+| 4     | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity               |                | Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.          |
+| 5     | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 6     | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +2 BAp       | +2 Stat Points | Learn 1 rune; +1 circle size.                                                   |
+| 7     | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 8     | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity               |                | Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.          |
+| 9     | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity, +2 BAp                                                        | +2 Stat Points | Learn 1 rune; +1 circle size.                                                   |
+| 10    | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +30 Affinity |                | Learn 1 rune; +1 circle size; +1 Feat.                                          |
+| 11    | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 12    | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +2 BAp       | +2 Stat Points | Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.          |
+| 13    | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 14    | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity               |                | Learn 1 rune; +1 circle size.                                                   |
+| 15    | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity, +2 BAp                                                        | +2 Stat Points | Learn 1 rune; +1 circle size.                                                   |
+| 16    | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity               |                | Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item.          |
+| 17    | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 18    | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +2 BAp       | +2 Stat Points | Learn 1 rune; +1 circle size.                                                   |
+| 19    | +1 VitDie, +1 HitDie, +1 ManaDie | +1 Skill Point, +5 Affinity                                                                |                | Learn 1 rune; +1 circle size.                                                   |
+| 20    | +1 VitDie, +1 HitDie, +1 ManaDie | +3 Skill Points, +1 Prof Upgrade or +1 SP, +5 Affinity, +10 Generic Affinity, +30 Affinity |                | Learn 1 rune; +1 circle size; +1 Feat; +2 AP; +1 Maximum Attuned Item; +1 Feat. |

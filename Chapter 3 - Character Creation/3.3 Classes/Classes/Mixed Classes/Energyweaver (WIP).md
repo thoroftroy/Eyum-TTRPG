@@ -109,28 +109,25 @@ Examples:
 - Using 14 J to shock a creature deals 2d6 lightning damage. The charge is sourced from a battery or your own vitality (5 Vitality = 15 J).
 - You create a 10 ft flash using 10 J. Targets in the radius must pass a DC 14 CON Save or be blinded (EnergyweaverLvl turns).
 #### Leveling Table
-|Level|Dice|Points|Stats|Special|
-|---|---|---|---|---|
-|1|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|2|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points)|
-|3|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points|||
-|4|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap|
-|5|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|6|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 BAp; +1 Rp; +2 Stat Points||+1 Known Energy Action (or +3 Skill Points)|
-|7|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|8|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap|
-|9|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points|||
-|10|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points); x2 Joule Limit|
-|11|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|12|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 BAp; +1 Rp; +2 Stat Points||+1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap|
-|13|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|14|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points)|
-|15|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points|||
-|16|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap|
-|17|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|18|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 BAp; +1 Rp; +2 Stat Points||+1 Known Energy Action (or +3 Skill Points)|
-|19|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|||
-|20|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points||+1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap; x2 Joule Limit|
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |
+| Level | Dice                                | Points                                                                                                                                  | Stats | Special                                                                     |
+| ----- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------- |
+| 1     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 2     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points)                                 |
+| 3     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points                                                                       |       |                                                                             |
+| 4     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap                 |
+| 5     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 6     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 BAp; +1 Rp; +2 Stat Points |       | +1 Known Energy Action (or +3 Skill Points)                                 |
+| 7     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 8     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap                 |
+| 9     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points                                                                       |       |                                                                             |
+| 10    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points); x2 Joule Limit                 |
+| 11    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 12    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 BAp; +1 Rp; +2 Stat Points |       | +1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap                 |
+| 13    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 14    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points)                                 |
+| 15    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points                                                                       |       |                                                                             |
+| 16    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap                 |
+| 17    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 BAp; +1 Rp; +2 Stat Points |       | +1 Known Energy Action (or +3 Skill Points)                                 |
+| 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points                                                                                                      |       |                                                                             |
+| 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +5 Affinity Points; +2 Skill Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points                                |       | +1 Known Energy Action (or +3 Skill Points); +1 Feat; +1 Ap; x2 Joule Limit |

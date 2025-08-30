@@ -50,8 +50,7 @@ Mana Dice: 1d4
 - Flare Step: Teleport up to 20 ft in a burst of flame, dealing 2d6 fire damage at the departure and arrival points.
 - Soul Reclaim (3 Ki): Heal for half the damage dealt when using Soulfire Infusion as a bonus action.
 - Radiant Nova (5 Ki): Emit a 30 ft burst of light, dealing 2d8 radiant damage and blinding enemies for 1 round.
-
-Leveling Table
+#### Leveling Table
 
 | Level | Dice                                | Points                                                                                                                                               | Stats                                                  | Special                           |
 | ----- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------------- |
@@ -75,6 +74,3 @@ Leveling Table
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill points, +1 Ki Point, +1 Proficiency Upgrade or +1 Skill Point, +2 Stat Points, +4 Skill points, +3 BAp, +3 Ki Points, +2 Stat points        |                                                        | +1 AC                             |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill points, +1 Ki Point                                                                                                                         | +1d8 Base Damage (unarmed/martial)                     |                                   |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill points, +1 Ki Point, +1 Proficiency Upgrade or +1 Skill Point, +2 Stat Points, +4 Skill points, +2 Ap                                       | +10 Base Damage (unarmed/martial), +5 Base Acc (melee) | +1 Feat, +20 speed, +5 initiative |
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |

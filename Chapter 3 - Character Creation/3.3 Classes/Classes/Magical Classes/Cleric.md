@@ -60,6 +60,3 @@ Each domain grants unique abilities and spells related to their god’s focus.
 | 18    | +1 VitDice, +1 HitDice, +3 ManaDice | +1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 BAp, +2 Stat Points                           | +1 Base Acc (magical), +1 Base Damage (magical)                                                  | Learn 1 Cleric spell; +2 additional Cleric spells          |
 | 19    | +1 VitDice, +1 HitDice, +2 ManaDice | +1 Skill Point, +1 Affinity Point                                                                                                                |                                                                                                  | Learn 1 Cleric spell                                       |
 | 20    | +1 VitDice, +1 HitDice, +8 ManaDice | +1 Skill Point, +1 Affinity Point, +2 Skill Points, +1 Proficiency Upgrade (or +1 Skill Point), +1 Ap, +5 Affinity Point                         | +1 Base Acc (magical), +1 Base Damage (magical), +5 Base Acc (magical), +5 Base Damage (magical) | Learn 1 Cleric spell; +1 Feat; +1 Feat                     |
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |

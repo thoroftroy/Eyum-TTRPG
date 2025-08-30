@@ -71,6 +71,3 @@ Rage
 | 18    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       |                                         | +1d6 Base Rage Damage, +2 AC          |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
 | 20    | +4 VitDice, +2 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap, +1 BAp                | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |

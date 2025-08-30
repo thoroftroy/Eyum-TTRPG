@@ -62,6 +62,3 @@ Level 1 Features:
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill Points; +2 Skill Points; +1 Ap; +1 BAp; +2 Stat Points; +1 Proficiency Upgrade (or +1 Skill Point) | +1 Base Melee Acc; +1d4 Base Melee Damage                                          | +1 AC; Add 1 melee weapon to Expertise list (or +3 to any skill)                                 |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill Points                                                                                             | +1 Base Melee Acc                                                                  |                                                                                                  |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +2 Skill Points; +2 Skill Points; +1 Proficiency Upgrade (or +1 Skill Point); +1 Ap                         | +1 Base Melee Acc; +1d4 Base Melee Damage; +5 Base Melee Damage; +5 Base Melee Acc | +1 Feat (Every 4); +1 Feat (Every 10); Add 1 melee weapon to Expertise list (or +3 to any skill) |
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |

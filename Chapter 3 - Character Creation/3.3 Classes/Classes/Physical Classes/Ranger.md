@@ -55,6 +55,3 @@ Mana Dice: 1d4
 | 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +1 Proficiency Upgrade (or +1 Skill Point); +5 Skill Points; +1 Ap; +1 BAp; +2 Stat Points        | +1d4 Base Acc (ranged); +2 Base Damage (ranged); +5 ft of range (ranged)                                                                                                  | Add 1 ranged weapon to Expertise list (or +2 Skill Points)                   |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Points; Add 1 ranged weapons to proficiency list or +1 Skill Point                                        | +1d4 Base Acc (ranged); +1d6 Base Damage (ranged)                                                                                                                         |                                                                              |
 | 20    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +1 Proficiency Upgrade (or +1 Skill Point); +5 Skill Points; +1 Ap; +1 Rp                         | +1d4 Base Acc (ranged); +2 Base Damage (ranged); +5 ft of range (ranged); +5 Base Acc (ranged); +1d8 Base Damage (ranged); +10 Base Acc (ranged); +5 Base Damage (ranged) | Add 1 ranged weapon to Expertise list (or +2 Skill Points); +1 Feat; +1 Feat |
-
-| Totals |     |     |     |     |
-| ------ | --- | --- | --- | --- |
