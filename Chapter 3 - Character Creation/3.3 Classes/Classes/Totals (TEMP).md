@@ -1,5 +1,6 @@
 #### Totals
-Note: Proficiencies can be used on skills or weapons 
+This chart shows how much of everything each class will get by level 20. This is a temporary file that is only here for balancing purposes. 
+Note: Proficiencies can be used on skills or weapons.
 
 | Class        | HP          | Vitality          | Mana        | Skill Points | Stat Points | Affinity Points | Generic Affinity | Ap  | BAp | Rp  | Base Acc  | Base Damage  | Learned Spells | Feat | AC  | Proficiencies | Other                                  |
 | ------------ | ----------- | ----------------- | ----------- | ------------ | ----------- | --------------- | ---------------- | --- | --- | --- | --------- | ------------ | -------------- | ---- | --- | ------------- | -------------------------------------- |
@@ -17,5 +18,5 @@ Note: Proficiencies can be used on skills or weapons
 | Fighter      | 180 (40d8)  | 260 (40d12)       | 50 (20d4)   | 40           | 20          | 0               | 0                | 8   | 6   | 0   | 38 (me)   | 25+10d4 (me) | 0              | 5    | 6   | 10            | 5 melee expertise                      |
 | Monk         | 180 (40d8)  | 180 (40d8)        | 50 (20d4)   | 40           | 32          | 0               | 0                | 8   | 6   | 2   | 25 (me)   | 25+10d8 (me) | 0              | 5    | 6   | 10            | +40 spd, +10 ini                       |
 | Ranger       | 70 (20d6)   | 110 (20d10)       | 50 (20d4)   | 52           | 19          | 0               | 0                | 11  | 6   | 2   | 46 (r)    | 24+9d6 (r)   | 0              | 6    | 0   | 10            | +25 (ranged range), 4 ranged expertise |
-| Rogue        | 100 (40d4)  | 100 (40d4)        | 50 (20d4)   | 40           | 36          | 0               | 0                | 5   | 12  | 5   | 40 (r/me) | 10d6 (r/m)   | 0              | 4    | 0   | 10            | +30 sneak                              |
+| Rogue        | 100 (40d4)  | 100 (40d4)        | 50 (20d4)   | 40           | 36          | 0               | 0                | 5   | 12  | 5   | 40 (r/me) | 10d6 (r/me)  | 0              | 4    | 0   | 10            | +30 sneak, +13d6 sneak damage          |
 
