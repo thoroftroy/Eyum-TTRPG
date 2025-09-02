@@ -1,7 +1,7 @@
 A Barbarian is a primal warrior fueled by raw emotion and sheer strength. They thrive in chaos and combat.
 
-Hit Dice: 2d12  
-Vitality Dice: 1d20+1d12  
+Hit Dice: 2d10
+Vitality Dice: 1d20+1d12
 Mana Dice: 1d4
 
 Level 1 Features:
@@ -52,22 +52,22 @@ Rage
 | Level | Dice                                | Points                                                      | Stats                                   | Special                               |
 | ----- | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------- | ------------------------------------- |
 | 1     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 2     | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point                               |                                         |                                       |
+| 2     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point                               |                                         |                                       |
 | 3     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       | +1d6 Base Melee Damage                  | +1d6 Base Rage Damage, +2 AC          |
-| 4     | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                        | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
-| 5     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 6     | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       |                                         | +1d6 Base Rage Damage, +2 AC          |
+| 4     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                        | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
+| 5     | +2 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
+| 6     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       |                                         | +1d6 Base Rage Damage, +2 AC          |
 | 7     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 8     | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                        | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
+| 8     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                        | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
 | 9     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       | +1d6 Base Melee Damage                  | +1d6 Base Rage Damage, +2 AC          |
-| 10    | +4 VitDice, +2 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 BAp                       |                                         |                                       |
+| 10    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 BAp                       |                                         |                                       |
 | 11    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 12    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1Ap, +1 BAp | +5 Base Melee Damage, +2 Base Melee Acc | +1d6 Base Rage Damage, +2 AC, +1 Feat |
+| 12    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1Ap, +1 BAp | +5 Base Melee Damage, +2 Base Melee Acc | +1d6 Base Rage Damage, +2 AC, +1 Feat |
 | 13    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 14    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point                               |                                         |                                       |
-| 15    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       | +1d6 Base Melee Damage                  | +1d6 Base Rage Damage, +2 AC          |
-| 16    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                        | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
+| 14    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point                               |                                         |                                       |
+| 15    | +2 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       | +1d6 Base Melee Damage                  | +1d6 Base Rage Damage, +2 AC          |
+| 16    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                        | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
 | 17    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 18    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       |                                         | +1d6 Base Rage Damage, +2 AC          |
+| 18    | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +2 Stat Points, +1 Rage Point, +1 BAp       |                                         | +1d6 Base Rage Damage, +2 AC          |
 | 19    | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point                               | +1d6 Base Melee Damage                  |                                       |
-| 20    | +4 VitDice, +2 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap, +1 BAp                | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
+| 20    | +2 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap, +1 BAp                | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
