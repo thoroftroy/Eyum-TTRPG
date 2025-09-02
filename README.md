@@ -4,6 +4,8 @@
 
 This repository is part of an ongoing project to turn the Eyum **Handbook** into a **wiki-style reference**. Right now, the content is written for and in **Obsidian**, but we are gradually adding links, navigation, and formatting so that it functions as a full wiki you can browse and use online.
 
+The WIP website is available here; https://thoroftroy.github.io/Eyum-TTRPG/
+
 ---
 
 ## How to Use This Project
