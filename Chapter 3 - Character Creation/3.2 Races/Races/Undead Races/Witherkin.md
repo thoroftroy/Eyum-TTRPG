@@ -26,3 +26,5 @@ Neutral Affinities: Inherit from base race
 Negative Affinities: Inherit from base race  
 
 Bonuses: +2 CON, -2 DEX, -1 CHA
+
+For more information see [[3.2.0 Rot Infection Rules]]

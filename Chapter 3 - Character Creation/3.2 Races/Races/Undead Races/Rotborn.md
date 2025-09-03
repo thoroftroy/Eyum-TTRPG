@@ -33,3 +33,5 @@ Rot Infection, rules
 - Reanimation: If an infected creature dies while still infected, it rises as a Rotborn under GM control after 1d4 hours, with Rotborn statistics appropriate to its original form. Remove equipment as the GM deems the corpse lost or ruined.
 - Curing the blight: Before the creature dies, powerful purgative magic can remove Rot Infection. Suitable effects are set by the GM; examples include high tier cleanse, remove blight, or comparable restorative rituals. Once dead, only effects capable of returning a creature to life while purging curses and diseases prevent reanimation.
 - Fire sanctification: If the corpse takes any Fire damage before the reanimation occurs, the reanimation is delayed until after the next long rest that passes without the body taking Fire damage again. If sufficient fire wholly destroys the corpse, no reanimation occurs.
+
+For more information see [[3.2.0 Rot Infection Rules]]
