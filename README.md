@@ -1,8 +1,8 @@
 # Eyum-TTRPG
 
-**The World of Eyum** is a tabletop roleplaying game (TTRPG) inspired by Dungeons & Dragons 5e, rebuilt for long-term scalability and a consistent, integrated magic system. At its core, it’s a collaborative storytelling game: players control unique characters while a Narrator or Game Master (GM) presents the world, portrays its inhabitants, and adjudicates outcomes. The goal isn’t to “win” but to **tell memorable stories together**—whether in a single-session one-shot or a long campaign where your characters rise from humble beginnings to world-shaping heroes.
+**The World of Eyum** is a tabletop roleplaying game (TTRPG) inspired by Dungeons & Dragons 5e, rebuilt for long-term scalability and a consistent, integrated magic system. At its core, it’s a collaborative storytelling game: players control unique characters while a Narrator or Game Master (GM) presents the world, portrays its inhabitants, and adjudicates outcomes. The goal isn’t to “win” but to **tell memorable stories together**, whether in a single-session one-shot or a long campaign where your characters rise from humble beginnings to world-shaping heroes.
 
-This repository is part of an ongoing project to turn the Eyum **Handbook** into a **wiki-style reference**. Right now, the content is written for and in **Obsidian**, but we are gradually adding links, navigation, and formatting so that it functions as a full wiki you can browse and use online.
+This repository is part of an ongoing project to turn the Eyum **Handbook** into a **wiki-style reference**. Right now, the content is written for and in **Obsidian**, but we are gradually adding links, navigation, and formatting so that it functions as a full wiki you can browse and use online. This is mostly functional at this point but not always up to date. 
 
 The WIP website is available here https://thoroftroy.github.io/Eyum-TTRPG/ 
 
@@ -15,7 +15,6 @@ The WIP website is available here https://thoroftroy.github.io/Eyum-TTRPG/
 - If you’re **building a character**, follow **Chapter 3: Character Creation** [[3.1 Step-by-Step Character Creation]] step-by-step. The GM will guide as needed.
 - If you’re a **Game Master**, focus on ★-marked sections (like worldbuilding, optional rules, and guidance chapters).
 - The repo is structured so you can **jump directly** to the parts you need without reading cover-to-cover. Think of it as a living reference manual.
-- The **wiki version** will eventually have proper page-to-page linking, a table of contents, and visual references (monsters, classes, deities, etc.).
 
 ---
 ## Current Status
@@ -23,23 +22,18 @@ This project is **work in progress**. Some sections are fully written, others ar
 
 ---
 ## TO-DO
-- Add better resurrection/healing spells for Cleric.
 - Create images for each monster, deity, class, etc.
 - Balance the classes and races:
     - Test races by creating Fighter/Wizard builds at levels 5, 10, 15, and 20.
     - Test classes by creating a character for every level in every class and running mock battles.
-- Make a full table of contents.
+	    - I have balanced the classes much better but further testing would be good
 - Test with actual players:
-    - Martial classes currently feel solid at low levels.
-    - Casters run out of mana too fast at level 1.
+    - I have done this once and fixed everything from the previous testing
 - Test with **new players** to ensure systems are learnable without external help.
 - Cross-reference with 5e for missing sections:
     - Map/city building details
-    - Campaign/world creation guides
+    - Campaign/world creation guides (WIP)
     - Dungeon creation guide
     - NPC/DMPC play guidance
-    - Injuries & lingering injuries
-    - Player options for creating spells, classes, and races (currently only monsters have detailed creation rules)
     - Starting area recommendations
-    - Rules for “tough” objects like doors/walls
 - Expand race list, especially animal-type races (bat, cat, cow, etc.)
