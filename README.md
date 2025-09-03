@@ -4,13 +4,15 @@
 
 This repository is part of an ongoing project to turn the Eyum **Handbook** into a **wiki-style reference**. Right now, the content is written for and in **Obsidian**, but we are gradually adding links, navigation, and formatting so that it functions as a full wiki you can browse and use online.
 
-The WIP website is available here https://thoroftroy.github.io/Eyum-TTRPG/
+The WIP website is available here https://thoroftroy.github.io/Eyum-TTRPG/ 
+
+(The website will usually not be as up to date but be much more usable, the goal is to make that website be the main wiki)
 
 ---
 
 ## How to Use This Project
-- If you’re **new to Eyum**, start with **Chapter 2: Core Rules** in the handbook/wiki. It gives the essential mechanics for play (rolling dice, taking actions, how turns work).
-- If you’re **building a character**, follow **Chapter 3: Character Creation** step-by-step. The GM will guide as needed.
+- If you’re **new to Eyum**, start with **Chapter 2: Core Rules** ([[2.1 Basic Mechanics]]) in the handbook/wiki. It gives the essential mechanics for play (rolling dice, taking actions, how turns work).
+- If you’re **building a character**, follow **Chapter 3: Character Creation** [[3.1 Step-by-Step Character Creation]] step-by-step. The GM will guide as needed.
 - If you’re a **Game Master**, focus on ★-marked sections (like worldbuilding, optional rules, and guidance chapters).
 - The repo is structured so you can **jump directly** to the parts you need without reading cover-to-cover. Think of it as a living reference manual.
 - The **wiki version** will eventually have proper page-to-page linking, a table of contents, and visual references (monsters, classes, deities, etc.).
@@ -40,5 +42,4 @@ This project is **work in progress**. Some sections are fully written, others ar
     - Player options for creating spells, classes, and races (currently only monsters have detailed creation rules)
     - Starting area recommendations
     - Rules for “tough” objects like doors/walls
-- Add page links to turn this into a fully navigable wiki.
 - Expand race list, especially animal-type races (bat, cat, cow, etc.)
