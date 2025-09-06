@@ -1,17 +1,27 @@
-Type: Giant  
-CR: 9  
-AC: 18  
-HP: 162 (13d12+65)  
-Vitality: 52 (11d4+9)  
-Speed: 30 ft  
-Size: Huge  
-Height: 12–14 ft  
-Weight: 2,000–3,000 lbs  
-Appearance: Black-iron skin veined with dull orange heat lines; hair braided with cinder-wire and slag beads. Their greatswords are forge-long slabs that shed sparks when dragged over stone. The air around them smells of quenched steel and soot; bootprints brand the ground with gray ash.  
-Disposition: Siege-breakers and disciplinarians. A fire giant advances in a shielded wedge, smashing cover and forcing defenders into open lanes where its reach dominates. It targets armored foes first—professional contempt—and uses thrown metal debris to harry runners. If threatened by cold or water magic, it presses harder to end the fight before its heat gutters.  
-STR: 25 (+7) | DEX: 9 (−1) | CON: 21 (+5) | INT: 10 (+0) | WIS: 14 (+2) | CHA: 13 (+1)  
-Resistances: Fire  
-Weaknesses: Cold  
-Abilities:  
-Greatsword: Melee Attack +10 to hit, 4d12+7 slashing.  
-Heated Arsenal: When the giant hits with a metal weapon, add +1d6 fire.
+- **Type:** Giant
+- **CR:** 9
+- **AC:** 40
+- **HP:** 1,056 (48d12+432)
+- **Vitality:** 528 (32d10+336)
+- **Speed:** 40 ft
+- **Size:** Huge (12–14 ft tall, 2,000–3,000 lbs)
+- **Appearance:** The Fire Giant looms like a walking forge, its black-iron skin laced with glowing orange fissures of heat. Hair braided with slag-wire and beads of molten stone smolders faintly, and every motion sheds sparks like a smith’s hammer. Its greatsword is a forge-length slab of burning steel that screams against stone when dragged, leaving trails of fire in its wake. The air reeks of soot and scorched metal, and every bootprint it leaves brands the ground in ash.
+- **Disposition:** Masters of siege and discipline, Fire Giants advance in iron wedges, smashing fortifications and forcing defenders into the open where their reach and burning weapons dominate. They harbor contempt for armored opponents, seeking to crush them first as a matter of pride. Against cold or water magic, their fury redoubles—they press relentlessly, seeking to end battles before their inner flames can be quenched.
+
+**Attributes**
+- STR: 46 (+18)
+- DEX: 20 (+5)
+- CON: 42 (+16)
+- INT: 16 (+3)
+- WIS: 24 (+7)
+- CHA: 18 (+4)
+
+**Resistances:** Fire  
+**Weaknesses:** Cold
+
+**Abilities**
+- **Greatsword.** Melee Attack: +26 to hit, reach 15 ft, 6d12+18 slashing plus 4d10 fire damage.
+- **Heated Arsenal.** Whenever the Fire Giant hits with a metal weapon, it deals an additional 3d12 fire damage.
+- **Molten Hurl.** The giant can hurl debris, molten stone, or twisted iron as a ranged attack: +24 to hit, range 60/180 ft, 4d10+16 bludgeoning plus 3d10 fire damage.
+- **Inferno Step (Recharge 5–6).** The Fire Giant stomps the ground, creating a 20 ft radius shockwave of heat. Enemies must succeed on a DC 30 CON save or take 6d12 fire damage and have their speed halved until the end of their next turn (half damage on success).
+- **Siege Master (Passive).** The Fire Giant deals triple damage to structures and fortifications.

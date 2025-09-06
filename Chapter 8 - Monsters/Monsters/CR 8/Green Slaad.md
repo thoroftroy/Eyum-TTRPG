@@ -1,18 +1,27 @@
-Type: Aberration (Slaad)  
-CR: 8  
-AC: 16  
-HP: 152 (16d10+64)  
-Vitality: 48 (10d6+12)  
-Speed: 30 ft  
-Size: Large  
-Height: 8–9 ft  
-Weight: 500–800 lbs  
-Appearance: Warted emerald skin over corded, amphibian muscle; a grin full of mismatched teeth and a throat sac that flickers colors with mood. Its claws leave lines that glow briefly, as if reality were thin there. Where it lingers, puddles ripple without wind.  
-Disposition: Chaos with purpose. The green slaad probes with idle cruelty, then becomes frighteningly efficient once it smells fear. It likes to isolate one opponent with a teleporting hop and worry them to the edge of death, offering nonsensical bargains mid-fight. When pressed, it vanishes into angles and returns where the party isn’t looking.  
-STR: 18 (+4) | DEX: 16 (+3) | CON: 18 (+4) | INT: 12 (+1) | WIS: 14 (+2) | CHA: 14 (+2)  
-Resistances: Psychic  
-Weaknesses: Thunder  
-Abilities:  
-Claws: Melee Attack +8 to hit, 3d10+4 slashing.  
-Chaos Phage: On a hit with Claws, the target must succeed on a DC 16 CON save or become Diseased (GM: impose disadvantage on concentration and −2 to AC until cured).  
-Blink Pounce (Recharge 6): Teleport up to 30 ft and make one Claw attack with advantage.
+- **Type:** Aberration
+- **CR:** 8
+- **AC:** 39
+- **HP:** 622 (28d12+336)
+- **Vitality:** 348 (26d10+156)
+- **Speed:** 40 ft
+- **Size:** Large (8–9 ft tall, 500–800 lbs)
+- **Appearance:** The green slaad is a towering amphibian horror, its warted emerald hide stretched over bulging muscle. Its maw splits into a crooked grin lined with mismatched teeth, while its throat sac flickers with swirling colors that betray its chaotic mood. Its claws leave glowing rents in the air itself, as though reality thins at its touch. Puddles ripple in its presence without cause, and light bends subtly when it moves.
+- **Disposition:** A predator of chaos with sinister cunning. The green slaad delights in torment, toying with foes through cruel taunts and nonsense bargains whispered mid-battle. It isolates prey with sudden, impossible hops through warped space, worrying them to the brink of death. Its cruelty sharpens into brutal efficiency when it smells fear, vanishing into warped angles only to reappear where it is least expected.
+
+**Attributes**
+- STR: 34 (+12)
+- DEX: 28 (+9)
+- CON: 38 (+14)
+- INT: 22 (+6)
+- WIS: 24 (+7)
+- CHA: 26 (+8)
+
+**Resistances:** Psychic  
+**Weaknesses:** Thunder
+
+**Abilities**
+- **Claws.** Melee Attack: +20 to hit, 6d12+12 slashing damage. On a hit, the target must succeed on a DC 26 CON save or contract _Chaos Phage_ (see below).
+- **Chaos Phage.** A magical disease that erodes stability. While diseased, the target has disadvantage on concentration checks and their AC is reduced by 4. The disease lasts until cured by _Greater Restoration_ or equivalent magic.
+- **Bite.** Melee Attack: +20 to hit, 5d10+12 piercing damage. On a hit, the slaad regains HP equal to half the damage dealt.
+- **Blink Pounce (Recharge 6).** The slaad teleports up to 40 ft to an unoccupied space it can see and immediately makes one Claw attack with advantage. On a hit, the attack deals an extra 4d10 force damage.
+- **Warped Presence (Aura).** At the start of each enemy’s turn within 20 ft of the slaad, they must succeed on a DC 25 WIS save or suffer disadvantage on all attack rolls until the start of their next turn.

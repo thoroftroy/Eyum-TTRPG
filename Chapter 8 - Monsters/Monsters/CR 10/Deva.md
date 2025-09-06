@@ -1,18 +1,27 @@
-Type: Celestial  
-CR: 10  
-AC: 18  
-HP: 200 (16d12+96)  
-Vitality: 64 (8d10+20)  
-Speed: 30 ft, Fly 90 ft  
-Size: Medium  
-Height: 6–7 ft  
-Weight: 180–230 lbs  
-Appearance: A serene warrior in soft lamellar of silver-white light, wings folded like doves in a chapel. Their voice is a bell in fog, and their skin carries the faint glow of candlelight seen through alabaster. Wherever they stand, dust settles, and the smell of rain seems newly remembered.  
-Disposition: Emissary first, avenger second. A deva enters with an offer of surrender or parley, then fights with calm precision if refused—interposing for the weak, disabling rather than killing where possible, and reserving wrath for oath-breakers. In chaos it becomes a shepherd, cutting lanes for allies to escape or pursue justice, and will gladly take a blow meant for another if that saves a soul for another day.  
-STR: 20 (+5) | DEX: 16 (+3) | CON: 22 (+6) | INT: 16 (+3) | WIS: 18 (+4) | CHA: 20 (+5)  
-Resistances: Radiant (Immunity)  
-Weaknesses: Necrotic  
-Abilities:  
-Sacred Blade: Melee Attack +9 to hit, 4d10+5 slashing (radiant on criticals at GM’s call).  
-Healing Word: As a bonus action, a creature within 30 ft regains 3d8 HP.  
-Rebuke the Profane (Recharge 5–6): One creature within 60 ft makes a DC 17 WIS save or takes 6d8 radiant and is Frightened until end of its next turn.
+- **Type:** Celestial
+- **CR:** 10
+- **AC:** 47
+- **HP:** 1,284 (48d12+576)
+- **Vitality:** 720 (40d10+400)
+- **Speed:** 40 ft, Fly 120 ft
+- **Size:** Medium (6–7 ft, 180–230 lbs)
+- **Appearance:** The Deva appears as a serene warrior, clad in lamellar that shines like silver-white light shaped into armor. Their alabaster skin glows faintly like candlelight glimpsed through marble, and their voice tolls with the clarity of a bell ringing through fog. Dove-like wings fold across their back, carrying with them the quiet dignity of a chapel at dawn. Wherever they tread, dust settles in reverence, and the air fills with the remembered scent of rain on stone.
+- **Disposition:** Devas arrive as emissaries first, avengers second. They extend surrender or parley before lifting their blade, preferring to interpose themselves for the weak and disable foes rather than slay them outright. Yet when oaths are broken or cruelty is unveiled, their precision turns lethal, striking as divine judgment. In chaos, they act as shepherds—cutting paths for allies, absorbing blows for the defenseless, and ensuring the survival of justice itself.
+
+**Attributes**
+- STR: 50 (+20)
+- DEX: 46 (+18)
+- CON: 58 (+24)
+- INT: 44 (+17)
+- WIS: 52 (+21)
+- CHA: 56 (+23)
+
+**Resistances:** Radiant (Immunity)  
+**Weaknesses:** Necrotic
+
+**Abilities**
+- **Sacred Blade.** Melee Attack: +30 to hit, reach 10 ft, 8d12+20 slashing damage. On a critical hit, the strike deals an additional 8d12 radiant damage.
+- **Healing Word (Bonus Action).** One creature within 60 ft regains 10d12 HP.
+- **Rebuke the Profane (Recharge 5–6).** One creature within 100 ft must succeed on a DC 34 WIS save or take 12d12 radiant damage and become _Frightened_ until the end of its next turn. On success, the creature takes half damage and no fear.
+- **Guardian’s Intercession (Reaction).** When an ally within 20 ft is targeted by an attack, the Deva may swap places with the ally, becoming the target of the attack instead.
+- **Aura of Sanctity (30 ft).** Allies in range gain +5 to all saving throws. Enemies in range must succeed on a DC 30 CHA save at the start of their turn or suffer disadvantage on attack rolls until the end of that turn.

@@ -1,16 +1,27 @@
-Type: Undead
-CR: 9
-AC: 17
-HP: 160 (14d12+56)
-Vitality: 110 (14d10+56)
-Speed: 40 ft
-Size: Medium
-Appearance: The Velmourn is a spectral assassin clad in flowing crimson-black garments that shimmer like dried blood under moonlight. Its body is thin and angular, with bones sharp beneath semi-corporeal flesh, and its hands wield cruel, rune-etched daggers that seem to drink in surrounding light. A tattered hood obscures most of its face, revealing only glowing red eyes and a grim, eternal grin etched into its gaunt cheeks. Every movement is fluid, deliberate, and silent, like a shadow given sentience and hatred.
-Disposition: Velmourns are born from the union of powerful curses and violent death, souls who refused to fade and instead honed their hatred into surgical precision. They strike from darkness with uncanny speed, severing life threads and consuming spiritual essence to extend their own twisted unlife. Though intelligent, they are cold and clinical, stalking prey with strategic obsession. Even in battle, they remain composed, avoiding reckless engagements and punishing openings with fatal efficiency. Only the searing power of radiant magic seems to truly slow their pursuit.
-STR: 18 (+4) | DEX: 20 (+5) | CON: 16 (+3) | INT: 14 (+2) | WIS: 16 (+3) | CHA: 18 (+4)
-Resistances: Necrotic, Psychic
-Weaknesses: Radiant
-Abilities:
-Dagger Strike: Melee Attack +10 to hit, 2d10+5 Necrotic Damage.
-Soul Drain (Recharge 5-6): Deals 6d12 Necrotic Damage and heals for half the damage dealt.
-Unholy Reflexes: Can use a reaction to impose disadvantage on an attack against it.
+- **Type:** Undead
+- **CR:** 9
+- **AC:** 43
+- **HP:** 1,048 (48d12+432)
+- **Vitality:** 568 (36d10+324)
+- **Speed:** 50 ft
+- **Size:** Medium (6–7 ft, weightless shadow-form)
+- **Appearance:** The Velmourn is a spectral assassin clad in crimson-black garments that shimmer like dried blood under moonlight. Its gaunt, angular body appears half-corporeal, bones jutting beneath semi-ethereal flesh. Rune-etched daggers in its hands seem to drink the light around them, glowing faintly with stolen souls. A ragged hood conceals most of its visage, save for its glowing red eyes and a thin, eternal grin etched into its withered cheeks. It moves without sound—fluid, deliberate, and predatory, a shadow honed into murder.
+- **Disposition:** Velmourns are cursed assassins, born of violent death and refusal to fade. Their hatred sharpens into surgical precision, making them cold and calculating predators. They stalk prey with unerring patience, studying patterns before striking at fatal weaknesses. Every strike steals not only blood, but fragments of the soul, feeding their longevity. Though intelligent, they are entirely detached, devoid of mercy, killing as efficiently as they breathe. Only radiant magic disrupts their relentless pursuit, cutting through their shadow-bound essence.
+
+**Attributes**
+- STR: 38 (+14)
+- DEX: 44 (+17)
+- CON: 40 (+15)
+- INT: 30 (+10)
+- WIS: 32 (+11)
+- CHA: 36 (+13)
+
+**Resistances:** Necrotic, Psychic  
+**Weaknesses:** Radiant
+
+**Abilities**
+- **Dagger Strike.** Melee Attack: +27 to hit, reach 10 ft, 6d12+17 necrotic damage. On a crit, the target must succeed on a DC 32 CON save or be Stunned until the end of its next turn.
+- **Soul Drain (Recharge 5–6).** The Velmourn targets one creature within 10 ft. The target must succeed on a DC 30 CON save or take 12d12 necrotic damage. The Velmourn heals for half the damage dealt. On a success, the target takes half damage and no healing occurs.
+- **Unholy Reflexes.** As a reaction, the Velmourn may impose disadvantage on one attack roll made against it. If the attack still hits, the attacker takes 4d12 psychic damage.
+- **Essence Shroud (Passive).** Creatures within 20 ft of the Velmourn have disadvantage on death saving throws.
+- **Death Mark (1/day).** The Velmourn marks a single target it can see. For the next minute, all attacks it makes against that creature have advantage, and the creature has disadvantage on saving throws against its abilities.

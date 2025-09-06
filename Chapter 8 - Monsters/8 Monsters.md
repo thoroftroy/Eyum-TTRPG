@@ -19,7 +19,7 @@ Below is a list of all monsters currently in the TTRPG; This is very much a WIP 
 | [[Hawk]]                                                   | 1   | Hawks are small raptors with sharp talons, keen eyes, and narrow wings adapted for high-speed flight. Their feathers...  |
 | [[Kobold]]                                                 | 1   | Scaly, rust-brown skirmishers with lantern eyes and wiry tails, smelling of oil and dust.                                |
 | [[Noctilure]]                                              | 1   | The Noctilure is a spectral moth like creature with four gossamer wings that ripple with a soft, bluish glow, casting... |
-| [[Red Deer]]                                               | 1   | Grizzly bears are enormous, broad-shouldered beasts with dense fur ranging from dark brown to pale gray. Their long c... |
+| [[Chapter 8 - Monsters/Monsters/CR 1/Grizzly Bear]]                                               | 1   | Grizzly bears are enormous, broad-shouldered beasts with dense fur ranging from dark brown to pale gray. Their long c... |
 | [[Skeleton]]                                               | 1   | Undead                                                                                                                   |
 | [[Sloughgrim]]                                             | 1   | The Sloughgrim is a lurching mass of living mud and decayed flesh, its form barely held together by strands of sinew...  |
 | [[Sootfang]]                                               | 1   | The Sootfang is a charcoal-colored beast with sleek, scorched fur that gives off a subtle plume of smoke wherever it...  |
@@ -33,7 +33,7 @@ Below is a list of all monsters currently in the TTRPG; This is very much a WIP 
 | [[Ghoul]]                                                  | 2   | Emaciated, claw-lengthened corpse-eaters with reeking tongues.                                                           |
 | [[Giant Eagle]]                                            | 2   | Vast golden raptors with thunder-silent dives.                                                                           |
 | [[Gnoll]]                                                  | 2   | Hyena-headed raiders with matted manes and scavenged armor.                                                              |
-| [[Grizzly Bear]]                                           | 2   | Grizzly bears are enormous, powerfully built quadrupeds covered in thick, coarse fur that ranges from deep brown to g... |
+| [[Chapter 8 - Monsters/Monsters/CR 2/Grizzly Bear]]                                           | 2   | Grizzly bears are enormous, powerfully built quadrupeds covered in thick, coarse fur that ranges from deep brown to g... |
 | [[Hobgoblin]]                                              | 2   | Regimented soldiers in lacquered armor; crimson skin, stern bearing.                                                     |
 | [[Horned Elk]]                                             | 2   | The horned elk is a towering herbivore with massive, branching antlers that span nearly eight feet. Its tan hide is t... |
 | [[Imp]]                                                    | 2   | Red-skinned with a barbed tail and smug eyebrows; the wings buzz like a horsefly.                                        |
@@ -118,7 +118,7 @@ Below is a list of all monsters currently in the TTRPG; This is very much a WIP 
 | [[Deva]]                                                   | 10  | A serene warrior in soft lamellar of silver-white light, wings folded like doves in a chapel. Their voice is a bell i... |
 | [[Stone Golem]]                                            | 10  | Chiseled from a single block of granite, runes carved deep in the joints and filled with gold leaf. Dust blooms from...  |
 | [[Stormbreaker Titan]]                                     | 10  | The Stormbreaker Titan is a towering colossus of charged crystal, burnished steel, and storm-forged stone. Its body i... |
-| [[Zephyrix]]                                               | 10  | The Zephyrix is a sleek, serpentine dragon with elongated wings that stretch nearly twice the length of its body, the... |
+| [[Chapter 8 - Monsters/Monsters/CR 10/Zephyrix]]                                               | 10  | The Zephyrix is a sleek, serpentine dragon with elongated wings that stretch nearly twice the length of its body, the... |
 | [[Behir]]                                                  | 11  | A twelve-legged lightning serpent, cobalt scales glossed like storm glass. Horn-ridges funnel into a crown over its b... |
 | [[Cloud Giant]]                                            | 11  | Marble-pale skin with opal sheen, robes woven from mist and dyed in sunrise colors. Bracelets of gleaming silver crac... |
 | [[Dao]]                                                    | 11  | A jeweled colossus whose lower half spirals into compacted gravel. Gold-leaf sigils drift around its wrists; each mot... |
@@ -136,7 +136,7 @@ Below is a list of all monsters currently in the TTRPG; This is very much a WIP 
 | [[Chasme]]                                                 | 12  | A man-sized fly with a cleric’s funeral robes in tatters, its proboscis choked in prayer-beads of bone. Wings beat wi... |
 | [[Dreadmaw]]                                               | 12  | The Dreadmaw is a hulking brute of sinew and bone, its skin stretched taut over muscle clusters that ripple with bare... |
 | [[Erinyes]]                                                | 12  | War-angels cast in iron law: raven wings, lacquered black plate inlaid with infernal script, and a gaze that weighs w... |
-| [[Lesser Demon]]                                           | 12  | This lesser demon stands cloaked in living flame, its obsidian hide split by glowing veins of magma that pulse with e... |
+| [[Arch Demon]]                                           | 12  | This lesser demon stands cloaked in living flame, its obsidian hide split by glowing veins of magma that pulse with e... |
 | [[Mezzoloth]]                                              | 12  | Insectile mercenary lacquered in tar and ash, with a visor-plate that splits to reveal a spray of mandibles. Vents in... |
 | [[Nycaloth]]                                               | 12  | A winged jackal-ogre of obsidian hide and bronze talons, scarred by a campaign’s worth of sigil-brands. Its wings are... |
 | [[White Dragon]]                                           | 12  | Ice-bright scales with glacier-blue eyes and breath that fogs into needle crystals. The wings are ragged with frost t... |

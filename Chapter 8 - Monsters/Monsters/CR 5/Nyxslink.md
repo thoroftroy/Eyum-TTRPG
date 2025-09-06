@@ -1,16 +1,26 @@
-Type: Beast
-CR: 5
-AC: 14
-HP: 75 (8d12+16)
-Vitality: 50 (8d10+16)
-Speed: 40 ft, Climb 40 ft
-Size: Medium
-Appearance: The Nyxslink is a lithe, four-limbed predator covered in mottled gray-black fur that shimmers like wet stone in low light. Its elongated limbs end in clawed digits ideal for clinging to rock, and its eyes are oversized, milky, and unblinking, perfect for piercing total darkness. Faint bioluminescent streaks run along its spine and jawline, pulsing softly with each breath. When it opens its mouth, it reveals needle-thin fangs glistening with a thick, greenish venom.
-Disposition: Nyxslinks are apex ambush predators native to deep caverns, forgotten tombs, and shadow-choked canyons. They hunt by stalking silently from above, using dim light to vanish between shadows before pouncing with lethal precision. Unlike most beasts, they seem to enjoy the hunt, circling prey, testing defenses, and striking only when advantage is certain. They are drawn to magic, especially sources of divine light, which seems to pain or enrage them. Even experienced spelunkers speak of Nyxslinks in hushed tones, warning never to linger near the edges of torchlight.
-STR: 16 (+3) | DEX: 18 (+4) | CON: 14 (+2) | INT: 6 (-2) | WIS: 14 (+2) | CHA: 7 (-2)
-Resistances: Poison, Bludgeoning
-Weaknesses: Radiant
-Abilities:
-Pounce: If the Cave Stalker moves at least 20 ft before attacking, the target must make a DC 15 Strength save or be knocked prone.
-Shadow Leap: Can move up to 20 ft between dimly lit areas as a bonus action.
-Venomous Fangs: Melee Attack +7 to hit, 2d6+3 Piercing Damage plus 2d8 Poison Damage.
+- **Type:** Beast
+- **CR:** 5
+- **AC:** 24
+- **HP:** 182 (14d12+84)
+- **Vitality:** 112 (14d10+42)
+- **Speed:** 40 ft, Climb 40 ft
+- **Size:** Medium
+- **Appearance:** The Nyxslink is a lithe, four-limbed predator covered in mottled gray-black fur that shimmers like wet stone in dim light. Its elongated limbs end in hooked, clawed digits perfect for clinging to vertical stone, and its oversized, milky eyes pierce the deepest dark without blinking. Faint bioluminescent streaks run along its spine and jaw, pulsing with each breath. When its mouth opens, it reveals rows of needle-fangs dripping with thick, green venom.
+- **Disposition:** Apex ambush predators of deep caverns and shadow-choked canyons, Nyxslinks stalk prey for hours, striking only when the kill is assured. They seem to delight in the hunt, circling their targets and striking from darkness before melting back into shadow. They are drawn to magic, and divine light enrages them, provoking frenzied attacks. Even seasoned explorers whisper of Nyxslinks, warning to never rest near fading torchlight.
+
+**Attributes**
+- STR: 24 (+7)
+- DEX: 28 (+9)
+- CON: 22 (+6)
+- INT: 6 (−2)
+- WIS: 18 (+4)
+- CHA: 6 (−2)
+
+**Resistances:** Poison, Bludgeoning  
+**Weaknesses:** Radiant
+
+**Abilities**
+- **Venomous Fangs.** Melee Attack: +15 to hit, 3d10+7 piercing damage plus 3d8 poison damage.
+- **Pounce.** If the Nyxslink moves at least 20 ft before attacking, the target must succeed on a DC 20 STR save or be knocked prone. If prone, the Nyxslink may immediately make a Venomous Fangs attack as a bonus action.
+- **Shadow Leap.** As a bonus action, the Nyxslink can teleport up to 30 ft between dimly lit areas.
+- **Predator’s Reflex (Reaction).** When targeted by an attack in dim light or darkness, the Nyxslink may impose disadvantage on the attack roll by slipping partially into shadow.

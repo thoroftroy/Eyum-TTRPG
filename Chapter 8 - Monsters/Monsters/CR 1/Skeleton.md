@@ -1,33 +1,30 @@
-Type: Undead
+- **Type:** Undead
+- **CR:** 1
+- **AC:** 13 (armor scraps)
+- **HP:** 14 (3d6+4)
+- **Vitality:** 8 (2d4+3)
+- **Speed:** 30 ft
+- **Size:** Medium
+- **Appearance:** Skeletal remains of long-dead warriors animated by lingering necromantic energy. Their bones are brittle yet unnaturally held together, creaking with every step. Scraps of rusted armor and rotted cloth cling to their frames, while hollow sockets glow faintly with pale light.
+- **Disposition:** Skeletons act without will, obeying commands from their summoner or lingering instinct from life. They hold formations when ordered, fire volleys of arrows when commanded, and charge only when pressed into melee.
 
-CR: 1
+**Attributes**
+- STR: 8 (−1)
+- DEX: 10 (+0)
+- CON: 9 (−1)
+- INT: 2 (−4)
+- WIS: 3 (−4) 
+- CHA: 2 (−4)
 
-AC: 13 (armor scraps)
+**Senses:** Darkvision 60 ft  
+**Languages:** Understands languages it knew in life, but cannot speak
 
-HP: 13 (2d8+4)
+**Resistances:** Immune to Poison damage, and the Poisoned and Bleeding conditions
+**Weaknesses:** Bludgeoning
 
-Vitality: 6 (2d4+2)
+**Abilities**
+- **Undead Nature.** Skeletons do not require air, food, drink, or sleep.
 
-Speed: 30 ft
-
-Size: Medium
-
-STR: 10 (+0) | DEX: 14 (+2) | CON: 15 (+2) | INT: 6 (−2) | WIS: 8 (−1) | CHA: 5 (−3)
-
-Senses: Darkvision 60 ft
-
-Languages: understands in-life tongues; cannot speak
-
-Resistances: Poison (immunity), Exhaustion/Poisoned (condition immunities)
-
-Weaknesses: Bludgeoning (vulnerability)
-
-Abilities: None beyond undead traits
-
-Attacks:
-
-Shortsword — Melee Attack +4 to hit, 1d6+2 piercing (non-magical).
-
-Shortbow — Ranged Attack +4 to hit (80/320), 1d6+2 piercing (non-magical).
-
-Behavior: Holds lines; shoots first; engages only if pressed.
+**Attacks**
+- **Shortsword.** Melee Attack: +1 to hit, 3 piercing damage (non-magical).
+- **Shortbow.** Ranged Attack: +1 to hit (80/320 ft), 3 piercing damage (non-magical).

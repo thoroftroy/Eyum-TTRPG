@@ -1,16 +1,27 @@
-Type: Fey
-CR: 9
-AC: 17
-HP: 140 (14d12+42)
-Vitality: 100 (14d10+42)
-Speed: 40 ft
-Size: Medium
-Appearance: The Veylaraith appears as a lithe, masked figure draped in layers of dusk-hued silk and veil-like tendrils that flow unnaturally even in still air. Its eyes, visible only when it wills, flicker like violet flame beneath an intricately carved obsidian mask. When it moves, its steps leave behind faint echoes and shadowy mirages, and its presence dims both sound and light in a subtle, suffocating way. Its blade is not made of metal, but of focused will and forgotten anguish, glowing with psychic resonance.
-Disposition: Veylaraiths serve as wardens of twilight realms and corrupted fae groves where dreams sour into nightmares. They are guardians not of peace, but of silence, punishing those who disturb the balance between illusion and reality. Though rarely openly hostile, they toy with intruders, using clones, whispers, and fear to disorient their prey before striking with precision. Their presence erodes certainty and courage alike, and their victims often fall not from wounds, but from terror that blooms into madness. Fire and thunder are among the few forces that break through their veils of deception.
-STR: 18 (+4) | DEX: 20 (+5) | CON: 16 (+3) | INT: 14 (+2) | WIS: 18 (+4) | CHA: 16 (+3)
-Resistances: Psychic, Charm, Bludgeoning (Non-magical)
-Weaknesses: Fire, Thunder
-Abilities:
-Spirit Blade: Melee Attack +10 to hit, 3d12+4 Psychic Damage.
-Illusory Doppelgangers (Recharge 5-6): Creates 3 clones; enemies must pass a DC 17 Intelligence save or attack the wrong one.
-Whispering Dread: Can impose disadvantage on Wisdom saves of creatures within 20 ft.
+- **Type:** Fey
+- **CR:** 9
+- **AC:** 45
+- **HP:** 1,008 (48d12+432)
+- **Vitality:** 552 (36d10+324)
+- **Speed:** 50 ft
+- **Size:** Medium (6–7 ft tall, weightless veiled form)
+- **Appearance:** The Veylaraith manifests as a lithe, masked figure cloaked in dusk-hued silks and flowing veil-tendrils that drift as though in a phantom wind. Its obsidian mask hides all but the flickering violet flames of its eyes, which glow when it wills them visible. Every step leaves behind lingering echoes and warped mirages, and the air dims around its presence, sound muffled, light smothered. In its hand shimmers a blade woven from anguish and fractured will, glowing faintly with psychic resonance as though reality itself strains against its edge.
+- **Disposition:** Veylaraiths are twilight wardens of corrupted fae groves and shadowed dream-realms, guardians not of peace but of silence. They toy with intruders, spawning illusions and whispers to break courage before delivering precise, devastating strikes. Their victims often collapse not from wounds, but from terror and madness, their will eroded until resistance dies. Fire and thunder unravel their veils, tearing through illusions and breaking their dominion over shadow and silence.
+
+**Attributes**
+- STR: 38 (+14)
+- DEX: 46 (+18)
+- CON: 40 (+15)
+- INT: 30 (+10)
+- WIS: 36 (+13)
+- CHA: 34 (+12)
+
+**Resistances:** Psychic, Bludgeoning (Non-magical)  
+**Weaknesses:** Fire, Thunder
+
+**Abilities**
+- **Spirit Blade.** Melee Attack: +28 to hit, reach 10 ft, 6d12+14 psychic damage. On a crit, the target must succeed on a DC 32 WIS save or become _Frightened_ until the end of its next turn.
+- **Illusory Doppelgangers (Recharge 5–6).** The Veylaraith creates 3 shimmering clones of itself. Until destroyed (AC 25, HP 50 each), creatures must succeed on a DC 32 INT save to target the true form.
+- **Whispering Dread (Aura, 20 ft).** Enemies in range suffer disadvantage on WIS saving throws and must succeed on a DC 30 WIS save at the start of their turn or take 4d12 psychic damage.
+- **Twilight Step (Bonus Action).** The Veylaraith teleports up to 40 ft into dim light or shadow. Its next attack this turn has advantage.
+- **Veil of Silence (Passive).** All sound within 20 ft of the Veylaraith is magically suppressed. Creatures attempting to cast spells with verbal components in this radius must succeed on a DC 30 CON save or fail the spell.

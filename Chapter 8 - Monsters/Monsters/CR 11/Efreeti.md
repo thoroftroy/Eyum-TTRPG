@@ -1,17 +1,26 @@
-Type: Elemental (Fire)  
-CR: 11  
-AC: 18  
-HP: 255 (30d8+120)  
-Vitality: 76 (8d12+20)  
-Speed: 40 ft, Fly 60 ft  
-Size: Large  
-Height: 12–14 ft  
-Weight: — (smoky lower body)  
-Appearance: Char-black skin glowing with ember cracks; a crown of fire flickers above cruel eyes. Brass armor is etched with contracts; the scent is cinnamon, smoke, and hot iron.  
-Disposition: Merchant-kings and tyrant soldiers. They honor terms—then twist them. In battle an efreeti divides the field with walls of searing wind, isolates a single prize for capture, and stampedes the rest with heat mirages. It revels in spectacle and will spare a clever foe it can later own.  
-STR: 22 (+6) | DEX: 12 (+1) | CON: 20 (+5) | INT: 16 (+3) | WIS: 15 (+2) | CHA: 18 (+4)  
-Resistances: Fire (Immunity)  
-Weaknesses: Cold  
-Abilities:  
-Scimitar: Melee Attack +10 to hit, 4d10+6 slashing + 1d6 fire.  
-Inferno (Recharge 5–6): 20-ft radius within 120 ft; DC 18 DEX save or 10d8 fire (half on success).
+- **Type:** Elemental
+- **CR:** 11
+- **AC:** 44
+- **HP:** 2,420 (60d8+1,680)
+- **Vitality:** 1,060 (60d12+500)
+- **Speed:** 50 ft, Fly 90 ft
+- **Size:** Large (12–14 ft tall, smoky lower body)
+- **Appearance:** The Efreeti towers as a monarch of flame, its char-black skin veined with molten cracks that glow like rivers of magma. A crown of living fire hovers above its head, feeding from its fury, and brass armor etched with thousands of contracts shifts and burns as though freshly forged. Every step leaves glassed sand behind, every breath carries the scent of cinnamon, smoke, and molten iron. Its eyes blaze with cruel intelligence, and its laughter is a furnace roar.
+- **Disposition:** Efreeti are merchant-kings and tyrant warlords, creatures who honor deals only to twist them later into shackles. They dominate not only by power but by manipulation, binding mortals into servitude with contracts etched in fire. In combat they fight as theatrical executioners, dividing the battlefield with roaring infernos, isolating targets for capture, and scorching the rest into submission. They revel in spectacle, savoring both the fear they inspire and the clever foes who live long enough to become useful thralls.
+
+**Attributes**
+- STR: 60 (+25)
+- DEX: 50 (+20)
+- CON: 58 (+24)
+- INT: 52 (+21)
+- WIS: 54 (+22)
+- CHA: 62 (+26)
+
+**Resistances:** Fire (Immunity), Physical (non-magical)  
+**Weaknesses:** Cold
+
+**Abilities**
+- **Infernal Scimitar.** Melee Attack: +34 to hit, reach 10 ft, 12d12+25 slashing + 6d10 fire. On a crit, the target must succeed a DC 44 DEX save or ignite, taking 4d12 fire damage at the start of each turn until extinguished.
+- **Inferno (Recharge 5–6).** The Efreeti unleashes a 40-ft radius of searing flame within 150 ft. All creatures must succeed on a DC 44 DEX save or take 12d12 fire damage (half on success). Structures in the area ignite instantly.
+- **Blazing Mirage (Passive).** The battlefield within 30 ft of the Efreeti is distorted with heat. All ranged attacks against it are made with disadvantage, and creatures treat the area as lightly obscured.
+- **Commanding Presence.** Once per round as a bonus action, the Efreeti may force a creature within 30 ft that can see it to make a DC 42 WIS save or become Charmed until the end of its next turn. While charmed, the target cannot attack the Efreeti.

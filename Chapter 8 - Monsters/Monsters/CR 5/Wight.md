@@ -1,17 +1,25 @@
-Type: Undead  
-CR: 5  
-AC: 14  
-HP: 95 (10d8+40)  
-Vitality: 36 (8d4+8)  
-Speed: 30 ft  
-Size: Medium  
-Height: 6–7 ft  
-Weight: 140–190 lbs  
-Appearance: Regal corpses in tattered mail with eyes like dying embers.  
-Disposition: Tactical commanders of the dead; focus on isolated prey.  
-STR: 16 (+3) | DEX: 14 (+2) | CON: 18 (+4) | INT: 12 (+1) | WIS: 13 (+1) | CHA: 15 (+2)  
-Resistances: Necrotic  
-Weaknesses: Radiant  
-Abilities:  
-Longsword: Melee Attack +6 to hit, 1d8+3 slashing.  
-Life-Drain Arrow: Ranged Attack +5 to hit (80/320), 1d8+2 piercing + 1d6 necrotic (DC 13 CON save or the target’s max HP is reduced by the necrotic damage until a rest).
+- **Type:** Undead
+- **CR:** 5
+- **AC:** 24
+- **HP:** 210 (16d10+96)
+- **Vitality:** 120 (14d8+48)
+- **Speed:** 30 ft
+- **Size:** Medium (6–7 ft tall, 140–190 lbs)
+- **Appearance:** Regal corpses clad in rusted, tattered mail, their eyes burning like dying embers in hollow sockets. Their skeletal hands grip ancient weapons with grim purpose, and the air around them chills with the stench of undeath. Even in silence, they radiate command, and their gaze alone seems to drag warmth from flesh.
+- **Disposition:** Tactical commanders of the undead. Wights are not mindless—they lead with intelligence, focusing on isolated or weakened prey, and using their minions to control the battlefield. They do not retreat easily, for their will is bound to undeath and conquest.    
+
+**Attributes**
+- STR: 22 (+6)
+- DEX: 18 (+4)
+- CON: 24 (+7)
+- INT: 12 (+1)
+- WIS: 16 (+3)
+- CHA: 18 (+4)
+
+**Resistances:** Necrotic  
+**Weaknesses:** Radiant
+
+**Abilities**
+- **Longsword.** Melee Attack: +12 to hit, 2d8+6 slashing damage.
+- **Life-Drain Arrow.** Ranged Attack: +10 to hit (80/320 ft), 2d8+4 piercing damage plus 2d6 necrotic damage. The target must succeed on a DC 19 CON save or have its maximum HP reduced by an amount equal to the necrotic damage dealt until it completes a long rest.
+- **Command the Dead (Bonus Action).** The Wight targets up to 2 undead within 30 ft. Each target may immediately move up to 15 ft or make one weapon attack.

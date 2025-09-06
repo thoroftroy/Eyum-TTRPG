@@ -1,16 +1,26 @@
-Type: Undead
-CR: 6
-AC: 15
-HP: 85 (9d12+27)
-Vitality: 50 (9d10+27)
-Speed: Fly 40 ft
-Size: Large
-Appearance: The Duskwraith is a towering, spectral figure cloaked in layers of shifting shadow and tattered robes that drift like smoke in still air. Its form is barely corporeal, often flickering at the edges as though caught between worlds. A pale, ghastly face occasionally emerges from the gloom, eyeless, sunken, and twisted with ancient grief or rage. When it moves, it leaves no sound but a deepening chill and a subtle dimming of nearby light, as if dusk itself gathers around it.
-Disposition: Duskwraiths are remnants of souls who met violent ends during twilight hours, caught between day and night, life and death. Intelligent and hauntingly patient, they drift through ruined halls, cursed battlefields, or forsaken keeps, whispering unspeakable truths into the minds of the living. They avoid direct confrontation when possible, preferring fear, despair, and weakening over brute force. Their draining touch steals not just life, but the will to resist, and many of their victims fall not in combat, but in surrender to hopelessness. Only the brightest light or purest radiance can banish them entirely.
-STR: 10 (+0) | DEX: 18 (+4) | CON: 12 (+1) | INT: 14 (+2) | WIS: 16 (+3) | CHA: 14 (+2)
-Resistances: Necrotic, Psychic
-Weaknesses: Radiant
-Abilities:
-Life Drain: Melee Attack +7 to hit, 2d8+4 Necrotic Damage, target must make a DC 14 Constitution save or have their max HP reduced by the damage dealt.
-Ethereal Shift: Can move through solid objects as a bonus action.
-Horrid Whisper (Recharge 5-6): Forces creatures within 15 ft to make a DC 15 Wisdom save or be Frightened for 2 turns.
+- **Type:** Undead
+- **CR:** 6
+- **AC:** 29
+- **HP:** 244 (20d12+120)
+- **Vitality:** 148 (16d10+52)
+- **Speed:** Fly 50 ft (hover)
+- **Size:** Large
+- **Appearance:** The Duskwraith looms as a towering figure of shadow and smoke, wrapped in drifting tatters of robes that swirl as though caught in unseen winds. Its form flickers at the edges, never fully solid, as if half-banished from existence. From its darkness sometimes emerges a pale, eyeless face twisted by sorrow and wrath, only to vanish again into the gloom. Wherever it moves, the air grows colder, and light itself dims, as though dusk descends in its wake.
+- **Disposition:** Born from souls that perished violently at twilight, Duskwraiths wander ruins, cursed keeps, and shadowed battlefields. Patient and cunning, they prefer to sow fear and despair before striking. Their whispers gnaw at sanity, stealing hope before life itself. Their touch drains not just flesh but willpower, leaving victims hollow-eyed and despairing. Only the brightest light or holy radiance can banish them fully.
+
+**Attributes**
+- STR: 14 (+2)
+- DEX: 26 (+8)
+- CON: 26 (+8)
+- INT: 18 (+4)
+- WIS: 22 (+6)
+- CHA: 24 (+7)
+
+**Resistances:** Necrotic, Psychic  
+**Weaknesses:** Radiant
+
+**Abilities**
+- **Life Drain.** Melee Attack: +15 to hit, 3d10+7 necrotic damage. The target must succeed on a DC 21 CON save or have its maximum HP reduced by the damage taken until its next long rest.
+- **Ethereal Shift.** As a bonus action, the Duskwraith may move through solid objects until the end of its turn. If it ends its movement inside an object, it is shunted to the nearest open space and takes 3d10 force damage.
+- **Horrid Whisper (Recharge 5–6).** The Duskwraith whispers cursed truths. All creatures within 30 ft must succeed on a DC 22 WIS save or be _Frightened_ for 2 turns. While frightened in this way, they also suffer disadvantage on saving throws against necrotic damage.
+- **Aura of Dusk.** Any creature that starts its turn within 15 ft of the Duskwraith must succeed on a DC 20 WIS save or have disadvantage on attack rolls until the start of its next turn.
