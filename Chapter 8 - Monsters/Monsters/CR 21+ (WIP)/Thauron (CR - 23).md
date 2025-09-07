@@ -1,4 +1,4 @@
-Type: Elemental Titan
+Type: Elemental
 CR: 23
 AC: 28
 HP: 1,050 (72d12+450)

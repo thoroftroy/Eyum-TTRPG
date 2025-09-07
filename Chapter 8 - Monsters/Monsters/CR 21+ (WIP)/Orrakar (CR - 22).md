@@ -1,4 +1,4 @@
-Type: Celestial Horror
+Type: Celestial
 CR: 22
 AC: 25
 HP: 900 (60d12+400)

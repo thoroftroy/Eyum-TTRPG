@@ -1,4 +1,4 @@
-Type: Eldritch Abomination
+Type: Eldritch Horror
 CR: 25
 AC: 27
 HP: 1,200 (80d12+500)

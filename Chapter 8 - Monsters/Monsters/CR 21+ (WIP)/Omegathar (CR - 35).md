@@ -1,4 +1,4 @@
-Type: Cosmic Titan
+Type: Eldritch Horror
 CR: 35
 AC: 35
 HP: 3,000 (200d12+1,500)

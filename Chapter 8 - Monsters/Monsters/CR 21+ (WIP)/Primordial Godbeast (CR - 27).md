@@ -1,4 +1,4 @@
-Type: Divine Beast
+Type: Beast
 CR: 27
 AC: 30
 HP: 1,500 (90d12+800)

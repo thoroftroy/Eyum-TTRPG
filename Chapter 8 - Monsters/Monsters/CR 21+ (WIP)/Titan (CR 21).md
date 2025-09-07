@@ -1,4 +1,4 @@
-Type: Elemental Horror
+Type: Elemental
 CR: 21
 AC: 25
 HP: 700 (50d12+300)

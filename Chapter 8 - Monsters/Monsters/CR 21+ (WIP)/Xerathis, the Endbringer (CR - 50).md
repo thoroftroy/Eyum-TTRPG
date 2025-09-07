@@ -1,4 +1,4 @@
-Type: Celestial Destroyer
+Type: Eldritch Horror
 CR: 50
 AC: 40
 HP: 5,000 (300d12+2,500)

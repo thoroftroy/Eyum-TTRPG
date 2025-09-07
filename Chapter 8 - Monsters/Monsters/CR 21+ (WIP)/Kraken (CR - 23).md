@@ -1,4 +1,4 @@
-Type: Monstrosity (Aquatic)  
+Type: Monstrosity
 CR: 23  
 AC: 18  
 HP: 472 (32d20+160)  

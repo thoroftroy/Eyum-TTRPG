@@ -1,4 +1,4 @@
-Type: Cosmic Horror
+Type: Eldritch Horror
 CR: 26
 AC: 28
 HP: 1,300 (85d12+600)

@@ -1,17 +1,26 @@
-Type: Fiend (Demon)  
-CR: 13  
-AC: 18  
-HP: 225 (18d12+90)  
-Vitality: 80 (9d10+20)  
-Speed: 20 ft, Fly 40 ft  
-Size: Large  
-Height: 9–10 ft  
-Weight: 1,200–1,800 lbs  
-Appearance: A corpulent boar-ape with greasy wings too small for its bulk, jewelry made from teeth, and a crown of bone jutting from a bald scalp. Its laughter sounds like a slaughterhouse drain.  
-Disposition: Judge of despair. It revels in breaking morale—mocking, taunting, and devouring panic before flesh. In battle it wades into the squishiest cluster, body-checks foes with its gut, and explodes in radiant-corrupt light to scatter the faithful. If its prey steadies, it retreats to the air to rain contempt until the center snaps.  
-STR: 21 (+5) | DEX: 10 (+0) | CON: 22 (+6) | INT: 19 (+4) | WIS: 12 (+1) | CHA: 15 (+2)  
-Resistances: Fire  
-Weaknesses: Radiant  
-Abilities:  
-Tusk/Claw: Melee Attacks +10 to hit; Tusk 4d10+5 piercing; Claw 3d12+5 slashing.  
-Horror Nimbus (Recharge 5–6): 15-ft radius; creatures make a DC 17 WIS save or are Frightened and take 4d8 psychic (half and no fear on success).
+- **Type:** Fiend
+- **CR:** 13
+- **AC:** 56
+- **HP:** 3,200 (85d12+1,700)
+- **Vitality:** 1,600 (85d10+850)
+- **Speed:** 30 ft, Fly 60 ft
+- **Size:** Large (9–10 ft, 1,200–1,800 lbs)
+- **Appearance:** A corpulent boar-ape with greasy wings too small for its bulk, jewelry made from teeth, and a crown of bone jutting from a bald scalp. Its laughter sounds like a slaughterhouse drain.
+- **Disposition:** Judge of despair. It revels in breaking morale—mocking, taunting, and devouring panic before flesh. In battle it wades into the squishiest cluster, body-checks foes with its gut, and explodes in radiant-corrupt light to scatter the faithful. If its prey steadies, it retreats to the air to rain contempt until the center snaps.
+
+**Attributes**
+- STR: 72 (+31)
+- DEX: 32 (+11)
+- CON: 75 (+32)
+- INT: 50 (+20)
+- WIS: 40 (+15)
+- CHA: 45 (+17)
+
+**Resistances:** Fire, Poison, Bludgeoning (non-magical)  
+**Weaknesses:** Radiant
+
+**Abilities**
+- **Tusk.** Melee Attack: +38 to hit, 10d12+31 piercing damage.
+- **Claw.** Melee Attack: +38 to hit, 8d12+31 slashing damage.
+- **Horror Nimbus (Recharge 5–6).** All creatures within 30 ft must succeed on a DC 56 WIS save or be Frightened for 3 turns and take 12d12 Psychic Damage (half damage and no fear on success).
+- **Mocking Feast (Passive).** Whenever the Nalfeshnee reduces a creature to 0 HP, all enemies within 20 ft must make a DC 56 CHA save or have Disadvantage on their next attack.

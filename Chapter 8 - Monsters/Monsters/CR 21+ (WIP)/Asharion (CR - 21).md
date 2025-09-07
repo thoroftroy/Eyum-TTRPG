@@ -1,4 +1,4 @@
-Type: Elemental Beast
+Type: Elemental
 CR: 21
 AC: 23
 HP: 750 (50d12+320)

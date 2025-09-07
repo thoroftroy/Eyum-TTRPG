@@ -1,4 +1,4 @@
-Type: God
+Type: Eldritch Horror
 CR: 80
 AC: 50
 HP: 20,000

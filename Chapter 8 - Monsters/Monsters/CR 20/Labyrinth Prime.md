@@ -1,18 +1,27 @@
-Type: Construct  
-CR: 20  
-AC: 25  
-HP: 720 (42d12+420)  
-Vitality: 440 (36d10+252)  
-Speed: 40 ft  
-Size: Huge  
-Height: 20–24 ft  
-Weight: 20–30 tons  
-Appearance: A titan of sliding plates and revolving arches, each surface carved with floor plans from cities that never were. Its eyes are compass roses; its breath smells of chalk and old blueprints. Footfalls stamp tiles that rise into steps, then stairs, then corridors that go where the Prime wishes. Its shadow is always a map—never of here.  
-Disposition: Cartographer-killer. The Prime does not pursue; it **re-routes**. It inserts walls between allies, folds floors into ramps that feed you into oubliettes, and pins the brave with the weight of a hallway turned sideways. It prefers captures to kills—each prisoner a guarantee that the party must come deeper, on its terms, along paths it has already solved.  
-STR: 28 (+9) | DEX: 16 (+3) | CON: 30 (+10) | INT: 18 (+4) | WIS: 18 (+4) | CHA: 16 (+3)  
-Resistances: Physical (non-magical), Psychic  
-Weaknesses: Thunder  
-Abilities:  
-Architect’s Hammer: Melee Attack +18 to hit, **12d10+9** bludgeoning; on hit, raise a 5-ft-thick wall panel adjacent to the target (AC 18, 40 HP) that grants the Prime half cover until destroyed.  
-Maze Pulse (Recharge 5–6): 60-ft cone; creatures make a DC **24** INT save or are **Banished** into a sub-maze (speed 0, can take actions but can’t affect the battlefield) until they succeed on a DC **24** INT check at the end of their turns to escape.  
-Redirect Path: As a reaction when a creature within 30 ft would move, force a DC **24** WIS save or turn the movement up to 90°.
+- **Type:** Construct
+- **CR:** 20
+- **AC:** 490
+- **HP:** 68,000 (1,360d12+34,000)
+- **Vitality:** 50,000 (1,000d10+25,000)
+- **Speed:** 50 ft
+- **Size:** Huge (20–24 ft, 20–30 tons)
+- **Appearance:** A titan of sliding plates and revolving arches, its body is a shifting fortress. Surfaces are carved with floor plans of impossible cities, eyes glow as compass roses, and each breath smells of chalk and dust. Footsteps reshape the battlefield into stairs, ramps, or corridors at will. Its shadow never matches the present—always mapping another place.
+- **Disposition:** Cartographer-killer. The Prime doesn’t chase—it reroutes. Walls appear where allies stood, floors tilt into pits, and hallways fold sideways to trap the bold. It seeks control over slaughter, capturing foes to force them deeper into its solved puzzle.
+
+**Attributes**
+- STR: 150 (+65)
+- DEX: 100 (+40)
+- CON: 160 (+70)
+- INT: 110 (+45)
+- WIS: 120 (+50)
+- CHA: 90 (+35)
+
+**Resistances:** Psychic; Physical (non-magical); Force  
+**Weaknesses:** Thunder
+
+**Abilities**
+- **Architect’s Hammer.** Melee Weapon Attack: +60 to hit, reach 20 ft, one target. Hit: **55d12+65 bludgeoning**. On hit, a **10-ft-thick wall panel** rises adjacent to the target (AC 95, 2,000 HP, immune to psychic and poison). The wall grants the Prime **three-quarters cover** until destroyed.
+- **Maze Pulse (Recharge 5–6).** 120-ft cone. Each creature must succeed on a DC **98 INT save** or be **Banished** into a sub-maze. While banished, the creature has **speed 0**, can act on its own turn, but cannot affect or perceive the battlefield. At the **end of each of its turns**, it may attempt a DC **98 INT check**. On success, it escapes to the nearest open space.
+- **Redirect Path (Reaction).** When a creature within 60 ft attempts to move, the Prime forces a DC **96 WIS save**. On failure, the creature’s movement is rotated up to **180°** to a direction of the Prime’s choice (cannot move into hazardous terrain unless already moving there).
+- **Living Maze (Passive).** The area within 300 ft of the Prime constantly reshapes. All terrain counts as **difficult terrain** for enemies. When a creature uses movement, roll 1d6: on a 5–6, a wall rises to block line of sight until destroyed (AC 90, 1,500 HP).
+- **Imprisoning Fold (Recharge 6).** The Prime folds the battlefield into itself. All enemies within 200 ft must succeed on a DC **98 STR save** or be crushed into a prison-hallway. While trapped, they are **Restrained**, take **20d12 bludgeoning** at the start of their turn, and can only escape by destroying the fold (AC 95, 3,000 HP).

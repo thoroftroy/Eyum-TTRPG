@@ -1,4 +1,4 @@
-Type: Eldritch Entity
+Type: Eldritch Horror
 CR: 40
 AC: 38
 HP: 4,000 (250d12+2,000)

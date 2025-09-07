@@ -1,4 +1,4 @@
-Type: Lesser Demon God
+Type: Eldritch Horror
 CR: 24
 AC: 26
 HP: 1,100 (75d12+480)

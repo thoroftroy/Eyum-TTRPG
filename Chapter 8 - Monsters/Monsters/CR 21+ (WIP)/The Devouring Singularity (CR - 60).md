@@ -1,4 +1,4 @@
-Type: Cosmic Cataclysm
+Type: Eldritch Horror
 CR: 60
 AC: 50
 HP: 10,000 

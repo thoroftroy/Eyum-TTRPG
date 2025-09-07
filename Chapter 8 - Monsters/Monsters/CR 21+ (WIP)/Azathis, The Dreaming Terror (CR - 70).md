@@ -1,4 +1,4 @@
-Type: Ultimate Eldritch Horror
+Type: Eldritch Horror
 CR: 70
 AC: 45
 HP: 12,000 (800d12+4,000)

@@ -1,4 +1,4 @@
-Type: Cosmic Entity
+Type: Eldritch Horror
 CR: 30
 AC: 32
 HP: 2,000 (120d12+1,000)
