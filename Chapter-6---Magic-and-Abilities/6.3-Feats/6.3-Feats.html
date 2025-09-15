@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>6.3 Feats</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="6.3 Feats"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="6.3 Feats"/><meta name="twitter:description" content="General rules: Each feat can only be taken once. When you gain a feat, you may instead take +2 Stat Points or +4 Affinity Points."/><meta property="og:description" content="General rules: Each feat can only be taken once. When you gain a feat, you may instead take +2 Stat Points or +4 Affinity Points."/><meta property="og:image:alt" content="General rules: Each feat can only be taken once. When you gain a feat, you may instead take +2 Stat Points or +4 Affinity Points."/><meta property="twitter:domain" content="/Eyum-TTRPG"/><meta property="og:url" content="https://eyum-ttrpg/Chapter-6---Magic-and-Abilities/6.3-Feats/6.3-Feats"/><meta property="twitter:url" content="https://eyum-ttrpg/Chapter-6---Magic-and-Abilities/6.3-Feats/6.3-Feats"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="General rules: Each feat can only be taken once. When you gain a feat, you may instead take +2 Stat Points or +4 Affinity Points."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbWljcm93YXZlZHRoZWJhYnkvRG9jdW1lbnRzL0V5dW0gVFRSUEcvLnF1YXJ0ei1zaXRlL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https:///Eyum-TTRPG/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https:///Eyum-TTRPG/Chapter-6---Magic-and-Abilities/6.3-Feats/6.3-Feats-og-image.webp"/><meta property="og:image:url" content="https:///Eyum-TTRPG/Chapter-6---Magic-and-Abilities/6.3-Feats/6.3-Feats-og-image.webp"/><meta name="twitter:image" content="https:///Eyum-TTRPG/Chapter-6---Magic-and-Abilities/6.3-Feats/6.3-Feats-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Chapter-6---Magic-and-Abilities/6.3-Feats/6.3-Feats"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-557"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-557" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Chapter-6---Magic-and-Abilities/">Chapter 6   Magic and Abilities</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Chapter-6---Magic-and-Abilities/6.3-Feats/">6.3 Feats</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>6.3 Feats</a></div></nav><h1 class="article-title">6.3 Feats</h1><p show-comma="true" class="content-meta"><time datetime="2025-09-03T23:02:53.717Z">Sep 03, 2025</time><span>13 min read</span></p></div></div><article class="popover-hint"><p><strong>General rules:</strong> Each feat can only be taken once. When you gain a feat, you may instead take <strong>+2 Stat Points</strong> <em>or</em> <strong>+4 Affinity Points</strong>.</p>
+<h3 id="standard-feats">Standard Feats<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#standard-feats" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Feat</th><th>Effect</th><th>Prerequisite</th></tr></thead><tbody><tr><td><strong>Acrobatic Reflexes</strong></td><td>+2 to DEX saving throws; advantage on Acrobatics checks in combat maneuvers.</td><td>None</td></tr><tr><td><strong>Arcane Adept</strong></td><td>−10% spell resource costs; +1 to spell attack modifier.</td><td>INT 12+</td></tr><tr><td><strong>Arcane Efficiency</strong></td><td>Reduce the mana cost of all spells by <strong>2 × totalLevel</strong> (stacks; cannot go below 1).</td><td>Magical class 1+; total level > 10</td></tr><tr><td><strong>Arcane Fusion</strong></td><td>Combine two low-level spells (each &lt;20 mana) into one effect (GM discretion; roughly equal to both cast separately, single action).</td><td>Magical class 3+; WIS 13+</td></tr><tr><td><strong>Arcane Intuition</strong></td><td>+4 to Arcana checks.</td><td>INT 12+</td></tr><tr><td><strong>Arcane Mark</strong></td><td>Place a magical mark on an enemy; subsequent attacks deal +2d6 damage.</td><td>Magical class 1+</td></tr><tr><td><strong>Arcane Resurgence</strong></td><td>On a critical hit, restore <strong>2d10 Mana</strong>.</td><td>Magical class 1+</td></tr><tr><td><strong>Arcane Reversal</strong></td><td>Once per encounter, reflect <strong>50%</strong> of incoming magical damage back to the caster.</td><td>Magical class 1+</td></tr><tr><td><strong>Arcing Spell</strong></td><td>Targeted spells can curve around cover/corners if in range and you know the targets’ locations; still make attack rolls; no effect on save-only AoEs. For multi-target/piercing spells, choose valid targets per instance (can’t exceed base targets/range).</td><td>INT/ WIS/ CHA 18+ and at least 1 level in a magical class</td></tr><tr><td><strong>Avatar’s Might</strong></td><td>Choose Fire/Earth/Water/Air; your damage of that element <strong>ignores resistance and immunity</strong>.</td><td>Chosen Elemental Affinity 15+</td></tr><tr><td><strong>Battle Hardened</strong></td><td>+5 maximum Vitality <strong>per level</strong>; +1 bonus on CON saves.</td><td>None</td></tr><tr><td><strong>Battle Momentum</strong></td><td>+2 to attack rolls for each consecutive hit (up to +10); resets when you take damage or at end of combat.</td><td>Physical class 1+</td></tr><tr><td><strong>Battlefield Awareness</strong></td><td>+2 to Initiative; +10 Passive Perception during combat; advantage on opportunity attacks.</td><td>None</td></tr><tr><td><strong>Battlefield Medic</strong></td><td>Once per combat, heal self or ally for <strong>1d8 + your total level</strong>.</td><td>WIS 12+</td></tr><tr><td><strong>Beast Bond</strong></td><td>Bonded mount: telepathy 100 ft; mount +10 max Vitality and adds your WIS mod to saves; 1/long rest, mount drops to 1 HP instead of 0 and is immune to damage until end of its next turn; mount cannot be controlled/taken unless you fail <strong>WIS save DC 10</strong>.</td><td>WIS 14+</td></tr><tr><td><strong>Berserker Rage</strong></td><td>When &lt;75% HP, enter 3-turn rage: +3 melee attack rolls/accuracy; +5 melee damage; resistance to all <strong>non-magical</strong> damage.</td><td>STR 13+</td></tr><tr><td><strong>Blinding Precision</strong></td><td>On a <strong>19–20</strong> melee or ranged attack roll, target must succeed <strong>DEX save DC (10 + half level)</strong> or be <strong>Blinded</strong> until end of next turn.</td><td>Base Ranged Accuracy +5 or higher</td></tr><tr><td><strong>Bulwark</strong></td><td><em>(Toggle, bonus action)</em> +3 AC while active; you suffer <strong>disadvantage on all attack rolls</strong>.</td><td>CON 14+</td></tr><tr><td><strong>Cavalier Training</strong></td><td>Mount/dismount as a free action once/turn; if your mount moves ≥30 ft in a straight line, your first melee attack that turn deals <strong>+10 damage</strong>; advantage on saves to remain mounted.</td><td>DEX 13+</td></tr><tr><td><strong>Combat Intuition</strong></td><td>+5 to attack rolls made <strong>using a reaction</strong>.</td><td>DEX 13+</td></tr><tr><td><strong>Critical Reflexes</strong></td><td>Once per encounter, automatically dodge one incoming attack that would have been fatal.</td><td>DEX 14+</td></tr><tr><td><strong>Crippling Strikes</strong></td><td>On a successful melee attack, apply <strong>Crippling</strong>: −10 ft movement and <strong>disadvantage on all attack rolls</strong> until end of next turn.</td><td>STR or DEX 15+</td></tr><tr><td><strong>Deflect Arrows</strong></td><td>Once per round, deflect an incoming ranged attack to <strong>0 damage</strong> (reaction).</td><td>DEX 13+</td></tr><tr><td><strong>Defensive Casting</strong></td><td>While concentrating on a spell, gain <strong>+5 AC</strong>.</td><td>Magical class 1+; WIS 13+</td></tr><tr><td><strong>Defensive Reflexes</strong></td><td>AoE attacks <strong>no longer bypass Vitality</strong> for you.</td><td>DEX 17+</td></tr><tr><td><strong>Defensive Stance</strong></td><td>While using a shield: +2 AC and +1 on reaction-based defense checks.</td><td>Shield proficiency</td></tr><tr><td><strong>Divine Inspiration</strong></td><td>When critically hit, gain Vitality equal to <strong>level + 5</strong>.</td><td>CHA 12+</td></tr><tr><td><strong>Dual Spellcasting</strong></td><td>Cast two low-level (each &lt;20 mana), non-conflicting spells as one action (<strong>−1</strong> to spell attack rolls when dual-cast).</td><td>Magical class <strong>4+</strong></td></tr><tr><td><strong>Dual Wielder</strong></td><td>While dual-wielding, +3 to attack rolls with <strong>both</strong> weapons.</td><td>DEX 13+</td></tr><tr><td><strong>Dwarven Stamina</strong></td><td>+2 to CON saves; +5 Vitality <strong>per level</strong>.</td><td>CON 13+</td></tr><tr><td><strong>Eagle Eye</strong></td><td>+50% visual range; +1 to ranged attack rolls.</td><td>WIS 12+</td></tr><tr><td><strong>Efficient Cast</strong></td><td><strong>−50%</strong> cost to all spells.</td><td>Magical class 1+; WIS 14+</td></tr><tr><td><strong>Elemental Affinity</strong></td><td>Gain <strong>+10 Affinity</strong> in one of the four elemental types.</td><td>Magical class 1+</td></tr><tr><td><strong>Elemental Mastery</strong></td><td>Master one element: gain <strong>+10 Affinity</strong> in that element; if it was &lt;0, set to 0 then add 10.</td><td>Magical class 1+</td></tr><tr><td><strong>Elemental Resistance</strong></td><td>Choose one element (fire, cold, etc.): <strong>50% damage reduction</strong> from that element.</td><td>None</td></tr><tr><td><strong>Elemental Surge</strong></td><td>1/day for 6 rounds, imbue weapon with an element; add your <strong>Affinity modifier</strong> of that element to attack damage.</td><td>Magical class 1+</td></tr><tr><td><strong>Elemental Torrent</strong></td><td>When casting an elemental-damage spell, add a second element you have <strong>+5 Affinity</strong> in; damage becomes combined element and <strong>+50% total damage</strong> (combination replaces original type).</td><td>+5 Affinity in <strong>two</strong> elements</td></tr><tr><td><strong>Elven Agility</strong></td><td>+2 to DEX checks; immune to <strong>difficult terrain</strong>.</td><td>DEX 13+</td></tr><tr><td><strong>Energy From Nothing</strong></td><td>As a bonus action, convert <strong>10 Mana → 10 Vitality</strong> (not above max).</td><td>1+ level of <strong>Energyweaver</strong></td></tr><tr><td><strong>Enhanced Senses</strong></td><td>Advantage on <strong>Search, Spot, Investigation</strong> checks.</td><td>WIS 12+</td></tr><tr><td><strong>Ethereal Step</strong></td><td>Once per short rest, <strong>phase</strong> for 1 round: <strong>−50% incoming damage</strong>.</td><td>None</td></tr><tr><td><strong>Evasive Maneuvers</strong></td><td><strong>+2 AC</strong>.</td><td>DEX 13+</td></tr><tr><td><strong>Fearless</strong></td><td>Immune to <strong>fear</strong>; advantage on saves against <strong>Intimidation</strong>.</td><td>None</td></tr><tr><td><strong>Fleet-Footed</strong></td><td>+10 ft base speed; advantage on escape-related checks.</td><td>DEX 12+</td></tr><tr><td><strong>Flawless Parry</strong></td><td>Once per combat, negate damage from one <strong>melee</strong> attack (reaction).</td><td>DEX 14+</td></tr><tr><td><strong>Focused Mind</strong></td><td>Advantage on <strong>Concentration</strong> checks to maintain spells in combat.</td><td>Magical class 1+</td></tr><tr><td><strong>Focused Shot</strong></td><td>If you spend <strong>all movement</strong> (and didn’t move), your <strong>first ranged attack</strong> this turn deals <strong>double damage</strong>.</td><td>DEX 12+</td></tr><tr><td><strong>Fortified Mind</strong></td><td>+2 on saving throws vs <strong>Psychic</strong> and <strong>Enchantment</strong> effects.</td><td>None</td></tr><tr><td><strong>Guardian Angel</strong></td><td>Once per encounter, use reaction to intercept damage to ally within 10 ft, reducing it by <strong>50%</strong>.</td><td>WIS 12+</td></tr><tr><td><strong>Guardian Rider</strong></td><td>While mounted, reaction to intercept an attack at your mount (you take it); allies within 5 ft of your mount gain <strong>+1 AC</strong>; your mount gains <strong>+2</strong> to saves vs panic/forced movement.</td><td>CON 13+</td></tr><tr><td><strong>Guerrilla Tactics</strong></td><td><strong>Disengage</strong> as a bonus action; gain <strong>+1 Bonus Action Point</strong>.</td><td>DEX 15+</td></tr><tr><td><strong>Hardened Resolve</strong></td><td>+4 on saves vs charm, compulsion, and mind-altering effects.</td><td>WIS 12+</td></tr><tr><td><strong>Improved Initiative</strong></td><td><strong>+5</strong> to Initiative.</td><td>None</td></tr><tr><td><strong>Iron Constitution</strong></td><td>+5 max Vitality <strong>per level</strong>; <strong>advantage</strong> on CON saving throws.</td><td>CON 13+</td></tr><tr><td><strong>Iron Grip</strong></td><td>+4 on checks to <strong>grapple</strong> or <strong>disarm</strong>.</td><td>STR 13+</td></tr><tr><td><strong>Iron Will</strong></td><td>+3 on saves vs mind-altering effects.</td><td>WIS 12+</td></tr><tr><td><strong>Ironclad Defense</strong></td><td>While wearing <strong>Heavy Armor</strong>, immune to <strong>non-magical slashing &amp; bludgeoning</strong> damage.</td><td>CON 15+; Heavy Armor proficiency</td></tr><tr><td><strong>Ironhide</strong></td><td><strong>+1 AC</strong>.</td><td>CON 12+</td></tr><tr><td><strong>Lucky Charm</strong></td><td><strong>3/day</strong>, reroll a failed check and use the new result.</td><td>None</td></tr><tr><td><strong>Magical Resistance</strong></td><td>+2 on saving throws vs spells and magical effects.</td><td>None</td></tr><tr><td><strong>Magical Resistance Training</strong></td><td>After being hit by a spell, gain <strong>resistance to that damage type for 3 turns</strong> (up to 3 simultaneous resistances).</td><td>At least 1 level in <strong>Barbarian, Fighter, or Bard</strong></td></tr><tr><td><strong>Mana Leech</strong></td><td>When a creature within 20 ft drops to 0 HP, regain <strong>5 Mana</strong> (once per creature per round; unlimited total per round).</td><td>CON 15+</td></tr><tr><td><strong>Martial Mastery</strong></td><td>+1 to attack and damage rolls with <strong>all martial and improvised weapons</strong>.</td><td>Martial weapons proficiency</td></tr><tr><td><strong>Master of Disguise</strong></td><td>+10 to <strong>Deception</strong> and <strong>Performance</strong> when impersonating others.</td><td>CHA 12+</td></tr><tr><td><strong>Master Swordsman</strong></td><td><strong>+5 base melee damage</strong> when using <strong>swords</strong>.</td><td>Sword proficiency</td></tr><tr><td><strong>Master Tactician</strong></td><td><strong>+15 to all ranged attack rolls</strong> while in cover.</td><td>INT 15+</td></tr><tr><td><strong>Mind Over Matter</strong></td><td><strong>Immune to Exhaustion</strong>.</td><td>CON 18+</td></tr><tr><td><strong>Mounted Warrior</strong></td><td>No disadvantage for ranged attacks while mounted; while riding: <strong>+2 to hit</strong> on melee, <strong>+5 ft melee reach</strong>, <strong>+10 ft movement</strong>.</td><td>None</td></tr><tr><td><strong>Mystic Shield</strong></td><td>Once per combat, create a barrier absorbing <strong>10 damage</strong> for <strong>2 rounds</strong>.</td><td>None</td></tr><tr><td><strong>Mystic Trickery</strong></td><td>On attack, target must make <strong>WIS save DC (10 + totalLevel)</strong> or become <strong>distracted</strong> (−5 AC) for 1 round.</td><td>Magical class 1+; CHA 15+</td></tr><tr><td><strong>Natural Camouflage</strong></td><td>Advantage on Stealth checks in <strong>natural outdoor</strong> environments.</td><td>DEX 12+</td></tr><tr><td><strong>Nature’s Ally</strong></td><td>+10 bonus on <strong>Survival</strong> and <strong>Nature</strong> checks when outdoors.</td><td>WIS 15+ <em>or</em> 1+ level of <strong>Druid</strong></td></tr><tr><td><strong>Overwhelming Presence</strong></td><td>All enemies who can see you must make a <strong>WIS save (DC = your Intimidation modifier)</strong> each round or be <strong>Frightened</strong>.</td><td>Intimidation +10 or higher</td></tr><tr><td><strong>Pivot Step</strong></td><td>When a creature misses you with a melee attack, reaction: <strong>move 10 ft</strong> without provoking opportunity attacks.</td><td>DEX 12+</td></tr><tr><td><strong>Precise Strikes</strong></td><td>Critical Hit threshold <strong>reduced by 2</strong> for melee and ranged attacks.</td><td>DEX 13+</td></tr><tr><td><strong>Quick Draw</strong></td><td>Gain an extra <strong>Action or Bonus Action</strong> during the <strong>first round</strong> of combat.</td><td>DEX 13+</td></tr><tr><td><strong>Quick Learner</strong></td><td>Gain <strong>+3 Skill Points every level</strong>.</td><td>None</td></tr><tr><td><strong>Quick Recovery</strong></td><td><strong>−50% duration</strong> of negative status effects on you.</td><td>CON 12+</td></tr><tr><td><strong>Quick Reflexes</strong></td><td><strong>Immune to surprised</strong>.</td><td>DEX 13+</td></tr><tr><td><strong>Rapid Advancement</strong></td><td>Gain <strong>expertise with two skills</strong> of your choice (no proficiency required).</td><td>None</td></tr><tr><td><strong>Rapid Cast</strong></td><td>Optionally cast spells as a <strong>bonus action</strong> if their mana cost is <strong>&lt;20</strong>.</td><td>Magical class 1+</td></tr><tr><td><strong>Rapid Reload</strong></td><td>When attacking with a ranged weapon, make <strong>one additional attack</strong>.</td><td>DEX 13+</td></tr><tr><td><strong>Resilient Constitution</strong></td><td>For <strong>each level</strong>, add your <strong>CON modifier</strong> to your Hit Points.</td><td>CON 16+</td></tr><tr><td><strong>Resolute Mind</strong></td><td>Advantage on saves vs charm, fear, confusion; on a successful save, immediately make a free <strong>Intimidation or Insight</strong> check.</td><td>WIS 12+</td></tr><tr><td><strong>Resistive Training (Elemental)</strong></td><td>Choose Fire/Earth/Water/Air/Radiant/Necrotic/Psychic: gain <strong>resistance</strong> (50% reduction); at <strong>level 15</strong>, upgrades to <strong>immunity</strong>. May take multiple times for different elements, but only <strong>one immunity</strong> active at a time.</td><td>CON 18+; magical class 1+</td></tr><tr><td><strong>Resistive Training (Physical)</strong></td><td>Choose Slashing/Bludgeoning/Piercing: gain <strong>resistance</strong>; at <strong>level 15</strong>, upgrades to <strong>immunity</strong>. May take multiple times for different types, but only <strong>one immunity</strong> active at a time.</td><td>CON 18+; physical class 1+</td></tr><tr><td><strong>Shadow Step</strong></td><td><strong>Once per encounter</strong>, teleport up to <strong>30 ft</strong> to a spot in <strong>dim light or darkness</strong>.</td><td>DEX 14+</td></tr><tr><td><strong>Shadow Veil</strong></td><td>While <strong>not moving</strong> and in <strong>darkness</strong>, become <strong>totally invisible</strong>; guarantees success on Stealth rolls.</td><td>DEX 17+</td></tr><tr><td><strong>Sharpshooter</strong></td><td>+20 ft to ranged weapon <strong>range</strong>; +2 to ranged <strong>attack rolls</strong>.</td><td>Ranged weapon proficiency</td></tr><tr><td><strong>Siphon Life</strong></td><td>Regain Vitality equal to <strong>half damage dealt</strong> (rounded down) on a successful attack (magical, ranged, or melee).</td><td>Magical class 1+</td></tr><tr><td><strong>Silent Footsteps</strong></td><td>Advantage on Stealth checks <strong>when moving</strong>, regardless of surface.</td><td>DEX 12+</td></tr><tr><td><strong>Spell Channeler</strong></td><td>Infuse melee attacks with magic: add <strong>+4d4 elemental damage</strong> on hit.</td><td>Magical class 1+</td></tr><tr><td><strong>Spell Echo</strong></td><td>When casting a spell costing <strong>>40 Mana</strong>, cast it <strong>again as a bonus action next turn</strong> (second cast <strong>−2 damage</strong>).</td><td>Magical class 1+</td></tr><tr><td><strong>Spell Penetration</strong></td><td>Your spells <strong>bypass all resistances</strong>.</td><td>Magical class 1+</td></tr><tr><td><strong>Spell Savant</strong></td><td><strong>Advantage</strong> on spell attack rolls.</td><td>INT 13+</td></tr><tr><td><strong>Steadfast</strong></td><td>Always succeed checks to remain conscious after losing <strong>half</strong> of total HP.</td><td>CON 12+</td></tr><tr><td><strong>Stealth Expert</strong></td><td>Advantage on Stealth checks, even in partially lit or open areas.</td><td>DEX 13+</td></tr><tr><td><strong>Stone Skin</strong></td><td><em>(Reaction)</em> Reduce incoming <strong>physical</strong> (melee or ranged) damage by <strong>5</strong>; <strong>uses per long rest = total level</strong>.</td><td>CON 15+</td></tr><tr><td><strong>Swift Climber</strong></td><td>Climb at normal speed over difficult surfaces; advantage on Athletics (climb).</td><td>STR 12+</td></tr><tr><td><strong>Swift Strike</strong></td><td>Once per turn, make a <strong>bonus-action melee attack</strong> with <strong>−3 accuracy</strong>.</td><td>DEX 13+</td></tr><tr><td><strong>Swift Striker</strong></td><td><strong>+4</strong> to your <strong>first</strong> melee or ranged attack roll in any combat encounter.</td><td>DEX 12+</td></tr><tr><td><strong>Tactical Commander</strong></td><td>Allies within 30 ft gain <strong>+1 to attack rolls</strong>.</td><td>CHA 12+</td></tr><tr><td><strong>Tactical Patience</strong></td><td>If you <strong>don’t spend all AP</strong> on your turn, gain <strong>+5 AC</strong> and <strong>+2 to saving throws</strong> until your next turn.</td><td>INT 10+</td></tr><tr><td><strong>Thundering Charge</strong></td><td>After <strong>Dash</strong>, your next <strong>melee</strong> hit deals <strong>+3d6</strong> damage.</td><td>STR 12+</td></tr><tr><td><strong>Tinkerer’s Insight</strong></td><td>+5 to <strong>crafting</strong> checks; crafted items sell for <strong>+25%</strong>; identify mundane tools/devices after <strong>10 minutes</strong> of study.</td><td>INT 12+</td></tr><tr><td><strong>Trickster</strong></td><td>+5 to <strong>Deception</strong> and <strong>Sleight of Hand</strong> checks.</td><td>CHA 12+</td></tr><tr><td><strong>Unbreakable</strong></td><td>When reduced to 0 HP, <strong>once per day</strong> stay at <strong>1 HP</strong> for 1 round: <strong>immune to damage &amp; negative effects</strong>, +5 movement; <strong>die after</strong> unless healed.</td><td>CON 14+</td></tr><tr><td><strong>Unerring Aim</strong></td><td><strong>+10 base ranged damage</strong> against targets you <strong>haven’t missed yet</strong> (must hit at least once first).</td><td>DEX 13+</td></tr><tr><td><strong>Unseen Assassin</strong></td><td>From <strong>Stealth</strong>, gain <strong>+3d6 base damage</strong> on attacks (requires successful Stealth check).</td><td>DEX 14+</td></tr><tr><td><strong>Unstoppable Recovery</strong></td><td>At 0 HP, roll <strong>d20</strong>: on a <strong>20</strong>, regain <strong>1 HP</strong> and act normally next turn; may repeat as long as you keep rolling 20s; can use reroll effects.</td><td>None</td></tr><tr><td><strong>Unyielding</strong></td><td>Advantage on checks to resist <strong>knockdowns</strong> and <strong>grapples</strong>.</td><td>STR 12+</td></tr><tr><td><strong>Vengeful Strike</strong></td><td>After taking damage, your <strong>next melee attack</strong> deals <strong>+2d6</strong> damage.</td><td>STR 12+</td></tr><tr><td><strong>Vigilant Guardian</strong></td><td>When an enemy attacks an ally within 5 ft, you may use a <strong>reaction</strong> to make a <strong>melee attack</strong> against that enemy.</td><td>None</td></tr><tr><td><strong>Weapon Mastery</strong></td><td>Choose one weapon type: gain <strong>proficiency</strong> and <strong>+3 to attack &amp; damage</strong> with it; if already proficient, gain <strong>Expertise</strong> instead.</td><td>None</td></tr></tbody></table></div>
+<h3 id="high-level-feats">High Level Feats<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#high-level-feats" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Feat</th><th>Effect</th><th>Prerequisite</th></tr></thead><tbody><tr><td><strong>Veteran’s Poise [11+]</strong></td><td>If you spend <strong>0 ft</strong> of movement on your turn, you gain <strong>+2 AC</strong> and <strong>advantage on opportunity attacks</strong> until the start of your next turn.</td><td>Total level <strong>>10</strong></td></tr><tr><td><strong>Adaptive Guard [11+]</strong></td><td>The <strong>first time</strong> you take a damage type in a combat, you gain <strong>resistance</strong> to that type <strong>until the end of combat</strong>.</td><td>Total level <strong>>10</strong></td></tr><tr><td><strong>Blood Furnace [11+]</strong></td><td>When you take <strong>≥25 damage in a round</strong>, immediately regain <strong>10 Mana</strong> and gain <strong>+1 to spell attack rolls</strong> until end of your next turn. <strong>1/encounter</strong>.</td><td>Total level <strong>>10</strong></td></tr><tr><td><strong>Precision Volley [11+]</strong></td><td>On a <strong>critical hit</strong> with a ranged weapon, you may make <strong>one additional ranged attack</strong> at a different target within <strong>30 ft</strong> of the original (−2 to the attack roll).</td><td>Total level <strong>>10</strong>; Ranged weapon proficiency</td></tr><tr><td><strong>Riposte Mastery [11+]</strong></td><td>When a creature <strong>misses you with a melee attack</strong>, you may use your <strong>reaction</strong> to make <strong>one melee attack</strong> against that creature. If it hits, deal double damage.</td><td>Total level <strong>>10</strong>; STR or DEX <strong>13+</strong></td></tr><tr><td><strong>Spell Pressure [11+]</strong></td><td>When a creature <strong>fails a save</strong> against your spell, it suffers <strong>−2 AC</strong> and <strong>−2 to Concentration checks</strong> until the start of <strong>your</strong> next turn.</td><td>Total level <strong>>10</strong>; at least 1 level in a magical class</td></tr><tr><td><strong>Phalanx Breaker [11+]</strong></td><td>Your melee attacks <strong>ignore +2 AC</strong> granted by <strong>shields</strong> and <strong>heavy armor</strong>. When you <strong>Shove</strong>, add <strong>+5</strong> to the check; on success, you may also push the target an additional <strong>5 ft</strong>.</td><td>Total level <strong>>10</strong></td></tr><tr><td><strong>Arcane Skirmisher [11+]</strong></td><td>After you cast a spell that costs <strong>&lt;30 Mana</strong>, you may make <strong>one weapon attack</strong> as a <strong>bonus action</strong> (<strong>−2</strong> to the attack roll).</td><td>Total level <strong>>10</strong>; magical class 1+</td></tr><tr><td><strong>Master Overchannel [21+]</strong></td><td><strong>1/encounter:</strong> cast an attack spell (cost <strong>≤60 Mana</strong>) as a <strong>bonus action</strong> instead of an action; it deals <strong>+50% total damage</strong> You take <strong>1d6 Force</strong> per 10 Mana spent this way (rounded up).</td><td>Total level <strong>>20</strong>; magical class 5+</td></tr><tr><td><strong>Juggernaut Rush [21+]</strong></td><td>You <strong>ignore difficult terrain</strong> and <strong>opportunity attacks</strong> during your movement. If you move <strong>≥30 ft</strong> and hit with a melee attack, deal <strong>+2d8</strong> damage and the target must succeed <strong>STR save DC (10 + ½ your level)</strong> or be <strong>Prone</strong>.</td><td>Total level <strong>>20</strong>; STR <strong>15+</strong></td></tr><tr><td><strong>Supreme Archer [21+]</strong></td><td>Your ranged attacks <strong>ignore half and three-quarters cover</strong> and suffer <strong>no long-range penalty</strong>. <strong>Once/turn</strong>, add <strong>+1d8</strong> damage to a ranged hit.</td><td>Total level <strong>>20</strong>; DEX <strong>16+</strong>; Ranged proficiency</td></tr><tr><td><strong>Grand Marshal Aura [21+]</strong></td><td>Allies within <strong>30 ft</strong> of you gain <strong>+1 AC</strong> and <strong>+1d4</strong> to weapon <strong>damage rolls</strong> while you are not incapacitated.</td><td>Total level <strong>>20</strong>; CHA <strong>16+</strong></td></tr><tr><td><strong>Arcane Battery [21+]</strong></td><td>Your maximum Mana increases by <strong>+20</strong>. Whenever you would regain Mana from <strong>any</strong> source, regain <strong>+5</strong> additional Mana.</td><td>Total level <strong>>20</strong>; magical class 1+</td></tr><tr><td><strong>Blood Reaver [21+]</strong></td><td>When you <strong>reduce a creature to 0 HP</strong>, you regain <strong>Vitality equal to your total level</strong> and may move <strong>up to 10 ft</strong> without provoking opportunity attacks.</td><td>Total level <strong>>20</strong></td></tr><tr><td><strong>Temporal Sidestep [21+]</strong></td><td><strong>1/encounter (reaction):</strong> force a <strong>reroll</strong> of an attack roll against you or an ally within <strong>30 ft</strong> (attacker uses the new result). If the attack then misses you may immediately <strong>move 10 ft</strong> without provoking.</td><td>Total level <strong>>20</strong>; INT <strong>15+</strong> or WIS <strong>15+</strong></td></tr><tr><td><strong>Adamant Mind [21+]</strong></td><td>You are <strong>immune</strong> to <strong>Charmed</strong> and <strong>Frightened</strong>. When you would be <strong>Stunned</strong>, you are instead <strong>Slowed</strong> (speed halved; disadvantage on DEX checks) for <strong>1 round</strong>.</td><td>Total level <strong>>20</strong>; CON <strong>16+</strong></td></tr><tr><td><strong>Elemental Overlord [21+]</strong></td><td>Choose one element in which you have <strong>+10 Affinity</strong>. <strong>Once/turn</strong>, when you deal that element’s damage with a spell or weapon, add <strong>+2 damage dice</strong> of the same type (match the spell/weapon’s elemental die size).</td><td>Total level <strong>>20</strong>; Elemental Affinity <strong>+20</strong> (chosen element)</td></tr><tr><td><strong>Archmage’s Paradox [31+]</strong></td><td><strong>1/long rest:</strong> cast <strong>any</strong> spell you know of cost <strong>≤100 Mana</strong> <strong>without paying Mana</strong>. The spell <strong>can’t be countered</strong>, and immunity to its damage is treated as <strong>resistance</strong> instead (resistance still halves).</td><td>Total level <strong>>30</strong>; magical class 10+</td></tr><tr><td><strong>Mythic Slayer [31+]</strong></td><td>Your weapon attacks <strong>crit on 18–20</strong>. On a crit, add <strong>+2d12</strong> extra damage. Creatures with a CR <strong>>20</strong> have <strong>disadvantage</strong> on saves from your attacks.</td><td>Total level <strong>>30</strong>; STR or DEX <strong>18+</strong>; martial proficiency</td></tr><tr><td><strong>Undying Engine [31+]</strong></td><td>While below <strong>50% HP</strong>, you <strong>regenerate 10 Vitality</strong> at the start of each turn. <strong>1/long rest</strong>, when you would drop to 0 HP, drop to <strong>1 HP</strong> instead (no action).</td><td>Total level <strong>>30</strong>; CON <strong>18+</strong></td></tr><tr><td><strong>Reality Anchor [31+]</strong></td><td>You and allies within <strong>10 ft</strong> cannot be <strong>teleported, banished, or forcibly displaced</strong>.</td><td>Total level <strong>>30</strong>; WIS or INT <strong>18+</strong></td></tr><tr><td><strong>Apogee Channel [31+]</strong></td><td>You may <strong>concentrate on up to 3</strong> effects at once. While maintaining <strong>3</strong>, you make Concentration checks at <strong>disadvantage</strong> and take <strong>1d6 Psychic</strong> at the <strong>end of each of your turns</strong>.</td><td>Total level <strong>>30</strong>; magical class 10+</td></tr><tr><td><strong>Godbreaker [31+]</strong></td><td><strong>Once/turn</strong>, one attack or spell you make <strong>ignores all resistances and immunities</strong>. If you have any levels in <strong>Warlock/Cleric</strong>, add <strong>+4d8 Force</strong> to the damage.</td><td>Total level <strong>>30</strong>; STR <strong>18+</strong> or INT <strong>18+</strong></td></tr><tr><td><strong>Prime Tactician [31+]</strong></td><td>At the start of combat, you and allies within <strong>30 ft</strong> gain <strong>+1 Action Point</strong> for <strong>round 1</strong> and you gain +5 to Initiative</td><td>Total level <strong>>30</strong>; INT <strong>17+</strong> or CHA <strong>17+</strong></td></tr><tr><td><strong>Absolute Evasion [31+]</strong></td><td>Against effects you can see, you <strong>automatically succeed</strong> on <strong>DEX/STR saves</strong>;</td><td>Total level <strong>>30</strong>; DEX <strong>18+</strong></td></tr></tbody></table></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-16" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#standard-feats" data-for="standard-feats">Standard Feats</a></li><li class="depth-0"><a href="#high-level-feats" data-for="high-level-feats">High Level Feats</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../Chapter-1---Introduction/1.0-Table-of-Contents" class="internal">1.0 Table of Contents</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.1</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>
