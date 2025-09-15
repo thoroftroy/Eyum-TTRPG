@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c9c270d6a7cfedc",
+            "id": "829f56d0fc8a1c2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Asharion (CR - 21).md",
+                "file": "Chapter 3 - Character Creation/3.3 Classes/Classes/Totals (TEMP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asharion (CR - 21)"
+              "title": "Totals (TEMP)"
+            }
+          },
+          {
+            "id": "74fb5168963871a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 3 - Character Creation/3.3 Classes/Classes/Mixed Classes/Energyweaver (WIP).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Energyweaver (WIP)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,53 +184,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "204db479d051ae72",
+  "active": "74fb5168963871a1",
   "lastOpenFiles": [
-    "Chapter 8 - Monsters/Monsters/CR 20/Tempest Regent.md",
-    "Chapter 8 - Monsters/Monsters/CR 20/Thalgrith.md",
-    "Chapter 8 - Monsters/Monsters/CR 20/Solcryst.md",
-    "Chapter 8 - Monsters/Monsters/CR 20/Pit Fiend.md",
-    "Chapter 8 - Monsters/Monsters/CR 20/Labyrinth Prime.md",
+    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/6.2 Spells.md",
+    "Chapter 3 - Character Creation/3.3 Classes/Classes/Totals (TEMP).md",
+    "Chapter 8 - Monsters/8 Monsters.md",
+    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Thermal/Heat Lance.md",
+    "Chapter 8 - Monsters/Monsters/CR 0/Grubsnout.md",
+    "README.md",
     "Chapter 8 - Monsters/Monsters/CR 20/Chronophage Sovereign.md",
-    "Chapter 8 - Monsters/Monsters/CR 19/Worldroot Behemoth.md",
-    "Chapter 8 - Monsters/Monsters/CR 18/Demilich.md",
-    "Chapter 8 - Monsters/Monsters/CR 18/Void-Harvester Leviathan.md",
-    "Chapter 8 - Monsters/Monsters/CR 19/Umbracrypt.md",
-    "Chapter 8 - Monsters/Monsters/CR 19/Infernal Dreadlord.md",
-    "Chapter 8 - Monsters/Monsters/CR 19/Balor.md",
-    "Chapter 8 - Monsters/Monsters/CR 19/Axiom Sphinx.md",
-    "Chapter 8 - Monsters/Monsters/CR 19/Ash-Throne Imperator.md",
-    "Chapter 8 - Monsters/Monsters/CR 18/Penumbral Seraph.md",
-    "Chapter 8 - Monsters/Monsters/CR 18/Obsidian Basilica.md",
-    "Chapter 8 - Monsters/Monsters/CR 18/Carrionshade.md",
-    "Chapter 8 - Monsters/Monsters/CR 17/Red Dragon.md",
-    "Chapter 8 - Monsters/Monsters/CR 17/Stormshard.md",
-    "Chapter 8 - Monsters/Monsters/CR 17/Androsphinx.md",
-    "Chapter 8 - Monsters/Monsters/CR 17/Goristro.md",
-    "Chapter 8 - Monsters/Monsters/CR 17/Death Knight.md",
-    "Chapter 8 - Monsters/Monsters/CR 17/Colossus.md",
-    "Chapter 8 - Monsters/Monsters/CR 16/Blue Dragon.md",
-    "Chapter 8 - Monsters/Monsters/CR 16/Dreadforged.md",
-    "Chapter 8 - Monsters/Monsters/CR 16/Marilith.md",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Vitalic (Bio)",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Electromagnetic",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Sonic",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Gravitational",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Chemical",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Kinetic",
+    "Chapter 8 - Monsters/Monsters/CR 6/Zephyrix.md",
+    "Chapter 8 - Monsters/Monsters/CR 6/Thalassadon.md",
+    "Chapter 8 - Monsters/Monsters/CR 6/Pyrrhagon.md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Xerathis, the Endbringer (CR - 50).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Xar’zul (CR - 24).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Xal’Zareth (CR - 26).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/True King of the Void (CR - 80).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Titan (CR 21).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/The Devouring Singularity (CR - 60).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Thauron (CR - 23).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Solar (CR - 21).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Primordial Godbeast (CR - 27).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Orreryn (CR - 30).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Orrakar (CR - 22).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Omegathar (CR - 35).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Lich (CR - 21).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Kraken (CR - 23).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Ezereth (CR - 25).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)/Black Maw of Oblivion (The Nothing)  (CR - 40).md",
+    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)",
     "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Thermal",
     "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)",
-    "all_notes.txt",
     "build_quartz_mac.sh",
-    "assets/CharacterSheet.png",
+    "Chapter 9 - Appendices",
+    "Chapter 8 - Monsters/Monsters/CR 9",
+    "Chapter 8 - Monsters/Monsters/CR 8",
+    "Chapter 8 - Monsters/Monsters/CR 7",
+    "Chapter 8 - Monsters/Monsters/CR 6",
+    "Chapter 8 - Monsters/Monsters/CR 5",
     "static/og-image.png",
     "static/icon.png",
-    "index-og-image.webp",
-    "README-og-image.webp",
-    "Non-Formatted-Information-og-image.webp",
-    "Chapter-9---Appendices/9.4-Sample-Adventures-(WIP)-og-image.webp",
-    "Chapter-9---Appendices/9.3-Player's-Guide-og-image.webp",
-    "Chapter-9---Appendices/9.2*-The-Game-Master's-Guide-og-image.webp",
-    "Chapter-9---Appendices/9.1-Glossary-of-Terms-og-image.webp"
+    "Chapter-11---Lore/Characters/Villians/Mr-P-og-image.webp",
+    "Chapter-11---Lore/Characters/Villians/Kahn-og-image.webp",
+    "Chapter-11---Lore/Characters/Main-Characters/Lucian-og-image.webp",
+    "Chapter-11---Lore/Characters/Main-Characters/Illana-og-image.webp",
+    "Chapter-11---Lore/Characters/Main-Characters/George-og-image.webp",
+    "Chapter-11---Lore/Characters/Side-Characters/Ezra-og-image.webp",
+    "Chapter-11---Lore/11.1-Lore-og-image.webp",
+    "Chapter-10---Optional-Rules/Technological-Expansion-og-image.webp"
   ]
 }

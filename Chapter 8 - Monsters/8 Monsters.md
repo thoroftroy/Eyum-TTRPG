@@ -15,7 +15,6 @@ Below is a list of all monsters currently in the TTRPG; This is very much a WIP 
 | [[Badger]]                                                 | 1   | Badgers are stocky, burrowing mammals with gray-striped fur, broad paws, and long claws suited for digging. Their sma... |
 | [[Cockatrice]]                                             | 1   | A mangy, drake-headed bird with shale-colored feathers and a rubbery crest, like a barnyard mistake given spite and w... |
 | [[Giant Spiderling]]                                       | 1   | A giant spiderling resembles a tarantula scaled up to small-dog size. Its furry black body, chittering mandibles, and... |
-| [[Goblin]]                                                 | 1   | Humanoid (Goblinoid)                                                                                                     |
 | [[Hawk]]                                                   | 1   | Hawks are small raptors with sharp talons, keen eyes, and narrow wings adapted for high-speed flight. Their feathers...  |
 | [[Kobold]]                                                 | 1   | Scaly, rust-brown skirmishers with lantern eyes and wiry tails, smelling of oil and dust.                                |
 | [[Noctilure]]                                              | 1   | The Noctilure is a spectral moth like creature with four gossamer wings that ripple with a soft, bluish glow, casting... |
@@ -192,3 +191,13 @@ Below is a list of all monsters currently in the TTRPG; This is very much a WIP 
 | [[Xal’Zareth (CR - 26)]]                                   | 26  |                                                                                                                          |
 | [[Xar’zul (CR - 24)]]                                      | 24  |                                                                                                                          |
 | [[Xerathis, the Endbringer (CR - 50)]]                     | 50  |                                                                                                                          |
+| [[Grubsnout]]                                              |     |                                                                                                                          |
+| [[Twigskitter]]                                            |     |                                                                                                                          |
+| [[Plump Sprite]]                                           |     |                                                                                                                          |
+| [[Pyrrhagon]]                                              |     |                                                                                                                          |
+| [[Spiderling]]                                             |     |                                                                                                                          |
+| [[Thalassadon]]                                            |     |                                                                                                                          |
+| [[Zephyrix]]                                               |     |                                                                                                                          |
+| [[Puddleback]]                                             |     |                                                                                                                          |
+| [[Guzze]]                                                  |     |                                                                                                                          |
+|                                                            |     |                                                                                                                          |
