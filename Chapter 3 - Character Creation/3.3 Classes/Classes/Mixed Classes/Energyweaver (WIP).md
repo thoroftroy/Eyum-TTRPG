@@ -4,7 +4,7 @@ Energyweavers convert and move energy.
 - Armor: Light armor
 - Spellcasting Modifier: Intelligence
 - Saving Throws: Intelligence, Wisdom
-- Proficiency Bonus: Starts at +1, increases every 3 levels
+- Proficiency Bonus: Starts at +1, increases (+1) every 3 levels
 
 Hit Dice: 1d6  
 Vitality Dice: 1d12  
@@ -107,25 +107,25 @@ Convert other energies into healing/support, and you can use **your Mana as an a
 #### Leveling Table
 Affinity Points gained from Energyweaver levels cannot be spent in non-Energyweaver affinities. **Each Energyweaver level grants +1 Subclass Level** (allocate to an existing or new subclass; max SL 5 per subclass). 
 
-|Level|Dice|Points|Special|
-|--:|---|---|---|
-|1|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**Choose 1 Subclass (SL 1)**; **+1 Subclass Level**; Learn 1 Energymancy spell; Transfer Cap = current Mana.|
-|2|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|3|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|4|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 Ap|**+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.|
-|5|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|6|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +1 BAp; +1 Rp; +2 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|7|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|8|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +4 Stat Points; +1 Ap|**+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.|
-|9|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|10|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +4 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|11|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|12|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +1 BAp; +1 Rp; +2 Stat Points; +1 Ap|**+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.|
-|13|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|14|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +4 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|15|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|16|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +4 Stat Points; +1 Ap|**+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.|
-|17|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|18|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +1 BAp; +1 Rp; +2 Stat Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|19|+1 VitDice, +1 HitDice, +1 ManaDice|+1 Skill Point; +5 Affinity Points|**+1 Subclass Level**; Learn 1 Energymancy spell.|
-|20|+1 VitDice, +1 HitDice, +1 ManaDice|+3 Skill Points; +5 Affinity Points; +1 Prof Upgrade; +4 Stat Points; +1 Ap|**+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.|
+| Level | Dice                                | Points                                                                                          | Special                                                                                                      |
+| ----: | ----------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+|     1 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points                                                              | **Choose 1 Subclass (SL 1)**; **+1 Subclass Level**; Learn 1 Energymancy spell; Transfer Cap = current Mana. |
+|     2 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points        | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|     3 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points                               | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|     4 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade (or +1 Skill Point); +4 Stat Points; +1 Ap | **+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.                                                   |
+|     5 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points, +1 Rp                                                       | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|     6 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +1 BAp; +1 Rp; +2 Stat Points             | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|     7 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points                                                              | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|     8 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +4 Stat Points; +1 Ap                     | **+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.                                                   |
+|     9 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points                               | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    10 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +4 Stat Points, +1 Rp                     | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    11 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points                                                              | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    12 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +1 BAp; +1 Rp; +2 Stat Points; +1 Ap      | **+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.                                                   |
+|    13 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points                                                              | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    14 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +4 Stat Points                            | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    15 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points; +1 BAp; +1 Rp; +2 Stat Points, +1 Rp                        | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    16 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +4 Stat Points; +1 Ap                     | **+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.                                                   |
+|    17 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points                                                              | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    18 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2 Affinity Points; +1 Prof Upgrade; +1 BAp; +1 Rp; +2 Stat Points             | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    19 | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point; +3 Affinity Points                                                              | **+1 Subclass Level**; Learn 1 Energymancy spell.                                                            |
+|    20 | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Points; +2bap Affinity Points; +1 Prof Upgrade; +4 Stat Points; +1 Ap, +1 Rp           | **+1 Subclass Level**; +1 Feat; Learn 1 Energymancy spell.                                                   |
