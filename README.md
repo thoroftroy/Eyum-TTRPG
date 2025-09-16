@@ -35,3 +35,4 @@ This project is **work in progress**. Some sections are fully written, others ar
     - NPC/DMPC play guidance
     - Starting area recommendations
 - Expand race list, especially animal-type races (bat, cat, cow, etc.)
+- Add actual links/references everywhere that I used §

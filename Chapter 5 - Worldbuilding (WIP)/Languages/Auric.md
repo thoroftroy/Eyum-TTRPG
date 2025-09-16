@@ -14,7 +14,7 @@ Auric uses five core vowels with phonemic length. Rare diphthongs are noted at t
 |(rare) /ai au/|ai au|allowed only in open syllables and never word-final|
 **Allophony:**
 - Unstressed /e/ may centralize slightly [ə] in fast speech; writing does not change.
-- /i/ → [j] before another vowel across morpheme boundaries (see §3.4 sandhi).
+- /i/ → [j] before another vowel across morpheme boundaries.
 ### 1.2 Consonants
 
 |IPA|Romanization|Notes|
@@ -71,14 +71,14 @@ Below, each entry gives a **shape description** (for carving/writing), **name**,
 - **Sentence end:** square stop ◼.
 - **Name marker:** small triangle ˄ preceding proper names in formal inscriptions.
 ### 2.3 Numerals
-Decimal system with distinct digits (□ strokes resembling stacked bars). Ordinals are written by adding a small right-flag to the numeral (spoken form §5.7).
+Decimal system with distinct digits (□ strokes resembling stacked bars). Ordinals are written by adding a small right-flag to the numeral.
 ## 3) Morphology
 ### 3.1 Nouns: gender, number, case
 - **Gender:** animate vs inanimate (affects some pronouns and agreement).
 - **Number:** singular, plural, collective. Collective denotes a set treated as one (e.g., “the council”).
 - **Cases (6):** Nominative (NOM), Accusative (ACC), Genitive (GEN), Dative (DAT), Locative (LOC), Instrumental (INS).
 
-**Core endings** (after a consonant; vowels trigger minor sandhi in §3.4):
+**Core endings** (after a consonant):
 
 |Case|Singular|Plural|Collective|
 |---|---|---|---|
@@ -106,7 +106,7 @@ NOM.SG: **barak-a**, GEN.SG: **barak-os**, LOC.PL: **barak-ith**.
 **Reflexive:** **sva** (all persons), declines like adjective.  
 **Demonstratives:** **ha** “this”, **ka** “that” (decline like adjectives).
 ### 3.3 Determiners & Articles
-No definite/indefinite articles. Definiteness is expressed with demonstratives or word order (§4.1).
+No definite/indefinite articles. Definiteness is expressed with demonstratives or word order.
 
 ### 3.4 Sandhi (sound changes at morpheme edges)
 - Final **n** + following **k/g** → **ng** (spelled **ng**).
@@ -234,3 +234,307 @@ Ordinals add **-ith**: _du-ith_ “second”.
 3. Conjugate **lar-** and **durg-** across PRS/PST/FUT, IPFV/PFV, then add negation and subjunctive.
 4. Compose 10 SOV clauses, then add **ke** relatives and **qa** questions.
 5. Practice **numerals** and **ordinals** describing dates and counts.
+
+## Auric Core Dictionary (v1)
+### Pronouns & Core Particles
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example (Auric; English)|
+|---|---|---|---|---|---|
+|**an**|AHN|pron|I / me|—|**an luma-en ven-ta-e-a.** — “I saw the light.”|
+|**ti**|TEE|pron|you (sg)|—|**ti lari?** — “Do you speak?”|
+|**sar**|SAHR|pron|he/she (anim.)|no gender|**sar mor-u-u.** — “He/She will go.”|
+|**or**|OHR|pron|it (inanimate)|—|**or lum-u.** — “It shines.”|
+|**anim**|AHN-im|pron|we|—|**anim mor-u-im.** — “We will go.”|
+|**tim**|TEEM|pron|you (pl)|—|**tim sed-na-it.** — “You (pl) sit.”|
+|**sim**|SEEM|pron|they (anim.)|—|**sim kor-un.** — “They run.”|
+|**oim**|OY-im|pron|they (inanimate)|—|**oim lum-un.** — “They shine.”|
+|**sva**|SVAH|pron|self (reflexive)|declines like adj.|**an sva-en ruc-ta-e-a.** — “I feared myself.”|
+|**ha**|HAH|part|topic marker / this|topic/demonstrative|**ha barak-a, an mor-a.** — “As for this mountain, I go.”|
+|**ka**|KAH|det|that (demonstrative)|declines like adj.|**ka saran-a ven-ta-e-a.** — “I saw that person.”|
+|**qa**|—|part|yes/no marker|also clause-final **-a?**|**qa an mor-a?** — “Do I go?”|
+|**ke**|KEH|part|relative clause marker|—|**barak-a ke an ven-ta-e-a sim.** — “They are the ones who saw the mountain I saw.”|
+|**ne**|NEH|part|not (negation)|preverbal|**ne mor-u-im.** — “We will not go.”|
+|**ma**|MAH|part|do not (prohibitive)|+ infinitive|**ma lari!** — “Do not speak!”|
+|**sa-**|SA|part|focus prefix|before focused item|**sa-an barak-en ven-ta-e-a.** — “_I_ saw the mountain.”|
+### Numbers & Ordinals
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example (Auric; English)|
+|---|---|---|---|---|---|
+|**an**|AHN|num|one|cardinal|**an tor-im ven-ta-e-a.** — “I saw one stone.”|
+|**du**|DOO|num|two|—|**du tor-im…** — “two stones”|
+|**tri**|TREE|num|three|—|—|
+|**qat**|KAHT|num|four|—|—|
+|**pen**|PEHN|num|five|—|—|
+|**shes**|SHESS|num|six|—|—|
+|**sep**|SEHP|num|seven|—|—|
+|**ok**|OHK|num|eight|—|—|
+|**nev**|NEHV|num|nine|—|—|
+|**des**|DEHS|num|ten|—|—|
+|**sent**|SEHNT|num|hundred|—|—|
+|**mir**|MEER|num|thousand|—|—|
+|**an-ith**|AHN-ith|adj|first|ordinal|**an-ith saran-a…** — “the first person…”|
+|**du-ith**|DOO-ith|adj|second|ordinal|—|
+|**tri-ith**|TREE-ith|adj|third|ordinal|—|
+### Prepositions & Postpositions
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example (Auric; English)|
+|---|---|---|---|---|---|
+|**to**|TOH|prep|to, toward|motion|**to amar-in mor-u-im.** — “We will go to the temple.”|
+|**ab**|AHB|prep|from, out of|source|**ab nath-in mor-ta-e-u.** — “He went from the river.”|
+|**over**|OH-ver|prep|over, above|—|**over nath-in kor-a.** — “I run over the river.”|
+|**under**|UN-der|prep|under, beneath|—|**under kelum-in sed-na-a.** — “I sit under the bridge.”|
+|**en-to**|EN-toh|prep|into|allative|**en-to amar-in mor-a.** — “I go into the temple.”|
+|**cum**|KOOM|prep|with|—|**cum saran-in mor-a.** — “I go with the person.”|
+|**sine**|SEE-neh|prep|without|—|**sine qorum-in…** — “without salt…”|
+|**pro**|PROH|prep|for, on behalf of|—|**pro anim mor-a.** — “I go for us.”|
+|**contra**|KON-trah|prep|against|—|**contra drakar-im var-a.** — “I defend against the guards.”|
+|**ante**|AHN-teh|prep|before|temporal|**ante nos-in…** — “before night…”|
+|**post**|POHST|prep|after|temporal|—|
+|**super**|SOO-per|prep|over, on top of|static|—|
+|**sub**|SOOB|prep|under, below|static|—|
+|**intra**|IN-trah|prep|inside|—|—|
+|**extra**|EKS-trah|prep|outside|—|—|
+|**ad**|AHD|prep|toward|motion|—|
+|**-ko**|—|postp|at/on (static)|follows NP|**amar-in-ko sed-na-a.** — “I am at the temple.”|
+|**-ran**|—|postp|among|plural referents|**saran-ith-ran tel-ta-e-u.** — “He told it among the people.”|
+|**-dul**|—|postp|within|interior|**harum-in-dul sed-na-a.** — “I sit within the hall.”|
+### Core Verbs (high-frequency)
+
+> Active present = stem + **-a** (1sg). Past perfective sample uses **-ta-e-**.
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example (Auric; English)|
+|---|---|---|---|---|---|
+|**lar**|LAHR|v|speak, say|Class A|**an lar-a.** — “I speak.”|
+|**ven**|VEHn|v|see, behold|Class B|**an tor-en ven-ta-e-a.** — “I saw the stone.”|
+|**mor**|MOHR|v|go, travel|B|**an mor-a.** — “I go.”|
+|**sed**|SEHD|v|sit, dwell|B|**an amar-in sed-na-a.** — “I am sitting at the temple.”|
+|**lum**|LOOM|v|shine, glow|B|**or lum-u.** — “It shines.”|
+|**der**|DEHR|v|take, seize|B|**an tor-en der-ta-e-a.**|
+|**kar**|KAHR|v|make, build, do|B|**an elum-en kar-ta-e-a.**|
+|**ten**|TEHN|v|give|B|**an saran-ei ten-ta-e-a.**|
+|**bel**|BEHL|v|read|B|**an parma-en bel-a.**|
+|**del**|DEHL|v|write|B|**an parma-en del-a.**|
+|**drak**|DRAHK|v|guard, watch|C|**an amar-en drak-a.**|
+|**pal**|PAHL|v|open|B|**an hesta-en pal-a.**|
+|**cav**|KAHV|v|close, shut|B|**an hesta-en cav-a.**|
+|**tel**|TEHL|v|tell, narrate|B|**an yára-en tel-a.**|
+|**ter**|TAIR|v|teach|B|**an narel-ei ter-a.**|
+|**kor**|KOHR|v|run|B|**an kor-a.**|
+|**har**|HAHR|v|hear|B|**an larin-en har-a.**|
+|**fen**|FEHN|v|find|B|**an míre-en fen-ta-e-a.**|
+|**for**|FOHR|v|cook|B|**an dorun-en for-a.** — “I cook the meat.”|
+|**wash**|WAHSH|v|wash|C|**an velum-en wash-a.**|
+|**swep**|SWEHP|v|sweep|C|**an harum-en swep-a.**|
+|**cont**|KOHNT|v|count|C|**an sent-en cont-a.** — “I count the hundred.”|
+|**mes**|MEHS|v|measure|B|**an thel-en mes-a.**|
+|**trad**|TRAHD|v|trade|C|**an merum-in trad-a.**|
+|**sail**|SAYL|v|sail|C|**an morath-in sail-a.**|
+|**row**|ROH|v|row|A|**an row-a.**|
+|**hunt**|HUNT|v|hunt|C|**an sor-in hunt-a.**|
+|**herd**|HERD|v|herd, drive|C|**an ovis-im herd-a.**|
+|**milk**|MILK|v|milk|C|**an belun-en milk-a.**|
+|**reap**|REEP|v|reap|C|**an thel-en reap-a.**|
+|**grind**|GRYND|v|grind|C|**an farin-en grind-a.**|
+|**bake**|BAYK|v|bake|C|**an amel-en bake-a.**|
+|**weave**|WEEV|v|weave|C|**an velum-en weave-a.**|
+|**spin**|SPIN|v|spin|C|**an velum-en spin-a.**|
+|**brew**|BROO|v|brew|A|**an kelun-en brew-a.**|
+|**learn**|LERN|v|learn|C|**an tel-en learn-a.**|
+|**remember**|reh-MEM|v|remember|C|**an yára-en remember-a.**|
+|**forget**|for-GET|v|forget|C|**an nom-en forget-a.**|
+|**open**|OH-pen|v|open (alt)|B|**an hesta-en open-a.**|
+|**close**|KLOHZ|v|close (alt)|B|**an hesta-en close-a.**|
+|**buy**|BYE|v|buy|C|**an selum-en buy-a.**|
+|**sell**|SEHL|v|sell|B|**an selum-en sel-a.**|
+|**give**|TEHN|v|give (dup)|B|**an ti-ei ten-a.**|
+|**take**|TAYK|v|take (alt)|B|**an tor-en take-a.**|
+|**love**|LUHV|v|love|C|**an turan-en love-a.**|
+|**want**|WAHNT|v|want|C|**an luma-en want-a.**|
+|**need**|NEED|v|need|C|**an aqua-en need-a.**|
+|**know**|NOH|v|know|A|**an law-en know-a.**|
+|**believe**|beh-LEEV|v|believe|C|**an quor-en believe-a.**|
+|**ask**|ASK|v|ask|C|**an ke tel-i ask-a.**|
+|**answer**|AN-ser|v|answer|C|**an tel-en answer-a.**|
+|**call**|KAHL|v|call/name|B|**an ti-en call-a.**|
+|**see**|SEE|v|see (dup)|B|**an tor-en ven-a.**|
+|**look**|LOOK|v|look (at)|C|**an tor-en look-a.**|
+|**listen**|LIS-en|v|listen|C|**an larin-en listen-a.**|
+|**taste**|TAYST|v|taste|C|**an amel-en taste-a.**|
+|**smell**|SMEHL|v|smell|C|**an olio-en smell-a.**|
+|**touch**|TUHCH|v|touch|C|**an tor-en touch-a.**|
+### Nouns — People & Roles
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example (Auric; English)|
+|---|---|---|---|---|---|
+|**saran**|SAH-ran|n|person (anim.)|—|**an saran-en ven-ta-e-a.** — “I saw the person.”|
+|**turan**|TOO-ran|n|friend|—|**an turan-en tel-a.** — “I tell (it) to the friend.”|
+|**drakar**|DRAH-kar|n|guard (person)|agent of **drak**|**drakar-a var-a.** — “The guard defends.”|
+|**delar**|DEH-lar|n|scribe|agent of **del**|—|
+|**belgar**|BEL-gar|n|smith|agent of **belg**|—|
+|**porar**|POHR-ar|n|farmer|agent of **por**|—|
+|**sailar**|SAY-lar|n|sailor|agent|—|
+|**amari**|AH-mah-ree|n|priest/keeper|from **amar**|**amari-a amar-in-ko sed-na-a.**|
+|**narel**|NAH-rel|n|child|—|—|
+|**mereth**|MEH-reth|n|family (collective)|set noun|**mereth-or ven-ta-e-u.** — “The family (as a group) saw it.”|
+### Body Parts
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**garu**|GAH-roo|n|hand|—|**an garu-en look-a.** — “I look at the hand.”|
+|**goru**|GOH-roo|n|arm|—|—|
+|**sarin**|SAH-rin|n|foot|—|—|
+|**nelu**|NEH-loo|n|eye|—|—|
+|**nerin**|NEH-rin|n|ear|—|—|
+|**narin**|NAH-rin|n|nose|—|—|
+|**molin**|MOH-lin|n|mouth|—|—|
+|**torin**|TOH-rin|n|tooth|—|—|
+|**boren**|BOH-ren|n|bone|—|—|
+|**merin**|MEH-rin|n|heart|—|—|
+|**morin**|MOH-rin|n|blood|—|—|
+### Animals
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**kanu**|KAH-noo|n|dog|—|**an kanu-en ven-ta-e-a.**|
+|**felu**|FEH-loo|n|cat|—|—|
+|**horsu**|HOR-soo|n|horse|—|—|
+|**bovu**|BOH-voo|n|cow|—|—|
+|**porcu**|POHR-koo|n|pig|—|—|
+|**ovis**|OH-viss|n|sheep|—|—|
+|**kapru**|KAH-proo|n|goat|—|—|
+|**gallu**|GAHL-loo|n|chicken|—|—|
+|**avaru**|AH-vah-roo|n|bird|—|—|
+|**norel**|NOH-rel|n|fish|—|**an norel-en buy-a.** — “I buy fish.”|
+|**lupu**|LOO-poo|n|wolf|—|—|
+|**ursu**|OOR-soo|n|bear|—|—|
+### Places & Geography
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**amar**|AH-mar|n|temple|—|**an amar-in sed-na-a.** — “I am at the temple.”|
+|**elum**|EH-loom|n|house|—|—|
+|**narum**|NAH-room|n|city|—|—|
+|**harum**|HAH-room|n|hall|—|—|
+|**merum**|MEH-room|n|market|—|—|
+|**morath**|MOH-rath|n|harbor|—|—|
+|**kelum**|KEH-loom|n|bridge|—|—|
+|**varum**|VAH-room|n|wall|—|—|
+|**barak**|BAH-rak|n|mountain|—|**an barak-en ven-ta-e-a.**|
+|**barel**|BAH-rel|n|hill|diminutive|—|
+|**bargor**|BAR-gohr|n|massif|augmentative|—|
+|**nath**|NAHTH|n|river|—|**nath-in-ko…** — “at the river”|
+|**thel**|THEHL|n|field|—|—|
+|**sor**|SOHR|n|forest|—|—|
+|**khur**|KHOOR|n|cave|cluster C|—|
+|**deshan**|DEH-shahn|n|desert|—|—|
+|**okran**|OH-kran|n|island|—|—|
+|**lacu**|LAH-koo|n|lake|—|—|
+|**ocean**|OH-shen|n|ocean|loanish|—|
+### Tools & Objects
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**barat**|BAH-raht|n|hammer|—|**an barat-en carry-a.**|
+|**qerat**|KEH-raht|n|chisel|—|—|
+|**serat**|SEH-raht|n|shovel|—|—|
+|**adaruk**|AH-dah-rook|n|axe|—|—|
+|**delat**|DEH-laht|n|stylus, pen|—|—|
+|**torat**|TOH-raht|n|spade|—|—|
+|**velat**|VEH-laht|n|loom|—|—|
+|**anvil**|AHN-vil|n|anvil|—|—|
+|**kiln**|KILN|n|kiln|—|—|
+|**ropen**|ROH-pen|n|rope|—|—|
+|**welen**|WEH-len|n|wheel|—|—|
+### Materials, Food & Drink
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**tor**|TOHR|n|stone / rock|—|**an tor-en lift-a.**|
+|**kalum**|KAH-loom|n|wood (material)|—|—|
+|**ferum**|FEH-room|n|iron|—|—|
+|**nerum**|NEH-room|n|silver|—|—|
+|**golum**|GOH-loom|n|gold|—|—|
+|**aranum**|AH-rah-noom|n|clay|—|—|
+|**velum**|VEH-loom|n|cloth|—|—|
+|**selum**|SEH-loom|n|glass|—|—|
+|**qorum**|KOH-room|n|salt|—|—|
+|**amel**|AH-mel|n|bread|—|**an amel-en eat-ta-e-a.** — “I ate bread.”|
+|**dorun**|DOH-roon|n|meat|—|—|
+|**belun**|BEH-loon|n|milk|—|—|
+|**baren**|BAH-ren|n|cheese|—|—|
+|**kelun**|KEH-loon|n|beer|—|—|
+|**gelun**|GEH-loon|n|wine|—|—|
+|**nelun**|NEH-loon|n|soup|—|—|
+|**pelun**|PEH-loon|n|fruit|—|—|
+|**qelun**|KEH-loon|n|berry|—|—|
+|**selun**|SEH-loon|n|herb|—|—|
+|**aqua**|AH-kwah|n|water|—|—|
+### Sky & Time
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**amon**|AH-mon|n|sun|—|**an amon-en look-a.**|
+|**melon**|MEH-lon|n|moon|—|—|
+|**nelon**|NEH-lon|n|star|—|—|
+|**belon**|BEH-lon|n|cloud|—|—|
+|**daron**|DAH-ron|n|rain|—|—|
+|**feron**|FEH-ron|n|snow|—|—|
+|**gelon**|GEH-lon|n|wind|—|—|
+|**kelon**|KEH-lon|n|fog|—|—|
+|**baron**|BAH-ron|n|storm|—|—|
+|**qelon**|KEH-lon|n|frost|—|—|
+|**mer**|MAIR|n|day|—|**mer-in sed-na-a.** — “I am here in the day.”|
+|**nos**|NOHS|n|night|—|**nos-in sed-na-a.** — “I am here at night.”|
+|**hodie**|HOH-dee-eh|adv|today|—|**hodie, an mor-a.** — “Today, I go.”|
+|**heri**|HEH-ree|adv|yesterday|—|—|
+|**cras**|CRAHS|adv|tomorrow|—|—|
+|**mane**|MAH-neh|adv|morning|—|—|
+|**vesper**|VEH-sper|adv|evening|—|—|
+|**nunc**|NOONK|adv|now|—|—|
+|**mox**|MOHKS|adv|soon|—|—|
+### Colors
+
+|Word|Pronunciation|POS|Meaning / Definition|Notes|Example|
+|---|---|---|---|---|---|
+|**ruben**|ROO-ben|adj|red|—|**ruben luma-a ven-ta-e-a.** — “I saw red light.”|
+|**viren**|VEE-ren|adj|green|—|—|
+|**caerun**|KAI-run|adj|blue|—|—|
+|**saben**|SAH-ben|adj|black|—|—|
+|**alben**|AHL-ben|adj|white|—|—|
+|**oren**|OH-ren|adj|golden|also noun (color)|—|
+|**selen**|SEH-len|adj|silvery|—|—|
+|**bronen**|BROH-nen|adj|brown|—|—|
+|**ashen**|AH-shen|adj|gray|—|—|
+|**doranen**|DOH-rah-nen|adj|indigo|high register|—|
+### Adjectives (common)
+
+| Word      | Pronunciation | POS | Meaning / Definition | Notes | Example                                        |
+| --------- | ------------- | --- | -------------------- | ----- | ---------------------------------------------- |
+| **mara**  | MAH-rah       | adj | good                 | —     | **mara elum-a ven-a.** — “I see a good house.” |
+| **ulca**  | OOL-kah       | adj | evil/bad             | —     | —                                              |
+| **vanya** | VAHN-yah      | adj | beautiful            | —     | —                                              |
+| **doras** | DOH-ras       | adj | dark                 | —     | —                                              |
+| **harsa** | HAHR-sah      | adj | hot                  | —     | —                                              |
+| **qela**  | KEH-lah       | adj | cool                 | —     | —                                              |
+| **vara**  | VAH-rah       | adj | warm                 | —     | —                                              |
+| **susta** | SOOS-tah      | adj | dry                  | —     | —                                              |
+| **nenda** | NEHN-dah      | adj | wet                  | —     | —                                              |
+| **rauca** | ROW-kah       | adj | strong (phys.)       | —     | **rauca drakar-a…** — “a strong guard…”        |
+| **linta** | LEEN-tah      | adj | swift/fast           | —     | —                                              |
+| **senta** | SEHN-tah      | adj | slow                 | —     | —                                              |
+| **noya**  | NOH-yah       | adj | new                  | —     | —                                              |
+| **yara**  | YAH-rah       | adj | old                  | —     | —                                              |
+| **sava**  | SAH-vah       | adj | clean                | —     | —                                              |
+| **darka** | DAHR-kah      | adj | dirty                | —     | —                                              |
+| **rina**  | REE-nah       | adj | small/little         | —     | **rina barel-a…** — “a small hill”             |
+| **tora**  | TOH-rah       | adj | heavy                | —     | —                                              |
+| **luva**  | LOO-vah       | adj | light (weight)       | —     | —                                              |
+| **tala**  | TAH-lah       | adj | tall/high            | —     | —                                              |
+| **lowa**  | LOH-wah       | adj | low/short            | —     | —                                              |
+| **loda**  | LOH-dah       | adj | loud                 | —     | —                                              |
+| **shena** | SHEH-nah      | adj | quiet                | —     | —                                              |
+| **ugla**  | OOG-lah       | adj | ugly                 | —     | —                                              |
+| **haya**  | HAH-yah       | adj | happy                | —     | —                                              |
+| **sada**  | SAH-dah       | adj | sad                  | —     | —                                              |
+| **anga**  | AHN-gah       | adj | angry                | —     | —                                              |
+
