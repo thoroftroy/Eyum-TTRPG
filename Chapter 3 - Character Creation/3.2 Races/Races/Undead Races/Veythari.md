@@ -1,4 +1,3 @@
-Veythari  
 Height: Matches original race  
 Weight: Matches original race  
 Lifespan: Slowed aging, approximately 10× the original race  

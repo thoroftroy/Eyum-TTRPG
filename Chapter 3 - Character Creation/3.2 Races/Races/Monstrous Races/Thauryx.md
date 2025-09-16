@@ -3,7 +3,7 @@ Weight: 220 - 360 lbs
 Lifespan: 90 - 150 years  
 Size: Medium  
 Speed: 30 ft  
-Language: Draconic
+Language: Draconic, Common
 
 Description: Thauryx are draconic humanoids plated in overlapping scales the color of worked metal or firelit glass, bronze and gold through obsidian and deep crimson. Horn crests or spine ridges crown the brow, eyes shine like cut gems, and heat or static seems to thrum in the chest when they draw breath. Hands end in heavy talons and feet grip like a raptor’s, with a counterbalancing tail that steadies charges and pivots. Their voices carry a low, furnace rumble, and posture is naturally commanding, shoulders set square and chin lifted as if addressing a hall.
 

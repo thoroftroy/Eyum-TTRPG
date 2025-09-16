@@ -3,7 +3,7 @@ Weight: 200-1100 lbs
 Lifespan: 1000-2000 years  
 Size: Large  
 Speed: 30 ft  
-Language: Dwarvish
+Language: Dwarvish, Common
 
 Description: Stonekin are towering humanoids formed of living stone and crystal, bodies hewn by pressure and time rather than birth. Their frames are rough and angular, veined with mineral seams and faceted inclusions that catch the light as if a mountain were learning to move. Faces are blocky and masklike, eyes set as glowing gemstones, and voices rumble like shifting earth. No two Stonekin share the same geology, some glint with quartz or opal, others glow with dull magma red from deeper seams. Though heavy in appearance, their motion is deliberate and surprisingly fluid, each step placed with the certainty of bedrock.
 

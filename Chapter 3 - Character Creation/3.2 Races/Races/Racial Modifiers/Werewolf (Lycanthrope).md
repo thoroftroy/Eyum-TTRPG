@@ -3,7 +3,7 @@ Weight: As base race (+10-40 lbs in Hybrid form)
 Lifespan: As base race  
 Size: As base race  
 Speed: As base race +10 ft  
-Language: As base race
+Language: Beast-Speech
 
 Description: Werewolves are humanoids cursed or blood-bound to a predatory spirit of the Moon. In daylight they pass as their base race, though canines run a little long, eyes catch too much light, and a faint animal musk clings to their clothes. When the pulse quickens, anger, fear, or the call of the moon, the Hybrid emerges: fur along the forearms and spine, digitigrade legs, lengthened jaw with killing teeth, and hands that end in hooked claws capable of rending mail. Voices deepen to a lupine rasp; scents read like sentences: fear, iron, rain, lies. In full bestial focus, the world narrows to wind direction, heartbeat, footing, and the clean geometry of the chase.
 

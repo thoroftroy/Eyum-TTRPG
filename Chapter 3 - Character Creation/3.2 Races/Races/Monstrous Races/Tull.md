@@ -3,7 +3,7 @@ Weight: 20 - 60 lbs
 Lifespan: 20 - 35 years  
 Size: Small  
 Speed: 30 ft  
-Language: Common (broken), Tullish
+Language: Common, Tullish
 
 Description: Tull are small, wiry humanoids with hunched postures, mottled green or gray skin, long hooked noses, and jagged teeth. They have thin, flexible limbs, enabling them to scurry, climb, and squeeze into spaces far too small for most humanoids. Their eyes are beady and dart constantly, betraying an instinctive wariness. While individually unimpressive, their strength lies in numbers, when gathered in swarms, Tull move with chaotic precision, overwhelming larger foes through sheer persistence.
 

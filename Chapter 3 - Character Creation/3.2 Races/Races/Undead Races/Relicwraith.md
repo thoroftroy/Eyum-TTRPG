@@ -1,4 +1,3 @@
-Relicwraith  
 Height: N/A, manifestation form typically 5’0 - 6’0  
 Weight: N/A, Anchor object 2 - 60 lbs, manifestation has no weight  
 Lifespan: Potentially indefinite unless Anchor is destroyed  

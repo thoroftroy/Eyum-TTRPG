@@ -3,7 +3,7 @@ Weight: 80 - 140 lbs
 Lifespan: 30 - 60 years  
 Size: Medium  
 Speed: 25 ft (50 ft flying)  
-Language: Harpy, Common
+Language: Aviari, Common
 
 Description: Harpies are lean, bird-featured humanoids built for ambush. Shaggy feathers mantle the shoulders and spine; leathered wing-membranes stretch from the forearms to the flanks without limiting their clawed hands. Legs are digitigrade with hooked talons for perching or raking. Faces keep a rough human layout, but the teeth are sharp and the eyes are predatory. They smell of old meat and wind. Gear is whatever they can rip off victims, straps, bone toggles, and stolen knives, kept light enough to take flight at a moment’s notice.
 

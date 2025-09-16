@@ -1,4 +1,3 @@
-Rotborn  
 Height: Matches original race, animal, or monster  
 Weight: Original form minus 15 percent  
 Lifespan: Weeks to decades, physical degradation ends in collapse unless sustained by magic  
