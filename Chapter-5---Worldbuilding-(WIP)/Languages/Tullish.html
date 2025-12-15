@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Tullish</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="Tullish"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Tullish"/><meta name="twitter:description" content="1) Phonology 1.1 Vowels Five plain vowels; no phonemic length; no true diphthongs (hiatus may occur across morpheme boundaries)."/><meta property="og:description" content="1) Phonology 1.1 Vowels Five plain vowels; no phonemic length; no true diphthongs (hiatus may occur across morpheme boundaries)."/><meta property="og:image:alt" content="1) Phonology 1.1 Vowels Five plain vowels; no phonemic length; no true diphthongs (hiatus may occur across morpheme boundaries)."/><meta property="twitter:domain" content="/Eyum-TTRPG"/><meta property="og:url" content="https://eyum-ttrpg/Chapter-5---Worldbuilding-(WIP)/Languages/Tullish"/><meta property="twitter:url" content="https://eyum-ttrpg/Chapter-5---Worldbuilding-(WIP)/Languages/Tullish"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="1) Phonology 1.1 Vowels Five plain vowels; no phonemic length; no true diphthongs (hiatus may occur across morpheme boundaries)."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbWljcm93YXZlZHRoZWJhYnkvRG9jdW1lbnRzL0V5dW0gVFRSUEcvLnF1YXJ0ei1zaXRlL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https:///Eyum-TTRPG/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https:///Eyum-TTRPG/Chapter-5---Worldbuilding-(WIP)/Languages/Tullish-og-image.webp"/><meta property="og:image:url" content="https:///Eyum-TTRPG/Chapter-5---Worldbuilding-(WIP)/Languages/Tullish-og-image.webp"/><meta name="twitter:image" content="https:///Eyum-TTRPG/Chapter-5---Worldbuilding-(WIP)/Languages/Tullish-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Chapter-5---Worldbuilding-(WIP)/Languages/Tullish"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-298"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-298" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Chapter-5---Worldbuilding-(WIP)/">Chapter 5   Worldbuilding (WIP)</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Chapter-5---Worldbuilding-(WIP)/Languages/">Languages</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Tullish</a></div></nav><h1 class="article-title">Tullish</h1><p show-comma="true" class="content-meta"><time datetime="2025-11-13T04:36:16.689Z">Nov 12, 2025</time><span>10 min read</span></p></div></div><article class="popover-hint"><h2 id="1-phonology">1) Phonology<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-phonology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="11-vowels">1.1 Vowels<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11-vowels" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Five plain vowels; no phonemic length; no true diphthongs (hiatus may occur across morpheme boundaries).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>IPA</th><th>Romanization</th><th>Notes</th></tr></thead><tbody><tr><td>/a e i o u/</td><td>a e i o u</td><td>stable qualities; /o/ may back to [ɔ] before /k, g/</td></tr></tbody></table></div>
+<p><strong>Hiatus handling.</strong> Between unlike vowels, speakers often insert a very short [ə]; it is not written.</p>
+<h3 id="12-consonants">1.2 Consonants<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12-consonants" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Inventory favors stops, fricatives, and rugged clusters.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>IPA</th><th>Romanization</th><th>Notes</th></tr></thead><tbody><tr><td>/p b t d k g/</td><td>p b t d k g</td><td>unaspirated; word-final devoicing (d→t, g→k, b→p)</td></tr><tr><td>/f s ʃ z h x/</td><td>f s sh z h kh</td><td>kh = velar fricative /x/</td></tr><tr><td>/m n ŋ/</td><td>m n ng</td><td>ng only before /k g/ or word-final</td></tr><tr><td>/l r/</td><td>l r</td><td>r is a short trill [r], never flap</td></tr><tr><td>/ts t͡ʃ/</td><td>ts ch</td><td>common in compounds</td></tr><tr><td>/w j/</td><td>w y</td><td>glides</td></tr><tr><td><strong>Syllable shape:</strong> (C)(C)V(C)(C).</td><td></td><td></td></tr><tr><td><strong>Onset clusters:</strong> {gr, kr, br, dr, pr, tr, fr, fl, sk, st}.</td><td></td><td></td></tr><tr><td><strong>Coda set:</strong> {k, t, s, sh, r, l, m, n, ng, rk, rg, kt, sk, st}.</td><td></td><td></td></tr><tr><td><strong>Stress:</strong> <strong>initial</strong> syllable; prefixes are unstressed; compounds keep leftmost stress.</td><td></td><td></td></tr><tr><td><strong>Assimilation:</strong> in clusters, codas devoice (ragk → rak-k); across morpheme edges, /n/ + /k,g/ → <strong>ng</strong>.</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="2-script--gragg-spikes-20-base-glyphs">2) Script — Gragg Spikes (20 base glyphs)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-script--gragg-spikes-20-base-glyphs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Direction:</strong> left→right. <strong>Forms:</strong> 20 base letters. <strong>Strokes:</strong> thick vertical <strong>spines</strong> with <strong>fangs</strong> (short diagonal spikes). All glyphs are straight-line constructs—no curves.</p>
+<h3 id="21-letter-inventory--romanization-shape-cues">2.1 Letter inventory &amp; romanization (shape cues)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#21-letter-inventory--romanization-shape-cues" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Describe each as spine + attachments; “split stem” means the lower spine forks.</p>
+<p><strong>Vowels</strong></p>
+<ol>
+<li><strong>A</strong> /a/ — tall spine with single left fang at mid.</li>
+<li><strong>E</strong> /e/ — short spine with high crossbar (right fang).</li>
+<li><strong>I</strong> /i/ — thin spine with notch at top (dot etched as V).</li>
+<li><strong>O</strong> /o/ — split stem (Y-shape) joined by a short bar.</li>
+<li><strong>U</strong> /u/ — spine with low right half-box.</li>
+</ol>
+<p><strong>Consonants</strong><br/>
+6. <strong>K</strong> /k/ — spine + forward wedge (▸) at mid.<br/>
+7. <strong>G</strong> /g/ — spine + backward wedge (◂) at mid.<br/>
+8. <strong>T</strong> /t/ — spine topped by heavy bar (hammer-head).<br/>
+9. <strong>D</strong> /d/ — spine with small diamond to right.<br/>
+10. <strong>P</strong> /p/ — spine + right box.<br/>
+11. <strong>B</strong> /b/ — spine + left box.<br/>
+12. <strong>S</strong> /s/ — zig mark centered on spine.<br/>
+13. <strong>Z</strong> /z/ — double zig (ZZ) on spine.<br/>
+14. <strong>SH</strong> /ʃ/ — three short scratches to right of spine.<br/>
+15. <strong>H</strong> /h/ — gate (two spines + lintel), open center.<br/>
+16. <strong>KH</strong> /x/ — gate with inward notch.<br/>
+17. <strong>M</strong> /m/ — base bar with three stubs.<br/>
+18. <strong>N</strong> /n/ — base bar with two stubs.<br/>
+19. <strong>NG</strong> /ŋ/ — base bar with rear hook.<br/>
+20. <strong>R</strong> /r/ — short spine with long right spur; <strong>L</strong> is R + upper flag (write L as <strong>R′</strong> in transliteration when needed).</p>
+<blockquote>
+<p>Practical romanization: use <strong>l</strong> for L; the script draws it as R with an extra top flag.</p>
+</blockquote>
+<p><strong>Punctuation &amp; marks</strong></p>
+<ul>
+<li>Word divider: hairline gap (or centered dot •).</li>
+<li>Clause divider: twin fangs ‹›.</li>
+<li>Sentence end: black square ◼.</li>
+<li>Proper names: first letter gets an extra roof wedge.</li>
+<li>Cluster tie: a tiny horizontal bar between two consonant spines (used in lapidary inscriptions).</li>
+</ul>
+<h2 id="3-morphology">3) Morphology<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-morphology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Tullish is spare and suffixing. No grammatical gender. <strong>Numbers:</strong> singular, plural.</p>
+<h3 id="31-nouns-number--case">3.1 Nouns (number &amp; case)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#31-nouns-number--case" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Plural:</strong> <strong>-ok</strong> (after a final vowel, write <strong>-k</strong>).
+Cases are short, coda-heavy:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Case</th><th>Ending</th><th>Example</th></tr></thead><tbody><tr><td>Nominative</td><td>—</td><td><strong>grul</strong> “blade”</td></tr><tr><td>Accusative</td><td>-g</td><td><strong>grul-g</strong> “blade (object)”</td></tr><tr><td>Genitive</td><td>-r</td><td><strong>grul-r</strong> “of the blade”</td></tr><tr><td>Dative</td><td>-u</td><td><strong>grul-u</strong> “to/for the blade”</td></tr><tr><td>Locative</td><td>-k</td><td><strong>grul-k</strong> “at/in/on the blade/place”</td></tr><tr><td>Ablative</td><td>-t</td><td><strong>grul-t</strong> “from/off the blade”</td></tr><tr><td>Instrumental</td><td>-sh</td><td><strong>grul-sh</strong> “with/by the blade (as tool)”</td></tr></tbody></table></div>
+<p><strong>Plural + case:</strong> plural before case: <strong>grul-ok-r</strong> “of the blades.”<br/>
+<strong>Vowel-final stems</strong> drop the vowel before a case ending: <em>gara</em> → <strong>gar-r</strong>, <strong>gar-k</strong>.</p>
+<p><strong>Adjectives</strong> follow nouns and do <strong>not</strong> inflect; optional emphatic plural <strong>-ok</strong> may be added to the adjective for contrast: <em>grul-ok krash(-ok)</em> “big blades (indeed big).”</p>
+<h3 id="32-pronouns-decline-with-case-suffixes">3.2 Pronouns (decline with case suffixes)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#32-pronouns-decline-with-case-suffixes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Person</th><th>NOM</th><th>ACC</th><th>GEN</th><th>DAT</th></tr></thead><tbody><tr><td>1sg</td><td><strong>ga</strong></td><td>ga-g</td><td>ga-r</td><td>ga-u</td></tr><tr><td>2sg</td><td><strong>tu</strong></td><td>tu-g</td><td>tu-r</td><td>tu-u</td></tr><tr><td>3sg anim</td><td><strong>ra</strong></td><td>ra-g</td><td>ra-r</td><td>ra-u</td></tr><tr><td>3sg inan</td><td><strong>o</strong></td><td>o-g</td><td>o-r</td><td>o-u</td></tr><tr><td>1pl</td><td><strong>gam</strong></td><td>gam-g</td><td>gam-r</td><td>gam-u</td></tr><tr><td>2pl</td><td><strong>tum</strong></td><td>tum-g</td><td>tum-r</td><td>tum-u</td></tr><tr><td>3pl</td><td><strong>ran</strong></td><td>ran-g</td><td>ran-r</td><td>ran-u</td></tr></tbody></table></div>
+<p>Demonstratives: <strong>ha</strong> “this,” <strong>ka</strong> “that” (take case like nouns: <strong>ha-r</strong>, <strong>ka-g</strong>).<br/>
+Interrogatives: <strong>mi</strong> who, <strong>mak</strong> what, <strong>kath</strong> where, <strong>len</strong> when, <strong>sai</strong> why, <strong>kya</strong> how.</p>
+<h3 id="33-derivation">3.3 Derivation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#33-derivation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Agentive <strong>-gr</strong>: <em>kar</em> “cut” → <em>kar-gr</em> “cutter.”</li>
+<li>Instrument <strong>-kr</strong>: <em>mor</em> “go/move” → <em>mor-kr</em> “vehicle, means.”</li>
+<li>Place <strong>-thak</strong>: <em>gor</em> “war” → <em>gor-thak</em> “war-place, battlefield.”</li>
+<li>Diminutive <strong>-ik</strong>; augmentative <strong>-gor</strong>; collective <strong>-akh</strong>.</li>
+<li>N→V: add <strong>-a</strong>: <em>grul</em> “blade” → <em>grul-a</em> “to blade, to cut down.”</li>
+</ul>
+<h2 id="4-verbs">4) Verbs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-verbs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Short, clipped stems. Tullish is <strong>SOV</strong> and largely <strong>pro-drop</strong>.</p>
+<h3 id="41-categories--morphology-order">4.1 Categories &amp; morphology order<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#41-categories--morphology-order" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Aspect:</strong> Imperfective <strong>ga-</strong> (ongoing), Perfective <strong>ka-</strong> (bounded).</li>
+<li><strong>Tense:</strong> Present (zero), Past <strong>-t</strong>, Future <strong>-k</strong>.</li>
+<li><strong>Mood:</strong> Indicative (zero), Subjunctive <strong>-ir</strong>, Imperative (bare stem).</li>
+<li><strong>Voice:</strong> Active (zero), Middle <strong>-n-</strong>, Passive <strong>-ur-</strong> (infix before tense/person).</li>
+<li><strong>Agreement:</strong> minimal person/number endings.</li>
+</ul>
+<p><strong>Order:</strong> (Aspect-)Stem-(Voice)-(Tense)-(Mood)-(Person).</p>
+<h3 id="42-personal-endings-active">4.2 Personal endings (Active)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#42-personal-endings-active" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Person</th><th>SG</th><th>PL</th></tr></thead><tbody><tr><td>1</td><td>-g</td><td>-gm</td></tr><tr><td>2</td><td>-t</td><td>-tm</td></tr><tr><td>3</td><td>-Ø</td><td>-r</td></tr></tbody></table></div>
+<h3 id="43-negation--prohibitive">4.3 Negation &amp; prohibitive<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#43-negation--prohibitive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Negation particle:</strong> <strong>gru</strong> immediately before the verb complex: <em>gru ga-kar-g</em> “I am not cutting.”</li>
+<li><strong>Prohibitive:</strong> <strong>ma</strong> + infinitive: <em>ma kari!</em> “don’t cut!”</li>
+</ul>
+<h3 id="44-non-finites">4.4 Non-finites<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#44-non-finites" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Infinitive:</strong> <strong>-a</strong>.</li>
+<li><strong>Active participle:</strong> <strong>-an</strong>; <strong>Passive participle:</strong> <strong>-esh</strong>.</li>
+<li><strong>Verbal noun:</strong> <strong>-ath</strong>.</li>
+</ul>
+<h3 id="45-conjugation-examples">4.5 Conjugation examples<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#45-conjugation-examples" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Let <strong>krag-</strong> “strike,” <strong>mor-</strong> “go,” <strong>ven-</strong> “see.”</p>
+<p><strong>Present (IND):</strong></p>
+<ul>
+<li>1sg <strong>krag-g</strong> “I strike”</li>
+<li>3pl <strong>mor-r</strong> “they go”</li>
+</ul>
+<p><strong>Past PFV (IND):</strong></p>
+<ul>
+<li>3sg <strong>ka-krag-t</strong> “he/she struck”</li>
+<li>1pl <strong>ka-ven-t-gm</strong> “we saw”</li>
+</ul>
+<p><strong>Past IPFV (IND):</strong></p>
+<ul>
+<li>2sg <strong>ga-mor-t-t</strong> “you were going”</li>
+</ul>
+<p><strong>Future (IND):</strong></p>
+<ul>
+<li>1sg <strong>krag-k-g</strong> “I will strike”</li>
+<li>3pl <strong>ven-k-r</strong> “they will see”</li>
+</ul>
+<p><strong>Passive:</strong></p>
+<ul>
+<li>3sg <strong>ka-krag-ur-t</strong> “it was struck”<br/>
+<strong>Middle:</strong></li>
+<li>1sg <strong>ga-ven-n-g</strong> “I look (for myself / examine)”</li>
+</ul>
+<p><strong>Subjunctive:</strong></p>
+<ul>
+<li>3sg <strong>krag-ir</strong> “that he strike”</li>
+<li>1pl <strong>ga-mor-k-ir-gm</strong> “that we be going (later)”</li>
+</ul>
+<p><strong>Imperative:</strong></p>
+<ul>
+<li>2sg <strong>krag!</strong></li>
+<li>2pl <strong>mor-a-tm!</strong> (infinitive + 2PL ending is a common barked command form)</li>
+</ul>
+<h2 id="5-syntax">5) Syntax<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-syntax" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="51-word-order--modifiers">5.1 Word order &amp; modifiers<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#51-word-order--modifiers" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Default <strong>SOV</strong>. Adjectives &amp; numerals <strong>follow</strong> the noun (<em>grul krash</em> “blade big”). Genitives immediately follow the head: <em>khaz ra-r</em> “the hall of him/her.” Postpositions are common; prepositions are rare.</p>
+<h3 id="52-questions">5.2 Questions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#52-questions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Yes/No:</strong> clause-final clitic <strong>-a?</strong> or initial particle <strong>qa</strong>.</li>
+<li><strong>Content:</strong> interrogatives fronted; verb remains final.</li>
+</ul>
+<h3 id="53-relative-clauses">5.3 Relative clauses<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#53-relative-clauses" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Introduced by <strong>ke</strong> before the clause; verb final:<br/>
+<em>grul ke ga ven-t-g ra</em> “the blade that I saw (the one of him).”</p>
+<h3 id="54-comparison">5.4 Comparison<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#54-comparison" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Comparative:</strong> prefix <strong>gar-</strong> on adjective: <em>gar-krash</em> “bigger.”</li>
+<li><strong>Than:</strong> standard in GEN: <em>gar-krash ga-r</em> “bigger than me.”</li>
+<li><strong>Superlative:</strong> <strong>kar-</strong> on adjective: <em>kar-krash</em> “biggest.”</li>
+</ul>
+<h2 id="6-core-function-words">6) Core function words<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-core-function-words" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Conjunctions: <strong>a</strong> and, <strong>no</strong> but, <strong>se</strong> or.</li>
+<li>Frequent postpositions: <strong>-ko</strong> at/on, <strong>-ran</strong> among, <strong>-dul</strong> within (attach after LOC or stand alone).</li>
+<li>Motion preps (rarer): <strong>to</strong> to/toward, <strong>ab</strong> from.</li>
+<li>Politeness/softeners: <strong>la</strong> (soften command), <strong>grum</strong> please (formal, rough).</li>
+</ul>
+<h2 id="7-numerals">7) Numerals<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-numerals" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Borrowed/cognate forms across Auric-descended tongues, realized with Tullish phonology.</p>
+<p>1 <strong>ak</strong>, 2 <strong>du</strong>, 3 <strong>tri</strong>, 4 <strong>kat</strong>, 5 <strong>fen</strong>, 6 <strong>shes</strong>, 7 <strong>sep</strong>, 8 <strong>ok</strong>, 9 <strong>nev</strong>, 10 <strong>des</strong>.<br/>
+11 <strong>des-ak</strong>, 12 <strong>des-du</strong>, 20 <strong>du-des</strong>, 100 <strong>sent</strong>, 1000 <strong>mir</strong>.<br/>
+Ordinals add <strong>-th</strong>: <em>du-th</em> “second.” Counts usually keep the noun in bare singular: <em>du grul</em> “two blade(s).”</p>
+<h2 id="8-sample-sentences-glossed">8) Sample Sentences (glossed)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-sample-sentences-glossed" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li><strong>Ga grul-g krag-g.</strong><br/>
+I blade-ACC strike-1SG.<br/>
+“I strike the blade.” (i.e., “I strike with the blade,” context gives INS vs ACC)</li>
+<li><strong>Gru ga-ven-n-g o-g.</strong><br/>
+NEG IPFV-see-MID-1SG it-ACC.<br/>
+“I am not looking at it.”</li>
+<li><strong>Ran khaz-k ko sed-r.</strong><br/>
+they hall-LOC at sit-3PL.<br/>
+“They sit in the hall.”</li>
+<li><strong>Qa tu ven-t?</strong><br/>
+Q you see-PST?<br/>
+“Did you see (it)?”</li>
+<li><strong>Grul-ok-r krash khaz.</strong><br/>
+blade-PL-GEN big hall.<br/>
+“The hall of big blades.”</li>
+<li><strong>Ka-krag-ur-t grul.</strong><br/>
+PFV-strike-PASS-PST blade.<br/>
+“The blade was struck.”</li>
+<li><strong>Gar-krash grul ga-r.</strong><br/>
+COMP-big blade my-GEN.<br/>
+“My blade is bigger.”</li>
+<li><strong>Ke ga ven-t-g barak, ran mor-k-r.</strong><br/>
+REL I see-PST-1SG mountain, they go-FUT-3PL.<br/>
+“They will go to the mountain I saw.”</li>
+</ol>
+<h2 id="9-learning-path">9) Learning Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-learning-path" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>Copy the <strong>20 Gragg glyphs</strong> with straight spines and fangs; practice cluster ties (small bars) between consonant spines.</li>
+<li>Drill plural <strong>-ok</strong> and the short case set <strong>-g, -r, -u, -k, -t, -sh</strong> on 10 nouns (both vowel- and consonant-final).</li>
+<li>Conjugate <strong>krag-</strong>, <strong>ven-</strong>, <strong>mor-</strong> across PFV/IPFV with <strong>ka-/ga-</strong>, then add <strong>-t/-k</strong> for past/future and person endings.</li>
+<li>Write 10 SOV clauses with post-nominal adjectives; add relative clauses with <strong>ke</strong> and negation with <strong>gru</strong>.</li>
+<li>Practice commands (bare stem) and prohibitives (<strong>ma</strong> + infinitive), plus comparative <strong>gar-</strong> and superlative <strong>kar-</strong> modifiers.</li>
+</ol>
+<h2 id="tullish-core-dictionary-v1">Tullish Core Dictionary (v1)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tullish-core-dictionary-v1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Core Words</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Form</th><th>Pron.</th><th>POS</th><th>Meaning</th><th>Notes</th></tr></thead><tbody><tr><td><strong>ga / ga-g / ga-r / ga-u</strong></td><td>gah…</td><td>pron</td><td>I / me / my / to me</td><td>case by suffix</td></tr><tr><td><strong>tu / tu-g / tu-r / tu-u</strong></td><td>too…</td><td>pron</td><td>you (sg)</td><td>—</td></tr><tr><td><strong>ra / ra-g / ra-r / ra-u</strong></td><td>rah…</td><td>pron</td><td>he/she</td><td>anim.</td></tr><tr><td><strong>o / o-g / o-r / o-u</strong></td><td>oh…</td><td>pron</td><td>it</td><td>inan.</td></tr><tr><td><strong>gam / tum / ran</strong> (+ cases)</td><td>—</td><td>pron</td><td>we / you(pl) / they</td><td>plural</td></tr><tr><td><strong>sv</strong> (+ cases)</td><td>sv</td><td>refl</td><td>self</td><td>declines as noun</td></tr><tr><td><strong>ha / ka</strong> (+ cases)</td><td>hah / kah</td><td>dem</td><td>this / that</td><td>take case</td></tr><tr><td><strong>qa / -a?</strong></td><td>kah</td><td>Q</td><td>yes/no</td><td>initial / clause-final</td></tr><tr><td><strong>gru</strong></td><td>groo</td><td>neg</td><td>not</td><td>pre-verbal</td></tr><tr><td><strong>ma</strong></td><td>mah</td><td>prohib</td><td>don’t</td><td><strong>ma + INF</strong></td></tr><tr><td><strong>a / no / se</strong></td><td>ah / noh / seh</td><td>conj</td><td>and / but / or</td><td>—</td></tr><tr><td>Numbers</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Tullish</th><th>Pron.</th><th>Type</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>ak, du, tri, kat, fen, shes, sep, ok, nev, des</strong></td><td>—</td><td>num</td><td>1–10</td><td><strong>du grul</strong> “two blade(s)”</td></tr><tr><td><strong>des-ak, des-du, du-des, sent, mir</strong></td><td>—</td><td>num</td><td>11, 12, 20, 100, 1000</td><td>—</td></tr><tr><td><strong>-th</strong></td><td>th</td><td>suf</td><td>ordinal</td><td><strong>kat-th</strong> “fourth”</td></tr><tr><td><strong>mek / fewen</strong></td><td>mehk / FYOO-en</td><td>quant</td><td>many / few</td><td><strong>mek grul-ok</strong></td></tr><tr><td>Adpositions</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Form</th><th>Pron.</th><th>Type</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>-ko</strong></td><td>koh</td><td>postp</td><td>at/on</td><td><strong>khaz-k-ko</strong> “at the hall”</td></tr><tr><td><strong>-ran</strong></td><td>rahn</td><td>postp</td><td>among</td><td><strong>fok-ok-k-ran</strong> “among the folk”</td></tr><tr><td><strong>-dul</strong></td><td>dool</td><td>postp</td><td>within</td><td><strong>cav-k-dul</strong> “within the cave”</td></tr><tr><td><strong>-vor / -bak</strong></td><td>vor / bahk</td><td>postp</td><td>before / behind</td><td><strong>gate-k-vor</strong></td></tr><tr><td><strong>-top / -low</strong></td><td>top / loh</td><td>postp</td><td>above / below</td><td><strong>brug-k-top</strong></td></tr><tr><td><strong>to / ab / par / skan</strong></td><td>—</td><td>prep</td><td>to, from, through, around</td><td><strong>to barak-k</strong></td></tr><tr><td>Verbs</td><td></td><td></td><td></td><td></td></tr><tr><td><strong>Lemma = STEM-a (INF)</strong>. Derive finite forms with your template: (ga-/ka-) STEM (-n-/-ur-) (-t/-k) (-g/-t/Ø; -gm/-tm/-r).</td><td></td><td></td><td></td><td></td></tr><tr><td>I give a <strong>gloss</strong> and a <strong>sample</strong> finite form per line.</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Sample finite form</th></tr></thead><tbody><tr><td><strong>krag-a</strong></td><td>strike, smite</td><td><strong>ka-krag-t</strong> “(s)he struck”</td></tr><tr><td><strong>kar-a</strong></td><td>cut, hew</td><td><strong>ga-kar-g</strong> “I am cutting”</td></tr><tr><td><strong>brak-a</strong></td><td>break, shatter</td><td><strong>ka-brak-ur-t</strong> “it was broken”</td></tr><tr><td><strong>skel-a</strong></td><td>split, cleave</td><td><strong>skel-r</strong> “they split”</td></tr><tr><td><strong>grud-a</strong></td><td>grind, mill</td><td><strong>grud-gm</strong> “we grind”</td></tr><tr><td><strong>forg-a</strong></td><td>forge, smith</td><td><strong>ga-forg-t-gm</strong> “we were forging”</td></tr><tr><td><strong>smir-a</strong></td><td>hammer (work)</td><td><strong>smir-g</strong> “I hammer”</td></tr><tr><td><strong>rukh-a</strong></td><td>inscribe, rune-cut</td><td><strong>ka-rukh-ur-t</strong> “it was inscribed”</td></tr><tr><td><strong>sig-a</strong></td><td>seal, stamp</td><td><strong>sig-r</strong> “they seal”</td></tr><tr><td><strong>ban-a</strong></td><td>raise, erect</td><td><strong>ban-r</strong> “they raise”</td></tr><tr><td><strong>delv-a</strong></td><td>delve, excavate</td><td><strong>ga-delv-gm</strong> “we are delving”</td></tr><tr><td><strong>min-a</strong></td><td>mine (ore)</td><td><strong>min-r</strong> “they mine”</td></tr><tr><td><strong>dril-a</strong></td><td>drill, bore</td><td><strong>ka-dril-t</strong> “drilled”</td></tr><tr><td><strong>wedg-a</strong></td><td>wedge, shim</td><td><strong>wedg-t</strong> “you(sg) wedge”</td></tr><tr><td><strong>brac-a</strong></td><td>brace, shore</td><td><strong>ga-brac-gm</strong> “we brace”</td></tr><tr><td><strong>skar-a</strong></td><td>carve, score</td><td><strong>skar-g</strong> “I carve”</td></tr><tr><td><strong>shap-a</strong></td><td>sharpen</td><td><strong>shap-t</strong> “you sharpen”</td></tr><tr><td><strong>dul-a</strong></td><td>dull, blunt</td><td><strong>ga-dul-n-g</strong> “I blunt (for myself)”</td></tr><tr><td><strong>kem-a</strong></td><td>take, seize</td><td><strong>ka-kem-t</strong> “took”</td></tr><tr><td><strong>der-a</strong></td><td>give, hand</td><td><strong>der-k-r</strong> “they will give”</td></tr><tr><td><strong>bor-a</strong></td><td>bring, carry-to</td><td><strong>bor-gm</strong> “we bring”</td></tr><tr><td><strong>darg-a</strong></td><td>carry, bear</td><td><strong>darg-r</strong> “they carry”</td></tr><tr><td><strong>lug-a</strong></td><td>haul, drag</td><td><strong>ga-lug-g</strong> “I haul”</td></tr><tr><td><strong>ven-a</strong></td><td>see</td><td><strong>ven-t-gm</strong> “we saw”</td></tr><tr><td><strong>han-a</strong></td><td>hear</td><td><strong>ga-han-g</strong> “I hear”</td></tr><tr><td><strong>rok-a</strong></td><td>speak, say</td><td><strong>rok-r</strong> “they speak”</td></tr><tr><td><strong>sus-a</strong></td><td>whisper</td><td><strong>sus-t</strong> “you whisper”</td></tr><tr><td><strong>shar-a</strong></td><td>shout, bellow</td><td><strong>ka-shar-t</strong> “shouted”</td></tr><tr><td><strong>ken-a</strong></td><td>know (fact)</td><td><strong>ken-g</strong> “I know”</td></tr><tr><td><strong>ler-a</strong></td><td>learn</td><td><strong>ga-ler-gm</strong> “we learn”</td></tr><tr><td><strong>talt-a</strong></td><td>teach, train</td><td><strong>talt-r</strong> “they teach”</td></tr><tr><td><strong>hir-a</strong></td><td>find</td><td><strong>ka-hir-t</strong> “found”</td></tr><tr><td><strong>los-a</strong></td><td>lose, mislay</td><td><strong>ka-los-t</strong> “lost”</td></tr><tr><td><strong>skaut-a</strong></td><td>scout, recon</td><td><strong>skaut-r</strong> “they scout”</td></tr><tr><td><strong>trak-a</strong></td><td>track, trail</td><td><strong>ga-trak-g</strong> “I track”</td></tr><tr><td><strong>hunt-a</strong></td><td>hunt</td><td><strong>hunt-r</strong> “they hunt”</td></tr><tr><td><strong>aim-a</strong></td><td>aim</td><td><strong>ga-aim-g</strong> “I aim”</td></tr><tr><td><strong>thro-a</strong></td><td>throw, cast</td><td><strong>ka-thro-t</strong> “threw”</td></tr><tr><td><strong>shot-a</strong></td><td>shoot (missile)</td><td><strong>shot-r</strong> “they shoot”</td></tr><tr><td><strong>spar-a</strong></td><td>spar, drill (combat)</td><td><strong>spar-t</strong> “you spar”</td></tr><tr><td><strong>gard-a</strong></td><td>guard, keep</td><td><strong>gard-r</strong> “they guard”</td></tr><tr><td><strong>patr-a</strong></td><td>patrol</td><td><strong>patr-r</strong> “they patrol”</td></tr><tr><td><strong>sle-a</strong></td><td>sleep</td><td><strong>ka-sle-t</strong> “slept”</td></tr><tr><td><strong>wak-a</strong></td><td>wake</td><td><strong>wak-g</strong> “I wake”</td></tr><tr><td><strong>ris-a</strong></td><td>rise, stand</td><td><strong>ris-r</strong> “they rise”</td></tr><tr><td><strong>sed-a</strong></td><td>sit, stay</td><td><strong>sed-r</strong> “they sit”</td></tr><tr><td><strong>run-a</strong></td><td>run</td><td><strong>run-r</strong> “they run”</td></tr><tr><td><strong>wal-a</strong></td><td>walk</td><td><strong>wal-gm</strong> “we walk”</td></tr><tr><td><strong>clim-a</strong></td><td>climb</td><td><strong>clim-t</strong> “you climb”</td></tr><tr><td><strong>fal-a</strong></td><td>fall</td><td><strong>ka-fal-t</strong> “fell”</td></tr><tr><td><strong>lift-a</strong></td><td>lift, raise</td><td><strong>lift-g</strong> “I lift”</td></tr><tr><td><strong>push-a</strong></td><td>push</td><td><strong>push-t</strong> “you push”</td></tr><tr><td><strong>pul-a</strong></td><td>pull</td><td><strong>pul-gm</strong> “we pull”</td></tr><tr><td><strong>open-a</strong></td><td>open</td><td><strong>open-r</strong> “they open”</td></tr><tr><td><strong>shut-a</strong></td><td>close</td><td><strong>shut-g</strong> “I close”</td></tr><tr><td><strong>lok-a</strong></td><td>lock</td><td><strong>lok-t</strong> “you lock”</td></tr><tr><td><strong>unlok-a</strong></td><td>unlock</td><td><strong>unlok-t</strong> “you unlock”</td></tr><tr><td><strong>bind-a</strong></td><td>bind, tie</td><td><strong>bind-r</strong> “they bind”</td></tr><tr><td><strong>wash-a</strong></td><td>wash</td><td><strong>wash-gm</strong> “we wash”</td></tr><tr><td><strong>skrub-a</strong></td><td>scrub</td><td><strong>skrub-g</strong> “I scrub”</td></tr><tr><td><strong>sweep-a</strong></td><td>sweep</td><td><strong>sweep-t</strong> “you sweep”</td></tr><tr><td><strong>klin-a</strong></td><td>clean</td><td><strong>ga-klin-g</strong> “I clean”</td></tr><tr><td><strong>soil-a</strong></td><td>soil, foul</td><td><strong>ka-soil-t</strong> “soiled”</td></tr><tr><td><strong>wev-a</strong></td><td>weave</td><td><strong>wev-g</strong> “I weave”</td></tr><tr><td><strong>spin-a</strong></td><td>spin (fiber)</td><td><strong>spin-r</strong> “they spin”</td></tr><tr><td><strong>sew-a</strong></td><td>stitch/sew</td><td><strong>sew-t</strong> “you sew”</td></tr><tr><td><strong>tan-a</strong></td><td>tan (hide)</td><td><strong>tan-r</strong> “they tan”</td></tr><tr><td><strong>dai-a</strong></td><td>dye</td><td><strong>dai-g</strong> “I dye”</td></tr><tr><td><strong>brew-a</strong></td><td>brew</td><td><strong>brew-gm</strong> “we brew”</td></tr><tr><td><strong>salt-a</strong></td><td>salt/season</td><td><strong>salt-g</strong> “I salt”</td></tr><tr><td><strong>rost-a</strong></td><td>roast</td><td><strong>ka-rost-t</strong> “roasted”</td></tr><tr><td><strong>gruk-a</strong></td><td>drink</td><td><strong>gruk-g</strong> “I drink”</td></tr><tr><td><strong>gam-a</strong></td><td>eat</td><td><strong>gam-r</strong> “they eat”</td></tr><tr><td><strong>heal-a</strong></td><td>heal</td><td><strong>heal-t</strong> “you heal”</td></tr><tr><td><strong>hur-a</strong></td><td>hurt, wound</td><td><strong>ka-hur-ur-t</strong> “was wounded”</td></tr><tr><td><strong>burn-a</strong></td><td>burn</td><td><strong>burn-r</strong> “they burn”</td></tr><tr><td><strong>kulm-a</strong></td><td>cool</td><td><strong>kulm-g</strong> “I cool”</td></tr><tr><td><strong>frez-a</strong></td><td>freeze</td><td><strong>ka-frez-t</strong> “froze”</td></tr><tr><td><strong>melt-a</strong></td><td>melt</td><td><strong>melt-r</strong> “they melt”</td></tr><tr><td><strong>rain-a</strong></td><td>rain (impers.)</td><td><strong>rain-r</strong> “it rains”</td></tr><tr><td><strong>snow-a</strong></td><td>snow (impers.)</td><td><strong>snow-r</strong> “it snows”</td></tr><tr><td><strong>blow-a</strong></td><td>blow (wind)</td><td><strong>blow-r</strong> “it blows”</td></tr><tr><td><strong>storm-a</strong></td><td>storm (impers.)</td><td><strong>storm-r</strong> “it storms”</td></tr><tr><td><strong>shine-a</strong></td><td>shine (sun/fire)</td><td><strong>shine-r</strong> “it shines”</td></tr><tr><td><strong>dark-a</strong></td><td>darken</td><td><strong>ka-dark-t</strong> “darkened”</td></tr><tr><td><strong>think-a</strong></td><td>think</td><td><strong>think-g</strong> “I think”</td></tr><tr><td><strong>plan-a</strong></td><td>plan</td><td><strong>plan-gm</strong> “we plan”</td></tr><tr><td><strong>hope-a</strong></td><td>hope</td><td><strong>hope-g</strong> “I hope”</td></tr><tr><td><strong>need-a</strong></td><td>need</td><td><strong>need-g</strong> “I need”</td></tr><tr><td><strong>want-a</strong></td><td>want</td><td><strong>want-t</strong> “you want”</td></tr><tr><td><strong>like-a</strong></td><td>like</td><td><strong>like-g</strong> “I like”</td></tr><tr><td><strong>love-a</strong></td><td>love</td><td><strong>love-r</strong> “they love”</td></tr><tr><td><strong>hate-a</strong></td><td>hate</td><td><strong>hate-g</strong> “I hate”</td></tr><tr><td><strong>help-a</strong></td><td>help</td><td><strong>help-r</strong> “they help”</td></tr><tr><td><strong>ask-a</strong></td><td>ask</td><td><strong>ask-t</strong> “you ask”</td></tr><tr><td><strong>ans-a</strong></td><td>answer</td><td><strong>ans-g</strong> “I answer”</td></tr><tr><td><strong>barg-a</strong></td><td>bargain</td><td><strong>barg-gm</strong> “we bargain”</td></tr><tr><td><strong>reck-a</strong></td><td>reckon, count</td><td><strong>reck-g</strong> “I count”</td></tr><tr><td>Nouns</td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case sample</th></tr></thead><tbody><tr><td><strong>tull</strong></td><td>Tull (person)</td><td><strong>tull-ok</strong></td><td>GEN <strong>tull-r</strong></td></tr><tr><td><strong>klan</strong></td><td>clan, family</td><td><strong>klan-ok</strong></td><td>LOC <strong>klan-k</strong></td></tr><tr><td><strong>adar</strong></td><td>father</td><td><strong>adar-ok</strong></td><td>DAT <strong>adar-u</strong></td></tr><tr><td><strong>nan</strong></td><td>mother</td><td><strong>nan-ok</strong></td><td>GEN <strong>nan-r</strong></td></tr><tr><td><strong>ben</strong></td><td>son</td><td><strong>ben-ok</strong></td><td>ACC <strong>ben-g</strong></td></tr><tr><td><strong>del</strong></td><td>daughter</td><td><strong>del-ok</strong></td><td>GEN <strong>del-r</strong></td></tr><tr><td><strong>brok</strong></td><td>brother</td><td><strong>brok-ok</strong></td><td>DAT <strong>brok-u</strong></td></tr><tr><td><strong>ses</strong></td><td>sister</td><td><strong>ses-ok</strong></td><td>GEN <strong>ses-r</strong></td></tr><tr><td><strong>eld</strong></td><td>elder</td><td><strong>eld-ok</strong></td><td>LOC <strong>eld-k</strong></td></tr><tr><td><strong>yuv</strong></td><td>youth</td><td><strong>yuv-ok</strong></td><td>ACC <strong>yuv-g</strong></td></tr><tr><td><strong>fral</strong></td><td>friend</td><td><strong>fral-ok</strong></td><td>INS <strong>fral-sh</strong></td></tr><tr><td><strong>nem</strong></td><td>enemy</td><td><strong>nem-ok</strong></td><td>GEN <strong>nem-r</strong></td></tr><tr><td><strong>thar</strong></td><td>chief/leader</td><td><strong>thar-ok</strong></td><td>LOC <strong>thar-k</strong></td></tr><tr><td><strong>gard-gr</strong></td><td>guard (agent)</td><td><strong>gard-gr-ok</strong></td><td>GEN <strong>gard-gr-r</strong></td></tr><tr><td><strong>hunt-gr</strong></td><td>hunter (agent)</td><td><strong>hunt-gr-ok</strong></td><td>DAT <strong>hunt-gr-u</strong></td></tr><tr><td><strong>forg-gr</strong></td><td>smith (agent)</td><td><strong>forg-gr-ok</strong></td><td>GEN <strong>forg-gr-r</strong></td></tr><tr><td><strong>skrip-gr</strong></td><td>scribe</td><td><strong>skrip-gr-ok</strong></td><td>LOC <strong>skrip-gr-k</strong></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case sample</th></tr></thead><tbody><tr><td><strong>hed</strong></td><td>head</td><td><strong>hed-ok</strong></td><td>GEN <strong>hed-r</strong></td></tr><tr><td><strong>fays</strong></td><td>face</td><td><strong>fays-ok</strong></td><td>ACC <strong>fays-g</strong></td></tr><tr><td><strong>eyer</strong></td><td>eye</td><td><strong>eyer-ok</strong></td><td>DAT <strong>eyer-u</strong></td></tr><tr><td><strong>ear</strong></td><td>ear</td><td><strong>ear-ok</strong></td><td>GEN <strong>ear-r</strong></td></tr><tr><td><strong>nos</strong></td><td>nose</td><td><strong>nos-ok</strong></td><td>LOC <strong>nos-k</strong></td></tr><tr><td><strong>muth</strong></td><td>mouth</td><td><strong>muth-ok</strong></td><td>GEN <strong>muth-r</strong></td></tr><tr><td><strong>tuth</strong></td><td>tooth</td><td><strong>tuth-ok</strong></td><td>ACC <strong>tuth-g</strong></td></tr><tr><td><strong>tong</strong></td><td>tongue</td><td><strong>tong-ok</strong></td><td>DAT <strong>tong-u</strong></td></tr><tr><td><strong>bak</strong></td><td>back</td><td><strong>bak-ok</strong></td><td>LOC <strong>bak-k</strong></td></tr><tr><td><strong>bel</strong></td><td>belly</td><td><strong>bel-ok</strong></td><td>GEN <strong>bel-r</strong></td></tr><tr><td><strong>hart</strong></td><td>heart</td><td><strong>hart-ok</strong></td><td>INS <strong>hart-sh</strong></td></tr><tr><td><strong>blud</strong></td><td>blood</td><td><strong>blud-ok</strong></td><td>ABL <strong>blud-t</strong></td></tr><tr><td><strong>bon</strong></td><td>bone</td><td><strong>bon-ok</strong></td><td>GEN <strong>bon-r</strong></td></tr><tr><td><strong>skin</strong></td><td>skin</td><td><strong>skin-ok</strong></td><td>LOC <strong>skin-k</strong></td></tr><tr><td><strong>wund</strong></td><td>wound</td><td><strong>wund-ok</strong></td><td>GEN <strong>wund-r</strong></td></tr><tr><td><strong>scar</strong></td><td>scar</td><td><strong>scar-ok</strong></td><td>LOC <strong>scar-k</strong></td></tr><tr><td><strong>sik</strong></td><td>sickness</td><td><strong>sik-ok</strong></td><td>DAT <strong>sik-u</strong></td></tr><tr><td><strong>salv</strong></td><td>salve</td><td><strong>salv-ok</strong></td><td>INS <strong>salv-sh</strong></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case sample</th></tr></thead><tbody><tr><td><strong>sark</strong></td><td>shirt/tunic</td><td><strong>sark-ok</strong></td><td>ACC <strong>sark-g</strong></td></tr><tr><td><strong>kaval</strong></td><td>cloak</td><td><strong>kaval-ok</strong></td><td>GEN <strong>kaval-r</strong></td></tr><tr><td><strong>berk</strong></td><td>belt</td><td><strong>berk-ok</strong></td><td>DAT <strong>berk-u</strong></td></tr><tr><td><strong>suvr</strong></td><td>boot</td><td><strong>suvr-ok</strong></td><td>LOC <strong>suvr-k</strong></td></tr><tr><td><strong>zulm</strong></td><td>glove</td><td><strong>zulm-ok</strong></td><td>GEN <strong>zulm-r</strong></td></tr><tr><td><strong>heln</strong></td><td>helm</td><td><strong>heln-ok</strong></td><td>INS <strong>heln-sh</strong></td></tr><tr><td><strong>malk</strong></td><td>mail (armor)</td><td><strong>malk-ok</strong></td><td>GEN <strong>malk-r</strong></td></tr><tr><td><strong>plak</strong></td><td>plate (armor)</td><td><strong>plak-ok</strong></td><td>ACC <strong>plak-g</strong></td></tr><tr><td><strong>bukr</strong></td><td>buckle</td><td><strong>bukr-ok</strong></td><td>LOC <strong>bukr-k</strong></td></tr><tr><td><strong>pakr</strong></td><td>pack</td><td><strong>pakr-ok</strong></td><td>DAT <strong>pakr-u</strong></td></tr><tr><td><strong>ropn</strong></td><td>rope</td><td><strong>ropn-ok</strong></td><td>GEN <strong>ropn-r</strong></td></tr><tr><td><strong>farg</strong></td><td>torch</td><td><strong>farg-ok</strong></td><td>INS <strong>farg-sh</strong></td></tr><tr><td><strong>lan</strong></td><td>lantern</td><td><strong>lan-ok</strong></td><td>LOC <strong>lan-k</strong></td></tr><tr><td><strong>sak</strong></td><td>sack/bag</td><td><strong>sak-ok</strong></td><td>GEN <strong>sak-r</strong></td></tr><tr><td><strong>boks</strong></td><td>box</td><td><strong>boks-ok</strong></td><td>ACC <strong>boks-g</strong></td></tr><tr><td><strong>kez</strong></td><td>key</td><td><strong>kez-ok</strong></td><td>DAT <strong>kez-u</strong></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case</th></tr></thead><tbody><tr><td><strong>grul</strong></td><td>blade/sword</td><td><strong>grul-ok</strong></td><td><strong>grul-g</strong> ACC</td></tr><tr><td><strong>akz</strong></td><td>axe</td><td><strong>akz-ok</strong></td><td><strong>akz-r</strong> GEN</td></tr><tr><td><strong>hamr</strong></td><td>hammer</td><td><strong>hamr-ok</strong></td><td><strong>hamr-sh</strong> INS</td></tr><tr><td><strong>mas</strong></td><td>mace</td><td><strong>mas-ok</strong></td><td><strong>mas-g</strong> ACC</td></tr><tr><td><strong>spyr</strong></td><td>spear</td><td><strong>spyr-ok</strong></td><td><strong>spyr-u</strong> DAT</td></tr><tr><td><strong>bog</strong></td><td>bow</td><td><strong>bog-ok</strong></td><td><strong>bog-k</strong> LOC</td></tr><tr><td><strong>sar</strong></td><td>arrow</td><td><strong>sar-ok</strong></td><td><strong>sar-g</strong> ACC</td></tr><tr><td><strong>dagr</strong></td><td>dagger</td><td><strong>dagr-ok</strong></td><td><strong>dagr-r</strong> GEN</td></tr><tr><td><strong>spik</strong></td><td>spike</td><td><strong>spik-ok</strong></td><td><strong>spik-sh</strong> INS</td></tr><tr><td><strong>skeld</strong></td><td>shield</td><td><strong>skeld-ok</strong></td><td><strong>skeld-k</strong> LOC</td></tr><tr><td><strong>chiz</strong></td><td>chisel</td><td><strong>chiz-ok</strong></td><td><strong>chiz-sh</strong> INS</td></tr><tr><td><strong>drilrod</strong></td><td>drill-rod</td><td><strong>drilrod-ok</strong></td><td><strong>drilrod-r</strong> GEN</td></tr><tr><td><strong>weg</strong></td><td>wedge</td><td><strong>weg-ok</strong></td><td><strong>weg-sh</strong> INS</td></tr><tr><td><strong>tang</strong></td><td>tongs</td><td><strong>tang-ok</strong></td><td><strong>tang-u</strong> DAT</td></tr><tr><td><strong>rasp</strong></td><td>rasp/file</td><td><strong>rasp-ok</strong></td><td><strong>rasp-sh</strong> INS</td></tr><tr><td><strong>sawt</strong></td><td>saw</td><td><strong>sawt-ok</strong></td><td><strong>sawt-g</strong> ACC</td></tr><tr><td><strong>anvl</strong></td><td>anvil</td><td><strong>anvl-ok</strong></td><td><strong>anvl-k</strong> LOC</td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case</th></tr></thead><tbody><tr><td><strong>khaz</strong></td><td>hall</td><td><strong>khaz-ok</strong></td><td><strong>khaz-k</strong> LOC</td></tr><tr><td><strong>brak</strong></td><td>mountain</td><td><strong>brak-ok</strong></td><td><strong>brak-u</strong> DAT (to the mtn)</td></tr><tr><td><strong>cav</strong></td><td>cave</td><td><strong>cav-ok</strong></td><td><strong>cav-k</strong> LOC</td></tr><tr><td><strong>mine</strong></td><td>mine</td><td><strong>mine-k</strong> (PL: <strong>mine-k-ok</strong>)</td><td><strong>mine-k</strong> LOC</td></tr><tr><td><strong>shaft</strong></td><td>shaft</td><td><strong>shaft-ok</strong></td><td><strong>shaft-k</strong> LOC</td></tr><tr><td><strong>tunel</strong></td><td>tunnel</td><td><strong>tunel-ok</strong></td><td><strong>tunel-k</strong> LOC</td></tr><tr><td><strong>gate</strong></td><td>gate</td><td><strong>gate-ok</strong></td><td><strong>gate-k</strong> LOC</td></tr><tr><td><strong>dur</strong></td><td>door</td><td><strong>dur-ok</strong></td><td><strong>dur-r</strong> GEN</td></tr><tr><td><strong>wall</strong></td><td>wall</td><td><strong>wall-ok</strong></td><td><strong>wall-k</strong> LOC</td></tr><tr><td><strong>brug</strong></td><td>bridge</td><td><strong>brug-ok</strong></td><td><strong>brug-k</strong> LOC</td></tr><tr><td><strong>rod</strong></td><td>road</td><td><strong>rod-ok</strong></td><td><strong>rod-k</strong> LOC</td></tr><tr><td><strong>path</strong></td><td>path</td><td><strong>path-ok</strong></td><td><strong>path-k</strong> LOC</td></tr><tr><td><strong>baz</strong></td><td>market</td><td><strong>baz-ok</strong></td><td><strong>baz-k</strong> LOC</td></tr><tr><td><strong>ale-khaz</strong></td><td>ale-hall</td><td><strong>ale-khaz-ok</strong></td><td><strong>ale-khaz-k</strong> LOC</td></tr><tr><td><strong>volt</strong></td><td>vault</td><td><strong>volt-ok</strong></td><td><strong>volt-k</strong> LOC</td></tr><tr><td><strong>keep</strong></td><td>strongroom</td><td><strong>keep-ok</strong></td><td><strong>keep-k</strong> LOC</td></tr><tr><td><strong>well</strong></td><td>well/spring</td><td><strong>well-ok</strong></td><td><strong>well-k</strong> LOC</td></tr><tr><td><strong>nath</strong></td><td>river</td><td><strong>nath-ok</strong></td><td><strong>nath-k</strong> LOC</td></tr><tr><td><strong>lak</strong></td><td>lake</td><td><strong>lak-ok</strong></td><td><strong>lak-k</strong> LOC</td></tr><tr><td><strong>feld</strong></td><td>field</td><td><strong>feld-ok</strong></td><td><strong>feld-k</strong> LOC</td></tr><tr><td><strong>wood</strong></td><td>forest</td><td><strong>wood-ok</strong></td><td><strong>wood-k</strong> LOC</td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case</th></tr></thead><tbody><tr><td><strong>tor</strong></td><td>stone</td><td><strong>tor-ok</strong></td><td><strong>tor-g</strong> ACC</td></tr><tr><td><strong>gran</strong></td><td>granite</td><td><strong>gran-ok</strong></td><td><strong>gran-r</strong> GEN</td></tr><tr><td><strong>basal</strong></td><td>basalt</td><td><strong>basal-ok</strong></td><td><strong>basal-r</strong> GEN</td></tr><tr><td><strong>marm</strong></td><td>marble</td><td><strong>marm-ok</strong></td><td><strong>marm-r</strong> GEN</td></tr><tr><td><strong>clag</strong></td><td>clay</td><td><strong>clag-ok</strong></td><td><strong>clag-r</strong> GEN</td></tr><tr><td><strong>sand</strong></td><td>sand</td><td><strong>sand-ok</strong></td><td><strong>sand-k</strong> LOC</td></tr><tr><td><strong>dust</strong></td><td>dust</td><td><strong>dust-ok</strong></td><td><strong>dust-k</strong> LOC</td></tr><tr><td><strong>gol</strong></td><td>gold</td><td><strong>gol-ok</strong></td><td><strong>gol-r</strong> GEN</td></tr><tr><td><strong>siv</strong></td><td>silver</td><td><strong>siv-ok</strong></td><td><strong>siv-r</strong> GEN</td></tr><tr><td><strong>kup</strong></td><td>copper</td><td><strong>kup-ok</strong></td><td><strong>kup-r</strong> GEN</td></tr><tr><td><strong>tin</strong></td><td>tin</td><td><strong>tin-ok</strong></td><td><strong>tin-r</strong> GEN</td></tr><tr><td><strong>irn</strong></td><td>iron</td><td><strong>irn-ok</strong></td><td><strong>irn-r</strong> GEN</td></tr><tr><td><strong>stal</strong></td><td>steel</td><td><strong>stal-ok</strong></td><td><strong>stal-r</strong> GEN</td></tr><tr><td><strong>kol</strong></td><td>coal</td><td><strong>kol-ok</strong></td><td><strong>kol-r</strong> GEN</td></tr><tr><td><strong>slag</strong></td><td>slag</td><td><strong>slag-ok</strong></td><td><strong>slag-r</strong> GEN</td></tr><tr><td><strong>ask</strong></td><td>ash</td><td><strong>ask-ok</strong></td><td><strong>ask-k</strong> LOC</td></tr><tr><td><strong>sut</strong></td><td>soot</td><td><strong>sut-ok</strong></td><td><strong>sut-k</strong> LOC</td></tr><tr><td><strong>smog</strong></td><td>smoke</td><td><strong>smog-ok</strong></td><td><strong>smog-k</strong> LOC</td></tr><tr><td><strong>spar</strong></td><td>spark</td><td><strong>spar-ok</strong></td><td><strong>spar-sh</strong> INS</td></tr><tr><td><strong>flam</strong></td><td>flame</td><td><strong>flam-ok</strong></td><td><strong>flam-r</strong> GEN</td></tr><tr><td><strong>rain</strong></td><td>rain</td><td><strong>rain-ok</strong></td><td><strong>rain-k</strong> LOC (in rain)</td></tr><tr><td><strong>snow</strong></td><td>snow</td><td><strong>snow-ok</strong></td><td><strong>snow-k</strong> LOC</td></tr><tr><td><strong>wind</strong></td><td>wind</td><td><strong>wind-ok</strong></td><td><strong>wind-k</strong> LOC</td></tr><tr><td><strong>storm</strong></td><td>storm</td><td><strong>storm-ok</strong></td><td><strong>storm-k</strong> LOC</td></tr><tr><td><strong>mist</strong></td><td>mist</td><td><strong>mist-ok</strong></td><td><strong>mist-k</strong> LOC</td></tr><tr><td><strong>fog</strong></td><td>fog</td><td><strong>fog-ok</strong></td><td><strong>fog-k</strong> LOC</td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case</th></tr></thead><tbody><tr><td><strong>mer</strong></td><td>day</td><td><strong>mer-ok</strong></td><td><strong>mer-r</strong> GEN</td></tr><tr><td><strong>nos</strong></td><td>night</td><td><strong>nos-ok</strong></td><td><strong>nos-r</strong> GEN</td></tr><tr><td><strong>dawn</strong></td><td>dawn</td><td><strong>dawn-ok</strong></td><td><strong>dawn-t</strong> ABL “from dawn”</td></tr><tr><td><strong>dus</strong></td><td>dusk</td><td><strong>dus-ok</strong></td><td><strong>dus-t</strong> ABL</td></tr><tr><td><strong>noon</strong></td><td>noon</td><td><strong>noon-ok</strong></td><td><strong>noon-k</strong> LOC</td></tr><tr><td><strong>hor</strong></td><td>hour</td><td><strong>hor-ok</strong></td><td><strong>hor-r</strong> GEN</td></tr><tr><td><strong>min</strong></td><td>minute</td><td><strong>min-ok</strong></td><td><strong>min-r</strong> GEN</td></tr><tr><td><strong>yir</strong></td><td>year</td><td><strong>yir-ok</strong></td><td><strong>yir-r</strong> GEN</td></tr><tr><td><strong>rod-mark</strong></td><td>length-rod</td><td><strong>rod-mark-ok</strong></td><td><strong>rod-mark-k</strong> LOC</td></tr><tr><td><strong>span</strong></td><td>hand-span</td><td><strong>span-ok</strong></td><td><strong>span-r</strong> GEN</td></tr><tr><td><strong>wegh</strong></td><td>weight-stone</td><td><strong>wegh-ok</strong></td><td><strong>wegh-r</strong> GEN</td></tr><tr><td><strong>scor</strong></td><td>tally/score</td><td><strong>scor-ok</strong></td><td><strong>scor-r</strong> GEN</td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma</th><th>Meaning</th><th>Plural</th><th>Case</th></tr></thead><tbody><tr><td><strong>werk</strong></td><td>work/labor</td><td><strong>werk-ok</strong></td><td><strong>werk-r</strong> GEN</td></tr><tr><td><strong>rest</strong></td><td>rest</td><td><strong>rest-ok</strong></td><td><strong>rest-k</strong> LOC</td></tr><tr><td><strong>gor</strong></td><td>war</td><td><strong>gor-ok</strong></td><td><strong>gor-thak</strong> battlefield (place)</td></tr><tr><td><strong>pac</strong></td><td>peace</td><td><strong>pac-ok</strong></td><td><strong>pac-r</strong> GEN</td></tr><tr><td><strong>law</strong></td><td>law</td><td><strong>law-ok</strong></td><td><strong>law-r</strong> GEN</td></tr><tr><td><strong>rit</strong></td><td>right/justice</td><td><strong>rit-ok</strong></td><td><strong>rit-r</strong> GEN</td></tr><tr><td><strong>fel</strong></td><td>wrong/fault</td><td><strong>fel-ok</strong></td><td><strong>fel-r</strong> GEN</td></tr><tr><td><strong>trut</strong></td><td>truth</td><td><strong>trut-ok</strong></td><td><strong>trut-r</strong> GEN</td></tr><tr><td><strong>lei</strong></td><td>lie/falsehood</td><td><strong>lei-k</strong> (PL <strong>lei-k-ok</strong>)</td><td><strong>lei-r</strong> GEN</td></tr><tr><td><strong>need</strong></td><td>need</td><td><strong>need-ok</strong></td><td><strong>need-r</strong> GEN</td></tr><tr><td><strong>will</strong></td><td>will/desire</td><td><strong>will-ok</strong></td><td><strong>will-r</strong> GEN</td></tr><tr><td><strong>hope</strong></td><td>hope</td><td><strong>hope-ok</strong></td><td><strong>hope-r</strong> GEN</td></tr><tr><td><strong>fear</strong></td><td>fear</td><td><strong>fear-ok</strong></td><td><strong>fear-r</strong> GEN</td></tr><tr><td><strong>plan</strong></td><td>plan</td><td><strong>plan-ok</strong></td><td><strong>plan-r</strong> GEN</td></tr><tr><td><strong>help</strong></td><td>help</td><td><strong>help-ok</strong></td><td><strong>help-r</strong> GEN</td></tr><tr><td><strong>pris</strong></td><td>price</td><td><strong>pris-ok</strong></td><td><strong>pris-r</strong> GEN</td></tr><tr><td><strong>deal</strong></td><td>deal/bargain</td><td><strong>deal-ok</strong></td><td><strong>deal-r</strong> GEN</td></tr><tr><td><strong>luk</strong></td><td>luck</td><td><strong>luk-ok</strong></td><td><strong>luk-r</strong> GEN</td></tr><tr><td><strong>fate</strong></td><td>fate</td><td><strong>fate-ok</strong></td><td><strong>fate-r</strong> GEN</td></tr><tr><td><strong>honr</strong></td><td>honor</td><td><strong>honr-ok</strong></td><td><strong>honr-r</strong> GEN</td></tr><tr><td><strong>sham</strong></td><td>shame</td><td><strong>sham-ok</strong></td><td><strong>sham-r</strong> GEN</td></tr><tr><td>Adjatives</td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Adj</th><th>Meaning</th><th>Adj</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>grak</strong> big</td><td><strong>rin</strong> small</td><td></td><td></td></tr><tr><td><strong>long</strong> long</td><td><strong>narw</strong> narrow</td><td></td><td></td></tr><tr><td><strong>deep</strong> deep</td><td><strong>shal</strong> shallow</td><td></td><td></td></tr><tr><td><strong>full</strong> full</td><td><strong>empt</strong> empty</td><td></td><td></td></tr><tr><td><strong>mek</strong> many</td><td><strong>fewen</strong> few</td><td></td><td></td></tr><tr><td><strong>new</strong> new</td><td><strong>old</strong> old</td><td></td><td></td></tr><tr><td><strong>gud</strong> good</td><td><strong>bad</strong> bad</td><td></td><td></td></tr><tr><td><strong>true</strong> true</td><td><strong>fals</strong> false</td><td></td><td></td></tr><tr><td><strong>klin</strong> clean</td><td><strong>foul</strong> dirty</td><td></td><td></td></tr><tr><td><strong>rich</strong> rich</td><td><strong>por</strong> poor</td><td></td><td></td></tr><tr><td><strong>dor</strong> hard</td><td><strong>sof</strong> soft</td><td></td><td></td></tr><tr><td><strong>rak</strong> sharp</td><td><strong>dul</strong> dull</td><td></td><td></td></tr><tr><td><strong>zef</strong> fast</td><td><strong>lat</strong> slow</td><td></td><td></td></tr><tr><td><strong>varn</strong> warm</td><td><strong>kol</strong> cold</td><td></td><td></td></tr><tr><td><strong>suk</strong> dry</td><td><strong>mog</strong> wet</td><td></td><td></td></tr><tr><td><strong>mel</strong> sweet</td><td><strong>sal</strong> salty</td><td></td><td></td></tr><tr><td><strong>garv</strong> bitter</td><td><strong>kis</strong> sour</td><td></td><td></td></tr><tr><td><strong>grom</strong> loud</td><td><strong>mish</strong> quiet</td><td></td><td></td></tr><tr><td><strong>lir</strong> bright</td><td><strong>nur</strong> dark</td><td></td><td></td></tr><tr><td><strong>dus</strong> dim</td><td><strong>safe</strong> safe</td><td></td><td></td></tr><tr><td><strong>risk</strong> risky</td><td><strong>plain</strong> simple</td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Color</th><th>Meaning</th><th>Color</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>karn</strong> red</td><td><strong>lun</strong> blue</td><td></td><td></td></tr><tr><td><strong>vir</strong> green</td><td><strong>mal</strong> yellow</td><td></td><td></td></tr><tr><td><strong>nar</strong> orange</td><td><strong>nek</strong> black</td><td></td><td></td></tr><tr><td><strong>fan</strong> white</td><td><strong>sind</strong> gray</td><td></td><td></td></tr><tr><td><strong>brun</strong> brown</td><td><strong>pur</strong> purple</td><td></td><td></td></tr><tr><td><strong>gol</strong> golden</td><td><strong>sil</strong> silvery</td><td></td><td></td></tr></tbody></table></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-18" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#1-phonology" data-for="1-phonology">1) Phonology</a></li><li class="depth-1"><a href="#11-vowels" data-for="11-vowels">1.1 Vowels</a></li><li class="depth-1"><a href="#12-consonants" data-for="12-consonants">1.2 Consonants</a></li><li class="depth-0"><a href="#2-script--gragg-spikes-20-base-glyphs" data-for="2-script--gragg-spikes-20-base-glyphs">2) Script — Gragg Spikes (20 base glyphs)</a></li><li class="depth-1"><a href="#21-letter-inventory--romanization-shape-cues" data-for="21-letter-inventory--romanization-shape-cues">2.1 Letter inventory &amp; romanization (shape cues)</a></li><li class="depth-0"><a href="#3-morphology" data-for="3-morphology">3) Morphology</a></li><li class="depth-1"><a href="#31-nouns-number--case" data-for="31-nouns-number--case">3.1 Nouns (number &amp; case)</a></li><li class="depth-1"><a href="#32-pronouns-decline-with-case-suffixes" data-for="32-pronouns-decline-with-case-suffixes">3.2 Pronouns (decline with case suffixes)</a></li><li class="depth-1"><a href="#33-derivation" data-for="33-derivation">3.3 Derivation</a></li><li class="depth-0"><a href="#4-verbs" data-for="4-verbs">4) Verbs</a></li><li class="depth-1"><a href="#41-categories--morphology-order" data-for="41-categories--morphology-order">4.1 Categories &amp; morphology order</a></li><li class="depth-1"><a href="#42-personal-endings-active" data-for="42-personal-endings-active">4.2 Personal endings (Active)</a></li><li class="depth-1"><a href="#43-negation--prohibitive" data-for="43-negation--prohibitive">4.3 Negation &amp; prohibitive</a></li><li class="depth-1"><a href="#44-non-finites" data-for="44-non-finites">4.4 Non-finites</a></li><li class="depth-1"><a href="#45-conjugation-examples" data-for="45-conjugation-examples">4.5 Conjugation examples</a></li><li class="depth-0"><a href="#5-syntax" data-for="5-syntax">5) Syntax</a></li><li class="depth-1"><a href="#51-word-order--modifiers" data-for="51-word-order--modifiers">5.1 Word order &amp; modifiers</a></li><li class="depth-1"><a href="#52-questions" data-for="52-questions">5.2 Questions</a></li><li class="depth-1"><a href="#53-relative-clauses" data-for="53-relative-clauses">5.3 Relative clauses</a></li><li class="depth-1"><a href="#54-comparison" data-for="54-comparison">5.4 Comparison</a></li><li class="depth-0"><a href="#6-core-function-words" data-for="6-core-function-words">6) Core function words</a></li><li class="depth-0"><a href="#7-numerals" data-for="7-numerals">7) Numerals</a></li><li class="depth-0"><a href="#8-sample-sentences-glossed" data-for="8-sample-sentences-glossed">8) Sample Sentences (glossed)</a></li><li class="depth-0"><a href="#9-learning-path" data-for="9-learning-path">9) Learning Path</a></li><li class="depth-0"><a href="#tullish-core-dictionary-v1" data-for="tullish-core-dictionary-v1">Tullish Core Dictionary (v1)</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../Chapter-5---Worldbuilding-(WIP)/5.5-Languages-(WIP)" class="internal">5.5 Languages (WIP)</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.1</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>
