@@ -15,7 +15,7 @@ Everything has an equal and opposite reaction. Everything is energy. Energy cann
 You can convert any energy type you **know** into any other energy type you **know**.
 - **Known Types.** You know an energy type if you have ≥1 **Subclass Level (SL)** in its subclass.
 - **Throughput (Transfer Cap).** Each Energymancy casting may move up to **TP = your current Mana** (no cost; this is throughput only). If current Mana is 0, you cannot move energy.
-- **Basic Transfer (default action).** (see [[6.1.6 Energymancy (WIP)]] for more specifics)
+- **Basic Transfer (default action).** (see [[6.1.5 Energymancy (WIP)]] for more specifics)
     - **Action;** choose 1 known energy type as **the effect**.
     - **Declare Source → Target (+ Sink)**.
     - **Range & Media** are set by your SL and the energy’s media rules.
@@ -53,7 +53,7 @@ Speed things up, slow things down, or redirect impact.
 ##### Chemical (stored energy)
 Store energy in things, then release it.
 - **Scope.** **Buffering** (store) and **release** (dump) of arbitrary energy as **stored potential** in physical objects.
-- **Storage Capacity.** An object can only store so much energy in it. For more information see [[6.1.6 Energymancy (WIP)]].
+- **Storage Capacity.** An object can only store so much energy in it. For more information see [[6.1.5 Energymancy (WIP)]].
 ##### Gravitational (mass/attraction/telekinesis)
 Slow/stop speeding mass, speed it up, reverse it, or link bodies so they attract.
 - **Scope.** Falling/launch energy control, telekinetic translation, local attraction links, compression loading.

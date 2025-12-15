@@ -1,0 +1,2503 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Elvish</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="Elvish"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Elvish"/><meta name="twitter:description" content="1) Phonology 1.1 Vowels (quality, length, diphthongs) Elvish has seven qualities with phonemic length."/><meta property="og:description" content="1) Phonology 1.1 Vowels (quality, length, diphthongs) Elvish has seven qualities with phonemic length."/><meta property="og:image:alt" content="1) Phonology 1.1 Vowels (quality, length, diphthongs) Elvish has seven qualities with phonemic length."/><meta property="twitter:domain" content="/Eyum-TTRPG"/><meta property="og:url" content="https://eyum-ttrpg/Chapter-5---Worldbuilding-(WIP)/Languages/Elvish"/><meta property="twitter:url" content="https://eyum-ttrpg/Chapter-5---Worldbuilding-(WIP)/Languages/Elvish"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="1) Phonology 1.1 Vowels (quality, length, diphthongs) Elvish has seven qualities with phonemic length."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbWljcm93YXZlZHRoZWJhYnkvRG9jdW1lbnRzL0V5dW0gVFRSUEcvLnF1YXJ0ei1zaXRlL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https:///Eyum-TTRPG/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https:///Eyum-TTRPG/Chapter-5---Worldbuilding-(WIP)/Languages/Elvish-og-image.webp"/><meta property="og:image:url" content="https:///Eyum-TTRPG/Chapter-5---Worldbuilding-(WIP)/Languages/Elvish-og-image.webp"/><meta name="twitter:image" content="https:///Eyum-TTRPG/Chapter-5---Worldbuilding-(WIP)/Languages/Elvish-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Chapter-5---Worldbuilding-(WIP)/Languages/Elvish"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-287"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-287" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Chapter-5---Worldbuilding-(WIP)/">Chapter 5   Worldbuilding (WIP)</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Chapter-5---Worldbuilding-(WIP)/Languages/">Languages</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Elvish</a></div></nav><h1 class="article-title">Elvish</h1><p show-comma="true" class="content-meta"><time datetime="2025-09-18T20:59:56.352Z">Sep 18, 2025</time><span>11 min read</span></p></div></div><article class="popover-hint"><h2 id="1-phonology">1) Phonology<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-phonology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="11-vowels-quality-length-diphthongs">1.1 Vowels (quality, length, diphthongs)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#11-vowels-quality-length-diphthongs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Elvish has seven qualities with phonemic length. Acute (´) marks length; diaeresis (¨) marks fronted/umlauted quality where shown.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>IPA</th><th>Romanization</th><th>Notes</th></tr></thead><tbody><tr><td>/a/ /aː/</td><td>a á</td><td>open back unrounded</td></tr><tr><td>/e/ /eː/</td><td>e é</td><td>mid front</td></tr><tr><td>/i/ /iː/</td><td>i í</td><td>close front</td></tr><tr><td>/o/ /oː/</td><td>o ó</td><td>mid back rounded</td></tr><tr><td>/u/ /uː/</td><td>u ú</td><td>close back rounded</td></tr><tr><td>/ɛ/ /ɛː/</td><td>ë ḗ</td><td>open-mid front (umlaut of /e/)</td></tr><tr><td>/y/ /yː/</td><td>ü ǘ</td><td>fronted rounded (umlaut of /u/)</td></tr><tr><td><strong>Diphthongs (rare, only word-medial, never final):</strong> ai, ei, ui, au, oi.</td><td></td><td></td></tr><tr><td><strong>Allophony:</strong> unstressed /o/ and /e/ may slightly centralize in rapid speech; spelling unchanged.</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="12-consonants">1.2 Consonants<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#12-consonants" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>IPA</th><th>Romanization</th><th>Notes</th></tr></thead><tbody><tr><td>/p b t d k g/</td><td>p b t d c g</td><td>c = /k/ before back vowels, /t͡ʃ/ before front (see 3.6)</td></tr><tr><td>/f v s z ʃ ʒ h/</td><td>f v s z sh zh h</td><td>sh/zh are laminal, never retroflex</td></tr><tr><td>/m n ŋ/</td><td>m n ng</td><td>ng only before /k g/ or word-final</td></tr><tr><td>/l r/</td><td>l r</td><td>r is a flap [ɾ] intervocalically, trill [r] word-initial</td></tr><tr><td>/ɲ ʎ/</td><td>ny ly</td><td>palatal nasal and palatal lateral</td></tr><tr><td>/t͡ʃ d͡ʒ/</td><td>ch j</td><td>ch occurs from palatalization, j rare (loanwords)</td></tr><tr><td>/w j/</td><td>w y</td><td>glides</td></tr><tr><td><strong>Syllable shape:</strong> (C)(C)V(ː)(N). Clusters are limited to soft onsets: {pr, pl, br, bl, tr, dr, cr, cl, fr, fl}. Codas favor nasals and liquids: {m, n, ng, l, r, s}.</td><td></td><td></td></tr><tr><td><strong>Stress:</strong> default <strong>final</strong> syllable; if the final syllable is light (short vowel, no coda) and the penult is heavy (long vowel or coda), stress shifts to <strong>penult</strong>. In compounds, each member keeps its stress.</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="2-script--lethiril-cursive">2) Script — Lethiril Cursive<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-script--lethiril-cursive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Direction:</strong> left→right. <strong>Base set:</strong> 28 letters. <strong>Style:</strong> fast connected cursive with looped ascenders/descenders; most vowels surface as <strong>attached diacritics</strong> over/under a consonant frame, but stand-alone vowel letters exist. Words prefer continuous ligature chains.</p>
+<h3 id="21-letter-inventory--romanization">2.1 Letter inventory &amp; romanization<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#21-letter-inventory--romanization" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Consonant frames (ink stroke cues in italics):</p>
+<ol>
+<li>a (standalone vowel; small loop on baseline)</li>
+<li>e (standalone vowel; open loop with top tick)</li>
+<li>i (upright hairline with dot)</li>
+<li>o (oval loop)</li>
+<li>u (bowl with trailing hook)</li>
+<li>p (tall stem, open loop descender)</li>
+<li>b (tall stem, closed loop descender)</li>
+<li>t (short stem, long overbar)</li>
+<li>d (short stem, rear loop ascender)</li>
+<li>c (curved fore-stroke; before front vowels forms ch-shape)</li>
+<li>g (arched stem with undercurl)</li>
+<li>f (long overbar, under-tail)</li>
+<li>v (shallow vee with high join)</li>
+<li>s (flat wave)</li>
+<li>z (zig with soft under-tail)</li>
+<li>sh (triple hairline comb)</li>
+<li>zh (triple hairline comb reversed)</li>
+<li>h (gate—two posts, light lintel)</li>
+<li>m (three humps on a low line)</li>
+<li>n (two humps)</li>
+<li>ng (hump + tail)</li>
+<li>l (looped ascender)</li>
+<li>r (hooked shoulder, short tail)</li>
+<li>ny (n with high y-hook)</li>
+<li>ly (l with high y-hook)</li>
+<li>ch (special ligature of c+i; looks like tall curved hook)</li>
+<li>j (arched hook with dot; rare)</li>
+<li>w/y (both written as joining marks; w = u-hook; y = i-hook)</li>
+</ol>
+<p><strong>Vowel marks (when attached):</strong></p>
+<ul>
+<li>a = small over-arc; e = open over-loop; i = dot; o = under-oval; u = under-hook; ë = double over-dot; ü = tiny over-circle.<br/>
+<strong>Length:</strong> acute accent over the vowel mark (á, é, í, ó, ú, ḗ, ǘ).</li>
+</ul>
+<p><strong>Ligatures:</strong> CV joins are automatic (c+i→ch, l+y→ly, n+y→ny). Double vowels in hiatus form a horizontal knot between letters.</p>
+<p><strong>Punctuation:</strong> word space is narrow; comma is short descender curl; clause divider is double comma; sentence end is a diamond; proper names begin with a taller initial glyph.</p>
+<h2 id="3-morphology">3) Morphology<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-morphology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Elvish is <strong>fusional</strong> with smooth vocalic endings. No grammatical gender. <strong>Numbers:</strong> singular, <strong>dual</strong>, plural.</p>
+<h3 id="31-nouns-number--case">3.1 Nouns (number &amp; case)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#31-nouns-number--case" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Cases: Nominative (NOM), Accusative (ACC), Genitive (GEN), Dative (DAT), Locative (LOC), Ablative (ABL), Instrumental (INS).</p>
+<p><strong>Base endings (after consonant-final stems):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Case</th><th>Singular</th><th>Dual</th><th>Plural</th></tr></thead><tbody><tr><td>NOM</td><td>-a</td><td>-të</td><td>-in</td></tr><tr><td>ACC</td><td>-en</td><td>-tën</td><td>-inën</td></tr><tr><td>GEN</td><td>-el</td><td>-tel</td><td>-il</td></tr><tr><td>DAT</td><td>-ir</td><td>-tir</td><td>-irë</td></tr><tr><td>LOC</td><td>-na</td><td>-tëna</td><td>-inë</td></tr><tr><td>ABL</td><td>-or</td><td>-tëor</td><td>-uri</td></tr><tr><td>INS</td><td>-thë</td><td>-tëthë</td><td>-ithë</td></tr><tr><td><strong>After a final vowel</strong>, drop that vowel before adding -a/-en/-el etc. Dual -të sits <strong>before</strong> other case endings: <em>sel-të-el</em> “of the pair of stars.”</td><td></td><td></td><td></td></tr></tbody></table></div>
+<p><strong>Adjectives</strong> follow nouns and agree <strong>in number</strong> (not case). Adjective plural uses -in; dual uses -të: <em>lóra anel-in</em> “bright stars,” <em>lóra anel-të</em> “the two bright stars.”</p>
+<p><strong>Definiteness:</strong> analytic, with demonstratives: <strong>ha</strong> “this,” <strong>ke</strong> “that,” placed before the noun phrase: <em>ha lórin anel-in</em> “these bright stars.”</p>
+<h3 id="32-pronouns">3.2 Pronouns<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#32-pronouns" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Person</th><th>NOM</th><th>ACC</th><th>GEN</th><th>DAT</th></tr></thead><tbody><tr><td>1sg</td><td>en</td><td>men</td><td>mel</td><td>mir</td></tr><tr><td>2sg</td><td>ti</td><td>tin</td><td>til</td><td>tir</td></tr><tr><td>3sg</td><td>se</td><td>sen</td><td>sel</td><td>sir</td></tr><tr><td>1pl</td><td>em</td><td>mem</td><td>mil</td><td>mirë</td></tr><tr><td>2pl</td><td>tem</td><td>temn</td><td>tel</td><td>tirë</td></tr><tr><td>3pl</td><td>ser</td><td>senn</td><td>sil</td><td>sirë</td></tr><tr><td>1du</td><td>entë</td><td>mentë</td><td>meltë</td><td>mirtë</td></tr><tr><td>2du</td><td>titë</td><td>tintë</td><td>tiltë</td><td>tirtë</td></tr><tr><td>3du</td><td>setë</td><td>sentë</td><td>seltë</td><td>sirtë</td></tr><tr><td>Reflexive <strong>së</strong> (all persons) behaves like an adjective (agrees in number).</td><td></td><td></td><td></td><td></td></tr><tr><td>Interrogatives: <strong>mi</strong> who, <strong>mae</strong> what, <strong>kath</strong> where, <strong>len</strong> when, <strong>sai</strong> why, <strong>kya</strong> how.</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+<h3 id="33-determination--possession">3.3 Determination &amp; Possession<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#33-determination--possession" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Genitive</strong> after the head: <em>anel-a sel</em> “the star of her.”</li>
+<li>Alternatively, analytic <strong>na</strong> “of” may be used for clarity or poetics: <em>anel-a na sel</em>.</li>
+</ul>
+<h3 id="34-derivation">3.4 Derivation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#34-derivation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Agentive <strong>-ar</strong> (<em>mor</em> “travel” → <em>mor-ar</em> “traveler”).</li>
+<li>Abstract <strong>-eth</strong> (<em>lóra</em> “bright” → <em>lór-eth</em> “brightness”).</li>
+<li>Diminutive <strong>-el</strong>, augmentative <strong>-orë</strong>, collective <strong>-thir</strong>.</li>
+</ul>
+<h3 id="35-harmony--euphony">3.5 Harmony &amp; Euphony<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#35-harmony--euphony" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Vowel harmony is <strong>optional but preferred</strong> in formal style: suffix vowels assimilate toward the nearest stem vowel (front vs back). Thus GEN on a stem with front vowels may surface as <strong>-il</strong> rather than <strong>-el</strong>.</p>
+<h3 id="36-palatalization-softening">3.6 Palatalization (softening)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#36-palatalization-softening" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Before front vowels (e i ë ü) or <strong>y</strong>, the consonants soften:</p>
+<ul>
+<li><strong>c</strong> (/k/) → <strong>ch</strong> (/t͡ʃ/): <em>cal</em> “stone” → <em>chelin</em> (PL GEN).</li>
+<li><strong>t</strong> → alveolo-palatal [t̠ʃ] written <strong>ch</strong> in some dialects; literary standard keeps <strong>t</strong> but writes an i-hook.</li>
+<li><strong>n + y → ny</strong>, <strong>l + y → ly</strong>, <strong>d + y → j</strong> in careful speech.</li>
+</ul>
+<h2 id="4-verbs">4) Verbs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-verbs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="41-overview">4.1 Overview<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#41-overview" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Elvish is <strong>pro-drop</strong> (subject pronouns optional). Verbs conjugate for person/number, tense, aspect, and mood. Voice is analytic (passive with auxiliary + participle).</p>
+<ul>
+<li><strong>Tense:</strong> Present, Past, Future.</li>
+<li><strong>Aspect:</strong> Imperfective (IPFV), Perfective (PFV).</li>
+<li><strong>Mood:</strong> Indicative, Subjunctive, Imperative.</li>
+<li><strong>Agreement:</strong> 1/2/3 × SG/DU/PL.</li>
+</ul>
+<h3 id="42-personal-endings-attach-after-tenseaspect-vowel">4.2 Personal endings (attach after tense/aspect vowel)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#42-personal-endings-attach-after-tenseaspect-vowel" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Person</th><th>SG</th><th>DU</th><th>PL</th></tr></thead><tbody><tr><td>1</td><td>-n</td><td>-ntë</td><td>-m</td></tr><tr><td>2</td><td>-th</td><td>-thë</td><td>-thë</td></tr><tr><td>3</td><td>-s</td><td>-së</td><td>-r</td></tr></tbody></table></div>
+<h3 id="43-tenseaspect-formatives">4.3 Tense/Aspect formatives<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#43-tenseaspect-formatives" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Present:</strong> theme vowel <strong>-a-</strong> (bare stem if euphonic).</li>
+<li><strong>Past:</strong> <strong>-e-</strong> (PFV) or <strong>-na-</strong> (IPFV).</li>
+<li><strong>Future:</strong> <strong>-i-</strong>.</li>
+<li><strong>Perfect (resultative):</strong> <strong>-ó-</strong> + participle.</li>
+</ul>
+<p><strong>Template:</strong> stem-(aspect/tense)-(voice)-person.</p>
+<h3 id="44-voice--non-finite-forms">4.4 Voice &amp; Non-finite forms<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#44-voice--non-finite-forms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Passive:</strong> auxiliary <strong>esë</strong> “to be” + <strong>past participle -en</strong>: <em>esë laren</em> “is spoken.”</li>
+<li><strong>Middle/reflexive:</strong> infix <strong>-ri-</strong> before the personal ending: <em>laira-ri-s</em> “she speaks for herself.”</li>
+<li><strong>Infinitive:</strong> <strong>-ë</strong>; <strong>Gerund:</strong> <strong>-iel</strong>; <strong>Active Participle:</strong> <strong>-el</strong>; <strong>Past Participle:</strong> <strong>-en</strong>.</li>
+</ul>
+<h3 id="45-negation--modality">4.5 Negation &amp; Modality<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#45-negation--modality" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Negation:</strong> particle <strong>ui</strong> directly before the verb: <em>ui lara-n</em> “I do not speak.”</li>
+<li><strong>Prohibitive:</strong> <strong>ui</strong> + infinitive: <em>ui larë!</em> “do not speak!”</li>
+<li><strong>Subjunctive:</strong> particle <strong>me</strong> before the verb or suffix <strong>-ir</strong> after the tense vowel: <em>me lara-s</em> / <em>lar-a-ir-s</em> “that she speak.”</li>
+</ul>
+<h3 id="46-conjugation-examples">4.6 Conjugation examples<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#46-conjugation-examples" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Let <strong>lar-</strong> “speak,” <strong>mel-</strong> “love,” <strong>mor-</strong> “go.”</p>
+<p><strong>Present (IND):</strong></p>
+<ul>
+<li>1sg <strong>lar-a-n</strong> “I speak”</li>
+<li>3sg <strong>mel-a-s</strong> “he/she loves”</li>
+<li>3pl <strong>mor-a-r</strong> “they go”</li>
+</ul>
+<p><strong>Past PFV (IND):</strong></p>
+<ul>
+<li>1sg <strong>lar-e-n</strong> “I spoke”</li>
+<li>3du <strong>mel-e-së</strong> “the two loved”</li>
+<li>2pl <strong>mor-e-thë</strong> “you (pl) went”</li>
+</ul>
+<p><strong>Past IPFV (IND):</strong></p>
+<ul>
+<li>1pl <strong>lar-na-m</strong> “we were speaking”</li>
+<li>3sg <strong>mel-na-s</strong> “he/she was loving”</li>
+</ul>
+<p><strong>Future (IND):</strong></p>
+<ul>
+<li>2sg <strong>lar-i-th</strong> “you will speak”</li>
+<li>3pl <strong>mel-i-r</strong> “they will love”</li>
+</ul>
+<p><strong>Perfect (resultative):</strong></p>
+<ul>
+<li>3sg <strong>lar-ó-en esë</strong> (lit. “is spoken”) → <strong>esë laren</strong> in analytic word order.</li>
+</ul>
+<p><strong>Imperative:</strong></p>
+<ul>
+<li>2sg <strong>lar-a!</strong></li>
+<li>2pl <strong>lar-ië!</strong> (softened plural imperative)</li>
+</ul>
+<h2 id="5-syntax">5) Syntax<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-syntax" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="51-word-order">5.1 Word Order<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#51-word-order" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Default <strong>SVO</strong>. Adjectives <strong>follow</strong> nouns. Genitives follow head nouns (either synthetic GEN or analytic <strong>na</strong>). Prepositions are common; postpositions are poetic.</p>
+<h3 id="52-questions">5.2 Questions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#52-questions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Yes/No:</strong> clause-final clitic <strong>-a?</strong> or initial particle <strong>qa</strong>.</li>
+<li><strong>Content:</strong> interrogative fronted: <strong>mi</strong> who, <strong>mae</strong> what, <strong>kath</strong> where, <strong>len</strong> when, <strong>sai</strong> why, <strong>kya</strong> how.</li>
+</ul>
+<h3 id="53-relative-clauses">5.3 Relative Clauses<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#53-relative-clauses" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Introduced by <strong>ke</strong> and placed <strong>after</strong> the noun: <em>anel-a ke en lar-a-n</em> “the star that I speak (about).”</p>
+<h3 id="54-focustopic">5.4 Focus/Topic<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#54-focustopic" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Focused elements take particle <strong>sa</strong> before the constituent; topics use <strong>ha</strong> after the constituent.</p>
+<h3 id="55-comparison">5.5 Comparison<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#55-comparison" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Analytic <strong>mora</strong> “more” and <strong>moras</strong> “most” before adjectives: <em>mora lóra</em> “brighter,” <em>moras lóra</em> “brightest.”</li>
+<li>Than-phrase with <strong>na</strong> + GEN: <em>mora lóra en-el</em> “brighter than me.”</li>
+</ul>
+<h2 id="6-core-functional-items-for-immediate-fluency">6) Core functional items (for immediate fluency)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-core-functional-items-for-immediate-fluency" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Demonstratives: <strong>ha</strong> (this), <strong>ke</strong> (that).</li>
+<li>Connectives: <strong>a</strong> and, <strong>no</strong> but, <strong>se</strong> or.</li>
+<li>Common prepositions: <strong>na</strong> of, <strong>to</strong> to/toward, <strong>ir</strong> for, <strong>nel</strong> in/within, <strong>or</strong> from, <strong>së</strong> with/by, <strong>ath</strong> over, <strong>tel</strong> under, <strong>par</strong> through.</li>
+<li>Time words: <strong>mer</strong> day, <strong>nos</strong> night, <strong>len</strong> when, <strong>sel</strong> now, <strong>lor</strong> soon, <strong>dar</strong> before, <strong>mor</strong> after.</li>
+<li>Politeness particles: <strong>la</strong> softener (often sentence-initial), <strong>miros</strong> please (formal).</li>
+</ul>
+<h2 id="7-numerals">7) Numerals<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-numerals" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Elvish uses decimal numerals with many Auric cognates.</p>
+<p>1 <strong>en</strong>, 2 <strong>du</strong>, 3 <strong>tir</strong>, 4 <strong>car</strong>, 5 <strong>pén</strong>, 6 <strong>shai</strong>, 7 <strong>sel</strong>, 8 <strong>och</strong>, 9 <strong>nev</strong>, 10 <strong>des</strong>.<br/>
+11 <strong>des-en</strong>, 12 <strong>des-du</strong>, 20 <strong>du-des</strong>, 100 <strong>sent</strong>, 1000 <strong>mir</strong>.<br/>
+Ordinals add <strong>-ith</strong>: <strong>du-ith</strong> “second”. Dual counted nouns often take dual <strong>-të</strong> instead of the numeral “2” in elevated style.</p>
+<h2 id="8-sample-sentences-glossed">8) Sample Sentences (glossed)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-sample-sentences-glossed" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li><strong>En laren mel-a-n.</strong><br/>
+I word speak-PRS-1SG.<br/>
+“I speak a word.”</li>
+<li><strong>Ha anel-a lóra-in mor-i-r na sel-el.</strong><br/>
+this star-NOM bright-PL go-FUT-3PL of 3SG.GEN.<br/>
+“These bright stars will move for her.”</li>
+<li><strong>Ui mel-na-s en-en.</strong><br/>
+NEG love-IPFV-3SG me-ACC.<br/>
+“He/She was not loving me.”</li>
+<li><strong>Mora lóra anel-a na en-el.</strong><br/>
+more bright star-NOM of my-GEN.<br/>
+“My star is brighter.”</li>
+<li><strong>Ke saran-a lór-in ke en ven-e-n.</strong><br/>
+that person-NOM bright-PL REL I see-PST-1SG.<br/>
+“That is the person who saw the lights I saw.”</li>
+<li><strong>Lar-ië, tem!</strong><br/>
+speak-IMP.PL you.PL<br/>
+“Speak, you all!”</li>
+<li><strong>Esë laren na mor-e-r.</strong><br/>
+be spoken of go-PST-3PL.<br/>
+“It was spoken of those who went.”</li>
+</ol>
+<h2 id="9-learning-path">9) Learning Path<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-learning-path" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>Master the 28 letters and the vowel diacritics; practice connecting CV ligatures.</li>
+<li>Drill noun cases with ten stems (both vowel- and consonant-final), including dual forms.</li>
+<li>Conjugate <strong>lar-</strong>, <strong>mel-</strong>, <strong>mor-</strong> across PRS/PST/FUT, IPFV/PFV; add negation <strong>ui</strong> and subjunctive <strong>me</strong>.</li>
+<li>Compose SVO clauses with post-nominal adjectives; add GEN and prepositions.</li>
+<li>Practice questions with <strong>qa</strong> and relative clauses with <strong>ke</strong>.</li>
+</ol>
+<h2 id="elvish-core-dictionary-v1">Elvish Core Dictionary (v1)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#elvish-core-dictionary-v1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Numbers</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Elvish</th><th>Pronunciation</th><th>Type</th><th>Meaning</th><th>Notes / Morphology</th><th>Examples</th></tr></thead><tbody><tr><td><strong>en</strong></td><td>EN</td><td>num</td><td>one</td><td>cardinal</td><td><strong>en cal-a</strong> “one stone”</td></tr><tr><td><strong>du</strong></td><td>DOO</td><td>num</td><td>two</td><td>cardinal; often use <strong>-të</strong> dual on noun</td><td><strong>cal-të</strong> “two stones (as a pair)”</td></tr><tr><td><strong>tir</strong></td><td>TEER</td><td>num</td><td>three</td><td>—</td><td><strong>tir saran-in</strong> “three people”</td></tr><tr><td><strong>car</strong></td><td>KAHR</td><td>num</td><td>four</td><td>—</td><td>—</td></tr><tr><td><strong>pén</strong></td><td>PAYN</td><td>num</td><td>five</td><td>—</td><td>—</td></tr><tr><td><strong>shai</strong></td><td>SHY</td><td>num</td><td>six</td><td>—</td><td>—</td></tr><tr><td><strong>sel</strong></td><td>SELL</td><td>num</td><td>seven</td><td>—</td><td>—</td></tr><tr><td><strong>och</strong></td><td>OCH (ch=church)</td><td>num</td><td>eight</td><td>—</td><td>—</td></tr><tr><td><strong>nev</strong></td><td>NEHV</td><td>num</td><td>nine</td><td>—</td><td>—</td></tr><tr><td><strong>des</strong></td><td>DESS</td><td>num</td><td>ten</td><td>—</td><td>—</td></tr><tr><td><strong>des-en</strong></td><td>DESS-en</td><td>num</td><td>eleven</td><td>10+1</td><td>—</td></tr><tr><td><strong>des-du</strong></td><td>DESS-doo</td><td>num</td><td>twelve</td><td>10+2</td><td>—</td></tr><tr><td><strong>du-des</strong></td><td>DOO-dess</td><td>num</td><td>twenty</td><td>2×10</td><td>—</td></tr><tr><td><strong>tir-des</strong></td><td>TEER-dess</td><td>num</td><td>thirty</td><td>3×10</td><td>—</td></tr><tr><td><strong>car-des</strong></td><td>KAHR-dess</td><td>num</td><td>forty</td><td>—</td><td>—</td></tr><tr><td><strong>sent</strong></td><td>SENT</td><td>num</td><td>hundred</td><td>100</td><td>—</td></tr><tr><td><strong>mir</strong></td><td>MEER</td><td>num</td><td>thousand</td><td>1000</td><td>—</td></tr><tr><td><strong>-ith</strong></td><td>ith</td><td>suffix</td><td>ordinal</td><td>add to numeral</td><td><strong>du-ith</strong> “second”</td></tr><tr><td><strong>mora</strong></td><td>MOH-rah</td><td>quant</td><td>more</td><td>comparative</td><td><strong>mora lóra</strong> “brighter”</td></tr><tr><td><strong>moras</strong></td><td>MOH-rahs</td><td>quant</td><td>most</td><td>superlative</td><td><strong>moras lóra</strong> “brightest”</td></tr><tr><td><strong>páre</strong></td><td>PAH-reh</td><td>quant</td><td>few</td><td>adj/quantifies</td><td>—</td></tr><tr><td><strong>méné</strong></td><td>meh-NAY</td><td>quant</td><td>many</td><td>adj/quantifies</td><td>—</td></tr><tr><td><strong>allë</strong></td><td>AH-leh</td><td>quant</td><td>all, every</td><td>adj</td><td>—</td></tr><tr><td><strong>nelë</strong></td><td>NEH-leh</td><td>quant</td><td>several, some</td><td>adj</td><td>—</td></tr><tr><td>Basic Words</td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Word</th><th>Pronunciation</th><th>POS</th><th>Meaning</th><th>Notes (agree./case)</th><th>Example</th></tr></thead><tbody><tr><td><strong>en / men / mel / mir</strong></td><td>EN / MEN / MEL / MEER</td><td>pron</td><td>I / me / my / to me</td><td>NOM / ACC / GEN / DAT</td><td><strong>en lar-a-n</strong> “I speak”</td></tr><tr><td><strong>ti / tin / til / tir</strong></td><td>TEE / TIN / TEEL / TEER</td><td>pron</td><td>you (sg) / you / your / to you</td><td>—</td><td><strong>ui lar-a-th</strong> “you don’t speak”</td></tr><tr><td><strong>se / sen / sel / sir</strong></td><td>SEH / SEN / SELL / SEER</td><td>pron</td><td>he, she / him, her / his, her / to him, her</td><td>—</td><td>—</td></tr><tr><td><strong>em / mem / mil / mirë</strong></td><td>EM / MEM / MEEL / MIR-eh</td><td>pron</td><td>we / us / our / to us</td><td>—</td><td>—</td></tr><tr><td><strong>tem / temn / tel / tirë</strong></td><td>TEM / TEMN / TELL / TEER-eh</td><td>pron</td><td>you (pl) / you / your / to you</td><td>—</td><td>—</td></tr><tr><td><strong>ser / senn / sil / sirë</strong></td><td>SEHR / SENN / SEEL / SEER-eh</td><td>pron</td><td>they / them / their / to them</td><td>—</td><td>—</td></tr><tr><td><strong>entë / mentë / meltë / mirtë</strong></td><td>EN-teh / MEN-teh / MEL-teh / MEER-teh</td><td>pron</td><td>we two / us two / our (dual) / to us two</td><td>dual</td><td>—</td></tr><tr><td><strong>së</strong></td><td>seh</td><td>pron/refl</td><td>self, own</td><td>agrees in number</td><td><strong>se laira-ri-s së</strong> “she speaks for herself”</td></tr><tr><td><strong>ha</strong></td><td>hah</td><td>dem</td><td>this/these</td><td>pre-NP</td><td><strong>ha anel-a</strong> “this star”</td></tr><tr><td><strong>ke</strong></td><td>keh</td><td>dem/rel</td><td>that / which (REL)</td><td>pre-NP / clause-head</td><td><strong>anel-a ke en lar-a-n</strong></td></tr><tr><td><strong>sa</strong></td><td>sah</td><td>focus</td><td>focus particle</td><td>before focused item</td><td><strong>sa en</strong> lara-n</td></tr><tr><td><strong>ui</strong></td><td>oo-ee</td><td>neg</td><td>not / don’t</td><td>before verb</td><td><strong>ui mel-na-s</strong></td></tr><tr><td><strong>me</strong></td><td>meh</td><td>mood</td><td>(that) … (subj.)</td><td>before verb</td><td><strong>me mor-i-r</strong> “that they go”</td></tr><tr><td><strong>qa</strong></td><td>kah</td><td>Q</td><td>yes/no marker</td><td>clause-initial or final clitic <strong>-a?</strong></td><td><strong>qa ti lar-a-th?</strong></td></tr><tr><td><strong>a / no / se</strong></td><td>ah / noh / seh</td><td>conj</td><td>and / but / or</td><td>coordinators</td><td>—</td></tr><tr><td><strong>la / miros</strong></td><td>lah / MEE-rohs</td><td>politeness</td><td>softener / please</td><td>sentence-initial (la)</td><td>—</td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Form</th><th>Pronunciation</th><th>Type</th><th>Meaning</th><th>Case behavior / Note</th></tr></thead><tbody><tr><td><strong>na</strong></td><td>nah</td><td>prep</td><td>of</td><td>analytic genitive: <strong>anel-a na sel</strong></td></tr><tr><td><strong>to</strong></td><td>toh</td><td>prep</td><td>to, toward</td><td>motion</td></tr><tr><td><strong>ir</strong></td><td>eer</td><td>prep</td><td>for, on behalf of</td><td>recipient/purpose</td></tr><tr><td><strong>nel</strong></td><td>nell</td><td>prep</td><td>in, within</td><td>location</td></tr><tr><td><strong>or</strong></td><td>ohr</td><td>prep</td><td>from, out of</td><td>source/ablative</td></tr><tr><td><strong>së</strong></td><td>seh</td><td>prep/postp</td><td>with, by means of</td><td>also instrumental <strong>INS</strong></td></tr><tr><td><strong>ath</strong></td><td>ath (as in “bath”)</td><td>prep</td><td>over, above</td><td>—</td></tr><tr><td><strong>tel</strong></td><td>tell</td><td>prep</td><td>under, beneath</td><td>—</td></tr><tr><td><strong>par</strong></td><td>pahr</td><td>prep</td><td>through, across</td><td>—</td></tr><tr><td><strong>ad</strong></td><td>ahd</td><td>prep</td><td>about, concerning</td><td>topical</td></tr><tr><td><strong>selë</strong></td><td>SEH-leh</td><td>prep</td><td>near, beside</td><td>—</td></tr><tr><td><strong>farë</strong></td><td>FAH-reh</td><td>prep</td><td>beyond, past</td><td>—</td></tr><tr><td><strong>nóre</strong></td><td>NOH-reh</td><td>prep</td><td>inside of</td><td>strengthens <strong>nel</strong></td></tr><tr><td><strong>uir</strong></td><td>OO-eer</td><td>prep</td><td>without</td><td>takes NP in GEN</td></tr><tr><td><strong>evar</strong></td><td>EH-vahr</td><td>prep</td><td>between, among</td><td>plural referents</td></tr><tr><td><strong>tóre</strong></td><td>TOH-reh</td><td>prep</td><td>around, encircling</td><td>—</td></tr><tr><td><strong>upel</strong></td><td>OO-pel</td><td>prep</td><td>against (phys.) / opposed to</td><td>—</td></tr><tr><td><strong>rindë</strong></td><td>REEN-deh</td><td>postp</td><td>along, following</td><td>NP + <strong>rindë</strong></td></tr><tr><td><strong>-thir</strong></td><td>theer</td><td>postp</td><td>among (collective)</td><td>attach after NP: <strong>anel-in-thir</strong></td></tr><tr><td>Verbs</td><td></td><td></td><td></td><td></td></tr><tr><td><strong>Lemma shown as the infinitive -ë.</strong> Personal endings: 1SG <strong>-n</strong>, 2SG <strong>-th</strong>, 3SG <strong>-s</strong>; DU <strong>-ntë/-thë/-së</strong>; PL <strong>-m/-thë/-r</strong>. Tense/aspect vowels: PRS <strong>-a-</strong>, PST.PFV <strong>-e-</strong>, PST.IPFV <strong>-na-</strong>, FUT <strong>-i-</strong>. Negation <strong>ui</strong> before the verb; subjunctive with <strong>me</strong> or <strong>-ir</strong> after tense vowel.</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Lemma (stem)</th><th>Pronunciation</th><th>Meaning</th><th>Notes / Quick forms</th></tr></thead><tbody><tr><td><strong>larë (lar-)</strong></td><td>LAHR-eh</td><td>speak, say</td><td>PRS 1sg <strong>lar-a-n</strong>; PP <strong>lar-en</strong></td></tr><tr><td><strong>melë (mel-)</strong></td><td>MEHL-eh</td><td>love, cherish</td><td>—</td></tr><tr><td><strong>morë (mor-)</strong></td><td>MOHR-eh</td><td>go, travel</td><td>motion</td></tr><tr><td><strong>venë (ven-)</strong></td><td>VEHN-eh</td><td>see, behold</td><td>vision</td></tr><tr><td><strong>tenë (ten-)</strong></td><td>TEHN-eh</td><td>give, grant</td><td>DAT recipient</td></tr><tr><td><strong>karë (kar-)</strong></td><td>KAHR-eh</td><td>make, build, do</td><td>agentive <strong>kar-ar</strong> “maker”</td></tr><tr><td><strong>derë (der-)</strong></td><td>DEHR-eh</td><td>take, seize</td><td>—</td></tr><tr><td><strong>sedë (sed-)</strong></td><td>SEHD-eh</td><td>sit, dwell</td><td>LOC frequent</td></tr><tr><td><strong>lumë (lum-)</strong></td><td>LOOM-eh</td><td>shine, glow</td><td>N <strong>lóra</strong> “bright” adj cognate</td></tr><tr><td><strong>esë</strong></td><td>EHS-eh</td><td>be (aux/passive)</td><td>analytic passive</td></tr><tr><td><strong>cairë (cair-)</strong></td><td>KY-reh (cai=“kai”)</td><td>carry, bear</td><td>—</td></tr><tr><td><strong>sorë (sor-)</strong></td><td>SOHR-eh</td><td>write, inscribe</td><td>script context</td></tr><tr><td><strong>lenë (len-)</strong></td><td>LEHN-eh</td><td>know (a fact)</td><td>cognition</td></tr><tr><td><strong>ishtë (ish-)</strong></td><td>ISH-teh</td><td>know (a person), be acquainted</td><td>sociative</td></tr><tr><td><strong>tirë (tir-)</strong></td><td>TEER-eh</td><td>watch, guard</td><td>—</td></tr><tr><td><strong>nirë (nir-)</strong></td><td>NEER-eh</td><td>seek, search</td><td>—</td></tr><tr><td><strong>falë (fal-)</strong></td><td>FAHL-eh</td><td>fall, drop</td><td>—</td></tr><tr><td><strong>tulë (tul-)</strong></td><td>TOOL-eh</td><td>come, arrive</td><td>counterpart to morë</td></tr><tr><td><strong>halë (hal-)</strong></td><td>HAHL-eh</td><td>breathe, rest</td><td>—</td></tr><tr><td><strong>shairë (shair-)</strong></td><td>SHY-reh</td><td>sing</td><td>elves love this one</td></tr><tr><td><strong>lirë (lir-)</strong></td><td>LEER-eh</td><td>read</td><td>literacy</td></tr><tr><td><strong>cirë (cir-)</strong></td><td>KEER-eh</td><td>cut, carve</td><td>tool craft</td></tr><tr><td><strong>nyarë (nyar-)</strong></td><td>NYAR-eh</td><td>tell (a tale)</td><td>storytelling</td></tr><tr><td><strong>sarë (sar-)</strong></td><td>SAHR-eh</td><td>raise, lift</td><td>—</td></tr><tr><td><strong>talë (tal-)</strong></td><td>TAHL-eh</td><td>put, place</td><td>—</td></tr><tr><td><strong>yavë (yav-)</strong></td><td>YAHV-eh</td><td>give birth, yield</td><td>harvest metaphor</td></tr><tr><td><strong>harë (har-)</strong></td><td>HAHR-eh</td><td>burn, blaze</td><td>fire</td></tr><tr><td><strong>sulë (sul-)</strong></td><td>SOOL-eh</td><td>blow (wind)</td><td>weather</td></tr><tr><td><strong>nórë (nór-)</strong></td><td>NOHR-eh</td><td>run</td><td>—</td></tr><tr><td><strong>palë (pal-)</strong></td><td>PAHL-eh</td><td>open</td><td>—</td></tr><tr><td><strong>cavë (cav-)</strong></td><td>KAHV-eh</td><td>close, shut</td><td>—</td></tr><tr><td><strong>rilë (ril-)</strong></td><td>REEL-eh</td><td>shine/twinkle</td><td>poetic</td></tr><tr><td><strong>finë (fin-)</strong></td><td>FEEN-eh</td><td>weave, spin</td><td>textiles, magic metaph.</td></tr><tr><td><strong>morilë (moril-)</strong></td><td>MOH-ril-eh</td><td>glide, drift</td><td>airy motion</td></tr><tr><td><strong>calë (cal-)</strong></td><td>KAHL-eh</td><td>strike, hit</td><td>—</td></tr><tr><td><strong>dornë (dorn-)</strong></td><td>DOHRN-eh</td><td>endure, last</td><td>—</td></tr><tr><td><strong>siríë (sirí-)</strong></td><td>see-REE-eh</td><td>flow</td><td>rivers/time</td></tr><tr><td><strong>kelë (kel-)</strong></td><td>KEHL-eh</td><td>leap, spring</td><td>—</td></tr><tr><td><strong>parë (par-)</strong></td><td>PAHR-eh</td><td>pass, cross</td><td>with <strong>par</strong> “through”</td></tr><tr><td><strong>morwë (morw-)</strong></td><td>MOHR-weh</td><td>set out, depart (middle)</td><td>often <strong>mor-ri-…</strong></td></tr><tr><td><strong>helë (hel-)</strong></td><td>HEHL-eh</td><td>heal, mend</td><td>—</td></tr><tr><td><strong>rucë (ruc-)</strong></td><td>ROOK-eh</td><td>fear, dread</td><td>—</td></tr><tr><td><strong>hírë (hír-)</strong></td><td>HEER-eh</td><td>find</td><td>—</td></tr><tr><td><strong>telë (tel-)</strong></td><td>TEHL-eh</td><td>end, finish</td><td>PFV sense</td></tr><tr><td><strong>sindë (sind-)</strong></td><td>SEEND-eh</td><td>rest (stop travel)</td><td>—</td></tr><tr><td><strong>vérë (vér-)</strong></td><td>VAIR-eh</td><td>marry, bind</td><td>social</td></tr><tr><td><strong>mirë (mir-)</strong></td><td>MEER-eh</td><td>desire, want</td><td>—</td></tr><tr><td><strong>sovë (sov-)</strong></td><td>SOHV-eh</td><td>sleep</td><td>—</td></tr><tr><td><strong>yeldë (yeld-)</strong></td><td>YELD-eh</td><td>learn</td><td>student</td></tr><tr><td><strong>taltë (talt-)</strong></td><td>TAHLT-eh</td><td>teach</td><td>teacher <strong>taltar</strong></td></tr><tr><td><strong>fendë (fend-)</strong></td><td>FEND-eh</td><td>defend, ward</td><td>—</td></tr><tr><td><strong>vendë (vend-)</strong></td><td>VEND-eh</td><td>trade, sell</td><td>—</td></tr><tr><td><strong>cendë (cend-)</strong></td><td>KEND-eh</td><td>buy</td><td>—</td></tr><tr><td><strong>gardë (gard-)</strong></td><td>GAHRD-eh</td><td>garden, cultivate</td><td>verb sense “to tend”</td></tr><tr><td><strong>sórë (sór-)</strong></td><td>SOHR-eh</td><td>sow, plant</td><td>—</td></tr><tr><td><strong>tórë (tór-)</strong></td><td>TOHR-eh</td><td>forge</td><td>smithing</td></tr><tr><td><strong>lamë (lam-)</strong></td><td>LAHM-eh</td><td>taste</td><td>sense</td></tr><tr><td><strong>tengë (teng-)</strong></td><td>TENG-eh</td><td>touch, feel</td><td>sense</td></tr><tr><td><strong>hanë (han-)</strong></td><td>HAHN-eh</td><td>hear, listen</td><td>sense</td></tr><tr><td><strong>cenë (cen-)</strong></td><td>KEN-eh</td><td>look (at), gaze</td><td>sense</td></tr><tr><td><strong>olë (ol-)</strong></td><td>OHL-eh</td><td>smell</td><td>sense</td></tr><tr><td><strong>merë (mer-)</strong></td><td>MAIR-eh</td><td>live, dwell</td><td>life</td></tr><tr><td><strong>nacë (nac-)</strong></td><td>NAHTS-eh</td><td>bite</td><td>—</td></tr><tr><td><strong>racë (rac-)</strong></td><td>RAHTS-eh</td><td>break</td><td>—</td></tr><tr><td><strong>tocë (toc-)</strong></td><td>TOHTS-eh</td><td>cook</td><td>—</td></tr><tr><td><strong>sacë (sac-)</strong></td><td>SAHTS-eh</td><td>pull, draw</td><td>—</td></tr><tr><td><strong>pucë (puc-)</strong></td><td>POOKS-eh</td><td>push</td><td>—</td></tr><tr><td><strong>halcë (halc-)</strong></td><td>HALKS-eh</td><td>freeze</td><td>—</td></tr><tr><td><strong>urë (ur-)</strong></td><td>OOR-eh</td><td>burn (trans.)</td><td>—</td></tr><tr><td><strong>gairë (gair-)</strong></td><td>GUY-reh</td><td>bind, tie, yoke</td><td>contract</td></tr><tr><td><strong>lendë (lend-)</strong></td><td>LEND-eh</td><td>lend, loan</td><td>—</td></tr><tr><td><strong>túvë (túv-)</strong></td><td>TOOV-eh</td><td>meet, encounter</td><td>—</td></tr><tr><td><strong>nácë (nác-)</strong></td><td>NAH-seh</td><td>heal (magic)</td><td>arcane nuance</td></tr><tr><td><strong>laitë (lait-)</strong></td><td>LYTE</td><td>praise, bless</td><td>song, ritual</td></tr><tr><td><strong>cuilë (cuil-)</strong></td><td>KOO-ee-leh</td><td>live (be alive)</td><td>stative</td></tr><tr><td><strong>hastë (hast-)</strong></td><td>HAHST-eh</td><td>hurry</td><td>—</td></tr><tr><td><strong>lindë (lind-)</strong></td><td>LEEND-eh</td><td>sing poetically</td><td>vs <strong>shairë</strong></td></tr><tr><td><strong>quorë (quor-)</strong></td><td>KWOHR-eh</td><td>speak truth, swear</td><td>oath</td></tr><tr><td><strong>vanyë (vany-)</strong></td><td>VAHN-yeh</td><td>heal (natural recovery)</td><td>gentle</td></tr><tr><td><strong>tulcë (tulc-)</strong></td><td>TOOLKS-eh</td><td>carve runes</td><td>writing+craft</td></tr><tr><td><strong>sírë (sír-)</strong></td><td>SEER-eh</td><td>sail</td><td>water travel</td></tr><tr><td><strong>carnë (carn-)</strong></td><td>KAHRN-eh</td><td>red-dye, color</td><td>craft</td></tr><tr><td><strong>miltë (milt-)</strong></td><td>MEELT-eh</td><td>paint</td><td>art</td></tr><tr><td><strong>sencë (senc-)</strong></td><td>SENKS-eh</td><td>judge</td><td>law</td></tr><tr><td><strong>tárë (tár-)</strong></td><td>TAHR-eh</td><td>lead, guide</td><td>leadership</td></tr><tr><td><strong>norë (nor-)</strong></td><td>NOHR-eh</td><td>walk</td><td>basic motion</td></tr><tr><td><strong>lenwë (lenw-)</strong></td><td>LEHN-weh</td><td>remember</td><td>cognition</td></tr><tr><td><strong>pethë (peth-)</strong></td><td>PETH-eh</td><td>forget</td><td>cognition</td></tr><tr><td><strong>hórë (hór-)</strong></td><td>HOHR-eh</td><td>hope</td><td>modal</td></tr><tr><td><strong>dárë (dár-)</strong></td><td>DAHR-eh</td><td>wait</td><td>—</td></tr><tr><td><strong>sirnë (sirn-)</strong></td><td>SEERN-eh</td><td>whisper</td><td>speech</td></tr><tr><td><strong>tornë (torn-)</strong></td><td>TOHRN-eh</td><td>thunder</td><td>weather</td></tr><tr><td><strong>súmë (súm-)</strong></td><td>SOOM-eh</td><td>breathe out, sigh</td><td>—</td></tr><tr><td><strong>yeldirë (yeldir-)</strong></td><td>YEL-deer-eh</td><td>teach formally</td><td>scholastic register</td></tr><tr><td><strong>quendë (quend-)</strong></td><td>KWEND-eh</td><td>ask, inquire</td><td>question</td></tr><tr><td><strong>antë (ant-)</strong></td><td>AHNT-eh</td><td>give back, return (trans.)</td><td>—</td></tr><tr><td><strong>neltë (nelt-)</strong></td><td>NELT-eh</td><td>return (intrans.)</td><td>—</td></tr><tr><td><strong>fírë (fír-)</strong></td><td>FEER-eh</td><td>die</td><td>—</td></tr><tr><td><strong>envë (env-)</strong></td><td>EN-veh</td><td>be born</td><td>—</td></tr><tr><td><strong>súvë (súv-)</strong></td><td>SOOV-eh</td><td>swim</td><td>water</td></tr><tr><td><strong>lótë (lót-)</strong></td><td>LOHT-eh</td><td>blossom</td><td>plants</td></tr><tr><td><strong>carnë-ri-</strong></td><td>—</td><td>redden, blush (middle)</td><td>deriv. <strong>-ri-</strong></td></tr><tr><td><strong>melirë (mel-ir-)</strong></td><td>MEHL-eer-eh</td><td>wish that… (subj.)</td><td>lexical subj.</td></tr><tr><td>Nouns</td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Noun</th><th>Pronunciation</th><th>Gloss</th><th>Notes (plural/dual, case)</th></tr></thead><tbody><tr><td><strong>anel</strong></td><td>AH-nel</td><td>star</td><td>PL <strong>anel-in</strong>, GEN <strong>anel-el/-il</strong></td></tr><tr><td><strong>cal</strong></td><td>KAHL</td><td>stone</td><td>PL <strong>cal-in</strong></td></tr><tr><td><strong>saran</strong></td><td>SAH-ran</td><td>person</td><td>PL <strong>saran-in</strong></td></tr><tr><td><strong>mer</strong></td><td>MAIR</td><td>day</td><td>—</td></tr><tr><td><strong>nos</strong></td><td>NOHS</td><td>night</td><td>—</td></tr><tr><td><strong>sír</strong></td><td>SEER</td><td>river</td><td>—</td></tr><tr><td><strong>nór</strong></td><td>NOHR</td><td>land, realm</td><td>—</td></tr><tr><td><strong>amar</strong></td><td>AH-mar</td><td>temple</td><td>—</td></tr><tr><td><strong>saur</strong></td><td>SAWR</td><td>forest</td><td>—</td></tr><tr><td><strong>lóre</strong></td><td>LOH-reh</td><td>lore, knowledge</td><td>abstract</td></tr><tr><td><strong>parma</strong></td><td>PAHR-mah</td><td>book</td><td>vowel-final → drop vowel before case</td></tr><tr><td><strong>lambë</strong></td><td>LAHM-beh</td><td>language, speech</td><td>—</td></tr><tr><td><strong>lehta</strong></td><td>LEH-tah</td><td>letter (script)</td><td>writing</td></tr><tr><td><strong>lethiril</strong></td><td>leh-THEER-il</td><td>(the script)</td><td>proper noun/common</td></tr><tr><td><strong>aran</strong></td><td>AH-ran</td><td>king/queen (ruler)</td><td>gender-neutral</td></tr><tr><td><strong>tirion</strong></td><td>TEER-ee-on</td><td>city</td><td>—</td></tr><tr><td><strong>caras</strong></td><td>KAHR-ahs</td><td>house, dwelling</td><td>—</td></tr><tr><td><strong>mith</strong></td><td>MEETH</td><td>mist</td><td>mass</td></tr><tr><td><strong>lóte</strong></td><td>LOH-teh</td><td>flower</td><td>PL <strong>lóte-in</strong></td></tr><tr><td><strong>lassë</strong></td><td>LAH-seh</td><td>leaf</td><td>—</td></tr><tr><td><strong>alda</strong></td><td>AHL-dah</td><td>tree</td><td>—</td></tr><tr><td><strong>sinda</strong></td><td>SEEN-dah</td><td>path</td><td>—</td></tr><tr><td><strong>tál</strong></td><td>TAHL</td><td>foot</td><td>body</td></tr><tr><td><strong>má</strong></td><td>MAH</td><td>hand</td><td>body</td></tr><tr><td><strong>súl</strong></td><td>SOOL</td><td>wind</td><td>—</td></tr><tr><td><strong>rá</strong></td><td>RAH</td><td>lion</td><td>animal</td></tr><tr><td><strong>nai</strong></td><td>NYE</td><td>deer</td><td>animal</td></tr><tr><td><strong>col</strong></td><td>KOHL</td><td>cloak</td><td>clothing</td></tr><tr><td><strong>harn</strong></td><td>HARN</td><td>iron</td><td>material</td></tr><tr><td><strong>táran</strong></td><td>TAHR-an</td><td>leader, guide</td><td>from <strong>tárë</strong></td></tr><tr><td><strong>quor</strong></td><td>KWOHR</td><td>truth, oath</td><td>abstract</td></tr><tr><td><strong>míre</strong></td><td>MEE-reh</td><td>jewel</td><td>—</td></tr><tr><td><strong>helcar</strong></td><td>HEL-kahr</td><td>light (radiance)</td><td>poetics</td></tr><tr><td><strong>sennar</strong></td><td>SEN-nahr</td><td>judge</td><td>agentive</td></tr><tr><td><strong>carta</strong></td><td>KAHR-tah</td><td>map</td><td>—</td></tr><tr><td><strong>sirion</strong></td><td>SEER-ee-on</td><td>sea</td><td>large body</td></tr><tr><td><strong>nén</strong></td><td>NAIN</td><td>water</td><td>mass</td></tr><tr><td><strong>urco</strong></td><td>OOR-koh</td><td>monster</td><td>—</td></tr><tr><td><strong>vendë</strong></td><td>VEN-deh</td><td>market</td><td>place</td></tr><tr><td><strong>seldë</strong></td><td>SELL-deh</td><td>daughter/child</td><td>kin neutral</td></tr><tr><td><strong>nóro</strong></td><td>NOH-roh</td><td>north</td><td>direction</td></tr><tr><td><strong>róme</strong></td><td>ROH-meh</td><td>east</td><td>direction</td></tr><tr><td><strong>hyarn</strong></td><td>HYARN</td><td>south</td><td>direction</td></tr><tr><td><strong>núme</strong></td><td>NOO-meh</td><td>west</td><td>direction</td></tr><tr><td><strong>lára</strong></td><td>LAH-rah</td><td>song</td><td>—</td></tr><tr><td><strong>súva</strong></td><td>SOO-vah</td><td>breath</td><td>—</td></tr><tr><td><strong>mára</strong></td><td>MAH-rah</td><td>good (noun “goodness”)</td><td>adj→noun</td></tr><tr><td><strong>úlë</strong></td><td>OO-leh</td><td>evil, harm</td><td>abstract</td></tr><tr><td><strong>queli</strong></td><td>KWEH-lee</td><td>quiet, hush (noun)</td><td>—</td></tr><tr><td><strong>sírëth</strong></td><td>SEER-eth</td><td>journey</td><td>abstract</td></tr><tr><td><strong>tessë</strong></td><td>TEH-seh</td><td>road</td><td>—</td></tr><tr><td><strong>yára</strong></td><td>YAH-rah</td><td>story</td><td>tale</td></tr><tr><td><strong>túrin</strong></td><td>TOO-reen</td><td>friend</td><td>social</td></tr><tr><td><strong>hosta</strong></td><td>HOSS-tah</td><td>crowd, host</td><td>collective</td></tr><tr><td><strong>tulcar</strong></td><td>TOOL-kahr</td><td>tool</td><td>—</td></tr><tr><td><strong>narma</strong></td><td>NAHR-mah</td><td>fire (tame)</td><td>vs wild <strong>ur</strong></td></tr><tr><td><strong>ur</strong></td><td>OOR</td><td>flame (wild)</td><td>—</td></tr><tr><td><strong>aril</strong></td><td>AH-ril</td><td>crown</td><td>regalia</td></tr><tr><td><strong>serin</strong></td><td>SEH-reen</td><td>peace</td><td>abstract</td></tr><tr><td><strong>tirim</strong></td><td>TEE-rim</td><td>guard (noun)</td><td>—</td></tr><tr><td><strong>hesta</strong></td><td>HESS-tah</td><td>door</td><td>—</td></tr><tr><td><strong>fána</strong></td><td>FAH-nah</td><td>cloud</td><td>—</td></tr><tr><td><strong>elen</strong></td><td>EH-len</td><td>star (poetic)</td><td>alt to <strong>anel</strong></td></tr><tr><td><strong>quendë</strong></td><td>KWEHN-deh</td><td>question</td><td>nominalization</td></tr><tr><td><strong>cénë</strong></td><td>KAY-neh</td><td>sight, vision</td><td>from <strong>cenë</strong></td></tr><tr><td><strong>hanë</strong></td><td>HAH-neh</td><td>hearing</td><td>from <strong>hanë</strong></td></tr><tr><td><strong>tengë</strong></td><td>TENG-eh</td><td>touch (sense)</td><td>—</td></tr><tr><td><strong>lamë</strong></td><td>LAH-meh</td><td>taste (sense)</td><td>—</td></tr><tr><td><strong>olë</strong></td><td>OHL-eh</td><td>smell (sense)</td><td>—</td></tr><tr><td>Adjectives</td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Adj/Color</th><th>Pronunciation</th><th>Meaning</th><th>Comparative / Superlative</th><th>Notes</th></tr></thead><tbody><tr><td><strong>lóra</strong></td><td>LOH-rah</td><td>bright</td><td><strong>mora lóra</strong>, <strong>moras lóra</strong></td><td>core descriptor</td></tr><tr><td><strong>dimë</strong></td><td>DEE-meh</td><td>dim</td><td>—</td><td>opposite</td></tr><tr><td><strong>vanya</strong></td><td>VAHN-yah</td><td>fair, beautiful</td><td>—</td><td>elves’ fave</td></tr><tr><td><strong>mára</strong></td><td>MAH-rah</td><td>good</td><td>—</td><td>also noun</td></tr><tr><td><strong>rauca</strong></td><td>ROW-kah</td><td>strong</td><td>—</td><td>physical</td></tr><tr><td><strong>linta</strong></td><td>LEEN-tah</td><td>swift</td><td>—</td><td>motion</td></tr><tr><td><strong>sinda</strong></td><td>SEEN-dah</td><td>grey</td><td>color</td><td></td></tr><tr><td><strong>carnë</strong></td><td>KAHR-neh</td><td>red</td><td>color</td><td>dye verb exists</td></tr><tr><td><strong>lúin</strong></td><td>LOO-een</td><td>blue</td><td>color</td><td></td></tr><tr><td><strong>laurea</strong></td><td>LOW-reh-ah</td><td>golden</td><td>color</td><td></td></tr><tr><td><strong>elenna</strong></td><td>eh-LEH-nah</td><td>silver</td><td>color</td><td></td></tr><tr><td><strong>calina</strong></td><td>kah-LEE-nah</td><td>light (pale)</td><td>color value</td><td></td></tr><tr><td><strong>mornë</strong></td><td>MOHR-neh</td><td>dark</td><td>color value</td><td></td></tr><tr><td><strong>viridë</strong></td><td>VIH-ree-deh</td><td>green</td><td>color</td><td></td></tr><tr><td><strong>malinë</strong></td><td>mah-LEE-neh</td><td>yellow</td><td>color</td><td></td></tr><tr><td><strong>narca</strong></td><td>NAHR-kah</td><td>orange</td><td>color</td><td></td></tr><tr><td><strong>néca</strong></td><td>NAY-kah</td><td>black</td><td>color</td><td></td></tr><tr><td><strong>fána</strong></td><td>FAH-nah</td><td>white</td><td>color</td><td></td></tr><tr><td><strong>sérë</strong></td><td>SEH-reh</td><td>peaceful, calm</td><td>—</td><td>mood</td></tr><tr><td><strong>hárë</strong></td><td>HAHR-eh</td><td>warm</td><td>—</td><td>temperature</td></tr><tr><td><strong>helcë</strong></td><td>HELK-seh</td><td>cold</td><td>—</td><td></td></tr><tr><td><strong>tára</strong></td><td>TAH-rah</td><td>tall, high</td><td>—</td><td></td></tr><tr><td><strong>nendë</strong></td><td>NEND-eh</td><td>wet</td><td>—</td><td></td></tr><tr><td><strong>susta</strong></td><td>SOOS-tah</td><td>dry</td><td>—</td><td></td></tr><tr><td><strong>rína</strong></td><td>REE-nah</td><td>small, little</td><td>diminutive feel</td><td></td></tr><tr><td><strong>tórna</strong></td><td>TOHR-nah</td><td>heavy</td><td>—</td><td></td></tr><tr><td><strong>lúva</strong></td><td>LOO-vah</td><td>light (weight)</td><td>—</td><td></td></tr><tr><td><strong>sairë</strong></td><td>SIGH-reh</td><td>bitter</td><td>—</td><td>taste</td></tr><tr><td><strong>melda</strong></td><td>MEHL-dah</td><td>sweet/dear</td><td>—</td><td>taste/affection</td></tr><tr><td><strong>sáva</strong></td><td>SAH-vah</td><td>clean</td><td>—</td><td></td></tr><tr><td><strong>ulca</strong></td><td>OOL-kah</td><td>evil, foul</td><td>—</td><td></td></tr><tr><td>Affixes</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Affix / Pattern</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td><strong>-ar</strong> (agent)</td><td>doer/maker</td><td><strong>kar-ar</strong> “maker”, <strong>tár-ar</strong> “guide”</td></tr><tr><td><strong>-eth</strong> (abstract)</td><td>quality/state</td><td><strong>lór-eth</strong> “brightness”, <strong>ser-eth</strong> “peacefulness”</td></tr><tr><td><strong>-el</strong> (dim.)</td><td>small/beloved</td><td><strong>cal-el</strong> “pebble”, <strong>parma-el</strong> “booklet”</td></tr><tr><td><strong>-orë</strong> (aug.)</td><td>big/great</td><td><strong>cal-orë</strong> “boulder”</td></tr><tr><td><strong>-thir</strong> (collective)</td><td>set/group</td><td><strong>anel-in-thir</strong> “the stars (as one host)”</td></tr><tr><td><strong>Middle -ri-</strong></td><td>self-involved/reciprocal</td><td><strong>mor-ri-a-n</strong> “I set out”, <strong>mel-ri-a-r</strong> “they love each other”</td></tr><tr><td><strong>Past Part. -en</strong></td><td>passive/result</td><td><strong>lar-en</strong> “spoken”, <strong>tel-en</strong> “finished”</td></tr><tr><td><strong>Gerund -iel</strong></td><td>verbal noun</td><td><strong>lar-iel</strong> “speaking (act)”</td></tr><tr><td><strong>Subj. -ir-</strong></td><td>optative/that…</td><td><strong>mel-a-ir-s</strong> “that s/he love”</td></tr></tbody></table></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-14" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#1-phonology" data-for="1-phonology">1) Phonology</a></li><li class="depth-1"><a href="#11-vowels-quality-length-diphthongs" data-for="11-vowels-quality-length-diphthongs">1.1 Vowels (quality, length, diphthongs)</a></li><li class="depth-1"><a href="#12-consonants" data-for="12-consonants">1.2 Consonants</a></li><li class="depth-0"><a href="#2-script--lethiril-cursive" data-for="2-script--lethiril-cursive">2) Script — Lethiril Cursive</a></li><li class="depth-1"><a href="#21-letter-inventory--romanization" data-for="21-letter-inventory--romanization">2.1 Letter inventory &amp; romanization</a></li><li class="depth-0"><a href="#3-morphology" data-for="3-morphology">3) Morphology</a></li><li class="depth-1"><a href="#31-nouns-number--case" data-for="31-nouns-number--case">3.1 Nouns (number &amp; case)</a></li><li class="depth-1"><a href="#32-pronouns" data-for="32-pronouns">3.2 Pronouns</a></li><li class="depth-1"><a href="#33-determination--possession" data-for="33-determination--possession">3.3 Determination &amp; Possession</a></li><li class="depth-1"><a href="#34-derivation" data-for="34-derivation">3.4 Derivation</a></li><li class="depth-1"><a href="#35-harmony--euphony" data-for="35-harmony--euphony">3.5 Harmony &amp; Euphony</a></li><li class="depth-1"><a href="#36-palatalization-softening" data-for="36-palatalization-softening">3.6 Palatalization (softening)</a></li><li class="depth-0"><a href="#4-verbs" data-for="4-verbs">4) Verbs</a></li><li class="depth-1"><a href="#41-overview" data-for="41-overview">4.1 Overview</a></li><li class="depth-1"><a href="#42-personal-endings-attach-after-tenseaspect-vowel" data-for="42-personal-endings-attach-after-tenseaspect-vowel">4.2 Personal endings (attach after tense/aspect vowel)</a></li><li class="depth-1"><a href="#43-tenseaspect-formatives" data-for="43-tenseaspect-formatives">4.3 Tense/Aspect formatives</a></li><li class="depth-1"><a href="#44-voice--non-finite-forms" data-for="44-voice--non-finite-forms">4.4 Voice &amp; Non-finite forms</a></li><li class="depth-1"><a href="#45-negation--modality" data-for="45-negation--modality">4.5 Negation &amp; Modality</a></li><li class="depth-1"><a href="#46-conjugation-examples" data-for="46-conjugation-examples">4.6 Conjugation examples</a></li><li class="depth-0"><a href="#5-syntax" data-for="5-syntax">5) Syntax</a></li><li class="depth-1"><a href="#51-word-order" data-for="51-word-order">5.1 Word Order</a></li><li class="depth-1"><a href="#52-questions" data-for="52-questions">5.2 Questions</a></li><li class="depth-1"><a href="#53-relative-clauses" data-for="53-relative-clauses">5.3 Relative Clauses</a></li><li class="depth-1"><a href="#54-focustopic" data-for="54-focustopic">5.4 Focus/Topic</a></li><li class="depth-1"><a href="#55-comparison" data-for="55-comparison">5.5 Comparison</a></li><li class="depth-0"><a href="#6-core-functional-items-for-immediate-fluency" data-for="6-core-functional-items-for-immediate-fluency">6) Core functional items (for immediate fluency)</a></li><li class="depth-0"><a href="#7-numerals" data-for="7-numerals">7) Numerals</a></li><li class="depth-0"><a href="#8-sample-sentences-glossed" data-for="8-sample-sentences-glossed">8) Sample Sentences (glossed)</a></li><li class="depth-0"><a href="#9-learning-path" data-for="9-learning-path">9) Learning Path</a></li><li class="depth-0"><a href="#elvish-core-dictionary-v1" data-for="elvish-core-dictionary-v1">Elvish Core Dictionary (v1)</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../Chapter-5---Worldbuilding-(WIP)/5.5-Languages-(WIP)" class="internal">5.5 Languages (WIP)</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.1</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>
