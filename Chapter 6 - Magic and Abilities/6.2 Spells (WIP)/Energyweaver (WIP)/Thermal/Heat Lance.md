@@ -1,7 +1,0 @@
-- **Affinity:** Thermal
-- **Action:** Action
-- **Range / Media:** As Thermal media ladder.
-- **Source → Target → Sink:** **Source** = a **hot body** in path (e.g., forge, heated blade, sun-warmed stone, creature). **Target** = 1 creature or object in path. **Sink** = **Target** (you are injecting heat).
-- **Effect:** Allocate **X TP** (X ≤ Transfer Cap). Make a **Spell Attack** against the Target. **On hit**, deal **X·1d4 Fire**. If the Target is flammable and not protected, it **ignites** at GM discretion; continuing damage (if any) is from the environment, not this spell.
-- **Miss:** No damage; no energy moves.
-- **Notes:** If you cannot name a legal hot **Source** for all X TP (and you don’t have Vitalic to convert Mana→heat this casting), the casting is **illegal** and has no effect (6.1.6 Validity).

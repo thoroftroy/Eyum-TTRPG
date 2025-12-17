@@ -4,6 +4,10 @@
 
 This repository is part of an ongoing project to turn the Eyum **Handbook** into a **wiki-style reference**. Right now, the content is written for and in **Obsidian**, but we are gradually adding links, navigation, and formatting so that it functions as a full wiki you can browse and use online. This is mostly functional at this point but not always up to date. 
 
+THE WIKI IS NOW BROKEN
+
+For some reason the wiki is not currently functional, this will be fixed eventually, for now use the Test Branch on github and just browse the data through the file structures. Its not quite as nice as the wiki but it will display properly and function.
+
 The wiki is available here https://thoroftroy.github.io/Eyum-TTRPG/Chapter-1---Introduction/1.0-Table-of-Contents
 
 ---
