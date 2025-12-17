@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "dfad295fef351abc",
+    "id": "23fabc96b959160c",
     "type": "split",
     "children": [
       {
-        "id": "37b06b2c41165dd0",
+        "id": "55100c9302fc0ce1",
         "type": "tabs",
         "children": [
           {
-            "id": "a815f3662b17f15d",
+            "id": "fb3f4a45ca6c2e90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter 1 - Introduction/1.0 Table of Contents.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.0 Table of Contents"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "010eadf1cab896c2",
+    "id": "c3f7c7121267d1e3",
     "type": "split",
     "children": [
       {
-        "id": "e137eb7fbb686e40",
+        "id": "8dd517d16a2dfd44",
         "type": "tabs",
         "children": [
           {
-            "id": "204db479d051ae72",
+            "id": "64dacb964cbabb5d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "47fc29e854a776dc",
+            "id": "d3fc4fd28dd4dc01",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "ad0149fa5155103f",
+            "id": "2a7fee01cb64fdb9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "1f94a7a8046e2f10",
+    "id": "ef5e192d457b6c38",
     "type": "split",
     "children": [
       {
-        "id": "f5df7862952fb821",
+        "id": "81fdebd0d2cbb58e",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b4b1dd67b7cc16",
+            "id": "4847d7d75637145b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 6 - Magic and Abilities/6.2 Spells/Wizard Spells/Fireball.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fireball"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "9097a997d93ccc08",
+            "id": "d51a9c1d01990162",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 6 - Magic and Abilities/6.2 Spells/Wizard Spells/Fireball.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Fireball"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "f7f0c4af6c029d8c",
+            "id": "66a66c5197142331",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,31 @@
             }
           },
           {
-            "id": "009ba283072bf146",
+            "id": "31a7935ce4821dbe",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "74e52c326f6f7a4d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 6 - Magic and Abilities/6.2 Spells/Wizard Spells/Fireball.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fireball"
+              "title": "Outline"
             }
           }
         ]
@@ -160,63 +167,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "a815f3662b17f15d",
-  "lastOpenFiles": [
-    "Chapter 6 - Magic and Abilities/6.1 Magic Systems/6.1.5 Energymancy (WIP).md",
-    "Chapter 6 - Magic and Abilities/6.1 Magic Systems/6.1.4 Materials and Concoctions (WIP).md",
-    "Chapter 6 - Magic and Abilities/6.1 Magic Systems/6.1.3 Alchemy (WIP).md",
-    "Chapter 3 - Character Creation/3.3 Classes/Classes/Mixed Classes/Runemaster.md",
-    "Chapter 6 - Magic and Abilities/6.1 Magic Systems/6.1.2 Runic Casting (WIP).md",
-    "Chapter 6 - Magic and Abilities/6.1 Magic Systems/6.1.3 Rune and Affinity List (WIP).md",
-    "Chapter 6 - Magic and Abilities/6.4 Runes/6.4.1 Runes.md",
-    "Chapter 6 - Magic and Abilities/6.4 Runes/6.4.2 Xeran Runes.md",
-    "Chapter 2 - Core Rules/2.6 Damage Types and Resistances/2.6 Damage Types and Resistances.md",
-    "Chapter 6 - Magic and Abilities/6.4 Runes/6.4.3 Serenite Runes.md",
-    "Chapter 6 - Magic and Abilities/6.4 Runes/6.4.4 Vindroth Runes.md",
-    "Handbook.txt",
-    "squish_2025-12-15_014131.txt",
-    "merged_files",
-    "Chapter 7 - Equipment and Items (WIP)/7.3 Crafting and Enchanting (WIP).md",
-    "Chapter 2 - Core Rules/2.5 Conditions and Status Effects/2.5.1 List of Conditions.md",
-    "Chapter 7 - Equipment and Items (WIP)/7.2 Magic Items (WIP).md",
-    "index.md",
-    "Chapter 2 - Core Rules/2.4 Health and Vitality/2.4.1 Injuries.md",
-    "Chapter 2 - Core Rules/2.4 Health and Vitality/2.4 Health and Vitality.md",
-    "README.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Auric.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Noskaran.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Thryzic (WIP).md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Tullish.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Entish.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Elvish.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Aviari.md",
-    "Chapter 5 - Worldbuilding (WIP)/Languages/Jotunic (WIP).md",
-    "Untitled 1.base",
-    "Untitled.canvas",
-    "Untitled.base",
-    "Chapter 5 - Worldbuilding (WIP)/Languages",
-    "Chapter 8 - Monsters/Monsters/CR 21+ (WIP)",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)/Thermal",
-    "Chapter 6 - Magic and Abilities/6.2 Spells (WIP)/Energyweaver (WIP)",
-    "build_quartz_mac.sh",
-    "static/og-image.png",
-    "static/icon.png",
-    "Chapter-11---Lore/Characters/Villians/Mr-P-og-image.webp",
-    "Chapter-11---Lore/Characters/Villians/Kahn-og-image.webp",
-    "Chapter-11---Lore/Characters/Main-Characters/Lucian-og-image.webp",
-    "Chapter-11---Lore/Characters/Main-Characters/Illana-og-image.webp",
-    "Chapter-11---Lore/Characters/Main-Characters/George-og-image.webp",
-    "Chapter-11---Lore/Characters/Side-Characters/Ezra-og-image.webp",
-    "Chapter-11---Lore/11.1-Lore-og-image.webp",
-    "Chapter-10---Optional-Rules/Technological-Expansion-og-image.webp"
-  ]
+  "active": "fb3f4a45ca6c2e90",
+  "lastOpenFiles": []
 }
