@@ -4,7 +4,7 @@ Energyweavers manipulate energy in the forms of Mana, Vitality, and HP directly 
 
 This class is mechanically complex and is not recommended for new players.
 
-Weapons: Tools, Unarmed, Light Weapons  
+Weapons: None
 Armor: Light Armor  
 Spellcasting Modifier: Intelligence  (Save DC = 12 + Int Mod)
 Saving Throws: Intelligence, Constitution  
@@ -42,16 +42,23 @@ You learn additional Energymancy Actions as you gain Energyweaver levels, as lis
 Choose one subclass at level 3.
 
 **Life**  
-You may use HP as a valid source or destination for standard Energymancy actions alongside Mana and Vitality. Standard conversions apply (3 Vitality = 1 HP).
+You may treat **HP** as a valid **source or destination** for standard Energymancy actions, alongside **Mana** and **Vitality**.
+- Standard conversion ratios apply (**3 Vitality = 1 HP**).
+- You **cannot** transfer Mana directly to HP or HP directly to Mana.
+- Moving energy between Mana and HP requires **two separate Convert Energy actions** (via Vitality).
 
 **Heat**  
-You gain resistance to fire and heat-based damage.
+You gain **resistance** to **fire and heat-based damage**, **+5 Fire Affinity** and all **fire-based attack rolls** deal **+1d4 fire damage** at the **cost of 1 Mana** per attack (optional).
 
 **Kinetic**  
-Your vitality die changed from 1d10 to 1d12 + 1d6.
+Your **Vitality die** changes from **1d10** to **1d12 + 1d6** and you may use **Convert Energy** as a **bonus action**.
 
 **Magic**  
-You may modify standard conversion ratios, treating 1 Mana as equivalent to 6 Vitality instead of 3.
+_Requires at least one level in a magical class._  
+You may alter the standard Mana ↔ Vitality conversion ratios:
+- **1 Vitality → 6 Mana**
+- **3 Mana → 2 Vitality**
+- Conversions must be performed at these values or greater; partial or smaller conversions are not allowed.
 ### Leveling Table
 | Level | Dice                                     | Points                                        | Special                                                                         |
 | ----: | ---------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------- |

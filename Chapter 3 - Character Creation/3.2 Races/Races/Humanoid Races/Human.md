@@ -11,7 +11,7 @@ Culture: Human culture is a thousand overlapping arguments with the world about 
 
 Other:
 - Indomitable Will: When you are reduced to 0 hp you have 1 hp instead once per combat. 
-- Versatile Talent: You gain +1 skill points per level
+- Versatile Talent: You gain +1 skill points per level 
 - Rally: Once per short rest, as a bonus action, choose one ally within 30 ft who can see or hear you. That ally gains advantage on their next attack roll or skill check made before the start of your next turn.
 
 Positive Affinities: Craft, Utility, Physical, Creation  
