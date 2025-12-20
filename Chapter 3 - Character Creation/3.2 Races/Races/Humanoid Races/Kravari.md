@@ -1,5 +1,3 @@
-Kravari
-
 Height: 5'8 - 6'5  
 Weight: 160 - 260 lbs  
 Lifespan: 70 - 110 years  

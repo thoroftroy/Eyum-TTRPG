@@ -1,4 +1,3 @@
-Noskara  
 Height: 5'0 - 6'5  
 Weight: 110 - 200 lbs  
 Lifespan: 120 - 480 years  

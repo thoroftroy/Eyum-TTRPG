@@ -1,4 +1,3 @@
-Slarik  
 Height: 3'0 - 4'5  
 Weight: 50 - 100 lbs  
 Lifespan: 40 - 80 years  

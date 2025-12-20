@@ -2,7 +2,7 @@ For more information see [[6.1.4 Energymancy]]
 
 Energyweavers manipulate energy in the forms of Mana, Vitality, and HP directly rather than casting spells.
 
-This class is mechanically complex and is not recommended for new players.
+This class is somewhat complex and is not recommended for new players.
 
 Weapons: None
 Armor: Light Armor  

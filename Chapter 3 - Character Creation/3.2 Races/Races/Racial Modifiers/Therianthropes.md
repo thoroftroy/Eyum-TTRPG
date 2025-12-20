@@ -1,4 +1,3 @@
-Therianthropes  
 Height: 3-8 ft  
 Weight: 60-400 lbs  
 Lifespan: 30-50 years  

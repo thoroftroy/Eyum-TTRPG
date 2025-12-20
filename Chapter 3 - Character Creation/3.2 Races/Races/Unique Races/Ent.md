@@ -1,4 +1,3 @@
-Ent  
 Height: 6’0 - 12’0  
 Weight: 600 - 1200 lbs  
 Lifespan: 600 - 800 years  
