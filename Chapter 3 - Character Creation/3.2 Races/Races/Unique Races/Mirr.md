@@ -18,7 +18,7 @@ Other:
 - Disguise Craft: You are proficient with a Disguise Kit. When you have access to appropriate materials and 10 minutes of preparation, you gain +2 Base Acc on the first social check you make to pass as your prepared identity.
 
 Positive Affinities: Utility, Air, Generic  
-Neutral Affinities: Craft, Water  
+Neutral Affinities: Craft, Water, Creation  
 Negative Affinities: Earth, Fire, Physical  
 
 Bonuses: +3 CHA, +2 DEX, +1 INT, -2 STR

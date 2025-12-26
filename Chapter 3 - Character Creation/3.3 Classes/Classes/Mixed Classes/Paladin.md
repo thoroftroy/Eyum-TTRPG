@@ -1,6 +1,6 @@
 Paladins are warriors who blend martial prowess with divine magic, sworn to uphold their sacred oaths. They wield powerful abilities granted by their dedication to their chosen path.
 
-- Weapons: Swords, Daggers, Axes, Hammers, Spears, Wands, Staffs
+- Weapons: Choose 1: Swords, Daggers, Axes, Hammers, Spears, Wands, Staffs
 - Saving Throws: Strength, Charisma
 - Spellcasting Modifier: Charisma
 - Proficiency Bonus: Starts at +2, increases every 3 levels
@@ -44,7 +44,7 @@ Your Oath is not a mechanical restriction, but the GM may grant you advantage, b
 - Ties your Paladin to the party’s survival and goals.
 - Excellent for morally gray teams needing a stable core.
 #### Paladin Subclasses (Choose 1 at level 3)
-Each oath grants different abilities based on a Paladin’s philosophy and dedication.
+Each oath grants different abilities based on a Paladin’s philosophy and dedication. They do not necessarily have to fit your character, just focus on their mechanics. 
 ##### Holy Warrior
 A Holy Warrior is devoted to divine service, fulfilling a religious duty or proving their worth to their deity.
 - Divine Wrath: Add +1d8 radiant damage to melee attacks against fiends and undead.
