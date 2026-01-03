@@ -26,6 +26,7 @@ Subclasses, pacts, and other systems build on top of this foundation but do not 
 - **Grapple**: Make a contested Athletics check against a creature within 5 ft. On success: Target is restrained and considered prone, Target must spend **1 Ap** on its turn to attempt escape (contested Athletics)
 - **Hide**: If you have at least **¼ cover**, make a Stealth check against enemy passive perception. On success, you are hidden and your first attack gains advantage. Enemies may attempt a Spot/Search check on their turn, If remaining hidden is impossible, Hide automatically fails (GM discretion)
 - **Dodge**: Must be your final action of the turn. Enemies have disadvantage on attack rolls against you. If you spend **3 or more Ap** Dodging, enemies have double disadvantage
+- **Disengage:** You do not provoke opportunity attacks for this turn from your movement.
 ## Bonus Action Types (Cost of 1 BAp)
 - **Equip Item**: Equip or swap a held item (weapon, ring, focus, etc.). 
 	- Armor equip time:
@@ -65,6 +66,8 @@ Magician Schools represent how magic is shaped and applied. Each School governs 
 - **Binding** – summoning, contracts, containment
 - **Runic** – inscribed and persistent magic
 - **Ritual** – slow, powerful, prepared casting
+- **Nature** - magic from nature
+- **Bloodline** - magic from your bloodline
 
 Specific mechanics are defined within each School.
 ## Pacts
@@ -93,7 +96,7 @@ When you gain Accuracy or Damage from your class level you may put it into eithe
 |     7 | +1 Skp                                         | Gain 1 skill proficiency                                                                              |
 |     8 | +1 Skp                                         | +1 Accuracy                                                                                           |
 |     9 | +1 Skp, +1 Stp, +1 BAp, +1 FDL                 | +1 Damage; gain heavy armor if you already have medium armor, otherwise gain medium armor proficiency |
-|    10 | +1 Skp, +1 Affp, +1 Rp                         | +2 Accuracy; expertise with 1 weapon you are proficient in                                            |
+|    10 | +1 Skp, +1 Affp, +1 Rp, +1 FDL                 | +2 Accuracy; expertise with 1 weapon you are proficient in                                            |
 |    11 | +1 Skp                                         | +2 Accuracy                                                                                           |
 |    12 | +1 Skp, +1 Stp, +1 FDL                         | +2 Accuracy; gain 1 skill proficiency                                                                 |
 |    13 | +1 Skp                                         | +2 Damage                                                                                             |
@@ -103,7 +106,7 @@ When you gain Accuracy or Damage from your class level you may put it into eithe
 |    17 | +1 Skp                                         | +2 Damage                                                                                             |
 |    18 | +1 Skp, +1 Stp, +1 FDL                         | +2 Accuracy; gain 1 weapon or skill proficiency                                                       |
 |    19 | +1 Skp                                         | + 2 Damage                                                                                            |
-|    20 | +1 Skp, +1 Affp, +1 Rp                         | +3 Accuracy                                                                                           |
+|    20 | +1 Skp, +1 Affp, +1 Rp, +1 FDL                 | +3 Accuracy                                                                                           |
 |    21 | +1 Skp, +1 Stp, +1 BAp, +1 FDL                 | +3 Accuracy                                                                                           |
 |    22 | +1 Skp                                         | +3 Damage                                                                                             |
 |    23 | +1 Skp                                         | +3 Accuracy; gain 1 weapon or skill proficiency                                                       |
@@ -113,7 +116,7 @@ When you gain Accuracy or Damage from your class level you may put it into eithe
 |    27 | +1 Skp, +1 Stp, +1 BAp, +1 FDL                 | +3 Damage                                                                                             |
 |    28 | +1 Skp                                         | +3 Accuracy; gain 1 skill proficiency                                                                 |
 |    29 | +1 Skp                                         | +3 Damage                                                                                             |
-|    30 | +1 Skp, +1 Stp, +1 Affp, +1 Rp, +1 FDL         | +4 Accuracy                                                                                           |
+|    30 | +1 Skp, +1 Stp, +1 Affp, +1 Rp, +2 FDL         | +4 Accuracy                                                                                           |
 |    31 | +1 Skp                                         | +4 Accuracy                                                                                           |
 |    32 | +1 Skp                                         | +4 Damage; gain 1 weapon or skill proficiency                                                         |
 |    33 | +1 Skp, +1 Stp, +1 BAp, +1 FDL                 | +4 Accuracy                                                                                           |
@@ -123,7 +126,7 @@ When you gain Accuracy or Damage from your class level you may put it into eithe
 |    37 | +1 Skp                                         | +4 Damage                                                                                             |
 |    38 | +1 Skp                                         | +4 Accuracy                                                                                           |
 |    39 | +1 Skp, +1 Stp, +1 BAp, +1 FDL                 | +5 Damage, Gain 1 weapon or skill proficiency                                                         |
-|    40 | +1 Skp, +1 Affp, +1 Rp                         | +5 Accuracy                                                                                           |
+|    40 | +1 Skp, +1 Affp, +1 Rp, +1 FDL                 | +5 Accuracy                                                                                           |
 |    41 | +1 Skp                                         | +5 Accuracy                                                                                           |
 |    42 | +1 Skp, +1 Stp, +1 FDL                         | +5 Damage; gain 1 skill proficiency                                                                   |
 |    43 | +1 Skp                                         | +5 Accuracy                                                                                           |
@@ -133,7 +136,7 @@ When you gain Accuracy or Damage from your class level you may put it into eithe
 |    47 | +1 Skp                                         | +5 Damage                                                                                             |
 |    48 | +1 Skp, +1 Stp, +1 FDL                         | +5 Accuracy; gain 1 skill proficiency                                                                 |
 |    49 | +1 Skp                                         | +5 Damage                                                                                             |
-|    50 | +1 Skp, +1 Affp, +1 Rp                         | +6 Accuracy, +6 Damage                                                                                |
+|    50 | +1 Skp, +1 Affp, +1 Rp, +1 FDL                 | +6 Accuracy, +6 Damage                                                                                |
 ## Magician Class Table
 On each level of any class gain +1 hit dice, Vitality dice, and mana dice as well as the stuff from each level. Your proficiency bonus starts at +1 and goes up by 1 every 3 levels. 
 
@@ -146,55 +149,55 @@ Your spell attack modifier is 1d20 + Base Magic Accuracy + Generic Affinity + Sp
 **Vitality Dice:** 1d8
 **Mana Dice:** 1d10
 
-| Level | Points                                 | Bonuses                            |
-| ----: | -------------------------------------- | ---------------------------------- |
-|     1 | +1 Skp, +4 Affp                        | +1 Magic Accuracy                  |
-|     2 | +1 Skp                                 | +1 Spell Save DC                   |
-|     3 | +1 Skp, +1 Stp, +1 BAp, +1 MSL         | +1 Magic Accuracy                  |
-|     4 | +1 Skp                                 | +1 Magic Damage                    |
-|     5 | +1 Skp, +2 Affp, +1 Ap                 | +1 Magic Accuracy                  |
-|     6 | +1 Skp, +1 Stp, +1 MSL                 | +5 Mana                            |
-|     7 | +1 Skp                                 | +1 Spell Save DC                   |
-|     8 | +1 Skp                                 | +1 Magic Accuracy                  |
-|     9 | +1 Skp, +1 BAp, +1 MSL                 | +1 Magic Damage                    |
-|    10 | +1 Skp, +2 Affp, +1 Rp                 | +2 Magic Accuracy                  |
-|    11 | +1 Skp                                 | +1 Spell Save DC                   |
-|    12 | +1 Skp, +1 Stp, +1 MSL                 | +2 Magic Accuracy                  |
-|    13 | +1 Skp                                 | +2 Magic Damage                    |
-|    14 | +1 Skp                                 | +30 Mana                           |
-|    15 | +1 Skp, +2 Affp, +1 Ap, +1 BAp, +1 MSL | +2 Magic Accuracy                  |
-|    16 | +1 Skp                                 | +1 Spell Save DC                   |
-|    17 | +1 Skp                                 | +2 Magic Damage                    |
-|    18 | +1 Skp, +1 Stp, +1 MSL                 | +2 Magic Accuracy                  |
-|    19 | +1 Skp                                 | +50 Mana                           |
-|    20 | +1 Skp, +2 Affp, +1 Rp                 | +3 Magic Accuracy                  |
-|    21 | +1 Skp, +1 BAp, +1 MSL                 | +1 Spell Save DC                   |
-|    22 | +1 Skp                                 | +3 Magic Damage                    |
-|    23 | +1 Skp                                 | +3 Magic Accuracy                  |
-|    24 | +1 Skp, +1 Stp, +1 MSL                 | +75 Mana                           |
-|    25 | +1 Skp, +2 Affp, +1 Ap                 | +3 Magic Accuracy                  |
-|    26 | +1 Skp                                 | +1 Spell Save DC                   |
-|    27 | +1 Skp, +1 BAp, +1 MSL                 | +3 Magic Damage                    |
-|    28 | +1 Skp                                 | +3 Magic Accuracy                  |
-|    29 | +1 Skp                                 | +75 Mana                           |
-|    30 | +1 Skp, +1 Stp, +2 Affp, +1 Rp, +1 MSL | +4 Magic Accuracy                  |
-|    31 | +1 Skp                                 | +2 Spell Save DC                   |
-|    32 | +1 Skp                                 | +4 Magic Damage                    |
-|    33 | +1 Skp, +1 BAp, +1 MSL                 | +4 Magic Accuracy                  |
-|    34 | +1 Skp                                 | +100 Mana                          |
-|    35 | +1 Skp, +2 Affp, +1 Ap                 | +4 Magic Accuracy                  |
-|    36 | +1 Skp, +1 Stp, +1 MSL                 | +2 Spell Save DC                   |
-|    37 | +1 Skp                                 | +4 Magic Damage                    |
-|    38 | +1 Skp                                 | +4 Magic Accuracy                  |
-|    39 | +1 Skp, +1 BAp, +1 MSL                 | +100 Mana                          |
-|    40 | +1 Skp, +2 Affp, +1 Rp                 | +5 Magic Accuracy                  |
-|    41 | +1 Skp                                 | +2 Spell Save DC                   |
-|    42 | +1 Skp, +1 Stp, +1 MSL                 | +5 Magic Damage                    |
-|    43 | +1 Skp                                 | +5 Magic Accuracy                  |
-|    44 | +1 Skp                                 | +150 Mana                          |
-|    45 | +1 Skp, +2 Affp, +1 Ap, +1 BAp, +1 MSL | +5 Magic Accuracy                  |
-|    46 | +1 Skp                                 | +2 Spell Save DC                   |
-|    47 | +1 Skp                                 | +5 Magic Damage                    |
-|    48 | +1 Skp, +1 Stp, +1 MSL                 | +5 Magic Accuracy                  |
-|    49 | +1 Skp                                 | +150 Mana                          |
-|    50 | +1 Skp, +1 Affp, +1 Rp                 | +6 Magic Accuracy, +6 Magic Damage |
+| Level | Points                                 | Bonuses                                           |
+| ----: | -------------------------------------- | ------------------------------------------------- |
+|     1 | +1 Skp, +4 Affp                        | +1 Magic Accuracy; learn 1 spell                  |
+|     2 | +1 Skp                                 | +1 Spell Save DC; learn 1 spell                   |
+|     3 | +1 Skp, +1 Stp, +1 BAp, +1 MSL         | +1 Magic Accuracy; learn 1 spell                  |
+|     4 | +1 Skp                                 | +1 Magic Damage; learn 1 spell                    |
+|     5 | +1 Skp, +2 Affp, +1 Ap                 | +1 Magic Accuracy; learn 1 spell                  |
+|     6 | +1 Skp, +1 Stp, +1 MSL                 | +5 Mana; learn 1 spell                            |
+|     7 | +1 Skp                                 | +1 Spell Save DC; learn 1 spell                   |
+|     8 | +1 Skp                                 | +1 Magic Accuracy; learn 1 spell                  |
+|     9 | +1 Skp, +1 BAp, +1 MSL                 | +1 Magic Damage; learn 1 spell                    |
+|    10 | +1 Skp, +2 Affp, +1 Rp, +1 MSL         | +2 Magic Accuracy; learn 1 spell                  |
+|    11 | +1 Skp                                 | +1 Spell Save DC                                  |
+|    12 | +1 Skp, +1 Stp, +1 MSL                 | +2 Magic Accuracy                                 |
+|    13 | +1 Skp                                 | +2 Magic Damage; learn 1 spell                    |
+|    14 | +1 Skp                                 | +30 Mana                                          |
+|    15 | +1 Skp, +2 Affp, +1 Ap, +1 BAp, +1 MSL | +2 Magic Accuracy; learn 1 spell                  |
+|    16 | +1 Skp                                 | +1 Spell Save DC                                  |
+|    17 | +1 Skp                                 | +2 Magic Damage; learn 1 spell                    |
+|    18 | +1 Skp, +1 Stp, +1 MSL                 | +2 Magic Accuracy                                 |
+|    19 | +1 Skp                                 | +50 Mana; learn 1 spell                           |
+|    20 | +1 Skp, +2 Affp, +1 Rp, +1 MSL         | +3 Magic Accuracy                                 |
+|    21 | +1 Skp, +1 BAp, +1 MSL                 | +1 Spell Save DC                                  |
+|    22 | +1 Skp                                 | +3 Magic Damage; learn 1 spell                    |
+|    23 | +1 Skp                                 | +3 Magic Accuracy                                 |
+|    24 | +1 Skp, +1 Stp, +1 MSL                 | +75 Mana                                          |
+|    25 | +1 Skp, +2 Affp, +1 Ap                 | +3 Magic Accuracy; learn 1 spell                  |
+|    26 | +1 Skp                                 | +1 Spell Save DC                                  |
+|    27 | +1 Skp, +1 BAp, +1 MSL                 | +3 Magic Damage; learn 1 spell                    |
+|    28 | +1 Skp                                 | +3 Magic Accuracy                                 |
+|    29 | +1 Skp                                 | +75 Mana                                          |
+|    30 | +1 Skp, +1 Stp, +2 Affp, +1 Rp, +2 MSL | +4 Magic Accuracy; learn 1 spell                  |
+|    31 | +1 Skp                                 | +2 Spell Save DC                                  |
+|    32 | +1 Skp                                 | +4 Magic Damage                                   |
+|    33 | +1 Skp, +1 BAp, +1 MSL                 | +4 Magic Accuracy; learn 1 spell                  |
+|    34 | +1 Skp                                 | +100 Mana                                         |
+|    35 | +1 Skp, +2 Affp, +1 Ap                 | +4 Magic Accuracy; learn 1 spell                  |
+|    36 | +1 Skp, +1 Stp, +1 MSL                 | +2 Spell Save DC                                  |
+|    37 | +1 Skp                                 | +4 Magic Damage; learn 1 spell                    |
+|    38 | +1 Skp                                 | +4 Magic Accuracy                                 |
+|    39 | +1 Skp, +1 BAp, +1 MSL                 | +100 Mana                                         |
+|    40 | +1 Skp, +2 Affp, +1 Rp, +1 MSL         | +5 Magic Accuracy; learn 1 spell                  |
+|    41 | +1 Skp                                 | +2 Spell Save DC                                  |
+|    42 | +1 Skp, +1 Stp, +1 MSL                 | +5 Magic Damage                                   |
+|    43 | +1 Skp                                 | +5 Magic Accuracy; learn 1 spell                  |
+|    44 | +1 Skp                                 | +150 Mana                                         |
+|    45 | +1 Skp, +2 Affp, +1 Ap, +1 BAp, +1 MSL | +5 Magic Accuracy; learn 1 spell                  |
+|    46 | +1 Skp                                 | +2 Spell Save DC                                  |
+|    47 | +1 Skp                                 | +5 Magic Damage; learn 1 spell                    |
+|    48 | +1 Skp, +1 Stp, +1 MSL                 | +5 Magic Accuracy                                 |
+|    49 | +1 Skp                                 | +150 Mana                                         |
+|    50 | +1 Skp, +1 Affp, +1 Rp, +1 MSL         | +6 Magic Accuracy, +6 Magic Damage; learn 1 spell |
