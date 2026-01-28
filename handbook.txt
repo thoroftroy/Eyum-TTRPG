@@ -1,6 +1,6 @@
 SQUISH OUTPUT
 Root: /home/microwavedthebaby/Documents/Eyum TTRPG
-Created: 2025-12-20T15:40:28-05:00
+Created: 2026-01-17T17:38:50-05:00
 
 ==============================
 
@@ -1460,13 +1460,14 @@ The intent of these rules is **clarity and consistency**, not authority. They re
 
 These rulings exist to prevent stalled play and rules arguments, not to restrict creativity.  
 Use them **as written**, **as inspiration**, or **not at all**, according to what best serves your table.
-
 ## 2.8.5.1 Layered Stonekin Energyweavers
 Layered Stonekin use Vitality plus two separate HP pools (Outer Layer HP and Inner Core HP), which does not map cleanly to Energymancy’s standard assumptions. When a Stonekin with the layered model takes levels in Energyweaver, treat them as having four distinct energy pools: Mana, Vitality, Outer Layer HP, and Inner Core HP.
 
 For Energymancy purposes, both HP layers function as normal HP pools. Conversions involving HP use a 1:1 ratio between either HP layer. Excess energy that converts into HP damage is applied to the Outer Layer HP first, then the Inner Core HP, following normal Stonekin damage order. If the Inner Core HP reaches 0, the Stonekin dies as usual. Additional you may use Convert Energy to move Inner Core HP to Outer Layer HP freely, but at the 1:1 ratio. 
 
 Vitality behaves normally and is unaffected by Stonekin layering. Material traits, resistances, weaknesses, and layer effects continue to apply without modification. This ruling exists to preserve Energymancy’s conservation rules without breaking the Stonekin layered durability system, and should be used with GM approval.
+
+For excess energy rule keep track of what your HP should be, this will be the Core HP + the rolls,  this will be your maximum. You can regenerate HP through Energymancy if you are a Life Subclass. 
 
 **References:** [[Stonekin]], [[6.1.4 Energymancy]]
 
@@ -3279,6 +3280,7 @@ Other:
 - Lithic Resilience: You have resistance to slashing damage and piercing damage, and vulnerability to bludgeoning damage.
 - Stonebond Regeneration: While you are in contact with solid natural stone (not sand, wood, or metal) at the start of your turn, you regain 1d4 Vitality. 
 - Darkvision: You can see in darkness up to 60 ft.
+- Stonekin Biology: You are immune to bleeding 
 
 Positive Affinities: Fire, Earth, Water, Air, Physical, Creation  
 Neutral Affinities: Generic  
@@ -3829,7 +3831,7 @@ Other:
 - Disguise Craft: You are proficient with a Disguise Kit. When you have access to appropriate materials and 10 minutes of preparation, you gain +2 Base Acc on the first social check you make to pass as your prepared identity.
 
 Positive Affinities: Utility, Air, Generic  
-Neutral Affinities: Craft, Water  
+Neutral Affinities: Craft, Water, Creation  
 Negative Affinities: Earth, Fire, Physical  
 
 Bonuses: +3 CHA, +2 DEX, +1 INT, -2 STR
@@ -4620,7 +4622,7 @@ FILE: Chapter 3 - Character Creation/3.3 Classes/Classes/Mixed Classes/Paladin.m
 
 Paladins are warriors who blend martial prowess with divine magic, sworn to uphold their sacred oaths. They wield powerful abilities granted by their dedication to their chosen path.
 
-- Weapons: Swords, Daggers, Axes, Hammers, Spears, Wands, Staffs
+- Weapons: Choose 1: Swords, Daggers, Axes, Hammers, Spears, Wands, Staffs
 - Saving Throws: Strength, Charisma
 - Spellcasting Modifier: Charisma
 - Proficiency Bonus: Starts at +2, increases every 3 levels
@@ -4664,7 +4666,7 @@ Your Oath is not a mechanical restriction, but the GM may grant you advantage, b
 - Ties your Paladin to the party’s survival and goals.
 - Excellent for morally gray teams needing a stable core.
 #### Paladin Subclasses (Choose 1 at level 3)
-Each oath grants different abilities based on a Paladin’s philosophy and dedication.
+Each oath grants different abilities based on a Paladin’s philosophy and dedication. They do not necessarily have to fit your character, just focus on their mechanics. 
 ##### Holy Warrior
 A Holy Warrior is devoted to divine service, fulfilling a religious duty or proving their worth to their deity.
 - Divine Wrath: Add +1d8 radiant damage to melee attacks against fiends and undead.
@@ -4882,7 +4884,6 @@ Rage
 - While raging: +1d6 damage to Strength-based attacks but -5 to hit as well as a -10 to intelligence (this cannot set your intelligence below 4).
 - Additionally, while raging gain resistance to everything (take half damage from all sources)
 - Ends if you don’t deal/take damage for 1 round. Rage points refresh on a short rest.
-
 #### Subclasses (Choose 1 at level 3)
 ##### Berserker:
 - -5 AC while raging.
@@ -4915,7 +4916,7 @@ Rage
 ##### Leveling Table
 | Level | Dice                                | Points                                                                                           | Stats                                   | Special                               |
 | ----- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------- | ------------------------------------- |
-| 1     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point, +1 Proficiency Upgrade (or +1 Skill Point)                        | +1d6 Base Melee Damage                  |                                       |
+| 1     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Proficiency Upgrade (or +1 Skill Point)                                       | +1d6 Base Melee Damage                  |                                       |
 | 2     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point                                                                    |                                         |                                       |
 | 3     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +2 Stat Points, +1 Rage Point, +1 Rp, +1 Proficiency Upgrade (or +1 Skill Point) | +1d6 Base Melee Damage                  | +1d6 Base Rage Damage, +2 AC          |
 | 4     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                                                             | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |
@@ -5215,6 +5216,474 @@ Mana Dice: 1d6
 
 
 ==============================
+FILE: Chapter 3 - Character Creation/3.3 Classes/New Class System/Classes.md
+==============================
+
+In Eyum, there are no classes. Your character is defined solely by where they source their power.
+
+1. The Martial Path (Innate Strength) This is the path of consistency. A sword does not run out of mana. A fist does not fizzle because a god is angry. Martial fighters are limited by biology and physics, you will never conjure a storm or teleport across a continent—but you are reliable. Your damage is constant, your defense is static, and you do not rely on external resources.
+2. The Way of the Arcane (World Magic) This is the path of peaks and valleys. Magic allows you to break the rules of physics, controlling energy, rewriting nature, or borrowing power from Deities. The ceiling for magic is infinitely higher than martial prowess, but it is volatile. It requires resources (Mana, Runes, Favor) and often carries the risk of failure or backlash.
+
+**Progression: The Tree System**
+"Level" is just a measure of total points earned. Your actual identity is defined by your **Branches** and **Tiers**. When you create a character or level up, you gain **Skill Points**. You invest these into trees following three rules:
+- **The Root:** To start a new discipline (e.g., _Fighter_ or _Arcane_), you must buy the **Root Node**. This unlocks the tree.
+- **The Branch:** You follow specific paths (Branches) downwards. You cannot buy a skill unless you own the skill directly above it (the Prerequisite).
+- **The Tier:** Depth represents power.
+    - **Tier 1:** Basic competencies.
+    - **Tier 2:** Expert abilities.
+    - **Tier 3+:** Masteries.
+
+**How to Level Up**
+When you gain a point, you make a tactical choice:
+1. **Go Deep (Vertical):** Buy the next Tier in your current branch.
+    - _Result:_ Your specific specialty gets significantly stronger.
+2. **Go Wide (Horizontal):** Buy a skill in a parallel branch or a new Root.
+    - _Result:_ You gain versatility and new options, but your raw power output stays the same.
+
+**Designating "Level"**
+Players do not say "I am Level 5." You introduce your character by their highest achievement in their primary branches.
+
+> **Examples:**
+> - _"I am a Tier 3 Sniper."_ 
+> - _"I am a Tier 2 Pugilist, Tier 1 Nature Mage."_ 
+> - _"I am a Tier 4 Warlord."_ 
+
+
+Redo both paths to include more content and to be more flushed out. Use the actual handbooks systems, ask if you have any questions. 
+### Fighter
+**Root Skill:**
+- **Basic Combat Training:** Passive. You gain Proficiency with simple weapons and light armor. +1 to Hit on all attack rolls. +3 HP Vitality on each subsequent level and this one.
+**Branch A: The Body**
+- **Tier 1: Physical Conditioning** (+1 Constitution per point invested, max 5).
+    - **Path A: The Mountain**
+        - **Iron Skin:** While not wearing Heavy Armor, add your CON modifier to your AC.
+            - **Shield Bearer:** +2 AC from shields. You can use a Shield as a 1d6 weapon.
+            - **Pain Tolerance:** Reduce all non-magical damage taken by 2.
+                - **Living Fortress:** You provide "Full Cover" to allies standing directly behind you.
+                - **Adamant Soul:** (Reaction) Once per combat, ignore a Critical Hit and treat it as a normal hit.
+                    - **Immovable Object (Mastery Node):** +5 Max HP per point invested. (Can be taken 20 times).
+    - **Path B: The Pugilist**
+        - **Martial Arts:** Unarmed damage is 1d6. You may use DEX for Attack/Damage.
+            - **Flurry of Blows:** When you Attack, you may make an extra Unarmed Strike as a Bonus Action.
+            - **Steel Fists:** Unarmed attacks count as "Siege Weapons" (double damage to objects/doors).
+                - **Ki Flow:** Unarmed strikes count as magical damage.
+                - **Pressure Points:** On a Critical Hit, you can choose to Stun the target (CON save) or Blind them (DEX save).
+                    - **Grandmaster (Mastery Node):** +1 Unarmed Damage per point invested. (Can be taken 20 times).
+    - **Path C: The Wrestler**
+        - **Technician:** Advantage on Athletics checks to Grapple or Shove.
+            - **Ground & Pound:** You have Advantage on attacks against enemies you are Grappling.
+            - **Human Shield:** While Grappling a target, you gain +2 AC. If an enemy misses you by 2 or less, they hit the person you are holding instead.
+                - **Suplex:** (Action) Slam a grappled target. 2d8 Bludgeoning + Target is Prone + Target is Stunned for 1 round.
+                - **Chokehold:** If you maintain a grapple for 3 consecutive rounds, the target falls Unconscious (0 HP).
+    - **Path D: The Berserker**
+        - **Adrenaline Rush:** On your turn, you can choose to attack Recklessly (Advantage on hits, but enemies have Advantage on you).
+            - **Bloodthirst:** When you kill an enemy, regain HP equal to your Constitution Modifier.
+            - **Undying:** When you are reduced to 0 HP, make a CON save (DC 10). On success, drop to 1 HP instead. DC increases by 5 each use.
+                - **Fury:** While below 50% HP, you deal +1 die of weapon damage.
+**Branch B: The Blade**
+- **Tier 1: Arms Training**
+    - **Path A: The Juggernaut**
+        - **Great Weapon Grip:** You can reroll 1s and 2s on damage dice for 2-handed weapons.
+            - **Sunder Armor:** Critical hits reduce the target's AC by 2 permanently (until armor is repaired).
+            - **Sweeping Strikes:** Attacks hit the primary target and one adjacent target for half damage.
+                - **Executioner:** Passive +5 Damage to 2-handed attacks.
+                    - **Titan Grip:** You can wield a Two-Handed weapon in one hand (requires 18 STR).
+    - **Path B: The Duelist**
+        - **Ambidextrous:** Add your Ability Modifier to the damage of your off-hand attack.
+            - **Parry:** (Reaction) Add +2 to your AC against a single melee attack.
+            - **Riposte:** If an enemy misses you, you may make one free attack against them.
+                - **Blade Dancer:** You can move through enemy spaces without provoking Opportunity Attacks.
+                - **Thousand Cuts:** (Action) Make an attack against every enemy within 5ft of you.
+    - **Path C: The Marksman**
+        - **Quick Draw:** Drawing a weapon or loading ammo is a Free Action.
+            - **Point Blank Shot:** You do not suffer Disadvantage when firing a ranged weapon at an enemy within 5ft.
+            - **Multi-Shot:** You can fire two arrows at once at the same target with a -2 penalty to hit.
+                - **Pinning Shot:** On a hit, the enemy's movement speed is reduced to 0 for their next turn.
+                - **Rain of Arrows (Mastery Node):** +1 to Hit with Ranged Weapons per point invested. (Can be taken 10 times).
+    - **Path D: The Tactician**
+        - **Assessment:** (Bonus Action) Learn the AC and current HP of one target.
+            - **Disarming Strike:** Target must pass a STR save or drop their weapon.
+            - **Trip Attack:** Target must pass a DEX save or fall Prone.
+            - **Commander's Strike:** Forgo one of your attacks to let an ally make an attack immediately.
+**Branch C: The Shadow** 
+- **Tier 1: Light Footed** (Proficiency in Stealth & Survival. Movement Speed +5ft).
+    - **Path A: The Assassin**
+        - **Backstab:** Deal an extra 1d6 damage if you have Advantage on the attack.
+            - **Vanish:** You can Hide as a Bonus Action.
+            - **Cold Blood:** You have Advantage on Initiative rolls.
+                - **Throat Slit:** Attacks against Surprised enemies are automatic Critical Hits.
+                - **Poisoner:** You can apply poison to weapons as a Bonus Action. Poison DC increases by your Proficiency.
+                    - **Lethality (Mastery Node):** +1 Sneak Attack Damage (fixed) per point invested. (Can be taken 20 times).
+    - **Path B: The Ranger**
+        - **Hunter's Mark:** (Bonus Action) Mark a target. You deal +1d4 damage to them and cannot lose their trail.
+            - **Forager:** You find double rations/water in the wild.
+            - **Trap Master:** You can craft simple snares and alarms during a Short Rest.
+                - **Predator's Sight:** You can see in magical and non-magical darkness up to 60ft.
+                - **Beast Bane:** +2 Damage against Beasts and Monstrosities.
+    - **Path C: The Acrobat**
+        - **Parkour:** Climbing and Swimming cost no extra movement.
+            - **Evasion:** When subjected to a DEX save for half damage, you take no damage on a success and half on a fail.
+            - **Uncanny Dodge:** (Reaction) Halve the damage of an attack that hits you.
+                - **Wall Run:** You can run along vertical surfaces or across liquids during your turn.
+**Branch D: The Face**
+- **Tier 1: Socialite**
+    - **Path A: The Warlord**
+        - **Rallying Cry:** (Bonus Action) Allies within 30ft gain Temporary HP equal to your Fighter Level.
+            - **"Hold the Line!":** Allies within 10ft of you cannot be Frightened or Knocked Prone.
+            - **Direct Order:** (Reaction) When an ally misses an attack, you can shout to let them reroll it.
+                - **Inspiring Presence (Mastery Node):** Increases the radius of your auras by 5ft per point invested.
+    - **Path B: The Performer**
+        - **Distracting Display:** (Action) Make a Performance check. Enemies who fail to beat it act with Disadvantage next turn.
+            - **Silver Tongue:** You can buy items for 20% less and sell for 20% more.
+            - **Taunt:** (Bonus Action) Force an enemy to make a WIS save. On fail, they must attack you on their next turn.
+                - **Cult of Personality:** You can attract followers (NPCs) who will perform menial tasks for you.
+    - **Path C: The Terror (Intimidation)**
+        - **Menacing Glare:** You can use Strength instead of Charisma for Intimidation checks.
+            - **Aura of Fear:** Enemies within 10ft of you have -1 to Hit due to shaking hands.
+            - **Terrifying Howl:** (Action) Enemies within 30ft must make a WIS save or be Frightened for 1 minute.
+                - **Heart Attack:** If you Intimidate a target with less than 5 HP, they faint instantly.
+
+Write up a new one for the magic ones, way of the arcane or whatever, following the format of fighters. Make the paths and add more if you see fit or think we are missing stuff
+#### Runes 
+Written spells (use the normal rune system) This is special, we can add later as the final branch
+#### Arcane
+Control of energy, this is most similar to like bending from avatar but it is a bit different. You can control specific things such as Heat/Plasma, Air/Gases, Water/Liquids, and Earth/Solids. Each branch allows for greater control over the specific element.  This is like a wizard but more like a bender from avatar
+#### I am not sure what system to use but I have some ideas I have made so far. 
+### System 1
+In Eyum, there are no classes. Your character is defined solely by where they source their power.
+
+1. The Martial Path (Innate Strength) This is the path of consistency. A sword does not run out of mana. A fist does not fizzle because a god is angry. Martial fighters are limited by biology and physics—you will never conjure a storm or teleport across a continent—but you are reliable. Your damage is constant, your defense is static, and you do not rely on external resources.
+2. The Way of the Arcane (World Magic) This is the path of peaks and valleys. Magic allows you to break the rules of physics—controlling energy, rewriting nature, or borrowing power from Deities. The ceiling for magic is infinitely higher than martial prowess, but it is volatile. It requires resources (Mana, Runes, Favor) and often carries the risk of failure or backlash.
+
+**Progression: The Tree System**
+"Level" is just a measure of total points earned. Your actual identity is defined by your **Branches** and **Tiers**. When you create a character or level up, you gain **Skill Points**. You invest these into trees following three rules:
+- **The Root:** To start a new discipline (e.g., _Fighter_ or _Arcane_), you must buy the **Root Node**. This unlocks the tree.
+- **The Branch:** You follow specific paths (Branches) downwards. You cannot buy a skill unless you own the skill directly above it (the Prerequisite).
+- **The Tier:** Depth represents power.
+    - **Tier 1:** Basic competencies.
+    - **Tier 2:** Expert abilities.
+    - **Tier 3+:** Masteries.
+
+**How to Level Up**
+When you gain a point, you make a tactical choice:
+1. **Go Deep (Vertical):** Buy the next Tier in your current branch.
+    - _Result:_ Your specific specialty gets significantly stronger.
+2. **Go Wide (Horizontal):** Buy a skill in a parallel branch or a new Root.
+    - _Result:_ You gain versatility and new options, but your raw power output stays the same.
+
+**Designating "Level"**
+Players do not say "I am Level 5." You introduce your character by their highest achievement in their primary branches.
+
+> **Examples:**
+> - _"I am a Tier 3 Sniper."_ 
+> - _"I am a Tier 2 Pugilist, Tier 1 Nature Mage."_ 
+> - _"I am a Tier 4 Warlord."_ 
+### Fighter
+**Root Skill:**
+- **Basic Combat Training:** Passive. You gain Proficiency with simple weapons and light armor. +1 to Hit on all attack rolls. +3 HP Vitality on each subsequent level and this one.
+**Branch A: The Body**
+- **Tier 1: Physical Conditioning** (+1 Constitution per point invested, max 5).
+    - **Path A: The Mountain**
+        - **Iron Skin:** While not wearing Heavy Armor, add your CON modifier to your AC.
+            - **Shield Bearer:** +2 AC from shields. You can use a Shield as a 1d6 weapon.
+            - **Pain Tolerance:** Reduce all non-magical damage taken by 2.
+                - **Living Fortress:** You provide "Full Cover" to allies standing directly behind you.
+                - **Adamant Soul:** (Reaction) Once per combat, ignore a Critical Hit and treat it as a normal hit.
+                    - **Immovable Object (Mastery Node):** +5 Max HP per point invested. (Can be taken 20 times).
+    - **Path B: The Pugilist**
+        - **Martial Arts:** Unarmed damage is 1d6. You may use DEX for Attack/Damage.
+            - **Flurry of Blows:** When you Attack, you may make an extra Unarmed Strike as a Bonus Action.
+            - **Steel Fists:** Unarmed attacks count as "Siege Weapons" (double damage to objects/doors).
+                - **Ki Flow:** Unarmed strikes count as magical damage.
+                - **Pressure Points:** On a Critical Hit, you can choose to Stun the target (CON save) or Blind them (DEX save).
+                    - **Grandmaster (Mastery Node):** +1 Unarmed Damage per point invested. (Can be taken 20 times).
+    - **Path C: The Wrestler**
+        - **Technician:** Advantage on Athletics checks to Grapple or Shove.
+            - **Ground & Pound:** You have Advantage on attacks against enemies you are Grappling.
+            - **Human Shield:** While Grappling a target, you gain +2 AC. If an enemy misses you by 2 or less, they hit the person you are holding instead.
+                - **Suplex:** (Action) Slam a grappled target. 2d8 Bludgeoning + Target is Prone + Target is Stunned for 1 round.
+                - **Chokehold:** If you maintain a grapple for 3 consecutive rounds, the target falls Unconscious (0 HP).
+    - **Path D: The Berserker**
+        - **Adrenaline Rush:** On your turn, you can choose to attack Recklessly (Advantage on hits, but enemies have Advantage on you).
+            - **Bloodthirst:** When you kill an enemy, regain HP equal to your Constitution Modifier.
+            - **Undying:** When you are reduced to 0 HP, make a CON save (DC 10). On success, drop to 1 HP instead. DC increases by 5 each use.
+                - **Fury:** While below 50% HP, you deal +1 die of weapon damage.
+**Branch B: The Blade**
+- **Tier 1: Arms Training**
+    - **Path A: The Juggernaut**
+        - **Great Weapon Grip:** You can reroll 1s and 2s on damage dice for 2-handed weapons.
+            - **Sunder Armor:** Critical hits reduce the target's AC by 2 permanently (until armor is repaired).
+            - **Sweeping Strikes:** Attacks hit the primary target and one adjacent target for half damage.
+                - **Executioner:** Passive +5 Damage to 2-handed attacks.
+                    - **Titan Grip:** You can wield a Two-Handed weapon in one hand (requires 18 STR).
+    - **Path B: The Duelist**
+        - **Ambidextrous:** Add your Ability Modifier to the damage of your off-hand attack.
+            - **Parry:** (Reaction) Add +2 to your AC against a single melee attack.
+            - **Riposte:** If an enemy misses you, you may make one free attack against them.
+                - **Blade Dancer:** You can move through enemy spaces without provoking Opportunity Attacks.
+                - **Thousand Cuts:** (Action) Make an attack against every enemy within 5ft of you.
+    - **Path C: The Marksman**
+        - **Quick Draw:** Drawing a weapon or loading ammo is a Free Action.
+            - **Point Blank Shot:** You do not suffer Disadvantage when firing a ranged weapon at an enemy within 5ft.
+            - **Multi-Shot:** You can fire two arrows at once at the same target with a -2 penalty to hit.
+                - **Pinning Shot:** On a hit, the enemy's movement speed is reduced to 0 for their next turn.
+                - **Rain of Arrows (Mastery Node):** +1 to Hit with Ranged Weapons per point invested. (Can be taken 10 times).
+    - **Path D: The Tactician**
+        - **Assessment:** (Bonus Action) Learn the AC and current HP of one target.
+            - **Disarming Strike:** Target must pass a STR save or drop their weapon.
+            - **Trip Attack:** Target must pass a DEX save or fall Prone.
+            - **Commander's Strike:** Forgo one of your attacks to let an ally make an attack immediately.
+**Branch C: The Shadow** 
+- **Tier 1: Light Footed** (Proficiency in Stealth & Survival. Movement Speed +5ft).
+    - **Path A: The Assassin**
+        - **Backstab:** Deal an extra 1d6 damage if you have Advantage on the attack.
+            - **Vanish:** You can Hide as a Bonus Action.
+            - **Cold Blood:** You have Advantage on Initiative rolls.
+                - **Throat Slit:** Attacks against Surprised enemies are automatic Critical Hits.
+                - **Poisoner:** You can apply poison to weapons as a Bonus Action. Poison DC increases by your Proficiency.
+                    - **Lethality (Mastery Node):** +1 Sneak Attack Damage (fixed) per point invested. (Can be taken 20 times).
+    - **Path B: The Ranger**
+        - **Hunter's Mark:** (Bonus Action) Mark a target. You deal +1d4 damage to them and cannot lose their trail.
+            - **Forager:** You find double rations/water in the wild.
+            - **Trap Master:** You can craft simple snares and alarms during a Short Rest.
+                - **Predator's Sight:** You can see in magical and non-magical darkness up to 60ft.
+                - **Beast Bane:** +2 Damage against Beasts and Monstrosities.
+    - **Path C: The Acrobat**
+        - **Parkour:** Climbing and Swimming cost no extra movement.
+            - **Evasion:** When subjected to a DEX save for half damage, you take no damage on a success and half on a fail.
+            - **Uncanny Dodge:** (Reaction) Halve the damage of an attack that hits you.
+                - **Wall Run:** You can run along vertical surfaces or across liquids during your turn.
+**Branch D: The Face**
+- **Tier 1: Socialite**
+    - **Path A: The Warlord**
+        - **Rallying Cry:** (Bonus Action) Allies within 30ft gain Temporary HP equal to your Fighter Level.
+            - **"Hold the Line!":** Allies within 10ft of you cannot be Frightened or Knocked Prone.
+            - **Direct Order:** (Reaction) When an ally misses an attack, you can shout to let them reroll it.
+                - **Inspiring Presence (Mastery Node):** Increases the radius of your auras by 5ft per point invested.
+    - **Path B: The Performer**
+        - **Distracting Display:** (Action) Make a Performance check. Enemies who fail to beat it act with Disadvantage next turn.
+            - **Silver Tongue:** You can buy items for 20% less and sell for 20% more.
+            - **Taunt:** (Bonus Action) Force an enemy to make a WIS save. On fail, they must attack you on their next turn.
+                - **Cult of Personality:** You can attract followers (NPCs) who will perform menial tasks for you.
+    - **Path C: The Terror (Intimidation)**
+        - **Menacing Glare:** You can use Strength instead of Charisma for Intimidation checks.
+            - **Aura of Fear:** Enemies within 10ft of you have -1 to Hit due to shaking hands.
+            - **Terrifying Howl:** (Action) Enemies within 30ft must make a WIS save or be Frightened for 1 minute.
+                - **Heart Attack:** If you Intimidate a target with less than 5 HP, they faint instantly.
+
+### Arcane
+**Root Skill:**
+
+- Arcane Conduit: Passive. You unlock a Mana Pool equal to your Intelligence Modifier + Level. You regain all Mana on a Long Rest. You gain the ability to sense sources of high energy within 60ft.
+    
+    Branch A: Thermodynamics (Heat & Plasma)
+    
+- **Tier 1: Ignition** (Expend 1 Mana to create a small flame or heat metal).
+    
+    - **Path A: The Pyromancer (Fire)**
+        
+        - **Combustion:** Ranged Attack. 1d10 Fire damage. Flammable objects ignite.
+            
+            - **Fireball:** (Expend 3 Mana) 20ft radius explosion. 6d6 Fire damage. DEX save for half.
+                
+            - **Cauterize:** Touch a willing creature. They take 1d4 Fire damage but stop bleeding and regain 1d8 HP.
+                
+                - **Inferno:** You are immune to Fire damage. Any enemy that touches you takes 1d6 Fire damage.
+                    
+                - **Supernova:** (Expend 10 Mana) You explode. 10d10 Fire damage to everything within 60ft (including yourself).
+                    
+                    - **Eternal Flame (Mastery Node):** +1 Fire Damage per point invested. (Can be taken 20 times).
+                        
+    - **Path B: The Conduit (Lightning/Plasma)**
+        
+        - **Static Shock:** Reaction. When hit by metal, deal 1d8 Lightning damage to attacker.
+            
+            - **Chain Lightning:** (Expend 3 Mana) Bolt jumps to 3 targets. 3d8 Lightning damage each.
+                
+            - **Magnetic Field:** Deflect ranged metal projectiles (Arrows/Bolts) automatically.
+                
+                - **Plasma Beam:** (Expend 5 Mana) Line attack. Ignores Armor Rating (AR) and Resistance. 8d6 Radiant/Lightning damage.
+                    
+                    - Overload (Mastery Node): +1 Max Mana per point invested. (Can be taken 20 times).
+                        
+                        Branch B: Fluid Dynamics (Water & Liquids)
+                        
+- **Tier 1: Hydrokinesis** (Shape and move up to 5ft cube of water without Mana).
+    
+    - **Path A: The Tidecaller (Water/Ice)**
+        
+        - **Freeze:** Turn water to ice. Create slick spots (prone) or simple weapons (ice daggers).
+            
+            - **Ice Shard:** Ranged Attack. 1d10 Piercing + Slows target by 10ft.
+                
+            - **Water Whip:** (Bonus Action) Pull an enemy 15ft towards you.
+                
+                - **Glacial Prison:** (Expend 4 Mana) Trap target in solid ice. Target is Paralyzed and Immune to damage until ice breaks (30 HP).
+                    
+                    - **Deep Freeze (Mastery Node):** +1 AC (Ice Armor) per point invested. (Can be taken 5 times).
+                        
+    - **Path B: The Bio-Mancer (Blood/Life)**
+        
+        - **Mend:** Heal a target for 1d8 + INT mod. Requires water or fresh blood nearby.
+            
+            - **Blood Bend:** (Expend 3 Mana) Control a target's limbs. CON save. On fail, you control their next Action.
+                
+            - **Desiccate:** Pull water from a target's body. 3d8 Necrotic damage. Plants die instantly.
+                
+                - Liquefy: (Expend 8 Mana) Turn your body into water to avoid damage/squeeze through cracks for 1 minute.
+                    
+                    Branch C: Aerodynamics (Air & Gases)
+                    
+- **Tier 1: Gust** (Push objects 5ft. Extinguish candles).
+    
+    - **Path A: The Gale (Movement)**
+        
+        - **Tailwind:** Passive +10ft Movement Speed. Jump distance doubled.
+            
+            - **Levitate:** (Expend 2 Mana) You or target can float vertically for 10 minutes.
+                
+            - **Air Slash:** Melee attacks produce a wind blade that extends reach by 10ft.
+                
+                - **Flight:** You gain a Fly speed equal to your Walk speed.
+                    
+                    - **Mach 1 (Mastery Node):** +5ft Movement Speed per point invested.
+                        
+    - **Path B: The Void (Vacuum/Pressure)**
+        
+        - **Suffocate:** (Concentration) Target cannot speak or breathe. 1d6 damage per round.
+            
+            - **Thunderclap:** (Expend 2 Mana) AOE pushback. All creatures within 10ft are knocked back 10ft.
+                
+            - **Vacuum Bubble:** Create a zone where no sound can pass.
+                
+                - Implosion: (Expend 5 Mana) Pull all creatures within 30ft to a center point and deal 4d10 Force damage.
+                    
+                    Branch D: Tectonics (Earth & Solids)
+                    
+- **Tier 1: Mold Earth** (Move dirt/stone. Create difficult terrain).
+    
+    - **Path A: The Architect (Defense)**
+        
+        - **Stone Skin:** Reaction. Reduce physical damage taken by 1d10.
+            
+            - **Wall of Stone:** (Expend 3 Mana) Create a permanent wall 10ft high, 20ft long.
+                
+            - **Tremorsense:** Detect anything touching the ground within 30ft, even if invisible.
+                
+                - **Petrify:** (Expend 6 Mana) Turn Flesh to Stone. CON save or permanent until cured.
+                    
+                    - **Granite Soul (Mastery Node):** +2 Physical Resistance per point invested.
+                        
+    - **Path B: The Striker (Force)**
+        
+        - **Hurl Stone:** Ranged spell attack using rocks. 2d8 Bludgeoning.
+            
+            - **Quake:** Knock all creatures within 20ft Prone.
+                
+            - **Earth Glide:** You can swim through dirt/stone as if it were water.
+                
+
+### The Verdant
+
+**Root Skill:**
+
+- Primal Connection: You can speak with animals and plants. +1 Wisdom.
+    
+    Branch A: The Shifter
+    
+- **Tier 1: Aspect of the Beast** (Grow claws/fangs. Unarmed strikes deal 1d6 Slashing).
+    
+    - **Path A: The Predator**
+        
+        - **Wolf Form:** Transform into a wolf (Advantage on tracking, Pack Tactics).
+            
+            - **Tiger Form:** Transform into a large cat (Pounce attack, Stealth).
+                
+                - **Apex Predator:** Transform into a Dinosaur or monstrosity (Huge size).
+                    
+    - **Path B: The Behemoth**
+        
+        - **Bear Form:** Transform into a bear (+HP, CON save advantage).
+            
+            - **Iron Hide:** While shifted, your AC is 16 + DEX.
+                
+                - **Regeneration:** While shifted, regain 5 HP at start of turn.
+                    
+                    - Evolution (Mastery Node): +1 Duration (Hours) to Shift per point invested.
+                        
+                        Branch B: The Warden
+                        
+- **Tier 1: Green Thumb** (Plants grow faster near you. Create difficult terrain).
+    
+    - **Path A: The Controller**
+        
+        - **Entangle:** Vines restrain enemies in a 10ft square.
+            
+            - **Thorn Whip:** Pull enemies 10ft. 1d6 Piercing damage.
+                
+            - **Spore Cloud:** Poison/Confuse enemies in an area.
+                
+                - **Awaken:** Give sentience to a tree to fight for you permanently.
+                    
+
+### The Covenant
+
+**Root Skill:**
+
+- Pact Maker: Choose a Deity. You gain a "Favor" pool equal to CHA Mod. Regain Favor on Short Rest.
+    
+    Branch A: The Divine (Light/Healing)
+    
+- **Tier 1: Bless** (Expend 1 Favor to add 1d4 to ally rolls).
+    
+    - **Path A: The Saint**
+        
+        - **Lay on Hands:** Heal 5 HP per point of Favor spent.
+            
+            - **Sunlight:** Create daylight. Blind Undead/Fiends.
+                
+            - **Revivify:** (Expend all Favor) Bring a creature dead < 1 min back to life.
+                
+                - Divine Intervention: (Once per week) Ask your God for a miracle. DM decides result.
+                    
+                    Branch B: The Profane (Darkness/Curses)
+                    
+- **Tier 1: Hex** (Expend 1 Favor. Target takes +1d6 Necrotic from attacks).
+    
+    - **Path A: The Warlock**
+        
+        - **Eldritch Blast:** Ranged Beam. 1d10 Force. Scales with Tier.
+            
+            - **Drain Life:** Damage you deal heals you for half amount.
+                
+            - **Summon Fiend:** (Expend 3 Favor) Summon a demon ally for 1 hour.
+                
+                - **Soul Jar:** Trap the soul of a victim to restore your own life later.
+                    
+
+### The Bloodline
+
+**Root Skill:**
+
+- Awakening: Unlock your Racial Magic capability. You gain 1 "Sorcery Point" per level.
+    
+    Branch A: Evolution
+    
+- **Tier 1: Ancestral Trait** (Your base racial passive is doubled in effectiveness).
+    
+    - **Path A: The Pureblood (Potency)**
+        
+        - **Empowered Spell:** Spend 1 Sorcery Point to reroll damage dice.
+            
+            - **Heightened Reflex:** Your racial stat bonuses increase by +1.
+                
+            - **Blood Fury:** When below 50% HP, your racial abilities cost 0 points.
+                
+                - **Avatar:** For 1 minute, you become the ideal version of your race. All stats +4.
+                    
+                    - **Ancient Blood (Mastery Node):** +1 Sorcery Point per point invested.
+
+==============================
 FILE: Chapter 3 - Character Creation/3.4 Deities/3.4 Deities.md
 ==============================
 
@@ -5267,7 +5736,7 @@ Celestials were once mortals who ascended to divinity. Their strength is directl
 
 | Deity           | Alignment       | Description                                                                                                                      | What is required of you |
 | --------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [[Daggan]]      | Lawful Neutral  | God of War, Strength, Earth; follower locales: Crystal Veil and across Eyum; symbol: a hammer cracked in half.                   |                         |
+| [[Chapter 3 - Character Creation/3.4 Deities/Dieties/Gods (Cleric)/Daggan]]      | Lawful Neutral  | God of War, Strength, Earth; follower locales: Crystal Veil and across Eyum; symbol: a hammer cracked in half.                   |                         |
 | [[Erebos]]      | Chaotic Evil    | God of Death, Darkness, Undead; follower locales: Iron Spire, Phantomwood, global cults; symbol: skeletal hand from a black sun. |                         |
 | [[Primordia]]   | Neutral Good    | Goddess of Life, Light, Healing; locales: Lunar Plains, Saharath; symbol: golden tree in sunlight.                               |                         |
 | [[Pyraxis]]     | Chaotic Neutral | God of Fire, Destruction, Rebirth; locales: Ember Wastes, Saharath; symbol: burning sword crossed with an arrow.                 |                         |
@@ -10515,6 +10984,8 @@ You know:
 
 **Communication limits.** You can only understand, read, write, or speak languages you know. Without a shared language, only simple gestures or magical effects (like _Comprehend Languages_) work.
 #### Language Catalog
+We are redoing all of the languages. There will be a Latin like language which all of the others are derivative of. 
+
 Each language will eventually be fully functional, however, at the moment, I don't know how to add special characters and haven't made entire dictionaries. Sense all languages are in some form based on Auric, when a language doesn't have a word in it the language will often just use the Auric word for it. Many languages have nothing in them, and the few with words have very incomplete dictionaries. I am unsure how many of them will ever get full dictionaries as it is an enormous amount of work and they aren't really needed. 
 
 | Language           | Sounds (what it actually sounds like)                                                                                      | Script (what letters look like / how it’s written)                                                                                          | Typical Speakers (not complete)                                        | Derivation       |
@@ -14461,7 +14932,7 @@ Transfer Mana or Vitality between yourself and a **willing** creature you are to
 #### Drain Energy
 _Learned at Energyweaver Level 3_
 Extract Mana or Vitality from a creature within range.
-- Target makes a **CON save**.
+- Target makes a **CON save** (Range of 15 ft).
 - On failure, **10%** of the target’s total Mana or Vitality (chosen by the caster) is transferred to you.
 - The drained energy is placed directly into the corresponding pool and cannot be converted during this step.
 - If a creature has no Mana or Vitality remaining, you may begin draining **HP** instead.
@@ -14936,12 +15407,6 @@ Below is a list of all spells currently in the TRPG (WIP); This is not currently
 | [[Echo Mask]]               |         |                                                                                         |
 | [[Elemental Strike]]        |         |                                                                                         |
 | [[Elemental Gate]]          |         |                                                                                         |
-
-### Energyweaver Spells (WIP)
-
-| Name           | Description |
-| -------------- | ----------- |
-| [[Heat Lance]] |             |
 
 
 ==============================
@@ -16797,7 +17262,7 @@ FILE: Chapter 6 - Magic and Abilities/6.2 Spells/Paladin/Radiant Disguise.md
 ==============================
 
 Mana Cost: 8
-Affinity: Utility, Light
+Affinity: Utility
 Range: Self
 Concentration: Yes (10 minutes)
 Effect: Create a soft-glow cosmetic illusion altering your appearance (height ±6", features, clothing style). Investigation vs your Spell Attack roll to see through it on direct scrutiny; True Sight pierces it.
@@ -18749,23 +19214,23 @@ _(Weights: Half-Plate 40 lb, Full Plate 65 lb × Mult.)_
 
 **How to read:** Start from your base weapon stats; apply **die-step** and **weight mult** from the Material Profiles. I’ve listed the **final damage** for each family after steps. (If a step would push below d4, it stays at d4.)
 
-|Material →|Dagger 1d4|Shortsword 1d6|Longsword 1d8 (1d10)|Warhammer 1d8 (1d10)|Greatsword 2d6|Maul 2d6|Spear 1d6 (1d8)|Glaive 1d10|Scythe 1d10|Throwing Axe 1d6|Javelin 1d6|Shortbow 1d6|Longbow 1d8|Lt Xbow 1d8|Hvy Xbow 1d10|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Tin** (−2)|**d4**|**d4**|**d6 (d8)**|**d6 (d8)**|**d8**|**d8**|**d4 (d6)**|**d8**|**d8**|**d4**|**d4**|**d4**|**d6**|**d6**|**d8**|
-|**Lead** (−2)|d4|d4|d6 (d8)|d6 (d8)|d8|d8|d4 (d6)|d8|d8|d4|d4|d4|d6|d6|d8|
-|**Copper** (−1 S/P)|d4|**d4**|**d6 (d8)**|d8 (d10)|2d6|2d6|**d4 (d6)**|1d10|1d10|**d4**|**d4**|**d6**|**d8**|**d8**|**d10**|
-|**Bronze** (−1 2-H)|d4|d6|1d8 (1d10)|1d8 (1d10)|**1d10**|**1d10**|1d6 (1d8)|**1d8**|**1d8**|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Iron** (0)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Steel** (0)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Ferroflux** (−1)|d4|**d4**|**d6 (d8)**|**d6 (d8)**|**1d10**|**1d10**|**d4 (d6)**|**1d8**|**1d8**|**d4**|**d4**|**d6**|**d8**|**d8**|**d10**|
-|**Echostone** (0 + crit rider)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Canyonstar** (0)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Voidsand** (+1)|**d6**|**d8**|**1d10 (2d6)**|**1d10 (2d6)**|**2d8**|**2d8**|**d8 (1d10)**|**d12**|**d12**|**d8**|**d8**|**d8**|**d10**|**d10**|**2d6**|
-|**Nerite** (+2)|**d8**|**d10**|**2d6 (2d8)**|**2d6 (2d8)**|**2d10**|**2d10**|**d10 (d12)**|**2d6**|**2d6**|**d10**|**d10**|**d10**|**2d6**|**2d6**|**2d8**|
-|**Phoenixscale** (0 + fire)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Moltenheart** (0 + cling fire on crit)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
-|**Silver** (−1)|d4|**d4**|**d6 (d8)**|**d6 (d8)**|**1d10**|**1d10**|**d4 (d6)**|**1d8**|**1d8**|**d4**|**d4**|**d6**|**d8**|**d8**|**d10**|
-|**Obsidian** (0; crit edge)|d4|d6|1d8 (1d10)|1d8 (1d10)|2d6|2d6|1d6 (1d8)|1d10|1d10|1d6|1d6|1d6|1d8|1d8|1d10|
+| Material →                               | Dagger 1d4 | Shortsword 1d6 | Longsword 1d8 (1d10) | Warhammer 1d8 (1d10) | Greatsword 2d6 | Maul 2d6 | Spear 1d6 (1d8) | Glaive 1d10 | Scythe 1d10 | Throwing Axe 1d6 | Javelin 1d6 | Shortbow 1d6 | Longbow 1d8 | Lt Xbow 1d8 | Hvy Xbow 1d10 |
+| ---------------------------------------- | ---------- | -------------- | -------------------- | -------------------- | -------------- | -------- | --------------- | ----------- | ----------- | ---------------- | ----------- | ------------ | ----------- | ----------- | ------------- |
+| **Tin** (−2)                             | **d4**     | **d4**         | **d6 (d8)**          | **d6 (d8)**          | **d8**         | **d8**   | **d4 (d6)**     | **d8**      | **d8**      | **d4**           | **d4**      | **d4**       | **d6**      | **d6**      | **d8**        |
+| **Lead** (−2)                            | d4         | d4             | d6 (d8)              | d6 (d8)              | d8             | d8       | d4 (d6)         | d8          | d8          | d4               | d4          | d4           | d6          | d6          | d8            |
+| **Copper** (−1 S/P)                      | d4         | **d4**         | **d6 (d8)**          | d8 (d10)             | 2d6            | 2d6      | **d4 (d6)**     | 1d10        | 1d10        | **d4**           | **d4**      | **d6**       | **d8**      | **d8**      | **d10**       |
+| **Bronze** (−1 2-H)                      | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | **1d10**       | **1d10** | 1d6 (1d8)       | **1d8**     | **1d8**     | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Iron** (0)                             | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Steel** (0)                            | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Ferroflux** (−1)                       | d4         | **d4**         | **d6 (d8)**          | **d6 (d8)**          | **1d10**       | **1d10** | **d4 (d6)**     | **1d8**     | **1d8**     | **d4**           | **d4**      | **d6**       | **d8**      | **d8**      | **d10**       |
+| **Echostone** (0 + crit rider)           | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Canyonstar** (0)                       | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Voidsand** (+1)                        | **d6**     | **d8**         | **1d10 (2d6)**       | **1d10 (2d6)**       | **2d8**        | **2d8**  | **d8 (1d10)**   | **d12**     | **d12**     | **d8**           | **d8**      | **d8**       | **d10**     | **d10**     | **2d6**       |
+| **Nerite** (+2)                          | **d8**     | **d10**        | **2d6 (2d8)**        | **2d6 (2d8)**        | **2d10**       | **2d10** | **d10 (d12)**   | **2d6**     | **2d6**     | **d10**          | **d10**     | **d10**      | **2d6**     | **2d6**     | **2d8**       |
+| **Phoenixscale** (0 + fire)              | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Moltenheart** (0 + cling fire on crit) | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
+| **Silver** (−1)                          | d4         | **d4**         | **d6 (d8)**          | **d6 (d8)**          | **1d10**       | **1d10** | **d4 (d6)**     | **1d8**     | **1d8**     | **d4**           | **d4**      | **d6**       | **d8**      | **d8**      | **d10**       |
+| **Obsidian** (0; crit edge)              | d4         | d6             | 1d8 (1d10)           | 1d8 (1d10)           | 2d6            | 2d6      | 1d6 (1d8)       | 1d10        | 1d10        | 1d6              | 1d6         | 1d6          | 1d8         | 1d8         | 1d10          |
 
 **Per-material riders (weapons):**  
 • **Phoenixscale:** add **+1 Fire** to every hit; **on crit** target **Ignite 1d6 (2 rounds)** (once/turn).  
@@ -26258,10 +26723,127 @@ FILE: Chapter 9 - Appendices/9.5 Character Template (MD).md
 | General Reasoning |          |       |       |     |                     |          |       |       |
 | History           |          |       |       |     |                     |          |       |       |
 
-| Proficiencies | Experties |
-| ------------- | --------- |
-|               |           |
+| Item/Language/Skill | Known | Proficient | Expertise |
+| ------------------- | ----- | ---------- | --------- |
+|                     |       |            |           |
 
+
+
+==============================
+FILE: Chapter 9 - Appendices/Characters/Ahba.md
+==============================
+
+
+| Stat     | Total | Current | Dice        |
+| -------- | ----- | ------- | ----------- |
+| Vitality | 45    | 45      | 1d20 + 1d12 |
+| Health   | 27    | 27      | 2d10        |
+| Mana     | 9     |         | 1d4         |
+
+| Information |                |     | Stat                      | Bonus |     | Stat         | Bonus   |
+| ----------- | -------------- | --- | ------------------------- | ----- | --- | ------------ | ------- |
+| Name        | Ahba           |     | Armor Class               | 18    |     | Strength     | 16 (+3) |
+| Player Name | Daggan         |     | Speed                     | 30    |     | Constitution | 16 (+3) |
+| Background  | solder         |     | Initiative                | +2    |     | Dexterity    | 14 (+2) |
+| Race        | feramite       |     | Passive Perception        | 10    |     | Wisdom       | 11 (0)  |
+| Alignment   | Lawful Nuetral |     | Total Level               | 3     |     | Intelligence | 10 (0)  |
+| Inspiration | 0              |     | Prof Bonus                | +2    |     | Charisma     | 11 (0)  |
+| Pact/Diety  | None           |     | Action Points (AP)        | 1     |     | Fire         | 0       |
+| Size        | Medium         |     | Bonus Action Points (BAp) | 1     |     | Earth        | 0       |
+| Height      | 5/11           |     | Reaction Points (Rp)      | 2     |     | Water        | -10     |
+| Weight      | 250            |     | Base Melee Damage         | +2d6  |     | Air          | -10     |
+| Build       | Average        |     | Base Melee Accuracy       | -3    |     | Creation     | -5      |
+| Sex         | Male           |     | Base Ranged Damage        |       |     | Physical     | 0       |
+| Age         | 23             |     | Base Ranged Accuracy      | -5    |     | Crafting     | -5      |
+|             |                |     | Base Magic Damage         |       |     | Utility      | -5      |
+|             |                |     | Base Magic Accuracy       |       |     | Generic      | 0       |
+|             |                |     | Rage Points               | 5     |     |              |         |
+|             |                |     | Ki Points                 |       |     |              |         |
+|             |                |     | Bardic Insipration        |       |     |              |         |
+
+| Class     | Subclass      | Level |     | Class        | Subclass | Level |
+| --------- | ------------- | ----- | --- | ------------ | -------- | ----- |
+| Fighter   |               |       |     | Wizard       |          |       |
+| Barbarian | Savage Hunter | 3     |     | Sorcerer     |          |       |
+| Ranger    |               |       |     | Cleric       |          |       |
+| Rogue     |               |       |     | Warlock      |          |       |
+| Monk      |               |       |     | Druid        |          |       |
+| Paladin   |               |       |     | Runemaster   |          |       |
+| Alchemist |               |       |     | Bard         |          |       |
+| Diety     |               |       |     | Energyweaver |          |       |
+
+| Skill             | Prof/Exp | Bonus | Total |     | Skill               | Prof/Exp | Bonus | Total |
+| ----------------- | -------- | ----- | ----- | --- | ------------------- | -------- | ----- | ----- |
+| Strength          | Prof     |       |       |     | Wisdom              |          |       |       |
+| Athletics         |          |       |       |     | Animal Handling     |          |       |       |
+| Swimming          |          |       |       |     | Situational Insight |          |       |       |
+| Climbing/Runnning |          |       |       |     | Medicine            |          |       |       |
+| Jumping/Shoving   |          |       |       |     | Spot                | prof     | +2    |       |
+|                   |          |       |       |     | Religion            |          |       |       |
+| Constitution      | Prof     |       |       |     | Nature              |          |       |       |
+| Survival          |          |       |       |     | Arcana              |          |       |       |
+| Stamina           |          |       |       |     |                     |          |       |       |
+|                   |          |       |       |     | Charisma            |          |       |       |
+| Dexterity         |          |       |       |     | Persausion          |          |       |       |
+| Acrobatics        |          |       |       |     | Deception           |          |       |       |
+| Sleight of Hand   |          |       |       |     | Intimidation        |          |       |       |
+| Stealth           |          |       |       |     | Performance         |          |       |       |
+| Lockpicking       |          |       |       |     | Leadership          |          |       |       |
+| Trap Disarming    |          |       |       |     | Social Insight      |          |       |       |
+|                   |          |       |       |     |                     |          |       |       |
+| Intelligence      |          |       |       |     |                     |          |       |       |
+| Investigation     |          |       |       |     |                     |          |       |       |
+| Search            | prof     | +3    |       |     |                     |          |       |       |
+| General Reasoning |          |       |       |     |                     |          |       |       |
+| History           |          |       |       |     |                     |          |       |       |
+
+| Item/Language/Skill | Known | Proficient | Expertise |
+| ------------------- | ----- | ---------- | --------- |
+| axe                 |       | X          |           |
+| Spear               |       | X          |           |
+| Common              | X     |            |           |
+| Dwarfish            | X     |            |           |
+
+| Coins    | Count |     |
+| -------- | ----- | --- |
+| Copper   | 22    |     |
+| Silver   | 21    | $1  |
+| Gold     | 1     |     |
+| Platinum |       |     |
+| Nerite   |       |     |
+
+| Item             | Description                                                                  | Count | Value |
+| ---------------- | ---------------------------------------------------------------------------- | ----- | ----- |
+| Iron Spear       | Standard Titan issue spear, deals 1d6 Piercing Damage with a range of +10 ft | 1     | 50 S  |
+| Military Rations | 1 meal                                                                       | 15    | 15 C  |
+| Nerite Axe       | 2d10 Slashing Damage, +3 to hit, 3 Rune Slots                                | 1     | 120 G |
+| Waterskin        | holds a days worth of water                                                  | 1     | 20 C  |
+| Rope (20 ft)     | its rope ._.                                                                 | 2     | 1 S   |
+| Bedroll          |                                                                              | 1     | 15 C  |
+| Tent             |                                                                              | 1     | 1 G   |
+| Tinderbox        | Lights a fire after a min                                                    | 1     | 1 S   |
+| wolf pelt        |                                                                              | 3     |       |
+## Passives
+Ferramite Race
+- Metalline Frame: Your natural armor sets your AC to 14 + CON mod + DEX mod while you are not wearing armor.
+- Ember Veins: You have resistance to fire damage.
+- Hardened Plating: You have resistance to slashing and piercing damage from non magical sources.
+- Lattice Claws: Your claws are natural weapons that deal 1d6 slashing damage, they count as one handed melee weapons.
+- Furnace Sight: You have darkvision out to 60 ft.
+Savage Hunter
+- +3d8 damage for the first 2 turns of combat.
+- -1d6 damage from the third turn onward.
+- During Rage: Double movement speed and +3d6 damage for the first 2 turns.
+- Sprint (1/Combat): Double movement speed as a free action.
+- Disengage (1/Turn): Disengage as a free action.
+## Actives
+Ferramite Race
+- Rite of Challenge: Once per short rest, as a bonus action you may declare a duel against a creature you can see within 30 ft. For 1 minute, while neither of you has an ally within 10 ft of the other, you gain +1 to base melee accuracy and +1 to base melee damage against that creature, and you have disadvantage on Deception checks against it. The rite ends early if the spacing condition is broken or if either creature is knocked unconscious.
+Rage
+- Gain 3 Rage Points at Level 1 (and an additional rage point for each level of barbarian).
+- While raging: +2d6 damage to Strength-based attacks but -5 to hit as well as a -10 to intelligence (this cannot set your intelligence below 4).
+- Additionally, while raging gain resistance to everything (take half damage from all sources)
+- Ends if you don’t deal/take damage for 1 round. Rage points refresh on a short rest.
 
 ==============================
 FILE: README.md
@@ -26308,6 +26890,7 @@ This project is **work in progress**. Some sections are fully written, others ar
     - NPC/DMPC play guidance
     - Starting area recommendations
 - Add actual links/references everywhere that I used § (This might be done now)
+- I have decided to make this more unhinged, add a cancer table
 
 ==============================
 FILE: index.md

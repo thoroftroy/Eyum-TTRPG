@@ -39,3 +39,4 @@ This project is **work in progress**. Some sections are fully written, others ar
     - NPC/DMPC play guidance
     - Starting area recommendations
 - Add actual links/references everywhere that I used § (This might be done now)
+- I have decided to make this more unhinged, add a cancer table
