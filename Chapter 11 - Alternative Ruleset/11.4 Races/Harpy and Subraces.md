@@ -1,24 +1,24 @@
 **Language:** Common, Harpy
 
-| Name         | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
-| ------------ | ------------ | ------------ | ---------------- | ---------------- |
-| Harpy        | 5'1" – 6'8"  | 120 – 240 lb | 70 – 105 years   | 21               |
-| Hushwing     | 5'0" – 6'6"  | 120 – 240 lb | 75 – 112 years   | 22               |
-| Skyclaw      | 5'2" – 6'10" | 130 – 260 lb | 65 – 97 years    | 19               |
-| Blackfeather | 5'0" – 6'6"  | 115 – 230 lb | 55 – 82 years    | 16               |
-| Palehook     | 5'4" – 7'2"  | 150 – 320 lb | 60 – 90 years    | 18               |
-| Roundfeather | 4'8" – 6'0"  | 150 – 310 lb | 45 – 67 years    | 13               |
-| Earfang      | 5'0" – 6'7"  | 95 – 200 lb  | 70 – 105 years   | 21               |
+| Name         | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
+| ------------ | ------ | ------------ | ------------ | ---------------- | ---------------- |
+| Harpy        | Medium | 5'1" – 6'8"  | 120 – 240 lb | 70 – 105 years   | 21               |
+| Hushwing     | Medium | 5'0" – 6'6"  | 120 – 240 lb | 75 – 112 years   | 22               |
+| Skyclaw      | Medium | 5'2" – 6'10" | 130 – 260 lb | 65 – 97 years    | 19               |
+| Blackfeather | Medium | 5'0" – 6'6"  | 115 – 230 lb | 55 – 82 years    | 16               |
+| Palehook     | Large  | 5'4" – 7'2"  | 150 – 320 lb | 60 – 90 years    | 18               |
+| Roundfeather | Medium | 4'8" – 6'0"  | 150 – 310 lb | 45 – 67 years    | 13               |
+| Earfang      | Medium | 5'0" – 6'7"  | 95 – 200 lb  | 70 – 105 years   | 21               |
 
-|Race|Size|Speed|Negative Affinities|Neutral Affinities|Positive Affinities|Stat Bonuses|
-|---|---|---|---|---|---|---|
-|Harpy|Medium|30, fly 40|Earth, Necrotic|Generic, Fire, Water, Psychic|Air, Radiant|+1 DEX, +1 CHA|
-|Hushwing|Medium|30, fly 40|Fire, Earth|Generic, Water, Psychic, Necrotic|Air, Radiant|+2 WIS, +1 DEX|
-|Skyclaw|Medium|35, fly 45|Water, Psychic|Generic, Fire, Earth|Air, Radiant, Necrotic|+2 STR, +1 DEX|
-|Blackfeather|Medium|30, fly 35|Radiant, Fire|Generic, Earth, Water, Psychic|Air, Necrotic|+2 INT, +1 DEX|
-|Palehook|Large|30, fly 40|Air, Psychic|Generic, Fire, Earth|Necrotic, Radiant, Water|+2 CON, +1 STR|
-|Roundfeather|Medium|30, glide only|Air, Fire|Generic, Earth, Water, Psychic|Radiant, Necrotic|+2 CON, -1 DEX|
-|Earfang|Medium|30, fly 40|Radiant, Earth|Generic, Fire, Water|Air, Psychic, Necrotic|+2 DEX, +1 INT|
+| Race         | Speed          | Negative Affinities | Neutral Affinities                | Positive Affinities      | Stat Bonuses   |
+| ------------ | -------------- | ------------------- | --------------------------------- | ------------------------ | -------------- |
+| Harpy        | 30, fly 40     | Earth, Necrotic     | Generic, Fire, Water, Psychic     | Air, Radiant             | +1 DEX, +1 CHA |
+| Hushwing     | 30, fly 40     | Fire, Earth         | Generic, Water, Psychic, Necrotic | Air, Radiant             | +2 WIS, +1 DEX |
+| Skyclaw      | 35, fly 45     | Water, Psychic      | Generic, Fire, Earth              | Air, Radiant, Necrotic   | +2 STR, +1 DEX |
+| Blackfeather | 30, fly 35     | Radiant, Fire       | Generic, Earth, Water, Psychic    | Air, Necrotic            | +2 INT, +1 DEX |
+| Palehook     | 30, fly 40     | Air, Psychic        | Generic, Fire, Earth              | Necrotic, Radiant, Water | +2 CON, +1 STR |
+| Roundfeather | 30, glide only | Air, Fire           | Generic, Earth, Water, Psychic    | Radiant, Necrotic        | +2 CON, -1 DEX |
+| Earfang      | 30, fly 40     | Radiant, Earth      | Generic, Fire, Water              | Air, Psychic, Necrotic   | +2 DEX, +1 INT |
 ## Harpy
 Harpies are upright, two-legged humanoids with a mixed avian–mammalian body plan. The upper body follows a human skeletal structure, but the arms are fully transformed into wing-limbs. These wings retain shoulder, elbow, and wrist joints, with long feathered forearms and reduced hand bones forming hooked, grasping digits near the wing edge. Fine manipulation is limited but possible wish effort.
 
@@ -48,7 +48,7 @@ Palehooks possess a vulture-like head with a hooked beak and mostly bare skin ac
 
 Large wings grow from the upper back and fold into a broad mantle when at rest. Legs become avian below the knee, ending in thick talons built more for stability than killing. Feather coverage on the body is sparse compared to other harpies, concentrated mainly along the wings and shoulders.
 
-Exposed skin on the head ranges from pinkish flesh to gray or slate and is leathery and wrinkled. Feathers are usually dark brown or black, with pale bone-colored neck plumage. Eyes are heavy-lidded, often amber or dull gold. Teeth are absent; feeding is done by beak. 
+Exposed skin on the head ranges from pinkish flesh to gray or slate and is leathery and wrinkled. Feathers are usually dark brown or black, with pale bone-colored neck plumage. Eyes are heavy-lidded, often amber or dull gold. Teeth are absent as they have a beak. 
 ## Roundfeather
 Roundfeathers retain a fully human head with normal facial structure and hair replaced by short feathers. The torso is rounded and birdlike but remains upright and humanoid in shape. Arms are wing-like, with elongated bones and thin membranes, ending in small bat-like hands.
 
@@ -60,4 +60,4 @@ Earfangs have a bat-like head with an elongated muzzle, large upright ears, and 
 
 The torso is humanoid with long arms that form membranous bat wings. The wing membrane stretches from shoulder to wrist and along elongated finger bones. Hands remain partially functional but limited when the wings are extended. Legs are humanoid in shape but covered in coarse hair, ending in clawed feet with long gripping toes.
 
-Skin is exposed across the face, ears, hands, and wing membrane and ranges from pale gray to near-black. Hair on the body is sparse and coarse. Eyes are dark, often brown, amber, or red-brown. Teeth include pronounced fangs but no venom.
+Skin is exposed across the face, ears, hands, and wing membrane and ranges from pale gray to near-black. Hair on the body is sparse and coarse. Eyes are dark, often brown, amber, or red-brown. Teeth include pronounced fangs.

@@ -1,32 +1,32 @@
 **Language:** Common, Elvish
 
-| Name       | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
-| ---------- | ------------ | ------------ | ---------------- | ---------------- |
-| Elf        | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
-| Draugir    | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
-| Dryad      | 4'11" – 6'7" | 95 – 200 lb  | 180 – 270 years  | 54               |
-| Nymph      | 4'10" – 6'5" | 90 – 185 lb  | 180 – 270 years  | 54               |
-| Siren      | 4'10" – 6'5" | 90 – 185 lb  | 90 – 135 years   | 27               |
-| Dwarf      | 3'8" – 4'10" | 120 – 220 lb | 190 – 285 years  | 57               |
-| Snerin     | 2'10" – 3'8" | 55 – 110 lb  | 190 – 285 years  | 57               |
-| Ironwroth  | 4'10" – 5'9" | 170 – 290 lb | 200 – 300 years  | 60               |
-| Fairy      | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
-| Pixy       | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
-| Spriteling | 8" – 18"     | 0.6 – 3 lb   | 40 – 60 years    | 12               |
+| Name       | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
+| ---------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
+| Elf        | Medium | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
+| Draugir    | Medium | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
+| Dryad      | Medium | 4'11" – 6'7" | 95 – 200 lb  | 180 – 270 years  | 54               |
+| Nymph      | Medium | 4'10" – 6'5" | 90 – 185 lb  | 180 – 270 years  | 54               |
+| Siren      | Medium | 4'10" – 6'5" | 90 – 185 lb  | 90 – 135 years   | 27               |
+| Dwarf      | Small  | 3'8" – 4'10" | 120 – 220 lb | 190 – 285 years  | 57               |
+| Snerin     | Small  | 2'10" – 3'8" | 55 – 110 lb  | 190 – 285 years  | 57               |
+| Ironwroth  | Medium | 4'10" – 5'9" | 170 – 290 lb | 200 – 300 years  | 60               |
+| Fairy      | Tiny   | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
+| Pixy       | Tiny   | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
+| Spriteling | Small  | 8" – 18"     | 0.6 – 3 lb   | 40 – 60 years    | 12               |
 
-| Race       | Size   | Speed        | Negative Affinities | Neutral Affinities             | Positive Affinities     | Stat Bonuses   |
-| ---------- | ------ | ------------ | ------------------- | ------------------------------ | ----------------------- | -------------- |
-| Elf        | Medium | 30           | Earth, Necrotic     | Generic, Fire, Water, Psychic  | Air, Radiant            | +2 DEX, +1 WIS |
-| Draugir    | Medium | 30           | Radiant, Fire       | Generic, Earth, Water          | Air, Necrotic, Psychic  | +2 DEX, +1 INT |
-| Dryad      | Medium | 30, climb 30 | Fire, Necrotic      | Generic, Water, Air, Psychic   | Earth, Radiant          | +2 WIS, +1 CON |
-| Nymph      | Medium | 30, swim 30  | Fire, Necrotic      | Generic, Earth, Air            | Water, Psychic, Radiant | +2 CHA, +1 DEX |
-| Siren      | Medium | 30, swim 30  | Earth, Fire         | Generic, Air, Necrotic         | Water, Psychic, Radiant | +5 CHA, +1 STR |
-| Dwarf      | Small  | 25           | Air, Psychic        | Generic, Fire, Water, Radiant  | Earth, Necrotic         | +2 CON, +1 STR |
-| Snerin     | Small  | 25           | Radiant, Air        | Generic, Fire, Water, Psychic  | Earth, Necrotic         | +2 INT, +1 CON |
-| Ironwroth  | Medium | 25           | Air, Psychic        | Generic, Fire, Radiant         | Earth, Water, Necrotic  | +3 STR, +1 CON |
-| Fairy      | Tiny   | 10, fly 40   | Earth, Necrotic     | Generic, Fire, Water, Psychic  | Air, Radiant            | +3 DEX, -2 STR |
-| Pixy       | Tiny   | 10, fly 40   | Earth, Radiant      | Generic, Fire, Water, Air      | Psychic, Necrotic       | +2 DEX, +1 CHA |
-| Spriteling | Small  | 30           | Fire, Necrotic      | Generic, Earth, Water, Psychic | Air, Radiant            | +2 DEX, -1 STR |
+| Race       | Speed        | Negative Affinities | Neutral Affinities             | Positive Affinities     | Stat Bonuses   |
+| ---------- | ------------ | ------------------- | ------------------------------ | ----------------------- | -------------- |
+| Elf        | 30           | Earth, Necrotic     | Generic, Fire, Water, Psychic  | Air, Radiant            | +2 DEX, +1 WIS |
+| Draugir    | 30           | Radiant, Fire       | Generic, Earth, Water          | Air, Necrotic, Psychic  | +2 DEX, +1 INT |
+| Dryad      | 30, climb 30 | Fire, Necrotic      | Generic, Water, Air, Psychic   | Earth, Radiant          | +2 WIS, +1 CON |
+| Nymph      | 30, swim 30  | Fire, Necrotic      | Generic, Earth, Air            | Water, Psychic, Radiant | +2 CHA, +1 DEX |
+| Siren      | 30, swim 30  | Earth, Fire         | Generic, Air, Necrotic         | Water, Psychic, Radiant | +5 CHA, +1 STR |
+| Dwarf      | 25           | Air, Psychic        | Generic, Fire, Water, Radiant  | Earth, Necrotic         | +2 CON, +1 STR |
+| Snerin     | 25           | Radiant, Air        | Generic, Fire, Water, Psychic  | Earth, Necrotic         | +2 INT, +1 CON |
+| Ironwroth  | 25           | Air, Psychic        | Generic, Fire, Radiant         | Earth, Water, Necrotic  | +3 STR, +1 CON |
+| Fairy      | 10, fly 40   | Earth, Necrotic     | Generic, Fire, Water, Psychic  | Air, Radiant            | +3 DEX, -2 STR |
+| Pixy       | 10, fly 40   | Earth, Radiant      | Generic, Fire, Water, Air      | Psychic, Necrotic       | +2 DEX, +1 CHA |
+| Spriteling | 30           | Fire, Necrotic      | Generic, Earth, Water, Psychic | Air, Radiant            | +2 DEX, -1 STR |
 ## Elf
 Elves are upright, two-legged humanoids with a light, refined skeletal structure and long, balanced proportions. Their limbs are slightly longer relative to the torso than in humans, giving them a tall, narrow silhouette even at average height. Joints are smooth and flexible, allowing quiet, precise movement with minimal wasted motion. The spine is straight and elastic, supporting an upright posture that appears relaxed but controlled. Elves are known far and wide for their beauty. 
 

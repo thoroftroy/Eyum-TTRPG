@@ -1,31 +1,79 @@
 **Language:** Common, Therian
 
-| Name      | Height Range | Mass Range     | Typical Lifespan | Age of Adulthood |
-| :-------- | :----------- | :------------- | :--------------- | :--------------- |
-| Therian   | 4'8" – 7'2"  | 110 – 360 lb   | 60 – 90 years    | 18               |
-| Felar     | 4'9" – 6'8"  | 95 – 240 lb    | 60 – 90 years    | 18               |
-| Wolfkin   | 5'0" – 7'1"  | 120 – 310 lb   | 55 – 82 years    | 16               |
-| Centaur   | 6'2" – 8'4"  | 700 – 1,400 lb | 50 – 75 years    | 15               |
-| Tuskwroth | 5'0" – 7'0"  | 170 – 420 lb   | 60 – 90 years    | 18               |
-| Minotaur  | 6'2" – 8'6"  | 350 – 900 lb   | 70 – 105 years   | 21               |
-| Murren    | 3'2" – 4'8"  | 45 – 130 lb    | 35 – 52 years    | 10               |
-| Probassan | 6'4" – 9'2"  | 520 – 1,200 lb | 90 – 135 years   | 27               |
-| Drowseer  | 5'0" – 6'6"  | 160 – 360 lb   | 80 – 120 years   | 24               |
-| Spinekin  | 4'10" – 6'6" | 120 – 320 lb   | 70 – 105 years   | 21               |
-| Ursworn   | 6'0" – 8'2"  | 260 – 720 lb   | 70 – 105 years   | 21               |
-| Gnoll     | 5'2" – 7'4"  | 140 – 360 lb   | 55 – 82 years    | 16               |
+| Name      | Size   | Height Range | Mass Range     | Typical Lifespan | Age of Adulthood |
+| :-------- | ------ | :----------- | :------------- | :--------------- | :--------------- |
+| Therian   | Medium | 4'8" – 7'2"  | 110 – 360 lb   | 60 – 90 years    | 18               |
+| Felar     | Medium | 4'9" – 6'8"  | 95 – 240 lb    | 60 – 90 years    | 18               |
+| Wolfkin   | Medium | 5'0" – 7'1"  | 120 – 310 lb   | 55 – 82 years    | 16               |
+| Centaur   | Large  | 6'2" – 8'4"  | 700 – 1,400 lb | 50 – 75 years    | 15               |
+| Tuskwroth | Large  | 5'0" – 7'0"  | 170 – 420 lb   | 60 – 90 years    | 18               |
+| Minotaur  | Large  | 6'2" – 8'6"  | 350 – 900 lb   | 70 – 105 years   | 21               |
+| Murren    | Small  | 3'2" – 4'8"  | 45 – 130 lb    | 35 – 52 years    | 10               |
+| Probassan | Huge   | 6'4" – 9'2"  | 520 – 1,200 lb | 90 – 135 years   | 27               |
+| Drowseer  | Medium | 5'0" – 6'6"  | 160 – 360 lb   | 80 – 120 years   | 24               |
+| Spinekin  | Medium | 4'10" – 6'6" | 120 – 320 lb   | 70 – 105 years   | 21               |
+| Ursworn   | Large  | 6'0" – 8'2"  | 260 – 720 lb   | 70 – 105 years   | 21               |
+| Gnoll     | Medium | 5'2" – 7'4"  | 140 – 360 lb   | 55 – 82 years    | 16               |
 
-|Race|Size|Speed|Negative Affinities|Neutral Affinities|Positive Affinities|Stat Bonuses|
-|---|---|---|---|---|---|---|
-|Therian|Medium|30|Psychic|Generic, Fire, Earth, Water, Air, Radiant|Necrotic|+1 STR, +1 CON|
-|Felar|Medium|35, climb 30|Water, Radiant|Generic, Fire, Earth, Psychic|Air, Necrotic|+2 DEX, +1 STR|
-|Wolfkin|Medium|35|Fire, Psychic|Generic, Earth, Air, Radiant|Water, Necrotic|+2 CON, +1 STR|
-|Centaur|Large|40|Air, Psychic|Generic, Fire, Radiant|Earth, Water, Necrotic|+3 STR, +2 CON, -1 DEX|
-|Tuskwroth|Large|30|Air, Psychic|Generic, Fire, Water, Radiant|Earth, Necrotic|+3 STR, +1 CON, -1 DEX|
-|Minotaur|Large|35|Air, Psychic|Generic, Fire, Radiant|Earth, Water, Necrotic|+3 STR, +2 CON|
-|Murren|Small|30, climb 30|Fire, Radiant|Generic, Earth, Water, Air, Psychic|Necrotic|+2 DEX, +1 INT, -1 STR|
-|Probassan|Huge|30, swim 30|Air, Psychic|Generic, Fire, Radiant|Earth, Water, Necrotic|+4 STR, +3 CON, -2 DEX|
-|Drowseer|Medium|25, climb 30|Fire, Air|Generic, Earth, Water, Psychic|Necrotic, Radiant|+2 CON, +1 STR, -1 DEX|
-|Spinekin|Medium|30|Water, Air|Generic, Fire, Earth, Psychic|Necrotic, Radiant|+2 CON, +1 STR|
-|Ursworn|Large|30, swim 30|Air, Psychic|Generic, Fire, Radiant|Earth, Water, Necrotic|+3 STR, +2 CON|
-|Gnoll|Medium|35|Water, Radiant|Generic, Fire, Earth, Air, Psychic|Necrotic|+2 STR, +1 DEX|
+| Race      | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities    | Stat Bonuses           |
+| --------- | ------------ | ------------------- | ----------------------------------------- | ---------------------- | ---------------------- |
+| Therian   | 30           | Psychic             | Generic, Fire, Earth, Water, Air, Radiant | Necrotic               | +1 STR, +1 CON         |
+| Felar     | 35, climb 30 | Water, Radiant      | Generic, Fire, Earth, Psychic             | Air, Necrotic          | +2 DEX, +1 STR         |
+| Wolfkin   | 35           | Fire, Psychic       | Generic, Earth, Air, Radiant              | Water, Necrotic        | +2 CON, +1 STR         |
+| Centaur   | 40           | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +3 STR, +2 CON, -1 DEX |
+| Tuskwroth | 30           | Air, Psychic        | Generic, Fire, Water, Radiant             | Earth, Necrotic        | +3 STR, +1 CON, -1 DEX |
+| Minotaur  | 35           | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +5 STR, +2 CON         |
+| Murren    | 30, climb 30 | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic               | +2 DEX, +1 INT, -1 STR |
+| Probassan | 30, swim 30  | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +4 STR, +3 CON, -2 DEX |
+| Drowseer  | 25, climb 30 | Fire, Air           | Generic, Earth, Water, Psychic            | Necrotic, Radiant      | +2 CON, +1 STR, -1 DEX |
+| Spinekin  | 30           | Water, Air          | Generic, Fire, Earth, Psychic             | Necrotic, Radiant      | +2 CON, +1 STR         |
+| Ursworn   | 30, swim 30  | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +4 STR, +2 CON         |
+| Gnoll     | 35           | Water, Radiant      | Generic, Fire, Earth, Air, Psychic        | Necrotic               | +2 STR, +1 DEX         |
+## Therian
+Therians are upright, two-legged mammal-hybrids with a human-style body plan and clear animal traits. The skeleton keeps a human pelvis, ribcage, and spine, so they stand and walk like people, but the joints are heavier and sit a little wider, giving a more stable stance. The shoulders are broad, the chest is deep, and the limbs carry thick muscle bands meant for pulling, climbing, and grappling. Hands remain tool-using, with five fingers and strong grip, but the finger pads are thicker and the nails are harder, often forming short claws. Feet are usually shaped closer to a paw than a flat human foot, with thicker pads and a slightly raised heel posture.
+
+The head is animal-like rather than human. The face usually has a muzzle, a larger nose area for smell, and strong jaw muscles that make the cheeks look full and firm. Eyes are set to give a wide field of view, and the ears are external and animal-shaped, often large and mobile. Most of the body is covered in fur, shorter on the face and hands, thicker across the shoulders, spine, and hips. Fur colors follow natural animal tones, brown, black, gray, tan, white, often with patterns like stripes, spots, or darker shading down the back. Teeth are mixed: grinding molars with sharper front teeth, and canines are often larger than human canines. Many therians have a tail, which is thick at the base and used for balance, especially during fast turns and jumps.
+## Felar
+Felars are cat-like therians with a light, flexible build and very high joint range. The spine is long and mobile, letting the torso twist and compress more than a human’s. The shoulders sit high and roll smoothly, and the hips are narrow, supporting quick starts and sharp turns. Arms are slim but strong, with long forearms and hands built for grip and fine movement. Fingers are slightly longer than human fingers, and the nails are curved into claws that can extend and retract partway. Feet are paw-like with thick pads, and the ankles sit higher, giving a spring-loaded stance even when standing still.
+
+The head is feline: short to medium muzzle, small nose, wide mouth, and strong jaw hinges for biting. Eyes are large and forward-facing, often with a reflective shine in dim light, and pupils narrow into vertical slits. Ears are tall and pointed, very mobile, and show clear emotion and attention changes. Whiskers are long and stiff, growing from thick pads on the muzzle and often from the brow line as well. Fur is dense and smooth, short across most of the body, with longer fur at the cheeks, neck, elbows, and tail base. Coat colors include solid black, white, gray, tan, and patterned coats like stripes or spots. The tail is long and expressive, acting as a counterweight during climbing and leaping.
+## Wolfkin
+Wolfkin are canine therians built for endurance and impact strength. The torso is thick and stable, with a wide ribcage and strong lower back. Shoulders are heavy and the neck is thick, supporting a large head and powerful bite. Arms and legs are muscular rather than slim, with joints that look reinforced and hard to twist. Hands remain five-fingered for tools and weapons, but the fingers are thick, with tough pads and blunt clawed nails. Feet are large and paw-like, spreading weight with wide pads that reduce strain during long runs. Their standing posture often leans slightly forward, like a runner ready to move.
+
+The head has a long muzzle and wide nasal structure. The nose is broad and visibly moist, and the jawline is heavy with clear muscle shape at the cheeks. Eyes are forward but set slightly wider than a human’s, giving strong side awareness. Ears are tall and upright or slightly angled, with constant small movements toward sound. Fur is thick and often layered, with a dense undercoat and longer hairs along the spine and shoulders. Colors are commonly gray, brown, black, tan, or white, often with darker shading down the back and lighter fur on the throat and belly. Teeth show strong canines and cutting premolars. The tail is thick, usually carried low or level, and used as a balance tool while running and turning.
+## Centaur
+Centaurs have a true two-part body plan: a human upper body joined smoothly at the waist to a full horse lower body. The lower half includes the horse ribcage, four legs, and a long spine that carries the weight of both halves. The chest and shoulders of the human half are broad and strong, because the arms must work while the lower body is in motion. The human spine connects into the horse spine at a thick, reinforced junction, and this join area is heavily muscled and wide, forming a natural “saddle” curve behind the human waist.
+
+The horse body has a deep barrel chest, strong hips, and long legs with large joints built for speed and load. Each leg ends in a hoof made of hard keratin, with visible growth rings and a thick, worn edge. The tail is horse-like, long, hair-heavy, and used for balance and to swat irritants. Coat hair covers the horse half and can be short and sleek or thicker and rougher depending on climate. Coat colors include black, brown, tan, gray, white, and patterned coats such as spots or patches; many also have darker lower legs or a lighter belly. The human half has normal human skin tones and normal head hair. The hairline, facial structure, eyes, and teeth are fully human, and the arms end in normal human hands with five fingers. The overall look is a clean blend: human above, horse below, with no extra limbs beyond the two human arms and four horse legs.
+## Tuskwroth
+Tuskwroth are large, boar-headed humanoids with thick bone and heavy muscle. The frame is wide at the shoulders and hips, with a deep chest and a strong abdomen that keeps the body stable under load. The neck is short and dense, built to support a heavy head and powerful jaw muscles. Arms are thick and strong, with large forearms and wide hands. Hands remain human in function, five fingers, full grip, but the fingers are thicker and the nails are harder and darker. Legs are heavy and end in pig-like feet with split hooves or thick hoof-toes that spread weight and grip rough ground.
+
+The head is fully porcine: broad snout, wide nostrils, and a flat nose disk that looks tough and slightly textured. The jaw is large, and the cheeks are rounded by strong muscle. Tusks grow from the upper jaw in most adults, curving outward and upward; they are thick, pale, and often show chips, scratches, and dull wear at the tips. Ears are large, triangular, and angled outward. Skin is tough and coarse, commonly gray, brown, dark slate, or pink-gray, and often has sparse stiff bristles along the jawline, neck, shoulders, and spine. Hair on the head is minimal; instead, they may have a ridge of bristles along the scalp and back. Eyes are smaller relative to head size, giving a focused, stubborn look. Teeth are thick and strong, suited for crushing as well as biting.
+## Minotaur
+Minotaurs are bull-headed humanoids with a very large, muscular build. The skeleton is humanlike in layout but scaled up, with thick bones, large joints, and a deep ribcage. The shoulders are broad, the neck is thick, and the upper back is heavily muscled to support the head and horns. Arms are long and powerful, ending in humanlike hands with five fingers and thick, rough skin on the palms. Legs are strong and stable, usually ending in cloven hooves rather than human feet, with hard keratin and a wide stance that supports sudden charges and heavy impacts.
+
+The head is that of a bull: a long, broad muzzle, wide nostrils, and a heavy jaw. Horns grow from the skull and curve outward, upward, or forward depending on the individual; the horn surface shows growth rings and can be polished smooth from wear or chipped from fights. Ears are large and rounded, set to the sides. Eyes are dark and forward, with a steady, intense look. Hair and fur vary: many have short fur across the body, thicker along the neck and shoulders like a rough mane, and sometimes a longer tuft at the end of the tail. Skin under the fur is thick and scar-prone. Colors range from black and deep brown to tan, red-brown, and spotted patterns. Teeth are broad and strong, with a bite that looks built to crush and hold.
+## Murren
+Murren are small rodent-like humanoids with light bones and fast, precise movement. The torso is narrow and compact, with a small ribcage and flexible spine. Arms are long enough for climbing and reaching into tight spaces, and the shoulders are built for quick pulling motions. Hands are fully grasping, with long fingers and sharp, thin nails that act like small claws. Legs are shorter than the arms and built for quick steps and short jumps, with feet shaped to grip edges and climb rough surfaces.
+
+The head is rodent-like, with a pointed or rounded muzzle and large front incisors that are often visible even when the mouth is closed. The nose is small and damp-looking. Eyes are large and dark, set slightly to the sides for wide awareness. Ears are prominent, thin, and rounded, with sparse fur. Fur covers most of the body: short on the limbs, thicker around the neck, cheeks, and tail base. Colors include gray, brown, tan, black, white, and mixed patterns, often with lighter belly fur. Whiskers are long and stiff, spreading outward from the muzzle. The tail is long and thin, used for balance; it may be furred or partly bare depending on lineage.
+## Probassan
+Probassans are massive elephant-like humanoids with huge bone structure and thick, weight-bearing joints. The torso is extremely deep and wide, with a heavy ribcage and thick abdomen. The shoulders and hips are broad to spread load, and the spine is supported by large muscle columns along the back. Arms are thick and long, ending in broad hands with thick fingers and tough pads. Legs are pillar-like, with wide knees and ankles. Feet are elephant-like: broad, round, heavily padded, with thick nails rather than claws.
+
+The head is elephant-like with a large skull and a long trunk. The trunk is muscular and flexible, able to curl, lift, and grip; the tip often has small finger-like pads for fine handling. Tusks grow from the upper jaw in most adults, thick and forward-curving, often worn smooth at the tips. Ears are very large and fan-shaped, with visible vein lines under thin skin. Skin is thick, rough, and creased, forming deep folds at the neck, elbows, knees, and belly. Colors are usually gray, dark gray, brown-gray, or dusty tan. Body hair is sparse, appearing as short bristles on the forearms, chin, and shoulders. Eyes are small compared to head size and often look calm and heavy-lidded.
+## Drowseer
+Drowseers are sloth-like humanoids with a slow, heavy frame and long reach. The torso is thick and rounded, with wide shoulders and a deep belly. Arms are notably long and hang low, with heavy forearms and large hands. Fingers are long and end in thick, curved claws made for hooking and holding. The shoulder joints are built for steady pulling strength rather than fast striking. Legs are sturdy but slow, with wide feet and thick pads that keep balance during careful movement. Their resting posture often looks relaxed, with the shoulders slightly forward and the head tilted down.
+
+The head is sloth-like: short face, rounded muzzle, and blunt nose. Eyes are forward-facing and often look half-lidded even when alert, giving a calm or sleepy expression. Fur is thick and shaggy, longer on the arms, shoulders, and back, and often looks slightly uneven or layered. Colors are usually gray, brown, tan, or mossy brown. The face often has darker shading around the eyes and muzzle. Teeth are small and blunt. 
+## Spinekin
+Spinekin are porcupine-like humanoids with a mostly human front and a defensive spine field across the back. The body plan is upright and human, but the upper back and shoulders are thicker and more muscular, supporting the mass of the spines. Posture tends to be slightly hunched at the shoulders, both from weight and from habit, which makes the back surface more protected and more threatening. Arms and legs are strong and compact. Hands are humanlike, with thick skin and tough pads, and nails that can be hard and dark but usually not true claws.
+
+The spines are stiff keratin shafts that grow from the scalp, neck, shoulders, and down the spine, sometimes spreading across the outer arms and hips. Each spine is thick at the base and tapers to a sharp point. They can lie flat against the body or lift outward, changing the silhouette from “normal” to “spiked” in seconds. Spine colors range from white and cream to black, brown, or banded patterns with light and dark rings. Short coarse fur covers the chest, stomach, and limbs, while the back is dominated by spine roots and thickened hide. Eyes are forward-facing and alert. Teeth are mostly blunt, with slightly sharper front teeth possible. 
+## Ursworn
+Ursworn are bear-like humanoids with dense muscle and very heavy bones. The torso is broad and deep, with a large ribcage and powerful shoulders. The neck is short and thick, and the upper back is wide, giving a strong “block” shape. Arms are long and extremely strong, with thick forearms and wide hands. Fingers end in strong claws that are shorter than a full bear’s but still clearly nonhuman. Legs are thick and stable, and the feet are wide with heavy pads for traction. Their stance is steady and hard to push over, and even slow movement carries obvious weight.
+
+The head is bear-like with a broad muzzle, large nose, and heavy jaw. Ears are small and rounded. Eyes are forward-facing and dark, often calm until focused. Fur covers most of the body and is thickest around the shoulders, neck, and forearms, forming a natural “mantle” of heavier hair. Fur colors include black, dark brown, reddish brown, tan, and sometimes pale cream. Skin beneath is thick and scars can remain visible under thinner fur areas. Teeth include strong canines and broad molars, giving a bite built for tearing and crushing.
+## Gnoll
+Gnolls are hyena-like humanoids with a tall, lean, predatory build and a forward-leaning posture. The skeleton is humanoid but shaped for running and sudden lunges. The shoulders sit high and the back slopes slightly downward toward the hips, creating a hunched silhouette. Arms are long and strong, with large hands built for gripping weapons and prey. Fingers end in thick nails that form short claws. Legs are powerful and digitigrade, meaning they walk on the front of the foot with the heel raised, giving longer stride and spring. Feet are broad and paw-like, with thick pads for traction and silent movement.
+
+The head is fully hyena-like: long muzzle, wide jaw, and strong cheek muscles that make the face look heavy at the sides. Teeth are large and built for crushing, with thick canines and strong back teeth. Eyes are forward and intense. Ears are tall and pointed, set high and angled outward. Fur is coarse and usually short, with thicker hair along the neck and upper back forming a rough mane. Coat colors are often sandy tan, brown, gray, or dark mottled tones, commonly with spots, darker stripes, or a dark ridge along the spine. Many have a tail that is short to medium length and furred.

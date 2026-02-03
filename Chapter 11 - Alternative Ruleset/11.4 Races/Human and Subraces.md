@@ -1,26 +1,26 @@
 **Language:** Common, Humans also speak any 1 additional language of choice.
 
-| Name     | Height Range  | Mass Range     | Typical Lifespan | Age of Adulthood |
-| -------- | ------------- | -------------- | ---------------- | ---------------- |
-| Human    | 4'7" – 6'7"   | 90 – 265 lb    | 60 – 90 years    | 18               |
-| Aurian   | 5'3" – 6'11"  | 120 – 240 lb   | 55 – 82 years    | 17               |
-| Halofade | 5'10" – 7'10" | 100 – 190 lb   | 70 – 105 years   | 21               |
-| Giant    | 8'2" – 13'1"  | 450 – 1,300 lb | 65 – 97 years    | 19               |
-| Iceborn  | 5'2" – 6'7"   | 110 – 210 lb   | 60 – 90 years    | 18               |
-| Fireborn | 5'3" – 6'7"   | 120 – 220 lb   | 60 – 90 years    | 18               |
-| Kravari  | 5'7" – 6'11"  | 180 – 310 lb   | 40 – 60 years    | 12               |
-| Sandman  | 5'2" – 6'3"   | 100 – 185 lb   | 50 – 75 years    | 15               |
+| Name     | Size   | Height Range  | Mass Range     | Typical Lifespan | Age of Adulthood |
+| -------- | ------ | ------------- | -------------- | ---------------- | ---------------- |
+| Human    | Medium | 4'7" – 6'7"   | 90 – 265 lb    | 60 – 90 years    | 18               |
+| Aurian   | Medium | 5'3" – 6'11"  | 120 – 240 lb   | 55 – 82 years    | 17               |
+| Halofade | Medium | 5'10" – 7'10" | 100 – 190 lb   | 70 – 105 years   | 21               |
+| Giant    | Huge   | 8'2" – 13'1"  | 450 – 1,300 lb | 65 – 97 years    | 19               |
+| Iceborn  | Medium | 5'2" – 6'7"   | 110 – 210 lb   | 60 – 90 years    | 18               |
+| Fireborn | Medium | 5'3" – 6'7"   | 120 – 220 lb   | 60 – 90 years    | 18               |
+| Kravari  | Medium | 5'7" – 6'11"  | 180 – 310 lb   | 40 – 60 years    | 12               |
+| Sandman  | Medium | 5'2" – 6'3"   | 100 – 185 lb   | 50 – 75 years    | 15               |
 
-| Race     | Size   | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities        | Stat Bonuses           |
-| -------- | ------ | ----------- | ------------------- | ------------------------------------------------------------ | -------------------------- | ---------------------- |
-| Human    | Medium | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                            | +1 to any two stats    |
-| Aurian   | Medium | 30          | Water, Necrotic     | Earth, Air, Psychic                                          | Generic, Fire, Radiant     | +1 STR, +1 WIS         |
-| Halofade | Medium | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic | +2 CHA, -1 STR         |
-| Giant    | Huge   | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water               | +3 STR, +2 CON, -2 DEX |
-| Iceborn  | Medium | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant             | +1 CON, +1 WIS         |
-| Fireborn | Medium | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic              | +2 STR, -1 CON         |
-| Kravari  | Medium | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic          | +3 STR, -2 INT         |
-| Sandman  | Medium | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant    | +1 DEX, +1 CHA         |
+| Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities        | Stat Bonuses           |
+| -------- | ----------- | ------------------- | ------------------------------------------------------------ | -------------------------- | ---------------------- |
+| Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                            | +1 to any two stats    |
+| Aurian   | 30          | Water, Necrotic     | Earth, Air, Psychic                                          | Generic, Fire, Radiant     | +1 STR, +1 WIS         |
+| Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic | +2 CHA, -1 STR         |
+| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water               | +3 STR, +2 CON, -2 DEX |
+| Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant             | +1 CON, +1 WIS         |
+| Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic              | +2 STR, -1 CON         |
+| Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic          | +3 STR, -2 INT         |
+| Sandman  | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant    | +1 DEX, +1 CHA         |
 ## Human
 Humans are upright, two-legged mammals with a balanced and highly variable build. The skeleton is internally rigid with flexible joints at the neck, shoulders, elbows, hips, knees, and ankles, allowing both endurance walking and short bursts of speed. The torso is widest at the shoulders, narrows toward the waist, and widens again at the hips, giving stable upright balance. Arms are shorter than legs and end in hands with five flexible fingers capable of both fine manipulation and strong grip.
 

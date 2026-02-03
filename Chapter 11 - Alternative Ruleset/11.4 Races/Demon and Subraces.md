@@ -1,21 +1,55 @@
 **Language:** Common, Infernal 
 
-| Name       | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
-| ---------- | ------------ | ------------ | ---------------- | ---------------- |
-| Demon      | 5'0" – 6'8"  | 120 – 300 lb | 90 – 135 years   | 27               |
-| Ferramite  | 5'4" – 7'2"  | 180 – 420 lb | 120 – 180 years  | 36               |
-| Pyrrakin   | 5'2" – 6'10" | 140 – 320 lb | 80 – 120 years   | 24               |
-| Drakari    | 5'5" – 7'4"  | 190 – 450 lb | 100 – 150 years  | 30               |
-| Cinderkin  | 5'1" – 6'9"  | 130 – 310 lb | 70 – 105 years   | 21               |
-| Sylphamare | 6'0" – 8'2"  | 260 – 620 lb | 200 – 300 years  | 60               |
-| Varkuun    | 5'4" – 7'1"  | 170 – 390 lb | 95 – 142 years   | 29               |
+| Name       | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
+| ---------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
+| Demon      | Medium | 5'0" – 6'8"  | 120 – 300 lb | 90 – 135 years   | 27               |
+| Ferramite  | Large  | 5'4" – 7'2"  | 180 – 420 lb | 120 – 180 years  | 36               |
+| Pyrrakin   | Medium | 5'2" – 6'10" | 140 – 320 lb | 80 – 120 years   | 24               |
+| Drakari    | Large  | 5'5" – 7'4"  | 190 – 450 lb | 100 – 150 years  | 30               |
+| Cinderkin  | Medium | 5'1" – 6'9"  | 130 – 310 lb | 70 – 105 years   | 21               |
+| Sylphamare | Huge   | 6'0" – 8'2"  | 260 – 620 lb | 200 – 300 years  | 60               |
+| Varkuun    | Medium | 5'4" – 7'1"  | 170 – 390 lb | 95 – 142 years   | 29               |
 
-| Race       | Size   | Speed        | Negative Affinities    | Neutral Affinities                  | Positive Affinities     | Stat Bonuses           |
-| ---------- | ------ | ------------ | ---------------------- | ----------------------------------- | ----------------------- | ---------------------- |
-| Demon      | Medium | 30           | Radiant, Cold          | Generic, Earth, Water, Air, Psychic | Fire, Necrotic          | +1 STR, +1 CHA         |
-| Ferramite  | Large  | 30, climb 30 | Radiant, Psychic, Cold | Generic, Earth, Air                 | Fire, Necrotic, Water   | +3 STR, +1 CON, -1 CHA |
-| Pyrrakin   | Medium | 35, climb 30 | Water, Cold            | Generic, Earth, Air, Psychic        | Fire, Radiant           | +2 DEX, +1 STR         |
-| Drakari    | Large  | 30, climb 20 | Radiant, Psychic, Cold | Generic, Earth, Water               | Fire, Air, Necrotic     | +2 STR, +1 CON         |
-| Cinderkin  | Medium | 30           | Water, Radiant, Cold   | Generic, Earth, Air, Psychic        | Fire, Necrotic          | +2 CHA, +1 INT         |
-| Sylphamare | Huge   | 25           | Air, Psychic, Cold     | Generic, Earth, Water, Necrotic     | Fire, Radiant           | +3 WIS, +2 INT, -2 DEX |
-| Varkuun    | Medium | 30, climb 20 | Radiant, Cold          | Generic, Earth, Water, Air          | Fire, Necrotic, Psychic | +2 STR, +1 CHA         |
+| Race       | Speed        | Negative Affinities    | Neutral Affinities                  | Positive Affinities     | Stat Bonuses                  |
+| ---------- | ------------ | ---------------------- | ----------------------------------- | ----------------------- | ----------------------------- |
+| Demon      | 30           | Radiant, Cold          | Generic, Earth, Water, Air, Psychic | Fire, Necrotic          | +3 STR, +2 CON, +1 AC         |
+| Ferramite  | 30, climb 30 | Radiant, Psychic, Cold | Generic, Earth, Air                 | Fire, Necrotic, Water   | +3 STR, +1 CON, -1 CHA, +3 AC |
+| Pyrrakin   | 35, climb 30 | Radiant, Water, Cold   | Generic, Earth, Air, Psychic        | Fire                    | +2 DEX, +1 STR, +1 AC         |
+| Drakari    | 30, climb 20 | Radiant, Psychic, Cold | Generic, Earth, Water               | Fire, Air, Necrotic     | +2 STR, +1 CON, +1 AC         |
+| Cinderkin  | 30           | Water, Radiant, Cold   | Generic, Earth, Air, Psychic        | Fire, Necrotic          | +2 CHA, +1 INT                |
+| Sylphamare | 25           | Air, Psychic, Cold     | Generic, Earth, Water, Necrotic     | Fire, Radiant           | +3 WIS, +2 INT, -2 DEX, +1 AC |
+| Varkuun    | 30, climb 20 | Radiant, Cold          | Generic, Earth, Water, Air          | Fire, Necrotic, Psychic | +2 STR, +1 CHA, +1 AC         |
+## Demon
+Demons follow a humanoid body plan but with heavy predatory traits that make the human shape feel secondary. The skeleton is tall and rigid through the chest, with broad shoulders, a thick spine, and joints that look slightly overbuilt. The head is usually larger than human average with a heavier brow ridge, a stronger jaw, and cheekbones that sit high and sharp. Horns rise from the skull in many forms, straight, swept back, curled, forked, or uneven, and their bases look fused to the bone, not like surface growth. A tail extends from the lower spine. It is muscular, flexible, and often ends in a hard tip, ridge, or spade-like shape.
+
+Skin tones trend toward gray, charcoal black, deep purple, dark red, and sometimes yellowed tones. The surface is not soft; it is rough, dry, and uneven, with thickened patches like natural armor. Many demons have scaly ridges along the spine, shoulders, forearms, and shins. These ridges can form raised lines, small plates, or jagged crests that catch light on their edges. Facial skin often looks tighter over the bones, making expressions appear sharper and more threatening. Eyes tend to look intense: smaller visible whites, deeper-set sockets, and irises that can be bright against dark skin. Teeth include clear fangs. The canines are longer and narrower than human, and the back teeth are heavier for tearing and crushing. Fingernails are thick and may form short claws. 
+## Ferramite
+Ferramites are large, dragonic humanoids built like moving armor. The frame is thick and heavy in every segment: wide chest, thick neck, dense limbs, and large joints. The hands and feet are broad with powerful claws, and the fingers look reinforced, as if designed to grip stone and bend metal. Their stance reads as weight-forward and stable, with a low, grounded center of mass.
+
+The defining trait is their full-body scale armor. From head to toe, the skin is covered in thick, metal-like plates that overlap like a natural suit of mail. These plates are not smooth skin scales; they look like forged segments, hard, edged, and layered, yet they still move with the body. The plating is thickest over the shoulders, chest, spine, hips, and shins, forming natural guard areas. Smaller plates cover the joints, arranged so the body can still bend. The face is draconic, with a strong snout, heavy jaw, and a skull shape that suggests thick bone under the plating. Horns or crown-like ridges may rise from the head, often appearing like sharpened metal growth. Eyes sit deep behind armored ridges, giving a narrow, protected gaze. The mouth holds strong teeth suited for tearing, with fangs that are shorter and thicker than a demon’s, more like a predator built for force rather than needle-sharp bite. Ferramites look extremely difficult to injure even before they wear gear, because their outer layer already functions like heavy armor.
+## Pyrrakin
+Pyrrakin are lean, fast humanoids designed for sprinting and climbing. Their build is long-limbed with a narrow waist and a flexible torso. The shoulders are set slightly forward, and the arms are long, giving reach and leverage. The legs are digitigrade: the heel is lifted, the knee is high, and the lower leg is elongated, creating a spring-like shape. This makes their standing posture look ready to launch forward, as if always in a half-crouch. The feet are longer than human and often end in clawed toes with strong grip.
+
+The head is fully reptilian, not human. It has a blunt snout, a wide mouth line, and a jaw hinge that opens farther than a human jaw. The skull is smooth and streamlined, and the neck is strong but not bulky. Skin texture is scaled or toughened, with fine plates that lie close to the body and reduce drag when moving. Many have heat-like coloration, dark base tones with warmer highlights, though the exact palette varies. Eyes are forward and alert, with a focused stare and a pupil shape that can appear narrow in bright light. Teeth are sharp and uniform, with fangs that are present but not oversized; the whole mouth reads as a practical hunting bite rather than a dramatic display.
+## Drakari
+Drakari are more dragon-like humanoids with functional wings. They are large, broad-chested, and strongly muscled, with a deep ribcage and thick shoulders that anchor both the arms and the wing joints. The neck is sturdy and slightly longer than human, supporting a draconic head with a pronounced snout and heavy jaw. The stance is confident and upright, and the limbs are built for both lifting strength and stable footing.
+
+Scales cover the body in continuous patterns, thicker along the spine, shoulders, and outer limbs. The scale surface is hard and slightly ridged, with visible overlap like natural armor. The head has draconic features: snout, horn ridges or small horns, and strong brow plates. Eyes are set beneath protective ridges, giving a focused, predatory look. Teeth are heavy and pointed, with prominent canines. Hands end in clawed fingers that can still grasp tools and weapons, and the feet are broad with clawed toes.
+
+Wings extend from the back, attached near the shoulder blades and upper ribs. The wing bones are long and segmented, and the membrane or wing surface stretches between them, forming a wide airfoil. When folded, the wings rest against the back like layered limbs; when spread, they dominate the silhouette. 
+## Cinderkin
+Cinderkin are the near-human demon-blooded type. Their skeleton and proportions read mostly human: upright posture, humanlike limb ratios, and a face that can appear fully human at a distance. They are usually smoother and less armored than full demons, with fewer extreme ridges and less harsh body geometry. This makes their movement look more familiar and controlled, and their expressions easier to read.
+
+They still carry clear infernal traits. Horns are common, often smaller and more refined than a demon’s, with shapes that can look decorative but still grow from the skull. A tail is typical, usually slimmer and more flexible than a demon’s, and it may end in a small hardened tip. Skin tones can be close to human ranges, but often carry unnatural undertones, ashen gray, faint red, deep warm shadows, or darker gradients near joints. Skin texture is smoother than a demon’s, though some have faint scale patches on the shoulders, hips, or along the spine. Eyes often stand out: unusually bright irises, darker sclera, or a sharp contrast that makes eye contact feel intense.
+
+Some cinderkin have small wings. These wings are present as physical structures, short, thin, and often folded tight, but they are not built for true flight. The wing bones are underss and the membranes can look delicate, more like an extra trait than a working limb. Teeth are mostly humanlike but may include slightly sharper canines. 
+## Sylphamare
+Sylphamare are huge, long-limbed humanoids with a frail-looking frame that is deceptive. The torso is narrow and tall, the shoulders slope gently, and the limbs are very long relative to the body. The arms hang low, and the hands are large with thin, extended fingers. The legs are also long, with joints that look high-set and angular, creating a slow, gliding stride. The spine appears slightly curved even at rest, giving them a forward-leaning silhouette. It looks as if they constantly walk hunched over. 
+
+The head is elongated, with a long face and soft, hanging features. The most obvious trait is the ears: large, droopy ears that fall downward along the sides of the head, with thick, soft-looking cartilage and heavy folds. The ears move subtly with posture and mood, and they give the face a tired, solemn look. The skin is pale and matte, often in muted tones like gray-beige, dusty tan, or softened brown. The surface can look dry and fine-textured, like very thin skin stretched over bone. Eyes are large and set deep, with a calm but unsettling stillness. The mouth is small compared to the face, and the jawline is long and gently rounded rather than sharply angular. Hair is sparse or very fine in many individuals, sometimes present as thin strands or a light down rather than full human hair. Teeth are small and even, not built for obvious predation. 
+## Varkuun
+Varkuun sit between demons and cinderkin in how human they appear. They keep a humanoid body plan but push closer to the demon end: heavier bone, stronger joint structure, and more visible natural armor. The torso is thicker than a cinderkin’s, the shoulders are broader, and the neck is stronger. Their face is partly human in basic layout, but the proportions are harsher, heavier brow, stronger jaw, and cheekbones that look sharpened. They often look like they are built for force, not elegance.
+
+They commonly have horns and a tail, but these traits are less extreme than a full demon’s. Horns may be thicker at the base and shorter overall, or long but smoother and less jagged. The tail is muscular and clearly functional for balance and expression, often moving with mood. Skin tones frequently include gray, black, deep red, and bruised purple hues. The skin texture is rougher than cinderkin, with more patchy scale ridges along the spine, outer forearms, collarbones, and shins. These ridges can form raised lines or plate-like bands, but they do not usually cover the whole body.
+
+Teeth include fangs that are visible when the mouth opens, though they are often shorter than a demon’s and less needle-like. Eyes are intense and predatory, with less visible white and deeper sockets. Varkuun look clearly infernal and intimidating, but they do not reach the most exaggerated monster shapes of full demons. The result is a form that reads as a threatening near-human: demonic structure, armored texture, horns and tail, and a face that is almost human until you look closely.
