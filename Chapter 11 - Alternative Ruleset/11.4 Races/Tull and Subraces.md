@@ -1,8 +1,4 @@
-**Language:** Tullish
-
-The Tull race and its subraces are unique in that they undergo physical evolution over time. All Tull characters must begin as either a **Tull** or a **Grivlit**, and as they grow and gain levels, they may evolve into progressively higher forms along the Tull lineage, up to **Brogath**. Upon reaching this stage, further evolution requires a final specialization, at which point the character must permanently choose one of three apex forms: **Troll**, **Cyclopse**, or **Naram-Sin**.
-
-When you level up you gain the Stat Bonuses and Affinities from your new race, they are not additive, they replace the old ones. All Tull races have a joint skill tree. 
+**Language:**  Common,Tullish
 
 | Name      | Size   | Height Range | Mass Range     | Typical Lifespan | Age of Adulthood |
 | --------- | ------ | ------------ | -------------- | ---------------- | ---------------- |
@@ -16,17 +12,17 @@ When you level up you gain the Stat Bonuses and Affinities from your new race, t
 | Cyclopse  | Huge   | 8'6" – 12'0" | 900 – 1,900 lb | 85 – 127 years   | 25               |
 | Naram-Sin | Medium | 5'10" – 6'8" | 210 – 360 lb   | 65 – 97 years    | 19               |
 
-| Race      | Speed | Negative Affinities | Neutral Affinities                        | Positive Affinities                  | Stat Bonuses                            |
-| --------- | ----- | ------------------- | ----------------------------------------- | ------------------------------------ | --------------------------------------- |
-| Grivlit   | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air          | Necrotic                             | +1 STR, +1 DEX, -2 CHAR                 |
-| Tull      | 30    | Radiant             | Generic, Fire, Earth, Water, Air, Psychic | Necrotic                             | +1 STR, +1 CON, -2 CHAR                 |
-| Grull     | 30    | Radiant             | Generic, Fire, Earth, Water, Air          | Necrotic, Psychic                    | +2 STR, +1 CON, -2 CHAR                 |
-| Gorul     | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water               | Air, Necrotic                        | +3 STR, +2 CON, -2 CHAR                 |
-| Boaf      | 35    | Radiant, Psychic    | Generic, Fire, Water                      | Earth, Air, Necrotic                 | +4 STR, +3 CON, -2 CHAR                 |
-| Brogath   | 35    | Radiant             | Generic, Fire, Water                      | Earth, Air, Necrotic, Psychic        | +5 STR, +4 CON, -2 CHAR                 |
-| Troll     | 40    | Radiant             | Generic, Fire                             | Earth, Water, Air, Necrotic, Psychic | +7 STR, +6 CON, -2 INT, -2 CHAR         |
-| Cyclopse  | 35    | Psychic             | Generic, Fire, Water                      | Earth, Air, Necrotic, Radiant        | +8 STR, +5 CON, -2 WIS, -2 CHAR         |
-| Naram-Sin | 30    | Radiant             | Generic, Fire, Earth, Water               | Air, Necrotic, Psychic               | +4 STR, +3 CON, +5 INT, +2 WIS, -1 CHAR |
+| Race      | Speed | Negative Affinities | Neutral Affinities               | Positive Affinities | Stat Bonuses                           |
+| --------- | ----- | ------------------- | -------------------------------- | ------------------- | -------------------------------------- |
+| Grivlit   | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +1 STR, +1 DEX, -1 CHAR                |
+| Tull      | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +1 STR, +1 CON, -1 CHAR                |
+| Grull     | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +3 STR, +2 CON, -1 CHAR                |
+| Gorul     | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +4 STR, +3 CON, -1 CHAR                |
+| Boaf      | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +5 STR, +4 CON, -1 CHAR                |
+| Brogath   | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +6 STR, +5 CON, -1 CHAR                |
+| Troll     | 40    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +8 STR, +9 CON, -2 INT, -1 CHAR        |
+| Cyclopse  | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +9 STR, +8 CON, -2 WIS, -1 CHAR        |
+| Naram-Sin | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +6 STR, +4 DEX, +3 CON, +5 INT, +2 WIS |
 ## Grivlit
 Grivlits are small humanoids with a light, narrow skeleton and long, thin limbs. The torso is short and tight, with a shallow ribcage and a slight inward taper at the waist that makes the chest look pinched. The shoulders are narrow and slope slightly, while the hips are slim and set high, so the legs start long and straight. The knees and elbows sit a little low on the limbs, giving the arms and legs an overgrown look. Hands are small with long fingers and narrow palms, built more for quick grabbing than raw grip. Feet are long and thin, with high arches and toes that spread wide for balance on rough ground.
 
@@ -64,3 +60,21 @@ The skull is dominated by a single central eye socket set in the middle of the f
 Naram-Sin are medium humanoids with a refined, dense build that looks engineered rather than grown wild. The skeleton is heavy and strong without being oversized, and the body proportions are balanced: broad shoulders, thick chest, and strong hips, but without the extreme barrel shape of larger forms. The spine is upright and stable, with a mobile neck that allows controlled head movement. Arms and legs are thick with muscle, but the limb lengths are proportionate, making their stance look deliberate and measured. Hands are large enough to be powerful, but the fingers are more defined and more capable of fine grip than most other tull-forms. The gait is steady and controlled, with minimal sway or wasted motion.
 
 Skin is dark gray to muted stone tones and tends to be smoother and more even in texture than brogath or troll skin. The surface is still tough, with natural callusing, but fewer deep ridges. Tusks are present but smaller and cleaner in shape: lower canines that project modestly and curve slightly upward, usually symmetrical and less chipped. Facial features are more structured and even, with a strong jawline, a thick brow that is less overhanging, and eyes that sit forward with a focused, alert gaze. Ears are short and compact, still pointed but thick and close to the head. Hair is absent. Teeth are strong and more evenly set, with less chaotic crowding, giving the face a more finished look compared to the rougher, more distorted builds of larger forms.
+# Racial Abilities
+The Tull race and its subraces are unique in that they undergo physical evolution over time. All Tull characters must begin as either a **Tull** or a **Grivlit**, and as they grow and gain levels, they may evolve into progressively higher forms along the Tull lineage, up to **Brogath**. Upon reaching this stage, further evolution requires a final specialization, at which point the character must permanently choose one of three apex forms: **Troll**, **Cyclopse**, or **Naram-Sin**. When you level up and gain Stat Bonuses from your new race, they are additive.
+
+- **Tier 1 Tull Claws.** Your unarmed attacks count as a melee attack and deal 1d6 (Slashing) + 1d4 (Bludgeoning).
+- **Tier 2 Evolution.** Evolve into a Grull.
+- **Tier 3 Pack Tactics.** Gain advantage on all attack rolls while two or more allied creatures are within 10 ft of you. 
+- **Tier 4 Evolution.** Evolve into a Gorul. Gain +1 BAp
+- **Tier 5 Stronger Claws.** Your unarmed attacks now deal 1d10 (Slashing) + 1d8 (Bludgeoning). 
+- **Tier 6 Evolution.** Evolve into a Boaf.  Gain +1 Ap.
+- **Tier 7 Faster Claws.** Each time you make an unarmed attack you may make two unarmed attacks at the cost of an additional bonus action.
+- **Tier 8 Evolution.** Evolve into a Brogath. Gain +1 Rp.
+- **Tier 9 Strongest Claws.** Your unarmed attacks now deal 1d20 (Slashing) + 1d12(Bludgeoning).
+- **Tier 10 Evolution.** Evolve into either a Cyclopse, Troll, or Naram-Sin.
+	- **As a Cyclopse:** Advantage on all Strength based rolls (including attack rolls) and your unarmed attacks deal double damage.
+	- **As a Troll:** You regenerate 1d8 Hit Points and 1d12 Vitality at the start of each turn.
+	- **As a Naram-Sin:** You gain +1 to all skill checks, saving throws, and attack rolls and you can reroll 1s on damage dice (must use new roll).
+
+
