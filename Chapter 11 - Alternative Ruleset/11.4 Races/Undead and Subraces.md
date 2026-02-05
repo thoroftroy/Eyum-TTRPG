@@ -53,7 +53,7 @@ You have Weakness to Radiant damage.
 - **Tier 5:** **Shard Step.** Once per turn as a Bonus Action, move 15 ft without provoking opportunity attacks.
 - **Tier 6:** **Dry-Bone Resilience.** Gain resistance to physical damage.
 - **Tier 7:** **Spine Hook.** Once per turn on a melee hit, force a STR save (DC 10 + DEX mod + Tier). Fail: target is Grappled by you.
-- **Tier 8:** **Hemorrhage Law.** Bleeding you apply has its end DC increased to 10 + Tier. If a creature damages you in melee, it gains 1 stack of Bleeding. (No save)
+- **Tier 8:** **Hemorrhage Law.** Bleeding you apply has its end DC increased to 10 + Tier and healing spells no longer end the condition. If a creature damages you in melee, it gains 1 stack of Bleeding. (No save)
 - **Tier 9:** **Blood Rattle.** Once per combat as an Action, enemies within 15 ft must pass a WIS save (DC 10 + DEX mod + Tier) or suffer -10 Accuracy until your next turn.
 - **Tier 10:** **True Ossid.** Choose one:
     - **Razor Skeleton:** Your unarmed strikes become 3d10 + DEX mod Piercing and apply +1 Bleeding stack on every hit.
@@ -102,7 +102,7 @@ Relicwraiths lack a permanent physical body. Instead, they appear as translucent
 
 Their form constantly shifts in density. At rest, they may look like a faint outline barely visible in the air. When active, their shape becomes brighter and more solid, though never fully opaque. Eyes often appear as glowing points within the haze. A relicwraith is always bound to a physical object, weapon, tool, jewelry, or artifact, which it keeps near at all times. The object often floats beside or within the ghostly body, moving with it unnaturally. The wraith’s form stretches and warps to stay close to the relic, like mist tied to an anchor. No hair, skin, or solid anatomy exists, only a drifting, human-shaped presence tethered to matter.
 ###### Racial Abilities
-You have Weakness to Radiant Damage. You are bound to one object; you cannot be hit/targeted, only the object can. If the object is destroyed you die. You have no Vitality pool; all Vitality is merged into HP. Effects that would target Vitality target HP instead. You may move your bound object telepathically during your movement in combat or for free outside of combat. You may never be more than 60 ft from your bound object. You can pass through solid objects at will. 
+You have Weakness to Radiant Damage. You are bound to one object; you cannot be hit/targeted, only the object can. If the object is destroyed you die. You have no Vitality pool; all Vitality is merged into HP. Effects that would target Vitality target HP instead. You may move your bound object telepathically during your movement in combat or for free outside of combat. You may never be more than 60 ft from your bound object. You can pass through solid objects at will or interact with them as a normal person would. You gain +5 to Intimidation Checks. 
 - **Tier 1:** **Relic Control.** If a creature misses an attack against you you may spend your reaction to make a melee attack against it dealing 1d10 + Racial Tier Necrotic damage. 
 - **Tier 2:** **Ethereal Drift.** You gain +15 ft of fly speed. As a bonus action you may move your bound object through any objects you wish but you cannot end your turn with your object inside of something else. 
 - **Tier 3:** **Haunted Guard.** Gain +2 AC. If an enemy misses an attack against you they take 1d10 Necrotic.
@@ -115,13 +115,13 @@ You have Weakness to Radiant Damage. You are bound to one object; you cannot be 
 - **Tier 10:** **True Relicwraith.** Choose one:
     - **Unbreakable Anchor:** Your bound object gains +6 AC and immunity to non-magical damage as well as 10 Damage Reduction. 
     - **Tyrant Poltergeist:** All damage you deal is doubled. 
-    - **Dual Binding:** Once per short rest, bind a second object for 10 minutes. You may swap which one is your “true anchor” as a BAp, and you may teleport between them (Anchor Snap) without range limit. If either object is destroyed during the 10 minutes you remain alive and bound to the other object. Your first object's (your stats) are copied onto the new object. 
+    - **Dual Binding:** Once per short rest, bind a second object for 10 minutes. You may swap which one is your “true anchor” as a BAp, and you may teleport between them (Anchor Snap) without range limit. If either object is destroyed during the 10 minutes you remain alive and bound to the other object. Your first object's (your stats) are copied onto the new object. Your HP is split between the two when you bind them and that becomes the new maximum. 
 ## Lycanthrex
 Lycanthrex normally appear as large, heavily built humans with thick frames and powerful muscle mass. The shoulders are broad, the chest deep, and the limbs dense with muscle. Body hair is thick and coarse, covering the arms, legs, chest, and back more heavily than in humans. Facial features are human but heavy: strong jaw, pronounced brow, and wide nose.
 
 During transformation, the body rapidly reshapes into a massive upright wolf form. The skeleton elongates, the spine curves forward, and the limbs thicken further. Legs become digitigrade, with lifted heels and long lower limbs. The head becomes fully lupine, with a long snout, large jaws, and sharp teeth. Fur covers the entire body, dense and layered. Claws replace fingernails, and the hands become paw-like but retain grasping ability. Even in human form, the animal presence is visible in posture, eyes, and teeth.
 ###### Racial Abilities
-You have Less Weakness to Radiant damage. 
+You have Lesser Weakness to Radiant damage. 
 - **Tier 1:** **Claw and Fang.** Gain natural attacks: Claws 1d8 + Racial Tier + STR mod Slashing and Bite + Racial Tier 1d10 + STR mod Piercing.
 - **Tier 2:** **Moon Sprint.** Gain +10 ft speed, and you ignore the first 20 ft of difficult terrain each turn.
 - **Tier 3:** **Half-Change.** As a Bonus Action, enter Hybrid Form: +2 AC, +10 Base Melee Damage, +5 Base Melee Accuracy, and +5 to Initiative. You may switch between forms at the cost of a BAp. 

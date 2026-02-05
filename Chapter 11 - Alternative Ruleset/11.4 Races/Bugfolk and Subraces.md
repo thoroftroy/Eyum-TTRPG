@@ -267,7 +267,7 @@ Their primary arms and legs are larger and more humanoid, positioned like a bipe
 - **Tier 4:** **Impact Absorption.** You become immune to fall damage.
 - **Tier 5:** **Stoneback.** Gain 1 + Racial Tier Damage Reduction against physical damage.
 - **Tier 6:** **Reinforced Segments.** Segmented Armor AC bonus from Racial Tier becomes Racial Tier/2 instead of Racial Tier/3.
-- **Tier 7:** **Rolly Polly.** As an Action, move up to your speed in a straight line; creatures in the path must make a DEX save (DC 10 + Racial Tier) or take 2d8 + CON mod bludgeoning and be knocked prone. If you hit a prone creature with Rolly Polly it does max damage. 
+- **Tier 7:** **Rolly Polly.** As an Action, move up to your speed in a straight line; creatures in the path must make a DEX save (DC 10 + Racial Tier) or take 2d8 + STR mod bludgeoning and be knocked prone. If you hit a prone creature with Rolly Polly it does max damage. 
 - **Tier 8:** **Anchored.** You cannot be forceably moved from spells, you gain +5 on rolls to resist being forceably moved from other effects.
 - **Tier 9:** **Heavy Shell.** Your Damage Reduction now works against all damage types.
 - **Tier 10:** **Living Bastion.** Choose one:

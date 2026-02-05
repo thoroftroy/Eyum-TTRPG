@@ -108,7 +108,7 @@ The head is turtle-like: broad skull, blunt beak-like mouth, and thick skin with
 - **Tier 2:** **Ocean Weight.** You are immune to forced movement effects and the prone condition. 
 - **Tier 3:** **Withdraw.** Once per turn consume all Ap, BAp, Rp, and movement, you retract into your shell until the start of your next turn: gain +10 AC. This action must be taken at the start of your turn. You may choose to stay withdrawn on your turn which will simply skip it and maintain the effects. 
 - **Tier 4:** **Water Resilience.** Gain Resistance to all damage other than True and Physic and +3 to your CON score.
-- **Tier 5:** **Shell Bash.** You gain a natural melee attack: 1d12 + STR mod + Racial Tier Bludgeoning.
+- **Tier 5:** **Shell Bash.** You gain a natural melee attack: 1d12 + STR mod Bludgeoning.
 - **Tier 6:** **Reinforced Plates.** Gain +1 AC (stacks), while using Withdraw skill your AC bonus raises from +10 to +20.
 - **Tier 7:** **Hard to Kill.** Once per combat, when you would drop to 0 HP, drop to 1 HP instead.
 - **Tier 8:** **Ancient Bulk.** Your damage reduction becomes 15 and now works on all damage types. Gain +5 to your CON score. 

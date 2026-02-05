@@ -148,7 +148,7 @@ Skin is opaque, thick, and rough-textured, colored slate-gray, stone-gray, or pa
 - **Tier 6:** **Stone Tolerance.** Gain Resistance to Earth damage and +1 AC.
 - **Tier 7:** **Vanish Again.** Your Fade can be used twice per turn.
 - **Tier 8:** **Silent Step.** +5 to stealth checks.
-- **Tier 9:** **Perfect Disappear.** Your fade and invisability no longer deactivates after an attack.
+- **Tier 9:** **Perfect Disappear.** Your fade and invisibility no longer deactivates after an attack but you can only activate it every 4 rounds. 
 - **Tier 10:** **Shadow-Snerin.** Choose one:
     - **Endless Fade:** You can maintain your invisibility indefinitely as concentration.  
     - **Assassin’s Stone:** Gain +1 Base Melee Accuracy and your Backstab Weight becomes +3d8.
@@ -157,7 +157,7 @@ Ironwroth are large, heavy-built dwarven kin with longer limbs and near-human he
 
 Skin is opaque and rough, colored tan, deep brown, or dark umber. Thick callused plates form naturally on knuckles, elbows, and shins. Hair is coarse and heavy, commonly black, dark brown, rust-red, gray, or white. Eyes are forward-facing with visible whites and dark irises such as brown, dark green, or gray. Teeth are thick and blunt. 
 ###### Racial Abilities
-- **Tier 1:** **Iron Frame.** Gain +1 AC and count as one size larger during combat. 
+- **Tier 1:** **Iron Frame.** Gain +1 AC and count as one size larger during combat by get -5 ft speed. 
 - **Tier 2:** **Slow Power.** Your melee attacks deal +2 + Racial Tier force damage if you moved 10 ft or less this turn, if you utilize this you cannot move this turn.
 - **Tier 3:** **Reinforced Bones.** Become immune to Prone condition.
 - **Tier 4:** **Plated Body.** Gain 3 Damage Reduction.

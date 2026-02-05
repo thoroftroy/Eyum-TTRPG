@@ -66,15 +66,15 @@ The Tull race and its subraces are unique in that they undergo physical evolutio
 - **Tier 1 Tull Claws.** Your unarmed attacks count as a melee attack and deal 1d6 (Slashing) + 1d4 (Bludgeoning).
 - **Tier 2 Evolution.** Evolve into a Grull.
 - **Tier 3 Pack Tactics.** Gain advantage on all attack rolls while two or more allied creatures are within 10 ft of you. 
-- **Tier 4 Evolution.** Evolve into a Gorul. Gain +1 BAp
+- **Tier 4 Evolution.** Evolve into a Gorul. 
 - **Tier 5 Stronger Claws.** Your unarmed attacks now deal 1d10 (Slashing) + 1d8 (Bludgeoning). 
-- **Tier 6 Evolution.** Evolve into a Boaf.  Gain +1 Ap.
-- **Tier 7 Faster Claws.** Each time you make an unarmed attack you may make two unarmed attacks at the cost of an additional bonus action.
-- **Tier 8 Evolution.** Evolve into a Brogath. Gain +1 Rp.
+- **Tier 6 Evolution.** Evolve into a Boaf.  
+- **Tier 7 Faster Claws.** Each time you make an unarmed attack you may make an additional unarmed attack at the cost of a bonus action.
+- **Tier 8 Evolution.** Evolve into a Brogath. 
 - **Tier 9 Strongest Claws.** Your unarmed attacks now deal 1d20 (Slashing) + 1d12(Bludgeoning).
 - **Tier 10 Evolution.** Evolve into either a Cyclopse, Troll, or Naram-Sin.
-	- **As a Cyclopse:** Advantage on all Strength based rolls (including attack rolls) and your unarmed attacks deal double damage.
-	- **As a Troll:** You regenerate 1d8 Hit Points and 1d12 Vitality at the start of each turn.
-	- **As a Naram-Sin:** You gain +1 to all skill checks, saving throws, and attack rolls and you can reroll 1s on damage dice (must use new roll).
+	- **As a Cyclopse:** Advantage on all Strength based rolls (including attack rolls) and your unarmed attacks deal double damage. But you get -3 to Search and Spot checks and -2 Base Melee Accuracy and -10 Base Ranged Accuracy. 
+	- **As a Troll:** You regenerate 1d8 +5 Hit Points and 1d12 + 5 + CON mod Vitality at the start of each turn.
+	- **As a Naram-Sin:** You gain +2 to all skill checks, saving throws, and attack rolls and you can reroll 1s on damage dice (must use new roll).
 
 

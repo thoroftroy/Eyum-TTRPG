@@ -107,11 +107,11 @@ Exposed skin on the head ranges from pinkish flesh to gray or slate and is leath
 ###### Racial Abilities
 - **Tier 1:** **Iron Gut.** You cannot gain the Poisoned, Diseased, or Necrosis conditions from eating or drinking. 
 - **Tier 2:** **Thick Hide.** Gain +1 AC.
-- **Tier 3:** **Hook Beak.** Natural melee attack: 1d8 + Racial Tier + STR mod Piercing.
+- **Tier 3:** **Hook Beak.** Natural melee attack: 1d8 + Racial Tier + STR mod Piercing. When you hit an attack with Hook Beak your target gains the Necrosis condition for 1 turn. 
 - **Tier 4:** **Scavenger’s Reward.** When a creature within 30 ft dies, you gain Vitality equal to Racial Tier. 
 - **Tier 5:** **Pale Resilience.** You are immune to poison, toxin, blight, and necrotic damage. You cannot gain the Poisoned, Diseased, or Necrosis conditions from any source. 
 - **Tier 6:** **Palehook Endurance.** You have advantage on constitution saves and gain +5 to your CON score. 
-- **Tier 7:** **Rip and Tear.** Your Hook Beak damage increases to 1d12 + Racial Tier + STR mod Piercing.
+- **Tier 7:** **Rip and Tear.** Your Hook Beak damage increases to 1d12 + Racial Tier + STR mod Piercing. When you hit an Attack with Hook Beak your target now gains 3 stacks of bleeding as well as Necrosis for 3 turns. 
 - **Tier 8:** **Bulwark Wings.** While flying gain +5 AC (stacks).
 - **Tier 9:** **Carrion Fortress.** Gain 5 Damage Reduction.
 - **Tier 10:** **Apex Palehook.** Choose one:
@@ -145,7 +145,7 @@ The torso is humanoid with long arms that form membranous bat wings. The wing me
 Skin is exposed across the face, ears, hands, and wing membrane and ranges from pale gray to near-black. Hair on the body is sparse and coarse. Eyes are dark, often brown, amber, or red-brown. Teeth include pronounced fangs.
 ###### Racial Abilities
 - **Tier 1:** **Echolocation.** Gain +2 to Spot and Search; You gain 90 ft of darkvision.
-- **Tier 2:** **Fang Bite.** Natural melee attack: 1d8 + Racial Tier + DEX mod Piercing.
+- **Tier 2:** **Fang Bite.** Natural melee attack: 1d6 + Racial Tier + DEX mod Piercing.
 - **Tier 3:** **Sonic Jolt.** Once per combat as an Action, creatures within 10 ft must pass a CON save (DC 10 + INT mod + Racial Tier) or take 2d10 Psychic and suffer -2 Accuracy until your next turn.
 - **Tier 4:** **Sharp Fangs.** Your Fang Bite inflicts the bleeding condition for 2 rounds (cannot be ended early but also cannot be stacked).
 - **Tier 5:** **Night Skitter.** While flying you may take the Disengage action as a Free Action. 

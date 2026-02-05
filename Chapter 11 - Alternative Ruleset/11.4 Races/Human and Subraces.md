@@ -31,7 +31,7 @@ Skin is opaque, elastic, and soft, thickening naturally at areas of repeated pre
 - **Tier 3:** **Human Grit.** Once per combat when you would drop to 0 HP, drop to 1 HP instead.
 - **Tier 4:** **Quick Learner.** Gain +1 Stat Point every 2 levels (retroactive).
 - **Tier 5:** **Second Breath.** Once per combat as a BAp, heal 1d8 + Racial Tier + CON mod vitality.
-- **Tier 6:** **Versatile Training.** Gain 3 Proficiency Upgrades.
+- **Tier 6:** **Versatile Training.** Gain 3 Proficiency Upgrades or +5 Stat Points.
 - **Tier 7:** **Clutch Focus.** Once per combat, reroll one skill check, saving throw, or attack roll (must use the new roll).
 - **Tier 8:** **Battle Routine.** Gain +3 Initiative and +1 to all saving throws.
 - **Tier 9:** **Stubborn Survivor.** Gain Greater Resistance to one damage type of your choice (chosen now, permanent).
