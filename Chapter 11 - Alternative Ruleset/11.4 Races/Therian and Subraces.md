@@ -142,178 +142,106 @@ Murren are small rodent-like humanoids with light bones and fast, precise moveme
 
 The head is rodent-like, with a pointed or rounded muzzle and large front incisors that are often visible even when the mouth is closed. The nose is small and damp-looking. Eyes are large and dark, set slightly to the sides for wide awareness. Ears are prominent, thin, and rounded, with sparse fur. Fur covers most of the body: short on the limbs, thicker around the neck, cheeks, and tail base. Colors include gray, brown, tan, black, white, and mixed patterns, often with lighter belly fur. Whiskers are long and stiff, spreading outward from the muzzle. The tail is long and thin, used for balance; it may be furred or partly bare depending on lineage.
 ###### Racial Abilities
-- **Tier 1:** **Scurry.** Once per turn as a **BAp**, move **10 ft** (no reactions).
-- **Tier 2:** **Tiny Hands.** Gain **+5** to Sleight of Hand and lock/trap work; gain **+2** to Stealth.
-- **Tier 3:** **Needle Bite.** Natural bite: **1d4 Piercing + DEX mod**; on hit add **1d6 Necrotic**. (Once per turn)
-- **Tier 4:** **Wall-Sprint.** Your climb speed is treated as full speed on rough surfaces; ignore the first **20 ft** of difficult terrain each turn.
-- **Tier 5:** **Evasive Juke.** If you moved at least **10 ft** this turn, gain **+3 AC** until start of next turn. (Once per round)
-- **Tier 6:** **Burrow Sense.** You always know the location of hidden/underground movement within **30 ft** if it is touching the ground.
-    
-- **Tier 7:** **Skitter Combo.** After you hit, you may spend **1 BAp** to make a second attack at **-2 Accuracy**. (Once per turn)
-    
-- **Tier 8:** **Vanish.** Once per short rest as a **BAp**, become invisible until the start of your next turn (ends early if you attack/cast).
-    
-- **Tier 9:** **Rat King Panic.** Once per combat as an **Action**, one creature within 30 ft makes a WIS save (DC 10 + DEX mod + Tier) or takes **6d10 Psychic** and is **Frightened** for 1 turn.
-    
+- **Tier 1:** **Scurry.** Once per turn as a BAp, move up to 10 ft (no reactions).
+- **Tier 2:** **Tiny Hands.** Gain +5 to Sleight of Hand and lock/trap work; gain +2 to Stealth.
+- **Tier 3:** **Needle Bite.** Natural bite: 1d4 + DEX mod Piercing + 1d6 Necrotic.
+- **Tier 4:** **Solid Sprint.** You can ignore difficult terrain if you have already moved at least 20 ft this turn. You gain +20 ft of movement. 
+- **Tier 5:** **Evasive Juke.** If you moved at least 10 ft this turn, gain +3 AC until start of next turn. 
+- **Tier 6:** **Burrow Sense.** You always know the location of hidden/underground movement within 30 ft if it is touching the ground.
+- **Tier 7:** **Skitter Combo.** After you hit, you may spend 1 BAp to make a second attack at -2 Accuracy. 
+- **Tier 8:** **Vanish.** Once per short rest as a Bonus Action, become invisible until the start of your next turn (ends early if you attack/cast).
+- **Tier 9:** **Rat King Panic.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + DEX mod + Tier) or takes 6d10 Psychic and is Frightened for 1 turn.
 - **Tier 10:** **Apex Murren.** Choose one:
-    
-    - **Shadow Thief:** You may Vanish **once per turn** (still ends on attack/cast).
-        
-    - **Plague Fang:** Needle Bite’s Necrotic add becomes **2d8** and can be used on **every hit**.
-        
-    - **Impossible Escape:** Once per combat, when you would be hit, you may force that attack to miss.
+    - **Shadow Thief:** You may Vanish once per turn (still ends on attack/cast).
+    - **Plague Fang:** Needle Bite’s damage becomes 1d8 + DEX mod Piercing + 3d6 Necrotic .
+    - **Impossible Escape:** Once per turn, when you would be hit, you may force that attack to miss.
 ## Probassan
 Probassans are massive elephant-like humanoids with huge bone structure and thick, weight-bearing joints. The torso is extremely deep and wide, with a heavy ribcage and thick abdomen. The shoulders and hips are broad to spread load, and the spine is supported by large muscle columns along the back. Arms are thick and long, ending in broad hands with thick fingers and tough pads. Legs are pillar-like, with wide knees and ankles. Feet are elephant-like: broad, round, heavily padded, with thick nails rather than claws.
 
 The head is elephant-like with a large skull and a long trunk. The trunk is muscular and flexible, able to curl, lift, and grip; the tip often has small finger-like pads for fine handling. Tusks grow from the upper jaw in most adults, thick and forward-curving, often worn smooth at the tips. Ears are very large and fan-shaped, with visible vein lines under thin skin. Skin is thick, rough, and creased, forming deep folds at the neck, elbows, knees, and belly. Colors are usually gray, dark gray, brown-gray, or dusty tan. Body hair is sparse, appearing as short bristles on the forearms, chin, and shoulders. Eyes are small compared to head size and often look calm and heavy-lidded.
 ###### Racial Abilities
-
-- **Tier 1:** **Colossal Frame.** Gain **+25 Max HP** and advantage on checks to resist being moved.
-    
-- **Tier 2:** **Trunk Grip.** You can interact/grab with your trunk; gain **+5** to grapple checks.
-    
-- **Tier 3:** **Tusk Gore.** Natural gore: **1d10 Piercing + STR mod**. (Once per turn)
-    
-- **Tier 4:** **Stone Skin.** Gain **+1 AC** and resistance to **Earth** damage.
-    
-- **Tier 5:** **Heavy Step.** Once per turn when you move at least 10 ft, creatures within 5 ft of your path take **1d6 Bludgeoning** (no save).
-    
-- **Tier 6:** **Unshakeable.** Immunity to **Prone** and advantage on CON saves.
-    
-- **Tier 7:** **Crush Combo.** After you hit with a melee attack, you may spend **1 BAp** to make a second melee attack at **-2 Accuracy**. (Once per turn)
-    
-- **Tier 8:** **Stamping Ground.** As an **Action**, enemies within **10 ft** make a DEX save (DC 20) or take **4d12 Bludgeoning** and are knocked **Prone** (half/no prone on success). (Once per short rest)
-    
-- **Tier 9:** **Titan Dominance.** Once per combat choose a target; you gain advantage on attacks vs it and deal **double damage** to it.
-    
+- **Tier 1:** **Colossal Frame.** Gain +25 Max Vitality and advantage on checks to resist being moved.
+- **Tier 2:** **Trunk Grip.** You can interact/grab with your trunk as well as your hands; gain +5 to grapple checks. When wielding a weapon in your Trunk gain +5 ft of range. 
+- **Tier 3:** **Tusk Gore.** Natural gore: 1d10 Piercing + STR mod.
+- **Tier 4:** **Stone Skin.** Gain +1 AC and resistance to Earth damage.
+- **Tier 5:** **Heavy Step.** Once per turn when you move at least 10 ft, creatures within 5 ft of your path take 1d6 Bludgeoning (no save).
+- **Tier 6:** **Unshakeable.** Immunity to Prone and advantage on CON saves.
+- **Tier 7:** **Crush Combo.** After you hit with a melee attack, you may spend 1 BAp to make a second melee attack at -2 Accuracy. 
+- **Tier 8:** **Stamping Ground.** As an Action, enemies within 10 ft make a DEX save (DC 20) or take 4d12 Bludgeoning and are knocked Prone (half/no prone on success). (Once per combat)
+- **Tier 9:** **Titan Dominance.** Once per combat choose a target; you gain advantage on attacks vs it and deal double damage to it.
 - **Tier 10:** **Apex Probassan.** Choose one:
-    
-    - **Living Fortress:** Gain **+5 AC** and **+60 Max HP**.
-        
-    - **Tusk Breaker:** Your gore becomes **2d12 + STR mod**, and Heavy Step becomes **3d10** (once per turn).
-        
-    - **War Mammoth:** Allies within **20 ft** gain **+5 to hit**, and enemies within 10 ft have **-10 Accuracy**.
+    - **Living Fortress:** Gain +5 AC and +60 Max Vitality.
+    - **Tusk Breaker:** Your gore becomes 2d12 + STR mod, and Heavy Step becomes 3d10.
+    - **War Mammoth:** Allies within 20 ft gain +5 to hit, and enemies within 10 ft have -10 Accuracy.
 ## Drowseer
 Drowseers are sloth-like humanoids with a slow, heavy frame and long reach. The torso is thick and rounded, with wide shoulders and a deep belly. Arms are notably long and hang low, with heavy forearms and large hands. Fingers are long and end in thick, curved claws made for hooking and holding. The shoulder joints are built for steady pulling strength rather than fast striking. Legs are sturdy but slow, with wide feet and thick pads that keep balance during careful movement. Their resting posture often looks relaxed, with the shoulders slightly forward and the head tilted down.
 
 The head is sloth-like: short face, rounded muzzle, and blunt nose. Eyes are forward-facing and often look half-lidded even when alert, giving a calm or sleepy expression. Fur is thick and shaggy, longer on the arms, shoulders, and back, and often looks slightly uneven or layered. Colors are usually gray, brown, tan, or mossy brown. The face often has darker shading around the eyes and muzzle. Teeth are small and blunt. 
 ###### Racial Abilities
-
-- **Tier 1:** **Long Arms.** Your melee reach increases by **+5 ft**.
-    
-- **Tier 2:** **Hook Claws.** Your unarmed strikes deal **1d8 Slashing + STR mod**.
-    
-- **Tier 3:** **Slow Grip.** Gain **+5** to grapple checks; creatures you grapple have **-10 ft speed**.
-    
-- **Tier 4:** **Sleepwalker Hide.** Gain **+2 AC** while you have not moved this turn.
-    
-- **Tier 5:** **Drowsing Aura.** As an **Action**, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier) or becomes **Slowed** for 1 turn. (Once per turn)
-    
-- **Tier 6:** **Pain Dull.** Gain resistance to **Necrotic** damage and **+5** to CON saves.
-    
-- **Tier 7:** **Crushing Clutch.** When you hit a creature you are grappling, add **+3d8 Bludgeoning**. (Once per turn)
-    
-- **Tier 8:** **Nap Step.** Once per short rest as a **BAp**, become intangible until the start of your next turn; you may move through creatures/objects as difficult terrain (same shunt rule style).
-    
-- **Tier 9:** **Sleep End.** Once per combat as an **Action**, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier). Fail: **Stunned** for 1 turn and takes **8d10 Psychic**. Success: half damage.
-    
+- **Tier 1:** **Long Arms.** Your melee reach increases by +5 ft.
+- **Tier 2:** **Hook Claws.** Your unarmed strikes deal 1d8 + Racial Tier + STR mod Slashing.
+- **Tier 3:** **Slow Grip.** Gain +5 to grapple checks.
+- **Tier 4:** **Sleepwalker Hide.** Gain +2 AC while you have not moved this turn until your next turn.
+- **Tier 5:** **Drowsing Aura.** As an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier) or becomes Slowed for 1 turn. (Once per turn)
+- **Tier 6:** **Pain Dull.** Gain resistance to Necrotic damage and +5 to CON saves.
+- **Tier 7:** **Crushing Clutch.** When you hit a creature you are grappling, add +3d8 Bludgeoning.
+- **Tier 8:** **Nap Step.** Once per short rest as a Bonus Action, become intangible until the start of your next turn; you may move through creatures/objects as difficult terrain (if you end your turn in a creature or object you take 10d20 True Damage but remain intangible for an additional turn).
+- **Tier 9:** **Sleep End.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier). Fail: Stunned for 1 turn and takes 8d10 Psychic. Success: half damage.
 - **Tier 10:** **Apex Drowseer.** Choose one:
-    
-    - **Hibernation Tank:** Gain **+4 AC** and **+40 Max HP**.
-        
-    - **Dream Crippler:** Your Drowsing Aura becomes an aura: enemies within **10 ft** are Slowed automatically.
-        
-    - **Hook Execution:** Hook Claws become **2d10 Slashing**, and Crushing Clutch can be used on **every hit** vs grappled targets.
+    - **Hibernation Tank:** Gain +4 AC and +40 Max Vitality.
+    - **Dream Crippler:** Your Drowsing Aura becomes an aura: enemies within 10 ft are Slowed automatically.
+    - **Hook Execution:** Hook Claws become 2d12 + Racial Tier + STR mod Slashing,.
 ## Spinekin
 Spinekin are porcupine-like humanoids with a mostly human front and a defensive spine field across the back. The body plan is upright and human, but the upper back and shoulders are thicker and more muscular, supporting the mass of the spines. Posture tends to be slightly hunched at the shoulders, both from weight and from habit, which makes the back surface more protected and more threatening. Arms and legs are strong and compact. Hands are humanlike, with thick skin and tough pads, and nails that can be hard and dark but usually not true claws.
 
 The spines are stiff keratin shafts that grow from the scalp, neck, shoulders, and down the spine, sometimes spreading across the outer arms and hips. Each spine is thick at the base and tapers to a sharp point. They can lie flat against the body or lift outward, changing the silhouette from “normal” to “spiked” in seconds. Spine colors range from white and cream to black, brown, or banded patterns with light and dark rings. Short coarse fur covers the chest, stomach, and limbs, while the back is dominated by spine roots and thickened hide. Eyes are forward-facing and alert. Teeth are mostly blunt, with slightly sharper front teeth possible. 
 ###### Racial Abilities
-
-- **Tier 1:** **Quillback.** When a creature hits you with a melee attack, it takes **1d4 Piercing**. (Once per turn)
-    
-- **Tier 2:** **Spine Raise.** As a **BAp**, gain **+2 AC** until the start of your next turn.
-    
+- **Tier 1:** **Quillback.** When a creature hits you with a melee attack, it takes 1d4 Piercing. If a creature misses a melee attack on you they take 1d6 Piercing. 
+- **Tier 2:** **Spine Raise.** As a Bonus Action, gain +1 AC until the start of your next turn (stacks).
 - **Tier 3:** **Quill Toss.** Ranged attack (30 ft): **1d6 Piercing + STR mod**. (Once per turn)
-    
-- **Tier 4:** **Thick Hide.** Gain **+1 AC** (stacks with Spine Raise).
-    
-- **Tier 5:** **Barbed Punish.** If a creature hits you with a melee attack, it also takes **+1d8 Piercing**. (Once per round)
-    
-- **Tier 6:** **Spine Wall.** You have advantage on saves vs being grappled/restrained; gain **+5** to checks to resist forced movement.
-    
-- **Tier 7:** **Quill Burst.** As an **Action**, creatures within 10 ft make a DEX save (DC 20) or take **3d10 Piercing** (half on success). (Once per short rest)
-    
-- **Tier 8:** **Iron Quills.** Your Quillback and Barbed Punish ignore resistance.
-    
-- **Tier 9:** **Punisher Field.** Once per combat for 3 turns, any enemy that hits you takes **4d10 Piercing** (ignores resistance).
-    
+- **Tier 4:** **Thick Hide.** Gain +1 AC (stacks).
+- **Tier 5:** **Barbed Punish.** Your Quillback damage increases to 1d8 on a hit or 1d12 on a miss. 
+- **Tier 6:** **Spine Wall.** You have advantage on saves vs being grappled/restrained; gain +5 to checks to resist forced movement. Every turn a creature is grappling you that creature takes 1d12 Piercing damage. 
+- **Tier 7:** **Quill Burst.** As an Action, creatures within 10 ft make a DEX save (DC 20) or take 3d10 Piercing (half on success). (Once per combat)
+- **Tier 8:** **Iron Quills.** Your Quillback and Barbed Punish ignore resistance and immunity.
+- **Tier 9:** **Punisher Field.** Once per combat for 3 turns, any enemy that hits you takes 4d10 Piercing (ignores resistance).
 - **Tier 10:** **Apex Spinekin.** Choose one:
-    
-    - **Fort Quills:** Gain **+4 AC** and immunity to **forced movement**.
-        
-    - **Needle Storm:** Quill Burst becomes **6d12** and can be used **once per turn** (still costs Action).
-        
-    - **Thorn King:** Enemies within **10 ft** take **-10** on attack rolls (they hesitate to engage).
+    - **Fort Quills:** Gain +4 AC and immunity to forced movement.
+    - **Needle Storm:** Quill Burst becomes 6d12 and can be used once per turn.
+    - **Thorn King:** Enemies within 10 ft take -10 on attack rolls.
 ## Ursworn
 Ursworn are bear-like humanoids with dense muscle and very heavy bones. The torso is broad and deep, with a large ribcage and powerful shoulders. The neck is short and thick, and the upper back is wide, giving a strong “block” shape. Arms are long and extremely strong, with thick forearms and wide hands. Fingers end in strong claws that are shorter than a full bear’s but still clearly nonhuman. Legs are thick and stable, and the feet are wide with heavy pads for traction. Their stance is steady and hard to push over, and even slow movement carries obvious weight.
 
 The head is bear-like with a broad muzzle, large nose, and heavy jaw. Ears are small and rounded. Eyes are forward-facing and dark, often calm until focused. Fur covers most of the body and is thickest around the shoulders, neck, and forearms, forming a natural “mantle” of heavier hair. Fur colors include black, dark brown, reddish brown, tan, and sometimes pale cream. Skin beneath is thick and scars can remain visible under thinner fur areas. Teeth include strong canines and broad molars, giving a bite built for tearing and crushing.
 ###### Racial Abilities
-
-- **Tier 1:** **Bear Grip.** Gain **+5** to grapple checks; your unarmed strikes deal **1d8 Bludgeoning + STR mod**.
-    
-- **Tier 2:** **Thick Fur.** Gain resistance to **Cold** damage and **+10 Max HP**.
-    
-- **Tier 3:** **Maul.** Once per turn when you hit with a melee attack, add **+1d10 Slashing**.
-    
-- **Tier 4:** **Hide Guard.** Gain **+1 AC**.
-    
-- **Tier 5:** **Rage Push.** Once per turn on a melee hit, push the target **5 ft** (STR save DC 10 + STR mod + Tier negates).
-    
-- **Tier 6:** **Hard to Kill.** Gain **+20 Max HP** and advantage on CON saves.
-    
-- **Tier 7:** **Bear Combo.** After you hit, you may spend **1 BAp** to make another melee attack at **-2 Accuracy**. (Once per turn)
-    
-- **Tier 8:** **Roaring Stand.** Immunity to **Frightened**; allies within **10 ft** gain **+5** to WIS saves.
-    
-- **Tier 9:** **Ursine Fury.** Once per combat choose a target; you gain advantage on attacks vs it and deal **double damage** to it.
-    
+- **Tier 1:** **Bear Grip.** Gain +5 to grapple checks; your unarmed strikes deal 1d8 + STR mod Bludgeoning.
+- **Tier 2:** **Thick Fur.** Gain resistance to Ice/Cold and Slashing damage and +10 Max Vitality.
+- **Tier 3:** **Maul.** Once per turn when you hit with a melee attack, add +1d10 Slashing.
+- **Tier 4:** **Hide Guard.** Gain +1 AC.
+- **Tier 5:** **Rage Push.** Once per turn on a melee hit, push the target 5 ft (STR save DC 10 + STR mod + Tier negates).
+- **Tier 6:** **Hard to Kill.** Gain +20 Max HP and advantage on CON saves.
+- **Tier 7:** **Bear Combo.** After you hit, you may spend 1 BAp to make another melee attack at -2 Accuracy. 
+- **Tier 8:** **Roaring Stand.** Immunity to Frightened; allies within 10 ft gain +5 to WIS saves.
+- **Tier 9:** **Ursine Fury.** Once per combat choose a target; you gain advantage on attacks vs it and deal double damage to it.
 - **Tier 10:** **Apex Ursworn.** Choose one:
-    
-    - **Titan Bear:** Gain **+5 STR**, **+3 CON**, and **+3 AC**.
-        
-    - **Maul Machine:** Your Maul triggers on **every hit** and becomes **2d10**.
-        
-    - **War Roar:** Allies within **20 ft** gain **+5 to hit** and **+10 Base Melee Damage**.
+    - **Titan Bear:** Gain +5 STR, +3 CON, and +3 AC.
+    - **Maul Machine:** Your Maul triggers on every hit and becomes 2d10.
+    - **War Roar:** Allies within 20 ft gain +5 to hit and +10 Base Melee Damage.
 ## Gnoll
 Gnolls are hyena-like humanoids with a tall, lean, predatory build and a forward-leaning posture. The skeleton is humanoid but shaped for running and sudden lunges. The shoulders sit high and the back slopes slightly downward toward the hips, creating a hunched silhouette. Arms are long and strong, with large hands built for gripping weapons and prey. Fingers end in thick nails that form short claws. Legs are powerful and digitigrade, meaning they walk on the front of the foot with the heel raised, giving longer stride and spring. Feet are broad and paw-like, with thick pads for traction and silent movement.
 
 The head is fully hyena-like: long muzzle, wide jaw, and strong cheek muscles that make the face look heavy at the sides. Teeth are large and built for crushing, with thick canines and strong back teeth. Eyes are forward and intense. Ears are tall and pointed, set high and angled outward. Fur is coarse and usually short, with thicker hair along the neck and upper back forming a rough mane. Coat colors are often sandy tan, brown, gray, or dark mottled tones, commonly with spots, darker stripes, or a dark ridge along the spine. Many have a tail that is short to medium length and furred.
 ###### Racial Abilities
-
-- **Tier 1:** **Hyena Bite.** Natural bite: **1d8 Piercing + STR mod**. (Once per turn)
-    
-- **Tier 2:** **Laughing Nerve.** Gain **+5** to Intimidation; enemies you intimidate have **-5** to attack rolls vs you for 1 turn.
-    
-- **Tier 3:** **Bonecracker.** Once per turn when you hit with a melee attack, add **+1d10 Bludgeoning**.
-    
-- **Tier 4:** **Runner’s Frame.** Gain **+10 ft** speed (treat as +10 for chase/long-run rules).
-    
-- **Tier 5:** **Pack Tear.** If an ally has hit the target this round, your next melee hit adds **+2d6 Necrotic**. (Once per turn)
-    
-- **Tier 6:** **Carrion Tough.** Gain resistance to **Necrotic** damage and advantage on CON saves vs poison/disease.
-    
-- **Tier 7:** **Savage Follow-Up.** After you hit, you may spend **1 BAp** to make another melee attack at **-2 Accuracy**. (Once per turn)
-    
-- **Tier 8:** **Cackle Shock.** As an **Action**, enemies within 15 ft make a WIS save (DC 10 + STR mod + Tier) or suffer **-10 Accuracy** until your next turn. (Once per short rest)
-    
-- **Tier 9:** **Gnoll Frenzy.** Once per combat choose a target; you gain advantage on attacks vs it and deal **double damage** to it.
-    
+- **Tier 1:** **Hyena Bite.** Natural bite: 1d8 + STR mod Piercing. 
+- **Tier 2:** **Laughing Nerve.** Gain +5 to Intimidation; enemies you intimidate have -5 to attack rolls vs you for 1 turn.
+- **Tier 3:** **Bonecracker.** Once per turn when you hit with a melee attack, add +1d10 Bludgeoning.
+- **Tier 4:** **Runner’s Frame.** Gain +15 ft speed.
+- **Tier 5:** **Pack Tear.** If an ally has hit the target this round, your next melee hit adds +2d6 Necrotic.
+- **Tier 6:** **Carrion Tough.** Gain resistance to Necrotic damage and advantage on saves vs poison/disease.
+- **Tier 7:** **Savage Follow-Up.** After you hit, you may spend 1 BAp to make another melee attack at -2 Accuracy.
+- **Tier 8:** **Cackle Shock.** As an Action, enemies within 15 ft make a WIS save (DC 10 + STR mod + Tier) or suffer -10 Accuracy until your next turn. (Once per short rest)
+- **Tier 9:** **Gnoll Frenzy.** Once per combat choose a target; you gain advantage on attacks vs it and deal double damage to it.
 - **Tier 10:** **Apex Gnoll.** Choose one:
-    
-    - **Butcher Pack:** Your Pack Tear triggers on **every hit** (still requires ally hit this round).
-        
-    - **Bone Lord:** Bonecracker becomes **3d10** and can be used on **every hit**.
-        
-    - **Terror Cackle:** Cackle Shock becomes an aura: enemies within **10 ft** take **-10** on attack rolls.
+    - **Butcher Pack:** Your Pack Tear triggers on every hit (still requires ally hit this round).
+    - **Bone Lord:** Bonecracker becomes 3d10 and can be used on every hit.
+    - **Terror Cackle:** Cackle Shock becomes an aura: enemies within 10 ft take -10 on attack rolls.

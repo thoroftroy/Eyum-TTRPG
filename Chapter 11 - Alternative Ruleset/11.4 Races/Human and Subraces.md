@@ -16,7 +16,7 @@
 | Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats    |
 | Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +1 STR, +1 WIS         |
 | Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR         |
-| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +3 STR, +2 CON, -2 DEX |
+| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +4 STR, +2 CON, -2 DEX |
 | Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS         |
 | Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, -1 CON         |
 | Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, -2 INT         |
