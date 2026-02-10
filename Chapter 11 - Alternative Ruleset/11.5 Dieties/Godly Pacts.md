@@ -1,207 +1,164 @@
-# Ignivar — Fire/Heat
+Gods gain power from their subjects. They typically want people to spread their name and gain good reputation. Gods punishments are usually not very severe 
+## Ignivar
+*Fire/Heat*
 
-**Tier 1 (1 day):** You may swear Ignivar’s Ember Lease for 1 day; you gain **Resistance to Fire/Heat**, and once per turn when you deal Fire/Heat damage to a creature’s **HP**, you may apply **On Fire**. Outside combat, you may ignite or extinguish an unattended flame-sized source within 30 ft once per turn, and you can dry or heat a soaked object instantly by touch. In return, you must keep a “witness flame” alive for one uninterrupted hour in open air and feed it something you own that had real use (tool, cloak, pack, weapon part—destroyed). If you fail to complete this within the day, you gain **Burned** and **Bleeding (2 stacks)** for 10 turns, and neither can be removed by Medicine during those 10 turns.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** For 3 days, once per turn your Fire/Heat damage **ignores Resistance** (not Greater Resistance/Immunity), and you are immune to gaining **On Fire**. Outside combat, once per day you may melt a mundane lock, chain, or barred seam you can touch (it becomes unusable, not “opened neatly”), and you can heat-forge a simple metal shape (hook, nail bundle, wedge, crude key blank) without tools. In return, you must destroy one weapon or tool you have used in combat (irreversible), and at each dawn you must accept the forge-mark: **3d10 Fire/Heat to HP** (cannot be reduced). If you fail, you permanently lose **-1 STR and -1 CON**.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** For 7 days, once per combat you may mark a creature you can see with **Kiln Authority** for 3 turns: the first time each turn it takes Fire/Heat damage, it takes an additional **2d10 Fire/Heat to HP**, and it has disadvantage on saves/checks to end fire-related effects you applied. Outside combat, once per day you may permanently brand an object with a visible sigil that cannot be disguised (only removed by ending the pact), useful for ownership proof, tracking, or puzzle locks. In return, you must complete three “purges” before the 7 days end: reduce a creature to 0 HP using Fire/Heat and then destroy its main weapon or focus by burning it. If you fail, you cannot benefit from **Blessed** or **Hasted** for 30 days (they may apply, but grant no benefit).
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** For 12 days, you gain **Greater Resistance to Fire/Heat** and **Resistance to Physical**, and once per combat you may create a 15-ft aura for 3 turns; enemies that start their turn in it take **2d10 Fire/Heat to HP** and cannot become **Invisible** while inside. Outside combat, once per day you may “temper” one ally’s weapon or armor for 1 hour: it becomes heat-proof (won’t burn/melt) and gains a faint glow that reveals hidden writing within 5 ft. In return, you must never show mercy to a foe who has harmed an innocent during the pact (GM adjudicates), and you must end five combats with at least one enemy still burning. If you fail, you gain **Hellfire** for 60 turns and permanently lose **-2 AC**.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per combat you may declare **Pyre-Sovereign** on one Fire/Heat instance you deal: it is **tripled**, it applies **On Fire**, and for the next 3 turns you may redirect one instance of non-True damage from an ally within 30 ft to yourself as a Reaction (once per turn). Outside combat, once per day you may create a “sun-coal” that burns for 24 hours and counts as heat/light and a survival tool (cooking, warmth, signals), and it cannot be extinguished by mundane means. In return, you must burn a named enemy to death with Fire/Heat within the 30 days and destroy something you genuinely love afterward (irreversible). If you fail, you die the first time you take damage while below half HP.
+**Tier 5 (30 days):** 
+## Aegirion — Water
 
----
+**Tier 1 (1 day):** 
 
-# Aegirion — Water
+**Tier 2 (3 days):** 
 
-**Tier 1 (1 day):** You may swear Aegirion’s Tide Promise for 1 day; you gain **Resistance to Water**, and once per turn when you deal Water damage you may apply **Soaked**. Outside combat, once per day you may conjure enough clean water to fill a large waterskin and you can rinse away mundane filth/ink/bloodstain from an object you touch (not magical). In return, you must spend one uninterrupted hour in natural open water or heavy rain (no container tricks) and ruin one “dry comfort” item (cloak, blanket, tinderbox, bedroll—destroyed). If you fail, you become **Soaked** for 30 turns and whenever you are Soaked for the next 7 days you also gain **Storm Shocked**.
+**Tier 3 (7 days):** 
 
-**Tier 2 (3 days):** For 3 days, while you are Soaked you gain **Greater Resistance to Fire/Heat**, and once per turn when you deal Water damage you may pull or push the target 5 ft (your choice). Outside combat, once per day you may “flow” through a gap or under a door (you reform on the other side; cannot be used while Grappled), and you can quietly dampen sound in a small area for 1 minute (stealth/puzzle). In return, at each dawn you must take **3d10 Water to HP** (cannot be reduced) and you must refuse shelter from rain or rivers for at least 10 minutes that day. If you fail, you permanently lose **-1 DEX and -1 CHA**.
+**Tier 4 (12 days):** 
 
-**Tier 3 (7 days):** For 7 days, once per turn when you deal Water damage to HP the target must pass **DC 16 STR** or gain **Suffocating** for 1 turn; if it is already Soaked, Suffocating lasts **2 turns** instead. Outside combat, once per day you may “read the current” and ask the GM one yes/no question about events in the last 24 hours at your location (tracks, passage, struggle, etc.) and receive a truthful answer. In return, you must keep a 24-hour vow of silence during the pact and spare the first enemy who begs for mercy. If you fail, you gain **Mute** for 30 days and cannot be healed above half HP during those 30 days.
+**Tier 5 (30 days):** 
+## Eldathis
+*Radiant, Good Alignment*
 
-**Tier 4 (12 days):** For 12 days, once per combat as a Reaction when you would take damage you may reduce that instance to **0** and become **Intangible** until your next turn (as per your rules, you can’t attack while intangible). Outside combat, once per day you may grant underwater breathing and swim mastery to up to three allies for 1 hour, and you may open sealed containers by equalizing pressure (useful in ruins). In return, you must never kill a creature while it is Suffocating (you must stop short) and you must drown a foe’s primary weapon/focus in deep water so it cannot be recovered. If you fail, you cannot regain Vitality by any means for 90 days.
+**Tier 1 (1 day):** 
 
-**Tier 5 (30 days):** For 30 days, once per combat you may convert one Water damage instance into **Torrent** and **triple** it if the target is Soaked; additionally, once per turn you may drag a Soaked creature 10 ft (no save) after you damage it. Outside combat, once per day you may open a “sea gate” to travel up to 10 miles along connected waterways with your party (must begin and end at water). In return, you must drown a named enemy within the 30 days. If you fail, you die the next time you gain Suffocating.
+**Tier 2 (3 days):** 
 
----
+**Tier 3 (7 days):** 
 
-# Eldathis — Radiant
+**Tier 4 (12 days):** 
 
-**Tier 1 (1 day):** You may swear Eldathis’s Candle Oath for 1 day; you gain **Resistance to Radiant**, and Radiant damage you deal ends **Invisible** on hit. Outside combat, once per day you may create a hovering light for 24 hours that reveals hidden writing/ink and makes illusions “flicker” (GM adjudicates visibility). In return, you must not lie for the full day and you must openly admit one real fault to someone who matters. If you fail, you gain **Cursed** for 12 days and cannot benefit from **Blessed** during that time.
+**Tier 5 (30 days):** 
+## Cryovara — Ice/Cold
 
-**Tier 2 (3 days):** For 3 days, once per turn when you deal Radiant damage to HP the target must pass **DC 14 CON** or be **Blinded** for 2 turns. Outside combat, once per day you may force one creature within 60 ft to lose magical disguises/illusions for 10 minutes, and you can “sanctify” a small object so it glows near undead or cursed items. In return, you must refuse a deserved reward and carry a written confession on your person the whole pact. If you fail, you permanently lose **-1 CHA and -1 WIS**.
+**Tier 1 (1 day):** 
 
-**Tier 3 (7 days):** For 7 days, once per turn your Radiant damage **ignores Resistance** (not Greater/Immunity), and once per combat your next Radiant hit may also apply **Demoralized** and **Silenced** for 1 turn. Outside combat, once per day you may ask the GM one direct question about a creature you can see (“what is it hiding from?”) and get a truthful short answer. In return, you may never strike first in combat during the pact and must publicly reveal a secret that harms your reputation. If you fail, all healing you receive is halved for 60 days.
+**Tier 2 (3 days):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat you may create a 15-ft “Noon Circle” for 3 turns: enemies inside cannot become Invisible, take **2d10 Radiant to HP** at start of turn, and have disadvantage on saving throws. Outside combat, once per day you may consecrate a room for 12 hours so undead cannot enter and fiend pacts cannot be formed there. In return, you must finish every enemy you personally declare “guilty” during the pact and refuse help from allies in one combat. If you fail, you can never form pacts again.
+**Tier 3 (7 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per combat you may convert one Radiant damage instance into **Nova** and **triple** it; if the target is **Cursed or Hexed**, it becomes **quadruple**. Outside combat, once per day you may restore a creature dead less than 1 minute to 1 HP, but it returns **Cursed** for 30 days and remembers the pain vividly. In return, you must destroy a major evil relic or shrine within the time frame. If you fail, you cannot receive beneficial magical conditions (Blessed, Hasted, Hexproof) for one year.
+**Tier 4 (12 days):** 
 
----
+**Tier 5 (30 days):** ## Indravajra — Lightning
 
-# Cryovara — Ice/Cold
+**Tier 1 (1 day):** 
 
-**Tier 1 (1 day):** You may swear Cryovara’s Frost Pledge for 1 day; you gain **Resistance to Ice/Cold**, and once per turn when you deal Ice/Cold damage you may add **1 Frozen stack**. Outside combat, you can chill food/water instantly and preserve it from spoilage for the pact duration, and you may freeze a puddle or thin sheet of water into safe footing. In return, you must sleep without warmth or shelter and refuse firelight all night. If you fail, you gain **Frostbitten** and **Slowed** for 12 turns.
+**Tier 2 (3 days):** 
 
-**Tier 2 (3 days):** For 3 days, you ignore Frozen’s movement/BAp halving (still take Frozen damage/stacks), and once per day you may create a 10-ft ice bridge or barrier that lasts 10 minutes. Outside combat, you can silence your footsteps on snow/ice and erase your tracks for one hour each day. In return, healing cannot raise you above half HP during the pact and you must shatter something you made yourself. If you fail, you permanently lose **-10 ft movement**.
+**Tier 3 (7 days):** 
 
-**Tier 3 (7 days):** For 7 days, once per turn your Ice/Cold damage ignores Resistance, and once per combat on an Ice/Cold hit to HP you may force **DC 16 CON**; on fail, apply **Frozen +2 stacks**. Outside combat, you can freeze a lock shut, freeze water to block a passage, or preserve a corpse against decay once per day. In return, at each dawn you take **4d10 Ice/Cold to HP** (cannot be reduced) and must refuse shelter offered to you once. If you fail, you begin every combat **Lethargic** for 1 turn for 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat you may create a 15-ft blizzard zone for 3 turns; enemies inside gain **Frozen (1 stack)** at start of turn and have disadvantage on attacks. Outside combat, you can mask scent and nullify simple tracking for your party for 12 hours and create cold storage that defeats rot/mold. In return, you must not speak during any combat for the full pact and must win one combat without moving from your starting space. If you fail, you gain **Mute** for 90 days.
+**Tier 5 (30 days):** ## Seraphael — Holy Water
 
-**Tier 5 (30 days):** For 30 days, once per combat you may convert one Ice/Cold instance into **Glacial**, **triple** it, and apply **Frozen (3 stacks)**. Outside combat, once per day you may “winterwalk” across water or a gap as if it were solid ice for 1 minute, carrying allies if they hold on. In return, you must defeat a powerful foe alone (no ally damage). If you fail, you die the next time you gain Frozen.
+**Tier 1 (1 day):** 
 
----
+**Tier 2 (3 days):** 
 
-# Indravajra — Lightning
+**Tier 3 (7 days):** 
 
-**Tier 1 (1 day):** You may swear Indravajra’s Spark Deal for 1 day; you gain **Resistance to Lightning**, and once per turn when you deal Lightning damage to HP you may apply **Shocked**. Outside combat, you may spark a small mechanism once per turn (light, lever, simple device) and once per day you may overload a mundane lock or latch to force it open (it breaks). In return, you must accept the first direct challenge offered and you must not retreat from that confrontation. If you fail, you gain Shocked for 30 turns and your next long rest gives no benefit.
+**Tier 4 (12 days):** 
 
-**Tier 2 (3 days):** For 3 days, once per turn your Lightning arcs to a second target within 15 ft for half damage, and once per combat you may force a struck creature to drop what it holds (DC 14 STR negates). Outside combat, you can power or disable machinery for 1 hour/day, and you can “stun” a simple device to prevent use (trap/puzzle). In return, each dawn you take **3d10 Lightning to HP** (cannot be reduced) and destroy an item that materially protects you (shield, armor part, emergency kit). If you fail, you permanently lose **-1 DEX and -1 INT**.
+**Tier 5 (30 days):** 
+## Pelagion — Torrent
 
-**Tier 3 (7 days):** For 7 days, once per combat you may convert a Lightning instance into **Storm** and treat the target as **Soaked** for Lightning interactions for 3 turns. Outside combat, once per day you may “thunder-step” up to 300 ft to a point you can see, leaving a loud crack that alerts nearby creatures. In return, you must sabotage a powerful person’s plan during the pact and win one combat without using cover. If you fail, whenever you become Shocked for the next 30 days you have disadvantage on attack rolls.
+**Tier 1 (1 day):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat when you hit a Soaked target with Lightning it must pass **DC 18 CON** or be **Stunned** for 2 turns (on success, Stunned 1 turn). Outside combat, you can revive a dead device or restore power to a site for 1 hour/day and you can track a creature you’ve shocked (direction and distance) for 12 hours. In return, you must intercept a Lightning hit meant for an ally at least once and refuse healing for one full day. If you fail, allies cannot apply beneficial conditions to you for 90 days.
+**Tier 2 (3 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per day you may call a Lightning strike that automatically hits; if the target is Soaked, that strike is **tripled**. Outside combat, once per day you may “stormbind” a creature you can see for 10 minutes: you always know its direction/distance and it cannot remain Invisible (it flickers and is revealed). In return, you must kill a “worthy” target chosen by the deity within the time frame. If you fail, you die immediately.
+**Tier 3 (7 days):** 
 
----
+**Tier 4 (12 days):** 
 
-# Seraphael — Holy Water
+**Tier 5 (30 days):** 
+## Keraunos — Thunder
 
-**Tier 1 (1 day):** You may swear Seraphael’s Cleanse Pact for 1 day; you can conjure one use of **Holy Water**, you gain **Resistance to Necrotic**, and once per day you may cleanse mundane poison/rot from food, water, or a wound. Outside combat, you may mark a doorway with a faint ward that deters minor undead (GM adjudicates) for the pact duration. In return, you must perform a selfless act that costs you something real and accept no reward. If you fail, you gain **Cursed** for 12 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** For 3 days, you have advantage on saves vs **Frightened, Demoralized, Despair**, and once per turn your Holy Water damage against undead ignores Resistance and Greater Resistance (immunity still applies). Outside combat, once per day you may consecrate a doorway for 12 hours so undead cannot cross it and you can sense necrotic taint within 30 ft. In return, you must refuse payment for any aid and destroy an object tied to greed (hoarded luxury, stolen good, ill-gotten token). If you fail, all healing you receive is halved for 30 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** For 7 days, once per day you may remove one condition from a touched creature (any category), and once per combat you may force an undead within sight to make **DC 16 WIS** or lose its next Action. Outside combat, you may create a truthful oath for 10 minutes/day: a willing creature physically cannot lie while it holds the vow. In return, you must destroy a magic item you own and forgive an enemy who wronged you (narrative commitment with consequences). If you fail, you gain **Hexed** for 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat you may unleash a 15-ft burst of sanctified water; undead inside take **2d10 Holy Water to HP** and must pass **DC 18 WIS** or be Frightened for 3 turns. Outside combat, once per day you may purge a haunted room/site so minor undead cannot reform there (GM-defined) and you can neutralize a cursed object’s minor effects for 12 hours. In return, you must destroy a specific undead chosen by the GM and must not kill any living creature during the pact. If you fail, you permanently lose **-1 WIS and -1 CON**.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per combat vs undead you may turn one Holy Water instance into **True** damage and **triple** it. Outside combat, once per day you may restore a creature dead less than 10 minutes to life at 1 HP, but you immediately gain **Hurting (10 stacks)** for 10 turns as you take their pain. In return, you must willingly take a lethal blow meant for another at least once during the pact. If you fail, you die immediately when the moment arrives.
+**Tier 5 (30 days):** ## Hephaestion — Metal
 
----
+**Tier 1 (1 day):** 
 
-# Pelagion — Torrent
+**Tier 2 (3 days):** 
 
-**Tier 1 (1 day):** You may swear Pelagion’s Current Bargain for 1 day; once per turn when you deal Water or Torrent damage you may push or pull the target 5 ft. Outside combat, once per day you may create a strong current in a 20-ft stretch of water to aid travel or hinder pursuit, and you can wash away tracks on soft ground behind you. In return, you must not retreat from any fight you enter that day. If you fail, whenever you take damage for the next 12 days you are pushed 10 ft.
+**Tier 3 (7 days):** 
 
-**Tier 2 (3 days):** For 3 days, once per combat you may convert one Water instance into Torrent and double your push/pull distance to 10 ft on that hit. Outside combat, once per day you may breach a mundane barrier by water pressure (door, shutters, weak wall seam), and you can “carry” a floating object/ally slowly on a current. In return, you must break a sworn promise that protected your comfort (not someone else’s safety) and refuse a luxury you rely on. If you fail, you permanently lose **-1 CHA** and cannot benefit from Blessed for 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 3 (7 days):** For 7 days, once per turn Torrent ignores Resistance, and once per combat you may create a 30-ft line surge; creatures in the line must pass **DC 16 STR** or become **Prone** and be dragged 10 ft. Outside combat, you can erase tracks and scent trails for your party for 12 hours/day and quietly move objects via water manipulation. In return, you must permanently give up a weapon type and destroy a safe refuge others rely on (bridge span, gate, wall segment—GM bounds). If you fail, you lose proficiency in your most-used weapon type for 90 days.
+**Tier 5 (30 days):** 
+## Aeolus — Storm
 
-**Tier 4 (12 days):** For 12 days, once per combat you may create a 20-ft “riptide zone” for 3 turns; enemies inside become Soaked, take **2d10 Torrent to HP** at start of turn, and must pass **DC 18 STR** or be moved 10 ft. Outside combat, once per day you may travel instantly up to 1 mile along connected waterways with your party and you can flood or drain a small area for puzzle use. In return, you must drown a dangerous criminal (GM-defined) and never kill someone who begs for mercy during the pact. If you fail, whenever you become Soaked you also gain Suffocating for 2 turns for 90 days.
+**Tier 1 (1 day):** 
 
-**Tier 5 (30 days):** For 30 days, once per combat you may declare Worldflood for 3 turns: all enemies you can see are treated as Soaked, and once per turn you may choose one to take **3d10 Torrent to HP** and be thrown 15 ft (no save). Outside combat, once per week you may relocate your party to any known coastal location via tidal gate (GM permitting), and you can conceal a ship/party from distant observation in heavy mist. In return, you must drown a named enemy within the time frame. If you fail, you cannot long rest unless submerged for one full hour, for one year.
+**Tier 2 (3 days):** 
 
----
+**Tier 3 (7 days):** 
 
-# Keraunos — Thunder
+**Tier 4 (12 days):** 
 
-**Tier 1 (1 day):** You may swear Keraunos’s Shockwave Deal for 1 day; once per turn when you deal Thunder damage you may push the target 10 ft and impose disadvantage on its next attack roll. Outside combat, once per day you may shatter a small object (lock, chain link, brittle stone seam) with a snap-clap and you can signal allies with a controlled thunder-pop. In return, you must destroy something you value and speak plainly (no whispering, no coded speech) for the day. If you fail, you are Deafened for 12 days and cannot remove it early.
+**Tier 5 (30 days):** 
+## Rimeflame — Frostfire
 
-**Tier 2 (3 days):** For 3 days, you gain **Resistance to Thunder**, cannot be knocked Prone unless you choose, and once per combat you may force **DC 14 CON** on a Thunder hit; fail = **Stunned** 1 turn. Outside combat, once per day you may silence a 10-ft area for 1 minute (Mute effect), useful for stealth and puzzle bypass. In return, you must accept a humiliating public act and begin one combat standing in the open as a target. If you fail, you are treated as Threatened within 10 ft for 30 days.
+**Tier 1 (1 day):** 
 
-**Tier 3 (7 days):** For 7 days, once per combat you may convert Thunder into **Shatter**; on hit, **DC 16 CON** fail = Stunned 2 turns, success = Stunned 1 turn, and in either case target is Demoralized 1 turn. Outside combat, once per day you may breach a barred door or collapse a weak wall section and you can detect hollow spaces by echo. In return, you must not speak an ally’s name for the full pact and win one combat without using ranged attacks. If you fail, you permanently lose **-1 INT and -1 DEX**.
+**Tier 2 (3 days):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat you may create a 15-ft “cannon ring” for 3 turns; enemies inside have disadvantage on saving throws against forced movement and are pushed 5 ft the first time they take damage each turn. Outside combat, once per day you may clear rubble instantly or collapse a tunnel segment (GM bounds) and you can disrupt fragile mechanisms with vibration. In return, you must start every combat Prone and refuse healing for one full day. If you fail, you permanently lose 10 ft movement and have disadvantage on sound-based checks.
+**Tier 3 (7 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per day you may detonate a thunderclap (15-ft radius): targets must pass **DC 20 STR** or be thrown 20 ft and become Prone; if they hit a wall, they take **1d10 Bludgeoning to HP**. Outside combat, once per week you may destroy a major fortification element (gatehouse support, bridge span, tower stair—GM bounds) and you can broadcast a warning boom heard miles away. In return, you must execute a guilty target who pleads for mercy (deity defines guilt). If you fail, you die instantly.
+**Tier 4 (12 days):** 
 
----
+**Tier 5 (30 days):** ## Cryolith — Glacial
 
-# Hephaestion — Metal
+**Tier 1 (1 day):** 
 
-**Tier 1 (1 day):** You may swear Hephaestion’s Iron Vow for 1 day; you gain **+2 AC**, and once per day you may repair a broken weapon/armor piece to full function. Outside combat, you can conjure basic tools as needed for the pact duration and you can shape a simple metal piece by hand heat (hinge pin, nail bundle, wedge). In return, you must repair something for someone who cannot repay you and carry an obvious weight of iron all day. If you fail, you suffer **-2 AC** for 12 days.
+**Tier 2 (3 days):** 
 
-**Tier 2 (3 days):** For 3 days, you gain **Resistance to Physical**, and once per combat you may “magnet bind” on hit: **DC 14 STR** fail = Grappled and cannot make ranged attacks until escape. Outside combat, once per day you may open or seal a mundane lock by reshaping pins (it becomes obviously tampered), and you can sense nearby worked metal within 30 ft. In return, you must destroy a crafted possession you’re proud of and refuse comfort/luxury for the pact. If you fail, you permanently lose **-1 DEX** and your armor provides half its AC for 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 3 (7 days):** For 7 days, at the start of each combat you gain **DR 5 vs Physical** for 3 turns, and once per combat you may become immune to being pushed, grappled, or slowed for 1 turn. Outside combat, once per day you may forge a functioning key for a lock you’ve examined and you can reinforce a door to resist forced entry. In return, you must permanently give up 1 stat point (you choose) and bind yourself to a restrictive oath written by the GM. If you fail, you permanently lose 2 stat points (GM chooses).
+**Tier 4 (12 days):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat as a Reaction when hit you may “plate-shift” to reduce that damage instance to 0, but your armor becomes broken and must be repaired by you to function again. Outside combat, once per day you may build a sturdy barricade/bridge span in minutes that would normally take hours, and you can seal gaps against water/gas. In return, you must deliberately break your own armor/weapon in a meaningful fight and keep fighting without replacing it. If you fail, you cannot benefit from armor AC for 30 days.
+**Tier 5 (30 days):** 
+## Gelidra — Gel
 
-**Tier 5 (30 days):** For 30 days, once per combat you may enter **Iron Stasis** for 1 turn: you are immune to all damage except True (you cannot attack during stasis). Outside combat, once per week you may create a permanent metal structure (gate, cage, bridge, vault door) that is exceptionally hard to break (GM sets). In return, you must give up your name and titles socially for the pact duration and destroy a legendary craft you made or inherited. If you fail, NPCs forget you after you leave their sight and records erase you permanently.
+**Tier 1 (1 day):** 
 
----
+**Tier 2 (3 days):** 
 
-# Aeolus — Storm
+**Tier 3 (7 days):** 
 
-**Tier 1 (1 day):** You may swear Aeolus’s Storm Oath for 1 day; you gain **Resistance to Water and Lightning**, and once per turn when you deal Storm damage you may apply **Soaked** and **Storm Shocked**. Outside combat, you always know the nearest shelter and the direction of strong weather, and once per day you may create a gust that snuffs candles and disperses simple smoke. In return, you must stand in open wind/rain for 10 minutes without shelter and ruin a weather-protection item (cloak, tent panel, oilskin—destroyed). If you fail, you have disadvantage on travel/navigation checks for 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 2 (3 days):** For 3 days, once per combat you may create a 20-ft gust that pushes creatures 10 ft (**DC 14 STR** negates), and you ignore penalties from strong wind. Outside combat, once per day you may calm or worsen local wind/rain in a small area for 1 hour (GM bounds) and you can carry a whispered message on the wind to someone within 500 ft. In return, you must forgo one full night of sleep and refuse cover in one combat. If you fail, you start every combat **Lethargic** for 2 turns for 30 days.
+**Tier 5 (30 days):** 
+## Mnemosyne — Psychic
 
-**Tier 3 (7 days):** For 7 days, once per day you may “gale step” up to 300 ft in a straight line to a point you can see, and once per combat attacks beyond 30 ft have disadvantage to hit you for 3 turns. Outside combat, you may send a short message to someone you’ve met within 1 mile once per day and you can disperse lingering fog or create concealment mist. In return, you must break a vow you made and ruin a vehicle/ship-like asset or equivalent. If you fail, you permanently lose **-1 WIS and -1 DEX**.
+****Tier 1 (1 day):** 
 
-**Tier 4 (12 days):** For 12 days, once per combat you may create a 20-ft storm zone for 3 turns: enemies inside are Soaked, Storm Shocked, and take **2d10 Storm to HP** at start of turn; ranged attacks through the zone automatically miss. Outside combat, once per day you may grant limited flight-like mobility for 10 minutes (vertical movement, GM bounds) and you can “listen on the wind” to detect approaching groups. In return, you must never fight indoors during the pact and must allow yourself to be struck by lightning once (narrative event). If you fail, you take **2d10 Lightning to HP** at dawn each day for 30 days.
+**Tier 2 (3 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per week you may summon a major storm that follows you for 1 hour; within it, once per combat your Storm damage is tripled and all enemies are treated as Soaked. Outside combat, once per week you may cloak an escape or siege in storm cover, and you can devastate fields or fill canals (world impact). In return, you must sacrifice a treasured item of great value and defeat a named enemy during the storm you called. If you fail, you permanently lose **-1 to all stats**.
+**Tier 3 (7 days):** 
 
----
+**Tier 4 (12 days):** 
 
-# Rimeflame — Frostfire
+**Tier 5 (30 days):** 
+## Hemalux — Bloodfire
 
-**Tier 1 (1 day):** You may swear Rimeflame’s Twin Oath for 1 day; you gain **Resistance to Fire and Ice/Cold**, and once per turn you may convert Fire or Ice/Cold you deal into **Frostfire** and apply **On Fire** and **Frozen (1 stack)** on that hit. Outside combat, you can freeze or thaw a small object instantly and you can preserve or erase evidence (freeze bloodstains, burn tracks) once per day. In return, at dawn you must take **2d10 total** split as Fire + Ice to HP (cannot be reduced) and refuse comfort that day. If you fail, you gain Burned and Frostbitten for 30 turns and cannot remove them early.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** For 3 days, once per turn Frostfire ignores Resistance, and once per combat you may create a thermal shock burst (10 ft) that cracks stone/ice and forces **DC 14 CON** or Stunned 1 turn. Outside combat, once per day you can rapidly cool/heat a barrier to make it brittle (GM bounds) and you can chill a room or warm a shelter. In return, healing cannot raise you above half HP during the pact and you must destroy a personal keepsake you would miss. If you fail, all healing you receive is halved for 90 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** For 7 days, once per combat you may declare Paradox for 3 turns: the first time each turn you deal damage to HP, you also heal **2d10 HP** (cap once per turn). Outside combat, once per day you may preserve a corpse indefinitely or reduce a body to ash and melt evidence (GM bounds). In return, you permanently give up 1 stat point (you choose) and complete a major contradiction chosen by the GM (save an enemy, betray a friend, etc.). If you fail, you permanently lose 2 stat points (GM chooses).
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** For 12 days, once per turn when you take damage you may Reaction-reflect **2d10 Frostfire to HP** to the attacker and apply Frozen (1 stack). Outside combat, once per day you can raise a wall of ice or fire-barrier for 10 minutes and you can make a passage impassable with extreme temperature. In return, you must win a combat while below half HP and never take shelter from temperature extremes during the pact. If you fail, you gain **Hurting (10 stacks)** for 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** For 30 days, once per combat you may enter Twin Sovereignty for 1 turn: all Frostfire you deal is **tripled**, and every hit applies On Fire and Frozen (2 stacks). Outside combat, once per week you may freeze a lake solid, melt a blocked pass, or cover a valley in thermal haze (world-scale utility). In return, you must kill a high-ranking servant of a rival deity within the time frame. If you fail, you die instantly.
-
----
-
-# Cryolith — Glacial
-
-**Tier 1 (1 day):** You may swear Cryolith’s Ice Tomb for 1 day; you gain **Resistance to Ice/Cold**, and once per day you may convert one Ice/Cold instance you deal into **Glacial**; if it hits HP, it applies Frozen (2 stacks). Outside combat, you can freeze water into a bridge for 10 minutes and preserve food/corpses from decay. In return, you must refuse all firelight for the night and remain exposed to cold for at least one hour. If you fail, you become **Slowed** for 30 days (Remove Curse only).
-
-**Tier 2 (3 days):** For 3 days, you ignore Frozen’s movement penalty and your Frozen damage die increases by one step (Frozen 1d4 becomes 1d6 per stack). Outside combat, you may seal a door shut with ice that requires serious force to break, and you can chill an area to suppress mold/rot. In return, you permanently give up 10 ft movement and accept disadvantage on social checks for the pact duration. If you fail, you permanently lose **-1 CHA and -1 DEX**.
-
-**Tier 3 (7 days):** For 7 days, once per turn Glacial ignores Resistance, and once per combat on a Glacial hit to HP the target must pass **DC 16 CON** or be **Petrified** for 1 turn (on success, Stunned 1 turn). Outside combat, once per day you may create a lasting cold seal on a room that prevents minor undead tampering and preserves bodies. In return, you must not light any fire during the entire pact and must win one fight without taking Fire damage. If you fail, whenever you take Ice/Cold damage for 30 days you also gain Suffocating for 1 turn.
-
-**Tier 4 (12 days):** For 12 days, once per combat you may create an Entomb Zone (15 ft, 3 turns): enemies inside take **2d10 Glacial to HP** at start of turn and gain Frozen (1 stack). Outside combat, once per day you may reshape a small terrain feature with ice (seal tunnel, raise ramp, bridge gap) and it lasts 12 hours. In return, you must not speak to anyone you care about for the full pact and must refuse comfort offered by allies. If you fail, you gain Mute for 90 days and cannot remove it early.
-
-**Tier 5 (30 days):** For 30 days, once per combat on a Glacial hit to HP you may force **DC 20 CON**; fail = Petrified for 3 turns, success = Stunned for 2 turns. Outside combat, once per week you may permanently freeze a river route, seal a cavern, or create an ice bridge that lasts until destroyed (world impact). In return, you must defeat a powerful foe alone (no ally damage). If you fail, you are Petrified permanently.
-
----
-
-# Gelidra — Gel
-
-**Tier 1 (1 day):** You may swear Gelidra’s Sticky Oath for 1 day; once per turn when you deal Gel damage you may apply **Gelled (1 stack)**. Outside combat, you gain adhesion: for 10 minutes/day you can climb any surface and you can seal a small leak or crack by touch. In return, you must keep your hands coated (disadvantage on fine tool checks) and must not make the first attack in any fight that day. If you fail, you start your next three combats **Gelled (2 stacks)**.
-
-**Tier 2 (3 days):** For 3 days, Gelled you apply is harder to remove: each stack increases the required Fire/Water damage to break it by an additional +10 beyond normal. Outside combat, once per day you may seal a door or container shut for 1 hour, and you can mufflesound in a 10-ft area for 1 minute (stealth/puzzle). In return, you must not run/dash during the pact and must accept a visible mark of Gelidra (cannot be hidden). If you fail, your movement is halved for 30 days.
-
-**Tier 3 (7 days):** For 7 days, once per combat you may create a 20-ft gel zone for 3 turns; enemies entering immediately gain Gelled (2 stacks) and allies gain advantage vs being Grappled while in the zone. Outside combat, once per day you may create waterproof sealant that blocks gas/smoke and patch holes instantly (doors, boats, pipes). In return, you permanently lose 1 AC and must accept a binding promise written by the GM. If you fail, you permanently lose 2 AC.
-
-**Tier 4 (12 days):** For 12 days, when you Grapple a creature it gains Gelled (2 stacks) and its escape attempts are at disadvantage; once per combat you may also Gel a target at range (DC 18 STR fail = Gelled 4 stacks). Outside combat, once per day you can silence an area by sealing vibrations (10 minutes) and you can create temporary “handholds” on walls for party climbing. In return, you must allow yourself to be hit at least once per combat and refuse magical cleansing of your gel. If you fail, you begin every combat Gelled (5 stacks) for 30 days.
-
-**Tier 5 (30 days):** For 30 days, once per day you may Perfect Seal on hit: **DC 20 STR** fail = Gelled (8 stacks) instantly. Outside combat, once per week you may permanently seal a portal/tunnel/doorway so it cannot be opened without major force, and you can encase an item to preserve it indefinitely. In return, you permanently sacrifice 1 stat point (you choose) and must complete an oath-task given by the deity. If you fail, you permanently lose 3 stat points (GM chooses).
-
----
-
-# Mnemosyne — Psychic
-
-**Tier 1 (1 day):** You may swear Mnemosyne’s Whisper Pact for 1 day; you gain **Resistance to Psychic**, telepathy within 30 ft, and once per turn when you deal Psychic damage you may impose disadvantage on the target’s next saving throw. Outside combat, once per day you may read the “echo” of an object and learn one truthful detail about its recent use. In return, you must reveal a secret that could harm you and answer any direct question truthfully for the pact duration. If you fail, you begin every combat Demoralized for 2 turns for 12 days.
-
-**Tier 2 (3 days):** For 3 days, once per combat you may force a reroll of a d20 you can see and the creature must take the lower result. Outside combat, once per day you may detect lies for 10 minutes (GM returns truth/lie/unclear) and you can sense strong intent (hostile/neutral/helpful) within 30 ft. In return, you surrender one meaningful memory (GM removes a bond/ideal detail) and take **2d10 Psychic to HP** at dawn (cannot be reduced). If you fail, you permanently lose **-1 WIS and -1 CHA**.
-
-**Tier 3 (7 days):** For 7 days, once per combat you may issue a one-word command (Hypnotized): **DC 16 WIS** fail = obey, success = Demoralized 1 turn. Outside combat, once per day you may erase yourself from a creature’s attention for 10 minutes (it will not target or track you unless harmed), and you can record a memory into a token for later playback. In return, you must obey one one-word command from the deity and cannot sleep in the same place twice. If you fail, you begin every combat Enraged for 1 turn for 30 days.
-
-**Tier 4 (12 days):** For 12 days, once per combat when you deal Psychic damage to HP you may also apply **Despair** for 2 turns (no save). Outside combat, once per day you may ask the GM one direct question about a creature’s deepest fear and receive a truthful short answer, and you can shield a mind (one ally gains advantage vs mental conditions for 1 hour). In return, you take **4d10 Psychic to HP** at dawn and permanently lose 1 stat point (you choose). If you fail, you cannot benefit from Blessed/Hexproof for one year.
-
-**Tier 5 (30 days):** For 30 days, once per combat you may declare Mind Crown: **DC 20 WIS** fail = Unconscious 2 turns, success = Stunned 1 turn. Outside combat, once per day you may ask a yes/no about the next hour’s future (“ambush on this road?”) and receive a truthful answer, and you can suppress a memory in yourself (ignore fear-trigger narrative) for 24 hours. In return, you permanently lose a treasured memory (GM removes a major bond/goal) and complete a dream-task given by the deity. If you fail, you fall Unconscious and cannot wake.
-
----
-
-# Hemalux — Bloodfire
-
-**Tier 1 (1 day):** You may swear Hemalux’s Crimson Spark for 1 day; once per turn when you deal Bloodfire damage you heal HP equal to half the Bloodfire damage dealt (rounded down), and you can sense living blood within 60 ft. Outside combat, once per day you can track a wounded creature by scent for 1 mile and you can stabilize a dying creature by touch (no roll, 1/day). In return, at dawn you must spill your own blood: **2d10 Bloodfire to HP** (cannot be reduced) and refuse all healing from others that day. If you fail, you gain **Bleeding (5 stacks)** for 12 turns.
-
-**Tier 2 (3 days):** For 3 days, once per combat you may convert one Fire or Psychic damage instance you deal into Bloodfire (bypasses Vitality by Bloodfire’s nature), and you gain **Resistance to Fire and Psychic**. Outside combat, once per day you may perform a blood-sight ritual to learn whether a creature within 30 ft is alive, undead, or construct (GM returns category). In return, you accept a lasting scar: you choose one stat and treat it as -1 for the pact duration, and you must finish three combats while below half HP. If you fail, you permanently lose **-1 STR and -1 CON**.
-
-**Tier 3 (7 days):** For 7 days, once per combat you may enter Crimson Tempo for 3 turns: the first time each turn you deal damage to HP you heal **2d10 HP** (cap once per turn). Outside combat, once per day you may write a blood-contract: a willing signer who breaks it immediately gains Hurting (10 stacks) for 10 turns (GM enforces). In return, you must refuse all healing for 24 hours once during the pact and kill one dangerous foe in melee. If you fail, you cannot heal at all for 30 days.
-
-**Tier 4 (12 days):** For 12 days, once per combat you may mark a creature with Heart-Brand for 3 turns: the first time each turn you hit it, it takes an extra **2d10 Bloodfire to HP**, and you heal that extra damage amount (cap once per turn). Outside combat, once per day you may revive a fallen ally at 1 HP by giving blood, but you take **4d10 Bloodfire to HP** immediately (cannot be reduced). In return, you permanently sacrifice 1 stat point (you choose) and must land the finishing blow in five combats. If you fail, you permanently lose 2 stat points (GM chooses).
-
-**Tier 5 (30 days):** For 30 days, once per combat you may declare Crimson Sun for 1 turn: Bloodfire you deal is **tripled**, and the first time you deal Bloodfire to HP each turn you heal the full amount dealt (no halving). Outside combat, once per week you may restore a creature dead less than 10 minutes to life at 1 HP by permanently sacrificing 1 stat point and taking **10d10 Bloodfire to HP** (cannot be reduced). In return, you must kill a named enemy with Bloodfire within the time frame and destroy something you love afterward. If you fail, you die the next time you take damage while below half HP.
+**Tier 5 (30 days):** 
