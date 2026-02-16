@@ -2,7 +2,7 @@ Fiends typically want to spread chaos and death, typically by the means of their
 ## Black Mercy
 _Necrotic, Evil Alignment_
 
-**Tier 1 (1 day):** You gain resistance to Necrotic damage. You may convert one attack per turn's damage to Necrotic. Once per turn when you deal Necrotic damage you may deal an additional 2d10 Necrotic damage. You must kill at least 1 creature with necrotic damage today. Failure to complete your end of the pact will result in you gaining Slow Death (6 stacks) for the next 3 days.
+**Tier 1 (1 day):** You gain resistance to Necrotic damage. You may convert one attack per turn's damage to Necrotic. Once per turn when you deal Necrotic damage you may deal an additional 2d10 Necrotic damage. You must kill at least 1 creature with necrotic damage today. Failure to complete your end of the pact will result in you gaining Slow Death (1 stacks) for the next 3 days.
 
 **Tier 2 (3 days):** You temporarily learn the spell Necrotic Blast (Range 80 ft, Affinity Necrotic, 5 Mana) Make a spell attack against a creature you can see within range, on hit the creature takes 4d10 necrotic damage and gains one stack of Slow Death (upcast x2 for +1 blast (separate attack roll)). You must kill at least 5 humanoid creatures before the end of your pact period. Failure to complete your end of the pact will result in you gaining Cursed for the next 12 days.
 

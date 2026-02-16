@@ -44,7 +44,8 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** ## Indravajra — Lightning
+**Tier 5 (30 days):** 
+## Indravajra — Lightning
 
 **Tier 1 (1 day):** 
 
@@ -54,7 +55,8 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** ## Seraphael — Holy Water
+**Tier 5 (30 days):** 
+## Seraphael — Holy Water
 
 **Tier 1 (1 day):** 
 
@@ -86,7 +88,8 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** ## Hephaestion — Metal
+**Tier 5 (30 days):** 
+## Hephaestion — Metal
 
 **Tier 1 (1 day):** 
 
@@ -118,7 +121,8 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** ## Cryolith — Glacial
+**Tier 5 (30 days):** 
+## Cryolith — Glacial
 
 **Tier 1 (1 day):** 
 
