@@ -44,6 +44,7 @@ Aurians share a human skeletal plan but with distinct proportional differences. 
 
 Skin is tan to bronze, smooth, and resistant to discoloration. Beneath the skin, veins are visibly red or orange rather than blue, faintly glowing under exertion or heat. Hair grows thickly on the scalp and is uniformly white or pale silver. Eyes are solid red or ember-orange, with little or no visible white. Facial features tend to be angular, with strong jawlines and pronounced cheekbones. Teeth remain blunt and humanlike. 
 ###### Racial Abilities
++5 ft Melee Range.
 - **Tier 1:** **Ember Veins.** Gain +2 Generic Affinity and +1 Base Magic Accuracy.
 - **Tier 2:** **Inner Mana Furnace.** After spending 20 mana in a single turn gain +2 + Racial Tier True damage to your next magic attack (does not stack). 
 - **Tier 3:** **Mana Conduit.** Gain +2 Mana per level (retroactive) and +3 Generic Affinity.
