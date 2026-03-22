@@ -18,7 +18,6 @@ Rage
 - While raging: +1d6 damage to Strength-based attacks but -5 to hit as well as a -10 to intelligence (this cannot set your intelligence below 4).
 - Additionally, while raging gain resistance to everything (take half damage from all sources)
 - Ends if you don’t deal/take damage for 1 round. Rage points refresh on a short rest.
-
 #### Subclasses (Choose 1 at level 3)
 ##### Berserker:
 - -5 AC while raging.
@@ -51,7 +50,7 @@ Rage
 ##### Leveling Table
 | Level | Dice                                | Points                                                                                           | Stats                                   | Special                               |
 | ----- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------- | ------------------------------------- |
-| 1     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Rage Point, +1 Proficiency Upgrade (or +1 Skill Point)                        | +1d6 Base Melee Damage                  |                                       |
+| 1     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +1 Proficiency Upgrade (or +1 Skill Point)                                       | +1d6 Base Melee Damage                  |                                       |
 | 2     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point                                                                    |                                         |                                       |
 | 3     | +1 VitDice, +1 HitDice, +1 ManaDice | +1 Skill Point, +2 Stat Points, +1 Rage Point, +1 Rp, +1 Proficiency Upgrade (or +1 Skill Point) | +1d6 Base Melee Damage                  | +1d6 Base Rage Damage, +2 AC          |
 | 4     | +1 VitDice, +1 HitDice, +1 ManaDice | +3 Skill Point, +1 Rage Point, +1 Ap                                                             | +5 Base Melee Damage, +2 Base Melee Acc | +1 Feat                               |

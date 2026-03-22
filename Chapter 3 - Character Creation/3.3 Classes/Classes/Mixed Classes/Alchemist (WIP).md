@@ -6,7 +6,6 @@ This class is very advanced and not recommended for beginners. 
 - Armor: Light Armor
 - Saving Throws: Intelligence, Dexterity
 - Proficiency Bonus: Starts at +2, increases every 3 levels
-- Proficiency with Light Armor
 
 Hit Dice: 2d4  
 Vitality Dice: 3d4  

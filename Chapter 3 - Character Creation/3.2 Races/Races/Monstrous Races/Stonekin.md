@@ -13,6 +13,7 @@ Other:
 - Lithic Resilience: You have resistance to slashing damage and piercing damage, and vulnerability to bludgeoning damage.
 - Stonebond Regeneration: While you are in contact with solid natural stone (not sand, wood, or metal) at the start of your turn, you regain 1d4 Vitality. 
 - Darkvision: You can see in darkness up to 60 ft.
+- Stonekin Biology: You are immune to bleeding 
 
 Positive Affinities: Fire, Earth, Water, Air, Physical, Creation  
 Neutral Affinities: Generic  
