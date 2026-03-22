@@ -98,96 +98,96 @@ Nothing below this is done or tested
 ## Shuddering Idol 
 _Tremor, Neutral Alignment_
 
-**Tier 1 (1 day):** Once per turn when you deal Tremor damage to a creature’s HP, it must make a DC 15 STR save or become Prone. You must knock at least 2 creatures Prone today. Failure to complete your end of the pact will result in you becoming Prone at the start of every combat for the next 12 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as an Action, choose a point within 60 ft. Creatures in a 15 ft radius make a DC 15 STR save. On a fail, they become Prone and take 3d10 Tremor damage to HP. You must hit at least 3 creatures with this effect each day. Failure to complete your end of the pact will result in your speed being halved for the next 30 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Unstable Ground within 60 ft for 1 minute. Enemies inside cannot take Reactions. The first time each round an enemy inside moves willingly, it takes 2d10 Tremor damage to HP and must make a DC 15 STR save or become Prone. You must cause at least 20 total Prone applications during the pact duration. Failure to complete your end of the pact will result in you automatically failing all saving throws for the first turn of every combat for the next 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, as a Reaction when a creature within 60 ft takes an Action, you may force a DC 15 STR save. On a fail, the Action is spent and the creature becomes Prone. You must cancel at least 1 Action per day this way. Failure to complete your end of the pact will result in you being unable to take Bonus Actions for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Shuddering Idol Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, choose up to 10 creatures within 120 ft. They each make a DC 15 STR save or take 8d10 Tremor damage to HP and become Prone (3 stacks). You must cause at least 200 total Prone stacks during the pact duration. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Drowned Prophet 
 _Deluge, Neutral Alignment_
 
-**Tier 1 (1 day):** Once per turn when you deal Deluge damage to a creature’s HP, it must make a DC 15 STR save or gain Suffocating. You must apply Suffocating at least 1 time today. Failure to complete your end of the pact will result in you gaining Suffocating for the next 3 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as a Bonus Action, choose one creature within 60 ft. It makes a DC 15 STR save. On a fail it gains Suffocating for 2 turns. You must successfully apply Suffocating (2 turns) at least 1 time per day. Failure to complete your end of the pact will result in you being Mute for the next 12 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Flood Zone within 60 ft for 1 minute. Enemies inside have their movement halved. At the start of their turns they take 2d10 Deluge damage to HP, then make a DC 15 STR save or gain Suffocating for 1 turn. You must cause at least 40 total creature-turns of Suffocating during the pact duration. Failure to complete your end of the pact will result in you starting every combat with Suffocating for 2 turns for the next 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, as an Action, choose a 60 ft line (5 ft wide) within 120 ft. Creatures on the line make a DC 15 STR save. On a fail, they gain Suffocating for 3 turns and take 4d10 Deluge damage to HP. You must hit at least 5 creatures with this line each day. Failure to complete your end of the pact will result in you being unable to speak or cast spells for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Drowned Prophet Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, create a 60 ft radius Drown within 120 ft for 3 turns. Enemies inside immediately gain Suffocating and at the start of their turns take 8d10 Deluge damage to HP. You must end the pact with at least 150 total creature-turns of Suffocating caused by you. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Screaming Hymn 
 _Shatter, Chaotic Alignment_
 
-**Tier 1 (1 day):** Once per turn when you deal Shatter damage to a creature’s HP, it must make a DC 15 STR save or gain Demoralized for 1 turn. You must apply Demoralized at least 2 times today. Failure to complete your end of the pact will result in you gaining Demoralized for the next 7 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as an Action, emit a 20 ft radius scream centered on you. Creatures in the radius make a DC 15 STR save. On a fail, they take 3d10 Shatter damage to HP and gain Demoralized for 2 turns. You must hit at least 3 creatures with this scream each day. Failure to complete your end of the pact will result in you gaining Despair for the next 12 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Resonance Zone within 60 ft for 1 minute. Enemies inside cannot benefit from advantage. The first time each round an enemy inside deals damage, it takes 2d10 Shatter damage to HP. If it is Demoralized, it takes an additional 2d10 Shatter damage to HP. You must cause at least 60 total creature-turns of Demoralized during the pact duration. Failure to complete your end of the pact will result in you being unable to take Reactions for the next 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, declare Choir of Failure for 3 turns. During this time, once per turn when a creature within 60 ft fails a roll, you may deal 4d10 Shatter damage to its HP and extend Demoralized on it by 1 turn. You must trigger this at least 5 times per day. Failure to complete your end of the pact will result in you having double disadvantage on all attack rolls for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Screaming Hymn Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, choose up to 10 creatures within 120 ft. Each makes a DC 15 STR save or takes 8d10 Shatter damage to HP and gains Demoralized for 3 turns. You must end the pact with at least 300 total creature-turns of Demoralized caused by you. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Weeping Star
 _Sorrow, Neutral Alignment_
 
-**Tier 1 (1 day):** Once per turn when you deal Sorrow damage to a creature’s HP, it must make a DC 15 STR save or gain Despair for 1 turn. You must apply Despair at least 1 time today. Failure to complete your end of the pact will result in you gaining Despair for the next 7 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as an Action, choose one creature within 60 ft. It makes a DC 15 STR save. On a fail, it gains Despair for 2 turns. You must successfully apply Despair (2 turns) at least 1 time per day. Failure to complete your end of the pact will result in you being Demoralized at all times for the next 12 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Grief Zone within 60 ft for 1 minute. Enemies inside have their movement halved. At the start of their turns they take 3d10 Sorrow damage to HP, and if they are Demoralized or in Despair they take an additional 2d10 Sorrow damage to HP. You must cause at least 60 total creature-turns of Despair during the pact duration. Failure to complete your end of the pact will result in you being unable to regain HP from any source for the next 3 days, repeated every week for 4 weeks (total 12 days).
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, declare Collapse for 3 turns. During this time, the first time each round a creature within 60 ft rolls any die, it rolls with triple disadvantage if it is Demoralized, and you may deal 4d10 Sorrow damage to its HP. You must trigger this at least 5 times per day. Failure to complete your end of the pact will result in you losing your Bonus Action every turn for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Weeping Star Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, choose up to 5 creatures within 60 ft. They each make a DC 15 STR save or gain Despair for 3 turns and take 8d10 Sorrow damage to HP at the start of each of their turns while in Despair. You must end the pact with at least 120 total creature-turns of Despair caused by you. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Iron Pit
 _Infernal, Evil Alignment_
 
-**Tier 1 (1 day):** You gain resistance to Infernal damage. When you deal Infernal damage to a creature’s HP, it gains Hellfire. You must apply Hellfire at least 1 time today. Failure to complete your end of the pact will result in you gaining Hellfire for the next 12 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as a Bonus Action, choose one creature within 60 ft. It immediately gains Hellfire and takes 2d10 Infernal damage to its HP. You must apply Hellfire to at least 3 creatures each day. Failure to complete your end of the pact will result in you taking 1d8 Infernal damage to HP at the start of each of your turns for the next 12 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Pit Aura centered on you for 1 minute. Enemies that start their turn in the aura take 3d10 Infernal damage to HP. If they have Hellfire, they take an additional 2d10 Infernal damage to HP. You must cause at least 200 total Infernal damage during the pact duration. Failure to complete your end of the pact will result in you permanently losing 1 Ap.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, as a Reaction when a creature within 60 ft removes a condition, you may force it to make a DC 15 CON save. On a fail, the removal fails and it gains Hellfire. You must cause at least 10 failed removals during the pact duration. Failure to complete your end of the pact will result in you being unable to remove Hellfire from yourself by any means for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Iron Pit Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, choose one creature within 60 ft. For 3 turns, it takes 8d10 Infernal damage to HP at the start of its turn and has Hellfire the entire time. You must kill at least 20 creatures while they have Hellfire during the pact duration. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Black Mirror
 _Obsidian_
 
-**Tier 1 (1 day):** You gain resistance to Obsidian damage. Once per turn when you deal Obsidian damage, you may reduce the target’s AC by 2 until the start of your next turn. You must reduce AC this way at least 3 times today. Failure to complete your end of the pact will result in you permanently losing 2 AC for the next 12 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as a Reaction when a creature within 60 ft hits you with an attack roll, you may reflect the attack roll onto a different creature within 30 ft of you (same roll, same damage type). You must successfully reflect at least 1 hit per day. Failure to complete your end of the pact will result in you being unable to take Reactions for the next 30 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, as an Action, create a 30 ft radius Mirror Field within 60 ft for 1 minute. The first time each round an enemy inside makes an attack roll, it rolls twice and uses the lower result. If it misses, it takes 2d10 Obsidian damage to its HP. You must cause at least 30 total misses inside Mirror Field during the pact duration. Failure to complete your end of the pact will result in you having double disadvantage on all attack rolls for the next 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, as an Action, choose one creature within 60 ft. For 3 turns, the first time each turn it would gain advantage, it instead gains disadvantage and takes 3d10 Obsidian damage to HP. You must apply this to at least 1 creature per day. Failure to complete your end of the pact will result in you being unable to gain advantage from any source for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Black Mirror Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, create a 60 ft radius Glass Doom within 120 ft for 3 turns. Enemies inside take 8d10 Obsidian damage to HP at the start of their turns, and the first time each turn they roll a d20 they roll twice and take the lower. You must deal at least 600 total Obsidian damage during the pact duration. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Eternal Stain 
 _Corruption, Evil Alignment_
 
-**Tier 1 (1 day):** Once per turn when you deal Corruption damage, you may also apply Cursed for 1 minute. You must apply Cursed at least 2 times today. Failure to complete your end of the pact will result in you taking 1d4 Corruption damage to HP at the start of each of your turns for the next 12 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as an Action, choose one creature within 60 ft. It gains Cursed and takes 3d10 Corruption damage to HP. You must do this at least 2 times per day. Failure to complete your end of the pact will result in you being Cursed at all times for the next 30 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Stain Field within 60 ft for 1 minute. Enemies inside take 2d10 Corruption damage to HP at the start of their turns. If they are Cursed, they take an additional 2d10 Corruption damage to HP. You must cause at least 250 total Corruption damage during the pact duration. Failure to complete your end of the pact will result in you permanently losing 1 Ap and 1 BAp (if you have BAp).
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, as a Reaction when a creature within 60 ft would remove Cursed, you may negate that removal and instead deal 4d10 Corruption damage to its HP. You must negate at least 1 removal attempt per day. Failure to complete your end of the pact will result in you being unable to remove Cursed from yourself by any means for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Eternal Stain Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, choose up to 5 creatures within 60 ft. They each gain Cursed and at the start of each of their turns for 3 turns they take 6d10 Corruption damage to HP. You must end the pact with at least 300 total creature-turns where a creature had Cursed at the start of its turn (track cumulative). Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
 ## Breath of Ruin
 _Miasma, Evil Alignment_
 
-**Tier 1 (1 day):** You gain resistance to Miasma damage. Once per turn when you deal Miasma damage, you may also apply Poisoned for 1 turn (no save). You must apply Poisoned at least 3 times today. Failure to complete your end of the pact will result in you being Poisoned (3 stacks) for the next 12 days.
+**Tier 1 (1 day):** 
 
-**Tier 2 (3 days):** Once per combat, as a Bonus Action, create a 15 ft radius haze centered on you until the start of your next turn. Enemies inside have disadvantage on skill checks and take 2d10 Miasma damage to HP at the start of their turn if they remain inside. You must create this haze at least 5 times per day. Failure to complete your end of the pact will result in you being Mute for the next 30 days.
+**Tier 2 (3 days):** 
 
-**Tier 3 (7 days):** Once per long rest, create a 30 ft radius Ruin Fog within 60 ft for 1 minute. Enemies inside take 3d10 Miasma damage to HP at the start of their turns and have disadvantage on saving throws while inside. You must deal at least 400 total Miasma damage during the pact duration. Failure to complete your end of the pact will result in you being unable to regain Vitality by any means for the next 30 days.
+**Tier 3 (7 days):** 
 
-**Tier 4 (12 days):** Once per long rest, as an Action, choose one creature within 60 ft. It must make a DC 15 CON save. On a fail, it gains Suffocating for 3 turns and Poisoned (2 stacks). You must successfully apply this effect at least 1 time per day. Failure to complete your end of the pact will result in you starting every combat Suffocating for 3 turns for the next 30 days.
+**Tier 4 (12 days):** 
 
-**Tier 5 (30 days):** You gain all Breath of Ruin Tier 1–4 benefits while this pact is active. In addition, once per combat, as an Action, create a 60 ft radius Extinction Mist within 120 ft for 3 turns. Enemies inside immediately gain Poisoned (3 stacks) and at the start of their turns take 8d10 Miasma damage to HP. You must end the pact with at least 150 total creature-turns of Poisoned caused by you. Failure to complete your end of the pact will result in permanent death. You cannot be revived by any means.
+**Tier 5 (30 days):** 
