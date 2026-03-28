@@ -89,7 +89,7 @@ Skin is rarely visible and is dark gray to black where exposed. Feathers are uni
 - **Tier 2:** **Crow Mind.** Gain +2 to Investigation and +2 to Search and +3 to your INT score. Gain +2 Necrotic Affinity. 
 - **Tier 3:** **Shadow Hop.** Once per combat as a BAp, move 15 ft without provoking reactions.    
 - **Tier 4:** **Necrotic Resilience.** Gain Resistance to Necrotic, your Base Melee Damage from Carrion Cut increases to 1d8. Gain +3 Necrotic Affinity. 
-- **Tier 5:** **Black Omen.** Once per combat as an Action, a creature within 30 ft must pass a WIS save (DC 10 + INT mod + Racial Tier) or take 2d10 Necrotic necrotic damage and gain 1 stack of Slow Death.
+- **Tier 5:** **Black Omen.** Once per combat as an Action, a creature within 30 ft must pass a WIS save (DC 10 + INT mod + Racial Tier) or take 2d10 Necrotic damage and gain 1 stack of Slow Death.
 - **Tier 6:** **Air Resilience.** Gain Resistance to Air, when you would normally deal damage as necrotic you may instead choose to deal air damage.
 - **Tier 7:** **Murder Swarm.** If you have at least two allies within 10 ft of you, you and your allies gain +5 + Racial Tier Necrotic damage on all melee and ranged attacks. 
 - **Tier 8:** **Unseen Flier.** Gain advantage on Stealth checks while flying or in dim light/darkness.

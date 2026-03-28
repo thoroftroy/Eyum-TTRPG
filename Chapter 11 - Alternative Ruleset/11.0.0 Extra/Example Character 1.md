@@ -1,16 +1,16 @@
 
-| Character Information |     |                           |     | Stats                  | (Stat) | (Modifier) |
-| --------------------- | --- | ------------------------- | --- | ---------------------- | ------ | ---------- |
-| Name                  |     | Level                     | 1   | Strength               | 8      | -1         |
-| Race                  |     | Inspiration               | 0   | Dexterity              | 8      | -1         |
-| Background            |     | Armor Class               |     | Consitution            | 8      | -1         |
-| Title(s)              |     | Initiative                |     | Wisdom                 | 8      | -1         |
-| Sex                   |     | Speed                     |     | Intelligence           | 8      | -1         |
-| Size                  |     | Alignment                 |     | Charisma               | 8      | -1         |
-| Height                |     | Proficiency Bonus         | +1  |                        |        |            |
-| Weight                |     | Action Points (Ap)        | 1   | Stat Points (Stp)      | 24     |            |
-| Build                 |     | Bonus Action Points (BAp) | 1   | Skill Points (Skp)     | 5      |            |
-| Age                   |     | Reaction Points (Rp)      | 1   | Affinity Points (Affp) | 5      |            |
+| Character Information |            |                           |     | Stats                  | (Stat) | (Modifier) |
+| --------------------- | ---------- | ------------------------- | --- | ---------------------- | ------ | ---------- |
+| Name                  | WizardTest | Level                     | 1   | Strength               | 8      | -1         |
+| Race                  |            | Inspiration               | 0   | Dexterity              | 8      | -1         |
+| Background            |            | Armor Class               |     | Consitution            | 8      | -1         |
+| Title(s)              |            | Initiative                |     | Wisdom                 | 8      | -1         |
+| Sex                   |            | Speed                     |     | Intelligence           | 8      | -1         |
+| Size                  |            | Alignment                 |     | Charisma               | 8      | -1         |
+| Height                |            | Proficiency Bonus         | +1  |                        |        |            |
+| Weight                |            | Action Points (Ap)        | 1   | Stat Points (Stp)      | 24     |            |
+| Build                 |            | Bonus Action Points (BAp) | 1   | Skill Points (Skp)     | 5      |            |
+| Age                   |            | Reaction Points (Rp)      | 1   | Affinity Points (Affp) | 5      |            |
 
 |                | Max | Current | Dice |     |         | Base Damage | Base Accuracy |
 | -------------- | --- | ------- | ---- | --- | ------- | ----------- | ------------- |
