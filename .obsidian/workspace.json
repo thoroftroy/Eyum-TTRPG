@@ -6,55 +6,19 @@
       {
         "id": "309b9fbd1321faa9",
         "type": "tabs",
-        "dimension": 54.631979695431475,
         "children": [
           {
-            "id": "01544e7e2062a373",
+            "id": "23109e11fcaadbfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eyum TTRPG/1.7 Monsters/1.7.1 Passives and Actives List.md",
+                "file": "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.7.1 Passives and Actives List"
-            }
-          },
-          {
-            "id": "08134f751ab6cd19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/1.7 Monsters/1.7.2 Monster List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.7.2 Monster List"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9c24a0ef6c43e689",
-        "type": "tabs",
-        "dimension": 45.36802030456853,
-        "children": [
-          {
-            "id": "a6439fab077cb41c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/1.7 Monsters/1.7 Monsters.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.7 Monsters"
+              "title": "0 Table of Contents"
             }
           }
         ]
@@ -219,18 +183,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "01544e7e2062a373",
+  "active": "23109e11fcaadbfe",
   "lastOpenFiles": [
-    "Eyum TTRPG/1.7 Monsters/1.7 Monsters.md",
     "Eyum TTRPG/1.7 Monsters/1.7.1 Passives and Actives List.md",
-    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster List.md",
+    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster Lists/1.7.2.5 Monster List (DR 1).md",
+    "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
+    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster Lists/1.7.2.2 Monster List (DR 0.4).md",
+    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster Lists/1.7.2.1 Monster List (DR 0.2).md",
+    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster Lists/1.7.2.4 Monster List (DR 0.8).md",
+    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster Lists/1.7.2.3 Monster List (DR 0.6).md",
+    "Eyum TTRPG/1.7 Monsters/1.7.2 Monster Lists",
+    "Eyum TTRPG/1.7 Monsters/1.7 Monsters.md",
+    "Handbook.txt",
+    "squish_2026-03-30_214926.txt",
+    "squish_2026-03-30_212925.txt",
+    "merged_files",
     "Eyum TTRPG/1.7 Monsters/DR <1.md",
     "Eyum TTRPG/1.7 Monsters/DR 1.md",
     "Eyum TTRPG/1.7 Monsters/DR 2.md",
     "Eyum TTRPG/1.7 Monsters/DR 3.md",
     "Eyum TTRPG/1.4 Races/Undead and Subraces.md",
     "Eyum TTRPG/1.4 Races/Bugfolk and Subraces.md",
-    "Handbook.txt",
     "squish_2026-03-29_201726.txt",
     "assets/Draugir.jpg",
     "assets/Dryad.jpg",
@@ -248,7 +221,6 @@
     "Eyum TTRPG/1.4 Races/Fishfolk and Subraces.md",
     "Eyum TTRPG/1.4 Races/Harpy and Subraces.md",
     "Eyum TTRPG/1.4 Races/Human and Subraces.md",
-    "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
     "README.md",
     "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
     "index.md",
@@ -258,14 +230,6 @@
     "README.txt",
     "package.json",
     "site/styles.css",
-    "site/index.html",
-    "site/app.js",
-    "site",
-    "scripts/build.mjs",
-    "scripts",
-    "Eyum TTRPG/1.6 Magics/1.6.1 Runes.md",
-    "Eyum TTRPG/1.6 Magics/1.6.0 Spells.md",
-    "Eyum TTRPG/1.4 Races/1.4.0 Races.md",
-    "Eyum TTRPG/1.3 Character Management/1.3.2 Character Information.md"
+    "site/index.html"
   ]
 }
