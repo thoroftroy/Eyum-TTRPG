@@ -48,8 +48,4 @@
 1.7 Monsters (Very WIP)
 - [[1.7 Monsters]]
 - [[1.7.1 Passives and Actives List]]
-	- [[1.7.2.1 Monster List (DR 0.2)]]
-	- [[1.7.2.2 Monster List (DR 0.4)]]
-	- [[1.7.2.3 Monster List (DR 0.6)]]
-	- [[1.7.2.4 Monster List (DR 0.8)]]
-	- [[1.7.2.5 Monster List (DR 1)]]
+	- [[1.7.2.0 Monster Planner]]
