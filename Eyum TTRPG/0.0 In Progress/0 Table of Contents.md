@@ -48,4 +48,11 @@
 1.7 Monsters (Very WIP)
 - [[1.7 Monsters]]
 - [[1.7.1 Passives and Actives List]]
+- 1.7.2 Monster Lists
 	- [[1.7.2.0 Monster Planner]]
+	- [[1.7.2.1 Slimes]]
+	- [[1.7.2.1 Golems]]
+	- [[1.7.2.1 Dragons]]
+	- [[1.7.2.1 Chimera]]
+	- [[1.7.2.2 Modifiers]]
+	- [[1.7.2.3 Unique Monsters]]
