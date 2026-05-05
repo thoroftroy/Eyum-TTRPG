@@ -6,12 +6,12 @@ EYUM TTRPG - PYROMANCER
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 30 (+10)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -21,15 +21,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +1
 
   HEALTH POOLS:
-    Vitality:  ~  9  (2d8)
-    Health:    ~  7  (2d6)
-    Mana:      ~ 29  (2d8)
+    Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
+    Health:  7 = 2d6 (3 x 2) + 0(flat)
+    Mana:   17 = 2d8 (4 x 2) + 4 x 2(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 4 (x2 mana)
+    Total Dmg/10R: 32
 
   RESOURCES:
     Skill Points:  7
     Stat Points:   0
-    Affinity Pts:  5
-    Stat Spent:    24
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  0
@@ -40,6 +46,7 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 0)
 
   AFFINITIES:
+    Fire           : 5
     Generic        : 3
 
 ============================================================
@@ -47,12 +54,12 @@ EYUM TTRPG - PYROMANCER
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 30 (+10)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -62,15 +69,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +1
 
   HEALTH POOLS:
-    Vitality:  ~ 13  (3d8)
-    Health:    ~ 10  (3d6)
-    Mana:      ~ 43  (3d8)
+    Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
+    Health:  10 = 3d6 (3 x 3) + 0(flat)
+    Mana:   25 = 3d8 (4 x 3) + 4 x 3(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 7 (x2 mana)
+    Total Dmg/10R: 70
 
   RESOURCES:
     Skill Points:  9
     Stat Points:   0
-    Affinity Pts:  5
-    Stat Spent:    24
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  0
@@ -81,38 +94,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 1)
 
   AFFINITIES:
-    Fire           : 4
-    Generic        : 3
+    Fire           : 9
+    Generic        : 4
 
 ============================================================
   Pyromancer - Level 3
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
-    Proficiency: +2
+    Proficiency: +1
 
   HEALTH POOLS:
-    Vitality:  ~ 18  (4d8)
-    Health:    ~ 14  (4d6)
-    Mana:      ~ 58  (4d8)
+    Vitality: 22 = 4d8 (4 x 4) + 0(flat) + 1 x 4(Con)
+    Health:  14 = 4d6 (3 x 4) + 0(flat)
+    Mana:   34 = 4d8 (4 x 4) + 4 x 4(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 9 (x2 mana)
+    Total Dmg/10R: 90
 
   RESOURCES:
     Skill Points:  11
     Stat Points:   0
-    Affinity Pts:  7
-    Stat Spent:    25
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  1
@@ -123,20 +142,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 1)
 
   AFFINITIES:
-    Fire           : 4
-    Generic        : 3
+    Fire           : 11
+    Generic        : 4
 
 ============================================================
   Pyromancer - Level 4
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -146,15 +165,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +2
 
   HEALTH POOLS:
-    Vitality:  ~ 22  (5d8)
-    Health:    ~ 17  (5d6)
-    Mana:      ~ 72  (5d8)
+    Vitality: 27 = 5d8 (4 x 5) + 0(flat) + 1 x 5(Con)
+    Health:  17 = 5d6 (3 x 5) + 0(flat)
+    Mana:   42 = 5d8 (4 x 5) + 4 x 5(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 10 (x2 mana)
+    Total Dmg/10R: 100
 
   RESOURCES:
     Skill Points:  13
     Stat Points:   0
-    Affinity Pts:  9
-    Stat Spent:    25
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  1
@@ -165,20 +190,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 1)
 
   AFFINITIES:
-    Fire           : 4
-    Generic        : 3
+    Fire           : 13
+    Generic        : 5
 
 ============================================================
   Pyromancer - Level 5
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -188,15 +213,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +2
 
   HEALTH POOLS:
-    Vitality:  ~ 27  (6d8)
-    Health:    ~ 21  (6d6)
-    Mana:      ~ 87  (6d8)
+    Vitality: 33 = 6d8 (4 x 6) + 0(flat) + 1 x 6(Con)
+    Health:  21 = 6d6 (3 x 6) + 0(flat)
+    Mana:   51 = 6d8 (4 x 6) + 4 x 6(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 10 (x2 mana)
+    Total Dmg/10R: 100
 
   RESOURCES:
     Skill Points:  15
     Stat Points:   0
-    Affinity Pts:  9
-    Stat Spent:    25
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  1
@@ -207,38 +238,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 1)
 
   AFFINITIES:
-    Fire           : 4
-    Generic        : 3
+    Fire           : 13
+    Generic        : 5
 
 ============================================================
   Pyromancer - Level 6
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
-    Proficiency: +3
+    Proficiency: +2
 
   HEALTH POOLS:
-    Vitality:  ~ 31  (7d8)
-    Health:    ~ 24  (7d6)
-    Mana:      ~101  (7d8)
+    Vitality: 38 = 7d8 (4 x 7) + 0(flat) + 1 x 7(Con)
+    Health:  24 = 7d6 (3 x 7) + 0(flat)
+    Mana:   59 = 7d8 (4 x 7) + 4 x 7(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 12 (x2 mana)
+    Total Dmg/10R: 120
 
   RESOURCES:
     Skill Points:  17
     Stat Points:   0
-    Affinity Pts:  11
-    Stat Spent:    26
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  2
@@ -249,20 +286,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 2)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 16
+    Generic        : 6
 
 ============================================================
   Pyromancer - Level 7
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -272,15 +309,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +3
 
   HEALTH POOLS:
-    Vitality:  ~ 36  (8d8)
-    Health:    ~ 28  (8d6)
-    Mana:      ~116  (8d8)
+    Vitality: 44 = 8d8 (4 x 8) + 0(flat) + 1 x 8(Con)
+    Health:  28 = 8d6 (3 x 8) + 0(flat)
+    Mana:   68 = 8d8 (4 x 8) + 4 x 8(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 12 (x2 mana)
+    Total Dmg/10R: 120
 
   RESOURCES:
     Skill Points:  19
     Stat Points:   0
-    Affinity Pts:  11
-    Stat Spent:    26
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  2
@@ -291,20 +334,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 2)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 16
+    Generic        : 6
 
 ============================================================
   Pyromancer - Level 8
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -314,15 +357,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +3
 
   HEALTH POOLS:
-    Vitality:  ~ 40  (9d8)
-    Health:    ~ 31  (9d6)
-    Mana:      ~130  (9d8)
+    Vitality: 49 = 9d8 (4 x 9) + 0(flat) + 1 x 9(Con)
+    Health:  31 = 9d6 (3 x 9) + 0(flat)
+    Mana:   76 = 9d8 (4 x 9) + 4 x 9(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 12 (x2 mana)
+    Total Dmg/10R: 120
 
   RESOURCES:
     Skill Points:  21
     Stat Points:   0
-    Affinity Pts:  11
-    Stat Spent:    26
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  2
@@ -333,38 +382,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 2)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 16
+    Generic        : 7
 
 ============================================================
   Pyromancer - Level 9
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
-    Proficiency: +4
+    Proficiency: +3
 
   HEALTH POOLS:
-    Vitality:  ~ 45  (10d8)
-    Health:    ~ 35  (10d6)
-    Mana:      ~145  (10d8)
+    Vitality: 55 = 10d8 (4 x 10) + 0(flat) + 1 x 10(Con)
+    Health:  35 = 10d6 (3 x 10) + 0(flat)
+    Mana:   85 = 10d8 (4 x 10) + 4 x 10(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 14 (x2 mana)
+    Total Dmg/10R: 140
 
   RESOURCES:
     Skill Points:  23
     Stat Points:   0
-    Affinity Pts:  13
-    Stat Spent:    27
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  3
@@ -375,20 +430,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 2)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 18
+    Generic        : 7
 
 ============================================================
   Pyromancer - Level 10
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -398,15 +453,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +4
 
   HEALTH POOLS:
-    Vitality:  ~ 49  (11d8)
-    Health:    ~ 38  (11d6)
-    Mana:      ~159  (11d8)
+    Vitality: 60 = 11d8 (4 x 11) + 0(flat) + 1 x 11(Con)
+    Health:  38 = 11d6 (3 x 11) + 0(flat)
+    Mana:   93 = 11d8 (4 x 11) + 4 x 11(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 14 (x2 mana)
+    Total Dmg/10R: 140
 
   RESOURCES:
     Skill Points:  25
     Stat Points:   0
-    Affinity Pts:  13
-    Stat Spent:    27
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  3
@@ -417,20 +478,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 18
+    Generic        : 8
 
 ============================================================
   Pyromancer - Level 11
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 31 (+10)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -440,15 +501,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +4
 
   HEALTH POOLS:
-    Vitality:  ~ 54  (12d8)
-    Health:    ~ 42  (12d6)
-    Mana:      ~174  (12d8)
+    Vitality: 66 = 12d8 (4 x 12) + 0(flat) + 1 x 12(Con)
+    Health:  42 = 12d6 (3 x 12) + 0(flat)
+    Mana:   102 = 12d8 (4 x 12) + 4 x 12(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 14 (x2 mana)
+    Total Dmg/10R: 140
 
   RESOURCES:
     Skill Points:  27
     Stat Points:   0
-    Affinity Pts:  13
-    Stat Spent:    27
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  3
@@ -459,38 +526,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 18
+    Generic        : 8
 
 ============================================================
   Pyromancer - Level 12
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
+    Proficiency: +4
 
   HEALTH POOLS:
-    Vitality:  ~ 58  (13d8)
-    Health:    ~ 45  (13d6)
-    Mana:      ~214  (13d10)
+    Vitality: 71 = 13d8 (4 x 13) + 0(flat) + 1 x 13(Con)
+    Health:  45 = 13d6 (3 x 13) + 0(flat)
+    Mana:   123 = 13d10 (5 x 13) + 4 x 13(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 15 (x2 mana)
+    Total Dmg/10R: 150
 
   RESOURCES:
     Skill Points:  29
     Stat Points:   0
-    Affinity Pts:  15
-    Stat Spent:    28
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  4
@@ -501,20 +574,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 20
+    Generic        : 9
 
 ============================================================
   Pyromancer - Level 13
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -524,15 +597,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +5
 
   HEALTH POOLS:
-    Vitality:  ~ 63  (14d8)
-    Health:    ~ 49  (14d6)
-    Mana:      ~231  (14d10)
+    Vitality: 77 = 14d8 (4 x 14) + 0(flat) + 1 x 14(Con)
+    Health:  49 = 14d6 (3 x 14) + 0(flat)
+    Mana:   133 = 14d10 (5 x 14) + 4 x 14(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 15 (x2 mana)
+    Total Dmg/10R: 150
 
   RESOURCES:
     Skill Points:  31
     Stat Points:   0
-    Affinity Pts:  15
-    Stat Spent:    28
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  4
@@ -543,20 +622,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 20
+    Generic        : 9
 
 ============================================================
   Pyromancer - Level 14
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -566,15 +645,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +5
 
   HEALTH POOLS:
-    Vitality:  ~ 67  (15d8)
-    Health:    ~ 52  (15d6)
-    Mana:      ~247  (15d10)
+    Vitality: 82 = 15d8 (4 x 15) + 0(flat) + 1 x 15(Con)
+    Health:  52 = 15d6 (3 x 15) + 0(flat)
+    Mana:   142 = 15d10 (5 x 15) + 4 x 15(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 15 (x2 mana)
+    Total Dmg/10R: 150
 
   RESOURCES:
     Skill Points:  33
     Stat Points:   0
-    Affinity Pts:  15
-    Stat Spent:    28
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  4
@@ -585,38 +670,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 20
+    Generic        : 10
 
 ============================================================
   Pyromancer - Level 15
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
-    Proficiency: +6
+    Proficiency: +5
 
   HEALTH POOLS:
-    Vitality:  ~ 72  (16d8)
-    Health:    ~ 56  (16d6)
-    Mana:      ~264  (16d10)
+    Vitality: 88 = 16d8 (4 x 16) + 0(flat) + 1 x 16(Con)
+    Health:  56 = 16d6 (3 x 16) + 0(flat)
+    Mana:   152 = 16d10 (5 x 16) + 4 x 16(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 17 (x2 mana)
+    Total Dmg/10R: 170
 
   RESOURCES:
     Skill Points:  35
     Stat Points:   0
-    Affinity Pts:  17
-    Stat Spent:    29
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  5
@@ -627,20 +718,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 22
+    Generic        : 10
 
 ============================================================
   Pyromancer - Level 16
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -650,15 +741,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +6
 
   HEALTH POOLS:
-    Vitality:  ~ 76  (17d8)
-    Health:    ~ 59  (17d6)
-    Mana:      ~280  (17d10)
+    Vitality: 93 = 17d8 (4 x 17) + 0(flat) + 1 x 17(Con)
+    Health:  59 = 17d6 (3 x 17) + 0(flat)
+    Mana:   161 = 17d10 (5 x 17) + 4 x 17(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 17 (x2 mana)
+    Total Dmg/10R: 170
 
   RESOURCES:
     Skill Points:  37
     Stat Points:   0
-    Affinity Pts:  17
-    Stat Spent:    29
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  5
@@ -669,20 +766,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 22
+    Generic        : 11
 
 ============================================================
   Pyromancer - Level 17
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -692,15 +789,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +6
 
   HEALTH POOLS:
-    Vitality:  ~ 81  (18d8)
-    Health:    ~ 63  (18d6)
-    Mana:      ~297  (18d10)
+    Vitality: 99 = 18d8 (4 x 18) + 0(flat) + 1 x 18(Con)
+    Health:  63 = 18d6 (3 x 18) + 0(flat)
+    Mana:   171 = 18d10 (5 x 18) + 4 x 18(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 17 (x2 mana)
+    Total Dmg/10R: 170
 
   RESOURCES:
     Skill Points:  39
     Stat Points:   0
-    Affinity Pts:  17
-    Stat Spent:    29
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  5
@@ -711,38 +814,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 22
+    Generic        : 11
 
 ============================================================
   Pyromancer - Level 18
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
-    Proficiency: +7
+    Proficiency: +6
 
   HEALTH POOLS:
-    Vitality:  ~ 85  (19d8)
-    Health:    ~ 66  (19d6)
-    Mana:      ~313  (19d10)
+    Vitality: 104 = 19d8 (4 x 19) + 0(flat) + 1 x 19(Con)
+    Health:  66 = 19d6 (3 x 19) + 0(flat)
+    Mana:   180 = 19d10 (5 x 19) + 4 x 19(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 18 (x2 mana)
+    Total Dmg/10R: 180
 
   RESOURCES:
     Skill Points:  41
     Stat Points:   0
-    Affinity Pts:  19
-    Stat Spent:    30
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  6
@@ -753,20 +862,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 24
+    Generic        : 12
 
 ============================================================
   Pyromancer - Level 19
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -776,15 +885,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +7
 
   HEALTH POOLS:
-    Vitality:  ~ 90  (20d8)
-    Health:    ~ 70  (20d6)
-    Mana:      ~330  (20d10)
+    Vitality: 110 = 20d8 (4 x 20) + 0(flat) + 1 x 20(Con)
+    Health:  70 = 20d6 (3 x 20) + 0(flat)
+    Mana:   190 = 20d10 (5 x 20) + 4 x 20(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 18 (x2 mana)
+    Total Dmg/10R: 180
 
   RESOURCES:
     Skill Points:  43
     Stat Points:   0
-    Affinity Pts:  19
-    Stat Spent:    30
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  6
@@ -795,20 +910,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 24
+    Generic        : 12
 
 ============================================================
   Pyromancer - Level 20
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 32 (+11)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -818,15 +933,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +7
 
   HEALTH POOLS:
-    Vitality:  ~ 94  (21d8)
-    Health:    ~ 73  (21d6)
-    Mana:      ~346  (21d10)
+    Vitality: 115 = 21d8 (4 x 21) + 0(flat) + 1 x 21(Con)
+    Health:  73 = 21d6 (3 x 21) + 0(flat)
+    Mana:   199 = 21d10 (5 x 21) + 4 x 21(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 18 (x2 mana)
+    Total Dmg/10R: 180
 
   RESOURCES:
     Skill Points:  45
     Stat Points:   0
-    Affinity Pts:  19
-    Stat Spent:    30
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  6
@@ -837,20 +958,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 24
+    Generic        : 13
 
 ============================================================
   Pyromancer - Level 25
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 33 (+11)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -860,15 +981,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +9
 
   HEALTH POOLS:
-    Vitality:  ~117  (26d8)
-    Health:    ~ 91  (26d6)
-    Mana:      ~429  (26d10)
+    Vitality: 143 = 26d8 (4 x 26) + 0(flat) + 1 x 26(Con)
+    Health:  91 = 26d6 (3 x 26) + 0(flat)
+    Mana:   247 = 26d10 (5 x 26) + 4 x 26(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 21 (x2 mana)
+    Total Dmg/10R: 210
 
   RESOURCES:
     Skill Points:  55
     Stat Points:   0
-    Affinity Pts:  23
-    Stat Spent:    32
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  8
@@ -879,38 +1006,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 28
+    Generic        : 15
 
 ============================================================
   Pyromancer - Level 30
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 34 (+12)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
-    Proficiency: +11
+    Proficiency: +10
 
   HEALTH POOLS:
-    Vitality:  ~139  (31d8)
-    Health:    ~108  (31d6)
-    Mana:      ~542  (31d10)
+    Vitality: 170 = 31d8 (4 x 31) + 0(flat) + 1 x 31(Con)
+    Health:  108 = 31d6 (3 x 31) + 0(flat)
+    Mana:   294 = 31d10 (5 x 31) + 4 x 31(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 24 (x2 mana)
+    Total Dmg/10R: 240
 
   RESOURCES:
     Skill Points:  65
     Stat Points:   0
-    Affinity Pts:  27
-    Stat Spent:    34
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  10
@@ -921,20 +1054,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 32
+    Generic        : 18
 
 ============================================================
   Pyromancer - Level 40
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 35 (+12)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -944,15 +1077,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +14
 
   HEALTH POOLS:
-    Vitality:  ~184  (41d8)
-    Health:    ~143  (41d6)
-    Mana:      ~717  (41d10)
+    Vitality: 225 = 41d8 (4 x 41) + 0(flat) + 1 x 41(Con)
+    Health:  143 = 41d6 (3 x 41) + 0(flat)
+    Mana:   389 = 41d10 (5 x 41) + 4 x 41(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 29 (x2 mana)
+    Total Dmg/10R: 290
 
   RESOURCES:
     Skill Points:  85
     Stat Points:   0
-    Affinity Pts:  33
-    Stat Spent:    37
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  13
@@ -963,20 +1102,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 38
+    Generic        : 23
 
 ============================================================
   Pyromancer - Level 50
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 36 (+13)
-    INT: 14 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -986,15 +1125,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +17
 
   HEALTH POOLS:
-    Vitality:  ~229  (51d8)
-    Health:    ~178  (51d6)
-    Mana:      ~943  (51d10)
+    Vitality: 280 = 51d8 (4 x 51) + 0(flat) + 1 x 51(Con)
+    Health:  178 = 51d6 (3 x 51) + 0(flat)
+    Mana:   484 = 51d10 (5 x 51) + 4 x 51(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 33 (x2 mana)
+    Total Dmg/10R: 330
 
   RESOURCES:
     Skill Points:  105
     Stat Points:   0
-    Affinity Pts:  39
-    Stat Spent:    40
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  16
@@ -1005,38 +1150,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 44
+    Generic        : 28
 
 ============================================================
   Pyromancer - Level 60
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 37 (+13)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
-    Proficiency: +21
+    Proficiency: +20
 
   HEALTH POOLS:
-    Vitality:  ~274  (61d8)
-    Health:    ~213  (61d6)
-    Mana:      ~1128  (61d10)
+    Vitality: 335 = 61d8 (4 x 61) + 0(flat) + 1 x 61(Con)
+    Health:  213 = 61d6 (3 x 61) + 0(flat)
+    Mana:   579 = 61d10 (5 x 61) + 4 x 61(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 39 (x2 mana)
+    Total Dmg/10R: 390
 
   RESOURCES:
     Skill Points:  125
     Stat Points:   0
-    Affinity Pts:  47
-    Stat Spent:    44
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  20
@@ -1047,20 +1198,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 52
+    Generic        : 33
 
 ============================================================
   Pyromancer - Level 70
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 38 (+14)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -1070,15 +1221,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +24
 
   HEALTH POOLS:
-    Vitality:  ~319  (71d8)
-    Health:    ~248  (71d6)
-    Mana:      ~1384  (71d10)
+    Vitality: 390 = 71d8 (4 x 71) + 0(flat) + 1 x 71(Con)
+    Health:  248 = 71d6 (3 x 71) + 0(flat)
+    Mana:   674 = 71d10 (5 x 71) + 4 x 71(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 44 (x2 mana)
+    Total Dmg/10R: 440
 
   RESOURCES:
     Skill Points:  145
     Stat Points:   0
-    Affinity Pts:  53
-    Stat Spent:    47
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  23
@@ -1089,20 +1246,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 58
+    Generic        : 38
 
 ============================================================
   Pyromancer - Level 80
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 39 (+14)
-    INT: 15 (+2)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -1112,15 +1269,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +27
 
   HEALTH POOLS:
-    Vitality:  ~364  (81d8)
-    Health:    ~283  (81d6)
-    Mana:      ~1579  (81d10)
+    Vitality: 445 = 81d8 (4 x 81) + 0(flat) + 1 x 81(Con)
+    Health:  283 = 81d6 (3 x 81) + 0(flat)
+    Mana:   769 = 81d10 (5 x 81) + 4 x 81(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 48 (x2 mana)
+    Total Dmg/10R: 480
 
   RESOURCES:
     Skill Points:  165
     Stat Points:   0
-    Affinity Pts:  59
-    Stat Spent:    50
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  26
@@ -1131,38 +1294,44 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 64
+    Generic        : 43
 
 ============================================================
   Pyromancer - Level 90
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 40 (+15)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
     Initiative: +0
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
-    Proficiency: +31
+    Proficiency: +30
 
   HEALTH POOLS:
-    Vitality:  ~409  (91d8)
-    Health:    ~318  (91d6)
-    Mana:      ~1865  (91d10)
+    Vitality: 500 = 91d8 (4 x 91) + 0(flat) + 1 x 91(Con)
+    Health:  318 = 91d6 (3 x 91) + 0(flat)
+    Mana:   864 = 91d10 (5 x 91) + 4 x 91(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 54 (x2 mana)
+    Total Dmg/10R: 540
 
   RESOURCES:
     Skill Points:  185
     Stat Points:   0
-    Affinity Pts:  67
-    Stat Spent:    54
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  30
@@ -1173,20 +1342,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 72
+    Generic        : 48
 
 ============================================================
   Pyromancer - Level 100
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 41 (+15)
-    INT: 16 (+3)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -1196,15 +1365,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +34
 
   HEALTH POOLS:
-    Vitality:  ~454  (101d8)
-    Health:    ~353  (101d6)
-    Mana:      ~2070  (101d10)
+    Vitality: 555 = 101d8 (4 x 101) + 0(flat) + 1 x 101(Con)
+    Health:  353 = 101d6 (3 x 101) + 0(flat)
+    Mana:   959 = 101d10 (5 x 101) + 4 x 101(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 59 (x2 mana)
+    Total Dmg/10R: 590
 
   RESOURCES:
     Skill Points:  205
     Stat Points:   0
-    Affinity Pts:  73
-    Stat Spent:    57
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  33
@@ -1215,20 +1390,20 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 78
+    Generic        : 53
 
 ============================================================
   Pyromancer - Level 1000
 ============================================================
 
   STATS:
-    STR:  8 (-1)
-    DEX: 10 (+0)
-    CON: 10 (+0)
-    WIS: 86 (+38)
-    INT: 21 (+5)
-    CHA: 10 (+0)
+    STR:  8 (-1) = 8 + 0
+    DEX: 10 (+0) = 8 + 2
+    CON: 12 (+1) = 8 + 4
+    WIS: 18 (+4) = 8 + 10
+    INT: 14 (+2) = 8 + 6
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 10
@@ -1238,15 +1413,21 @@ EYUM TTRPG - PYROMANCER
     Proficiency: +334
 
   HEALTH POOLS:
-    Vitality:  ~4504  (1001d8)
-    Health:    ~3503  (1001d6)
-    Mana:      ~43543  (1001d10)
+    Vitality: 5505 = 1001d8 (4 x 1001) + 0(flat) + 1 x 1001(Con)
+    Health:  3503 = 1001d6 (3 x 1001) + 0(flat)
+    Mana:   9509 = 1001d10 (5 x 1001) + 4 x 1001(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 0
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 509 (x2 mana)
+    Total Dmg/10R: 5090
 
   RESOURCES:
     Skill Points:  2005
     Stat Points:   0
-    Affinity Pts:  673
-    Stat Spent:    357
+    Affinity Pts:  0
+    Stat Spent:    22
 
   FEATS & SPELLS:
     Feats:  333
@@ -1257,6 +1438,6 @@ EYUM TTRPG - PYROMANCER
     Magical -> Pyromancer (Lvl 3)
 
   AFFINITIES:
-    Fire           : 5
-    Generic        : 3
+    Fire           : 678
+    Generic        : 503
 

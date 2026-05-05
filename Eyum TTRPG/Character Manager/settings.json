@@ -1,7 +1,7 @@
 {
   "_comment": "Eyum TTRPG Generator Settings - Edit to match handbook changes",
   "rules": {
-    "base_stat_value": 10,
+    "base_stat_value": 8,
     "starting_points": {
       "skill_points": 5,
       "stat_points": 24,
@@ -222,7 +222,7 @@
   "builds": {
     "Physical Tank": {
       "description": "Tanky physical build with high CON and STR",
-      "base_stats": {"str": 16, "dex": 12, "con": 16, "wis": 10, "int": 8, "cha": 8},
+      "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
       "stat_priority": ["con", "str", "dex", "wis", "int", "cha"],
       "spend_stat_points": "all",
       "paths": [
@@ -235,7 +235,7 @@
     },
     "Pyromancer": {
       "description": "Fire mage with high WIS and INT",
-      "base_stats": {"str": 8, "dex": 10, "con": 10, "wis": 16, "int": 14, "cha": 10},
+      "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
       "stat_priority": ["wis", "int", "con", "dex", "cha", "str"],
       "spend_stat_points": "all",
       "paths": [
@@ -249,7 +249,7 @@
     },
     "Marksman": {
       "description": "Ranged DPS with high DEX",
-      "base_stats": {"str": 12, "dex": 16, "con": 14, "wis": 10, "int": 10, "cha": 8},
+      "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
       "stat_priority": ["dex", "con", "str", "wis", "int", "cha"],
       "spend_stat_points": "all",
       "paths": [
@@ -263,7 +263,7 @@
     },
     "Priest": {
       "description": "Support caster with high WIS and CHA",
-      "base_stats": {"str": 8, "dex": 10, "con": 10, "wis": 16, "int": 12, "cha": 14},
+      "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
       "stat_priority": ["wis", "cha", "int", "con", "dex", "str"],
       "spend_stat_points": "all",
       "paths": [
@@ -277,7 +277,7 @@
     },
     "Jack": {
       "description": "Hybrid build with balanced stats",
-      "base_stats": {"str": 12, "dex": 12, "con": 12, "wis": 12, "int": 12, "cha": 12},
+      "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
       "stat_priority": ["wis", "str", "dex", "con", "int", "cha"],
       "spend_stat_points": "all",
       "paths": [
@@ -292,7 +292,7 @@
     },
     "Necromancer": {
       "description": "Necrotic caster with high INT",
-      "base_stats": {"str": 8, "dex": 10, "con": 10, "wis": 14, "int": 16, "cha": 10},
+      "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
       "stat_priority": ["int", "wis", "con", "dex", "cha", "str"],
       "spend_stat_points": "all",
       "paths": [

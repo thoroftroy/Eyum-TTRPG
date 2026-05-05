@@ -6,12 +6,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 28 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -21,14 +21,20 @@ EYUM TTRPG - JACK
     Proficiency: +1
 
   HEALTH POOLS:
-    Vitality:  ~ 11  (2d8)
-    Health:    ~  7  (2d6)
-    Mana:      ~ 25  (2d6)
+    Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
+    Health:  7 = 2d6 (3 x 2) + 0(flat)
+    Mana:   9 = 2d6 (3 x 2) + 1 x 2(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 4 (x2 mana)
+    Total Dmg/10R: 21
 
   RESOURCES:
     Skill Points:  7
     Stat Points:   0
-    Affinity Pts:  5
+    Affinity Pts:  0
     Stat Spent:    24
 
   FEATS & SPELLS:
@@ -41,6 +47,7 @@ EYUM TTRPG - JACK
     Utility -> Scholar (Lvl 0)
 
   AFFINITIES:
+    Fire           : 5
     Generic        : 2
 
 ============================================================
@@ -48,12 +55,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 28 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -63,14 +70,20 @@ EYUM TTRPG - JACK
     Proficiency: +1
 
   HEALTH POOLS:
-    Vitality:  ~ 18  (3d8)
-    Health:    ~ 11  (3d6)
-    Mana:      ~ 37  (3d6)
+    Vitality: 18 = 3d8 (4 x 3) + 2(flat) + 1 x 3(Con)
+    Health:  11 = 3d6 (3 x 3) + 1(flat)
+    Mana:   13 = 3d6 (3 x 3) + 1 x 3(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 5 (x2 mana)
+    Total Dmg/10R: 35
 
   RESOURCES:
     Skill Points:  9
     Stat Points:   0
-    Affinity Pts:  5
+    Affinity Pts:  0
     Stat Spent:    24
 
   FEATS & SPELLS:
@@ -85,8 +98,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 1
-    Generic        : 2
+    Fire           : 6
+    Generic        : 3
     Water          : 1
 
 ============================================================
@@ -94,30 +107,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 29 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
-    Proficiency: +2
+    Proficiency: +1
 
   HEALTH POOLS:
-    Vitality:  ~ 24  (4d8)
-    Health:    ~ 15  (4d6)
-    Mana:      ~ 50  (4d6)
+    Vitality: 24 = 4d8 (4 x 4) + 2(flat) + 1 x 4(Con)
+    Health:  15 = 4d6 (3 x 4) + 1(flat)
+    Mana:   18 = 4d6 (3 x 4) + 1 x 4(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 6 (x2 mana)
+    Total Dmg/10R: 59
 
   RESOURCES:
     Skill Points:  11
     Stat Points:   0
-    Affinity Pts:  7
-    Stat Spent:    25
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  1
@@ -131,8 +150,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 1
-    Generic        : 2
+    Fire           : 8
+    Generic        : 3
     Water          : 1
 
 ============================================================
@@ -140,12 +159,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 29 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -155,15 +174,21 @@ EYUM TTRPG - JACK
     Proficiency: +2
 
   HEALTH POOLS:
-    Vitality:  ~ 31  (5d8)
-    Health:    ~ 19  (5d6)
-    Mana:      ~ 62  (5d6)
+    Vitality: 31 = 5d8 (4 x 5) + 4(flat) + 1 x 5(Con)
+    Health:  19 = 5d6 (3 x 5) + 2(flat)
+    Mana:   22 = 5d6 (3 x 5) + 1 x 5(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 6 (x2 mana)
+    Total Dmg/10R: 65
 
   RESOURCES:
     Skill Points:  13
     Stat Points:   0
-    Affinity Pts:  7
-    Stat Spent:    25
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  1
@@ -177,8 +202,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 1
-    Generic        : 2
+    Fire           : 8
+    Generic        : 4
     Water          : 1
 
 ============================================================
@@ -186,12 +211,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 29 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -201,15 +226,21 @@ EYUM TTRPG - JACK
     Proficiency: +2
 
   HEALTH POOLS:
-    Vitality:  ~ 37  (6d8)
-    Health:    ~ 23  (6d6)
-    Mana:      ~ 75  (6d6)
+    Vitality: 37 = 6d8 (4 x 6) + 4(flat) + 1 x 6(Con)
+    Health:  23 = 6d6 (3 x 6) + 2(flat)
+    Mana:   27 = 6d6 (3 x 6) + 1 x 6(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 6 (x2 mana)
+    Total Dmg/10R: 65
 
   RESOURCES:
     Skill Points:  15
     Stat Points:   0
-    Affinity Pts:  7
-    Stat Spent:    25
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  1
@@ -223,8 +254,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 1
-    Generic        : 2
+    Fire           : 8
+    Generic        : 4
     Water          : 1
 
 ============================================================
@@ -232,30 +263,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 29 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
-    Proficiency: +3
+    Proficiency: +2
 
   HEALTH POOLS:
-    Vitality:  ~ 44  (7d8)
-    Health:    ~ 27  (7d6)
-    Mana:      ~ 87  (7d6)
+    Vitality: 44 = 7d8 (4 x 7) + 6(flat) + 1 x 7(Con)
+    Health:  27 = 7d6 (3 x 7) + 3(flat)
+    Mana:   31 = 7d6 (3 x 7) + 1 x 7(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 8 (x2 mana)
+    Total Dmg/10R: 85
 
   RESOURCES:
     Skill Points:  17
     Stat Points:   0
-    Affinity Pts:  9
-    Stat Spent:    26
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  2
@@ -269,8 +306,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 1
-    Generic        : 2
+    Fire           : 10
+    Generic        : 5
     Water          : 1
 
 ============================================================
@@ -278,12 +315,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 29 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -293,15 +330,21 @@ EYUM TTRPG - JACK
     Proficiency: +3
 
   HEALTH POOLS:
-    Vitality:  ~ 50  (8d8)
-    Health:    ~ 31  (8d6)
-    Mana:      ~100  (8d6)
+    Vitality: 50 = 8d8 (4 x 8) + 6(flat) + 1 x 8(Con)
+    Health:  31 = 8d6 (3 x 8) + 3(flat)
+    Mana:   36 = 8d6 (3 x 8) + 1 x 8(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 8 (x2 mana)
+    Total Dmg/10R: 85
 
   RESOURCES:
     Skill Points:  19
     Stat Points:   0
-    Affinity Pts:  9
-    Stat Spent:    26
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  2
@@ -315,8 +358,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 1
-    Generic        : 2
+    Fire           : 10
+    Generic        : 5
     Water          : 1
 
 ============================================================
@@ -324,12 +367,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 29 (+9)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -339,15 +382,21 @@ EYUM TTRPG - JACK
     Proficiency: +3
 
   HEALTH POOLS:
-    Vitality:  ~ 57  (9d8)
-    Health:    ~ 35  (9d6)
-    Mana:      ~112  (9d6)
+    Vitality: 57 = 9d8 (4 x 9) + 8(flat) + 1 x 9(Con)
+    Health:  35 = 9d6 (3 x 9) + 4(flat)
+    Mana:   40 = 9d6 (3 x 9) + 1 x 9(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 9 (x2 mana)
+    Total Dmg/10R: 95
 
   RESOURCES:
     Skill Points:  21
     Stat Points:   0
-    Affinity Pts:  9
-    Stat Spent:    26
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  2
@@ -361,8 +410,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 11
+    Generic        : 6
     Water          : 2
 
 ============================================================
@@ -370,30 +419,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 30 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
-    Proficiency: +4
+    Proficiency: +3
 
   HEALTH POOLS:
-    Vitality:  ~ 63  (10d8)
-    Health:    ~ 39  (10d6)
-    Mana:      ~135  (10d6)
+    Vitality: 63 = 10d8 (4 x 10) + 8(flat) + 1 x 10(Con)
+    Health:  39 = 10d6 (3 x 10) + 4(flat)
+    Mana:   45 = 10d6 (3 x 10) + 1 x 10(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 10 (x2 mana)
+    Total Dmg/10R: 105
 
   RESOURCES:
     Skill Points:  23
     Stat Points:   0
-    Affinity Pts:  11
-    Stat Spent:    27
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  3
@@ -407,8 +462,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 13
+    Generic        : 6
     Water          : 2
 
 ============================================================
@@ -416,12 +471,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 30 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -431,15 +486,21 @@ EYUM TTRPG - JACK
     Proficiency: +4
 
   HEALTH POOLS:
-    Vitality:  ~ 70  (11d8)
-    Health:    ~ 43  (11d6)
-    Mana:      ~148  (11d6)
+    Vitality: 70 = 11d8 (4 x 11) + 10(flat) + 1 x 11(Con)
+    Health:  43 = 11d6 (3 x 11) + 5(flat)
+    Mana:   49 = 11d6 (3 x 11) + 1 x 11(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 10 (x2 mana)
+    Total Dmg/10R: 105
 
   RESOURCES:
     Skill Points:  25
     Stat Points:   0
-    Affinity Pts:  11
-    Stat Spent:    27
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  3
@@ -453,8 +514,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 13
+    Generic        : 7
     Water          : 2
 
 ============================================================
@@ -462,12 +523,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 30 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -477,15 +538,21 @@ EYUM TTRPG - JACK
     Proficiency: +4
 
   HEALTH POOLS:
-    Vitality:  ~ 76  (12d8)
-    Health:    ~ 47  (12d6)
-    Mana:      ~162  (12d6)
+    Vitality: 76 = 12d8 (4 x 12) + 10(flat) + 1 x 12(Con)
+    Health:  47 = 12d6 (3 x 12) + 5(flat)
+    Mana:   54 = 12d6 (3 x 12) + 1 x 12(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 10 (x2 mana)
+    Total Dmg/10R: 105
 
   RESOURCES:
     Skill Points:  27
     Stat Points:   0
-    Affinity Pts:  11
-    Stat Spent:    27
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  3
@@ -499,8 +566,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 13
+    Generic        : 7
     Water          : 2
 
 ============================================================
@@ -508,30 +575,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 30 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
+    Proficiency: +4
 
   HEALTH POOLS:
-    Vitality:  ~ 83  (13d8)
-    Health:    ~ 51  (13d6)
-    Mana:      ~175  (13d6)
+    Vitality: 83 = 13d8 (4 x 13) + 12(flat) + 1 x 13(Con)
+    Health:  51 = 13d6 (3 x 13) + 6(flat)
+    Mana:   58 = 13d6 (3 x 13) + 1 x 13(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 12 (x2 mana)
+    Total Dmg/10R: 125
 
   RESOURCES:
     Skill Points:  29
     Stat Points:   0
-    Affinity Pts:  13
-    Stat Spent:    28
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  4
@@ -545,8 +618,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 15
+    Generic        : 8
     Water          : 2
 
 ============================================================
@@ -554,12 +627,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 30 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -569,15 +642,21 @@ EYUM TTRPG - JACK
     Proficiency: +5
 
   HEALTH POOLS:
-    Vitality:  ~ 89  (14d8)
-    Health:    ~ 55  (14d6)
-    Mana:      ~189  (14d6)
+    Vitality: 89 = 14d8 (4 x 14) + 12(flat) + 1 x 14(Con)
+    Health:  55 = 14d6 (3 x 14) + 6(flat)
+    Mana:   63 = 14d6 (3 x 14) + 1 x 14(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 12 (x2 mana)
+    Total Dmg/10R: 125
 
   RESOURCES:
     Skill Points:  31
     Stat Points:   0
-    Affinity Pts:  13
-    Stat Spent:    28
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  4
@@ -591,8 +670,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 15
+    Generic        : 8
     Water          : 2
 
 ============================================================
@@ -600,12 +679,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 30 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -615,15 +694,21 @@ EYUM TTRPG - JACK
     Proficiency: +5
 
   HEALTH POOLS:
-    Vitality:  ~ 96  (15d8)
-    Health:    ~ 59  (15d6)
-    Mana:      ~202  (15d6)
+    Vitality: 96 = 15d8 (4 x 15) + 14(flat) + 1 x 15(Con)
+    Health:  59 = 15d6 (3 x 15) + 7(flat)
+    Mana:   67 = 15d6 (3 x 15) + 1 x 15(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 12 (x2 mana)
+    Total Dmg/10R: 125
 
   RESOURCES:
     Skill Points:  33
     Stat Points:   0
-    Affinity Pts:  13
-    Stat Spent:    28
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  4
@@ -637,8 +722,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 15
+    Generic        : 9
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -649,30 +734,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 31 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
-    Proficiency: +6
+    Proficiency: +5
 
   HEALTH POOLS:
-    Vitality:  ~102  (16d8)
-    Health:    ~ 63  (16d6)
-    Mana:      ~216  (16d6)
+    Vitality: 102 = 16d8 (4 x 16) + 14(flat) + 1 x 16(Con)
+    Health:  63 = 16d6 (3 x 16) + 7(flat)
+    Mana:   72 = 16d6 (3 x 16) + 1 x 16(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 13 (x2 mana)
+    Total Dmg/10R: 135
 
   RESOURCES:
     Skill Points:  35
     Stat Points:   0
-    Affinity Pts:  15
-    Stat Spent:    29
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  5
@@ -686,8 +777,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 17
+    Generic        : 9
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -698,12 +789,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 31 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -713,15 +804,21 @@ EYUM TTRPG - JACK
     Proficiency: +6
 
   HEALTH POOLS:
-    Vitality:  ~109  (17d8)
-    Health:    ~ 67  (17d6)
-    Mana:      ~229  (17d6)
+    Vitality: 109 = 17d8 (4 x 17) + 16(flat) + 1 x 17(Con)
+    Health:  67 = 17d6 (3 x 17) + 8(flat)
+    Mana:   76 = 17d6 (3 x 17) + 1 x 17(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 13 (x2 mana)
+    Total Dmg/10R: 135
 
   RESOURCES:
     Skill Points:  37
     Stat Points:   0
-    Affinity Pts:  15
-    Stat Spent:    29
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  5
@@ -735,8 +832,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 17
+    Generic        : 10
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -747,12 +844,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 31 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -762,15 +859,21 @@ EYUM TTRPG - JACK
     Proficiency: +6
 
   HEALTH POOLS:
-    Vitality:  ~115  (18d8)
-    Health:    ~ 71  (18d6)
-    Mana:      ~243  (18d6)
+    Vitality: 115 = 18d8 (4 x 18) + 16(flat) + 1 x 18(Con)
+    Health:  71 = 18d6 (3 x 18) + 8(flat)
+    Mana:   81 = 18d6 (3 x 18) + 1 x 18(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 13 (x2 mana)
+    Total Dmg/10R: 135
 
   RESOURCES:
     Skill Points:  39
     Stat Points:   0
-    Affinity Pts:  15
-    Stat Spent:    29
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  5
@@ -784,8 +887,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 17
+    Generic        : 10
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -796,30 +899,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 31 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
-    Proficiency: +7
+    Proficiency: +6
 
   HEALTH POOLS:
-    Vitality:  ~122  (19d8)
-    Health:    ~ 75  (19d6)
-    Mana:      ~256  (19d6)
+    Vitality: 122 = 19d8 (4 x 19) + 18(flat) + 1 x 19(Con)
+    Health:  75 = 19d6 (3 x 19) + 9(flat)
+    Mana:   85 = 19d6 (3 x 19) + 1 x 19(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 15 (x2 mana)
+    Total Dmg/10R: 155
 
   RESOURCES:
     Skill Points:  41
     Stat Points:   0
-    Affinity Pts:  17
-    Stat Spent:    30
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  6
@@ -833,8 +942,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 19
+    Generic        : 11
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -845,12 +954,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 31 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -860,15 +969,21 @@ EYUM TTRPG - JACK
     Proficiency: +7
 
   HEALTH POOLS:
-    Vitality:  ~128  (20d8)
-    Health:    ~ 79  (20d6)
-    Mana:      ~270  (20d6)
+    Vitality: 128 = 20d8 (4 x 20) + 18(flat) + 1 x 20(Con)
+    Health:  79 = 20d6 (3 x 20) + 9(flat)
+    Mana:   90 = 20d6 (3 x 20) + 1 x 20(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 15 (x2 mana)
+    Total Dmg/10R: 155
 
   RESOURCES:
     Skill Points:  43
     Stat Points:   0
-    Affinity Pts:  17
-    Stat Spent:    30
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  6
@@ -882,8 +997,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 19
+    Generic        : 11
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -894,12 +1009,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 31 (+10)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -909,15 +1024,21 @@ EYUM TTRPG - JACK
     Proficiency: +7
 
   HEALTH POOLS:
-    Vitality:  ~135  (21d8)
-    Health:    ~ 83  (21d6)
-    Mana:      ~283  (21d6)
+    Vitality: 135 = 21d8 (4 x 21) + 20(flat) + 1 x 21(Con)
+    Health:  83 = 21d6 (3 x 21) + 10(flat)
+    Mana:   94 = 21d6 (3 x 21) + 1 x 21(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 15 (x2 mana)
+    Total Dmg/10R: 155
 
   RESOURCES:
     Skill Points:  45
     Stat Points:   0
-    Affinity Pts:  17
-    Stat Spent:    30
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  6
@@ -931,8 +1052,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 19
+    Generic        : 12
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -943,12 +1064,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 32 (+11)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -958,15 +1079,21 @@ EYUM TTRPG - JACK
     Proficiency: +9
 
   HEALTH POOLS:
-    Vitality:  ~167  (26d8)
-    Health:    ~103  (26d6)
-    Mana:      ~377  (26d6)
+    Vitality: 167 = 26d8 (4 x 26) + 24(flat) + 1 x 26(Con)
+    Health:  103 = 26d6 (3 x 26) + 12(flat)
+    Mana:   117 = 26d6 (3 x 26) + 1 x 26(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 18 (x2 mana)
+    Total Dmg/10R: 185
 
   RESOURCES:
     Skill Points:  55
     Stat Points:   0
-    Affinity Pts:  21
-    Stat Spent:    32
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  8
@@ -980,8 +1107,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 23
+    Generic        : 14
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -992,30 +1119,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 14 (+2)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 32 (+11)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
-    Proficiency: +11
+    Proficiency: +10
 
   HEALTH POOLS:
-    Vitality:  ~200  (31d8)
-    Health:    ~123  (31d6)
-    Mana:      ~449  (31d6)
+    Vitality: 200 = 31d8 (4 x 31) + 30(flat) + 1 x 31(Con)
+    Health:  123 = 31d6 (3 x 31) + 15(flat)
+    Mana:   139 = 31d6 (3 x 31) + 1 x 31(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 21 (x2 mana)
+    Total Dmg/10R: 215
 
   RESOURCES:
     Skill Points:  65
     Stat Points:   0
-    Affinity Pts:  25
-    Stat Spent:    34
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  10
@@ -1029,8 +1162,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 27
+    Generic        : 17
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1041,12 +1174,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 14 (+2)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 33 (+11)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -1056,15 +1189,21 @@ EYUM TTRPG - JACK
     Proficiency: +14
 
   HEALTH POOLS:
-    Vitality:  ~265  (41d8)
-    Health:    ~163  (41d6)
-    Mana:      ~594  (41d6)
+    Vitality: 265 = 41d8 (4 x 41) + 40(flat) + 1 x 41(Con)
+    Health:  163 = 41d6 (3 x 41) + 20(flat)
+    Mana:   184 = 41d6 (3 x 41) + 1 x 41(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 25 (x2 mana)
+    Total Dmg/10R: 255
 
   RESOURCES:
     Skill Points:  85
     Stat Points:   0
-    Affinity Pts:  31
-    Stat Spent:    37
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  13
@@ -1078,8 +1217,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 33
+    Generic        : 22
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1090,12 +1229,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 14 (+2)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 34 (+12)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -1105,15 +1244,21 @@ EYUM TTRPG - JACK
     Proficiency: +17
 
   HEALTH POOLS:
-    Vitality:  ~330  (51d8)
-    Health:    ~203  (51d6)
-    Mana:      ~790  (51d6)
+    Vitality: 330 = 51d8 (4 x 51) + 50(flat) + 1 x 51(Con)
+    Health:  203 = 51d6 (3 x 51) + 25(flat)
+    Mana:   229 = 51d6 (3 x 51) + 1 x 51(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 30 (x2 mana)
+    Total Dmg/10R: 305
 
   RESOURCES:
     Skill Points:  105
     Stat Points:   0
-    Affinity Pts:  37
-    Stat Spent:    40
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  16
@@ -1127,8 +1272,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 39
+    Generic        : 27
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1139,30 +1284,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 36 (+13)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
-    Proficiency: +21
+    Proficiency: +20
 
   HEALTH POOLS:
-    Vitality:  ~395  (61d8)
-    Health:    ~243  (61d6)
-    Mana:      ~1006  (61d6)
+    Vitality: 395 = 61d8 (4 x 61) + 60(flat) + 1 x 61(Con)
+    Health:  243 = 61d6 (3 x 61) + 30(flat)
+    Mana:   274 = 61d6 (3 x 61) + 1 x 61(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 36 (x2 mana)
+    Total Dmg/10R: 365
 
   RESOURCES:
     Skill Points:  125
     Stat Points:   0
-    Affinity Pts:  45
-    Stat Spent:    44
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  20
@@ -1176,8 +1327,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 47
+    Generic        : 32
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1188,12 +1339,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 37 (+13)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -1203,15 +1354,21 @@ EYUM TTRPG - JACK
     Proficiency: +24
 
   HEALTH POOLS:
-    Vitality:  ~460  (71d8)
-    Health:    ~283  (71d6)
-    Mana:      ~1171  (71d6)
+    Vitality: 460 = 71d8 (4 x 71) + 70(flat) + 1 x 71(Con)
+    Health:  283 = 71d6 (3 x 71) + 35(flat)
+    Mana:   319 = 71d6 (3 x 71) + 1 x 71(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 40 (x2 mana)
+    Total Dmg/10R: 405
 
   RESOURCES:
     Skill Points:  145
     Stat Points:   0
-    Affinity Pts:  51
-    Stat Spent:    47
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  23
@@ -1225,8 +1382,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 53
+    Generic        : 37
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1237,12 +1394,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 12 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 38 (+14)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -1252,15 +1409,21 @@ EYUM TTRPG - JACK
     Proficiency: +27
 
   HEALTH POOLS:
-    Vitality:  ~525  (81d8)
-    Health:    ~323  (81d6)
-    Mana:      ~1417  (81d6)
+    Vitality: 525 = 81d8 (4 x 81) + 80(flat) + 1 x 81(Con)
+    Health:  323 = 81d6 (3 x 81) + 40(flat)
+    Mana:   364 = 81d6 (3 x 81) + 1 x 81(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 45 (x2 mana)
+    Total Dmg/10R: 455
 
   RESOURCES:
     Skill Points:  165
     Stat Points:   0
-    Affinity Pts:  57
-    Stat Spent:    50
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  26
@@ -1274,8 +1437,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 59
+    Generic        : 42
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1286,30 +1449,36 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 39 (+14)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
     Initiative: +1
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
-    Proficiency: +31
+    Proficiency: +30
 
   HEALTH POOLS:
-    Vitality:  ~590  (91d8)
-    Health:    ~363  (91d6)
-    Mana:      ~1592  (91d6)
+    Vitality: 590 = 91d8 (4 x 91) + 90(flat) + 1 x 91(Con)
+    Health:  363 = 91d6 (3 x 91) + 45(flat)
+    Mana:   409 = 91d6 (3 x 91) + 1 x 91(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 51 (x2 mana)
+    Total Dmg/10R: 515
 
   RESOURCES:
     Skill Points:  185
     Stat Points:   0
-    Affinity Pts:  65
-    Stat Spent:    54
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  30
@@ -1323,8 +1492,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 67
+    Generic        : 47
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1335,12 +1504,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 13 (+1)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 40 (+15)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -1350,15 +1519,21 @@ EYUM TTRPG - JACK
     Proficiency: +34
 
   HEALTH POOLS:
-    Vitality:  ~655  (101d8)
-    Health:    ~403  (101d6)
-    Mana:      ~1868  (101d6)
+    Vitality: 655 = 101d8 (4 x 101) + 100(flat) + 1 x 101(Con)
+    Health:  403 = 101d6 (3 x 101) + 50(flat)
+    Mana:   454 = 101d6 (3 x 101) + 1 x 101(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 55 (x2 mana)
+    Total Dmg/10R: 555
 
   RESOURCES:
     Skill Points:  205
     Stat Points:   0
-    Affinity Pts:  71
-    Stat Spent:    57
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  33
@@ -1372,8 +1547,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 73
+    Generic        : 52
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
@@ -1384,12 +1559,12 @@ EYUM TTRPG - JACK
 ============================================================
 
   STATS:
-    STR: 15 (+2)
-    DEX: 12 (+1)
-    CON: 12 (+1)
-    WIS: 86 (+38)
-    INT: 12 (+1)
-    CHA: 12 (+1)
+    STR: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 8 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
     AC: 11
@@ -1399,15 +1574,21 @@ EYUM TTRPG - JACK
     Proficiency: +334
 
   HEALTH POOLS:
-    Vitality:  ~6505  (1001d8)
-    Health:    ~4003  (1001d6)
-    Mana:      ~41541  (1001d6)
+    Vitality: 6505 = 1001d8 (4 x 1001) + 1000(flat) + 1 x 1001(Con)
+    Health:  4003 = 1001d6 (3 x 1001) + 500(flat)
+    Mana:   4504 = 1001d6 (3 x 1001) + 1 x 1001(Wis)
+
+  DAMAGE:
+    Melee Dmg/Turn: 5
+    Ranged Dmg/Turn: 0
+    Magic Dmg/Turn: 505 (x2 mana)
+    Total Dmg/10R: 5055
 
   RESOURCES:
     Skill Points:  2005
     Stat Points:   0
-    Affinity Pts:  671
-    Stat Spent:    357
+    Affinity Pts:  0
+    Stat Spent:    24
 
   FEATS & SPELLS:
     Feats:  333
@@ -1421,8 +1602,8 @@ EYUM TTRPG - JACK
   AFFINITIES:
     Air            : 1
     Earth          : 1
-    Fire           : 2
-    Generic        : 2
+    Fire           : 673
+    Generic        : 502
     Necrotic       : 1
     Psychic        : 2
     Radiant        : 1
