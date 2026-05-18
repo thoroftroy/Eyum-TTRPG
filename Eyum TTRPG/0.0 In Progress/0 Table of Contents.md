@@ -12,7 +12,8 @@
 - [[1.2.3 Injury Table]]
 - [[1.2.4 Conditions Tables]]
 - [[1.2.5 Weapons, Armors, and Materials]]
-- [[1.2.6 Character References]]
+- [[1.2.6 Materials]]
+- [[1.2.7 Character References]]
 
 1.3 Character Management
 - [[1.3.1 Building Your Character]]
