@@ -11,7 +11,7 @@
 - [[1.2.2 Damage Types]]
 - [[1.2.3 Injury Table]]
 - [[1.2.4 Conditions Tables]]
-- [[1.2.5 Weapons, Armors, and Materials]]
+- [[1.2.5 Weapons, Armors, and Tools]]
 - [[1.2.6 Materials]]
 - [[1.2.7 Character References]]
 
