@@ -1,6 +1,6 @@
 None can predict what it is an ancient might want, their goals are seemingly random and their punishments random.
 
-> For condition references see [[1.2.4 Conditions Tables]]. For damage type references see [[1.2.2 Damage Types]].
+> For condition references see [[2.4 Conditions]]. For damage type references see [[2.2 Damage Types]].
 
 ## Newton
 *Force*

@@ -8,9 +8,6 @@
 	- Manticore, body and face of a lion, and a tail that resembles a scorpion with large bat like wings 
 	- Lamassu, winged bull/lion with human head
 	- Ammit, the forequarters of a lion, the hindquarters of a hippopotamus, and the head of a crocodile
-- Undead, all creatures can have an Undead modifier applied to them to turn them into Zombies, this makes them dumber and slower but much harder to kill and relentless 
-- Ghost, similar to an undead but doesn't make them dumber or slower, does change attacks
-- Slimes, similar to golems in the sense that there is one for every element, they are more liquid than a golem and mostly bounce around, the most well known variant is the Gelatinous Cube (acid)
 ### Unique Monsters
 - Phoenix, fire bird which can resurrect itself 
 - Basilisk, giant lizard creature which can paralyze creatures by looking at them. Very powerful

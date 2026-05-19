@@ -1,6 +1,6 @@
 Gods gain power from their subjects. They typically want people to spread their name and gain good reputation. Gods punishments are usually not very severe.
 
-> For condition references see [[1.2.4 Conditions Tables]]. For damage type references see [[1.2.2 Damage Types]].
+> For condition references see [[2.4 Conditions]]. For damage type references see [[2.2 Damage Types]].
 
 ## Ignivar
 *Fire/Heat*

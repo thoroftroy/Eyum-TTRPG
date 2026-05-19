@@ -1,6 +1,6 @@
 Fiends typically want to spread chaos and death, typically by the means of their type of damage. They gain power from people fearing their Affinity. Fiends punishments are usually very severe.
 
-> For condition references see [[1.2.4 Conditions Tables]]. For damage type references see [[1.2.2 Damage Types]].
+> For condition references see [[2.4 Conditions]]. For damage type references see [[2.2 Damage Types]].
 
 ## Black Mercy
 *Necrotic, Evil Alignment*
