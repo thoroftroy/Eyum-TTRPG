@@ -1,6 +1,4 @@
 ### Monster Types
-- Golems, these will serve as the main elemental monsters, each element will have a golem associated with it, the higher level elements will be stronger golems. These are just blob like creatures that have a general humanoid shape and are made up entirely of their element.
-- Dragon, the pinnacle of every element is a Dragon, large lizards like creatures typically with wings that can breathe their element as an attack 
 - Chimera, these are monsters which are made up of multiple animals such as a griffin being made of snakes and lions and eagle and whatnot, the strength of these monsters is usually pretty high and they are more rare. Types of Chimera include:
 	- Griffin: body of a lion and the head and wings of an eagle
 	- Hippocampus, upper body of a horse and the lower body of a fish
@@ -31,3 +29,4 @@
 - Beholder, a floating orb of flesh with a large mouth, single central eye, and many smaller eyestalks on top
 - Facehugger, basically the thing from alien but it doesn't turn into a xenomorph it just stays on their face like half life and controls the creature 
 - Roc, massive bird
+- Little dust bunnies from totoro
