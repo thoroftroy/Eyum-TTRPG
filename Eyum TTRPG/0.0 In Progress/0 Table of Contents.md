@@ -1,28 +1,25 @@
-1.1 The Basics
+#### 1.0 The basics
 - [[1.1.1 Introduction and Basics]]
 - [[1.1.2 Dice and Skills]]
 - [[1.1.3 Player Stats]]
 - [[1.1.4 Actions]]
 - [[1.1.5 Other Rules]]
 - [[1.1.6 Actually Playing The Game]]
-
-1.2 Reference Tables
-- [[1.2.1 Affinity List]]
-- [[1.2.2 Damage Types]]
-- [[1.2.3 Injury Table]]
-- [[1.2.4 Conditions Tables]]
-- [[1.2.5 Weapons, Armors, and Tools]]
-- [[1.2.6 Materials]]
-- [[1.2.7 Character References]]
-
-1.3 Character Management
-- [[1.3.1 Building Your Character]]
-- [[1.3.2 Character Information]]
-- [[1.3.3 Leveling Up]]
-
-1.4 Races
-- [[1.4.0 Races]]
-- [[1.4.1 Languages]]
+#### 2.0 Reference Tables
+- [[2.1 Affinities]]
+- [[2.2 Damage Types]]
+- [[2.3 Injuries]]
+- [[2.4 Conditions]]
+- [[2.5 Weapons, Armors, and Tools]]
+- [[2.6 Materials]]
+- [[2.7 Character Reference]]
+#### 3.0 Character Management
+- [[3.1 Building Your Character]]
+- [[3.2 Character Information]]
+- [[3.3 Leveling Up]]
+#### 4.0 Races
+- [[4.1 Races]]
+- [[4.2 Languages]]
 	- [[Bugfolk and Subraces]]
 	- [[Demon and Subraces]]
 	- [[Elves and Subraces]]
@@ -34,26 +31,25 @@
 	- [[Therian and Subraces]]
 	- [[Tull and Subraces]]
 	- [[Undead and Subraces]]
-
-1.5 Deities (Very WIP)
-- [[1.5.0 Deities and Pacts]]
-- [[1.5.1 Alternative Gods and Affinities]]
+#### 5.0 Deities (WIP)
+- [[5.1 Deities and Pacts]]
+- [[5.2 Specific Deities]]
+- [[5.3 Fighting Deities]]
+- [[5.4 Becoming a Deity]]
 	- [[Ancient Pacts]]
 	- [[Fiendish Pacts]]
 	- [[Godly Pacts]]
-
-1.6 Magics
-- [[1.6.0 Spells]]
-- [[1.6.1 Runes]]
-
-1.7 Monsters (Very WIP)
-- [[1.7 Monsters]]
-- [[1.7.1 Passives and Actives List]]
-- 1.7.2 Monster Lists
-	- [[1.7.2.0 Monster Planner]]
-	- [[1.7.2.1 Slimes]]
-	- [[1.7.2.1 Golems]]
-	- [[1.7.2.1 Dragons]]
-	- [[1.7.2.1 Chimera]]
-	- [[1.7.2.2 Modifiers]]
-	- [[1.7.2.3 Unique Monsters]]
+#### 6.0 Magic
+- [[6.1 Spells]]
+- [[6.2 Runes]]
+#### 7.0 Monsters (WIP)
+- [[7.1 Monsters]]
+- [[7.2 Passives and Actives List]]
+- 7.3 Monster Lists
+	- [[Monster Planner]]
+	- [[7.3.1 Slimes]]
+	- [[7.3.2 Golems]]
+	- [[7.3.3 Dragons]]
+	- [[7.3.4 Chimera]]
+	- [[7.3.5 Monster Modifiers]]
+	- [[7.3.6 Unique Monsters]]
