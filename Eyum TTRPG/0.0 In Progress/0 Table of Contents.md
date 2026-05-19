@@ -35,7 +35,6 @@
 - [[5.1 Deities and Pacts]]
 - [[5.2 Specific Deities]]
 - [[5.3 Fighting Deities]]
-- [[5.4 Becoming a Deity]]
 	- [[Ancient Pacts]]
 	- [[Fiendish Pacts]]
 	- [[Godly Pacts]]
