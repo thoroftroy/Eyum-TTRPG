@@ -253,6 +253,29 @@ def apply_level_progression(char, target_level, settings):
         char.prof = prof['base'] + (lvl // 3)
 
 
+def _repeatable_priority(effects):
+    """Score repeatable effects: higher = more valuable to take.
+    Damage > tanking > stats > utility > accuracy."""
+    if not effects:
+        return 0
+    score = 0
+    if 'melee_damage' in effects or 'ranged_damage' in effects or 'magic_damage' in effects:
+        score = 5
+    elif 'flat_vit' in effects or 'flat_hp' in effects or 'ac_bonus' in effects:
+        score = 4
+    elif 'stat_point' in effects:
+        score = 3
+    elif 'affinity_points' in effects or 'affinity' in effects or 'generic_affinity' in effects:
+        score = 2
+    elif 'spell' in effects:
+        score = 2
+    elif 'melee_accuracy' in effects or 'ranged_accuracy' in effects or 'magic_accuracy' in effects:
+        score = 1
+    elif 'skill_points' in effects:
+        score = 0
+    return score
+
+
 def apply_paths(char, target_level, build_config, settings):
     r = settings['rules']
     paths_rules = settings['paths']
@@ -261,22 +284,36 @@ def apply_paths(char, target_level, build_config, settings):
     if not path_list:
         return
 
-    applied_initial = set()
+    available_stp = 1 + (target_level // 2)
+
+    # Step 1: Pay 1 STP per unique path name to unlock its initial
+    # (per handbook: "You must spend 1 Skill Tree Level to enter a Path")
+    path_initial_paid = set()
+    stp_remaining = available_stp
     for pconf in path_list:
         path_name = pconf['path']
-        if path_name in applied_initial:
+        if path_name in path_initial_paid:
             continue
-        applied_initial.add(path_name)
+        path_initial_paid.add(path_name)
         path_rule = paths_rules.get(path_name, {})
-        if 'initial' in path_rule:
+        if 'initial' in path_rule and stp_remaining > 0:
             apply_effects(char, path_rule['initial'])
+            stp_remaining -= 1
             if path_name == 'Magical':
                 char.starting_spells = r['magical_start']['spells_at_level_1']
 
-    available_stp = 1 + (target_level // 2)
+    # Step 2: Distribute remaining STP for archetype levels
     total_paths = len(path_list)
-    points_per = available_stp // total_paths
-    remainder = available_stp % total_paths
+    if total_paths == 0:
+        return
+
+    stp_for_archetypes = stp_remaining
+    if stp_for_archetypes > 0:
+        points_per = stp_for_archetypes // total_paths
+        remainder = stp_for_archetypes % total_paths
+    else:
+        points_per = 0
+        remainder = 0
 
     for i, pconf in enumerate(path_list):
         path_name = pconf['path']
@@ -305,7 +342,7 @@ def apply_paths(char, target_level, build_config, settings):
         # Apply repeatable sub-levels with remaining points
         remaining = share - achievements
         if remaining > 0 and repeatables:
-            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: float(k))
+            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
             for key in repeat_keys:
                 max_count = repeatables.get(key, 0)
                 count = min(remaining, max_count)
@@ -317,7 +354,7 @@ def apply_paths(char, target_level, build_config, settings):
         remaining = share - achievements
         # If this path has leftover STP and has repeatables configured, consume them
         if remaining > 0 and repeatables:
-            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: float(k))
+            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
             for key in repeat_keys:
                 max_count = repeatables.get(key, 0)
                 count = min(remaining, max_count)
@@ -346,7 +383,7 @@ def apply_paths(char, target_level, build_config, settings):
         if repeatables:
             arch_rule = paths_rules.get(path_name, {}).get('archetypes', {}).get(arch_name, {})
             sorted_keys = sorted(arch_rule.keys(), key=lambda k: float(k))
-            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: float(k))
+            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
             for key in repeat_keys:
                 max_count = repeatables.get(key, 0)
                 achieved_count = 0
@@ -355,25 +392,7 @@ def apply_paths(char, target_level, build_config, settings):
 
     if all_remaining > 0 and path_repeat_data:
         # Sort repeatables by value: prefer direct damage/defense boosts over skill points
-        def repeat_score(item):
-            key = item[2]
-            effects = item[4]
-            score = 0
-            if 'melee_damage' in effects or 'ranged_damage' in effects:
-                score = 5
-            elif 'ac_bonus' in effects:
-                score = 4
-            elif 'flat_vit' in effects or 'flat_hp' in effects:
-                score = 3
-            elif 'magic_damage' in effects or 'magic_accuracy' in effects:
-                score = 3
-            elif 'skill_points' in effects or 'stat_point' in effects:
-                score = 2
-            elif 'affinity_points' in effects:
-                score = 1
-            return score
-
-        path_repeat_data.sort(key=repeat_score, reverse=True)
+        path_repeat_data.sort(key=lambda x: _repeatable_priority(x[4]), reverse=True)
         for path_name, arch_name, key, max_count, effects, achieved_count in path_repeat_data:
             can_take = max_count - achieved_count
             take = min(all_remaining, can_take)
@@ -1418,6 +1437,12 @@ def write_average(all_results, settings, output_path):
             dmg_per = []
             dmg_10r = []
             to_hits = []
+            strs = []
+            dexs = []
+            cons = []
+            wiss = []
+            ints = []
+            chas = []
 
             build_vitals = {}
             build_healths = {}
@@ -1453,6 +1478,12 @@ def write_average(all_results, settings, output_path):
                         dmg_per.append(dmg_t)
                         dmg_10r.append(dmg_10)
                         to_hits.append(best_hit)
+                        strs.append(c.str)
+                        dexs.append(c.dex)
+                        cons.append(c.con)
+                        wiss.append(c.wis)
+                        ints.append(c.int)
+                        chas.append(c.cha)
 
                         build_vitals[build_name] = vit
                         build_healths[build_name] = hp
@@ -1484,6 +1515,18 @@ def write_average(all_results, settings, output_path):
                           "  min=" + str(min(dmg_10r)) + "  max=" + str(max(dmg_10r)) + "\n")
                 f.write("  To Hit:    avg=" + format_mod(sum(to_hits)//len(to_hits)) +
                           "  min=" + format_mod(min(to_hits)) + "  max=" + format_mod(max(to_hits)) + "\n")
+                f.write("  STR:       avg=" + str(sum(strs)//len(strs)) +
+                          "  min=" + str(min(strs)) + "  max=" + str(max(strs)) + "\n")
+                f.write("  DEX:       avg=" + str(sum(dexs)//len(dexs)) +
+                          "  min=" + str(min(dexs)) + "  max=" + str(max(dexs)) + "\n")
+                f.write("  CON:       avg=" + str(sum(cons)//len(cons)) +
+                          "  min=" + str(min(cons)) + "  max=" + str(max(cons)) + "\n")
+                f.write("  WIS:       avg=" + str(sum(wiss)//len(wiss)) +
+                          "  min=" + str(min(wiss)) + "  max=" + str(max(wiss)) + "\n")
+                f.write("  INT:       avg=" + str(sum(ints)//len(ints)) +
+                          "  min=" + str(min(ints)) + "  max=" + str(max(ints)) + "\n")
+                f.write("  CHA:       avg=" + str(sum(chas)//len(chas)) +
+                          "  min=" + str(min(chas)) + "  max=" + str(max(chas)) + "\n")
 
                 best_vit = max(build_vitals, key=build_vitals.get)
                 best_hp = max(build_healths, key=build_healths.get)
@@ -1524,10 +1567,46 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
             f.write("LEVEL " + str(level) + "\n")
             f.write("-" * 40 + "\n")
 
+            # Collect once per level (stats/pools are gear-independent)
+            first_tier = True
             for tier_name, all_results in all_tier_results:
+                strs = []
+                dexs = []
+                cons = []
+                wiss = []
+                ints = []
+                chas = []
                 vitals = []
                 healths = []
                 manas = []
+                for build_name, results in all_results.items():
+                    for res in results:
+                        if res['level'] == level:
+                            c = res['char']
+                            strs.append(c.str)
+                            dexs.append(c.dex)
+                            cons.append(c.con)
+                            wiss.append(c.wis)
+                            ints.append(c.int)
+                            chas.append(c.cha)
+                            vitals.append(c.vit_max(settings['rules']))
+                            healths.append(c.hp_max(settings['rules']))
+                            manas.append(c.mana_max(settings['rules']))
+                            break
+                if first_tier:
+                    f.write("  Stats: Str=" + str(sum(strs)//len(strs)) + " (" + str(min(strs)) + "-" + str(max(strs)) + ")" +
+                            "  Dex=" + str(sum(dexs)//len(dexs)) + " (" + str(min(dexs)) + "-" + str(max(dexs)) + ")" +
+                            "  Con=" + str(sum(cons)//len(cons)) + " (" + str(min(cons)) + "-" + str(max(cons)) + ")" +
+                            "  Wis=" + str(sum(wiss)//len(wiss)) + " (" + str(min(wiss)) + "-" + str(max(wiss)) + ")" +
+                            "  Int=" + str(sum(ints)//len(ints)) + " (" + str(min(ints)) + "-" + str(max(ints)) + ")" +
+                            "  Cha=" + str(sum(chas)//len(chas)) + " (" + str(min(chas)) + "-" + str(max(chas)) + ")\n")
+                    f.write("  Pools: Vit=" + str(sum(vitals)//len(vitals)) + " (" + str(min(vitals)) + "-" + str(max(vitals)) + ")" +
+                            "  HP=" + str(sum(healths)//len(healths)) + " (" + str(min(healths)) + "-" + str(max(healths)) + ")" +
+                            "  Mana=" + str(sum(manas)//len(manas)) + " (" + str(min(manas)) + "-" + str(max(manas)) + ")\n")
+                    first_tier = False
+
+            f.write("\n")
+            for tier_name, all_results in all_tier_results:
                 acs_vals = []
                 dmg_t = []
                 dmg_10 = []
@@ -1536,24 +1615,22 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                     for res in results:
                         if res['level'] == level:
                             c = res['char']
-                            vitals.append(c.vit_max(settings['rules']))
-                            healths.append(c.hp_max(settings['rules']))
-                            manas.append(c.mana_max(settings['rules']))
                             acs_vals.append(c.ac(c.gear.get('armor', 'none'), settings.get('armor_types', {}), settings['rules']['ac']['dex_bonus_table']))
                             dmg_t.append(res['dmg_perturn']['per_turn'])
                             dmg_10.append(res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round'])
                             to_hits.append(max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic()))
                             break
-                
+
                 avg_hit = sum(to_hits) // len(to_hits)
                 label_padded = tier_name.replace('_', ' ').title().ljust(15)
                 f.write("  " + label_padded + ": AC=" + str(sum(acs_vals)//len(acs_vals)).rjust(2) +
-                        "  Vit=" + str(sum(vitals)//len(vitals)).rjust(5) +
-                        "  HP=" + str(sum(healths)//len(healths)).rjust(4) +
-                        "  Mana=" + str(sum(manas)//len(manas)).rjust(5) +
-                        "  Hit=" + format_mod(avg_hit).rjust(4) +
+                        " (" + str(min(acs_vals)) + "-" + str(max(acs_vals)) + ")" +
+                        "   Hit=" + format_mod(avg_hit).rjust(4) +
+                        " (" + format_mod(min(to_hits)) + "-" + format_mod(max(to_hits)) + ")" +
                         "  Dmg=" + str(sum(dmg_t)//len(dmg_t)).rjust(4) +
-                        "  Dmg/10R=" + str(sum(dmg_10)//len(dmg_10)).rjust(6) + "\n")
+                        " (" + str(min(dmg_t)) + "-" + str(max(dmg_t)) + ")" +
+                        "  Dmg/10R=" + str(sum(dmg_10)//len(dmg_10)).rjust(6) +
+                        " (" + str(min(dmg_10)) + "-" + str(max(dmg_10)) + ")\n")
             f.write("\n")
 
 
@@ -1768,6 +1845,33 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
                 f.write("    (Well-distributed across multiple builds)\n")
             else:
                 f.write("    (Moderate concentration)\n")
+        f.write("\n")
+
+        # --- STAT ANALYSIS ---
+        f.write("STAT ANALYSIS\n")
+        f.write("-" * 40 + "\n")
+        all_stat_values = {s: [] for s in ['str', 'dex', 'con', 'wis', 'int', 'cha']}
+        all_stat_max = {s: {} for s in ['str', 'dex', 'con', 'wis', 'int', 'cha']}
+        for tier_name, all_results in all_tier_results:
+            for build_name, results in all_results.items():
+                for res in results:
+                    c = res['char']
+                    for s in ['str', 'dex', 'con', 'wis', 'int', 'cha']:
+                        val = getattr(c, s)
+                        all_stat_values[s].append(val)
+                        prev = all_stat_max[s].get(build_name, 0)
+                        all_stat_max[s][build_name] = max(prev, val)
+                    break
+
+        for s in ['str', 'dex', 'con', 'wis', 'int', 'cha']:
+            avg = sum(all_stat_values[s]) // len(all_stat_values[s])
+            max_build = max(all_stat_max[s], key=all_stat_max[s].get)
+            max_val = all_stat_max[s][max_build]
+            min_build = min(all_stat_max[s], key=all_stat_max[s].get)
+            min_val = all_stat_max[s][min_build]
+            f.write("  " + s.upper().ljust(6) + ": avg=" + str(avg).rjust(2) +
+                    "  max=" + max_build.ljust(18) + " (" + str(max_val).rjust(2) + ")" +
+                    "  min=" + min_build.ljust(18) + " (" + str(min_val).rjust(2) + ")\n")
         f.write("\n")
 
         # --- TIER ANALYSIS ---

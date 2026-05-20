@@ -19,7 +19,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +8 | Ranged: +1
+    To Hit: Melee: +7 | Ranged: +1
 
   HEALTH POOLS:
     Vitality: 13 = 2d8 (4 x 2) + 0(flat) + 2 x 2(Con)
@@ -28,8 +28,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 9 | Dmg/Turn: 9
-    Total Dmg/10R: 90
+    Melee Dmg/Hit: 6 | Dmg/Turn: 6
+    Total Dmg/10R: 60
 
   RESOURCES:
     Skill Points:  7
@@ -42,7 +42,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
+    Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Tull Bloodline (Lvl 0)
 
@@ -57,7 +57,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Water          : 1
 
   GEAR:
-    Weapon: Unarmed (1d6 Slashing + 1d4 Bludgeoning (Tull Claws))
+    Weapon: Unarmed (1d4 Bludgeoning (Fist))
     Armor: nerite_heavy (Nerite Heavy Armor)
 
 ============================================================
@@ -78,12 +78,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +8 | Ranged: +1
+    To Hit: Melee: +7 | Ranged: +1
 
   HEALTH POOLS:
-    Vitality: 24 = 3d10 (5 x 3) + 2(flat) + 2 x 3(Con)
+    Vitality: 21 = 3d8 (4 x 3) + 2(flat) + 2 x 3(Con)
     Health:  11 = 3d6 (3 x 3) + 1(flat)
-    Mana:   4 = 3d4 (2 x 3) + -1 x 3(Wis)
+    Mana:   7 = 3d6 (3 x 3) + -1 x 3(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -101,8 +101,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Tull Bloodline (Lvl 0)
 
   AFFINITIES:
@@ -137,12 +137,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +9 | Ranged: +2
+    To Hit: Melee: +8 | Ranged: +2
 
   HEALTH POOLS:
-    Vitality: 35 = 4d10 (5 x 4) + 5(flat) + 2 x 4(Con)
+    Vitality: 31 = 4d8 (4 x 4) + 5(flat) + 2 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
-    Mana:   6 = 4d4 (2 x 4) + -1 x 4(Wis)
+    Mana:   10 = 4d6 (3 x 4) + -1 x 4(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -161,8 +161,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Tull Bloodline (Lvl 0)
 
   AFFINITIES:
@@ -184,12 +184,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 9 + 15
+    STR: 21 (+5) = 9 + 12
     DEX: 11 (+0) = 8 + 3
-    CON: 17 (+3) = 9 + 8
+    CON: 15 (+2) = 9 + 6
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 24
@@ -197,20 +197,20 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +11 | Ranged: +2
+    To Hit: Melee: +9 | Ranged: +2
 
   HEALTH POOLS:
-    Vitality: 50 = 5d10 (5 x 5) + 8(flat) + 3 x 5(Con)
+    Vitality: 40 = 5d8 (4 x 5) + 8(flat) + 2 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   7 = 5d4 (2 x 5) + -1 x 5(Wis)
+    Mana:   12 = 5d6 (3 x 5) + -1 x 5(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 14 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Melee Dmg/Hit: 9 | Dmg/Turn: 9
+    Total Dmg/10R: 90
 
   RESOURCES:
-    Skill Points:  17
+    Skill Points:  15
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    25
@@ -222,8 +222,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
-    Racial -> Tull Bloodline (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Tull Bloodline (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -244,12 +244,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 9 + 15
+    STR: 21 (+5) = 9 + 12
     DEX: 11 (+0) = 8 + 3
-    CON: 17 (+3) = 9 + 8
+    CON: 15 (+2) = 9 + 6
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 24
@@ -257,20 +257,20 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +11 | Ranged: +2
+    To Hit: Melee: +9 | Ranged: +2
 
   HEALTH POOLS:
-    Vitality: 60 = 6d10 (5 x 6) + 9(flat) + 3 x 6(Con)
+    Vitality: 48 = 6d8 (4 x 6) + 9(flat) + 2 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   9 = 6d4 (2 x 6) + -1 x 6(Wis)
+    Mana:   15 = 6d6 (3 x 6) + -1 x 6(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 14 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Melee Dmg/Hit: 9 | Dmg/Turn: 9
+    Total Dmg/10R: 90
 
   RESOURCES:
-    Skill Points:  19
+    Skill Points:  17
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    25
@@ -282,8 +282,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
-    Racial -> Tull Bloodline (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Tull Bloodline (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -304,12 +304,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 9 + 15
+    STR: 21 (+5) = 9 + 12
     DEX: 11 (+0) = 8 + 3
-    CON: 17 (+3) = 9 + 8
+    CON: 15 (+2) = 9 + 6
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 7 + 1
+    CHA:  9 (-1) = 7 + 2
 
   COMBAT:
     AC: 27
@@ -317,20 +317,20 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +12 | Ranged: +3
+    To Hit: Melee: +10 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 71 = 7d10 (5 x 7) + 12(flat) + 3 x 7(Con)
+    Vitality: 64 = 7d10 (5 x 7) + 12(flat) + 2 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
     Mana:   10 = 7d4 (2 x 7) + -1 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 16 | Dmg/Turn: 16
-    Total Dmg/10R: 160
+    Melee Dmg/Hit: 9 | Dmg/Turn: 9
+    Total Dmg/10R: 90
 
   RESOURCES:
-    Skill Points:  23
+    Skill Points:  21
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    26
@@ -341,9 +341,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
-    Racial -> Tull Bloodline (Lvl 1)
+    Racial -> Tull Bloodline (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -364,12 +364,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 9 + 15
+    STR: 21 (+5) = 9 + 12
     DEX: 11 (+0) = 8 + 3
-    CON: 17 (+3) = 9 + 8
+    CON: 15 (+2) = 9 + 6
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 7 + 1
+    CHA:  9 (-1) = 7 + 2
 
   COMBAT:
     AC: 27
@@ -377,20 +377,20 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +12 | Ranged: +3
+    To Hit: Melee: +10 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 81 = 8d10 (5 x 8) + 13(flat) + 3 x 8(Con)
+    Vitality: 73 = 8d10 (5 x 8) + 13(flat) + 2 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
     Mana:   12 = 8d4 (2 x 8) + -1 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 16 | Dmg/Turn: 16
-    Total Dmg/10R: 160
+    Melee Dmg/Hit: 9 | Dmg/Turn: 9
+    Total Dmg/10R: 90
 
   RESOURCES:
-    Skill Points:  25
+    Skill Points:  23
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    26
@@ -401,9 +401,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
-    Racial -> Tull Bloodline (Lvl 1)
+    Racial -> Tull Bloodline (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -440,14 +440,14 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     To Hit: Melee: +12 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 101 = 9d12 (6 x 9) + 16(flat) + 3 x 9(Con)
+    Vitality: 92 = 9d10 (5 x 9) + 16(flat) + 3 x 9(Con)
     Health:  43 = 9d6 (3 x 9) + 12(flat)
     Mana:   13 = 9d4 (2 x 9) + -1 x 9(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 16 | Dmg/Turn: 32
-    Total Dmg/10R: 320
+    Melee Dmg/Hit: 14 | Dmg/Turn: 28
+    Total Dmg/10R: 280
 
   RESOURCES:
     Skill Points:  32
@@ -461,8 +461,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Tull Bloodline (Lvl 1)
 
   AFFINITIES:
@@ -500,14 +500,14 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     To Hit: Melee: +13 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 122 = 10d12 (6 x 10) + 17(flat) + 4 x 10(Con)
+    Vitality: 112 = 10d10 (5 x 10) + 17(flat) + 4 x 10(Con)
     Health:  48 = 10d6 (3 x 10) + 13(flat)
     Mana:   15 = 10d4 (2 x 10) + -1 x 10(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 16 | Dmg/Turn: 32
-    Total Dmg/10R: 320
+    Melee Dmg/Hit: 14 | Dmg/Turn: 28
+    Total Dmg/10R: 280
 
   RESOURCES:
     Skill Points:  36
@@ -521,8 +521,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Tull Bloodline (Lvl 1)
 
   AFFINITIES:
@@ -560,17 +560,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     To Hit: Melee: +13 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 135 = 11d12 (6 x 11) + 20(flat) + 4 x 11(Con)
+    Vitality: 124 = 11d10 (5 x 11) + 20(flat) + 4 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
     Mana:   16 = 11d4 (2 x 11) + -1 x 11(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Total Dmg/10R: 400
+    Melee Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 320
 
   RESOURCES:
-    Skill Points:  40
+    Skill Points:  38
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
@@ -582,8 +582,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
-    Racial -> Tull Bloodline (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Tull Bloodline (Lvl 1)
 
   AFFINITIES:
     Air            : 2
@@ -620,17 +620,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     To Hit: Melee: +13 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 147 = 12d12 (6 x 12) + 21(flat) + 4 x 12(Con)
+    Vitality: 135 = 12d10 (5 x 12) + 21(flat) + 4 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
     Mana:   18 = 12d4 (2 x 12) + -1 x 12(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Total Dmg/10R: 400
+    Melee Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 320
 
   RESOURCES:
-    Skill Points:  42
+    Skill Points:  40
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
@@ -642,8 +642,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
-    Racial -> Tull Bloodline (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Tull Bloodline (Lvl 1)
 
   AFFINITIES:
     Air            : 2
@@ -686,11 +686,11 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Total Dmg/10R: 400
+    Melee Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 320
 
   RESOURCES:
-    Skill Points:  46
+    Skill Points:  44
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
@@ -701,9 +701,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 2)
     Physical -> Indomitable (Lvl 2)
-    Racial -> Tull Bloodline (Lvl 2)
+    Racial -> Tull Bloodline (Lvl 1)
 
   AFFINITIES:
     Air            : 3
@@ -746,11 +746,11 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Total Dmg/10R: 400
+    Melee Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 320
 
   RESOURCES:
-    Skill Points:  48
+    Skill Points:  46
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
@@ -761,9 +761,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 2)
     Physical -> Indomitable (Lvl 2)
-    Racial -> Tull Bloodline (Lvl 2)
+    Racial -> Tull Bloodline (Lvl 1)
 
   AFFINITIES:
     Air            : 3
@@ -801,7 +801,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   HEALTH POOLS:
     Vitality: 170 = 15d12 (6 x 15) + 28(flat) + 3 x 15(Con)
-    Health:  88 = 15d8 (4 x 15) + 21(flat)
+    Health:  73 = 15d6 (3 x 15) + 21(flat)
     Mana:   22 = 15d4 (2 x 15) + -1 x 15(Wis)
 
   DAMAGE:
@@ -821,8 +821,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Tull Bloodline (Lvl 2)
 
   AFFINITIES:
@@ -861,7 +861,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   HEALTH POOLS:
     Vitality: 197 = 16d12 (6 x 16) + 29(flat) + 4 x 16(Con)
-    Health:  94 = 16d8 (4 x 16) + 22(flat)
+    Health:  78 = 16d6 (3 x 16) + 22(flat)
     Mana:   24 = 16d4 (2 x 16) + -1 x 16(Wis)
 
   DAMAGE:
@@ -881,8 +881,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Tull Bloodline (Lvl 2)
 
   AFFINITIES:
@@ -904,12 +904,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 29 (+9) = 9 + 20
+    STR: 25 (+7) = 9 + 16
     DEX: 11 (+0) = 8 + 3
-    CON: 21 (+5) = 9 + 12
+    CON: 18 (+4) = 9 + 9
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 27
@@ -917,17 +917,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +17 | Ranged: +6
+    To Hit: Melee: +15 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 227 = 17d12 (6 x 17) + 32(flat) + 5 x 17(Con)
-    Health:  100 = 17d8 (4 x 17) + 24(flat)
+    Vitality: 210 = 17d12 (6 x 17) + 32(flat) + 4 x 17(Con)
+    Health:  83 = 17d6 (3 x 17) + 24(flat)
     Mana:   25 = 17d4 (2 x 17) + -1 x 17(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 22 | Dmg/Turn: 44
-    Total Dmg/10R: 440
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Total Dmg/10R: 400
 
   RESOURCES:
     Skill Points:  61
@@ -942,8 +942,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
-    Racial -> Tull Bloodline (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Tull Bloodline (Lvl 2)
 
   AFFINITIES:
     Air            : 3
@@ -964,12 +964,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 29 (+9) = 9 + 20
+    STR: 25 (+7) = 9 + 16
     DEX: 11 (+0) = 8 + 3
-    CON: 21 (+5) = 9 + 12
+    CON: 18 (+4) = 9 + 9
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 27
@@ -977,17 +977,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +17 | Ranged: +6
+    To Hit: Melee: +15 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 240 = 18d12 (6 x 18) + 33(flat) + 5 x 18(Con)
-    Health:  106 = 18d8 (4 x 18) + 25(flat)
+    Vitality: 222 = 18d12 (6 x 18) + 33(flat) + 4 x 18(Con)
+    Health:  88 = 18d6 (3 x 18) + 25(flat)
     Mana:   27 = 18d4 (2 x 18) + -1 x 18(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 22 | Dmg/Turn: 44
-    Total Dmg/10R: 440
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Total Dmg/10R: 400
 
   RESOURCES:
     Skill Points:  63
@@ -1002,8 +1002,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
-    Racial -> Tull Bloodline (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Tull Bloodline (Lvl 2)
 
   AFFINITIES:
     Air            : 3
@@ -1024,12 +1024,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 29 (+9) = 9 + 20
+    STR: 25 (+7) = 9 + 16
     DEX: 12 (+1) = 8 + 4
-    CON: 21 (+5) = 9 + 12
+    CON: 18 (+4) = 9 + 9
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 28
@@ -1037,17 +1037,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +19 | Ranged: +8
+    To Hit: Melee: +16 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 254 = 19d12 (6 x 19) + 36(flat) + 5 x 19(Con)
+    Vitality: 235 = 19d12 (6 x 19) + 36(flat) + 4 x 19(Con)
     Health:  112 = 19d8 (4 x 19) + 27(flat)
     Mana:   28 = 19d4 (2 x 19) + -1 x 19(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 22 | Dmg/Turn: 44
-    Total Dmg/10R: 440
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Total Dmg/10R: 400
 
   RESOURCES:
     Skill Points:  67
@@ -1061,9 +1061,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
+    Physical -> Duelist (Lvl 3)
     Physical -> Indomitable (Lvl 3)
-    Racial -> Tull Bloodline (Lvl 3)
+    Racial -> Tull Bloodline (Lvl 2)
 
   AFFINITIES:
     Air            : 4
@@ -1084,12 +1084,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 29 (+9) = 9 + 20
+    STR: 25 (+7) = 9 + 16
     DEX: 12 (+1) = 8 + 4
-    CON: 21 (+5) = 9 + 12
+    CON: 18 (+4) = 9 + 9
     WIS:  9 (-1) = 8 + 1
     INT:  9 (-1) = 8 + 1
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 28
@@ -1097,17 +1097,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +19 | Ranged: +8
+    To Hit: Melee: +16 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 267 = 20d12 (6 x 20) + 37(flat) + 5 x 20(Con)
+    Vitality: 247 = 20d12 (6 x 20) + 37(flat) + 4 x 20(Con)
     Health:  118 = 20d8 (4 x 20) + 28(flat)
     Mana:   30 = 20d4 (2 x 20) + -1 x 20(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 22 | Dmg/Turn: 44
-    Total Dmg/10R: 440
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Total Dmg/10R: 400
 
   RESOURCES:
     Skill Points:  69
@@ -1121,9 +1121,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
+    Physical -> Duelist (Lvl 3)
     Physical -> Indomitable (Lvl 3)
-    Racial -> Tull Bloodline (Lvl 3)
+    Racial -> Tull Bloodline (Lvl 2)
 
   AFFINITIES:
     Air            : 4
@@ -1157,10 +1157,10 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +19 | Ranged: +8
+    To Hit: Melee: +18 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 365 = 21d20 (10 x 21) + 40(flat) + 5 x 21(Con)
+    Vitality: 281 = 21d12 (6 x 21) + 40(flat) + 5 x 21(Con)
     Health:  124 = 21d8 (4 x 21) + 30(flat)
     Mana:   31 = 21d4 (2 x 21) + -1 x 21(Wis)
 
@@ -1181,8 +1181,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
-    Physical -> Indomitable (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
     Racial -> Tull Bloodline (Lvl 3)
 
   AFFINITIES:
@@ -1217,7 +1217,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +22 | Ranged: +10
+    To Hit: Melee: +20 | Ranged: +10
 
   HEALTH POOLS:
     Vitality: 452 = 26d20 (10 x 26) + 49(flat) + 5 x 26(Con)
@@ -1226,11 +1226,11 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 31 | Dmg/Turn: 93
-    Total Dmg/10R: 930
+    Melee Dmg/Hit: 23 | Dmg/Turn: 69
+    Total Dmg/10R: 690
 
   RESOURCES:
-    Skill Points:  92
+    Skill Points:  90
     Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    32
@@ -1241,9 +1241,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 5)
+    Physical -> Duelist (Lvl 4)
     Physical -> Indomitable (Lvl 4)
-    Racial -> Tull Bloodline (Lvl 4)
+    Racial -> Tull Bloodline (Lvl 3)
 
   AFFINITIES:
     Air            : 4
@@ -1256,7 +1256,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: Unarmed (1d10 Slashing + 1d8 Bludgeoning (Tull Claws))
+    Weapon: Unarmed (1d6 Slashing + 1d4 Bludgeoning (Tull Claws))
     Armor: nerite_heavy (Nerite Heavy Armor)
 
 ============================================================
@@ -1264,12 +1264,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 34 (+12) = 9 + 25
+    STR: 29 (+9) = 9 + 20
     DEX: 12 (+1) = 8 + 4
-    CON: 26 (+8) = 9 + 17
+    CON: 22 (+6) = 9 + 13
     WIS: 10 (+0) = 8 + 2
     INT: 10 (+0) = 8 + 2
-    CHA:  7 (-2) = 7 + 0
+    CHA:  8 (-1) = 7 + 1
 
   COMBAT:
     AC: 28
@@ -1277,17 +1277,17 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Melee: +28 | Ranged: +12
+    To Hit: Melee: +22 | Ranged: +12
 
   HEALTH POOLS:
-    Vitality: 633 = 31d20 (10 x 31) + 60(flat) + 8 x 31(Con)
+    Vitality: 571 = 31d20 (10 x 31) + 60(flat) + 6 x 31(Con)
     Health:  215 = 31d10 (5 x 31) + 45(flat)
     Mana:   77 = 31d4 (2 x 31) + 0 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 34 | Dmg/Turn: 102
-    Total Dmg/10R: 1020
+    Melee Dmg/Hit: 33 | Dmg/Turn: 99
+    Total Dmg/10R: 990
 
   RESOURCES:
     Skill Points:  106
@@ -1301,9 +1301,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 6)
+    Physical -> Duelist (Lvl 5)
     Physical -> Indomitable (Lvl 5)
-    Racial -> Tull Bloodline (Lvl 5)
+    Racial -> Tull Bloodline (Lvl 4)
 
   AFFINITIES:
     Air            : 5
@@ -1324,30 +1324,30 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 41 (+15) = 9 + 32
+    STR: 35 (+12) = 9 + 26
     DEX: 13 (+1) = 8 + 5
-    CON: 31 (+10) = 9 + 22
+    CON: 26 (+8) = 9 + 17
     WIS: 10 (+0) = 8 + 2
     INT: 10 (+0) = 8 + 2
-    CHA:  6 (-2) = 7 + -1
+    CHA:  7 (-2) = 7 + 0
 
   COMBAT:
-    AC: 30
+    AC: 29
     Initiative: +1
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Melee: +35 | Ranged: +15
+    To Hit: Melee: +28 | Ranged: +15
 
   HEALTH POOLS:
-    Vitality: 920 = 41d20 (10 x 41) + 80(flat) + 10 x 41(Con)
+    Vitality: 838 = 41d20 (10 x 41) + 80(flat) + 8 x 41(Con)
     Health:  285 = 41d10 (5 x 41) + 60(flat)
     Mana:   102 = 41d4 (2 x 41) + 0 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 37 | Dmg/Turn: 148
-    Total Dmg/10R: 1480
+    Melee Dmg/Hit: 38 | Dmg/Turn: 152
+    Total Dmg/10R: 1520
 
   RESOURCES:
     Skill Points:  144
@@ -1362,8 +1362,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 7)
-    Physical -> Indomitable (Lvl 7)
-    Racial -> Tull Bloodline (Lvl 7)
+    Physical -> Indomitable (Lvl 6)
+    Racial -> Tull Bloodline (Lvl 6)
 
   AFFINITIES:
     Air            : 6
@@ -1392,12 +1392,12 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     CHA:  7 (-2) = 7 + 0
 
   COMBAT:
-    AC: 32
+    AC: 31
     Initiative: +1
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Melee: +40 | Ranged: +18
+    To Hit: Melee: +34 | Ranged: +18
 
   HEALTH POOLS:
     Vitality: 1145 = 51d20 (10 x 51) + 100(flat) + 10 x 51(Con)
@@ -1406,8 +1406,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 48 | Dmg/Turn: 192
-    Total Dmg/10R: 1920
+    Melee Dmg/Hit: 53 | Dmg/Turn: 212
+    Total Dmg/10R: 2120
 
   RESOURCES:
     Skill Points:  177
@@ -1421,8 +1421,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 9)
-    Physical -> Indomitable (Lvl 9)
+    Physical -> Duelist (Lvl 8)
+    Physical -> Indomitable (Lvl 8)
     Racial -> Tull Bloodline (Lvl 8)
 
   AFFINITIES:
@@ -1444,35 +1444,35 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 48 (+19) = 9 + 39
-    DEX: 18 (+4) = 8 + 10
-    CON: 35 (+12) = 9 + 26
-    WIS: 13 (+1) = 8 + 5
-    INT: 16 (+3) = 8 + 8
+    STR: 42 (+16) = 9 + 33
+    DEX: 14 (+2) = 8 + 6
+    CON: 32 (+11) = 9 + 23
+    WIS: 11 (+0) = 8 + 3
+    INT: 11 (+0) = 8 + 3
     CHA:  7 (-2) = 7 + 0
 
   COMBAT:
-    AC: 36
-    Initiative: +4
+    AC: 34
+    Initiative: +2
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Melee: +50 | Ranged: +25
+    To Hit: Melee: +39 | Ranged: +23
 
   HEALTH POOLS:
-    Vitality: 1512 = 61d20 (10 x 61) + 140(flat) + 12 x 61(Con)
-    Health:  435 = 61d10 (5 x 61) + 100(flat)
-    Mana:   213 = 61d4 (2 x 61) + 1 x 61(Wis)
+    Vitality: 1431 = 61d20 (10 x 61) + 120(flat) + 11 x 61(Con)
+    Health:  425 = 61d10 (5 x 61) + 90(flat)
+    Mana:   152 = 61d4 (2 x 61) + 0 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 52 | Dmg/Turn: 260
-    Ranged Dmg/Hit: 3 | Dmg/Turn: 15
-    Total Dmg/10R: 2600
+    Melee Dmg/Hit: 56 | Dmg/Turn: 280
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 5
+    Total Dmg/10R: 2800
 
   RESOURCES:
-    Skill Points:  212
-    Stat Points:   20
+    Skill Points:  210
+    Stat Points:   15
     Affinity Pts:  0
     Stat Spent:    44
 
@@ -1482,9 +1482,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 11)
+    Physical -> Duelist (Lvl 10)
     Physical -> Indomitable (Lvl 10)
-    Racial -> Tull Bloodline (Lvl 10)
+    Racial -> Tull Bloodline (Lvl 9)
 
   AFFINITIES:
     Air            : 8
@@ -1518,18 +1518,18 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Melee: +54 | Ranged: +28
+    To Hit: Melee: +45 | Ranged: +28
 
   HEALTH POOLS:
-    Vitality: 1777 = 71d20 (10 x 71) + 180(flat) + 12 x 71(Con)
-    Health:  515 = 71d10 (5 x 71) + 125(flat)
+    Vitality: 1767 = 71d20 (10 x 71) + 170(flat) + 12 x 71(Con)
+    Health:  510 = 71d10 (5 x 71) + 120(flat)
     Mana:   319 = 71d4 (2 x 71) + 2 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 54 | Dmg/Turn: 270
+    Melee Dmg/Hit: 61 | Dmg/Turn: 305
     Ranged Dmg/Hit: 3 | Dmg/Turn: 15
-    Total Dmg/10R: 2700
+    Total Dmg/10R: 3050
 
   RESOURCES:
     Skill Points:  243
@@ -1543,8 +1543,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 14)
-    Physical -> Indomitable (Lvl 12)
+    Physical -> Duelist (Lvl 13)
+    Physical -> Indomitable (Lvl 11)
     Racial -> Tull Bloodline (Lvl 10)
 
   AFFINITIES:
@@ -1579,18 +1579,18 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Melee: +58 | Ranged: +31
+    To Hit: Melee: +48 | Ranged: +31
 
   HEALTH POOLS:
-    Vitality: 2123 = 81d20 (10 x 81) + 220(flat) + 13 x 81(Con)
-    Health:  595 = 81d10 (5 x 81) + 150(flat)
+    Vitality: 2113 = 81d20 (10 x 81) + 210(flat) + 13 x 81(Con)
+    Health:  590 = 81d10 (5 x 81) + 145(flat)
     Mana:   364 = 81d4 (2 x 81) + 2 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 56 | Dmg/Turn: 336
+    Melee Dmg/Hit: 64 | Dmg/Turn: 384
     Ranged Dmg/Hit: 3 | Dmg/Turn: 18
-    Total Dmg/10R: 3360
+    Total Dmg/10R: 3840
 
   RESOURCES:
     Skill Points:  279
@@ -1604,8 +1604,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 17)
-    Physical -> Indomitable (Lvl 14)
+    Physical -> Duelist (Lvl 16)
+    Physical -> Indomitable (Lvl 13)
     Racial -> Tull Bloodline (Lvl 10)
 
   AFFINITIES:
@@ -1640,7 +1640,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Melee: +62 | Ranged: +35
+    To Hit: Melee: +54 | Ranged: +35
 
   HEALTH POOLS:
     Vitality: 2388 = 91d20 (10 x 91) + 250(flat) + 13 x 91(Con)
@@ -1649,9 +1649,9 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 60 | Dmg/Turn: 420
+    Melee Dmg/Hit: 65 | Dmg/Turn: 455
     Ranged Dmg/Hit: 3 | Dmg/Turn: 21
-    Total Dmg/10R: 4200
+    Total Dmg/10R: 4550
 
   RESOURCES:
     Skill Points:  312
@@ -1665,7 +1665,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 21)
+    Physical -> Duelist (Lvl 19)
     Physical -> Indomitable (Lvl 15)
     Racial -> Tull Bloodline (Lvl 10)
 
@@ -1701,18 +1701,18 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Melee: +66 | Ranged: +38
+    To Hit: Melee: +60 | Ranged: +38
 
   HEALTH POOLS:
-    Vitality: 2663 = 101d20 (10 x 101) + 290(flat) + 13 x 101(Con)
-    Health:  750 = 101d10 (5 x 101) + 195(flat)
+    Vitality: 2653 = 101d20 (10 x 101) + 280(flat) + 13 x 101(Con)
+    Health:  745 = 101d10 (5 x 101) + 190(flat)
     Mana:   454 = 101d4 (2 x 101) + 2 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 63 | Dmg/Turn: 441
+    Melee Dmg/Hit: 68 | Dmg/Turn: 476
     Ranged Dmg/Hit: 3 | Dmg/Turn: 21
-    Total Dmg/10R: 4410
+    Total Dmg/10R: 4760
 
   RESOURCES:
     Skill Points:  343
@@ -1726,8 +1726,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 24)
-    Physical -> Indomitable (Lvl 17)
+    Physical -> Duelist (Lvl 23)
+    Physical -> Indomitable (Lvl 16)
     Racial -> Tull Bloodline (Lvl 10)
 
   AFFINITIES:
@@ -1765,8 +1765,8 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
     To Hit: Melee: +397 | Ranged: +349
 
   HEALTH POOLS:
-    Vitality: 39074 = 1001d20 (10 x 1001) + 4540(flat) + 24 x 1001(Con)
-    Health:  8275 = 1001d10 (5 x 1001) + 2770(flat)
+    Vitality: 39064 = 1001d20 (10 x 1001) + 4530(flat) + 24 x 1001(Con)
+    Health:  8270 = 1001d10 (5 x 1001) + 2765(flat)
     Mana:   15515 = 1001d4 (2 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
@@ -1788,7 +1788,7 @@ EYUM TTRPG - MARTIAL FIGHTER (NERITE GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 63)
-    Physical -> Indomitable (Lvl 272)
+    Physical -> Indomitable (Lvl 271)
     Racial -> Tull Bloodline (Lvl 10)
 
   AFFINITIES:

@@ -19,7 +19,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +9 | Ranged: +4
+    To Hit: Melee: +8 | Ranged: +4
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -43,7 +43,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
+    Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
@@ -79,12 +79,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +9 | Ranged: +4
+    To Hit: Melee: +8 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 21 = 3d10 (5 x 3) + 2(flat) + 1 x 3(Con)
+    Vitality: 18 = 3d8 (4 x 3) + 2(flat) + 1 x 3(Con)
     Health:  11 = 3d6 (3 x 3) + 1(flat)
-    Mana:   4 = 3d4 (2 x 3) + -1 x 3(Wis)
+    Mana:   7 = 3d6 (3 x 3) + -1 x 3(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -103,8 +103,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
@@ -139,12 +139,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +10 | Ranged: +5
+    To Hit: Melee: +9 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 31 = 4d10 (5 x 4) + 5(flat) + 1 x 4(Con)
+    Vitality: 27 = 4d8 (4 x 4) + 5(flat) + 1 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
-    Mana:   10 = 4d4 (2 x 4) + 0 x 4(Wis)
+    Mana:   14 = 4d6 (3 x 4) + 0 x 4(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -164,8 +164,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
@@ -203,9 +203,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +10 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 40 = 5d10 (5 x 5) + 8(flat) + 1 x 5(Con)
+    Vitality: 35 = 5d8 (4 x 5) + 8(flat) + 1 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   12 = 5d4 (2 x 5) + 0 x 5(Wis)
+    Mana:   17 = 5d6 (3 x 5) + 0 x 5(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -214,8 +214,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Total Dmg/10R: 110
 
   RESOURCES:
-    Skill Points:  17
-    Stat Points:   1
+    Skill Points:  15
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    25
 
@@ -226,13 +226,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
-    Racial -> Therian Minotaur (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
     Earth          : 4
-    Fire           : 2
+    Fire           : 1
     Generic        : 1
     Necrotic       : 4
     Psychic        : -2
@@ -264,9 +264,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +10 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 48 = 6d10 (5 x 6) + 9(flat) + 1 x 6(Con)
+    Vitality: 42 = 6d8 (4 x 6) + 9(flat) + 1 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   15 = 6d4 (2 x 6) + 0 x 6(Wis)
+    Mana:   21 = 6d6 (3 x 6) + 0 x 6(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -275,8 +275,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Total Dmg/10R: 110
 
   RESOURCES:
-    Skill Points:  19
-    Stat Points:   1
+    Skill Points:  17
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    25
 
@@ -287,13 +287,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
-    Racial -> Therian Minotaur (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
     Earth          : 4
-    Fire           : 2
+    Fire           : 1
     Generic        : 1
     Necrotic       : 4
     Psychic        : -2
@@ -331,13 +331,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 13 | Dmg/Turn: 13
+    Melee Dmg/Hit: 11 | Dmg/Turn: 11
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 130
+    Total Dmg/10R: 110
 
   RESOURCES:
-    Skill Points:  23
-    Stat Points:   1
+    Skill Points:  21
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -347,9 +347,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
-    Racial -> Therian Minotaur (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -359,7 +359,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Necrotic       : 4
     Psychic        : -2
     Radiant        : 1
-    Water          : 2
+    Water          : 1
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -392,13 +392,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 13 | Dmg/Turn: 13
+    Melee Dmg/Hit: 11 | Dmg/Turn: 11
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 130
+    Total Dmg/10R: 110
 
   RESOURCES:
-    Skill Points:  25
-    Stat Points:   1
+    Skill Points:  23
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -408,9 +408,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
-    Racial -> Therian Minotaur (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -420,7 +420,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Necrotic       : 4
     Psychic        : -2
     Radiant        : 1
-    Water          : 2
+    Water          : 1
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -447,15 +447,15 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +11 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 83 = 9d12 (6 x 9) + 16(flat) + 1 x 9(Con)
+    Vitality: 74 = 9d10 (5 x 9) + 16(flat) + 1 x 9(Con)
     Health:  43 = 9d6 (3 x 9) + 12(flat)
     Mana:   22 = 9d4 (2 x 9) + 0 x 9(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 13 | Dmg/Turn: 26
+    Melee Dmg/Hit: 11 | Dmg/Turn: 22
     Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 260
+    Total Dmg/10R: 220
 
   RESOURCES:
     Skill Points:  32
@@ -469,8 +469,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
@@ -508,15 +508,15 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +12 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 92 = 10d12 (6 x 10) + 17(flat) + 1 x 10(Con)
+    Vitality: 82 = 10d10 (5 x 10) + 17(flat) + 1 x 10(Con)
     Health:  48 = 10d6 (3 x 10) + 13(flat)
     Mana:   25 = 10d4 (2 x 10) + 0 x 10(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 13 | Dmg/Turn: 26
+    Melee Dmg/Hit: 11 | Dmg/Turn: 22
     Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 260
+    Total Dmg/10R: 220
 
   RESOURCES:
     Skill Points:  36
@@ -530,8 +530,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
@@ -569,7 +569,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +12 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 102 = 11d12 (6 x 11) + 20(flat) + 1 x 11(Con)
+    Vitality: 91 = 11d10 (5 x 11) + 20(flat) + 1 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
     Mana:   27 = 11d4 (2 x 11) + 0 x 11(Wis)
 
@@ -581,7 +581,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   RESOURCES:
     Skill Points:  38
-    Stat Points:   3
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    27
 
@@ -592,17 +592,17 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 2
     Earth          : 6
     Fire           : 3
     Generic        : 1
     Necrotic       : 5
     Psychic        : -1
-    Radiant        : 3
+    Radiant        : 2
     Water          : 3
 
   GEAR:
@@ -630,7 +630,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +12 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 111 = 12d12 (6 x 12) + 21(flat) + 1 x 12(Con)
+    Vitality: 99 = 12d10 (5 x 12) + 21(flat) + 1 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
     Mana:   30 = 12d4 (2 x 12) + 0 x 12(Wis)
 
@@ -642,7 +642,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   RESOURCES:
     Skill Points:  40
-    Stat Points:   3
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    27
 
@@ -653,17 +653,17 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 2
     Earth          : 6
     Fire           : 3
     Generic        : 1
     Necrotic       : 5
     Psychic        : -1
-    Radiant        : 3
+    Radiant        : 2
     Water          : 3
 
   GEAR:
@@ -703,7 +703,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   RESOURCES:
     Skill Points:  44
-    Stat Points:   3
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -713,19 +713,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 2)
     Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 7
+    Earth          : 6
     Fire           : 4
     Generic        : 1
     Necrotic       : 6
     Psychic        : 0
     Radiant        : 3
-    Water          : 4
+    Water          : 3
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -764,7 +764,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   RESOURCES:
     Skill Points:  46
-    Stat Points:   3
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -774,19 +774,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 2)
     Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 7
+    Earth          : 6
     Fire           : 4
     Generic        : 1
     Necrotic       : 6
     Psychic        : 0
     Radiant        : 3
-    Water          : 4
+    Water          : 3
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -814,7 +814,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   HEALTH POOLS:
     Vitality: 140 = 15d12 (6 x 15) + 28(flat) + 1 x 15(Con)
-    Health:  88 = 15d8 (4 x 15) + 21(flat)
+    Health:  73 = 15d6 (3 x 15) + 21(flat)
     Mana:   37 = 15d4 (2 x 15) + 0 x 15(Wis)
 
   DAMAGE:
@@ -835,8 +835,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
@@ -875,7 +875,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   HEALTH POOLS:
     Vitality: 149 = 16d12 (6 x 16) + 29(flat) + 1 x 16(Con)
-    Health:  94 = 16d8 (4 x 16) + 22(flat)
+    Health:  78 = 16d6 (3 x 16) + 22(flat)
     Mana:   40 = 16d4 (2 x 16) + 0 x 16(Wis)
 
   DAMAGE:
@@ -896,8 +896,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
@@ -936,7 +936,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   HEALTH POOLS:
     Vitality: 159 = 17d12 (6 x 17) + 32(flat) + 1 x 17(Con)
-    Health:  100 = 17d8 (4 x 17) + 24(flat)
+    Health:  83 = 17d6 (3 x 17) + 24(flat)
     Mana:   42 = 17d4 (2 x 17) + 0 x 17(Wis)
 
   DAMAGE:
@@ -946,8 +946,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Total Dmg/10R: 260
 
   RESOURCES:
-    Skill Points:  61
-    Stat Points:   5
+    Skill Points:  59
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -958,16 +958,16 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
-    Racial -> Therian Minotaur (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
     Air            : 4
     Earth          : 7
-    Fire           : 5
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
+    Necrotic       : 6
+    Psychic        : 0
     Radiant        : 4
     Water          : 4
 
@@ -997,7 +997,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   HEALTH POOLS:
     Vitality: 168 = 18d12 (6 x 18) + 33(flat) + 1 x 18(Con)
-    Health:  106 = 18d8 (4 x 18) + 25(flat)
+    Health:  88 = 18d6 (3 x 18) + 25(flat)
     Mana:   45 = 18d4 (2 x 18) + 0 x 18(Wis)
 
   DAMAGE:
@@ -1007,8 +1007,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Total Dmg/10R: 260
 
   RESOURCES:
-    Skill Points:  63
-    Stat Points:   5
+    Skill Points:  61
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -1019,16 +1019,16 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
-    Racial -> Therian Minotaur (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
     Air            : 4
     Earth          : 7
-    Fire           : 5
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
+    Necrotic       : 6
+    Psychic        : 0
     Radiant        : 4
     Water          : 4
 
@@ -1054,7 +1054,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +16 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +10
 
   HEALTH POOLS:
     Vitality: 178 = 19d12 (6 x 19) + 36(flat) + 1 x 19(Con)
@@ -1068,8 +1068,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Total Dmg/10R: 260
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   6
+    Skill Points:  65
+    Stat Points:   4
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1079,19 +1079,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
+    Physical -> Duelist (Lvl 3)
     Physical -> Indomitable (Lvl 3)
-    Racial -> Therian Minotaur (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
     Air            : 4
-    Earth          : 8
-    Fire           : 5
+    Earth          : 7
+    Fire           : 4
     Generic        : 1
     Necrotic       : 7
     Psychic        : 1
     Radiant        : 4
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -1115,7 +1115,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +16 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +10
 
   HEALTH POOLS:
     Vitality: 187 = 20d12 (6 x 20) + 37(flat) + 1 x 20(Con)
@@ -1129,8 +1129,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Total Dmg/10R: 260
 
   RESOURCES:
-    Skill Points:  69
-    Stat Points:   6
+    Skill Points:  67
+    Stat Points:   4
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1140,19 +1140,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
+    Physical -> Duelist (Lvl 3)
     Physical -> Indomitable (Lvl 3)
-    Racial -> Therian Minotaur (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
     Air            : 4
-    Earth          : 8
-    Fire           : 5
+    Earth          : 7
+    Fire           : 4
     Generic        : 1
     Necrotic       : 7
     Psychic        : 1
     Radiant        : 4
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -1176,10 +1176,10 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +16 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 281 = 21d20 (10 x 21) + 40(flat) + 1 x 21(Con)
+    Vitality: 197 = 21d12 (6 x 21) + 40(flat) + 1 x 21(Con)
     Health:  124 = 21d8 (4 x 21) + 30(flat)
     Mana:   52 = 21d4 (2 x 21) + 0 x 21(Wis)
 
@@ -1201,8 +1201,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
-    Physical -> Indomitable (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
     Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
@@ -1237,7 +1237,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +19 | Ranged: +12
+    To Hit: Melee: +17 | Ranged: +12
 
   HEALTH POOLS:
     Vitality: 348 = 26d20 (10 x 26) + 49(flat) + 1 x 26(Con)
@@ -1246,13 +1246,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 13 | Dmg/Turn: 39
+    Melee Dmg/Hit: 14 | Dmg/Turn: 42
     Ranged Dmg/Hit: 7 | Dmg/Turn: 21
-    Total Dmg/10R: 390
+    Total Dmg/10R: 420
 
   RESOURCES:
     Skill Points:  90
-    Stat Points:   11
+    Stat Points:   8
     Affinity Pts:  0
     Stat Spent:    32
 
@@ -1262,19 +1262,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 5)
+    Physical -> Duelist (Lvl 4)
     Physical -> Indomitable (Lvl 4)
-    Racial -> Therian Minotaur (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 9
-    Fire           : 6
+    Air            : 5
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
     Necrotic       : 8
     Psychic        : 2
     Radiant        : 5
-    Water          : 6
+    Water          : 5
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -1293,12 +1293,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 19
+    AC: 18
     Initiative: +3
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Melee: +22 | Ranged: +14
+    To Hit: Melee: +19 | Ranged: +14
 
   HEALTH POOLS:
     Vitality: 416 = 31d20 (10 x 31) + 60(flat) + 1 x 31(Con)
@@ -1307,13 +1307,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 13 | Dmg/Turn: 39
+    Melee Dmg/Hit: 15 | Dmg/Turn: 45
     Ranged Dmg/Hit: 7 | Dmg/Turn: 21
-    Total Dmg/10R: 390
+    Total Dmg/10R: 450
 
   RESOURCES:
     Skill Points:  104
-    Stat Points:   16
+    Stat Points:   13
     Affinity Pts:  0
     Stat Spent:    34
 
@@ -1323,19 +1323,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 6)
+    Physical -> Duelist (Lvl 5)
     Physical -> Indomitable (Lvl 5)
-    Racial -> Therian Minotaur (Lvl 5)
+    Racial -> Therian Minotaur (Lvl 4)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 10
+    Air            : 6
+    Earth          : 9
     Fire           : 7
     Generic        : 1
-    Necrotic       : 10
+    Necrotic       : 9
     Psychic        : 3
-    Radiant        : 7
-    Water          : 7
+    Radiant        : 6
+    Water          : 6
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -1354,12 +1354,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 21
+    AC: 20
     Initiative: +4
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Melee: +27 | Ranged: +18
+    To Hit: Melee: +23 | Ranged: +18
 
   HEALTH POOLS:
     Vitality: 551 = 41d20 (10 x 41) + 80(flat) + 1 x 41(Con)
@@ -1368,13 +1368,13 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 14 | Dmg/Turn: 56
+    Melee Dmg/Hit: 17 | Dmg/Turn: 68
     Ranged Dmg/Hit: 8 | Dmg/Turn: 32
-    Total Dmg/10R: 560
+    Total Dmg/10R: 680
 
   RESOURCES:
     Skill Points:  140
-    Stat Points:   27
+    Stat Points:   23
     Affinity Pts:  0
     Stat Spent:    37
 
@@ -1385,18 +1385,18 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 7)
-    Physical -> Indomitable (Lvl 7)
-    Racial -> Therian Minotaur (Lvl 7)
+    Physical -> Indomitable (Lvl 6)
+    Racial -> Therian Minotaur (Lvl 6)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 13
-    Fire           : 10
+    Air            : 9
+    Earth          : 12
+    Fire           : 9
     Generic        : 1
-    Necrotic       : 12
-    Psychic        : 6
-    Radiant        : 9
-    Water          : 10
+    Necrotic       : 11
+    Psychic        : 5
+    Radiant        : 8
+    Water          : 9
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -1415,12 +1415,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 23
+    AC: 22
     Initiative: +4
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Melee: +32 | Ranged: +21
+    To Hit: Melee: +26 | Ranged: +21
 
   HEALTH POOLS:
     Vitality: 737 = 51d20 (10 x 51) + 100(flat) + 2 x 51(Con)
@@ -1429,9 +1429,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 14 | Dmg/Turn: 56
+    Melee Dmg/Hit: 18 | Dmg/Turn: 72
     Ranged Dmg/Hit: 8 | Dmg/Turn: 32
-    Total Dmg/10R: 560
+    Total Dmg/10R: 720
 
   RESOURCES:
     Skill Points:  171
@@ -1445,8 +1445,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 9)
-    Physical -> Indomitable (Lvl 9)
+    Physical -> Duelist (Lvl 8)
+    Physical -> Indomitable (Lvl 8)
     Racial -> Therian Minotaur (Lvl 8)
 
   AFFINITIES:
@@ -1476,27 +1476,27 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 25
+    AC: 24
     Initiative: +4
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Melee: +38 | Ranged: +25
+    To Hit: Melee: +30 | Ranged: +25
 
   HEALTH POOLS:
-    Vitality: 902 = 61d20 (10 x 61) + 140(flat) + 2 x 61(Con)
-    Health:  435 = 61d10 (5 x 61) + 100(flat)
+    Vitality: 882 = 61d20 (10 x 61) + 120(flat) + 2 x 61(Con)
+    Health:  425 = 61d10 (5 x 61) + 90(flat)
     Mana:   213 = 61d4 (2 x 61) + 1 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 14 | Dmg/Turn: 70
+    Melee Dmg/Hit: 19 | Dmg/Turn: 95
     Ranged Dmg/Hit: 8 | Dmg/Turn: 40
-    Total Dmg/10R: 700
+    Total Dmg/10R: 950
 
   RESOURCES:
     Skill Points:  204
-    Stat Points:   49
+    Stat Points:   44
     Affinity Pts:  0
     Stat Spent:    44
 
@@ -1506,19 +1506,19 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 11)
+    Physical -> Duelist (Lvl 10)
     Physical -> Indomitable (Lvl 10)
-    Racial -> Therian Minotaur (Lvl 10)
+    Racial -> Therian Minotaur (Lvl 9)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 19
-    Fire           : 16
+    Air            : 14
+    Earth          : 17
+    Fire           : 14
     Generic        : 1
-    Necrotic       : 18
-    Psychic        : 12
-    Radiant        : 15
-    Water          : 16
+    Necrotic       : 17
+    Psychic        : 11
+    Radiant        : 14
+    Water          : 14
 
   GEAR:
     Weapon: iron_greatsword (2d6 slashing)
@@ -1542,18 +1542,18 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Melee: +42 | Ranged: +28
+    To Hit: Melee: +33 | Ranged: +28
 
   HEALTH POOLS:
-    Vitality: 1067 = 71d20 (10 x 71) + 180(flat) + 2 x 71(Con)
-    Health:  515 = 71d10 (5 x 71) + 125(flat)
+    Vitality: 1057 = 71d20 (10 x 71) + 170(flat) + 2 x 71(Con)
+    Health:  510 = 71d10 (5 x 71) + 120(flat)
     Mana:   248 = 71d4 (2 x 71) + 1 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 15 | Dmg/Turn: 75
+    Melee Dmg/Hit: 21 | Dmg/Turn: 105
     Ranged Dmg/Hit: 8 | Dmg/Turn: 40
-    Total Dmg/10R: 750
+    Total Dmg/10R: 1050
 
   RESOURCES:
     Skill Points:  235
@@ -1567,8 +1567,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 14)
-    Physical -> Indomitable (Lvl 12)
+    Physical -> Duelist (Lvl 13)
+    Physical -> Indomitable (Lvl 11)
     Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
@@ -1603,18 +1603,18 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Melee: +47 | Ranged: +31
+    To Hit: Melee: +37 | Ranged: +31
 
   HEALTH POOLS:
-    Vitality: 1232 = 81d20 (10 x 81) + 220(flat) + 2 x 81(Con)
-    Health:  595 = 81d10 (5 x 81) + 150(flat)
+    Vitality: 1222 = 81d20 (10 x 81) + 210(flat) + 2 x 81(Con)
+    Health:  590 = 81d10 (5 x 81) + 145(flat)
     Mana:   283 = 81d4 (2 x 81) + 1 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 18 | Dmg/Turn: 108
+    Melee Dmg/Hit: 24 | Dmg/Turn: 144
     Ranged Dmg/Hit: 8 | Dmg/Turn: 48
-    Total Dmg/10R: 1080
+    Total Dmg/10R: 1440
 
   RESOURCES:
     Skill Points:  271
@@ -1628,8 +1628,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 17)
-    Physical -> Indomitable (Lvl 14)
+    Physical -> Duelist (Lvl 16)
+    Physical -> Indomitable (Lvl 13)
     Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
@@ -1664,7 +1664,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Melee: +51 | Ranged: +36
+    To Hit: Melee: +43 | Ranged: +36
 
   HEALTH POOLS:
     Vitality: 1478 = 91d20 (10 x 91) + 250(flat) + 3 x 91(Con)
@@ -1673,9 +1673,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 21 | Dmg/Turn: 147
+    Melee Dmg/Hit: 25 | Dmg/Turn: 175
     Ranged Dmg/Hit: 9 | Dmg/Turn: 63
-    Total Dmg/10R: 1470
+    Total Dmg/10R: 1750
 
   RESOURCES:
     Skill Points:  304
@@ -1689,7 +1689,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 21)
+    Physical -> Duelist (Lvl 19)
     Physical -> Indomitable (Lvl 15)
     Racial -> Therian Minotaur (Lvl 10)
 
@@ -1725,18 +1725,18 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Melee: +54 | Ranged: +39
+    To Hit: Melee: +48 | Ranged: +39
 
   HEALTH POOLS:
-    Vitality: 1653 = 101d20 (10 x 101) + 290(flat) + 3 x 101(Con)
-    Health:  750 = 101d10 (5 x 101) + 195(flat)
+    Vitality: 1643 = 101d20 (10 x 101) + 280(flat) + 3 x 101(Con)
+    Health:  745 = 101d10 (5 x 101) + 190(flat)
     Mana:   454 = 101d4 (2 x 101) + 2 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 23 | Dmg/Turn: 161
+    Melee Dmg/Hit: 27 | Dmg/Turn: 189
     Ranged Dmg/Hit: 9 | Dmg/Turn: 63
-    Total Dmg/10R: 1610
+    Total Dmg/10R: 1890
 
   RESOURCES:
     Skill Points:  335
@@ -1750,8 +1750,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 24)
-    Physical -> Indomitable (Lvl 17)
+    Physical -> Duelist (Lvl 23)
+    Physical -> Indomitable (Lvl 16)
     Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
@@ -1789,8 +1789,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +385 | Ranged: +350
 
   HEALTH POOLS:
-    Vitality: 29064 = 1001d20 (10 x 1001) + 4540(flat) + 14 x 1001(Con)
-    Health:  8275 = 1001d10 (5 x 1001) + 2770(flat)
+    Vitality: 29054 = 1001d20 (10 x 1001) + 4530(flat) + 14 x 1001(Con)
+    Health:  8270 = 1001d10 (5 x 1001) + 2765(flat)
     Mana:   15515 = 1001d4 (2 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
@@ -1812,7 +1812,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (BAD GEAR (IRON/BASE))
 
   PATHS:
     Physical -> Duelist (Lvl 63)
-    Physical -> Indomitable (Lvl 272)
+    Physical -> Indomitable (Lvl 271)
     Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
