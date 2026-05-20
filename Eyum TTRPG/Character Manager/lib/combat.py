@@ -46,10 +46,8 @@ def calculate_damage(char, settings):
     atk_per_round = attacks_per_round(char)
 
     if char.has_physical:
-        pack_mult = 1.25 if getattr(char, 'pack_tactics', False) else 1.0
-
         melee_total_die = base_weapon + damage_bonus + extra_damage + char.melee_damage
-        melee_per_hit = (melee_total_die + char.mod('str')) * pack_mult
+        melee_per_hit = melee_total_die + char.mod('str')
         melee_per_hit_raw = melee_per_hit * hit_chance
         result['melee_per_hit'] = int(melee_per_hit_raw)
         result['melee_per_hit_raw'] = melee_per_hit_raw

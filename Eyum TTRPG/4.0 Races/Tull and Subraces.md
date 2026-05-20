@@ -77,4 +77,4 @@ The Tull race and its subraces are unique in that they undergo physical evolutio
 	- **As a Troll:** You regenerate 1d8 +5 Hit Points and 1d12 + 5 + CON mod Vitality at the start of each turn.
 	- **As a Naram-Sin:** You gain +2 to all skill checks, saving throws, and attack rolls and you can reroll 1s on damage dice (must use new roll).
 
-
+> As you level up your racial path you will get major stat bonuses, remember that stats above 20 will cost 2 points and above 30 will cost 3 and so on, if the bonus stats from your race don't raise you a full point just write it down for later for whenever you have more stat points to add to it. 

@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "515c61e869e9a244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0.1 TODO"
+            }
+          },
+          {
             "id": "8ee6b3af1a1444ab",
             "type": "leaf",
             "state": {
@@ -36,17 +50,17 @@
             }
           },
           {
-            "id": "515c61e869e9a244",
+            "id": "edaefe563a54bca9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
+                "file": "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.1 TODO"
+              "title": "2.4 Conditions"
             }
           },
           {
@@ -76,9 +90,23 @@
               "icon": "lucide-file",
               "title": "3.3 Leveling Up"
             }
+          },
+          {
+            "id": "d1de70a634f97246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/4.0 Races/Tull and Subraces.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tull and Subraces"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +139,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -240,8 +268,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "fe4c264772f1b956",
+  "active": "e0beb4b9c42621cb",
   "lastOpenFiles": [
+    "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
+    "Eyum TTRPG/6.0 Magic/6.2 Runes.md",
+    "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
+    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
+    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+    "Eyum TTRPG/4.0 Races/Tull and Subraces.md",
     "Eyum TTRPG/Character Manager/lib/__pycache__/output.cpython-314.pyc",
     "Eyum TTRPG/Character Manager/lib/__pycache__/races.cpython-314.pyc",
     "Eyum TTRPG/Character Manager/lib/__pycache__/gear.cpython-314.pyc",
@@ -252,15 +286,9 @@
     "Eyum TTRPG/Character Manager/lib/__pycache__/paths.cpython-314.pyc",
     "Eyum TTRPG/Character Manager/lib/__pycache__/effects.cpython-314.pyc",
     "Eyum TTRPG/Character Manager/lib/__pycache__/character.cpython-314.pyc",
-    "Eyum TTRPG/Character Manager/lib/__pycache__/config.cpython-314.pyc",
-    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
     "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
     "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
-    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
-    "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
-    "Eyum TTRPG/6.0 Magic/6.2 Runes.md",
     "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
     "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
     "Eyum TTRPG/4.0 Races/Undead and Subraces.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
