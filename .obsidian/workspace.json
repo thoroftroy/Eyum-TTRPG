@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
+                "file": "Eyum TTRPG/4.0 Races/Undead and Subraces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5 Weapons, Armors, and Tools"
+              "title": "Undead and Subraces"
             }
           },
           {
@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "2.6 Materials"
             }
+          },
+          {
+            "id": "e0beb4b9c42621cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/6.0 Magic/6.2 Runes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.2 Runes"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -240,12 +254,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "fa12d3b075803e11",
+  "active": "e0beb4b9c42621cb",
   "lastOpenFiles": [
-    "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
-    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
     "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+    "Eyum TTRPG/6.0 Magic/6.2 Runes.md",
+    "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+    "Eyum TTRPG/Character Manager/__pycache__/generator.cpython-314.pyc.139909703630352",
+    "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
+    "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
+    "Eyum TTRPG/4.0 Races/Undead and Subraces.md",
+    "Eyum TTRPG/Character Manager/output/dragon_gear/average.txt",
+    "Eyum TTRPG/Character Manager/output/dragon_gear/Martial_Fighter.txt",
     "Eyum TTRPG/Character Manager/output/dragon_gear/Mage_Jack_of_all_Trades.txt",
     "Eyum TTRPG/Character Manager/output/dragon_gear/Radiant_Mage.txt",
     "Eyum TTRPG/Character Manager/output/dragon_gear/Necrotic_Mage.txt",
@@ -253,9 +272,7 @@
     "Eyum TTRPG/Character Manager/output/dragon_gear/Earth_Mage.txt",
     "Eyum TTRPG/Character Manager/output/dragon_gear/Water_Mage.txt",
     "Eyum TTRPG/Character Manager/output/dragon_gear/Fire_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/dragon_gear/Physical_Fighter.txt",
-    "Eyum TTRPG/Character Manager/output/dragon_gear/Tanker.txt",
-    "Eyum TTRPG/Character Manager/output/dragon_gear/Tanker_Archer.txt",
+    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
     "Eyum TTRPG/1.0 The basics/1.1.5 Other Rules.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monster Modifiers.md",
@@ -274,10 +291,6 @@
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Unique Monsters.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.3 Dragons.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Golems.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Slimes.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",
-    "Eyum TTRPG/6.0 Magic/6.2 Runes.md",
-    "Eyum TTRPG/4.0 Races/4.2 Languages.md",
     "assets/Draugir.jpg",
     "assets/Dryad.jpg",
     "assets/Nymph.jpg",

@@ -1,114 +1,120 @@
 EYUM TTRPG - BALANCE SUMMARY & RECOMMENDATIONS
 ============================================================
 
-Generated from analysis of 30 levels across 4 gear tiers and 14 builds.
+Generated from analysis of 30 levels across 4 gear tiers and 15 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Earth Mage        : 483 category-level wins (9.7%)
-  Tanker            : 455 category-level wins (9.2%)
-  Tanker Archer     : 450 category-level wins (9.1%)
-  Fire Mage         : 408 category-level wins (8.2%)
-  Water Mage        : 387 category-level wins (7.8%)
-  Radiant Mage      : 371 category-level wins (7.5%)
-  Air Mage          : 368 category-level wins (7.4%)
-  Necrotic Mage     : 363 category-level wins (7.3%)
-  Full Melee Fighter: 343 category-level wins (6.9%)
-  Physical Fighter  : 319 category-level wins (6.4%)
-  Mage Jack of all Trades: 294 category-level wins (5.9%)
-  Jack of all Trades: 269 category-level wins (5.4%)
-  Archer            : 238 category-level wins (4.8%)
-  Archer/Melee Fighter: 212 category-level wins (4.3%)
+  Fire Mage         : 482 category-level wins (9.2%)
+  Martial Fighter   : 476 category-level wins (9.1%)
+  Tanker            : 416 category-level wins (7.9%)
+  Tanker Archer     : 416 category-level wins (7.9%)
+  Air Mage          : 414 category-level wins (7.9%)
+  Earth Mage        : 402 category-level wins (7.7%)
+  Water Mage        : 398 category-level wins (7.6%)
+  Necrotic Mage     : 390 category-level wins (7.4%)
+  Radiant Mage      : 374 category-level wins (7.1%)
+  Mage Jack of all Trades: 321 category-level wins (6.1%)
+  Jack of all Trades: 284 category-level wins (5.4%)
+  Full Melee Fighter: 261 category-level wins (5.0%)
+  Physical Fighter  : 205 category-level wins (3.9%)
+  Archer            : 201 category-level wins (3.8%)
+  Archer/Melee Fighter: 201 category-level wins (3.8%)
 
-  >>> OK: No single build dominates. Top build (Earth Mage) has 9.7% of wins.
+  >>> OK: No single build dominates. Top build (Fire Mage) has 9.2% of wins.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
-  Magical builds  : 217 damage BEST wins (48.3%)
-  Physical builds : 231 damage BEST wins (51.4%)
-  Mixed builds    :   1 damage BEST wins (0.2%)
+  Magical builds  : 285 damage BEST wins (69.0%)
+  Physical builds : 128 damage BEST wins (31.0%)
+  Mixed builds    :   0 damage BEST wins (0.0%)
 
-  >>> Damage type balance is reasonable.
+  >>> Magical builds dominate damage output. Consider buffing physical options.
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : tied across all builds (all 120/120)
+  Vitality  : mostly Tanker Archer (84/120 levels, 70.0%)
+    (Moderate concentration)
   Health    : mostly Tanker Archer (120/120 levels, 100.0%)
     >>> MONOPOLY: Tanker Archer wins Health almost exclusively.
     This is expected for dedicated tank builds. No action needed.
   Mana      : mostly Fire Mage (120/120 levels, 100.0%)
     >>> MONOPOLY: Fire Mage wins Mana almost exclusively.
     This is expected for magical builds. No action needed.
-  AC        : mostly Tanker Archer (90/120 levels, 75.0%)
+  AC        : mostly Tanker Archer (92/120 levels, 76.7%)
     (Moderate concentration)
   Feats     : tied across all builds (all 120/120)
     (Expected: every build gets +1 feat every 3 levels. No action needed.)
   Spells    : tied across all builds (all 120/120)
-  To Hit    : tied across all builds (all 120/120)
-  Dmg/Turn  : mostly Earth Mage (68/120 levels, 56.7%)
+  To Hit    : mostly Martial Fighter (104/120 levels, 86.7%)
+    >>> MONOPOLY: Martial Fighter wins To Hit almost exclusively.
+  Dmg/Turn  : mostly Martial Fighter (73/120 levels, 60.8%)
     (Moderate concentration)
-  Dmg/10R   : mostly Earth Mage (50/120 levels, 41.7%)
+  Dmg/10R   : mostly Fire Mage (90/120 levels, 75.0%)
     (Moderate concentration)
 
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Earth Mage        : avg dmg/turn 39.7
-    Fire Mage         : avg dmg/turn 38.4
-    Jack of all Trades: avg dmg/turn 37.7
+    Martial Fighter   : avg dmg/turn 289.9
+    Full Melee Fighter: avg dmg/turn 111.1
+    Physical Fighter  : avg dmg/turn 107.4
   Bad Gear:
-    Earth Mage        : avg dmg/turn 42.6
-    Fire Mage         : avg dmg/turn 41.5
-    Water Mage        : avg dmg/turn 40.8
-    >> Tanker benefits most from this tier (+11% dmg vs previous tier).
+    Martial Fighter   : avg dmg/turn 289.9
+    Full Melee Fighter: avg dmg/turn 135.0
+    Physical Fighter  : avg dmg/turn 131.1
+    >> Physical Fighter benefits most from this tier (+22% dmg vs previous tier).
   Nerite Gear:
-    Earth Mage        : avg dmg/turn 48.6
-    Fire Mage         : avg dmg/turn 47.4
-    Water Mage        : avg dmg/turn 46.8
-    >> Tanker Archer benefits most from this tier (+66% dmg vs previous tier).
+    Martial Fighter   : avg dmg/turn 289.9
+    Full Melee Fighter: avg dmg/turn 157.2
+    Physical Fighter  : avg dmg/turn 153.5
+    >> Jack of all Trades benefits most from this tier (+44% dmg vs previous tier).
   Dragon Gear:
-    Fire Mage         : avg dmg/turn 60.7
-    Earth Mage        : avg dmg/turn 60.7
-    Water Mage        : avg dmg/turn 59.0
-    >> Tanker Archer benefits most from this tier (+161% dmg vs previous tier).
+    Martial Fighter   : avg dmg/turn 289.9
+    Full Melee Fighter: avg dmg/turn 190.1
+    Physical Fighter  : avg dmg/turn 186.4
+    >> Tanker Archer benefits most from this tier (+77% dmg vs previous tier).
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
-    Level 5  (1-5) : dmg leader Full Melee Fighter (5/5 levels)
-    Level 10 (6-10): dmg leader Archer (3/5 levels)
-    Level 15 (11-15): dmg leader Archer (4/5 levels)
-    Level 20 (16-20): dmg leader Full Melee Fighter (5/5 levels)
-    Level 30 (21-30): dmg leader Full Melee Fighter (1/2 levels)
-    Level 50+ (50+): dmg leader Earth Mage (6/7 levels)
+    Level 5  (1-5) : dmg leader Fire Mage (4/5 levels)
+    Level 10 (6-10): dmg leader Martial Fighter (3/5 levels)
+    Level 15 (11-15): dmg leader Martial Fighter (5/5 levels)
+    Level 20 (16-20): dmg leader Martial Fighter (5/5 levels)
+    Level 30 (21-30): dmg leader Martial Fighter (2/2 levels)
+    Level 50+ (50+): dmg leader Martial Fighter (7/7 levels)
 
   Bad Gear:
-    Level 5  (1-5) : dmg leader Full Melee Fighter (5/5 levels)
-    Level 10 (6-10): dmg leader Archer (3/5 levels)
-    Level 15 (11-15): dmg leader Earth Mage (3/5 levels)
-    Level 20 (16-20): dmg leader Full Melee Fighter (4/5 levels)
-    Level 30 (21-30): dmg leader Earth Mage (1/2 levels)
-    Level 50+ (50+): dmg leader Earth Mage (6/7 levels)
+    Level 5  (1-5) : dmg leader Fire Mage (4/5 levels)
+    Level 10 (6-10): dmg leader Martial Fighter (3/5 levels)
+    Level 15 (11-15): dmg leader Martial Fighter (5/5 levels)
+    Level 20 (16-20): dmg leader Martial Fighter (5/5 levels)
+    Level 30 (21-30): dmg leader Martial Fighter (2/2 levels)
+    Level 50+ (50+): dmg leader Martial Fighter (7/7 levels)
 
   Nerite Gear:
-    Level 5  (1-5) : dmg leader Full Melee Fighter (4/5 levels)
-    Level 10 (6-10): dmg leader Archer (3/5 levels)
-    Level 15 (11-15): dmg leader Earth Mage (4/5 levels)
-    Level 20 (16-20): dmg leader Fire Mage (3/5 levels)
-    Level 30 (21-30): dmg leader Earth Mage (1/2 levels)
-    Level 50+ (50+): dmg leader Earth Mage (6/7 levels)
+    Level 5  (1-5) : dmg leader Fire Mage (4/5 levels)
+    Level 10 (6-10): dmg leader Fire Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Martial Fighter (5/5 levels)
+    Level 20 (16-20): dmg leader Archer (5/5 levels)
+    Level 30 (21-30): dmg leader Martial Fighter (2/2 levels)
+    Level 50+ (50+): dmg leader Martial Fighter (7/7 levels)
 
   Dragon Gear:
     Level 5  (1-5) : dmg leader Fire Mage (4/5 levels)
-    Level 10 (6-10): dmg leader Fire Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Fire Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Fire Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Fire Mage (2/2 levels)
-    Level 50+ (50+): dmg leader Earth Mage (6/7 levels)
+    Level 10 (6-10): dmg leader Full Melee Fighter (3/5 levels)
+    Level 15 (11-15): dmg leader Full Melee Fighter (5/5 levels)
+    Level 20 (16-20): dmg leader Archer (5/5 levels)
+    Level 30 (21-30): dmg leader Martial Fighter (2/2 levels)
+    Level 50+ (50+): dmg leader Martial Fighter (7/7 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
-  1. Physical and magical damage are reasonably balanced (51% vs 48%). Monitor as new content is added.
+  1. Physical builds are underperforming in damage (31% of damage BEST wins vs 69% for magical).
+       - Increase base weapon damage or weapon damage_bonus values.
+       - Add more damage-boosting feats for physical builds.
+       - Check if extra_damage_die on weapons is being applied correctly.
   2. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.

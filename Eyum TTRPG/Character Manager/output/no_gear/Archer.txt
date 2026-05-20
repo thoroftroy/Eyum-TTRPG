@@ -6,9 +6,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 20 (+5) = 8 + 12
-    CON: 14 (+2) = 8 + 6
+    STR: 12 (+1) = 6 + 6
+    DEX: 20 (+5) = 11 + 9
+    CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -27,10 +27,10 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   7 = 2d6 (3 x 2) + 0 x 2(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 60
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
     Skill Points:  9
@@ -45,17 +45,19 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Radiant        : 1
+    Necrotic       : -3
+    Radiant        : 4
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -63,9 +65,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 20 (+5) = 8 + 12
-    CON: 14 (+2) = 8 + 6
+    STR: 12 (+1) = 6 + 6
+    DEX: 20 (+5) = 11 + 9
+    CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -84,10 +86,10 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   10 = 3d6 (3 x 3) + 0 x 3(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 60
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
     Skill Points:  11
@@ -102,17 +104,19 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 1)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Radiant        : 1
+    Necrotic       : -3
+    Radiant        : 4
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -120,9 +124,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 20 (+5) = 8 + 12
-    CON: 15 (+2) = 8 + 7
+    STR: 12 (+1) = 6 + 6
+    DEX: 21 (+5) = 11 + 10
+    CON: 14 (+2) = 8 + 6
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -141,10 +145,10 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   14 = 4d6 (3 x 4) + 0 x 4(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 60
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
     Skill Points:  15
@@ -160,19 +164,20 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 1)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -180,9 +185,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 20 (+5) = 8 + 12
-    CON: 15 (+2) = 8 + 7
+    STR: 12 (+1) = 6 + 6
+    DEX: 21 (+5) = 11 + 10
+    CON: 14 (+2) = 8 + 6
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -201,14 +206,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   17 = 5d6 (3 x 5) + 0 x 5(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 60
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
-    Skill Points:  17
-    Stat Points:   0
+    Skill Points:  19
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    25
 
@@ -218,21 +223,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 1)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
-    Fire           : 1
+    Air            : 4
+    Earth          : -2
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -240,9 +246,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 20 (+5) = 8 + 12
-    CON: 15 (+2) = 8 + 7
+    STR: 12 (+1) = 6 + 6
+    DEX: 21 (+5) = 11 + 10
+    CON: 14 (+2) = 8 + 6
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -261,14 +267,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   21 = 6d6 (3 x 6) + 0 x 6(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 60
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
-    Skill Points:  19
-    Stat Points:   0
+    Skill Points:  21
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    25
 
@@ -278,21 +284,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 1)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
-    Fire           : 1
+    Air            : 4
+    Earth          : -2
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -300,9 +307,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 21 (+5) = 8 + 13
-    CON: 14 (+2) = 8 + 6
+    STR: 12 (+1) = 6 + 6
+    DEX: 21 (+5) = 11 + 10
+    CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -311,7 +318,7 @@ EYUM TTRPG - ARCHER (NO GEAR)
     AC: 14
     Initiative: +5
     Speed: 30 ft
-    AP: 1  BAP: 2  RP: 1
+    AP: 1  BAP: 1  RP: 1
     Proficiency: +3
     To Hit: Melee: +5 | Ranged: +9
 
@@ -321,37 +328,39 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   24 = 7d6 (3 x 7) + 0 x 7(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 120
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
-    Skill Points:  23
-    Stat Points:   0
+    Skill Points:  25
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Fast Hands, Toughness)
+    Feats:  2 (taken: Toughness, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
     Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
+    Utility -> Scoundrel (Lvl 1)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
-    Fire           : 2
+    Air            : 5
+    Earth          : -1
+    Fire           : 3
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
+    Necrotic       : -1
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -359,9 +368,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 21 (+5) = 8 + 13
-    CON: 14 (+2) = 8 + 6
+    STR: 12 (+1) = 6 + 6
+    DEX: 21 (+5) = 11 + 10
+    CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -370,7 +379,7 @@ EYUM TTRPG - ARCHER (NO GEAR)
     AC: 14
     Initiative: +5
     Speed: 30 ft
-    AP: 1  BAP: 2  RP: 1
+    AP: 1  BAP: 1  RP: 1
     Proficiency: +3
     To Hit: Melee: +5 | Ranged: +9
 
@@ -380,37 +389,39 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   28 = 8d6 (3 x 8) + 0 x 8(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 120
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 2 | Dmg/Turn: 2
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
-    Skill Points:  25
-    Stat Points:   0
+    Skill Points:  27
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Fast Hands, Toughness)
+    Feats:  2 (taken: Toughness, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
     Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
+    Utility -> Scoundrel (Lvl 1)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
-    Fire           : 2
+    Air            : 5
+    Earth          : -1
+    Fire           : 3
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
+    Necrotic       : -1
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -418,9 +429,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 21 (+5) = 8 + 13
-    CON: 14 (+2) = 8 + 6
+    STR: 12 (+1) = 6 + 6
+    DEX: 21 (+5) = 11 + 10
+    CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -439,14 +450,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   31 = 9d6 (3 x 9) + 0 x 9(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 6
+    Total Dmg/10R: 60
 
   RESOURCES:
-    Skill Points:  32
-    Stat Points:   0
+    Skill Points:  34
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -455,21 +466,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 2)
     Utility -> Scoundrel (Lvl 2)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : 4
+    Earth          : -1
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
-    Water          : 1
+    Radiant        : 4
+    Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -477,8 +489,8 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
@@ -498,38 +510,38 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   35 = 10d6 (3 x 10) + 0 x 10(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 6
+    Total Dmg/10R: 60
 
   RESOURCES:
-    Skill Points:  36
-    Stat Points:   0
+    Skill Points:  38
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Fast Hands, Toughness, Affinity Master (Points))
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 2)
     Utility -> Scoundrel (Lvl 2)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
+    Necrotic       : -2
+    Psychic        : 1
+    Radiant        : 5
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -537,8 +549,8 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
@@ -558,38 +570,38 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   38 = 11d6 (3 x 11) + 0 x 11(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 6
+    Total Dmg/10R: 60
 
   RESOURCES:
-    Skill Points:  38
-    Stat Points:   0
+    Skill Points:  40
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Fast Hands, Toughness, Affinity Master (Points))
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
+    Necrotic       : -1
     Psychic        : 2
-    Radiant        : 2
+    Radiant        : 5
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -597,8 +609,8 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
@@ -618,38 +630,38 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   42 = 12d6 (3 x 12) + 0 x 12(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 6
+    Total Dmg/10R: 60
 
   RESOURCES:
-    Skill Points:  40
-    Stat Points:   0
+    Skill Points:  42
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Fast Hands, Toughness, Affinity Master (Points))
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
+    Necrotic       : -1
     Psychic        : 2
-    Radiant        : 2
+    Radiant        : 5
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -657,10 +669,10 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -678,14 +690,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   45 = 13d6 (3 x 13) + 0 x 13(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
+    Total Dmg/10R: 140
 
   RESOURCES:
-    Skill Points:  44
-    Stat Points:   0
+    Skill Points:  46
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -696,20 +708,21 @@ EYUM TTRPG - ARCHER (NO GEAR)
 
   PATHS:
     Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Utility -> Scoundrel (Lvl 2)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
+    Air            : 6
+    Earth          : 0
     Fire           : 3
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 6
     Water          : 3
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -717,10 +730,10 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -738,14 +751,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   49 = 14d6 (3 x 14) + 0 x 14(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
+    Total Dmg/10R: 140
 
   RESOURCES:
-    Skill Points:  46
-    Stat Points:   0
+    Skill Points:  48
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -756,20 +769,21 @@ EYUM TTRPG - ARCHER (NO GEAR)
 
   PATHS:
     Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Utility -> Scoundrel (Lvl 2)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
+    Air            : 6
+    Earth          : 0
     Fire           : 3
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 6
     Water          : 3
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -777,10 +791,10 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -798,14 +812,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   52 = 15d6 (3 x 15) + 0 x 15(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
+    Total Dmg/10R: 140
 
   RESOURCES:
-    Skill Points:  48
-    Stat Points:   0
+    Skill Points:  50
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -817,19 +831,20 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 3)
     Utility -> Scoundrel (Lvl 3)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
+    Air            : 6
+    Earth          : 0
     Fire           : 3
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 6
     Water          : 3
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -837,11 +852,11 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
-    INT:  8 (-1) = 8 + 0
+    INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
@@ -858,14 +873,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   56 = 16d6 (3 x 16) + 0 x 16(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 2 | Dmg/Turn: 4
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
+    Total Dmg/10R: 140
 
   RESOURCES:
-    Skill Points:  52
-    Stat Points:   0
+    Skill Points:  54
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -877,19 +892,20 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 3)
     Utility -> Scoundrel (Lvl 3)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 6
+    Earth          : 1
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 2
-    Radiant        : 3
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 6
     Water          : 3
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -897,11 +913,11 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
-    INT:  8 (-1) = 8 + 0
+    INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
@@ -918,14 +934,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   59 = 17d6 (3 x 17) + 0 x 17(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 300
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 2 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
+    Total Dmg/10R: 210
 
   RESOURCES:
-    Skill Points:  59
-    Stat Points:   0
+    Skill Points:  63
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -937,19 +953,20 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 3)
     Utility -> Scoundrel (Lvl 3)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 7
+    Earth          : 1
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 2
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 7
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -957,11 +974,11 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
-    INT:  8 (-1) = 8 + 0
+    INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
@@ -978,14 +995,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   63 = 18d6 (3 x 18) + 0 x 18(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 300
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 2 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
+    Total Dmg/10R: 210
 
   RESOURCES:
-    Skill Points:  61
-    Stat Points:   0
+    Skill Points:  65
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -997,19 +1014,20 @@ EYUM TTRPG - ARCHER (NO GEAR)
   PATHS:
     Physical -> Marksman (Lvl 3)
     Utility -> Scoundrel (Lvl 3)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 7
+    Earth          : 1
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 2
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 7
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1017,12 +1035,12 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 14
@@ -1038,14 +1056,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   66 = 19d6 (3 x 19) + 0 x 19(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 300
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 2 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
+    Total Dmg/10R: 210
 
   RESOURCES:
-    Skill Points:  65
-    Stat Points:   0
+    Skill Points:  69
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1055,21 +1073,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 4)
     Utility -> Scoundrel (Lvl 3)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 7
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 1
+    Psychic        : 4
+    Radiant        : 7
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1077,12 +1096,12 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 14
@@ -1098,14 +1117,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   70 = 20d6 (3 x 20) + 0 x 20(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 300
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 2 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
+    Total Dmg/10R: 210
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   0
+    Skill Points:  71
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1115,21 +1134,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 4)
     Utility -> Scoundrel (Lvl 3)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 7
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 1
+    Psychic        : 4
+    Radiant        : 7
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1137,12 +1157,12 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
+    STR: 13 (+1) = 6 + 7
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 14
@@ -1158,14 +1178,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   73 = 21d6 (3 x 21) + 0 x 21(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 300
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 2 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
+    Total Dmg/10R: 210
 
   RESOURCES:
-    Skill Points:  69
-    Stat Points:   0
+    Skill Points:  73
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1175,21 +1195,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 7
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 1
+    Psychic        : 4
+    Radiant        : 7
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1197,69 +1218,9 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 21 (+5) = 8 + 13
-    CON: 16 (+3) = 8 + 8
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 14
-    Initiative: +5
-    Speed: 30 ft
-    AP: 3  BAP: 5  RP: 1
-    Proficiency: +9
-    To Hit: Melee: +11 | Ranged: +15
-
-  HEALTH POOLS:
-    Vitality: 244 = 26d8 (4 x 26) + 49(flat) + 3 x 26(Con)
-    Health:  128 = 26d6 (3 x 26) + 37(flat)
-    Mana:   91 = 26d6 (3 x 26) + 0 x 26(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 10
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 300
-
-  RESOURCES:
-    Skill Points:  88
-    Stat Points:   2
-    Affinity Pts:  0
-    Stat Spent:    32
-
-  FEATS & SPELLS:
-    Feats:  8 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
-    Spells:  0
-
-  PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 5
-    Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 4
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Archer - Level 30 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 22 (+6) = 8 + 14
-    CON: 16 (+3) = 8 + 8
+    STR: 13 (+1) = 6 + 7
+    DEX: 22 (+6) = 11 + 11
+    CON: 15 (+2) = 8 + 7
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
@@ -1268,9 +1229,70 @@ EYUM TTRPG - ARCHER (NO GEAR)
     AC: 14
     Initiative: +6
     Speed: 30 ft
+    AP: 3  BAP: 5  RP: 1
+    Proficiency: +9
+    To Hit: Melee: +11 | Ranged: +16
+
+  HEALTH POOLS:
+    Vitality: 218 = 26d8 (4 x 26) + 49(flat) + 2 x 26(Con)
+    Health:  128 = 26d6 (3 x 26) + 37(flat)
+    Mana:   91 = 26d6 (3 x 26) + 0 x 26(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 2 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 8 | Dmg/Turn: 24
+    Total Dmg/10R: 240
+
+  RESOURCES:
+    Skill Points:  92
+    Stat Points:   9
+    Affinity Pts:  0
+    Stat Spent:    32
+
+  FEATS & SPELLS:
+    Feats:  8 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert)
+        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Spells:  0
+
+  PATHS:
+    Physical -> Marksman (Lvl 5)
+    Utility -> Scoundrel (Lvl 4)
+    Racial -> Elf Fairy (Lvl 4)
+
+  AFFINITIES:
+    Air            : 9
+    Earth          : 3
+    Fire           : 6
+    Generic        : 1
+    Necrotic       : 2
+    Psychic        : 5
+    Radiant        : 8
+    Water          : 6
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Archer - Level 30 (No Gear)
+============================================================
+
+  STATS:
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 15
+    Initiative: +6
+    Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Melee: +13 | Ranged: +18
+    To Hit: Melee: +14 | Ranged: +18
 
   HEALTH POOLS:
     Vitality: 292 = 31d8 (4 x 31) + 60(flat) + 3 x 31(Con)
@@ -1278,14 +1300,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   108 = 31d6 (3 x 31) + 0 x 31(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 11
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 330
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 3 | Dmg/Turn: 9
+    Ranged Dmg/Hit: 8 | Dmg/Turn: 24
+    Total Dmg/10R: 240
 
   RESOURCES:
-    Skill Points:  102
-    Stat Points:   3
+    Skill Points:  106
+    Stat Points:   14
     Affinity Pts:  0
     Stat Spent:    34
 
@@ -1295,21 +1317,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 6)
+    Utility -> Scoundrel (Lvl 5)
+    Racial -> Elf Fairy (Lvl 5)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 10
+    Earth          : 4
+    Fire           : 7
     Generic        : 1
     Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 5
-    Water          : 5
+    Psychic        : 6
+    Radiant        : 10
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1317,15 +1340,15 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 8 + 6
-    DEX: 22 (+6) = 8 + 14
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
     CON: 16 (+3) = 8 + 8
     WIS: 12 (+1) = 8 + 4
     INT: 10 (+0) = 8 + 2
-    CHA:  9 (-1) = 8 + 1
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 14
+    AC: 15
     Initiative: +6
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
@@ -1338,14 +1361,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   184 = 41d6 (3 x 41) + 1 x 41(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 11
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 440
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 3 | Dmg/Turn: 12
+    Ranged Dmg/Hit: 8 | Dmg/Turn: 32
+    Total Dmg/10R: 320
 
   RESOURCES:
-    Skill Points:  138
-    Stat Points:   6
+    Skill Points:  142
+    Stat Points:   25
     Affinity Pts:  0
     Stat Spent:    37
 
@@ -1355,21 +1378,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 7)
+    Utility -> Scoundrel (Lvl 7)
+    Racial -> Elf Fairy (Lvl 7)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 6
+    Air            : 13
+    Earth          : 7
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : 5
-    Radiant        : 5
-    Water          : 6
+    Necrotic       : 6
+    Psychic        : 9
+    Radiant        : 12
+    Water          : 10
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1377,15 +1401,15 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 8 + 6
-    DEX: 23 (+6) = 8 + 15
-    CON: 16 (+3) = 8 + 8
+    STR: 14 (+2) = 6 + 8
+    DEX: 23 (+6) = 11 + 12
+    CON: 17 (+3) = 8 + 9
     WIS: 12 (+1) = 8 + 4
     INT: 10 (+0) = 8 + 2
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 14
+    AC: 15
     Initiative: +6
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
@@ -1398,14 +1422,14 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Mana:   229 = 51d6 (3 x 51) + 1 x 51(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 11
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 550
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 3 | Dmg/Turn: 15
+    Ranged Dmg/Hit: 8 | Dmg/Turn: 40
+    Total Dmg/10R: 400
 
   RESOURCES:
-    Skill Points:  169
-    Stat Points:   9
+    Skill Points:  173
+    Stat Points:   33
     Affinity Pts:  0
     Stat Spent:    40
 
@@ -1415,21 +1439,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 9)
+    Utility -> Scoundrel (Lvl 9)
+    Racial -> Elf Fairy (Lvl 8)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
+    Air            : 15
+    Earth          : 9
+    Fire           : 12
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 6
-    Radiant        : 6
-    Water          : 7
+    Necrotic       : 8
+    Psychic        : 11
+    Radiant        : 14
+    Water          : 12
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1437,15 +1462,15 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 8 + 7
-    DEX: 23 (+6) = 8 + 15
+    STR: 15 (+2) = 6 + 9
+    DEX: 23 (+6) = 11 + 12
     CON: 17 (+3) = 8 + 9
     WIS: 13 (+1) = 8 + 5
     INT: 11 (+0) = 8 + 3
-    CHA: 10 (+0) = 8 + 2
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 14
+    AC: 16
     Initiative: +6
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
@@ -1453,19 +1478,19 @@ EYUM TTRPG - ARCHER (NO GEAR)
     To Hit: Melee: +24 | Ranged: +28
 
   HEALTH POOLS:
-    Vitality: 577 = 61d8 (4 x 61) + 120(flat) + 3 x 61(Con)
-    Health:  303 = 61d6 (3 x 61) + 90(flat)
+    Vitality: 597 = 61d8 (4 x 61) + 140(flat) + 3 x 61(Con)
+    Health:  313 = 61d6 (3 x 61) + 100(flat)
     Mana:   274 = 61d6 (3 x 61) + 1 x 61(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 11
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 550
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 3 | Dmg/Turn: 15
+    Ranged Dmg/Hit: 8 | Dmg/Turn: 40
+    Total Dmg/10R: 400
 
   RESOURCES:
-    Skill Points:  202
-    Stat Points:   13
+    Skill Points:  206
+    Stat Points:   47
     Affinity Pts:  0
     Stat Spent:    44
 
@@ -1475,21 +1500,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 11)
+    Utility -> Scoundrel (Lvl 10)
+    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 8
-    Fire           : 8
+    Air            : 18
+    Earth          : 13
+    Fire           : 16
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 7
-    Radiant        : 7
-    Water          : 8
+    Necrotic       : 12
+    Psychic        : 15
+    Radiant        : 18
+    Water          : 16
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1497,15 +1523,15 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 8 + 7
-    DEX: 24 (+7) = 8 + 16
-    CON: 17 (+3) = 8 + 9
+    STR: 15 (+2) = 6 + 9
+    DEX: 24 (+7) = 11 + 13
+    CON: 18 (+4) = 8 + 10
     WIS: 13 (+1) = 8 + 5
     INT: 11 (+0) = 8 + 3
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 14
+    AC: 16
     Initiative: +7
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
@@ -1513,19 +1539,19 @@ EYUM TTRPG - ARCHER (NO GEAR)
     To Hit: Melee: +27 | Ranged: +32
 
   HEALTH POOLS:
-    Vitality: 672 = 71d8 (4 x 71) + 140(flat) + 3 x 71(Con)
-    Health:  353 = 71d6 (3 x 71) + 105(flat)
+    Vitality: 763 = 71d8 (4 x 71) + 160(flat) + 4 x 71(Con)
+    Health:  363 = 71d6 (3 x 71) + 115(flat)
     Mana:   319 = 71d6 (3 x 71) + 1 x 71(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 12
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 720
+    Attacks/Turn: 6
+    Melee Dmg/Hit: 3 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 10 | Dmg/Turn: 60
+    Total Dmg/10R: 600
 
   RESOURCES:
-    Skill Points:  233
-    Stat Points:   16
+    Skill Points:  237
+    Stat Points:   50
     Affinity Pts:  0
     Stat Spent:    47
 
@@ -1535,21 +1561,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 14)
+    Utility -> Scoundrel (Lvl 12)
+    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 9
-    Fire           : 9
+    Air            : 19
+    Earth          : 14
+    Fire           : 17
     Generic        : 1
-    Necrotic       : 8
-    Psychic        : 8
-    Radiant        : 8
-    Water          : 9
+    Necrotic       : 13
+    Psychic        : 16
+    Radiant        : 19
+    Water          : 16
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1557,35 +1584,35 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 8 + 8
-    DEX: 24 (+7) = 8 + 16
+    STR: 16 (+3) = 6 + 10
+    DEX: 24 (+7) = 11 + 13
     CON: 18 (+4) = 8 + 10
     WIS: 14 (+2) = 8 + 6
-    INT: 11 (+0) = 8 + 3
+    INT: 12 (+1) = 8 + 4
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 14
+    AC: 16
     Initiative: +7
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +27
-    To Hit: Melee: +31 | Ranged: +35
+    To Hit: Melee: +31 | Ranged: +36
 
   HEALTH POOLS:
-    Vitality: 848 = 81d8 (4 x 81) + 160(flat) + 4 x 81(Con)
-    Health:  403 = 81d6 (3 x 81) + 120(flat)
+    Vitality: 868 = 81d8 (4 x 81) + 180(flat) + 4 x 81(Con)
+    Health:  413 = 81d6 (3 x 81) + 130(flat)
     Mana:   445 = 81d6 (3 x 81) + 2 x 81(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 12
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 840
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 3 | Dmg/Turn: 21
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 77
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  269
-    Stat Points:   19
+    Skill Points:  273
+    Stat Points:   53
     Affinity Pts:  0
     Stat Spent:    50
 
@@ -1595,21 +1622,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 17)
+    Utility -> Scoundrel (Lvl 14)
+    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 10
-    Fire           : 10
+    Air            : 20
+    Earth          : 14
+    Fire           : 18
     Generic        : 1
-    Necrotic       : 9
-    Psychic        : 9
-    Radiant        : 9
-    Water          : 9
+    Necrotic       : 14
+    Psychic        : 17
+    Radiant        : 20
+    Water          : 17
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1617,35 +1645,35 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 8 + 8
-    DEX: 25 (+7) = 8 + 17
-    CON: 18 (+4) = 8 + 10
+    STR: 16 (+3) = 6 + 10
+    DEX: 25 (+7) = 11 + 14
+    CON: 19 (+4) = 8 + 11
     WIS: 14 (+2) = 8 + 6
     INT: 12 (+1) = 8 + 4
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 14
+    AC: 16
     Initiative: +7
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +31
-    To Hit: Melee: +35 | Ranged: +39
+    To Hit: Melee: +35 | Ranged: +42
 
   HEALTH POOLS:
-    Vitality: 953 = 91d8 (4 x 91) + 180(flat) + 4 x 91(Con)
-    Health:  453 = 91d6 (3 x 91) + 135(flat)
+    Vitality: 973 = 91d8 (4 x 91) + 200(flat) + 4 x 91(Con)
+    Health:  463 = 91d6 (3 x 91) + 145(flat)
     Mana:   500 = 91d6 (3 x 91) + 2 x 91(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 12
-    Magic Dmg/Turn: 0 (x0 mana)
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 3 | Dmg/Turn: 21
+    Ranged Dmg/Hit: 12 | Dmg/Turn: 84
     Total Dmg/10R: 840
 
   RESOURCES:
-    Skill Points:  302
-    Stat Points:   23
+    Skill Points:  306
+    Stat Points:   57
     Affinity Pts:  0
     Stat Spent:    54
 
@@ -1655,21 +1683,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 21)
+    Utility -> Scoundrel (Lvl 15)
+    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 11
-    Fire           : 11
+    Air            : 21
+    Earth          : 16
+    Fire           : 19
     Generic        : 1
-    Necrotic       : 10
-    Psychic        : 10
-    Radiant        : 10
-    Water          : 11
+    Necrotic       : 15
+    Psychic        : 18
+    Radiant        : 21
+    Water          : 18
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1677,35 +1706,35 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 17 (+3) = 8 + 9
-    DEX: 25 (+7) = 8 + 17
+    STR: 17 (+3) = 6 + 11
+    DEX: 25 (+7) = 11 + 14
     CON: 19 (+4) = 8 + 11
     WIS: 15 (+2) = 8 + 7
-    INT: 12 (+1) = 8 + 4
+    INT: 13 (+1) = 8 + 5
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 14
+    AC: 16
     Initiative: +7
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +34
-    To Hit: Melee: +38 | Ranged: +42
+    To Hit: Melee: +38 | Ranged: +46
 
   HEALTH POOLS:
-    Vitality: 1058 = 101d8 (4 x 101) + 200(flat) + 4 x 101(Con)
-    Health:  503 = 101d6 (3 x 101) + 150(flat)
+    Vitality: 1078 = 101d8 (4 x 101) + 220(flat) + 4 x 101(Con)
+    Health:  513 = 101d6 (3 x 101) + 160(flat)
     Mana:   555 = 101d6 (3 x 101) + 2 x 101(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 6
-    Ranged Dmg/Turn: 12
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 960
+    Attacks/Turn: 8
+    Melee Dmg/Hit: 3 | Dmg/Turn: 24
+    Ranged Dmg/Hit: 14 | Dmg/Turn: 112
+    Total Dmg/10R: 1120
 
   RESOURCES:
-    Skill Points:  333
-    Stat Points:   26
+    Skill Points:  337
+    Stat Points:   60
     Affinity Pts:  0
     Stat Spent:    57
 
@@ -1715,21 +1744,22 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 24)
+    Utility -> Scoundrel (Lvl 17)
+    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 12
-    Fire           : 12
+    Air            : 22
+    Earth          : 16
+    Fire           : 20
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 11
-    Radiant        : 11
-    Water          : 11
+    Necrotic       : 16
+    Psychic        : 19
+    Radiant        : 22
+    Water          : 19
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1737,37 +1767,37 @@ EYUM TTRPG - ARCHER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 39 (+14) = 8 + 31
-    DEX: 47 (+18) = 8 + 39
+    STR: 39 (+14) = 6 + 33
+    DEX: 47 (+18) = 11 + 36
     CON: 41 (+15) = 8 + 33
     WIS: 37 (+13) = 8 + 29
     INT: 34 (+12) = 8 + 26
     CHA: 34 (+12) = 8 + 26
 
   COMBAT:
-    AC: 17
+    AC: 19
     Initiative: +18
     Speed: 30 ft
     AP: 101  BAP: 127  RP: 1
     Proficiency: +334
-    To Hit: Melee: +349 | Ranged: +353
+    To Hit: Melee: +349 | Ranged: +383
 
   HEALTH POOLS:
-    Vitality: 21519 = 1001d8 (4 x 1001) + 2000(flat) + 15 x 1001(Con)
-    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
+    Vitality: 21539 = 1001d8 (4 x 1001) + 2020(flat) + 15 x 1001(Con)
+    Health:  5013 = 1001d6 (3 x 1001) + 1510(flat)
     Mana:   16516 = 1001d6 (3 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 15
-    Ranged Dmg/Turn: 20
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 12800
+    Attacks/Turn: 64
+    Melee Dmg/Hit: 12 | Dmg/Turn: 768
+    Ranged Dmg/Hit: 39 | Dmg/Turn: 2496
+    Total Dmg/10R: 24960
 
   RESOURCES:
-    Skill Points:  3298
-    Stat Points:   326
+    Skill Points:  3302
+    Stat Points:   360
     Affinity Pts:  0
-    Stat Spent:    356
+    Stat Spent:    355
 
   FEATS & SPELLS:
     Feats:  333 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
@@ -1775,20 +1805,21 @@ EYUM TTRPG - ARCHER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 123)
+    Utility -> Scoundrel (Lvl 33)
+    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 97
-    Earth          : 97
-    Fire           : 97
+    Air            : 108
+    Earth          : 102
+    Fire           : 105
     Generic        : 1
-    Necrotic       : 97
-    Psychic        : 97
-    Radiant        : 97
-    Water          : 97
+    Necrotic       : 102
+    Psychic        : 104
+    Radiant        : 108
+    Water          : 105
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 

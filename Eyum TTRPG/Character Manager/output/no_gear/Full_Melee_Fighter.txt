@@ -6,31 +6,31 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  8 (-1) = 8 + 0
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS:  9 (-1) = 8 + 1
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 12
-    Initiative: +2
+    AC: 13
+    Initiative: +3
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +8 | Ranged: +3
+    To Hit: Melee: +9 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 9 = 2d8 (4 x 2) + 0(flat) + 0 x 2(Con)
+    Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
     Health:  7 = 2d6 (3 x 2) + 0(flat)
     Mana:   5 = 2d6 (3 x 2) + -1 x 2(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 8
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 80
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 6 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 60
 
   RESOURCES:
     Skill Points:  7
@@ -44,17 +44,21 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 
   PATHS:
     Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
-    Earth          : 1
+    Earth          : 4
     Fire           : 1
     Generic        : 1
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -62,31 +66,31 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  8 (-1) = 8 + 0
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS:  9 (-1) = 8 + 1
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 12
-    Initiative: +2
+    AC: 13
+    Initiative: +3
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +8 | Ranged: +3
+    To Hit: Melee: +9 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 15 = 3d8 (4 x 3) + 2(flat) + 0 x 3(Con)
+    Vitality: 21 = 3d10 (5 x 3) + 2(flat) + 1 x 3(Con)
     Health:  11 = 3d6 (3 x 3) + 1(flat)
-    Mana:   7 = 3d6 (3 x 3) + -1 x 3(Wis)
+    Mana:   4 = 3d4 (2 x 3) + -1 x 3(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 100
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 6 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 60
 
   RESOURCES:
     Skill Points:  9
@@ -99,18 +103,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
-    Earth          : 1
+    Earth          : 4
     Fire           : 1
     Generic        : 1
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -118,31 +126,31 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 12
-    Initiative: +2
+    AC: 13
+    Initiative: +3
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +9 | Ranged: +4
+    To Hit: Melee: +10 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 23 = 4d8 (4 x 4) + 5(flat) + 0 x 4(Con)
+    Vitality: 31 = 4d10 (5 x 4) + 5(flat) + 1 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
-    Mana:   10 = 4d6 (3 x 4) + -1 x 4(Wis)
+    Mana:   10 = 4d4 (2 x 4) + 0 x 4(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 100
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 6 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 60
 
   RESOURCES:
     Skill Points:  13
@@ -156,20 +164,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
-    Earth          : 1
+    Earth          : 4
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -177,1012 +187,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 1  BAP: 1  RP: 1
-    Proficiency: +2
-    To Hit: Melee: +9 | Ranged: +4
-
-  HEALTH POOLS:
-    Vitality: 30 = 5d8 (4 x 5) + 8(flat) + 0 x 5(Con)
-    Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   12 = 5d6 (3 x 5) + -1 x 5(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 100
-
-  RESOURCES:
-    Skill Points:  15
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    25
-
-  FEATS & SPELLS:
-    Feats:  1 (taken: Toughness)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 1
-    Earth          : 1
-    Fire           : 1
-    Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 5 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 1  BAP: 1  RP: 1
-    Proficiency: +2
-    To Hit: Melee: +9 | Ranged: +4
-
-  HEALTH POOLS:
-    Vitality: 36 = 6d8 (4 x 6) + 9(flat) + 0 x 6(Con)
-    Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   15 = 6d6 (3 x 6) + -1 x 6(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 100
-
-  RESOURCES:
-    Skill Points:  17
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    25
-
-  FEATS & SPELLS:
-    Feats:  1 (taken: Toughness)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 1
-    Earth          : 1
-    Fire           : 1
-    Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 6 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 1  BAP: 1  RP: 1
-    Proficiency: +3
-    To Hit: Melee: +10 | Ranged: +5
-
-  HEALTH POOLS:
-    Vitality: 43 = 7d8 (4 x 7) + 12(flat) + 0 x 7(Con)
-    Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   17 = 7d6 (3 x 7) + -1 x 7(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 100
-
-  RESOURCES:
-    Skill Points:  21
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    26
-
-  FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Armor Training)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 1
-    Earth          : 2
-    Fire           : 2
-    Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 7 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 1  BAP: 1  RP: 1
-    Proficiency: +3
-    To Hit: Melee: +10 | Ranged: +5
-
-  HEALTH POOLS:
-    Vitality: 49 = 8d8 (4 x 8) + 13(flat) + 0 x 8(Con)
-    Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   20 = 8d6 (3 x 8) + -1 x 8(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 100
-
-  RESOURCES:
-    Skill Points:  23
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    26
-
-  FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Armor Training)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 1
-    Earth          : 2
-    Fire           : 2
-    Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 8 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 1  BAP: 2  RP: 1
-    Proficiency: +3
-    To Hit: Melee: +10 | Ranged: +5
-
-  HEALTH POOLS:
-    Vitality: 56 = 9d8 (4 x 9) + 16(flat) + 0 x 9(Con)
-    Health:  43 = 9d6 (3 x 9) + 12(flat)
-    Mana:   22 = 9d6 (3 x 9) + -1 x 9(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  30
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    26
-
-  FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Armor Training)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 1
-    Earth          : 2
-    Fire           : 2
-    Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 1
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 9 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 1  BAP: 2  RP: 1
-    Proficiency: +4
-    To Hit: Melee: +11 | Ranged: +6
-
-  HEALTH POOLS:
-    Vitality: 62 = 10d8 (4 x 10) + 17(flat) + 0 x 10(Con)
-    Health:  48 = 10d6 (3 x 10) + 13(flat)
-    Mana:   25 = 10d6 (3 x 10) + -1 x 10(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  34
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    27
-
-  FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
-    Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 10 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +4
-    To Hit: Melee: +11 | Ranged: +6
-
-  HEALTH POOLS:
-    Vitality: 69 = 11d8 (4 x 11) + 20(flat) + 0 x 11(Con)
-    Health:  53 = 11d6 (3 x 11) + 15(flat)
-    Mana:   27 = 11d6 (3 x 11) + -1 x 11(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  36
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    27
-
-  FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
-    Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 11 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +4
-    To Hit: Melee: +11 | Ranged: +6
-
-  HEALTH POOLS:
-    Vitality: 75 = 12d8 (4 x 12) + 21(flat) + 0 x 12(Con)
-    Health:  58 = 12d6 (3 x 12) + 16(flat)
-    Mana:   30 = 12d6 (3 x 12) + -1 x 12(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  38
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    27
-
-  FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
-    Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 12 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
+    STR: 22 (+6) = 13 + 9
     DEX: 16 (+3) = 8 + 8
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 13
-    Initiative: +3
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
-    To Hit: Melee: +12 | Ranged: +8
-
-  HEALTH POOLS:
-    Vitality: 82 = 13d8 (4 x 13) + 24(flat) + 0 x 13(Con)
-    Health:  63 = 13d6 (3 x 13) + 18(flat)
-    Mana:   32 = 13d6 (3 x 13) + -1 x 13(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  42
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    28
-
-  FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 13 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 16 (+3) = 8 + 8
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 13
-    Initiative: +3
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
-    To Hit: Melee: +12 | Ranged: +8
-
-  HEALTH POOLS:
-    Vitality: 88 = 14d8 (4 x 14) + 25(flat) + 0 x 14(Con)
-    Health:  68 = 14d6 (3 x 14) + 19(flat)
-    Mana:   35 = 14d6 (3 x 14) + -1 x 14(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  44
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    28
-
-  FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 14 (No Gear)
-============================================================
-
-  STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 16 (+3) = 8 + 8
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 13
-    Initiative: +3
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
-    To Hit: Melee: +12 | Ranged: +8
-
-  HEALTH POOLS:
-    Vitality: 95 = 15d8 (4 x 15) + 28(flat) + 0 x 15(Con)
-    Health:  73 = 15d6 (3 x 15) + 21(flat)
-    Mana:   37 = 15d6 (3 x 15) + -1 x 15(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 200
-
-  RESOURCES:
-    Skill Points:  46
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    28
-
-  FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 15 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +6
-    To Hit: Melee: +14 | Ranged: +8
-
-  HEALTH POOLS:
-    Vitality: 101 = 16d8 (4 x 16) + 29(flat) + 0 x 16(Con)
-    Health:  78 = 16d6 (3 x 16) + 22(flat)
-    Mana:   40 = 16d6 (3 x 16) + -1 x 16(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 220
-
-  RESOURCES:
-    Skill Points:  50
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    29
-
-  FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 16 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +6
-    To Hit: Melee: +14 | Ranged: +8
-
-  HEALTH POOLS:
-    Vitality: 108 = 17d8 (4 x 17) + 32(flat) + 0 x 17(Con)
-    Health:  83 = 17d6 (3 x 17) + 24(flat)
-    Mana:   42 = 17d6 (3 x 17) + -1 x 17(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 220
-
-  RESOURCES:
-    Skill Points:  57
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    29
-
-  FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 17 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 15 (+2) = 8 + 7
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 12
-    Initiative: +2
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +6
-    To Hit: Melee: +14 | Ranged: +8
-
-  HEALTH POOLS:
-    Vitality: 114 = 18d8 (4 x 18) + 33(flat) + 0 x 18(Con)
-    Health:  88 = 18d6 (3 x 18) + 25(flat)
-    Mana:   45 = 18d6 (3 x 18) + -1 x 18(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 220
-
-  RESOURCES:
-    Skill Points:  59
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    29
-
-  FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 18 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 16 (+3) = 8 + 8
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 13
-    Initiative: +3
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +7
-    To Hit: Melee: +15 | Ranged: +10
-
-  HEALTH POOLS:
-    Vitality: 121 = 19d8 (4 x 19) + 36(flat) + 0 x 19(Con)
-    Health:  93 = 19d6 (3 x 19) + 27(flat)
-    Mana:   47 = 19d6 (3 x 19) + -1 x 19(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 220
-
-  RESOURCES:
-    Skill Points:  63
-    Stat Points:   1
-    Affinity Pts:  0
-    Stat Spent:    30
-
-  FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 19 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 16 (+3) = 8 + 8
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 13
-    Initiative: +3
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +7
-    To Hit: Melee: +15 | Ranged: +10
-
-  HEALTH POOLS:
-    Vitality: 127 = 20d8 (4 x 20) + 37(flat) + 0 x 20(Con)
-    Health:  98 = 20d6 (3 x 20) + 28(flat)
-    Mana:   50 = 20d6 (3 x 20) + -1 x 20(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 220
-
-  RESOURCES:
-    Skill Points:  65
-    Stat Points:   1
-    Affinity Pts:  0
-    Stat Spent:    30
-
-  FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 20 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 16 (+3) = 8 + 8
-    CON: 11 (+0) = 8 + 3
-    WIS:  9 (-1) = 8 + 1
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
-
-  COMBAT:
-    AC: 13
-    Initiative: +3
-    Speed: 30 ft
-    AP: 3  BAP: 3  RP: 1
-    Proficiency: +7
-    To Hit: Melee: +15 | Ranged: +10
-
-  HEALTH POOLS:
-    Vitality: 134 = 21d8 (4 x 21) + 40(flat) + 0 x 21(Con)
-    Health:  103 = 21d6 (3 x 21) + 30(flat)
-    Mana:   52 = 21d6 (3 x 21) + -1 x 21(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 220
-
-  RESOURCES:
-    Skill Points:  67
-    Stat Points:   1
-    Affinity Pts:  0
-    Stat Spent:    30
-
-  FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  0
-
-  PATHS:
-    Physical -> Duelist (Lvl 3)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
-    Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Full Melee Fighter - Level 25 (No Gear)
-============================================================
-
-  STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 16 (+3) = 8 + 8
-    CON: 12 (+1) = 8 + 4
+    CON: 12 (+1) = 10 + 2
     WIS: 10 (+0) = 8 + 2
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
@@ -1191,24 +198,1061 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     AC: 13
     Initiative: +3
     Speed: 30 ft
-    AP: 3  BAP: 4  RP: 1
-    Proficiency: +9
-    To Hit: Melee: +17 | Ranged: +12
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Melee: +10 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 192 = 26d8 (4 x 26) + 49(flat) + 1 x 26(Con)
-    Health:  128 = 26d6 (3 x 26) + 37(flat)
-    Mana:   91 = 26d6 (3 x 26) + 0 x 26(Wis)
+    Vitality: 40 = 5d10 (5 x 5) + 8(flat) + 1 x 5(Con)
+    Health:  23 = 5d6 (3 x 5) + 6(flat)
+    Mana:   12 = 5d4 (2 x 5) + 0 x 5(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 330
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 6 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 60
 
   RESOURCES:
-    Skill Points:  86
+    Skill Points:  17
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 4
+    Fire           : 2
+    Generic        : 1
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 1
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 5 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Melee: +10 | Ranged: +5
+
+  HEALTH POOLS:
+    Vitality: 48 = 6d10 (5 x 6) + 9(flat) + 1 x 6(Con)
+    Health:  28 = 6d6 (3 x 6) + 7(flat)
+    Mana:   15 = 6d4 (2 x 6) + 0 x 6(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 6 | Dmg/Turn: 6
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 60
+
+  RESOURCES:
+    Skill Points:  19
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 4
+    Fire           : 2
+    Generic        : 1
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 1
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 6 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +11 | Ranged: +6
+
+  HEALTH POOLS:
+    Vitality: 57 = 7d10 (5 x 7) + 12(flat) + 1 x 7(Con)
+    Health:  33 = 7d6 (3 x 7) + 9(flat)
+    Mana:   17 = 7d4 (2 x 7) + 0 x 7(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 8 | Dmg/Turn: 8
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 80
+
+  RESOURCES:
+    Skill Points:  23
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 5
+    Fire           : 2
+    Generic        : 1
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 7 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +11 | Ranged: +6
+
+  HEALTH POOLS:
+    Vitality: 65 = 8d10 (5 x 8) + 13(flat) + 1 x 8(Con)
+    Health:  38 = 8d6 (3 x 8) + 10(flat)
+    Mana:   20 = 8d4 (2 x 8) + 0 x 8(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 8 | Dmg/Turn: 8
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 2
+    Total Dmg/10R: 80
+
+  RESOURCES:
+    Skill Points:  25
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 5
+    Fire           : 2
+    Generic        : 1
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 8 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +11 | Ranged: +6
+
+  HEALTH POOLS:
+    Vitality: 83 = 9d12 (6 x 9) + 16(flat) + 1 x 9(Con)
+    Health:  43 = 9d6 (3 x 9) + 12(flat)
+    Mana:   22 = 9d4 (2 x 9) + 0 x 9(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  32
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 5
+    Fire           : 2
+    Generic        : 1
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 9 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +12 | Ranged: +7
+
+  HEALTH POOLS:
+    Vitality: 92 = 10d12 (6 x 10) + 17(flat) + 1 x 10(Con)
+    Health:  48 = 10d6 (3 x 10) + 13(flat)
+    Mana:   25 = 10d4 (2 x 10) + 0 x 10(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  36
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 2
+    Earth          : 6
+    Fire           : 3
+    Generic        : 1
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 3
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 10 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +12 | Ranged: +7
+
+  HEALTH POOLS:
+    Vitality: 102 = 11d12 (6 x 11) + 20(flat) + 1 x 11(Con)
+    Health:  53 = 11d6 (3 x 11) + 15(flat)
+    Mana:   27 = 11d4 (2 x 11) + 0 x 11(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  38
     Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 6
+    Fire           : 3
+    Generic        : 1
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 3
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 11 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +12 | Ranged: +7
+
+  HEALTH POOLS:
+    Vitality: 111 = 12d12 (6 x 12) + 21(flat) + 1 x 12(Con)
+    Health:  58 = 12d6 (3 x 12) + 16(flat)
+    Mana:   30 = 12d4 (2 x 12) + 0 x 12(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  40
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 6
+    Fire           : 3
+    Generic        : 1
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 3
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 12 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 17 (+3) = 8 + 9
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +13 | Ranged: +8
+
+  HEALTH POOLS:
+    Vitality: 121 = 13d12 (6 x 13) + 24(flat) + 1 x 13(Con)
+    Health:  63 = 13d6 (3 x 13) + 18(flat)
+    Mana:   32 = 13d4 (2 x 13) + 0 x 13(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  44
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 1
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 3
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 13 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 17 (+3) = 8 + 9
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +13 | Ranged: +8
+
+  HEALTH POOLS:
+    Vitality: 130 = 14d12 (6 x 14) + 25(flat) + 1 x 14(Con)
+    Health:  68 = 14d6 (3 x 14) + 19(flat)
+    Mana:   35 = 14d4 (2 x 14) + 0 x 14(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  46
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 1
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 3
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 14 (No Gear)
+============================================================
+
+  STATS:
+    STR: 22 (+6) = 13 + 9
+    DEX: 17 (+3) = 8 + 9
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +13 | Ranged: +8
+
+  HEALTH POOLS:
+    Vitality: 140 = 15d12 (6 x 15) + 28(flat) + 1 x 15(Con)
+    Health:  88 = 15d8 (4 x 15) + 21(flat)
+    Mana:   37 = 15d4 (2 x 15) + 0 x 15(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  48
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 1
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 3
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 15 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +14 | Ranged: +9
+
+  HEALTH POOLS:
+    Vitality: 149 = 16d12 (6 x 16) + 29(flat) + 1 x 16(Con)
+    Health:  94 = 16d8 (4 x 16) + 22(flat)
+    Mana:   40 = 16d4 (2 x 16) + 0 x 16(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  52
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 7
+    Fire           : 4
+    Generic        : 1
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 4
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 16 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +14 | Ranged: +9
+
+  HEALTH POOLS:
+    Vitality: 159 = 17d12 (6 x 17) + 32(flat) + 1 x 17(Con)
+    Health:  100 = 17d8 (4 x 17) + 24(flat)
+    Mana:   42 = 17d4 (2 x 17) + 0 x 17(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  61
+    Stat Points:   5
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 7
+    Fire           : 5
+    Generic        : 1
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 17 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 16 (+3) = 8 + 8
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +14 | Ranged: +9
+
+  HEALTH POOLS:
+    Vitality: 168 = 18d12 (6 x 18) + 33(flat) + 1 x 18(Con)
+    Health:  106 = 18d8 (4 x 18) + 25(flat)
+    Mana:   45 = 18d4 (2 x 18) + 0 x 18(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  63
+    Stat Points:   5
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 7
+    Fire           : 5
+    Generic        : 1
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 18 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 17 (+3) = 8 + 9
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +16 | Ranged: +10
+
+  HEALTH POOLS:
+    Vitality: 178 = 19d12 (6 x 19) + 36(flat) + 1 x 19(Con)
+    Health:  112 = 19d8 (4 x 19) + 27(flat)
+    Mana:   47 = 19d4 (2 x 19) + 0 x 19(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  67
+    Stat Points:   6
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 4)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 8
+    Fire           : 5
+    Generic        : 1
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 19 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 17 (+3) = 8 + 9
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +16 | Ranged: +10
+
+  HEALTH POOLS:
+    Vitality: 187 = 20d12 (6 x 20) + 37(flat) + 1 x 20(Con)
+    Health:  118 = 20d8 (4 x 20) + 28(flat)
+    Mana:   50 = 20d4 (2 x 20) + 0 x 20(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  69
+    Stat Points:   6
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 4)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 8
+    Fire           : 5
+    Generic        : 1
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 20 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 17 (+3) = 8 + 9
+    CON: 12 (+1) = 10 + 2
+    WIS: 10 (+0) = 8 + 2
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 3  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +16 | Ranged: +10
+
+  HEALTH POOLS:
+    Vitality: 281 = 21d20 (10 x 21) + 40(flat) + 1 x 21(Con)
+    Health:  124 = 21d8 (4 x 21) + 30(flat)
+    Mana:   52 = 21d4 (2 x 21) + 0 x 21(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 8 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 4
+    Total Dmg/10R: 160
+
+  RESOURCES:
+    Skill Points:  71
+    Stat Points:   6
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  0
+
+  PATHS:
+    Physical -> Duelist (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 8
+    Fire           : 5
+    Generic        : 1
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Full Melee Fighter - Level 25 (No Gear)
+============================================================
+
+  STATS:
+    STR: 23 (+6) = 13 + 10
+    DEX: 17 (+3) = 8 + 9
+    CON: 13 (+1) = 10 + 3
+    WIS: 11 (+0) = 8 + 3
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 13
+    Initiative: +3
+    Speed: 30 ft
+    AP: 3  BAP: 4  RP: 1
+    Proficiency: +9
+    To Hit: Melee: +19 | Ranged: +12
+
+  HEALTH POOLS:
+    Vitality: 348 = 26d20 (10 x 26) + 49(flat) + 1 x 26(Con)
+    Health:  154 = 26d8 (4 x 26) + 37(flat)
+    Mana:   65 = 26d4 (2 x 26) + 0 x 26(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 8 | Dmg/Turn: 24
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 6
+    Total Dmg/10R: 240
+
+  RESOURCES:
+    Skill Points:  90
+    Stat Points:   11
     Affinity Pts:  0
     Stat Spent:    32
 
@@ -1218,20 +1262,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 5)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 4)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 5
+    Air            : 6
+    Earth          : 9
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 8
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 6
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1239,35 +1285,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 16 (+3) = 8 + 8
-    CON: 12 (+1) = 8 + 4
-    WIS: 10 (+0) = 8 + 2
-    INT: 10 (+0) = 8 + 2
-    CHA: 10 (+0) = 8 + 2
+    STR: 23 (+6) = 13 + 10
+    DEX: 17 (+3) = 8 + 9
+    CON: 13 (+1) = 10 + 3
+    WIS: 11 (+0) = 8 + 3
+    INT: 11 (+0) = 8 + 3
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 13
+    AC: 14
     Initiative: +3
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Melee: +19 | Ranged: +14
+    To Hit: Melee: +22 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 230 = 31d8 (4 x 31) + 60(flat) + 1 x 31(Con)
-    Health:  153 = 31d6 (3 x 31) + 45(flat)
-    Mana:   108 = 31d6 (3 x 31) + 0 x 31(Wis)
+    Vitality: 416 = 31d20 (10 x 31) + 60(flat) + 1 x 31(Con)
+    Health:  215 = 31d10 (5 x 31) + 45(flat)
+    Mana:   77 = 31d4 (2 x 31) + 0 x 31(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 330
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 8 | Dmg/Turn: 24
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 6
+    Total Dmg/10R: 240
 
   RESOURCES:
-    Skill Points:  100
-    Stat Points:   5
+    Skill Points:  104
+    Stat Points:   16
     Affinity Pts:  0
     Stat Spent:    34
 
@@ -1277,20 +1323,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 6)
+    Physical -> Indomitable (Lvl 5)
+    Racial -> Therian Minotaur (Lvl 5)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 7
+    Earth          : 10
+    Fire           : 7
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 5
-    Water          : 5
+    Necrotic       : 10
+    Psychic        : 3
+    Radiant        : 7
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1298,35 +1346,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 23 (+6) = 8 + 15
-    DEX: 17 (+3) = 8 + 9
-    CON: 12 (+1) = 8 + 4
-    WIS: 10 (+0) = 8 + 2
-    INT: 10 (+0) = 8 + 2
-    CHA: 10 (+0) = 8 + 2
+    STR: 24 (+7) = 13 + 11
+    DEX: 18 (+4) = 8 + 10
+    CON: 13 (+1) = 10 + 3
+    WIS: 11 (+0) = 8 + 3
+    INT: 11 (+0) = 8 + 3
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 13
-    Initiative: +3
+    AC: 16
+    Initiative: +4
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Melee: +22 | Ranged: +17
+    To Hit: Melee: +27 | Ranged: +18
 
   HEALTH POOLS:
-    Vitality: 305 = 41d8 (4 x 41) + 80(flat) + 1 x 41(Con)
-    Health:  203 = 41d6 (3 x 41) + 60(flat)
-    Mana:   143 = 41d6 (3 x 41) + 0 x 41(Wis)
+    Vitality: 551 = 41d20 (10 x 41) + 80(flat) + 1 x 41(Con)
+    Health:  285 = 41d10 (5 x 41) + 60(flat)
+    Mana:   102 = 41d4 (2 x 41) + 0 x 41(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 440
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 9 | Dmg/Turn: 36
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 12
+    Total Dmg/10R: 360
 
   RESOURCES:
-    Skill Points:  136
-    Stat Points:   8
+    Skill Points:  140
+    Stat Points:   27
     Affinity Pts:  0
     Stat Spent:    37
 
@@ -1336,20 +1384,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 7)
+    Physical -> Indomitable (Lvl 7)
+    Racial -> Therian Minotaur (Lvl 7)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 6
+    Air            : 10
+    Earth          : 13
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : 5
-    Radiant        : 5
-    Water          : 6
+    Necrotic       : 12
+    Psychic        : 6
+    Radiant        : 9
+    Water          : 10
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1357,35 +1407,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 23 (+6) = 8 + 15
-    DEX: 17 (+3) = 8 + 9
-    CON: 13 (+1) = 8 + 5
-    WIS: 11 (+0) = 8 + 3
-    INT: 11 (+0) = 8 + 3
-    CHA: 10 (+0) = 8 + 2
+    STR: 24 (+7) = 13 + 11
+    DEX: 18 (+4) = 8 + 10
+    CON: 14 (+2) = 10 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 13
-    Initiative: +3
+    AC: 18
+    Initiative: +4
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Melee: +25 | Ranged: +20
+    To Hit: Melee: +32 | Ranged: +21
 
   HEALTH POOLS:
-    Vitality: 380 = 51d8 (4 x 51) + 100(flat) + 1 x 51(Con)
-    Health:  253 = 51d6 (3 x 51) + 75(flat)
-    Mana:   178 = 51d6 (3 x 51) + 0 x 51(Wis)
+    Vitality: 737 = 51d20 (10 x 51) + 100(flat) + 2 x 51(Con)
+    Health:  355 = 51d10 (5 x 51) + 75(flat)
+    Mana:   178 = 51d4 (2 x 51) + 1 x 51(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 440
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 9 | Dmg/Turn: 36
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 12
+    Total Dmg/10R: 360
 
   RESOURCES:
-    Skill Points:  167
-    Stat Points:   11
+    Skill Points:  171
+    Stat Points:   35
     Affinity Pts:  0
     Stat Spent:    40
 
@@ -1395,20 +1445,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 9)
+    Physical -> Indomitable (Lvl 9)
+    Racial -> Therian Minotaur (Lvl 8)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
+    Air            : 12
+    Earth          : 15
+    Fire           : 12
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 6
-    Radiant        : 6
-    Water          : 7
+    Necrotic       : 14
+    Psychic        : 8
+    Radiant        : 11
+    Water          : 12
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1416,35 +1468,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 8 + 16
-    DEX: 18 (+4) = 8 + 10
-    CON: 13 (+1) = 8 + 5
-    WIS: 11 (+0) = 8 + 3
-    INT: 11 (+0) = 8 + 3
-    CHA: 11 (+0) = 8 + 3
+    STR: 25 (+7) = 13 + 12
+    DEX: 19 (+4) = 8 + 11
+    CON: 14 (+2) = 10 + 4
+    WIS: 12 (+1) = 8 + 4
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 13
+    AC: 20
     Initiative: +4
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Melee: +30 | Ranged: +25
+    To Hit: Melee: +38 | Ranged: +25
 
   HEALTH POOLS:
-    Vitality: 455 = 61d8 (4 x 61) + 120(flat) + 1 x 61(Con)
-    Health:  303 = 61d6 (3 x 61) + 90(flat)
-    Mana:   213 = 61d6 (3 x 61) + 0 x 61(Wis)
+    Vitality: 902 = 61d20 (10 x 61) + 140(flat) + 2 x 61(Con)
+    Health:  435 = 61d10 (5 x 61) + 100(flat)
+    Mana:   213 = 61d4 (2 x 61) + 1 x 61(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 12
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 600
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 9 | Dmg/Turn: 45
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 15
+    Total Dmg/10R: 450
 
   RESOURCES:
-    Skill Points:  200
-    Stat Points:   15
+    Skill Points:  204
+    Stat Points:   49
     Affinity Pts:  0
     Stat Spent:    44
 
@@ -1454,20 +1506,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 11)
+    Physical -> Indomitable (Lvl 10)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 8
-    Fire           : 8
+    Air            : 15
+    Earth          : 19
+    Fire           : 16
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 7
-    Radiant        : 7
-    Water          : 8
+    Necrotic       : 18
+    Psychic        : 12
+    Radiant        : 15
+    Water          : 16
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1475,35 +1529,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 8 + 16
-    DEX: 18 (+4) = 8 + 10
-    CON: 14 (+2) = 8 + 6
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 11 (+0) = 8 + 3
+    STR: 25 (+7) = 13 + 12
+    DEX: 19 (+4) = 8 + 11
+    CON: 15 (+2) = 10 + 5
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 13
+    AC: 20
     Initiative: +4
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Melee: +33 | Ranged: +28
+    To Hit: Melee: +42 | Ranged: +28
 
   HEALTH POOLS:
-    Vitality: 601 = 71d8 (4 x 71) + 140(flat) + 2 x 71(Con)
-    Health:  353 = 71d6 (3 x 71) + 105(flat)
-    Mana:   319 = 71d6 (3 x 71) + 1 x 71(Wis)
+    Vitality: 1067 = 71d20 (10 x 71) + 180(flat) + 2 x 71(Con)
+    Health:  515 = 71d10 (5 x 71) + 125(flat)
+    Mana:   248 = 71d4 (2 x 71) + 1 x 71(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 12
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 600
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 10 | Dmg/Turn: 50
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 15
+    Total Dmg/10R: 500
 
   RESOURCES:
-    Skill Points:  231
-    Stat Points:   18
+    Skill Points:  235
+    Stat Points:   52
     Affinity Pts:  0
     Stat Spent:    47
 
@@ -1513,20 +1567,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 14)
+    Physical -> Indomitable (Lvl 12)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 9
-    Fire           : 9
+    Air            : 16
+    Earth          : 20
+    Fire           : 17
     Generic        : 1
-    Necrotic       : 8
-    Psychic        : 8
-    Radiant        : 8
-    Water          : 9
+    Necrotic       : 19
+    Psychic        : 13
+    Radiant        : 16
+    Water          : 16
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1534,35 +1590,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 25 (+7) = 8 + 17
-    DEX: 18 (+4) = 8 + 10
-    CON: 14 (+2) = 8 + 6
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 26 (+8) = 13 + 13
+    DEX: 19 (+4) = 8 + 11
+    CON: 15 (+2) = 10 + 5
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
-    AC: 13
+    AC: 20
     Initiative: +4
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Melee: +36 | Ranged: +31
+    To Hit: Melee: +47 | Ranged: +31
 
   HEALTH POOLS:
-    Vitality: 686 = 81d8 (4 x 81) + 160(flat) + 2 x 81(Con)
-    Health:  403 = 81d6 (3 x 81) + 120(flat)
-    Mana:   364 = 81d6 (3 x 81) + 1 x 81(Wis)
+    Vitality: 1232 = 81d20 (10 x 81) + 220(flat) + 2 x 81(Con)
+    Health:  595 = 81d10 (5 x 81) + 150(flat)
+    Mana:   283 = 81d4 (2 x 81) + 1 x 81(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 12
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
+    Attacks/Turn: 6
+    Melee Dmg/Hit: 12 | Dmg/Turn: 72
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 18
     Total Dmg/10R: 720
 
   RESOURCES:
-    Skill Points:  267
-    Stat Points:   21
+    Skill Points:  271
+    Stat Points:   55
     Affinity Pts:  0
     Stat Spent:    50
 
@@ -1572,20 +1628,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 17)
+    Physical -> Indomitable (Lvl 14)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 10
-    Fire           : 10
+    Air            : 17
+    Earth          : 20
+    Fire           : 18
     Generic        : 1
-    Necrotic       : 9
-    Psychic        : 9
-    Radiant        : 9
-    Water          : 9
+    Necrotic       : 20
+    Psychic        : 14
+    Radiant        : 17
+    Water          : 17
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1593,35 +1651,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 25 (+7) = 8 + 17
-    DEX: 19 (+4) = 8 + 11
-    CON: 15 (+2) = 8 + 7
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 12 (+1) = 8 + 4
+    STR: 26 (+8) = 13 + 13
+    DEX: 20 (+5) = 8 + 12
+    CON: 16 (+3) = 10 + 6
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
-    AC: 13
-    Initiative: +4
+    AC: 21
+    Initiative: +5
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Melee: +40 | Ranged: +35
+    To Hit: Melee: +51 | Ranged: +36
 
   HEALTH POOLS:
-    Vitality: 771 = 91d8 (4 x 91) + 180(flat) + 2 x 91(Con)
-    Health:  453 = 91d6 (3 x 91) + 135(flat)
-    Mana:   409 = 91d6 (3 x 91) + 1 x 91(Wis)
+    Vitality: 1478 = 91d20 (10 x 91) + 250(flat) + 3 x 91(Con)
+    Health:  670 = 91d10 (5 x 91) + 170(flat)
+    Mana:   409 = 91d4 (2 x 91) + 2 x 91(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 12
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 840
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 15 | Dmg/Turn: 105
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 21
+    Total Dmg/10R: 1050
 
   RESOURCES:
-    Skill Points:  300
-    Stat Points:   25
+    Skill Points:  304
+    Stat Points:   59
     Affinity Pts:  0
     Stat Spent:    54
 
@@ -1631,20 +1689,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 21)
+    Physical -> Indomitable (Lvl 15)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 11
-    Fire           : 11
+    Air            : 18
+    Earth          : 22
+    Fire           : 19
     Generic        : 1
-    Necrotic       : 10
-    Psychic        : 10
-    Radiant        : 10
-    Water          : 11
+    Necrotic       : 21
+    Psychic        : 15
+    Radiant        : 18
+    Water          : 18
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1652,35 +1712,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 26 (+8) = 8 + 18
-    DEX: 19 (+4) = 8 + 11
-    CON: 15 (+2) = 8 + 7
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 13 (+1) = 8 + 5
+    STR: 27 (+8) = 13 + 14
+    DEX: 20 (+5) = 8 + 12
+    CON: 16 (+3) = 10 + 6
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
 
   COMBAT:
-    AC: 13
-    Initiative: +4
+    AC: 21
+    Initiative: +5
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Melee: +44 | Ranged: +38
+    To Hit: Melee: +54 | Ranged: +39
 
   HEALTH POOLS:
-    Vitality: 856 = 101d8 (4 x 101) + 200(flat) + 2 x 101(Con)
-    Health:  503 = 101d6 (3 x 101) + 150(flat)
-    Mana:   454 = 101d6 (3 x 101) + 1 x 101(Wis)
+    Vitality: 1653 = 101d20 (10 x 101) + 290(flat) + 3 x 101(Con)
+    Health:  750 = 101d10 (5 x 101) + 195(flat)
+    Mana:   454 = 101d4 (2 x 101) + 2 x 101(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 12
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 840
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 18 | Dmg/Turn: 126
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 21
+    Total Dmg/10R: 1260
 
   RESOURCES:
-    Skill Points:  331
-    Stat Points:   28
+    Skill Points:  335
+    Stat Points:   62
     Affinity Pts:  0
     Stat Spent:    57
 
@@ -1690,20 +1750,22 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 24)
+    Physical -> Indomitable (Lvl 17)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 12
-    Fire           : 12
+    Air            : 19
+    Earth          : 22
+    Fire           : 20
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 11
-    Radiant        : 11
-    Water          : 11
+    Necrotic       : 22
+    Psychic        : 16
+    Radiant        : 19
+    Water          : 19
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1711,35 +1773,35 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 48 (+19) = 8 + 40
-    DEX: 41 (+15) = 8 + 33
-    CON: 38 (+14) = 8 + 30
-    WIS: 35 (+12) = 8 + 27
+    STR: 48 (+19) = 13 + 35
+    DEX: 42 (+16) = 8 + 34
+    CON: 38 (+14) = 10 + 28
+    WIS: 36 (+13) = 8 + 28
     INT: 35 (+12) = 8 + 27
     CHA: 35 (+12) = 8 + 27
 
   COMBAT:
-    AC: 16
-    Initiative: +15
+    AC: 33
+    Initiative: +16
     Speed: 30 ft
     AP: 101  BAP: 126  RP: 1
     Proficiency: +334
-    To Hit: Melee: +355 | Ranged: +349
+    To Hit: Melee: +385 | Ranged: +350
 
   HEALTH POOLS:
-    Vitality: 20518 = 1001d8 (4 x 1001) + 2000(flat) + 14 x 1001(Con)
-    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
-    Mana:   15515 = 1001d6 (3 x 1001) + 12 x 1001(Wis)
+    Vitality: 29064 = 1001d20 (10 x 1001) + 4540(flat) + 14 x 1001(Con)
+    Health:  8275 = 1001d10 (5 x 1001) + 2770(flat)
+    Mana:   15515 = 1001d4 (2 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 21
-    Ranged Dmg/Turn: 14
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 13440
+    Attacks/Turn: 64
+    Melee Dmg/Hit: 40 | Dmg/Turn: 2560
+    Ranged Dmg/Hit: 12 | Dmg/Turn: 768
+    Total Dmg/10R: 25600
 
   RESOURCES:
-    Skill Points:  3296
-    Stat Points:   327
+    Skill Points:  3300
+    Stat Points:   361
     Affinity Pts:  0
     Stat Spent:    357
 
@@ -1749,19 +1811,21 @@ EYUM TTRPG - FULL MELEE FIGHTER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 63)
+    Physical -> Indomitable (Lvl 272)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 97
-    Earth          : 97
-    Fire           : 97
+    Air            : 105
+    Earth          : 108
+    Fire           : 105
     Generic        : 1
-    Necrotic       : 97
-    Psychic        : 97
-    Radiant        : 97
-    Water          : 97
+    Necrotic       : 108
+    Psychic        : 101
+    Radiant        : 105
+    Water          : 105
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 

@@ -7,10 +7,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
-    CON: 12 (+1) = 8 + 4
-    WIS: 19 (+4) = 8 + 11
-    INT: 14 (+2) = 8 + 6
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -27,10 +27,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Mana:   17 = 2d8 (4 x 2) + 4 x 2(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 0
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 17 (x2 mana)
+    Total Dmg/10R: 173
+    Mana: 17 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  7
@@ -40,18 +40,21 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   FEATS & SPELLS:
     Feats:  0
-    Spells:  2
+    Spells:  3
 
   PATHS:
     Magical -> Magician (Lvl 1)
     Magical -> Priest (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 1
-    Fire           : 1
+    Fire           : 4
     Generic        : 2
-    Radiant        : 1
+    Psychic        : -3
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -64,10 +67,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
-    CON: 12 (+1) = 8 + 4
-    WIS: 19 (+4) = 8 + 11
-    INT: 14 (+2) = 8 + 6
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -84,10 +87,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Mana:   25 = 3d8 (4 x 3) + 4 x 3(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 187
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 201
+    Mana: 25 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  9
@@ -97,18 +100,21 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   FEATS & SPELLS:
     Feats:  0
-    Spells:  2
+    Spells:  3
 
   PATHS:
     Magical -> Magician (Lvl 1)
     Magical -> Priest (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 1
-    Fire           : 2
+    Fire           : 5
     Generic        : 2
-    Radiant        : 5
+    Psychic        : -3
+    Radiant        : 8
     Water          : 1
 
   GEAR:
@@ -120,11 +126,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
-    CON: 12 (+1) = 8 + 4
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -141,10 +147,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Mana:   34 = 4d8 (4 x 4) + 4 x 4(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 187
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 219
+    Mana: 34 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  13
@@ -155,20 +161,22 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
   FEATS & SPELLS:
     Feats:  1 (taken: Toughness)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  3
+    Spells:  4
 
   PATHS:
     Magical -> Magician (Lvl 1)
     Magical -> Priest (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 1
-    Fire           : 2
+    Fire           : 5
     Generic        : 2
     Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 5
+    Psychic        : -2
+    Radiant        : 8
     Water          : 1
 
   GEAR:
@@ -180,11 +188,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
-    CON: 12 (+1) = 8 + 4
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -196,39 +204,41 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     To Hit: Magic: +6
 
   HEALTH POOLS:
-    Vitality: 21 = 5d4 (2 x 5) + 4(flat) + 1 x 5(Con)
+    Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
     Health:  21 = 5d6 (3 x 5) + 4(flat)
-    Mana:   47 = 5d10 (5 x 5) + 4 x 5(Wis)
+    Mana:   42 = 5d8 (4 x 5) + 4 x 5(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 187
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 233
+    Mana: 42 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  15
-    Stat Points:   0
+    Skill Points:  17
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    25
 
   FEATS & SPELLS:
     Feats:  1 (taken: Toughness)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  3
+    Spells:  4
 
   PATHS:
-    Magical -> Magician (Lvl 2)
+    Magical -> Magician (Lvl 1)
     Magical -> Priest (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 2
-    Fire           : 2
+    Fire           : 6
     Generic        : 2
     Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 5
+    Psychic        : -2
+    Radiant        : 8
     Water          : 1
 
   GEAR:
@@ -240,11 +250,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
-    CON: 12 (+1) = 8 + 4
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -256,39 +266,41 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     To Hit: Magic: +6
 
   HEALTH POOLS:
-    Vitality: 26 = 6d4 (2 x 6) + 5(flat) + 1 x 6(Con)
+    Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
     Health:  26 = 6d6 (3 x 6) + 5(flat)
-    Mana:   57 = 6d10 (5 x 6) + 4 x 6(Wis)
+    Mana:   51 = 6d8 (4 x 6) + 4 x 6(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 187
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 246
+    Mana: 51 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  17
-    Stat Points:   0
+    Skill Points:  19
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    25
 
   FEATS & SPELLS:
     Feats:  1 (taken: Toughness)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  3
+    Spells:  4
 
   PATHS:
-    Magical -> Magician (Lvl 2)
+    Magical -> Magician (Lvl 1)
     Magical -> Priest (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 2
-    Fire           : 2
+    Fire           : 6
     Generic        : 2
     Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 5
+    Psychic        : -2
+    Radiant        : 8
     Water          : 1
 
   GEAR:
@@ -300,11 +312,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -313,43 +325,45 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +7
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 30 = 7d4 (2 x 7) + 6(flat) + 1 x 7(Con)
     Health:  30 = 7d6 (3 x 7) + 6(flat)
-    Mana:   78 = 7d10 (5 x 7) + 4 x 7(Wis)
+    Mana:   85 = 7d10 (5 x 7) + 5 x 7(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 187
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 295
+    Mana: 85 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  21
-    Stat Points:   0
+    Skill Points:  23
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
   FEATS & SPELLS:
     Feats:  2 (taken: Toughness, Mana Flow)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  4
+    Spells:  5
 
   PATHS:
     Magical -> Magician (Lvl 2)
-    Magical -> Priest (Lvl 2)
+    Magical -> Priest (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 3
-    Fire           : 3
+    Fire           : 6
     Generic        : 2
     Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 5
-    Water          : 2
+    Psychic        : -2
+    Radiant        : 8
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -360,11 +374,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -373,43 +387,45 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +7
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 35 = 8d4 (2 x 8) + 7(flat) + 1 x 8(Con)
     Health:  35 = 8d6 (3 x 8) + 7(flat)
-    Mana:   90 = 8d10 (5 x 8) + 4 x 8(Wis)
+    Mana:   98 = 8d10 (5 x 8) + 5 x 8(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 187
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 295
+    Mana: 98 start, 18 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  23
-    Stat Points:   0
+    Skill Points:  25
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
   FEATS & SPELLS:
     Feats:  2 (taken: Toughness, Mana Flow)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  4
+    Spells:  5
 
   PATHS:
     Magical -> Magician (Lvl 2)
-    Magical -> Priest (Lvl 2)
+    Magical -> Priest (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
+    Air            : -2
+    Cold           : -3
     Earth          : 3
-    Fire           : 3
+    Fire           : 6
     Generic        : 2
     Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 5
-    Water          : 2
+    Psychic        : -2
+    Radiant        : 8
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -420,11 +436,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 10 (+0) = 8 + 2
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
@@ -433,43 +449,45 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +7
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 39 = 9d4 (2 x 9) + 8(flat) + 1 x 9(Con)
     Health:  39 = 9d6 (3 x 9) + 8(flat)
-    Mana:   110 = 9d12 (6 x 9) + 4 x 9(Wis)
+    Mana:   110 = 9d10 (5 x 9) + 5 x 9(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 18 (x2 mana)
-    Total Dmg/10R: 375
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 478
+    Mana: 110 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  30
-    Stat Points:   0
+    Skill Points:  32
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
   FEATS & SPELLS:
     Feats:  2 (taken: Toughness, Mana Flow)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  4
+    Spells:  5
 
   PATHS:
-    Magical -> Magician (Lvl 3)
+    Magical -> Magician (Lvl 2)
     Magical -> Priest (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 2
+    Air            : -1
+    Cold           : -3
     Earth          : 3
-    Fire           : 3
+    Fire           : 6
     Generic        : 2
     Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 5
-    Water          : 2
+    Psychic        : -2
+    Radiant        : 8
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -480,12 +498,12 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 11 (+0) = 8 + 3
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -493,43 +511,45 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +8
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 44 = 10d4 (2 x 10) + 9(flat) + 1 x 10(Con)
     Health:  44 = 10d6 (3 x 10) + 9(flat)
-    Mana:   123 = 10d12 (6 x 10) + 4 x 10(Wis)
+    Mana:   123 = 10d10 (5 x 10) + 5 x 10(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 19 (x2 mana)
-    Total Dmg/10R: 390
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 496
+    Mana: 123 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  34
-    Stat Points:   0
+    Skill Points:  36
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
     Feats:  3 (taken: Toughness, Mana Flow, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  5
+    Spells:  6
 
   PATHS:
-    Magical -> Magician (Lvl 3)
+    Magical -> Magician (Lvl 2)
     Magical -> Priest (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 0
+    Cold           : -3
     Earth          : 4
-    Fire           : 4
+    Fire           : 7
     Generic        : 2
     Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 6
-    Water          : 3
+    Psychic        : -1
+    Radiant        : 9
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_wand
@@ -540,12 +560,12 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 11 (+0) = 8 + 3
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -553,43 +573,45 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +8
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 48 = 11d4 (2 x 11) + 10(flat) + 1 x 11(Con)
     Health:  48 = 11d6 (3 x 11) + 10(flat)
-    Mana:   135 = 11d12 (6 x 11) + 4 x 11(Wis)
+    Mana:   135 = 11d10 (5 x 11) + 5 x 11(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 19 (x2 mana)
-    Total Dmg/10R: 390
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 539
+    Mana: 135 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  36
-    Stat Points:   0
+    Skill Points:  38
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
     Feats:  3 (taken: Toughness, Mana Flow, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  5
+    Spells:  6
 
   PATHS:
-    Magical -> Magician (Lvl 3)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 1
+    Cold           : -3
     Earth          : 4
-    Fire           : 5
+    Fire           : 8
     Generic        : 2
     Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 6
-    Water          : 3
+    Psychic        : -1
+    Radiant        : 10
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_wand
@@ -600,12 +622,12 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  8 (-1) = 8 + 0
-    DEX: 11 (+0) = 8 + 3
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -613,43 +635,45 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +8
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 53 = 12d4 (2 x 12) + 11(flat) + 1 x 12(Con)
     Health:  53 = 12d6 (3 x 12) + 11(flat)
-    Mana:   148 = 12d12 (6 x 12) + 4 x 12(Wis)
+    Mana:   148 = 12d10 (5 x 12) + 5 x 12(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 19 (x2 mana)
-    Total Dmg/10R: 390
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 576
+    Mana: 148 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  38
-    Stat Points:   0
+    Skill Points:  40
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
     Feats:  3 (taken: Toughness, Mana Flow, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  5
+    Spells:  6
 
   PATHS:
-    Magical -> Magician (Lvl 3)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 1
+    Cold           : -3
     Earth          : 4
-    Fire           : 5
+    Fire           : 8
     Generic        : 2
     Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 6
-    Water          : 3
+    Psychic        : -1
+    Radiant        : 10
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_wand
@@ -661,11 +685,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -673,42 +697,44 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 57 = 13d4 (2 x 13) + 12(flat) + 1 x 13(Con)
     Health:  57 = 13d6 (3 x 13) + 12(flat)
-    Mana:   212 = 13d20 (10 x 13) + 4 x 13(Wis)
+    Mana:   173 = 13d12 (6 x 13) + 5 x 13(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 19 (x2 mana)
-    Total Dmg/10R: 390
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 173 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  42
-    Stat Points:   0
+    Skill Points:  44
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
     Feats:  4 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  6
+    Spells:  7
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 3)
+    Magical -> Priest (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 1
+    Cold           : -3
     Earth          : 5
-    Fire           : 5
+    Fire           : 8
     Generic        : 2
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 6
+    Necrotic       : 3
+    Psychic        : 0
+    Radiant        : 10
     Water          : 4
 
   GEAR:
@@ -721,11 +747,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -733,42 +759,44 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 62 = 14d4 (2 x 14) + 13(flat) + 1 x 14(Con)
     Health:  62 = 14d6 (3 x 14) + 13(flat)
-    Mana:   229 = 14d20 (10 x 14) + 4 x 14(Wis)
+    Mana:   187 = 14d12 (6 x 14) + 5 x 14(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 19 (x2 mana)
-    Total Dmg/10R: 390
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 187 start, 27 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  44
-    Stat Points:   0
+    Skill Points:  46
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
     Feats:  4 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  6
+    Spells:  7
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 3)
+    Magical -> Priest (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 1
+    Cold           : -3
     Earth          : 5
-    Fire           : 5
+    Fire           : 8
     Generic        : 2
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 6
+    Necrotic       : 3
+    Psychic        : 0
+    Radiant        : 10
     Water          : 4
 
   GEAR:
@@ -781,11 +809,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
+    DEX: 11 (+0) = 6 + 5
     CON: 13 (+1) = 8 + 5
-    WIS: 19 (+4) = 8 + 11
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -793,42 +821,44 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 66 = 15d4 (2 x 15) + 14(flat) + 1 x 15(Con)
     Health:  66 = 15d6 (3 x 15) + 14(flat)
-    Mana:   245 = 15d20 (10 x 15) + 4 x 15(Wis)
+    Mana:   200 = 15d12 (6 x 15) + 5 x 15(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 19 (x2 mana)
-    Total Dmg/10R: 390
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 200 start, 40 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  46
-    Stat Points:   0
+    Skill Points:  48
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
     Feats:  4 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  6
+    Spells:  7
 
   PATHS:
-    Magical -> Magician (Lvl 4)
+    Magical -> Magician (Lvl 3)
     Magical -> Priest (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 1
+    Cold           : -3
     Earth          : 5
-    Fire           : 5
+    Fire           : 8
     Generic        : 2
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 6
+    Necrotic       : 3
+    Psychic        : 0
+    Radiant        : 10
     Water          : 5
 
   GEAR:
@@ -841,11 +871,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
-    CON: 13 (+1) = 8 + 5
-    WIS: 20 (+5) = 8 + 12
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -856,39 +886,41 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     To Hit: Magic: +11
 
   HEALTH POOLS:
-    Vitality: 71 = 16d4 (2 x 16) + 15(flat) + 1 x 16(Con)
+    Vitality: 87 = 16d4 (2 x 16) + 15(flat) + 2 x 16(Con)
     Health:  71 = 16d6 (3 x 16) + 15(flat)
-    Mana:   278 = 16d20 (10 x 16) + 5 x 16(Wis)
+    Mana:   214 = 16d12 (6 x 16) + 5 x 16(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 20 (x2 mana)
-    Total Dmg/10R: 405
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 214 start, 54 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  50
-    Stat Points:   0
+    Skill Points:  52
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
     Feats:  5 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  7
+    Spells:  8
 
   PATHS:
-    Magical -> Magician (Lvl 4)
+    Magical -> Magician (Lvl 3)
     Magical -> Priest (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 5
-    Fire           : 5
+    Air            : 1
+    Cold           : -3
+    Earth          : 6
+    Fire           : 9
     Generic        : 2
     Necrotic       : 3
-    Psychic        : 2
-    Radiant        : 7
+    Psychic        : 0
+    Radiant        : 10
     Water          : 5
 
   GEAR:
@@ -901,11 +933,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
-    CON: 13 (+1) = 8 + 5
-    WIS: 20 (+5) = 8 + 12
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -916,40 +948,42 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     To Hit: Magic: +11
 
   HEALTH POOLS:
-    Vitality: 75 = 17d4 (2 x 17) + 16(flat) + 1 x 17(Con)
+    Vitality: 92 = 17d4 (2 x 17) + 16(flat) + 2 x 17(Con)
     Health:  75 = 17d6 (3 x 17) + 16(flat)
-    Mana:   295 = 17d20 (10 x 17) + 5 x 17(Wis)
+    Mana:   227 = 17d12 (6 x 17) + 5 x 17(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 20 (x2 mana)
-    Total Dmg/10R: 405
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 227 start, 67 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  57
-    Stat Points:   0
+    Skill Points:  61
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
     Feats:  5 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  7
+    Spells:  8
 
   PATHS:
-    Magical -> Magician (Lvl 4)
+    Magical -> Magician (Lvl 3)
     Magical -> Priest (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 3
+    Cold           : -3
+    Earth          : 6
+    Fire           : 9
     Generic        : 2
     Necrotic       : 3
-    Psychic        : 2
-    Radiant        : 7
-    Water          : 5
+    Psychic        : 0
+    Radiant        : 11
+    Water          : 6
 
   GEAR:
     Weapon: dragonbone_wand
@@ -961,11 +995,11 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
-    CON: 13 (+1) = 8 + 5
-    WIS: 20 (+5) = 8 + 12
-    INT: 15 (+2) = 8 + 7
-    CHA:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
     AC: 21
@@ -976,40 +1010,42 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     To Hit: Magic: +11
 
   HEALTH POOLS:
-    Vitality: 80 = 18d4 (2 x 18) + 17(flat) + 1 x 18(Con)
+    Vitality: 98 = 18d4 (2 x 18) + 17(flat) + 2 x 18(Con)
     Health:  80 = 18d6 (3 x 18) + 17(flat)
-    Mana:   313 = 18d20 (10 x 18) + 5 x 18(Wis)
+    Mana:   241 = 18d12 (6 x 18) + 5 x 18(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 20 (x2 mana)
-    Total Dmg/10R: 405
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 241 start, 81 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  59
-    Stat Points:   0
+    Skill Points:  63
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
     Feats:  5 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  7
+    Spells:  8
 
   PATHS:
-    Magical -> Magician (Lvl 4)
+    Magical -> Magician (Lvl 3)
     Magical -> Priest (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 3
+    Cold           : -3
+    Earth          : 6
+    Fire           : 9
     Generic        : 2
     Necrotic       : 3
-    Psychic        : 2
-    Radiant        : 7
-    Water          : 5
+    Psychic        : 0
+    Radiant        : 11
+    Water          : 6
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1021,55 +1057,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
-    CON: 13 (+1) = 8 + 5
-    WIS: 20 (+5) = 8 + 12
-    INT: 15 (+2) = 8 + 7
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 21
-    Initiative: +0
+    AC: 22
+    Initiative: +1
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
     To Hit: Magic: +12
 
   HEALTH POOLS:
-    Vitality: 84 = 19d4 (2 x 19) + 18(flat) + 1 x 19(Con)
+    Vitality: 103 = 19d4 (2 x 19) + 18(flat) + 2 x 19(Con)
     Health:  84 = 19d6 (3 x 19) + 18(flat)
     Mana:   330 = 19d20 (10 x 19) + 5 x 19(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 28 (x4 mana)
-    Total Dmg/10R: 570
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 49 (x8 mana)
+    Total Dmg/10R: 990
+    Mana: 330 start, 170 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  63
-    Stat Points:   0
+    Skill Points:  67
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
     Feats:  6 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  8
+    Spells:  9
 
   PATHS:
     Magical -> Magician (Lvl 4)
     Magical -> Priest (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 7
+    Air            : 3
+    Cold           : -3
+    Earth          : 7
+    Fire           : 11
     Generic        : 2
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 7
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : 1
+    Radiant        : 11
+    Water          : 7
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1081,55 +1119,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
-    CON: 13 (+1) = 8 + 5
-    WIS: 20 (+5) = 8 + 12
-    INT: 15 (+2) = 8 + 7
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 21
-    Initiative: +0
+    AC: 22
+    Initiative: +1
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
     To Hit: Magic: +12
 
   HEALTH POOLS:
-    Vitality: 89 = 20d4 (2 x 20) + 19(flat) + 1 x 20(Con)
+    Vitality: 109 = 20d4 (2 x 20) + 19(flat) + 2 x 20(Con)
     Health:  89 = 20d6 (3 x 20) + 19(flat)
     Mana:   348 = 20d20 (10 x 20) + 5 x 20(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 28 (x4 mana)
-    Total Dmg/10R: 570
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 49 (x8 mana)
+    Total Dmg/10R: 990
+    Mana: 348 start, 188 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  65
-    Stat Points:   0
+    Skill Points:  69
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
     Feats:  6 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  8
+    Spells:  9
 
   PATHS:
     Magical -> Magician (Lvl 4)
     Magical -> Priest (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 7
+    Air            : 3
+    Cold           : -3
+    Earth          : 7
+    Fire           : 11
     Generic        : 2
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 7
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : 1
+    Radiant        : 11
+    Water          : 7
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1141,55 +1181,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
-    CON: 13 (+1) = 8 + 5
-    WIS: 20 (+5) = 8 + 12
-    INT: 15 (+2) = 8 + 7
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 21
-    Initiative: +0
+    AC: 22
+    Initiative: +1
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
     To Hit: Magic: +12
 
   HEALTH POOLS:
-    Vitality: 93 = 21d4 (2 x 21) + 20(flat) + 1 x 21(Con)
+    Vitality: 114 = 21d4 (2 x 21) + 20(flat) + 2 x 21(Con)
     Health:  93 = 21d6 (3 x 21) + 20(flat)
     Mana:   365 = 21d20 (10 x 21) + 5 x 21(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 28 (x4 mana)
-    Total Dmg/10R: 570
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 590
+    Mana: 365 start, 205 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   0
+    Skill Points:  71
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
     Feats:  6 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  8
+    Spells:  9
 
   PATHS:
     Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Priest (Lvl 4)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
+    Air            : 3
+    Cold           : -3
+    Earth          : 8
+    Fire           : 11
     Generic        : 2
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 7
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : 1
+    Radiant        : 12
+    Water          : 7
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1200,16 +1242,16 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR:  9 (-1) = 8 + 1
-    DEX: 11 (+0) = 8 + 3
+    STR: 10 (+0) = 8 + 2
+    DEX: 12 (+1) = 6 + 6
     CON: 14 (+2) = 8 + 6
-    WIS: 20 (+5) = 8 + 12
-    INT: 16 (+3) = 8 + 8
-    CHA: 10 (+0) = 8 + 2
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 21
-    Initiative: +0
+    AC: 22
+    Initiative: +1
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
@@ -1221,35 +1263,37 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Mana:   453 = 26d20 (10 x 26) + 5 x 26(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 28 (x4 mana)
-    Total Dmg/10R: 855
+    Attacks/Turn: 3
+    Magic Dmg/Cast: 29 (x8 mana)
+    Total Dmg/10R: 885
+    Mana: 453 start, 213 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  86
-    Stat Points:   2
+    Skill Points:  90
+    Stat Points:   10
     Affinity Pts:  0
     Stat Spent:    32
 
   FEATS & SPELLS:
     Feats:  8 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  10
+    Spells:  11
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 5)
+    Magical -> Priest (Lvl 4)
+    Racial -> Demon Sylphamare (Lvl 4)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 7
-    Fire           : 8
+    Air            : 6
+    Cold           : -3
+    Earth          : 9
+    Fire           : 12
     Generic        : 2
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 8
-    Water          : 7
+    Necrotic       : 6
+    Psychic        : 2
+    Radiant        : 14
+    Water          : 9
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1261,14 +1305,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR: 10 (+0) = 8 + 2
-    DEX: 12 (+1) = 8 + 4
+    DEX: 12 (+1) = 6 + 6
     CON: 14 (+2) = 8 + 6
-    WIS: 20 (+5) = 8 + 12
-    INT: 16 (+3) = 8 + 8
-    CHA: 10 (+0) = 8 + 2
+    WIS: 21 (+5) = 11 + 10
+    INT: 16 (+3) = 10 + 6
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 22
+    AC: 23
     Initiative: +1
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
@@ -1281,35 +1325,37 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Mana:   540 = 31d20 (10 x 31) + 5 x 31(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 28 (x4 mana)
-    Total Dmg/10R: 855
+    Attacks/Turn: 3
+    Magic Dmg/Cast: 60 (x8 mana)
+    Total Dmg/10R: 1800
+    Mana: 540 start, 300 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  100
-    Stat Points:   4
+    Skill Points:  104
+    Stat Points:   15
     Affinity Pts:  0
     Stat Spent:    34
 
   FEATS & SPELLS:
     Feats:  10 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  12
+    Spells:  13
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 6)
+    Magical -> Priest (Lvl 5)
+    Racial -> Demon Sylphamare (Lvl 5)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 9
-    Fire           : 9
+    Air            : 7
+    Cold           : -3
+    Earth          : 12
+    Fire           : 15
     Generic        : 2
-    Necrotic       : 4
+    Necrotic       : 7
     Psychic        : 4
-    Radiant        : 9
-    Water          : 9
+    Radiant        : 16
+    Water          : 12
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1321,14 +1367,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR: 10 (+0) = 8 + 2
-    DEX: 12 (+1) = 8 + 4
-    CON: 14 (+2) = 8 + 6
-    WIS: 21 (+5) = 8 + 13
-    INT: 16 (+3) = 8 + 8
+    DEX: 13 (+1) = 6 + 7
+    CON: 15 (+2) = 8 + 7
+    WIS: 21 (+5) = 11 + 10
+    INT: 17 (+3) = 10 + 7
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 22
+    AC: 23
     Initiative: +1
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
@@ -1341,35 +1387,37 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Mana:   715 = 41d20 (10 x 41) + 5 x 41(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 52 (x8 mana)
-    Total Dmg/10R: 2100
+    Attacks/Turn: 4
+    Magic Dmg/Cast: 67 (x8 mana)
+    Total Dmg/10R: 2700
+    Mana: 715 start, 395 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  136
-    Stat Points:   7
+    Skill Points:  140
+    Stat Points:   26
     Affinity Pts:  0
     Stat Spent:    37
 
   FEATS & SPELLS:
     Feats:  13 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  15
+    Spells:  16
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 7)
+    Magical -> Priest (Lvl 7)
+    Racial -> Demon Sylphamare (Lvl 7)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 11
-    Fire           : 11
+    Air            : 12
+    Cold           : -3
+    Earth          : 16
+    Fire           : 19
     Generic        : 2
-    Necrotic       : 5
-    Psychic        : 5
-    Radiant        : 9
-    Water          : 11
+    Necrotic       : 10
+    Psychic        : 7
+    Radiant        : 21
+    Water          : 16
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1380,56 +1428,58 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 10 (+0) = 8 + 2
-    DEX: 13 (+1) = 8 + 5
+    STR: 11 (+0) = 8 + 3
+    DEX: 13 (+1) = 6 + 7
     CON: 15 (+2) = 8 + 7
-    WIS: 21 (+5) = 8 + 13
-    INT: 17 (+3) = 8 + 9
+    WIS: 22 (+6) = 11 + 11
+    INT: 17 (+3) = 10 + 7
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 22
+    AC: 23
     Initiative: +1
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +22
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 279 = 51d4 (2 x 51) + 50(flat) + 2 x 51(Con)
     Health:  228 = 51d6 (3 x 51) + 50(flat)
-    Mana:   890 = 51d20 (10 x 51) + 5 x 51(Wis)
+    Mana:   941 = 51d20 (10 x 51) + 6 x 51(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 57 (x8 mana)
-    Total Dmg/10R: 2280
+    Attacks/Turn: 4
+    Magic Dmg/Cast: 75 (x8 mana)
+    Total Dmg/10R: 3000
+    Mana: 941 start, 621 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  167
-    Stat Points:   10
+    Skill Points:  171
+    Stat Points:   34
     Affinity Pts:  0
     Stat Spent:    40
 
   FEATS & SPELLS:
     Feats:  16 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  18
+    Spells:  19
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 9)
+    Magical -> Priest (Lvl 9)
+    Racial -> Demon Sylphamare (Lvl 8)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 13
-    Fire           : 14
+    Air            : 16
+    Cold           : -3
+    Earth          : 19
+    Fire           : 23
     Generic        : 2
-    Necrotic       : 6
-    Psychic        : 6
-    Radiant        : 10
-    Water          : 13
+    Necrotic       : 13
+    Psychic        : 10
+    Radiant        : 26
+    Water          : 19
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1441,55 +1491,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR: 11 (+0) = 8 + 3
-    DEX: 13 (+1) = 8 + 5
-    CON: 15 (+2) = 8 + 7
-    WIS: 22 (+6) = 8 + 14
-    INT: 17 (+3) = 8 + 9
+    DEX: 14 (+2) = 6 + 8
+    CON: 16 (+3) = 8 + 8
+    WIS: 22 (+6) = 11 + 11
+    INT: 18 (+4) = 10 + 8
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 22
-    Initiative: +1
+    AC: 25
+    Initiative: +2
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
     To Hit: Magic: +27
 
   HEALTH POOLS:
-    Vitality: 334 = 61d4 (2 x 61) + 60(flat) + 2 x 61(Con)
-    Health:  273 = 61d6 (3 x 61) + 60(flat)
+    Vitality: 415 = 61d4 (2 x 61) + 80(flat) + 3 x 61(Con)
+    Health:  283 = 61d6 (3 x 61) + 70(flat)
     Mana:   1126 = 61d20 (10 x 61) + 6 x 61(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 60 (x8 mana)
-    Total Dmg/10R: 3000
+    Attacks/Turn: 5
+    Magic Dmg/Cast: 82 (x8 mana)
+    Total Dmg/10R: 4125
+    Mana: 1126 start, 726 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  200
-    Stat Points:   14
+    Skill Points:  204
+    Stat Points:   48
     Affinity Pts:  0
     Stat Spent:    44
 
   FEATS & SPELLS:
     Feats:  20 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  22
+    Spells:  23
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 11)
+    Magical -> Priest (Lvl 10)
+    Racial -> Demon Sylphamare (Lvl 10)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 16
-    Fire           : 16
+    Air            : 21
+    Cold           : -3
+    Earth          : 26
+    Fire           : 29
     Generic        : 2
-    Necrotic       : 7
-    Psychic        : 7
-    Radiant        : 11
-    Water          : 15
+    Necrotic       : 17
+    Psychic        : 14
+    Radiant        : 31
+    Water          : 25
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1500,56 +1552,58 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 11 (+0) = 8 + 3
-    DEX: 14 (+2) = 8 + 6
+    STR: 12 (+1) = 8 + 4
+    DEX: 14 (+2) = 6 + 8
     CON: 16 (+3) = 8 + 8
-    WIS: 22 (+6) = 8 + 14
-    INT: 18 (+4) = 8 + 10
+    WIS: 23 (+6) = 11 + 12
+    INT: 18 (+4) = 10 + 8
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 23
+    AC: 25
     Initiative: +2
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +30
+    To Hit: Magic: +32
 
   HEALTH POOLS:
-    Vitality: 460 = 71d4 (2 x 71) + 70(flat) + 3 x 71(Con)
-    Health:  318 = 71d6 (3 x 71) + 70(flat)
+    Vitality: 480 = 71d4 (2 x 71) + 90(flat) + 3 x 71(Con)
+    Health:  328 = 71d6 (3 x 71) + 80(flat)
     Mana:   1311 = 71d20 (10 x 71) + 6 x 71(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 63 (x8 mana)
-    Total Dmg/10R: 3150
+    Attacks/Turn: 5
+    Magic Dmg/Cast: 87 (x8 mana)
+    Total Dmg/10R: 4350
+    Mana: 1311 start, 911 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  231
-    Stat Points:   17
+    Skill Points:  235
+    Stat Points:   51
     Affinity Pts:  0
     Stat Spent:    47
 
   FEATS & SPELLS:
     Feats:  23 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  25
+    Spells:  26
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 14)
+    Magical -> Priest (Lvl 12)
+    Racial -> Demon Sylphamare (Lvl 10)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 18
-    Fire           : 18
+    Air            : 24
+    Cold           : -3
+    Earth          : 28
+    Fire           : 31
     Generic        : 2
-    Necrotic       : 8
-    Psychic        : 8
-    Radiant        : 12
-    Water          : 18
+    Necrotic       : 18
+    Psychic        : 15
+    Radiant        : 34
+    Water          : 28
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1561,55 +1615,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR: 12 (+1) = 8 + 4
-    DEX: 14 (+2) = 8 + 6
-    CON: 16 (+3) = 8 + 8
-    WIS: 23 (+6) = 8 + 15
-    INT: 18 (+4) = 8 + 10
-    CHA: 12 (+1) = 8 + 4
+    DEX: 14 (+2) = 6 + 8
+    CON: 17 (+3) = 8 + 9
+    WIS: 23 (+6) = 11 + 12
+    INT: 19 (+4) = 10 + 9
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
-    AC: 23
+    AC: 25
     Initiative: +2
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Magic: +33
+    To Hit: Magic: +36
 
   HEALTH POOLS:
-    Vitality: 525 = 81d4 (2 x 81) + 80(flat) + 3 x 81(Con)
-    Health:  363 = 81d6 (3 x 81) + 80(flat)
+    Vitality: 545 = 81d4 (2 x 81) + 100(flat) + 3 x 81(Con)
+    Health:  373 = 81d6 (3 x 81) + 90(flat)
     Mana:   1496 = 81d20 (10 x 81) + 6 x 81(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 66 (x8 mana)
-    Total Dmg/10R: 3960
+    Attacks/Turn: 6
+    Magic Dmg/Cast: 93 (x8 mana)
+    Total Dmg/10R: 5580
+    Mana: 1496 start, 1016 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  267
-    Stat Points:   20
+    Skill Points:  271
+    Stat Points:   54
     Affinity Pts:  0
     Stat Spent:    50
 
   FEATS & SPELLS:
     Feats:  26 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  28
+    Spells:  29
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 17)
+    Magical -> Priest (Lvl 14)
+    Racial -> Demon Sylphamare (Lvl 10)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 20
-    Fire           : 20
+    Air            : 27
+    Cold           : -3
+    Earth          : 30
+    Fire           : 33
     Generic        : 2
-    Necrotic       : 9
-    Psychic        : 9
-    Radiant        : 13
-    Water          : 19
+    Necrotic       : 20
+    Psychic        : 17
+    Radiant        : 38
+    Water          : 30
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1620,56 +1676,58 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 8 + 5
+    DEX: 15 (+2) = 6 + 9
     CON: 17 (+3) = 8 + 9
-    WIS: 23 (+6) = 8 + 15
-    INT: 19 (+4) = 8 + 11
+    WIS: 24 (+7) = 11 + 13
+    INT: 19 (+4) = 10 + 9
     CHA: 13 (+1) = 8 + 5
 
   COMBAT:
-    AC: 23
+    AC: 25
     Initiative: +2
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +37
+    To Hit: Magic: +43
 
   HEALTH POOLS:
-    Vitality: 590 = 91d4 (2 x 91) + 90(flat) + 3 x 91(Con)
-    Health:  408 = 91d6 (3 x 91) + 90(flat)
-    Mana:   1681 = 91d20 (10 x 91) + 6 x 91(Wis)
+    Vitality: 610 = 91d4 (2 x 91) + 110(flat) + 3 x 91(Con)
+    Health:  418 = 91d6 (3 x 91) + 100(flat)
+    Mana:   1772 = 91d20 (10 x 91) + 7 x 91(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 70 (x8 mana)
-    Total Dmg/10R: 4935
+    Attacks/Turn: 7
+    Magic Dmg/Cast: 97 (x8 mana)
+    Total Dmg/10R: 6825
+    Mana: 1772 start, 1212 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  300
-    Stat Points:   24
+    Skill Points:  304
+    Stat Points:   57
     Affinity Pts:  0
     Stat Spent:    54
 
   FEATS & SPELLS:
-    Feats:  30 (taken: Toughness, Mana Flow, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  30 (taken: Toughness, Mana Flow, Armor Training, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  32
+    Spells:  33
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 21)
+    Magical -> Priest (Lvl 15)
+    Racial -> Demon Sylphamare (Lvl 10)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 22
-    Fire           : 23
+    Air            : 30
+    Cold           : -3
+    Earth          : 33
+    Fire           : 37
     Generic        : 2
-    Necrotic       : 10
-    Psychic        : 10
-    Radiant        : 14
-    Water          : 22
+    Necrotic       : 21
+    Psychic        : 18
+    Radiant        : 41
+    Water          : 33
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1681,55 +1739,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR: 13 (+1) = 8 + 5
-    DEX: 15 (+2) = 8 + 7
-    CON: 17 (+3) = 8 + 9
-    WIS: 24 (+7) = 8 + 16
-    INT: 19 (+4) = 8 + 11
-    CHA: 13 (+1) = 8 + 5
+    DEX: 15 (+2) = 6 + 9
+    CON: 18 (+4) = 8 + 10
+    WIS: 24 (+7) = 11 + 13
+    INT: 20 (+5) = 10 + 10
+    CHA: 14 (+2) = 8 + 6
 
   COMBAT:
-    AC: 23
+    AC: 25
     Initiative: +2
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +41
+    To Hit: Magic: +48
 
   HEALTH POOLS:
-    Vitality: 655 = 101d4 (2 x 101) + 100(flat) + 3 x 101(Con)
-    Health:  453 = 101d6 (3 x 101) + 100(flat)
+    Vitality: 776 = 101d4 (2 x 101) + 120(flat) + 4 x 101(Con)
+    Health:  463 = 101d6 (3 x 101) + 110(flat)
     Mana:   1967 = 101d20 (10 x 101) + 7 x 101(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 73 (x8 mana)
-    Total Dmg/10R: 5145
+    Attacks/Turn: 7
+    Magic Dmg/Cast: 205 (x16 mana)
+    Total Dmg/10R: 14385
+    Mana: 1967 start, 847 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  331
-    Stat Points:   26
+    Skill Points:  335
+    Stat Points:   60
     Affinity Pts:  0
     Stat Spent:    57
 
   FEATS & SPELLS:
     Feats:  33 (taken: Toughness, Mana Flow, Armor Training, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  35
+    Spells:  36
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 24)
+    Magical -> Priest (Lvl 17)
+    Racial -> Demon Sylphamare (Lvl 10)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 25
+    Air            : 32
+    Cold           : -3
+    Earth          : 36
+    Fire           : 39
     Generic        : 2
-    Necrotic       : 11
-    Psychic        : 11
-    Radiant        : 15
-    Water          : 23
+    Necrotic       : 23
+    Psychic        : 19
+    Radiant        : 44
+    Water          : 35
 
   GEAR:
     Weapon: dragonbone_wand
@@ -1741,55 +1801,57 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   STATS:
     STR: 35 (+12) = 8 + 27
-    DEX: 37 (+13) = 8 + 29
+    DEX: 37 (+13) = 6 + 31
     CON: 39 (+14) = 8 + 31
-    WIS: 45 (+17) = 8 + 37
-    INT: 41 (+15) = 8 + 33
-    CHA: 36 (+13) = 8 + 28
+    WIS: 46 (+18) = 11 + 35
+    INT: 41 (+15) = 10 + 31
+    CHA: 35 (+12) = 8 + 27
 
   COMBAT:
-    AC: 26
+    AC: 28
     Initiative: +13
     Speed: 30 ft
     AP: 101  BAP: 126  RP: 1
     Proficiency: +334
-    To Hit: Magic: +351
+    To Hit: Magic: +412
 
   HEALTH POOLS:
-    Vitality: 17516 = 1001d4 (2 x 1001) + 1000(flat) + 14 x 1001(Con)
-    Health:  4503 = 1001d6 (3 x 1001) + 1000(flat)
-    Mana:   29527 = 1001d20 (10 x 1001) + 17 x 1001(Wis)
+    Vitality: 17536 = 1001d4 (2 x 1001) + 1020(flat) + 14 x 1001(Con)
+    Health:  4513 = 1001d6 (3 x 1001) + 1010(flat)
+    Mana:   30528 = 1001d20 (10 x 1001) + 18 x 1001(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 0
-    Ranged Dmg/Turn: 0
-    Magic Dmg/Turn: 739 (x16 mana)
-    Total Dmg/10R: 473280
+    Attacks/Turn: 64
+    Magic Dmg/Cast: 823 (x16 mana)
+    Total Dmg/10R: 527040
+    Mana: 30528 start, 20288 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  3296
-    Stat Points:   325
+    Skill Points:  3300
+    Stat Points:   359
     Affinity Pts:  0
-    Stat Spent:    357
+    Stat Spent:    355
 
   FEATS & SPELLS:
     Feats:  333 (taken: Toughness, Mana Flow, Armor Training, Affinity Master (Points), Dodge Master, Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  335
+    Spells:  336
 
   PATHS:
-    Magical -> Magician (Lvl 4)
-    Magical -> Priest (Lvl 3)
+    Magical -> Magician (Lvl 244)
+    Magical -> Priest (Lvl 63)
+    Racial -> Demon Sylphamare (Lvl 10)
 
   AFFINITIES:
-    Air            : 222
-    Earth          : 222
-    Fire           : 222
-    Generic        : 2
-    Necrotic       : 97
-    Psychic        : 97
-    Radiant        : 101
-    Water          : 222
+    Air            : 244
+    Cold           : -3
+    Earth          : 247
+    Fire           : 250
+    Generic        : 62
+    Necrotic       : 122
+    Psychic        : 119
+    Radiant        : 189
+    Water          : 247
 
   GEAR:
     Weapon: dragonbone_wand

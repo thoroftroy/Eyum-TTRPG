@@ -138,6 +138,10 @@ class Character:
         self.overdrive_bonus = 0
         self.quick_spells = False
         self.twin_cast = False
+        self.is_unarmed = False
+        self.tull_tier = 0
+        self.melee_extra_info = None
+        self.pack_tactics = False
 
     def mod(self, stat):
         val = getattr(self, stat)
@@ -310,8 +314,77 @@ def apply_paths(char, target_level, build_config, settings):
                     remaining -= 1
                 achievements += count
 
+        remaining = share - achievements
+        # If this path has leftover STP and has repeatables configured, consume them
+        if remaining > 0 and repeatables:
+            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: float(k))
+            for key in repeat_keys:
+                max_count = repeatables.get(key, 0)
+                count = min(remaining, max_count)
+                for _ in range(count):
+                    apply_effects(char, arch_rule[key])
+                    remaining -= 1
+                achievements += count
+
         char.archetype_levels[(path_name, arch_name)] = achievements
         char.archetype_whole_levels[(path_name, arch_name)] = whole_levels
+
+    # After distributing all paths, collect leftover STP from capped paths and redistribute
+    # to path repeatables across the build
+    all_remaining = 0
+    path_repeat_data = []
+    for i, pconf in enumerate(path_list):
+        path_name = pconf['path']
+        arch_name = pconf['archetype']
+        desired_points = int(pconf['level'])
+        repeatables = pconf.get('repeatables', {})
+        share = points_per + (1 if i < remainder else 0)
+        achieved = char.archetype_levels.get((path_name, arch_name), 0)
+        path_remaining = share - achieved
+        if path_remaining > 0:
+            all_remaining += path_remaining
+        if repeatables:
+            arch_rule = paths_rules.get(path_name, {}).get('archetypes', {}).get(arch_name, {})
+            sorted_keys = sorted(arch_rule.keys(), key=lambda k: float(k))
+            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: float(k))
+            for key in repeat_keys:
+                max_count = repeatables.get(key, 0)
+                achieved_count = 0
+                # count how many of this key were already applied
+                path_repeat_data.append((path_name, arch_name, key, max_count, arch_rule[key], achieved_count))
+
+    if all_remaining > 0 and path_repeat_data:
+        # Sort repeatables by value: prefer direct damage/defense boosts over skill points
+        def repeat_score(item):
+            key = item[2]
+            effects = item[4]
+            score = 0
+            if 'melee_damage' in effects or 'ranged_damage' in effects:
+                score = 5
+            elif 'ac_bonus' in effects:
+                score = 4
+            elif 'flat_vit' in effects or 'flat_hp' in effects:
+                score = 3
+            elif 'magic_damage' in effects or 'magic_accuracy' in effects:
+                score = 3
+            elif 'skill_points' in effects or 'stat_point' in effects:
+                score = 2
+            elif 'affinity_points' in effects:
+                score = 1
+            return score
+
+        path_repeat_data.sort(key=repeat_score, reverse=True)
+        for path_name, arch_name, key, max_count, effects, achieved_count in path_repeat_data:
+            can_take = max_count - achieved_count
+            take = min(all_remaining, can_take)
+            if take > 0:
+                for _ in range(take):
+                    apply_effects(char, effects)
+                old_achieved = char.archetype_levels.get((path_name, arch_name), 0)
+                char.archetype_levels[(path_name, arch_name)] = old_achieved + take
+                all_remaining -= take
+            if all_remaining <= 0:
+                break
 
     # Apply archetype side effects (penalties)
     die_order = settings['rules']['die_upgrade_order']
@@ -331,6 +404,11 @@ def apply_paths(char, target_level, build_config, settings):
 def apply_effects(char, effects):
     if not effects:
         return
+    if 'stat' in effects:
+        for stat_name, bonus in effects['stat'].items():
+            if stat_name in ('str', 'dex', 'con', 'wis', 'int', 'cha'):
+                current = getattr(char, stat_name)
+                setattr(char, stat_name, current + bonus)
     if 'vit_die_type' in effects:
         char.vit_die = effects['vit_die_type']
     if 'hp_die_type' in effects:
@@ -382,6 +460,20 @@ def apply_effects(char, effects):
         char.stat_points += effects['stat_point']
     if 'feat_per_feat' in effects:
         char.feat_per_feat += effects['feat_per_feat']
+    if 'tier1_racial' in effects:
+        char.tull_tier = max(char.tull_tier, 1)
+    if 'tier_racial' in effects:
+        char.tull_tier = max(char.tull_tier, effects['tier_racial'])
+    if 'pack_tactics' in effects:
+        char.pack_tactics = True
+    if 'extra_attack_bap' in effects:
+        char.extra_attack_bap = True
+    if 'flat_vit' in effects:
+        char.flat_vit += effects['flat_vit']
+    if 'flat_hp' in effects:
+        char.flat_hp += effects['flat_hp']
+    if 'speed' in effects:
+        char.speed = max(getattr(char, 'speed', 30), effects['speed'])
 
 
 def apply_feat_effects(char, effects):
@@ -775,43 +867,49 @@ def select_spell(char, settings, max_mana=None):
 
 
 def calculate_damage(char, settings):
-    result = {'melee': 0, 'ranged': 0, 'magic': 0, 'mana_cost': 0, 'magic_dmg': 0}
+    result = {'melee': 0, 'ranged': 0, 'magic': 0, 'mana_cost': 0, 'magic_dmg': 0,
+              'melee_per_hit': 0, 'ranged_per_hit': 0, 'attacks_per_turn': 1}
 
     hit_chance_base = 0.75
     die_avg = settings['rules']['die_averages']
     weapons = settings.get('weapons', {})
-    weapon_info = weapons.get(char.gear.get('weapon', ''), {})
+    weapon_name = char.gear.get('weapon', '')
+    weapon_info = weapons.get(weapon_name, {})
     weapon_type = weapon_info.get('type', '')
     weapon_die = weapon_info.get('die')
-    base_weapon = die_avg.get(weapon_die, 4) if weapon_die else 4
-    damage_bonus = weapon_info.get('damage_bonus', 0)
-    extra_damage_die = weapon_info.get('extra_damage_die')
-    extra_damage = die_avg.get(extra_damage_die, 0) if extra_damage_die else 0
+
+    is_unarmed = char.is_unarmed or weapon_name == 'none' or weapon_name is None
+
+    if is_unarmed:
+        base_weapon = 0
+        damage_bonus = 0
+        extra_damage = 0
+        weapon_type = 'melee'
+    else:
+        base_weapon = die_avg.get(weapon_die, 0) if weapon_die else 0
+        damage_bonus = weapon_info.get('damage_bonus', 0)
+        extra_damage_die = weapon_info.get('extra_damage_die')
+        extra_damage = die_avg.get(extra_damage_die, 0) if extra_damage_die else 0
 
     accuracy_bonus = char.weapon_group_accuracy + char.steady_aim_accuracy
-    is_dual_wielding = weapon_type == 'melee' and char.dual_wield_accuracy > 0
-    if is_dual_wielding:
+    if weapon_type == 'melee' and char.dual_wield_accuracy > 0 and not is_unarmed:
         accuracy_bonus += char.dual_wield_accuracy
     hit_chance = min(0.95, hit_chance_base + accuracy_bonus * 0.05)
 
-    crit_avg = die_avg.get(char.crit_bonus_die, 0) if char.crit_bonus_die else 0
-    expected_crit = crit_avg * 0.05
+    atk_per_round = attacks_per_round(char)
 
     if char.has_physical:
-        melee_base = base_weapon if weapon_type == 'melee' else 4
-        melee_base += char.cleave_damage * 0.3
-        if char.charge_die:
-            melee_base += die_avg.get(char.charge_die, 0) * 0.3
-        if char.prone_die:
-            melee_base += die_avg.get(char.prone_die, 0) * 0.2
-        if char.execute_threshold > 0:
-            melee_base += (melee_base + char.melee_damage + char.mod('str')) * char.execute_threshold * 0.8
-        melee_dmg = melee_base + damage_bonus + extra_damage + char.melee_damage + char.mod('str') + expected_crit
-        result['melee'] = int(melee_dmg * hit_chance)
+        pack_mult = 1.25 if getattr(char, 'pack_tactics', False) else 1.0
 
-        ranged_base = base_weapon if weapon_type == 'ranged' else 4
-        ranged_dmg = ranged_base + damage_bonus + extra_damage + char.ranged_damage + char.mod('dex') + expected_crit
-        result['ranged'] = int(ranged_dmg * hit_chance)
+        melee_total_die = base_weapon + damage_bonus + extra_damage + char.melee_damage
+        melee_per_hit = (melee_total_die + char.mod('str')) * pack_mult
+        result['melee_per_hit'] = int(melee_per_hit * hit_chance)
+        result['melee'] = result['melee_per_hit'] * atk_per_round
+
+        ranged_total_die = base_weapon + damage_bonus + extra_damage + char.ranged_damage
+        ranged_per_hit = ranged_total_die + char.mod('dex')
+        result['ranged_per_hit'] = int(ranged_per_hit * hit_chance)
+        result['ranged'] = result['ranged_per_hit'] * atk_per_round
 
     if char.has_magical:
         spell_info, spell_dmg = select_spell(char, settings)
@@ -821,39 +919,46 @@ def calculate_damage(char, settings):
             result['mana_cost'] = spell_info['spell']['mana']
 
     result['per_turn'] = max(result['melee'], result['ranged'], result['magic'])
+    result['attacks_per_turn'] = atk_per_round
 
     return result
 
 
 def calculate_10_round_damage(char, r, dmg_per_turn, settings):
-    best_phys = max(dmg_per_turn['melee'], dmg_per_turn['ranged'])
-    magic = dmg_per_turn['magic']
+    atk_per_round = dmg_per_turn.get('attacks_per_turn', attacks_per_round(char))
+    best_phys_dmg = max(dmg_per_turn['melee'], dmg_per_turn['ranged'])
+    magic_dmg = dmg_per_turn['magic']
     mana_cost = dmg_per_turn['mana_cost']
 
-    atk_per_round = attacks_per_round(char)
-
-    if not (magic > best_phys and mana_cost > 0):
-        return 10 * atk_per_round * best_phys
+    if not (magic_dmg > best_phys_dmg and mana_cost > 0):
+        return {'total': 10 * best_phys_dmg,
+                'mana_start': 0, 'mana_end': 0,
+                'rounds_casting': 0,
+                'mana_per_round': 0}
 
     max_mana = char.mana_max(r)
     total = 0
     remaining_mana = max_mana
-    spells_data = {}
+    rounds_casting = 0
 
     for round_idx in range(10):
         spell_info, spell_dmg = select_spell(char, settings, max_mana=remaining_mana)
-        if spell_info and spell_dmg > best_phys:
+        if spell_info and spell_dmg > best_phys_dmg:
             cost = spell_info['spell']['mana']
-            casts = min(atk_per_round, remaining_mana // cost) if cost > 0 else atk_per_round
-            round_dmg = casts * spell_dmg
-            remaining_mana -= casts * cost
+            r_casts = min(atk_per_round, remaining_mana // cost) if cost > 0 else atk_per_round
+            round_dmg = r_casts * spell_dmg
+            remaining_mana -= r_casts * cost
+            if r_casts > 0:
+                rounds_casting += 1
         else:
-            round_dmg = atk_per_round * best_phys
-
+            round_dmg = atk_per_round * best_phys_dmg
         total += round_dmg
-        # Regenerate some mana between rounds (assume 0 for now - no passive regen)
 
-    return total
+    return {'total': int(total),
+            'mana_start': int(max_mana),
+            'mana_end': int(max(0, remaining_mana)),
+            'rounds_casting': rounds_casting,
+            'mana_per_round': int(mana_cost)}
 
 
 def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=None):
@@ -920,10 +1025,24 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=Non
     lines.append("")
 
     lines.append("  DAMAGE:")
-    lines.append("    Melee Dmg/Turn: " + str(dmg_perturn['melee']))
-    lines.append("    Ranged Dmg/Turn: " + str(dmg_perturn['ranged']))
-    lines.append("    Magic Dmg/Turn: " + str(dmg_perturn['magic']) + " (x" + str(dmg_perturn['mana_cost']) + " mana)")
-    lines.append("    Total Dmg/10R: " + str(int(dmg_10round)))
+    atk = dmg_perturn.get('attacks_per_turn', 1)
+    lines.append("    Attacks/Turn: " + str(atk))
+    melee_hit = dmg_perturn.get('melee_per_hit', 0)
+    ranged_hit = dmg_perturn.get('ranged_per_hit', 0)
+    if melee_hit > 0:
+        lines.append("    Melee Dmg/Hit: " + str(melee_hit) + " | Dmg/Turn: " + str(dmg_perturn['melee']))
+    if ranged_hit > 0:
+        lines.append("    Ranged Dmg/Hit: " + str(ranged_hit) + " | Dmg/Turn: " + str(dmg_perturn['ranged']))
+    mana_cost = dmg_perturn['mana_cost']
+    if mana_cost > 0:
+        lines.append("    Magic Dmg/Cast: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
+    lines.append("    Total Dmg/10R: " + str(int(dmg_10round['total'])))
+    if mana_cost > 0:
+        rounds_casting = dmg_10round.get('rounds_casting', 0)
+        mana_end = dmg_10round.get('mana_end', 0)
+        mana_start = dmg_10round.get('mana_start', 0)
+        lines.append("    Mana: " + str(mana_start) + " start, " + str(mana_end) + " after 10R" +
+                      " (cast magic " + str(rounds_casting) + "/10 rounds)")
     lines.append("")
 
     lines.append("  RESOURCES:")
@@ -965,7 +1084,14 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=Non
         weapon_info = weapons.get(char.gear.get('weapon', ''), {})
         armor_info = armor_types.get(char.gear.get('armor', ''), {})
         weapon_display = weapon_info.get('die') or ''
-        weapon_str = (char.gear.get('weapon', 'none') + (f" ({weapon_display} {weapon_info.get('damage_type', '')})" if weapon_display else '')) if char.gear.get('weapon') else 'none'
+        weapon_name = char.gear.get('weapon', 'none')
+        if weapon_name == 'none' or weapon_name is None:
+            if char.is_unarmed and char.melee_extra_info:
+                weapon_str = 'Unarmed (' + char.melee_extra_info + ')'
+            else:
+                weapon_str = 'Unarmed (1d4 Bludgeoning)'
+        else:
+            weapon_str = weapon_name + (f" ({weapon_display} {weapon_info.get('damage_type', '')})" if weapon_display else '')
         armor_str = char.gear.get('armor', 'none') + " (" + armor_info.get('label', '') + ")" if char.gear.get('armor') else 'none'
         lines.append("    Weapon: " + weapon_str)
         lines.append("    Armor: " + armor_str)
@@ -1034,8 +1160,133 @@ def resolve_gear(build_config, tier_config):
     }
 
 
+def select_best_race(build_config, races_data):
+    pickup = build_config.get('race', 'auto')
+    if pickup != 'auto':
+        for family_name, family in races_data.items():
+            for subrace_name, data in family.get('subraces', {}).items():
+                if subrace_name == pickup or family_name == pickup:
+                    return family_name, subrace_name
+        return None, None
+
+    stat_priority = build_config.get('stat_priority', ['str', 'dex', 'con', 'wis', 'int', 'cha'])
+    base_affinities = build_config.get('starting_affinities', {})
+    is_magical = build_config.get('has_magical', False)
+    primary_affinity = None
+    if is_magical and base_affinities:
+        sorted_affs = sorted(base_affinities.items(), key=lambda x: x[1], reverse=True)
+        for aff, val in sorted_affs:
+            if aff != 'Generic':
+                primary_affinity = aff
+                break
+
+    best_score = -9999
+    best_family = None
+    best_subrace = None
+
+    stat_weights = [10, 4, 2, 1, 0.5, 0.25]
+
+    for family_name, family in races_data.items():
+        for subrace_name, data in family.get('subraces', {}).items():
+            if data.get('evolution_only'):
+                continue
+
+            score = 0
+            bonuses = data.get('stat_bonuses', {})
+            for i, stat in enumerate(stat_priority):
+                if i >= len(stat_weights):
+                    break
+                bonus = bonuses.get(stat, 0)
+                score += bonus * stat_weights[i]
+
+            affinity_bonuses = data.get('affinity_bonuses', {})
+            for aff, val in affinity_bonuses.items():
+                if val > 0:
+                    if aff == 'Generic':
+                        score += 1
+                    elif is_magical and aff == primary_affinity:
+                        score += 10
+                    elif aff in base_affinities:
+                        score += 5
+                    else:
+                        score += 1
+                elif val < 0:
+                    if is_magical and aff == primary_affinity:
+                        score -= 15
+                    elif aff in base_affinities:
+                        score -= 5
+                    else:
+                        score -= 1
+
+            if score > best_score:
+                best_score = score
+                best_family = family_name
+                best_subrace = subrace_name
+
+    return best_family, best_subrace
+
+
+def build_racial_archetype(race_data, race_family):
+    archetype = {}
+    for tier_num in range(1, 11):
+        effects = {}
+        effects['stat_points'] = tier_num // 2 + 1
+        effects['affinity_points'] = tier_num
+        if tier_num == 1:
+            effects['tier1_racial'] = True
+            effects['skill_points'] = 2
+        elif tier_num == 3:
+            effects['skill_points'] = 2
+        elif tier_num == 5:
+            effects['ac_bonus'] = 1
+        elif tier_num == 7:
+            effects['speed'] = 5
+        elif tier_num == 10:
+            effects['ac_bonus'] = 1
+            effects['stat_points'] = 5
+            effects['flat_vit'] = 20
+            effects['flat_hp'] = 10
+        archetype[str(tier_num)] = effects
+    return archetype
+
+
+def build_race_data(settings):
+    races = settings.get('races', {})
+    paths_rules = settings.get('paths', {})
+    racial_path = paths_rules.get('Racial', {})
+    if 'archetypes' not in racial_path:
+        racial_path['archetypes'] = {}
+    for family_name, family in races.items():
+        for subrace_name, data in family.get('subraces', {}).items():
+            arch_name = f"{family_name} {subrace_name}"
+            if arch_name not in racial_path['archetypes']:
+                racial_path['archetypes'][arch_name] = build_racial_archetype(data, family_name)
+    return races
+
+
 def generate_build(build_name, build_config, settings, levels, gear_override=None, tier_label=None):
     results = []
+
+    # Build race data and ensure all racial archetypes exist
+    all_races = build_race_data(settings)
+
+    # Auto-select best race if set to "auto", otherwise use specified race
+    race_pickup = build_config.get('race', None)
+    if race_pickup:
+        family_name, subrace_name = select_best_race(build_config, all_races)
+        if family_name and subrace_name:
+            race_data = all_races[family_name]['subraces'][subrace_name]
+            arch_name = f"{family_name} {subrace_name}"
+            # Inject the Racial path into the build config
+            has_racial_path = any(p.get('path') == 'Racial' for p in build_config.get('paths', []))
+            if not has_racial_path:
+                build_config.setdefault('paths', []).append(
+                    {"path": "Racial", "archetype": arch_name, "level": 10, "repeatables": {}}
+                )
+            # Ensure the archetype exists in paths data
+            if arch_name not in settings['paths'].get('Racial', {}).get('archetypes', {}):
+                settings['paths']['Racial']['archetypes'][arch_name] = build_racial_archetype(race_data, family_name)
+
     for level in levels:
         stats = build_config['base_stats']
         char = Character(build_name, stats, settings)
@@ -1043,6 +1294,21 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         char.has_magical = build_config.get('has_magical', False)
         char.affinities = build_config.get('starting_affinities', {"Generic": 1}).copy()
         char.gear = gear_override if gear_override is not None else build_config.get('gear', {})
+        char.is_unarmed = build_config.get('unarmed_fighter', False) or char.gear.get('weapon', '') == 'none'
+        char.tull_tier = 0
+
+        # Apply race stat and affinity bonuses
+        if race_pickup and family_name and subrace_name:
+            race_data = all_races[family_name]['subraces'][subrace_name]
+            race_bonuses = race_data.get('stat_bonuses', {})
+            affinity_bonuses = race_data.get('affinity_bonuses', {})
+            for stat, bonus in race_bonuses.items():
+                if stat in ('str', 'dex', 'con', 'wis', 'int', 'cha'):
+                    current = getattr(char, stat)
+                    setattr(char, stat, current + bonus)
+                    setattr(char, 'starting_' + stat, getattr(char, 'starting_' + stat) + bonus)
+            for aff, val in affinity_bonuses.items():
+                char.affinities[aff] = char.affinities.get(aff, 0) + val
 
         apply_level_progression(char, level, settings)
 
@@ -1069,6 +1335,37 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
 
         apply_paths(char, level, build_config, settings)
 
+        # Apply Scholar ongoing bonuses retroactively
+        for (path, arch), lvl in char.archetype_levels.items():
+            if arch == 'Scholar':
+                if lvl >= 1:
+                    char.skill_points += max(0, level - 1)
+                if lvl >= 2:
+                    prof_gains = level // 3 + 1
+                    char.skill_points += prof_gains * 3
+                if lvl >= 3:
+                    expr_gains = level // 8
+                    char.skill_points += expr_gains * 5
+
+        # Apply Tull unarmed damage based on racial tier
+        if char.is_unarmed:
+            tull_tier = char.tull_tier
+            if tull_tier >= 9:
+                char.melee_damage += 16  # 1d20 + 1d12 avg = 10.5 + 6.5 = 17
+                char.melee_extra_info = "1d20 Slashing + 1d12 Bludgeoning (Tull Claws)"
+            elif tull_tier >= 5:
+                char.melee_damage += 10  # 1d10 + 1d8 avg = 5.5 + 4.5 = 10
+                char.melee_extra_info = "1d10 Slashing + 1d8 Bludgeoning (Tull Claws)"
+            elif tull_tier >= 1:
+                char.melee_damage += 5  # 1d6 + 1d4 avg = 3.5 + 2.5 = 6
+                char.melee_extra_info = "1d6 Slashing + 1d4 Bludgeoning (Tull Claws)"
+            else:
+                char.melee_damage += 2  # 1d4 Bludgeoning (fist)
+                char.melee_extra_info = "1d4 Bludgeoning (Fist)"
+
+            if tull_tier >= 3:
+                char.pack_tactics = True
+
         select_feats(char, level, settings)
 
         spend_affinity_points(char, settings)
@@ -1077,7 +1374,8 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         dmg_10round = calculate_10_round_damage(char, settings['rules'], dmg_perturn, settings)
 
         sheet = format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label)
-        results.append({'level': level, 'char': char, 'sheet': sheet, 'dmg_perturn': dmg_perturn, 'dmg_10round': dmg_10round})
+        results.append({'level': level, 'char': char, 'sheet': sheet, 'dmg_perturn': dmg_perturn, 'dmg_10round': dmg_10round,
+                        'race': f"{family_name} {subrace_name}" if race_pickup and family_name else 'none'})
     return results
 
 
@@ -1143,7 +1441,7 @@ def write_average(all_results, settings, output_path):
                         feat = c.feats
                         spell = c.starting_spells + c.spells_from_levels
                         dmg_t = d['per_turn']
-                        dmg_10 = res['dmg_10round']
+                        dmg_10 = res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round']
                         best_hit = max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic())
 
                         vitals.append(vit)
@@ -1243,7 +1541,7 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                             manas.append(c.mana_max(settings['rules']))
                             acs_vals.append(c.ac(c.gear.get('armor', 'none'), settings.get('armor_types', {}), settings['rules']['ac']['dex_bonus_table']))
                             dmg_t.append(res['dmg_perturn']['per_turn'])
-                            dmg_10.append(res['dmg_10round'])
+                            dmg_10.append(res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round'])
                             to_hits.append(max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic()))
                             break
                 
@@ -1277,7 +1575,7 @@ def get_best_per_build(results, level, r, armor_types, dex_table):
                 'Spells': c.starting_spells + c.spells_from_levels,
                 'To Hit': max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic()),
                 'Dmg/Turn': d['per_turn'],
-                'Dmg/10R': res['dmg_10round'],
+                'Dmg/10R': res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round'],
                 'char': c,
             }
     return None

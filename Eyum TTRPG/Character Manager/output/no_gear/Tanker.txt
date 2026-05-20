@@ -6,31 +6,30 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 10 (+0) = 8 + 2
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 12 (+1) = 7 + 5
+    CON: 20 (+5) = 13 + 7
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 10
-    Initiative: +0
+    AC: 11
+    Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +6 | Ranged: +1
+    To Hit: Melee: +6 | Ranged: +2
 
   HEALTH POOLS:
     Vitality: 21 = 2d10 (5 x 2) + 0(flat) + 5 x 2(Con)
     Health:  7 = 2d6 (3 x 2) + 0(flat)
-    Mana:   3 = 2d4 (2 x 2) + -1 x 2(Wis)
+    Mana:   5 = 2d4 (2 x 2) + 0 x 2(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 70
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
     Skill Points:  7
@@ -45,17 +44,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 1)
     Physical -> Duelist (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -63,31 +65,30 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 10 (+0) = 8 + 2
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 12 (+1) = 7 + 5
+    CON: 20 (+5) = 13 + 7
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 10
-    Initiative: +0
+    AC: 11
+    Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +7 | Ranged: +1
+    To Hit: Melee: +7 | Ranged: +2
 
   HEALTH POOLS:
     Vitality: 33 = 3d10 (5 x 3) + 2(flat) + 5 x 3(Con)
     Health:  11 = 3d6 (3 x 3) + 1(flat)
-    Mana:   4 = 3d4 (2 x 3) + -1 x 3(Wis)
+    Mana:   7 = 3d4 (2 x 3) + 0 x 3(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 70
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
     Skill Points:  9
@@ -102,17 +103,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -120,31 +124,30 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 11 (+0) = 8 + 3
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 18 (+4) = 9 + 9
+    DEX: 12 (+1) = 7 + 5
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 10
-    Initiative: +0
+    AC: 11
+    Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +8 | Ranged: +2
+    To Hit: Melee: +8 | Ranged: +3
 
   HEALTH POOLS:
     Vitality: 47 = 4d10 (5 x 4) + 5(flat) + 5 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
-    Mana:   6 = 4d4 (2 x 4) + -1 x 4(Wis)
+    Mana:   10 = 4d4 (2 x 4) + 0 x 4(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 70
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
     Skill Points:  13
@@ -160,19 +163,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -180,35 +184,34 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 11 (+0) = 8 + 3
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 18 (+4) = 9 + 9
+    DEX: 12 (+1) = 7 + 5
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 10
-    Initiative: +0
+    AC: 11
+    Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +8 | Ranged: +2
+    To Hit: Melee: +8 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 65 = 5d12 (6 x 5) + 8(flat) + 5 x 5(Con)
+    Vitality: 60 = 5d10 (5 x 5) + 8(flat) + 5 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   7 = 5d4 (2 x 5) + -1 x 5(Wis)
+    Mana:   12 = 5d4 (2 x 5) + 0 x 5(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 70
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
-    Skill Points:  15
-    Stat Points:   0
+    Skill Points:  17
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    25
 
@@ -218,21 +221,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
-    Fire           : 1
+    Air            : -2
+    Earth          : 4
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -240,35 +244,34 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 11 (+0) = 8 + 3
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 18 (+4) = 9 + 9
+    DEX: 12 (+1) = 7 + 5
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 10
-    Initiative: +0
+    AC: 11
+    Initiative: +1
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +8 | Ranged: +2
+    To Hit: Melee: +8 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 78 = 6d12 (6 x 6) + 9(flat) + 5 x 6(Con)
+    Vitality: 72 = 6d10 (5 x 6) + 9(flat) + 5 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   9 = 6d4 (2 x 6) + -1 x 6(Wis)
+    Mana:   15 = 6d4 (2 x 6) + 0 x 6(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 70
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
-    Skill Points:  17
-    Stat Points:   0
+    Skill Points:  19
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    25
 
@@ -278,21 +281,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
-    Fire           : 1
+    Air            : -2
+    Earth          : 4
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -300,10 +304,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 12 (+1) = 7 + 5
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -318,17 +322,16 @@ EYUM TTRPG - TANKER (NO GEAR)
   HEALTH POOLS:
     Vitality: 92 = 7d12 (6 x 7) + 12(flat) + 5 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   10 = 7d4 (2 x 7) + -1 x 7(Wis)
+    Mana:   17 = 7d4 (2 x 7) + 0 x 7(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 90
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
-    Skill Points:  21
-    Stat Points:   0
+    Skill Points:  23
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -339,20 +342,21 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   PATHS:
     Physical -> Indomitable (Lvl 2)
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : -2
+    Earth          : 5
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -360,10 +364,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 12 (+1) = 7 + 5
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -378,17 +382,16 @@ EYUM TTRPG - TANKER (NO GEAR)
   HEALTH POOLS:
     Vitality: 105 = 8d12 (6 x 8) + 13(flat) + 5 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   12 = 8d4 (2 x 8) + -1 x 8(Wis)
+    Mana:   20 = 8d4 (2 x 8) + 0 x 8(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 90
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 4 | Dmg/Turn: 4
+    Total Dmg/10R: 40
 
   RESOURCES:
-    Skill Points:  23
-    Stat Points:   0
+    Skill Points:  25
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -399,20 +402,21 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   PATHS:
     Physical -> Indomitable (Lvl 2)
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : -2
+    Earth          : 5
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -420,10 +424,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 12 (+1) = 7 + 5
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -437,18 +441,17 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   HEALTH POOLS:
     Vitality: 119 = 9d12 (6 x 9) + 16(flat) + 5 x 9(Con)
-    Health:  52 = 9d8 (4 x 9) + 12(flat)
-    Mana:   13 = 9d4 (2 x 9) + -1 x 9(Wis)
+    Health:  43 = 9d6 (3 x 9) + 12(flat)
+    Mana:   22 = 9d4 (2 x 9) + 0 x 9(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  30
-    Stat Points:   0
+    Skill Points:  32
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -458,21 +461,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
     Physical -> Duelist (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : -2
+    Earth          : 5
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -480,10 +484,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS:  9 (-1) = 8 + 1
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -497,18 +501,17 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   HEALTH POOLS:
     Vitality: 132 = 10d12 (6 x 10) + 17(flat) + 5 x 10(Con)
-    Health:  58 = 10d8 (4 x 10) + 13(flat)
-    Mana:   15 = 10d4 (2 x 10) + -1 x 10(Wis)
+    Health:  48 = 10d6 (3 x 10) + 13(flat)
+    Mana:   25 = 10d4 (2 x 10) + 0 x 10(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  34
-    Stat Points:   0
+    Skill Points:  36
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    27
 
@@ -518,21 +521,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
     Physical -> Duelist (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
+    Air            : -1
+    Earth          : 6
     Fire           : 3
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
+    Necrotic       : 5
+    Psychic        : -1
     Radiant        : 2
-    Water          : 2
+    Water          : 6
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -540,10 +544,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS:  9 (-1) = 8 + 1
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -557,18 +561,17 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   HEALTH POOLS:
     Vitality: 146 = 11d12 (6 x 11) + 20(flat) + 5 x 11(Con)
-    Health:  64 = 11d8 (4 x 11) + 15(flat)
-    Mana:   16 = 11d4 (2 x 11) + -1 x 11(Wis)
+    Health:  53 = 11d6 (3 x 11) + 15(flat)
+    Mana:   27 = 11d4 (2 x 11) + 0 x 11(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  36
-    Stat Points:   0
+    Skill Points:  38
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    27
 
@@ -578,21 +581,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
+    Air            : 0
+    Earth          : 6
     Fire           : 3
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 6
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -600,10 +604,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS:  9 (-1) = 8 + 1
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -617,18 +621,17 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   HEALTH POOLS:
     Vitality: 159 = 12d12 (6 x 12) + 21(flat) + 5 x 12(Con)
-    Health:  70 = 12d8 (4 x 12) + 16(flat)
-    Mana:   18 = 12d4 (2 x 12) + -1 x 12(Wis)
+    Health:  58 = 12d6 (3 x 12) + 16(flat)
+    Mana:   30 = 12d4 (2 x 12) + 0 x 12(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  38
-    Stat Points:   0
+    Skill Points:  40
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    27
 
@@ -638,21 +641,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
+    Air            : 0
+    Earth          : 6
     Fire           : 3
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 6
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -660,10 +664,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS: 10 (+0) = 8 + 2
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -681,14 +685,13 @@ EYUM TTRPG - TANKER (NO GEAR)
     Mana:   32 = 13d4 (2 x 13) + 0 x 13(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  42
-    Stat Points:   0
+    Skill Points:  44
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -699,20 +702,21 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   PATHS:
     Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 0
+    Earth          : 7
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
+    Necrotic       : 6
+    Psychic        : 0
     Radiant        : 3
-    Water          : 3
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -720,10 +724,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS: 10 (+0) = 8 + 2
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -741,14 +745,13 @@ EYUM TTRPG - TANKER (NO GEAR)
     Mana:   35 = 14d4 (2 x 14) + 0 x 14(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  44
-    Stat Points:   0
+    Skill Points:  46
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -759,20 +762,21 @@ EYUM TTRPG - TANKER (NO GEAR)
 
   PATHS:
     Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 0
+    Earth          : 7
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
+    Necrotic       : 6
+    Psychic        : 0
     Radiant        : 3
-    Water          : 3
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -780,10 +784,10 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS: 10 (+0) = 8 + 2
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -801,14 +805,13 @@ EYUM TTRPG - TANKER (NO GEAR)
     Mana:   37 = 15d4 (2 x 15) + 0 x 15(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  46
-    Stat Points:   0
+    Skill Points:  48
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -820,19 +823,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 3)
     Physical -> Duelist (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 0
+    Earth          : 7
+    Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
+    Necrotic       : 6
+    Psychic        : 0
     Radiant        : 3
-    Water          : 3
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -840,11 +844,11 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 8 + 11
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
@@ -861,14 +865,13 @@ EYUM TTRPG - TANKER (NO GEAR)
     Mana:   40 = 16d4 (2 x 16) + 0 x 16(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  50
-    Stat Points:   0
+    Skill Points:  52
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -880,19 +883,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 3)
     Physical -> Duelist (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 4
+    Air            : 1
+    Earth          : 7
     Fire           : 4
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 4
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -900,11 +904,11 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 8 + 11
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
@@ -921,14 +925,13 @@ EYUM TTRPG - TANKER (NO GEAR)
     Mana:   42 = 17d4 (2 x 17) + 0 x 17(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  57
-    Stat Points:   0
+    Skill Points:  61
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -940,19 +943,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 3)
     Physical -> Duelist (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
+    Air            : 1
+    Earth          : 7
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -960,11 +964,11 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 8 + 11
-    DEX: 12 (+1) = 8 + 4
-    CON: 20 (+5) = 8 + 12
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
@@ -981,14 +985,13 @@ EYUM TTRPG - TANKER (NO GEAR)
     Mana:   45 = 18d4 (2 x 18) + 0 x 18(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  59
-    Stat Points:   0
+    Skill Points:  63
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    29
 
@@ -1000,19 +1003,20 @@ EYUM TTRPG - TANKER (NO GEAR)
   PATHS:
     Physical -> Indomitable (Lvl 3)
     Physical -> Duelist (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
+    Air            : 1
+    Earth          : 7
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 7
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1020,12 +1024,12 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 21 (+5) = 8 + 13
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 11
@@ -1036,19 +1040,18 @@ EYUM TTRPG - TANKER (NO GEAR)
     To Hit: Melee: +13 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 254 = 19d12 (6 x 19) + 36(flat) + 5 x 19(Con)
+    Vitality: 330 = 19d20 (10 x 19) + 36(flat) + 5 x 19(Con)
     Health:  112 = 19d8 (4 x 19) + 27(flat)
     Mana:   47 = 19d4 (2 x 19) + 0 x 19(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  63
-    Stat Points:   1
+    Skill Points:  67
+    Stat Points:   6
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1058,21 +1061,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
     Physical -> Duelist (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 1
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 8
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1080,12 +1084,12 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 21 (+5) = 8 + 13
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 11
@@ -1096,19 +1100,18 @@ EYUM TTRPG - TANKER (NO GEAR)
     To Hit: Melee: +13 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 267 = 20d12 (6 x 20) + 37(flat) + 5 x 20(Con)
+    Vitality: 347 = 20d20 (10 x 20) + 37(flat) + 5 x 20(Con)
     Health:  118 = 20d8 (4 x 20) + 28(flat)
     Mana:   50 = 20d4 (2 x 20) + 0 x 20(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  65
-    Stat Points:   1
+    Skill Points:  69
+    Stat Points:   6
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1118,21 +1121,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
     Physical -> Duelist (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 1
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 8
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1140,12 +1144,12 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 12 (+1) = 8 + 4
-    CON: 21 (+5) = 8 + 13
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 21 (+5) = 13 + 8
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 11
@@ -1153,22 +1157,21 @@ EYUM TTRPG - TANKER (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +14 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 281 = 21d12 (6 x 21) + 40(flat) + 5 x 21(Con)
+    Vitality: 365 = 21d20 (10 x 21) + 40(flat) + 5 x 21(Con)
     Health:  124 = 21d8 (4 x 21) + 30(flat)
     Mana:   52 = 21d4 (2 x 21) + 0 x 21(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 180
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Total Dmg/10R: 120
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   1
+    Skill Points:  71
+    Stat Points:   6
     Affinity Pts:  0
     Stat Spent:    30
 
@@ -1178,21 +1181,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Physical -> Duelist (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 1
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 8
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1200,12 +1204,12 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 8 + 11
-    DEX: 13 (+1) = 8 + 5
-    CON: 21 (+5) = 8 + 13
-    WIS: 10 (+0) = 8 + 2
-    INT:  8 (-1) = 8 + 0
-    CHA:  8 (-1) = 8 + 0
+    STR: 19 (+4) = 9 + 10
+    DEX: 13 (+1) = 7 + 6
+    CON: 22 (+6) = 13 + 9
+    WIS: 11 (+0) = 8 + 3
+    INT:  9 (-1) = 8 + 1
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
     AC: 11
@@ -1213,22 +1217,21 @@ EYUM TTRPG - TANKER (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +15 | Ranged: +10
+    To Hit: Melee: +16 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 348 = 26d12 (6 x 26) + 49(flat) + 5 x 26(Con)
-    Health:  154 = 26d8 (4 x 26) + 37(flat)
+    Vitality: 478 = 26d20 (10 x 26) + 49(flat) + 6 x 26(Con)
+    Health:  180 = 26d10 (5 x 26) + 37(flat)
     Mana:   65 = 26d4 (2 x 26) + 0 x 26(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 270
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Total Dmg/10R: 180
 
   RESOURCES:
-    Skill Points:  86
-    Stat Points:   3
+    Skill Points:  90
+    Stat Points:   11
     Affinity Pts:  0
     Stat Spent:    32
 
@@ -1238,21 +1241,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 5)
+    Physical -> Duelist (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 4)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 5
+    Air            : 3
+    Earth          : 9
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 8
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 9
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1260,35 +1264,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 8 + 11
-    DEX: 13 (+1) = 8 + 5
-    CON: 21 (+5) = 8 + 13
+    STR: 20 (+5) = 9 + 11
+    DEX: 14 (+2) = 7 + 7
+    CON: 22 (+6) = 13 + 9
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
-    CHA:  8 (-1) = 8 + 0
+    CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 11
-    Initiative: +1
+    AC: 14
+    Initiative: +2
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Melee: +17 | Ranged: +12
+    To Hit: Melee: +20 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 416 = 31d12 (6 x 31) + 60(flat) + 5 x 31(Con)
-    Health:  184 = 31d8 (4 x 31) + 45(flat)
+    Vitality: 571 = 31d20 (10 x 31) + 60(flat) + 6 x 31(Con)
+    Health:  215 = 31d10 (5 x 31) + 45(flat)
     Mana:   77 = 31d4 (2 x 31) + 0 x 31(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 270
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 7 | Dmg/Turn: 21
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 3
+    Total Dmg/10R: 210
 
   RESOURCES:
-    Skill Points:  100
-    Stat Points:   5
+    Skill Points:  104
+    Stat Points:   16
     Affinity Pts:  0
     Stat Spent:    34
 
@@ -1298,21 +1302,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 6)
+    Physical -> Duelist (Lvl 5)
+    Racial -> Fishfolk Chelonar (Lvl 5)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 4
+    Earth          : 10
+    Fire           : 7
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 5
-    Water          : 5
+    Necrotic       : 10
+    Psychic        : 3
+    Radiant        : 7
+    Water          : 10
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1320,35 +1325,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 8 + 11
-    DEX: 13 (+1) = 8 + 5
-    CON: 22 (+6) = 8 + 14
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    STR: 20 (+5) = 9 + 11
+    DEX: 14 (+2) = 7 + 7
+    CON: 22 (+6) = 13 + 9
+    WIS: 12 (+1) = 8 + 4
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 11
-    Initiative: +1
+    AC: 15
+    Initiative: +2
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Melee: +20 | Ranged: +15
+    To Hit: Melee: +25 | Ranged: +16
 
   HEALTH POOLS:
-    Vitality: 592 = 41d12 (6 x 41) + 80(flat) + 6 x 41(Con)
-    Health:  244 = 41d8 (4 x 41) + 60(flat)
-    Mana:   102 = 41d4 (2 x 41) + 0 x 41(Wis)
+    Vitality: 756 = 41d20 (10 x 41) + 80(flat) + 6 x 41(Con)
+    Health:  285 = 41d10 (5 x 41) + 60(flat)
+    Mana:   143 = 41d4 (2 x 41) + 1 x 41(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 360
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 7 | Dmg/Turn: 28
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 4
+    Total Dmg/10R: 280
 
   RESOURCES:
-    Skill Points:  136
-    Stat Points:   8
+    Skill Points:  140
+    Stat Points:   27
     Affinity Pts:  0
     Stat Spent:    37
 
@@ -1358,21 +1363,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 7)
+    Physical -> Duelist (Lvl 7)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 6
+    Air            : 7
+    Earth          : 13
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : 5
-    Radiant        : 5
-    Water          : 6
+    Necrotic       : 12
+    Psychic        : 6
+    Radiant        : 9
+    Water          : 13
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1380,35 +1386,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 8 + 12
-    DEX: 14 (+2) = 8 + 6
-    CON: 22 (+6) = 8 + 14
+    STR: 20 (+5) = 9 + 11
+    DEX: 15 (+2) = 7 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 12 (+1) = 8 + 4
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    INT: 10 (+0) = 8 + 2
+    CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 12
+    AC: 17
     Initiative: +2
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Melee: +24 | Ranged: +19
+    To Hit: Melee: +30 | Ranged: +19
 
   HEALTH POOLS:
-    Vitality: 737 = 51d12 (6 x 51) + 100(flat) + 6 x 51(Con)
-    Health:  304 = 51d8 (4 x 51) + 75(flat)
+    Vitality: 941 = 51d20 (10 x 51) + 100(flat) + 6 x 51(Con)
+    Health:  355 = 51d10 (5 x 51) + 75(flat)
     Mana:   178 = 51d4 (2 x 51) + 1 x 51(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 400
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 7 | Dmg/Turn: 28
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 4
+    Total Dmg/10R: 280
 
   RESOURCES:
-    Skill Points:  167
-    Stat Points:   11
+    Skill Points:  171
+    Stat Points:   35
     Affinity Pts:  0
     Stat Spent:    40
 
@@ -1418,21 +1424,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 9)
+    Physical -> Duelist (Lvl 9)
+    Racial -> Fishfolk Chelonar (Lvl 8)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
+    Air            : 9
+    Earth          : 15
+    Fire           : 12
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 6
-    Radiant        : 6
-    Water          : 7
+    Necrotic       : 14
+    Psychic        : 8
+    Radiant        : 11
+    Water          : 15
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1440,35 +1447,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 8 + 12
-    DEX: 14 (+2) = 8 + 6
-    CON: 23 (+6) = 8 + 15
-    WIS: 12 (+1) = 8 + 4
-    INT: 10 (+0) = 8 + 2
+    STR: 21 (+5) = 9 + 12
+    DEX: 15 (+2) = 7 + 8
+    CON: 23 (+6) = 13 + 10
+    WIS: 13 (+1) = 8 + 5
+    INT: 11 (+0) = 8 + 3
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 12
+    AC: 19
     Initiative: +2
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Melee: +28 | Ranged: +23
+    To Hit: Melee: +35 | Ranged: +23
 
   HEALTH POOLS:
-    Vitality: 882 = 61d12 (6 x 61) + 120(flat) + 6 x 61(Con)
-    Health:  364 = 61d8 (4 x 61) + 90(flat)
+    Vitality: 1156 = 61d20 (10 x 61) + 150(flat) + 6 x 61(Con)
+    Health:  440 = 61d10 (5 x 61) + 105(flat)
     Mana:   213 = 61d4 (2 x 61) + 1 x 61(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 500
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 7 | Dmg/Turn: 35
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 5
+    Total Dmg/10R: 350
 
   RESOURCES:
-    Skill Points:  200
-    Stat Points:   15
+    Skill Points:  204
+    Stat Points:   49
     Affinity Pts:  0
     Stat Spent:    44
 
@@ -1478,21 +1485,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 11)
+    Physical -> Duelist (Lvl 10)
+    Racial -> Fishfolk Chelonar (Lvl 10)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 8
-    Fire           : 8
+    Air            : 12
+    Earth          : 19
+    Fire           : 16
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 7
-    Radiant        : 7
-    Water          : 8
+    Necrotic       : 18
+    Psychic        : 12
+    Radiant        : 15
+    Water          : 19
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1500,35 +1508,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 23 (+6) = 8 + 15
-    WIS: 12 (+1) = 8 + 4
-    INT: 10 (+0) = 8 + 2
-    CHA: 10 (+0) = 8 + 2
+    STR: 21 (+5) = 9 + 12
+    DEX: 15 (+2) = 7 + 8
+    CON: 24 (+7) = 13 + 11
+    WIS: 13 (+1) = 8 + 5
+    INT: 11 (+0) = 8 + 3
+    CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 12
+    AC: 19
     Initiative: +2
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Melee: +31 | Ranged: +26
+    To Hit: Melee: +40 | Ranged: +26
 
   HEALTH POOLS:
-    Vitality: 1027 = 71d12 (6 x 71) + 140(flat) + 6 x 71(Con)
-    Health:  424 = 71d8 (4 x 71) + 105(flat)
+    Vitality: 1422 = 71d20 (10 x 71) + 180(flat) + 7 x 71(Con)
+    Health:  515 = 71d10 (5 x 71) + 125(flat)
     Mana:   248 = 71d4 (2 x 71) + 1 x 71(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 500
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 9 | Dmg/Turn: 45
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 5
+    Total Dmg/10R: 450
 
   RESOURCES:
-    Skill Points:  231
-    Stat Points:   18
+    Skill Points:  235
+    Stat Points:   52
     Affinity Pts:  0
     Stat Spent:    47
 
@@ -1538,21 +1546,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 12)
+    Physical -> Duelist (Lvl 14)
+    Racial -> Fishfolk Chelonar (Lvl 10)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 9
-    Fire           : 9
+    Air            : 13
+    Earth          : 20
+    Fire           : 17
     Generic        : 1
-    Necrotic       : 8
-    Psychic        : 8
-    Radiant        : 8
-    Water          : 9
+    Necrotic       : 19
+    Psychic        : 13
+    Radiant        : 16
+    Water          : 19
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1560,35 +1569,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 8 + 13
-    DEX: 15 (+2) = 8 + 7
-    CON: 23 (+6) = 8 + 15
+    STR: 22 (+6) = 9 + 13
+    DEX: 16 (+3) = 7 + 9
+    CON: 24 (+7) = 13 + 11
     WIS: 13 (+1) = 8 + 5
     INT: 11 (+0) = 8 + 3
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 12
-    Initiative: +2
+    AC: 20
+    Initiative: +3
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Melee: +34 | Ranged: +29
+    To Hit: Melee: +45 | Ranged: +30
 
   HEALTH POOLS:
-    Vitality: 1172 = 81d12 (6 x 81) + 160(flat) + 6 x 81(Con)
-    Health:  484 = 81d8 (4 x 81) + 120(flat)
+    Vitality: 1637 = 81d20 (10 x 81) + 220(flat) + 7 x 81(Con)
+    Health:  595 = 81d10 (5 x 81) + 150(flat)
     Mana:   283 = 81d4 (2 x 81) + 1 x 81(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 10
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 600
+    Attacks/Turn: 6
+    Melee Dmg/Hit: 11 | Dmg/Turn: 66
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 12
+    Total Dmg/10R: 660
 
   RESOURCES:
-    Skill Points:  267
-    Stat Points:   21
+    Skill Points:  271
+    Stat Points:   55
     Affinity Pts:  0
     Stat Spent:    50
 
@@ -1598,21 +1607,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 14)
+    Physical -> Duelist (Lvl 17)
+    Racial -> Fishfolk Chelonar (Lvl 10)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 10
-    Fire           : 10
+    Air            : 14
+    Earth          : 20
+    Fire           : 18
     Generic        : 1
-    Necrotic       : 9
-    Psychic        : 9
-    Radiant        : 9
-    Water          : 9
+    Necrotic       : 20
+    Psychic        : 14
+    Radiant        : 17
+    Water          : 20
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1620,35 +1630,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 15 (+2) = 8 + 7
-    CON: 24 (+7) = 8 + 16
-    WIS: 13 (+1) = 8 + 5
-    INT: 11 (+0) = 8 + 3
-    CHA: 11 (+0) = 8 + 3
+    STR: 22 (+6) = 9 + 13
+    DEX: 17 (+3) = 7 + 10
+    CON: 24 (+7) = 13 + 11
+    WIS: 14 (+2) = 8 + 6
+    INT: 12 (+1) = 8 + 4
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 12
-    Initiative: +2
+    AC: 20
+    Initiative: +3
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Melee: +39 | Ranged: +33
+    To Hit: Melee: +49 | Ranged: +34
 
   HEALTH POOLS:
-    Vitality: 1408 = 91d12 (6 x 91) + 180(flat) + 7 x 91(Con)
-    Health:  544 = 91d8 (4 x 91) + 135(flat)
-    Mana:   318 = 91d4 (2 x 91) + 1 x 91(Wis)
+    Vitality: 1852 = 91d20 (10 x 91) + 260(flat) + 7 x 91(Con)
+    Health:  675 = 91d10 (5 x 91) + 175(flat)
+    Mana:   409 = 91d4 (2 x 91) + 2 x 91(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 770
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 13 | Dmg/Turn: 91
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 14
+    Total Dmg/10R: 910
 
   RESOURCES:
-    Skill Points:  300
-    Stat Points:   25
+    Skill Points:  304
+    Stat Points:   59
     Affinity Pts:  0
     Stat Spent:    54
 
@@ -1658,21 +1668,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 16)
+    Physical -> Duelist (Lvl 20)
+    Racial -> Fishfolk Chelonar (Lvl 10)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 11
-    Fire           : 11
+    Air            : 15
+    Earth          : 22
+    Fire           : 19
     Generic        : 1
-    Necrotic       : 10
-    Psychic        : 10
-    Radiant        : 10
-    Water          : 11
+    Necrotic       : 21
+    Psychic        : 15
+    Radiant        : 18
+    Water          : 21
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1680,35 +1691,35 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 22 (+6) = 8 + 14
-    DEX: 16 (+3) = 8 + 8
-    CON: 24 (+7) = 8 + 16
+    STR: 23 (+6) = 9 + 14
+    DEX: 16 (+3) = 7 + 9
+    CON: 25 (+7) = 13 + 12
     WIS: 14 (+2) = 8 + 6
     INT: 12 (+1) = 8 + 4
-    CHA: 11 (+0) = 8 + 3
+    CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 13
+    AC: 20
     Initiative: +3
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Melee: +42 | Ranged: +37
+    To Hit: Melee: +52 | Ranged: +37
 
   HEALTH POOLS:
-    Vitality: 1563 = 101d12 (6 x 101) + 200(flat) + 7 x 101(Con)
-    Health:  604 = 101d8 (4 x 101) + 150(flat)
+    Vitality: 2057 = 101d20 (10 x 101) + 290(flat) + 7 x 101(Con)
+    Health:  750 = 101d10 (5 x 101) + 195(flat)
     Mana:   454 = 101d4 (2 x 101) + 2 x 101(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 11
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 770
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 16 | Dmg/Turn: 112
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 14
+    Total Dmg/10R: 1120
 
   RESOURCES:
-    Skill Points:  331
-    Stat Points:   28
+    Skill Points:  335
+    Stat Points:   62
     Affinity Pts:  0
     Stat Spent:    57
 
@@ -1718,21 +1729,22 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 17)
+    Physical -> Duelist (Lvl 24)
+    Racial -> Fishfolk Chelonar (Lvl 10)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 12
-    Fire           : 12
+    Air            : 16
+    Earth          : 22
+    Fire           : 20
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 11
-    Radiant        : 11
-    Water          : 11
+    Necrotic       : 22
+    Psychic        : 16
+    Radiant        : 19
+    Water          : 22
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1740,37 +1752,37 @@ EYUM TTRPG - TANKER (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 44 (+17) = 8 + 36
-    DEX: 38 (+14) = 8 + 30
-    CON: 46 (+18) = 8 + 38
+    STR: 44 (+17) = 9 + 35
+    DEX: 38 (+14) = 7 + 31
+    CON: 47 (+18) = 13 + 34
     WIS: 36 (+13) = 8 + 28
     INT: 34 (+12) = 8 + 26
-    CHA: 33 (+11) = 8 + 25
+    CHA: 34 (+12) = 8 + 26
 
   COMBAT:
-    AC: 16
+    AC: 33
     Initiative: +14
     Speed: 30 ft
     AP: 101  BAP: 126  RP: 1
     Proficiency: +334
-    To Hit: Melee: +353 | Ranged: +348
+    To Hit: Melee: +383 | Ranged: +348
 
   HEALTH POOLS:
-    Vitality: 26524 = 1001d12 (6 x 1001) + 2000(flat) + 18 x 1001(Con)
-    Health:  6004 = 1001d8 (4 x 1001) + 1500(flat)
+    Vitality: 33068 = 1001d20 (10 x 1001) + 4540(flat) + 18 x 1001(Con)
+    Health:  8275 = 1001d10 (5 x 1001) + 2770(flat)
     Mana:   15515 = 1001d4 (2 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 19
-    Ranged Dmg/Turn: 13
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 12160
+    Attacks/Turn: 64
+    Melee Dmg/Hit: 39 | Dmg/Turn: 2496
+    Ranged Dmg/Hit: 10 | Dmg/Turn: 640
+    Total Dmg/10R: 24960
 
   RESOURCES:
-    Skill Points:  3296
-    Stat Points:   327
+    Skill Points:  3300
+    Stat Points:   361
     Affinity Pts:  0
-    Stat Spent:    355
+    Stat Spent:    357
 
   FEATS & SPELLS:
     Feats:  333 (taken: Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
@@ -1778,20 +1790,21 @@ EYUM TTRPG - TANKER (NO GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 272)
+    Physical -> Duelist (Lvl 63)
+    Racial -> Fishfolk Chelonar (Lvl 10)
 
   AFFINITIES:
-    Air            : 97
-    Earth          : 97
-    Fire           : 97
+    Air            : 102
+    Earth          : 108
+    Fire           : 105
     Generic        : 1
-    Necrotic       : 97
-    Psychic        : 97
-    Radiant        : 97
-    Water          : 97
+    Necrotic       : 108
+    Psychic        : 101
+    Radiant        : 105
+    Water          : 108
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 

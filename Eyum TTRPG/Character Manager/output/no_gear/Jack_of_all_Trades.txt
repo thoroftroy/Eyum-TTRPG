@@ -6,12 +6,12 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 14 (+2) = 13 + 1
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
     AC: 11
@@ -19,7 +19,7 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +4 | Ranged: +2 | Magic: +2
+    To Hit: Melee: +5 | Ranged: +2 | Magic: +2
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -27,10 +27,9 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Mana:   9 = 2d6 (3 x 2) + 1 x 2(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 0 (x0 mana)
-    Total Dmg/10R: 50
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Total Dmg/10R: 30
 
   RESOURCES:
     Skill Points:  9
@@ -40,23 +39,26 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 
   FEATS & SPELLS:
     Feats:  0
-    Spells:  2
+    Spells:  3
 
   PATHS:
     Physical -> Duelist (Lvl 1)
     Magical -> Jack (Lvl 0)
     Utility -> Scholar (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
-    Earth          : 1
+    Earth          : 4
     Fire           : 1
     Generic        : 2
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
     Water          : 1
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -64,12 +66,12 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 8 + 4
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 14 (+2) = 13 + 1
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
     AC: 11
@@ -77,7 +79,7 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +4 | Ranged: +2 | Magic: +2
+    To Hit: Melee: +5 | Ranged: +2 | Magic: +2
 
   HEALTH POOLS:
     Vitality: 18 = 3d8 (4 x 3) + 2(flat) + 1 x 3(Con)
@@ -85,10 +87,11 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Mana:   13 = 3d6 (3 x 3) + 1 x 3(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 50
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Magic Dmg/Cast: 4 (x2 mana)
+    Total Dmg/10R: 39
+    Mana: 13 start, 1 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  11
@@ -98,23 +101,26 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 
   FEATS & SPELLS:
     Feats:  0
-    Spells:  2
+    Spells:  3
 
   PATHS:
     Physical -> Duelist (Lvl 1)
     Magical -> Jack (Lvl 1)
     Utility -> Scholar (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 2
+    Earth          : 5
     Fire           : 3
     Generic        : 2
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -122,12 +128,12 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
     AC: 11
@@ -135,7 +141,7 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +5 | Ranged: +3 | Magic: +3
+    To Hit: Melee: +6 | Ranged: +3 | Magic: +3
 
   HEALTH POOLS:
     Vitality: 27 = 4d8 (4 x 4) + 5(flat) + 1 x 4(Con)
@@ -143,10 +149,11 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Mana:   18 = 4d6 (3 x 4) + 1 x 4(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 50
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Magic Dmg/Cast: 4 (x2 mana)
+    Total Dmg/10R: 43
+    Mana: 18 start, 0 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -157,25 +164,26 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
   FEATS & SPELLS:
     Feats:  1 (taken: Toughness)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  3
+    Spells:  4
 
   PATHS:
     Physical -> Duelist (Lvl 1)
     Magical -> Jack (Lvl 1)
     Utility -> Scholar (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 2
+    Earth          : 5
     Fire           : 3
     Generic        : 2
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -183,12 +191,12 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
     AC: 11
@@ -196,7 +204,7 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +5 | Ranged: +3 | Magic: +3
+    To Hit: Melee: +6 | Ranged: +3 | Magic: +3
 
   HEALTH POOLS:
     Vitality: 35 = 5d8 (4 x 5) + 8(flat) + 1 x 5(Con)
@@ -204,13 +212,14 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Mana:   22 = 5d6 (3 x 5) + 1 x 5(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 50
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Magic Dmg/Cast: 5 (x2 mana)
+    Total Dmg/10R: 52
+    Mana: 22 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  17
+    Skill Points:  20
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    25
@@ -218,25 +227,26 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
   FEATS & SPELLS:
     Feats:  1 (taken: Toughness)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  3
+    Spells:  4
 
   PATHS:
     Physical -> Duelist (Lvl 1)
     Magical -> Jack (Lvl 1)
     Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 3
+    Earth          : 6
     Fire           : 3
     Generic        : 2
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -244,12 +254,12 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 12 (+1) = 8 + 4
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
 
   COMBAT:
     AC: 11
@@ -257,7 +267,7 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +5 | Ranged: +3 | Magic: +3
+    To Hit: Melee: +6 | Ranged: +3 | Magic: +3
 
   HEALTH POOLS:
     Vitality: 42 = 6d8 (4 x 6) + 9(flat) + 1 x 6(Con)
@@ -265,13 +275,14 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Mana:   27 = 6d6 (3 x 6) + 1 x 6(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 5
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 50
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Magic Dmg/Cast: 5 (x2 mana)
+    Total Dmg/10R: 52
+    Mana: 27 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  19
+    Skill Points:  23
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    25
@@ -279,25 +290,26 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
   FEATS & SPELLS:
     Feats:  1 (taken: Toughness)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  3
+    Spells:  4
 
   PATHS:
     Physical -> Duelist (Lvl 1)
     Magical -> Jack (Lvl 1)
     Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 3
+    Earth          : 6
     Fire           : 3
     Generic        : 2
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
     Water          : 2
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -305,924 +317,9 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 1  BAP: 1  RP: 1
-    Proficiency: +3
-    To Hit: Melee: +6 | Ranged: +4 | Magic: +4
-
-  HEALTH POOLS:
-    Vitality: 50 = 7d8 (4 x 7) + 12(flat) + 1 x 7(Con)
-    Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   31 = 7d6 (3 x 7) + 1 x 7(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 70
-
-  RESOURCES:
-    Skill Points:  23
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    26
-
-  FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Armor Training)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  4
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 1)
-    Utility -> Scholar (Lvl 1)
-
-  AFFINITIES:
-    Air            : 2
-    Earth          : 4
-    Fire           : 4
-    Generic        : 2
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 7 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 1  BAP: 1  RP: 1
-    Proficiency: +3
-    To Hit: Melee: +6 | Ranged: +4 | Magic: +4
-
-  HEALTH POOLS:
-    Vitality: 57 = 8d8 (4 x 8) + 13(flat) + 1 x 8(Con)
-    Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   36 = 8d6 (3 x 8) + 1 x 8(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 70
-
-  RESOURCES:
-    Skill Points:  25
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    26
-
-  FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Armor Training)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  4
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 1)
-    Utility -> Scholar (Lvl 1)
-
-  AFFINITIES:
-    Air            : 2
-    Earth          : 4
-    Fire           : 4
-    Generic        : 2
-    Necrotic       : 1
-    Psychic        : 1
-    Radiant        : 1
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 8 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 12 (+1) = 8 + 4
-    CON: 12 (+1) = 8 + 4
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 1  BAP: 2  RP: 1
-    Proficiency: +3
-    To Hit: Melee: +6 | Ranged: +4 | Magic: +4
-
-  HEALTH POOLS:
-    Vitality: 65 = 9d8 (4 x 9) + 16(flat) + 1 x 9(Con)
-    Health:  43 = 9d6 (3 x 9) + 12(flat)
-    Mana:   40 = 9d6 (3 x 9) + 1 x 9(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 3 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  32
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    26
-
-  FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Armor Training)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  4
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 2)
-    Utility -> Scholar (Lvl 1)
-
-  AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
-    Generic        : 2
-    Necrotic       : 2
-    Psychic        : 3
-    Radiant        : 2
-    Water          : 3
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 9 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
+    STR: 15 (+2) = 13 + 2
     DEX: 13 (+1) = 8 + 5
-    CON: 12 (+1) = 8 + 4
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 1  BAP: 2  RP: 1
-    Proficiency: +4
-    To Hit: Melee: +7 | Ranged: +5 | Magic: +5
-
-  HEALTH POOLS:
-    Vitality: 72 = 10d8 (4 x 10) + 17(flat) + 1 x 10(Con)
-    Health:  48 = 10d6 (3 x 10) + 13(flat)
-    Mana:   45 = 10d6 (3 x 10) + 1 x 10(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 4 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  36
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    27
-
-  FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  5
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 2)
-    Utility -> Scholar (Lvl 1)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 5
-    Fire           : 5
-    Generic        : 2
-    Necrotic       : 3
-    Psychic        : 4
-    Radiant        : 3
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 10 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 12 (+1) = 8 + 4
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +4
-    To Hit: Melee: +7 | Ranged: +5 | Magic: +5
-
-  HEALTH POOLS:
-    Vitality: 80 = 11d8 (4 x 11) + 20(flat) + 1 x 11(Con)
-    Health:  53 = 11d6 (3 x 11) + 15(flat)
-    Mana:   49 = 11d6 (3 x 11) + 1 x 11(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 5 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  38
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    27
-
-  FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  5
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 2)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 5
-    Fire           : 6
-    Generic        : 2
-    Necrotic       : 3
-    Psychic        : 4
-    Radiant        : 3
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 11 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 12 (+1) = 8 + 4
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +4
-    To Hit: Melee: +7 | Ranged: +5 | Magic: +5
-
-  HEALTH POOLS:
-    Vitality: 87 = 12d8 (4 x 12) + 21(flat) + 1 x 12(Con)
-    Health:  58 = 12d6 (3 x 12) + 16(flat)
-    Mana:   54 = 12d6 (3 x 12) + 1 x 12(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 5 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  40
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    27
-
-  FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  5
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 2)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 4
-    Earth          : 5
-    Fire           : 6
-    Generic        : 2
-    Necrotic       : 3
-    Psychic        : 4
-    Radiant        : 3
-    Water          : 4
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 12 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
-    To Hit: Melee: +8 | Ranged: +6 | Magic: +6
-
-  HEALTH POOLS:
-    Vitality: 95 = 13d8 (4 x 13) + 24(flat) + 1 x 13(Con)
-    Health:  63 = 13d6 (3 x 13) + 18(flat)
-    Mana:   58 = 13d6 (3 x 13) + 1 x 13(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 5 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  44
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    28
-
-  FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  6
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 2)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 5
-    Earth          : 6
-    Fire           : 6
-    Generic        : 2
-    Necrotic       : 4
-    Psychic        : 5
-    Radiant        : 4
-    Water          : 5
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 13 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
-    To Hit: Melee: +8 | Ranged: +6 | Magic: +6
-
-  HEALTH POOLS:
-    Vitality: 102 = 14d8 (4 x 14) + 25(flat) + 1 x 14(Con)
-    Health:  68 = 14d6 (3 x 14) + 19(flat)
-    Mana:   63 = 14d6 (3 x 14) + 1 x 14(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 5 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  46
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    28
-
-  FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  6
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 2)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 5
-    Earth          : 6
-    Fire           : 6
-    Generic        : 2
-    Necrotic       : 4
-    Psychic        : 5
-    Radiant        : 4
-    Water          : 5
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 14 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +5
-    To Hit: Melee: +8 | Ranged: +6 | Magic: +6
-
-  HEALTH POOLS:
-    Vitality: 110 = 15d8 (4 x 15) + 28(flat) + 1 x 15(Con)
-    Health:  73 = 15d6 (3 x 15) + 21(flat)
-    Mana:   67 = 15d6 (3 x 15) + 1 x 15(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  48
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    28
-
-  FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  6
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 5
-    Earth          : 7
-    Fire           : 7
-    Generic        : 2
-    Necrotic       : 4
-    Psychic        : 5
-    Radiant        : 4
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 15 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
-    Proficiency: +6
-    To Hit: Melee: +9 | Ranged: +7 | Magic: +7
-
-  HEALTH POOLS:
-    Vitality: 117 = 16d8 (4 x 16) + 29(flat) + 1 x 16(Con)
-    Health:  78 = 16d6 (3 x 16) + 22(flat)
-    Mana:   72 = 16d6 (3 x 16) + 1 x 16(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  52
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    29
-
-  FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  7
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
-    Generic        : 2
-    Necrotic       : 4
-    Psychic        : 5
-    Radiant        : 5
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 16 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +6
-    To Hit: Melee: +9 | Ranged: +7 | Magic: +7
-
-  HEALTH POOLS:
-    Vitality: 125 = 17d8 (4 x 17) + 32(flat) + 1 x 17(Con)
-    Health:  83 = 17d6 (3 x 17) + 24(flat)
-    Mana:   76 = 17d6 (3 x 17) + 1 x 17(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  59
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    29
-
-  FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  7
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 7
-    Earth          : 7
-    Fire           : 7
-    Generic        : 2
-    Necrotic       : 4
-    Psychic        : 5
-    Radiant        : 5
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 17 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 12 (+1) = 8 + 4
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +6
-    To Hit: Melee: +9 | Ranged: +7 | Magic: +7
-
-  HEALTH POOLS:
-    Vitality: 132 = 18d8 (4 x 18) + 33(flat) + 1 x 18(Con)
-    Health:  88 = 18d6 (3 x 18) + 25(flat)
-    Mana:   81 = 18d6 (3 x 18) + 1 x 18(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  61
-    Stat Points:   0
-    Affinity Pts:  0
-    Stat Spent:    29
-
-  FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  7
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 7
-    Earth          : 7
-    Fire           : 7
-    Generic        : 2
-    Necrotic       : 4
-    Psychic        : 5
-    Radiant        : 5
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 18 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 13 (+1) = 8 + 5
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +7
-    To Hit: Melee: +10 | Ranged: +8 | Magic: +8
-
-  HEALTH POOLS:
-    Vitality: 140 = 19d8 (4 x 19) + 36(flat) + 1 x 19(Con)
-    Health:  93 = 19d6 (3 x 19) + 27(flat)
-    Mana:   85 = 19d6 (3 x 19) + 1 x 19(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  65
-    Stat Points:   1
-    Affinity Pts:  0
-    Stat Spent:    30
-
-  FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  8
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 7
-    Earth          : 7
-    Fire           : 8
-    Generic        : 2
-    Necrotic       : 5
-    Psychic        : 6
-    Radiant        : 5
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 19 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 13 (+1) = 8 + 5
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
-    Proficiency: +7
-    To Hit: Melee: +10 | Ranged: +8 | Magic: +8
-
-  HEALTH POOLS:
-    Vitality: 147 = 20d8 (4 x 20) + 37(flat) + 1 x 20(Con)
-    Health:  98 = 20d6 (3 x 20) + 28(flat)
-    Mana:   90 = 20d6 (3 x 20) + 1 x 20(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  67
-    Stat Points:   1
-    Affinity Pts:  0
-    Stat Spent:    30
-
-  FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  8
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 7
-    Earth          : 7
-    Fire           : 8
-    Generic        : 2
-    Necrotic       : 5
-    Psychic        : 6
-    Radiant        : 5
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 20 (No Gear)
-============================================================
-
-  STATS:
-    STR: 13 (+1) = 8 + 5
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
-    WIS: 13 (+1) = 8 + 5
-    INT: 13 (+1) = 8 + 5
-    CHA: 13 (+1) = 8 + 5
-
-  COMBAT:
-    AC: 11
-    Initiative: +1
-    Speed: 30 ft
-    AP: 3  BAP: 3  RP: 1
-    Proficiency: +7
-    To Hit: Melee: +10 | Ranged: +8 | Magic: +8
-
-  HEALTH POOLS:
-    Vitality: 155 = 21d8 (4 x 21) + 40(flat) + 1 x 21(Con)
-    Health:  103 = 21d6 (3 x 21) + 30(flat)
-    Mana:   94 = 21d6 (3 x 21) + 1 x 21(Wis)
-
-  DAMAGE:
-    Melee Dmg/Turn: 7
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 6 (x2 mana)
-    Total Dmg/10R: 140
-
-  RESOURCES:
-    Skill Points:  69
-    Stat Points:   1
-    Affinity Pts:  0
-    Stat Spent:    30
-
-  FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  8
-
-  PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
-
-  AFFINITIES:
-    Air            : 7
-    Earth          : 8
-    Fire           : 8
-    Generic        : 2
-    Necrotic       : 5
-    Psychic        : 6
-    Radiant        : 5
-    Water          : 7
-
-  GEAR:
-    Weapon: none
-    Armor: none (None)
-
-============================================================
-  Jack of all Trades - Level 25 (No Gear)
-============================================================
-
-  STATS:
-    STR: 14 (+2) = 8 + 6
-    DEX: 13 (+1) = 8 + 5
-    CON: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
     WIS: 14 (+2) = 8 + 6
     INT: 13 (+1) = 8 + 5
     CHA: 13 (+1) = 8 + 5
@@ -1231,59 +328,187 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     AC: 11
     Initiative: +1
     Speed: 30 ft
-    AP: 3  BAP: 4  RP: 1
-    Proficiency: +9
-    To Hit: Melee: +13 | Ranged: +10 | Magic: +11
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +7 | Ranged: +4 | Magic: +5
 
   HEALTH POOLS:
-    Vitality: 192 = 26d8 (4 x 26) + 49(flat) + 1 x 26(Con)
-    Health:  128 = 26d6 (3 x 26) + 37(flat)
-    Mana:   143 = 26d6 (3 x 26) + 2 x 26(Wis)
+    Vitality: 50 = 7d8 (4 x 7) + 12(flat) + 1 x 7(Con)
+    Health:  33 = 7d6 (3 x 7) + 9(flat)
+    Mana:   38 = 7d6 (3 x 7) + 2 x 7(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 8
-    Ranged Dmg/Turn: 3
-    Magic Dmg/Turn: 7 (x2 mana)
-    Total Dmg/10R: 240
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 78
+    Mana: 38 start, 0 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
-    Skill Points:  88
-    Stat Points:   3
+    Skill Points:  30
+    Stat Points:   1
     Affinity Pts:  0
-    Stat Spent:    32
+    Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  8 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  2 (taken: Toughness, Armor Training)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  10
+    Spells:  5
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Jack (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 9
-    Fire           : 9
+    Air            : 2
+    Earth          : 7
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 5
-    Psychic        : 6
-    Radiant        : 5
-    Water          : 9
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 4
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
-  Jack of all Trades - Level 30 (No Gear)
+  Jack of all Trades - Level 7 (No Gear)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 8 + 6
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 11
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +7 | Ranged: +4 | Magic: +5
+
+  HEALTH POOLS:
+    Vitality: 57 = 8d8 (4 x 8) + 13(flat) + 1 x 8(Con)
+    Health:  38 = 8d6 (3 x 8) + 10(flat)
+    Mana:   44 = 8d6 (3 x 8) + 2 x 8(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 3 | Dmg/Turn: 3
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 85
+    Mana: 44 start, 0 after 10R (cast magic 8/10 rounds)
+
+  RESOURCES:
+    Skill Points:  33
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Physical -> Duelist (Lvl 1)
+    Magical -> Jack (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 2
+    Earth          : 7
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 8 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 11
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +7 | Ranged: +4 | Magic: +5
+
+  HEALTH POOLS:
+    Vitality: 65 = 9d8 (4 x 9) + 16(flat) + 1 x 9(Con)
+    Health:  43 = 9d6 (3 x 9) + 12(flat)
+    Mana:   49 = 9d6 (3 x 9) + 2 x 9(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  41
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 4
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 9 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
     DEX: 14 (+2) = 8 + 6
-    CON: 14 (+2) = 8 + 6
+    CON: 13 (+1) = 10 + 3
     WIS: 14 (+2) = 8 + 6
     INT: 13 (+1) = 8 + 5
     CHA: 13 (+1) = 8 + 5
@@ -1292,59 +517,574 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     AC: 12
     Initiative: +2
     Speed: 30 ft
-    AP: 4  BAP: 4  RP: 1
-    Proficiency: +11
-    To Hit: Melee: +15 | Ranged: +13 | Magic: +13
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +8 | Ranged: +6 | Magic: +6
 
   HEALTH POOLS:
-    Vitality: 261 = 31d8 (4 x 31) + 60(flat) + 2 x 31(Con)
-    Health:  153 = 31d6 (3 x 31) + 45(flat)
-    Mana:   170 = 31d6 (3 x 31) + 2 x 31(Wis)
+    Vitality: 72 = 10d8 (4 x 10) + 17(flat) + 1 x 10(Con)
+    Health:  48 = 10d6 (3 x 10) + 13(flat)
+    Mana:   55 = 10d6 (3 x 10) + 2 x 10(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 8
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 24 (x8 mana)
-    Total Dmg/10R: 561
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  102
-    Stat Points:   5
+    Skill Points:  46
+    Stat Points:   1
     Affinity Pts:  0
-    Stat Spent:    34
+    Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  10 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  12
+    Spells:  6
 
   PATHS:
     Physical -> Duelist (Lvl 2)
-    Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Magical -> Jack (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 10
-    Fire           : 11
+    Air            : 4
+    Earth          : 8
+    Fire           : 5
     Generic        : 2
-    Necrotic       : 6
-    Psychic        : 7
-    Radiant        : 6
-    Water          : 10
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
-  Jack of all Trades - Level 40 (No Gear)
+  Jack of all Trades - Level 10 (No Gear)
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 8 + 7
+    STR: 15 (+2) = 13 + 2
     DEX: 14 (+2) = 8 + 6
-    CON: 14 (+2) = 8 + 6
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +8 | Ranged: +6 | Magic: +6
+
+  HEALTH POOLS:
+    Vitality: 80 = 11d8 (4 x 11) + 20(flat) + 1 x 11(Con)
+    Health:  53 = 11d6 (3 x 11) + 15(flat)
+    Mana:   60 = 11d6 (3 x 11) + 2 x 11(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  49
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 8
+    Fire           : 6
+    Generic        : 2
+    Necrotic       : 6
+    Psychic        : 1
+    Radiant        : 3
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 11 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +8 | Ranged: +6 | Magic: +6
+
+  HEALTH POOLS:
+    Vitality: 87 = 12d8 (4 x 12) + 21(flat) + 1 x 12(Con)
+    Health:  58 = 12d6 (3 x 12) + 16(flat)
+    Mana:   66 = 12d6 (3 x 12) + 2 x 12(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  52
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 8
+    Fire           : 6
+    Generic        : 2
+    Necrotic       : 6
+    Psychic        : 1
+    Radiant        : 3
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 12 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +9 | Ranged: +7 | Magic: +7
+
+  HEALTH POOLS:
+    Vitality: 108 = 13d8 (4 x 13) + 24(flat) + 2 x 13(Con)
+    Health:  63 = 13d6 (3 x 13) + 18(flat)
+    Mana:   71 = 13d6 (3 x 13) + 2 x 13(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  72
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 5
+    Earth          : 9
+    Fire           : 7
+    Generic        : 2
+    Necrotic       : 7
+    Psychic        : 2
+    Radiant        : 4
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 13 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +9 | Ranged: +7 | Magic: +7
+
+  HEALTH POOLS:
+    Vitality: 116 = 14d8 (4 x 14) + 25(flat) + 2 x 14(Con)
+    Health:  68 = 14d6 (3 x 14) + 19(flat)
+    Mana:   77 = 14d6 (3 x 14) + 2 x 14(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  75
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 5
+    Earth          : 9
+    Fire           : 7
+    Generic        : 2
+    Necrotic       : 7
+    Psychic        : 2
+    Radiant        : 4
+    Water          : 5
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 14 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +9 | Ranged: +7 | Magic: +7
+
+  HEALTH POOLS:
+    Vitality: 125 = 15d8 (4 x 15) + 28(flat) + 2 x 15(Con)
+    Health:  73 = 15d6 (3 x 15) + 21(flat)
+    Mana:   82 = 15d6 (3 x 15) + 2 x 15(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  78
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 5
+    Earth          : 10
+    Fire           : 7
+    Generic        : 2
+    Necrotic       : 7
+    Psychic        : 2
+    Radiant        : 4
+    Water          : 7
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 15 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +10 | Ranged: +8 | Magic: +8
+
+  HEALTH POOLS:
+    Vitality: 133 = 16d8 (4 x 16) + 29(flat) + 2 x 16(Con)
+    Health:  78 = 16d6 (3 x 16) + 22(flat)
+    Mana:   88 = 16d6 (3 x 16) + 2 x 16(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  86
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Physical -> Duelist (Lvl 2)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 6
+    Earth          : 10
+    Fire           : 7
+    Generic        : 2
+    Necrotic       : 7
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 7
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 16 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +10 | Ranged: +8 | Magic: +8
+
+  HEALTH POOLS:
+    Vitality: 142 = 17d8 (4 x 17) + 32(flat) + 2 x 17(Con)
+    Health:  83 = 17d6 (3 x 17) + 24(flat)
+    Mana:   93 = 17d6 (3 x 17) + 2 x 17(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  94
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 7
+    Earth          : 10
+    Fire           : 7
+    Generic        : 2
+    Necrotic       : 7
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 7
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 17 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +10 | Ranged: +8 | Magic: +8
+
+  HEALTH POOLS:
+    Vitality: 150 = 18d8 (4 x 18) + 33(flat) + 2 x 18(Con)
+    Health:  88 = 18d6 (3 x 18) + 25(flat)
+    Mana:   99 = 18d6 (3 x 18) + 2 x 18(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  97
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Magical -> Jack (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 7
+    Earth          : 10
+    Fire           : 7
+    Generic        : 2
+    Necrotic       : 7
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 7
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 18 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
     WIS: 14 (+2) = 8 + 6
     INT: 14 (+2) = 8 + 6
     CHA: 14 (+2) = 8 + 6
@@ -1353,59 +1093,190 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     AC: 12
     Initiative: +2
     Speed: 30 ft
-    AP: 5  BAP: 6  RP: 1
-    Proficiency: +14
-    To Hit: Melee: +18 | Ranged: +16 | Magic: +16
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +11 | Ranged: +9 | Magic: +9
 
   HEALTH POOLS:
-    Vitality: 346 = 41d8 (4 x 41) + 80(flat) + 2 x 41(Con)
-    Health:  203 = 41d6 (3 x 41) + 60(flat)
-    Mana:   225 = 41d6 (3 x 41) + 2 x 41(Wis)
+    Vitality: 159 = 19d8 (4 x 19) + 36(flat) + 2 x 19(Con)
+    Health:  93 = 19d6 (3 x 19) + 27(flat)
+    Mana:   104 = 19d6 (3 x 19) + 2 x 19(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 8
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 25 (x8 mana)
-    Total Dmg/10R: 810
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  138
-    Stat Points:   8
+    Skill Points:  105
+    Stat Points:   4
     Affinity Pts:  0
-    Stat Spent:    37
+    Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  13 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  15
+    Spells:  9
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 3)
     Magical -> Jack (Lvl 3)
     Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 12
-    Fire           : 12
+    Air            : 7
+    Earth          : 11
+    Fire           : 9
     Generic        : 2
-    Necrotic       : 7
-    Psychic        : 8
-    Radiant        : 7
-    Water          : 12
+    Necrotic       : 8
+    Psychic        : 3
+    Radiant        : 5
+    Water          : 8
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
-  Jack of all Trades - Level 50 (No Gear)
+  Jack of all Trades - Level 19 (No Gear)
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 8 + 7
-    DEX: 15 (+2) = 8 + 7
-    CON: 15 (+2) = 8 + 7
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +11 | Ranged: +9 | Magic: +9
+
+  HEALTH POOLS:
+    Vitality: 167 = 20d8 (4 x 20) + 37(flat) + 2 x 20(Con)
+    Health:  98 = 20d6 (3 x 20) + 28(flat)
+    Mana:   110 = 20d6 (3 x 20) + 2 x 20(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  108
+    Stat Points:   4
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  9
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Magical -> Jack (Lvl 3)
+    Utility -> Scholar (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 7
+    Earth          : 11
+    Fire           : 9
+    Generic        : 2
+    Necrotic       : 8
+    Psychic        : 3
+    Radiant        : 5
+    Water          : 8
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 20 (No Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 3  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +11 | Ranged: +9 | Magic: +9
+
+  HEALTH POOLS:
+    Vitality: 176 = 21d8 (4 x 21) + 40(flat) + 2 x 21(Con)
+    Health:  103 = 21d6 (3 x 21) + 30(flat)
+    Mana:   115 = 21d6 (3 x 21) + 2 x 21(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 5 | Dmg/Turn: 10
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 2
+    Magic Dmg/Cast: 10 (x6 mana)
+    Total Dmg/10R: 100
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  123
+    Stat Points:   5
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  9
+
+  PATHS:
+    Physical -> Duelist (Lvl 3)
+    Magical -> Jack (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 7
+    Earth          : 12
+    Fire           : 9
+    Generic        : 2
+    Necrotic       : 8
+    Psychic        : 3
+    Radiant        : 5
+    Water          : 8
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 25 (No Gear)
+============================================================
+
+  STATS:
+    STR: 16 (+3) = 13 + 3
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
     WIS: 15 (+2) = 8 + 7
     INT: 14 (+2) = 8 + 6
     CHA: 14 (+2) = 8 + 6
@@ -1414,49 +1285,244 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     AC: 12
     Initiative: +2
     Speed: 30 ft
-    AP: 6  BAP: 7  RP: 1
-    Proficiency: +17
-    To Hit: Melee: +21 | Ranged: +19 | Magic: +19
+    AP: 3  BAP: 4  RP: 1
+    Proficiency: +9
+    To Hit: Melee: +15 | Ranged: +11 | Magic: +11
 
   HEALTH POOLS:
-    Vitality: 431 = 51d8 (4 x 51) + 100(flat) + 2 x 51(Con)
-    Health:  253 = 51d6 (3 x 51) + 75(flat)
-    Mana:   280 = 51d6 (3 x 51) + 2 x 51(Wis)
+    Vitality: 218 = 26d8 (4 x 26) + 49(flat) + 2 x 26(Con)
+    Health:  128 = 26d6 (3 x 26) + 37(flat)
+    Mana:   143 = 26d6 (3 x 26) + 2 x 26(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 8
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 30 (x8 mana)
-    Total Dmg/10R: 1082
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 3
+    Magic Dmg/Cast: 27 (x8 mana)
+    Total Dmg/10R: 675
+    Mana: 143 start, 7 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
-    Skill Points:  169
-    Stat Points:   11
+    Skill Points:  160
+    Stat Points:   9
+    Affinity Pts:  0
+    Stat Spent:    32
+
+  FEATS & SPELLS:
+    Feats:  8 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  11
+
+  PATHS:
+    Physical -> Duelist (Lvl 4)
+    Magical -> Jack (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 9
+    Earth          : 13
+    Fire           : 10
+    Generic        : 2
+    Necrotic       : 9
+    Psychic        : 4
+    Radiant        : 6
+    Water          : 10
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 30 (No Gear)
+============================================================
+
+  STATS:
+    STR: 16 (+3) = 13 + 3
+    DEX: 15 (+2) = 8 + 7
+    CON: 15 (+2) = 10 + 5
+    WIS: 15 (+2) = 8 + 7
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 12
+    Initiative: +2
+    Speed: 30 ft
+    AP: 4  BAP: 4  RP: 1
+    Proficiency: +11
+    To Hit: Melee: +17 | Ranged: +13 | Magic: +13
+
+  HEALTH POOLS:
+    Vitality: 261 = 31d8 (4 x 31) + 60(flat) + 2 x 31(Con)
+    Health:  153 = 31d6 (3 x 31) + 45(flat)
+    Mana:   170 = 31d6 (3 x 31) + 2 x 31(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 3
+    Magic Dmg/Cast: 30 (x8 mana)
+    Total Dmg/10R: 792
+    Mana: 170 start, 2 after 10R (cast magic 7/10 rounds)
+
+  RESOURCES:
+    Skill Points:  187
+    Stat Points:   15
+    Affinity Pts:  0
+    Stat Spent:    34
+
+  FEATS & SPELLS:
+    Feats:  10 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  13
+
+  PATHS:
+    Physical -> Duelist (Lvl 5)
+    Magical -> Jack (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 4)
+
+  AFFINITIES:
+    Air            : 11
+    Earth          : 15
+    Fire           : 12
+    Generic        : 2
+    Necrotic       : 10
+    Psychic        : 5
+    Radiant        : 7
+    Water          : 12
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 40 (No Gear)
+============================================================
+
+  STATS:
+    STR: 17 (+3) = 13 + 4
+    DEX: 15 (+2) = 8 + 7
+    CON: 15 (+2) = 10 + 5
+    WIS: 15 (+2) = 8 + 7
+    INT: 15 (+2) = 8 + 7
+    CHA: 15 (+2) = 8 + 7
+
+  COMBAT:
+    AC: 13
+    Initiative: +2
+    Speed: 30 ft
+    AP: 5  BAP: 6  RP: 1
+    Proficiency: +14
+    To Hit: Melee: +22 | Ranged: +16 | Magic: +16
+
+  HEALTH POOLS:
+    Vitality: 346 = 41d8 (4 x 41) + 80(flat) + 2 x 41(Con)
+    Health:  203 = 41d6 (3 x 41) + 60(flat)
+    Mana:   225 = 41d6 (3 x 41) + 2 x 41(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 7 | Dmg/Turn: 28
+    Ranged Dmg/Hit: 1 | Dmg/Turn: 4
+    Magic Dmg/Cast: 33 (x8 mana)
+    Total Dmg/10R: 1260
+    Mana: 225 start, 1 after 10R (cast magic 7/10 rounds)
+
+  RESOURCES:
+    Skill Points:  254
+    Stat Points:   22
+    Affinity Pts:  0
+    Stat Spent:    37
+
+  FEATS & SPELLS:
+    Feats:  13 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  16
+
+  PATHS:
+    Physical -> Duelist (Lvl 8)
+    Magical -> Jack (Lvl 3)
+    Utility -> Scholar (Lvl 5)
+    Racial -> Therian Minotaur (Lvl 5)
+
+  AFFINITIES:
+    Air            : 14
+    Earth          : 17
+    Fire           : 15
+    Generic        : 2
+    Necrotic       : 12
+    Psychic        : 7
+    Radiant        : 9
+    Water          : 14
+
+  GEAR:
+    Weapon: Unarmed (1d4 Bludgeoning)
+    Armor: none (None)
+
+============================================================
+  Jack of all Trades - Level 50 (No Gear)
+============================================================
+
+  STATS:
+    STR: 17 (+3) = 13 + 4
+    DEX: 16 (+3) = 8 + 8
+    CON: 16 (+3) = 10 + 6
+    WIS: 16 (+3) = 8 + 8
+    INT: 15 (+2) = 8 + 7
+    CHA: 15 (+2) = 8 + 7
+
+  COMBAT:
+    AC: 14
+    Initiative: +3
+    Speed: 30 ft
+    AP: 6  BAP: 7  RP: 1
+    Proficiency: +17
+    To Hit: Melee: +26 | Ranged: +20 | Magic: +20
+
+  HEALTH POOLS:
+    Vitality: 482 = 51d8 (4 x 51) + 100(flat) + 3 x 51(Con)
+    Health:  253 = 51d6 (3 x 51) + 75(flat)
+    Mana:   331 = 51d6 (3 x 51) + 3 x 51(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 9 | Dmg/Turn: 36
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 8
+    Magic Dmg/Cast: 37 (x8 mana)
+    Total Dmg/10R: 1500
+    Mana: 331 start, 11 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  311
+    Stat Points:   30
     Affinity Pts:  0
     Stat Spent:    40
 
   FEATS & SPELLS:
     Feats:  16 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  18
+    Spells:  19
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 11)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 6)
+    Racial -> Therian Minotaur (Lvl 6)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 14
-    Fire           : 15
+    Air            : 17
+    Earth          : 20
+    Fire           : 18
     Generic        : 2
-    Necrotic       : 8
+    Necrotic       : 14
     Psychic        : 8
-    Radiant        : 8
-    Water          : 14
+    Radiant        : 11
+    Water          : 17
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1464,60 +1530,63 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 8 + 8
-    DEX: 15 (+2) = 8 + 7
-    CON: 15 (+2) = 8 + 7
-    WIS: 16 (+3) = 8 + 8
-    INT: 15 (+2) = 8 + 7
-    CHA: 15 (+2) = 8 + 7
+    STR: 18 (+4) = 13 + 5
+    DEX: 16 (+3) = 8 + 8
+    CON: 16 (+3) = 10 + 6
+    WIS: 17 (+3) = 8 + 9
+    INT: 16 (+3) = 8 + 8
+    CHA: 16 (+3) = 8 + 8
 
   COMBAT:
-    AC: 12
-    Initiative: +2
+    AC: 14
+    Initiative: +3
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Melee: +26 | Ranged: +23 | Magic: +24
+    To Hit: Melee: +32 | Ranged: +24 | Magic: +24
 
   HEALTH POOLS:
-    Vitality: 516 = 61d8 (4 x 61) + 120(flat) + 2 x 61(Con)
+    Vitality: 577 = 61d8 (4 x 61) + 120(flat) + 3 x 61(Con)
     Health:  303 = 61d6 (3 x 61) + 90(flat)
     Mana:   396 = 61d6 (3 x 61) + 3 x 61(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 4
-    Magic Dmg/Turn: 33 (x8 mana)
-    Total Dmg/10R: 1617
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 10 | Dmg/Turn: 50
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 10
+    Magic Dmg/Cast: 43 (x8 mana)
+    Total Dmg/10R: 500
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  202
-    Stat Points:   15
+    Skill Points:  375
+    Stat Points:   40
     Affinity Pts:  0
     Stat Spent:    44
 
   FEATS & SPELLS:
     Feats:  20 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  22
+    Spells:  23
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 13)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 8)
+    Racial -> Therian Minotaur (Lvl 7)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 17
-    Fire           : 17
+    Air            : 20
+    Earth          : 24
+    Fire           : 21
     Generic        : 2
-    Necrotic       : 9
-    Psychic        : 10
-    Radiant        : 9
-    Water          : 16
+    Necrotic       : 16
+    Psychic        : 11
+    Radiant        : 13
+    Water          : 20
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1525,20 +1594,20 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 8 + 8
-    DEX: 16 (+3) = 8 + 8
-    CON: 16 (+3) = 8 + 8
-    WIS: 16 (+3) = 8 + 8
-    INT: 16 (+3) = 8 + 8
-    CHA: 15 (+2) = 8 + 7
+    STR: 18 (+4) = 13 + 5
+    DEX: 17 (+3) = 8 + 9
+    CON: 17 (+3) = 10 + 7
+    WIS: 17 (+3) = 8 + 9
+    INT: 17 (+3) = 8 + 9
+    CHA: 16 (+3) = 8 + 8
 
   COMBAT:
-    AC: 13
+    AC: 14
     Initiative: +3
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Melee: +29 | Ranged: +27 | Magic: +27
+    To Hit: Melee: +36 | Ranged: +27 | Magic: +27
 
   HEALTH POOLS:
     Vitality: 672 = 71d8 (4 x 71) + 140(flat) + 3 x 71(Con)
@@ -1546,39 +1615,42 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
     Mana:   461 = 71d6 (3 x 71) + 3 x 71(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 36 (x8 mana)
-    Total Dmg/10R: 1800
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 11 | Dmg/Turn: 55
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 10
+    Magic Dmg/Cast: 51 (x8 mana)
+    Total Dmg/10R: 550
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  233
-    Stat Points:   18
+    Skill Points:  432
+    Stat Points:   54
     Affinity Pts:  0
     Stat Spent:    47
 
   FEATS & SPELLS:
     Feats:  23 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  25
+    Spells:  26
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 15)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 9)
+    Racial -> Therian Minotaur (Lvl 9)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 19
-    Fire           : 19
+    Air            : 24
+    Earth          : 29
+    Fire           : 26
     Generic        : 2
-    Necrotic       : 10
-    Psychic        : 10
-    Radiant        : 10
-    Water          : 19
+    Necrotic       : 19
+    Psychic        : 14
+    Radiant        : 16
+    Water          : 25
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1586,60 +1658,63 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 17 (+3) = 8 + 9
-    DEX: 16 (+3) = 8 + 8
-    CON: 16 (+3) = 8 + 8
-    WIS: 17 (+3) = 8 + 9
-    INT: 16 (+3) = 8 + 8
-    CHA: 16 (+3) = 8 + 8
+    STR: 19 (+4) = 13 + 6
+    DEX: 17 (+3) = 8 + 9
+    CON: 17 (+3) = 10 + 7
+    WIS: 18 (+4) = 8 + 10
+    INT: 17 (+3) = 8 + 9
+    CHA: 17 (+3) = 8 + 9
 
   COMBAT:
-    AC: 13
+    AC: 15
     Initiative: +3
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Melee: +32 | Ranged: +30 | Magic: +30
+    To Hit: Melee: +41 | Ranged: +30 | Magic: +31
 
   HEALTH POOLS:
-    Vitality: 767 = 81d8 (4 x 81) + 160(flat) + 3 x 81(Con)
-    Health:  403 = 81d6 (3 x 81) + 120(flat)
-    Mana:   526 = 81d6 (3 x 81) + 3 x 81(Wis)
+    Vitality: 787 = 81d8 (4 x 81) + 180(flat) + 3 x 81(Con)
+    Health:  413 = 81d6 (3 x 81) + 130(flat)
+    Mana:   607 = 81d6 (3 x 81) + 4 x 81(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 39 (x8 mana)
-    Total Dmg/10R: 2340
+    Attacks/Turn: 6
+    Melee Dmg/Hit: 12 | Dmg/Turn: 72
+    Ranged Dmg/Hit: 2 | Dmg/Turn: 12
+    Magic Dmg/Cast: 55 (x8 mana)
+    Total Dmg/10R: 720
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  269
-    Stat Points:   21
+    Skill Points:  499
+    Stat Points:   63
     Affinity Pts:  0
     Stat Spent:    50
 
   FEATS & SPELLS:
     Feats:  26 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  28
+    Spells:  29
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 18)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 10)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 21
-    Fire           : 21
+    Air            : 29
+    Earth          : 32
+    Fire           : 29
     Generic        : 2
-    Necrotic       : 10
-    Psychic        : 11
-    Radiant        : 11
-    Water          : 21
+    Necrotic       : 21
+    Psychic        : 16
+    Radiant        : 18
+    Water          : 29
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1647,60 +1722,63 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 17 (+3) = 8 + 9
-    DEX: 17 (+3) = 8 + 9
-    CON: 17 (+3) = 8 + 9
-    WIS: 17 (+3) = 8 + 9
-    INT: 17 (+3) = 8 + 9
-    CHA: 17 (+3) = 8 + 9
+    STR: 19 (+4) = 13 + 6
+    DEX: 18 (+4) = 8 + 10
+    CON: 18 (+4) = 10 + 8
+    WIS: 18 (+4) = 8 + 10
+    INT: 18 (+4) = 8 + 10
+    CHA: 18 (+4) = 8 + 10
 
   COMBAT:
-    AC: 13
-    Initiative: +3
+    AC: 15
+    Initiative: +4
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Melee: +36 | Ranged: +34 | Magic: +34
+    To Hit: Melee: +46 | Ranged: +35 | Magic: +35
 
   HEALTH POOLS:
-    Vitality: 862 = 91d8 (4 x 91) + 180(flat) + 3 x 91(Con)
-    Health:  453 = 91d6 (3 x 91) + 135(flat)
-    Mana:   591 = 91d6 (3 x 91) + 3 x 91(Wis)
+    Vitality: 973 = 91d8 (4 x 91) + 200(flat) + 4 x 91(Con)
+    Health:  463 = 91d6 (3 x 91) + 145(flat)
+    Mana:   682 = 91d6 (3 x 91) + 4 x 91(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 5
-    Magic Dmg/Turn: 43 (x8 mana)
-    Total Dmg/10R: 3045
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 14 | Dmg/Turn: 98
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 21
+    Magic Dmg/Cast: 58 (x8 mana)
+    Total Dmg/10R: 980
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  302
-    Stat Points:   25
+    Skill Points:  561
+    Stat Points:   68
     Affinity Pts:  0
     Stat Spent:    54
 
   FEATS & SPELLS:
     Feats:  30 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  32
+    Spells:  33
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 22)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 11)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 23
-    Fire           : 24
+    Air            : 31
+    Earth          : 34
+    Fire           : 32
     Generic        : 2
-    Necrotic       : 12
-    Psychic        : 12
-    Radiant        : 12
-    Water          : 23
+    Necrotic       : 22
+    Psychic        : 17
+    Radiant        : 20
+    Water          : 31
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1708,60 +1786,63 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 8 + 10
-    DEX: 18 (+4) = 8 + 10
-    CON: 17 (+3) = 8 + 9
-    WIS: 18 (+4) = 8 + 10
-    INT: 17 (+3) = 8 + 9
-    CHA: 17 (+3) = 8 + 9
+    STR: 20 (+5) = 13 + 7
+    DEX: 19 (+4) = 8 + 11
+    CON: 18 (+4) = 10 + 8
+    WIS: 19 (+4) = 8 + 11
+    INT: 18 (+4) = 8 + 10
+    CHA: 18 (+4) = 8 + 10
 
   COMBAT:
-    AC: 13
+    AC: 15
     Initiative: +4
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Melee: +40 | Ranged: +38 | Magic: +38
+    To Hit: Melee: +51 | Ranged: +38 | Magic: +38
 
   HEALTH POOLS:
-    Vitality: 957 = 101d8 (4 x 101) + 200(flat) + 3 x 101(Con)
-    Health:  503 = 101d6 (3 x 101) + 150(flat)
+    Vitality: 1078 = 101d8 (4 x 101) + 220(flat) + 4 x 101(Con)
+    Health:  513 = 101d6 (3 x 101) + 160(flat)
     Mana:   757 = 101d6 (3 x 101) + 4 x 101(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 9
-    Ranged Dmg/Turn: 6
-    Magic Dmg/Turn: 46 (x8 mana)
-    Total Dmg/10R: 3255
+    Attacks/Turn: 7
+    Melee Dmg/Hit: 15 | Dmg/Turn: 105
+    Ranged Dmg/Hit: 3 | Dmg/Turn: 21
+    Magic Dmg/Cast: 63 (x8 mana)
+    Total Dmg/10R: 1050
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  333
-    Stat Points:   28
+    Skill Points:  624
+    Stat Points:   75
     Affinity Pts:  0
     Stat Spent:    57
 
   FEATS & SPELLS:
     Feats:  33 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  35
+    Spells:  36
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 23)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 15)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 26
-    Fire           : 26
+    Air            : 33
+    Earth          : 37
+    Fire           : 34
     Generic        : 2
-    Necrotic       : 12
-    Psychic        : 13
-    Radiant        : 13
-    Water          : 25
+    Necrotic       : 23
+    Psychic        : 18
+    Radiant        : 20
+    Water          : 33
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
 ============================================================
@@ -1769,59 +1850,62 @@ EYUM TTRPG - JACK OF ALL TRADES (NO GEAR)
 ============================================================
 
   STATS:
-    STR: 40 (+15) = 8 + 32
+    STR: 41 (+15) = 13 + 28
     DEX: 39 (+14) = 8 + 31
-    CON: 39 (+14) = 8 + 31
-    WIS: 39 (+14) = 8 + 31
+    CON: 39 (+14) = 10 + 29
+    WIS: 40 (+15) = 8 + 32
     INT: 39 (+14) = 8 + 31
     CHA: 39 (+14) = 8 + 31
 
   COMBAT:
-    AC: 16
+    AC: 18
     Initiative: +14
     Speed: 30 ft
     AP: 101  BAP: 126  RP: 1
     Proficiency: +334
-    To Hit: Melee: +351 | Ranged: +348 | Magic: +348
+    To Hit: Melee: +381 | Ranged: +348 | Magic: +349
 
   HEALTH POOLS:
-    Vitality: 20518 = 1001d8 (4 x 1001) + 2000(flat) + 14 x 1001(Con)
-    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
-    Mana:   17517 = 1001d6 (3 x 1001) + 14 x 1001(Wis)
+    Vitality: 20538 = 1001d8 (4 x 1001) + 2020(flat) + 14 x 1001(Con)
+    Health:  5013 = 1001d6 (3 x 1001) + 1510(flat)
+    Mana:   18518 = 1001d6 (3 x 1001) + 15 x 1001(Wis)
 
   DAMAGE:
-    Melee Dmg/Turn: 18
-    Ranged Dmg/Turn: 13
-    Magic Dmg/Turn: 717 (x16 mana)
-    Total Dmg/10R: 458880
+    Attacks/Turn: 64
+    Melee Dmg/Hit: 37 | Dmg/Turn: 2368
+    Ranged Dmg/Hit: 10 | Dmg/Turn: 640
+    Magic Dmg/Cast: 750 (x16 mana)
+    Total Dmg/10R: 23680
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
-    Skill Points:  3298
-    Stat Points:   327
+    Skill Points:  6048
+    Stat Points:   421
     Affinity Pts:  0
     Stat Spent:    357
 
   FEATS & SPELLS:
     Feats:  333 (taken: Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  335
+    Spells:  336
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Duelist (Lvl 63)
     Magical -> Jack (Lvl 3)
-    Utility -> Scholar (Lvl 2)
+    Utility -> Scholar (Lvl 62)
+    Racial -> Therian Minotaur (Lvl 10)
 
   AFFINITIES:
-    Air            : 223
-    Earth          : 224
-    Fire           : 224
+    Air            : 231
+    Earth          : 235
+    Fire           : 232
     Generic        : 2
-    Necrotic       : 98
-    Psychic        : 99
-    Radiant        : 98
-    Water          : 224
+    Necrotic       : 109
+    Psychic        : 104
+    Radiant        : 106
+    Water          : 231
 
   GEAR:
-    Weapon: none
+    Weapon: Unarmed (1d4 Bludgeoning)
     Armor: none (None)
 
