@@ -2954,14 +2954,13 @@
       {
         "name": "Mana Blast",
         "mana": 0,
-        "affinity_required": 3,
         "damage_dice": "1d4",
         "attack_roll": true,
         "description": "1d4 of chosen affinity damage."
       },
       {
         "name": "Mana Bolt",
-        "mana": 2,
+        "mana": 3,
         "affinity_required": 5,
         "damage_formula": "1+affinity",
         "attack_roll": true,
@@ -2969,7 +2968,7 @@
       },
       {
         "name": "Mana Bomb",
-        "mana": 4,
+        "mana": 5,
         "affinity_required": 5,
         "int_required": 17,
         "damage_formula": "3+affinity",
@@ -2979,7 +2978,7 @@
       },
       {
         "name": "Mana Explosion",
-        "mana": 8,
+        "mana": 10,
         "affinity_required": 10,
         "extra_prereqs": {
           "affinities_at_10": 3
@@ -2992,7 +2991,7 @@
       },
       {
         "name": "Mana Decimation",
-        "mana": 16,
+        "mana": 19,
         "affinity_required": 10,
         "int_required": 20,
         "extra_prereqs": {
@@ -3008,7 +3007,7 @@
     "Fire": [
       {
         "name": "Firebolt",
-        "mana": 2,
+        "mana": 4,
         "affinity_required": 3,
         "damage_dice": "1d8",
         "damage_type": "fire",
@@ -3016,7 +3015,7 @@
       },
       {
         "name": "Fireball",
-        "mana": 4,
+        "mana": 6,
         "affinity_required": 5,
         "damage_dice": "2d6",
         "damage_type": "fire",
@@ -3026,7 +3025,7 @@
       },
       {
         "name": "Fireburst",
-        "mana": 8,
+        "mana": 10,
         "affinity_required": 8,
         "int_required": 15,
         "damage_dice": "4d6",
@@ -3038,7 +3037,7 @@
       },
       {
         "name": "Inferno Ring",
-        "mana": 16,
+        "mana": 18,
         "affinity_required": 10,
         "int_required": 18,
         "damage_dice": "5d6",
@@ -3050,7 +3049,7 @@
       },
       {
         "name": "Cataclysm Pyre",
-        "mana": 32,
+        "mana": 35,
         "affinity_required": 12,
         "int_required": 22,
         "damage_dice": "8d6",
@@ -3064,7 +3063,7 @@
     "Earth": [
       {
         "name": "Quake",
-        "mana": 3,
+        "mana": 5,
         "affinity_required": 5,
         "damage_dice": "1d6",
         "damage_type": "earth",
@@ -3075,7 +3074,7 @@
       },
       {
         "name": "Stonewave",
-        "mana": 6,
+        "mana": 8,
         "affinity_required": 7,
         "damage_dice": "2d6",
         "damage_type": "earth",
@@ -3087,7 +3086,7 @@
       },
       {
         "name": "Earthshatter",
-        "mana": 10,
+        "mana": 12,
         "affinity_required": 10,
         "int_required": 16,
         "damage_dice": "4d6",
@@ -3099,7 +3098,7 @@
       },
       {
         "name": "Bastion Rise",
-        "mana": 14,
+        "mana": 16,
         "affinity_required": 12,
         "int_required": 18,
         "damage_dice": "3d6",
@@ -3110,7 +3109,7 @@
       },
       {
         "name": "Worldbreak",
-        "mana": 28,
+        "mana": 31,
         "affinity_required": 15,
         "int_required": 22,
         "damage_dice": "8d6",
@@ -3125,7 +3124,7 @@
     "Water": [
       {
         "name": "Jetstream",
-        "mana": 3,
+        "mana": 5,
         "affinity_required": 5,
         "damage_dice": "1d6",
         "damage_type": "water",
@@ -3135,7 +3134,7 @@
       },
       {
         "name": "Riptide",
-        "mana": 6,
+        "mana": 8,
         "affinity_required": 7,
         "damage_dice": "2d6",
         "damage_type": "water",
@@ -3146,7 +3145,7 @@
       },
       {
         "name": "Undertow",
-        "mana": 10,
+        "mana": 12,
         "affinity_required": 10,
         "int_required": 16,
         "damage_dice": "3d6",
@@ -3158,7 +3157,7 @@
       },
       {
         "name": "Floodwall",
-        "mana": 14,
+        "mana": 16,
         "affinity_required": 12,
         "int_required": 18,
         "damage_dice": "4d6",
@@ -3170,7 +3169,7 @@
       },
       {
         "name": "Maelstrom",
-        "mana": 28,
+        "mana": 31,
         "affinity_required": 15,
         "int_required": 22,
         "damage_dice": "5d6",
@@ -3185,7 +3184,7 @@
     "Air": [
       {
         "name": "Gust",
-        "mana": 2,
+        "mana": 4,
         "affinity_required": 5,
         "damage_dice": "1d4",
         "damage_type": "bludgeoning",
@@ -3196,7 +3195,7 @@
       },
       {
         "name": "Gale Lance",
-        "mana": 4,
+        "mana": 6,
         "affinity_required": 7,
         "damage_dice": "2d6",
         "damage_type": "air",
@@ -3207,7 +3206,7 @@
       },
       {
         "name": "Cyclone",
-        "mana": 6,
+        "mana": 8,
         "affinity_required": 10,
         "int_required": 16,
         "damage_dice": "3d6",
@@ -3219,7 +3218,7 @@
       },
       {
         "name": "Tempest Prison",
-        "mana": 10,
+        "mana": 12,
         "affinity_required": 12,
         "int_required": 18,
         "damage_dice": "4d6",
@@ -3232,7 +3231,7 @@
       },
       {
         "name": "Sky Rend",
-        "mana": 14,
+        "mana": 16,
         "affinity_required": 15,
         "int_required": 22,
         "damage_dice": "6d6",
@@ -3247,7 +3246,7 @@
     "Necrotic": [
       {
         "name": "Rotting Touch",
-        "mana": 4,
+        "mana": 6,
         "affinity_required": 5,
         "damage_dice": "1d4",
         "damage_type": "necrotic",
@@ -3256,7 +3255,7 @@
       },
       {
         "name": "Plague Grasp",
-        "mana": 8,
+        "mana": 10,
         "affinity_required": 8,
         "damage_dice": "2d6",
         "damage_type": "necrotic",
@@ -3265,7 +3264,7 @@
       },
       {
         "name": "Contagion Field",
-        "mana": 14,
+        "mana": 16,
         "affinity_required": 10,
         "int_required": 16,
         "damage_dice": "2d6",
@@ -3276,7 +3275,7 @@
       },
       {
         "name": "Death Bloom",
-        "mana": 22,
+        "mana": 25,
         "affinity_required": 12,
         "int_required": 18,
         "damage_dice": "6d6",
@@ -3288,7 +3287,7 @@
       },
       {
         "name": "Necrotic Collapse",
-        "mana": 40,
+        "mana": 44,
         "affinity_required": 15,
         "int_required": 22,
         "damage_dice": "8d6",
@@ -3302,7 +3301,7 @@
     "Radiant": [
       {
         "name": "Radiant Pulse",
-        "mana": 4,
+        "mana": 6,
         "affinity_required": 5,
         "damage_dice": "2d6",
         "damage_type": "radiant",
@@ -3311,7 +3310,7 @@
       },
       {
         "name": "Radiant Wave",
-        "mana": 8,
+        "mana": 10,
         "affinity_required": 8,
         "damage_dice": "3d6",
         "damage_type": "radiant",
@@ -3322,7 +3321,7 @@
       },
       {
         "name": "Solar Lance",
-        "mana": 14,
+        "mana": 16,
         "affinity_required": 10,
         "int_required": 16,
         "damage_dice": "4d8",
@@ -3334,7 +3333,7 @@
       },
       {
         "name": "Divine Eruption",
-        "mana": 24,
+        "mana": 27,
         "affinity_required": 12,
         "int_required": 18,
         "damage_dice": "6d6",
@@ -3346,7 +3345,7 @@
       },
       {
         "name": "Ascension Nova",
-        "mana": 45,
+        "mana": 49,
         "affinity_required": 15,
         "int_required": 22,
         "damage_dice": "8d6",

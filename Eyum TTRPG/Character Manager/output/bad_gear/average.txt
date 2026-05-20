@@ -10,7 +10,7 @@ LEVEL 1
   Feats:     avg=0  min=0  max=0
   Spells:    avg=1  min=0  max=3
   Dmg/Turn:  avg=7  min=5  max=11
-  Dmg/10R:   avg=68  min=48  max=110
+  Dmg/10R:   avg=65  min=42  max=110
   To Hit:    avg=+5  min=+4  max=+8
   STR:       avg=13  min=8  max=22
   DEX:       avg=13  min=11  max=21
@@ -39,7 +39,7 @@ LEVEL 2
   Feats:     avg=0  min=0  max=0
   Spells:    avg=1  min=0  max=3
   Dmg/Turn:  avg=11  min=7  max=15
-  Dmg/10R:   avg=92  min=70  max=110
+  Dmg/10R:   avg=82  min=70  max=110
   To Hit:    avg=+5  min=+4  max=+8
   STR:       avg=13  min=8  max=22
   DEX:       avg=13  min=11  max=21
@@ -68,7 +68,7 @@ LEVEL 3
   Feats:     avg=1  min=1  max=1
   Spells:    avg=2  min=0  max=4
   Dmg/Turn:  avg=11  min=7  max=15
-  Dmg/10R:   avg=103  min=70  max=126
+  Dmg/10R:   avg=91  min=70  max=110
   To Hit:    avg=+6  min=+5  max=+9
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=21
@@ -85,7 +85,7 @@ LEVEL 3
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (15)
-    Dmg/10R:  Fire Mage (126)
+    Dmg/10R:  Full Melee Fighter (110)
     To Hit:   Full Melee Fighter (+9)
 
 LEVEL 4
@@ -97,7 +97,7 @@ LEVEL 4
   Feats:     avg=1  min=1  max=1
   Spells:    avg=2  min=0  max=4
   Dmg/Turn:  avg=11  min=7  max=15
-  Dmg/10R:   avg=117  min=70  max=157
+  Dmg/10R:   avg=101  min=70  max=123
   To Hit:    avg=+6  min=+5  max=+10
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=21
@@ -114,7 +114,7 @@ LEVEL 4
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (15)
-    Dmg/10R:  Fire Mage (157)
+    Dmg/10R:  Fire Mage (123)
     To Hit:   Full Melee Fighter (+10)
 
 LEVEL 5
@@ -126,7 +126,7 @@ LEVEL 5
   Feats:     avg=1  min=1  max=1
   Spells:    avg=2  min=0  max=4
   Dmg/Turn:  avg=11  min=7  max=15
-  Dmg/10R:   avg=117  min=70  max=157
+  Dmg/10R:   avg=108  min=70  max=137
   To Hit:    avg=+6  min=+5  max=+10
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=21
@@ -143,7 +143,7 @@ LEVEL 5
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (15)
-    Dmg/10R:  Fire Mage (157)
+    Dmg/10R:  Fire Mage (137)
     To Hit:   Full Melee Fighter (+10)
 
 LEVEL 6
@@ -155,7 +155,7 @@ LEVEL 6
   Feats:     avg=2  min=2  max=2
   Spells:    avg=2  min=0  max=5
   Dmg/Turn:  avg=12  min=7  max=26
-  Dmg/10R:   avg=122  min=70  max=252
+  Dmg/10R:   avg=121  min=70  max=208
   To Hit:    avg=+8  min=+6  max=+11
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=21
@@ -172,7 +172,7 @@ LEVEL 6
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (26)
-    Dmg/10R:  Fire Mage (252)
+    Dmg/10R:  Fire Mage (208)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 7
@@ -184,7 +184,7 @@ LEVEL 7
   Feats:     avg=2  min=2  max=2
   Spells:    avg=2  min=0  max=5
   Dmg/Turn:  avg=12  min=7  max=26
-  Dmg/10R:   avg=123  min=70  max=262
+  Dmg/10R:   avg=123  min=70  max=240
   To Hit:    avg=+8  min=+6  max=+11
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=21
@@ -201,7 +201,7 @@ LEVEL 7
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (26)
-    Dmg/10R:  Fire Mage (262)
+    Dmg/10R:  Fire Mage (240)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 8
@@ -213,7 +213,7 @@ LEVEL 8
   Feats:     avg=2  min=2  max=2
   Spells:    avg=2  min=0  max=5
   Dmg/Turn:  avg=17  min=14  max=28
-  Dmg/10R:   avg=233  min=140  max=357
+  Dmg/10R:   avg=222  min=140  max=307
   To Hit:    avg=+8  min=+7  max=+12
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=21
@@ -230,7 +230,7 @@ LEVEL 8
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (5)
     Dmg:      Martial Fighter (28)
-    Dmg/10R:  Fire Mage (357)
+    Dmg/10R:  Fire Mage (307)
     To Hit:   Martial Fighter (+12)
 
 LEVEL 9
@@ -242,7 +242,7 @@ LEVEL 9
   Feats:     avg=3  min=3  max=3
   Spells:    avg=3  min=0  max=6
   Dmg/Turn:  avg=18  min=14  max=28
-  Dmg/10R:   avg=245  min=140  max=394
+  Dmg/10R:   avg=236  min=140  max=327
   To Hit:    avg=+9  min=+8  max=+13
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=22
@@ -259,7 +259,7 @@ LEVEL 9
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (6)
     Dmg:      Martial Fighter (28)
-    Dmg/10R:  Fire Mage (394)
+    Dmg/10R:  Fire Mage (327)
     To Hit:   Martial Fighter (+13)
 
 LEVEL 10
@@ -270,8 +270,8 @@ LEVEL 10
   AC:        avg=14  min=10  max=19
   Feats:     avg=3  min=3  max=3
   Spells:    avg=3  min=0  max=6
-  Dmg/Turn:  avg=20  min=14  max=32
-  Dmg/10R:   avg=287  min=140  max=448
+  Dmg/Turn:  avg=21  min=14  max=32
+  Dmg/10R:   avg=269  min=140  max=371
   To Hit:    avg=+9  min=+8  max=+13
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=22
@@ -288,7 +288,7 @@ LEVEL 10
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (6)
     Dmg:      Martial Fighter (32)
-    Dmg/10R:  Fire Mage (448)
+    Dmg/10R:  Fire Mage (371)
     To Hit:   Martial Fighter (+13)
 
 LEVEL 11
@@ -299,8 +299,8 @@ LEVEL 11
   AC:        avg=14  min=10  max=19
   Feats:     avg=3  min=3  max=3
   Spells:    avg=3  min=0  max=6
-  Dmg/Turn:  avg=20  min=14  max=32
-  Dmg/10R:   avg=302  min=140  max=488
+  Dmg/Turn:  avg=21  min=14  max=32
+  Dmg/10R:   avg=282  min=140  max=401
   To Hit:    avg=+9  min=+8  max=+13
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=22
@@ -317,7 +317,7 @@ LEVEL 11
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (6)
     Dmg:      Martial Fighter (32)
-    Dmg/10R:  Fire Mage (488)
+    Dmg/10R:  Fire Mage (401)
     To Hit:   Martial Fighter (+13)
 
 LEVEL 12
@@ -328,8 +328,8 @@ LEVEL 12
   AC:        avg=14  min=10  max=19
   Feats:     avg=4  min=4  max=4
   Spells:    avg=3  min=0  max=7
-  Dmg/Turn:  avg=21  min=14  max=32
-  Dmg/10R:   avg=327  min=140  max=525
+  Dmg/Turn:  avg=22  min=14  max=32
+  Dmg/10R:   avg=309  min=140  max=438
   To Hit:    avg=+10  min=+9  max=+14
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=22
@@ -346,7 +346,7 @@ LEVEL 12
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (7)
     Dmg:      Martial Fighter (32)
-    Dmg/10R:  Fire Mage (525)
+    Dmg/10R:  Fire Mage (438)
     To Hit:   Martial Fighter (+14)
 
 LEVEL 13
@@ -357,8 +357,8 @@ LEVEL 13
   AC:        avg=14  min=10  max=19
   Feats:     avg=4  min=4  max=4
   Spells:    avg=3  min=0  max=7
-  Dmg/Turn:  avg=21  min=14  max=32
-  Dmg/10R:   avg=328  min=140  max=525
+  Dmg/Turn:  avg=22  min=14  max=32
+  Dmg/10R:   avg=317  min=140  max=458
   To Hit:    avg=+10  min=+9  max=+14
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=22
@@ -375,7 +375,7 @@ LEVEL 13
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (7)
     Dmg:      Martial Fighter (32)
-    Dmg/10R:  Fire Mage (525)
+    Dmg/10R:  Fire Mage (458)
     To Hit:   Martial Fighter (+14)
 
 LEVEL 14
@@ -386,8 +386,8 @@ LEVEL 14
   AC:        avg=14  min=10  max=19
   Feats:     avg=4  min=4  max=4
   Spells:    avg=3  min=0  max=7
-  Dmg/Turn:  avg=21  min=14  max=40
-  Dmg/10R:   avg=325  min=140  max=525
+  Dmg/Turn:  avg=23  min=14  max=40
+  Dmg/10R:   avg=337  min=140  max=484
   To Hit:    avg=+10  min=+9  max=+14
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=22
@@ -404,7 +404,7 @@ LEVEL 14
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (7)
     Dmg:      Martial Fighter (40)
-    Dmg/10R:  Fire Mage (525)
+    Dmg/10R:  Fire Mage (484)
     To Hit:   Martial Fighter (+14)
 
 LEVEL 15
@@ -415,8 +415,8 @@ LEVEL 15
   AC:        avg=14  min=11  max=19
   Feats:     avg=5  min=5  max=5
   Spells:    avg=4  min=0  max=8
-  Dmg/Turn:  avg=22  min=14  max=40
-  Dmg/10R:   avg=339  min=140  max=525
+  Dmg/Turn:  avg=23  min=14  max=40
+  Dmg/10R:   avg=345  min=140  max=498
   To Hit:    avg=+11  min=+10  max=+15
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=22
@@ -433,7 +433,7 @@ LEVEL 15
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (8)
     Dmg:      Martial Fighter (40)
-    Dmg/10R:  Fire Mage (525)
+    Dmg/10R:  Fire Mage (498)
     To Hit:   Martial Fighter (+15)
 
 LEVEL 16
@@ -444,8 +444,8 @@ LEVEL 16
   AC:        avg=14  min=11  max=19
   Feats:     avg=5  min=5  max=5
   Spells:    avg=4  min=0  max=8
-  Dmg/Turn:  avg=23  min=14  max=40
-  Dmg/10R:   avg=352  min=140  max=525
+  Dmg/Turn:  avg=24  min=14  max=40
+  Dmg/10R:   avg=369  min=140  max=525
   To Hit:    avg=+11  min=+10  max=+15
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=22
@@ -473,8 +473,8 @@ LEVEL 17
   AC:        avg=14  min=11  max=19
   Feats:     avg=5  min=5  max=5
   Spells:    avg=4  min=0  max=8
-  Dmg/Turn:  avg=23  min=14  max=40
-  Dmg/10R:   avg=352  min=140  max=525
+  Dmg/Turn:  avg=24  min=14  max=40
+  Dmg/10R:   avg=369  min=140  max=525
   To Hit:    avg=+11  min=+10  max=+15
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=22
@@ -502,8 +502,8 @@ LEVEL 18
   AC:        avg=14  min=11  max=19
   Feats:     avg=6  min=6  max=6
   Spells:    avg=4  min=0  max=9
-  Dmg/Turn:  avg=24  min=14  max=40
-  Dmg/10R:   avg=358  min=140  max=525
+  Dmg/Turn:  avg=25  min=14  max=40
+  Dmg/10R:   avg=375  min=140  max=525
   To Hit:    avg=+12  min=+11  max=+16
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=12  max=22
@@ -531,8 +531,8 @@ LEVEL 19
   AC:        avg=14  min=11  max=19
   Feats:     avg=6  min=6  max=6
   Spells:    avg=4  min=0  max=9
-  Dmg/Turn:  avg=24  min=14  max=40
-  Dmg/10R:   avg=358  min=140  max=525
+  Dmg/Turn:  avg=25  min=14  max=40
+  Dmg/10R:   avg=375  min=140  max=525
   To Hit:    avg=+12  min=+11  max=+16
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=12  max=22
@@ -589,8 +589,8 @@ LEVEL 25
   AC:        avg=14  min=11  max=19
   Feats:     avg=8  min=8  max=8
   Spells:    avg=5  min=0  max=11
-  Dmg/Turn:  avg=32  min=14  max=69
-  Dmg/10R:   avg=552  min=240  max=967
+  Dmg/Turn:  avg=33  min=24  max=69
+  Dmg/10R:   avg=587  min=240  max=967
   To Hit:    avg=+15  min=+14  max=+20
   STR:       avg=15  min=10  max=29
   DEX:       avg=14  min=12  max=22

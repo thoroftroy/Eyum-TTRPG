@@ -5,28 +5,28 @@ Generated from analysis of 30 levels across 4 gear tiers and 15 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Fire Mage         : 500 category-level wins (9.2%)
-  Air Mage          : 439 category-level wins (8.0%)
-  Martial Fighter   : 438 category-level wins (8.0%)
-  Water Mage        : 432 category-level wins (7.9%)
-  Tanker Archer     : 421 category-level wins (7.7%)
+  Fire Mage         : 489 category-level wins (9.0%)
+  Martial Fighter   : 445 category-level wins (8.2%)
+  Earth Mage        : 428 category-level wins (7.8%)
+  Water Mage        : 427 category-level wins (7.8%)
+  Radiant Mage      : 426 category-level wins (7.8%)
+  Air Mage          : 425 category-level wins (7.8%)
   Tanker            : 421 category-level wins (7.7%)
-  Earth Mage        : 418 category-level wins (7.7%)
-  Necrotic Mage     : 415 category-level wins (7.6%)
-  Radiant Mage      : 400 category-level wins (7.3%)
-  Mage Jack of all Trades: 346 category-level wins (6.3%)
+  Tanker Archer     : 421 category-level wins (7.7%)
+  Necrotic Mage     : 401 category-level wins (7.4%)
+  Mage Jack of all Trades: 340 category-level wins (6.2%)
   Jack of all Trades: 296 category-level wins (5.4%)
-  Full Melee Fighter: 281 category-level wins (5.1%)
+  Full Melee Fighter: 283 category-level wins (5.2%)
+  Physical Fighter  : 219 category-level wins (4.0%)
   Archer/Melee Fighter: 218 category-level wins (4.0%)
-  Physical Fighter  : 217 category-level wins (4.0%)
   Archer            : 216 category-level wins (4.0%)
 
-  >>> OK: No single build dominates. Top build (Fire Mage) has 9.2% of wins.
+  >>> OK: No single build dominates. Top build (Fire Mage) has 9.0% of wins.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
-  Magical builds  : 442 damage BEST wins (79.4%)
-  Physical builds : 115 damage BEST wins (20.6%)
+  Magical builds  : 428 damage BEST wins (77.3%)
+  Physical builds : 126 damage BEST wins (22.7%)
   Mixed builds    :   0 damage BEST wins (0.0%)
 
   >>> Magical builds dominate damage output. Consider buffing physical options.
@@ -52,10 +52,8 @@ CATEGORY MONOPOLY ANALYSIS
     (Moderate concentration)
   Dmg/Turn  : mostly Martial Fighter (70/120 levels, 58.3%)
     (Moderate concentration)
-  Dmg/10R   : mostly Fire Mage (104/120 levels, 86.7%)
-    >>> MONOPOLY: Fire Mage wins Dmg/10R almost exclusively.
-    >>> IMBALANCE: Damage output is concentrated in one build.
-    Consider: rebalancing damage scaling so other builds can compete.
+  Dmg/10R   : mostly Fire Mage (93/120 levels, 77.5%)
+    (Moderate concentration)
 
 STAT ANALYSIS
 ----------------------------------------
@@ -124,14 +122,11 @@ PROGRESSION BALANCE (EARLY vs LATE)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
-  1. Physical builds are underperforming in damage (21% of damage BEST wins vs 79% for magical).
+  1. Physical builds are underperforming in damage (23% of damage BEST wins vs 77% for magical).
        - Increase base weapon damage or weapon damage_bonus values.
        - Add more damage-boosting feats for physical builds.
        - Check if extra_damage_die on weapons is being applied correctly.
-  2. Fire Mage has a monopoly on Dmg/10R (87%).
-       - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Fire Mage has unintended damage synergies.
-  3. Jack (hybrid build) wins no BEST categories.
+  2. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.
 

@@ -770,8 +770,8 @@ def get_best_affinity(char):
     return best_name, best_aff
 
 
-def check_spell_prereqs(char, spell, element, best_aff_val):
-    if spell.get('affinity_required', 0) > best_aff_val:
+def check_spell_prereqs(char, spell, element, aff_val):
+    if spell.get('affinity_required', 0) > aff_val:
         return False
     if 'int_required' in spell and char.int < spell['int_required']:
         return False
@@ -783,7 +783,7 @@ def check_spell_prereqs(char, spell, element, best_aff_val):
     return True
 
 
-def spell_avg_damage(spell, element, best_aff_val, die_avg, hit_chance, weapon_info=None):
+def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, weapon_info=None):
     if 'damage_dice' in spell:
         dmg = die_avg.get(spell['damage_dice'], 0)
     elif 'damage_formula' in spell:
@@ -794,9 +794,9 @@ def spell_avg_damage(spell, element, best_aff_val, die_avg, hit_chance, weapon_i
             rest = parts[1]
             if '*' in rest:
                 mul = int(rest.split('*')[1])
-                dmg = base + best_aff_val * mul
+                dmg = base + aff_val * mul
             else:
-                dmg = base + best_aff_val
+                dmg = base + aff_val
         else:
             dmg = int(formula)
     else:
@@ -853,14 +853,17 @@ def select_spell(char, settings, max_mana=None):
 
     candidates = []
 
-    # Check elemental spells for best element
-    if best_element and best_element in spells_data:
-        for spell in spells_data[best_element]:
+    # Check all elemental spells (each element uses its own affinity value)
+    for elem_name, elem_spells in spells_data.items():
+        if elem_name == 'Generic':
+            continue
+        elem_aff_val = char.affinities.get(elem_name, 0)
+        for spell in elem_spells:
             if max_mana is not None and spell['mana'] > max_mana:
                 continue
-            if check_spell_prereqs(char, spell, best_element, best_aff_val):
-                dmg = spell_avg_damage(spell, best_element, best_aff_val, die_avg, hit_chance, weapon_info)
-                candidates.append((dmg, spell, best_element))
+            if check_spell_prereqs(char, spell, elem_name, elem_aff_val):
+                dmg = spell_avg_damage(spell, elem_name, elem_aff_val, die_avg, hit_chance, weapon_info)
+                candidates.append((dmg, spell, elem_name))
 
     # Check Generic spells
     for gname in ('Mana Decimation', 'Mana Explosion', 'Mana Bomb', 'Mana Bolt', 'Mana Blast'):
