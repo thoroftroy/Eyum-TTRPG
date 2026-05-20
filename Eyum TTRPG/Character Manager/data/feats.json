@@ -1,0 +1,1072 @@
+{
+  "Toughness": {
+    "type": "Passive",
+    "effects": {
+      "vit_per_level": 1,
+      "hp_per_level": 1
+    },
+    "prereq": {},
+    "value": 5,
+    "repeatable": false,
+    "description": "Gain +1 HP and +1 Vit per level (Retroactive)."
+  },
+  "Marathon Runner": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "con": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Increase base Speed by +5ft."
+  },
+  "Grappler": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "str": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Advantage on Athletics checks to grapple."
+  },
+  "Brutal Critical": {
+    "type": "Passive",
+    "effects": {
+      "crit_damage_die": "1d8"
+    },
+    "prereq": {
+      "level": 6
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "Critical hits deal +1d8 damage."
+  },
+  "Brawler": {
+    "type": "Passive",
+    "effects": {
+      "unarmed_die_upgrade": 1
+    },
+    "prereq": {
+      "stat": {
+        "str": 14
+      }
+    },
+    "value": 1,
+    "repeatable": 3,
+    "description": "Unarmed strikes damage up a dice tier, up to 3 times."
+  },
+  "Distant Shot": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Marksman": 2
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Ranged weapon range increased by 50%."
+  },
+  "Eagle Eye": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "wis": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "See clearly up to 1 mile; +2 Search and Spot."
+  },
+  "Weapon Master": {
+    "type": "Passive",
+    "effects": {
+      "weapon_group_accuracy": 1
+    },
+    "prereq": {},
+    "value": 2,
+    "repeatable": false,
+    "description": "+1 Accuracy with chosen weapon type."
+  },
+  "Quick Reflexes": {
+    "type": "Passive",
+    "effects": {
+      "rp": 1
+    },
+    "prereq": {
+      "stat": {
+        "dex": 16
+      }
+    },
+    "value": 1,
+    "repeatable": false,
+    "description": "Gain an additional Reaction Point (Rp)."
+  },
+  "Mana Flow": {
+    "type": "Passive",
+    "effects": {
+      "mana_per_level": 2
+    },
+    "prereq": {
+      "path": {
+        "Magician": 1
+      }
+    },
+    "value": 5,
+    "repeatable": false,
+    "description": "Increase Max Mana by +2 per level (retroactive)."
+  },
+  "Spell Sniper": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Magician": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Double the range of your spells."
+  },
+  "Stone Skin": {
+    "type": "Passive",
+    "effects": {
+      "ac_bonus": 1,
+      "affinity": {
+        "Earth": 2
+      }
+    },
+    "prereq": {
+      "path": {
+        "Geomancer": 1
+      }
+    },
+    "value": 4,
+    "repeatable": false,
+    "description": "+2 Earth affinity, +1 AC."
+  },
+  "Careful Spells": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Magician": 2
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Allies auto-pass saves against your AOE spells."
+  },
+  "Affinity Master (Choose)": {
+    "type": "Passive",
+    "effects": {
+      "affinity_points": 3
+    },
+    "prereq": {
+      "level": 6
+    },
+    "value": 3,
+    "repeatable": false,
+    "description": "Choose one Affinity; increase it by +3."
+  },
+  "Chain Lightning": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "level": 9
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Lightning spells jump to 1 secondary target."
+  },
+  "Holy Radiance": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Priest": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Undead take +1d6 from your Radiant spells."
+  },
+  "Aura of Protection": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Priest": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Allies within 10ft gain +2 to all saves."
+  },
+  "Skill Expert": {
+    "type": "Passive",
+    "effects": {
+      "stat_point": 1
+    },
+    "prereq": {},
+    "value": 3,
+    "repeatable": true,
+    "description": "Gain Proficiency in one skill and +1 Stat Point."
+  },
+  "Linguist": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "int": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Learn 3 additional languages."
+  },
+  "Investigator": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Scholar": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+3 to Spot and Search checks."
+  },
+  "Fast Hands": {
+    "type": "Passive",
+    "effects": {
+      "bap": 1
+    },
+    "prereq": {
+      "path": {
+        "Scoundrel": 2
+      }
+    },
+    "value": 8,
+    "repeatable": false,
+    "description": "Gain a Bonus Action Point."
+  },
+  "Jack of All Trades": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Scholar": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Half Proficiency on non-proficient skills."
+  },
+  "Medic": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "Expertise in Medicine and +3 to Medicine rolls."
+  },
+  "Dungeon Delver": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "Advantage on trap finding; lesser resistance to trap damage."
+  },
+  "Trader": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "cha": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Expertise in Barter and +3 to Barter rolls."
+  },
+  "Observant": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "wis": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+5 to passive Search and Spot."
+  },
+  "Master of Disguise": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Scoundrel": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Advantage on Deception for disguises."
+  },
+  "Historian": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Scholar": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Reroll failed History checks once."
+  },
+  "Acrobat": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "dex": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Half fall damage, proficiency in Acrobatics."
+  },
+  "Iron Will": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "level": 9
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+4 to Wisdom Saving Throws."
+  },
+  "Forbidden Knowledge": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Occultist": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+5 Arcana, -2 Social Insight."
+  },
+  "Darkness Seer": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Reaper": 2
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "See through magical darkness up to 60ft."
+  },
+  "Giant's Strength": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "str": 18
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Size one tier larger for carry/lift/grapple."
+  },
+  "Cat's Grace": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "dex": 18
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "No damage from falls under 30ft; not knocked prone."
+  },
+  "Hardened Soul": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "level": 12
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Immune to Frightened, Despair, Demoralized."
+  },
+  "Eternal Mana": {
+    "type": "Passive",
+    "effects": {
+      "eternal_mana_threshold": 10,
+      "eternal_mana_amount": 2
+    },
+    "prereq": {
+      "path": {
+        "Magician": 3
+      }
+    },
+    "value": 3,
+    "repeatable": false,
+    "description": "Below 10 mana gain 2 mana, once per 6s."
+  },
+  "Titan's Grip": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "str": 20
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Hold two-handed weapon in one hand and dual wield."
+  },
+  "Unstoppable Force": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Indomitable": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Immune to slowed and paralyzed."
+  },
+  "Rounded Mage": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "Link two affinities of same amount."
+  },
+  "All Rounded Mage": {
+    "type": "Passive",
+    "effects": {},
+    "prereq": {
+      "feat": "Rounded Mage"
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Link a third affinity."
+  },
+  "Affinity Master (Points)": {
+    "type": "Passive",
+    "effects": {
+      "affinity_points": 5
+    },
+    "prereq": {},
+    "value": 4,
+    "repeatable": false,
+    "description": "Instantly gain +5 affinity points."
+  },
+  "Dodge Master": {
+    "type": "Passive",
+    "effects": {
+      "maximum_dex_ac_bonus": 3
+    },
+    "prereq": {
+      "stat": {
+        "dex": 22
+      }
+    },
+    "value": 4,
+    "repeatable": false,
+    "description": "Max AC bonus from Dex raises by +3."
+  },
+  "Armor Training": {
+    "type": "Conditional",
+    "effects": {
+      "armor_training_ac_heavy": 3,
+      "armor_training_ac_medium": 2
+    },
+    "prereq": {
+      "stat": {
+        "str": 13
+      }
+    },
+    "value": 5,
+    "repeatable": false,
+    "description": "+3 AC heavy armor, +2 AC medium armor."
+  },
+  "Heavy Hitter": {
+    "type": "Conditional",
+    "effects": {
+      "melee_damage": 2
+    },
+    "prereq": {
+      "stat": {
+        "str": 14
+      }
+    },
+    "value": 3,
+    "repeatable": false,
+    "description": "+2 Melee Damage with two-handed weapons."
+  },
+  "Point Blank Shot": {
+    "type": "Conditional",
+    "effects": {
+      "point_blank": true
+    },
+    "prereq": {
+      "path": {
+        "Marksman": 1
+      }
+    },
+    "value": 1,
+    "repeatable": false,
+    "description": "No disadvantage on ranged attacks within 5ft."
+  },
+  "Great Cleave": {
+    "type": "Conditional",
+    "effects": {
+      "cleave_damage": 3
+    },
+    "prereq": {
+      "stat": {
+        "str": 16
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "After kill, next attack this turn deals +3 damage."
+  },
+  "Shield Master": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "str": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+2 Dex saves with shield."
+  },
+  "Steady Aim": {
+    "type": "Conditional",
+    "effects": {
+      "steady_aim_accuracy": 2
+    },
+    "prereq": {
+      "path": {
+        "Marksman": 1
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "+2 Accuracy if you don't move this turn."
+  },
+  "Dual Wielder": {
+    "type": "Conditional",
+    "effects": {
+      "dual_wield_accuracy": 2
+    },
+    "prereq": {
+      "stat": {
+        "dex": 14
+      }
+    },
+    "value": 3,
+    "repeatable": false,
+    "description": "+2 attack rolls with two weapons."
+  },
+  "Mobile": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "No reactions from attacked target after melee."
+  },
+  "Charging Strike": {
+    "type": "Conditional",
+    "effects": {
+      "charge_die": "1d6"
+    },
+    "prereq": {
+      "stat": {
+        "str": 14
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "+1d6 bludgeoning if move 15ft+ before melee."
+  },
+  "Endurance": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Indomitable": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Drop to 1 HP instead of 0, once per combat."
+  },
+  "Disarming Attack": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "str": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Str Save or drop weapon on melee hit."
+  },
+  "Trip Attack": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "dex": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Dex Save or fall prone on melee hit."
+  },
+  "Vital Spot": {
+    "type": "Conditional",
+    "effects": {
+      "prone_die": "1d12"
+    },
+    "prereq": {
+      "stat": {
+        "int": 12
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "+1d12 damage vs Prone or Restrained targets."
+  },
+  "Executioner": {
+    "type": "Conditional",
+    "effects": {
+      "execute_threshold": 0.1
+    },
+    "prereq": {
+      "path": {
+        "Duelist": 3
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "Melee attacks vs <10% HP targets are always crits."
+  },
+  "Save or Don't Suck": {
+    "type": "Conditional",
+    "effects": {
+      "save_half_magic": true
+    },
+    "prereq": {
+      "path": {
+        "Magician": 2
+      }
+    },
+    "value": 4,
+    "repeatable": false,
+    "description": "Spells deal half damage on save."
+  },
+  "Firebrand": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Pyromancer": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Fire spells cause On Fire condition (Con save)."
+  },
+  "Flowing Water": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Tidemaster": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Move 5ft without reactions after Water spell."
+  },
+  "Wind Rush": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Windwalker": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Air spells push target 5ft (Str save)."
+  },
+  "Soul Reaper": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Necromancer": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Gain mana equal to half necrotic kill damage."
+  },
+  "Static Discharge": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "After taking damage, next Lightning spell deals +1d6."
+  },
+  "Vampiric Link": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Necromancer": 2
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Heal 2 HP on necrotic damage."
+  },
+  "Mind Spike": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "Psychic spells can damage Vitality."
+  },
+  "Explosive Power": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Magician": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+5 force damage if hitting 3+ targets."
+  },
+  "Lingering Shadow": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Necromancer": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Necrotic spells leave 5ft 5-damage cloud."
+  },
+  "Gravity Well": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Geomancer": 2
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Earth spells pull target 5ft (Str save)."
+  },
+  "Infiltrator": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Scoundrel": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Double advantage on Stealth in dim light."
+  },
+  "Cursed Blood": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Reaper": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Melee attackers take 1d4 necrotic damage."
+  },
+  "1,000 Paper Cuts": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "level": 21
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "+10 true damage vs 500+ max health creatures."
+  },
+  "Apex Predator": {
+    "type": "Conditional",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Scoundrel": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "First attack is guaranteed crit if first in initiative."
+  },
+  "Defensive Duelist": {
+    "type": "Active",
+    "effects": {
+      "defensive_duelist_ac": true
+    },
+    "prereq": {
+      "path": {
+        "Duelist": 1
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "Add Proficiency to AC vs one melee attack (Rp)."
+  },
+  "Sentinel": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "str": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Attack creature that attacks ally within 5ft (Rp)."
+  },
+  "Parry": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Duelist": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Reduce melee damage by Str/Dex mod (Rp)."
+  },
+  "Quick Draw": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "dex": 12
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Stow/draw weapons as free action."
+  },
+  "Silver Tongue": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "cha": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Reroll Persuasion/Deception/Intimidation below 10."
+  },
+  "Second Wind": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "con": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Heal HP equal to Hit Dice once per combat (BAp)."
+  },
+  "Hunker Down": {
+    "type": "Active",
+    "effects": {
+      "hunker_ac": 6
+    },
+    "prereq": {
+      "path": {
+        "Indomitable": 2
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "Skip turn for +6 AC (BAp, start of turn)."
+  },
+  "Elemental Shield": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {},
+    "value": 0,
+    "repeatable": false,
+    "description": "Gain resistance to a damage type you have 5+ affinity in (BAp)."
+  },
+  "Mana Well": {
+    "type": "Active",
+    "effects": {
+      "mana_well_die": "1d10"
+    },
+    "prereq": {
+      "path": {
+        "Magician": 2
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "Recover 1d10 Mana once per combat (BAp)."
+  },
+  "Arcane Overload": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Magician": 4
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Next spell deals max damage, take 1d10 true (BAp)."
+  },
+  "Divinely Favored": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Beacon": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Reroll one d20 once per long rest (BAp)."
+  },
+  "Overdrive": {
+    "type": "Active",
+    "effects": {
+      "overdrive_bap": 1
+    },
+    "prereq": {
+      "level": 15
+    },
+    "value": 4,
+    "repeatable": false,
+    "description": "+1 AP next turn, lose all BAp for 2 turns (BAp)."
+  },
+  "Demonic Bargain": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Reaper": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Sacrifice 10 Vit or 5 HP for 20 Mana (BAp)."
+  },
+  "Vault": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "dex": 14
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Move 10ft over obstacle/enemy (Ap)."
+  },
+  "Blessed Touch": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Priest": 1
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Heal 1d4 + Radiant affinity Vitality (Ap)."
+  },
+  "Mana Burn": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "stat": {
+        "int": 18
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Force damage equal to half target's mana (Ap)."
+  },
+  "Quick Spells": {
+    "type": "Active",
+    "effects": {},
+    "prereq": {
+      "path": {
+        "Magician": 3
+      }
+    },
+    "value": 0,
+    "repeatable": false,
+    "description": "Cast 1Ap spell as 1BAp."
+  },
+  "Twin Cast": {
+    "type": "Active",
+    "effects": {
+      "twin_cast": true
+    },
+    "prereq": {
+      "path": {
+        "Magician": 3
+      }
+    },
+    "value": 2,
+    "repeatable": false,
+    "description": "Double mana to hit two targets with single-target spell."
+  }
+}

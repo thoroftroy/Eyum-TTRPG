@@ -9,8 +9,8 @@ LEVEL 1
   AC:        avg=17  min=10  max=25
   Feats:     avg=0  min=0  max=0
   Spells:    avg=1  min=0  max=3
-  Dmg/Turn:  avg=10  min=5  max=15
-  Dmg/10R:   avg=108  min=42  max=157
+  Dmg/Turn:  avg=15  min=7  max=21
+  Dmg/10R:   avg=145  min=56  max=210
   To Hit:    avg=+5  min=+4  max=+8
   STR:       avg=13  min=8  max=22
   DEX:       avg=13  min=11  max=22
@@ -26,8 +26,8 @@ LEVEL 1
     AC:       Tanker Archer (25)
     Feats:    Jack of all Trades (0)
     Spells:   Fire Mage (3)
-    Dmg:      Full Melee Fighter (15)
-    Dmg/10R:  Full Melee Fighter (157)
+    Dmg:      Full Melee Fighter (21)
+    Dmg/10R:  Full Melee Fighter (210)
     To Hit:   Full Melee Fighter (+8)
 
 LEVEL 2
@@ -38,8 +38,8 @@ LEVEL 2
   AC:        avg=17  min=10  max=25
   Feats:     avg=0  min=0  max=0
   Spells:    avg=1  min=0  max=3
-  Dmg/Turn:  avg=17  min=10  max=24
-  Dmg/10R:   avg=124  min=63  max=157
+  Dmg/Turn:  avg=19  min=14  max=24
+  Dmg/10R:   avg=158  min=75  max=210
   To Hit:    avg=+5  min=+4  max=+8
   STR:       avg=13  min=8  max=22
   DEX:       avg=13  min=11  max=22
@@ -56,7 +56,7 @@ LEVEL 2
     Feats:    Jack of all Trades (0)
     Spells:   Jack of all Trades (3)
     Dmg:      Fire Mage (24)
-    Dmg/10R:  Full Melee Fighter (157)
+    Dmg/10R:  Full Melee Fighter (210)
     To Hit:   Archer/Melee Fighter (+8)
 
 LEVEL 3
@@ -67,8 +67,8 @@ LEVEL 3
   AC:        avg=17  min=10  max=25
   Feats:     avg=1  min=1  max=1
   Spells:    avg=2  min=0  max=4
-  Dmg/Turn:  avg=17  min=10  max=24
-  Dmg/10R:   avg=131  min=74  max=157
+  Dmg/Turn:  avg=19  min=14  max=24
+  Dmg/10R:   avg=164  min=84  max=210
   To Hit:    avg=+6  min=+5  max=+9
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=22
@@ -85,7 +85,7 @@ LEVEL 3
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (24)
-    Dmg/10R:  Full Melee Fighter (157)
+    Dmg/10R:  Full Melee Fighter (210)
     To Hit:   Archer/Melee Fighter (+9)
 
 LEVEL 4
@@ -96,8 +96,8 @@ LEVEL 4
   AC:        avg=17  min=10  max=25
   Feats:     avg=1  min=1  max=1
   Spells:    avg=2  min=0  max=4
-  Dmg/Turn:  avg=17  min=10  max=24
-  Dmg/10R:   avg=142  min=90  max=168
+  Dmg/Turn:  avg=19  min=14  max=24
+  Dmg/10R:   avg=172  min=96  max=210
   To Hit:    avg=+7  min=+5  max=+10
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=22
@@ -114,7 +114,7 @@ LEVEL 4
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (24)
-    Dmg/10R:  Fire Mage (168)
+    Dmg/10R:  Full Melee Fighter (210)
     To Hit:   Full Melee Fighter (+10)
 
 LEVEL 5
@@ -125,8 +125,8 @@ LEVEL 5
   AC:        avg=17  min=10  max=25
   Feats:     avg=1  min=1  max=1
   Spells:    avg=2  min=0  max=4
-  Dmg/Turn:  avg=17  min=10  max=24
-  Dmg/10R:   avg=151  min=103  max=187
+  Dmg/Turn:  avg=19  min=14  max=24
+  Dmg/10R:   avg=180  min=109  max=210
   To Hit:    avg=+7  min=+5  max=+10
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=22
@@ -143,7 +143,7 @@ LEVEL 5
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (24)
-    Dmg/10R:  Fire Mage (187)
+    Dmg/10R:  Full Melee Fighter (210)
     To Hit:   Full Melee Fighter (+10)
 
 LEVEL 6
@@ -154,8 +154,8 @@ LEVEL 6
   AC:        avg=18  min=10  max=29
   Feats:     avg=2  min=2  max=2
   Spells:    avg=2  min=0  max=5
-  Dmg/Turn:  avg=17  min=10  max=35
-  Dmg/10R:   avg=172  min=108  max=247
+  Dmg/Turn:  avg=20  min=14  max=35
+  Dmg/10R:   avg=198  min=138  max=259
   To Hit:    avg=+8  min=+6  max=+11
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=23
@@ -172,7 +172,7 @@ LEVEL 6
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (35)
-    Dmg/10R:  Fire Mage (247)
+    Dmg/10R:  Fire Mage (259)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 7
@@ -183,8 +183,8 @@ LEVEL 7
   AC:        avg=18  min=10  max=29
   Feats:     avg=2  min=2  max=2
   Spells:    avg=2  min=0  max=5
-  Dmg/Turn:  avg=17  min=10  max=35
-  Dmg/10R:   avg=179  min=108  max=269
+  Dmg/Turn:  avg=20  min=14  max=35
+  Dmg/10R:   avg=203  min=142  max=280
   To Hit:    avg=+8  min=+6  max=+11
   STR:       avg=13  min=9  max=22
   DEX:       avg=13  min=11  max=23
@@ -201,7 +201,7 @@ LEVEL 7
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (35)
-    Dmg/10R:  Fire Mage (269)
+    Dmg/10R:  Fire Mage (280)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 8
@@ -212,8 +212,8 @@ LEVEL 8
   AC:        avg=18  min=10  max=29
   Feats:     avg=2  min=2  max=2
   Spells:    avg=2  min=0  max=5
-  Dmg/Turn:  avg=25  min=14  max=35
-  Dmg/10R:   avg=304  min=201  max=364
+  Dmg/Turn:  avg=30  min=14  max=42
+  Dmg/10R:   avg=363  min=211  max=430
   To Hit:    avg=+8  min=+7  max=+12
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=23
@@ -229,8 +229,8 @@ LEVEL 8
     AC:       Tanker Archer (29)
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (5)
-    Dmg:      Fire Mage (35)
-    Dmg/10R:  Water Mage (364)
+    Dmg:      Full Melee Fighter (42)
+    Dmg/10R:  Martial Fighter (430)
     To Hit:   Martial Fighter (+12)
 
 LEVEL 9
@@ -241,8 +241,8 @@ LEVEL 9
   AC:        avg=18  min=10  max=28
   Feats:     avg=3  min=3  max=3
   Spells:    avg=3  min=0  max=6
-  Dmg/Turn:  avg=26  min=24  max=35
-  Dmg/10R:   avg=325  min=247  max=400
+  Dmg/Turn:  avg=31  min=24  max=42
+  Dmg/10R:   avg=383  min=262  max=430
   To Hit:    avg=+9  min=+8  max=+13
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=23
@@ -258,8 +258,8 @@ LEVEL 9
     AC:       Tanker Archer (28)
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (6)
-    Dmg:      Fire Mage (35)
-    Dmg/10R:  Water Mage (400)
+    Dmg:      Full Melee Fighter (42)
+    Dmg/10R:  Martial Fighter (430)
     To Hit:   Martial Fighter (+13)
 
 LEVEL 10
@@ -270,8 +270,8 @@ LEVEL 10
   AC:        avg=18  min=10  max=28
   Feats:     avg=3  min=3  max=3
   Spells:    avg=3  min=0  max=6
-  Dmg/Turn:  avg=30  min=24  max=36
-  Dmg/10R:   avg=354  min=247  max=443
+  Dmg/Turn:  avg=35  min=24  max=48
+  Dmg/10R:   avg=418  min=300  max=490
   To Hit:    avg=+9  min=+8  max=+13
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=23
@@ -287,8 +287,8 @@ LEVEL 10
     AC:       Tanker Archer (28)
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (6)
-    Dmg:      Full Melee Fighter (36)
-    Dmg/10R:  Earth Mage (443)
+    Dmg:      Full Melee Fighter (48)
+    Dmg/10R:  Martial Fighter (490)
     To Hit:   Martial Fighter (+13)
 
 LEVEL 11
@@ -299,8 +299,8 @@ LEVEL 11
   AC:        avg=18  min=10  max=28
   Feats:     avg=3  min=3  max=3
   Spells:    avg=3  min=0  max=6
-  Dmg/Turn:  avg=30  min=24  max=36
-  Dmg/10R:   avg=362  min=247  max=460
+  Dmg/Turn:  avg=35  min=24  max=48
+  Dmg/10R:   avg=423  min=314  max=490
   To Hit:    avg=+9  min=+8  max=+13
   STR:       avg=14  min=9  max=24
   DEX:       avg=13  min=11  max=23
@@ -316,8 +316,8 @@ LEVEL 11
     AC:       Tanker Archer (28)
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (6)
-    Dmg:      Full Melee Fighter (36)
-    Dmg/10R:  Earth Mage (460)
+    Dmg:      Full Melee Fighter (48)
+    Dmg/10R:  Martial Fighter (490)
     To Hit:   Martial Fighter (+13)
 
 LEVEL 12
@@ -328,8 +328,8 @@ LEVEL 12
   AC:        avg=18  min=10  max=29
   Feats:     avg=4  min=4  max=4
   Spells:    avg=3  min=0  max=7
-  Dmg/Turn:  avg=32  min=24  max=39
-  Dmg/10R:   avg=394  min=255  max=559
+  Dmg/Turn:  avg=38  min=24  max=48
+  Dmg/10R:   avg=459  min=339  max=576
   To Hit:    avg=+10  min=+9  max=+14
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=23
@@ -345,8 +345,8 @@ LEVEL 12
     AC:       Tanker Archer (29)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (7)
-    Dmg:      Fire Mage (39)
-    Dmg/10R:  Earth Mage (559)
+    Dmg:      Full Melee Fighter (48)
+    Dmg/10R:  Earth Mage (576)
     To Hit:   Martial Fighter (+14)
 
 LEVEL 13
@@ -357,8 +357,8 @@ LEVEL 13
   AC:        avg=18  min=10  max=29
   Feats:     avg=4  min=4  max=4
   Spells:    avg=3  min=0  max=7
-  Dmg/Turn:  avg=32  min=24  max=39
-  Dmg/10R:   avg=404  min=255  max=598
+  Dmg/Turn:  avg=38  min=24  max=48
+  Dmg/10R:   avg=467  min=340  max=615
   To Hit:    avg=+10  min=+9  max=+14
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=23
@@ -374,8 +374,8 @@ LEVEL 13
     AC:       Tanker Archer (29)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (7)
-    Dmg:      Fire Mage (39)
-    Dmg/10R:  Earth Mage (598)
+    Dmg:      Full Melee Fighter (48)
+    Dmg/10R:  Earth Mage (615)
     To Hit:   Martial Fighter (+14)
 
 LEVEL 14
@@ -386,8 +386,8 @@ LEVEL 14
   AC:        avg=19  min=10  max=32
   Feats:     avg=4  min=4  max=4
   Spells:    avg=3  min=0  max=7
-  Dmg/Turn:  avg=33  min=24  max=44
-  Dmg/10R:   avg=429  min=255  max=619
+  Dmg/Turn:  avg=39  min=24  max=60
+  Dmg/10R:   avg=495  min=340  max=630
   To Hit:    avg=+10  min=+9  max=+14
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=23
@@ -403,8 +403,8 @@ LEVEL 14
     AC:       Tanker Archer (32)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (7)
-    Dmg:      Martial Fighter (44)
-    Dmg/10R:  Earth Mage (619)
+    Dmg:      Martial Fighter (60)
+    Dmg/10R:  Earth Mage (630)
     To Hit:   Martial Fighter (+14)
 
 LEVEL 15
@@ -415,8 +415,8 @@ LEVEL 15
   AC:        avg=19  min=11  max=32
   Feats:     avg=5  min=5  max=5
   Spells:    avg=4  min=0  max=8
-  Dmg/Turn:  avg=33  min=24  max=44
-  Dmg/10R:   avg=440  min=255  max=665
+  Dmg/Turn:  avg=39  min=24  max=60
+  Dmg/10R:   avg=503  min=340  max=671
   To Hit:    avg=+12  min=+10  max=+15
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=23
@@ -432,8 +432,8 @@ LEVEL 15
     AC:       Tanker Archer (32)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (8)
-    Dmg:      Martial Fighter (44)
-    Dmg/10R:  Earth Mage (665)
+    Dmg:      Martial Fighter (60)
+    Dmg/10R:  Earth Mage (671)
     To Hit:   Martial Fighter (+15)
 
 LEVEL 16
@@ -444,8 +444,8 @@ LEVEL 16
   AC:        avg=19  min=11  max=32
   Feats:     avg=5  min=5  max=5
   Spells:    avg=4  min=0  max=8
-  Dmg/Turn:  avg=34  min=24  max=48
-  Dmg/10R:   avg=482  min=262  max=730
+  Dmg/Turn:  avg=41  min=24  max=63
+  Dmg/10R:   avg=549  min=350  max=730
   To Hit:    avg=+12  min=+10  max=+15
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=23
@@ -461,7 +461,7 @@ LEVEL 16
     AC:       Tanker Archer (32)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (8)
-    Dmg:      Archer (48)
+    Dmg:      Archer (63)
     Dmg/10R:  Earth Mage (730)
     To Hit:   Martial Fighter (+15)
 
@@ -473,8 +473,8 @@ LEVEL 17
   AC:        avg=19  min=11  max=32
   Feats:     avg=5  min=5  max=5
   Spells:    avg=4  min=0  max=8
-  Dmg/Turn:  avg=34  min=24  max=48
-  Dmg/10R:   avg=499  min=262  max=780
+  Dmg/Turn:  avg=41  min=24  max=63
+  Dmg/10R:   avg=566  min=350  max=780
   To Hit:    avg=+12  min=+10  max=+15
   STR:       avg=14  min=9  max=25
   DEX:       avg=13  min=11  max=23
@@ -490,7 +490,7 @@ LEVEL 17
     AC:       Tanker Archer (32)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (8)
-    Dmg:      Archer (48)
+    Dmg:      Archer (63)
     Dmg/10R:  Earth Mage (780)
     To Hit:   Martial Fighter (+15)
 
@@ -502,8 +502,8 @@ LEVEL 18
   AC:        avg=19  min=11  max=33
   Feats:     avg=6  min=6  max=6
   Spells:    avg=4  min=0  max=9
-  Dmg/Turn:  avg=35  min=26  max=48
-  Dmg/10R:   avg=518  min=262  max=780
+  Dmg/Turn:  avg=41  min=32  max=63
+  Dmg/10R:   avg=582  min=350  max=780
   To Hit:    avg=+13  min=+11  max=+16
   STR:       avg=14  min=9  max=25
   DEX:       avg=14  min=12  max=24
@@ -519,7 +519,7 @@ LEVEL 18
     AC:       Tanker Archer (33)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (9)
-    Dmg:      Archer (48)
+    Dmg:      Archer (63)
     Dmg/10R:  Earth Mage (780)
     To Hit:   Martial Fighter (+16)
 
@@ -531,8 +531,8 @@ LEVEL 19
   AC:        avg=19  min=11  max=33
   Feats:     avg=6  min=6  max=6
   Spells:    avg=4  min=0  max=9
-  Dmg/Turn:  avg=35  min=26  max=48
-  Dmg/10R:   avg=531  min=262  max=780
+  Dmg/Turn:  avg=41  min=32  max=63
+  Dmg/10R:   avg=594  min=350  max=780
   To Hit:    avg=+13  min=+11  max=+16
   STR:       avg=14  min=9  max=25
   DEX:       avg=14  min=12  max=24
@@ -548,7 +548,7 @@ LEVEL 19
     AC:       Tanker Archer (33)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (9)
-    Dmg:      Archer (48)
+    Dmg:      Archer (63)
     Dmg/10R:  Fire Mage (780)
     To Hit:   Martial Fighter (+16)
 
@@ -560,8 +560,8 @@ LEVEL 20
   AC:        avg=19  min=11  max=33
   Feats:     avg=6  min=6  max=6
   Spells:    avg=4  min=0  max=9
-  Dmg/Turn:  avg=35  min=26  max=48
-  Dmg/10R:   avg=538  min=277  max=780
+  Dmg/Turn:  avg=42  min=33  max=66
+  Dmg/10R:   avg=603  min=370  max=780
   To Hit:    avg=+13  min=+11  max=+18
   STR:       avg=14  min=9  max=29
   DEX:       avg=14  min=12  max=24
@@ -577,7 +577,7 @@ LEVEL 20
     AC:       Tanker Archer (33)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (9)
-    Dmg:      Archer (48)
+    Dmg:      Archer (66)
     Dmg/10R:  Fire Mage (780)
     To Hit:   Martial Fighter (+18)
 
@@ -589,8 +589,8 @@ LEVEL 25
   AC:        avg=20  min=11  max=34
   Feats:     avg=8  min=8  max=8
   Spells:    avg=5  min=0  max=11
-  Dmg/Turn:  avg=45  min=35  max=75
-  Dmg/10R:   avg=821  min=438  max=1282
+  Dmg/Turn:  avg=55  min=35  max=102
+  Dmg/10R:   avg=917  min=585  max=1282
   To Hit:    avg=+15  min=+14  max=+20
   STR:       avg=15  min=10  max=29
   DEX:       avg=14  min=12  max=24
@@ -606,7 +606,7 @@ LEVEL 25
     AC:       Tanker Archer (34)
     Feats:    Jack of all Trades (8)
     Spells:   Jack of all Trades (11)
-    Dmg:      Martial Fighter (75)
+    Dmg:      Martial Fighter (102)
     Dmg/10R:  Fire Mage (1282)
     To Hit:   Martial Fighter (+20)
 
@@ -618,8 +618,8 @@ LEVEL 30
   AC:        avg=20  min=11  max=36
   Feats:     avg=10  min=10  max=10
   Spells:    avg=6  min=0  max=13
-  Dmg/Turn:  avg=53  min=44  max=108
-  Dmg/10R:   avg=987  min=461  max=1597
+  Dmg/Turn:  avg=64  min=44  max=144
+  Dmg/10R:   avg=1094  min=615  max=1597
   To Hit:    avg=+17  min=+16  max=+22
   STR:       avg=15  min=10  max=29
   DEX:       avg=14  min=12  max=25
@@ -635,7 +635,7 @@ LEVEL 30
     AC:       Tanker Archer (36)
     Feats:    Jack of all Trades (10)
     Spells:   Jack of all Trades (13)
-    Dmg:      Martial Fighter (108)
+    Dmg:      Martial Fighter (144)
     Dmg/10R:  Fire Mage (1597)
     To Hit:   Martial Fighter (+22)
 
@@ -647,8 +647,8 @@ LEVEL 40
   AC:        avg=21  min=12  max=38
   Feats:     avg=13  min=13  max=13
   Spells:    avg=8  min=0  max=16
-  Dmg/Turn:  avg=73  min=51  max=160
-  Dmg/10R:   avg=1544  min=720  max=2490
+  Dmg/Turn:  avg=89  min=51  max=216
+  Dmg/10R:   avg=1703  min=960  max=2490
   To Hit:    avg=+20  min=+19  max=+28
   STR:       avg=16  min=10  max=35
   DEX:       avg=15  min=13  max=25
@@ -664,7 +664,7 @@ LEVEL 40
     AC:       Tanker Archer (38)
     Feats:    Jack of all Trades (13)
     Spells:   Jack of all Trades (16)
-    Dmg:      Martial Fighter (160)
+    Dmg:      Martial Fighter (216)
     Dmg/10R:  Fire Mage (2490)
     To Hit:   Martial Fighter (+28)
 
@@ -676,8 +676,8 @@ LEVEL 50
   AC:        avg=22  min=12  max=38
   Feats:     avg=16  min=16  max=16
   Spells:    avg=10  min=0  max=19
-  Dmg/Turn:  avg=86  min=60  max=220
-  Dmg/10R:   avg=1830  min=795  max=2970
+  Dmg/Turn:  avg=106  min=60  max=296
+  Dmg/10R:   avg=2017  min=1060  max=2975
   To Hit:    avg=+24  min=+22  max=+34
   STR:       avg=17  min=11  max=41
   DEX:       avg=15  min=13  max=26
@@ -693,8 +693,8 @@ LEVEL 50
     AC:       Tanker Archer (38)
     Feats:    Jack of all Trades (16)
     Spells:   Jack of all Trades (19)
-    Dmg:      Martial Fighter (220)
-    Dmg/10R:  Fire Mage (2970)
+    Dmg:      Martial Fighter (296)
+    Dmg/10R:  Martial Fighter (2975)
     To Hit:   Martial Fighter (+34)
 
 LEVEL 60
@@ -705,8 +705,8 @@ LEVEL 60
   AC:        avg=23  min=13  max=38
   Feats:     avg=20  min=20  max=20
   Spells:    avg=12  min=0  max=23
-  Dmg/Turn:  avg=108  min=68  max=290
-  Dmg/10R:   avg=2564  min=1068  max=4237
+  Dmg/Turn:  avg=133  min=68  max=390
+  Dmg/10R:   avg=2807  min=1425  max=4237
   To Hit:    avg=+28  min=+27  max=+39
   STR:       avg=17  min=11  max=42
   DEX:       avg=16  min=14  max=27
@@ -722,7 +722,7 @@ LEVEL 60
     AC:       Tanker Archer (38)
     Feats:    Jack of all Trades (20)
     Spells:   Jack of all Trades (23)
-    Dmg:      Martial Fighter (290)
+    Dmg:      Martial Fighter (390)
     Dmg/10R:  Fire Mage (4237)
     To Hit:   Martial Fighter (+39)
 
@@ -734,8 +734,8 @@ LEVEL 70
   AC:        avg=24  min=14  max=39
   Feats:     avg=23  min=23  max=23
   Spells:    avg=13  min=0  max=26
-  Dmg/Turn:  avg=120  min=78  max=320
-  Dmg/10R:   avg=2901  min=1106  max=4912
+  Dmg/Turn:  avg=146  min=78  max=425
+  Dmg/10R:   avg=3165  min=1475  max=4912
   To Hit:    avg=+32  min=+30  max=+45
   STR:       avg=18  min=12  max=48
   DEX:       avg=17  min=14  max=28
@@ -751,7 +751,7 @@ LEVEL 70
     AC:       Tanker (39)
     Feats:    Jack of all Trades (23)
     Spells:   Jack of all Trades (26)
-    Dmg:      Martial Fighter (320)
+    Dmg:      Martial Fighter (425)
     Dmg/10R:  Mage Jack of all Trades (4912)
     To Hit:   Martial Fighter (+45)
 
@@ -763,8 +763,8 @@ LEVEL 80
   AC:        avg=24  min=14  max=40
   Feats:     avg=26  min=26  max=26
   Spells:    avg=15  min=0  max=29
-  Dmg/Turn:  avg=141  min=86  max=384
-  Dmg/10R:   avg=3779  min=1327  max=6615
+  Dmg/Turn:  avg=174  min=86  max=510
+  Dmg/10R:   avg=4100  min=1770  max=6615
   To Hit:    avg=+35  min=+33  max=+48
   STR:       avg=19  min=12  max=49
   DEX:       avg=17  min=14  max=28
@@ -780,7 +780,7 @@ LEVEL 80
     AC:       Tanker (40)
     Feats:    Jack of all Trades (26)
     Spells:   Jack of all Trades (29)
-    Dmg:      Martial Fighter (384)
+    Dmg:      Martial Fighter (510)
     Dmg/10R:  Mage Jack of all Trades (6615)
     To Hit:   Martial Fighter (+48)
 
@@ -792,8 +792,8 @@ LEVEL 90
   AC:        avg=24  min=14  max=40
   Feats:     avg=30  min=30  max=30
   Spells:    avg=17  min=0  max=33
-  Dmg/Turn:  avg=167  min=99  max=448
-  Dmg/10R:   avg=5169  min=1548  max=12862
+  Dmg/Turn:  avg=204  min=99  max=595
+  Dmg/10R:   avg=5539  min=2065  max=12862
   To Hit:    avg=+41  min=+37  max=+54
   STR:       avg=19  min=13  max=49
   DEX:       avg=18  min=15  max=29
@@ -809,7 +809,7 @@ LEVEL 90
     AC:       Tanker (40)
     Feats:    Jack of all Trades (30)
     Spells:   Jack of all Trades (33)
-    Dmg:      Martial Fighter (448)
+    Dmg:      Martial Fighter (595)
     Dmg/10R:  Necrotic Mage (12862)
     To Hit:   Martial Fighter (+54)
 
@@ -821,8 +821,8 @@ LEVEL 100
   AC:        avg=24  min=15  max=40
   Feats:     avg=33  min=33  max=33
   Spells:    avg=19  min=0  max=36
-  Dmg/Turn:  avg=220  min=154  max=455
-  Dmg/10R:   avg=8708  min=1601  max=18952
+  Dmg/Turn:  avg=259  min=195  max=602
+  Dmg/10R:   avg=9090  min=2135  max=18952
   To Hit:    avg=+44  min=+41  max=+60
   STR:       avg=20  min=13  max=50
   DEX:       avg=18  min=15  max=29
@@ -838,7 +838,7 @@ LEVEL 100
     AC:       Tanker (40)
     Feats:    Jack of all Trades (33)
     Spells:   Jack of all Trades (36)
-    Dmg:      Martial Fighter (455)
+    Dmg:      Martial Fighter (602)
     Dmg/10R:  Mage Jack of all Trades (18952)
     To Hit:   Martial Fighter (+60)
 
@@ -850,8 +850,8 @@ LEVEL 1000
   AC:        avg=25  min=16  max=41
   Feats:     avg=333  min=333  max=333
   Spells:    avg=179  min=0  max=336
-  Dmg/Turn:  avg=1773  min=806  max=4800
-  Dmg/10R:   avg=291727  min=20640  max=824160
+  Dmg/Turn:  avg=2225  min=806  max=6400
+  Dmg/10R:   avg=295418  min=27520  max=824160
   To Hit:    avg=+369  min=+361  max=+377
   STR:       avg=43  min=35  max=72
   DEX:       avg=41  min=37  max=58
@@ -867,7 +867,7 @@ LEVEL 1000
     AC:       Tanker (41)
     Feats:    Jack of all Trades (333)
     Spells:   Jack of all Trades (336)
-    Dmg:      Martial Fighter (4800)
+    Dmg:      Martial Fighter (6400)
     Dmg/10R:  Mage Jack of all Trades (824160)
     To Hit:   Martial Fighter (+377)
 

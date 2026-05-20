@@ -1,0 +1,62 @@
+{
+  "none": {
+    "ac_bonus": 0,
+    "max_dex": 4,
+    "label": "None"
+  },
+  "light": {
+    "ac_bonus": 2,
+    "max_dex": 5,
+    "label": "Light Armor"
+  },
+  "medium": {
+    "ac_bonus": 3,
+    "max_dex": 4,
+    "label": "Medium Armor"
+  },
+  "heavy": {
+    "ac_bonus": 5,
+    "max_dex": 3,
+    "label": "Heavy Armor"
+  },
+  "nerite_none": {
+    "ac_bonus": 0,
+    "max_dex": 4,
+    "label": "No Armor"
+  },
+  "nerite_light": {
+    "ac_bonus": 8,
+    "max_dex": 5,
+    "label": "Nerite Light Armor"
+  },
+  "nerite_medium": {
+    "ac_bonus": 11,
+    "max_dex": 4,
+    "label": "Nerite Medium Armor"
+  },
+  "nerite_heavy": {
+    "ac_bonus": 14,
+    "max_dex": 3,
+    "label": "Nerite Heavy Armor"
+  },
+  "dragon_none": {
+    "ac_bonus": 0,
+    "max_dex": 4,
+    "label": "No Armor"
+  },
+  "dragon_light": {
+    "ac_bonus": 11,
+    "max_dex": 5,
+    "label": "Dragon Scale Light Armor"
+  },
+  "dragon_medium": {
+    "ac_bonus": 14,
+    "max_dex": 4,
+    "label": "Dragon Scale Medium Armor"
+  },
+  "dragon_heavy": {
+    "ac_bonus": 17,
+    "max_dex": 3,
+    "label": "Dragon Scale Heavy Armor"
+  }
+}
