@@ -7,9 +7,9 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 12 (+1) = 6 + 6
-    DEX: 20 (+5) = 11 + 9
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -24,13 +24,13 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
   HEALTH POOLS:
     Vitality: 13 = 2d8 (4 x 2) + 0(flat) + 2 x 2(Con)
     Health:  7 = 2d6 (3 x 2) + 0(flat)
-    Mana:   7 = 2d6 (3 x 2) + 0 x 2(Wis)
+    Mana:   5 = 2d6 (3 x 2) + -1 x 2(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 71
 
   RESOURCES:
     Skill Points:  7
@@ -45,15 +45,13 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
   PATHS:
     Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : -2
+    Air            : 1
+    Earth          : 1
     Fire           : 1
     Generic        : 1
-    Necrotic       : -3
-    Radiant        : 4
+    Radiant        : 1
     Water          : 1
 
   GEAR:
@@ -66,9 +64,9 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 12 (+1) = 6 + 6
-    DEX: 20 (+5) = 11 + 9
+    DEX: 21 (+5) = 11 + 10
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -83,13 +81,13 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
   HEALTH POOLS:
     Vitality: 21 = 3d8 (4 x 3) + 2(flat) + 2 x 3(Con)
     Health:  11 = 3d6 (3 x 3) + 1(flat)
-    Mana:   10 = 3d6 (3 x 3) + 0 x 3(Wis)
+    Mana:   7 = 3d6 (3 x 3) + -1 x 3(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 71
 
   RESOURCES:
     Skill Points:  11
@@ -104,15 +102,13 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
   PATHS:
     Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : -2
+    Air            : 1
+    Earth          : 1
     Fire           : 1
     Generic        : 1
-    Necrotic       : -3
-    Radiant        : 4
+    Radiant        : 1
     Water          : 1
 
   GEAR:
@@ -124,10 +120,10 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
+    STR: 13 (+1) = 6 + 7
     DEX: 21 (+5) = 11 + 10
-    CON: 14 (+2) = 8 + 6
-    WIS: 10 (+0) = 8 + 2
+    CON: 15 (+2) = 8 + 7
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -142,13 +138,13 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
   HEALTH POOLS:
     Vitality: 31 = 4d8 (4 x 4) + 5(flat) + 2 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
-    Mana:   14 = 4d6 (3 x 4) + 0 x 4(Wis)
+    Mana:   10 = 4d6 (3 x 4) + -1 x 4(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 71
 
   RESOURCES:
     Skill Points:  15
@@ -164,16 +160,15 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
   PATHS:
     Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : -2
+    Air            : 1
+    Earth          : 1
     Fire           : 1
     Generic        : 1
-    Necrotic       : -2
+    Necrotic       : 1
     Psychic        : 1
-    Radiant        : 4
+    Radiant        : 1
     Water          : 1
 
   GEAR:
@@ -185,10 +180,10 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
+    STR: 13 (+1) = 6 + 7
     DEX: 21 (+5) = 11 + 10
-    CON: 14 (+2) = 8 + 6
-    WIS: 10 (+0) = 8 + 2
+    CON: 15 (+2) = 8 + 7
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -198,18 +193,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +4 | Ranged: +7
+    To Hit: Melee: +4 | Ranged: +8
 
   HEALTH POOLS:
     Vitality: 40 = 5d8 (4 x 5) + 8(flat) + 2 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   17 = 5d6 (3 x 5) + 0 x 5(Wis)
+    Mana:   12 = 5d6 (3 x 5) + -1 x 5(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 71
 
   RESOURCES:
     Skill Points:  17
@@ -223,18 +218,17 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 0)
+    Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : -2
+    Air            : 1
+    Earth          : 1
     Fire           : 1
     Generic        : 1
-    Necrotic       : -2
+    Necrotic       : 1
     Psychic        : 1
-    Radiant        : 4
+    Radiant        : 1
     Water          : 1
 
   GEAR:
@@ -246,10 +240,10 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
+    STR: 13 (+1) = 6 + 7
     DEX: 21 (+5) = 11 + 10
-    CON: 14 (+2) = 8 + 6
-    WIS: 10 (+0) = 8 + 2
+    CON: 15 (+2) = 8 + 7
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -259,18 +253,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +4 | Ranged: +7
+    To Hit: Melee: +4 | Ranged: +8
 
   HEALTH POOLS:
     Vitality: 48 = 6d8 (4 x 6) + 9(flat) + 2 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   21 = 6d6 (3 x 6) + 0 x 6(Wis)
+    Mana:   15 = 6d6 (3 x 6) + -1 x 6(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 71
 
   RESOURCES:
     Skill Points:  19
@@ -284,18 +278,17 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 0)
+    Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : -2
+    Air            : 1
+    Earth          : 1
     Fire           : 1
     Generic        : 1
-    Necrotic       : -2
+    Necrotic       : 1
     Psychic        : 1
-    Radiant        : 4
+    Radiant        : 1
     Water          : 1
 
   GEAR:
@@ -307,10 +300,10 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
+    STR: 13 (+1) = 6 + 7
     DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -323,15 +316,15 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +5 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 57 = 7d8 (4 x 7) + 12(flat) + 2 x 7(Con)
+    Vitality: 64 = 7d8 (4 x 7) + 12(flat) + 3 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   24 = 7d6 (3 x 7) + 0 x 7(Wis)
+    Mana:   17 = 7d6 (3 x 7) + -1 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 73
 
   RESOURCES:
     Skill Points:  23
@@ -340,24 +333,23 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Affinity Master (Points))
+    Feats:  2 (taken: Toughness, Armor Training)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
     Physical -> Marksman (Lvl 1)
-    Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
+    Utility -> Scoundrel (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : -1
+    Air            : 1
+    Earth          : 2
     Fire           : 2
     Generic        : 1
-    Necrotic       : -1
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 2
+    Necrotic       : 1
+    Psychic        : 1
+    Radiant        : 1
+    Water          : 1
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -368,10 +360,10 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
+    STR: 13 (+1) = 6 + 7
     DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -384,15 +376,15 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +5 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 65 = 8d8 (4 x 8) + 13(flat) + 2 x 8(Con)
+    Vitality: 73 = 8d8 (4 x 8) + 13(flat) + 3 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   28 = 8d6 (3 x 8) + 0 x 8(Wis)
+    Mana:   20 = 8d6 (3 x 8) + -1 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 5 | Dmg/Turn: 5
     Ranged Dmg/Hit: 7 | Dmg/Turn: 7
-    Total Dmg/10R: 70
+    Total Dmg/10R: 73
 
   RESOURCES:
     Skill Points:  25
@@ -401,24 +393,23 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Affinity Master (Points))
+    Feats:  2 (taken: Toughness, Armor Training)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
     Physical -> Marksman (Lvl 1)
-    Utility -> Scoundrel (Lvl 0)
-    Racial -> Elf Fairy (Lvl 0)
+    Utility -> Scoundrel (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : -1
+    Air            : 1
+    Earth          : 2
     Fire           : 2
     Generic        : 1
-    Necrotic       : -1
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 2
+    Necrotic       : 1
+    Psychic        : 1
+    Radiant        : 1
+    Water          : 1
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -429,10 +420,10 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
+    STR: 13 (+1) = 6 + 7
     DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
@@ -445,15 +436,15 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +5 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 74 = 9d8 (4 x 9) + 16(flat) + 2 x 9(Con)
+    Vitality: 83 = 9d8 (4 x 9) + 16(flat) + 3 x 9(Con)
     Health:  43 = 9d6 (3 x 9) + 12(flat)
-    Mana:   31 = 9d6 (3 x 9) + 0 x 9(Wis)
+    Mana:   22 = 9d6 (3 x 9) + -1 x 9(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
     Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Total Dmg/10R: 146
 
   RESOURCES:
     Skill Points:  32
@@ -462,24 +453,23 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Affinity Master (Points))
+    Feats:  2 (taken: Toughness, Armor Training)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 1)
+    Physical -> Marksman (Lvl 2)
     Utility -> Scoundrel (Lvl 1)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : -1
+    Air            : 1
+    Earth          : 2
     Fire           : 2
     Generic        : 1
-    Necrotic       : -1
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 2
+    Necrotic       : 1
+    Psychic        : 1
+    Radiant        : 1
+    Water          : 1
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -491,30 +481,30 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
+    DEX: 22 (+6) = 11 + 11
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +6 | Ranged: +10
+    To Hit: Melee: +6 | Ranged: +11
 
   HEALTH POOLS:
     Vitality: 82 = 10d8 (4 x 10) + 17(flat) + 2 x 10(Con)
     Health:  48 = 10d6 (3 x 10) + 13(flat)
-    Mana:   35 = 10d6 (3 x 10) + 0 x 10(Wis)
+    Mana:   25 = 10d6 (3 x 10) + -1 x 10(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
     Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Total Dmg/10R: 161
 
   RESOURCES:
     Skill Points:  36
@@ -528,18 +518,17 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 1)
+    Physical -> Marksman (Lvl 2)
     Utility -> Scoundrel (Lvl 1)
-    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 0
+    Air            : 2
+    Earth          : 3
     Fire           : 3
     Generic        : 1
-    Necrotic       : -1
+    Necrotic       : 2
     Psychic        : 2
-    Radiant        : 5
+    Radiant        : 2
     Water          : 2
 
   GEAR:
@@ -552,56 +541,54 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
+    DEX: 22 (+6) = 11 + 11
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +4
-    To Hit: Melee: +6 | Ranged: +10
+    To Hit: Melee: +6 | Ranged: +11
 
   HEALTH POOLS:
     Vitality: 91 = 11d8 (4 x 11) + 20(flat) + 2 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
-    Mana:   38 = 11d6 (3 x 11) + 0 x 11(Wis)
+    Mana:   27 = 11d6 (3 x 11) + -1 x 11(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
     Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Total Dmg/10R: 168
 
   RESOURCES:
-    Skill Points:  40
-    Stat Points:   1
+    Skill Points:  38
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 1)
-    Utility -> Scoundrel (Lvl 1)
-    Racial -> Elf Fairy (Lvl 1)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 0
-    Fire           : 3
+    Air            : 2
+    Earth          : 2
+    Fire           : 2
     Generic        : 1
-    Necrotic       : -1
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 3
+    Necrotic       : 1
+    Psychic        : 1
+    Radiant        : 1
+    Water          : 2
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -613,56 +600,54 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
+    DEX: 22 (+6) = 11 + 11
     CON: 15 (+2) = 8 + 7
-    WIS: 10 (+0) = 8 + 2
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +4
-    To Hit: Melee: +6 | Ranged: +10
+    To Hit: Melee: +6 | Ranged: +11
 
   HEALTH POOLS:
     Vitality: 99 = 12d8 (4 x 12) + 21(flat) + 2 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
-    Mana:   42 = 12d6 (3 x 12) + 0 x 12(Wis)
+    Mana:   30 = 12d6 (3 x 12) + -1 x 12(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
     Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Total Dmg/10R: 168
 
   RESOURCES:
-    Skill Points:  42
-    Stat Points:   1
+    Skill Points:  40
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 1)
-    Utility -> Scoundrel (Lvl 1)
-    Racial -> Elf Fairy (Lvl 1)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 0
-    Fire           : 3
+    Air            : 2
+    Earth          : 2
+    Fire           : 2
     Generic        : 1
-    Necrotic       : -1
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 3
+    Necrotic       : 1
+    Psychic        : 1
+    Radiant        : 1
+    Water          : 2
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -674,55 +659,54 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +5
-    To Hit: Melee: +7 | Ranged: +11
+    To Hit: Melee: +7 | Ranged: +12
 
   HEALTH POOLS:
-    Vitality: 108 = 13d8 (4 x 13) + 24(flat) + 2 x 13(Con)
+    Vitality: 121 = 13d8 (4 x 13) + 24(flat) + 3 x 13(Con)
     Health:  63 = 13d6 (3 x 13) + 18(flat)
-    Mana:   45 = 13d6 (3 x 13) + 0 x 13(Wis)
+    Mana:   32 = 13d6 (3 x 13) + -1 x 13(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
-    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 244
 
   RESOURCES:
-    Skill Points:  46
-    Stat Points:   1
+    Skill Points:  44
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Feats:  4 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 1)
-    Racial -> Elf Fairy (Lvl 1)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 2)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 0
-    Fire           : 4
+    Air            : 3
+    Earth          : 3
+    Fire           : 3
     Generic        : 1
-    Necrotic       : 0
-    Psychic        : 3
-    Radiant        : 6
+    Necrotic       : 2
+    Psychic        : 2
+    Radiant        : 2
     Water          : 3
 
   GEAR:
@@ -735,55 +719,54 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
-    AP: 2  BAP: 2  RP: 1
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +5
-    To Hit: Melee: +7 | Ranged: +11
+    To Hit: Melee: +7 | Ranged: +12
 
   HEALTH POOLS:
-    Vitality: 116 = 14d8 (4 x 14) + 25(flat) + 2 x 14(Con)
+    Vitality: 130 = 14d8 (4 x 14) + 25(flat) + 3 x 14(Con)
     Health:  68 = 14d6 (3 x 14) + 19(flat)
-    Mana:   49 = 14d6 (3 x 14) + 0 x 14(Wis)
+    Mana:   35 = 14d6 (3 x 14) + -1 x 14(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
-    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 244
 
   RESOURCES:
-    Skill Points:  48
-    Stat Points:   1
+    Skill Points:  46
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
-        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Feats:  4 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points))
+        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 1)
-    Racial -> Elf Fairy (Lvl 1)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 2)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 0
-    Fire           : 4
+    Air            : 3
+    Earth          : 3
+    Fire           : 3
     Generic        : 1
-    Necrotic       : 0
-    Psychic        : 3
-    Radiant        : 6
+    Necrotic       : 2
+    Psychic        : 2
+    Radiant        : 2
     Water          : 3
 
   GEAR:
@@ -796,34 +779,34 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 
   STATS:
     STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +5
-    To Hit: Melee: +7 | Ranged: +11
+    To Hit: Melee: +7 | Ranged: +12
 
   HEALTH POOLS:
-    Vitality: 125 = 15d8 (4 x 15) + 28(flat) + 2 x 15(Con)
+    Vitality: 140 = 15d8 (4 x 15) + 28(flat) + 3 x 15(Con)
     Health:  73 = 15d6 (3 x 15) + 21(flat)
-    Mana:   52 = 15d6 (3 x 15) + 0 x 15(Wis)
+    Mana:   37 = 15d6 (3 x 15) + -1 x 15(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 5 | Dmg/Turn: 10
-    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 262
 
   RESOURCES:
-    Skill Points:  50
-    Stat Points:   1
+    Skill Points:  48
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
@@ -833,18 +816,17 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
-    Racial -> Elf Fairy (Lvl 1)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 0
+    Air            : 3
+    Earth          : 3
     Fire           : 3
     Generic        : 1
-    Necrotic       : -1
+    Necrotic       : 2
     Psychic        : 2
-    Radiant        : 6
+    Radiant        : 2
     Water          : 3
 
   GEAR:
@@ -856,56 +838,55 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +8 | Ranged: +12
+    To Hit: Melee: +9 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 133 = 16d8 (4 x 16) + 29(flat) + 2 x 16(Con)
+    Vitality: 149 = 16d8 (4 x 16) + 29(flat) + 3 x 16(Con)
     Health:  78 = 16d6 (3 x 16) + 22(flat)
-    Mana:   56 = 16d6 (3 x 16) + 0 x 16(Wis)
+    Mana:   40 = 16d6 (3 x 16) + -1 x 16(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 5 | Dmg/Turn: 10
-    Ranged Dmg/Hit: 7 | Dmg/Turn: 14
-    Total Dmg/10R: 140
+    Melee Dmg/Hit: 6 | Dmg/Turn: 12
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 262
 
   RESOURCES:
-    Skill Points:  54
-    Stat Points:   1
+    Skill Points:  52
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive)
+    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
-    Racial -> Elf Fairy (Lvl 1)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 0
+    Air            : 3
+    Earth          : 3
     Fire           : 3
     Generic        : 1
-    Necrotic       : 0
-    Psychic        : 3
-    Radiant        : 6
+    Necrotic       : 3
+    Psychic        : 2
+    Radiant        : 3
     Water          : 3
 
   GEAR:
@@ -917,56 +898,55 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 2  BAP: 4  RP: 1
     Proficiency: +6
-    To Hit: Melee: +8 | Ranged: +12
+    To Hit: Melee: +9 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 142 = 17d8 (4 x 17) + 32(flat) + 2 x 17(Con)
+    Vitality: 159 = 17d8 (4 x 17) + 32(flat) + 3 x 17(Con)
     Health:  83 = 17d6 (3 x 17) + 24(flat)
-    Mana:   59 = 17d6 (3 x 17) + 0 x 17(Wis)
+    Mana:   42 = 17d6 (3 x 17) + -1 x 17(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 5 | Dmg/Turn: 15
-    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
-    Total Dmg/10R: 210
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 33
+    Total Dmg/10R: 398
 
   RESOURCES:
-    Skill Points:  61
-    Stat Points:   3
+    Skill Points:  59
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive)
+    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
-    Racial -> Elf Fairy (Lvl 2)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 1
-    Fire           : 4
+    Air            : 3
+    Earth          : 3
+    Fire           : 3
     Generic        : 1
-    Necrotic       : 0
-    Psychic        : 3
-    Radiant        : 6
+    Necrotic       : 3
+    Psychic        : 2
+    Radiant        : 3
     Water          : 3
 
   GEAR:
@@ -978,56 +958,55 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 16 (+3) = 8 + 8
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 2  BAP: 4  RP: 1
     Proficiency: +6
-    To Hit: Melee: +8 | Ranged: +12
+    To Hit: Melee: +9 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 150 = 18d8 (4 x 18) + 33(flat) + 2 x 18(Con)
+    Vitality: 168 = 18d8 (4 x 18) + 33(flat) + 3 x 18(Con)
     Health:  88 = 18d6 (3 x 18) + 25(flat)
-    Mana:   63 = 18d6 (3 x 18) + 0 x 18(Wis)
+    Mana:   45 = 18d6 (3 x 18) + -1 x 18(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 5 | Dmg/Turn: 15
-    Ranged Dmg/Hit: 7 | Dmg/Turn: 21
-    Total Dmg/10R: 210
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 33
+    Total Dmg/10R: 398
 
   RESOURCES:
-    Skill Points:  63
-    Stat Points:   3
+    Skill Points:  61
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive)
+    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
-    Racial -> Elf Fairy (Lvl 2)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 3)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 1
-    Fire           : 4
+    Air            : 3
+    Earth          : 3
+    Fire           : 3
     Generic        : 1
-    Necrotic       : 0
-    Psychic        : 3
-    Radiant        : 6
+    Necrotic       : 3
+    Psychic        : 2
+    Radiant        : 3
     Water          : 3
 
   GEAR:
@@ -1039,57 +1018,56 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 17 (+3) = 8 + 9
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 2  BAP: 4  RP: 1
     Proficiency: +7
-    To Hit: Melee: +9 | Ranged: +13
+    To Hit: Melee: +10 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 159 = 19d8 (4 x 19) + 36(flat) + 2 x 19(Con)
+    Vitality: 178 = 19d8 (4 x 19) + 36(flat) + 3 x 19(Con)
     Health:  93 = 19d6 (3 x 19) + 27(flat)
-    Mana:   66 = 19d6 (3 x 19) + 0 x 19(Wis)
+    Mana:   47 = 19d6 (3 x 19) + -1 x 19(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 5 | Dmg/Turn: 15
-    Ranged Dmg/Hit: 10 | Dmg/Turn: 30
-    Total Dmg/10R: 300
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 33
+    Total Dmg/10R: 398
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   3
+    Skill Points:  65
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive, Affinity Master (Choose))
+    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 2)
-    Racial -> Elf Fairy (Lvl 2)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 1
+    Air            : 3
+    Earth          : 3
     Fire           : 4
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 4
-    Radiant        : 7
-    Water          : 4
+    Necrotic       : 3
+    Psychic        : 3
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1100,57 +1078,56 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 17 (+3) = 8 + 9
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 2  BAP: 4  RP: 1
     Proficiency: +7
-    To Hit: Melee: +9 | Ranged: +13
+    To Hit: Melee: +10 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 167 = 20d8 (4 x 20) + 37(flat) + 2 x 20(Con)
+    Vitality: 187 = 20d8 (4 x 20) + 37(flat) + 3 x 20(Con)
     Health:  98 = 20d6 (3 x 20) + 28(flat)
-    Mana:   70 = 20d6 (3 x 20) + 0 x 20(Wis)
+    Mana:   50 = 20d6 (3 x 20) + -1 x 20(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 5 | Dmg/Turn: 15
-    Ranged Dmg/Hit: 10 | Dmg/Turn: 30
-    Total Dmg/10R: 300
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 33
+    Total Dmg/10R: 398
 
   RESOURCES:
-    Skill Points:  69
-    Stat Points:   3
+    Skill Points:  67
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive, Affinity Master (Choose))
+    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 2)
-    Racial -> Elf Fairy (Lvl 2)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 1
+    Air            : 3
+    Earth          : 3
     Fire           : 4
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 4
-    Radiant        : 7
-    Water          : 4
+    Necrotic       : 3
+    Psychic        : 3
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1161,57 +1138,56 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 22 (+6) = 11 + 11
+    CON: 17 (+3) = 8 + 9
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
-    Initiative: +5
+    Initiative: +6
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +7
-    To Hit: Melee: +9 | Ranged: +13
+    To Hit: Melee: +10 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 176 = 21d8 (4 x 21) + 40(flat) + 2 x 21(Con)
+    Vitality: 197 = 21d8 (4 x 21) + 40(flat) + 3 x 21(Con)
     Health:  103 = 21d6 (3 x 21) + 30(flat)
-    Mana:   73 = 21d6 (3 x 21) + 0 x 21(Wis)
+    Mana:   52 = 21d6 (3 x 21) + -1 x 21(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 5 | Dmg/Turn: 15
-    Ranged Dmg/Hit: 10 | Dmg/Turn: 30
-    Total Dmg/10R: 300
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 12 | Dmg/Turn: 36
+    Total Dmg/10R: 422
 
   RESOURCES:
-    Skill Points:  71
-    Stat Points:   3
+    Skill Points:  69
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Overdrive, Affinity Master (Choose))
+    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
-    Racial -> Elf Fairy (Lvl 2)
+    Physical -> Marksman (Lvl 5)
+    Utility -> Scoundrel (Lvl 4)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 1
+    Air            : 3
+    Earth          : 3
     Fire           : 4
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 4
-    Radiant        : 7
-    Water          : 4
+    Necrotic       : 3
+    Psychic        : 3
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1222,12 +1198,12 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
-    CON: 15 (+2) = 8 + 7
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    STR: 14 (+2) = 6 + 8
+    DEX: 23 (+6) = 11 + 12
+    CON: 17 (+3) = 8 + 9
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
@@ -1235,22 +1211,22 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 3  BAP: 5  RP: 1
     Proficiency: +9
-    To Hit: Melee: +11 | Ranged: +16
+    To Hit: Melee: +12 | Ranged: +16
 
   HEALTH POOLS:
-    Vitality: 218 = 26d8 (4 x 26) + 49(flat) + 2 x 26(Con)
+    Vitality: 244 = 26d8 (4 x 26) + 49(flat) + 3 x 26(Con)
     Health:  128 = 26d6 (3 x 26) + 37(flat)
-    Mana:   91 = 26d6 (3 x 26) + 0 x 26(Wis)
+    Mana:   65 = 26d6 (3 x 26) + -1 x 26(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 5 | Dmg/Turn: 15
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 36
-    Total Dmg/10R: 360
+    Melee Dmg/Hit: 6 | Dmg/Turn: 18
+    Ranged Dmg/Hit: 13 | Dmg/Turn: 39
+    Total Dmg/10R: 446
 
   RESOURCES:
-    Skill Points:  92
-    Stat Points:   6
+    Skill Points:  88
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    32
 
@@ -1260,19 +1236,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 4)
-    Utility -> Scoundrel (Lvl 3)
-    Racial -> Elf Fairy (Lvl 3)
+    Physical -> Marksman (Lvl 6)
+    Utility -> Scoundrel (Lvl 5)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 2
+    Air            : 4
+    Earth          : 4
     Fire           : 5
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 5
-    Radiant        : 8
-    Water          : 5
+    Necrotic       : 4
+    Psychic        : 4
+    Radiant        : 4
+    Water          : 4
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1283,12 +1258,12 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 16 (+3) = 8 + 8
-    WIS: 11 (+0) = 8 + 3
-    INT:  9 (-1) = 8 + 1
-    CHA:  9 (-1) = 8 + 1
+    STR: 15 (+2) = 6 + 9
+    DEX: 23 (+6) = 11 + 12
+    CON: 18 (+4) = 8 + 10
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 16
@@ -1299,19 +1274,19 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     To Hit: Melee: +14 | Ranged: +18
 
   HEALTH POOLS:
-    Vitality: 292 = 31d8 (4 x 31) + 60(flat) + 3 x 31(Con)
+    Vitality: 323 = 31d8 (4 x 31) + 60(flat) + 4 x 31(Con)
     Health:  153 = 31d6 (3 x 31) + 45(flat)
-    Mana:   108 = 31d6 (3 x 31) + 0 x 31(Wis)
+    Mana:   77 = 31d6 (3 x 31) + -1 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
     Melee Dmg/Hit: 6 | Dmg/Turn: 18
     Ranged Dmg/Hit: 13 | Dmg/Turn: 39
-    Total Dmg/10R: 390
+    Total Dmg/10R: 470
 
   RESOURCES:
-    Skill Points:  106
-    Stat Points:   11
+    Skill Points:  102
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    34
 
@@ -1321,19 +1296,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 5)
-    Utility -> Scoundrel (Lvl 4)
-    Racial -> Elf Fairy (Lvl 4)
+    Physical -> Marksman (Lvl 7)
+    Utility -> Scoundrel (Lvl 7)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 3
-    Fire           : 7
+    Air            : 5
+    Earth          : 5
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 6
-    Radiant        : 9
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : 4
+    Radiant        : 5
+    Water          : 5
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1344,35 +1318,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 16 (+3) = 8 + 8
-    WIS: 12 (+1) = 8 + 4
-    INT: 10 (+0) = 8 + 2
-    CHA: 10 (+0) = 8 + 2
+    STR: 16 (+3) = 6 + 10
+    DEX: 24 (+7) = 11 + 13
+    CON: 18 (+4) = 8 + 10
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 17
-    Initiative: +6
+    AC: 16
+    Initiative: +7
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +14
-    To Hit: Melee: +17 | Ranged: +21
+    To Hit: Melee: +18 | Ranged: +22
 
   HEALTH POOLS:
-    Vitality: 387 = 41d8 (4 x 41) + 80(flat) + 3 x 41(Con)
+    Vitality: 428 = 41d8 (4 x 41) + 80(flat) + 4 x 41(Con)
     Health:  203 = 41d6 (3 x 41) + 60(flat)
-    Mana:   184 = 41d6 (3 x 41) + 1 x 41(Wis)
+    Mana:   102 = 41d6 (3 x 41) + -1 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 6 | Dmg/Turn: 24
-    Ranged Dmg/Hit: 13 | Dmg/Turn: 52
-    Total Dmg/10R: 520
+    Melee Dmg/Hit: 7 | Dmg/Turn: 28
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 64
+    Total Dmg/10R: 745
 
   RESOURCES:
-    Skill Points:  142
-    Stat Points:   21
+    Skill Points:  138
+    Stat Points:   6
     Affinity Pts:  0
     Stat Spent:    37
 
@@ -1382,19 +1356,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 6)
-    Utility -> Scoundrel (Lvl 6)
-    Racial -> Elf Fairy (Lvl 6)
+    Physical -> Marksman (Lvl 10)
+    Utility -> Scoundrel (Lvl 9)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 6
-    Fire           : 9
+    Fire           : 6
     Generic        : 1
     Necrotic       : 5
-    Psychic        : 8
-    Radiant        : 11
-    Water          : 9
+    Psychic        : 5
+    Radiant        : 5
+    Water          : 6
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1405,35 +1378,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 23 (+6) = 11 + 12
-    CON: 17 (+3) = 8 + 9
-    WIS: 12 (+1) = 8 + 4
-    INT: 10 (+0) = 8 + 2
-    CHA: 10 (+0) = 8 + 2
+    STR: 16 (+3) = 6 + 10
+    DEX: 25 (+7) = 11 + 14
+    CON: 19 (+4) = 8 + 11
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 17
-    Initiative: +6
+    AC: 16
+    Initiative: +7
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +17
-    To Hit: Melee: +20 | Ranged: +24
+    To Hit: Melee: +21 | Ranged: +25
 
   HEALTH POOLS:
-    Vitality: 482 = 51d8 (4 x 51) + 100(flat) + 3 x 51(Con)
+    Vitality: 533 = 51d8 (4 x 51) + 100(flat) + 4 x 51(Con)
     Health:  253 = 51d6 (3 x 51) + 75(flat)
-    Mana:   229 = 51d6 (3 x 51) + 1 x 51(Wis)
+    Mana:   127 = 51d6 (3 x 51) + -1 x 51(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 6 | Dmg/Turn: 30
-    Ranged Dmg/Hit: 15 | Dmg/Turn: 75
-    Total Dmg/10R: 750
+    Melee Dmg/Hit: 7 | Dmg/Turn: 35
+    Ranged Dmg/Hit: 18 | Dmg/Turn: 90
+    Total Dmg/10R: 1004
 
   RESOURCES:
-    Skill Points:  173
-    Stat Points:   28
+    Skill Points:  169
+    Stat Points:   9
     Affinity Pts:  0
     Stat Spent:    40
 
@@ -1443,19 +1416,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 8)
-    Utility -> Scoundrel (Lvl 8)
-    Racial -> Elf Fairy (Lvl 7)
+    Physical -> Marksman (Lvl 12)
+    Utility -> Scoundrel (Lvl 12)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 8
-    Fire           : 11
+    Air            : 6
+    Earth          : 7
+    Fire           : 7
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 10
-    Radiant        : 13
-    Water          : 11
+    Necrotic       : 6
+    Psychic        : 6
+    Radiant        : 6
+    Water          : 7
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1466,35 +1438,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 6 + 9
-    DEX: 23 (+6) = 11 + 12
-    CON: 17 (+3) = 8 + 9
-    WIS: 13 (+1) = 8 + 5
-    INT: 11 (+0) = 8 + 3
-    CHA: 11 (+0) = 8 + 3
+    STR: 17 (+3) = 6 + 11
+    DEX: 26 (+8) = 11 + 15
+    CON: 20 (+5) = 8 + 12
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 17
-    Initiative: +6
+    Initiative: +8
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +21
-    To Hit: Melee: +24 | Ranged: +28
+    To Hit: Melee: +25 | Ranged: +30
 
   HEALTH POOLS:
-    Vitality: 577 = 61d8 (4 x 61) + 120(flat) + 3 x 61(Con)
+    Vitality: 699 = 61d8 (4 x 61) + 120(flat) + 5 x 61(Con)
     Health:  303 = 61d6 (3 x 61) + 90(flat)
-    Mana:   274 = 61d6 (3 x 61) + 1 x 61(Wis)
+    Mana:   152 = 61d6 (3 x 61) + -1 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 6 | Dmg/Turn: 30
-    Ranged Dmg/Hit: 16 | Dmg/Turn: 80
-    Total Dmg/10R: 800
+    Melee Dmg/Hit: 7 | Dmg/Turn: 35
+    Ranged Dmg/Hit: 20 | Dmg/Turn: 100
+    Total Dmg/10R: 1161
 
   RESOURCES:
-    Skill Points:  206
-    Stat Points:   42
+    Skill Points:  202
+    Stat Points:   13
     Affinity Pts:  0
     Stat Spent:    44
 
@@ -1504,19 +1476,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 10)
-    Utility -> Scoundrel (Lvl 9)
-    Racial -> Elf Fairy (Lvl 9)
+    Physical -> Marksman (Lvl 16)
+    Utility -> Scoundrel (Lvl 13)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 11
-    Fire           : 14
+    Air            : 8
+    Earth          : 8
+    Fire           : 8
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 14
-    Radiant        : 17
-    Water          : 14
+    Necrotic       : 7
+    Psychic        : 7
+    Radiant        : 7
+    Water          : 8
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1527,35 +1498,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 6 + 9
-    DEX: 24 (+7) = 11 + 13
-    CON: 18 (+4) = 8 + 10
-    WIS: 13 (+1) = 8 + 5
-    INT: 11 (+0) = 8 + 3
-    CHA: 11 (+0) = 8 + 3
+    STR: 18 (+4) = 6 + 12
+    DEX: 27 (+8) = 11 + 16
+    CON: 20 (+5) = 8 + 12
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 18
-    Initiative: +7
+    AC: 17
+    Initiative: +8
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +24
-    To Hit: Melee: +27 | Ranged: +32
+    To Hit: Melee: +29 | Ranged: +33
 
   HEALTH POOLS:
-    Vitality: 763 = 71d8 (4 x 71) + 160(flat) + 4 x 71(Con)
-    Health:  363 = 71d6 (3 x 71) + 115(flat)
-    Mana:   319 = 71d6 (3 x 71) + 1 x 71(Wis)
+    Vitality: 814 = 71d8 (4 x 71) + 140(flat) + 5 x 71(Con)
+    Health:  353 = 71d6 (3 x 71) + 105(flat)
+    Mana:   177 = 71d6 (3 x 71) + -1 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 6 | Dmg/Turn: 36
-    Ranged Dmg/Hit: 19 | Dmg/Turn: 114
-    Total Dmg/10R: 1140
+    Melee Dmg/Hit: 7 | Dmg/Turn: 42
+    Ranged Dmg/Hit: 20 | Dmg/Turn: 120
+    Total Dmg/10R: 1500
 
   RESOURCES:
-    Skill Points:  237
-    Stat Points:   50
+    Skill Points:  233
+    Stat Points:   16
     Affinity Pts:  0
     Stat Spent:    47
 
@@ -1565,19 +1536,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 12)
-    Utility -> Scoundrel (Lvl 11)
-    Racial -> Elf Fairy (Lvl 10)
+    Physical -> Marksman (Lvl 21)
+    Utility -> Scoundrel (Lvl 13)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 14
-    Fire           : 17
+    Air            : 8
+    Earth          : 9
+    Fire           : 9
     Generic        : 1
-    Necrotic       : 13
-    Psychic        : 16
-    Radiant        : 19
-    Water          : 16
+    Necrotic       : 8
+    Psychic        : 8
+    Radiant        : 8
+    Water          : 9
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1588,35 +1558,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 6 + 10
-    DEX: 24 (+7) = 11 + 13
-    CON: 18 (+4) = 8 + 10
-    WIS: 14 (+2) = 8 + 6
-    INT: 12 (+1) = 8 + 4
-    CHA: 11 (+0) = 8 + 3
+    STR: 19 (+4) = 6 + 13
+    DEX: 27 (+8) = 11 + 16
+    CON: 21 (+5) = 8 + 13
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 18
-    Initiative: +7
+    AC: 17
+    Initiative: +8
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +27
-    To Hit: Melee: +31 | Ranged: +35
+    To Hit: Melee: +32 | Ranged: +38
 
   HEALTH POOLS:
-    Vitality: 868 = 81d8 (4 x 81) + 180(flat) + 4 x 81(Con)
-    Health:  413 = 81d6 (3 x 81) + 130(flat)
-    Mana:   445 = 81d6 (3 x 81) + 2 x 81(Wis)
+    Vitality: 929 = 81d8 (4 x 81) + 160(flat) + 5 x 81(Con)
+    Health:  403 = 81d6 (3 x 81) + 120(flat)
+    Mana:   202 = 81d6 (3 x 81) + -1 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
     Melee Dmg/Hit: 7 | Dmg/Turn: 49
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 147
-    Total Dmg/10R: 1470
+    Ranged Dmg/Hit: 20 | Dmg/Turn: 140
+    Total Dmg/10R: 1820
 
   RESOURCES:
-    Skill Points:  273
-    Stat Points:   53
+    Skill Points:  269
+    Stat Points:   19
     Affinity Pts:  0
     Stat Spent:    50
 
@@ -1626,19 +1596,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 15)
+    Physical -> Marksman (Lvl 26)
     Utility -> Scoundrel (Lvl 13)
-    Racial -> Elf Fairy (Lvl 10)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 14
-    Fire           : 18
+    Air            : 9
+    Earth          : 10
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 14
-    Psychic        : 17
-    Radiant        : 20
-    Water          : 17
+    Necrotic       : 9
+    Psychic        : 9
+    Radiant        : 9
+    Water          : 9
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1649,35 +1618,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 6 + 10
-    DEX: 25 (+7) = 11 + 14
-    CON: 19 (+4) = 8 + 11
-    WIS: 14 (+2) = 8 + 6
-    INT: 12 (+1) = 8 + 4
-    CHA: 12 (+1) = 8 + 4
+    STR: 19 (+4) = 6 + 13
+    DEX: 28 (+9) = 11 + 17
+    CON: 22 (+6) = 8 + 14
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 18
-    Initiative: +7
+    AC: 17
+    Initiative: +9
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +31
-    To Hit: Melee: +35 | Ranged: +41
+    To Hit: Melee: +36 | Ranged: +48
 
   HEALTH POOLS:
-    Vitality: 973 = 91d8 (4 x 91) + 200(flat) + 4 x 91(Con)
-    Health:  463 = 91d6 (3 x 91) + 145(flat)
-    Mana:   500 = 91d6 (3 x 91) + 2 x 91(Wis)
+    Vitality: 1135 = 91d8 (4 x 91) + 180(flat) + 6 x 91(Con)
+    Health:  453 = 91d6 (3 x 91) + 135(flat)
+    Mana:   227 = 91d6 (3 x 91) + -1 x 91(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
     Melee Dmg/Hit: 7 | Dmg/Turn: 49
-    Ranged Dmg/Hit: 22 | Dmg/Turn: 154
-    Total Dmg/10R: 1540
+    Ranged Dmg/Hit: 21 | Dmg/Turn: 147
+    Total Dmg/10R: 1875
 
   RESOURCES:
-    Skill Points:  306
-    Stat Points:   57
+    Skill Points:  302
+    Stat Points:   23
     Affinity Pts:  0
     Stat Spent:    54
 
@@ -1687,19 +1656,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 19)
-    Utility -> Scoundrel (Lvl 14)
-    Racial -> Elf Fairy (Lvl 10)
+    Physical -> Marksman (Lvl 31)
+    Utility -> Scoundrel (Lvl 13)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 16
-    Fire           : 19
+    Air            : 10
+    Earth          : 11
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 15
-    Psychic        : 18
-    Radiant        : 21
-    Water          : 18
+    Necrotic       : 10
+    Psychic        : 10
+    Radiant        : 10
+    Water          : 11
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1710,35 +1678,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 17 (+3) = 6 + 11
-    DEX: 25 (+7) = 11 + 14
-    CON: 19 (+4) = 8 + 11
-    WIS: 15 (+2) = 8 + 7
-    INT: 13 (+1) = 8 + 5
-    CHA: 12 (+1) = 8 + 4
+    STR: 20 (+5) = 6 + 14
+    DEX: 29 (+9) = 11 + 18
+    CON: 22 (+6) = 8 + 14
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 18
-    Initiative: +7
+    AC: 17
+    Initiative: +9
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +34
-    To Hit: Melee: +38 | Ranged: +45
+    To Hit: Melee: +40 | Ranged: +54
 
   HEALTH POOLS:
-    Vitality: 1078 = 101d8 (4 x 101) + 220(flat) + 4 x 101(Con)
-    Health:  513 = 101d6 (3 x 101) + 160(flat)
-    Mana:   555 = 101d6 (3 x 101) + 2 x 101(Wis)
+    Vitality: 1260 = 101d8 (4 x 101) + 200(flat) + 6 x 101(Con)
+    Health:  503 = 101d6 (3 x 101) + 150(flat)
+    Mana:   252 = 101d6 (3 x 101) + -1 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 8
-    Melee Dmg/Hit: 7 | Dmg/Turn: 56
-    Ranged Dmg/Hit: 24 | Dmg/Turn: 192
-    Total Dmg/10R: 1920
+    Melee Dmg/Hit: 8 | Dmg/Turn: 64
+    Ranged Dmg/Hit: 21 | Dmg/Turn: 168
+    Total Dmg/10R: 2133
 
   RESOURCES:
-    Skill Points:  337
-    Stat Points:   60
+    Skill Points:  333
+    Stat Points:   26
     Affinity Pts:  0
     Stat Spent:    57
 
@@ -1748,19 +1716,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 22)
-    Utility -> Scoundrel (Lvl 16)
-    Racial -> Elf Fairy (Lvl 10)
+    Physical -> Marksman (Lvl 36)
+    Utility -> Scoundrel (Lvl 13)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 16
-    Fire           : 20
+    Air            : 11
+    Earth          : 12
+    Fire           : 12
     Generic        : 1
-    Necrotic       : 16
-    Psychic        : 19
-    Radiant        : 22
-    Water          : 19
+    Necrotic       : 11
+    Psychic        : 11
+    Radiant        : 11
+    Water          : 11
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
@@ -1771,35 +1738,35 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
 ============================================================
 
   STATS:
-    STR: 39 (+14) = 6 + 33
-    DEX: 47 (+18) = 11 + 36
-    CON: 41 (+15) = 8 + 33
-    WIS: 37 (+13) = 8 + 29
-    INT: 34 (+12) = 8 + 26
-    CHA: 34 (+12) = 8 + 26
+    STR: 49 (+19) = 6 + 43
+    DEX: 58 (+24) = 11 + 47
+    CON: 51 (+20) = 8 + 43
+    WIS:  8 (-1) = 8 + 0
+    INT:  8 (-1) = 8 + 0
+    CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 19
-    Initiative: +18
+    AC: 17
+    Initiative: +24
     Speed: 30 ft
     AP: 101  BAP: 127  RP: 1
     Proficiency: +334
-    To Hit: Melee: +349 | Ranged: +383
+    To Hit: Melee: +354 | Ranged: +369
 
   HEALTH POOLS:
-    Vitality: 21539 = 1001d8 (4 x 1001) + 2020(flat) + 15 x 1001(Con)
-    Health:  5013 = 1001d6 (3 x 1001) + 1510(flat)
-    Mana:   16516 = 1001d6 (3 x 1001) + 13 x 1001(Wis)
+    Vitality: 26524 = 1001d8 (4 x 1001) + 2000(flat) + 20 x 1001(Con)
+    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
+    Mana:   2502 = 1001d6 (3 x 1001) + -1 x 1001(Wis)
 
   DAMAGE:
     Attacks/Turn: 64
-    Melee Dmg/Hit: 15 | Dmg/Turn: 960
-    Ranged Dmg/Hit: 43 | Dmg/Turn: 2752
-    Total Dmg/10R: 27520
+    Melee Dmg/Hit: 19 | Dmg/Turn: 1216
+    Ranged Dmg/Hit: 32 | Dmg/Turn: 2048
+    Total Dmg/10R: 49490
 
   RESOURCES:
-    Skill Points:  3302
-    Stat Points:   360
+    Skill Points:  3298
+    Stat Points:   326
     Affinity Pts:  0
     Stat Spent:    355
 
@@ -1809,19 +1776,18 @@ EYUM TTRPG - ARCHER (BAD GEAR (IRON/BASE))
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 123)
-    Utility -> Scoundrel (Lvl 33)
-    Racial -> Elf Fairy (Lvl 10)
+    Physical -> Marksman (Lvl 54)
+    Utility -> Scoundrel (Lvl 13)
 
   AFFINITIES:
-    Air            : 108
-    Earth          : 102
-    Fire           : 105
+    Air            : 97
+    Earth          : 97
+    Fire           : 97
     Generic        : 1
-    Necrotic       : 102
-    Psychic        : 104
-    Radiant        : 108
-    Water          : 105
+    Necrotic       : 97
+    Psychic        : 97
+    Radiant        : 97
+    Water          : 97
 
   GEAR:
     Weapon: iron_longbow (1d8 piercing)
