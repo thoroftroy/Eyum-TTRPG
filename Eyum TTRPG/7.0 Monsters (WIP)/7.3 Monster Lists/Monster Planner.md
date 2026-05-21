@@ -1,13 +1,4 @@
-### Monster Types
-- Chimera, these are monsters which are made up of multiple animals such as a griffin being made of snakes and lions and eagle and whatnot, the strength of these monsters is usually pretty high and they are more rare. Types of Chimera include:
-	- Griffin: body of a lion and the head and wings of an eagle
-	- Hippocampus, upper body of a horse and the lower body of a fish
-	- Spinx, head of a human, the body of a lion, and the wings of an eagle
-	- Hippogriff, horse’s body and an eagle’s wings and head
-	- Bunyip, dog head and front body and seal tail for the back
-	- Manticore, body and face of a lion, and a tail that resembles a scorpion with large bat like wings 
-	- Lamassu, winged bull/lion with human head
-	- Ammit, the forequarters of a lion, the hindquarters of a hippopotamus, and the head of a crocodile
+
 ### Unique Monsters
 - Phoenix, fire bird which can resurrect itself 
 - Basilisk, giant lizard creature which can paralyze creatures by looking at them. Very powerful
