@@ -113,6 +113,7 @@ class Character:
         self.melee_extra_info = None
         self.pack_tactics = False
         self.speed = 30
+        self.stat_points_banked = {}
 
     def mod(self, stat):
         val = getattr(self, stat)

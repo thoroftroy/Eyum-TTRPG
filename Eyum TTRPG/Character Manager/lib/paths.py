@@ -46,6 +46,7 @@ def apply_level_progression(char, target_level, settings):
 def apply_paths(char, target_level, build_config, settings):
     r = settings['rules']
     paths_rules = settings['paths']
+    cost_table = r['stat_point_cost']
 
     path_list = build_config.get('paths', [])
     if not path_list:
@@ -63,7 +64,7 @@ def apply_paths(char, target_level, build_config, settings):
         path_initial_paid.add(path_name)
         path_rule = paths_rules.get(path_name, {})
         if 'initial' in path_rule and stp_remaining > 0:
-            apply_effects(char, path_rule['initial'])
+            apply_effects(char, path_rule['initial'], cost_table)
             stp_remaining -= 1
             if path_name == 'Magical':
                 char.starting_spells = r['magical_start']['spells_at_level_1']
@@ -104,7 +105,7 @@ def apply_paths(char, target_level, build_config, settings):
         for key in base_keys:
             if achievements >= min(share, desired_points):
                 break
-            apply_effects(char, arch_rule[key])
+            apply_effects(char, arch_rule[key], cost_table)
             achievements += 1
             if float(key) == int(float(key)):
                 whole_levels += 1
@@ -118,7 +119,7 @@ def apply_paths(char, target_level, build_config, settings):
                 already = repeat_taken_global.get((path_name, arch_name, key), 0)
                 can_take = min(remaining, max_count - already)
                 for _ in range(can_take):
-                    apply_effects(char, arch_rule[key])
+                    apply_effects(char, arch_rule[key], cost_table)
                     remaining -= 1
                 repeat_taken_global[(path_name, arch_name, key)] = already + can_take
                 achievements += can_take
@@ -130,7 +131,7 @@ def apply_paths(char, target_level, build_config, settings):
                 already = repeat_taken_global.get((path_name, arch_name, key), 0)
                 can_take = min(remaining, max_count - already)
                 for _ in range(can_take):
-                    apply_effects(char, arch_rule[key])
+                    apply_effects(char, arch_rule[key], cost_table)
                     remaining -= 1
                 repeat_taken_global[(path_name, arch_name, key)] = already + can_take
                 achievements += can_take
@@ -166,7 +167,7 @@ def apply_paths(char, target_level, build_config, settings):
             take = min(all_remaining, can_take)
             if take > 0:
                 for _ in range(take):
-                    apply_effects(char, effects)
+                    apply_effects(char, effects, cost_table)
                 old_achieved = char.archetype_levels.get((path_name, arch_name), 0)
                 char.archetype_levels[(path_name, arch_name)] = old_achieved + take
                 all_remaining -= take

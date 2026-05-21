@@ -1,11 +1,27 @@
-def apply_effects(char, effects):
+from .stats import cost_for_stat
+
+
+def apply_effects(char, effects, cost_table=None):
     if not effects:
         return
     if 'stat' in effects:
         for stat_name, bonus in effects['stat'].items():
             if stat_name in ('str', 'dex', 'con', 'wis', 'int', 'cha'):
                 current = getattr(char, stat_name)
-                setattr(char, stat_name, current + bonus)
+                if cost_table is not None and bonus > 0:
+                    if stat_name not in char.stat_points_banked:
+                        char.stat_points_banked[stat_name] = 0
+                    spent = 0
+                    while spent < bonus:
+                        cost = cost_for_stat(current, cost_table)
+                        char.stat_points_banked[stat_name] += 1
+                        if char.stat_points_banked[stat_name] >= cost:
+                            current += 1
+                            setattr(char, stat_name, current)
+                            char.stat_points_banked[stat_name] -= cost
+                        spent += 1
+                else:
+                    setattr(char, stat_name, current + bonus)
     if 'vit_die_type' in effects:
         char.vit_die = effects['vit_die_type']
     if 'hp_die_type' in effects:

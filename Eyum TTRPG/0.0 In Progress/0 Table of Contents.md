@@ -1,10 +1,11 @@
 #### 1.0 The basics
-- [[1.1.1 Introduction and Basics]]
-- [[1.1.2 Dice and Skills]]
-- [[1.1.3 Player Stats]]
-- [[1.1.4 Actions]]
-- [[1.1.5 Other Rules]]
-- [[1.1.6 Actually Playing The Game]]
+- [[1.1 Introduction and Basics]]
+- [[1.2 Dice and Skills]]
+- [[1.3 Player Stats]]
+- [[1.4 Actions]]
+- [[1.5 Mounts and Familiars]]
+- [[1.6 Other Rules]]
+- [[1.7 Actually Playing The Game]]
 #### 2.0 Reference Tables
 - [[2.1 Affinities]]
 - [[2.2 Damage Types]]
