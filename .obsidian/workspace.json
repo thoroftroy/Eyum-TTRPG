@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "515c61e869e9a244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7.1 Monsters"
-            }
-          },
-          {
             "id": "51974f21421c246e",
             "type": "leaf",
             "state": {
@@ -34,51 +20,8 @@
               "icon": "lucide-file",
               "title": "Monster Planner"
             }
-          },
-          {
-            "id": "2b4ac9c79273f238",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7.3.4 Chimera"
-            }
-          },
-          {
-            "id": "f67824dce1ef1a7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.6 Materials"
-            }
-          },
-          {
-            "id": "0ca6d065801e6eb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.5 Weapons, Armors, and Tools"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,23 +183,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "f67824dce1ef1a7a",
+  "active": "51974f21421c246e",
   "lastOpenFiles": [
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
     "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
-    "Eyum TTRPG/1.0 The basics/1.3 Player Stats.md",
+    "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
+    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/Monster Planner.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",
+    "Eyum TTRPG/3.0 Character Management/3.2 Character Information.md",
+    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+    "Eyum TTRPG/5.0 Deities (WIP)/5.1 Deities and Pacts.md",
+    "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
+    "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
+    "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
+    "Eyum TTRPG/1.0 The basics/1.3 Player Stats.md",
+    "Eyum TTRPG/2.0 Reference Tables/2.7 Character Reference.md",
     "Eyum TTRPG/1.0 The basics/1.6 Other Rules.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Golems.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/Monster Planner.md",
-    "Eyum TTRPG/0.0 In Progress/0.1 TODO.md",
     "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
-    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
     "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
     "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
     "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Slimes.md",
-    "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
     "Eyum TTRPG/Character Manager/lib/__pycache__/effects.cpython-314.pyc.140272089622736",
     "Eyum TTRPG/1.0 The basics/1.4 Actions.md",
     "Eyum TTRPG/1.0 The basics/1.7 Actually Playing The Game.md",
@@ -273,11 +220,7 @@
     "Eyum TTRPG/Character Manager/lib/__pycache__/feats.cpython-314.pyc",
     "Eyum TTRPG/Character Manager/lib/__pycache__/paths.cpython-314.pyc",
     "Eyum TTRPG/Character Manager/lib/__pycache__/effects.cpython-314.pyc",
-    "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
     "Eyum TTRPG/4.0 Races/Undead and Subraces.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monster Modifiers.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.1 Affinities.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.2 Passives and Actives List.md",
     "assets/Draugir.jpg",
     "assets/Dryad.jpg",
     "assets/Nymph.jpg",

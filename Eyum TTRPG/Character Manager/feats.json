@@ -1,0 +1,625 @@
+"feats": {
+  "Toughness": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {},
+    "effects": {"vit_per_level": 1, "hp_per_level": 1},
+    "value": 10
+  },
+  "Marathon Runner": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"con": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Grappler": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"str": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Brutal Critical": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"level": 6},
+    "effects": {"crit_damage_die": "1d8"},
+    "value": 5
+  },
+  "Brawler": {
+    "type": "passive",
+    "repeatable": true,
+    "prereq": {"str": 14},
+    "effects": {"unarmed_die_upgrade": 1},
+    "value": 4
+  },
+  "Distant Shot": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"path_level": {"Marksman": 2}},
+    "effects": {},
+    "value": 0
+  },
+  "Eagle Eye": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"wis": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Weapon Master": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {},
+    "effects": {"weapon_group_accuracy": 1},
+    "value": 3
+  },
+  "Quick Reflexes": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"dex": 16},
+    "effects": {},
+    "value": 0
+  },
+  "Mana Flow": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 1}},
+    "effects": {"mana_per_level": 2},
+    "value": 10
+  },
+  "Spell Sniper": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Stone Skin": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Geomancer": 1}},
+    "effects": {"earth_affinity": 2, "ac_bonus": 1},
+    "value": 7
+  },
+  "Careful Spells": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 2}},
+    "effects": {},
+    "value": 0
+  },
+  "Affinity Master": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"level": 6},
+    "effects": {"affinity_points": 3},
+    "value": 3
+  },
+  "Chain Lightning": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"level": 9},
+    "effects": {},
+    "value": 0
+  },
+  "Holy Radiance": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Priest": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Aura of Protection": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Priest": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Skill Expert": {
+    "type": "passive",
+    "repeatable": true,
+    "prereq": {},
+    "effects": {"stat_point": 1, "skill_points": 1},
+    "value": 4
+  },
+  "Linguist": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"int": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Investigator": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Scholar": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Fast Hands": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"path_level": {"Scoundrel": 2}},
+    "effects": {"bap": 1},
+    "value": 12
+  },
+  "Jack of All Trades": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Scholar": 3}},
+    "effects": {},
+    "value": 0
+  },
+  "Medic": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"skill": "Medicine"},
+    "effects": {},
+    "value": 0
+  },
+  "Dungeon Delver": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {},
+    "effects": {},
+    "value": 0
+  },
+  "Trader": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"cha": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Observant": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"wis": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Master of Disguise": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"path_level": {"Scoundrel": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Historian": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Scholar": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Acrobat": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"dex": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Iron Will": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"level": 9},
+    "effects": {},
+    "value": 0
+  },
+  "Forbidden Knowledge": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Occultist": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Darkness Seer": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"path_level": {"Reaper": 2}},
+    "effects": {},
+    "value": 0
+  },
+  "Giant's Strength": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"str": 18},
+    "effects": {},
+    "value": 0
+  },
+  "Cat's Grace": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"dex": 18},
+    "effects": {},
+    "value": 0
+  },
+  "Hardened Soul": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"level": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Eternal Mana": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 3}},
+    "effects": {"eternal_mana_threshold": 10, "eternal_mana_amount": 2},
+    "value": 4
+  },
+  "Titan's Grip": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"str": 20},
+    "effects": {},
+    "value": 0
+  },
+  "Unstoppable Force": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"path_level": {"Indomitable": 3}},
+    "effects": {},
+    "value": 0
+  },
+  "Rounded Mage": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"affinity": {"Fire": 4}},
+    "effects": {},
+    "value": 0
+  },
+  "All Rounded Mage": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"feat": "Rounded Mage"},
+    "effects": {},
+    "value": 0
+  },
+  "Affinity Master (5)": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {},
+    "effects": {"affinity_points": 5},
+    "value": 5
+  },
+  "Dodge Master": {
+    "type": "passive",
+    "repeatable": false,
+    "prereq": {"dex": 22},
+    "effects": {"maximum_dex_ac_bonus": 3},
+    "value": 6
+  },
+  "Armor Training": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"str": 13, "skill": "Medium Armor"},
+    "effects": {"armor_training_ac_heavy": 3, "armor_training_ac_medium": 2},
+    "value": 8
+  },
+  "Heavy Hitter": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"str": 14},
+    "effects": {"melee_damage": 2},
+    "value": 4
+  },
+  "Point Blank Shot": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Marksman": 1}},
+    "effects": {"point_blank": true},
+    "value": 3
+  },
+  "Great Cleave": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"str": 16},
+    "effects": {"cleave_damage": 3},
+    "value": 4
+  },
+  "Shield Master": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"str": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Steady Aim": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Marksman": 1}},
+    "effects": {"steady_aim_accuracy": 2},
+    "value": 4
+  },
+  "Dual Wielder": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"dex": 14},
+    "effects": {"dual_wield_accuracy": 2},
+    "value": 5
+  },
+  "Mobile": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {},
+    "effects": {},
+    "value": 0
+  },
+  "Charging Strike": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"str": 14},
+    "effects": {"charge_damage_die": "1d6"},
+    "value": 4
+  },
+  "Endurance": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Indomitable": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Disarming Attack": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"str": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Trip Attack": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"dex": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Vital Spot": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"int": 12},
+    "effects": {"prone_damage_die": "1d12"},
+    "value": 5
+  },
+  "Executioner": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Duelist": 3}},
+    "effects": {"execute_threshold": 0.1},
+    "value": 6
+  },
+  "Save or Don't Suck": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 2}},
+    "effects": {"save_half_damage": true},
+    "value": 6
+  },
+  "Firebrand": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Pyromancer": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Flowing Water": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Tidemaster": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Wind Rush": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Windwalker": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Soul Reaper": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Necromancer": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Static Discharge": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"affinity": {"Lightning": 3}},
+    "effects": {"magic_damage": 3},
+    "value": 3
+  },
+  "Vampiric Link": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Necromancer": 2}},
+    "effects": {},
+    "value": 0
+  },
+  "Mind Spike": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"affinity": {"Psychic": 5}},
+    "effects": {},
+    "value": 0
+  },
+  "Explosive Power": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 3}},
+    "effects": {"magic_damage": 5},
+    "value": 4
+  },
+  "Lingering Shadow": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Necromancer": 3}},
+    "effects": {},
+    "value": 0
+  },
+  "Gravity Well": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"archetype": {"Geomancer": 2}},
+    "effects": {},
+    "value": 0
+  },
+  "Infiltrator": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Scoundrel": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Cursed Blood": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Reaper": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "1,000 Paper Cuts": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"level": 21},
+    "effects": {},
+    "value": 3
+  },
+  "Apex Predator": {
+    "type": "conditional",
+    "repeatable": false,
+    "prereq": {"path_level": {"Scoundrel": 3}},
+    "effects": {},
+    "value": 0
+  },
+  "Defensive Duelist": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"path_level": {"Duelist": 1}},
+    "effects": {"defensive_duelist_ac": true},
+    "value": 5
+  },
+  "Sentinel": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"str": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Parry": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"path_level": {"Duelist": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Quick Draw": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"dex": 12},
+    "effects": {},
+    "value": 0
+  },
+  "Silver Tongue": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"cha": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Second Wind": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"con": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Hunker Down": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"path_level": {"Indomitable": 2}},
+    "effects": {"hunker_ac": 6},
+    "value": 7
+  },
+  "Elemental Shield": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"affinity": {"Fire": 5}},
+    "effects": {},
+    "value": 0
+  },
+  "Mana Well": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 2}},
+    "effects": {"mana_well_die": "1d10"},
+    "value": 4
+  },
+  "Arcane Overload": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 4}},
+    "effects": {},
+    "value": 0
+  },
+  "Divinely Favored": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"archetype": {"Beacon": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Overdrive": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"level": 15},
+    "effects": {"overdrive_bap": 1},
+    "value": 8
+  },
+  "Demonic Bargain": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"path_level": {"Reaper": 3}},
+    "effects": {},
+    "value": 0
+  },
+  "Vault": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"dex": 14},
+    "effects": {},
+    "value": 0
+  },
+  "Blessed Touch": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"archetype": {"Priest": 1}},
+    "effects": {},
+    "value": 0
+  },
+  "Mana Burn": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"int": 18},
+    "effects": {},
+    "value": 0
+  },
+  "Quick Spells": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 3}},
+    "effects": {"quick_spells": true},
+    "value": 6
+  },
+  "Twin Cast": {
+    "type": "active",
+    "repeatable": false,
+    "prereq": {"archetype": {"Magician": 3}},
+    "effects": {"twin_cast": true},
+    "value": 6
+  }
+}

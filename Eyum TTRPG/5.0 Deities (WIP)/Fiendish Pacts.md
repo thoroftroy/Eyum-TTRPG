@@ -42,7 +42,7 @@ Fiends typically want to spread chaos and death, typically by the means of their
 **Tier 5 (30 days):** You gain all Knotted Word Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, choose one creature within 60 ft. It cannot take Actions, Bonus Actions, or Reactions for 3 turns. At the start of each of its turns it takes 6d10 Cursed damage to its HP. You must, before the pact ends, kill at least 100 creatures and apply Cursed at least 200 times. Failure results in permanent death. You cannot be revived by any means.
 
 ## Pale Cinder
-*Ash, Chaotic Alignment*
+*Ash, Evil Alignment*
 
 **Tier 1 (2 days):** You gain Resistance to Ash damage. When you deal damage, you may convert it to Ash damage. Creatures you damage with Ash become Blurred for 1 turn. You must, today, let something burn to ash (a piece of paper, wood, cloth). Failure results in you being Blurred for 3 days.
 
@@ -55,7 +55,7 @@ Fiends typically want to spread chaos and death, typically by the means of their
 **Tier 5 (28 days):** You gain all Pale Cinder Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you create an Ashfall in a 60 ft radius within 120 ft for 3 turns. Enemies inside take 6d10 Ash damage to HP at the start of their turns, gain the Suffocating condition, and have movement halved. You must deal at least 600 total Ash damage during the pact. Failure results in permanent death. You cannot be revived by any means.
 
 ## Wither Bloom
-*Blight, Lawful Alignment*
+*Blight, Evil Alignment*
 
 **Tier 1 (2 days):** You gain Resistance to Blight damage. When you deal damage, you may convert it to Blight damage. Creatures you damage become Withered (1 stack). You must, today, let something organic rot or decay (food, a plant, a corpse). Failure results in you being Withered for 4 days.
 
@@ -120,7 +120,7 @@ Fiends typically want to spread chaos and death, typically by the means of their
 **Tier 5 (28 days):** You gain all Drowned Prophet Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you summon a storm in a 1-mile radius for 1 hour. Torrential rain falls. Visibility is 30 ft, ranged attacks have disadvantage, and exposed enemies take 3d10 Deluge damage at the start of their turns. You must, by the end of the pact, drown or flood a settlement. Failure results in permanent death. You cannot be revived by any means.
 
 ## Screaming Hymn
-*Shatter, Chaotic Alignment*
+*Shatter, Evil Alignment*
 
 **Tier 1 (1 day):** You gain Resistance to Shatter and Thunder damage. Your voice deals 1d10 Shatter damage to all creatures within 15 ft whenever you speak (you may whisper to avoid this). You must, today, make an unnecessary loud noise in a quiet place. Failure results in you being Deafened for 2 days.
 
