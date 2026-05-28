@@ -44,7 +44,7 @@ Out of water, the upper body becomes more human while the lower body becomes a f
 Their facial structure tends to keep a pretty symmetry, but the fish influence shows in the skin sheen, the slick look of the lips, and the way the eyes reflect light. Teeth vary: some have normal human-like teeth, while others keep narrow, sharp teeth. Hair often looks limp and water-heavy, and the scalp may show fine scale texture near the hairline when wet. 
 ###### Racial Abilities
 You can breathe air and water. 
-- **Tier 1:** **Ocean-Bound.** While in a large body of water (at least 1,000 gallons) you gain +1d4 to all skill checks, saving throws, and attack rolls. 
+- **Tier 1:** **Ocean-Bound.** While in a large body of water (at least 1,000 gallons) you gain +1d6 to all skill checks, saving throws, and attack rolls. 
 - **Tier 2:** **Slick Escape.** Once per turn you may choose to succeed a athletics check to escape a grapple. 
 - **Tier 3:** **Mermaid Call.** Once per combat as an Action, one creature within 30 ft that can hear you must pass a WIS save (DC 10 + CHA mod + Tier) or suffer -10 Accuracy against all targets except you until your next turn.
 - **Tier 4:** **Water Affinity Bloom.** Gain +3 Water Affinity and become resistant to water damage.

@@ -122,7 +122,7 @@ Dwarves are short, compact humanoids with thick skeletal structures and broad jo
 
 Skin is opaque and tough, ranging from pale beige to deep brown. It thickens rapidly into callus at hands, elbows, knees, and feet. Scars are common and remain textured. Hair grows dense and coarse on the scalp, often accompanied by heavy facial hair, in colors such as black, brown, red, gray, or white. Eyes are forward-facing with visible whites and irises of brown, hazel, green, or gray. Teeth are thick and blunt. 
 ###### Racial Abilities
-- **Tier 1:** **Stonebones.** Gain 3 Damage Reduction and +3 to your CON score.
+- **Tier 1:** **Stonebones.** Gain 2 Damage Reduction and +2 to your CON score.
 - **Tier 2:** **Forge Hands.** Gain +5 to any checks relating to crafting, repairing, or building something including rune inscriptions.
 - **Tier 3:** **Stubborn.** Gain Advantage on Constitution saving throws.
 - **Tier 4:** **Hardened Frame.** Gain +2 AC.

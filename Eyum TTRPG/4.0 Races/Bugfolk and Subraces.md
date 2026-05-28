@@ -16,21 +16,21 @@
 | Formid      | Medium | 4'7" – 6'6"   | 140 – 360 lb | 60 – 90 years    | 18               |
 | Plateroll   | Medium | 4'6" – 6'6"   | 170 – 520 lb | 80 – 120 years   | 24               |
 
-| Race        | Speed        | Negative Affinities | Neutral Affinities            | Positive Affinities      | Stat Bonuses           |
-| ----------- | ------------ | ------------------- | ----------------------------- | ------------------------ | ---------------------- |
-| Chitinfolk  | 30           | Radiant, Psychic    | Generic, Fire, Water, Air     | Earth, Necrotic          | +1 CON, +1 STR         |
-| Skorren     | 30           | Air, Radiant        | Generic, Fire, Earth          | Necrotic, Psychic, Water | +2 STR, +1 CON, -1 CHA |
-| Kheprid     | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 CON, +1 STR         |
-| Verdleap    | 35, climb 30 | Earth, Necrotic     | Generic, Fire, Water, Psychic | Air, Radiant             | +2 DEX, +1 CON         |
-| Miregnat    | 30, fly 30   | Earth, Radiant      | Generic, Fire, Water, Psychic | Air, Necrotic            | +2 DEX, -1 STR         |
-| Longweaver  | 30, climb 40 | Radiant, Air        | Generic, Fire, Water          | Earth, Necrotic, Psychic | +2 STR, +1 CON, -1 DEX |
-| Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +1 STR, +1 DEX         |
-| Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   | +2 INT, +1 WIS         |
-| Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   | +1 DEX, +1 CHA         |
-| Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water, Psychic | Air, Radiant             | +2 CHA, +1 DEX         |
-| Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     | +2 WIS, -1 CHA         |
-| Formid      | 30           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 STR, +1 CON, +1 AC  |
-| Plateroll   | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +3 CON, -1 DEX         |
+| Race        | Speed        | Negative Affinities | Neutral Affinities            | Positive Affinities      | Stat Bonuses                   |
+| ----------- | ------------ | ------------------- | ----------------------------- | ------------------------ | ------------------------------ |
+| Chitinfolk  | 30           | Radiant, Psychic    | Generic, Fire, Water, Air     | Earth, Necrotic          | +1 CON, +1 STR                 |
+| Skorren     | 30           | Air, Radiant        | Generic, Fire, Earth          | Necrotic, Psychic, Water | +2 STR, +1 CON, -1 CHA         |
+| Kheprid     | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 CON, +1 STR                 |
+| Verdleap    | 35, climb 30 | Earth, Necrotic     | Generic, Fire, Water, Psychic | Air, Radiant             | +2 DEX, +1 CON                 |
+| Miregnat    | 30, fly 30   | Earth, Radiant      | Generic, Fire, Water, Psychic | Air, Necrotic            | +2 DEX, -1 STR, -2 Con, -1 CHA |
+| Longweaver  | 30, climb 40 | Radiant, Air        | Generic, Fire, Water          | Earth, Necrotic, Psychic | +2 STR, +1 CON, -1 DEX         |
+| Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +1 STR, +1 DEX                 |
+| Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   | +2 INT, +1 WIS                 |
+| Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   | +1 DEX, +1 CHA                 |
+| Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water, Psychic | Air, Radiant             | +2 CHA, +1 DEX                 |
+| Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     | +2 WIS, -1 CHA                 |
+| Formid      | 30           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 STR, +1 CON, +1 AC          |
+| Plateroll   | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +3 CON, -1 DEX                 |
 ## Chitinfolk
 Chitinfolk are upright, two-legged arthropoid humanoids with a broad, beetle-like body plan. Their skeleton is an internal frame reinforced by thick external plates. The torso is wrapped in hard chitin that forms a chest shell, back plates, and layered segments at the abdomen. The shoulders are rounded and the neck is short, often partly protected by a raised collar of armor-like plate.
 

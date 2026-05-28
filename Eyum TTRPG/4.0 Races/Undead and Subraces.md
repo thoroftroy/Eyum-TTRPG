@@ -26,7 +26,7 @@ Revenants retain a fully human body plan but in a state of advanced decay. The s
 
 Skin is partially rotted and uneven. Some areas remain leathery and stretched, while others are torn, sagging, or missing entirely, exposing muscle or bone beneath. Color ranges from gray-brown to sickly yellow, green, or dull purple. The surface is dry in some places and wet or spongy in others. Hair is thin, brittle, and often falling out in patches. Eyes are clouded or sunken deep into the skull, sometimes milky or dull red. Lips retract as flesh decays, leaving teeth partially exposed even when the mouth is closed. Teeth are human in shape but stained, cracked, or loose. 
 ###### Racial Abilities
-You have Weakness to Radiant damage.
+You have Weakness to Radiant damage. When you would drop below 0 Hp roll 1d20, on 11 or above you drop to 1 hp instead. 
 - **Tier 1:** **Rot-Fist.** Your unarmed strikes deal 1d6 + STR mod Bludgeoning. On hit, target makes a CON save (DC 10 + Tier) or gains Diseased (end DC becomes 10 + Tier).
 - **Tier 2:** **Dead Nerves.** Gain +5 to CON saving throws. Gain immunity to Poisoned and Diseased.
 - **Tier 3:** **Liquefy Wound.** Once per turn on a melee hit, add 1d8 Blight and inflict 1 stack of Bleeding. (No save)
@@ -45,7 +45,7 @@ Ossids are animated human skeletons with no intact skin or muscle. The skeletal 
 
 Despite lacking flesh, ossids constantly bleed. Dark red blood seeps from cracks in the bones, from the eye sockets, nasal cavity, jaw joints, and along the spine. The blood does not pulse; it slowly leaks and drips, coating the skeleton and leaving stains where they walk. The bones themselves are aged white, gray, or yellowed, often etched with cracks, chips, or old fractures that never healed. The skull is expressive despite lacking muscles, with eye sockets glowing faintly in reds and yellows. Teeth are intact and fixed permanently in a grim, exposed grin.
 ###### Racial Abilities
-You have Weakness to Radiant damage. 
+You have Weakness to Radiant and Bludgeoning damage and resistance to Slashing and Piercing damage. You are immune to the bleeding condition. 
 - **Tier 1:** **Bone Blades.** Your unarmed strikes deal 1d6 + DEX mod Piercing. On hit, inflict 1 stack of Bleeding. (No save)
 - **Tier 2:** **Open Artery.** Once per turn on a melee hit, add 1d8 Necrotic and inflict 1 additional stack of Bleeding.
 - **Tier 3:** **Hollow Frame.** You may move through spaces as if you were one size smaller, and you gain +5 to Acrobatics.

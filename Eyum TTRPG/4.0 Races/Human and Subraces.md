@@ -11,16 +11,16 @@
 | Kravari  | Medium | 5'7" – 6'11"  | 180 – 310 lb   | 40 – 60 years    | 12               |
 | Sandman  | Medium | 5'2" – 6'3"   | 100 – 185 lb   | 50 – 75 years    | 15               |
 
-| Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses           |
-| -------- | ----------- | ------------------- | ------------------------------------------------------------ | --------------------------------- | ---------------------- |
-| Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats    |
-| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +1 STR, +1 WIS         |
-| Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR         |
-| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +4 STR, +2 CON, -2 DEX |
-| Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS         |
-| Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, -1 CON         |
-| Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, -2 INT         |
-| Sandman  | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 DEX, +1 CHA         |
+| Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
+| -------- | ----------- | ------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |
+| Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    |
+| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +1 STR, +1 WIS                         |
+| Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         |
+| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +6 STR, +2 CON, -2 DEX, -4 INT, -4 WIS |
+| Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         |
+| Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, -1 CON                         |
+| Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, -2 INT                         |
+| Sandman  | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 DEX, +1 CHA                         |
 ## Human
 Humans are upright, two-legged mammals with a balanced and highly variable build. The skeleton is internally rigid with flexible joints at the neck, shoulders, elbows, hips, knees, and ankles, allowing both endurance walking and short bursts of speed. The torso is widest at the shoulders, narrows toward the waist, and widens again at the hips, giving stable upright balance. Arms are shorter than legs and end in hands with five flexible fingers capable of both fine manipulation and strong grip.
 
