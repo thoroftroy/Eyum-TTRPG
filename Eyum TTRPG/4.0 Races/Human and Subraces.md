@@ -159,7 +159,7 @@ The skin is constantly damp, as if lightly sweating at all times, giving a slick
 - **Tier 4:** **Dream Slip.** Once per round as a Reaction, you may make an attacker who just missed their attack against you gain the Unconscious condition until the start of your next turn.
 - **Tier 5:** **Mind Shield.** Gain +2 to Wisdom saving throws and Greater Resistance to Psychic.
 - **Tier 6:** **Thought Reading.** As an Action, you may read surface thoughts (GM's Digression) of a creature within 30 ft that fails a WIS save (DC 10 + Psychic Affinity).
-- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage you may choose to deal half of it to vitality and increase damage by Racial Tier + Psychic Affinity. 
+- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + Psychic Affinity. 
 - **Tier 8:** **Nightmare Twist.** Whenever you deal Psychic damage you may take 1d4 True damage to inflict the despair condition on the target. 
 - **Tier 9:** **Mind Spike Mastery.** Your Mental Spike damage increases to 2d10 Psychic Damage and targets hit by it gain the Demoralized condition. 
 - **Tier 10:** **Apex Sandman.** Choose one:
