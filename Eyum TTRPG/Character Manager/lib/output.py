@@ -1,7 +1,7 @@
 import os
 
 
-CATEGORIES = ['Vitality', 'Health', 'Mana', 'AC', 'Feats', 'Spells', 'To Hit', 'Dmg/Turn', 'Dmg/10R']
+CATEGORIES = ['Vitality', 'Health', 'Mana', 'AC', 'Feats', 'Spells', 'To Hit', 'Dmg/Turn', 'Dmg/5R', 'Dmg/10R']
 
 
 def format_mod(m):
@@ -10,7 +10,7 @@ def format_mod(m):
     return str(m)
 
 
-def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=None):
+def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, tier_label=None):
     r = settings['rules']
     lines = []
     sep = "=" * 60
@@ -85,6 +85,7 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=Non
     mana_cost = dmg_perturn['mana_cost']
     if mana_cost > 0:
         lines.append("    Magic Dmg/Cast: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
+    lines.append("    Total Dmg/5R:  " + str(int(dmg_5round['total'])))
     lines.append("    Total Dmg/10R: " + str(int(dmg_10round['total'])))
     if mana_cost > 0:
         rounds_casting = dmg_10round.get('rounds_casting', 0)
@@ -195,6 +196,7 @@ def write_average(all_results, settings, output_path):
             feats = []
             spells = []
             dmg_per = []
+            dmg_5r = []
             dmg_10r = []
             to_hits = []
             strs = []
@@ -211,6 +213,7 @@ def write_average(all_results, settings, output_path):
             build_feats = {}
             build_spells = {}
             build_dmg_per = {}
+            build_dmg_5r = {}
             build_dmg_10r = {}
             build_to_hits = {}
 
@@ -226,6 +229,7 @@ def write_average(all_results, settings, output_path):
                         feat = c.feats
                         spell = c.starting_spells + c.spells_from_levels
                         dmg_t = d['per_turn']
+                        dmg_5 = res['dmg_5round']['total'] if isinstance(res['dmg_5round'], dict) else res['dmg_5round']
                         dmg_10 = res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round']
                         best_hit = max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic())
 
@@ -236,6 +240,7 @@ def write_average(all_results, settings, output_path):
                         feats.append(feat)
                         spells.append(spell)
                         dmg_per.append(dmg_t)
+                        dmg_5r.append(dmg_5)
                         dmg_10r.append(dmg_10)
                         to_hits.append(best_hit)
                         strs.append(c.str)
@@ -252,6 +257,7 @@ def write_average(all_results, settings, output_path):
                         build_feats[build_name] = feat
                         build_spells[build_name] = spell
                         build_dmg_per[build_name] = dmg_t
+                        build_dmg_5r[build_name] = dmg_5
                         build_dmg_10r[build_name] = dmg_10
                         build_to_hits[build_name] = best_hit
                         break
@@ -271,6 +277,9 @@ def write_average(all_results, settings, output_path):
                           "  min=" + str(min(spells)) + "  max=" + str(max(spells)) + "\n")
                 f.write("  Dmg/Turn:  avg=" + str(sum(dmg_per)//len(dmg_per)) +
                           "  min=" + str(min(dmg_per)) + "  max=" + str(max(dmg_per)) + "\n")
+                if dmg_5r:
+                    f.write("  Dmg/5R:    avg=" + str(sum(dmg_5r)//len(dmg_5r)) +
+                              "  min=" + str(min(dmg_5r)) + "  max=" + str(max(dmg_5r)) + "\n")
                 f.write("  Dmg/10R:   avg=" + str(sum(dmg_10r)//len(dmg_10r)) +
                           "  min=" + str(min(dmg_10r)) + "  max=" + str(max(dmg_10r)) + "\n")
                 f.write("  To Hit:    avg=" + format_mod(sum(to_hits)//len(to_hits)) +
@@ -295,6 +304,7 @@ def write_average(all_results, settings, output_path):
                 best_feat = max(build_feats, key=build_feats.get)
                 best_spell = max(build_spells, key=build_spells.get)
                 best_dmg = max(build_dmg_per, key=build_dmg_per.get)
+                best_dmg5 = max(build_dmg_5r, key=build_dmg_5r.get)
                 best_dmg10 = max(build_dmg_10r, key=build_dmg_10r.get)
                 best_hit_name = max(build_to_hits, key=build_to_hits.get)
 
@@ -306,6 +316,7 @@ def write_average(all_results, settings, output_path):
                 f.write("    Feats:    " + best_feat + " (" + str(build_feats[best_feat]) + ")\n")
                 f.write("    Spells:   " + best_spell + " (" + str(build_spells[best_spell]) + ")\n")
                 f.write("    Dmg:      " + best_dmg + " (" + str(build_dmg_per[best_dmg]) + ")\n")
+                f.write("    Dmg/5R:   " + best_dmg5 + " (" + str(build_dmg_5r[best_dmg5]) + ")\n")
                 f.write("    Dmg/10R:  " + best_dmg10 + " (" + str(build_dmg_10r[best_dmg10]) + ")\n")
                 f.write("    To Hit:   " + best_hit_name + " (" + format_mod(build_to_hits[best_hit_name]) + ")\n")
             f.write("\n")
@@ -368,6 +379,7 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
             for tier_name, all_results in all_tier_results:
                 acs_vals = []
                 dmg_t = []
+                dmg_5 = []
                 dmg_10 = []
                 to_hits = []
                 for build_name, results in all_results.items():
@@ -376,6 +388,7 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                             c = res['char']
                             acs_vals.append(c.ac(c.gear.get('armor', 'none'), settings.get('armor_types', {}), settings['rules']['ac']['dex_bonus_table']))
                             dmg_t.append(res['dmg_perturn']['per_turn'])
+                            dmg_5.append(res['dmg_5round']['total'] if isinstance(res['dmg_5round'], dict) else res['dmg_5round'])
                             dmg_10.append(res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round'])
                             to_hits.append(max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic()))
                             break
@@ -388,6 +401,8 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                         " (" + format_mod(min(to_hits)) + "-" + format_mod(max(to_hits)) + ")" +
                         "  Dmg=" + str(sum(dmg_t)//len(dmg_t)).rjust(4) +
                         " (" + str(min(dmg_t)) + "-" + str(max(dmg_t)) + ")" +
+                        "  Dmg/5R=" + str(sum(dmg_5)//len(dmg_5)).rjust(6) +
+                        " (" + str(min(dmg_5)) + "-" + str(max(dmg_5)) + ")" +
                         "  Dmg/10R=" + str(sum(dmg_10)//len(dmg_10)).rjust(6) +
                         " (" + str(min(dmg_10)) + "-" + str(max(dmg_10)) + ")\n")
             f.write("\n")
@@ -408,6 +423,7 @@ def get_best_per_build(results, level, r, armor_types, dex_table):
                 'Spells': c.starting_spells + c.spells_from_levels,
                 'To Hit': max(c.to_hit_melee(), c.to_hit_ranged(), c.to_hit_magic()),
                 'Dmg/Turn': d['per_turn'],
+                'Dmg/5R': res['dmg_5round']['total'] if isinstance(res['dmg_5round'], dict) else res['dmg_5round'],
                 'Dmg/10R': res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round'],
                 'char': c,
             }
@@ -539,6 +555,7 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
 
         def total_dmg_wins(builds):
             return sum(overall_wins['Dmg/Turn'].get(b, 0) for b in builds) + \
+                   sum(overall_wins['Dmg/5R'].get(b, 0) for b in builds) + \
                    sum(overall_wins['Dmg/10R'].get(b, 0) for b in builds)
 
         magic_dmg_wins = total_dmg_wins(magical_builds)
@@ -599,7 +616,7 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
                     f.write("    This is expected for tank/heavy-armor builds. No action needed.\n")
                 elif cat == 'Feats':
                     f.write("    (Tied across all builds since every build gets +1 feat every 3 levels.)\n")
-                elif cat in ('Dmg/Turn', 'Dmg/10R'):
+                elif cat in ('Dmg/Turn', 'Dmg/5R', 'Dmg/10R'):
                     f.write("    >>> IMBALANCE: Damage output is concentrated in one build.\n")
                     f.write("    Consider: rebalancing damage scaling so other builds can compete.\n")
             elif top_pct < 40:
@@ -775,7 +792,7 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
             top_name, top_count = sorted_cat[0]
             top_pct3 = top_count * 100 / (total_levels_per_tier * len(all_tier_results))
             if top_pct3 > 80:
-                if cat in ('Dmg/Turn', 'Dmg/10R'):
+                if cat in ('Dmg/Turn', 'Dmg/5R', 'Dmg/10R'):
                     write_reco(
                         top_name + " has a monopoly on " + cat +
                         " (" + format(top_pct3, '.0f') + "%).\n" +

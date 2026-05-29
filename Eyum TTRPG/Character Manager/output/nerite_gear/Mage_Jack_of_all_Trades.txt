@@ -28,8 +28,9 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 7 (x5 mana)
-    Total Dmg/10R: 56
+    Magic Dmg/Cast: 3 (x5 mana)
+    Total Dmg/5R:  17
+    Total Dmg/10R: 30
     Mana: 15 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -43,15 +44,13 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  2
 
   PATHS:
-    Magical -> Jack (Lvl 0)
-    Magical -> Healer (Lvl 0)
+    Magical -> Magician (Lvl 0)
     Magical -> Pyromancer (Lvl 0)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
@@ -95,9 +94,10 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 14 (x8 mana)
-    Total Dmg/10R: 75
-    Mana: 22 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 7 (x8 mana)
+    Total Dmg/5R:  25
+    Total Dmg/10R: 40
+    Mana: 22 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  9
@@ -110,15 +110,13 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  2
 
   PATHS:
-    Magical -> Jack (Lvl 0)
-    Magical -> Healer (Lvl 0)
+    Magical -> Magician (Lvl 0)
     Magical -> Pyromancer (Lvl 0)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
@@ -162,9 +160,10 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 14 (x8 mana)
-    Total Dmg/10R: 84
-    Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 7 (x8 mana)
+    Total Dmg/5R:  29
+    Total Dmg/10R: 44
+    Mana: 30 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  13
@@ -178,15 +177,13 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  3
 
   PATHS:
-    Magical -> Jack (Lvl 0)
-    Magical -> Healer (Lvl 0)
+    Magical -> Magician (Lvl 0)
     Magical -> Pyromancer (Lvl 0)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
@@ -225,15 +222,16 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     To Hit: Magic: +4
 
   HEALTH POOLS:
-    Vitality: 31 = 5d8 (4 x 5) + 4(flat) + 1 x 5(Con)
+    Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
     Health:  21 = 5d6 (3 x 5) + 4(flat)
-    Mana:   37 = 5d6 (3 x 5) + 4 x 5(Wis)
+    Mana:   42 = 5d8 (4 x 5) + 4 x 5(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 14 (x8 mana)
-    Total Dmg/10R: 91
-    Mana: 37 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 8 (x8 mana)
+    Total Dmg/5R:  40
+    Total Dmg/10R: 58
+    Mana: 42 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -247,27 +245,25 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  3
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 0)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 0)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -1
+    Air            : -2
     Cold           : -3
-    Earth          : 3
-    Fire           : 6
+    Earth          : 2
+    Fire           : 5
     Generic        : 2
     Necrotic       : 1
     Psychic        : -2
     Radiant        : 4
-    Water          : 2
+    Water          : 1
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -294,15 +290,16 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     To Hit: Magic: +4
 
   HEALTH POOLS:
-    Vitality: 38 = 6d8 (4 x 6) + 5(flat) + 1 x 6(Con)
+    Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
     Health:  26 = 6d6 (3 x 6) + 5(flat)
-    Mana:   45 = 6d6 (3 x 6) + 4 x 6(Wis)
+    Mana:   51 = 6d8 (4 x 6) + 4 x 6(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 14 (x8 mana)
-    Total Dmg/10R: 100
-    Mana: 45 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 8 (x8 mana)
+    Total Dmg/5R:  40
+    Total Dmg/10R: 63
+    Mana: 51 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -316,27 +313,25 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  3
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 0)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 0)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -1
+    Air            : -2
     Cold           : -3
-    Earth          : 3
-    Fire           : 6
+    Earth          : 2
+    Fire           : 5
     Generic        : 2
     Necrotic       : 1
     Psychic        : -2
     Radiant        : 4
-    Water          : 2
+    Water          : 1
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -363,15 +358,16 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     To Hit: Magic: +6
 
   HEALTH POOLS:
-    Vitality: 44 = 7d8 (4 x 7) + 6(flat) + 1 x 7(Con)
+    Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
     Health:  30 = 7d6 (3 x 7) + 6(flat)
-    Mana:   59 = 7d6 (3 x 7) + 5 x 7(Wis)
+    Mana:   78 = 7d8 (4 x 7) + 5 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 24 (x13 mana)
-    Total Dmg/10R: 144
-    Mana: 59 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  76
+    Total Dmg/10R: 108
+    Mana: 78 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -380,32 +376,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Affinity Master (Points))
+    Feats:  2 (taken: Toughness, Mana Flow)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  4
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
-    Magical -> Pyromancer (Lvl 0)
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 2
+    Air            : -2
     Cold           : -3
-    Earth          : 6
-    Fire           : 9
+    Earth          : 3
+    Fire           : 10
     Generic        : 2
     Necrotic       : 1
     Psychic        : -2
-    Radiant        : 5
-    Water          : 6
+    Radiant        : 4
+    Water          : 2
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -432,15 +426,16 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     To Hit: Magic: +6
 
   HEALTH POOLS:
-    Vitality: 51 = 8d8 (4 x 8) + 7(flat) + 1 x 8(Con)
+    Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
     Health:  35 = 8d6 (3 x 8) + 7(flat)
-    Mana:   68 = 8d6 (3 x 8) + 5 x 8(Wis)
+    Mana:   90 = 8d8 (4 x 8) + 5 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 24 (x13 mana)
-    Total Dmg/10R: 156
-    Mana: 68 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  76
+    Total Dmg/10R: 115
+    Mana: 90 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -449,32 +444,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Affinity Master (Points))
+    Feats:  2 (taken: Toughness, Mana Flow)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  4
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
-    Magical -> Pyromancer (Lvl 0)
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 0)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 2
+    Air            : -2
     Cold           : -3
-    Earth          : 6
-    Fire           : 9
+    Earth          : 3
+    Fire           : 10
     Generic        : 2
     Necrotic       : 1
     Psychic        : -2
-    Radiant        : 5
-    Water          : 6
+    Radiant        : 4
+    Water          : 2
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -498,18 +491,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +8
+    To Hit: Magic: +6
 
   HEALTH POOLS:
-    Vitality: 57 = 9d8 (4 x 9) + 8(flat) + 1 x 9(Con)
+    Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
     Health:  39 = 9d6 (3 x 9) + 8(flat)
-    Mana:   76 = 9d6 (3 x 9) + 5 x 9(Wis)
+    Mana:   101 = 9d8 (4 x 9) + 5 x 9(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 24 (x13 mana)
-    Total Dmg/10R: 223
-    Mana: 76 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  116
+    Total Dmg/10R: 158
+    Mana: 101 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -518,32 +512,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    26
 
   FEATS & SPELLS:
-    Feats:  2 (taken: Toughness, Affinity Master (Points))
+    Feats:  2 (taken: Toughness, Mana Flow)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  4
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
-    Magical -> Geomancer (Lvl 0)
+    Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
+    Air            : -1
     Cold           : -3
-    Earth          : 6
-    Fire           : 13
+    Earth          : 7
+    Fire           : 10
     Generic        : 2
     Necrotic       : 1
     Psychic        : -2
-    Radiant        : 5
-    Water          : 6
+    Radiant        : 4
+    Water          : 2
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -562,23 +554,24 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 10
+    AC: 11
     Initiative: +0
     Speed: 25 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +8
+    To Hit: Magic: +6
 
   HEALTH POOLS:
-    Vitality: 64 = 10d8 (4 x 10) + 9(flat) + 1 x 10(Con)
+    Vitality: 54 = 10d6 (3 x 10) + 9(flat) + 1 x 10(Con)
     Health:  44 = 10d6 (3 x 10) + 9(flat)
-    Mana:   85 = 10d6 (3 x 10) + 5 x 10(Wis)
+    Mana:   113 = 10d8 (4 x 10) + 5 x 10(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 24 (x13 mana)
-    Total Dmg/10R: 243
-    Mana: 85 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 14 (x13 mana)
+    Total Dmg/5R:  127
+    Total Dmg/10R: 169
+    Mana: 113 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -587,32 +580,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  3 (taken: Toughness, Mana Flow, Stone Skin)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  5
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
-    Magical -> Geomancer (Lvl 0)
+    Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 0)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 0
     Cold           : -3
-    Earth          : 7
-    Fire           : 14
+    Earth          : 9
+    Fire           : 10
     Generic        : 2
-    Necrotic       : 2
-    Psychic        : -1
-    Radiant        : 5
-    Water          : 7
+    Necrotic       : 1
+    Psychic        : -2
+    Radiant        : 4
+    Water          : 3
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -636,18 +627,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +8
+    To Hit: Magic: +7
 
   HEALTH POOLS:
-    Vitality: 70 = 11d8 (4 x 11) + 10(flat) + 1 x 11(Con)
+    Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
     Health:  48 = 11d6 (3 x 11) + 10(flat)
-    Mana:   93 = 11d6 (3 x 11) + 5 x 11(Wis)
+    Mana:   124 = 11d8 (4 x 11) + 5 x 11(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 24 (x13 mana)
-    Total Dmg/10R: 233
-    Mana: 93 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  137
+    Total Dmg/10R: 188
+    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -656,32 +648,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Stone Skin, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Mana Flow, Stone Skin)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  5
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
-    Magical -> Tidemaster (Lvl 0)
+    Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 0
     Cold           : -3
-    Earth          : 12
-    Fire           : 14
+    Earth          : 9
+    Fire           : 11
     Generic        : 2
-    Necrotic       : 2
-    Psychic        : -1
-    Radiant        : 5
-    Water          : 6
+    Necrotic       : 1
+    Psychic        : -2
+    Radiant        : 4
+    Water          : 7
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -705,18 +695,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +8
+    To Hit: Magic: +7
 
   HEALTH POOLS:
-    Vitality: 77 = 12d8 (4 x 12) + 11(flat) + 1 x 12(Con)
+    Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
     Health:  53 = 12d6 (3 x 12) + 11(flat)
-    Mana:   102 = 12d6 (3 x 12) + 5 x 12(Wis)
+    Mana:   136 = 12d8 (4 x 12) + 5 x 12(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 24 (x13 mana)
-    Total Dmg/10R: 265
-    Mana: 102 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  153
+    Total Dmg/10R: 203
+    Mana: 136 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -725,32 +716,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Stone Skin, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Mana Flow, Stone Skin)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  5
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
-    Magical -> Tidemaster (Lvl 0)
+    Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 0)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
+    Air            : 0
     Cold           : -3
-    Earth          : 12
-    Fire           : 14
+    Earth          : 9
+    Fire           : 11
     Generic        : 2
-    Necrotic       : 2
-    Psychic        : -1
-    Radiant        : 5
-    Water          : 6
+    Necrotic       : 1
+    Psychic        : -2
+    Radiant        : 4
+    Water          : 7
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -774,18 +763,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
-    Vitality: 96 = 13d8 (4 x 13) + 12(flat) + 2 x 13(Con)
+    Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
     Health:  57 = 13d6 (3 x 13) + 12(flat)
-    Mana:   110 = 13d6 (3 x 13) + 5 x 13(Wis)
+    Mana:   147 = 13d8 (4 x 13) + 5 x 13(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 (x10 mana)
-    Total Dmg/10R: 411
-    Mana: 110 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x13 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 215
+    Mana: 147 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -794,32 +784,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  6
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
-    Magical -> Windwalker (Lvl 0)
+    Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 6
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 13
+    Fire           : 14
     Generic        : 2
     Necrotic       : 2
     Psychic        : -1
-    Radiant        : 6
-    Water          : 11
+    Radiant        : 5
+    Water          : 9
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -843,18 +831,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
-    Vitality: 104 = 14d8 (4 x 14) + 13(flat) + 2 x 14(Con)
+    Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
     Health:  62 = 14d6 (3 x 14) + 13(flat)
-    Mana:   119 = 14d6 (3 x 14) + 5 x 14(Wis)
+    Mana:   159 = 14d8 (4 x 14) + 5 x 14(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 (x10 mana)
-    Total Dmg/10R: 446
-    Mana: 119 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x13 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 231
+    Mana: 159 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -863,32 +852,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  6
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
-    Magical -> Windwalker (Lvl 0)
+    Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 0)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 6
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 13
+    Fire           : 14
     Generic        : 2
     Necrotic       : 2
     Psychic        : -1
-    Radiant        : 6
-    Water          : 11
+    Radiant        : 5
+    Water          : 9
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -912,18 +899,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
-    Vitality: 111 = 15d8 (4 x 15) + 14(flat) + 2 x 15(Con)
+    Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
     Health:  66 = 15d6 (3 x 15) + 14(flat)
-    Mana:   127 = 15d6 (3 x 15) + 5 x 15(Wis)
+    Mana:   170 = 15d8 (4 x 15) + 5 x 15(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 (x10 mana)
-    Total Dmg/10R: 472
-    Mana: 127 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x13 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 239
+    Mana: 170 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -932,32 +920,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  6
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
-    Magical -> Priest (Lvl 0)
+    Magical -> Priest (Lvl 1)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 13
+    Fire           : 14
     Generic        : 2
     Necrotic       : 2
     Psychic        : -1
-    Radiant        : 6
-    Water          : 12
+    Radiant        : 9
+    Water          : 10
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -981,18 +967,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
-    Vitality: 119 = 16d8 (4 x 16) + 15(flat) + 2 x 16(Con)
+    Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
     Health:  71 = 16d6 (3 x 16) + 15(flat)
-    Mana:   136 = 16d6 (3 x 16) + 5 x 16(Wis)
+    Mana:   182 = 16d8 (4 x 16) + 5 x 16(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 (x10 mana)
-    Total Dmg/10R: 495
-    Mana: 136 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  157
+    Total Dmg/10R: 247
+    Mana: 182 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -1001,32 +988,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  7
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
-    Magical -> Priest (Lvl 0)
+    Magical -> Priest (Lvl 1)
     Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 7
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 13
+    Fire           : 14
     Generic        : 2
-    Necrotic       : 3
-    Psychic        : 0
-    Radiant        : 6
-    Water          : 12
+    Necrotic       : 2
+    Psychic        : -1
+    Radiant        : 9
+    Water          : 11
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1050,18 +1035,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
-    Vitality: 126 = 17d8 (4 x 17) + 16(flat) + 2 x 17(Con)
+    Vitality: 109 = 17d6 (3 x 17) + 16(flat) + 2 x 17(Con)
     Health:  75 = 17d6 (3 x 17) + 16(flat)
-    Mana:   144 = 17d6 (3 x 17) + 5 x 17(Wis)
+    Mana:   193 = 17d8 (4 x 17) + 5 x 17(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 (x10 mana)
-    Total Dmg/10R: 511
-    Mana: 144 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  157
+    Total Dmg/10R: 251
+    Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1070,32 +1056,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  7
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 1)
-    Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
+    Magical -> Necromancer (Lvl 1)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 8
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 13
+    Fire           : 14
     Generic        : 2
-    Necrotic       : 3
-    Psychic        : 0
-    Radiant        : 10
-    Water          : 12
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 9
+    Water          : 11
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1119,18 +1103,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
-    Vitality: 134 = 18d8 (4 x 18) + 17(flat) + 2 x 18(Con)
+    Vitality: 116 = 18d6 (3 x 18) + 17(flat) + 2 x 18(Con)
     Health:  80 = 18d6 (3 x 18) + 17(flat)
-    Mana:   153 = 18d6 (3 x 18) + 5 x 18(Wis)
+    Mana:   205 = 18d8 (4 x 18) + 5 x 18(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 (x10 mana)
-    Total Dmg/10R: 534
-    Mana: 153 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x13 mana)
+    Total Dmg/5R:  157
+    Total Dmg/10R: 258
+    Mana: 205 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1139,32 +1124,30 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  7
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 1)
-    Magical -> Necromancer (Lvl 0)
-    Magical -> Magician (Lvl 0)
+    Magical -> Necromancer (Lvl 1)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 8
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 13
+    Fire           : 14
     Generic        : 2
-    Necrotic       : 3
-    Psychic        : 0
-    Radiant        : 10
-    Water          : 12
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 9
+    Water          : 11
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1188,51 +1171,50 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +10
+    To Hit: Magic: +9
 
   HEALTH POOLS:
-    Vitality: 141 = 19d8 (4 x 19) + 18(flat) + 2 x 19(Con)
+    Vitality: 122 = 19d6 (3 x 19) + 18(flat) + 2 x 19(Con)
     Health:  84 = 19d6 (3 x 19) + 18(flat)
-    Mana:   161 = 19d6 (3 x 19) + 5 x 19(Wis)
+    Mana:   216 = 19d8 (4 x 19) + 5 x 19(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 36 (x10 mana)
-    Total Dmg/10R: 608
-    Mana: 161 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x13 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 278
+    Mana: 216 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
-    Stat Points:   1
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  8
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 1)
     Magical -> Necromancer (Lvl 1)
-    Magical -> Magician (Lvl 0)
-    Racial -> Demon Sylphamare (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
     Air            : 9
     Cold           : -3
-    Earth          : 15
-    Fire           : 17
+    Earth          : 14
+    Fire           : 16
     Generic        : 2
-    Necrotic       : 7
-    Psychic        : 0
-    Radiant        : 10
+    Necrotic       : 8
+    Psychic        : 1
+    Radiant        : 11
     Water          : 12
 
   GEAR:
@@ -1257,51 +1239,50 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +10
+    To Hit: Magic: +9
 
   HEALTH POOLS:
-    Vitality: 149 = 20d8 (4 x 20) + 19(flat) + 2 x 20(Con)
+    Vitality: 129 = 20d6 (3 x 20) + 19(flat) + 2 x 20(Con)
     Health:  89 = 20d6 (3 x 20) + 19(flat)
-    Mana:   170 = 20d6 (3 x 20) + 5 x 20(Wis)
+    Mana:   228 = 20d8 (4 x 20) + 5 x 20(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 36 (x10 mana)
-    Total Dmg/10R: 634
-    Mana: 170 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x13 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 293
+    Mana: 228 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
-    Stat Points:   1
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Stone Skin, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  8
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 1)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 1)
     Magical -> Necromancer (Lvl 1)
-    Magical -> Magician (Lvl 0)
-    Racial -> Demon Sylphamare (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
     Air            : 9
     Cold           : -3
-    Earth          : 15
-    Fire           : 17
+    Earth          : 14
+    Fire           : 16
     Generic        : 2
-    Necrotic       : 7
-    Psychic        : 0
-    Radiant        : 10
+    Necrotic       : 8
+    Psychic        : 1
+    Radiant        : 11
     Water          : 12
 
   GEAR:
@@ -1326,18 +1307,19 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +10
+    To Hit: Magic: +9
 
   HEALTH POOLS:
-    Vitality: 135 = 21d6 (3 x 21) + 20(flat) + 2 x 21(Con)
+    Vitality: 114 = 21d4 (2 x 21) + 20(flat) + 2 x 21(Con)
     Health:  93 = 21d6 (3 x 21) + 20(flat)
-    Mana:   239 = 21d8 (4 x 21) + 5 x 21(Wis)
+    Mana:   260 = 21d10 (5 x 21) + 5 x 21(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 36 (x10 mana)
-    Total Dmg/10R: 735
-    Mana: 239 start, 39 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x13 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 323
+    Mana: 260 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1346,27 +1328,25 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose))
+    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  8
 
   PATHS:
-    Magical -> Jack (Lvl 1)
-    Magical -> Healer (Lvl 1)
+    Magical -> Magician (Lvl 2)
     Magical -> Pyromancer (Lvl 1)
     Magical -> Geomancer (Lvl 1)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 1)
     Magical -> Necromancer (Lvl 1)
-    Magical -> Magician (Lvl 1)
-    Racial -> Demon Sylphamare (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
     Air            : 9
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 15
+    Fire           : 16
     Generic        : 2
     Necrotic       : 7
     Psychic        : 0
@@ -1398,49 +1378,48 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     To Hit: Magic: +10
 
   HEALTH POOLS:
-    Vitality: 168 = 26d6 (3 x 26) + 25(flat) + 2 x 26(Con)
+    Vitality: 142 = 26d4 (2 x 26) + 25(flat) + 2 x 26(Con)
     Health:  116 = 26d6 (3 x 26) + 25(flat)
-    Mana:   297 = 26d8 (4 x 26) + 5 x 26(Wis)
+    Mana:   323 = 26d10 (5 x 26) + 5 x 26(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 38 (x10 mana)
-    Total Dmg/10R: 1109
-    Mana: 297 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x13 mana)
+    Total Dmg/5R:  270
+    Total Dmg/10R: 462
+    Mana: 323 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
-    Stat Points:   2
+    Stat Points:   1
     Affinity Pts:  0
     Stat Spent:    32
 
   FEATS & SPELLS:
-    Feats:  8 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert)
+    Feats:  8 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  10
 
   PATHS:
-    Magical -> Jack (Lvl 2)
-    Magical -> Healer (Lvl 1)
-    Magical -> Pyromancer (Lvl 1)
-    Magical -> Geomancer (Lvl 1)
+    Magical -> Magician (Lvl 2)
+    Magical -> Pyromancer (Lvl 2)
+    Magical -> Geomancer (Lvl 2)
     Magical -> Tidemaster (Lvl 1)
     Magical -> Windwalker (Lvl 1)
     Magical -> Priest (Lvl 1)
     Magical -> Necromancer (Lvl 1)
-    Magical -> Magician (Lvl 1)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 11
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 16
+    Fire           : 17
     Generic        : 2
-    Necrotic       : 9
-    Psychic        : 2
-    Radiant        : 12
-    Water          : 15
+    Necrotic       : 8
+    Psychic        : 1
+    Radiant        : 11
+    Water          : 14
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1467,49 +1446,48 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     To Hit: Magic: +11
 
   HEALTH POOLS:
-    Vitality: 200 = 31d6 (3 x 31) + 30(flat) + 2 x 31(Con)
+    Vitality: 169 = 31d4 (2 x 31) + 30(flat) + 2 x 31(Con)
     Health:  138 = 31d6 (3 x 31) + 30(flat)
-    Mana:   354 = 31d8 (4 x 31) + 5 x 31(Wis)
+    Mana:   385 = 31d10 (5 x 31) + 5 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 41 (x10 mana)
-    Total Dmg/10R: 1237
-    Mana: 354 start, 54 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x13 mana)
+    Total Dmg/5R:  270
+    Total Dmg/10R: 522
+    Mana: 385 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  103
-    Stat Points:   4
+    Skill Points:  100
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    34
 
   FEATS & SPELLS:
-    Feats:  10 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  10 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  12
 
   PATHS:
-    Magical -> Jack (Lvl 2)
-    Magical -> Healer (Lvl 2)
+    Magical -> Magician (Lvl 2)
     Magical -> Pyromancer (Lvl 2)
     Magical -> Geomancer (Lvl 2)
-    Magical -> Tidemaster (Lvl 1)
-    Magical -> Windwalker (Lvl 1)
-    Magical -> Priest (Lvl 1)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
     Magical -> Necromancer (Lvl 1)
-    Magical -> Magician (Lvl 1)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 11
     Cold           : -3
-    Earth          : 18
-    Fire           : 20
+    Earth          : 17
+    Fire           : 19
     Generic        : 2
-    Necrotic       : 10
-    Psychic        : 3
-    Radiant        : 13
-    Water          : 16
+    Necrotic       : 9
+    Psychic        : 2
+    Radiant        : 12
+    Water          : 15
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1533,21 +1511,22 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +12
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 224 = 41d4 (2 x 41) + 40(flat) + 2 x 41(Con)
     Health:  183 = 41d6 (3 x 41) + 40(flat)
-    Mana:   510 = 41d10 (5 x 41) + 5 x 41(Wis)
+    Mana:   551 = 41d12 (6 x 41) + 5 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 42 (x10 mana)
-    Total Dmg/10R: 1710
-    Mana: 510 start, 110 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 (x13 mana)
+    Total Dmg/5R:  459
+    Total Dmg/10R: 917
+    Mana: 551 start, 31 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  139
+    Skill Points:  136
     Stat Points:   6
     Affinity Pts:  0
     Stat Spent:    37
@@ -1558,27 +1537,26 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  15
 
   PATHS:
-    Magical -> Jack (Lvl 2)
-    Magical -> Healer (Lvl 2)
-    Magical -> Pyromancer (Lvl 2)
-    Magical -> Geomancer (Lvl 2)
+    Magical -> Magician (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 2)
     Magical -> Windwalker (Lvl 2)
     Magical -> Priest (Lvl 2)
     Magical -> Necromancer (Lvl 2)
-    Magical -> Magician (Lvl 2)
-    Racial -> Demon Sylphamare (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 14
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 19
+    Fire           : 20
     Generic        : 2
-    Necrotic       : 11
-    Psychic        : 4
-    Radiant        : 14
-    Water          : 18
+    Infernal       : 5
+    Necrotic       : 10
+    Psychic        : 3
+    Radiant        : 18
+    Water          : 17
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1602,21 +1580,22 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +17
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 279 = 51d4 (2 x 51) + 50(flat) + 2 x 51(Con)
     Health:  228 = 51d6 (3 x 51) + 50(flat)
-    Mana:   686 = 51d10 (5 x 51) + 6 x 51(Wis)
+    Mana:   737 = 51d12 (6 x 51) + 6 x 51(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 59 (x10 mana)
-    Total Dmg/10R: 2370
-    Mana: 686 start, 286 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 33 (x13 mana)
+    Total Dmg/5R:  663
+    Total Dmg/10R: 1325
+    Mana: 737 start, 217 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  170
+    Skill Points:  167
     Stat Points:   9
     Affinity Pts:  0
     Stat Spent:    40
@@ -1627,28 +1606,26 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  18
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 3)
+    Magical -> Magician (Lvl 3)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
-    Magical -> Tidemaster (Lvl 2)
-    Magical -> Windwalker (Lvl 2)
-    Magical -> Priest (Lvl 2)
-    Magical -> Necromancer (Lvl 2)
-    Magical -> Magician (Lvl 2)
-    Racial -> Demon Sylphamare (Lvl 2)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 16
     Cold           : -3
-    Earth          : 30
-    Fire           : 32
+    Earth          : 21
+    Fire           : 23
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 19
-    Psychic        : 12
-    Radiant        : 27
-    Water          : 27
+    Necrotic       : 11
+    Psychic        : 3
+    Radiant        : 19
+    Water          : 19
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1672,21 +1649,22 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +19
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 395 = 61d4 (2 x 61) + 60(flat) + 3 x 61(Con)
     Health:  273 = 61d6 (3 x 61) + 60(flat)
-    Mana:   882 = 61d12 (6 x 61) + 6 x 61(Wis)
+    Mana:   1126 = 61d20 (10 x 61) + 6 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 63 (x10 mana)
-    Total Dmg/10R: 3187
-    Mana: 882 start, 382 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 35 (x3 mana)
+    Total Dmg/5R:  890
+    Total Dmg/10R: 1781
+    Mana: 1126 start, 976 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  203
+    Skill Points:  200
     Stat Points:   13
     Affinity Pts:  0
     Stat Spent:    44
@@ -1697,28 +1675,26 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  22
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 3)
+    Magical -> Magician (Lvl 4)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 3)
     Magical -> Windwalker (Lvl 3)
     Magical -> Priest (Lvl 3)
     Magical -> Necromancer (Lvl 3)
-    Magical -> Magician (Lvl 3)
-    Racial -> Demon Sylphamare (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 28
+    Air            : 18
     Cold           : -3
-    Earth          : 34
-    Fire           : 35
+    Earth          : 24
+    Fire           : 25
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 22
-    Psychic        : 14
-    Radiant        : 30
-    Water          : 31
+    Necrotic       : 12
+    Psychic        : 5
+    Radiant        : 20
+    Water          : 21
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1742,21 +1718,22 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +21
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 460 = 71d4 (2 x 71) + 70(flat) + 3 x 71(Con)
     Health:  318 = 71d6 (3 x 71) + 70(flat)
-    Mana:   1027 = 71d12 (6 x 71) + 6 x 71(Wis)
+    Mana:   1311 = 71d20 (10 x 71) + 6 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 (x10 mana)
-    Total Dmg/10R: 3487
-    Mana: 1027 start, 527 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 (x3 mana)
+    Total Dmg/5R:  914
+    Total Dmg/10R: 1828
+    Mana: 1311 start, 1161 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  234
+    Skill Points:  231
     Stat Points:   15
     Affinity Pts:  0
     Stat Spent:    47
@@ -1767,28 +1744,26 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  25
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 4)
+    Magical -> Magician (Lvl 4)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 3)
     Magical -> Windwalker (Lvl 3)
     Magical -> Priest (Lvl 3)
     Magical -> Necromancer (Lvl 3)
-    Magical -> Magician (Lvl 3)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 31
+    Air            : 20
     Cold           : -3
-    Earth          : 37
-    Fire           : 39
+    Earth          : 26
+    Fire           : 27
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 24
-    Psychic        : 17
-    Radiant        : 32
-    Water          : 35
+    Necrotic       : 13
+    Psychic        : 5
+    Radiant        : 21
+    Water          : 24
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1812,7 +1787,7 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Magic: +22
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 525 = 81d4 (2 x 81) + 80(flat) + 3 x 81(Con)
@@ -1821,12 +1796,13 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 74 (x10 mana)
-    Total Dmg/10R: 4455
-    Mana: 1496 start, 896 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 37 (x3 mana)
+    Total Dmg/5R:  1125
+    Total Dmg/10R: 2251
+    Mana: 1496 start, 1316 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  270
+    Skill Points:  267
     Stat Points:   18
     Affinity Pts:  0
     Stat Spent:    50
@@ -1837,28 +1813,26 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  28
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 4)
+    Magical -> Magician (Lvl 4)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 3)
     Magical -> Windwalker (Lvl 3)
     Magical -> Priest (Lvl 3)
     Magical -> Necromancer (Lvl 3)
-    Magical -> Magician (Lvl 4)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 35
+    Air            : 23
     Cold           : -3
-    Earth          : 41
-    Fire           : 42
+    Earth          : 28
+    Fire           : 29
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 26
-    Psychic        : 19
-    Radiant        : 34
-    Water          : 39
+    Necrotic       : 13
+    Psychic        : 6
+    Radiant        : 22
+    Water          : 26
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1882,7 +1856,7 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +24
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 590 = 91d4 (2 x 91) + 90(flat) + 3 x 91(Con)
@@ -1891,12 +1865,13 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 80 (x10 mana)
-    Total Dmg/10R: 5617
-    Mana: 1772 start, 1072 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 (x3 mana)
+    Total Dmg/5R:  1346
+    Total Dmg/10R: 2693
+    Mana: 1772 start, 1562 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  303
+    Skill Points:  300
     Stat Points:   21
     Affinity Pts:  0
     Stat Spent:    54
@@ -1907,28 +1882,26 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  32
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 5)
+    Magical -> Magician (Lvl 4)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 3)
     Magical -> Windwalker (Lvl 3)
     Magical -> Priest (Lvl 3)
     Magical -> Necromancer (Lvl 3)
-    Magical -> Magician (Lvl 4)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 39
+    Air            : 25
     Cold           : -3
-    Earth          : 44
-    Fire           : 46
+    Earth          : 30
+    Fire           : 32
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 29
-    Psychic        : 22
-    Radiant        : 37
-    Water          : 42
+    Necrotic       : 15
+    Psychic        : 7
+    Radiant        : 23
+    Water          : 28
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
@@ -1952,7 +1925,7 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Speed: 25 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +26
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 756 = 101d4 (2 x 101) + 100(flat) + 4 x 101(Con)
@@ -1961,12 +1934,13 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 198 (x19 mana)
-    Total Dmg/10R: 13912
+    Magic Dmg/Cast: 85 (x19 mana)
+    Total Dmg/5R:  3001
+    Total Dmg/10R: 6002
     Mana: 1967 start, 637 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  334
+    Skill Points:  331
     Stat Points:   23
     Affinity Pts:  0
     Stat Spent:    57
@@ -1977,98 +1951,164 @@ EYUM TTRPG - MAGE JACK OF ALL TRADES (NERITE GEAR)
     Spells:  35
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 5)
+    Magical -> Magician (Lvl 4)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 3)
     Magical -> Windwalker (Lvl 3)
     Magical -> Priest (Lvl 3)
     Magical -> Necromancer (Lvl 3)
-    Magical -> Magician (Lvl 4)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 42
+    Air            : 27
     Cold           : -3
-    Earth          : 49
-    Fire           : 50
+    Earth          : 33
+    Fire           : 34
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 31
-    Psychic        : 24
-    Radiant        : 39
-    Water          : 45
+    Necrotic       : 15
+    Psychic        : 8
+    Radiant        : 24
+    Water          : 30
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)
     Armor: nerite_none (No Armor)
 
 ============================================================
-  Mage Jack of all Trades - Level 1000 (Nerite Gear)
+  Mage Jack of all Trades - Level 150 (Nerite Gear)
 ============================================================
 
   STATS:
-    STR: 35 (+12) = 8 + 27
-    DEX: 37 (+13) = 6 + 31
-    CON: 39 (+14) = 8 + 31
-    WIS: 46 (+18) = 11 + 35
-    INT: 41 (+15) = 10 + 31
-    CHA: 35 (+12) = 8 + 27
+    STR: 15 (+2) = 8 + 7
+    DEX: 18 (+4) = 6 + 12
+    CON: 20 (+5) = 8 + 12
+    WIS: 26 (+8) = 11 + 15
+    INT: 22 (+6) = 10 + 12
+    CHA: 16 (+3) = 8 + 8
 
   COMBAT:
-    AC: 15
-    Initiative: +13
+    AC: 14
+    Initiative: +4
     Speed: 25 ft
-    AP: 101  BAP: 126  RP: 2
-    Proficiency: +334
-    To Hit: Magic: +189
+    AP: 16  BAP: 19  RP: 2
+    Proficiency: +51
+    To Hit: Magic: +24
 
   HEALTH POOLS:
-    Vitality: 17516 = 1001d4 (2 x 1001) + 1000(flat) + 14 x 1001(Con)
-    Health:  4503 = 1001d6 (3 x 1001) + 1000(flat)
-    Mana:   30528 = 1001d20 (10 x 1001) + 18 x 1001(Wis)
+    Vitality: 1282 = 151d4 (2 x 151) + 150(flat) + 5 x 151(Con)
+    Health:  678 = 151d6 (3 x 151) + 150(flat)
+    Mana:   3093 = 151d20 (10 x 151) + 8 x 151(Wis)
 
   DAMAGE:
-    Attacks/Turn: 64
-    Magic Dmg/Cast: 1176 (x19 mana)
-    Total Dmg/10R: 753120
-    Mana: 30528 start, 18368 after 10R (cast magic 10/10 rounds)
+    Attacks/Turn: 10
+    Magic Dmg/Cast: 79 (x19 mana)
+    Total Dmg/5R:  3973
+    Total Dmg/10R: 7947
+    Mana: 3093 start, 1193 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
-    Skill Points:  3299
-    Stat Points:   318
+    Skill Points:  495
+    Stat Points:   36
     Affinity Pts:  0
-    Stat Spent:    355
+    Stat Spent:    74
 
   FEATS & SPELLS:
-    Feats:  333 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Dodge Master, Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  50 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
-    Spells:  335
+    Spells:  52
 
   PATHS:
-    Magical -> Jack (Lvl 3)
-    Magical -> Healer (Lvl 10)
+    Magical -> Magician (Lvl 4)
     Magical -> Pyromancer (Lvl 3)
     Magical -> Geomancer (Lvl 3)
     Magical -> Tidemaster (Lvl 3)
     Magical -> Windwalker (Lvl 3)
     Magical -> Priest (Lvl 3)
     Magical -> Necromancer (Lvl 3)
-    Magical -> Magician (Lvl 4)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 370
+    Air            : 38
     Cold           : -3
-    Earth          : 375
-    Fire           : 376
+    Earth          : 44
+    Fire           : 45
     Generic        : 2
     Infernal       : 5
-    Necrotic       : 245
-    Psychic        : 238
-    Radiant        : 253
-    Water          : 373
+    Necrotic       : 20
+    Psychic        : 13
+    Radiant        : 28
+    Water          : 42
+
+  GEAR:
+    Weapon: nerite_quarterstaff (1d6 bludgeoning)
+    Armor: nerite_none (No Armor)
+
+============================================================
+  Mage Jack of all Trades - Level 200 (Nerite Gear)
+============================================================
+
+  STATS:
+    STR: 17 (+3) = 8 + 9
+    DEX: 19 (+4) = 6 + 13
+    CON: 22 (+6) = 8 + 14
+    WIS: 28 (+9) = 11 + 17
+    INT: 24 (+7) = 10 + 14
+    CHA: 17 (+3) = 8 + 9
+
+  COMBAT:
+    AC: 14
+    Initiative: +4
+    Speed: 25 ft
+    AP: 21  BAP: 26  RP: 2
+    Proficiency: +67
+    To Hit: Magic: +29
+
+  HEALTH POOLS:
+    Vitality: 1908 = 201d4 (2 x 201) + 200(flat) + 6 x 201(Con)
+    Health:  903 = 201d6 (3 x 201) + 200(flat)
+    Mana:   4319 = 201d20 (10 x 201) + 9 x 201(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 14
+    Magic Dmg/Cast: 87 (x19 mana)
+    Total Dmg/5R:  6118
+    Total Dmg/10R: 12237
+    Mana: 4319 start, 1659 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  662
+    Stat Points:   52
+    Affinity Pts:  0
+    Stat Spent:    90
+
+  FEATS & SPELLS:
+    Feats:  66 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  68
+
+  PATHS:
+    Magical -> Magician (Lvl 4)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 49
+    Cold           : -3
+    Earth          : 54
+    Fire           : 56
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 25
+    Psychic        : 18
+    Radiant        : 33
+    Water          : 52
 
   GEAR:
     Weapon: nerite_quarterstaff (1d6 bludgeoning)

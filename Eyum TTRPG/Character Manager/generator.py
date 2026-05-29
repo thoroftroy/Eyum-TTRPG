@@ -17,7 +17,7 @@ from lib.effects import apply_effects
 from lib.paths import apply_level_progression, apply_paths
 from lib.feats import select_feats
 from lib.stats import spend_stat_points, spend_affinity_points
-from lib.combat import calculate_damage, calculate_10_round_damage
+from lib.combat import calculate_damage, calculate_5_round_damage, calculate_10_round_damage
 from lib.gear import resolve_gear
 from lib.races import select_best_race, build_racial_archetype, build_race_data
 from lib.output import format_sheet, write_build_file, write_average, write_overall_averages, write_summary
@@ -321,10 +321,11 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         spend_affinity_points(char, settings)
 
         dmg_perturn = calculate_damage(char, settings)
+        dmg_5round = calculate_5_round_damage(char, settings['rules'], dmg_perturn, settings)
         dmg_10round = calculate_10_round_damage(char, settings['rules'], dmg_perturn, settings)
 
-        sheet = format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label)
-        results.append({'level': level, 'char': char, 'sheet': sheet, 'dmg_perturn': dmg_perturn, 'dmg_10round': dmg_10round,
+        sheet = format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, tier_label)
+        results.append({'level': level, 'char': char, 'sheet': sheet, 'dmg_perturn': dmg_perturn, 'dmg_5round': dmg_5round, 'dmg_10round': dmg_10round,
                         'race': f"{family_name} {subrace_name}" if race_pickup and family_name else 'none'})
     return results
 

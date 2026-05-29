@@ -7,16 +7,29 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 OUTPUT="${1:-"$PWD/Eyum-TTRPG-Handbook.txt"}"
+EXCLUDE_DIRS=".git|.github|.obsidian|.trash|node_modules|__pycache__|.pyc"
 
-IGNORE_DIRS=".git|.github|.obsidian|.trash|node_modules|__pycache__|.pyc"
-
-echo "Building Eyum TTRPG Handbook..."
-echo "Source: $ROOT"
-echo "Output: $OUTPUT"
+echo "=========================================="
+echo "  Eyum TTRPG Handbook Builder"
+echo "=========================================="
+echo ""
+echo "Source directory: $ROOT"
+echo "Output file:      $OUTPUT"
 echo ""
 
+# Check if output file already exists
+if [ -f "$OUTPUT" ]; then
+  echo "WARNING: Output file already exists!"
+  echo "  -> Existing file will be OVERWRITTEN"
+  echo "  -> File size: $(du -h "$OUTPUT" | cut -f1)"
+  echo ""
+fi
+
 # Clear output file
+echo "Creating output file..."
 >"$OUTPUT"
+echo "  -> Output file ready for writing"
+echo ""
 
 {
   echo "========================================================================"
@@ -28,6 +41,12 @@ echo ""
   echo ""
 } >>"$OUTPUT"
 
+echo "Collecting files..."
+echo "  Excluded directories: .git, .github, .obsidian, .trash,"
+echo "                        node_modules, __pycache__, output,"
+echo "                        Character Manager/"
+echo ""
+
 # Walk all .md, .txt, .json files, sorted by path
 find "$ROOT" -type f \( -iname '*.md' -o -iname '*.txt' -o -iname '*.json' \) \
   ! -path '*/.git/*' \
@@ -37,6 +56,8 @@ find "$ROOT" -type f \( -iname '*.md' -o -iname '*.txt' -o -iname '*.json' \) \
   ! -path '*/node_modules/*' \
   ! -path '*/__pycache__/*' \
   ! -path '*/output/*' \
+  ! -path '*/Character Manager/*' \
+  ! -name 'Eyum-TTRPG-Handbook.txt' \
   | sed "s|^$ROOT/||" \
   | sort \
   | while IFS= read -r relpath; do
@@ -72,15 +93,29 @@ done
 
 # Count stats
 total_lines=$(wc -l <"$OUTPUT")
-total_files=$(find "$ROOT" -type f \( -iname '*.md' -o -iname '*.txt' -o -iname '*.json' \) \
+total_included=$(find "$ROOT" -type f \( -iname '*.md' -o -iname '*.txt' -o -iname '*.json' \) \
   ! -path '*/.git/*' ! -path '*/.github/*' ! -path '*/.obsidian/*' \
   ! -path '*/.trash/*' ! -path '*/node_modules/*' ! -path '*/__pycache__/*' \
-  ! -path '*/output/*' | wc -l)
+  ! -path '*/output/*' ! -path '*/Character Manager/*' \
+  ! -name 'Eyum-TTRPG-Handbook.txt' | wc -l)
+
+total_excluded=$(find "$ROOT" -type f \( -iname '*.md' -o -iname '*.txt' -o -iname '*.json' \) \
+  -path '*/Character Manager/*' 2>/dev/null | wc -l)
 
 echo ""
 echo "=========================================="
-echo "Handbook complete!"
-echo "  Files included: $total_files"
-echo "  Total lines:    $total_lines"
-echo "  Output:         $OUTPUT"
+echo "  Handbook build complete!"
 echo "=========================================="
+echo ""
+echo "  Files included:      $total_included"
+echo "  Files excluded (CM): $total_excluded"
+echo "  Total lines written: $total_lines"
+echo "  Output file:         $OUTPUT"
+echo ""
+
+if [ "$total_excluded" -gt 0 ]; then
+  echo "  Note: $total_excluded file(s) from 'Character Manager/'"
+  echo "        were excluded from the handbook."
+fi
+echo ""
+echo "  Done."

@@ -87,7 +87,7 @@ def calculate_damage(char, settings):
     return result
 
 
-def calculate_10_round_damage(char, r, dmg_per_turn, settings):
+def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     atk_per_round = dmg_per_turn.get('attacks_per_turn', attacks_per_round(char))
     best_phys_dmg = max(dmg_per_turn['melee'], dmg_per_turn['ranged'])
     magic_dmg = dmg_per_turn['magic']
@@ -115,7 +115,7 @@ def calculate_10_round_damage(char, r, dmg_per_turn, settings):
         round_1_dmg = (atk_per_round + bonus_attacks) * (r1_phys + r1_fr + r1_adv_dmg)
         rest_phys = phys_per_hit * (perm_hc / hit_chance) if perm_adv and hit_chance > 0 else phys_per_hit
         rest_adv_dmg = char.ranged_adv_damage_stacks * 3.5 * perm_hc if perm_adv else 0
-        rest_dmg = 9 * atk_per_round * (rest_phys + rest_adv_dmg)
+        rest_dmg = (num_rounds - 1) * atk_per_round * (rest_phys + rest_adv_dmg)
         return {'total': int(round_1_dmg + rest_dmg),
                 'mana_start': 0, 'mana_end': 0,
                 'rounds_casting': 0,
@@ -126,7 +126,7 @@ def calculate_10_round_damage(char, r, dmg_per_turn, settings):
     remaining_mana = max_mana
     rounds_casting = 0
 
-    for round_idx in range(10):
+    for round_idx in range(num_rounds):
         spell_info, spell_dmg = select_spell(char, settings, max_mana=remaining_mana)
         if spell_info and spell_dmg > best_phys_dmg:
             cost = spell_info['spell']['mana']
@@ -151,3 +151,11 @@ def calculate_10_round_damage(char, r, dmg_per_turn, settings):
             'mana_end': int(max(0, remaining_mana)),
             'rounds_casting': rounds_casting,
             'mana_per_round': int(mana_cost)}
+
+
+def calculate_5_round_damage(char, r, dmg_per_turn, settings):
+    return _x_round_damage(char, r, dmg_per_turn, settings, 5)
+
+
+def calculate_10_round_damage(char, r, dmg_per_turn, settings):
+    return _x_round_damage(char, r, dmg_per_turn, settings, 10)

@@ -106,7 +106,8 @@
     "archetypes": {
       "Magician": {
         "1": {
-          "mana_die_type": "1d8"
+          "mana_die_type": "1d8",
+          "magic_damage": 1
         },
         "1.5": {
           "affinity_points": 2,
@@ -124,17 +125,20 @@
           "repeatable": true
         },
         "3": {
-          "mana_die_type": "1d12"
+          "mana_die_type": "1d12",
+          "magic_damage": 1
         },
         "3.5": {
-          "magic_damage": 1,
+          "magic_damage": 2,
           "repeatable": true
         },
         "4": {
-          "mana_die_type": "1d20"
+          "mana_die_type": "1d20",
+          "magic_damage": 2
         },
         "4.5": {
-          "mana_dice_count": 2
+          "mana_dice_count": 2,
+          "repeatable": true
         },
         "4.75": {
           "generic_affinity": 1,
@@ -157,7 +161,8 @@
           "fire_damage_bonus": "1d4"
         },
         "3": {
-          "magic_accuracy_non_water": 5
+          "magic_accuracy_non_water": 5,
+          "magic_damage": 3
         }
       },
       "Geomancer": {
@@ -176,7 +181,8 @@
           "earth_damage_bonus": "1d4"
         },
         "3": {
-          "magic_accuracy_non_air": 5
+          "magic_accuracy_non_air": 5,
+          "magic_damage": 3
         }
       },
       "Tidemaster": {
@@ -195,7 +201,8 @@
           "water_damage_bonus": "1d4"
         },
         "3": {
-          "magic_accuracy_non_fire": 5
+          "magic_accuracy_non_fire": 5,
+          "magic_damage": 3
         }
       },
       "Windwalker": {
@@ -214,7 +221,8 @@
           "air_damage_bonus": "1d4"
         },
         "3": {
-          "magic_accuracy_non_earth": 5
+          "magic_accuracy_non_earth": 5,
+          "magic_damage": 3
         }
       },
       "Priest": {
@@ -233,7 +241,8 @@
           "radiant_damage_bonus": "1d4"
         },
         "3": {
-          "magic_accuracy_non_necrotic": 5
+          "magic_accuracy_non_necrotic": 5,
+          "magic_damage": 3
         }
       },
       "Necromancer": {
@@ -252,89 +261,8 @@
           "necrotic_damage_bonus": "1d4"
         },
         "3": {
-          "magic_accuracy_non_radiant": 5
-        }
-      },
-      "Jack": {
-        "1": {
-          "affinity": {
-            "Fire": 1,
-            "Earth": 1,
-            "Water": 1,
-            "Air": 1
-          }
-        },
-        "1.5": {
-          "affinity": {
-            "Fire": 1,
-            "Water": 1
-          },
-          "repeatable": true
-        },
-        "2": {
-          "affinity": {
-            "Radiant": 1,
-            "Necrotic": 1,
-            "Psychic": 1
-          }
-        },
-        "2.5": {
-          "affinity": {
-            "Radiant": 1,
-            "Necrotic": 1
-          },
-          "repeatable": true
-        },
-        "3": {
-          "affinity_points": 3,
-          "affinity_per_level": 1
-        }
-      },
-      "Healer": {
-        "1": {
-          "healing_spells": true
-        },
-        "2": {
-          "skill_points": 3,
-          "proficiency_medicine": true
-        },
-        "2.5": {
-          "skill_points": 3,
-          "repeatable": true
-        },
-        "3": {
-          "hallowed_affinity": 1
-        },
-        "3.5": {
-          "hallowed_affinity": 2,
-          "karma": 10,
-          "repeatable": true
-        },
-        "4": {
-          "healing_maximize": true,
-          "hallowed_affinity": 1
-        },
-        "5": {
-          "karma": 10
-        },
-        "6": {
-          "cleansing": 6,
-          "hallowed_affinity": 1
-        },
-        "7": {
-          "karma": 10
-        },
-        "8": {
-          "concentration_two_spells": true,
-          "hallowed_affinity": 1
-        },
-        "9": {
-          "free_heal": true,
-          "karma": 10
-        },
-        "10": {
-          "reaction_save_ally": true,
-          "hallowed_affinity": 1
+          "magic_accuracy_non_radiant": 5,
+          "magic_damage": 3
         }
       }
     }
