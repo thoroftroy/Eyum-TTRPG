@@ -6,8 +6,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
-    DEX: 21 (+5) = 11 + 10
+    STR: 13 (+1) = 4 + 9
+    DEX: 21 (+5) = 14 + 7
     CON: 15 (+2) = 8 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -16,7 +16,7 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   COMBAT:
     AC: 22
     Initiative: +5
-    Speed: 30 ft
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
     To Hit: Melee: +3 | Ranged: +6
@@ -45,13 +45,23 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   PATHS:
     Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Radiant        : 1
+    Necrotic       : -3
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -63,8 +73,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 12 (+1) = 6 + 6
-    DEX: 21 (+5) = 11 + 10
+    STR: 13 (+1) = 4 + 9
+    DEX: 21 (+5) = 14 + 7
     CON: 15 (+2) = 8 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -73,7 +83,7 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   COMBAT:
     AC: 22
     Initiative: +5
-    Speed: 30 ft
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
     To Hit: Melee: +3 | Ranged: +6
@@ -102,13 +112,23 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   PATHS:
     Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Radiant        : 1
+    Necrotic       : -3
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -120,9 +140,9 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 4 + 9
+    DEX: 21 (+5) = 14 + 7
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -130,13 +150,13 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   COMBAT:
     AC: 22
     Initiative: +5
-    Speed: 30 ft
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
     To Hit: Melee: +4 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 31 = 4d8 (4 x 4) + 5(flat) + 2 x 4(Con)
+    Vitality: 35 = 4d8 (4 x 4) + 5(flat) + 3 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
     Mana:   10 = 4d6 (3 x 4) + -1 x 4(Wis)
 
@@ -160,15 +180,24 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   PATHS:
     Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -180,9 +209,9 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 4 + 9
+    DEX: 21 (+5) = 14 + 7
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -190,13 +219,13 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   COMBAT:
     AC: 22
     Initiative: +5
-    Speed: 30 ft
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +4 | Ranged: +8
+    To Hit: Melee: +4 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 40 = 5d8 (4 x 5) + 8(flat) + 2 x 5(Con)
+    Vitality: 45 = 5d8 (4 x 5) + 8(flat) + 3 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
     Mana:   12 = 5d6 (3 x 5) + -1 x 5(Wis)
 
@@ -218,17 +247,26 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 1)
+    Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -240,9 +278,9 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 4 + 9
+    DEX: 21 (+5) = 14 + 7
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -250,13 +288,13 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
   COMBAT:
     AC: 22
     Initiative: +5
-    Speed: 30 ft
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +4 | Ranged: +8
+    To Hit: Melee: +4 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 48 = 6d8 (4 x 6) + 9(flat) + 2 x 6(Con)
+    Vitality: 54 = 6d8 (4 x 6) + 9(flat) + 3 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
     Mana:   15 = 6d6 (3 x 6) + -1 x 6(Wis)
 
@@ -278,17 +316,26 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 1)
+    Physical -> Marksman (Lvl 0)
     Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : 4
+    Earth          : -2
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -300,31 +347,31 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 16 (+3) = 8 + 8
+    STR: 13 (+1) = 4 + 9
+    DEX: 22 (+6) = 14 + 8
+    CON: 15 (+2) = 8 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +5
-    Speed: 30 ft
+    Initiative: +6
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +5 | Ranged: +9
+    To Hit: Melee: +5 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 64 = 7d8 (4 x 7) + 12(flat) + 3 x 7(Con)
+    Vitality: 57 = 7d8 (4 x 7) + 12(flat) + 2 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
     Mana:   17 = 7d6 (3 x 7) + -1 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 13 | Dmg/Turn: 13
-    Ranged Dmg/Hit: 15 | Dmg/Turn: 15
-    Total Dmg/10R: 155
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 16
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  23
@@ -339,16 +386,25 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   PATHS:
     Physical -> Marksman (Lvl 1)
-    Utility -> Scoundrel (Lvl 1)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : 4
+    Earth          : -1
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -360,31 +416,31 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 16 (+3) = 8 + 8
+    STR: 13 (+1) = 4 + 9
+    DEX: 22 (+6) = 14 + 8
+    CON: 15 (+2) = 8 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +5
-    Speed: 30 ft
+    Initiative: +6
+    Speed: 10 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +5 | Ranged: +9
+    To Hit: Melee: +5 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 73 = 8d8 (4 x 8) + 13(flat) + 3 x 8(Con)
+    Vitality: 65 = 8d8 (4 x 8) + 13(flat) + 2 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
     Mana:   20 = 8d6 (3 x 8) + -1 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
     Melee Dmg/Hit: 13 | Dmg/Turn: 13
-    Ranged Dmg/Hit: 15 | Dmg/Turn: 15
-    Total Dmg/10R: 155
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 16
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  25
@@ -399,16 +455,25 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   PATHS:
     Physical -> Marksman (Lvl 1)
-    Utility -> Scoundrel (Lvl 1)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : 4
+    Earth          : -1
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -420,31 +485,31 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 21 (+5) = 11 + 10
-    CON: 16 (+3) = 8 + 8
+    STR: 13 (+1) = 4 + 9
+    DEX: 22 (+6) = 14 + 8
+    CON: 15 (+2) = 8 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +5
-    Speed: 30 ft
+    Initiative: +8
+    Speed: 10 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Melee: +5 | Ranged: +9
+    To Hit: Melee: +5 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 83 = 9d8 (4 x 9) + 16(flat) + 3 x 9(Con)
+    Vitality: 74 = 9d8 (4 x 9) + 16(flat) + 2 x 9(Con)
     Health:  43 = 9d6 (3 x 9) + 12(flat)
     Mana:   22 = 9d6 (3 x 9) + -1 x 9(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
     Melee Dmg/Hit: 13 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 15 | Dmg/Turn: 30
-    Total Dmg/10R: 310
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 330
 
   RESOURCES:
     Skill Points:  32
@@ -458,17 +523,26 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : 4
+    Earth          : -1
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 1
 
   GEAR:
@@ -480,23 +554,23 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
-    CON: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 4 + 9
+    DEX: 22 (+6) = 14 + 8
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
+    Initiative: +8
+    Speed: 10 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
     To Hit: Melee: +6 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 82 = 10d8 (4 x 10) + 17(flat) + 2 x 10(Con)
+    Vitality: 92 = 10d8 (4 x 10) + 17(flat) + 3 x 10(Con)
     Health:  48 = 10d6 (3 x 10) + 13(flat)
     Mana:   25 = 10d6 (3 x 10) + -1 x 10(Wis)
 
@@ -513,22 +587,31 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
     Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
+    Necrotic       : -2
+    Psychic        : 1
+    Radiant        : 4
     Water          : 2
 
   GEAR:
@@ -540,23 +623,23 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
-    CON: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 4 + 9
+    DEX: 22 (+6) = 14 + 8
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +6 | Ranged: +11
+    To Hit: Melee: +7 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 91 = 11d8 (4 x 11) + 20(flat) + 2 x 11(Con)
+    Vitality: 102 = 11d8 (4 x 11) + 20(flat) + 3 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
     Mana:   27 = 11d6 (3 x 11) + -1 x 11(Wis)
 
@@ -564,7 +647,7 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Attacks/Turn: 2
     Melee Dmg/Hit: 13 | Dmg/Turn: 26
     Ranged Dmg/Hit: 16 | Dmg/Turn: 32
-    Total Dmg/10R: 337
+    Total Dmg/10R: 330
 
   RESOURCES:
     Skill Points:  38
@@ -573,21 +656,31 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
+    Feats:  3 (taken: Toughness, Armor Training, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 2
+    Air            : 5
+    Earth          : -1
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 2
 
   GEAR:
@@ -599,23 +692,23 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
-    CON: 15 (+2) = 8 + 7
+    STR: 13 (+1) = 4 + 9
+    DEX: 22 (+6) = 14 + 8
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +6 | Ranged: +11
+    To Hit: Melee: +7 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 99 = 12d8 (4 x 12) + 21(flat) + 2 x 12(Con)
+    Vitality: 111 = 12d8 (4 x 12) + 21(flat) + 3 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
     Mana:   30 = 12d6 (3 x 12) + -1 x 12(Wis)
 
@@ -623,7 +716,7 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Attacks/Turn: 2
     Melee Dmg/Hit: 13 | Dmg/Turn: 26
     Ranged Dmg/Hit: 16 | Dmg/Turn: 32
-    Total Dmg/10R: 337
+    Total Dmg/10R: 330
 
   RESOURCES:
     Skill Points:  40
@@ -632,21 +725,31 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Fast Hands, Toughness, Armor Training)
+    Feats:  3 (taken: Toughness, Armor Training, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 2)
-    Utility -> Scoundrel (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 2
+    Air            : 5
+    Earth          : -1
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
+    Necrotic       : -2
     Psychic        : 1
-    Radiant        : 1
+    Radiant        : 4
     Water          : 2
 
   GEAR:
@@ -658,8 +761,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
+    STR: 14 (+2) = 4 + 10
+    DEX: 22 (+6) = 14 + 8
     CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -667,11 +770,11 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +7 | Ranged: +12
+    To Hit: Melee: +9 | Ranged: +12
 
   HEALTH POOLS:
     Vitality: 121 = 13d8 (4 x 13) + 24(flat) + 3 x 13(Con)
@@ -680,34 +783,43 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 13 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 437
+    Melee Dmg/Hit: 19 | Dmg/Turn: 38
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 390
 
   RESOURCES:
-    Skill Points:  44
+    Skill Points:  65
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 3
+    Necrotic       : -1
+    Psychic        : 1
+    Radiant        : 5
+    Water          : 2
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -718,8 +830,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
+    STR: 14 (+2) = 4 + 10
+    DEX: 22 (+6) = 14 + 8
     CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -727,11 +839,11 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +7 | Ranged: +12
+    To Hit: Melee: +9 | Ranged: +12
 
   HEALTH POOLS:
     Vitality: 130 = 14d8 (4 x 14) + 25(flat) + 3 x 14(Con)
@@ -740,34 +852,43 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 13 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 437
+    Melee Dmg/Hit: 19 | Dmg/Turn: 38
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 390
 
   RESOURCES:
-    Skill Points:  46
+    Skill Points:  68
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 3
+    Necrotic       : -1
+    Psychic        : 1
+    Radiant        : 5
+    Water          : 2
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -778,8 +899,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 13 (+1) = 6 + 7
-    DEX: 22 (+6) = 11 + 11
+    STR: 14 (+2) = 4 + 10
+    DEX: 22 (+6) = 14 + 8
     CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -787,47 +908,56 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +7 | Ranged: +12
+    To Hit: Melee: +9 | Ranged: +12
 
   HEALTH POOLS:
-    Vitality: 140 = 15d8 (4 x 15) + 28(flat) + 3 x 15(Con)
+    Vitality: 155 = 15d10 (5 x 15) + 28(flat) + 3 x 15(Con)
     Health:  73 = 15d6 (3 x 15) + 21(flat)
-    Mana:   37 = 15d6 (3 x 15) + -1 x 15(Wis)
+    Mana:   22 = 15d4 (2 x 15) + -1 x 15(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 13 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 462
+    Melee Dmg/Hit: 19 | Dmg/Turn: 38
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 390
 
   RESOURCES:
-    Skill Points:  48
+    Skill Points:  71
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points))
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 5
+    Earth          : -1
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 3
+    Necrotic       : -1
+    Psychic        : 1
+    Radiant        : 5
+    Water          : 2
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -838,56 +968,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 16 (+3) = 8 + 8
+    STR: 14 (+2) = 4 + 10
+    DEX: 22 (+6) = 14 + 8
+    CON: 17 (+3) = 8 + 9
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 3  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Melee: +9 | Ranged: +13
+    To Hit: Melee: +10 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 149 = 16d8 (4 x 16) + 29(flat) + 3 x 16(Con)
+    Vitality: 165 = 16d10 (5 x 16) + 29(flat) + 3 x 16(Con)
     Health:  78 = 16d6 (3 x 16) + 22(flat)
-    Mana:   40 = 16d6 (3 x 16) + -1 x 16(Wis)
+    Mana:   24 = 16d4 (2 x 16) + -1 x 16(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 14 | Dmg/Turn: 28
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 462
+    Melee Dmg/Hit: 19 | Dmg/Turn: 38
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 390
 
   RESOURCES:
-    Skill Points:  52
+    Skill Points:  76
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 3)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 8
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
+    Necrotic       : -1
     Psychic        : 2
-    Radiant        : 3
-    Water          : 3
+    Radiant        : 5
+    Water          : 5
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -898,56 +1037,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 16 (+3) = 8 + 8
+    STR: 14 (+2) = 4 + 10
+    DEX: 22 (+6) = 14 + 8
+    CON: 17 (+3) = 8 + 9
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 4  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +9 | Ranged: +13
+    To Hit: Melee: +10 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 159 = 17d8 (4 x 17) + 32(flat) + 3 x 17(Con)
+    Vitality: 176 = 17d10 (5 x 17) + 32(flat) + 3 x 17(Con)
     Health:  83 = 17d6 (3 x 17) + 24(flat)
-    Mana:   42 = 17d6 (3 x 17) + -1 x 17(Wis)
+    Mana:   25 = 17d4 (2 x 17) + -1 x 17(Wis)
 
   DAMAGE:
-    Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 63
-    Total Dmg/10R: 694
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 410
 
   RESOURCES:
-    Skill Points:  59
+    Skill Points:  84
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 4)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 8
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
+    Necrotic       : -1
     Psychic        : 2
-    Radiant        : 3
-    Water          : 3
+    Radiant        : 5
+    Water          : 5
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -958,56 +1106,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 16 (+3) = 8 + 8
+    STR: 14 (+2) = 4 + 10
+    DEX: 22 (+6) = 14 + 8
+    CON: 17 (+3) = 8 + 9
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 4  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +9 | Ranged: +13
+    To Hit: Melee: +10 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 168 = 18d8 (4 x 18) + 33(flat) + 3 x 18(Con)
+    Vitality: 186 = 18d10 (5 x 18) + 33(flat) + 3 x 18(Con)
     Health:  88 = 18d6 (3 x 18) + 25(flat)
-    Mana:   45 = 18d6 (3 x 18) + -1 x 18(Wis)
+    Mana:   27 = 18d4 (2 x 18) + -1 x 18(Wis)
 
   DAMAGE:
-    Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 63
-    Total Dmg/10R: 694
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 410
 
   RESOURCES:
-    Skill Points:  61
+    Skill Points:  87
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 4)
-    Utility -> Scoundrel (Lvl 3)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : 8
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
+    Necrotic       : -1
     Psychic        : 2
-    Radiant        : 3
-    Water          : 3
+    Radiant        : 5
+    Water          : 5
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1018,56 +1175,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 17 (+3) = 8 + 9
+    STR: 14 (+2) = 4 + 10
+    DEX: 23 (+6) = 14 + 9
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 4  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +10 | Ranged: +14
+    To Hit: Melee: +11 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 178 = 19d8 (4 x 19) + 36(flat) + 3 x 19(Con)
+    Vitality: 197 = 19d10 (5 x 19) + 36(flat) + 3 x 19(Con)
     Health:  93 = 19d6 (3 x 19) + 27(flat)
-    Mana:   47 = 19d6 (3 x 19) + -1 x 19(Wis)
+    Mana:   28 = 19d4 (2 x 19) + -1 x 19(Wis)
 
   DAMAGE:
-    Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 63
-    Total Dmg/10R: 694
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 410
 
   RESOURCES:
-    Skill Points:  65
+    Skill Points:  92
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 4)
-    Utility -> Scoundrel (Lvl 4)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 4
+    Air            : 8
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 0
+    Psychic        : 2
+    Radiant        : 6
+    Water          : 5
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1078,56 +1244,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 17 (+3) = 8 + 9
+    STR: 14 (+2) = 4 + 10
+    DEX: 23 (+6) = 14 + 9
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 2  BAP: 4  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +10 | Ranged: +14
+    To Hit: Melee: +11 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 187 = 20d8 (4 x 20) + 37(flat) + 3 x 20(Con)
+    Vitality: 207 = 20d10 (5 x 20) + 37(flat) + 3 x 20(Con)
     Health:  98 = 20d6 (3 x 20) + 28(flat)
-    Mana:   50 = 20d6 (3 x 20) + -1 x 20(Wis)
+    Mana:   30 = 20d4 (2 x 20) + -1 x 20(Wis)
 
   DAMAGE:
-    Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 63
-    Total Dmg/10R: 694
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 410
 
   RESOURCES:
-    Skill Points:  67
+    Skill Points:  95
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 4)
-    Utility -> Scoundrel (Lvl 4)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 4
+    Air            : 8
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 0
+    Psychic        : 2
+    Radiant        : 6
+    Water          : 5
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1138,56 +1313,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 22 (+6) = 11 + 11
-    CON: 17 (+3) = 8 + 9
+    STR: 14 (+2) = 4 + 10
+    DEX: 23 (+6) = 14 + 9
+    CON: 16 (+3) = 8 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 3  BAP: 4  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +10 | Ranged: +14
+    To Hit: Melee: +11 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 197 = 21d8 (4 x 21) + 40(flat) + 3 x 21(Con)
+    Vitality: 218 = 21d10 (5 x 21) + 40(flat) + 3 x 21(Con)
     Health:  103 = 21d6 (3 x 21) + 30(flat)
-    Mana:   52 = 21d6 (3 x 21) + -1 x 21(Wis)
+    Mana:   31 = 21d4 (2 x 21) + -1 x 21(Wis)
 
   DAMAGE:
-    Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 22 | Dmg/Turn: 66
-    Total Dmg/10R: 725
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 20 | Dmg/Turn: 40
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 410
 
   RESOURCES:
-    Skill Points:  69
+    Skill Points:  98
     Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 5)
-    Utility -> Scoundrel (Lvl 4)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 4
+    Air            : 8
+    Earth          : 2
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 0
+    Psychic        : 2
+    Radiant        : 6
+    Water          : 5
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1198,8 +1382,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 14 (+2) = 6 + 8
-    DEX: 23 (+6) = 11 + 12
+    STR: 15 (+2) = 4 + 11
+    DEX: 23 (+6) = 14 + 9
     CON: 17 (+3) = 8 + 9
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -1207,47 +1391,56 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
-    AP: 3  BAP: 5  RP: 1
+    Initiative: +8
+    Speed: 10 ft
+    AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +12 | Ranged: +16
+    To Hit: Melee: +13 | Ranged: +16
 
   HEALTH POOLS:
-    Vitality: 244 = 26d8 (4 x 26) + 49(flat) + 3 x 26(Con)
+    Vitality: 270 = 26d10 (5 x 26) + 49(flat) + 3 x 26(Con)
     Health:  128 = 26d6 (3 x 26) + 37(flat)
-    Mana:   65 = 26d6 (3 x 26) + -1 x 26(Wis)
+    Mana:   39 = 26d4 (2 x 26) + -1 x 26(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 23 | Dmg/Turn: 69
-    Total Dmg/10R: 756
+    Melee Dmg/Hit: 20 | Dmg/Turn: 60
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 48
+    Total Dmg/10R: 615
 
   RESOURCES:
-    Skill Points:  88
-    Stat Points:   1
+    Skill Points:  122
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    32
 
   FEATS & SPELLS:
-    Feats:  8 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert)
-        (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
+    Feats:  8 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 6)
-    Utility -> Scoundrel (Lvl 5)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Elf Fairy (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 5
+    Air            : 8
+    Earth          : 3
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 0
+    Psychic        : 3
+    Radiant        : 6
+    Water          : 6
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1258,56 +1451,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 15 (+2) = 6 + 9
-    DEX: 23 (+6) = 11 + 12
-    CON: 18 (+4) = 8 + 10
+    STR: 15 (+2) = 4 + 11
+    DEX: 24 (+7) = 14 + 10
+    CON: 17 (+3) = 8 + 9
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +6
-    Speed: 30 ft
+    Initiative: +9
+    Speed: 10 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Melee: +14 | Ranged: +18
+    To Hit: Melee: +15 | Ranged: +19
 
   HEALTH POOLS:
-    Vitality: 323 = 31d8 (4 x 31) + 60(flat) + 4 x 31(Con)
+    Vitality: 323 = 31d10 (5 x 31) + 60(flat) + 3 x 31(Con)
     Health:  153 = 31d6 (3 x 31) + 45(flat)
-    Mana:   77 = 31d6 (3 x 31) + -1 x 31(Wis)
+    Mana:   46 = 31d4 (2 x 31) + -1 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 14 | Dmg/Turn: 42
-    Ranged Dmg/Hit: 24 | Dmg/Turn: 72
-    Total Dmg/10R: 787
+    Melee Dmg/Hit: 20 | Dmg/Turn: 60
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 51
+    Total Dmg/10R: 625
 
   RESOURCES:
-    Skill Points:  102
-    Stat Points:   3
+    Skill Points:  141
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    34
 
   FEATS & SPELLS:
-    Feats:  10 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert)
+    Feats:  10 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 7)
-    Utility -> Scoundrel (Lvl 7)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 9
+    Earth          : 3
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 4
+    Necrotic       : 1
     Psychic        : 4
-    Radiant        : 5
-    Water          : 5
+    Radiant        : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1318,56 +1520,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 6 + 10
-    DEX: 24 (+7) = 11 + 13
-    CON: 18 (+4) = 8 + 10
+    STR: 16 (+3) = 4 + 12
+    DEX: 24 (+7) = 14 + 10
+    CON: 19 (+4) = 8 + 11
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
     AC: 22
-    Initiative: +7
-    Speed: 30 ft
-    AP: 5  BAP: 7  RP: 1
+    Initiative: +9
+    Speed: 10 ft
+    AP: 5  BAP: 7  RP: 2
     Proficiency: +14
-    To Hit: Melee: +18 | Ranged: +22
+    To Hit: Melee: +19 | Ranged: +22
 
   HEALTH POOLS:
-    Vitality: 428 = 41d8 (4 x 41) + 80(flat) + 4 x 41(Con)
+    Vitality: 510 = 41d12 (6 x 41) + 80(flat) + 4 x 41(Con)
     Health:  203 = 41d6 (3 x 41) + 60(flat)
-    Mana:   102 = 41d6 (3 x 41) + -1 x 41(Wis)
+    Mana:   61 = 41d4 (2 x 41) + -1 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 15 | Dmg/Turn: 60
-    Ranged Dmg/Hit: 28 | Dmg/Turn: 112
-    Total Dmg/10R: 1203
+    Melee Dmg/Hit: 24 | Dmg/Turn: 96
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 68
+    Total Dmg/10R: 994
 
   RESOURCES:
-    Skill Points:  138
-    Stat Points:   6
+    Skill Points:  229
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    37
 
   FEATS & SPELLS:
-    Feats:  13 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  13 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose))
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 10)
-    Utility -> Scoundrel (Lvl 9)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 2)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Elf Fairy (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 6
+    Air            : 10
+    Earth          : 5
+    Fire           : 8
     Generic        : 1
-    Necrotic       : 5
+    Necrotic       : 2
     Psychic        : 5
-    Radiant        : 5
-    Water          : 6
+    Radiant        : 11
+    Water          : 7
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1378,8 +1589,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 16 (+3) = 6 + 10
-    DEX: 25 (+7) = 11 + 14
+    STR: 17 (+3) = 4 + 13
+    DEX: 25 (+7) = 14 + 11
     CON: 19 (+4) = 8 + 11
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -1387,47 +1598,56 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 22
-    Initiative: +7
-    Speed: 30 ft
-    AP: 6  BAP: 8  RP: 1
+    Initiative: +9
+    Speed: 10 ft
+    AP: 6  BAP: 8  RP: 2
     Proficiency: +17
-    To Hit: Melee: +21 | Ranged: +25
+    To Hit: Melee: +22 | Ranged: +25
 
   HEALTH POOLS:
-    Vitality: 533 = 51d8 (4 x 51) + 100(flat) + 4 x 51(Con)
+    Vitality: 635 = 51d12 (6 x 51) + 100(flat) + 4 x 51(Con)
     Health:  253 = 51d6 (3 x 51) + 75(flat)
-    Mana:   127 = 51d6 (3 x 51) + -1 x 51(Wis)
+    Mana:   76 = 51d4 (2 x 51) + -1 x 51(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 15 | Dmg/Turn: 75
-    Ranged Dmg/Hit: 30 | Dmg/Turn: 150
-    Total Dmg/10R: 1597
+    Melee Dmg/Hit: 24 | Dmg/Turn: 120
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 110
+    Total Dmg/10R: 1242
 
   RESOURCES:
-    Skill Points:  169
-    Stat Points:   9
+    Skill Points:  279
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    40
 
   FEATS & SPELLS:
-    Feats:  16 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  16 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 12)
-    Utility -> Scoundrel (Lvl 12)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 2)
+    Utility -> Slime Rancher (Lvl 2)
+    Utility -> Golem Tamer (Lvl 2)
+    Utility -> Dragonslayer (Lvl 2)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
+    Air            : 11
+    Earth          : 5
+    Fire           : 9
     Generic        : 1
-    Necrotic       : 6
+    Necrotic       : 3
     Psychic        : 6
-    Radiant        : 6
-    Water          : 7
+    Radiant        : 17
+    Water          : 8
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1438,8 +1658,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 17 (+3) = 6 + 11
-    DEX: 26 (+8) = 11 + 15
+    STR: 18 (+4) = 4 + 14
+    DEX: 26 (+8) = 14 + 12
     CON: 20 (+5) = 8 + 12
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -1447,47 +1667,56 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 23
-    Initiative: +8
-    Speed: 30 ft
-    AP: 7  BAP: 9  RP: 1
+    Initiative: +10
+    Speed: 40 ft
+    AP: 7  BAP: 9  RP: 2
     Proficiency: +21
-    To Hit: Melee: +25 | Ranged: +30
+    To Hit: Melee: +27 | Ranged: +30
 
   HEALTH POOLS:
-    Vitality: 699 = 61d8 (4 x 61) + 120(flat) + 5 x 61(Con)
+    Vitality: 1065 = 61d20 (10 x 61) + 120(flat) + 5 x 61(Con)
     Health:  303 = 61d6 (3 x 61) + 90(flat)
-    Mana:   152 = 61d6 (3 x 61) + -1 x 61(Wis)
+    Mana:   91 = 61d4 (2 x 61) + -1 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 15 | Dmg/Turn: 75
-    Ranged Dmg/Hit: 33 | Dmg/Turn: 165
-    Total Dmg/10R: 1792
+    Melee Dmg/Hit: 25 | Dmg/Turn: 125
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 115
+    Total Dmg/10R: 1321
 
   RESOURCES:
-    Skill Points:  202
-    Stat Points:   13
+    Skill Points:  369
+    Stat Points:   7
     Affinity Pts:  0
     Stat Spent:    44
 
   FEATS & SPELLS:
-    Feats:  20 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  20 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 16)
-    Utility -> Scoundrel (Lvl 13)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 2)
+    Utility -> Slime Rancher (Lvl 2)
+    Utility -> Golem Tamer (Lvl 2)
+    Utility -> Dragonslayer (Lvl 2)
+    Racial -> Elf Fairy (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 8
-    Fire           : 8
+    Air            : 12
+    Earth          : 7
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 7
+    Necrotic       : 4
     Psychic        : 7
-    Radiant        : 7
-    Water          : 8
+    Radiant        : 18
+    Water          : 9
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1498,8 +1727,8 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 6 + 12
-    DEX: 27 (+8) = 11 + 16
+    STR: 19 (+4) = 4 + 15
+    DEX: 27 (+8) = 14 + 13
     CON: 20 (+5) = 8 + 12
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
@@ -1507,47 +1736,56 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 
   COMBAT:
     AC: 23
-    Initiative: +8
-    Speed: 30 ft
-    AP: 8  BAP: 10  RP: 1
+    Initiative: +10
+    Speed: 40 ft
+    AP: 8  BAP: 10  RP: 2
     Proficiency: +24
-    To Hit: Melee: +29 | Ranged: +33
+    To Hit: Melee: +30 | Ranged: +33
 
   HEALTH POOLS:
-    Vitality: 814 = 71d8 (4 x 71) + 140(flat) + 5 x 71(Con)
+    Vitality: 1240 = 71d20 (10 x 71) + 140(flat) + 5 x 71(Con)
     Health:  353 = 71d6 (3 x 71) + 105(flat)
-    Mana:   177 = 71d6 (3 x 71) + -1 x 71(Wis)
+    Mana:   106 = 71d4 (2 x 71) + -1 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 16 | Dmg/Turn: 96
-    Ranged Dmg/Hit: 33 | Dmg/Turn: 198
-    Total Dmg/10R: 2264
+    Melee Dmg/Hit: 25 | Dmg/Turn: 150
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 138
+    Total Dmg/10R: 1580
 
   RESOURCES:
-    Skill Points:  233
-    Stat Points:   16
+    Skill Points:  424
+    Stat Points:   10
     Affinity Pts:  0
     Stat Spent:    47
 
   FEATS & SPELLS:
-    Feats:  23 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  23 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 21)
-    Utility -> Scoundrel (Lvl 13)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 3)
+    Utility -> Slime Rancher (Lvl 3)
+    Utility -> Golem Tamer (Lvl 3)
+    Utility -> Dragonslayer (Lvl 3)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 9
-    Fire           : 9
+    Air            : 13
+    Earth          : 7
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 8
+    Necrotic       : 5
     Psychic        : 8
-    Radiant        : 8
-    Water          : 9
+    Radiant        : 22
+    Water          : 10
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1558,56 +1796,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 6 + 13
-    DEX: 27 (+8) = 11 + 16
+    STR: 20 (+5) = 4 + 16
+    DEX: 27 (+8) = 14 + 13
     CON: 21 (+5) = 8 + 13
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 23
-    Initiative: +8
-    Speed: 30 ft
-    AP: 9  BAP: 12  RP: 1
+    AC: 26
+    Initiative: +10
+    Speed: 40 ft
+    AP: 9  BAP: 12  RP: 2
     Proficiency: +27
-    To Hit: Melee: +32 | Ranged: +38
+    To Hit: Melee: +34 | Ranged: +36
 
   HEALTH POOLS:
-    Vitality: 929 = 81d8 (4 x 81) + 160(flat) + 5 x 81(Con)
+    Vitality: 1415 = 81d20 (10 x 81) + 160(flat) + 5 x 81(Con)
     Health:  403 = 81d6 (3 x 81) + 120(flat)
-    Mana:   202 = 81d6 (3 x 81) + -1 x 81(Wis)
+    Mana:   121 = 81d4 (2 x 81) + -1 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 16 | Dmg/Turn: 112
-    Ranged Dmg/Hit: 33 | Dmg/Turn: 231
-    Total Dmg/10R: 2714
+    Melee Dmg/Hit: 26 | Dmg/Turn: 182
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 161
+    Total Dmg/10R: 1937
 
   RESOURCES:
-    Skill Points:  269
-    Stat Points:   19
+    Skill Points:  489
+    Stat Points:   39
     Affinity Pts:  0
     Stat Spent:    50
 
   FEATS & SPELLS:
-    Feats:  26 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  52 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Brawler, Overdrive, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 26)
-    Utility -> Scoundrel (Lvl 13)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 3)
+    Utility -> Slime Rancher (Lvl 3)
+    Utility -> Golem Tamer (Lvl 3)
+    Utility -> Dragonslayer (Lvl 3)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 10
-    Fire           : 10
+    Air            : 14
+    Earth          : 8
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 9
+    Necrotic       : 6
     Psychic        : 9
-    Radiant        : 9
-    Water          : 9
+    Radiant        : 23
+    Water          : 11
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1618,56 +1865,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 6 + 13
-    DEX: 28 (+9) = 11 + 17
+    STR: 20 (+5) = 4 + 16
+    DEX: 28 (+9) = 14 + 14
     CON: 22 (+6) = 8 + 14
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 23
-    Initiative: +9
-    Speed: 30 ft
-    AP: 10  BAP: 13  RP: 1
+    AC: 26
+    Initiative: +11
+    Speed: 40 ft
+    AP: 10  BAP: 13  RP: 2
     Proficiency: +31
-    To Hit: Melee: +36 | Ranged: +48
+    To Hit: Melee: +38 | Ranged: +41
 
   HEALTH POOLS:
-    Vitality: 1135 = 91d8 (4 x 91) + 180(flat) + 6 x 91(Con)
+    Vitality: 1681 = 91d20 (10 x 91) + 180(flat) + 6 x 91(Con)
     Health:  453 = 91d6 (3 x 91) + 135(flat)
-    Mana:   227 = 91d6 (3 x 91) + -1 x 91(Wis)
+    Mana:   136 = 91d4 (2 x 91) + -1 x 91(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 16 | Dmg/Turn: 112
-    Ranged Dmg/Hit: 34 | Dmg/Turn: 238
-    Total Dmg/10R: 2785
+    Melee Dmg/Hit: 26 | Dmg/Turn: 182
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 168
+    Total Dmg/10R: 1937
 
   RESOURCES:
-    Skill Points:  302
-    Stat Points:   23
+    Skill Points:  549
+    Stat Points:   47
     Affinity Pts:  0
     Stat Spent:    54
 
   FEATS & SPELLS:
-    Feats:  30 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  60 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Brawler, Overdrive, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 31)
-    Utility -> Scoundrel (Lvl 13)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 4)
+    Utility -> Slime Rancher (Lvl 4)
+    Utility -> Golem Tamer (Lvl 4)
+    Utility -> Dragonslayer (Lvl 4)
+    Racial -> Elf Fairy (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 11
-    Fire           : 11
+    Air            : 15
+    Earth          : 9
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 10
+    Necrotic       : 7
     Psychic        : 10
-    Radiant        : 10
-    Water          : 11
+    Radiant        : 24
+    Water          : 12
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1678,56 +1934,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 6 + 14
-    DEX: 29 (+9) = 11 + 18
+    STR: 20 (+5) = 4 + 16
+    DEX: 29 (+9) = 14 + 15
     CON: 22 (+6) = 8 + 14
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 23
-    Initiative: +9
-    Speed: 30 ft
-    AP: 11  BAP: 14  RP: 1
+    AC: 26
+    Initiative: +11
+    Speed: 40 ft
+    AP: 11  BAP: 14  RP: 2
     Proficiency: +34
-    To Hit: Melee: +40 | Ranged: +54
+    To Hit: Melee: +41 | Ranged: +44
 
   HEALTH POOLS:
-    Vitality: 1260 = 101d8 (4 x 101) + 200(flat) + 6 x 101(Con)
+    Vitality: 1866 = 101d20 (10 x 101) + 200(flat) + 6 x 101(Con)
     Health:  503 = 101d6 (3 x 101) + 150(flat)
-    Mana:   252 = 101d6 (3 x 101) + -1 x 101(Wis)
+    Mana:   151 = 101d4 (2 x 101) + -1 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 8
-    Melee Dmg/Hit: 17 | Dmg/Turn: 136
-    Ranged Dmg/Hit: 34 | Dmg/Turn: 272
-    Total Dmg/10R: 3172
+    Melee Dmg/Hit: 26 | Dmg/Turn: 208
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 192
+    Total Dmg/10R: 2209
 
   RESOURCES:
-    Skill Points:  333
-    Stat Points:   26
+    Skill Points:  604
+    Stat Points:   53
     Affinity Pts:  0
-    Stat Spent:    57
+    Stat Spent:    56
 
   FEATS & SPELLS:
-    Feats:  33 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  66 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Brawler, Overdrive, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 36)
-    Utility -> Scoundrel (Lvl 13)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 4)
+    Utility -> Slime Rancher (Lvl 4)
+    Utility -> Golem Tamer (Lvl 4)
+    Utility -> Dragonslayer (Lvl 4)
+    Racial -> Elf Fairy (Lvl 4)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 12
-    Fire           : 12
+    Air            : 16
+    Earth          : 10
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 11
+    Necrotic       : 8
     Psychic        : 11
-    Radiant        : 11
-    Water          : 11
+    Radiant        : 25
+    Water          : 13
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)
@@ -1738,56 +2003,65 @@ EYUM TTRPG - ARCHER (NERITE GEAR)
 ============================================================
 
   STATS:
-    STR: 49 (+19) = 6 + 43
-    DEX: 58 (+24) = 11 + 47
+    STR: 49 (+19) = 4 + 45
+    DEX: 58 (+24) = 14 + 44
     CON: 51 (+20) = 8 + 43
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 23
-    Initiative: +24
-    Speed: 30 ft
-    AP: 101  BAP: 127  RP: 1
+    AC: 26
+    Initiative: +26
+    Speed: 40 ft
+    AP: 101  BAP: 127  RP: 2
     Proficiency: +334
-    To Hit: Melee: +354 | Ranged: +369
+    To Hit: Melee: +355 | Ranged: +359
 
   HEALTH POOLS:
-    Vitality: 26524 = 1001d8 (4 x 1001) + 2000(flat) + 20 x 1001(Con)
+    Vitality: 32530 = 1001d20 (10 x 1001) + 2000(flat) + 20 x 1001(Con)
     Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
-    Mana:   2502 = 1001d6 (3 x 1001) + -1 x 1001(Wis)
+    Mana:   1501 = 1001d4 (2 x 1001) + -1 x 1001(Wis)
 
   DAMAGE:
     Attacks/Turn: 64
-    Melee Dmg/Hit: 31 | Dmg/Turn: 1984
-    Ranged Dmg/Hit: 49 | Dmg/Turn: 3136
-    Total Dmg/10R: 56635
+    Melee Dmg/Hit: 40 | Dmg/Turn: 2560
+    Ranged Dmg/Hit: 39 | Dmg/Turn: 2496
+    Total Dmg/10R: 26415
 
   RESOURCES:
-    Skill Points:  3298
-    Stat Points:   326
+    Skill Points:  5934
+    Stat Points:   487
     Affinity Pts:  0
-    Stat Spent:    355
+    Stat Spent:    354
 
   FEATS & SPELLS:
-    Feats:  333 (taken: Fast Hands, Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  500 (taken: Fast Hands, Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Brawler, Overdrive, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Mana Flow but did not meet prerequisite: Requires Magician Lvl 1)
     Spells:  0
 
   PATHS:
-    Physical -> Marksman (Lvl 54)
-    Utility -> Scoundrel (Lvl 13)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Rune Master (Lvl 6)
+    Utility -> Slime Rancher (Lvl 5)
+    Utility -> Golem Tamer (Lvl 6)
+    Utility -> Dragonslayer (Lvl 9)
+    Racial -> Elf Fairy (Lvl 4)
 
   AFFINITIES:
-    Air            : 97
-    Earth          : 97
-    Fire           : 97
+    Air            : 102
+    Earth          : 96
+    Fire           : 99
     Generic        : 1
-    Necrotic       : 97
-    Psychic        : 97
-    Radiant        : 97
-    Water          : 97
+    Necrotic       : 93
+    Psychic        : 96
+    Radiant        : 111
+    Water          : 99
 
   GEAR:
     Weapon: nerite_longbow (1d8 piercing)

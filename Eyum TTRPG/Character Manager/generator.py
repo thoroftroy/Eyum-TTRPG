@@ -22,11 +22,219 @@ from lib.gear import resolve_gear
 from lib.races import select_best_race, build_racial_archetype, build_race_data
 from lib.output import format_sheet, write_build_file, write_average, write_overall_averages, write_summary
 
+DIE_AVERAGES_PRELOAD = {}
+
+
+def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
+    score = 0
+    stat_priority = build_config.get('stat_priority', [])
+    stat_weights = [10, 4, 2, 1, 0.5, 0.25]
+    is_physical = build_config.get('has_physical', False)
+    is_magical = build_config.get('has_magical', False)
+
+    if effect_key == 'stat':
+        for stat, bonus in effect_val.items():
+            if stat in ('str', 'dex', 'con', 'wis', 'int', 'cha'):
+                for i, s in enumerate(stat_priority):
+                    if s == stat and i < len(stat_weights):
+                        score += bonus * stat_weights[i]
+    elif effect_key == 'melee_damage':
+        if is_physical:
+            score += effect_val * 15
+    elif effect_key == 'ranged_damage':
+        if is_physical:
+            score += effect_val * 15
+    elif effect_key == 'magic_damage':
+        if is_magical:
+            score += effect_val * 15
+    elif effect_key == 'melee_accuracy':
+        if is_physical:
+            score += effect_val * 10
+    elif effect_key == 'ranged_accuracy':
+        if is_physical:
+            score += effect_val * 10
+    elif effect_key == 'magic_accuracy':
+        if is_magical:
+            score += effect_val * 10
+    elif effect_key == 'weapon_group_accuracy':
+        if is_physical:
+            score += effect_val * 10
+    elif effect_key == 'ac_bonus':
+        score += effect_val * 8
+    elif effect_key == 'flat_vit':
+        score += effect_val * 0.5
+    elif effect_key == 'flat_hp':
+        score += effect_val * 0.3
+    elif effect_key == 'affinity_points':
+        if is_magical:
+            score += effect_val * 5
+    elif effect_key == 'affinity':
+        if is_magical:
+            for aff, val in effect_val.items():
+                score += val * 3
+    elif effect_key == 'skill_points':
+        score += effect_val * 1
+    elif effect_key == 'stat_points':
+        score += effect_val * 6
+    elif effect_key == 'extra_attack_bap':
+        if is_physical:
+            score += 20
+    elif effect_key == 'pack_tactics':
+        if is_physical:
+            score += 8
+    elif effect_key == 'initiative':
+        score += effect_val * 3
+    elif effect_key == 'speed':
+        score += effect_val * 2
+    elif effect_key == 'fly_speed':
+        score += effect_val * 2
+    elif effect_key == 'skill_points_per_level':
+        score += 8
+    elif effect_key == 'proficiency_per_level':
+        score += 8
+    elif effect_key == 'expertise_per_level':
+        score += 8
+    elif effect_key == 'affinity_per_level':
+        if is_magical:
+            score += 10
+    elif effect_key == 'feat_per_feat':
+        score += 15
+    elif effect_key == 'damage_reduction':
+        score += effect_val * 3
+    elif effect_key == 'spell':
+        if is_magical:
+            score += effect_val * 5
+    elif effect_key == 'mana_dice_count':
+        if is_magical:
+            score += effect_val * 5
+    elif effect_key == 'mana_per_level':
+        if is_magical:
+            score += effect_val * 3
+    elif effect_key == 'hp_per_level':
+        score += effect_val * 3
+    elif effect_key == 'vit_per_level':
+        score += effect_val * 3
+    elif effect_key == 'brawler_stacks':
+        if is_physical:
+            score += effect_val * 8
+    elif effect_key == 'antideity_damage' or effect_key == 'anti_deity_damage':
+        score += 10
+    elif effect_key == 'hallowed_affinity':
+        if is_magical:
+            score += effect_val * 3
+    elif effect_key == 'eldritch_affinity':
+        if is_magical:
+            score += effect_val * 3
+    elif effect_key == 'karma':
+        score += 0
+    elif effect_key == 'pact_access_tier':
+        score += 2
+    elif effect_key == 'tier_racial':
+        score += 3
+    elif effect_key == 'initiative_advantage':
+        score += 5
+    elif effect_key == 'first_round_damage':
+        score += 3
+    elif effect_key == 'ap_first_round':
+        score += 3
+    elif effect_key == 'first_round_advantage':
+        score += 5
+    elif effect_key == 'true_sight_range':
+        score += effect_val * 0.5
+    elif effect_key == 'darkvision_range':
+        score += effect_val * 0.3
+    elif effect_key == 'magic_blast':
+        if is_magical:
+            score += 3
+    elif effect_key == 'generic_affinity':
+        if is_magical:
+            score += effect_val * 3
+    elif effect_key == 'bap':
+        score += effect_val * 8
+    elif effect_key == 'rp':
+        score += effect_val * 5
+    elif effect_key == 'ap':
+        score += effect_val * 6
+    elif effect_key == 'ranged_adv_damage':
+        if is_physical:
+            score += effect_val * 4
+    elif effect_key == 'ranged_expertise':
+        if is_physical:
+            score += 5
+
+    return score
+
+
+def score_archetype_for_build(arch_name, arch_data, build_config):
+    total = 0
+    for tier_key, effects in arch_data.items():
+        tier_num = float(tier_key)
+        repeatable = effects.get('repeatable', False)
+        multiplier = 1.0
+        if tier_num != int(tier_num) and not repeatable:
+            multiplier = 0.6
+        elif repeatable:
+            multiplier = 0.3
+        for ek, ev in effects.items():
+            if ek == 'repeatable':
+                continue
+            total += score_effect_for_build(ek, ev, build_config, arch_name) * multiplier
+
+    if arch_name == 'Indomitable':
+        total -= 20
+    if arch_name == 'Magician':
+        total -= 20
+    return total
+
+
+def select_archetypes(build_config, settings, target_level):
+    available_stp = 1 + (target_level // 2)
+    path_rules = settings['paths']
+    preferred = build_config.get('preferred_paths', list(path_rules.keys()))
+
+    arch_scores = []
+    for path_name in preferred:
+        path_data = path_rules.get(path_name, {})
+        archs = path_data.get('archetypes', {})
+        for arch_name, arch_data in archs.items():
+            score = score_archetype_for_build(arch_name, arch_data, build_config)
+            base_tiers = sum(1 for k in arch_data if float(k) == int(float(k)) and not arch_data[k].get('repeatable', False))
+            arch_scores.append((score, path_name, arch_name, base_tiers))
+
+    arch_scores.sort(key=lambda x: x[0], reverse=True)
+
+    result = []
+    stp_remaining = available_stp
+    paths_unlocked = set()
+
+    for score, path_name, arch_name, base_tiers in arch_scores:
+        if stp_remaining <= 0:
+            break
+
+        path_cost = 1 if path_name not in paths_unlocked else 0
+        if path_cost == 1:
+            if stp_remaining < 1:
+                continue
+            stp_remaining -= 1
+            paths_unlocked.add(path_name)
+
+        levels = min(stp_remaining, base_tiers)
+        if levels > 0:
+            result.append({"path": path_name, "archetype": arch_name, "level": levels, "repeatables": {}})
+            stp_remaining -= levels
+
+    return result
+
 
 def generate_build(build_name, build_config, settings, levels, gear_override=None, tier_label=None):
     results = []
 
     all_races = build_race_data(settings)
+
+    if 'preferred_paths' in build_config and ('paths' not in build_config or not build_config.get('paths')):
+        max_level = max(levels)
+        dynamic_paths = select_archetypes(build_config, settings, max(levels))
+        build_config['paths'] = dynamic_paths
 
     race_pickup = build_config.get('race', None)
     if race_pickup:
@@ -40,7 +248,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
                     {"path": "Racial", "archetype": arch_name, "level": 10, "repeatables": {}}
                 )
             if arch_name not in settings['paths'].get('Racial', {}).get('archetypes', {}):
-                settings['paths']['Racial']['archetypes'][arch_name] = build_racial_archetype(race_data, family_name)
+                settings['paths']['Racial']['archetypes'][arch_name] = build_racial_archetype(race_data, family_name, subrace_name)
 
     for level in levels:
         stats = build_config['base_stats']
@@ -89,20 +297,6 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             char.stat_points = 0
 
         apply_paths(char, level, build_config, settings)
-
-        for (path, arch), lvl in char.archetype_levels.items():
-            if arch == 'Scholar':
-                if lvl >= 1:
-                    char.skill_points += max(0, level - 1)
-                if lvl >= 2:
-                    prof_gains = level // 3 + 1
-                    char.skill_points += prof_gains * 3
-                if lvl >= 3:
-                    expr_gains = level // 8
-                    char.skill_points += expr_gains * 5
-            if arch == 'Jack':
-                if lvl >= 3:
-                    char.affinity_points += max(0, level - 1)
 
         if char.is_unarmed:
             tull_tier = char.tull_tier

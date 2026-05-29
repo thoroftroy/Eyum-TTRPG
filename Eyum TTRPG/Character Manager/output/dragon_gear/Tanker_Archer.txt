@@ -6,31 +6,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 9 + 9
-    DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 14 (+2) = 6 + 8
+    CON: 22 (+6) = 18 + 4
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
-    Initiative: +1
-    Speed: 30 ft
+    AC: 29
+    Initiative: +2
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +6 | Ranged: +2
+    To Hit: Melee: +7 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 19 = 2d8 (4 x 2) + 0(flat) + 5 x 2(Con)
+    Vitality: 21 = 2d8 (4 x 2) + 0(flat) + 6 x 2(Con)
     Health:  7 = 2d6 (3 x 2) + 0(flat)
     Mana:   5 = 2d6 (3 x 2) + -1 x 2(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 21
-    Total Dmg/10R: 260
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 22
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  7
@@ -43,16 +43,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 0)
     Physical -> Marksman (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -63,31 +67,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 18 (+4) = 9 + 9
-    DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 14 (+2) = 6 + 8
+    CON: 22 (+6) = 18 + 4
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
-    Initiative: +1
-    Speed: 30 ft
+    AC: 29
+    Initiative: +2
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +6 | Ranged: +2
+    To Hit: Melee: +7 | Ranged: +3
 
   HEALTH POOLS:
-    Vitality: 33 = 3d10 (5 x 3) + 2(flat) + 5 x 3(Con)
+    Vitality: 33 = 3d8 (4 x 3) + 2(flat) + 6 x 3(Con)
     Health:  11 = 3d6 (3 x 3) + 1(flat)
-    Mana:   4 = 3d4 (2 x 3) + -1 x 3(Wis)
+    Mana:   7 = 3d6 (3 x 3) + -1 x 3(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 21
-    Total Dmg/10R: 260
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 22
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  9
@@ -100,16 +104,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
     Physical -> Marksman (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
+    Necrotic       : 3
+    Psychic        : -3
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -120,31 +128,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 15 (+2) = 6 + 9
+    CON: 22 (+6) = 18 + 4
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
-    Initiative: +1
-    Speed: 30 ft
+    AC: 29
+    Initiative: +2
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +7 | Ranged: +3
+    To Hit: Melee: +8 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 47 = 4d10 (5 x 4) + 5(flat) + 5 x 4(Con)
+    Vitality: 47 = 4d8 (4 x 4) + 5(flat) + 6 x 4(Con)
     Health:  18 = 4d6 (3 x 4) + 4(flat)
-    Mana:   6 = 4d4 (2 x 4) + -1 x 4(Wis)
+    Mana:   10 = 4d6 (3 x 4) + -1 x 4(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 21
-    Total Dmg/10R: 260
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 22
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  13
@@ -158,18 +166,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
     Physical -> Marksman (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -180,31 +190,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 15 (+2) = 6 + 9
+    CON: 22 (+6) = 18 + 4
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
-    Initiative: +1
-    Speed: 30 ft
+    AC: 29
+    Initiative: +2
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +7 | Ranged: +4
+    To Hit: Melee: +8 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 60 = 5d10 (5 x 5) + 8(flat) + 5 x 5(Con)
+    Vitality: 60 = 5d8 (4 x 5) + 8(flat) + 6 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   7 = 5d4 (2 x 5) + -1 x 5(Wis)
+    Mana:   12 = 5d6 (3 x 5) + -1 x 5(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 21
-    Total Dmg/10R: 260
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 22
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  15
@@ -218,18 +228,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
     Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -240,31 +252,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 15 (+2) = 6 + 9
+    CON: 22 (+6) = 18 + 4
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
-    Initiative: +1
-    Speed: 30 ft
+    AC: 29
+    Initiative: +2
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +7 | Ranged: +4
+    To Hit: Melee: +8 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 72 = 6d10 (5 x 6) + 9(flat) + 5 x 6(Con)
+    Vitality: 72 = 6d8 (4 x 6) + 9(flat) + 6 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   9 = 6d4 (2 x 6) + -1 x 6(Wis)
+    Mana:   15 = 6d6 (3 x 6) + -1 x 6(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 21
-    Total Dmg/10R: 260
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 22
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  17
@@ -278,18 +290,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
     Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 1
+    Air            : -2
+    Earth          : 4
     Fire           : 1
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -300,9 +314,9 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 14 (+2) = 7 + 7
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 14 (+2) = 6 + 8
+    CON: 23 (+6) = 18 + 5
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -310,21 +324,21 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
   COMBAT:
     AC: 32
     Initiative: +2
-    Speed: 30 ft
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +8 | Ranged: +6
+    To Hit: Melee: +10 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 92 = 7d12 (6 x 7) + 12(flat) + 5 x 7(Con)
+    Vitality: 85 = 7d8 (4 x 7) + 12(flat) + 6 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   10 = 7d4 (2 x 7) + -1 x 7(Wis)
+    Mana:   17 = 7d6 (3 x 7) + -1 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
     Ranged Dmg/Hit: 22 | Dmg/Turn: 22
-    Total Dmg/10R: 260
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  21
@@ -338,18 +352,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
     Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : -2
+    Earth          : 5
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -360,9 +376,9 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 14 (+2) = 7 + 7
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 14 (+2) = 6 + 8
+    CON: 23 (+6) = 18 + 5
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -370,21 +386,21 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
   COMBAT:
     AC: 32
     Initiative: +2
-    Speed: 30 ft
+    Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +8 | Ranged: +6
+    To Hit: Melee: +10 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 105 = 8d12 (6 x 8) + 13(flat) + 5 x 8(Con)
+    Vitality: 97 = 8d8 (4 x 8) + 13(flat) + 6 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   12 = 8d4 (2 x 8) + -1 x 8(Wis)
+    Mana:   20 = 8d6 (3 x 8) + -1 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Melee Dmg/Hit: 27 | Dmg/Turn: 27
     Ranged Dmg/Hit: 22 | Dmg/Turn: 22
-    Total Dmg/10R: 260
+    Total Dmg/10R: 270
 
   RESOURCES:
     Skill Points:  23
@@ -398,18 +414,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
     Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : -2
+    Earth          : 5
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -420,9 +438,9 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 14 (+2) = 7 + 7
-    CON: 21 (+5) = 13 + 8
+    STR: 20 (+5) = 10 + 10
+    DEX: 14 (+2) = 6 + 8
+    CON: 23 (+6) = 18 + 5
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
@@ -430,21 +448,21 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
   COMBAT:
     AC: 32
     Initiative: +2
-    Speed: 30 ft
+    Speed: 20 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Melee: +8 | Ranged: +6
+    To Hit: Melee: +10 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 119 = 9d12 (6 x 9) + 16(flat) + 5 x 9(Con)
+    Vitality: 119 = 9d10 (5 x 9) + 16(flat) + 6 x 9(Con)
     Health:  43 = 9d6 (3 x 9) + 12(flat)
     Mana:   13 = 9d4 (2 x 9) + -1 x 9(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
+    Melee Dmg/Hit: 27 | Dmg/Turn: 54
     Ranged Dmg/Hit: 22 | Dmg/Turn: 44
-    Total Dmg/10R: 520
+    Total Dmg/10R: 540
 
   RESOURCES:
     Skill Points:  30
@@ -458,18 +476,20 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 2
+    Air            : -2
+    Earth          : 5
     Fire           : 2
     Generic        : 1
-    Necrotic       : 1
-    Psychic        : 1
+    Necrotic       : 4
+    Psychic        : -2
     Radiant        : 1
-    Water          : 1
+    Water          : 4
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -480,31 +500,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 13 (+1) = 7 + 6
-    CON: 22 (+6) = 13 + 9
+    STR: 20 (+5) = 10 + 10
+    DEX: 15 (+2) = 6 + 9
+    CON: 23 (+6) = 18 + 5
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 31
-    Initiative: +1
-    Speed: 30 ft
+    AC: 32
+    Initiative: +2
+    Speed: 20 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +9 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 142 = 10d12 (6 x 10) + 17(flat) + 6 x 10(Con)
+    Vitality: 132 = 10d10 (5 x 10) + 17(flat) + 6 x 10(Con)
     Health:  48 = 10d6 (3 x 10) + 13(flat)
     Mana:   15 = 10d4 (2 x 10) + -1 x 10(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 520
+    Melee Dmg/Hit: 32 | Dmg/Turn: 64
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 44
+    Total Dmg/10R: 640
 
   RESOURCES:
     Skill Points:  34
@@ -513,23 +533,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -540,31 +562,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 13 (+1) = 7 + 6
-    CON: 22 (+6) = 13 + 9
+    STR: 20 (+5) = 10 + 10
+    DEX: 15 (+2) = 6 + 9
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 31
-    Initiative: +1
-    Speed: 30 ft
+    AC: 33
+    Initiative: +2
+    Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +9 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 201 = 11d20 (10 x 11) + 20(flat) + 6 x 11(Con)
+    Vitality: 157 = 11d10 (5 x 11) + 20(flat) + 7 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
     Mana:   16 = 11d4 (2 x 11) + -1 x 11(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 520
+    Melee Dmg/Hit: 32 | Dmg/Turn: 64
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 44
+    Total Dmg/10R: 640
 
   RESOURCES:
     Skill Points:  36
@@ -573,23 +595,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -600,31 +624,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 13 (+1) = 7 + 6
-    CON: 22 (+6) = 13 + 9
+    STR: 20 (+5) = 10 + 10
+    DEX: 15 (+2) = 6 + 9
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 31
-    Initiative: +1
-    Speed: 30 ft
+    AC: 33
+    Initiative: +2
+    Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +9 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 219 = 12d20 (10 x 12) + 21(flat) + 6 x 12(Con)
+    Vitality: 171 = 12d10 (5 x 12) + 21(flat) + 7 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
     Mana:   18 = 12d4 (2 x 12) + -1 x 12(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
-    Ranged Dmg/Hit: 21 | Dmg/Turn: 42
-    Total Dmg/10R: 520
+    Melee Dmg/Hit: 32 | Dmg/Turn: 64
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 44
+    Total Dmg/10R: 640
 
   RESOURCES:
     Skill Points:  38
@@ -633,23 +657,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Marksman (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 2
-    Earth          : 3
-    Fire           : 3
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 2
-    Psychic        : 2
-    Radiant        : 2
-    Water          : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -660,31 +686,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    STR: 20 (+5) = 10 + 10
+    DEX: 16 (+3) = 6 + 10
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 32
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +10 | Ranged: +8
+    To Hit: Melee: +12 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 238 = 13d20 (10 x 13) + 24(flat) + 6 x 13(Con)
+    Vitality: 186 = 13d10 (5 x 13) + 24(flat) + 7 x 13(Con)
     Health:  63 = 13d6 (3 x 13) + 18(flat)
     Mana:   19 = 13d4 (2 x 13) + -1 x 13(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 32 | Dmg/Turn: 64
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 46
+    Total Dmg/10R: 640
 
   RESOURCES:
     Skill Points:  42
@@ -693,23 +719,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -720,31 +748,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    STR: 20 (+5) = 10 + 10
+    DEX: 16 (+3) = 6 + 10
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 32
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +10 | Ranged: +8
+    To Hit: Melee: +12 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 256 = 14d20 (10 x 14) + 25(flat) + 6 x 14(Con)
+    Vitality: 200 = 14d10 (5 x 14) + 25(flat) + 7 x 14(Con)
     Health:  68 = 14d6 (3 x 14) + 19(flat)
     Mana:   21 = 14d4 (2 x 14) + -1 x 14(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 32 | Dmg/Turn: 64
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 46
+    Total Dmg/10R: 640
 
   RESOURCES:
     Skill Points:  44
@@ -753,23 +781,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -780,31 +810,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 19 (+4) = 9 + 10
-    DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    STR: 20 (+5) = 10 + 10
+    DEX: 16 (+3) = 6 + 10
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 35
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +10 | Ranged: +8
+    To Hit: Melee: +12 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 275 = 15d20 (10 x 15) + 28(flat) + 6 x 15(Con)
+    Vitality: 215 = 15d10 (5 x 15) + 28(flat) + 7 x 15(Con)
     Health:  73 = 15d6 (3 x 15) + 21(flat)
     Mana:   22 = 15d4 (2 x 15) + -1 x 15(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 26 | Dmg/Turn: 52
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 46
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  46
@@ -813,23 +843,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 4)
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 3
-    Fire           : 3
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -840,31 +872,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    STR: 21 (+5) = 10 + 11
+    DEX: 15 (+2) = 6 + 9
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 35
+    AC: 33
     Initiative: +2
-    Speed: 30 ft
+    Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Melee: +12 | Ranged: +9
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 293 = 16d20 (10 x 16) + 29(flat) + 6 x 16(Con)
+    Vitality: 229 = 16d10 (5 x 16) + 29(flat) + 7 x 16(Con)
     Health:  78 = 16d6 (3 x 16) + 22(flat)
     Mana:   24 = 16d4 (2 x 16) + -1 x 16(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 27 | Dmg/Turn: 54
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 44
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  50
@@ -873,23 +905,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 4)
-    Physical -> Marksman (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -900,31 +934,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    STR: 21 (+5) = 10 + 11
+    DEX: 15 (+2) = 6 + 9
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 35
+    AC: 33
     Initiative: +2
-    Speed: 30 ft
+    Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +12 | Ranged: +9
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 312 = 17d20 (10 x 17) + 32(flat) + 6 x 17(Con)
+    Vitality: 261 = 17d12 (6 x 17) + 32(flat) + 7 x 17(Con)
     Health:  83 = 17d6 (3 x 17) + 24(flat)
     Mana:   25 = 17d4 (2 x 17) + -1 x 17(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 27 | Dmg/Turn: 54
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 44
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  57
@@ -933,23 +967,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 4)
-    Physical -> Marksman (Lvl 4)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -960,31 +996,31 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    STR: 21 (+5) = 10 + 11
+    DEX: 15 (+2) = 6 + 9
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 35
+    AC: 33
     Initiative: +2
-    Speed: 30 ft
+    Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +12 | Ranged: +9
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 330 = 18d20 (10 x 18) + 33(flat) + 6 x 18(Con)
+    Vitality: 276 = 18d12 (6 x 18) + 33(flat) + 7 x 18(Con)
     Health:  88 = 18d6 (3 x 18) + 25(flat)
     Mana:   27 = 18d4 (2 x 18) + -1 x 18(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 27 | Dmg/Turn: 54
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
+    Ranged Dmg/Hit: 22 | Dmg/Turn: 44
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  59
@@ -993,23 +1029,25 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 4)
-    Physical -> Marksman (Lvl 4)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 4
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1020,56 +1058,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 15 (+2) = 7 + 8
-    CON: 22 (+6) = 13 + 9
+    STR: 21 (+5) = 10 + 11
+    DEX: 16 (+3) = 6 + 10
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 36
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +10
+    To Hit: Melee: +14 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 349 = 19d20 (10 x 19) + 36(flat) + 6 x 19(Con)
+    Vitality: 292 = 19d12 (6 x 19) + 36(flat) + 7 x 19(Con)
     Health:  93 = 19d6 (3 x 19) + 27(flat)
     Mana:   28 = 19d4 (2 x 19) + -1 x 19(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 27 | Dmg/Turn: 54
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 46
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  63
-    Stat Points:   1
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 5)
-    Physical -> Marksman (Lvl 4)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
+    Necrotic       : 6
+    Psychic        : -1
     Radiant        : 3
-    Water          : 4
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1080,56 +1120,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 15 (+2) = 7 + 8
-    CON: 22 (+6) = 13 + 9
+    STR: 21 (+5) = 10 + 11
+    DEX: 16 (+3) = 6 + 10
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 36
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +10
+    To Hit: Melee: +14 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 367 = 20d20 (10 x 20) + 37(flat) + 6 x 20(Con)
+    Vitality: 307 = 20d12 (6 x 20) + 37(flat) + 7 x 20(Con)
     Health:  98 = 20d6 (3 x 20) + 28(flat)
     Mana:   30 = 20d4 (2 x 20) + -1 x 20(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 27 | Dmg/Turn: 54
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 54
-    Total Dmg/10R: 540
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 46
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  65
-    Stat Points:   1
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 5)
-    Physical -> Marksman (Lvl 4)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
+    Necrotic       : 6
+    Psychic        : -1
     Radiant        : 3
-    Water          : 4
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1140,56 +1182,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 15 (+2) = 7 + 8
-    CON: 22 (+6) = 13 + 9
+    STR: 21 (+5) = 10 + 11
+    DEX: 16 (+3) = 6 + 10
+    CON: 25 (+7) = 18 + 7
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 36
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +10
+    To Hit: Melee: +14 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 386 = 21d20 (10 x 21) + 40(flat) + 6 x 21(Con)
+    Vitality: 323 = 21d12 (6 x 21) + 40(flat) + 7 x 21(Con)
     Health:  103 = 21d6 (3 x 21) + 30(flat)
     Mana:   31 = 21d4 (2 x 21) + -1 x 21(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 27 | Dmg/Turn: 54
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
     Ranged Dmg/Hit: 28 | Dmg/Turn: 56
-    Total Dmg/10R: 560
+    Total Dmg/10R: 700
 
   RESOURCES:
     Skill Points:  67
-    Stat Points:   1
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 5)
-    Physical -> Marksman (Lvl 5)
+    Physical -> Marksman (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 3
-    Psychic        : 3
+    Necrotic       : 6
+    Psychic        : -1
     Radiant        : 3
-    Water          : 4
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1200,56 +1244,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 20 (+5) = 9 + 11
-    DEX: 15 (+2) = 7 + 8
-    CON: 23 (+6) = 13 + 10
+    STR: 21 (+5) = 10 + 11
+    DEX: 16 (+3) = 6 + 10
+    CON: 26 (+8) = 18 + 8
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 37
-    Initiative: +2
-    Speed: 30 ft
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +15 | Ranged: +12
+    To Hit: Melee: +16 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 478 = 26d20 (10 x 26) + 49(flat) + 6 x 26(Con)
+    Vitality: 530 = 26d20 (10 x 26) + 49(flat) + 8 x 26(Con)
     Health:  128 = 26d6 (3 x 26) + 37(flat)
     Mana:   39 = 26d4 (2 x 26) + -1 x 26(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 27 | Dmg/Turn: 81
-    Ranged Dmg/Hit: 29 | Dmg/Turn: 87
-    Total Dmg/10R: 870
+    Melee Dmg/Hit: 35 | Dmg/Turn: 105
+    Ranged Dmg/Hit: 28 | Dmg/Turn: 84
+    Total Dmg/10R: 1050
 
   RESOURCES:
     Skill Points:  86
-    Stat Points:   3
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    32
 
   FEATS & SPELLS:
-    Feats:  8 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  8 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 6)
-    Physical -> Marksman (Lvl 6)
+    Physical -> Marksman (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 4
-    Fire           : 5
+    Air            : 2
+    Earth          : 9
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 3
+    Water          : 9
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1260,56 +1306,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 9 + 12
-    DEX: 15 (+2) = 7 + 8
-    CON: 23 (+6) = 13 + 10
+    STR: 22 (+6) = 10 + 12
+    DEX: 16 (+3) = 6 + 10
+    CON: 28 (+9) = 18 + 10
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 39
-    Initiative: +2
-    Speed: 30 ft
-    AP: 4  BAP: 4  RP: 1
+    AC: 34
+    Initiative: +3
+    Speed: 20 ft
+    AP: 4  BAP: 4  RP: 2
     Proficiency: +11
-    To Hit: Melee: +17 | Ranged: +14
+    To Hit: Melee: +19 | Ranged: +15
 
   HEALTH POOLS:
-    Vitality: 571 = 31d20 (10 x 31) + 60(flat) + 6 x 31(Con)
+    Vitality: 664 = 31d20 (10 x 31) + 60(flat) + 9 x 31(Con)
     Health:  153 = 31d6 (3 x 31) + 45(flat)
     Mana:   46 = 31d4 (2 x 31) + -1 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 27 | Dmg/Turn: 81
-    Ranged Dmg/Hit: 30 | Dmg/Turn: 90
-    Total Dmg/10R: 900
+    Melee Dmg/Hit: 36 | Dmg/Turn: 108
+    Ranged Dmg/Hit: 28 | Dmg/Turn: 84
+    Total Dmg/10R: 1080
 
   RESOURCES:
     Skill Points:  100
-    Stat Points:   5
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    34
 
   FEATS & SPELLS:
-    Feats:  10 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  10 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 8)
-    Physical -> Marksman (Lvl 7)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 5
-    Fire           : 5
+    Air            : 3
+    Earth          : 9
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 4
-    Psychic        : 4
-    Radiant        : 5
-    Water          : 5
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 9
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1320,56 +1368,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 21 (+5) = 9 + 12
-    DEX: 16 (+3) = 7 + 9
-    CON: 24 (+7) = 13 + 11
+    STR: 22 (+6) = 10 + 12
+    DEX: 17 (+3) = 6 + 11
+    CON: 29 (+9) = 18 + 11
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
+    AC: 38
     Initiative: +3
-    Speed: 30 ft
-    AP: 5  BAP: 6  RP: 1
+    Speed: 20 ft
+    AP: 5  BAP: 6  RP: 2
     Proficiency: +14
-    To Hit: Melee: +20 | Ranged: +18
+    To Hit: Melee: +22 | Ranged: +18
 
   HEALTH POOLS:
-    Vitality: 807 = 41d20 (10 x 41) + 90(flat) + 7 x 41(Con)
-    Health:  208 = 41d6 (3 x 41) + 65(flat)
+    Vitality: 879 = 41d20 (10 x 41) + 80(flat) + 9 x 41(Con)
+    Health:  203 = 41d6 (3 x 41) + 60(flat)
     Mana:   61 = 41d4 (2 x 41) + -1 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 27 | Dmg/Turn: 108
-    Ranged Dmg/Hit: 34 | Dmg/Turn: 136
-    Total Dmg/10R: 1360
+    Melee Dmg/Hit: 36 | Dmg/Turn: 144
+    Ranged Dmg/Hit: 28 | Dmg/Turn: 112
+    Total Dmg/10R: 1440
 
   RESOURCES:
     Skill Points:  136
-    Stat Points:   8
+    Stat Points:   2
     Affinity Pts:  0
     Stat Spent:    37
 
   FEATS & SPELLS:
-    Feats:  13 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  13 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 10)
-    Physical -> Marksman (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 4)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 6
-    Fire           : 6
+    Air            : 4
+    Earth          : 11
+    Fire           : 8
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : 5
+    Necrotic       : 8
+    Psychic        : 2
     Radiant        : 5
-    Water          : 6
+    Water          : 10
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1380,56 +1430,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 22 (+6) = 9 + 13
-    DEX: 17 (+3) = 7 + 10
-    CON: 24 (+7) = 13 + 11
+    STR: 23 (+6) = 10 + 13
+    DEX: 18 (+4) = 6 + 12
+    CON: 31 (+10) = 18 + 13
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
-    Initiative: +3
-    Speed: 30 ft
-    AP: 6  BAP: 7  RP: 1
+    AC: 38
+    Initiative: +4
+    Speed: 20 ft
+    AP: 6  BAP: 7  RP: 2
     Proficiency: +17
-    To Hit: Melee: +24 | Ranged: +21
+    To Hit: Melee: +25 | Ranged: +22
 
   HEALTH POOLS:
-    Vitality: 1032 = 51d20 (10 x 51) + 140(flat) + 7 x 51(Con)
-    Health:  273 = 51d6 (3 x 51) + 95(flat)
+    Vitality: 1145 = 51d20 (10 x 51) + 100(flat) + 10 x 51(Con)
+    Health:  253 = 51d6 (3 x 51) + 75(flat)
     Mana:   76 = 51d4 (2 x 51) + -1 x 51(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 28 | Dmg/Turn: 112
-    Ranged Dmg/Hit: 36 | Dmg/Turn: 144
+    Melee Dmg/Hit: 36 | Dmg/Turn: 144
+    Ranged Dmg/Hit: 29 | Dmg/Turn: 116
     Total Dmg/10R: 1440
 
   RESOURCES:
     Skill Points:  167
-    Stat Points:   11
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    40
 
   FEATS & SPELLS:
-    Feats:  16 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  16 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 13)
-    Physical -> Marksman (Lvl 12)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 6)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 7
-    Fire           : 7
+    Air            : 5
+    Earth          : 11
+    Fire           : 9
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 6
+    Necrotic       : 9
+    Psychic        : 3
     Radiant        : 6
-    Water          : 7
+    Water          : 11
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1440,56 +1492,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 23 (+6) = 9 + 14
-    DEX: 17 (+3) = 7 + 10
-    CON: 25 (+7) = 13 + 12
+    STR: 24 (+7) = 10 + 14
+    DEX: 18 (+4) = 6 + 12
+    CON: 31 (+10) = 18 + 13
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
-    Initiative: +3
-    Speed: 30 ft
-    AP: 7  BAP: 8  RP: 1
+    AC: 42
+    Initiative: +4
+    Speed: 20 ft
+    AP: 7  BAP: 8  RP: 2
     Proficiency: +21
-    To Hit: Melee: +28 | Ranged: +25
+    To Hit: Melee: +30 | Ranged: +26
 
   HEALTH POOLS:
-    Vitality: 1247 = 61d20 (10 x 61) + 180(flat) + 7 x 61(Con)
-    Health:  333 = 61d6 (3 x 61) + 120(flat)
+    Vitality: 1370 = 61d20 (10 x 61) + 120(flat) + 10 x 61(Con)
+    Health:  303 = 61d6 (3 x 61) + 90(flat)
     Mana:   91 = 61d4 (2 x 61) + -1 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 28 | Dmg/Turn: 140
-    Ranged Dmg/Hit: 38 | Dmg/Turn: 190
-    Total Dmg/10R: 1900
+    Melee Dmg/Hit: 37 | Dmg/Turn: 185
+    Ranged Dmg/Hit: 29 | Dmg/Turn: 145
+    Total Dmg/10R: 1850
 
   RESOURCES:
     Skill Points:  200
-    Stat Points:   15
+    Stat Points:   9
     Affinity Pts:  0
     Stat Spent:    44
 
   FEATS & SPELLS:
-    Feats:  20 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  20 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 15)
-    Physical -> Marksman (Lvl 15)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 8
-    Fire           : 8
+    Air            : 6
+    Earth          : 13
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 7
+    Necrotic       : 10
+    Psychic        : 4
     Radiant        : 7
-    Water          : 8
+    Water          : 12
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1500,56 +1554,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 23 (+6) = 9 + 14
-    DEX: 18 (+4) = 7 + 11
-    CON: 26 (+8) = 13 + 13
+    STR: 24 (+7) = 10 + 14
+    DEX: 19 (+4) = 6 + 13
+    CON: 32 (+11) = 18 + 14
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
+    AC: 42
     Initiative: +4
-    Speed: 30 ft
-    AP: 8  BAP: 9  RP: 1
+    Speed: 20 ft
+    AP: 8  BAP: 9  RP: 2
     Proficiency: +24
-    To Hit: Melee: +31 | Ranged: +29
+    To Hit: Melee: +33 | Ranged: +29
 
   HEALTH POOLS:
-    Vitality: 1543 = 71d20 (10 x 71) + 230(flat) + 8 x 71(Con)
-    Health:  398 = 71d6 (3 x 71) + 150(flat)
+    Vitality: 1666 = 71d20 (10 x 71) + 140(flat) + 11 x 71(Con)
+    Health:  353 = 71d6 (3 x 71) + 105(flat)
     Mana:   106 = 71d4 (2 x 71) + -1 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 28 | Dmg/Turn: 140
-    Ranged Dmg/Hit: 39 | Dmg/Turn: 195
-    Total Dmg/10R: 1950
+    Melee Dmg/Hit: 37 | Dmg/Turn: 185
+    Ranged Dmg/Hit: 29 | Dmg/Turn: 145
+    Total Dmg/10R: 1850
 
   RESOURCES:
     Skill Points:  231
-    Stat Points:   18
+    Stat Points:   12
     Affinity Pts:  0
     Stat Spent:    47
 
   FEATS & SPELLS:
-    Feats:  23 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  23 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 18)
-    Physical -> Marksman (Lvl 17)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 9
-    Fire           : 9
+    Air            : 7
+    Earth          : 13
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 8
-    Psychic        : 8
+    Necrotic       : 11
+    Psychic        : 5
     Radiant        : 8
-    Water          : 9
+    Water          : 13
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1560,56 +1616,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 9 + 15
-    DEX: 19 (+4) = 7 + 12
-    CON: 26 (+8) = 13 + 13
+    STR: 25 (+7) = 10 + 15
+    DEX: 20 (+5) = 6 + 14
+    CON: 32 (+11) = 18 + 14
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
-    Initiative: +4
-    Speed: 30 ft
-    AP: 9  BAP: 11  RP: 1
+    AC: 42
+    Initiative: +5
+    Speed: 20 ft
+    AP: 9  BAP: 11  RP: 2
     Proficiency: +27
-    To Hit: Melee: +35 | Ranged: +32
+    To Hit: Melee: +36 | Ranged: +33
 
   HEALTH POOLS:
-    Vitality: 1768 = 81d20 (10 x 81) + 270(flat) + 8 x 81(Con)
-    Health:  458 = 81d6 (3 x 81) + 175(flat)
+    Vitality: 1901 = 81d20 (10 x 81) + 160(flat) + 11 x 81(Con)
+    Health:  403 = 81d6 (3 x 81) + 120(flat)
     Mana:   121 = 81d4 (2 x 81) + -1 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 29 | Dmg/Turn: 174
-    Ranged Dmg/Hit: 39 | Dmg/Turn: 234
-    Total Dmg/10R: 2340
+    Melee Dmg/Hit: 37 | Dmg/Turn: 222
+    Ranged Dmg/Hit: 30 | Dmg/Turn: 180
+    Total Dmg/10R: 2220
 
   RESOURCES:
     Skill Points:  267
-    Stat Points:   21
+    Stat Points:   15
     Affinity Pts:  0
     Stat Spent:    50
 
   FEATS & SPELLS:
-    Feats:  26 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  26 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 20)
-    Physical -> Marksman (Lvl 20)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 10
-    Fire           : 10
+    Air            : 8
+    Earth          : 14
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 9
-    Psychic        : 9
+    Necrotic       : 12
+    Psychic        : 6
     Radiant        : 9
-    Water          : 9
+    Water          : 14
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1620,56 +1678,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 25 (+7) = 9 + 16
-    DEX: 19 (+4) = 7 + 12
-    CON: 27 (+8) = 13 + 14
+    STR: 26 (+8) = 10 + 16
+    DEX: 20 (+5) = 6 + 14
+    CON: 33 (+11) = 18 + 15
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
-    Initiative: +4
-    Speed: 30 ft
-    AP: 10  BAP: 12  RP: 1
+    AC: 42
+    Initiative: +5
+    Speed: 20 ft
+    AP: 10  BAP: 12  RP: 2
     Proficiency: +31
-    To Hit: Melee: +39 | Ranged: +36
+    To Hit: Melee: +41 | Ranged: +37
 
   HEALTH POOLS:
-    Vitality: 2003 = 91d20 (10 x 91) + 320(flat) + 8 x 91(Con)
-    Health:  523 = 91d6 (3 x 91) + 205(flat)
+    Vitality: 2136 = 91d20 (10 x 91) + 180(flat) + 11 x 91(Con)
+    Health:  453 = 91d6 (3 x 91) + 135(flat)
     Mana:   136 = 91d4 (2 x 91) + -1 x 91(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 29 | Dmg/Turn: 203
-    Ranged Dmg/Hit: 39 | Dmg/Turn: 273
-    Total Dmg/10R: 2730
+    Melee Dmg/Hit: 38 | Dmg/Turn: 266
+    Ranged Dmg/Hit: 30 | Dmg/Turn: 210
+    Total Dmg/10R: 2660
 
   RESOURCES:
     Skill Points:  300
-    Stat Points:   25
+    Stat Points:   19
     Affinity Pts:  0
     Stat Spent:    54
 
   FEATS & SPELLS:
-    Feats:  30 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  30 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 23)
-    Physical -> Marksman (Lvl 22)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 11
-    Fire           : 11
+    Air            : 9
+    Earth          : 15
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 10
-    Psychic        : 10
+    Necrotic       : 13
+    Psychic        : 7
     Radiant        : 10
-    Water          : 11
+    Water          : 15
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1680,56 +1740,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 25 (+7) = 9 + 16
-    DEX: 20 (+5) = 7 + 13
-    CON: 28 (+9) = 13 + 15
+    STR: 26 (+8) = 10 + 16
+    DEX: 20 (+5) = 6 + 14
+    CON: 33 (+11) = 18 + 15
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 41
+    AC: 42
     Initiative: +5
-    Speed: 30 ft
-    AP: 11  BAP: 13  RP: 1
+    Speed: 20 ft
+    AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Melee: +42 | Ranged: +41
+    To Hit: Melee: +44 | Ranged: +40
 
   HEALTH POOLS:
-    Vitality: 2329 = 101d20 (10 x 101) + 360(flat) + 9 x 101(Con)
-    Health:  583 = 101d6 (3 x 101) + 230(flat)
+    Vitality: 2371 = 101d20 (10 x 101) + 200(flat) + 11 x 101(Con)
+    Health:  503 = 101d6 (3 x 101) + 150(flat)
     Mana:   151 = 101d4 (2 x 101) + -1 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 29 | Dmg/Turn: 203
-    Ranged Dmg/Hit: 40 | Dmg/Turn: 280
-    Total Dmg/10R: 2800
+    Melee Dmg/Hit: 38 | Dmg/Turn: 266
+    Ranged Dmg/Hit: 30 | Dmg/Turn: 210
+    Total Dmg/10R: 2660
 
   RESOURCES:
     Skill Points:  331
-    Stat Points:   28
+    Stat Points:   22
     Affinity Pts:  0
-    Stat Spent:    57
+    Stat Spent:    56
 
   FEATS & SPELLS:
-    Feats:  33 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  33 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 25)
-    Physical -> Marksman (Lvl 25)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 12
-    Fire           : 12
+    Air            : 10
+    Earth          : 16
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 11
+    Necrotic       : 14
+    Psychic        : 8
     Radiant        : 11
-    Water          : 11
+    Water          : 16
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)
@@ -1740,56 +1802,58 @@ EYUM TTRPG - TANKER ARCHER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 54 (+22) = 9 + 45
-    DEX: 49 (+19) = 7 + 42
-    CON: 56 (+23) = 13 + 43
+    STR: 54 (+22) = 10 + 44
+    DEX: 48 (+19) = 6 + 42
+    CON: 59 (+24) = 18 + 41
     WIS:  8 (-1) = 8 + 0
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 42
+    AC: 43
     Initiative: +19
-    Speed: 30 ft
-    AP: 101  BAP: 126  RP: 1
+    Speed: 20 ft
+    AP: 101  BAP: 126  RP: 2
     Proficiency: +334
-    To Hit: Melee: +357 | Ranged: +364
+    To Hit: Melee: +358 | Ranged: +354
 
   HEALTH POOLS:
-    Vitality: 36533 = 1001d20 (10 x 1001) + 3000(flat) + 23 x 1001(Con)
-    Health:  5503 = 1001d6 (3 x 1001) + 2000(flat)
+    Vitality: 36534 = 1001d20 (10 x 1001) + 2000(flat) + 24 x 1001(Con)
+    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
     Mana:   1501 = 1001d4 (2 x 1001) + -1 x 1001(Wis)
 
   DAMAGE:
     Attacks/Turn: 64
-    Melee Dmg/Hit: 44 | Dmg/Turn: 2816
-    Ranged Dmg/Hit: 54 | Dmg/Turn: 3456
-    Total Dmg/10R: 59200
+    Melee Dmg/Hit: 52 | Dmg/Turn: 3328
+    Ranged Dmg/Hit: 44 | Dmg/Turn: 2816
+    Total Dmg/10R: 33280
 
   RESOURCES:
     Skill Points:  3296
-    Stat Points:   327
+    Stat Points:   321
     Affinity Pts:  0
-    Stat Spent:    357
+    Stat Spent:    354
 
   FEATS & SPELLS:
-    Feats:  333 (taken: Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  333 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 109)
-    Physical -> Marksman (Lvl 54)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 97
-    Earth          : 97
-    Fire           : 97
+    Air            : 96
+    Earth          : 102
+    Fire           : 99
     Generic        : 1
-    Necrotic       : 97
-    Psychic        : 97
+    Necrotic       : 99
+    Psychic        : 93
     Radiant        : 97
-    Water          : 97
+    Water          : 102
 
   GEAR:
     Weapon: dragonbone_longbow (1d8 piercing)

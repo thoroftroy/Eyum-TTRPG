@@ -64,7 +64,17 @@ def select_best_race(build_config, races_data):
     return best_family, best_subrace
 
 
-def build_racial_archetype(race_data, race_family):
+def build_racial_archetype(race_data, race_family, subrace_name=''):
+    try:
+        from data.bloodline_data import BLOODLINE_DATA
+        family_data = BLOODLINE_DATA.get(race_family, {})
+        subrace_data = family_data.get(subrace_name, {})
+        if subrace_data:
+            return dict(subrace_data)
+    except (ImportError, KeyError):
+        pass
+
+    # Fallback: simplified generic formula for subraces without handbook data
     archetype = {}
     for tier_num in range(1, 11):
         effects = {}
@@ -98,5 +108,5 @@ def build_race_data(settings):
         for subrace_name, data in family.get('subraces', {}).items():
             arch_name = f"{family_name} {subrace_name}"
             if arch_name not in racial_path['archetypes']:
-                racial_path['archetypes'][arch_name] = build_racial_archetype(data, family_name)
+                racial_path['archetypes'][arch_name] = build_racial_archetype(data, family_name, subrace_name)
     return races

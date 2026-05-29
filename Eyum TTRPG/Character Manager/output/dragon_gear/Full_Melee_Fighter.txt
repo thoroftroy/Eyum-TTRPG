@@ -43,6 +43,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 0)
     Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
@@ -103,6 +104,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 0)
     Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
@@ -164,6 +166,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 0)
     Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
@@ -200,7 +203,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +10 | Ranged: +5
+    To Hit: Melee: +9 | Ranged: +6
 
   HEALTH POOLS:
     Vitality: 35 = 5d8 (4 x 5) + 8(flat) + 1 x 5(Con)
@@ -225,7 +228,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
@@ -261,7 +265,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +10 | Ranged: +5
+    To Hit: Melee: +9 | Ranged: +6
 
   HEALTH POOLS:
     Vitality: 42 = 6d8 (4 x 6) + 9(flat) + 1 x 6(Con)
@@ -286,7 +290,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 0)
     Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
@@ -322,12 +327,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +11 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 57 = 7d10 (5 x 7) + 12(flat) + 1 x 7(Con)
+    Vitality: 50 = 7d8 (4 x 7) + 12(flat) + 1 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   17 = 7d4 (2 x 7) + 0 x 7(Wis)
+    Mana:   24 = 7d6 (3 x 7) + 0 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -347,8 +352,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
@@ -383,12 +389,12 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +11 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 65 = 8d10 (5 x 8) + 13(flat) + 1 x 8(Con)
+    Vitality: 57 = 8d8 (4 x 8) + 13(flat) + 1 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   20 = 8d4 (2 x 8) + 0 x 8(Wis)
+    Mana:   28 = 8d6 (3 x 8) + 0 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
@@ -408,8 +414,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
@@ -444,7 +451,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Melee: +11 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
     Vitality: 74 = 9d10 (5 x 9) + 16(flat) + 1 x 9(Con)
@@ -458,8 +465,8 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Total Dmg/10R: 610
 
   RESOURCES:
-    Skill Points:  32
-    Stat Points:   1
+    Skill Points:  30
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -469,9 +476,10 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
-    Racial -> Therian Minotaur (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
@@ -481,7 +489,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Necrotic       : 4
     Psychic        : -2
     Radiant        : 1
-    Water          : 2
+    Water          : 1
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -505,7 +513,7 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +12 | Ranged: +7
+    To Hit: Melee: +12 | Ranged: +8
 
   HEALTH POOLS:
     Vitality: 82 = 10d10 (5 x 10) + 17(flat) + 1 x 10(Con)
@@ -514,35 +522,36 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 30 | Dmg/Turn: 60
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 610
+    Total Dmg/10R: 710
 
   RESOURCES:
-    Skill Points:  36
-    Stat Points:   1
+    Skill Points:  34
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
-    Racial -> Therian Minotaur (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 6
-    Fire           : 3
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : -1
-    Radiant        : 2
-    Water          : 3
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -561,49 +570,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +12 | Ranged: +7
+    To Hit: Melee: +12 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 91 = 11d10 (5 x 11) + 20(flat) + 1 x 11(Con)
+    Vitality: 101 = 11d10 (5 x 11) + 30(flat) + 1 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
     Mana:   27 = 11d4 (2 x 11) + 0 x 11(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 710
 
   RESOURCES:
-    Skill Points:  38
-    Stat Points:   1
+    Skill Points:  36
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
     Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 6
-    Fire           : 3
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : -1
-    Radiant        : 2
-    Water          : 3
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -622,49 +632,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +12 | Ranged: +7
+    To Hit: Melee: +12 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 99 = 12d10 (5 x 12) + 21(flat) + 1 x 12(Con)
+    Vitality: 109 = 12d10 (5 x 12) + 31(flat) + 1 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
     Mana:   30 = 12d4 (2 x 12) + 0 x 12(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 710
 
   RESOURCES:
-    Skill Points:  40
-    Stat Points:   1
+    Skill Points:  38
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
+    Physical -> Marksman (Lvl 1)
+    Physical -> Duelist (Lvl 1)
     Physical -> Indomitable (Lvl 1)
     Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 6
-    Fire           : 3
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : -1
-    Radiant        : 2
-    Water          : 3
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -683,49 +694,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 121 = 13d12 (6 x 13) + 24(flat) + 1 x 13(Con)
+    Vitality: 118 = 13d10 (5 x 13) + 34(flat) + 1 x 13(Con)
     Health:  63 = 13d6 (3 x 13) + 18(flat)
     Mana:   32 = 13d4 (2 x 13) + 0 x 13(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 710
 
   RESOURCES:
-    Skill Points:  44
-    Stat Points:   1
+    Skill Points:  42
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 6
-    Fire           : 4
+    Air            : 2
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -744,49 +756,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 130 = 14d12 (6 x 14) + 25(flat) + 1 x 14(Con)
+    Vitality: 126 = 14d10 (5 x 14) + 35(flat) + 1 x 14(Con)
     Health:  68 = 14d6 (3 x 14) + 19(flat)
     Mana:   35 = 14d4 (2 x 14) + 0 x 14(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 35 | Dmg/Turn: 70
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 710
 
   RESOURCES:
-    Skill Points:  46
-    Stat Points:   1
+    Skill Points:  44
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 6
-    Fire           : 4
+    Air            : 2
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 3
-    Water          : 3
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -805,49 +818,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 140 = 15d12 (6 x 15) + 28(flat) + 1 x 15(Con)
+    Vitality: 135 = 15d10 (5 x 15) + 38(flat) + 1 x 15(Con)
     Health:  73 = 15d6 (3 x 15) + 21(flat)
     Mana:   37 = 15d4 (2 x 15) + 0 x 15(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  48
-    Stat Points:   3
+    Skill Points:  46
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 2)
     Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 7
-    Fire           : 4
+    Air            : 2
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 3
-    Water          : 4
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -866,49 +880,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Melee: +14 | Ranged: +9
+    To Hit: Melee: +14 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 149 = 16d12 (6 x 16) + 29(flat) + 1 x 16(Con)
+    Vitality: 143 = 16d10 (5 x 16) + 39(flat) + 1 x 16(Con)
     Health:  78 = 16d6 (3 x 16) + 22(flat)
     Mana:   40 = 16d4 (2 x 16) + 0 x 16(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  52
-    Stat Points:   3
+    Skill Points:  50
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
+    Physical -> Marksman (Lvl 2)
     Physical -> Duelist (Lvl 2)
-    Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 4
+    Air            : 5
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -927,49 +942,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +14 | Ranged: +9
+    To Hit: Melee: +14 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 159 = 17d12 (6 x 17) + 32(flat) + 1 x 17(Con)
+    Vitality: 169 = 17d12 (6 x 17) + 42(flat) + 1 x 17(Con)
     Health:  83 = 17d6 (3 x 17) + 24(flat)
     Mana:   42 = 17d4 (2 x 17) + 0 x 17(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  59
-    Stat Points:   3
+    Skill Points:  57
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
     Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 4
+    Air            : 5
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -988,49 +1004,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +14 | Ranged: +9
+    To Hit: Melee: +14 | Ranged: +10
 
   HEALTH POOLS:
-    Vitality: 168 = 18d12 (6 x 18) + 33(flat) + 1 x 18(Con)
+    Vitality: 178 = 18d12 (6 x 18) + 43(flat) + 1 x 18(Con)
     Health:  88 = 18d6 (3 x 18) + 25(flat)
     Mana:   45 = 18d4 (2 x 18) + 0 x 18(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  61
-    Stat Points:   3
+    Skill Points:  59
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
     Physical -> Indomitable (Lvl 2)
-    Racial -> Therian Minotaur (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 1)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 4
+    Air            : 5
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1049,49 +1066,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +15 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 254 = 19d20 (10 x 19) + 36(flat) + 1 x 19(Con)
+    Vitality: 188 = 19d12 (6 x 19) + 46(flat) + 1 x 19(Con)
     Health:  93 = 19d6 (3 x 19) + 27(flat)
     Mana:   47 = 19d4 (2 x 19) + 0 x 19(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  65
-    Stat Points:   4
+    Skill Points:  63
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 4
+    Air            : 5
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1110,49 +1128,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +15 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 267 = 20d20 (10 x 20) + 37(flat) + 1 x 20(Con)
+    Vitality: 197 = 20d12 (6 x 20) + 47(flat) + 1 x 20(Con)
     Health:  98 = 20d6 (3 x 20) + 28(flat)
     Mana:   50 = 20d4 (2 x 20) + 0 x 20(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
     Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   4
+    Skill Points:  65
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 4
+    Air            : 5
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
-    Radiant        : 4
-    Water          : 4
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 5
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1171,48 +1190,49 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 29
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +15 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 281 = 21d20 (10 x 21) + 40(flat) + 1 x 21(Con)
+    Vitality: 207 = 21d12 (6 x 21) + 50(flat) + 1 x 21(Con)
     Health:  103 = 21d6 (3 x 21) + 30(flat)
     Mana:   52 = 21d4 (2 x 21) + 0 x 21(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 33 | Dmg/Turn: 66
-    Ranged Dmg/Hit: 25 | Dmg/Turn: 50
-    Total Dmg/10R: 670
+    Melee Dmg/Hit: 38 | Dmg/Turn: 76
+    Ranged Dmg/Hit: 30 | Dmg/Turn: 60
+    Total Dmg/10R: 770
 
   RESOURCES:
-    Skill Points:  71
-    Stat Points:   6
+    Skill Points:  67
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 3)
-    Physical -> Indomitable (Lvl 3)
-    Racial -> Therian Minotaur (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 5
     Earth          : 8
     Fire           : 5
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
-    Radiant        : 4
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 3
     Water          : 5
 
   GEAR:
@@ -1232,49 +1252,50 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 32
+    AC: 30
     Initiative: +3
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +17 | Ranged: +12
+    To Hit: Melee: +17 | Ranged: +13
 
   HEALTH POOLS:
-    Vitality: 348 = 26d20 (10 x 26) + 49(flat) + 1 x 26(Con)
+    Vitality: 358 = 26d20 (10 x 26) + 59(flat) + 1 x 26(Con)
     Health:  128 = 26d6 (3 x 26) + 37(flat)
     Mana:   65 = 26d4 (2 x 26) + 0 x 26(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 34 | Dmg/Turn: 102
-    Ranged Dmg/Hit: 25 | Dmg/Turn: 75
-    Total Dmg/10R: 1035
+    Melee Dmg/Hit: 38 | Dmg/Turn: 114
+    Ranged Dmg/Hit: 30 | Dmg/Turn: 90
+    Total Dmg/10R: 1155
 
   RESOURCES:
-    Skill Points:  90
-    Stat Points:   8
+    Skill Points:  86
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    32
 
   FEATS & SPELLS:
-    Feats:  8 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  8 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 4)
-    Physical -> Indomitable (Lvl 4)
-    Racial -> Therian Minotaur (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 2)
 
   AFFINITIES:
     Air            : 5
-    Earth          : 8
-    Fire           : 5
+    Earth          : 9
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 8
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 5
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 3
+    Water          : 6
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1285,9 +1306,9 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 23 (+6) = 13 + 10
+    STR: 25 (+7) = 13 + 12
     DEX: 17 (+3) = 8 + 9
-    CON: 13 (+1) = 10 + 3
+    CON: 16 (+3) = 10 + 6
     WIS: 11 (+0) = 8 + 3
     INT: 11 (+0) = 8 + 3
     CHA: 11 (+0) = 8 + 3
@@ -1296,45 +1317,46 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
     AC: 32
     Initiative: +3
     Speed: 30 ft
-    AP: 4  BAP: 4  RP: 1
+    AP: 4  BAP: 4  RP: 2
     Proficiency: +11
-    To Hit: Melee: +19 | Ranged: +14
+    To Hit: Melee: +20 | Ranged: +15
 
   HEALTH POOLS:
-    Vitality: 416 = 31d20 (10 x 31) + 60(flat) + 1 x 31(Con)
-    Health:  184 = 31d8 (4 x 31) + 45(flat)
+    Vitality: 488 = 31d20 (10 x 31) + 70(flat) + 3 x 31(Con)
+    Health:  153 = 31d6 (3 x 31) + 45(flat)
     Mana:   77 = 31d4 (2 x 31) + 0 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 35 | Dmg/Turn: 105
-    Ranged Dmg/Hit: 25 | Dmg/Turn: 75
-    Total Dmg/10R: 1065
+    Melee Dmg/Hit: 39 | Dmg/Turn: 117
+    Ranged Dmg/Hit: 30 | Dmg/Turn: 90
+    Total Dmg/10R: 1185
 
   RESOURCES:
-    Skill Points:  104
-    Stat Points:   13
+    Skill Points:  100
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    34
 
   FEATS & SPELLS:
-    Feats:  10 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  10 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 5)
-    Physical -> Indomitable (Lvl 5)
-    Racial -> Therian Minotaur (Lvl 4)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
     Air            : 6
     Earth          : 9
-    Fire           : 7
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 9
-    Psychic        : 3
-    Radiant        : 6
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
     Water          : 6
 
   GEAR:
@@ -1346,57 +1368,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 13 + 11
+    STR: 26 (+8) = 13 + 13
     DEX: 18 (+4) = 8 + 10
-    CON: 13 (+1) = 10 + 3
+    CON: 16 (+3) = 10 + 6
     WIS: 11 (+0) = 8 + 3
     INT: 11 (+0) = 8 + 3
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 34
+    AC: 35
     Initiative: +4
     Speed: 30 ft
-    AP: 5  BAP: 6  RP: 1
+    AP: 5  BAP: 6  RP: 2
     Proficiency: +14
-    To Hit: Melee: +23 | Ranged: +18
+    To Hit: Melee: +24 | Ranged: +19
 
   HEALTH POOLS:
-    Vitality: 551 = 41d20 (10 x 41) + 80(flat) + 1 x 41(Con)
-    Health:  244 = 41d8 (4 x 41) + 60(flat)
+    Vitality: 643 = 41d20 (10 x 41) + 90(flat) + 3 x 41(Con)
+    Health:  203 = 41d6 (3 x 41) + 60(flat)
     Mana:   102 = 41d4 (2 x 41) + 0 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 38 | Dmg/Turn: 152
-    Ranged Dmg/Hit: 26 | Dmg/Turn: 104
-    Total Dmg/10R: 1540
+    Melee Dmg/Hit: 40 | Dmg/Turn: 160
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 124
+    Total Dmg/10R: 1620
 
   RESOURCES:
-    Skill Points:  140
-    Stat Points:   23
+    Skill Points:  136
+    Stat Points:   2
     Affinity Pts:  0
     Stat Spent:    37
 
   FEATS & SPELLS:
-    Feats:  13 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  13 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 7)
-    Physical -> Indomitable (Lvl 6)
-    Racial -> Therian Minotaur (Lvl 6)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 12
-    Fire           : 9
+    Air            : 7
+    Earth          : 11
+    Fire           : 8
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 5
-    Radiant        : 8
-    Water          : 9
+    Necrotic       : 8
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 7
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1407,57 +1430,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 24 (+7) = 13 + 11
+    STR: 26 (+8) = 13 + 13
     DEX: 18 (+4) = 8 + 10
-    CON: 14 (+2) = 10 + 4
+    CON: 17 (+3) = 10 + 7
     WIS: 12 (+1) = 8 + 4
     INT: 12 (+1) = 8 + 4
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 36
+    AC: 35
     Initiative: +4
     Speed: 30 ft
-    AP: 6  BAP: 7  RP: 1
+    AP: 6  BAP: 7  RP: 2
     Proficiency: +17
-    To Hit: Melee: +26 | Ranged: +21
+    To Hit: Melee: +27 | Ranged: +22
 
   HEALTH POOLS:
-    Vitality: 737 = 51d20 (10 x 51) + 100(flat) + 2 x 51(Con)
-    Health:  304 = 51d8 (4 x 51) + 75(flat)
+    Vitality: 798 = 51d20 (10 x 51) + 110(flat) + 3 x 51(Con)
+    Health:  253 = 51d6 (3 x 51) + 75(flat)
     Mana:   178 = 51d4 (2 x 51) + 1 x 51(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 39 | Dmg/Turn: 156
-    Ranged Dmg/Hit: 26 | Dmg/Turn: 104
-    Total Dmg/10R: 1580
+    Melee Dmg/Hit: 40 | Dmg/Turn: 160
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 124
+    Total Dmg/10R: 1620
 
   RESOURCES:
-    Skill Points:  171
-    Stat Points:   35
+    Skill Points:  167
+    Stat Points:   5
     Affinity Pts:  0
     Stat Spent:    40
 
   FEATS & SPELLS:
-    Feats:  16 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  16 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 8)
-    Physical -> Indomitable (Lvl 8)
-    Racial -> Therian Minotaur (Lvl 8)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 15
-    Fire           : 12
+    Air            : 8
+    Earth          : 11
+    Fire           : 9
     Generic        : 1
-    Necrotic       : 14
-    Psychic        : 8
-    Radiant        : 11
-    Water          : 12
+    Necrotic       : 9
+    Psychic        : 3
+    Radiant        : 6
+    Water          : 8
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1468,57 +1492,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 25 (+7) = 13 + 12
+    STR: 27 (+8) = 13 + 14
     DEX: 19 (+4) = 8 + 11
-    CON: 14 (+2) = 10 + 4
+    CON: 17 (+3) = 10 + 7
     WIS: 12 (+1) = 8 + 4
     INT: 12 (+1) = 8 + 4
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 38
+    AC: 35
     Initiative: +4
     Speed: 30 ft
-    AP: 7  BAP: 8  RP: 1
+    AP: 7  BAP: 8  RP: 2
     Proficiency: +21
-    To Hit: Melee: +30 | Ranged: +25
+    To Hit: Melee: +31 | Ranged: +26
 
   HEALTH POOLS:
-    Vitality: 882 = 61d20 (10 x 61) + 120(flat) + 2 x 61(Con)
-    Health:  364 = 61d8 (4 x 61) + 90(flat)
+    Vitality: 953 = 61d20 (10 x 61) + 130(flat) + 3 x 61(Con)
+    Health:  303 = 61d6 (3 x 61) + 90(flat)
     Mana:   213 = 61d4 (2 x 61) + 1 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 41 | Dmg/Turn: 205
-    Ranged Dmg/Hit: 26 | Dmg/Turn: 130
-    Total Dmg/10R: 2075
+    Melee Dmg/Hit: 40 | Dmg/Turn: 200
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 155
+    Total Dmg/10R: 2025
 
   RESOURCES:
-    Skill Points:  204
-    Stat Points:   44
+    Skill Points:  200
+    Stat Points:   9
     Affinity Pts:  0
     Stat Spent:    44
 
   FEATS & SPELLS:
-    Feats:  20 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  20 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 10)
-    Physical -> Indomitable (Lvl 10)
-    Racial -> Therian Minotaur (Lvl 9)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 17
-    Fire           : 14
+    Air            : 9
+    Earth          : 13
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 17
-    Psychic        : 11
-    Radiant        : 14
-    Water          : 14
+    Necrotic       : 10
+    Psychic        : 4
+    Radiant        : 7
+    Water          : 9
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1529,57 +1554,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 25 (+7) = 13 + 12
+    STR: 27 (+8) = 13 + 14
     DEX: 19 (+4) = 8 + 11
-    CON: 15 (+2) = 10 + 5
+    CON: 18 (+4) = 10 + 8
     WIS: 13 (+1) = 8 + 5
     INT: 13 (+1) = 8 + 5
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 39
+    AC: 35
     Initiative: +4
     Speed: 30 ft
-    AP: 8  BAP: 9  RP: 1
+    AP: 8  BAP: 9  RP: 2
     Proficiency: +24
-    To Hit: Melee: +33 | Ranged: +28
+    To Hit: Melee: +34 | Ranged: +29
 
   HEALTH POOLS:
-    Vitality: 1057 = 71d20 (10 x 71) + 170(flat) + 2 x 71(Con)
-    Health:  439 = 71d8 (4 x 71) + 120(flat)
+    Vitality: 1179 = 71d20 (10 x 71) + 150(flat) + 4 x 71(Con)
+    Health:  353 = 71d6 (3 x 71) + 105(flat)
     Mana:   248 = 71d4 (2 x 71) + 1 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 44 | Dmg/Turn: 220
-    Ranged Dmg/Hit: 26 | Dmg/Turn: 130
-    Total Dmg/10R: 2225
+    Melee Dmg/Hit: 40 | Dmg/Turn: 200
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 155
+    Total Dmg/10R: 2025
 
   RESOURCES:
-    Skill Points:  235
-    Stat Points:   52
+    Skill Points:  231
+    Stat Points:   12
     Affinity Pts:  0
     Stat Spent:    47
 
   FEATS & SPELLS:
-    Feats:  23 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  23 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 13)
-    Physical -> Indomitable (Lvl 11)
-    Racial -> Therian Minotaur (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 20
-    Fire           : 17
+    Air            : 10
+    Earth          : 13
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 19
-    Psychic        : 13
-    Radiant        : 16
-    Water          : 16
+    Necrotic       : 11
+    Psychic        : 5
+    Radiant        : 8
+    Water          : 10
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1590,57 +1616,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 26 (+8) = 13 + 13
+    STR: 28 (+9) = 13 + 15
     DEX: 19 (+4) = 8 + 11
-    CON: 15 (+2) = 10 + 5
+    CON: 18 (+4) = 10 + 8
     WIS: 13 (+1) = 8 + 5
     INT: 13 (+1) = 8 + 5
     CHA: 13 (+1) = 8 + 5
 
   COMBAT:
-    AC: 39
+    AC: 35
     Initiative: +4
     Speed: 30 ft
-    AP: 9  BAP: 11  RP: 1
+    AP: 9  BAP: 11  RP: 2
     Proficiency: +27
-    To Hit: Melee: +37 | Ranged: +31
+    To Hit: Melee: +38 | Ranged: +32
 
   HEALTH POOLS:
-    Vitality: 1252 = 81d20 (10 x 81) + 240(flat) + 2 x 81(Con)
-    Health:  524 = 81d8 (4 x 81) + 160(flat)
+    Vitality: 1344 = 81d20 (10 x 81) + 170(flat) + 4 x 81(Con)
+    Health:  403 = 81d6 (3 x 81) + 120(flat)
     Mana:   283 = 81d4 (2 x 81) + 1 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 45 | Dmg/Turn: 270
-    Ranged Dmg/Hit: 26 | Dmg/Turn: 156
-    Total Dmg/10R: 2730
+    Melee Dmg/Hit: 41 | Dmg/Turn: 246
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 186
+    Total Dmg/10R: 2490
 
   RESOURCES:
-    Skill Points:  271
-    Stat Points:   55
+    Skill Points:  267
+    Stat Points:   15
     Affinity Pts:  0
     Stat Spent:    50
 
   FEATS & SPELLS:
-    Feats:  26 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  26 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 13)
-    Physical -> Indomitable (Lvl 16)
-    Racial -> Therian Minotaur (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 20
-    Fire           : 18
+    Air            : 11
+    Earth          : 14
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 20
-    Psychic        : 14
-    Radiant        : 17
-    Water          : 17
+    Necrotic       : 12
+    Psychic        : 6
+    Radiant        : 9
+    Water          : 11
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1651,57 +1678,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 26 (+8) = 13 + 13
+    STR: 28 (+9) = 13 + 15
     DEX: 20 (+5) = 8 + 12
-    CON: 16 (+3) = 10 + 6
+    CON: 19 (+4) = 10 + 9
     WIS: 14 (+2) = 8 + 6
     INT: 14 (+2) = 8 + 6
     CHA: 13 (+1) = 8 + 5
 
   COMBAT:
-    AC: 39
+    AC: 35
     Initiative: +5
     Speed: 30 ft
-    AP: 10  BAP: 12  RP: 1
+    AP: 10  BAP: 12  RP: 2
     Proficiency: +31
-    To Hit: Melee: +43 | Ranged: +36
+    To Hit: Melee: +42 | Ranged: +37
 
   HEALTH POOLS:
-    Vitality: 1518 = 91d20 (10 x 91) + 290(flat) + 3 x 91(Con)
-    Health:  599 = 91d8 (4 x 91) + 190(flat)
+    Vitality: 1509 = 91d20 (10 x 91) + 190(flat) + 4 x 91(Con)
+    Health:  453 = 91d6 (3 x 91) + 135(flat)
     Mana:   409 = 91d4 (2 x 91) + 2 x 91(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 45 | Dmg/Turn: 315
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 189
-    Total Dmg/10R: 3185
+    Melee Dmg/Hit: 41 | Dmg/Turn: 287
+    Ranged Dmg/Hit: 32 | Dmg/Turn: 224
+    Total Dmg/10R: 2905
 
   RESOURCES:
-    Skill Points:  304
-    Stat Points:   59
+    Skill Points:  300
+    Stat Points:   19
     Affinity Pts:  0
     Stat Spent:    54
 
   FEATS & SPELLS:
-    Feats:  30 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  30 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 15)
-    Physical -> Indomitable (Lvl 19)
-    Racial -> Therian Minotaur (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 22
-    Fire           : 19
+    Air            : 12
+    Earth          : 15
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 21
-    Psychic        : 15
-    Radiant        : 18
-    Water          : 18
+    Necrotic       : 13
+    Psychic        : 7
+    Radiant        : 10
+    Water          : 12
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1712,57 +1740,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 27 (+8) = 13 + 14
+    STR: 29 (+9) = 13 + 16
     DEX: 20 (+5) = 8 + 12
-    CON: 16 (+3) = 10 + 6
+    CON: 19 (+4) = 10 + 9
     WIS: 14 (+2) = 8 + 6
     INT: 14 (+2) = 8 + 6
     CHA: 14 (+2) = 8 + 6
 
   COMBAT:
-    AC: 39
+    AC: 35
     Initiative: +5
     Speed: 30 ft
-    AP: 11  BAP: 13  RP: 1
+    AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Melee: +48 | Ranged: +39
+    To Hit: Melee: +45 | Ranged: +40
 
   HEALTH POOLS:
-    Vitality: 1703 = 101d20 (10 x 101) + 340(flat) + 3 x 101(Con)
-    Health:  674 = 101d8 (4 x 101) + 220(flat)
+    Vitality: 1674 = 101d20 (10 x 101) + 210(flat) + 4 x 101(Con)
+    Health:  503 = 101d6 (3 x 101) + 150(flat)
     Mana:   454 = 101d4 (2 x 101) + 2 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 45 | Dmg/Turn: 315
-    Ranged Dmg/Hit: 27 | Dmg/Turn: 189
-    Total Dmg/10R: 3185
+    Melee Dmg/Hit: 41 | Dmg/Turn: 287
+    Ranged Dmg/Hit: 32 | Dmg/Turn: 224
+    Total Dmg/10R: 2905
 
   RESOURCES:
-    Skill Points:  335
-    Stat Points:   62
+    Skill Points:  331
+    Stat Points:   22
     Affinity Pts:  0
     Stat Spent:    57
 
   FEATS & SPELLS:
-    Feats:  33 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  33 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 17)
-    Physical -> Indomitable (Lvl 22)
-    Racial -> Therian Minotaur (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
+    Air            : 13
+    Earth          : 16
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 22
-    Psychic        : 16
-    Radiant        : 19
-    Water          : 19
+    Necrotic       : 14
+    Psychic        : 8
+    Radiant        : 11
+    Water          : 13
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)
@@ -1773,57 +1802,58 @@ EYUM TTRPG - FULL MELEE FIGHTER (DRAGON BONE/SCALE GEAR)
 ============================================================
 
   STATS:
-    STR: 48 (+19) = 13 + 35
+    STR: 49 (+19) = 13 + 36
     DEX: 42 (+16) = 8 + 34
-    CON: 38 (+14) = 10 + 28
+    CON: 39 (+14) = 10 + 29
     WIS: 36 (+13) = 8 + 28
     INT: 35 (+12) = 8 + 27
     CHA: 35 (+12) = 8 + 27
 
   COMBAT:
-    AC: 40
+    AC: 36
     Initiative: +16
     Speed: 30 ft
-    AP: 101  BAP: 126  RP: 1
+    AP: 101  BAP: 126  RP: 2
     Proficiency: +334
-    To Hit: Melee: +365 | Ranged: +350
+    To Hit: Melee: +355 | Ranged: +351
 
   HEALTH POOLS:
-    Vitality: 27544 = 1001d20 (10 x 1001) + 3020(flat) + 14 x 1001(Con)
-    Health:  6514 = 1001d8 (4 x 1001) + 2010(flat)
+    Vitality: 26534 = 1001d20 (10 x 1001) + 2010(flat) + 14 x 1001(Con)
+    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
     Mana:   15515 = 1001d4 (2 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
     Attacks/Turn: 64
-    Melee Dmg/Hit: 56 | Dmg/Turn: 3584
-    Ranged Dmg/Hit: 38 | Dmg/Turn: 2432
-    Total Dmg/10R: 36160
+    Melee Dmg/Hit: 51 | Dmg/Turn: 3264
+    Ranged Dmg/Hit: 43 | Dmg/Turn: 2752
+    Total Dmg/10R: 32960
 
   RESOURCES:
-    Skill Points:  3300
-    Stat Points:   361
+    Skill Points:  3296
+    Stat Points:   321
     Affinity Pts:  0
     Stat Spent:    357
 
   FEATS & SPELLS:
-    Feats:  333 (taken: Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  333 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Duelist (Lvl 23)
-    Physical -> Indomitable (Lvl 110)
-    Racial -> Therian Minotaur (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
 
   AFFINITIES:
-    Air            : 105
-    Earth          : 108
-    Fire           : 105
+    Air            : 99
+    Earth          : 102
+    Fire           : 99
     Generic        : 1
-    Necrotic       : 108
-    Psychic        : 101
-    Radiant        : 105
-    Water          : 105
+    Necrotic       : 99
+    Psychic        : 93
+    Radiant        : 97
+    Water          : 99
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)

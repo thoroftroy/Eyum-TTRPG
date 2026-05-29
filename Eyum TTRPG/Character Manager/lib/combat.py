@@ -40,21 +40,35 @@ def calculate_damage(char, settings):
         accuracy_bonus += char.dual_wield_accuracy
     hit_chance = min(1.0, hit_chance_base + accuracy_bonus * 0.05)
     hit_chance_adv = 1 - (1 - hit_chance) ** 2
+    if char.point_blank:
+        hit_chance = hit_chance_adv
     result['hit_chance'] = hit_chance
     result['hit_chance_advantage'] = hit_chance_adv
 
     atk_per_round = attacks_per_round(char)
 
+    crit_bonus_avg = 0
+    if char.crit_bonus_die:
+        crit_bonus_avg = die_avg.get(char.crit_bonus_die, 0) * 0.05
+
+    cleave_bonus_avg = char.cleave_damage * 0.75 if char.cleave_damage else 0
+
+    charge_bonus_avg = 0
+    if char.charge_die:
+        charge_bonus_avg = die_avg.get(char.charge_die, 0)
+
+    per_hit_feat_bonus = crit_bonus_avg + cleave_bonus_avg + (charge_bonus_avg / max(atk_per_round, 1))
+
     if char.has_physical:
         melee_total_die = base_weapon + damage_bonus + extra_damage + char.melee_damage
-        melee_per_hit = melee_total_die + char.mod('str')
+        melee_per_hit = melee_total_die + char.mod('str') + per_hit_feat_bonus
         melee_per_hit_raw = melee_per_hit * hit_chance
         result['melee_per_hit'] = int(melee_per_hit_raw)
         result['melee_per_hit_raw'] = melee_per_hit_raw
         result['melee'] = result['melee_per_hit'] * atk_per_round
 
         ranged_total_die = base_weapon + damage_bonus + extra_damage + char.ranged_damage
-        ranged_per_hit = ranged_total_die + char.mod('dex')
+        ranged_per_hit = ranged_total_die + char.mod('dex') + per_hit_feat_bonus
         ranged_per_hit_raw = ranged_per_hit * hit_chance
         result['ranged_per_hit'] = int(ranged_per_hit_raw)
         result['ranged_per_hit_raw'] = ranged_per_hit_raw

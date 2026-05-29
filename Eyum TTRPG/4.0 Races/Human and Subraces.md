@@ -119,11 +119,11 @@ Fireborn have a strong, grounded humanoid build with thick legs and a reinforced
 Skin tones range from light red and copper to dark gray with warm undertones. The skin radiates noticeable heat and feels dry even in humid conditions. Hair is uniformly black, coarse, and thick. Eyes are also black, with little contrast between iris and pupil, giving a deep, reflective look. Teeth are slightly sharper than human average but not true fangs. The body often appears warm, tense, and active even at rest.
 ###### Racial Abilities
 - **Tier 1:** **Heatborn.** Gain Greater Resistance to Fire damage and become immune to the On Fire and Burned conditions.
-- **Tier 2:** **Flame Affinity.** Gain +5 Fire Affinity.
+- **Tier 2:** **Flame Affinity.** Gain +5 Fire Affinity and +2 Magma Affinity.
 - **Tier 3:** **Cinder Bolt.** Once per turn as an Action, ranged spell attack (90 ft): 2d10 Fire Affinity/Damage.
 - **Tier 4:** **Burning Body.** When a creature hits you with a melee attack, it takes 1d4 Fire damage and gains the burned condition.
 - **Tier 5:** **Ignition.** When you deal Fire damage, target must pass a CON save (DC 10 + Fire Affinity) or gain On Fire for 3 turns.
-- **Tier 6:** **Firecasting.** Your Fire Affinity attack spells deal +1d6 Fire damage.
+- **Tier 6:** **Firecasting.** Your Fire Affinity attack spells deal +1d6 Fire damage, you also gain +3 Magma Affinity.
 - **Tier 7:** **Flare Step.** Once per combat as a Bonus Action, teleport 15 ft and deal 1d10 Fire to one creature adjacent to your destination (fire spell attack roll).
 - **Tier 8:** **Blazing Will.** You may add your Fire Affinity to Wisdom Saves and gain +10 Vitality. 
 - **Tier 9:** **Inferno Surge.** Once per turn as a Bonus Action, your next fire spell deals max damage; you take 1d10 True damage.

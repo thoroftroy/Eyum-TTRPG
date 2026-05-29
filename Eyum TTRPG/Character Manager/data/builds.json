@@ -2,789 +2,193 @@
   "Jack of all Trades": {
     "description": "Hybrid build with both physical and magical capabilities",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "wis",
-      "dex",
-      "con",
-      "int",
-      "cha"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["str", "wis", "dex", "con", "int", "cha"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Duelist",
-        "level": 3,
-        "repeatables": {
-          "2.5": 10,
-          "3.75": 10
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Jack",
-        "level": 3,
-        "repeatables": {}
-      },
-      {
-        "path": "Utility",
-        "archetype": "Scholar",
-        "level": 2,
-        "repeatables": {
-          "3.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Physical", "Magical", "Utility"],
     "has_physical": true,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "light"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_greatsword", "armor": "light"},
     "generate": true
   },
   "Archer": {
-    "base_stats": {
-      "str": 6,
-      "dex": 11,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "dex",
-      "con",
-      "str"
-    ],
-    "starting_affinities": {
-      "Generic": 1
-    },
+    "description": "Ranged physical damage dealer",
+    "race": "auto",
+    "base_stats": {"str": 6, "dex": 11, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["dex", "con", "str"],
+    "spend_stat_points": "all",
+    "preferred_paths": ["Physical", "Utility"],
     "has_physical": true,
     "has_magical": false,
-    "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Marksman",
-        "level": 4,
-        "repeatables": {
-          "1.5": 10,
-          "2.5": 10,
-          "3.5": 10,
-          "3.75": 10,
-          "4.5": 10
-        }
-      },
-      {
-        "path": "Utility",
-        "archetype": "Scoundrel",
-        "level": 3,
-        "repeatables": {
-          "3.5": 10
-        }
-      }
-    ],
-    "gear": {
-      "weapon": "iron_longbow",
-      "armor": "light"
-    }
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_longbow", "armor": "light"}
   },
   "Archer/Melee Fighter": {
-    "base_stats": {
-      "str": 13,
-      "dex": 8,
-      "con": 10,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "dex",
-      "con",
-      "str"
-    ],
-    "starting_affinities": {
-      "Generic": 1
-    },
+    "description": "Hybrid ranged and melee physical fighter",
+    "race": "auto",
+    "base_stats": {"str": 13, "dex": 8, "con": 10, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["dex", "con", "str"],
+    "spend_stat_points": "all",
+    "preferred_paths": ["Physical"],
     "has_physical": true,
     "has_magical": false,
-    "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Marksman",
-        "level": 4,
-        "repeatables": {
-          "1.5": 10,
-          "2.5": 10,
-          "3.5": 10,
-          "3.75": 10,
-          "4.5": 10
-        }
-      },
-      {
-        "path": "Physical",
-        "archetype": "Duelist",
-        "level": 4,
-        "repeatables": {
-          "2.5": 10,
-          "3.75": 10
-        }
-      }
-    ],
-    "gear": {
-      "weapon": "iron_longbow",
-      "armor": "medium"
-    }
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_longbow", "armor": "medium"}
   },
   "Full Melee Fighter": {
     "description": "Pure melee DPS fighter",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "dex",
-      "con",
-      "wis",
-      "int",
-      "cha"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["str", "dex", "con", "wis", "int", "cha"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Duelist",
-        "level": 4,
-        "repeatables": {
-          "2.5": 10,
-          "3.75": 10
-        }
-      },
-      {
-        "path": "Physical",
-        "archetype": "Indomitable",
-        "level": 5,
-        "repeatables": {
-          "4.5": 5,
-          "4.75": 100
-        }
-      }
-    ],
+    "preferred_paths": ["Physical"],
     "has_physical": true,
     "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_greatsword", "armor": "medium"},
     "generate": true
   },
   "Tanker Archer": {
-    "base_stats": {
-      "str": 9,
-      "dex": 7,
-      "con": 13,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "con",
-      "dex",
-      "str"
-    ],
-    "starting_affinities": {
-      "Generic": 1
-    },
+    "description": "Tanky ranged fighter",
+    "race": "auto",
+    "base_stats": {"str": 9, "dex": 7, "con": 13, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["con", "dex", "str"],
+    "spend_stat_points": "all",
+    "preferred_paths": ["Physical"],
     "has_physical": true,
     "has_magical": false,
-    "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Indomitable",
-        "level": 4,
-        "repeatables": {
-          "4.5": 5,
-          "4.75": 100
-        }
-      },
-      {
-        "path": "Physical",
-        "archetype": "Marksman",
-        "level": 4,
-        "repeatables": {
-          "1.5": 10,
-          "2.5": 10,
-          "3.5": 10,
-          "3.75": 10,
-          "4.5": 10
-        }
-      }
-    ],
-    "gear": {
-      "weapon": "iron_longbow",
-      "armor": "heavy"
-    }
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_longbow", "armor": "heavy"}
   },
   "Tanker": {
     "description": "Tanky melee fighter with high survivability",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "con",
-      "str",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["con", "str", "dex", "wis", "int", "cha"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Indomitable",
-        "level": 5,
-        "repeatables": {
-          "4.5": 5,
-          "4.75": 100
-        }
-      },
-      {
-        "path": "Physical",
-        "archetype": "Duelist",
-        "level": 4,
-        "repeatables": {
-          "2.5": 10,
-          "3.75": 10
-        }
-      }
-    ],
+    "preferred_paths": ["Physical"],
     "has_physical": true,
     "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_halberd",
-      "armor": "heavy"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_longsword", "armor": "heavy", "shield": "shield_heater"},
     "generate": true
   },
   "Physical Fighter": {
-    "description": "Physical-focused jack of all trades without magic",
+    "description": "Physical-focused versatile fighter",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "con",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["str", "con", "dex", "wis", "int", "cha"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Duelist",
-        "level": 3,
-        "repeatables": {
-          "2.5": 10,
-          "3.75": 10
-        }
-      },
-      {
-        "path": "Physical",
-        "archetype": "Indomitable",
-        "level": 3,
-        "repeatables": {
-          "4.5": 5,
-          "4.75": 100
-        }
-      },
-      {
-        "path": "Utility",
-        "archetype": "Scholar",
-        "level": 2,
-        "repeatables": {
-          "3.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Physical", "Utility"],
     "has_physical": true,
     "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "iron_greatsword", "armor": "medium"},
     "generate": true
   },
   "Fire Mage": {
     "description": "Fire affinity mage",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["wis", "int", "con", "dex", "cha", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 4,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Pyromancer",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "wand", "armor": "none"},
     "generate": true
   },
   "Water Mage": {
     "description": "Water affinity mage",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["wis", "int", "con", "dex", "cha", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 4,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Tidemaster",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "wand", "armor": "none"},
     "generate": true
   },
   "Earth Mage": {
     "description": "Earth affinity mage",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "con",
-      "int",
-      "dex",
-      "cha",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["wis", "con", "int", "dex", "cha", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 4,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Geomancer",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "wand", "armor": "none"},
     "generate": true
   },
   "Air Mage": {
     "description": "Air affinity mage",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "dex",
-      "int",
-      "con",
-      "cha",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["wis", "dex", "int", "con", "cha", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 4,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Windwalker",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "wand", "armor": "none"},
     "generate": true
   },
   "Necrotic Mage": {
     "description": "Necrotic affinity mage",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "int",
-      "wis",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["int", "wis", "con", "dex", "cha", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 4,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Necromancer",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "wand", "armor": "none"},
     "generate": true
   },
   "Radiant Mage": {
     "description": "Radiant affinity mage",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "cha",
-      "int",
-      "con",
-      "dex",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["wis", "cha", "int", "con", "dex", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 4,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Priest",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "light"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "wand", "armor": "light"},
     "generate": true
   },
   "Mage Jack of all Trades": {
     "description": "All magics without any affinity preference",
     "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["wis", "int", "con", "dex", "cha", "str"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Magical",
-        "archetype": "Magician",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20,
-          "2.5": 20,
-          "3.5": 20,
-          "4.75": 20
-        }
-      },
-      {
-        "path": "Magical",
-        "archetype": "Jack",
-        "level": 3,
-        "repeatables": {
-          "1.5": 20
-        }
-      }
-    ],
+    "preferred_paths": ["Magical"],
     "has_physical": false,
     "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "quarterstaff",
-      "armor": "none"
-    },
+    "starting_affinities": {"Generic": 1},
+    "gear": {"weapon": "quarterstaff", "armor": "none"},
     "generate": true
   },
   "Martial Fighter": {
     "description": "Unarmed melee fighter using Tull racial path",
     "race": "Tull",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "con",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
+    "base_stats": {"str": 8, "dex": 8, "con": 8, "wis": 8, "int": 8, "cha": 8},
+    "stat_priority": ["str", "con", "dex", "wis", "int", "cha"],
     "spend_stat_points": "all",
-    "paths": [
-      {
-        "path": "Physical",
-        "archetype": "Duelist",
-        "level": 4,
-        "repeatables": {
-          "2.5": 10,
-          "3.75": 10
-        }
-      },
-      {
-        "path": "Physical",
-        "archetype": "Indomitable",
-        "level": 5,
-        "repeatables": {
-          "4.5": 5,
-          "4.75": 100
-        }
-      },
-      {
-        "path": "Racial",
-        "archetype": "Tull Bloodline",
-        "level": 10,
-        "repeatables": {}
-      }
-    ],
+    "preferred_paths": ["Physical"],
     "has_physical": true,
     "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1,
-      "Necrotic": 3,
-      "Fire": 0,
-      "Earth": 0,
-      "Water": 0,
-      "Air": 0,
-      "Radiant": -3,
-      "Psychic": -3
-    },
-    "gear": {
-      "weapon": "none",
-      "armor": "heavy"
-    },
+    "starting_affinities": {"Generic": 1, "Necrotic": 3, "Fire": 0, "Earth": 0, "Water": 0, "Air": 0, "Radiant": -3, "Psychic": -3},
+    "gear": {"weapon": "none", "armor": "heavy"},
     "generate": true,
     "unarmed_fighter": true
   }

@@ -1,3 +1,10 @@
+import math
+
+
+def affinity_mod(affinity):
+    return int(math.ceil((affinity - 2) / 2.0))
+
+
 class Character:
     def __init__(self, name, stats, settings):
         self.name = name
@@ -110,10 +117,48 @@ class Character:
         self.twin_cast = False
         self.is_unarmed = False
         self.tull_tier = 0
+        self.shield_master = False
         self.melee_extra_info = None
         self.pack_tactics = False
         self.speed = 30
+        self.initiative = 0
+        self.bonus_action_sprint = False
+        self.melee_kill_bonus = False
+        self.ranged_ignore_half_cover = False
         self.stat_points_banked = {}
+        self.skill_points_per_level = 0
+        self.proficiency_per_level = 0
+        self.expertise_per_level = 0
+        self.affinity_per_level = 0
+        self.magic_blast = False
+        self.magic_accuracy_non_water = 0
+        self.magic_accuracy_non_air = 0
+        self.magic_accuracy_non_fire = 0
+        self.magic_accuracy_non_earth = 0
+        self.magic_accuracy_non_necrotic = 0
+        self.magic_accuracy_non_radiant = 0
+        self.hallowed_affinity = 0
+        self.eldritch_affinity = 0
+        self.eldritch_blast_damage = 1
+        self.eldritch_blast_range = 0
+        self.true_sight_range = 0
+        self.fly_speed = 0
+        self.karma = 0
+        self.initiative_advantage = False
+        self.darkvision_range = 0
+        self.immunity_threatened = False
+        self.immunity_surprised = False
+        self.pact_access_tier = 1
+        self.anti_deity_damage = False
+        self.healing_maximize = False
+        self.cleansing = 0
+        self.concentration_two_spells = False
+        self.free_heal = False
+        self.reaction_save_ally = False
+        self.damage_reduction = 0
+        self.crit_block = False
+        self.second_chance = False
+        self.skill_tree_level_bonus = False
 
     def mod(self, stat):
         val = getattr(self, stat)
@@ -160,7 +205,16 @@ class Character:
         else:
             dex_bonus = effective
 
-        return base + armor_bonus + dex_bonus + self.ac_bonus
+        shield_bonus = 0
+        shield_name = self.gear.get('shield')
+        if shield_name:
+            shield_info = armor_types.get(shield_name)
+            if shield_info:
+                shield_bonus = shield_info['ac_bonus']
+                if self.shield_master:
+                    shield_bonus *= 2
+
+        return base + armor_bonus + dex_bonus + self.ac_bonus + shield_bonus
 
     def to_hit_melee(self):
         acc = self.prof + self.melee_accuracy + self.weapon_group_accuracy + self.steady_aim_accuracy
@@ -173,5 +227,9 @@ class Character:
         return acc + self.mod('dex')
 
     def to_hit_magic(self):
-        acc = self.prof + self.magic_accuracy
-        return acc + self.mod('wis')
+        generic = self.affinities.get('Generic', 0)
+        best_specific = 0
+        for k, v in self.affinities.items():
+            if k != 'Generic' and v > best_specific:
+                best_specific = v
+        return generic + affinity_mod(best_specific) + self.magic_accuracy

@@ -10,6 +10,7 @@ def resolve_gear(build_config, tier_config):
 
     weapon = gear.get('weapon', '')
     armor = gear.get('armor', '')
+    shield = gear.get('shield', '')
 
     if tier_name == 'nerite_gear':
         weapon_map = {
@@ -30,6 +31,11 @@ def resolve_gear(build_config, tier_config):
             'medium': 'nerite_medium',
             'heavy': 'nerite_heavy',
         }
+        shield_map = {
+            'shield_medium': 'nerite_shield_medium',
+            'shield_large': 'nerite_shield_large',
+            'shield_heater': 'nerite_shield_heater',
+        }
     elif tier_name == 'dragon_gear':
         weapon_map = {
             'iron_longsword': 'dragonbone_longsword',
@@ -49,10 +55,18 @@ def resolve_gear(build_config, tier_config):
             'medium': 'dragon_medium',
             'heavy': 'dragon_heavy',
         }
+        shield_map = {
+            'shield_medium': 'dragon_shield_medium',
+            'shield_large': 'dragon_shield_large',
+            'shield_heater': 'dragon_shield_heater',
+        }
     else:
         return gear
 
-    return {
+    result = {
         'weapon': weapon_map.get(weapon, weapon),
         'armor': armor_map.get(armor, armor),
     }
+    if shield:
+        result['shield'] = shield_map.get(shield, shield)
+    return result

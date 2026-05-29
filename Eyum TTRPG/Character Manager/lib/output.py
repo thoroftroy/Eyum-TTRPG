@@ -51,7 +51,7 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=Non
     armor_type = char.gear.get('armor', 'none')
     lines.append("  COMBAT:")
     lines.append("    AC: " + str(char.ac(armor_type, settings.get('armor_types', {}), r['ac']['dex_bonus_table'])))
-    lines.append("    Initiative: " + format_mod(char.mod('dex')))
+    lines.append("    Initiative: " + format_mod(char.mod('dex') + char.initiative))
     lines.append("    Speed: " + str(char.speed) + " ft")
     lines.append("    AP: " + str(char.ap) + "  BAP: " + str(char.bap) + "  RP: " + str(char.rp))
     lines.append("    Proficiency: +" + str(char.prof))
@@ -144,6 +144,15 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_10round, tier_label=Non
         armor_str = char.gear.get('armor', 'none') + " (" + armor_info.get('label', '') + ")" if char.gear.get('armor') else 'none'
         lines.append("    Weapon: " + weapon_str)
         lines.append("    Armor: " + armor_str)
+        shield_name = char.gear.get('shield', '')
+        if shield_name:
+            shield_info = armor_types.get(shield_name, {})
+            shield_label = shield_info.get('label', shield_name)
+            shield_ac = shield_info.get('ac_bonus', 0)
+            shield_line = "    Shield: " + shield_label + " (+" + str(shield_ac) + " AC)"
+            if char.shield_master:
+                shield_line += " [Shield Master: +" + str(shield_ac * 2) + " AC]"
+            lines.append(shield_line)
         lines.append("")
 
     return "\n".join(lines)

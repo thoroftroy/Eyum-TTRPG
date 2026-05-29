@@ -101,8 +101,7 @@
   "Magical": {
     "initial": {
       "magic_blast": true,
-      "generic_affinity": 1,
-      "spell": 1
+      "generic_affinity": 1
     },
     "archetypes": {
       "Magician": {
@@ -276,7 +275,7 @@
           "affinity": {
             "Radiant": 1,
             "Necrotic": 1,
-            "Psychic": 2
+            "Psychic": 1
           }
         },
         "2.5": {
@@ -289,6 +288,53 @@
         "3": {
           "affinity_points": 3,
           "affinity_per_level": 1
+        }
+      },
+      "Healer": {
+        "1": {
+          "healing_spells": true
+        },
+        "2": {
+          "skill_points": 3,
+          "proficiency_medicine": true
+        },
+        "2.5": {
+          "skill_points": 3,
+          "repeatable": true
+        },
+        "3": {
+          "hallowed_affinity": 1
+        },
+        "3.5": {
+          "hallowed_affinity": 2,
+          "karma": 10,
+          "repeatable": true
+        },
+        "4": {
+          "healing_maximize": true,
+          "hallowed_affinity": 1
+        },
+        "5": {
+          "karma": 10
+        },
+        "6": {
+          "cleansing": 6,
+          "hallowed_affinity": 1
+        },
+        "7": {
+          "karma": 10
+        },
+        "8": {
+          "concentration_two_spells": true,
+          "hallowed_affinity": 1
+        },
+        "9": {
+          "free_heal": true,
+          "karma": 10
+        },
+        "10": {
+          "reaction_save_ally": true,
+          "hallowed_affinity": 1
         }
       }
     }
@@ -335,6 +381,305 @@
         "3.5": {
           "initiative": 1,
           "repeatable": true
+        },
+        "4": {
+          "first_round_advantage": true
+        }
+      },
+      "Rune Master": {
+        "1": {
+          "rune_access": true
+        },
+        "2": {
+          "rune_cost_reduction": -10
+        },
+        "2.5": {
+          "rune_dc_bonus": 5
+        },
+        "2.75": {
+          "rune_dc_bonus": 2,
+          "repeatable": true
+        },
+        "3": {
+          "rune_dc_bonus": 2
+        },
+        "3.5": {
+          "rune_dc_bonus": 1,
+          "repeatable": true
+        },
+        "4": {
+          "rune_circle_reduction": true
+        },
+        "5": {
+          "rune_crafting": true
+        },
+        "6": {
+          "rune_shatter_protect": true
+        }
+      },
+      "Slime Rancher": {
+        "1": {},
+        "1.5": {
+          "affinity": {
+            "Gel": 1
+          },
+          "repeatable": true
+        },
+        "2": {},
+        "3": {},
+        "3.5": {},
+        "4": {},
+        "5": {}
+      },
+      "Golem Tamer": {
+        "1": {},
+        "2": {},
+        "2.5": {},
+        "3": {},
+        "3.5": {},
+        "4": {},
+        "5": {},
+        "6": {}
+      },
+      "Dragonslayer": {
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "5.1": {},
+        "5.2": {},
+        "5.3": {},
+        "5.4": {},
+        "5.5": {},
+        "5.6": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+      },
+      "Monster Hunter": {
+        "1": {
+          "monster_damage": 1,
+          "repeatable": true
+        },
+        "2": {
+          "monster_attack_penalty": 1,
+          "repeatable": true
+        }
+      },
+      "Human Hunter": {
+        "1": {
+          "melee_damage": 1,
+          "repeatable": true
+        },
+        "2": {
+          "humanoid_attack_penalty": 1
+        }
+      }
+    }
+  },
+  "Pact": {
+    "initial": {
+      "pact_access_tier": 1
+    },
+    "archetypes": {
+      "Pact Taker": {
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {
+          "repeatable": true
+        }
+      },
+      "Beacon": {
+        "1": {
+          "pact_access_tier": 2
+        },
+        "2": {
+          "pact_access_tier": 3
+        },
+        "3": {
+          "pact_access_tier": 4
+        },
+        "4": {
+          "pact_access_tier": 5
+        }
+      },
+      "Occultist": {
+        "1": {
+          "pact_access_tier": 2
+        },
+        "2": {
+          "pact_access_tier": 3
+        },
+        "3": {
+          "pact_access_tier": 4
+        },
+        "4": {
+          "pact_access_tier": 5
+        }
+      },
+      "Reaper": {
+        "1": {
+          "pact_access_tier": 2
+        },
+        "2": {
+          "pact_access_tier": 3
+        },
+        "3": {
+          "pact_access_tier": 4
+        },
+        "4": {
+          "pact_access_tier": 5
+        }
+      },
+      "Eldritch Horror": {
+        "1": {
+          "eldritch_blast_damage": 1,
+          "karma": -20,
+          "spell": 1
+        },
+        "1.5": {
+          "eldritch_affinity": 2,
+          "karma": -1,
+          "repeatable": true
+        },
+        "2": {
+          "eldritch_blast_damage": 3,
+          "karma": -1
+        },
+        "2.5": {
+          "true_sight_range": 20,
+          "speed": 5,
+          "karma": -1
+        },
+        "3": {
+          "eldritch_blast_range": 60,
+          "karma": -1
+        },
+        "3.5": {
+          "eldritch_affinity_upgradable": true,
+          "karma": -1
+        },
+        "4": {
+          "karma": -3,
+          "spell": 1
+        },
+        "5": {
+          "karma": -10,
+          "spell": 1
+        },
+        "5.1": {
+          "fly_speed": 20,
+          "karma": -5
+        },
+        "5.2": {
+          "fly_speed": 20,
+          "karma": -5
+        },
+        "5.3": {
+          "karma": -5,
+          "spell": 1
+        },
+        "5.4": {
+          "fly_speed": 5,
+          "karma": -5,
+          "repeatable": true
+        },
+        "6": {
+          "karma": -3
+        },
+        "6.5": {
+          "karma": -3
+        },
+        "7": {
+          "eldritch_blast_damage": 8,
+          "karma": -3,
+          "stat": {
+            "str": -1,
+            "con": -1
+          }
+        },
+        "8": {
+          "karma": -3,
+          "spell": 1
+        },
+        "9": {
+          "karma": -10
+        },
+        "10": {
+          "karma": -10
+        },
+        "11": {
+          "eldritch_damage_doubled": true,
+          "eldritch_affinity": 5,
+          "karma": -10,
+          "spell": 1
+        },
+        "12": {
+          "karma": -10
+        },
+        "13": {
+          "karma": -10
+        },
+        "14": {
+          "karma": -10,
+          "spell": 1
+        },
+        "15": {
+          "karma": -10
+        },
+        "16": {
+          "karma": -25,
+          "affinity": {
+            "Necrotic": 5
+          },
+          "eldritch_affinity": 5
+        },
+        "17": {
+          "karma": -10,
+          "spell": 1
+        },
+        "18": {
+          "karma": -10
+        },
+        "19": {
+          "eldritch_affinity": 10,
+          "karma": -25
+        },
+        "20": {
+          "karma": -50,
+          "anti_deity_damage": true
+        }
+      },
+      "Godslayer": {
+        "1": {
+          "anti_deity_damage": true
+        },
+        "2": {
+          "deity_to_hit": 10
+        },
+        "2.5": {
+          "deity_to_hit": 5,
+          "repeatable": true
+        },
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {
+          "anti_deity_damage_bonus": 5
+        },
+        "8.5": {
+          "anti_deity_damage_bonus": 3,
+          "repeatable": true
+        },
+        "9": {},
+        "9.5": {},
+        "10": {
+          "anti_deity_damage_double": true
         }
       }
     }
@@ -344,6 +689,43 @@
       "tier1_racial": true
     },
     "archetypes": {
+      "General Evolution": {
+        "1": {
+          "darkvision_range": 30
+        },
+        "1.1": {
+          "darkvision_range": 60
+        },
+        "1.2": {
+          "darkvision_range": 90
+        },
+        "1.3": {
+          "darkvision_magical": true
+        },
+        "1.4": {
+          "darkvision_color": true
+        },
+        "2": {
+          "initiative": 1
+        },
+        "3": {
+          "immunity_threatened": true
+        },
+        "4": {
+          "immunity_surprised": true,
+          "initiative": 3
+        },
+        "5": {
+          "speed": 10
+        },
+        "5.5": {
+          "speed": 5,
+          "repeatable": true
+        },
+        "6": {
+          "skill_tree_level_bonus": true
+        }
+      },
       "Tull Bloodline": {
         "1": {
           "tier_racial": 2,

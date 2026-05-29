@@ -14,7 +14,7 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 25
+    AC: 31
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
@@ -28,9 +28,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  7
@@ -43,8 +43,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 0)
+    Physical -> Marksman (Lvl 0)
     Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -58,8 +59,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 2 (Nerite Gear)
@@ -74,7 +76,7 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 25
+    AC: 31
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
@@ -88,9 +90,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  9
@@ -103,8 +105,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 0)
+    Physical -> Marksman (Lvl 0)
     Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -118,8 +121,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 3 (Nerite Gear)
@@ -134,7 +138,7 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 25
+    AC: 31
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
@@ -148,9 +152,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  13
@@ -164,8 +168,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 0)
+    Physical -> Marksman (Lvl 0)
     Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -179,8 +184,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 4 (Nerite Gear)
@@ -195,23 +201,23 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 25
+    AC: 31
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +7 | Ranged: +3
+    To Hit: Melee: +7 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 60 = 5d10 (5 x 5) + 8(flat) + 5 x 5(Con)
+    Vitality: 55 = 5d8 (4 x 5) + 8(flat) + 5 x 5(Con)
     Health:  23 = 5d6 (3 x 5) + 6(flat)
-    Mana:   12 = 5d4 (2 x 5) + 0 x 5(Wis)
+    Mana:   17 = 5d6 (3 x 5) + 0 x 5(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  15
@@ -225,8 +231,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -240,8 +247,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 5 (Nerite Gear)
@@ -256,23 +264,23 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 25
+    AC: 31
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Melee: +7 | Ranged: +3
+    To Hit: Melee: +7 | Ranged: +4
 
   HEALTH POOLS:
-    Vitality: 72 = 6d10 (5 x 6) + 9(flat) + 5 x 6(Con)
+    Vitality: 66 = 6d8 (4 x 6) + 9(flat) + 5 x 6(Con)
     Health:  28 = 6d6 (3 x 6) + 7(flat)
-    Mana:   15 = 6d4 (2 x 6) + 0 x 6(Wis)
+    Mana:   21 = 6d6 (3 x 6) + 0 x 6(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  17
@@ -286,8 +294,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -301,8 +310,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 6 (Nerite Gear)
@@ -317,23 +327,23 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 34
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +9 | Ranged: +4
+    To Hit: Melee: +9 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 85 = 7d10 (5 x 7) + 12(flat) + 5 x 7(Con)
+    Vitality: 78 = 7d8 (4 x 7) + 12(flat) + 5 x 7(Con)
     Health:  33 = 7d6 (3 x 7) + 9(flat)
-    Mana:   17 = 7d4 (2 x 7) + 0 x 7(Wis)
+    Mana:   24 = 7d6 (3 x 7) + 0 x 7(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  21
@@ -347,8 +357,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -362,8 +373,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 7 (Nerite Gear)
@@ -378,23 +390,23 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 34
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Melee: +9 | Ranged: +4
+    To Hit: Melee: +9 | Ranged: +5
 
   HEALTH POOLS:
-    Vitality: 97 = 8d10 (5 x 8) + 13(flat) + 5 x 8(Con)
+    Vitality: 89 = 8d8 (4 x 8) + 13(flat) + 5 x 8(Con)
     Health:  38 = 8d6 (3 x 8) + 10(flat)
-    Mana:   20 = 8d4 (2 x 8) + 0 x 8(Wis)
+    Mana:   28 = 8d6 (3 x 8) + 0 x 8(Wis)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 17 | Dmg/Turn: 17
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 12
-    Total Dmg/10R: 175
+    Melee Dmg/Hit: 16 | Dmg/Turn: 16
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 11
+    Total Dmg/10R: 165
 
   RESOURCES:
     Skill Points:  23
@@ -408,8 +420,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 0)
     Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
@@ -423,8 +436,9 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 8 (Nerite Gear)
@@ -439,12 +453,12 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 34
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Melee: +9 | Ranged: +4
+    To Hit: Melee: +9 | Ranged: +5
 
   HEALTH POOLS:
     Vitality: 110 = 9d10 (5 x 9) + 16(flat) + 5 x 9(Con)
@@ -453,13 +467,13 @@ EYUM TTRPG - TANKER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 17 | Dmg/Turn: 34
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 350
+    Melee Dmg/Hit: 16 | Dmg/Turn: 32
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 330
 
   RESOURCES:
-    Skill Points:  32
-    Stat Points:   1
+    Skill Points:  30
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    26
 
@@ -469,9 +483,10 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
-    Racial -> Fishfolk Chelonar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
     Air            : -2
@@ -481,11 +496,12 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     Necrotic       : 4
     Psychic        : -2
     Radiant        : 1
-    Water          : 5
+    Water          : 4
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 9 (Nerite Gear)
@@ -500,12 +516,12 @@ EYUM TTRPG - TANKER (NERITE GEAR)
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 34
     Initiative: +1
     Speed: 20 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +10 | Ranged: +5
+    To Hit: Melee: +10 | Ranged: +6
 
   HEALTH POOLS:
     Vitality: 122 = 10d10 (5 x 10) + 17(flat) + 5 x 10(Con)
@@ -514,39 +530,41 @@ EYUM TTRPG - TANKER (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 17 | Dmg/Turn: 34
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 350
+    Melee Dmg/Hit: 21 | Dmg/Turn: 42
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 430
 
   RESOURCES:
-    Skill Points:  36
-    Stat Points:   1
+    Skill Points:  34
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 1)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
-    Racial -> Fishfolk Chelonar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 0)
 
   AFFINITIES:
     Air            : -1
-    Earth          : 6
-    Fire           : 3
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : -1
-    Radiant        : 2
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 5
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 10 (Nerite Gear)
@@ -555,59 +573,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 35
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +10 | Ranged: +5
+    To Hit: Melee: +10 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 146 = 11d12 (6 x 11) + 20(flat) + 5 x 11(Con)
+    Vitality: 146 = 11d10 (5 x 11) + 20(flat) + 6 x 11(Con)
     Health:  53 = 11d6 (3 x 11) + 15(flat)
     Mana:   27 = 11d4 (2 x 11) + 0 x 11(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 17 | Dmg/Turn: 34
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 350
+    Melee Dmg/Hit: 21 | Dmg/Turn: 42
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 430
 
   RESOURCES:
-    Skill Points:  38
-    Stat Points:   1
+    Skill Points:  36
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
     Air            : -1
-    Earth          : 6
-    Fire           : 3
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : -1
-    Radiant        : 2
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 5
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 11 (Nerite Gear)
@@ -616,59 +636,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 10 (+0) = 8 + 2
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 35
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Melee: +10 | Ranged: +5
+    To Hit: Melee: +10 | Ranged: +6
 
   HEALTH POOLS:
-    Vitality: 159 = 12d12 (6 x 12) + 21(flat) + 5 x 12(Con)
+    Vitality: 159 = 12d10 (5 x 12) + 21(flat) + 6 x 12(Con)
     Health:  58 = 12d6 (3 x 12) + 16(flat)
     Mana:   30 = 12d4 (2 x 12) + 0 x 12(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 17 | Dmg/Turn: 34
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 350
+    Melee Dmg/Hit: 21 | Dmg/Turn: 42
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 430
 
   RESOURCES:
-    Skill Points:  40
-    Stat Points:   1
+    Skill Points:  38
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    27
 
   FEATS & SPELLS:
-    Feats:  3 (taken: Toughness, Armor Training, Affinity Master (Points))
+    Feats:  3 (taken: Toughness, Armor Training, Heavy Hitter)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Marksman (Lvl 1)
     Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
     Air            : -1
-    Earth          : 6
-    Fire           : 3
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 5
-    Psychic        : -1
-    Radiant        : 2
-    Water          : 6
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 5
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC)
 
 ============================================================
   Tanker - Level 12 (Nerite Gear)
@@ -677,59 +699,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +11 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 173 = 13d12 (6 x 13) + 24(flat) + 5 x 13(Con)
+    Vitality: 173 = 13d10 (5 x 13) + 24(flat) + 6 x 13(Con)
     Health:  63 = 13d6 (3 x 13) + 18(flat)
     Mana:   32 = 13d4 (2 x 13) + 0 x 13(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 21 | Dmg/Turn: 42
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 430
 
   RESOURCES:
-    Skill Points:  44
-    Stat Points:   1
+    Skill Points:  42
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
-    Physical -> Duelist (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 0
-    Earth          : 6
-    Fire           : 4
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 3
-    Water          : 6
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 13 (Nerite Gear)
@@ -738,59 +762,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +11 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 186 = 14d12 (6 x 14) + 25(flat) + 5 x 14(Con)
+    Vitality: 186 = 14d10 (5 x 14) + 25(flat) + 6 x 14(Con)
     Health:  68 = 14d6 (3 x 14) + 19(flat)
     Mana:   35 = 14d4 (2 x 14) + 0 x 14(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 21 | Dmg/Turn: 42
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 430
 
   RESOURCES:
-    Skill Points:  46
-    Stat Points:   1
+    Skill Points:  44
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
-    Physical -> Duelist (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
     Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 0
-    Earth          : 6
-    Fire           : 4
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 3
-    Water          : 6
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 14 (Nerite Gear)
@@ -799,59 +825,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  8 (-1) = 8 + 0
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Melee: +11 | Ranged: +6
+    To Hit: Melee: +11 | Ranged: +7
 
   HEALTH POOLS:
-    Vitality: 200 = 15d12 (6 x 15) + 28(flat) + 5 x 15(Con)
+    Vitality: 200 = 15d10 (5 x 15) + 28(flat) + 6 x 15(Con)
     Health:  73 = 15d6 (3 x 15) + 21(flat)
     Mana:   37 = 15d4 (2 x 15) + 0 x 15(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  48
-    Stat Points:   3
+    Skill Points:  46
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    28
 
   FEATS & SPELLS:
-    Feats:  4 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose))
+    Feats:  4 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Marksman (Lvl 2)
     Physical -> Duelist (Lvl 2)
-    Racial -> Fishfolk Chelonar (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 0
-    Earth          : 7
-    Fire           : 4
+    Air            : -1
+    Earth          : 5
+    Fire           : 2
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 3
-    Water          : 7
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 5
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 15 (Nerite Gear)
@@ -860,59 +888,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Melee: +12 | Ranged: +7
+    To Hit: Melee: +12 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 213 = 16d12 (6 x 16) + 29(flat) + 5 x 16(Con)
+    Vitality: 213 = 16d10 (5 x 16) + 29(flat) + 6 x 16(Con)
     Health:  78 = 16d6 (3 x 16) + 22(flat)
     Mana:   40 = 16d4 (2 x 16) + 0 x 16(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  52
-    Stat Points:   3
+    Skill Points:  50
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 2)
+    Physical -> Marksman (Lvl 2)
     Physical -> Duelist (Lvl 2)
-    Racial -> Fishfolk Chelonar (Lvl 2)
+    Physical -> Indomitable (Lvl 1)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 4
-    Water          : 7
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 8
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 16 (Nerite Gear)
@@ -921,59 +951,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +12 | Ranged: +7
+    To Hit: Melee: +12 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 295 = 17d20 (10 x 17) + 32(flat) + 5 x 17(Con)
+    Vitality: 244 = 17d12 (6 x 17) + 32(flat) + 6 x 17(Con)
     Health:  83 = 17d6 (3 x 17) + 24(flat)
     Mana:   42 = 17d4 (2 x 17) + 0 x 17(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  59
-    Stat Points:   3
+    Skill Points:  57
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Marksman (Lvl 2)
     Physical -> Duelist (Lvl 2)
-    Racial -> Fishfolk Chelonar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 4
-    Water          : 7
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 8
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 17 (Nerite Gear)
@@ -982,59 +1014,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  8 (-1) = 8 + 0
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Melee: +12 | Ranged: +7
+    To Hit: Melee: +12 | Ranged: +8
 
   HEALTH POOLS:
-    Vitality: 312 = 18d20 (10 x 18) + 33(flat) + 5 x 18(Con)
+    Vitality: 258 = 18d12 (6 x 18) + 33(flat) + 6 x 18(Con)
     Health:  88 = 18d6 (3 x 18) + 25(flat)
     Mana:   45 = 18d4 (2 x 18) + 0 x 18(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  61
-    Stat Points:   3
+    Skill Points:  59
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    29
 
   FEATS & SPELLS:
-    Feats:  5 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive)
+    Feats:  5 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
+    Physical -> Marksman (Lvl 2)
     Physical -> Duelist (Lvl 2)
-    Racial -> Fishfolk Chelonar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 1)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 6
-    Psychic        : 0
-    Radiant        : 4
-    Water          : 7
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 8
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 18 (Nerite Gear)
@@ -1043,59 +1077,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 330 = 19d20 (10 x 19) + 36(flat) + 5 x 19(Con)
+    Vitality: 273 = 19d12 (6 x 19) + 36(flat) + 6 x 19(Con)
     Health:  93 = 19d6 (3 x 19) + 27(flat)
     Mana:   47 = 19d4 (2 x 19) + 0 x 19(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  65
-    Stat Points:   4
+    Skill Points:  63
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
-    Radiant        : 4
-    Water          : 7
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 8
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 19 (Nerite Gear)
@@ -1104,59 +1140,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 347 = 20d20 (10 x 20) + 37(flat) + 5 x 20(Con)
+    Vitality: 287 = 20d12 (6 x 20) + 37(flat) + 6 x 20(Con)
     Health:  98 = 20d6 (3 x 20) + 28(flat)
     Mana:   50 = 20d4 (2 x 20) + 0 x 20(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 11 | Dmg/Turn: 22
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  67
-    Stat Points:   4
+    Skill Points:  65
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
     Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 4
+    Air            : 2
+    Earth          : 8
+    Fire           : 5
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
-    Radiant        : 4
-    Water          : 7
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 3
+    Water          : 8
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 20 (Nerite Gear)
@@ -1165,59 +1203,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 21 (+5) = 13 + 8
+    CON: 23 (+6) = 13 + 10
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 28
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Melee: +13 | Ranged: +8
+    To Hit: Melee: +13 | Ranged: +9
 
   HEALTH POOLS:
-    Vitality: 365 = 21d20 (10 x 21) + 40(flat) + 5 x 21(Con)
+    Vitality: 302 = 21d12 (6 x 21) + 40(flat) + 6 x 21(Con)
     Health:  103 = 21d6 (3 x 21) + 30(flat)
     Mana:   52 = 21d4 (2 x 21) + 0 x 21(Wis)
 
   DAMAGE:
     Attacks/Turn: 2
-    Melee Dmg/Hit: 20 | Dmg/Turn: 40
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 24
-    Total Dmg/10R: 410
+    Melee Dmg/Hit: 24 | Dmg/Turn: 48
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 32
+    Total Dmg/10R: 490
 
   RESOURCES:
-    Skill Points:  71
-    Stat Points:   6
+    Skill Points:  67
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    30
 
   FEATS & SPELLS:
-    Feats:  6 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert)
+    Feats:  6 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 3)
-    Physical -> Duelist (Lvl 3)
-    Racial -> Fishfolk Chelonar (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Physical -> Duelist (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
-    Air            : 1
+    Air            : 2
     Earth          : 8
     Fire           : 5
     Generic        : 1
-    Necrotic       : 7
-    Psychic        : 1
-    Radiant        : 4
+    Necrotic       : 6
+    Psychic        : -1
+    Radiant        : 3
     Water          : 8
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 25 (Nerite Gear)
@@ -1226,59 +1266,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 19 (+4) = 9 + 10
     DEX: 13 (+1) = 7 + 6
-    CON: 22 (+6) = 13 + 9
+    CON: 24 (+7) = 13 + 11
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 31
+    AC: 41
     Initiative: +1
     Speed: 20 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Melee: +15 | Ranged: +10
+    To Hit: Melee: +15 | Ranged: +11
 
   HEALTH POOLS:
-    Vitality: 478 = 26d20 (10 x 26) + 49(flat) + 6 x 26(Con)
+    Vitality: 504 = 26d20 (10 x 26) + 49(flat) + 7 x 26(Con)
     Health:  128 = 26d6 (3 x 26) + 37(flat)
     Mana:   65 = 26d4 (2 x 26) + 0 x 26(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 21 | Dmg/Turn: 63
-    Ranged Dmg/Hit: 12 | Dmg/Turn: 36
-    Total Dmg/10R: 645
+    Melee Dmg/Hit: 24 | Dmg/Turn: 72
+    Ranged Dmg/Hit: 16 | Dmg/Turn: 48
+    Total Dmg/10R: 735
 
   RESOURCES:
-    Skill Points:  90
-    Stat Points:   8
+    Skill Points:  86
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    32
 
   FEATS & SPELLS:
-    Feats:  8 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  8 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 4)
-    Physical -> Duelist (Lvl 4)
-    Racial -> Fishfolk Chelonar (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 2)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 8
-    Fire           : 5
+    Earth          : 9
+    Fire           : 6
     Generic        : 1
-    Necrotic       : 8
-    Psychic        : 2
-    Radiant        : 5
-    Water          : 8
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 3
+    Water          : 9
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 30 (Nerite Gear)
@@ -1287,59 +1329,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 20 (+5) = 9 + 11
     DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    CON: 26 (+8) = 13 + 13
     WIS: 11 (+0) = 8 + 3
     INT:  9 (-1) = 8 + 1
     CHA:  9 (-1) = 8 + 1
 
   COMBAT:
-    AC: 32
+    AC: 42
     Initiative: +2
     Speed: 20 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Melee: +18 | Ranged: +13
+    To Hit: Melee: +18 | Ranged: +14
 
   HEALTH POOLS:
-    Vitality: 571 = 31d20 (10 x 31) + 60(flat) + 6 x 31(Con)
-    Health:  184 = 31d8 (4 x 31) + 45(flat)
+    Vitality: 633 = 31d20 (10 x 31) + 60(flat) + 8 x 31(Con)
+    Health:  153 = 31d6 (3 x 31) + 45(flat)
     Mana:   77 = 31d4 (2 x 31) + 0 x 31(Wis)
 
   DAMAGE:
     Attacks/Turn: 3
-    Melee Dmg/Hit: 23 | Dmg/Turn: 69
-    Ranged Dmg/Hit: 13 | Dmg/Turn: 39
-    Total Dmg/10R: 705
+    Melee Dmg/Hit: 25 | Dmg/Turn: 75
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 51
+    Total Dmg/10R: 765
 
   RESOURCES:
-    Skill Points:  104
-    Stat Points:   13
+    Skill Points:  100
+    Stat Points:   0
     Affinity Pts:  0
     Stat Spent:    34
 
   FEATS & SPELLS:
-    Feats:  10 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  10 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Affinity Master (Choose))
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 5)
-    Physical -> Duelist (Lvl 5)
-    Racial -> Fishfolk Chelonar (Lvl 4)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Racial -> Fishfolk Chelonar (Lvl 3)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 9
+    Earth          : 10
     Fire           : 7
     Generic        : 1
-    Necrotic       : 9
-    Psychic        : 3
-    Radiant        : 6
-    Water          : 9
+    Necrotic       : 7
+    Psychic        : 1
+    Radiant        : 4
+    Water          : 10
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 40 (Nerite Gear)
@@ -1348,59 +1392,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 20 (+5) = 9 + 11
     DEX: 14 (+2) = 7 + 7
-    CON: 22 (+6) = 13 + 9
+    CON: 26 (+8) = 13 + 13
     WIS: 12 (+1) = 8 + 4
     INT: 10 (+0) = 8 + 2
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 35
+    AC: 46
     Initiative: +2
     Speed: 20 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Melee: +21 | Ranged: +16
+    To Hit: Melee: +21 | Ranged: +17
 
   HEALTH POOLS:
-    Vitality: 756 = 41d20 (10 x 41) + 80(flat) + 6 x 41(Con)
-    Health:  244 = 41d8 (4 x 41) + 60(flat)
+    Vitality: 838 = 41d20 (10 x 41) + 80(flat) + 8 x 41(Con)
+    Health:  203 = 41d6 (3 x 41) + 60(flat)
     Mana:   143 = 41d4 (2 x 41) + 1 x 41(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 24 | Dmg/Turn: 96
-    Ranged Dmg/Hit: 13 | Dmg/Turn: 52
-    Total Dmg/10R: 980
+    Melee Dmg/Hit: 25 | Dmg/Turn: 100
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 68
+    Total Dmg/10R: 1020
 
   RESOURCES:
-    Skill Points:  140
-    Stat Points:   23
+    Skill Points:  136
+    Stat Points:   3
     Affinity Pts:  0
     Stat Spent:    37
 
   FEATS & SPELLS:
-    Feats:  13 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  13 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 7)
-    Physical -> Duelist (Lvl 6)
-    Racial -> Fishfolk Chelonar (Lvl 6)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 4)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 12
-    Fire           : 9
+    Air            : 4
+    Earth          : 11
+    Fire           : 8
     Generic        : 1
-    Necrotic       : 11
-    Psychic        : 5
-    Radiant        : 8
-    Water          : 12
+    Necrotic       : 8
+    Psychic        : 2
+    Radiant        : 5
+    Water          : 10
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 50 (Nerite Gear)
@@ -1409,59 +1455,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 20 (+5) = 9 + 11
     DEX: 15 (+2) = 7 + 8
-    CON: 23 (+6) = 13 + 10
+    CON: 29 (+9) = 13 + 16
     WIS: 12 (+1) = 8 + 4
     INT: 10 (+0) = 8 + 2
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 36
+    AC: 46
     Initiative: +2
     Speed: 20 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Melee: +24 | Ranged: +19
+    To Hit: Melee: +24 | Ranged: +20
 
   HEALTH POOLS:
-    Vitality: 941 = 51d20 (10 x 51) + 100(flat) + 6 x 51(Con)
-    Health:  304 = 51d8 (4 x 51) + 75(flat)
+    Vitality: 1094 = 51d20 (10 x 51) + 100(flat) + 9 x 51(Con)
+    Health:  253 = 51d6 (3 x 51) + 75(flat)
     Mana:   178 = 51d4 (2 x 51) + 1 x 51(Wis)
 
   DAMAGE:
     Attacks/Turn: 4
-    Melee Dmg/Hit: 26 | Dmg/Turn: 104
-    Ranged Dmg/Hit: 13 | Dmg/Turn: 52
-    Total Dmg/10R: 1060
+    Melee Dmg/Hit: 25 | Dmg/Turn: 100
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 68
+    Total Dmg/10R: 1020
 
   RESOURCES:
-    Skill Points:  171
-    Stat Points:   35
+    Skill Points:  167
+    Stat Points:   6
     Affinity Pts:  0
     Stat Spent:    40
 
   FEATS & SPELLS:
-    Feats:  16 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  16 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 8)
-    Physical -> Duelist (Lvl 8)
-    Racial -> Fishfolk Chelonar (Lvl 8)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 6)
 
   AFFINITIES:
-    Air            : 9
-    Earth          : 15
-    Fire           : 12
+    Air            : 5
+    Earth          : 11
+    Fire           : 9
     Generic        : 1
-    Necrotic       : 14
-    Psychic        : 8
-    Radiant        : 11
-    Water          : 15
+    Necrotic       : 9
+    Psychic        : 3
+    Radiant        : 6
+    Water          : 11
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 60 (Nerite Gear)
@@ -1470,59 +1518,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 21 (+5) = 9 + 12
     DEX: 15 (+2) = 7 + 8
-    CON: 23 (+6) = 13 + 10
+    CON: 29 (+9) = 13 + 16
     WIS: 13 (+1) = 8 + 5
     INT: 11 (+0) = 8 + 3
     CHA: 10 (+0) = 8 + 2
 
   COMBAT:
-    AC: 38
+    AC: 50
     Initiative: +2
     Speed: 20 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Melee: +28 | Ranged: +23
+    To Hit: Melee: +28 | Ranged: +24
 
   HEALTH POOLS:
-    Vitality: 1126 = 61d20 (10 x 61) + 120(flat) + 6 x 61(Con)
-    Health:  364 = 61d8 (4 x 61) + 90(flat)
+    Vitality: 1309 = 61d20 (10 x 61) + 120(flat) + 9 x 61(Con)
+    Health:  303 = 61d6 (3 x 61) + 90(flat)
     Mana:   213 = 61d4 (2 x 61) + 1 x 61(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 28 | Dmg/Turn: 140
-    Ranged Dmg/Hit: 13 | Dmg/Turn: 65
-    Total Dmg/10R: 1425
+    Melee Dmg/Hit: 25 | Dmg/Turn: 125
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 85
+    Total Dmg/10R: 1275
 
   RESOURCES:
-    Skill Points:  204
-    Stat Points:   44
+    Skill Points:  200
+    Stat Points:   10
     Affinity Pts:  0
     Stat Spent:    44
 
   FEATS & SPELLS:
-    Feats:  20 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  20 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 10)
-    Physical -> Duelist (Lvl 10)
-    Racial -> Fishfolk Chelonar (Lvl 9)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 17
-    Fire           : 14
+    Air            : 6
+    Earth          : 13
+    Fire           : 10
     Generic        : 1
-    Necrotic       : 17
-    Psychic        : 11
-    Radiant        : 14
-    Water          : 17
+    Necrotic       : 10
+    Psychic        : 4
+    Radiant        : 7
+    Water          : 12
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 70 (Nerite Gear)
@@ -1531,59 +1581,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 21 (+5) = 9 + 12
     DEX: 15 (+2) = 7 + 8
-    CON: 24 (+7) = 13 + 11
+    CON: 30 (+10) = 13 + 17
     WIS: 13 (+1) = 8 + 5
     INT: 11 (+0) = 8 + 3
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 39
+    AC: 50
     Initiative: +2
     Speed: 20 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Melee: +31 | Ranged: +26
+    To Hit: Melee: +31 | Ranged: +27
 
   HEALTH POOLS:
-    Vitality: 1422 = 71d20 (10 x 71) + 180(flat) + 7 x 71(Con)
-    Health:  444 = 71d8 (4 x 71) + 125(flat)
+    Vitality: 1595 = 71d20 (10 x 71) + 140(flat) + 10 x 71(Con)
+    Health:  353 = 71d6 (3 x 71) + 105(flat)
     Mana:   248 = 71d4 (2 x 71) + 1 x 71(Wis)
 
   DAMAGE:
     Attacks/Turn: 5
-    Melee Dmg/Hit: 30 | Dmg/Turn: 150
-    Ranged Dmg/Hit: 13 | Dmg/Turn: 65
-    Total Dmg/10R: 1525
+    Melee Dmg/Hit: 25 | Dmg/Turn: 125
+    Ranged Dmg/Hit: 17 | Dmg/Turn: 85
+    Total Dmg/10R: 1275
 
   RESOURCES:
-    Skill Points:  235
-    Stat Points:   52
+    Skill Points:  231
+    Stat Points:   13
     Affinity Pts:  0
     Stat Spent:    47
 
   FEATS & SPELLS:
-    Feats:  23 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  23 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 12)
-    Physical -> Duelist (Lvl 12)
-    Racial -> Fishfolk Chelonar (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 20
-    Fire           : 17
+    Air            : 7
+    Earth          : 13
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 19
-    Psychic        : 13
-    Radiant        : 16
-    Water          : 19
+    Necrotic       : 11
+    Psychic        : 5
+    Radiant        : 8
+    Water          : 13
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 80 (Nerite Gear)
@@ -1592,59 +1644,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 22 (+6) = 9 + 13
     DEX: 16 (+3) = 7 + 9
-    CON: 24 (+7) = 13 + 11
+    CON: 30 (+10) = 13 + 17
     WIS: 13 (+1) = 8 + 5
     INT: 11 (+0) = 8 + 3
     CHA: 11 (+0) = 8 + 3
 
   COMBAT:
-    AC: 40
+    AC: 51
     Initiative: +3
     Speed: 20 ft
-    AP: 9  BAP: 11  RP: 1
+    AP: 9  BAP: 11  RP: 2
     Proficiency: +27
-    To Hit: Melee: +35 | Ranged: +30
+    To Hit: Melee: +35 | Ranged: +31
 
   HEALTH POOLS:
-    Vitality: 1657 = 81d20 (10 x 81) + 240(flat) + 7 x 81(Con)
-    Health:  524 = 81d8 (4 x 81) + 160(flat)
+    Vitality: 1820 = 81d20 (10 x 81) + 160(flat) + 10 x 81(Con)
+    Health:  403 = 81d6 (3 x 81) + 120(flat)
     Mana:   283 = 81d4 (2 x 81) + 1 x 81(Wis)
 
   DAMAGE:
     Attacks/Turn: 6
-    Melee Dmg/Hit: 32 | Dmg/Turn: 192
-    Ranged Dmg/Hit: 14 | Dmg/Turn: 84
-    Total Dmg/10R: 1950
+    Melee Dmg/Hit: 26 | Dmg/Turn: 156
+    Ranged Dmg/Hit: 18 | Dmg/Turn: 108
+    Total Dmg/10R: 1590
 
   RESOURCES:
-    Skill Points:  271
-    Stat Points:   55
+    Skill Points:  267
+    Stat Points:   15
     Affinity Pts:  0
     Stat Spent:    50
 
   FEATS & SPELLS:
-    Feats:  26 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  26 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 16)
-    Physical -> Duelist (Lvl 13)
-    Racial -> Fishfolk Chelonar (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 20
-    Fire           : 18
+    Air            : 8
+    Earth          : 14
+    Fire           : 11
     Generic        : 1
-    Necrotic       : 20
-    Psychic        : 14
-    Radiant        : 17
-    Water          : 20
+    Necrotic       : 12
+    Psychic        : 6
+    Radiant        : 9
+    Water          : 14
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 90 (Nerite Gear)
@@ -1653,59 +1707,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 22 (+6) = 9 + 13
     DEX: 17 (+3) = 7 + 10
-    CON: 24 (+7) = 13 + 11
+    CON: 30 (+10) = 13 + 17
     WIS: 14 (+2) = 8 + 6
     INT: 12 (+1) = 8 + 4
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 40
+    AC: 51
     Initiative: +3
     Speed: 20 ft
-    AP: 10  BAP: 12  RP: 1
+    AP: 10  BAP: 12  RP: 2
     Proficiency: +31
-    To Hit: Melee: +41 | Ranged: +34
+    To Hit: Melee: +39 | Ranged: +35
 
   HEALTH POOLS:
-    Vitality: 1882 = 91d20 (10 x 91) + 290(flat) + 7 x 91(Con)
-    Health:  599 = 91d8 (4 x 91) + 190(flat)
+    Vitality: 2045 = 91d20 (10 x 91) + 180(flat) + 10 x 91(Con)
+    Health:  453 = 91d6 (3 x 91) + 135(flat)
     Mana:   409 = 91d4 (2 x 91) + 2 x 91(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 32 | Dmg/Turn: 224
-    Ranged Dmg/Hit: 14 | Dmg/Turn: 98
-    Total Dmg/10R: 2275
+    Melee Dmg/Hit: 26 | Dmg/Turn: 182
+    Ranged Dmg/Hit: 18 | Dmg/Turn: 126
+    Total Dmg/10R: 1855
 
   RESOURCES:
-    Skill Points:  304
-    Stat Points:   59
+    Skill Points:  300
+    Stat Points:   19
     Affinity Pts:  0
     Stat Spent:    54
 
   FEATS & SPELLS:
-    Feats:  30 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  30 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 19)
-    Physical -> Duelist (Lvl 15)
-    Racial -> Fishfolk Chelonar (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 22
-    Fire           : 19
+    Air            : 9
+    Earth          : 15
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 21
-    Psychic        : 15
-    Radiant        : 18
-    Water          : 21
+    Necrotic       : 13
+    Psychic        : 7
+    Radiant        : 10
+    Water          : 15
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 100 (Nerite Gear)
@@ -1714,59 +1770,61 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 23 (+6) = 9 + 14
     DEX: 16 (+3) = 7 + 9
-    CON: 25 (+7) = 13 + 12
+    CON: 31 (+10) = 13 + 18
     WIS: 14 (+2) = 8 + 6
     INT: 12 (+1) = 8 + 4
     CHA: 12 (+1) = 8 + 4
 
   COMBAT:
-    AC: 40
+    AC: 51
     Initiative: +3
     Speed: 20 ft
-    AP: 11  BAP: 13  RP: 1
+    AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Melee: +45 | Ranged: +37
+    To Hit: Melee: +42 | Ranged: +38
 
   HEALTH POOLS:
-    Vitality: 2117 = 101d20 (10 x 101) + 350(flat) + 7 x 101(Con)
-    Health:  679 = 101d8 (4 x 101) + 225(flat)
+    Vitality: 2270 = 101d20 (10 x 101) + 200(flat) + 10 x 101(Con)
+    Health:  503 = 101d6 (3 x 101) + 150(flat)
     Mana:   454 = 101d4 (2 x 101) + 2 x 101(Wis)
 
   DAMAGE:
     Attacks/Turn: 7
-    Melee Dmg/Hit: 32 | Dmg/Turn: 224
-    Ranged Dmg/Hit: 14 | Dmg/Turn: 98
-    Total Dmg/10R: 2275
+    Melee Dmg/Hit: 26 | Dmg/Turn: 182
+    Ranged Dmg/Hit: 18 | Dmg/Turn: 126
+    Total Dmg/10R: 1855
 
   RESOURCES:
-    Skill Points:  335
-    Stat Points:   62
+    Skill Points:  331
+    Stat Points:   22
     Affinity Pts:  0
     Stat Spent:    57
 
   FEATS & SPELLS:
-    Feats:  33 (taken: Toughness, Armor Training, Affinity Master (Points), Affinity Master (Choose), Overdrive, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  33 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 23)
-    Physical -> Duelist (Lvl 16)
-    Racial -> Fishfolk Chelonar (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 16
+    Fire           : 13
     Generic        : 1
-    Necrotic       : 22
-    Psychic        : 16
-    Radiant        : 19
-    Water          : 22
+    Necrotic       : 14
+    Psychic        : 8
+    Radiant        : 11
+    Water          : 16
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 
 ============================================================
   Tanker - Level 1000 (Nerite Gear)
@@ -1775,57 +1833,59 @@ EYUM TTRPG - TANKER (NERITE GEAR)
   STATS:
     STR: 44 (+17) = 9 + 35
     DEX: 38 (+14) = 7 + 31
-    CON: 47 (+18) = 13 + 34
+    CON: 50 (+20) = 13 + 37
     WIS: 36 (+13) = 8 + 28
     INT: 34 (+12) = 8 + 26
     CHA: 34 (+12) = 8 + 26
 
   COMBAT:
-    AC: 41
+    AC: 52
     Initiative: +14
     Speed: 20 ft
-    AP: 101  BAP: 126  RP: 1
+    AP: 101  BAP: 126  RP: 2
     Proficiency: +334
-    To Hit: Melee: +363 | Ranged: +348
+    To Hit: Melee: +353 | Ranged: +349
 
   HEALTH POOLS:
-    Vitality: 31548 = 1001d20 (10 x 1001) + 3020(flat) + 18 x 1001(Con)
-    Health:  6514 = 1001d8 (4 x 1001) + 2010(flat)
+    Vitality: 32530 = 1001d20 (10 x 1001) + 2000(flat) + 20 x 1001(Con)
+    Health:  5003 = 1001d6 (3 x 1001) + 1500(flat)
     Mana:   15515 = 1001d4 (2 x 1001) + 13 x 1001(Wis)
 
   DAMAGE:
     Attacks/Turn: 64
-    Melee Dmg/Hit: 43 | Dmg/Turn: 2752
-    Ranged Dmg/Hit: 25 | Dmg/Turn: 1600
-    Total Dmg/10R: 27840
+    Melee Dmg/Hit: 37 | Dmg/Turn: 2368
+    Ranged Dmg/Hit: 29 | Dmg/Turn: 1856
+    Total Dmg/10R: 24000
 
   RESOURCES:
-    Skill Points:  3300
-    Stat Points:   361
+    Skill Points:  3296
+    Stat Points:   321
     Affinity Pts:  0
     Stat Spent:    357
 
   FEATS & SPELLS:
-    Feats:  333 (taken: Toughness, Armor Training, Affinity Master (Points), Dodge Master, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+    Feats:  333 (taken: Toughness, Armor Training, Heavy Hitter, Shield Master, Affinity Master (Points), Dodge Master, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
         (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
     Spells:  0
 
   PATHS:
-    Physical -> Indomitable (Lvl 110)
-    Physical -> Duelist (Lvl 23)
-    Racial -> Fishfolk Chelonar (Lvl 10)
+    Physical -> Marksman (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Physical -> Indomitable (Lvl 4)
+    Racial -> Fishfolk Chelonar (Lvl 7)
 
   AFFINITIES:
-    Air            : 102
-    Earth          : 108
-    Fire           : 105
+    Air            : 96
+    Earth          : 102
+    Fire           : 99
     Generic        : 1
-    Necrotic       : 108
-    Psychic        : 101
-    Radiant        : 105
-    Water          : 108
+    Necrotic       : 99
+    Psychic        : 93
+    Radiant        : 97
+    Water          : 102
 
   GEAR:
-    Weapon: nerite_halberd (1d10 slashing)
+    Weapon: nerite_longsword (1d8 slashing)
     Armor: nerite_heavy (Nerite Heavy Armor)
+    Shield: Nerite Heater Shield (+6 AC) [Shield Master: +12 AC]
 

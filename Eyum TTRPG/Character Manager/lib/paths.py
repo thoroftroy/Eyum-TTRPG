@@ -53,6 +53,8 @@ def apply_paths(char, target_level, build_config, settings):
         return
 
     available_stp = 1 + (target_level // 2)
+    if getattr(char, 'skill_tree_level_bonus', False):
+        available_stp += max(0, (target_level - 1) // 2)
 
     # Step 1: Pay 1 STP per unique path name to unlock its initial
     path_initial_paid = set()
@@ -174,6 +176,8 @@ def apply_paths(char, target_level, build_config, settings):
             if all_remaining <= 0:
                 break
 
+    apply_per_level_bonuses(char, target_level)
+
     die_order = settings['rules']['die_upgrade_order']
     for (path_name, arch_name), whole_levels in char.archetype_whole_levels.items():
         if arch_name == 'Indomitable':
@@ -186,3 +190,24 @@ def apply_paths(char, target_level, build_config, settings):
                 idx = die_order.index(char.vit_die)
                 if idx > 0:
                     char.vit_die = die_order[idx - 1]
+
+
+def apply_per_level_bonuses(char, target_level):
+    sp_bonus = getattr(char, 'skill_points_per_level', 0)
+    prof_bonus = getattr(char, 'proficiency_per_level', 0)
+    expr_bonus = getattr(char, 'expertise_per_level', 0)
+    aff_bonus = getattr(char, 'affinity_per_level', 0)
+
+    if sp_bonus:
+        retro = max(0, target_level - 1) * sp_bonus
+        char.skill_points += retro
+        if target_level >= 6:
+            char.skill_points += 10
+    if prof_bonus:
+        prof_gains = target_level // 3 + 1
+        char.skill_points += prof_gains * 3 * prof_bonus
+    if expr_bonus:
+        expr_gains = target_level // 8
+        char.skill_points += expr_gains * 5 * expr_bonus
+    if aff_bonus:
+        char.affinity_points += max(0, target_level - 1) * aff_bonus

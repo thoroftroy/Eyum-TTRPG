@@ -86,7 +86,7 @@ def apply_effects(char, effects, cost_table=None):
     if 'flat_hp' in effects:
         char.flat_hp += effects['flat_hp']
     if 'speed' in effects:
-        char.speed = max(getattr(char, 'speed', 30), effects['speed'])
+        char.speed = getattr(char, 'speed', 30) + effects['speed']
     if 'first_round_damage' in effects:
         char.first_round_damage = effects['first_round_damage']
     if 'ap_first_round' in effects:
@@ -97,6 +97,102 @@ def apply_effects(char, effects, cost_table=None):
         char.ranged_adv_damage_stacks += effects['ranged_adv_damage']
     if 'ranged_expertise' in effects:
         char.ranged_expertise = effects['ranged_expertise']
+    if 'initiative' in effects:
+        char.initiative += effects['initiative']
+    if 'bonus_action_sprint' in effects:
+        char.bonus_action_sprint = True
+    if 'melee_kill_bonus' in effects:
+        char.melee_kill_bonus = True
+    if 'ranged_ignore_half_cover' in effects:
+        char.ranged_ignore_half_cover = True
+    if 'skill_points_per_level' in effects:
+        char.skill_points_per_level = max(char.skill_points_per_level, effects['skill_points_per_level'])
+    if 'proficiency_per_level' in effects:
+        char.proficiency_per_level = max(char.proficiency_per_level, effects['proficiency_per_level'])
+    if 'expertise_per_level' in effects:
+        char.expertise_per_level = max(char.expertise_per_level, effects['expertise_per_level'])
+    if 'affinity_per_level' in effects:
+        char.affinity_per_level = max(char.affinity_per_level, effects['affinity_per_level'])
+    if 'magic_blast' in effects:
+        char.magic_blast = True
+    if 'magic_accuracy_non_water' in effects:
+        char.magic_accuracy_non_water += effects['magic_accuracy_non_water']
+    if 'magic_accuracy_non_air' in effects:
+        char.magic_accuracy_non_air += effects['magic_accuracy_non_air']
+    if 'magic_accuracy_non_fire' in effects:
+        char.magic_accuracy_non_fire += effects['magic_accuracy_non_fire']
+    if 'magic_accuracy_non_earth' in effects:
+        char.magic_accuracy_non_earth += effects['magic_accuracy_non_earth']
+    if 'magic_accuracy_non_necrotic' in effects:
+        char.magic_accuracy_non_necrotic += effects['magic_accuracy_non_necrotic']
+    if 'magic_accuracy_non_radiant' in effects:
+        char.magic_accuracy_non_radiant += effects['magic_accuracy_non_radiant']
+    if 'proficiency_weapon' in effects:
+        pass
+    if 'expertise_weapon' in effects:
+        pass
+    if 'initiative_advantage' in effects:
+        char.initiative_advantage = True
+    if 'darkvision_range' in effects:
+        char.darkvision_range = max(char.darkvision_range, effects['darkvision_range'])
+    if 'immunity_threatened' in effects:
+        char.immunity_threatened = True
+    if 'immunity_surprised' in effects:
+        char.immunity_surprised = True
+    if 'fly_speed' in effects:
+        char.fly_speed = max(char.fly_speed, effects['fly_speed'])
+    if 'true_sight_range' in effects:
+        char.true_sight_range = max(char.true_sight_range, effects['true_sight_range'])
+    if 'karma' in effects:
+        char.karma += effects['karma']
+    if 'pact_access_tier' in effects:
+        char.pact_access_tier = max(char.pact_access_tier, effects['pact_access_tier'])
+    if 'anti_deity_damage' in effects:
+        char.anti_deity_damage = True
+    if 'hallowed_affinity' in effects:
+        char.hallowed_affinity += effects['hallowed_affinity']
+    if 'eldritch_affinity' in effects:
+        char.eldritch_affinity += effects['eldritch_affinity']
+    if 'eldritch_blast_damage' in effects:
+        char.eldritch_blast_damage = max(char.eldritch_blast_damage, effects['eldritch_blast_damage'])
+    if 'eldritch_blast_range' in effects:
+        char.eldritch_blast_range += effects['eldritch_blast_range']
+    if 'healing_maximize' in effects:
+        char.healing_maximize = True
+    if 'cleansing' in effects:
+        char.cleansing = max(char.cleansing, effects['cleansing'])
+    if 'concentration_two_spells' in effects:
+        char.concentration_two_spells = True
+    if 'free_heal' in effects:
+        char.free_heal = True
+    if 'reaction_save_ally' in effects:
+        char.reaction_save_ally = True
+    if 'weapon_group_accuracy' in effects:
+        char.weapon_group_accuracy += effects['weapon_group_accuracy']
+    if 'damage_reduction' in effects:
+        char.damage_reduction += effects['damage_reduction']
+    if 'vit_per_level' in effects:
+        char.vit_per_level_bonus += effects['vit_per_level']
+    if 'hp_per_level' in effects:
+        char.hp_per_level_bonus += effects['hp_per_level']
+    if 'mana_per_level' in effects:
+        char.mana_per_level_bonus += effects['mana_per_level']
+    if 'crit_block' in effects:
+        char.crit_block = True
+    if 'second_chance' in effects:
+        char.second_chance = True
+    if 'brawler_stacks' in effects:
+        char.brawler_stacks += effects['brawler_stacks']
+    if 'skill_tree_level_bonus' in effects:
+        char.skill_tree_level_bonus = True
+    if 'monster_damage' in effects:
+        char.melee_damage += effects['monster_damage']
+        char.ranged_damage += effects['monster_damage']
+        char.magic_damage += effects['monster_damage']
+    if 'humanoid_attack_penalty' in effects:
+        pass
+    if 'monster_attack_penalty' in effects:
+        pass
 
 
 def apply_feat_effects(char, effects):
@@ -169,10 +265,20 @@ def apply_feat_effects(char, effects):
         char.steady_aim_accuracy += effects['steady_aim_accuracy']
     if 'defensive_duelist_ac' in effects:
         char.defensive_duelist_ac = effects['defensive_duelist_ac']
+    if 'shield_master' in effects:
+        char.shield_master = True
     if 'overdrive_bap' in effects:
         char.overdrive_bonus += effects['overdrive_bap']
     if 'twin_cast' in effects:
         char.twin_cast = effects['twin_cast']
+    if 'damage_reduction' in effects:
+        char.damage_reduction += effects['damage_reduction']
+    if 'brawler_stacks' in effects:
+        char.brawler_stacks += effects['brawler_stacks']
+    if 'crit_block' in effects:
+        char.crit_block = True
+    if 'second_chance' in effects:
+        char.second_chance = True
 
 
 def _repeatable_priority(effects):

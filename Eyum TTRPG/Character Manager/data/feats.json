@@ -12,13 +12,15 @@
   },
   "Marathon Runner": {
     "type": "Passive",
-    "effects": {},
+    "effects": {
+      "speed": 5
+    },
     "prereq": {
       "stat": {
         "con": 12
       }
     },
-    "value": 0,
+    "value": 2,
     "repeatable": false,
     "description": "Increase base Speed by +5ft."
   },
@@ -56,7 +58,7 @@
         "str": 14
       }
     },
-    "value": 1,
+    "value": 3,
     "repeatable": 3,
     "description": "Unarmed strikes damage up a dice tier, up to 3 times."
   },
@@ -104,7 +106,7 @@
         "dex": 16
       }
     },
-    "value": 1,
+    "value": 3,
     "repeatable": false,
     "description": "Gain an additional Reaction Point (Rp)."
   },
@@ -473,12 +475,18 @@
   "Affinity Master (Points)": {
     "type": "Passive",
     "effects": {
-      "affinity_points": 5
+      "affinity_points": 3,
+      "affinity": {
+        "Fire": 2,
+        "Earth": 2,
+        "Water": 2,
+        "Air": 2
+      }
     },
     "prereq": {},
     "value": 4,
     "repeatable": false,
-    "description": "Instantly gain +5 affinity points."
+    "description": "Instantly gain +2 Fire, Earth, Water, Air affinity and +3 Affinity Points."
   },
   "Dodge Master": {
     "type": "Passive",
@@ -512,16 +520,16 @@
   "Heavy Hitter": {
     "type": "Conditional",
     "effects": {
-      "melee_damage": 2
+      "melee_damage": 5
     },
     "prereq": {
       "stat": {
         "str": 14
       }
     },
-    "value": 3,
+    "value": 5,
     "repeatable": false,
-    "description": "+2 Melee Damage with two-handed weapons."
+    "description": "+5 Melee Damage with two-handed weapons."
   },
   "Point Blank Shot": {
     "type": "Conditional",
@@ -533,7 +541,7 @@
         "Marksman": 1
       }
     },
-    "value": 1,
+    "value": 3,
     "repeatable": false,
     "description": "No disadvantage on ranged attacks within 5ft."
   },
@@ -552,16 +560,18 @@
     "description": "After kill, next attack this turn deals +3 damage."
   },
   "Shield Master": {
-    "type": "Conditional",
-    "effects": {},
+    "type": "Passive",
+    "effects": {
+      "shield_master": true
+    },
     "prereq": {
       "stat": {
         "str": 12
       }
     },
-    "value": 0,
+    "value": 5,
     "repeatable": false,
-    "description": "+2 Dex saves with shield."
+    "description": "Double the AC bonus provided by your shield."
   },
   "Steady Aim": {
     "type": "Conditional",

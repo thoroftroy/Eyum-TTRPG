@@ -58,5 +58,59 @@
     "ac_bonus": 17,
     "max_dex": 3,
     "label": "Dragon Scale Heavy Armor"
+  },
+  "shield_medium": {
+    "ac_bonus": 2,
+    "max_dex": 99,
+    "label": "Medium Shield",
+    "is_shield": true
+  },
+  "nerite_shield_medium": {
+    "ac_bonus": 5,
+    "max_dex": 99,
+    "label": "Nerite Medium Shield",
+    "is_shield": true
+  },
+  "dragon_shield_medium": {
+    "ac_bonus": 7,
+    "max_dex": 99,
+    "label": "Dragon Bone Medium Shield",
+    "is_shield": true
+  },
+  "shield_large": {
+    "ac_bonus": 3,
+    "max_dex": 99,
+    "label": "Large Shield",
+    "is_shield": true
+  },
+  "nerite_shield_large": {
+    "ac_bonus": 6,
+    "max_dex": 99,
+    "label": "Nerite Large Shield",
+    "is_shield": true
+  },
+  "dragon_shield_large": {
+    "ac_bonus": 8,
+    "max_dex": 99,
+    "label": "Dragon Bone Large Shield",
+    "is_shield": true
+  },
+  "shield_heater": {
+    "ac_bonus": 3,
+    "max_dex": 99,
+    "label": "Heater Shield",
+    "is_shield": true
+  },
+  "nerite_shield_heater": {
+    "ac_bonus": 6,
+    "max_dex": 99,
+    "label": "Nerite Heater Shield",
+    "is_shield": true
+  },
+  "dragon_shield_heater": {
+    "ac_bonus": 8,
+    "max_dex": 99,
+    "label": "Dragon Bone Heater Shield",
+    "is_shield": true
   }
 }
