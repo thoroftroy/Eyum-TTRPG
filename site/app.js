@@ -92,11 +92,17 @@ class GraphView {
     this.panning = null;
     this.dragMoved = false;
     this.simAlpha = 1;
+    this.initialized = false;
 
-    this.resize();
-    this.initPositions();
     this.setupEvents();
-    this.tick();
+    // Defer layout-dependent setup until browser has laid out the panel
+    requestAnimationFrame(() => {
+      this.resize();
+      if (!this.width || !this.height) return;
+      this.initPositions();
+      this.initialized = true;
+      this.tick();
+    });
   }
 
   get currentPath() { return this._currentPath; }
@@ -193,6 +199,7 @@ class GraphView {
     const h = this.height;
     const dpr = this.dpr;
 
+    if (!w || !h) return;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, w, h);
 
@@ -227,15 +234,17 @@ class GraphView {
     const nodeRadiusHover = 7;
     const nodeRadiusCurrent = 8;
 
-    let labelNode = null;
+    // Determine which node(s) to show labels for: hovered node AND current node
+    let hoverLabel = null;
+    let currentLabel = null;
     for (const node of this.nodes) {
       const isCurrent = this._currentPath && node.id === this._currentPath;
       const isConnected = currentConnections.has(node);
       const isHovered = this.hovered === node;
 
       let alpha, radius;
-      if (isCurrent) { alpha = 1; radius = nodeRadiusCurrent; }
-      else if (isHovered) { alpha = 1; radius = nodeRadiusHover; labelNode = node; }
+      if (isCurrent) { alpha = 1; radius = nodeRadiusCurrent; currentLabel = node; }
+      else if (isHovered) { alpha = 1; radius = nodeRadiusHover; hoverLabel = node; }
       else if (isConnected) { alpha = 0.7; radius = nodeRadius; }
       else { alpha = dimAlpha; radius = nodeRadius; }
 
@@ -256,42 +265,31 @@ class GraphView {
     }
     ctx.restore();
 
-    // Draw label in screen space (no view offset)
-    if (this._currentPath && !this.hovered) {
-      const cn = this.nodeById.get(this._currentPath);
-      if (cn) labelNode = cn;
-    }
-    if (labelNode) {
-      const name = labelNode.name.length > 28 ? labelNode.name.slice(0, 25) + '...' : labelNode.name;
+    // Draw labels in screen space — always for hovered and current nodes
+    const drawLabel = (node) => {
+      if (!node || !w || !h) return;
+      const name = node.name.length > 28 ? node.name.slice(0, 25) + '...' : node.name;
       ctx.font = '11px sans-serif';
       const tw = ctx.measureText(name).width;
-      const sx = labelNode.x + this.viewX;
-      const sy = labelNode.y + this.viewY;
+      const sx = node.x + this.viewX;
+      const sy = node.y + this.viewY;
       const lx = Math.max(2, Math.min(w - tw - 12, sx - tw / 2));
       const ly = sy - 16;
-      if (ly - 2 < 0 || sy + 12 > h) return;
+      if (ly + 16 < 0 || sy > h + 10) return;
       ctx.fillStyle = 'rgba(0,0,0,0.75)';
-      const pad = 4;
-      ctx.beginPath();
-      ctx.moveTo(lx - pad + 3, ly - 2);
-      ctx.lineTo(lx - pad + tw + pad - 3, ly - 2);
-      ctx.quadraticCurveTo(lx - pad + tw + pad, ly - 2, lx - pad + tw + pad, ly - 2 + 3);
-      ctx.lineTo(lx - pad + tw + pad, ly - 2 + 16 - 3);
-      ctx.quadraticCurveTo(lx - pad + tw + pad, ly - 2 + 16, lx - pad + tw + pad - 3, ly - 2 + 16);
-      ctx.lineTo(lx - pad + 3, ly - 2 + 16);
-      ctx.quadraticCurveTo(lx - pad, ly - 2 + 16, lx - pad, ly - 2 + 16 - 3);
-      ctx.lineTo(lx - pad, ly - 2 + 3);
-      ctx.quadraticCurveTo(lx - pad, ly - 2, lx - pad + 3, ly - 2);
-      ctx.closePath();
-      ctx.fill();
+      ctx.fillRect(lx - 4, ly - 2, tw + 8, 16);
       ctx.fillStyle = '#fff';
       ctx.fillText(name, lx, ly + 11);
-    }
+    };
+    drawLabel(hoverLabel);
+    if (currentLabel !== hoverLabel) drawLabel(currentLabel);
   }
 
   tick() {
-    this.applyForces();
-    this.render();
+    if (this.initialized) {
+      this.applyForces();
+      this.render();
+    }
     this._frame = requestAnimationFrame(() => this.tick());
   }
 
@@ -317,6 +315,7 @@ class GraphView {
         this.simAlpha = 1;
       } else {
         this.panning = { startX: pos.x, startY: pos.y, viewX: this.viewX, viewY: this.viewY };
+        this.canvas.style.cursor = 'grabbing';
       }
     };
 
@@ -332,6 +331,7 @@ class GraphView {
       if (this.panning) {
         this.viewX = this.panning.viewX + (pos.x - this.panning.startX);
         this.viewY = this.panning.viewY + (pos.y - this.panning.startY);
+        this.canvas.style.cursor = 'grabbing';
         return;
       }
       const wp = worldPos(pos);
@@ -349,6 +349,7 @@ class GraphView {
         return;
       }
       this.panning = null;
+      this.canvas.style.cursor = '';
     };
 
     this.canvas.addEventListener('mousemove', (e) => onMove(getPos(e)));
