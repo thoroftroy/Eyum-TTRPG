@@ -15,7 +15,6 @@ const els = {
   graphPanel: document.getElementById('graphPanel'),
   graphClose: document.getElementById('graphClose'),
   graphCanvas: document.getElementById('graphCanvas'),
-  graphResize: document.getElementById('graphResize'),
 };
 
 let manifest;
@@ -215,7 +214,6 @@ class GraphView {
       }
     }
 
-    // Draw edges & nodes in world space (with view offset)
     ctx.save();
     ctx.translate(this.viewX, this.viewY);
 
@@ -234,17 +232,14 @@ class GraphView {
     const nodeRadiusHover = 7;
     const nodeRadiusCurrent = 8;
 
-    // Determine which node(s) to show labels for: hovered node AND current node
-    let hoverLabel = null;
-    let currentLabel = null;
     for (const node of this.nodes) {
       const isCurrent = this._currentPath && node.id === this._currentPath;
       const isConnected = currentConnections.has(node);
       const isHovered = this.hovered === node;
 
       let alpha, radius;
-      if (isCurrent) { alpha = 1; radius = nodeRadiusCurrent; currentLabel = node; }
-      else if (isHovered) { alpha = 1; radius = nodeRadiusHover; hoverLabel = node; }
+      if (isCurrent) { alpha = 1; radius = nodeRadiusCurrent; }
+      else if (isHovered) { alpha = 1; radius = nodeRadiusHover; }
       else if (isConnected) { alpha = 0.7; radius = nodeRadius; }
       else { alpha = dimAlpha; radius = nodeRadius; }
 
@@ -263,26 +258,22 @@ class GraphView {
         ctx.stroke();
       }
     }
-    ctx.restore();
 
-    // Draw labels in screen space — always for hovered and current nodes
-    const drawLabel = (node) => {
-      if (!node || !w || !h) return;
-      const name = node.name.length > 28 ? node.name.slice(0, 25) + '...' : node.name;
-      ctx.font = '11px sans-serif';
-      const tw = ctx.measureText(name).width;
+    for (const node of this.nodes) {
       const sx = node.x + this.viewX;
       const sy = node.y + this.viewY;
-      const lx = Math.max(2, Math.min(w - tw - 12, sx - tw / 2));
-      const ly = sy - 16;
-      if (ly + 16 < 0 || sy > h + 10) return;
-      ctx.fillStyle = 'rgba(0,0,0,0.75)';
-      ctx.fillRect(lx - 4, ly - 2, tw + 8, 16);
-      ctx.fillStyle = '#fff';
-      ctx.fillText(name, lx, ly + 11);
-    };
-    drawLabel(hoverLabel);
-    if (currentLabel !== hoverLabel) drawLabel(currentLabel);
+      if (sx < -10 || sx > w + 10 || sy < -10 || sy > h + 10) continue;
+      const name = node.name.length > 24 ? node.name.slice(0, 21) + '...' : node.name;
+      ctx.font = '10px sans-serif';
+      const tw = ctx.measureText(name).width;
+      const lx = Math.max(2, Math.min(w - tw - 8, sx - tw / 2));
+      const ly = nodeRadius + 4;
+      ctx.fillStyle = 'rgba(0,0,0,0.7)';
+      ctx.fillRect(lx - 3, sy + ly - 2, tw + 6, 14);
+      ctx.fillStyle = this.hovered === node || (this._currentPath && node.id === this._currentPath) ? '#fff' : 'rgba(255,255,255,0.7)';
+      ctx.fillText(name, lx, sy + ly + 9);
+    }
+    ctx.restore();
   }
 
   tick() {
@@ -564,55 +555,6 @@ function registerUIEvents() {
   }
   if (els.graphClose) {
     els.graphClose.addEventListener('click', () => { if (els.graphPanel) els.graphPanel.classList.remove('open'); });
-  }
-
-  if (els.graphResize) {
-    let resizeData = null;
-    els.graphResize.addEventListener('mousedown', (e) => {
-      e.preventDefault();
-      if (!els.graphPanel) return;
-      resizeData = {
-        startX: e.clientX,
-        startY: e.clientY,
-        startW: els.graphPanel.offsetWidth,
-        startH: els.graphPanel.offsetHeight,
-      };
-      const onMove = (e2) => {
-        if (!els.graphPanel) return;
-        els.graphPanel.style.width = Math.max(280, resizeData.startW + (e2.clientX - resizeData.startX)) + 'px';
-        els.graphPanel.style.height = Math.max(240, resizeData.startH + (e2.clientY - resizeData.startY)) + 'px';
-      };
-      const onUp = () => {
-        document.removeEventListener('mousemove', onMove);
-        document.removeEventListener('mouseup', onUp);
-        if (graphView) graphView.resize();
-      };
-      document.addEventListener('mousemove', onMove);
-      document.addEventListener('mouseup', onUp);
-    });
-    els.graphResize.addEventListener('touchstart', (e) => {
-      if (!els.graphPanel) return;
-      const t = e.touches[0];
-      resizeData = {
-        startX: t.clientX,
-        startY: t.clientY,
-        startW: els.graphPanel.offsetWidth,
-        startH: els.graphPanel.offsetHeight,
-      };
-      const onMove = (e2) => {
-        if (!els.graphPanel) return;
-        const t2 = e2.touches[0];
-        els.graphPanel.style.width = Math.max(280, resizeData.startW + (t2.clientX - resizeData.startX)) + 'px';
-        els.graphPanel.style.height = Math.max(240, resizeData.startH + (t2.clientY - resizeData.startY)) + 'px';
-      };
-      const onUp = () => {
-        document.removeEventListener('touchmove', onMove);
-        document.removeEventListener('touchend', onUp);
-        if (graphView) graphView.resize();
-      };
-      document.addEventListener('touchmove', onMove, { passive: true });
-      document.addEventListener('touchend', onUp);
-    }, { passive: true });
   }
 }
 
