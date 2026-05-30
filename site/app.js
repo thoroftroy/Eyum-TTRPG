@@ -506,30 +506,25 @@ function getDefaultFile(node) {
 let graphView = null;
 
 function toggleGraph(manifest) {
+  if (!els.graphPanel) return;
   if (els.graphPanel.classList.toggle('open')) {
     if (!graphView) {
-      graphView = new GraphView(els.graphCanvas, manifest, currentPath, (path) => {
-        location.hash = encodeURIComponent(path);
+      try {
+        graphView = new GraphView(els.graphCanvas, manifest, currentPath, (path) => {
+          location.hash = encodeURIComponent(path);
+          els.graphPanel.classList.remove('open');
+        });
+      } catch (err) {
+        console.error('GraphView failed:', err);
         els.graphPanel.classList.remove('open');
-      });
+      }
     } else {
       graphView.currentPath = currentPath;
     }
   }
 }
 
-async function init() {
-  applyTheme(loadTheme());
-
-  const manifestRes = await fetch('./manifest.json');
-  manifest = await manifestRes.json();
-  buildWikiMap(manifest.tree);
-  renderTree(manifest.tree, els.tree);
-
-  const requested = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
-  const start = requested || manifest.defaultFile || getDefaultFile(manifest.tree);
-  if (start) await loadPage(start);
-
+function registerUIEvents() {
   window.addEventListener('hashchange', () => {
     const path = decodeURIComponent(location.hash.slice(1));
     if (path) loadPage(path);
@@ -564,54 +559,81 @@ async function init() {
     }
   });
 
-  els.graphToggle.addEventListener('click', () => toggleGraph(manifest));
-  els.graphClose.addEventListener('click', () => els.graphPanel.classList.remove('open'));
+  if (els.graphToggle) {
+    els.graphToggle.addEventListener('click', () => { try { toggleGraph(manifest); } catch (e) { console.error(e); } });
+  }
+  if (els.graphClose) {
+    els.graphClose.addEventListener('click', () => { if (els.graphPanel) els.graphPanel.classList.remove('open'); });
+  }
 
-  // Graph resize drag
-  let resizeData = null;
-  els.graphResize.addEventListener('mousedown', (e) => {
-    e.preventDefault();
-    resizeData = {
-      startX: e.clientX,
-      startY: e.clientY,
-      startW: els.graphPanel.offsetWidth,
-      startH: els.graphPanel.offsetHeight,
-    };
-    const onMove = (e2) => {
-      els.graphPanel.style.width = Math.max(280, resizeData.startW + (e2.clientX - resizeData.startX)) + 'px';
-      els.graphPanel.style.height = Math.max(240, resizeData.startH + (e2.clientY - resizeData.startY)) + 'px';
-    };
-    const onUp = () => {
-      document.removeEventListener('mousemove', onMove);
-      document.removeEventListener('mouseup', onUp);
-      if (graphView) graphView.resize();
-    };
-    document.addEventListener('mousemove', onMove);
-    document.addEventListener('mouseup', onUp);
-  });
-  els.graphResize.addEventListener('touchstart', (e) => {
-    const t = e.touches[0];
-    resizeData = {
-      startX: t.clientX,
-      startY: t.clientY,
-      startW: els.graphPanel.offsetWidth,
-      startH: els.graphPanel.offsetHeight,
-    };
-    const onMove = (e2) => {
-      const t2 = e2.touches[0];
-      els.graphPanel.style.width = Math.max(280, resizeData.startW + (t2.clientX - resizeData.startX)) + 'px';
-      els.graphPanel.style.height = Math.max(240, resizeData.startH + (t2.clientY - resizeData.startY)) + 'px';
-    };
-    const onUp = () => {
-      document.removeEventListener('touchmove', onMove);
-      document.removeEventListener('touchend', onUp);
-      if (graphView) graphView.resize();
-    };
-    document.addEventListener('touchmove', onMove, { passive: true });
-    document.addEventListener('touchend', onUp);
-  }, { passive: true });
+  if (els.graphResize) {
+    let resizeData = null;
+    els.graphResize.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      if (!els.graphPanel) return;
+      resizeData = {
+        startX: e.clientX,
+        startY: e.clientY,
+        startW: els.graphPanel.offsetWidth,
+        startH: els.graphPanel.offsetHeight,
+      };
+      const onMove = (e2) => {
+        if (!els.graphPanel) return;
+        els.graphPanel.style.width = Math.max(280, resizeData.startW + (e2.clientX - resizeData.startX)) + 'px';
+        els.graphPanel.style.height = Math.max(240, resizeData.startH + (e2.clientY - resizeData.startY)) + 'px';
+      };
+      const onUp = () => {
+        document.removeEventListener('mousemove', onMove);
+        document.removeEventListener('mouseup', onUp);
+        if (graphView) graphView.resize();
+      };
+      document.addEventListener('mousemove', onMove);
+      document.addEventListener('mouseup', onUp);
+    });
+    els.graphResize.addEventListener('touchstart', (e) => {
+      if (!els.graphPanel) return;
+      const t = e.touches[0];
+      resizeData = {
+        startX: t.clientX,
+        startY: t.clientY,
+        startW: els.graphPanel.offsetWidth,
+        startH: els.graphPanel.offsetHeight,
+      };
+      const onMove = (e2) => {
+        if (!els.graphPanel) return;
+        const t2 = e2.touches[0];
+        els.graphPanel.style.width = Math.max(280, resizeData.startW + (t2.clientX - resizeData.startX)) + 'px';
+        els.graphPanel.style.height = Math.max(240, resizeData.startH + (t2.clientY - resizeData.startY)) + 'px';
+      };
+      const onUp = () => {
+        document.removeEventListener('touchmove', onMove);
+        document.removeEventListener('touchend', onUp);
+        if (graphView) graphView.resize();
+      };
+      document.addEventListener('touchmove', onMove, { passive: true });
+      document.addEventListener('touchend', onUp);
+    }, { passive: true });
+  }
 }
 
-init().catch((err) => {
-  els.content.innerHTML = `<div class="error">Failed to initialize site: ${err.message}</div>`;
-});
+async function init() {
+  applyTheme(loadTheme());
+
+  // Register UI events first so theme/sidebar controls work even if manifest fails
+  registerUIEvents();
+
+  try {
+    const manifestRes = await fetch('./manifest.json');
+    manifest = await manifestRes.json();
+    buildWikiMap(manifest.tree);
+    renderTree(manifest.tree, els.tree);
+
+    const requested = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
+    const start = requested || manifest.defaultFile || getDefaultFile(manifest.tree);
+    if (start) await loadPage(start);
+  } catch (err) {
+    els.content.innerHTML = `<div class="error">Failed to load site data: ${err.message}</div>`;
+  }
+}
+
+init();
