@@ -11,6 +11,10 @@ const els = {
   sidebar: document.getElementById('sidebar'),
   mobileSidebar: document.getElementById('mobileSidebar'),
   toggleSidebar: document.getElementById('toggleSidebar'),
+  graphToggle: document.getElementById('graphToggle'),
+  graphPanel: document.getElementById('graphPanel'),
+  graphClose: document.getElementById('graphClose'),
+  graphCanvas: document.getElementById('graphCanvas'),
 };
 
 let manifest;
@@ -41,6 +45,321 @@ function loadTheme() {
     if (theme?.text && theme?.bg) return theme;
   } catch {}
   return DEFAULTS;
+}
+
+class GraphView {
+  constructor(container, manifest, currentPath, onNavigate) {
+    this.container = container;
+    this.manifest = manifest;
+    this._currentPath = currentPath;
+    this.onNavigate = onNavigate;
+
+    this.nodeMap = new Map();
+    buildGraphNodeMap(manifest.tree, this.nodeMap);
+
+    this.nodes = [];
+    this.nodeById = new Map();
+    for (const [path, name] of this.nodeMap) {
+      const node = { id: path, name, x: 0, y: 0, vx: 0, vy: 0 };
+      this.nodes.push(node);
+      this.nodeById.set(path, node);
+    }
+
+    this.edges = [];
+    for (const [src, tgt] of manifest.edges || []) {
+      const s = this.nodeById.get(src);
+      const t = this.nodeById.get(tgt);
+      if (s && t) this.edges.push({ source: s, target: t });
+    }
+
+    this.adj = new Map();
+    for (const node of this.nodes) this.adj.set(node, new Set());
+    for (const e of this.edges) {
+      this.adj.get(e.source).add(e.target);
+      this.adj.get(e.target).add(e.source);
+    }
+
+    this.canvas = document.createElement('canvas');
+    this.ctx = this.canvas.getContext('2d');
+    this.container.appendChild(this.canvas);
+
+    this.dpr = window.devicePixelRatio || 1;
+    this.hovered = null;
+    this.dragging = null;
+    this.dragStart = null;
+    this.dragMoved = false;
+    this.simAlpha = 1;
+
+    this.resize();
+    this.initPositions();
+    this.setupEvents();
+    this.tick();
+  }
+
+  get currentPath() { return this._currentPath; }
+  set currentPath(v) { this._currentPath = v; }
+
+  resize() {
+    const w = this.container.clientWidth;
+    const h = this.container.clientHeight;
+    if (w === 0 || h === 0) return;
+    this.width = w;
+    this.height = h;
+    this.canvas.width = w * this.dpr;
+    this.canvas.height = h * this.dpr;
+    this.canvas.style.width = w + 'px';
+    this.canvas.style.height = h + 'px';
+  }
+
+  initPositions() {
+    const cx = this.width / 2;
+    const cy = this.height / 2;
+    const r = Math.min(this.width, this.height) * 0.35;
+    const n = this.nodes.length;
+    for (let i = 0; i < n; i++) {
+      const angle = (2 * Math.PI * i) / n;
+      this.nodes[i].x = cx + r * Math.cos(angle) + (Math.random() - 0.5) * 20;
+      this.nodes[i].y = cy + r * Math.sin(angle) + (Math.random() - 0.5) * 20;
+    }
+  }
+
+  applyForces() {
+    if (this.simAlpha < 0.001) return;
+    const repulsion = 3000;
+    const attraction = 0.005;
+    const centering = 0.02;
+    const damping = 0.85;
+    const minDist = 30;
+    const idealEdgeLen = 120;
+
+    for (let i = 0; i < this.nodes.length; i++) {
+      for (let j = i + 1; j < this.nodes.length; j++) {
+        let dx = this.nodes[j].x - this.nodes[i].x;
+        let dy = this.nodes[j].y - this.nodes[i].y;
+        let dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < minDist) dist = minDist;
+        const force = repulsion / (dist * dist);
+        const fx = force * (dx / dist) * this.simAlpha;
+        const fy = force * (dy / dist) * this.simAlpha;
+        this.nodes[i].vx -= fx;
+        this.nodes[i].vy -= fy;
+        this.nodes[j].vx += fx;
+        this.nodes[j].vy += fy;
+      }
+    }
+
+    for (const e of this.edges) {
+      let dx = e.target.x - e.source.x;
+      let dy = e.target.y - e.source.y;
+      let dist = Math.sqrt(dx * dx + dy * dy);
+      if (dist < 1) dist = 1;
+      const force = (dist - idealEdgeLen) * attraction;
+      const fx = force * (dx / dist) * this.simAlpha;
+      const fy = force * (dy / dist) * this.simAlpha;
+      e.source.vx += fx;
+      e.source.vy += fy;
+      e.target.vx -= fx;
+      e.target.vy -= fy;
+    }
+
+    const cx = this.width / 2;
+    const cy = this.height / 2;
+    for (const node of this.nodes) {
+      node.vx += (cx - node.x) * centering * this.simAlpha;
+      node.vy += (cy - node.y) * centering * this.simAlpha;
+      node.vx *= damping;
+      node.vy *= damping;
+      node.x += node.vx;
+      node.y += node.vy;
+    }
+    this.simAlpha *= 0.997;
+  }
+
+  getNodeAt(x, y) {
+    for (const node of this.nodes) {
+      const dx = x - node.x;
+      const dy = y - node.y;
+      if (dx * dx + dy * dy < 144) return node;
+    }
+    return null;
+  }
+
+  render() {
+    const ctx = this.ctx;
+    const w = this.width;
+    const h = this.height;
+    const dpr = this.dpr;
+
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+
+    const currentConnections = new Set();
+    if (this._currentPath) {
+      const current = this.nodeById.get(this._currentPath);
+      if (current) {
+        currentConnections.add(current);
+        const neighbors = this.adj.get(current);
+        if (neighbors) {
+          for (const n of neighbors) currentConnections.add(n);
+        }
+      }
+    }
+
+    const dimAlpha = 0.12;
+    for (const e of this.edges) {
+      const connected = currentConnections.has(e.source) && currentConnections.has(e.target);
+      ctx.strokeStyle = connected ? 'rgba(255,255,255,0.35)' : `rgba(255,255,255,${dimAlpha})`;
+      ctx.lineWidth = connected ? 1.2 : 0.5;
+      ctx.beginPath();
+      ctx.moveTo(e.source.x, e.source.y);
+      ctx.lineTo(e.target.x, e.target.y);
+      ctx.stroke();
+    }
+
+    const nodeRadius = 5;
+    const nodeRadiusHover = 7;
+    const nodeRadiusCurrent = 8;
+
+    let labelNode = null;
+    for (const node of this.nodes) {
+      const isCurrent = this._currentPath && node.id === this._currentPath;
+      const isConnected = currentConnections.has(node);
+      const isHovered = this.hovered === node;
+
+      let alpha, radius;
+      if (isCurrent) { alpha = 1; radius = nodeRadiusCurrent; }
+      else if (isHovered) { alpha = 1; radius = nodeRadiusHover; labelNode = node; }
+      else if (isConnected) { alpha = 0.7; radius = nodeRadius; }
+      else { alpha = dimAlpha; radius = nodeRadius; }
+
+      ctx.beginPath();
+      ctx.arc(node.x, node.y, radius, 0, 2 * Math.PI);
+      ctx.fillStyle = `rgba(255,255,255,${alpha})`;
+      ctx.fill();
+
+      if (isCurrent) {
+        ctx.strokeStyle = '#7ab7ff';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+      } else if (isHovered) {
+        ctx.strokeStyle = 'rgba(255,255,255,0.6)';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+      }
+    }
+
+    if (this._currentPath) {
+      const cn = this.nodeById.get(this._currentPath);
+      if (cn && cn !== this.hovered) labelNode = cn;
+    }
+    if (labelNode) {
+      const name = labelNode.name.length > 28 ? labelNode.name.slice(0, 25) + '...' : labelNode.name;
+      ctx.font = '11px sans-serif';
+      const tw = ctx.measureText(name).width;
+      const lx = Math.max(2, Math.min(w - tw - 10, labelNode.x - tw / 2));
+      const ly = labelNode.y - 16;
+      ctx.fillStyle = 'rgba(0,0,0,0.75)';
+      const pad = 4;
+      ctx.beginPath();
+      ctx.moveTo(lx - pad + 3, ly - 2);
+      ctx.lineTo(lx - pad + tw + pad - 3, ly - 2);
+      ctx.quadraticCurveTo(lx - pad + tw + pad, ly - 2, lx - pad + tw + pad, ly - 2 + 3);
+      ctx.lineTo(lx - pad + tw + pad, ly - 2 + 16 - 3);
+      ctx.quadraticCurveTo(lx - pad + tw + pad, ly - 2 + 16, lx - pad + tw + pad - 3, ly - 2 + 16);
+      ctx.lineTo(lx - pad + 3, ly - 2 + 16);
+      ctx.quadraticCurveTo(lx - pad, ly - 2 + 16, lx - pad, ly - 2 + 16 - 3);
+      ctx.lineTo(lx - pad, ly - 2 + 3);
+      ctx.quadraticCurveTo(lx - pad, ly - 2, lx - pad + 3, ly - 2);
+      ctx.closePath();
+      ctx.fill();
+      ctx.fillStyle = '#fff';
+      ctx.fillText(name, lx, ly + 11);
+    }
+  }
+
+  tick() {
+    this.applyForces();
+    this.render();
+    this._frame = requestAnimationFrame(() => this.tick());
+  }
+
+  setupEvents() {
+    const getPos = (e) => {
+      const r = this.canvas.getBoundingClientRect();
+      const t = e.touches ? e.touches[0] : e;
+      return { x: t.clientX - r.left, y: t.clientY - r.top };
+    };
+
+    const onDown = (pos) => {
+      const node = this.getNodeAt(pos.x, pos.y);
+      if (node) {
+        this.dragging = node;
+        this.dragOffset = { x: pos.x - node.x, y: pos.y - node.y };
+        this.dragMoved = false;
+        this.simAlpha = 1;
+      }
+    };
+
+    const onMove = (pos) => {
+      if (this.dragging) {
+        this.dragging.x = Math.max(0, Math.min(this.width, pos.x - this.dragOffset.x));
+        this.dragging.y = Math.max(0, Math.min(this.height, pos.y - this.dragOffset.y));
+        this.dragMoved = true;
+        this.simAlpha = 1;
+        return;
+      }
+      this.hovered = this.getNodeAt(pos.x, pos.y);
+      this.canvas.style.cursor = this.hovered ? 'pointer' : '';
+    };
+
+    const onUp = () => {
+      if (this.dragging) {
+        const node = this.dragging;
+        this.dragging = null;
+        if (!this.dragMoved && this.onNavigate) {
+          this.onNavigate(node.id);
+        }
+      }
+    };
+
+    this.canvas.addEventListener('mousemove', (e) => onMove(getPos(e)));
+    this.canvas.addEventListener('mousedown', (e) => onDown(getPos(e)));
+    this.canvas.addEventListener('mouseup', onUp);
+    this.canvas.addEventListener('mouseleave', () => {
+      this.hovered = null;
+      this.dragging = null;
+    });
+
+    this.canvas.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      onDown(getPos(e));
+    }, { passive: false });
+    this.canvas.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+      onMove(getPos(e));
+    }, { passive: false });
+    this.canvas.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      onUp();
+    }, { passive: false });
+
+    this.resizeObserver = new ResizeObserver(() => this.resize());
+    this.resizeObserver.observe(this.container);
+  }
+
+  destroy() {
+    if (this._frame) cancelAnimationFrame(this._frame);
+    if (this.resizeObserver) this.resizeObserver.disconnect();
+  }
+}
+
+function buildGraphNodeMap(node, map) {
+  if (node.type === 'file') {
+    const name = node.name.replace(/\.md$/i, '');
+    map.set(node.path, name);
+    return;
+  }
+  for (const child of node.children || []) buildGraphNodeMap(child, map);
 }
 
 function slugifyTitle(title) {
@@ -111,6 +430,7 @@ function fixWikiLinks(markdown) {
 
 async function loadPage(path) {
   currentPath = path;
+  if (graphView) graphView.currentPath = path;
   updateActiveLink();
   setBreadcrumbs(path);
   els.content.innerHTML = '<div class="loading">Loading...</div>';
@@ -150,6 +470,21 @@ function getDefaultFile(node) {
     if (found) return found;
   }
   return null;
+}
+
+let graphView = null;
+
+function toggleGraph(manifest) {
+  if (els.graphPanel.classList.toggle('open')) {
+    if (!graphView) {
+      graphView = new GraphView(els.graphCanvas, manifest, currentPath, (path) => {
+        location.hash = encodeURIComponent(path);
+        els.graphPanel.classList.remove('open');
+      });
+    } else {
+      graphView.currentPath = currentPath;
+    }
+  }
 }
 
 async function init() {
@@ -197,6 +532,9 @@ async function init() {
       els.sidebar.classList.remove('open');
     }
   });
+
+  els.graphToggle.addEventListener('click', () => toggleGraph(manifest));
+  els.graphClose.addEventListener('click', () => els.graphPanel.classList.remove('open'));
 }
 
 init().catch((err) => {

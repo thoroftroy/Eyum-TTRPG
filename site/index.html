@@ -41,6 +41,16 @@
     </main>
   </div>
 
+  <button id="graphToggle" class="graph-toggle" title="Graph view" aria-label="Toggle graph view">⟐</button>
+
+  <div id="graphPanel" class="graph-panel">
+    <div class="graph-header">
+      <span>Graph View</span>
+      <button id="graphClose" class="ghost-button" title="Close graph">✕</button>
+    </div>
+    <div id="graphCanvas" class="graph-canvas"></div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
   <script src="./app.js" type="module"></script>
