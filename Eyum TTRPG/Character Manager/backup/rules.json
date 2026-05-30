@@ -1,0 +1,115 @@
+{
+  "base_stat_value": 8,
+  "starting_points": {
+    "skill_points": 5,
+    "stat_points": 24,
+    "affinity_points": 5
+  },
+  "level_1_bonuses": {
+    "skill_points": 2,
+    "vit_dice_count": 1,
+    "hp_dice_count": 1,
+    "mana_dice_count": 1,
+    "skill_tree_points": 1
+  },
+  "per_level": {
+    "skill_points": 2,
+    "vit_dice_count": 1,
+    "hp_dice_count": 1,
+    "mana_dice_count": 1
+  },
+  "every_2_levels": {
+    "skill_tree_point": true,
+    "if_physical": {
+      "flat_vit": 2,
+      "flat_hp": 1
+    }
+  },
+  "every_3_levels": {
+    "stat_points": 1,
+    "affinity_points": 2,
+    "feat": true,
+    "skill_points": 2,
+    "if_magical_spell": true
+  },
+  "every_8_levels": {
+    "bap": 1,
+    "skill_points": 5
+  },
+  "every_10_levels": {
+    "ap": 1
+  },
+  "proficiency": {
+    "base": 1,
+    "per_3_levels": 1
+  },
+  "stat_point_cost": {
+    "1-20": 1,
+    "21-30": 2,
+    "31-40": 3,
+    "41-50": 4
+  },
+  "die_averages": {
+    "1d4": 2.5,
+    "1d6": 3.5,
+    "1d8": 4.5,
+    "1d10": 5.5,
+    "1d12": 6.5,
+    "1d20": 10.5,
+    "2d4": 5.0,
+    "2d6": 7.0,
+    "2d8": 9.0,
+    "2d10": 11.0,
+    "2d12": 13.0,
+    "3d6": 10.5,
+    "4d6": 14.0,
+    "5d6": 17.5,
+    "6d6": 21.0,
+    "8d6": 28.0
+  },
+  "die_upgrade_order": [
+    "1d4",
+    "1d6",
+    "1d8",
+    "1d10",
+    "1d12",
+    "1d20"
+  ],
+  "starting_dice": {
+    "vit_die": "1d8",
+    "hp_die": "1d6",
+    "mana_die": "1d6"
+  },
+  "starting_combat": {
+    "ap": 1,
+    "bap": 1,
+    "rp": 1
+  },
+  "magical_start": {
+    "spells_at_level_1": 2
+  },
+  "ac": {
+    "base": 10,
+    "max_dex_bonus": 7,
+    "dex_bonus_table": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
+      "18": 7
+    }
+  }
+}
