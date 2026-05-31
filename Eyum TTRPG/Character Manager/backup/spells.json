@@ -9,54 +9,57 @@
     },
     {
       "name": "Mana Bolt",
-      "mana": 3,
+      "mana": 4,
       "affinity_required": 5,
-      "damage_formula": "1+affinity",
+      "damage_formula": "1+affinity_mod/2",
       "attack_roll": true,
-      "description": "1+Affinity of chosen affinity damage."
+      "description": "1+(Affinity Mod/2) of chosen affinity damage."
     },
     {
       "name": "Mana Bomb",
-      "mana": 5,
+      "mana": 8,
       "affinity_required": 5,
-      "int_required": 17,
-      "damage_formula": "3+affinity",
+      "int_required": 18,
+      "extra_prereqs": {
+        "affinities_at": {"5": 3}
+      },
+      "damage_formula": "3+affinity_mod/2",
       "save": "dex",
       "aoe_radius": 10,
-      "description": "3+Affinity damage to all in 10ft, Dex save negates."
+      "description": "3+(Affinity Mod/2) damage to all in 10ft, Dex save negates."
     },
     {
       "name": "Mana Explosion",
-      "mana": 10,
+      "mana": 14,
       "affinity_required": 10,
       "extra_prereqs": {
         "affinities_at_10": 3
       },
-      "damage_formula": "5+affinity",
+      "damage_formula": "5+affinity_mod/2",
       "save": "dex",
       "save_half": true,
       "aoe_radius": 25,
-      "description": "5+Affinity damage to all in 25ft, Dex save half."
+      "description": "5+(Affinity Mod/2) damage to all in 25ft, Dex save half."
     },
     {
       "name": "Mana Decimation",
-      "mana": 19,
-      "affinity_required": 10,
-      "int_required": 20,
+      "mana": 25,
+      "affinity_required": 16,
+      "int_required": 21,
       "extra_prereqs": {
-        "affinities_at_10": 4
+        "affinities_at": {"16": 4}
       },
-      "damage_formula": "30+affinity*2",
+      "damage_formula": "30+affinity_mod",
       "save": "dex",
       "save_half": true,
       "aoe_radius": 25,
-      "description": "30+(Affinity*2) damage to all in 25ft, Dex save half."
+      "description": "30+Affinity Mod damage to all in 25ft, Dex save half."
     }
   ],
   "Fire": [
     {
       "name": "Firebolt",
-      "mana": 5,
+      "mana": 10,
       "affinity_required": 3,
       "damage_dice": "1d8",
       "damage_type": "fire",
@@ -64,7 +67,7 @@
     },
     {
       "name": "Fireball",
-      "mana": 8,
+      "mana": 16,
       "affinity_required": 5,
       "damage_dice": "2d6",
       "damage_type": "fire",
@@ -74,9 +77,9 @@
     },
     {
       "name": "Fireburst",
-      "mana": 13,
+      "mana": 25,
       "affinity_required": 8,
-      "int_required": 15,
+      "int_required": 16,
       "damage_dice": "4d6",
       "damage_type": "fire",
       "save": "dex",
@@ -86,7 +89,7 @@
     },
     {
       "name": "Inferno Ring",
-      "mana": 22,
+      "mana": 40,
       "affinity_required": 10,
       "int_required": 18,
       "damage_dice": "5d6",
@@ -98,7 +101,7 @@
     },
     {
       "name": "Cataclysm Pyre",
-      "mana": 42,
+      "mana": 55,
       "affinity_required": 12,
       "int_required": 22,
       "damage_dice": "8d6",
@@ -273,7 +276,6 @@
       "damage_dice": "4d6",
       "damage_type": "air",
       "save": "str",
-      "save_half": true,
       "aoe_radius": 25,
       "extra_effect": "Push+Suffocating+NoFlight",
       "concentration": true
@@ -295,16 +297,15 @@
   "Necrotic": [
     {
       "name": "Rotting Touch",
-      "mana": 6,
+      "mana": 10,
       "affinity_required": 5,
-      "damage_dice": "1d4",
       "damage_type": "necrotic",
       "attack_roll": true,
       "extra_effect": "Bleeding+Diseased+Necrosis"
     },
     {
       "name": "Plague Grasp",
-      "mana": 10,
+      "mana": 15,
       "affinity_required": 8,
       "damage_dice": "2d6",
       "damage_type": "necrotic",
@@ -313,10 +314,9 @@
     },
     {
       "name": "Contagion Field",
-      "mana": 16,
+      "mana": 25,
       "affinity_required": 10,
       "int_required": 16,
-      "damage_dice": "2d6",
       "damage_type": "necrotic",
       "save": "con",
       "aoe_radius": 10,
@@ -324,7 +324,7 @@
     },
     {
       "name": "Death Bloom",
-      "mana": 25,
+      "mana": 45,
       "affinity_required": 12,
       "int_required": 18,
       "damage_dice": "6d6",
@@ -336,7 +336,7 @@
     },
     {
       "name": "Necrotic Collapse",
-      "mana": 44,
+      "mana": 65,
       "affinity_required": 15,
       "int_required": 22,
       "damage_dice": "8d6",

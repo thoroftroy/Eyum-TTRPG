@@ -117,9 +117,12 @@ class Character:
         self.twin_cast = False
         self.is_unarmed = False
         self.tull_tier = 0
+        self.tull_claw_die = None
+        self.tull_claw_flat = 0
         self.shield_master = False
         self.melee_extra_info = None
         self.pack_tactics = False
+        self.extra_attack_bap = False
         self.speed = 30
         self.initiative = 0
         self.bonus_action_sprint = False
@@ -159,6 +162,8 @@ class Character:
         self.crit_block = False
         self.second_chance = False
         self.skill_tree_level_bonus = False
+        self.spell_damage_mult = 1
+        self.spell_mana_mult = 1
 
     def mod(self, stat):
         val = getattr(self, stat)

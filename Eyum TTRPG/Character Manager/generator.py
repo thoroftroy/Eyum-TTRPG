@@ -161,6 +161,12 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     elif effect_key == 'ranged_expertise':
         if is_physical:
             score += 5
+    elif effect_key == 'spell_damage_mult':
+        if is_magical:
+            score += effect_val * 20
+    elif effect_key == 'spell_mana_mult':
+        if is_magical:
+            score += effect_val * -8
 
     return score
 
@@ -184,6 +190,21 @@ def score_archetype_for_build(arch_name, arch_data, build_config):
         total -= 20
     if arch_name == 'Magician':
         total -= 20
+
+    primary_aff = build_config.get('primary_affinity')
+    if primary_aff:
+        arch_aff_map = {
+            'Pyromancer': 'Fire', 'Geomancer': 'Earth',
+            'Tidemaster': 'Water', 'Windwalker': 'Air',
+            'Priest': 'Radiant', 'Necromancer': 'Necrotic'
+        }
+        mapped = arch_aff_map.get(arch_name)
+        if mapped:
+            if mapped == primary_aff:
+                total += 30
+            else:
+                total -= 20
+
     return total
 
 
@@ -201,7 +222,8 @@ def select_archetypes(build_config, settings, target_level):
             base_tiers = sum(1 for k in arch_data if float(k) == int(float(k)) and not arch_data[k].get('repeatable', False))
             arch_scores.append((score, path_name, arch_name, base_tiers))
 
-    arch_scores.sort(key=lambda x: x[0], reverse=True)
+    reverse_sort = not build_config.get('worst', False)
+    arch_scores.sort(key=lambda x: x[0], reverse=reverse_sort)
 
     result = []
     stp_remaining = available_stp
@@ -231,13 +253,17 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
 
     all_races = build_race_data(settings)
 
-    if 'preferred_paths' in build_config and ('paths' not in build_config or not build_config.get('paths')):
+    is_worst = build_config.get('worst', False)
+    is_casual = build_name.lower().startswith('casual ')
+    family_name = None
+    subrace_name = None
+    if not is_worst and not is_casual and 'preferred_paths' in build_config and ('paths' not in build_config or not build_config.get('paths')):
         max_level = max(levels)
         dynamic_paths = select_archetypes(build_config, settings, max(levels))
         build_config['paths'] = dynamic_paths
 
     race_pickup = build_config.get('race', None)
-    if race_pickup:
+    if race_pickup and not is_worst and not is_casual:
         family_name, subrace_name = select_best_race(build_config, all_races)
         if family_name and subrace_name:
             race_data = all_races[family_name]['subraces'][subrace_name]
@@ -260,7 +286,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         char.is_unarmed = build_config.get('unarmed_fighter', False) or char.gear.get('weapon', '') == 'none'
         char.tull_tier = 0
 
-        if race_pickup and family_name and subrace_name:
+        if race_pickup and not is_worst and not is_casual and family_name and subrace_name:
             race_data = all_races[family_name]['subraces'][subrace_name]
             race_bonuses = race_data.get('stat_bonuses', {})
             affinity_bonuses = race_data.get('affinity_bonuses', {})
@@ -274,15 +300,24 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             char.speed = race_data.get('speed', 30)
 
         apply_level_progression(char, level, settings)
+        if not is_worst and not is_casual:
+            apply_paths(char, level, build_config, settings)
 
-        if build_config.get('spend_stat_points') == 'all':
+        if build_config.get('spend_stat_points') == 'all' and not build_config.get('worst', False):
             priority = build_config.get('stat_priority', ['str','dex','con','wis','int','cha'])
             total_pts = char.stat_points + settings['rules']['starting_points']['stat_points']
+
+            is_casual = build_name.lower().startswith('casual ')
+            if is_casual:
+                total_pts = total_pts * 2 // 5
+
             cost_table = settings['rules']['stat_point_cost']
 
-            char_type = 'balanced'
             lower_name = build_name.lower()
-            if 'tank' in lower_name:
+            char_type = 'balanced'
+            if 'worst' in lower_name:
+                char_type = 'balanced'
+            elif 'tank' in lower_name:
                 char_type = 'tank'
             elif 'archer' in lower_name:
                 char_type = 'marksman'
@@ -296,29 +331,24 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             spend_stat_points(char, priority, total_pts, cost_table, char_type)
             char.stat_points = 0
 
-        apply_paths(char, level, build_config, settings)
-
         if char.is_unarmed:
             tull_tier = char.tull_tier
-            if tull_tier >= 9:
-                char.melee_damage += 16
-                char.melee_extra_info = "1d20 Slashing + 1d12 Bludgeoning (Tull Claws)"
-            elif tull_tier >= 5:
-                char.melee_damage += 10
-                char.melee_extra_info = "1d10 Slashing + 1d8 Bludgeoning (Tull Claws)"
-            elif tull_tier >= 1:
-                char.melee_damage += 5
-                char.melee_extra_info = "1d6 Slashing + 1d4 Bludgeoning (Tull Claws)"
+            if char.tull_claw_die:
+                if tull_tier >= 9:
+                    char.melee_extra_info = "1d10 Slashing + 8 Bludgeoning (Tull Claws)"
+                elif tull_tier >= 5:
+                    char.melee_extra_info = "1d8 Slashing + 4 Bludgeoning (Tull Claws)"
+                else:
+                    char.melee_extra_info = "1d6 Slashing + 2 Bludgeoning (Tull Claws)"
             else:
                 char.melee_damage += 2
                 char.melee_extra_info = "1d4 Bludgeoning (Fist)"
 
-            if tull_tier >= 3:
-                char.pack_tactics = True
+        if not is_casual:
+            select_feats(char, level, settings)
 
-        select_feats(char, level, settings)
-
-        spend_affinity_points(char, settings)
+        if not is_casual and not build_config.get('worst', False):
+            spend_affinity_points(char, build_config.get('primary_affinity'))
 
         dmg_perturn = calculate_damage(char, settings)
         dmg_5round = calculate_5_round_damage(char, settings['rules'], dmg_perturn, settings)

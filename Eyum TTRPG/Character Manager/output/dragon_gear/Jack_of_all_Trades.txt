@@ -19,7 +19,7 @@ EYUM TTRPG - JACK OF ALL TRADES (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +4 | Ranged: +2 | Magic: +2
+    To Hit: Melee: +3 | Ranged: +2 | Magic: +3
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -28,10 +28,10 @@ EYUM TTRPG - JACK OF ALL TRADES (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Melee Dmg/Hit: 24 | Dmg/Turn: 24
     Ranged Dmg/Hit: 23 | Dmg/Turn: 23
-    Total Dmg/5R:  132
-    Total Dmg/10R: 265
+    Total Dmg/5R:  122
+    Total Dmg/10R: 245
 
   RESOURCES:
     Skill Points:  7
@@ -41,17 +41,33 @@ EYUM TTRPG - JACK OF ALL TRADES (DRAGON BONE/SCALE GEAR)
 
   FEATS & SPELLS:
     Feats:  0
-    Spells:  0
+    Spells:  2
 
   PATHS:
+    Magical -> Magician (Lvl 0)
     Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
     Earth          : 4
     Fire           : 1
-    Generic        : 1
+    Generic        : 2
     Necrotic       : 3
     Psychic        : -3
     Radiant        : 1
@@ -79,7 +95,7 @@ EYUM TTRPG - JACK OF ALL TRADES (DRAGON BONE/SCALE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Melee: +4 | Ranged: +2 | Magic: +2
+    To Hit: Melee: +4 | Ranged: +2 | Magic: +3
 
   HEALTH POOLS:
     Vitality: 18 = 3d8 (4 x 3) + 2(flat) + 1 x 3(Con)
@@ -101,21 +117,2563 @@ EYUM TTRPG - JACK OF ALL TRADES (DRAGON BONE/SCALE GEAR)
 
   FEATS & SPELLS:
     Feats:  0
-    Spells:  0
+    Spells:  2
 
   PATHS:
+    Magical -> Magician (Lvl 0)
     Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
     Racial -> Therian Minotaur (Lvl 0)
 
   AFFINITIES:
     Air            : 1
     Earth          : 4
     Fire           : 2
-    Generic        : 1
+    Generic        : 2
     Necrotic       : 3
     Psychic        : -3
     Radiant        : 1
     Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 3 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 22
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Melee: +5 | Ranged: +3 | Magic: +3
+
+  HEALTH POOLS:
+    Vitality: 27 = 4d8 (4 x 4) + 5(flat) + 1 x 4(Con)
+    Health:  18 = 4d6 (3 x 4) + 4(flat)
+    Mana:   18 = 4d6 (3 x 4) + 1 x 4(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 23
+    Total Dmg/5R:  132
+    Total Dmg/10R: 265
+
+  RESOURCES:
+    Skill Points:  13
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  3
+
+  PATHS:
+    Magical -> Magician (Lvl 0)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 4
+    Fire           : 2
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 4 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 22
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Melee: +5 | Ranged: +3 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 35 = 5d8 (4 x 5) + 8(flat) + 1 x 5(Con)
+    Health:  23 = 5d6 (3 x 5) + 6(flat)
+    Mana:   22 = 5d6 (3 x 5) + 1 x 5(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 23
+    Magic Dmg/Cast: 1 (x5 mana)
+    Total Dmg/5R:  132
+    Total Dmg/10R: 265
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  17
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  3
+
+  PATHS:
+    Magical -> Magician (Lvl 0)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 5
+    Fire           : 2
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 5 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 13 (+1) = 8 + 5
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 22
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Melee: +5 | Ranged: +3 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 42 = 6d8 (4 x 6) + 9(flat) + 1 x 6(Con)
+    Health:  28 = 6d6 (3 x 6) + 7(flat)
+    Mana:   27 = 6d6 (3 x 6) + 1 x 6(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 23
+    Magic Dmg/Cast: 1 (x5 mana)
+    Total Dmg/5R:  132
+    Total Dmg/10R: 265
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  19
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  3
+
+  PATHS:
+    Magical -> Magician (Lvl 0)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 5
+    Fire           : 2
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 6 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 22
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +6 | Ranged: +4 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 50 = 7d8 (4 x 7) + 12(flat) + 1 x 7(Con)
+    Health:  33 = 7d6 (3 x 7) + 9(flat)
+    Mana:   38 = 7d6 (3 x 7) + 2 x 7(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 23
+    Magic Dmg/Cast: 1 (x5 mana)
+    Total Dmg/5R:  132
+    Total Dmg/10R: 265
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  23
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  4
+
+  PATHS:
+    Magical -> Magician (Lvl 0)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 6
+    Fire           : 3
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 7 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 22
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +6 | Ranged: +4 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 57 = 8d8 (4 x 8) + 13(flat) + 1 x 8(Con)
+    Health:  38 = 8d6 (3 x 8) + 10(flat)
+    Mana:   44 = 8d6 (3 x 8) + 2 x 8(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Melee Dmg/Hit: 26 | Dmg/Turn: 26
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 23
+    Magic Dmg/Cast: 1 (x5 mana)
+    Total Dmg/5R:  132
+    Total Dmg/10R: 265
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  25
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  4
+
+  PATHS:
+    Magical -> Magician (Lvl 0)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 1
+    Earth          : 6
+    Fire           : 3
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 8 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 13 (+1) = 8 + 5
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 22
+    Initiative: +1
+    Speed: 30 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +3
+    To Hit: Melee: +6 | Ranged: +4 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 56 = 9d6 (3 x 9) + 16(flat) + 1 x 9(Con)
+    Health:  43 = 9d6 (3 x 9) + 12(flat)
+    Mana:   74 = 9d8 (4 x 9) + 2 x 9(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 26 | Dmg/Turn: 52
+    Ranged Dmg/Hit: 23 | Dmg/Turn: 46
+    Magic Dmg/Cast: 6 | Dmg/Turn: 12 (x15 mana)
+    Total Dmg/5R:  265
+    Total Dmg/10R: 530
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  32
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Mana Flow)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  4
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 2
+    Earth          : 6
+    Fire           : 3
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 2
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 9 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +2
+    Speed: 30 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +7 | Ranged: +6 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 62 = 10d6 (3 x 10) + 17(flat) + 1 x 10(Con)
+    Health:  48 = 10d6 (3 x 10) + 13(flat)
+    Mana:   83 = 10d8 (4 x 10) + 2 x 10(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 26 | Dmg/Turn: 52
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 5 | Dmg/Turn: 10 (x15 mana)
+    Total Dmg/5R:  265
+    Total Dmg/10R: 530
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  36
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Mana Flow, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 0)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 6
+    Fire           : 3
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 3
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 10 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +7 | Ranged: +7 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 69 = 11d6 (3 x 11) + 20(flat) + 1 x 11(Con)
+    Health:  53 = 11d6 (3 x 11) + 15(flat)
+    Mana:   91 = 11d8 (4 x 11) + 2 x 11(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 26 | Dmg/Turn: 52
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 5 | Dmg/Turn: 10 (x15 mana)
+    Total Dmg/5R:  265
+    Total Dmg/10R: 530
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  38
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Mana Flow, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 6
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 3
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 11 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 13 (+1) = 10 + 3
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +2
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Melee: +7 | Ranged: +7 | Magic: +4
+
+  HEALTH POOLS:
+    Vitality: 75 = 12d6 (3 x 12) + 21(flat) + 1 x 12(Con)
+    Health:  58 = 12d6 (3 x 12) + 16(flat)
+    Mana:   100 = 12d8 (4 x 12) + 2 x 12(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 26 | Dmg/Turn: 52
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 5 | Dmg/Turn: 10 (x15 mana)
+    Total Dmg/5R:  265
+    Total Dmg/10R: 530
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  40
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Mana Flow, Armor Training)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 0)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 6
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -2
+    Radiant        : 1
+    Water          : 3
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 12 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +8 | Ranged: +8 | Magic: +5
+
+  HEALTH POOLS:
+    Vitality: 95 = 13d6 (3 x 13) + 24(flat) + 2 x 13(Con)
+    Health:  63 = 13d6 (3 x 13) + 18(flat)
+    Mana:   108 = 13d8 (4 x 13) + 2 x 13(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  44
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 3
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 13 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +8 | Ranged: +8 | Magic: +5
+
+  HEALTH POOLS:
+    Vitality: 102 = 14d6 (3 x 14) + 25(flat) + 2 x 14(Con)
+    Health:  68 = 14d6 (3 x 14) + 19(flat)
+    Mana:   117 = 14d8 (4 x 14) + 2 x 14(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  46
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 3
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 14 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 13 (+1) = 8 + 5
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Melee: +9 | Ranged: +8 | Magic: +5
+
+  HEALTH POOLS:
+    Vitality: 110 = 15d6 (3 x 15) + 28(flat) + 2 x 15(Con)
+    Health:  73 = 15d6 (3 x 15) + 21(flat)
+    Mana:   125 = 15d8 (4 x 15) + 2 x 15(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  48
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 4
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -2
+    Radiant        : 2
+    Water          : 4
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 15 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +10 | Ranged: +9 | Magic: +5
+
+  HEALTH POOLS:
+    Vitality: 117 = 16d6 (3 x 16) + 29(flat) + 2 x 16(Con)
+    Health:  78 = 16d6 (3 x 16) + 22(flat)
+    Mana:   134 = 16d8 (4 x 16) + 2 x 16(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  52
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 3
+    Earth          : 7
+    Fire           : 5
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 4
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 16 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +10 | Ranged: +9 | Magic: +6
+
+  HEALTH POOLS:
+    Vitality: 125 = 17d6 (3 x 17) + 32(flat) + 2 x 17(Con)
+    Health:  83 = 17d6 (3 x 17) + 24(flat)
+    Mana:   142 = 17d8 (4 x 17) + 2 x 17(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x48 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  59
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 7
+    Fire           : 9
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 4
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 17 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 23
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Melee: +10 | Ranged: +9 | Magic: +6
+
+  HEALTH POOLS:
+    Vitality: 132 = 18d6 (3 x 18) + 33(flat) + 2 x 18(Con)
+    Health:  88 = 18d6 (3 x 18) + 25(flat)
+    Mana:   151 = 18d8 (4 x 18) + 2 x 18(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x48 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  61
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 7
+    Fire           : 9
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 4
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 18 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 24
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +11 | Ranged: +10 | Magic: +8
+
+  HEALTH POOLS:
+    Vitality: 140 = 19d6 (3 x 19) + 36(flat) + 2 x 19(Con)
+    Health:  93 = 19d6 (3 x 19) + 27(flat)
+    Mana:   159 = 19d8 (4 x 19) + 2 x 19(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  65
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 14
+    Fire           : 10
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 5
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 19 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 24
+    Initiative: +4
+    Speed: 30 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +11 | Ranged: +10 | Magic: +8
+
+  HEALTH POOLS:
+    Vitality: 147 = 20d6 (3 x 20) + 37(flat) + 2 x 20(Con)
+    Health:  98 = 20d6 (3 x 20) + 28(flat)
+    Mana:   168 = 20d8 (4 x 20) + 2 x 20(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  67
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 14
+    Fire           : 10
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 5
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 20 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 13 + 2
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 14 (+2) = 8 + 6
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 24
+    Initiative: +4
+    Speed: 30 ft
+    AP: 3  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Melee: +11 | Ranged: +10 | Magic: +9
+
+  HEALTH POOLS:
+    Vitality: 155 = 21d6 (3 x 21) + 40(flat) + 2 x 21(Con)
+    Health:  103 = 21d6 (3 x 21) + 30(flat)
+    Mana:   176 = 21d8 (4 x 21) + 2 x 21(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Melee Dmg/Hit: 31 | Dmg/Turn: 62
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 48
+    Magic Dmg/Cast: 16 | Dmg/Turn: 32 (x24 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  69
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Earth          : 15
+    Fire           : 10
+    Generic        : 2
+    Necrotic       : 5
+    Psychic        : -1
+    Radiant        : 2
+    Water          : 9
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 25 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 16 (+3) = 13 + 3
+    DEX: 14 (+2) = 8 + 6
+    CON: 14 (+2) = 10 + 4
+    WIS: 15 (+2) = 8 + 7
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 24
+    Initiative: +4
+    Speed: 30 ft
+    AP: 3  BAP: 4  RP: 1
+    Proficiency: +9
+    To Hit: Melee: +14 | Ranged: +12 | Magic: +10
+
+  HEALTH POOLS:
+    Vitality: 192 = 26d6 (3 x 26) + 49(flat) + 2 x 26(Con)
+    Health:  128 = 26d6 (3 x 26) + 37(flat)
+    Mana:   219 = 26d8 (4 x 26) + 2 x 26(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 32 | Dmg/Turn: 96
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 72
+    Magic Dmg/Cast: 20 | Dmg/Turn: 60 (x42 mana)
+    Total Dmg/5R:  487
+    Total Dmg/10R: 975
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  88
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    32
+
+  FEATS & SPELLS:
+    Feats:  8 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  10
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 0)
+    Utility -> Scholar (Lvl 0)
+    Physical -> Indomitable (Lvl 0)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 12
+    Earth          : 18
+    Fire           : 13
+    Generic        : 2
+    Necrotic       : 6
+    Psychic        : 0
+    Radiant        : 7
+    Water          : 13
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 30 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 16 (+3) = 13 + 3
+    DEX: 15 (+2) = 8 + 7
+    CON: 15 (+2) = 10 + 5
+    WIS: 15 (+2) = 8 + 7
+    INT: 14 (+2) = 8 + 6
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 24
+    Initiative: +4
+    Speed: 30 ft
+    AP: 4  BAP: 4  RP: 1
+    Proficiency: +11
+    To Hit: Melee: +16 | Ranged: +14 | Magic: +11
+
+  HEALTH POOLS:
+    Vitality: 261 = 31d8 (4 x 31) + 60(flat) + 2 x 31(Con)
+    Health:  153 = 31d6 (3 x 31) + 45(flat)
+    Mana:   230 = 31d6 (3 x 31) + 2 x 31(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Melee Dmg/Hit: 32 | Dmg/Turn: 96
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 72
+    Magic Dmg/Cast: 20 | Dmg/Turn: 60 (x42 mana)
+    Total Dmg/5R:  487
+    Total Dmg/10R: 975
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  141
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    34
+
+  FEATS & SPELLS:
+    Feats:  10 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Overdrive, Brawler, Brawler)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  12
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 0)
+    Utility -> Slime Rancher (Lvl 0)
+    Utility -> Rune Master (Lvl 0)
+    Utility -> Golem Tamer (Lvl 0)
+    Utility -> Dragonslayer (Lvl 0)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 13
+    Earth          : 19
+    Fire           : 14
+    Generic        : 2
+    Necrotic       : 11
+    Psychic        : 1
+    Radiant        : 8
+    Water          : 14
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 40 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 17 (+3) = 13 + 4
+    DEX: 15 (+2) = 8 + 7
+    CON: 15 (+2) = 10 + 5
+    WIS: 15 (+2) = 8 + 7
+    INT: 15 (+2) = 8 + 7
+    CHA: 15 (+2) = 8 + 7
+
+  COMBAT:
+    AC: 24
+    Initiative: +4
+    Speed: 30 ft
+    AP: 5  BAP: 6  RP: 1
+    Proficiency: +14
+    To Hit: Melee: +19 | Ranged: +17 | Magic: +12
+
+  HEALTH POOLS:
+    Vitality: 346 = 41d8 (4 x 41) + 80(flat) + 2 x 41(Con)
+    Health:  203 = 41d6 (3 x 41) + 60(flat)
+    Mana:   305 = 41d6 (3 x 41) + 2 x 41(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 4
+    Melee Dmg/Hit: 33 | Dmg/Turn: 132
+    Ranged Dmg/Hit: 24 | Dmg/Turn: 96
+    Magic Dmg/Cast: 21 | Dmg/Turn: 84 (x42 mana)
+    Total Dmg/5R:  670
+    Total Dmg/10R: 1340
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  187
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    37
+
+  FEATS & SPELLS:
+    Feats:  13 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Overdrive, Brawler, Brawler, Brawler, Affinity Master (Choose), Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  15
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Physical -> Marksman (Lvl 1)
+    Utility -> Scoundrel (Lvl 1)
+    Physical -> Duelist (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 0)
+
+  AFFINITIES:
+    Air            : 16
+    Earth          : 22
+    Fire           : 17
+    Generic        : 2
+    Necrotic       : 12
+    Psychic        : 2
+    Radiant        : 9
+    Water          : 16
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 50 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 17 (+3) = 13 + 4
+    DEX: 16 (+3) = 8 + 8
+    CON: 16 (+3) = 10 + 6
+    WIS: 16 (+3) = 8 + 8
+    INT: 15 (+2) = 8 + 7
+    CHA: 15 (+2) = 8 + 7
+
+  COMBAT:
+    AC: 26
+    Initiative: +5
+    Speed: 30 ft
+    AP: 6  BAP: 8  RP: 2
+    Proficiency: +17
+    To Hit: Melee: +22 | Ranged: +21 | Magic: +13
+
+  HEALTH POOLS:
+    Vitality: 441 = 51d6 (3 x 51) + 110(flat) + 3 x 51(Con)
+    Health:  253 = 51d6 (3 x 51) + 75(flat)
+    Mana:   482 = 51d8 (4 x 51) + 3 x 51(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 36 | Dmg/Turn: 180
+    Ranged Dmg/Hit: 25 | Dmg/Turn: 125
+    Magic Dmg/Cast: 21 | Dmg/Turn: 105 (x42 mana)
+    Total Dmg/5R:  930
+    Total Dmg/10R: 1842
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  228
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    40
+
+  FEATS & SPELLS:
+    Feats:  16 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  18
+
+  PATHS:
+    Magical -> Magician (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 18
+    Earth          : 23
+    Fire           : 20
+    Generic        : 2
+    Necrotic       : 13
+    Psychic        : 3
+    Radiant        : 10
+    Water          : 18
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 60 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 18 (+4) = 13 + 5
+    DEX: 16 (+3) = 8 + 8
+    CON: 16 (+3) = 10 + 6
+    WIS: 17 (+3) = 8 + 9
+    INT: 16 (+3) = 8 + 8
+    CHA: 16 (+3) = 8 + 8
+
+  COMBAT:
+    AC: 26
+    Initiative: +5
+    Speed: 30 ft
+    AP: 7  BAP: 9  RP: 2
+    Proficiency: +21
+    To Hit: Melee: +27 | Ranged: +25 | Magic: +15
+
+  HEALTH POOLS:
+    Vitality: 526 = 61d6 (3 x 61) + 130(flat) + 3 x 61(Con)
+    Health:  303 = 61d6 (3 x 61) + 90(flat)
+    Mana:   577 = 61d8 (4 x 61) + 3 x 61(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 5
+    Melee Dmg/Hit: 37 | Dmg/Turn: 185
+    Ranged Dmg/Hit: 25 | Dmg/Turn: 125
+    Magic Dmg/Cast: 31 | Dmg/Turn: 155 (x36 mana)
+    Total Dmg/5R:  955
+    Total Dmg/10R: 1892
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  271
+    Stat Points:   5
+    Affinity Pts:  0
+    Stat Spent:    44
+
+  FEATS & SPELLS:
+    Feats:  20 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  22
+
+  PATHS:
+    Magical -> Magician (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Magical -> Pyromancer (Lvl 2)
+    Magical -> Geomancer (Lvl 2)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Magical -> Necromancer (Lvl 1)
+    Utility -> Scholar (Lvl 1)
+    Physical -> Indomitable (Lvl 1)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 1)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 20
+    Earth          : 27
+    Fire           : 22
+    Generic        : 2
+    Necrotic       : 14
+    Psychic        : 4
+    Radiant        : 11
+    Water          : 20
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 70 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 18 (+4) = 13 + 5
+    DEX: 17 (+3) = 8 + 9
+    CON: 17 (+3) = 10 + 7
+    WIS: 17 (+3) = 8 + 9
+    INT: 17 (+3) = 8 + 9
+    CHA: 16 (+3) = 8 + 8
+
+  COMBAT:
+    AC: 26
+    Initiative: +5
+    Speed: 30 ft
+    AP: 8  BAP: 10  RP: 2
+    Proficiency: +24
+    To Hit: Melee: +30 | Ranged: +28 | Magic: +15
+
+  HEALTH POOLS:
+    Vitality: 682 = 71d8 (4 x 71) + 150(flat) + 3 x 71(Con)
+    Health:  353 = 71d6 (3 x 71) + 105(flat)
+    Mana:   601 = 71d6 (3 x 71) + 3 x 71(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 6
+    Melee Dmg/Hit: 37 | Dmg/Turn: 222
+    Ranged Dmg/Hit: 25 | Dmg/Turn: 150
+    Magic Dmg/Cast: 29 | Dmg/Turn: 174 (x36 mana)
+    Total Dmg/5R:  1146
+    Total Dmg/10R: 2271
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  384
+    Stat Points:   8
+    Affinity Pts:  0
+    Stat Spent:    47
+
+  FEATS & SPELLS:
+    Feats:  23 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  25
+
+  PATHS:
+    Magical -> Magician (Lvl 2)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Magical -> Pyromancer (Lvl 2)
+    Magical -> Geomancer (Lvl 2)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Magical -> Necromancer (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 2)
+    Utility -> Rune Master (Lvl 1)
+    Utility -> Golem Tamer (Lvl 1)
+    Utility -> Dragonslayer (Lvl 1)
+    Racial -> Therian Minotaur (Lvl 1)
+
+  AFFINITIES:
+    Air            : 22
+    Earth          : 28
+    Fire           : 24
+    Generic        : 2
+    Necrotic       : 15
+    Psychic        : 5
+    Radiant        : 12
+    Water          : 23
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 80 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 19 (+4) = 13 + 6
+    DEX: 17 (+3) = 8 + 9
+    CON: 17 (+3) = 10 + 7
+    WIS: 18 (+4) = 8 + 10
+    INT: 17 (+3) = 8 + 9
+    CHA: 17 (+3) = 8 + 9
+
+  COMBAT:
+    AC: 26
+    Initiative: +5
+    Speed: 30 ft
+    AP: 9  BAP: 12  RP: 2
+    Proficiency: +27
+    To Hit: Melee: +33 | Ranged: +31 | Magic: +16
+
+  HEALTH POOLS:
+    Vitality: 696 = 81d6 (3 x 81) + 170(flat) + 3 x 81(Con)
+    Health:  403 = 81d6 (3 x 81) + 120(flat)
+    Mana:   848 = 81d8 (4 x 81) + 4 x 81(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 8
+    Melee Dmg/Hit: 37 | Dmg/Turn: 296
+    Ranged Dmg/Hit: 25 | Dmg/Turn: 200
+    Magic Dmg/Cast: 31 | Dmg/Turn: 248 (x36 mana)
+    Total Dmg/5R:  1528
+    Total Dmg/10R: 3028
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+
+  RESOURCES:
+    Skill Points:  439
+    Stat Points:   11
+    Affinity Pts:  0
+    Stat Spent:    50
+
+  FEATS & SPELLS:
+    Feats:  26 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  28
+
+  PATHS:
+    Magical -> Magician (Lvl 3)
+    Physical -> Marksman (Lvl 2)
+    Utility -> Scoundrel (Lvl 2)
+    Physical -> Duelist (Lvl 2)
+    Magical -> Pyromancer (Lvl 2)
+    Magical -> Geomancer (Lvl 2)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Magical -> Necromancer (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 2)
+    Utility -> Rune Master (Lvl 2)
+    Utility -> Golem Tamer (Lvl 2)
+    Utility -> Dragonslayer (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 25
+    Earth          : 30
+    Fire           : 25
+    Generic        : 2
+    Necrotic       : 16
+    Psychic        : 6
+    Radiant        : 13
+    Water          : 25
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 90 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 19 (+4) = 13 + 6
+    DEX: 18 (+4) = 8 + 10
+    CON: 18 (+4) = 10 + 8
+    WIS: 18 (+4) = 8 + 10
+    INT: 18 (+4) = 8 + 10
+    CHA: 18 (+4) = 8 + 10
+
+  COMBAT:
+    AC: 26
+    Initiative: +6
+    Speed: 60 ft
+    AP: 10  BAP: 13  RP: 2
+    Proficiency: +31
+    To Hit: Melee: +37 | Ranged: +36 | Magic: +17
+
+  HEALTH POOLS:
+    Vitality: 872 = 91d6 (3 x 91) + 190(flat) + 4 x 91(Con)
+    Health:  453 = 91d6 (3 x 91) + 135(flat)
+    Mana:   953 = 91d8 (4 x 91) + 4 x 91(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 8
+    Melee Dmg/Hit: 37 | Dmg/Turn: 296
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 248
+    Magic Dmg/Cast: 38 | Dmg/Turn: 304 (x36 mana)
+    Total Dmg/5R:  1330
+    Total Dmg/10R: 2830
+    Mana: 953 start, 17 after 10R (cast magic 4/10 rounds)
+
+  RESOURCES:
+    Skill Points:  494
+    Stat Points:   15
+    Affinity Pts:  0
+    Stat Spent:    54
+
+  FEATS & SPELLS:
+    Feats:  30 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  32
+
+  PATHS:
+    Magical -> Magician (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Magical -> Necromancer (Lvl 2)
+    Utility -> Scholar (Lvl 2)
+    Physical -> Indomitable (Lvl 2)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 2)
+    Utility -> Rune Master (Lvl 2)
+    Utility -> Golem Tamer (Lvl 2)
+    Utility -> Dragonslayer (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 27
+    Earth          : 32
+    Fire           : 29
+    Generic        : 2
+    Necrotic       : 17
+    Psychic        : 7
+    Radiant        : 14
+    Water          : 27
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 100 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 20 (+5) = 13 + 7
+    DEX: 19 (+4) = 8 + 11
+    CON: 18 (+4) = 10 + 8
+    WIS: 19 (+4) = 8 + 11
+    INT: 18 (+4) = 8 + 10
+    CHA: 18 (+4) = 8 + 10
+
+  COMBAT:
+    AC: 26
+    Initiative: +6
+    Speed: 60 ft
+    AP: 11  BAP: 14  RP: 2
+    Proficiency: +34
+    To Hit: Melee: +41 | Ranged: +39 | Magic: +19
+
+  HEALTH POOLS:
+    Vitality: 967 = 101d6 (3 x 101) + 210(flat) + 4 x 101(Con)
+    Health:  503 = 101d6 (3 x 101) + 150(flat)
+    Mana:   1058 = 101d8 (4 x 101) + 4 x 101(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 9
+    Melee Dmg/Hit: 38 | Dmg/Turn: 342
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 279
+    Magic Dmg/Cast: 59 | Dmg/Turn: 531 (x12 mana)
+    Total Dmg/5R:  2788
+    Total Dmg/10R: 5301
+    Mana: 1058 start, 2 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  604
+    Stat Points:   18
+    Affinity Pts:  0
+    Stat Spent:    57
+
+  FEATS & SPELLS:
+    Feats:  33 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  35
+
+  PATHS:
+    Magical -> Magician (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Physical -> Indomitable (Lvl 2)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 2)
+    Utility -> Rune Master (Lvl 2)
+    Utility -> Golem Tamer (Lvl 2)
+    Utility -> Dragonslayer (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 29
+    Earth          : 35
+    Fire           : 30
+    Generic        : 2
+    Necrotic       : 18
+    Psychic        : 8
+    Radiant        : 15
+    Water          : 29
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 110 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 20 (+5) = 13 + 7
+    DEX: 19 (+4) = 8 + 11
+    CON: 19 (+4) = 10 + 9
+    WIS: 19 (+4) = 8 + 11
+    INT: 19 (+4) = 8 + 11
+    CHA: 19 (+4) = 8 + 11
+
+  COMBAT:
+    AC: 26
+    Initiative: +6
+    Speed: 60 ft
+    AP: 12  BAP: 15  RP: 2
+    Proficiency: +37
+    To Hit: Melee: +44 | Ranged: +42 | Magic: +20
+
+  HEALTH POOLS:
+    Vitality: 1173 = 111d8 (4 x 111) + 230(flat) + 4 x 111(Con)
+    Health:  553 = 111d6 (3 x 111) + 165(flat)
+    Mana:   1052 = 111d6 (3 x 111) + 4 x 111(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 9
+    Melee Dmg/Hit: 38 | Dmg/Turn: 342
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 279
+    Magic Dmg/Cast: 60 | Dmg/Turn: 540 (x12 mana)
+    Total Dmg/5R:  2831
+    Total Dmg/10R: 5324
+    Mana: 1052 start, 8 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  659
+    Stat Points:   21
+    Affinity Pts:  0
+    Stat Spent:    60
+
+  FEATS & SPELLS:
+    Feats:  36 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  38
+
+  PATHS:
+    Magical -> Magician (Lvl 3)
+    Physical -> Marksman (Lvl 3)
+    Utility -> Scoundrel (Lvl 3)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 3)
+    Utility -> Rune Master (Lvl 3)
+    Utility -> Golem Tamer (Lvl 3)
+    Utility -> Dragonslayer (Lvl 2)
+    Racial -> Therian Minotaur (Lvl 2)
+
+  AFFINITIES:
+    Air            : 31
+    Earth          : 37
+    Fire           : 32
+    Generic        : 2
+    Necrotic       : 19
+    Psychic        : 8
+    Radiant        : 16
+    Water          : 32
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 120 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 25 (+7) = 13 + 12
+    DEX: 19 (+4) = 8 + 11
+    CON: 20 (+5) = 10 + 10
+    WIS: 20 (+5) = 8 + 12
+    INT: 19 (+4) = 8 + 11
+    CHA: 19 (+4) = 8 + 11
+
+  COMBAT:
+    AC: 28
+    Initiative: +6
+    Speed: 60 ft
+    AP: 13  BAP: 17  RP: 2
+    Proficiency: +41
+    To Hit: Melee: +50 | Ranged: +46 | Magic: +21
+
+  HEALTH POOLS:
+    Vitality: 1278 = 121d6 (3 x 121) + 250(flat) + 5 x 121(Con)
+    Health:  603 = 121d6 (3 x 121) + 180(flat)
+    Mana:   1389 = 121d8 (4 x 121) + 5 x 121(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 10
+    Melee Dmg/Hit: 40 | Dmg/Turn: 400
+    Ranged Dmg/Hit: 31 | Dmg/Turn: 310
+    Magic Dmg/Cast: 65 | Dmg/Turn: 650 (x12 mana)
+    Total Dmg/5R:  3381
+    Total Dmg/10R: 6659
+    Mana: 1389 start, 177 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  729
+    Stat Points:   25
+    Affinity Pts:  0
+    Stat Spent:    64
+
+  FEATS & SPELLS:
+    Feats:  40 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  42
+
+  PATHS:
+    Magical -> Magician (Lvl 4)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 3)
+    Utility -> Rune Master (Lvl 3)
+    Utility -> Golem Tamer (Lvl 3)
+    Utility -> Dragonslayer (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 34
+    Earth          : 39
+    Fire           : 34
+    Generic        : 2
+    Necrotic       : 20
+    Psychic        : 10
+    Radiant        : 17
+    Water          : 34
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 130 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 26 (+8) = 13 + 13
+    DEX: 20 (+5) = 8 + 12
+    CON: 20 (+5) = 10 + 10
+    WIS: 20 (+5) = 8 + 12
+    INT: 19 (+4) = 8 + 11
+    CHA: 19 (+4) = 8 + 11
+
+  COMBAT:
+    AC: 29
+    Initiative: +7
+    Speed: 60 ft
+    AP: 14  BAP: 18  RP: 2
+    Proficiency: +44
+    To Hit: Melee: +54 | Ranged: +50 | Magic: +22
+
+  HEALTH POOLS:
+    Vitality: 1383 = 131d6 (3 x 131) + 270(flat) + 5 x 131(Con)
+    Health:  653 = 131d6 (3 x 131) + 195(flat)
+    Mana:   1504 = 131d8 (4 x 131) + 5 x 131(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 11
+    Melee Dmg/Hit: 41 | Dmg/Turn: 451
+    Ranged Dmg/Hit: 32 | Dmg/Turn: 352
+    Magic Dmg/Cast: 66 | Dmg/Turn: 726 (x12 mana)
+    Total Dmg/5R:  3766
+    Total Dmg/10R: 7423
+    Mana: 1504 start, 172 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  784
+    Stat Points:   28
+    Affinity Pts:  0
+    Stat Spent:    67
+
+  FEATS & SPELLS:
+    Feats:  43 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  45
+
+  PATHS:
+    Magical -> Magician (Lvl 4)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Utility -> Scholar (Lvl 3)
+    Physical -> Indomitable (Lvl 3)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 3)
+    Utility -> Rune Master (Lvl 3)
+    Utility -> Golem Tamer (Lvl 3)
+    Utility -> Dragonslayer (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 36
+    Earth          : 41
+    Fire           : 37
+    Generic        : 2
+    Necrotic       : 21
+    Psychic        : 10
+    Radiant        : 18
+    Water          : 36
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 140 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 26 (+8) = 13 + 13
+    DEX: 20 (+5) = 8 + 12
+    CON: 21 (+5) = 10 + 11
+    WIS: 20 (+5) = 8 + 12
+    INT: 20 (+5) = 8 + 12
+    CHA: 19 (+4) = 8 + 11
+
+  COMBAT:
+    AC: 32
+    Initiative: +7
+    Speed: 60 ft
+    AP: 15  BAP: 19  RP: 2
+    Proficiency: +47
+    To Hit: Melee: +57 | Ranged: +53 | Magic: +23
+
+  HEALTH POOLS:
+    Vitality: 1488 = 141d6 (3 x 141) + 290(flat) + 5 x 141(Con)
+    Health:  703 = 141d6 (3 x 141) + 210(flat)
+    Mana:   1478 = 141d6 (3 x 141) + 5 x 141(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 11
+    Melee Dmg/Hit: 41 | Dmg/Turn: 451
+    Ranged Dmg/Hit: 32 | Dmg/Turn: 352
+    Magic Dmg/Cast: 67 | Dmg/Turn: 737 (x12 mana)
+    Total Dmg/5R:  3819
+    Total Dmg/10R: 7528
+    Mana: 1478 start, 146 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  839
+    Stat Points:   77
+    Affinity Pts:  0
+    Stat Spent:    70
+
+  FEATS & SPELLS:
+    Feats:  92 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  48
+
+  PATHS:
+    Magical -> Magician (Lvl 4)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 3)
+    Utility -> Rune Master (Lvl 3)
+    Utility -> Golem Tamer (Lvl 3)
+    Utility -> Dragonslayer (Lvl 3)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 38
+    Earth          : 44
+    Fire           : 39
+    Generic        : 2
+    Necrotic       : 21
+    Psychic        : 11
+    Radiant        : 19
+    Water          : 38
+
+  GEAR:
+    Weapon: dragonbone_greatsword (2d6 slashing)
+    Armor: dragon_light (Dragon Scale Light Armor)
+
+============================================================
+  Jack of all Trades - Level 150 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 27 (+8) = 13 + 14
+    DEX: 20 (+5) = 8 + 12
+    CON: 21 (+5) = 10 + 11
+    WIS: 20 (+5) = 8 + 12
+    INT: 20 (+5) = 8 + 12
+    CHA: 20 (+5) = 8 + 12
+
+  COMBAT:
+    AC: 32
+    Initiative: +7
+    Speed: 60 ft
+    AP: 16  BAP: 20  RP: 2
+    Proficiency: +51
+    To Hit: Melee: +61 | Ranged: +57 | Magic: +24
+
+  HEALTH POOLS:
+    Vitality: 1593 = 151d6 (3 x 151) + 310(flat) + 5 x 151(Con)
+    Health:  753 = 151d6 (3 x 151) + 225(flat)
+    Mana:   1583 = 151d6 (3 x 151) + 5 x 151(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 12
+    Melee Dmg/Hit: 41 | Dmg/Turn: 492
+    Ranged Dmg/Hit: 32 | Dmg/Turn: 384
+    Magic Dmg/Cast: 68 | Dmg/Turn: 816 (x12 mana)
+    Total Dmg/5R:  4217
+    Total Dmg/10R: 8321
+    Mana: 1583 start, 131 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  899
+    Stat Points:   85
+    Affinity Pts:  0
+    Stat Spent:    73
+
+  FEATS & SPELLS:
+    Feats:  100 (taken: Fast Hands, Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Dodge Master but did not meet prerequisite: Requires DEX 22)
+    Spells:  52
+
+  PATHS:
+    Magical -> Magician (Lvl 4)
+    Physical -> Marksman (Lvl 4)
+    Utility -> Scoundrel (Lvl 4)
+    Physical -> Duelist (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Utility -> Scholar (Lvl 4)
+    Physical -> Indomitable (Lvl 4)
+    Utility -> Human Hunter (Lvl 1)
+    Utility -> Slime Rancher (Lvl 4)
+    Utility -> Rune Master (Lvl 4)
+    Utility -> Golem Tamer (Lvl 4)
+    Utility -> Dragonslayer (Lvl 4)
+    Racial -> Therian Minotaur (Lvl 3)
+
+  AFFINITIES:
+    Air            : 40
+    Earth          : 46
+    Fire           : 41
+    Generic        : 2
+    Necrotic       : 23
+    Psychic        : 12
+    Radiant        : 20
+    Water          : 41
 
   GEAR:
     Weapon: dragonbone_greatsword (2d6 slashing)

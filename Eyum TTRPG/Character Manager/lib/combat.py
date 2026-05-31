@@ -5,6 +5,8 @@ def attacks_per_round(char):
     n = 1
     if char.bap >= 2:
         n += char.bap // 2
+    if getattr(char, 'extra_attack_bap', False):
+        n += 1
     return n
 
 
@@ -24,8 +26,13 @@ def calculate_damage(char, settings):
 
     if is_unarmed:
         die_order = ['1d4', '1d6', '1d8', '1d10', '1d12']
-        brawler_die = die_order[min(char.brawler_stacks, len(die_order) - 1)]
-        base_weapon = die_avg.get(brawler_die, 2.5)
+        if char.tull_claw_die:
+            claw_idx = die_order.index(char.tull_claw_die)
+            effective_idx = min(claw_idx + char.brawler_stacks, len(die_order) - 1)
+            base_weapon = die_avg.get(die_order[effective_idx], 2.5) + char.tull_claw_flat
+        else:
+            brawler_die = die_order[min(char.brawler_stacks, len(die_order) - 1)]
+            base_weapon = die_avg.get(brawler_die, 2.5)
         damage_bonus = 0
         extra_damage = 0
         weapon_type = 'melee'
@@ -77,9 +84,10 @@ def calculate_damage(char, settings):
     if char.has_magical:
         spell_info, spell_dmg = select_spell(char, settings)
         if spell_info:
-            result['magic'] = int(spell_dmg)
+            mana_mult = getattr(char, 'spell_mana_mult', 1)
+            result['magic'] = int(spell_dmg) * atk_per_round
             result['magic_dmg'] = spell_dmg
-            result['mana_cost'] = spell_info['spell']['mana']
+            result['mana_cost'] = spell_info['spell']['mana'] * mana_mult
 
     result['per_turn'] = max(result['melee'], result['ranged'], result['magic'])
     result['attacks_per_turn'] = atk_per_round
@@ -126,10 +134,12 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     remaining_mana = max_mana
     rounds_casting = 0
 
+    mana_mult = getattr(char, 'spell_mana_mult', 1)
+
     for round_idx in range(num_rounds):
         spell_info, spell_dmg = select_spell(char, settings, max_mana=remaining_mana)
-        if spell_info and spell_dmg > best_phys_dmg:
-            cost = spell_info['spell']['mana']
+        if spell_info and spell_dmg > phys_per_hit:
+            cost = spell_info['spell']['mana'] * mana_mult
             round_atk = atk_per_round + (bonus_attacks if round_idx == 0 else 0)
             r_casts = min(round_atk, remaining_mana // cost) if cost > 0 else round_atk
             fr_this = r1_fr if round_idx == 0 else 0

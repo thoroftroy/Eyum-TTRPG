@@ -48,6 +48,12 @@ def check_spell_prereqs(char, spell, element, aff_val):
         count = sum(1 for v in char.affinities.values() if v >= 10)
         if count < extra['affinities_at_10']:
             return False
+    if 'affinities_at' in extra:
+        for threshold_str, required in extra['affinities_at'].items():
+            threshold = int(threshold_str)
+            count = sum(1 for v in char.affinities.values() if v >= threshold)
+            if count < required:
+                return False
     return True
 
 
@@ -60,7 +66,14 @@ def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, we
             parts = formula.split('+')
             base = int(parts[0])
             rest = parts[1]
-            if '*' in rest:
+            if 'affinity_mod' in rest:
+                mod_val = affinity_mod(aff_val)
+                div_parts = rest.split('/')
+                if len(div_parts) > 1:
+                    dmg = base + mod_val / float(div_parts[1])
+                else:
+                    dmg = base + mod_val
+            elif '*' in rest:
                 mul = int(rest.split('*')[1])
                 dmg = base + aff_val * mul
             else:
@@ -98,6 +111,9 @@ def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, we
     elif spell.get('extra_effect') == 'Soaked+DoT':
         dmg += die_avg.get('2d6', 7) * 2
 
+    if char and getattr(char, 'spell_damage_mult', 1) > 1:
+        dmg *= char.spell_damage_mult
+
     return dmg
 
 
@@ -120,11 +136,13 @@ def select_spell(char, settings, max_mana=None):
     else:
         spell_hit_chance = min(0.95, max(0.05, (21 - target_ac + magic_to_hit) / 20.0))
 
+    mana_mult = getattr(char, 'spell_mana_mult', 1)
+
     if best_element:
         elem_spells = spells_data.get(best_element, [])
         elem_aff_val = char.affinities.get(best_element, 0)
         for spell in elem_spells:
-            if max_mana is not None and spell['mana'] > max_mana:
+            if max_mana is not None and spell['mana'] * mana_mult > max_mana:
                 continue
             if check_spell_prereqs(char, spell, best_element, elem_aff_val):
                 save = spell.get('save')
@@ -151,7 +169,7 @@ def select_spell(char, settings, max_mana=None):
                 break
         if not gspell:
             continue
-        if max_mana is not None and gspell['mana'] > max_mana:
+        if max_mana is not None and gspell['mana'] * mana_mult > max_mana:
             continue
         if check_spell_prereqs(char, gspell, None, best_aff_val):
             save = gspell.get('save')

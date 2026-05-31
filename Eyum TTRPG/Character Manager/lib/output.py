@@ -84,7 +84,11 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, ti
         lines.append("    Ranged Dmg/Hit: " + str(ranged_hit) + " | Dmg/Turn: " + str(dmg_perturn['ranged']))
     mana_cost = dmg_perturn['mana_cost']
     if mana_cost > 0:
-        lines.append("    Magic Dmg/Cast: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
+        magic_cast = dmg_perturn.get('magic_dmg', dmg_perturn['magic'] / max(atk, 1))
+        if atk > 1:
+            lines.append("    Magic Dmg/Cast: " + str(int(magic_cast)) + " | Dmg/Turn: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
+        else:
+            lines.append("    Magic Dmg/Cast: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
     lines.append("    Total Dmg/5R:  " + str(int(dmg_5round['total'])))
     lines.append("    Total Dmg/10R: " + str(int(dmg_10round['total'])))
     if mana_cost > 0:
@@ -853,6 +857,54 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
         if reco_count == 0:
             f.write("  No specific issues detected. The builds appear well-balanced.\n")
 
+        f.write("\n")
+        f.write("RACE POPULARITY ANALYSIS\n")
+        f.write("-" * 40 + "\n")
+        race_counts = {}
+        total_non_casual = 0
+        seen_builds = set()
+        for tier_name, all_results in all_tier_results:
+            for build_name, results in all_results.items():
+                if build_name in seen_builds:
+                    continue
+                seen_builds.add(build_name)
+                bc = build_configs.get(build_name, {})
+                if bc.get('worst', False):
+                    continue
+                if build_name.lower().startswith('casual '):
+                    continue
+                total_non_casual += 1
+                if results and results[0].get('race', 'none') != 'none':
+                    race = results[0]['race']
+                    if race not in race_counts:
+                        race_counts[race] = {'count': 0, 'builds': []}
+                    race_counts[race]['count'] += 1
+                    race_counts[race]['builds'].append(build_name)
+
+        sorted_races = sorted(race_counts.items(), key=lambda x: x[1]['count'], reverse=True)
+        if not sorted_races:
+            f.write("  No races selected for any build.\n")
+        else:
+            for race, info in sorted_races:
+                pct = info['count'] * 100 / total_non_casual
+                flag = ""
+                if pct > 50:
+                    flag = "  <<< OVER-TUNED: chosen by over half of all builds"
+                elif pct > 33:
+                    flag = "  <<< STRONG: chosen by over a third of all builds"
+                elif pct >= 20:
+                    flag = "  <<< POPULAR: may indicate above-average strength"
+                f.write("  " + race.ljust(24) + ": " + str(info['count']).rjust(2) + "/" +
+                        str(total_non_casual) + " (" + format(pct, '.0f') + "%)" + flag + "\n")
+            if race_counts:
+                top_race = sorted_races[0][0]
+                top_pct = sorted_races[0][1]['count'] * 100 / total_non_casual
+                if top_pct > 50:
+                    f.write("\n  >>> " + top_race + " is overwhelmingly popular. Consider reducing its stat bonuses,\n")
+                    f.write("      racial path benefits, or affinity bonuses so other races are competitive.\n")
+                elif top_pct > 33:
+                    f.write("\n  >>> " + top_race + " is very popular (>" + str(int(top_pct)) +
+                            "% pick rate). Review if its power budget is too high.\n")
         f.write("\n")
         f.write("=" * 60 + "\n")
         f.write("End of summary\n")

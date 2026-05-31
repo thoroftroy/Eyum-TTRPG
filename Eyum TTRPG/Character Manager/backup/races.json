@@ -37,9 +37,11 @@
       },
       "Giant": {
         "stat_bonuses": {
-          "str": 4,
+          "str": 6,
           "con": 2,
-          "dex": -2
+          "dex": -2,
+          "int": -4,
+          "wis": -4
         },
         "affinity_bonuses": {
           "Earth": 3,
@@ -420,7 +422,9 @@
       "Miregnat": {
         "stat_bonuses": {
           "dex": 2,
-          "str": -1
+          "str": -1,
+          "con": -2,
+          "cha": -1
         },
         "affinity_bonuses": {
           "Air": 3,

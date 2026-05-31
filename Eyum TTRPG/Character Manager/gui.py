@@ -131,6 +131,8 @@ def extract_build_data(settings, results):
         dmg_5 = res['dmg_5round']['total'] if isinstance(res['dmg_5round'], dict) else res['dmg_5round']
         dmg_10 = res['dmg_10round']['total'] if isinstance(res['dmg_10round'], dict) else res['dmg_10round']
 
+        d5 = res['dmg_5round']
+        d10 = res['dmg_10round']
         build_data[lvl] = {
             'Vitality': c.vit_max(r),
             'Health': c.hp_max(r),
@@ -148,6 +150,11 @@ def extract_build_data(settings, results):
             'WIS': c.wis,
             'INT': c.int,
             'CHA': c.cha,
+            'ManaCost': int(d.get('mana_cost', 0)),
+            'ManaStart5R': int(d5.get('mana_start', 0)),
+            'ManaEnd5R': int(d5.get('mana_end', 0)),
+            'ManaStart10R': int(d10.get('mana_start', 0)),
+            'ManaEnd10R': int(d10.get('mana_end', 0)),
         }
     return build_data, levels
 
@@ -241,6 +248,9 @@ class CharacterManagerGUI:
         self._line_visible = {}
         self._focused_line_name = None
         self._selected_level = None
+        self._click_annotation = None
+        self._click_marker = None
+        self._level_limit_enabled = False
 
         self._build_notebook()
         self._create_graph_tab()
@@ -323,6 +333,14 @@ class CharacterManagerGUI:
 
         self.status_label = ttk.Label(toolbar_frame, text="Ready")
         self.status_label.pack(side=tk.LEFT, padx=5)
+
+        ttk.Separator(toolbar_frame, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=10)
+
+        self.limit_btn = ttk.Checkbutton(
+            toolbar_frame, text="Levels 1-30",
+            command=self._toggle_level_limit
+        )
+        self.limit_btn.pack(side=tk.LEFT, padx=5)
 
         main_frame = ttk.Frame(self.graph_frame)
         main_frame.pack(fill=tk.BOTH, expand=True)
@@ -489,6 +507,18 @@ class CharacterManagerGUI:
         self.settings_status.config(text=msg)
         self.root.update_idletasks()
 
+    def _get_plot_levels(self, tier_data):
+        all_levels = sorted(set(
+            lvl for bd in tier_data.values() for lvl in bd.keys()
+        ))
+        if self._level_limit_enabled:
+            all_levels = [l for l in all_levels if 1 <= l <= 30]
+        return all_levels
+
+    def _toggle_level_limit(self):
+        self._level_limit_enabled = not self._level_limit_enabled
+        self._update_graph()
+
     def _update_graph(self):
         if self.data is None:
             self.ax.clear()
@@ -506,6 +536,7 @@ class CharacterManagerGUI:
         tier_data = self.data[tier]
         self.ax.clear()
 
+        self._clear_click_annotation()
         self._lines = {}
         self._line_visible = {}
         self._focused_line_name = None
@@ -515,13 +546,11 @@ class CharacterManagerGUI:
         colors = {name: COLOR_CYCLE[i % len(COLOR_CYCLE)]
                   for i, name in enumerate(build_names)}
 
-        all_levels = sorted(set(
-            lvl for bd in tier_data.values() for lvl in bd.keys()
-        ))
+        all_levels = self._get_plot_levels(tier_data)
 
         for i, name in enumerate(build_names):
             bd = tier_data[name]
-            xs = sorted(bd.keys())
+            xs = sorted(k for k in bd.keys() if k in all_levels)
             ys = [bd[x][stat] for x in xs]
             line, = self.ax.plot(
                 xs, ys, color=colors[name], linewidth=2,
@@ -534,7 +563,7 @@ class CharacterManagerGUI:
 
         if '__average__' in tier_data:
             avg = tier_data['__average__']
-            xs = sorted(avg.keys())
+            xs = sorted(k for k in avg.keys() if k in all_levels)
             ys = [avg[x][stat] for x in xs]
             line, = self.ax.plot(
                 xs, ys, color=AVG_LINE_COLOR, linewidth=AVG_LINE_WIDTH,
@@ -671,9 +700,7 @@ class CharacterManagerGUI:
             return
 
         tier_data = self.data[tier]
-        all_levels = sorted(set(
-            lvl for bd in tier_data.values() for lvl in bd.keys()
-        ))
+        all_levels = self._get_plot_levels(tier_data)
 
         if not all_levels:
             return
@@ -749,25 +776,41 @@ class CharacterManagerGUI:
             self._rebuild_summary()
         self.canvas.draw_idle()
 
+    def _clear_click_annotation(self):
+        if self._click_annotation:
+            try:
+                self._click_annotation.remove()
+            except:
+                pass
+            self._click_annotation = None
+        if self._click_marker:
+            try:
+                self._click_marker.remove()
+            except:
+                pass
+            self._click_marker = None
+
     def _on_click(self, event):
         if event.inaxes != self.ax:
             return
         if not self.data:
             return
 
+        self._clear_click_annotation()
+
         tier = self.tier_var.get()
         if not tier or tier not in self.data:
             return
 
         tier_data = self.data[tier]
-        all_levels = sorted(set(
-            lvl for bd in tier_data.values() for lvl in bd.keys()
-        ))
+        stat = self.stat_var.get()
+        all_levels = self._get_plot_levels(tier_data)
         if not all_levels:
             return
 
-        xdata = event.xdata
-        if xdata is None:
+        xdata, ydata = event.xdata, event.ydata
+        if xdata is None or ydata is None:
+            self.canvas.draw_idle()
             return
 
         nearest_level = min(all_levels, key=lambda l: abs(l - xdata))
@@ -777,8 +820,41 @@ class CharacterManagerGUI:
                 continue
             contains, _ = line.contains(event)
             if contains:
-                self._toggle_line(name)
+                bd = tier_data[name][nearest_level]
+                val = bd[stat]
+                self._click_marker, = self.ax.plot(
+                    nearest_level, val, 'o',
+                    color=line.get_color(),
+                    markersize=10, markeredgecolor='black',
+                    markeredgewidth=1.5, zorder=9
+                )
+                lines = [f"{name}: {val}"]
+                mc = bd.get('ManaCost', 0)
+                if mc > 0:
+                    mana_total = bd.get('Mana', 0)
+                    ms5, me5 = bd.get('ManaStart5R', 0), bd.get('ManaEnd5R', 0)
+                    ms10, me10 = bd.get('ManaStart10R', 0), bd.get('ManaEnd10R', 0)
+                    u5, u10 = ms5 - me5, ms10 - me10
+                    p5 = u5 / ms5 * 100 if ms5 > 0 else 0
+                    p10 = u10 / ms10 * 100 if ms10 > 0 else 0
+                    lines.append(f"Mana: {mana_total}  Cost/Cast: {mc}")
+                    lines.append(f"5R: {ms5}→{me5} (used {u5}, {p5:.0f}%)")
+                    lines.append(f"10R: {ms10}→{me10} (used {u10}, {p10:.0f}%)")
+                self._click_annotation = self.ax.annotate(
+                    "\n".join(lines),
+                    xy=(nearest_level, val),
+                    xytext=(12, 12), textcoords='offset points',
+                    bbox=dict(boxstyle='round,pad=0.3',
+                              facecolor='#ffffcc', edgecolor='#888888',
+                              alpha=0.9),
+                    arrowprops=dict(arrowstyle='->',
+                                    connectionstyle='arc3,rad=0'),
+                    fontsize=9, zorder=10
+                )
+                self.canvas.draw_idle()
                 return
+
+        self.canvas.draw_idle()
 
     def _on_file_select(self, event):
         if self.current_file:
@@ -917,6 +993,17 @@ class CharacterManagerGUI:
 def main():
     root = tk.Tk()
     app = CharacterManagerGUI(root)
+
+    def on_close():
+        try:
+            plt.close('all')
+        except:
+            pass
+        root.quit()
+        root.destroy()
+        os._exit(0)
+
+    root.protocol("WM_DELETE_WINDOW", on_close)
     root.mainloop()
 
 

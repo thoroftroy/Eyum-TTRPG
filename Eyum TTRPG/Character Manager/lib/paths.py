@@ -191,6 +191,12 @@ def apply_paths(char, target_level, build_config, settings):
                 if idx > 0:
                     char.vit_die = die_order[idx - 1]
 
+    # Magician tier 5 is automatically active for anyone with the Magician archetype
+    magician_achieved = char.archetype_levels.get(('Magical', 'Magician'), 0)
+    if magician_achieved > 0:
+        magician_t5 = paths_rules.get('Magical', {}).get('archetypes', {}).get('Magician', {}).get('5', {})
+        apply_effects(char, magician_t5, cost_table)
+
 
 def apply_per_level_bonuses(char, target_level):
     sp_bonus = getattr(char, 'skill_points_per_level', 0)

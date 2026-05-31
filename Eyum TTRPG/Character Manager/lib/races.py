@@ -10,15 +10,16 @@ def select_best_race(build_config, races_data):
     stat_priority = build_config.get('stat_priority', ['str', 'dex', 'con', 'wis', 'int', 'cha'])
     base_affinities = build_config.get('starting_affinities', {})
     is_magical = build_config.get('has_magical', False)
-    primary_affinity = None
-    if is_magical and base_affinities:
+    primary_affinity = build_config.get('primary_affinity')
+    if not primary_affinity and is_magical and base_affinities:
         sorted_affs = sorted(base_affinities.items(), key=lambda x: x[1], reverse=True)
         for aff, val in sorted_affs:
             if aff != 'Generic':
                 primary_affinity = aff
                 break
 
-    best_score = -9999
+    worst = build_config.get('worst', False)
+    best_score = float('inf') if worst else -9999
     best_family = None
     best_subrace = None
 
@@ -56,7 +57,11 @@ def select_best_race(build_config, races_data):
                     else:
                         score -= 1
 
-            if score > best_score:
+            if worst and score < best_score:
+                best_score = score
+                best_family = family_name
+                best_subrace = subrace_name
+            elif not worst and score > best_score:
                 best_score = score
                 best_family = family_name
                 best_subrace = subrace_name

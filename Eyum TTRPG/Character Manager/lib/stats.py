@@ -72,18 +72,20 @@ def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
     return points_remaining
 
 
-def spend_affinity_points(char, settings):
+def spend_affinity_points(char, primary_affinity=None):
     affp = char.affinity_points
     if affp <= 0:
         return
 
-    pref_order = ['Fire', 'Earth', 'Water', 'Air', 'Radiant', 'Necrotic', 'Psychic']
-
-    while affp > 0:
-        for aff in pref_order:
-            if affp <= 0:
-                break
-            char.affinities[aff] = char.affinities.get(aff, 0) + 1
-            affp -= 1
+    if primary_affinity:
+        char.affinities[primary_affinity] = char.affinities.get(primary_affinity, 0) + affp
+    else:
+        pref_order = ['Fire', 'Earth', 'Water', 'Air', 'Radiant', 'Necrotic', 'Psychic']
+        while affp > 0:
+            for aff in pref_order:
+                if affp <= 0:
+                    break
+                char.affinities[aff] = char.affinities.get(aff, 0) + 1
+                affp -= 1
 
     char.affinity_points = 0

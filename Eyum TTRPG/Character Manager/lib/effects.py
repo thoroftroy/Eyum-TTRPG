@@ -77,6 +77,9 @@ def apply_effects(char, effects, cost_table=None):
         char.tull_tier = max(char.tull_tier, 1)
     if 'tier_racial' in effects:
         char.tull_tier = max(char.tull_tier, effects['tier_racial'])
+    if 'claw_die' in effects:
+        char.tull_claw_die = effects['claw_die']
+        char.tull_claw_flat = effects.get('claw_flat', 0)
     if 'pack_tactics' in effects:
         char.pack_tactics = True
     if 'extra_attack_bap' in effects:
@@ -185,6 +188,10 @@ def apply_effects(char, effects, cost_table=None):
         char.brawler_stacks += effects['brawler_stacks']
     if 'skill_tree_level_bonus' in effects:
         char.skill_tree_level_bonus = True
+    if 'spell_damage_mult' in effects:
+        char.spell_damage_mult = effects['spell_damage_mult']
+    if 'spell_mana_mult' in effects:
+        char.spell_mana_mult = effects['spell_mana_mult']
     if 'monster_damage' in effects:
         char.melee_damage += effects['monster_damage']
         char.ranged_damage += effects['monster_damage']

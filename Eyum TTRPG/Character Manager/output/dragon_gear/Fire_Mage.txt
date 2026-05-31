@@ -19,7 +19,7 @@ EYUM TTRPG - FIRE MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +3
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -28,10 +28,10 @@ EYUM TTRPG - FIRE MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 12 (x5 mana)
-    Total Dmg/5R:  62
-    Total Dmg/10R: 121
-    Mana: 15 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 (x16 mana)
+    Total Dmg/5R:  71
+    Total Dmg/10R: 141
+    Mana: 15 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  7
@@ -45,17 +45,21 @@ EYUM TTRPG - FIRE MAGE (DRAGON BONE/SCALE GEAR)
 
   PATHS:
     Magical -> Magician (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 4
+    Fire           : 8
     Generic        : 2
     Psychic        : -3
-    Radiant        : 4
-    Water          : 1
+    Radiant        : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -79,7 +83,7 @@ EYUM TTRPG - FIRE MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +4
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
@@ -88,10 +92,10 @@ EYUM TTRPG - FIRE MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 20 (x8 mana)
-    Total Dmg/5R:  81
-    Total Dmg/10R: 146
-    Mana: 22 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 (x16 mana)
+    Total Dmg/5R:  83
+    Total Dmg/10R: 159
+    Mana: 22 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  9
@@ -105,17 +109,2192 @@ EYUM TTRPG - FIRE MAGE (DRAGON BONE/SCALE GEAR)
 
   PATHS:
     Magical -> Magician (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -3
+    Cold           : -3
+    Fire           : 9
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 3 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 10
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Magic: +7
+
+  HEALTH POOLS:
+    Vitality: 25 = 4d8 (4 x 4) + 3(flat) + 1 x 4(Con)
+    Health:  17 = 4d6 (3 x 4) + 3(flat)
+    Mana:   30 = 4d6 (3 x 4) + 4 x 4(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 24 (x16 mana)
+    Total Dmg/5R:  90
+    Total Dmg/10R: 171
+    Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  13
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  3
+
+  PATHS:
+    Magical -> Magician (Lvl 0)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -3
+    Cold           : -3
+    Fire           : 11
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 4 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 10
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Magic: +7
+
+  HEALTH POOLS:
+    Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
+    Health:  21 = 5d6 (3 x 5) + 4(flat)
+    Mana:   42 = 5d8 (4 x 5) + 4 x 5(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 51 (x48 mana)
+    Total Dmg/5R:  180
+    Total Dmg/10R: 357
+    Mana: 42 start, 0 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  15
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  3
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -3
+    Cold           : -3
+    Earth          : 1
+    Fire           : 11
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 5 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 19 (+4) = 11 + 8
+    INT: 15 (+2) = 10 + 5
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 10
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +2
+    To Hit: Magic: +7
+
+  HEALTH POOLS:
+    Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
+    Health:  26 = 6d6 (3 x 6) + 5(flat)
+    Mana:   51 = 6d8 (4 x 6) + 4 x 6(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 51 (x48 mana)
+    Total Dmg/5R:  192
+    Total Dmg/10R: 369
+    Mana: 51 start, 3 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  17
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    25
+
+  FEATS & SPELLS:
+    Feats:  1 (taken: Toughness)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  3
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 0)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -3
+    Cold           : -3
+    Earth          : 1
+    Fire           : 11
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 6 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 10
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Magic: +10
+
+  HEALTH POOLS:
+    Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
+    Health:  30 = 7d6 (3 x 7) + 6(flat)
+    Mana:   78 = 7d8 (4 x 7) + 5 x 7(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 54 (x48 mana)
+    Total Dmg/5R:  232
+    Total Dmg/10R: 444
+    Mana: 78 start, 6 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  21
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Mana Flow)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  4
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -3
+    Cold           : -3
+    Earth          : 1
+    Fire           : 17
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 7 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 10
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 1  RP: 1
+    Proficiency: +3
+    To Hit: Magic: +10
+
+  HEALTH POOLS:
+    Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
+    Health:  35 = 8d6 (3 x 8) + 7(flat)
+    Mana:   90 = 8d8 (4 x 8) + 5 x 8(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 1
+    Magic Dmg/Cast: 54 (x48 mana)
+    Total Dmg/5R:  237
+    Total Dmg/10R: 448
+    Mana: 90 start, 6 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  23
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Mana Flow)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  4
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 0)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -3
+    Cold           : -3
+    Earth          : 1
+    Fire           : 17
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 8 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 20 (+5) = 11 + 9
+    INT: 15 (+2) = 10 + 5
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 10
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +3
+    To Hit: Magic: +10
+
+  HEALTH POOLS:
+    Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
+    Health:  39 = 9d6 (3 x 9) + 8(flat)
+    Mana:   101 = 9d8 (4 x 9) + 5 x 9(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 54 | Dmg/Turn: 108 (x48 mana)
+    Total Dmg/5R:  447
+    Total Dmg/10R: 870
+    Mana: 101 start, 5 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  30
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    26
+
+  FEATS & SPELLS:
+    Feats:  2 (taken: Toughness, Mana Flow)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  4
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
     Air            : -2
     Cold           : -3
-    Earth          : 1
-    Fire           : 5
+    Earth          : 5
+    Fire           : 17
     Generic        : 2
     Psychic        : -3
-    Radiant        : 4
+    Radiant        : 3
     Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 9 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 11
+    Initiative: +0
+    Speed: 25 ft
+    AP: 1  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Magic: +11
+
+  HEALTH POOLS:
+    Vitality: 54 = 10d6 (3 x 10) + 9(flat) + 1 x 10(Con)
+    Health:  44 = 10d6 (3 x 10) + 9(flat)
+    Mana:   113 = 10d8 (4 x 10) + 5 x 10(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  397
+    Total Dmg/10R: 844
+    Mana: 113 start, 2 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  34
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Mana Flow, Stone Skin)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 0)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -2
+    Cold           : -3
+    Earth          : 7
+    Fire           : 19
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 1
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 10 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 11
+    Initiative: +0
+    Speed: 25 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Magic: +11
+
+  HEALTH POOLS:
+    Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
+    Health:  48 = 11d6 (3 x 11) + 10(flat)
+    Mana:   124 = 11d8 (4 x 11) + 5 x 11(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  390
+    Total Dmg/10R: 837
+    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  36
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Mana Flow, Stone Skin)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -2
+    Cold           : -3
+    Earth          : 7
+    Fire           : 20
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 5
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 11 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 13 (+1) = 8 + 5
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 11
+    Initiative: +0
+    Speed: 25 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +4
+    To Hit: Magic: +11
+
+  HEALTH POOLS:
+    Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
+    Health:  53 = 12d6 (3 x 12) + 11(flat)
+    Mana:   136 = 12d8 (4 x 12) + 5 x 12(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  351
+    Total Dmg/10R: 798
+    Mana: 136 start, 1 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  38
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    27
+
+  FEATS & SPELLS:
+    Feats:  3 (taken: Toughness, Mana Flow, Stone Skin)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  5
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 0)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : -2
+    Cold           : -3
+    Earth          : 7
+    Fire           : 20
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 5
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 12 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 11
+    Initiative: +0
+    Speed: 25 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Magic: +15
+
+  HEALTH POOLS:
+    Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
+    Health:  57 = 13d6 (3 x 13) + 12(flat)
+    Mana:   147 = 13d8 (4 x 13) + 5 x 13(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  409
+    Total Dmg/10R: 856
+    Mana: 147 start, 0 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  42
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Cold           : -3
+    Earth          : 10
+    Fire           : 27
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 7
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 13 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 11
+    Initiative: +0
+    Speed: 25 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Magic: +15
+
+  HEALTH POOLS:
+    Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
+    Health:  62 = 14d6 (3 x 14) + 13(flat)
+    Mana:   159 = 14d8 (4 x 14) + 5 x 14(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  493
+    Total Dmg/10R: 940
+    Mana: 159 start, 9 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  44
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 0)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Cold           : -3
+    Earth          : 10
+    Fire           : 27
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 3
+    Water          : 7
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 14 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 11 (+0) = 6 + 5
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 11
+    Initiative: +0
+    Speed: 25 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +5
+    To Hit: Magic: +15
+
+  HEALTH POOLS:
+    Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
+    Health:  66 = 15d6 (3 x 15) + 14(flat)
+    Mana:   170 = 15d8 (4 x 15) + 5 x 15(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  458
+    Total Dmg/10R: 905
+    Mana: 170 start, 8 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  46
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    28
+
+  FEATS & SPELLS:
+    Feats:  4 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  6
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Cold           : -3
+    Earth          : 10
+    Fire           : 27
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 15 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 2  BAP: 2  RP: 1
+    Proficiency: +6
+    To Hit: Magic: +16
+
+  HEALTH POOLS:
+    Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
+    Health:  71 = 16d6 (3 x 16) + 15(flat)
+    Mana:   182 = 16d8 (4 x 16) + 5 x 16(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  514
+    Total Dmg/10R: 961
+    Mana: 182 start, 8 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  50
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 0)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : 4
+    Cold           : -3
+    Earth          : 10
+    Fire           : 29
+    Generic        : 2
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 16 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Magic: +16
+
+  HEALTH POOLS:
+    Vitality: 109 = 17d6 (3 x 17) + 16(flat) + 2 x 17(Con)
+    Health:  75 = 17d6 (3 x 17) + 16(flat)
+    Mana:   193 = 17d8 (4 x 17) + 5 x 17(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  480
+    Total Dmg/10R: 926
+    Mana: 193 start, 7 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  57
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : 5
+    Cold           : -3
+    Earth          : 10
+    Fire           : 29
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 17 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA:  9 (-1) = 8 + 1
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +6
+    To Hit: Magic: +16
+
+  HEALTH POOLS:
+    Vitality: 116 = 18d6 (3 x 18) + 17(flat) + 2 x 18(Con)
+    Health:  80 = 18d6 (3 x 18) + 17(flat)
+    Mana:   205 = 18d8 (4 x 18) + 5 x 18(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  535
+    Total Dmg/10R: 981
+    Mana: 205 start, 7 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  59
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    29
+
+  FEATS & SPELLS:
+    Feats:  5 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  7
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 0)
+
+  AFFINITIES:
+    Air            : 5
+    Cold           : -3
+    Earth          : 10
+    Fire           : 29
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 18 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Magic: +21
+
+  HEALTH POOLS:
+    Vitality: 122 = 19d6 (3 x 19) + 18(flat) + 2 x 19(Con)
+    Health:  84 = 19d6 (3 x 19) + 18(flat)
+    Mana:   216 = 19d8 (4 x 19) + 5 x 19(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  525
+    Total Dmg/10R: 971
+    Mana: 216 start, 6 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  63
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
+
+  AFFINITIES:
+    Air            : 5
+    Cold           : -3
+    Earth          : 10
+    Fire           : 40
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 19 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 2  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Magic: +21
+
+  HEALTH POOLS:
+    Vitality: 129 = 20d6 (3 x 20) + 19(flat) + 2 x 20(Con)
+    Health:  89 = 20d6 (3 x 20) + 19(flat)
+    Mana:   228 = 20d8 (4 x 20) + 5 x 20(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  472
+    Total Dmg/10R: 919
+    Mana: 228 start, 3 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  65
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Overdrive, Affinity Master (Choose))
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Magical -> Magician (Lvl 1)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
+
+  AFFINITIES:
+    Air            : 5
+    Cold           : -3
+    Earth          : 10
+    Fire           : 40
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 20 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR:  9 (-1) = 8 + 1
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 16 (+3) = 10 + 6
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 3  BAP: 3  RP: 1
+    Proficiency: +7
+    To Hit: Magic: +20
+
+  HEALTH POOLS:
+    Vitality: 114 = 21d4 (2 x 21) + 20(flat) + 2 x 21(Con)
+    Health:  93 = 21d6 (3 x 21) + 20(flat)
+    Mana:   260 = 21d10 (5 x 21) + 5 x 21(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 2
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x75 mana)
+    Total Dmg/5R:  501
+    Total Dmg/10R: 947
+    Mana: 260 start, 11 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  67
+    Stat Points:   0
+    Affinity Pts:  0
+    Stat Spent:    30
+
+  FEATS & SPELLS:
+    Feats:  6 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  8
+
+  PATHS:
+    Magical -> Magician (Lvl 2)
+    Magical -> Pyromancer (Lvl 1)
+    Magical -> Geomancer (Lvl 1)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
+
+  AFFINITIES:
+    Air            : 5
+    Cold           : -3
+    Earth          : 11
+    Fire           : 37
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 8
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 25 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 10 (+0) = 8 + 2
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 20 (+5) = 11 + 9
+    INT: 17 (+3) = 10 + 7
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 3  BAP: 4  RP: 1
+    Proficiency: +9
+    To Hit: Magic: +23
+
+  HEALTH POOLS:
+    Vitality: 142 = 26d4 (2 x 26) + 25(flat) + 2 x 26(Con)
+    Health:  116 = 26d6 (3 x 26) + 25(flat)
+    Mana:   323 = 26d10 (5 x 26) + 5 x 26(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x75 mana)
+    Total Dmg/5R:  622
+    Total Dmg/10R: 1291
+    Mana: 323 start, 11 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  86
+    Stat Points:   1
+    Affinity Pts:  0
+    Stat Spent:    32
+
+  FEATS & SPELLS:
+    Feats:  8 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  10
+
+  PATHS:
+    Magical -> Magician (Lvl 2)
+    Magical -> Pyromancer (Lvl 2)
+    Magical -> Geomancer (Lvl 2)
+    Magical -> Tidemaster (Lvl 1)
+    Magical -> Windwalker (Lvl 1)
+    Magical -> Priest (Lvl 1)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
+
+  AFFINITIES:
+    Air            : 6
+    Cold           : -3
+    Earth          : 11
+    Fire           : 44
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 9
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 30 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 10 (+0) = 8 + 2
+    DEX: 12 (+1) = 6 + 6
+    CON: 14 (+2) = 8 + 6
+    WIS: 21 (+5) = 11 + 10
+    INT: 17 (+3) = 10 + 7
+    CHA: 10 (+0) = 8 + 2
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 4  BAP: 4  RP: 1
+    Proficiency: +11
+    To Hit: Magic: +26
+
+  HEALTH POOLS:
+    Vitality: 169 = 31d4 (2 x 31) + 30(flat) + 2 x 31(Con)
+    Health:  138 = 31d6 (3 x 31) + 30(flat)
+    Mana:   385 = 31d10 (5 x 31) + 5 x 31(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 3
+    Magic Dmg/Cast: 74 | Dmg/Turn: 222 (x42 mana)
+    Total Dmg/5R:  934
+    Total Dmg/10R: 1604
+    Mana: 385 start, 7 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  100
+    Stat Points:   3
+    Affinity Pts:  0
+    Stat Spent:    34
+
+  FEATS & SPELLS:
+    Feats:  10 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  12
+
+  PATHS:
+    Magical -> Magician (Lvl 2)
+    Magical -> Pyromancer (Lvl 2)
+    Magical -> Geomancer (Lvl 2)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Magical -> Necromancer (Lvl 1)
+    Racial -> Demon Sylphamare (Lvl 1)
+
+  AFFINITIES:
+    Air            : 6
+    Cold           : -3
+    Earth          : 12
+    Fire           : 49
+    Generic        : 2
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 7
+    Water          : 10
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 40 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 10 (+0) = 8 + 2
+    DEX: 13 (+1) = 6 + 7
+    CON: 15 (+2) = 8 + 7
+    WIS: 21 (+5) = 11 + 10
+    INT: 17 (+3) = 10 + 7
+    CHA: 11 (+0) = 8 + 3
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 5  BAP: 6  RP: 1
+    Proficiency: +14
+    To Hit: Magic: +29
+
+  HEALTH POOLS:
+    Vitality: 224 = 41d4 (2 x 41) + 40(flat) + 2 x 41(Con)
+    Health:  183 = 41d6 (3 x 41) + 40(flat)
+    Mana:   551 = 41d12 (6 x 41) + 5 x 41(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 4
+    Magic Dmg/Cast: 92 | Dmg/Turn: 368 (x42 mana)
+    Total Dmg/5R:  1443
+    Total Dmg/10R: 2640
+    Mana: 551 start, 5 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  136
+    Stat Points:   6
+    Affinity Pts:  0
+    Stat Spent:    37
+
+  FEATS & SPELLS:
+    Feats:  13 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  15
+
+  PATHS:
+    Magical -> Magician (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 2)
+    Magical -> Windwalker (Lvl 2)
+    Magical -> Priest (Lvl 2)
+    Magical -> Necromancer (Lvl 2)
+    Racial -> Demon Sylphamare (Lvl 2)
+
+  AFFINITIES:
+    Air            : 8
+    Cold           : -3
+    Earth          : 13
+    Fire           : 56
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 11
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 50 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 11 (+0) = 8 + 3
+    DEX: 13 (+1) = 6 + 7
+    CON: 15 (+2) = 8 + 7
+    WIS: 22 (+6) = 11 + 11
+    INT: 17 (+3) = 10 + 7
+    CHA: 11 (+0) = 8 + 3
+
+  COMBAT:
+    AC: 12
+    Initiative: +1
+    Speed: 25 ft
+    AP: 6  BAP: 7  RP: 1
+    Proficiency: +17
+    To Hit: Magic: +33
+
+  HEALTH POOLS:
+    Vitality: 279 = 51d4 (2 x 51) + 50(flat) + 2 x 51(Con)
+    Health:  228 = 51d6 (3 x 51) + 50(flat)
+    Mana:   737 = 51d12 (6 x 51) + 6 x 51(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 4
+    Magic Dmg/Cast: 119 | Dmg/Turn: 476 (x42 mana)
+    Total Dmg/5R:  2038
+    Total Dmg/10R: 3470
+    Mana: 737 start, 11 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  167
+    Stat Points:   9
+    Affinity Pts:  0
+    Stat Spent:    40
+
+  FEATS & SPELLS:
+    Feats:  16 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  18
+
+  PATHS:
+    Magical -> Magician (Lvl 3)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 9
+    Cold           : -3
+    Earth          : 14
+    Fire           : 64
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 12
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 60 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 11 (+0) = 8 + 3
+    DEX: 14 (+2) = 6 + 8
+    CON: 16 (+3) = 8 + 8
+    WIS: 22 (+6) = 11 + 11
+    INT: 18 (+4) = 10 + 8
+    CHA: 12 (+1) = 8 + 4
+
+  COMBAT:
+    AC: 13
+    Initiative: +2
+    Speed: 25 ft
+    AP: 7  BAP: 8  RP: 1
+    Proficiency: +21
+    To Hit: Magic: +38
+
+  HEALTH POOLS:
+    Vitality: 395 = 61d4 (2 x 61) + 60(flat) + 3 x 61(Con)
+    Health:  273 = 61d6 (3 x 61) + 60(flat)
+    Mana:   1126 = 61d20 (10 x 61) + 6 x 61(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 5
+    Magic Dmg/Cast: 146 | Dmg/Turn: 730 (x120 mana)
+    Total Dmg/5R:  2309
+    Total Dmg/10R: 4471
+    Mana: 1126 start, 4 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  200
+    Stat Points:   13
+    Affinity Pts:  0
+    Stat Spent:    44
+
+  FEATS & SPELLS:
+    Feats:  20 (taken: Toughness, Mana Flow, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  22
+
+  PATHS:
+    Magical -> Magician (Lvl 4)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 10
+    Cold           : -3
+    Earth          : 16
+    Fire           : 73
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 13
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 70 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 12 (+1) = 8 + 4
+    DEX: 14 (+2) = 6 + 8
+    CON: 16 (+3) = 8 + 8
+    WIS: 23 (+6) = 11 + 12
+    INT: 18 (+4) = 10 + 8
+    CHA: 12 (+1) = 8 + 4
+
+  COMBAT:
+    AC: 13
+    Initiative: +2
+    Speed: 25 ft
+    AP: 8  BAP: 9  RP: 1
+    Proficiency: +24
+    To Hit: Magic: +41
+
+  HEALTH POOLS:
+    Vitality: 460 = 71d4 (2 x 71) + 70(flat) + 3 x 71(Con)
+    Health:  318 = 71d6 (3 x 71) + 70(flat)
+    Mana:   1311 = 71d20 (10 x 71) + 6 x 71(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 5
+    Magic Dmg/Cast: 146 | Dmg/Turn: 730 (x120 mana)
+    Total Dmg/5R:  2282
+    Total Dmg/10R: 4444
+    Mana: 1311 start, 3 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  231
+    Stat Points:   15
+    Affinity Pts:  0
+    Stat Spent:    47
+
+  FEATS & SPELLS:
+    Feats:  23 (taken: Toughness, Mana Flow, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  25
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 11
+    Cold           : -3
+    Earth          : 17
+    Fire           : 80
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 15
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 80 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 12 (+1) = 8 + 4
+    DEX: 15 (+2) = 6 + 9
+    CON: 17 (+3) = 8 + 9
+    WIS: 23 (+6) = 11 + 12
+    INT: 19 (+4) = 10 + 9
+    CHA: 12 (+1) = 8 + 4
+
+  COMBAT:
+    AC: 13
+    Initiative: +2
+    Speed: 25 ft
+    AP: 9  BAP: 11  RP: 1
+    Proficiency: +27
+    To Hit: Magic: +45
+
+  HEALTH POOLS:
+    Vitality: 525 = 81d4 (2 x 81) + 80(flat) + 3 x 81(Con)
+    Health:  363 = 81d6 (3 x 81) + 80(flat)
+    Mana:   1496 = 81d20 (10 x 81) + 6 x 81(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 6
+    Magic Dmg/Cast: 146 | Dmg/Turn: 876 (x120 mana)
+    Total Dmg/5R:  2534
+    Total Dmg/10R: 5127
+    Mana: 1496 start, 2 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  267
+    Stat Points:   18
+    Affinity Pts:  0
+    Stat Spent:    50
+
+  FEATS & SPELLS:
+    Feats:  26 (taken: Toughness, Mana Flow, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  28
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 13
+    Cold           : -3
+    Earth          : 18
+    Fire           : 87
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 16
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 90 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 13 (+1) = 8 + 5
+    DEX: 15 (+2) = 6 + 9
+    CON: 17 (+3) = 8 + 9
+    WIS: 24 (+7) = 11 + 13
+    INT: 19 (+4) = 10 + 9
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 13
+    Initiative: +2
+    Speed: 25 ft
+    AP: 10  BAP: 12  RP: 1
+    Proficiency: +31
+    To Hit: Magic: +50
+
+  HEALTH POOLS:
+    Vitality: 590 = 91d4 (2 x 91) + 90(flat) + 3 x 91(Con)
+    Health:  408 = 91d6 (3 x 91) + 90(flat)
+    Mana:   1772 = 91d20 (10 x 91) + 7 x 91(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 7
+    Magic Dmg/Cast: 146 | Dmg/Turn: 1022 (x120 mana)
+    Total Dmg/5R:  3539
+    Total Dmg/10R: 6565
+    Mana: 1772 start, 8 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  300
+    Stat Points:   21
+    Affinity Pts:  0
+    Stat Spent:    54
+
+  FEATS & SPELLS:
+    Feats:  30 (taken: Toughness, Mana Flow, Armor Training, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  32
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 14
+    Cold           : -3
+    Earth          : 19
+    Fire           : 97
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 17
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 100 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 13 (+1) = 8 + 5
+    DEX: 16 (+3) = 6 + 10
+    CON: 18 (+4) = 8 + 10
+    WIS: 24 (+7) = 11 + 13
+    INT: 20 (+5) = 10 + 10
+    CHA: 13 (+1) = 8 + 5
+
+  COMBAT:
+    AC: 14
+    Initiative: +3
+    Speed: 25 ft
+    AP: 11  BAP: 13  RP: 2
+    Proficiency: +34
+    To Hit: Magic: +53
+
+  HEALTH POOLS:
+    Vitality: 756 = 101d4 (2 x 101) + 100(flat) + 4 x 101(Con)
+    Health:  453 = 101d6 (3 x 101) + 100(flat)
+    Mana:   1967 = 101d20 (10 x 101) + 7 x 101(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 7
+    Magic Dmg/Cast: 146 | Dmg/Turn: 1022 (x120 mana)
+    Total Dmg/5R:  3089
+    Total Dmg/10R: 6115
+    Mana: 1967 start, 5 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  331
+    Stat Points:   23
+    Affinity Pts:  0
+    Stat Spent:    57
+
+  FEATS & SPELLS:
+    Feats:  33 (taken: Toughness, Mana Flow, Armor Training, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  35
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 15
+    Cold           : -3
+    Earth          : 21
+    Fire           : 104
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 18
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 110 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 14 (+2) = 8 + 6
+    DEX: 16 (+3) = 6 + 10
+    CON: 19 (+4) = 8 + 11
+    WIS: 24 (+7) = 11 + 13
+    INT: 20 (+5) = 10 + 10
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 14
+    Initiative: +3
+    Speed: 25 ft
+    AP: 12  BAP: 14  RP: 2
+    Proficiency: +37
+    To Hit: Magic: +57
+
+  HEALTH POOLS:
+    Vitality: 831 = 111d4 (2 x 111) + 110(flat) + 4 x 111(Con)
+    Health:  498 = 111d6 (3 x 111) + 110(flat)
+    Mana:   2162 = 111d20 (10 x 111) + 7 x 111(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 8
+    Magic Dmg/Cast: 147 | Dmg/Turn: 1176 (x42 mana)
+    Total Dmg/5R:  5889
+    Total Dmg/10R: 9027
+    Mana: 2162 start, 8 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  362
+    Stat Points:   22
+    Affinity Pts:  0
+    Stat Spent:    60
+
+  FEATS & SPELLS:
+    Feats:  36 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  38
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 16
+    Cold           : -3
+    Earth          : 22
+    Fire           : 111
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 20
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 120 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 14 (+2) = 8 + 6
+    DEX: 16 (+3) = 6 + 10
+    CON: 19 (+4) = 8 + 11
+    WIS: 25 (+7) = 11 + 14
+    INT: 21 (+5) = 10 + 11
+    CHA: 14 (+2) = 8 + 6
+
+  COMBAT:
+    AC: 14
+    Initiative: +3
+    Speed: 25 ft
+    AP: 13  BAP: 16  RP: 2
+    Proficiency: +41
+    To Hit: Magic: +61
+
+  HEALTH POOLS:
+    Vitality: 906 = 121d4 (2 x 121) + 120(flat) + 4 x 121(Con)
+    Health:  543 = 121d6 (3 x 121) + 120(flat)
+    Mana:   2357 = 121d20 (10 x 121) + 7 x 121(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 9
+    Magic Dmg/Cast: 257 | Dmg/Turn: 2313 (x75 mana)
+    Total Dmg/5R:  8122
+    Total Dmg/10R: 12013
+    Mana: 2357 start, 8 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  400
+    Stat Points:   26
+    Affinity Pts:  0
+    Stat Spent:    64
+
+  FEATS & SPELLS:
+    Feats:  40 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  42
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 18
+    Cold           : -3
+    Earth          : 23
+    Fire           : 120
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 21
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 130 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 8 + 7
+    DEX: 17 (+3) = 6 + 11
+    CON: 19 (+4) = 8 + 11
+    WIS: 25 (+7) = 11 + 14
+    INT: 21 (+5) = 10 + 11
+    CHA: 15 (+2) = 8 + 7
+
+  COMBAT:
+    AC: 14
+    Initiative: +3
+    Speed: 25 ft
+    AP: 14  BAP: 17  RP: 2
+    Proficiency: +44
+    To Hit: Magic: +65
+
+  HEALTH POOLS:
+    Vitality: 981 = 131d4 (2 x 131) + 130(flat) + 4 x 131(Con)
+    Health:  588 = 131d6 (3 x 131) + 130(flat)
+    Mana:   2552 = 131d20 (10 x 131) + 7 x 131(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 9
+    Magic Dmg/Cast: 265 | Dmg/Turn: 2385 (x75 mana)
+    Total Dmg/5R:  9794
+    Total Dmg/10R: 13685
+    Mana: 2552 start, 2 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  431
+    Stat Points:   29
+    Affinity Pts:  0
+    Stat Spent:    67
+
+  FEATS & SPELLS:
+    Feats:  43 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  45
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 19
+    Cold           : -3
+    Earth          : 24
+    Fire           : 128
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 22
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 140 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 8 + 7
+    DEX: 17 (+3) = 6 + 11
+    CON: 20 (+5) = 8 + 12
+    WIS: 26 (+8) = 11 + 15
+    INT: 21 (+5) = 10 + 11
+    CHA: 15 (+2) = 8 + 7
+
+  COMBAT:
+    AC: 14
+    Initiative: +3
+    Speed: 25 ft
+    AP: 15  BAP: 18  RP: 2
+    Proficiency: +47
+    To Hit: Magic: +69
+
+  HEALTH POOLS:
+    Vitality: 1197 = 141d4 (2 x 141) + 140(flat) + 5 x 141(Con)
+    Health:  633 = 141d6 (3 x 141) + 140(flat)
+    Mana:   2888 = 141d20 (10 x 141) + 8 x 141(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 10
+    Magic Dmg/Cast: 273 | Dmg/Turn: 2730 (x75 mana)
+    Total Dmg/5R:  10525
+    Total Dmg/10R: 14130
+    Mana: 2888 start, 2 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  462
+    Stat Points:   32
+    Affinity Pts:  0
+    Stat Spent:    70
+
+  FEATS & SPELLS:
+    Feats:  46 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  48
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 20
+    Cold           : -3
+    Earth          : 26
+    Fire           : 135
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 23
+
+  GEAR:
+    Weapon: dragonbone_wand
+    Armor: dragon_none (No Armor)
+
+============================================================
+  Fire Mage - Level 150 (Dragon Bone/Scale Gear)
+============================================================
+
+  STATS:
+    STR: 15 (+2) = 8 + 7
+    DEX: 18 (+4) = 6 + 12
+    CON: 20 (+5) = 8 + 12
+    WIS: 26 (+8) = 11 + 15
+    INT: 22 (+6) = 10 + 12
+    CHA: 16 (+3) = 8 + 8
+
+  COMBAT:
+    AC: 14
+    Initiative: +4
+    Speed: 25 ft
+    AP: 16  BAP: 19  RP: 2
+    Proficiency: +51
+    To Hit: Magic: +73
+
+  HEALTH POOLS:
+    Vitality: 1282 = 151d4 (2 x 151) + 150(flat) + 5 x 151(Con)
+    Health:  678 = 151d6 (3 x 151) + 150(flat)
+    Mana:   3093 = 151d20 (10 x 151) + 8 x 151(Wis)
+
+  DAMAGE:
+    Attacks/Turn: 10
+    Magic Dmg/Cast: 280 | Dmg/Turn: 2800 (x75 mana)
+    Total Dmg/5R:  11512
+    Total Dmg/10R: 15121
+    Mana: 3093 start, 6 after 10R (cast magic 10/10 rounds)
+
+  RESOURCES:
+    Skill Points:  495
+    Stat Points:   36
+    Affinity Pts:  0
+    Stat Spent:    74
+
+  FEATS & SPELLS:
+    Feats:  50 (taken: Toughness, Mana Flow, Armor Training, Heavy Hitter, Shield Master, Stone Skin, Affinity Master (Points), Save or Don't Suck, Overdrive, Brawler, Brawler, Brawler, Quick Reflexes, Affinity Master (Choose), Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert, Skill Expert)
+        (Wanted Fast Hands but did not meet prerequisite: Requires Scoundrel Lvl 2)
+    Spells:  52
+
+  PATHS:
+    Magical -> Magician (Lvl 5)
+    Magical -> Pyromancer (Lvl 3)
+    Magical -> Geomancer (Lvl 3)
+    Magical -> Tidemaster (Lvl 3)
+    Magical -> Windwalker (Lvl 3)
+    Magical -> Priest (Lvl 3)
+    Magical -> Necromancer (Lvl 3)
+    Racial -> Demon Sylphamare (Lvl 3)
+
+  AFFINITIES:
+    Air            : 21
+    Cold           : -3
+    Earth          : 27
+    Fire           : 144
+    Generic        : 2
+    Infernal       : 5
+    Necrotic       : 4
+    Psychic        : -3
+    Radiant        : 12
+    Water          : 25
 
   GEAR:
     Weapon: dragonbone_wand
