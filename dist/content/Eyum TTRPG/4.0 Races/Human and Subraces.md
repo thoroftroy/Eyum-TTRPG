@@ -14,7 +14,7 @@
 | Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
 | -------- | ----------- | ------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |
 | Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    |
-| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +1 STR, +1 WIS                         |
+| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +1 STR, +2 WIS, +1 INT                 |
 | Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         |
 | Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +6 STR, +2 CON, -2 DEX, -4 INT, -4 WIS |
 | Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         |

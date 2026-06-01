@@ -1,0 +1,626 @@
+{
+  "base_stat_value": 8,
+  "starting_points": {
+    "skill_points": 5,
+    "stat_points": 24,
+    "affinity_points": 5
+  },
+  "level_1_bonuses": {
+    "skill_points": 2,
+    "vit_dice_count": 1,
+    "hp_dice_count": 1,
+    "mana_dice_count": 1,
+    "skill_tree_points": 1
+  },
+  "per_level": {
+    "skill_points": 2,
+    "vit_dice_count": 1,
+    "hp_dice_count": 1,
+    "mana_dice_count": 1
+  },
+  "every_2_levels": {
+    "skill_tree_point": true,
+    "if_physical": {
+      "flat_vit": 2,
+      "flat_hp": 1
+    }
+  },
+  "every_3_levels": {
+    "stat_points": 1,
+    "affinity_points": 2,
+    "feat": true,
+    "skill_points": 2,
+    "if_magical_spell": true
+  },
+  "every_8_levels": {
+    "bap": 1,
+    "skill_points": 5
+  },
+  "every_10_levels": {
+    "ap": 1
+  },
+  "proficiency": {
+    "base": 1,
+    "per_3_levels": 1
+  },
+  "stat_point_cost": {
+    "1-20": 1,
+    "21-30": 2,
+    "31-40": 3,
+    "41-50": 4
+  },
+  "die_averages": {
+    "1d4": 2.5,
+    "1d6": 3.5,
+    "1d8": 4.5,
+    "1d10": 5.5,
+    "1d12": 6.5,
+    "1d20": 10.5,
+    "2d4": 5.0,
+    "2d6": 7.0,
+    "2d8": 9.0,
+    "2d10": 11.0,
+    "2d12": 13.0,
+    "3d6": 10.5,
+    "4d6": 14.0,
+    "5d6": 17.5,
+    "6d6": 21.0,
+    "8d6": 28.0,
+    "3d8": 13.5,
+    "4d8": 18.0,
+    "5d4": 12.5,
+    "5d8": 22.5,
+    "6d8": 27.0,
+    "6d10": 33.0,
+    "7d8": 31.5,
+    "8d8": 36.0,
+    "9d8": 40.5,
+    "10d6": 35.0,
+    "10d8": 45.0,
+    "10d10": 55.0,
+    "10d12": 65.0,
+    "12d8": 54.0,
+    "14d8": 63.0,
+    "15d6": 52.5,
+    "15d8": 67.5,
+    "16d8": 72.0,
+    "16d10": 88.0,
+    "18d8": 81.0,
+    "18d12": 117.0,
+    "18d20": 189.0,
+    "20d8": 90.0,
+    "20d20": 210.0,
+    "22d10": 121.0,
+    "24d20": 252.0,
+    "26d12": 169.0,
+    "26d20": 273.0,
+    "30d8": 135.0,
+    "30d10": 165.0,
+    "30d20": 315.0,
+    "36d12": 234.0,
+    "50d12": 325.0
+  },
+  "die_upgrade_order": [
+    "1d4",
+    "1d6",
+    "1d8",
+    "1d10",
+    "1d12",
+    "1d20"
+  ],
+  "starting_dice": {
+    "vit_die": "1d8",
+    "hp_die": "1d6",
+    "mana_die": "1d6"
+  },
+  "starting_combat": {
+    "ap": 1,
+    "bap": 1,
+    "rp": 1
+  },
+  "magical_start": {
+    "spells_at_level_1": 2
+  },
+  "ac": {
+    "base": 10,
+    "max_dex_bonus": 7,
+    "dex_bonus_table": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
+      "18": 7
+    }
+  },
+  "affinity_prerequisites": {
+    "Radiant": {
+      "needs": {
+        "any_of": [
+          "Fire",
+          "Earth",
+          "Water",
+          "Air"
+        ]
+      },
+      "min_each": 3,
+      "total_spent": 3
+    },
+    "Necrotic": {
+      "needs": {
+        "any_of": [
+          "Fire",
+          "Earth",
+          "Water",
+          "Air"
+        ]
+      },
+      "min_each": 3,
+      "total_spent": 3
+    },
+    "Psychic": {
+      "needs": {
+        "all_of": [
+          "Radiant",
+          "Necrotic"
+        ]
+      },
+      "min_each": 3,
+      "total_spent": 6
+    },
+    "Lightning": {
+      "needs": {
+        "all_of": [
+          "Fire",
+          "Air"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Steam": {
+      "needs": {
+        "all_of": [
+          "Fire",
+          "Water"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Magma": {
+      "needs": {
+        "all_of": [
+          "Fire",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Ice/Cold": {
+      "needs": {
+        "all_of": [
+          "Air",
+          "Water"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Dust": {
+      "needs": {
+        "all_of": [
+          "Air",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Mud": {
+      "needs": {
+        "all_of": [
+          "Water",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Nova": {
+      "needs": {
+        "all_of": [
+          "Radiant",
+          "Fire"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Solar": {
+      "needs": {
+        "all_of": [
+          "Radiant",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Hallowed": {
+      "needs": {
+        "all_of": [
+          "Radiant",
+          "Water"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Starlight": {
+      "needs": {
+        "all_of": [
+          "Radiant",
+          "Air"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Cursed": {
+      "needs": {
+        "all_of": [
+          "Radiant",
+          "Necrotic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Ash": {
+      "needs": {
+        "all_of": [
+          "Necrotic",
+          "Fire"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Blight": {
+      "needs": {
+        "all_of": [
+          "Necrotic",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Poison": {
+      "needs": {
+        "all_of": [
+          "Necrotic",
+          "Water"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Toxin": {
+      "needs": {
+        "all_of": [
+          "Necrotic",
+          "Air"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Bloodfire": {
+      "needs": {
+        "all_of": [
+          "Psychic",
+          "Fire"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Tremor": {
+      "needs": {
+        "all_of": [
+          "Psychic",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Deluge": {
+      "needs": {
+        "all_of": [
+          "Psychic",
+          "Water"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Shatter": {
+      "needs": {
+        "all_of": [
+          "Psychic",
+          "Air"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Sorrow": {
+      "needs": {
+        "all_of": [
+          "Psychic",
+          "Radiant"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Chaos": {
+      "needs": {
+        "all_of": [
+          "Psychic",
+          "Necrotic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20
+    },
+    "Infernal": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Fire"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Metal": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Earth"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Torrent": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Water"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Thunder": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Air"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Mirage": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Radiant"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Vacuum": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Necrotic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Warp": {
+      "needs": {
+        "all_of": [
+          "Force",
+          "Psychic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 20,
+      "requires_force": true
+    },
+    "Storm": {
+      "needs": {
+        "all_of": [
+          "Fire",
+          "Earth",
+          "Water",
+          "Air"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 40
+    },
+    "Frostfire": {
+      "needs": {
+        "all_of": [
+          "Water",
+          "Air",
+          "Fire"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 30
+    },
+    "Glacial": {
+      "needs": {
+        "all_of": [
+          "Water",
+          "Air",
+          "Necrotic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 30
+    },
+    "Void": {
+      "needs": {
+        "all_of": [
+          "Water",
+          "Air",
+          "Force"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 30,
+      "requires_force": true
+    },
+    "Obsidian": {
+      "needs": {
+        "all_of": [
+          "Water",
+          "Air",
+          "Earth",
+          "Necrotic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 40
+    },
+    "Quake": {
+      "needs": {
+        "all_of": [
+          "Earth",
+          "Air",
+          "Force"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 30,
+      "requires_force": true
+    },
+    "Corruption": {
+      "needs_all": [
+        {
+          "affinities": [
+            "Radiant",
+            "Water",
+            "Air",
+            "Earth"
+          ],
+          "min_each": 10
+        },
+        {
+          "affinities": [
+            "Necrotic"
+          ],
+          "min_each": 20
+        }
+      ],
+      "total_spent": 60
+    },
+    "Miasma": {
+      "needs_all": [
+        {
+          "affinities": [
+            "Air",
+            "Water"
+          ],
+          "min_each": 10
+        },
+        {
+          "affinities": [
+            "Necrotic"
+          ],
+          "min_each": 20
+        }
+      ],
+      "total_spent": 40
+    },
+    "Gel": {
+      "needs_all": [
+        {
+          "affinities": [
+            "Water",
+            "Necrotic"
+          ],
+          "min_each": 10
+        },
+        {
+          "affinities": [
+            "Earth"
+          ],
+          "min_each": 20
+        }
+      ],
+      "total_spent": 40
+    },
+    "Atomic": {
+      "needs": {
+        "all_of": [
+          "Fire",
+          "Earth",
+          "Water",
+          "Air",
+          "Radiant",
+          "Necrotic"
+        ]
+      },
+      "min_each": 10,
+      "total_spent": 60
+    },
+    "Eldritch": {
+      "needs": {
+        "all_of": [
+          "Fire",
+          "Earth",
+          "Water",
+          "Air",
+          "Radiant",
+          "Necrotic"
+        ]
+      },
+      "min_each": 50,
+      "total_spent": 300,
+      "or_alternative": "Level 3.5 Eldritch Horror"
+    }
+  }
+}

@@ -137,6 +137,15 @@ function extractAllEdges(node, nameMap) {
 await rmSafe(outDir);
 await copyDir(siteDir, outDir);
 
+// Copy Character Manager data files for the web app
+const charMgrData = path.join(repoRoot, 'Eyum TTRPG', 'Character Manager', 'data');
+const dataFiles = ['graph_cache.json', 'spells.json', 'rules.json', 'builds.json'];
+for (const f of dataFiles) {
+  const src = path.join(charMgrData, f);
+  try { await fs.copyFile(src, path.join(outDir, f)); }
+  catch { console.log(`  Skipped ${f} (not found, run generator first)`); }
+}
+
 const tree = await walkMarkdown(repoRoot);
 await copyMarkdownFiles(tree);
 

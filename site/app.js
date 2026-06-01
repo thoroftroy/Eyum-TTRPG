@@ -429,6 +429,19 @@ function renderTree(node, container) {
       container.appendChild(link);
     }
   }
+
+  if (node.name === '6.0 Magic') {
+    const sep = document.createElement('div');
+    sep.style.cssText = 'border-top:1px solid #444;margin:6px 0';
+    container.appendChild(sep);
+    const link = document.createElement('a');
+    link.href = '#__charmgr__';
+    link.className = 'file-link charmgr-link';
+    link.dataset.path = '__charmgr__';
+    link.textContent = 'Character Manager';
+    link.style.cssText = 'font-weight:bold;color:#4fc3f7';
+    container.appendChild(link);
+  }
 }
 
 function updateActiveLink() {
@@ -456,6 +469,20 @@ async function loadPage(path) {
   updateActiveLink();
   setBreadcrumbs(path);
   els.content.innerHTML = '<div class="loading">Loading...</div>';
+
+  if (path === '__charmgr__') {
+    try {
+      setBreadcrumbs('Character Manager');
+      const res = await fetch('./charmgr.html');
+      if (!res.ok) throw new Error('Could not load Character Manager');
+      els.content.innerHTML = await res.text();
+      initCharManager();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    } catch (err) {
+      els.content.innerHTML = `<div class="error">${err.message}</div>`;
+    }
+    return;
+  }
 
   try {
     const res = await fetch(`./content/${path}`);
