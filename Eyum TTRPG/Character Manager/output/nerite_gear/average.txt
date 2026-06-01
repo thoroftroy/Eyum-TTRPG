@@ -71,11 +71,11 @@ LEVEL 3
   AC:        avg=12  min=10  max=31
   Feats:     avg=0  min=0  max=1
   Spells:    avg=1  min=0  max=3
-  Dmg/Turn:  avg=9  min=1  max=21
+  Dmg/Turn:  avg=9  min=0  max=21
   Dmg/5R:    avg=45  min=0  max=105
-  Dmg/10R:   avg=84  min=0  max=210
+  Dmg/10R:   avg=85  min=0  max=210
   To Hit:    avg=+3  min=+1  max=+9
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=22
   WIS:       avg=16  min=8  max=19
@@ -102,11 +102,11 @@ LEVEL 4
   AC:        avg=12  min=10  max=31
   Feats:     avg=0  min=0  max=1
   Spells:    avg=1  min=0  max=3
-  Dmg/Turn:  avg=16  min=1  max=45
-  Dmg/5R:    avg=64  min=0  max=128
-  Dmg/10R:   avg=123  min=0  max=223
+  Dmg/Turn:  avg=15  min=0  max=45
+  Dmg/5R:    avg=65  min=0  max=128
+  Dmg/10R:   avg=125  min=0  max=223
   To Hit:    avg=+3  min=+1  max=+9
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=22
   WIS:       avg=16  min=8  max=19
@@ -121,7 +121,7 @@ LEVEL 4
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (3)
     Dmg:      Fire Mage (45)
-    Dmg/5R:   Poison Mage (128)
+    Dmg/5R:   Ash Mage (128)
     Dmg/10R:  Earth Mage (223)
     To Hit:   Archer/Melee Fighter (+9)
 
@@ -133,11 +133,11 @@ LEVEL 5
   AC:        avg=12  min=10  max=31
   Feats:     avg=0  min=0  max=1
   Spells:    avg=1  min=0  max=3
-  Dmg/Turn:  avg=16  min=1  max=45
-  Dmg/5R:    avg=66  min=0  max=133
-  Dmg/10R:   avg=124  min=0  max=230
+  Dmg/Turn:  avg=15  min=0  max=45
+  Dmg/5R:    avg=67  min=0  max=133
+  Dmg/10R:   avg=127  min=0  max=227
   To Hit:    avg=+3  min=+1  max=+9
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=22
   WIS:       avg=16  min=8  max=19
@@ -152,23 +152,23 @@ LEVEL 5
     Feats:    Jack of all Trades (1)
     Spells:   Jack of all Trades (3)
     Dmg:      Fire Mage (45)
-    Dmg/5R:   Poison Mage (133)
-    Dmg/10R:  Earth Mage (230)
+    Dmg/5R:   Ash Mage (133)
+    Dmg/10R:  Earth Mage (227)
     To Hit:   Archer/Melee Fighter (+9)
 
 LEVEL 6
 ----------------------------------------
-  Vitality:  avg=34  min=24  max=85
+  Vitality:  avg=35  min=24  max=85
   Health:    avg=27  min=24  max=33
   Mana:      avg=56  min=17  max=78
   AC:        avg=12  min=10  max=34
   Feats:     avg=1  min=0  max=2
   Spells:    avg=2  min=0  max=4
-  Dmg/Turn:  avg=18  min=1  max=47
-  Dmg/5R:    avg=77  min=6  max=167
-  Dmg/10R:   avg=140  min=12  max=286
+  Dmg/Turn:  avg=17  min=0  max=47
+  Dmg/5R:    avg=76  min=0  max=167
+  Dmg/10R:   avg=139  min=0  max=277
   To Hit:    avg=+4  min=+2  max=+11
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=23
   WIS:       avg=17  min=8  max=20
@@ -184,7 +184,7 @@ LEVEL 6
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (47)
     Dmg/5R:   Poison Mage (167)
-    Dmg/10R:  Fire Mage (286)
+    Dmg/10R:  Water Mage (277)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 7
@@ -195,11 +195,11 @@ LEVEL 7
   AC:        avg=12  min=10  max=34
   Feats:     avg=1  min=0  max=2
   Spells:    avg=2  min=0  max=4
-  Dmg/Turn:  avg=18  min=1  max=47
-  Dmg/5R:    avg=79  min=6  max=185
-  Dmg/10R:   avg=143  min=12  max=297
+  Dmg/Turn:  avg=17  min=0  max=47
+  Dmg/5R:    avg=78  min=0  max=185
+  Dmg/10R:   avg=140  min=0  max=284
   To Hit:    avg=+4  min=+2  max=+11
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=23
   WIS:       avg=17  min=8  max=20
@@ -215,22 +215,22 @@ LEVEL 7
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (47)
     Dmg/5R:   Poison Mage (185)
-    Dmg/10R:  Fire Mage (297)
+    Dmg/10R:  Water Mage (284)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 8
 ----------------------------------------
-  Vitality:  avg=45  min=31  max=119
+  Vitality:  avg=46  min=31  max=119
   Health:    avg=35  min=31  max=43
   Mana:      avg=72  min=13  max=101
   AC:        avg=12  min=10  max=34
   Feats:     avg=1  min=0  max=2
   Spells:    avg=2  min=0  max=4
-  Dmg/Turn:  avg=37  min=2  max=94
-  Dmg/5R:    avg=134  min=12  max=322
-  Dmg/10R:   avg=259  min=25  max=574
+  Dmg/Turn:  avg=34  min=0  max=94
+  Dmg/5R:    avg=136  min=0  max=291
+  Dmg/10R:   avg=261  min=0  max=543
   To Hit:    avg=+4  min=+2  max=+11
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=23
   WIS:       avg=17  min=8  max=20
@@ -245,8 +245,8 @@ LEVEL 8
     Feats:    Jack of all Trades (2)
     Spells:   Jack of all Trades (4)
     Dmg:      Fire Mage (94)
-    Dmg/5R:   Air Mage (322)
-    Dmg/10R:  Air Mage (574)
+    Dmg/5R:   Air Mage (291)
+    Dmg/10R:  Air Mage (543)
     To Hit:   Full Melee Fighter (+11)
 
 LEVEL 9
@@ -257,11 +257,11 @@ LEVEL 9
   AC:        avg=12  min=10  max=34
   Feats:     avg=1  min=0  max=3
   Spells:    avg=3  min=0  max=5
-  Dmg/Turn:  avg=39  min=2  max=130
-  Dmg/5R:    avg=142  min=11  max=345
-  Dmg/10R:   avg=273  min=23  max=611
+  Dmg/Turn:  avg=37  min=0  max=130
+  Dmg/5R:    avg=139  min=0  max=328
+  Dmg/10R:   avg=269  min=0  max=594
   To Hit:    avg=+5  min=+3  max=+13
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=23
   WIS:       avg=17  min=8  max=20
@@ -276,9 +276,9 @@ LEVEL 9
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (130)
-    Dmg/5R:   Air Mage (345)
-    Dmg/10R:  Air Mage (611)
-    To Hit:   Air Mage (+13)
+    Dmg/5R:   Necrotic Mage (328)
+    Dmg/10R:  Necrotic Mage (594)
+    To Hit:   Water Mage (+13)
 
 LEVEL 10
 ----------------------------------------
@@ -288,11 +288,11 @@ LEVEL 10
   AC:        avg=13  min=10  max=35
   Feats:     avg=1  min=0  max=3
   Spells:    avg=3  min=0  max=5
-  Dmg/Turn:  avg=43  min=4  max=130
-  Dmg/5R:    avg=149  min=19  max=372
-  Dmg/10R:   avg=281  min=32  max=638
+  Dmg/Turn:  avg=38  min=0  max=130
+  Dmg/5R:    avg=146  min=0  max=303
+  Dmg/10R:   avg=277  min=0  max=569
   To Hit:    avg=+5  min=+3  max=+12
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=24
   WIS:       avg=17  min=8  max=20
@@ -307,8 +307,8 @@ LEVEL 10
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (130)
-    Dmg/5R:   Air Mage (372)
-    Dmg/10R:  Air Mage (638)
+    Dmg/5R:   Water Mage (303)
+    Dmg/10R:  Water Mage (569)
     To Hit:   Full Melee Fighter (+12)
 
 LEVEL 11
@@ -319,11 +319,11 @@ LEVEL 11
   AC:        avg=13  min=10  max=35
   Feats:     avg=1  min=0  max=3
   Spells:    avg=3  min=0  max=5
-  Dmg/Turn:  avg=43  min=4  max=130
-  Dmg/5R:    avg=144  min=18  max=359
-  Dmg/10R:   avg=276  min=30  max=625
+  Dmg/Turn:  avg=38  min=0  max=130
+  Dmg/5R:    avg=140  min=0  max=306
+  Dmg/10R:   avg=268  min=0  max=550
   To Hit:    avg=+5  min=+3  max=+12
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=23
   CON:       avg=11  min=8  max=24
   WIS:       avg=17  min=8  max=20
@@ -338,8 +338,8 @@ LEVEL 11
     Feats:    Jack of all Trades (3)
     Spells:   Jack of all Trades (5)
     Dmg:      Fire Mage (130)
-    Dmg/5R:   Air Mage (359)
-    Dmg/10R:  Air Mage (625)
+    Dmg/5R:   Necrotic Mage (306)
+    Dmg/10R:  Earth Mage (550)
     To Hit:   Full Melee Fighter (+12)
 
 LEVEL 12
@@ -350,11 +350,11 @@ LEVEL 12
   AC:        avg=13  min=10  max=41
   Feats:     avg=2  min=0  max=4
   Spells:    avg=4  min=0  max=6
-  Dmg/Turn:  avg=53  min=4  max=130
-  Dmg/5R:    avg=145  min=18  max=401
-  Dmg/10R:   avg=283  min=30  max=667
+  Dmg/Turn:  avg=43  min=4  max=142
+  Dmg/5R:    avg=161  min=18  max=511
+  Dmg/10R:   avg=299  min=30  max=721
   To Hit:    avg=+6  min=+4  max=+16
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=24
   WIS:       avg=17  min=8  max=20
@@ -368,9 +368,9 @@ LEVEL 12
     AC:       Tanker (41)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (6)
-    Dmg:      Fire Mage (130)
-    Dmg/5R:   Earth Mage (401)
-    Dmg/10R:  Earth Mage (667)
+    Dmg:      Solar Mage (142)
+    Dmg/5R:   Solar Mage (511)
+    Dmg/10R:  Solar Mage (721)
     To Hit:   Earth Mage (+16)
 
 LEVEL 13
@@ -381,11 +381,11 @@ LEVEL 13
   AC:        avg=13  min=10  max=41
   Feats:     avg=2  min=0  max=4
   Spells:    avg=4  min=0  max=6
-  Dmg/Turn:  avg=53  min=4  max=130
-  Dmg/5R:    avg=154  min=19  max=446
-  Dmg/10R:   avg=294  min=32  max=712
+  Dmg/Turn:  avg=43  min=4  max=142
+  Dmg/5R:    avg=163  min=19  max=497
+  Dmg/10R:   avg=302  min=32  max=707
   To Hit:    avg=+6  min=+4  max=+16
-  STR:       avg=9  min=8  max=22
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=24
   WIS:       avg=17  min=8  max=20
@@ -399,24 +399,24 @@ LEVEL 13
     AC:       Tanker (41)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (6)
-    Dmg:      Fire Mage (130)
-    Dmg/5R:   Earth Mage (446)
-    Dmg/10R:  Earth Mage (712)
+    Dmg:      Solar Mage (142)
+    Dmg/5R:   Solar Mage (497)
+    Dmg/10R:  Solar Mage (707)
     To Hit:   Earth Mage (+16)
 
 LEVEL 14
 ----------------------------------------
-  Vitality:  avg=83  min=52  max=215
+  Vitality:  avg=85  min=52  max=215
   Health:    avg=60  min=52  max=73
   Mana:      avg=122  min=22  max=170
   AC:        avg=13  min=10  max=41
   Feats:     avg=2  min=0  max=4
   Spells:    avg=4  min=0  max=6
-  Dmg/Turn:  avg=55  min=4  max=274
-  Dmg/5R:    avg=157  min=21  max=605
-  Dmg/10R:   avg=299  min=34  max=829
-  To Hit:    avg=+6  min=+4  max=+16
-  STR:       avg=9  min=8  max=22
+  Dmg/Turn:  avg=47  min=4  max=282
+  Dmg/5R:    avg=172  min=21  max=621
+  Dmg/10R:   avg=314  min=34  max=845
+  To Hit:    avg=+7  min=+4  max=+17
+  STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=24
   WIS:       avg=17  min=8  max=20
@@ -430,24 +430,24 @@ LEVEL 14
     AC:       Tanker (41)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (6)
-    Dmg:      Nova Mage (274)
-    Dmg/5R:   Solar Mage (605)
-    Dmg/10R:  Solar Mage (829)
-    To Hit:   Earth Mage (+16)
+    Dmg:      Nova Mage (282)
+    Dmg/5R:   Solar Mage (621)
+    Dmg/10R:  Solar Mage (845)
+    To Hit:   Fire Mage (+17)
 
 LEVEL 15
 ----------------------------------------
-  Vitality:  avg=90  min=56  max=229
+  Vitality:  avg=91  min=56  max=229
   Health:    avg=64  min=56  max=78
-  Mana:      avg=130  min=24  max=182
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=131  min=24  max=182
+  AC:        avg=13  min=10  max=41
   Feats:     avg=2  min=0  max=5
   Spells:    avg=5  min=0  max=7
-  Dmg/Turn:  avg=53  min=4  max=282
-  Dmg/5R:    avg=171  min=19  max=621
-  Dmg/10R:   avg=309  min=30  max=845
-  To Hit:    avg=+7  min=+5  max=+17
-  STR:       avg=9  min=8  max=23
+  Dmg/Turn:  avg=48  min=4  max=290
+  Dmg/5R:    avg=176  min=19  max=636
+  Dmg/10R:   avg=314  min=30  max=860
+  To Hit:    avg=+7  min=+5  max=+18
+  STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=25
   WIS:       avg=17  min=8  max=20
@@ -458,27 +458,27 @@ LEVEL 15
     Vitality: Tanker Archer (229)
     Health:   Jack of all Trades (78)
     Mana:     Fire Mage (182)
-    AC:       Tanker (42)
+    AC:       Tanker (41)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (7)
-    Dmg:      Nova Mage (282)
-    Dmg/5R:   Solar Mage (621)
-    Dmg/10R:  Solar Mage (845)
-    To Hit:   Earth Mage (+17)
+    Dmg:      Nova Mage (290)
+    Dmg/5R:   Solar Mage (636)
+    Dmg/10R:  Solar Mage (860)
+    To Hit:   Fire Mage (+18)
 
 LEVEL 16
 ----------------------------------------
-  Vitality:  avg=96  min=59  max=261
+  Vitality:  avg=90  min=59  max=261
   Health:    avg=68  min=59  max=83
-  Mana:      avg=138  min=25  max=193
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=146  min=25  max=210
+  AC:        avg=13  min=10  max=41
   Feats:     avg=2  min=0  max=5
   Spells:    avg=5  min=0  max=7
-  Dmg/Turn:  avg=53  min=4  max=282
-  Dmg/5R:    avg=178  min=18  max=703
-  Dmg/10R:   avg=317  min=29  max=927
-  To Hit:    avg=+7  min=+5  max=+17
-  STR:       avg=9  min=8  max=23
+  Dmg/Turn:  avg=47  min=0  max=290
+  Dmg/5R:    avg=179  min=0  max=708
+  Dmg/10R:   avg=317  min=0  max=932
+  To Hit:    avg=+7  min=+5  max=+18
+  STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=25
   WIS:       avg=17  min=8  max=20
@@ -488,28 +488,28 @@ LEVEL 16
   BEST:
     Vitality: Tanker Archer (261)
     Health:   Jack of all Trades (83)
-    Mana:     Fire Mage (193)
-    AC:       Tanker (42)
+    Mana:     Fire Mage (210)
+    AC:       Tanker (41)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (7)
-    Dmg:      Nova Mage (282)
-    Dmg/5R:   Solar Mage (703)
-    Dmg/10R:  Solar Mage (927)
-    To Hit:   Earth Mage (+17)
+    Dmg:      Nova Mage (290)
+    Dmg/5R:   Solar Mage (708)
+    Dmg/10R:  Solar Mage (932)
+    To Hit:   Fire Mage (+18)
 
 LEVEL 17
 ----------------------------------------
-  Vitality:  avg=102  min=63  max=276
+  Vitality:  avg=96  min=63  max=276
   Health:    avg=73  min=63  max=88
-  Mana:      avg=147  min=27  max=205
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=155  min=27  max=223
+  AC:        avg=13  min=10  max=41
   Feats:     avg=2  min=0  max=5
   Spells:    avg=5  min=0  max=7
-  Dmg/Turn:  avg=53  min=4  max=282
-  Dmg/5R:    avg=175  min=18  max=703
-  Dmg/10R:   avg=313  min=29  max=927
-  To Hit:    avg=+7  min=+5  max=+17
-  STR:       avg=9  min=8  max=23
+  Dmg/Turn:  avg=47  min=0  max=290
+  Dmg/5R:    avg=182  min=0  max=760
+  Dmg/10R:   avg=324  min=0  max=984
+  To Hit:    avg=+7  min=+5  max=+18
+  STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=25
   WIS:       avg=17  min=8  max=20
@@ -519,30 +519,30 @@ LEVEL 17
   BEST:
     Vitality: Tanker Archer (276)
     Health:   Jack of all Trades (88)
-    Mana:     Fire Mage (205)
-    AC:       Tanker (42)
+    Mana:     Fire Mage (223)
+    AC:       Tanker (41)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (7)
-    Dmg:      Nova Mage (282)
-    Dmg/5R:   Solar Mage (703)
-    Dmg/10R:  Solar Mage (927)
-    To Hit:   Earth Mage (+17)
+    Dmg:      Nova Mage (290)
+    Dmg/5R:   Solar Mage (760)
+    Dmg/10R:  Solar Mage (984)
+    To Hit:   Fire Mage (+18)
 
 LEVEL 18
 ----------------------------------------
-  Vitality:  avg=108  min=66  max=292
+  Vitality:  avg=102  min=66  max=292
   Health:    avg=76  min=66  max=93
-  Mana:      avg=155  min=28  max=216
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=163  min=28  max=235
+  AC:        avg=13  min=10  max=41
   Feats:     avg=3  min=0  max=6
   Spells:    avg=5  min=0  max=8
-  Dmg/Turn:  avg=63  min=4  max=570
-  Dmg/5R:    avg=207  min=21  max=780
-  Dmg/10R:   avg=365  min=34  max=1046
-  To Hit:    avg=+9  min=+6  max=+21
-  STR:       avg=9  min=8  max=23
+  Dmg/Turn:  avg=54  min=0  max=298
+  Dmg/5R:    avg=200  min=0  max=780
+  Dmg/10R:   avg=348  min=0  max=1006
+  To Hit:    avg=+8  min=+6  max=+20
+  STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
-  CON:       avg=11  min=8  max=25
+  CON:       avg=12  min=8  max=25
   WIS:       avg=17  min=8  max=20
   INT:       avg=13  min=8  max=16
   CHA:       avg=9  min=8  max=14
@@ -550,30 +550,30 @@ LEVEL 18
   BEST:
     Vitality: Tanker Archer (292)
     Health:   Jack of all Trades (93)
-    Mana:     Fire Mage (216)
-    AC:       Tanker (42)
+    Mana:     Fire Mage (235)
+    AC:       Tanker (41)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (8)
-    Dmg:      Metal Mage (570)
+    Dmg:      Nova Mage (298)
     Dmg/5R:   Solar Mage (780)
-    Dmg/10R:  Solar Mage (1046)
-    To Hit:   Fire Mage (+21)
+    Dmg/10R:  Solar Mage (1006)
+    To Hit:   Fire Mage (+20)
 
 LEVEL 19
 ----------------------------------------
-  Vitality:  avg=114  min=70  max=307
+  Vitality:  avg=108  min=70  max=307
   Health:    avg=81  min=70  max=98
-  Mana:      avg=164  min=30  max=228
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=173  min=30  max=248
+  AC:        avg=13  min=10  max=41
   Feats:     avg=3  min=0  max=6
   Spells:    avg=5  min=0  max=8
-  Dmg/Turn:  avg=63  min=4  max=570
-  Dmg/5R:    avg=210  min=22  max=780
-  Dmg/10R:   avg=367  min=39  max=1046
-  To Hit:    avg=+9  min=+6  max=+21
-  STR:       avg=9  min=8  max=23
+  Dmg/Turn:  avg=54  min=0  max=298
+  Dmg/5R:    avg=208  min=0  max=867
+  Dmg/10R:   avg=360  min=0  max=1105
+  To Hit:    avg=+8  min=+6  max=+20
+  STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
-  CON:       avg=11  min=8  max=25
+  CON:       avg=12  min=8  max=25
   WIS:       avg=17  min=8  max=20
   INT:       avg=13  min=8  max=16
   CHA:       avg=9  min=8  max=14
@@ -581,30 +581,30 @@ LEVEL 19
   BEST:
     Vitality: Tanker Archer (307)
     Health:   Jack of all Trades (98)
-    Mana:     Fire Mage (228)
-    AC:       Tanker (42)
+    Mana:     Fire Mage (248)
+    AC:       Tanker (41)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (8)
-    Dmg:      Metal Mage (570)
-    Dmg/5R:   Solar Mage (780)
-    Dmg/10R:  Solar Mage (1046)
-    To Hit:   Fire Mage (+21)
+    Dmg:      Nova Mage (298)
+    Dmg/5R:   Solar Mage (867)
+    Dmg/10R:  Solar Mage (1105)
+    To Hit:   Fire Mage (+20)
 
 LEVEL 20
 ----------------------------------------
-  Vitality:  avg=111  min=73  max=323
+  Vitality:  avg=113  min=73  max=323
   Health:    avg=84  min=73  max=103
-  Mana:      avg=180  min=31  max=260
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=181  min=31  max=260
+  AC:        avg=13  min=10  max=41
   Feats:     avg=3  min=0  max=6
   Spells:    avg=5  min=0  max=8
-  Dmg/Turn:  avg=62  min=4  max=324
-  Dmg/5R:    avg=203  min=22  max=867
-  Dmg/10R:   avg=354  min=39  max=1121
-  To Hit:    avg=+9  min=+6  max=+20
-  STR:       avg=9  min=8  max=23
+  Dmg/Turn:  avg=55  min=0  max=298
+  Dmg/5R:    avg=209  min=0  max=867
+  Dmg/10R:   avg=365  min=0  max=1092
+  To Hit:    avg=+8  min=+6  max=+20
+  STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
-  CON:       avg=11  min=8  max=25
+  CON:       avg=12  min=8  max=25
   WIS:       avg=17  min=8  max=20
   INT:       avg=13  min=8  max=16
   CHA:       avg=9  min=8  max=14
@@ -613,29 +613,153 @@ LEVEL 20
     Vitality: Tanker Archer (323)
     Health:   Jack of all Trades (103)
     Mana:     Fire Mage (260)
-    AC:       Tanker (42)
+    AC:       Tanker (41)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (8)
-    Dmg:      Metal Mage (324)
+    Dmg:      Nova Mage (298)
     Dmg/5R:   Solar Mage (867)
-    Dmg/10R:  Solar Mage (1121)
+    Dmg/10R:  Solar Mage (1092)
     To Hit:   Fire Mage (+20)
 
-LEVEL 25
+LEVEL 21
 ----------------------------------------
-  Vitality:  avg=144  min=91  max=504
-  Health:    avg=105  min=91  max=128
-  Mana:      avg=224  min=39  max=323
+  Vitality:  avg=119  min=77  max=338
+  Health:    avg=89  min=77  max=108
+  Mana:      avg=190  min=33  max=273
+  AC:        avg=13  min=10  max=41
+  Feats:     avg=3  min=0  max=7
+  Spells:    avg=6  min=0  max=9
+  Dmg/Turn:  avg=63  min=0  max=384
+  Dmg/5R:    avg=215  min=0  max=867
+  Dmg/10R:   avg=373  min=0  max=1167
+  To Hit:    avg=+10  min=+7  max=+22
+  STR:       avg=10  min=8  max=23
+  DEX:       avg=10  min=8  max=24
+  CON:       avg=12  min=8  max=25
+  WIS:       avg=17  min=8  max=20
+  INT:       avg=13  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (338)
+    Health:   Jack of all Trades (108)
+    Mana:     Fire Mage (273)
+    AC:       Tanker (41)
+    Feats:    Jack of all Trades (7)
+    Spells:   Jack of all Trades (9)
+    Dmg:      Bloodfire Mage (384)
+    Dmg/5R:   Solar Mage (867)
+    Dmg/10R:  Solar Mage (1167)
+    To Hit:   Fire Mage (+22)
+
+LEVEL 22
+----------------------------------------
+  Vitality:  avg=124  min=80  max=354
+  Health:    avg=93  min=80  max=113
+  Mana:      avg=198  min=34  max=285
+  AC:        avg=13  min=10  max=41
+  Feats:     avg=3  min=0  max=7
+  Spells:    avg=6  min=0  max=9
+  Dmg/Turn:  avg=64  min=0  max=384
+  Dmg/5R:    avg=219  min=0  max=867
+  Dmg/10R:   avg=375  min=0  max=1155
+  To Hit:    avg=+10  min=+7  max=+22
+  STR:       avg=10  min=8  max=23
+  DEX:       avg=10  min=8  max=24
+  CON:       avg=12  min=8  max=25
+  WIS:       avg=17  min=8  max=20
+  INT:       avg=13  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (354)
+    Health:   Jack of all Trades (113)
+    Mana:     Fire Mage (285)
+    AC:       Tanker (41)
+    Feats:    Jack of all Trades (7)
+    Spells:   Jack of all Trades (9)
+    Dmg:      Bloodfire Mage (384)
+    Dmg/5R:   Solar Mage (867)
+    Dmg/10R:  Solar Mage (1155)
+    To Hit:   Fire Mage (+22)
+
+LEVEL 23
+----------------------------------------
+  Vitality:  avg=130  min=84  max=369
+  Health:    avg=97  min=84  max=118
+  Mana:      avg=207  min=36  max=298
+  AC:        avg=13  min=10  max=41
+  Feats:     avg=3  min=0  max=7
+  Spells:    avg=6  min=0  max=9
+  Dmg/Turn:  avg=64  min=0  max=384
+  Dmg/5R:    avg=224  min=0  max=867
+  Dmg/10R:   avg=386  min=0  max=1254
+  To Hit:    avg=+10  min=+7  max=+22
+  STR:       avg=10  min=8  max=23
+  DEX:       avg=10  min=8  max=24
+  CON:       avg=12  min=8  max=25
+  WIS:       avg=17  min=8  max=20
+  INT:       avg=13  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (369)
+    Health:   Jack of all Trades (118)
+    Mana:     Fire Mage (298)
+    AC:       Tanker (41)
+    Feats:    Jack of all Trades (7)
+    Spells:   Jack of all Trades (9)
+    Dmg:      Bloodfire Mage (384)
+    Dmg/5R:   Solar Mage (867)
+    Dmg/10R:  Solar Mage (1254)
+    To Hit:   Fire Mage (+22)
+
+LEVEL 24
+----------------------------------------
+  Vitality:  avg=140  min=87  max=485
+  Health:    avg=101  min=87  max=123
+  Mana:      avg=216  min=37  max=310
   AC:        avg=13  min=10  max=42
   Feats:     avg=4  min=0  max=8
   Spells:    avg=7  min=0  max=10
-  Dmg/Turn:  avg=116  min=6  max=855
-  Dmg/5R:    avg=293  min=32  max=755
-  Dmg/10R:   avg=533  min=51  max=1296
+  Dmg/Turn:  avg=104  min=0  max=789
+  Dmg/5R:    avg=289  min=0  max=820
+  Dmg/10R:   avg=519  min=0  max=1219
   To Hit:    avg=+11  min=+8  max=+23
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=25
-  CON:       avg=11  min=8  max=25
+  CON:       avg=12  min=8  max=25
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (485)
+    Health:   Jack of all Trades (123)
+    Mana:     Fire Mage (310)
+    AC:       Tanker (42)
+    Feats:    Jack of all Trades (8)
+    Spells:   Jack of all Trades (10)
+    Dmg:      Metal Mage (789)
+    Dmg/5R:   Magma Mage (820)
+    Dmg/10R:  Magma Mage (1219)
+    To Hit:   Fire Mage (+23)
+
+LEVEL 25
+----------------------------------------
+  Vitality:  avg=146  min=91  max=504
+  Health:    avg=105  min=91  max=128
+  Mana:      avg=225  min=39  max=323
+  AC:        avg=13  min=10  max=42
+  Feats:     avg=4  min=0  max=8
+  Spells:    avg=7  min=0  max=10
+  Dmg/Turn:  avg=104  min=0  max=789
+  Dmg/5R:    avg=287  min=0  max=839
+  Dmg/10R:   avg=519  min=0  max=1238
+  To Hit:    avg=+11  min=+8  max=+23
+  STR:       avg=10  min=8  max=23
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=25
   WIS:       avg=17  min=8  max=21
   INT:       avg=14  min=8  max=17
   CHA:       avg=9  min=8  max=14
@@ -647,24 +771,148 @@ LEVEL 25
     AC:       Tanker (42)
     Feats:    Jack of all Trades (8)
     Spells:   Jack of all Trades (10)
-    Dmg:      Metal Mage (855)
-    Dmg/5R:   Earth Mage (755)
-    Dmg/10R:  Earth Mage (1296)
+    Dmg:      Metal Mage (789)
+    Dmg/5R:   Magma Mage (839)
+    Dmg/10R:  Magma Mage (1238)
     To Hit:   Fire Mage (+23)
+
+LEVEL 26
+----------------------------------------
+  Vitality:  avg=152  min=94  max=551
+  Health:    avg=109  min=94  max=133
+  Mana:      avg=239  min=40  max=387
+  AC:        avg=13  min=10  max=44
+  Feats:     avg=4  min=0  max=8
+  Spells:    avg=7  min=0  max=10
+  Dmg/Turn:  avg=113  min=0  max=789
+  Dmg/5R:    avg=320  min=0  max=862
+  Dmg/10R:   avg=548  min=0  max=1440
+  To Hit:    avg=+11  min=+8  max=+24
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=27
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (551)
+    Health:   Jack of all Trades (133)
+    Mana:     Vacuum Mage (387)
+    AC:       Tanker (44)
+    Feats:    Jack of all Trades (8)
+    Spells:   Jack of all Trades (10)
+    Dmg:      Metal Mage (789)
+    Dmg/5R:   Poison Mage (862)
+    Dmg/10R:  Miasma Mage (1440)
+    To Hit:   Fire Mage (+24)
+
+LEVEL 27
+----------------------------------------
+  Vitality:  avg=158  min=98  max=571
+  Health:    avg=114  min=98  max=138
+  Mana:      avg=248  min=42  max=402
+  AC:        avg=13  min=10  max=44
+  Feats:     avg=4  min=0  max=9
+  Spells:    avg=8  min=0  max=11
+  Dmg/Turn:  avg=108  min=0  max=813
+  Dmg/5R:    avg=335  min=0  max=1214
+  Dmg/10R:   avg=572  min=0  max=1613
+  To Hit:    avg=+12  min=+9  max=+25
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=27
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=13  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (571)
+    Health:   Jack of all Trades (138)
+    Mana:     Vacuum Mage (402)
+    AC:       Tanker (44)
+    Feats:    Jack of all Trades (9)
+    Spells:   Jack of all Trades (11)
+    Dmg:      Metal Mage (813)
+    Dmg/5R:   Solar Mage (1214)
+    Dmg/10R:  Solar Mage (1613)
+    To Hit:   Fire Mage (+25)
+
+LEVEL 28
+----------------------------------------
+  Vitality:  avg=164  min=101  max=592
+  Health:    avg=117  min=101  max=143
+  Mana:      avg=268  min=43  max=445
+  AC:        avg=13  min=10  max=44
+  Feats:     avg=4  min=0  max=9
+  Spells:    avg=8  min=0  max=11
+  Dmg/Turn:  avg=112  min=0  max=822
+  Dmg/5R:    avg=362  min=0  max=1360
+  Dmg/10R:   avg=625  min=0  max=1815
+  To Hit:    avg=+12  min=+9  max=+25
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=27
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=13  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (592)
+    Health:   Jack of all Trades (143)
+    Mana:     Vacuum Mage (445)
+    AC:       Tanker (44)
+    Feats:    Jack of all Trades (9)
+    Spells:   Jack of all Trades (11)
+    Dmg:      Metal Mage (822)
+    Dmg/5R:   Solar Mage (1360)
+    Dmg/10R:  Solar Mage (1815)
+    To Hit:   Fire Mage (+25)
+
+LEVEL 29
+----------------------------------------
+  Vitality:  avg=170  min=105  max=612
+  Health:    avg=122  min=105  max=148
+  Mana:      avg=278  min=45  max=461
+  AC:        avg=13  min=10  max=44
+  Feats:     avg=4  min=0  max=9
+  Spells:    avg=8  min=0  max=11
+  Dmg/Turn:  avg=112  min=0  max=822
+  Dmg/5R:    avg=365  min=0  max=1360
+  Dmg/10R:   avg=629  min=0  max=1773
+  To Hit:    avg=+12  min=+9  max=+25
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=27
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=13  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (612)
+    Health:   Jack of all Trades (148)
+    Mana:     Vacuum Mage (461)
+    AC:       Tanker (44)
+    Feats:    Jack of all Trades (9)
+    Spells:   Jack of all Trades (11)
+    Dmg:      Metal Mage (822)
+    Dmg/5R:   Solar Mage (1360)
+    Dmg/10R:  Solar Mage (1773)
+    To Hit:   Fire Mage (+25)
 
 LEVEL 30
 ----------------------------------------
-  Vitality:  avg=173  min=108  max=664
+  Vitality:  avg=175  min=108  max=664
   Health:    avg=125  min=108  max=153
-  Mana:      avg=267  min=46  max=385
-  AC:        avg=13  min=10  max=42
+  Mana:      avg=287  min=46  max=476
+  AC:        avg=13  min=10  max=44
   Feats:     avg=5  min=0  max=10
   Spells:    avg=9  min=0  max=12
-  Dmg/Turn:  avg=149  min=9  max=2529
-  Dmg/5R:    avg=342  min=36  max=881
-  Dmg/10R:   avg=588  min=55  max=1386
+  Dmg/Turn:  avg=153  min=0  max=2559
+  Dmg/5R:    avg=398  min=0  max=1161
+  Dmg/10R:   avg=699  min=0  max=1740
   To Hit:    avg=+13  min=+10  max=+26
-  STR:       avg=10  min=8  max=24
+  STR:       avg=10  min=8  max=25
   DEX:       avg=10  min=8  max=25
   CON:       avg=12  min=8  max=28
   WIS:       avg=17  min=8  max=21
@@ -674,384 +922,12 @@ LEVEL 30
   BEST:
     Vitality: Tanker Archer (664)
     Health:   Jack of all Trades (153)
-    Mana:     Fire Mage (385)
-    AC:       Tanker (42)
+    Mana:     Vacuum Mage (476)
+    AC:       Tanker (44)
     Feats:    Jack of all Trades (10)
     Spells:   Jack of all Trades (12)
-    Dmg:      Atomic Mage (2529)
-    Dmg/5R:   Void Mage (881)
-    Dmg/10R:  Earth Mage (1386)
+    Dmg:      Atomic Mage (2559)
+    Dmg/5R:   Solar Mage (1161)
+    Dmg/10R:  Miasma Mage (1740)
     To Hit:   Fire Mage (+26)
-
-LEVEL 40
-----------------------------------------
-  Vitality:  avg=248  min=143  max=879
-  Health:    avg=166  min=143  max=203
-  Mana:      avg=371  min=61  max=592
-  AC:        avg=13  min=10  max=46
-  Feats:     avg=6  min=0  max=13
-  Spells:    avg=11  min=0  max=15
-  Dmg/Turn:  avg=231  min=12  max=3436
-  Dmg/5R:    avg=571  min=49  max=1454
-  Dmg/10R:   avg=1019  min=74  max=2732
-  To Hit:    avg=+16  min=+13  max=+30
-  STR:       avg=10  min=8  max=24
-  DEX:       avg=11  min=8  max=26
-  CON:       avg=13  min=8  max=28
-  WIS:       avg=17  min=8  max=22
-  INT:       avg=14  min=8  max=18
-  CHA:       avg=9  min=8  max=15
-
-  BEST:
-    Vitality: Tanker Archer (879)
-    Health:   Jack of all Trades (203)
-    Mana:     Psychic Mage (592)
-    AC:       Tanker (46)
-    Feats:    Jack of all Trades (13)
-    Spells:   Jack of all Trades (15)
-    Dmg:      Atomic Mage (3436)
-    Dmg/5R:   Solar Mage (1454)
-    Dmg/10R:  Air Mage (2732)
-    To Hit:   Earth Mage (+30)
-
-LEVEL 50
-----------------------------------------
-  Vitality:  avg=332  min=228  max=1145
-  Health:    avg=207  min=178  max=253
-  Mana:      avg=485  min=76  max=737
-  AC:        avg=13  min=10  max=46
-  Feats:     avg=8  min=0  max=16
-  Spells:    avg=14  min=0  max=18
-  Dmg/Turn:  avg=280  min=12  max=3532
-  Dmg/5R:    avg=815  min=55  max=2010
-  Dmg/10R:   avg=1465  min=83  max=3302
-  To Hit:    avg=+20  min=+16  max=+34
-  STR:       avg=11  min=8  max=25
-  DEX:       avg=11  min=8  max=27
-  CON:       avg=14  min=8  max=31
-  WIS:       avg=18  min=8  max=22
-  INT:       avg=14  min=8  max=18
-  CHA:       avg=9  min=8  max=15
-
-  BEST:
-    Vitality: Tanker Archer (1145)
-    Health:   Jack of all Trades (253)
-    Mana:     Fire Mage (737)
-    AC:       Tanker (46)
-    Feats:    Jack of all Trades (16)
-    Spells:   Jack of all Trades (18)
-    Dmg:      Atomic Mage (3532)
-    Dmg/5R:   Void Mage (2010)
-    Dmg/10R:  Void Mage (3302)
-    To Hit:   Earth Mage (+34)
-
-LEVEL 60
-----------------------------------------
-  Vitality:  avg=427  min=273  max=1370
-  Health:    avg=248  min=213  max=303
-  Mana:      avg=681  min=91  max=1126
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=10  min=0  max=20
-  Spells:    avg=17  min=0  max=22
-  Dmg/Turn:  avg=361  min=15  max=4435
-  Dmg/5R:    avg=1100  min=65  max=3037
-  Dmg/10R:   avg=1918  min=96  max=4570
-  To Hit:    avg=+24  min=+20  max=+39
-  STR:       avg=11  min=8  max=25
-  DEX:       avg=12  min=8  max=27
-  CON:       avg=14  min=8  max=31
-  WIS:       avg=18  min=8  max=23
-  INT:       avg=14  min=8  max=19
-  CHA:       avg=9  min=8  max=16
-
-  BEST:
-    Vitality: Tanker Archer (1370)
-    Health:   Jack of all Trades (303)
-    Mana:     Fire Mage (1126)
-    AC:       Tanker (51)
-    Feats:    Jack of all Trades (20)
-    Spells:   Jack of all Trades (22)
-    Dmg:      Atomic Mage (4435)
-    Dmg/5R:   Void Mage (3037)
-    Dmg/10R:  Solar Mage (4570)
-    To Hit:   Earth Mage (+39)
-
-LEVEL 70
-----------------------------------------
-  Vitality:  avg=503  min=318  max=1666
-  Health:    avg=289  min=248  max=353
-  Mana:      avg=795  min=106  max=1382
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=11  min=0  max=23
-  Spells:    avg=20  min=0  max=25
-  Dmg/Turn:  avg=366  min=15  max=4435
-  Dmg/5R:    avg=1229  min=87  max=3620
-  Dmg/10R:   avg=2009  min=119  max=5330
-  To Hit:    avg=+27  min=+23  max=+42
-  STR:       avg=11  min=8  max=26
-  DEX:       avg=12  min=8  max=28
-  CON:       avg=14  min=8  max=32
-  WIS:       avg=18  min=8  max=24
-  INT:       avg=14  min=8  max=20
-  CHA:       avg=10  min=8  max=16
-
-  BEST:
-    Vitality: Tanker Archer (1666)
-    Health:   Jack of all Trades (353)
-    Mana:     Necrotic Mage (1382)
-    AC:       Tanker (51)
-    Feats:    Jack of all Trades (23)
-    Spells:   Jack of all Trades (25)
-    Dmg:      Atomic Mage (4435)
-    Dmg/5R:   Solar Mage (3620)
-    Dmg/10R:  Solar Mage (5330)
-    To Hit:   Earth Mage (+42)
-
-LEVEL 80
-----------------------------------------
-  Vitality:  avg=578  min=363  max=1901
-  Health:    avg=330  min=283  max=403
-  Mana:      avg=912  min=121  max=1577
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=13  min=0  max=52
-  Spells:    avg=22  min=0  max=28
-  Dmg/Turn:  avg=457  min=18  max=5322
-  Dmg/5R:    avg=1399  min=105  max=3961
-  Dmg/10R:   avg=2413  min=151  max=7262
-  To Hit:    avg=+30  min=+26  max=+46
-  STR:       avg=11  min=8  max=27
-  DEX:       avg=13  min=8  max=29
-  CON:       avg=15  min=8  max=32
-  WIS:       avg=19  min=8  max=24
-  INT:       avg=15  min=8  max=20
-  CHA:       avg=10  min=8  max=17
-
-  BEST:
-    Vitality: Tanker Archer (1901)
-    Health:   Jack of all Trades (403)
-    Mana:     Necrotic Mage (1577)
-    AC:       Tanker (51)
-    Feats:    Archer (52)
-    Spells:   Jack of all Trades (28)
-    Dmg:      Atomic Mage (5322)
-    Dmg/5R:   Miasma Mage (3961)
-    Dmg/10R:  Miasma Mage (7262)
-    To Hit:   Earth Mage (+46)
-
-LEVEL 90
-----------------------------------------
-  Vitality:  avg=650  min=408  max=2136
-  Health:    avg=371  min=318  max=453
-  Mana:      avg=1061  min=136  max=1772
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=15  min=0  max=60
-  Spells:    avg=26  min=0  max=32
-  Dmg/Turn:  avg=557  min=21  max=6209
-  Dmg/5R:    avg=1732  min=122  max=4675
-  Dmg/10R:   avg=2891  min=169  max=8583
-  To Hit:    avg=+34  min=+30  max=+50
-  STR:       avg=12  min=8  max=27
-  DEX:       avg=13  min=8  max=29
-  CON:       avg=15  min=8  max=33
-  WIS:       avg=19  min=8  max=25
-  INT:       avg=15  min=8  max=21
-  CHA:       avg=10  min=8  max=18
-
-  BEST:
-    Vitality: Tanker Archer (2136)
-    Health:   Jack of all Trades (453)
-    Mana:     Fire Mage (1772)
-    AC:       Tanker (51)
-    Feats:    Archer (60)
-    Spells:   Jack of all Trades (32)
-    Dmg:      Atomic Mage (6209)
-    Dmg/5R:   Necrotic Mage (4675)
-    Dmg/10R:  Miasma Mage (8583)
-    To Hit:   Fire Mage (+50)
-
-LEVEL 100
-----------------------------------------
-  Vitality:  avg=766  min=453  max=2371
-  Health:    avg=412  min=353  max=503
-  Mana:      avg=1181  min=151  max=2068
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=17  min=0  max=66
-  Spells:    avg=28  min=0  max=35
-  Dmg/Turn:  avg=567  min=21  max=6209
-  Dmg/5R:    avg=1878  min=122  max=5100
-  Dmg/10R:   avg=3011  min=189  max=9243
-  To Hit:    avg=+38  min=+33  max=+54
-  STR:       avg=12  min=8  max=28
-  DEX:       avg=14  min=8  max=30
-  CON:       avg=16  min=8  max=33
-  WIS:       avg=19  min=8  max=26
-  INT:       avg=16  min=8  max=22
-  CHA:       avg=10  min=8  max=18
-
-  BEST:
-    Vitality: Tanker Archer (2371)
-    Health:   Jack of all Trades (503)
-    Mana:     Necrotic Mage (2068)
-    AC:       Tanker (51)
-    Feats:    Archer (66)
-    Spells:   Jack of all Trades (35)
-    Dmg:      Atomic Mage (6209)
-    Dmg/5R:   Necrotic Mage (5100)
-    Dmg/10R:  Miasma Mage (9243)
-    To Hit:   Earth Mage (+54)
-
-LEVEL 110
-----------------------------------------
-  Vitality:  avg=847  min=498  max=2717
-  Health:    avg=453  min=388  max=553
-  Mana:      avg=1302  min=166  max=2273
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=19  min=0  max=72
-  Spells:    avg=31  min=0  max=38
-  Dmg/Turn:  avg=652  min=24  max=7096
-  Dmg/5R:    avg=2163  min=140  max=5902
-  Dmg/10R:   avg=3543  min=202  max=10563
-  To Hit:    avg=+41  min=+36  max=+58
-  STR:       avg=13  min=8  max=28
-  DEX:       avg=14  min=8  max=30
-  CON:       avg=16  min=8  max=34
-  WIS:       avg=19  min=8  max=26
-  INT:       avg=16  min=8  max=22
-  CHA:       avg=11  min=8  max=19
-
-  BEST:
-    Vitality: Tanker Archer (2717)
-    Health:   Jack of all Trades (553)
-    Mana:     Necrotic Mage (2273)
-    AC:       Tanker (51)
-    Feats:    Archer (72)
-    Spells:   Jack of all Trades (38)
-    Dmg:      Atomic Mage (7096)
-    Dmg/5R:   Necrotic Mage (5902)
-    Dmg/10R:  Miasma Mage (10563)
-    To Hit:   Earth Mage (+58)
-
-LEVEL 120
-----------------------------------------
-  Vitality:  avg=928  min=543  max=2962
-  Health:    avg=494  min=423  max=603
-  Mana:      avg=1471  min=181  max=2478
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=21  min=0  max=80
-  Spells:    avg=34  min=0  max=42
-  Dmg/Turn:  avg=946  min=27  max=7983
-  Dmg/5R:    avg=2911  min=157  max=7368
-  Dmg/10R:   avg=4460  min=257  max=10446
-  To Hit:    avg=+45  min=+40  max=+64
-  STR:       avg=13  min=8  max=28
-  DEX:       avg=14  min=8  max=31
-  CON:       avg=16  min=8  max=34
-  WIS:       avg=20  min=8  max=27
-  INT:       avg=16  min=8  max=23
-  CHA:       avg=11  min=8  max=19
-
-  BEST:
-    Vitality: Tanker Archer (2962)
-    Health:   Jack of all Trades (603)
-    Mana:     Necrotic Mage (2478)
-    AC:       Tanker (51)
-    Feats:    Archer (80)
-    Spells:   Jack of all Trades (42)
-    Dmg:      Atomic Mage (7983)
-    Dmg/5R:   Necrotic Mage (7368)
-    Dmg/10R:  Necrotic Mage (10446)
-    To Hit:   Necrotic Mage (+64)
-
-LEVEL 130
-----------------------------------------
-  Vitality:  avg=1008  min=588  max=3207
-  Health:    avg=535  min=458  max=653
-  Mana:      avg=1597  min=196  max=2814
-  AC:        avg=14  min=10  max=51
-  Feats:     avg=22  min=0  max=86
-  Spells:    avg=37  min=0  max=45
-  Dmg/Turn:  avg=975  min=27  max=7983
-  Dmg/5R:    avg=2963  min=157  max=8148
-  Dmg/10R:   avg=4544  min=272  max=11226
-  To Hit:    avg=+48  min=+43  max=+71
-  STR:       avg=13  min=8  max=29
-  DEX:       avg=14  min=8  max=31
-  CON:       avg=16  min=8  max=35
-  WIS:       avg=20  min=8  max=28
-  INT:       avg=17  min=8  max=24
-  CHA:       avg=11  min=8  max=19
-
-  BEST:
-    Vitality: Tanker Archer (3207)
-    Health:   Jack of all Trades (653)
-    Mana:     Necrotic Mage (2814)
-    AC:       Tanker (51)
-    Feats:    Archer (86)
-    Spells:   Jack of all Trades (45)
-    Dmg:      Atomic Mage (7983)
-    Dmg/5R:   Necrotic Mage (8148)
-    Dmg/10R:  Necrotic Mage (11226)
-    To Hit:   Necrotic Mage (+71)
-
-LEVEL 140
-----------------------------------------
-  Vitality:  avg=1191  min=633  max=3452
-  Health:    avg=576  min=493  max=703
-  Mana:      avg=1776  min=211  max=3029
-  AC:        avg=15  min=10  max=51
-  Feats:     avg=24  min=0  max=92
-  Spells:    avg=39  min=0  max=48
-  Dmg/Turn:  avg=1105  min=30  max=8870
-  Dmg/5R:    avg=3552  min=175  max=8889
-  Dmg/10R:   avg=5278  min=293  max=12309
-  To Hit:    avg=+51  min=+46  max=+74
-  STR:       avg=13  min=8  max=29
-  DEX:       avg=15  min=8  max=32
-  CON:       avg=17  min=8  max=35
-  WIS:       avg=21  min=8  max=28
-  INT:       avg=17  min=8  max=24
-  CHA:       avg=12  min=8  max=19
-
-  BEST:
-    Vitality: Tanker Archer (3452)
-    Health:   Jack of all Trades (703)
-    Mana:     Necrotic Mage (3029)
-    AC:       Tanker (51)
-    Feats:    Jack of all Trades (92)
-    Spells:   Jack of all Trades (48)
-    Dmg:      Atomic Mage (8870)
-    Dmg/5R:   Earth Mage (8889)
-    Dmg/10R:  Earth Mage (12309)
-    To Hit:   Necrotic Mage (+74)
-
-LEVEL 150
-----------------------------------------
-  Vitality:  avg=1290  min=678  max=3848
-  Health:    avg=617  min=528  max=753
-  Mana:      avg=1903  min=226  max=3244
-  AC:        avg=15  min=10  max=51
-  Feats:     avg=27  min=0  max=100
-  Spells:    avg=43  min=0  max=52
-  Dmg/Turn:  avg=1136  min=30  max=8870
-  Dmg/5R:    avg=3706  min=175  max=10827
-  Dmg/10R:   avg=5449  min=332  max=14247
-  To Hit:    avg=+56  min=+50  max=+83
-  STR:       avg=13  min=8  max=30
-  DEX:       avg=15  min=8  max=32
-  CON:       avg=17  min=8  max=36
-  WIS:       avg=21  min=8  max=29
-  INT:       avg=17  min=8  max=25
-  CHA:       avg=12  min=8  max=20
-
-  BEST:
-    Vitality: Tanker Archer (3848)
-    Health:   Jack of all Trades (753)
-    Mana:     Necrotic Mage (3244)
-    AC:       Tanker (51)
-    Feats:    Jack of all Trades (100)
-    Spells:   Jack of all Trades (52)
-    Dmg:      Atomic Mage (8870)
-    Dmg/5R:   Necrotic Mage (10827)
-    Dmg/10R:  Necrotic Mage (14247)
-    To Hit:   Necrotic Mage (+83)
 

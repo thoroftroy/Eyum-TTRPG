@@ -38,11 +38,31 @@ def get_best_affinity(char):
     return best_name, best_aff
 
 
-def check_spell_prereqs(char, spell, element, aff_val):
+def check_spell_prereqs(char, spell, element, aff_val, affinity_prereqs=None):
     if spell.get('affinity_required', 0) > aff_val:
         return False
     if 'int_required' in spell and char.int < spell['int_required']:
         return False
+    if affinity_prereqs and element and element in affinity_prereqs:
+        prereq = affinity_prereqs[element]
+        needs_all = prereq.get('needs_all', [])
+        if needs_all:
+            for tier in needs_all:
+                for aff in tier.get('affinities', []):
+                    if char.affinities.get(aff, 0) < tier.get('min_each', 0):
+                        return False
+        else:
+            needs = prereq.get('needs', {})
+            min_each = prereq.get('min_each', 0)
+            affs = needs.get('all_of', []) or needs.get('any_of', [])
+            if needs.get('any_of'):
+                satisfied = any(char.affinities.get(aff, 0) >= min_each for aff in affs)
+                if not satisfied:
+                    return False
+            else:
+                for aff in affs:
+                    if char.affinities.get(aff, 0) < min_each:
+                        return False
     extra = spell.get('extra_prereqs', {})
     if 'affinities_at_10' in extra:
         count = sum(1 for v in char.affinities.values() if v >= 10)
@@ -138,6 +158,31 @@ def select_spell(char, settings, max_mana=None):
         spell_hit_chance = min(0.95, max(0.05, (21 - target_ac + magic_to_hit) / 20.0))
 
     mana_mult = getattr(char, 'spell_mana_mult', 1)
+    affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
+
+    primary = getattr(char, 'primary_affinity', None)
+    primary_val = char.affinities.get(primary, 0) if primary else 0
+    if primary and primary != best_element and primary in spells_data:
+        primary_spells = spells_data[primary]
+        for spell in primary_spells:
+            if max_mana is not None and spell['mana'] * mana_mult > max_mana:
+                continue
+            if check_spell_prereqs(char, spell, primary, primary_val, affinity_prereqs):
+                save = spell.get('save')
+                if save:
+                    dc = spell_save_dc(char, primary)
+                    if spell.get('save_half', False):
+                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
+                        save_mul = fail_chance + (1 - fail_chance) * 0.5
+                    else:
+                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
+                        save_mul = fail_chance
+                    dmg = spell_avg_damage(spell, primary, primary_val, die_avg, spell_hit_chance, char, weapon_info)
+                    dmg *= save_mul
+                else:
+                    dmg = spell_avg_damage(spell, primary, primary_val, die_avg, spell_hit_chance, char, weapon_info)
+                if dmg > 0:
+                    candidates.append((dmg, spell, primary))
 
     if best_element:
         elem_spells = spells_data.get(best_element, [])
@@ -145,7 +190,7 @@ def select_spell(char, settings, max_mana=None):
         for spell in elem_spells:
             if max_mana is not None and spell['mana'] * mana_mult > max_mana:
                 continue
-            if check_spell_prereqs(char, spell, best_element, elem_aff_val):
+            if check_spell_prereqs(char, spell, best_element, elem_aff_val, affinity_prereqs):
                 save = spell.get('save')
                 if save:
                     aff_for_dc = elem_aff_val if spell.get('affinity_required', 0) > 0 else 0
@@ -191,5 +236,9 @@ def select_spell(char, settings, max_mana=None):
     if not candidates:
         return None, 0
 
+    if primary:
+        primary_candidates = [c for c in candidates if c[2] == primary]
+        if primary_candidates:
+            candidates = primary_candidates
     best = max(candidates, key=lambda x: x[0])
     return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0]}, best[0]

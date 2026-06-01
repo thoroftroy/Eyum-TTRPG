@@ -279,6 +279,9 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
     for level in levels:
         stats = build_config['base_stats']
         char = Character(build_name, stats, settings)
+        primary_aff = build_config.get('primary_affinity')
+        if primary_aff:
+            char.primary_affinity = primary_aff
         char.has_physical = build_config.get('has_physical', False)
         char.has_magical = build_config.get('has_magical', False)
         char.affinities = build_config.get('starting_affinities', {"Generic": 1}).copy()
@@ -368,7 +371,11 @@ def main():
     base_output_dir = os.path.join(script_dir, "output")
     os.makedirs(base_output_dir, exist_ok=True)
 
-    levels = settings['generation']['levels']
+    gen = settings['generation']
+    if 'max_level' in gen:
+        levels = list(range(1, gen['max_level'] + 1))
+    else:
+        levels = gen['levels']
     gear_tiers = settings.get('gear_tiers', [{"name": "bad_gear", "label": "Bad Gear (Iron/Base)"}])
 
     all_tier_results = []

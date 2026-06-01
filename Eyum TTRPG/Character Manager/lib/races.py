@@ -18,55 +18,76 @@ def select_best_race(build_config, races_data):
                 primary_affinity = aff
                 break
 
+    prereq_affinities = set()
+    if primary_affinity:
+        try:
+            import json, os
+            script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            rules_path = os.path.join(script_dir, 'data', 'rules.json')
+            with open(rules_path) as f:
+                rules = json.load(f)
+            prereqs = rules.get('affinity_prerequisites', {}).get(primary_affinity)
+            if prereqs:
+                needs_all = prereqs.get('needs_all', [])
+                if needs_all:
+                    for tier in needs_all:
+                        prereq_affinities.update(tier.get('affinities', []))
+                else:
+                    needs = prereqs.get('needs', {})
+                    prereq_affinities.update(needs.get('all_of', []) or needs.get('any_of', []))
+        except Exception:
+            pass
+
     worst = build_config.get('worst', False)
-    best_score = float('inf') if worst else -9999
-    best_family = None
-    best_subrace = None
+    stat_weights = [3, 2, 1.5, 1, 0.5, 0.25]
 
-    stat_weights = [10, 4, 2, 1, 0.5, 0.25]
+    def classify_race(data):
+        affs = data.get('affinity_bonuses', {})
+        if is_magical and primary_affinity:
+            if affs.get(primary_affinity, 0) > 0:
+                return 0
+            if affs.get(primary_affinity, 0) < 0:
+                return 99
+        if is_magical and prereq_affinities:
+            has_pos = any(affs.get(a, 0) > 0 for a in prereq_affinities)
+            has_neg = any(affs.get(a, 0) < 0 for a in prereq_affinities)
+            if has_pos and not has_neg:
+                return 1
+            if has_pos:
+                return 2
+        if is_magical and primary_affinity and affs.get(primary_affinity, 0) == 0:
+            return 3
+        return 4
 
+    def stat_score(data):
+        s = 0
+        bonuses = data.get('stat_bonuses', {})
+        for i, stat in enumerate(stat_priority):
+            if i >= len(stat_weights):
+                break
+            s += bonuses.get(stat, 0) * stat_weights[i]
+        return s
+
+    candidates = []
     for family_name, family in races_data.items():
         for subrace_name, data in family.get('subraces', {}).items():
             if data.get('evolution_only'):
                 continue
+            if is_magical:
+                tier = classify_race(data)
+            else:
+                tier = 0
+            s = stat_score(data)
+            candidates.append((tier, -s if worst else s, family_name, subrace_name))
 
-            score = 0
-            bonuses = data.get('stat_bonuses', {})
-            for i, stat in enumerate(stat_priority):
-                if i >= len(stat_weights):
-                    break
-                bonus = bonuses.get(stat, 0)
-                score += bonus * stat_weights[i]
+    candidates.sort()
+    if not candidates:
+        return None, None
 
-            affinity_bonuses = data.get('affinity_bonuses', {})
-            for aff, val in affinity_bonuses.items():
-                if val > 0:
-                    if aff == 'Generic':
-                        score += 1
-                    elif is_magical and aff == primary_affinity:
-                        score += 10
-                    elif aff in base_affinities:
-                        score += 5
-                    else:
-                        score += 1
-                elif val < 0:
-                    if is_magical and aff == primary_affinity:
-                        score -= 15
-                    elif aff in base_affinities:
-                        score -= 5
-                    else:
-                        score -= 1
-
-            if worst and score < best_score:
-                best_score = score
-                best_family = family_name
-                best_subrace = subrace_name
-            elif not worst and score > best_score:
-                best_score = score
-                best_family = family_name
-                best_subrace = subrace_name
-
-    return best_family, best_subrace
+    best_tier = candidates[0][0]
+    same_tier = [c for c in candidates if c[0] == best_tier]
+    best = max(same_tier, key=lambda x: x[1]) if not worst else min(same_tier, key=lambda x: x[1])
+    return best[2], best[3]
 
 
 def build_racial_archetype(race_data, race_family, subrace_name=''):

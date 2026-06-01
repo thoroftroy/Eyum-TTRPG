@@ -166,7 +166,11 @@ def collect_all_data(settings, progress_callback=None):
     base_output_dir = os.path.join(script_dir, "output")
     os.makedirs(base_output_dir, exist_ok=True)
 
-    levels = settings['generation']['levels']
+    gen = settings['generation']
+    if 'max_level' in gen:
+        levels = list(range(1, gen['max_level'] + 1))
+    else:
+        levels = gen['levels']
     gear_tiers = settings.get('gear_tiers', [{"name": "bad_gear", "label": "Bad Gear (Iron/Base)"}])
 
     all_collected = OrderedDict()
@@ -1656,6 +1660,9 @@ class CharacterManagerGUI:
             messagebox.showinfo("Busy", "Generator is already running.")
             return
 
+        saved_build_enabled = dict(getattr(self, '_build_enabled', {}))
+        saved_line_visible = dict(getattr(self, '_line_visible', {}))
+
         def progress(cur, total, msg):
             self.root.after(0, lambda: self._update_progress(cur, total, msg))
 
@@ -1674,6 +1681,8 @@ class CharacterManagerGUI:
                 self.tier_var.set(tiers[0])
             else:
                 self.tier_var.set(self.current_tier)
+            self._build_enabled = saved_build_enabled
+            self._line_visible = saved_line_visible
             self._update_graph()
             self.status_label.config(text="Ready")
             self.settings_status.config(text="Ready")
@@ -1748,19 +1757,20 @@ class CharacterManagerGUI:
 
         builds_config = self.settings.get('builds', {}) if self.settings else {}
 
-        magical = []
-        physical = []
-        mixed = []
+        magical = []; magical_casual = []
+        physical = []; physical_casual = []
+        mixed = []; mixed_casual = []
         for name in build_names:
             bc = builds_config.get(name, {})
+            is_casual = name.lower().startswith('casual ')
             has_mag = bc.get('has_magical', False)
             has_phys = bc.get('has_physical', False)
             if has_mag and has_phys:
-                mixed.append(name)
+                (mixed_casual if is_casual else mixed).append(name)
             elif has_mag:
-                magical.append(name)
+                (magical_casual if is_casual else magical).append(name)
             else:
-                physical.append(name)
+                (physical_casual if is_casual else physical).append(name)
 
         def build_group(title, group, group_color):
             if not group:
@@ -1794,8 +1804,11 @@ class CharacterManagerGUI:
                 lbl.bind('<Button-1>', make_toggle(name))
 
         build_group('Magical', magical, '#9467bd')
+        build_group('Casual Magical', magical_casual, '#c5b0d5')
         build_group('Physical', physical, '#d62728')
+        build_group('Casual Physical', physical_casual, '#ff9896')
         build_group('Mixed', mixed, '#7f7f7f')
+        build_group('Casual Mixed', mixed_casual, '#c7c7c7')
 
         if '__average__' in self._lines:
             is_vis = self._line_visible.get('__average__', True)
