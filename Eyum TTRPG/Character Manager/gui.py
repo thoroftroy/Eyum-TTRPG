@@ -268,7 +268,6 @@ class CharacterManagerGUI:
         self._spell_line_data = {}
         self._spell_legend_entries = []
         self._spell_click_annotation = None
-        self._spell_click_marker = None
         self._spell_visibility = {}
 
         self._build_notebook()
@@ -1051,8 +1050,9 @@ class CharacterManagerGUI:
 
             label = f"{aff_name}: {spell['name']}"
             line, = self._spell_ax.plot(rounds, cumulative_dmg, color=color, linestyle=linestyle,
-                                          linewidth=2, marker='', label='_nolegend_',
-                                          picker=True, pickradius=5)
+                                          linewidth=2, marker='o', markersize=3.5,
+                                          markeredgecolor='#00000044',
+                                          label='_nolegend_', picker=True, pickradius=5)
             self._spell_lines.append(line)
             self._spell_legend_entries.append((aff_name, spell['name'], color, linestyle, is_healing, is_chain))
             self._spell_line_data[line] = {
@@ -1089,6 +1089,20 @@ class CharacterManagerGUI:
         self._spell_ax.set_ylabel('Cumulative Damage', fontsize=11)
         self._spell_ax.set_title('Spell Damage Over Rounds', fontsize=13, fontweight='bold')
         self._spell_ax.tick_params(labelsize=9)
+        for line in self._spell_lines:
+            line.set_linewidth(2)
+            line.set_alpha(1.0)
+        for r in range(len(self._spell_lines[0].get_xdata()) if self._spell_lines else 0):
+            y_count = {}
+            for line in self._spell_lines:
+                if r < len(line.get_ydata()):
+                    y_count.setdefault(int(round(line.get_ydata()[r])), []).append(line)
+            for overlap_lines in y_count.values():
+                if len(overlap_lines) > 1:
+                    for ol in overlap_lines:
+                        ol.set_linewidth(3.5)
+                        ol.set_alpha(0.55)
+
         self._spell_ax.set_xlim(left=0)
         self._spell_ax.set_ylim(bottom=0)
         self._auto_resize_spell_ylim()
@@ -1420,18 +1434,12 @@ class CharacterManagerGUI:
         self._rebuild_spell_legend()
 
     def _clear_spell_click_annotation(self):
-        if self._spell_click_annotation:
+        if self._spell_click_annotation is not None:
             try:
                 self._spell_click_annotation.remove()
             except Exception:
                 pass
             self._spell_click_annotation = None
-        if self._spell_click_marker:
-            try:
-                self._spell_click_marker.remove()
-            except Exception:
-                pass
-            self._spell_click_marker = None
 
     def _on_spell_click(self, event):
         if event.button != 1 or event.inaxes != self._spell_ax:
@@ -1444,47 +1452,41 @@ class CharacterManagerGUI:
             self._spell_canvas.draw_idle()
             return
 
-        candidates = []
+        self._spell_zoomed = True
+        round_num = int(round(xdata))
+        groups = {}
         for line in self._spell_lines:
             if not line.get_visible():
                 continue
             xarr = line.get_xdata()
             yarr = line.get_ydata()
-            if len(xarr) == 0:
+            if round_num < 0 or round_num >= len(xarr):
                 continue
-            idx = min(range(len(xarr)), key=lambda i: abs(xarr[i] - xdata))
-            xd = xarr[idx]
-            yd = yarr[idx]
-            xr = self._spell_ax.get_xlim()[1] - self._spell_ax.get_xlim()[0]
-            yr = self._spell_ax.get_ylim()[1] - self._spell_ax.get_ylim()[0]
-            xr = max(xr, 0.1)
-            yr = max(yr, 0.1)
-            dist = (abs(xd - xdata) / xr) ** 2 + (abs(yd - ydata) / yr) ** 2
-            candidates.append((dist, line, int(round(xd)), yd))
+            if abs(xarr[round_num] - round_num) > 0.1:
+                continue
+            yd = yarr[round_num]
+            ykey = int(round(yd))
+            groups.setdefault(ykey, []).append((line, round_num, yd))
 
-        candidates.sort(key=lambda x: x[0])
-        candidates = [c for c in candidates if c[0] < 0.05][:5]
-        if not candidates:
+        if not groups:
             self._spell_canvas.draw_idle()
             return
 
-        if len(candidates) == 1:
-            dist, closest_line, closest_round, closest_ydata = candidates[0]
-            data = self._spell_line_data.get(closest_line, {})
-            if not data:
-                self._spell_canvas.draw_idle()
-                return
-            self._show_single_info(closest_line, data, closest_round, closest_ydata)
+        closest_ykey = min(groups.keys(), key=lambda k: abs(k - ydata))
+        group = groups[closest_ykey]
+
+        r = group[0][1]
+        y = group[0][2]
+
+        if len(group) == 1:
+            line, r, y = group[0]
+            data = self._spell_line_data.get(line, {})
+            if data:
+                self._show_single_info(line, data, r, y)
         else:
-            self._show_multi_selector(candidates)
+            self._show_multi_selector([(0, l, r, y) for l, r, y in group])
 
     def _show_single_info(self, line, data, closest_round, closest_ydata):
-        self._spell_click_marker, = self._spell_ax.plot(
-            closest_round, closest_ydata, 'o',
-            color=line.get_color(), markersize=10,
-            markeredgecolor='black', markeredgewidth=1.5, zorder=9
-        )
-
         aff_name = data['affinity']
         spell_name = data['spell_name']
         dmg_per_cast = data['dmg_per_cast']
@@ -1543,15 +1545,30 @@ class CharacterManagerGUI:
         )
 
     def _show_multi_selector(self, candidates):
-        info_lines = ["Multiple spells overlap:"]
-        for i, (dist, line, round_num, yd) in enumerate(candidates):
+        all_lines = [f"{len(candidates)} spells overlap here:"]
+        for dist, line, round_num, yd in candidates:
             ld = self._spell_line_data.get(line, {})
-            name = f"{ld.get('affinity','')}:{ld.get('spell_name','')}"
-            marker, = self._spell_ax.plot(round_num, yd, 'o', color=line.get_color(),
-                                           markersize=8, markeredgecolor='black',
-                                           markeredgewidth=1, zorder=9)
-            info_lines.append(f"● {name}  R{round_num} {yd:.0f} dmg")
-        self._place_annotation(info_lines, candidates[0][2], candidates[0][3])
+            if not ld:
+                continue
+            data = ld
+            aff = data['affinity']
+            sn = data['spell_name']
+            mc = data['mana_cost']
+            cond = data.get('conditions', [])
+            cdmg = data.get('cond_dmg', 0)
+            beams = data.get('beams', 1)
+            upc = data.get('upcasts', 0)
+            total_mana = mc * round_num
+            pct = max(100 - (total_mana / max(data['max_mana'], 1) * 100), 0)
+            
+            all_lines.append(f"{'─'*30}")
+            all_lines.append(f"  {sn} ({aff})")
+            all_lines.append(f"  Round:{round_num}  Dmg:{yd:.0f}  Mana/cast:{mc}")
+            all_lines.append(f"  Used:{total_mana:.0f}  Left:{pct:.0f}%")
+            if beams > 1: all_lines.append(f"  Beams:{beams}")
+            if cond: all_lines.append(f"  Cond:{', '.join(cond)} +{cdmg:.0f}")
+            if upc > 0: all_lines.append(f"  Upcast:x{2**upc}")
+        self._place_annotation(all_lines, candidates[0][2], candidates[0][3])
         self._spell_canvas.draw_idle()
 
     def _bind_scrollwheel(self, widget):
