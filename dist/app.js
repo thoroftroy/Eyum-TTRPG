@@ -459,25 +459,6 @@ async function loadPage(path) {
   setBreadcrumbs(path);
   els.content.innerHTML = '<div class="loading">Loading...</div>';
 
-  if (path === '__charmgr__') {
-    try {
-      setBreadcrumbs('Character Manager');
-      const res = await fetch('./charmgr.html');
-      if (!res.ok) throw new Error('Could not load Character Manager');
-      let html = await res.text();
-      const scripts = [];
-      html = html.replace(/<script>([\s\S]*?)<\/script>/gi, (_, s) => { scripts.push(s); return ''; });
-      els.content.innerHTML = html;
-      for (const s of scripts) {
-        try { new Function(s)(); } catch(e) { console.error('Charmgr script error:', e); }
-      }
-      window.scrollTo({ top: 0, behavior: 'instant' });
-    } catch (err) {
-      els.content.innerHTML = `<div class="error">${err.message}</div>`;
-    }
-    return;
-  }
-
   try {
     const res = await fetch(`./content/${path}`);
     if (!res.ok) throw new Error(`Could not load ${path}`);
@@ -590,17 +571,6 @@ async function init() {
     manifest = await manifestRes.json();
     buildWikiMap(manifest.tree);
     renderTree(manifest.tree, els.tree);
-
-    const sep = document.createElement('div');
-    sep.style.cssText = 'border-top:1px solid #444;margin:6px 0';
-    els.tree.appendChild(sep);
-    const cmlink = document.createElement('a');
-    cmlink.href = '#__charmgr__';
-    cmlink.className = 'file-link charmgr-link';
-    cmlink.dataset.path = '__charmgr__';
-    cmlink.textContent = 'Character Manager';
-    cmlink.style.cssText = 'font-weight:bold;color:#4fc3f7';
-    els.tree.appendChild(cmlink);
 
     const requested = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
     const start = requested || manifest.defaultFile || getDefaultFile(manifest.tree);
