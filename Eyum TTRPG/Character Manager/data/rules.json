@@ -393,79 +393,72 @@
     "Infernal": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Fire"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Metal": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Earth"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Torrent": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Water"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Thunder": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Air"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Mirage": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Radiant"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Vacuum": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Necrotic"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Warp": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Psychic"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Storm": {
       "needs": {
@@ -506,12 +499,11 @@
         "all_of": [
           "Water",
           "Air",
-          "Force"
+          "Generic"
         ]
       },
       "min_each": 10,
-      "total_spent": 30,
-      "requires_force": true
+      "total_spent": 30
     },
     "Obsidian": {
       "needs": {
@@ -530,12 +522,11 @@
         "all_of": [
           "Earth",
           "Air",
-          "Force"
+          "Generic"
         ]
       },
       "min_each": 10,
-      "total_spent": 30,
-      "requires_force": true
+      "total_spent": 30
     },
     "Corruption": {
       "needs_all": [

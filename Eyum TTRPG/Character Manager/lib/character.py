@@ -42,6 +42,7 @@ class Character:
         self.ac_bonus = 0
         self.armor_training_ac_heavy = 0
         self.armor_training_ac_medium = 0
+        self._weapon_magic_bonus = 0
         self.fire_damage_bonus = None
         self.earth_damage_bonus = None
         self.water_damage_bonus = None
@@ -237,4 +238,8 @@ class Character:
         for k, v in self.affinities.items():
             if k != 'Generic' and v > best_specific:
                 best_specific = v
-        return generic + affinity_mod(best_specific) + self.magic_accuracy
+        weapon_name = self.gear.get('weapon', '')
+        weapon_magic_bonus = 0
+        if weapon_name and weapon_name not in ('none', None):
+            weapon_magic_bonus = getattr(self, '_weapon_magic_bonus', 0)
+        return generic + affinity_mod(best_specific) + self.magic_accuracy + weapon_magic_bonus

@@ -189,6 +189,13 @@ def write_average(all_results, settings, output_path):
         f.write("EYUM TTRPG - AVERAGE STATS ACROSS ALL BUILDS\n")
         f.write("=" * 60 + "\n\n")
 
+        all_affinity_names = set(settings['rules'].get('affinity_prerequisites', {}).keys())
+        all_affinity_names.add('Generic')
+        for results in all_results.values():
+            for res in results:
+                all_affinity_names.update(res['char'].affinities.keys())
+        all_affinity_names = sorted(all_affinity_names)
+
         for level in all_levels:
             f.write("LEVEL " + str(level) + "\n")
             f.write("-" * 40 + "\n")
@@ -209,6 +216,8 @@ def write_average(all_results, settings, output_path):
             wiss = []
             ints = []
             chas = []
+
+            affinity_values = {aff: [] for aff in all_affinity_names}
 
             build_vitals = {}
             build_healths = {}
@@ -253,6 +262,9 @@ def write_average(all_results, settings, output_path):
                         wiss.append(c.wis)
                         ints.append(c.int)
                         chas.append(c.cha)
+
+                        for aff in all_affinity_names:
+                            affinity_values[aff].append(c.affinities.get(aff, 0))
 
                         build_vitals[build_name] = vit
                         build_healths[build_name] = hp
@@ -301,6 +313,16 @@ def write_average(all_results, settings, output_path):
                 f.write("  CHA:       avg=" + str(sum(chas)//len(chas)) +
                           "  min=" + str(min(chas)) + "  max=" + str(max(chas)) + "\n")
 
+                f.write("\n  AFFINITIES:\n")
+                active_affs = [(aff, affinity_values[aff]) for aff in all_affinity_names if affinity_values[aff] and max(affinity_values[aff]) > 0]
+                for i in range(0, len(active_affs), 6):
+                    chunk = active_affs[i:i+6]
+                    parts = []
+                    for aff, vals in chunk:
+                        avg_val = sum(vals) // len(vals)
+                        parts.append(aff + ": " + str(avg_val) + " (" + str(min(vals)) + "-" + str(max(vals)) + ")")
+                    f.write("    " + "  ".join(parts) + "\n")
+
                 best_vit = max(build_vitals, key=build_vitals.get)
                 best_hp = max(build_healths, key=build_healths.get)
                 best_mana = max(build_manas, key=build_manas.get)
@@ -332,11 +354,15 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
         f.write("=" * 60 + "\n\n")
 
         all_levels = set()
+        all_affinity_names = set(settings['rules'].get('affinity_prerequisites', {}).keys())
+        all_affinity_names.add('Generic')
         for tier_name, all_results in all_tier_results:
             for results in all_results.values():
                 for res in results:
                     all_levels.add(res['level'])
+                    all_affinity_names.update(res['char'].affinities.keys())
         all_levels = sorted(all_levels)
+        all_affinity_names = sorted(all_affinity_names)
 
         for level in all_levels:
             f.write("LEVEL " + str(level) + "\n")
@@ -353,6 +379,7 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                 vitals = []
                 healths = []
                 manas = []
+                affinity_values = {aff: [] for aff in all_affinity_names}
                 for build_name, results in all_results.items():
                     for res in results:
                         if res['level'] == level:
@@ -366,6 +393,8 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                             vitals.append(c.vit_max(settings['rules']))
                             healths.append(c.hp_max(settings['rules']))
                             manas.append(c.mana_max(settings['rules']))
+                            for aff in all_affinity_names:
+                                affinity_values[aff].append(c.affinities.get(aff, 0))
                             break
                 if first_tier:
                     f.write("  Stats: Str=" + str(sum(strs)//len(strs)) + " (" + str(min(strs)) + "-" + str(max(strs)) + ")" +
@@ -377,6 +406,15 @@ def write_overall_averages(tier_data, all_tier_results, settings, output_path):
                     f.write("  Pools: Vit=" + str(sum(vitals)//len(vitals)) + " (" + str(min(vitals)) + "-" + str(max(vitals)) + ")" +
                             "  HP=" + str(sum(healths)//len(healths)) + " (" + str(min(healths)) + "-" + str(max(healths)) + ")" +
                             "  Mana=" + str(sum(manas)//len(manas)) + " (" + str(min(manas)) + "-" + str(max(manas)) + ")\n")
+                    f.write("  Affinities:\n")
+                    active_affs = [(aff, affinity_values[aff]) for aff in all_affinity_names if affinity_values[aff] and max(affinity_values[aff]) > 0]
+                    for i in range(0, len(active_affs), 6):
+                        chunk = active_affs[i:i+6]
+                        parts = []
+                        for aff, vals in chunk:
+                            avg_val = sum(vals) // len(vals)
+                            parts.append(aff + ": " + str(avg_val) + " (" + str(min(vals)) + "-" + str(max(vals)) + ")")
+                        f.write("    " + "  ".join(parts) + "\n")
                     first_tier = False
 
             f.write("\n")
@@ -913,7 +951,7 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
             spells_data = settings.get('spells', {})
             spell_stats = []
             for aff_name, spells in spells_data.items():
-                if aff_name in ('Healing', 'Eldritch', 'Force'):
+                if aff_name in ('Healing', 'Eldritch'):
                     continue
                 for spell in spells:
                     mana = spell.get('mana', 0)

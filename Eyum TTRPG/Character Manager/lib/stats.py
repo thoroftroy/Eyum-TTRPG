@@ -72,68 +72,84 @@ def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
     return points_remaining
 
 
+def _affinity_prereqs_met(aff_name, char, affinity_prereqs):
+    if not affinity_prereqs or aff_name not in affinity_prereqs:
+        return True
+    prereq = affinity_prereqs[aff_name]
+    needs_all = prereq.get('needs_all', [])
+    if needs_all:
+        for tier in needs_all:
+            for aff in tier.get('affinities', []):
+                if char.affinities.get(aff, 0) < tier.get('min_each', 0):
+                    return False
+        return True
+    needs = prereq.get('needs', {})
+    min_each = prereq.get('min_each', 0)
+    all_of = needs.get('all_of', [])
+    any_of = needs.get('any_of', [])
+    if all_of:
+        for aff in all_of:
+            if char.affinities.get(aff, 0) < min_each:
+                return False
+        return True
+    if any_of:
+        return any(char.affinities.get(aff, 0) >= min_each for aff in any_of)
+    return True
+
+
 def spend_affinity_points(char, primary_affinity=None, affinity_prereqs=None):
     affp = char.affinity_points
     if affp <= 0:
         return
 
-    if primary_affinity and affinity_prereqs and primary_affinity in affinity_prereqs:
-        prereq = affinity_prereqs[primary_affinity]
-        needs_all = prereq.get('needs_all', [])
-        if needs_all:
-            all_satisfied = True
-            for tier in needs_all:
-                tier_affs = tier.get('affinities', [])
-                tier_min = tier.get('min_each', 0)
-                for aff in tier_affs:
-                    current = char.affinities.get(aff, 0)
-                    if current < tier_min:
-                        needed = tier_min - current
-                        if affp >= needed:
-                            char.affinities[aff] = char.affinities.get(aff, 0) + needed
-                            affp -= needed
-                        else:
-                            char.affinities[aff] = char.affinities.get(aff, 0) + affp
-                            affp = 0
-            for tier in needs_all:
-                tier_affs = tier.get('affinities', [])
-                tier_min = tier.get('min_each', 0)
-                for aff in tier_affs:
-                    if char.affinities.get(aff, 0) < tier_min:
-                        all_satisfied = False
-            if not all_satisfied:
-                char.affinity_points = affp
-                return
-        else:
-            needs = prereq.get('needs', {})
-            min_each = prereq.get('min_each', 0)
-            affinities_needed = needs.get('all_of', []) or needs.get('any_of', [])
-            all_satisfied = True
-            for aff in affinities_needed:
-                current = char.affinities.get(aff, 0)
-                if current < min_each:
-                    needed = min_each - current
-                    if affp >= needed:
-                        char.affinities[aff] = char.affinities.get(aff, 0) + needed
-                        affp -= needed
-                    else:
-                        char.affinities[aff] = char.affinities.get(aff, 0) + affp
-                        affp = 0
-            for aff in affinities_needed:
-                if char.affinities.get(aff, 0) < min_each:
-                    all_satisfied = False
-            if not all_satisfied:
-                char.affinity_points = affp
-                return
     if primary_affinity:
-        char.affinities[primary_affinity] = char.affinities.get(primary_affinity, 0) + affp
+        if primary_affinity == 'Generic':
+            char.affinity_points = affp
+            return
+
+        def _spend_on(aff_name, points):
+            nonlocal affp
+            if affp <= 0 or aff_name == 'Generic':
+                return
+            if aff_name in affinity_prereqs and not _affinity_prereqs_met(aff_name, char, affinity_prereqs):
+                prereq = affinity_prereqs[aff_name]
+                needs_all = prereq.get('needs_all', [])
+                if needs_all:
+                    for tier in needs_all:
+                        for a in tier.get('affinities', []):
+                            needed = tier.get('min_each', 0) - char.affinities.get(a, 0)
+                            if needed > 0 and a != 'Generic':
+                                _spend_on(a, needed)
+                else:
+                    needs = prereq['needs']
+                    min_each = prereq.get('min_each', 0)
+                    for a in (needs.get('all_of', []) or needs.get('any_of', [])):
+                        needed = min_each - char.affinities.get(a, 0)
+                        if needed > 0 and a != 'Generic':
+                            _spend_on(a, needed)
+                if not _affinity_prereqs_met(aff_name, char, affinity_prereqs):
+                    return
+
+            take = min(affp, points)
+            char.affinities[aff_name] = char.affinities.get(aff_name, 0) + take
+            affp -= take
+
+        _spend_on(primary_affinity, affp)
     else:
         pref_order = ['Fire', 'Earth', 'Water', 'Air', 'Radiant', 'Necrotic', 'Psychic']
         while affp > 0:
+            spent = False
             for aff in pref_order:
                 if affp <= 0:
                     break
+                if aff == 'Generic':
+                    continue
+                if affinity_prereqs and aff in affinity_prereqs and not _affinity_prereqs_met(aff, char, affinity_prereqs):
+                    continue
                 char.affinities[aff] = char.affinities.get(aff, 0) + 1
                 affp -= 1
+                spent = True
+            if not spent:
+                break
 
     char.affinity_points = 0

@@ -19,7 +19,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -28,10 +28,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 10 (x5 mana)
-    Total Dmg/5R:  46
-    Total Dmg/10R: 85
-    Mana: 15 start, 0 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
 
   RESOURCES:
     Skill Points:  7
@@ -54,9 +52,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Earth          : 2
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 8
+    Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
 
@@ -82,7 +81,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
@@ -91,10 +90,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 10 (x5 mana)
-    Total Dmg/5R:  49
-    Total Dmg/10R: 88
-    Mana: 22 start, 2 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
 
   RESOURCES:
     Skill Points:  9
@@ -117,10 +114,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
-    Fire           : 1
+    Earth          : 2
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 8
+    Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
 
@@ -146,7 +143,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 25 = 4d8 (4 x 4) + 3(flat) + 1 x 4(Con)
@@ -155,10 +152,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 11 (x5 mana)
-    Total Dmg/5R:  57
-    Total Dmg/10R: 102
-    Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
 
   RESOURCES:
     Skill Points:  13
@@ -182,12 +177,13 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
+    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -211,7 +207,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
@@ -220,10 +216,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x15 mana)
-    Total Dmg/5R:  110
-    Total Dmg/10R: 208
-    Mana: 42 start, 12 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
 
   RESOURCES:
     Skill Points:  15
@@ -247,13 +241,13 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
-    Earth          : 1
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
+    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -277,7 +271,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
@@ -286,10 +280,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x15 mana)
-    Total Dmg/5R:  116
-    Total Dmg/10R: 214
-    Mana: 51 start, 6 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
 
   RESOURCES:
     Skill Points:  17
@@ -313,13 +305,13 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
-    Earth          : 1
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
+    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -343,7 +335,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
@@ -352,10 +344,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 37 (x18 mana)
-    Total Dmg/5R:  167
-    Total Dmg/10R: 265
-    Mana: 78 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x6 mana)
+    Total Dmg/5R:  92
+    Total Dmg/10R: 185
+    Mana: 78 start, 18 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -380,13 +372,11 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 1
-    Fire           : 5
+    Fire           : 4
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -410,7 +400,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
@@ -419,10 +409,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 37 (x18 mana)
-    Total Dmg/5R:  185
-    Total Dmg/10R: 283
-    Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x6 mana)
+    Total Dmg/5R:  92
+    Total Dmg/10R: 185
+    Mana: 90 start, 30 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -447,13 +437,11 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 2
-    Earth          : 1
-    Fire           : 5
+    Fire           : 4
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -477,7 +465,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
@@ -486,10 +474,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  263
-    Total Dmg/10R: 459
-    Mana: 101 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 340
+    Mana: 101 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -513,14 +501,13 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 3
-    Earth          : 5
-    Fire           : 5
+    Air            : 2
+    Earth          : 4
+    Fire           : 4
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -544,7 +531,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 54 = 10d6 (3 x 10) + 9(flat) + 1 x 10(Con)
@@ -553,10 +540,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  300
-    Total Dmg/10R: 496
-    Mana: 113 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 350
+    Mana: 113 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -580,14 +567,13 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 7
-    Fire           : 5
+    Air            : 4
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: nerite_wand
@@ -611,7 +597,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
@@ -620,10 +606,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  287
-    Total Dmg/10R: 483
-    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -647,14 +633,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 7
-    Fire           : 6
+    Air            : 4
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: nerite_wand
@@ -678,7 +664,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
@@ -687,10 +673,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  298
-    Total Dmg/10R: 494
-    Mana: 136 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 136 start, 16 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -714,14 +700,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Earth          : 7
-    Fire           : 6
+    Air            : 4
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: nerite_wand
@@ -745,7 +731,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
@@ -754,10 +740,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  335
-    Total Dmg/10R: 531
-    Mana: 147 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 147 start, 27 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -782,14 +768,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Toxin          : 6
-    Water          : 7
+    Toxin          : 5
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -813,7 +799,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
@@ -822,10 +808,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  321
-    Total Dmg/10R: 517
-    Mana: 159 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 159 start, 39 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -850,14 +836,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Toxin          : 6
-    Water          : 7
+    Toxin          : 5
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -881,7 +867,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
@@ -890,10 +876,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  333
-    Total Dmg/10R: 529
-    Mana: 170 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 170 start, 50 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -918,14 +904,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 6
-    Water          : 8
+    Toxin          : 5
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -949,7 +935,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +6
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
@@ -958,10 +944,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 551
-    Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 182 start, 62 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -986,14 +972,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 8
-    Water          : 8
+    Toxin          : 7
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1017,7 +1003,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +8
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 109 = 17d6 (3 x 17) + 16(flat) + 2 x 17(Con)
@@ -1026,10 +1012,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  394
-    Total Dmg/10R: 604
-    Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 193 start, 33 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1054,14 +1040,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 13
-    Water          : 8
+    Toxin          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1085,7 +1071,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +8
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 116 = 18d6 (3 x 18) + 17(flat) + 2 x 18(Con)
@@ -1094,10 +1080,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  394
-    Total Dmg/10R: 604
-    Mana: 205 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 205 start, 45 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1122,14 +1108,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 13
-    Water          : 8
+    Toxin          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1153,7 +1139,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +12
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 122 = 19d6 (3 x 19) + 18(flat) + 2 x 19(Con)
@@ -1162,10 +1148,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  396
-    Total Dmg/10R: 662
-    Mana: 216 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 216 start, 56 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1190,14 +1176,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 20
-    Water          : 8
+    Toxin          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1221,7 +1207,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +12
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 129 = 20d6 (3 x 20) + 19(flat) + 2 x 20(Con)
@@ -1230,10 +1216,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  396
-    Total Dmg/10R: 662
-    Mana: 228 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 228 start, 68 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1258,14 +1244,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 10
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 20
-    Water          : 8
+    Toxin          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1289,7 +1275,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +11
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 114 = 21d4 (2 x 21) + 20(flat) + 2 x 21(Con)
@@ -1298,10 +1284,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  440
-    Total Dmg/10R: 678
-    Mana: 260 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 260 start, 100 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1326,14 +1312,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 17
-    Water          : 8
+    Toxin          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1357,7 +1343,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +13
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 120 = 22d4 (2 x 22) + 21(flat) + 2 x 22(Con)
@@ -1366,10 +1352,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  440
-    Total Dmg/10R: 696
-    Mana: 273 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 273 start, 113 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  71
@@ -1394,14 +1380,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 22
-    Water          : 8
+    Toxin          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1425,7 +1411,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +13
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 125 = 23d4 (2 x 23) + 22(flat) + 2 x 23(Con)
@@ -1434,10 +1420,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  440
-    Total Dmg/10R: 684
-    Mana: 285 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 285 start, 125 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  73
@@ -1462,14 +1448,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 22
-    Water          : 9
+    Toxin          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1493,7 +1479,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +13
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 131 = 24d4 (2 x 24) + 23(flat) + 2 x 24(Con)
@@ -1502,10 +1488,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x24 mana)
-    Total Dmg/5R:  440
-    Total Dmg/10R: 740
-    Mana: 298 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x8 mana)
+    Total Dmg/5R:  220
+    Total Dmg/10R: 440
+    Mana: 298 start, 138 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  75
@@ -1530,14 +1516,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 22
-    Water          : 9
+    Toxin          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1561,7 +1547,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +15
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 136 = 25d4 (2 x 25) + 24(flat) + 2 x 25(Con)
@@ -1570,9 +1556,9 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  569
-    Total Dmg/10R: 968
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 725
     Mana: 310 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1598,14 +1584,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 25
-    Water          : 9
+    Toxin          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1629,7 +1615,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +15
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 142 = 26d4 (2 x 26) + 25(flat) + 2 x 26(Con)
@@ -1638,10 +1624,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  569
-    Total Dmg/10R: 968
-    Mana: 323 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 781
+    Mana: 323 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1666,14 +1652,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 25
-    Water          : 9
+    Toxin          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1697,7 +1683,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +15
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 147 = 27d4 (2 x 27) + 26(flat) + 2 x 27(Con)
@@ -1706,10 +1692,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  613
-    Total Dmg/10R: 1012
-    Mana: 335 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 763
+    Mana: 335 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1734,14 +1720,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 25
-    Water          : 9
+    Toxin          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1765,7 +1751,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +16
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 153 = 28d4 (2 x 28) + 27(flat) + 2 x 28(Con)
@@ -1774,10 +1760,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 44 | Dmg/Turn: 132 (x24 mana)
-    Total Dmg/5R:  616
-    Total Dmg/10R: 1014
-    Mana: 348 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 66 (x8 mana)
+    Total Dmg/5R:  330
+    Total Dmg/10R: 660
+    Mana: 348 start, 108 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  92
@@ -1802,14 +1788,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 11
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 27
-    Water          : 9
+    Toxin          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1833,7 +1819,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +16
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 158 = 29d4 (2 x 29) + 28(flat) + 2 x 29(Con)
@@ -1842,10 +1828,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 44 | Dmg/Turn: 132 (x24 mana)
-    Total Dmg/5R:  660
-    Total Dmg/10R: 1058
-    Mana: 360 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 66 (x8 mana)
+    Total Dmg/5R:  330
+    Total Dmg/10R: 660
+    Mana: 360 start, 120 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  94
@@ -1870,14 +1856,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 27
-    Water          : 9
+    Toxin          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1901,7 +1887,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +16
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 164 = 30d4 (2 x 30) + 29(flat) + 2 x 30(Con)
@@ -1910,10 +1896,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 44 | Dmg/Turn: 132 (x24 mana)
-    Total Dmg/5R:  660
-    Total Dmg/10R: 1058
-    Mana: 373 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 66 (x8 mana)
+    Total Dmg/5R:  330
+    Total Dmg/10R: 660
+    Mana: 373 start, 133 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  96
@@ -1938,14 +1924,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 27
-    Water          : 9
+    Toxin          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1969,7 +1955,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +17
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 169 = 31d4 (2 x 31) + 30(flat) + 2 x 31(Con)
@@ -1978,10 +1964,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  607
-    Total Dmg/10R: 1006
-    Mana: 385 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 832
+    Mana: 385 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -2006,14 +1992,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 29
-    Water          : 10
+    Toxin          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2037,7 +2023,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +17
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 175 = 32d4 (2 x 32) + 31(flat) + 2 x 32(Con)
@@ -2046,10 +2032,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  686
-    Total Dmg/10R: 1085
-    Mana: 398 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 855
+    Mana: 398 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -2074,14 +2060,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 29
-    Water          : 10
+    Toxin          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2105,7 +2091,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Magic: +17
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 180 = 33d4 (2 x 33) + 32(flat) + 2 x 33(Con)
@@ -2114,10 +2100,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  671
-    Total Dmg/10R: 1070
-    Mana: 410 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 869
+    Mana: 410 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  109
@@ -2142,14 +2128,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 30
-    Water          : 10
+    Toxin          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2173,7 +2159,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +18
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 186 = 34d4 (2 x 34) + 33(flat) + 2 x 34(Con)
@@ -2182,9 +2168,9 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  635
-    Total Dmg/10R: 1034
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 866
     Mana: 423 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2210,14 +2196,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 32
-    Water          : 10
+    Toxin          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2241,7 +2227,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +20
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 191 = 35d4 (2 x 35) + 34(flat) + 2 x 35(Con)
@@ -2250,10 +2236,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  676
-    Total Dmg/10R: 1075
-    Mana: 503 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 972
+    Mana: 503 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  115
@@ -2278,14 +2264,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 11
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 35
-    Water          : 10
+    Toxin          : 31
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2309,7 +2295,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +20
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 197 = 36d4 (2 x 36) + 35(flat) + 2 x 36(Con)
@@ -2318,10 +2304,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x57 mana)
-    Total Dmg/5R:  817
-    Total Dmg/10R: 1216
-    Mana: 518 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 36 | Dmg/Turn: 108 (x19 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 1010
+    Mana: 518 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  117
@@ -2346,14 +2332,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 12
-    Fire           : 11
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 35
-    Water          : 10
+    Toxin          : 31
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2377,7 +2363,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 202 = 37d4 (2 x 37) + 36(flat) + 2 x 37(Con)
@@ -2386,10 +2372,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 76 | Dmg/Turn: 228 (x57 mana)
-    Total Dmg/5R:  879
-    Total Dmg/10R: 1335
-    Mana: 569 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 114 (x19 mana)
+    Total Dmg/5R:  577
+    Total Dmg/10R: 1115
+    Mana: 569 start, 18 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  121
@@ -2414,14 +2400,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 13
-    Fire           : 11
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 37
-    Water          : 10
+    Toxin          : 33
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2445,7 +2431,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 208 = 38d4 (2 x 38) + 37(flat) + 2 x 38(Con)
@@ -2454,10 +2440,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 76 | Dmg/Turn: 228 (x57 mana)
-    Total Dmg/5R:  821
-    Total Dmg/10R: 1277
-    Mana: 585 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 114 (x19 mana)
+    Total Dmg/5R:  577
+    Total Dmg/10R: 1154
+    Mana: 585 start, 15 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2482,14 +2468,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 13
-    Fire           : 11
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 37
-    Water          : 10
+    Toxin          : 33
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2513,7 +2499,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 213 = 39d4 (2 x 39) + 38(flat) + 2 x 39(Con)
@@ -2522,10 +2508,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 82 | Dmg/Turn: 246 (x57 mana)
-    Total Dmg/5R:  880
-    Total Dmg/10R: 1421
-    Mana: 600 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 123 (x19 mana)
+    Total Dmg/5R:  619
+    Total Dmg/10R: 1239
+    Mana: 600 start, 30 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2550,14 +2536,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 13
-    Fire           : 11
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 37
-    Water          : 11
+    Toxin          : 33
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2581,7 +2567,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +14
-    To Hit: Magic: +22
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 219 = 40d4 (2 x 40) + 39(flat) + 2 x 40(Con)
@@ -2590,10 +2576,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 82 | Dmg/Turn: 246 (x57 mana)
-    Total Dmg/5R:  880
-    Total Dmg/10R: 1372
-    Mana: 616 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 123 (x19 mana)
+    Total Dmg/5R:  619
+    Total Dmg/10R: 1239
+    Mana: 616 start, 46 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  129
@@ -2618,14 +2604,14 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 10
-    Earth          : 13
-    Fire           : 11
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 39
-    Water          : 11
+    Toxin          : 35
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2649,7 +2635,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +22
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 224 = 41d4 (2 x 41) + 40(flat) + 2 x 41(Con)
@@ -2658,9 +2644,9 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 88 | Dmg/Turn: 352 (x57 mana)
-    Total Dmg/5R:  1306
-    Total Dmg/10R: 2142
+    Magic Dmg/Cast: 44 | Dmg/Turn: 176 (x19 mana)
+    Total Dmg/5R:  883
+    Total Dmg/10R: 1541
     Mana: 631 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2685,15 +2671,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 13
-    Fire           : 11
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 39
-    Water          : 11
+    Toxin          : 35
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2717,7 +2703,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +22
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 230 = 42d4 (2 x 42) + 41(flat) + 2 x 42(Con)
@@ -2726,10 +2712,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 88 | Dmg/Turn: 352 (x57 mana)
-    Total Dmg/5R:  1203
-    Total Dmg/10R: 2039
-    Mana: 647 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 44 | Dmg/Turn: 176 (x19 mana)
+    Total Dmg/5R:  883
+    Total Dmg/10R: 1585
+    Mana: 647 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -2753,15 +2739,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 13
-    Fire           : 11
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 39
-    Water          : 11
+    Toxin          : 35
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2785,7 +2771,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +23
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 235 = 43d4 (2 x 43) + 42(flat) + 2 x 43(Con)
@@ -2794,10 +2780,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 94 | Dmg/Turn: 376 (x57 mana)
-    Total Dmg/5R:  1290
-    Total Dmg/10R: 2240
-    Mana: 662 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 47 | Dmg/Turn: 188 (x19 mana)
+    Total Dmg/5R:  940
+    Total Dmg/10R: 1664
+    Mana: 662 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  142
@@ -2821,15 +2807,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 13
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 41
-    Water          : 11
+    Toxin          : 37
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2853,7 +2839,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +23
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 241 = 44d4 (2 x 44) + 43(flat) + 2 x 44(Con)
@@ -2862,10 +2848,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 94 | Dmg/Turn: 376 (x57 mana)
-    Total Dmg/5R:  1356
-    Total Dmg/10R: 2306
-    Mana: 678 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 47 | Dmg/Turn: 188 (x19 mana)
+    Total Dmg/5R:  940
+    Total Dmg/10R: 1678
+    Mana: 678 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -2889,15 +2875,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 13
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 41
-    Water          : 11
+    Toxin          : 37
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2921,7 +2907,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +23
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 246 = 45d4 (2 x 45) + 44(flat) + 2 x 45(Con)
@@ -2930,10 +2916,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 99 | Dmg/Turn: 396 (x57 mana)
-    Total Dmg/5R:  1622
-    Total Dmg/10R: 2686
-    Mana: 693 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 196 (x19 mana)
+    Total Dmg/5R:  997
+    Total Dmg/10R: 1831
+    Mana: 693 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -2957,15 +2943,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 14
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 41
-    Water          : 11
+    Toxin          : 37
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2989,7 +2975,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 252 = 46d4 (2 x 46) + 45(flat) + 2 x 46(Con)
@@ -2998,10 +2984,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 99 | Dmg/Turn: 396 (x57 mana)
-    Total Dmg/5R:  1481
-    Total Dmg/10R: 2545
-    Mana: 709 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 196 (x19 mana)
+    Total Dmg/5R:  997
+    Total Dmg/10R: 1845
+    Mana: 709 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  150
@@ -3025,15 +3011,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 14
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 43
-    Water          : 11
+    Toxin          : 39
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3057,7 +3043,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 257 = 47d4 (2 x 47) + 46(flat) + 2 x 47(Con)
@@ -3066,10 +3052,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 105 | Dmg/Turn: 420 (x57 mana)
-    Total Dmg/5R:  1426
-    Total Dmg/10R: 2604
-    Mana: 724 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 208 (x19 mana)
+    Total Dmg/5R:  1054
+    Total Dmg/10R: 2003
+    Mana: 724 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3093,15 +3079,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 14
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 43
-    Water          : 12
+    Toxin          : 39
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3125,7 +3111,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 263 = 48d4 (2 x 48) + 47(flat) + 2 x 48(Con)
@@ -3134,10 +3120,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 105 | Dmg/Turn: 420 (x57 mana)
-    Total Dmg/5R:  1656
-    Total Dmg/10R: 2834
-    Mana: 740 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 208 (x19 mana)
+    Total Dmg/5R:  1054
+    Total Dmg/10R: 2003
+    Mana: 740 start, 18 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3161,15 +3147,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 14
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 43
-    Water          : 12
+    Toxin          : 39
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3193,7 +3179,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +25
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 268 = 49d4 (2 x 49) + 48(flat) + 2 x 49(Con)
@@ -3202,10 +3188,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 111 | Dmg/Turn: 444 (x57 mana)
-    Total Dmg/5R:  1814
-    Total Dmg/10R: 3106
-    Mana: 804 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 55 | Dmg/Turn: 220 (x19 mana)
+    Total Dmg/5R:  1111
+    Total Dmg/10R: 2223
+    Mana: 804 start, 44 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  163
@@ -3229,15 +3215,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 14
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 45
-    Water          : 12
+    Toxin          : 41
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3261,7 +3247,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +25
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 274 = 50d4 (2 x 50) + 49(flat) + 2 x 50(Con)
@@ -3270,10 +3256,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 111 | Dmg/Turn: 444 (x57 mana)
-    Total Dmg/5R:  1646
-    Total Dmg/10R: 2938
-    Mana: 821 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 55 | Dmg/Turn: 220 (x19 mana)
+    Total Dmg/5R:  1111
+    Total Dmg/10R: 2223
+    Mana: 821 start, 61 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  165
@@ -3297,15 +3283,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 14
-    Fire           : 12
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 45
-    Water          : 12
+    Toxin          : 41
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3329,7 +3315,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 279 = 51d4 (2 x 51) + 50(flat) + 2 x 51(Con)
@@ -3338,10 +3324,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 111 | Dmg/Turn: 444 (x57 mana)
-    Total Dmg/5R:  1640
-    Total Dmg/10R: 2768
-    Mana: 837 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 55 | Dmg/Turn: 220 (x19 mana)
+    Total Dmg/5R:  1111
+    Total Dmg/10R: 2223
+    Mana: 837 start, 77 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3365,15 +3351,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 14
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 55
-    Water          : 12
+    Toxin          : 51
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3397,7 +3383,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +31
+    To Hit: Magic: +35
 
   HEALTH POOLS:
     Vitality: 285 = 52d4 (2 x 52) + 51(flat) + 2 x 52(Con)
@@ -3406,10 +3392,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 111 | Dmg/Turn: 444 (x57 mana)
-    Total Dmg/5R:  1724
-    Total Dmg/10R: 3016
-    Mana: 854 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 55 | Dmg/Turn: 220 (x19 mana)
+    Total Dmg/5R:  1111
+    Total Dmg/10R: 2223
+    Mana: 854 start, 94 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -3433,15 +3419,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 14
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 57
-    Water          : 12
+    Toxin          : 53
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3465,7 +3451,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +31
+    To Hit: Magic: +35
 
   HEALTH POOLS:
     Vitality: 290 = 53d4 (2 x 53) + 52(flat) + 2 x 53(Con)
@@ -3474,10 +3460,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 114 | Dmg/Turn: 456 (x57 mana)
-    Total Dmg/5R:  2069
-    Total Dmg/10R: 3339
-    Mana: 1082 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 228 (x19 mana)
+    Total Dmg/5R:  1149
+    Total Dmg/10R: 2299
+    Mana: 1082 start, 322 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  173
@@ -3501,15 +3487,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 15
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 57
-    Water          : 12
+    Toxin          : 53
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3533,7 +3519,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +31
+    To Hit: Magic: +35
 
   HEALTH POOLS:
     Vitality: 296 = 54d4 (2 x 54) + 53(flat) + 2 x 54(Con)
@@ -3542,10 +3528,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 114 | Dmg/Turn: 456 (x57 mana)
-    Total Dmg/5R:  2184
-    Total Dmg/10R: 3378
-    Mana: 1103 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 228 (x19 mana)
+    Total Dmg/5R:  1149
+    Total Dmg/10R: 2299
+    Mana: 1103 start, 343 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3569,15 +3555,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 15
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 57
-    Water          : 12
+    Toxin          : 53
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3601,7 +3587,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +32
+    To Hit: Magic: +36
 
   HEALTH POOLS:
     Vitality: 356 = 55d4 (2 x 55) + 54(flat) + 3 x 55(Con)
@@ -3610,10 +3596,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 114 | Dmg/Turn: 456 (x57 mana)
-    Total Dmg/5R:  2184
-    Total Dmg/10R: 3193
-    Mana: 1123 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 228 (x19 mana)
+    Total Dmg/5R:  1149
+    Total Dmg/10R: 2299
+    Mana: 1123 start, 363 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -3637,15 +3623,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 15
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 59
-    Water          : 13
+    Toxin          : 55
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3669,7 +3655,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +32
+    To Hit: Magic: +36
 
   HEALTH POOLS:
     Vitality: 363 = 56d4 (2 x 56) + 55(flat) + 3 x 56(Con)
@@ -3678,10 +3664,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 114 | Dmg/Turn: 456 (x57 mana)
-    Total Dmg/5R:  2299
-    Total Dmg/10R: 3666
-    Mana: 1144 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 228 (x19 mana)
+    Total Dmg/5R:  1149
+    Total Dmg/10R: 2299
+    Mana: 1144 start, 384 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -3705,15 +3691,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 15
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 59
-    Water          : 13
+    Toxin          : 55
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3737,7 +3723,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +19
-    To Hit: Magic: +32
+    To Hit: Magic: +36
 
   HEALTH POOLS:
     Vitality: 369 = 57d4 (2 x 57) + 56(flat) + 3 x 57(Con)
@@ -3746,10 +3732,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2387
-    Total Dmg/10R: 4097
-    Mana: 1164 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1164 start, 214 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  188
@@ -3773,15 +3759,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 15
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 59
-    Water          : 13
+    Toxin          : 55
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3805,7 +3791,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +33
+    To Hit: Magic: +37
 
   HEALTH POOLS:
     Vitality: 376 = 58d4 (2 x 58) + 57(flat) + 3 x 58(Con)
@@ -3814,10 +3800,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2387
-    Total Dmg/10R: 3856
-    Mana: 1185 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1185 start, 235 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -3841,15 +3827,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 15
-    Fire           : 13
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 61
-    Water          : 13
+    Toxin          : 57
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3873,7 +3859,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +33
+    To Hit: Magic: +37
 
   HEALTH POOLS:
     Vitality: 382 = 59d4 (2 x 59) + 58(flat) + 3 x 59(Con)
@@ -3882,10 +3868,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2413
-    Total Dmg/10R: 4123
-    Mana: 1205 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1205 start, 255 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  194
@@ -3909,15 +3895,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 15
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 61
-    Water          : 13
+    Toxin          : 57
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3941,7 +3927,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +33
+    To Hit: Magic: +37
 
   HEALTH POOLS:
     Vitality: 389 = 60d4 (2 x 60) + 59(flat) + 3 x 60(Con)
@@ -3950,10 +3936,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2413
-    Total Dmg/10R: 3869
-    Mana: 1226 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1226 start, 276 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -3977,15 +3963,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 15
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 61
-    Water          : 13
+    Toxin          : 57
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4009,7 +3995,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +34
+    To Hit: Magic: +38
 
   HEALTH POOLS:
     Vitality: 395 = 61d4 (2 x 61) + 60(flat) + 3 x 61(Con)
@@ -4018,10 +4004,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2413
-    Total Dmg/10R: 3957
-    Mana: 1246 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1246 start, 296 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -4045,15 +4031,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 16
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 63
-    Water          : 13
+    Toxin          : 59
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4077,7 +4063,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +34
+    To Hit: Magic: +38
 
   HEALTH POOLS:
     Vitality: 402 = 62d4 (2 x 62) + 61(flat) + 3 x 62(Con)
@@ -4086,10 +4072,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2528
-    Total Dmg/10R: 4238
-    Mana: 1267 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1267 start, 317 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  202
@@ -4113,15 +4099,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 16
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 63
-    Water          : 13
+    Toxin          : 59
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4145,7 +4131,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +34
+    To Hit: Magic: +38
 
   HEALTH POOLS:
     Vitality: 408 = 63d4 (2 x 63) + 62(flat) + 3 x 63(Con)
@@ -4154,10 +4140,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2528
-    Total Dmg/10R: 3984
-    Mana: 1287 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1287 start, 337 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4181,15 +4167,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 16
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 63
-    Water          : 14
+    Toxin          : 59
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4213,7 +4199,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +22
-    To Hit: Magic: +35
+    To Hit: Magic: +39
 
   HEALTH POOLS:
     Vitality: 415 = 64d4 (2 x 64) + 63(flat) + 3 x 64(Con)
@@ -4222,10 +4208,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2528
-    Total Dmg/10R: 4072
-    Mana: 1308 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1308 start, 358 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  208
@@ -4249,15 +4235,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 16
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 65
-    Water          : 14
+    Toxin          : 61
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4281,7 +4267,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +35
+    To Hit: Magic: +39
 
   HEALTH POOLS:
     Vitality: 421 = 65d4 (2 x 65) + 64(flat) + 3 x 65(Con)
@@ -4290,10 +4276,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2643
-    Total Dmg/10R: 4115
-    Mana: 1328 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1328 start, 378 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  215
@@ -4317,15 +4303,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 16
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 65
-    Water          : 14
+    Toxin          : 61
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4349,7 +4335,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +35
+    To Hit: Magic: +39
 
   HEALTH POOLS:
     Vitality: 428 = 66d4 (2 x 66) + 65(flat) + 3 x 66(Con)
@@ -4358,10 +4344,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2643
-    Total Dmg/10R: 4099
-    Mana: 1349 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1349 start, 399 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  217
@@ -4385,15 +4371,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 16
-    Fire           : 14
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 65
-    Water          : 14
+    Toxin          : 61
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4417,7 +4403,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +38
+    To Hit: Magic: +42
 
   HEALTH POOLS:
     Vitality: 434 = 67d4 (2 x 67) + 66(flat) + 3 x 67(Con)
@@ -4426,10 +4412,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2758
-    Total Dmg/10R: 4468
-    Mana: 1369 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1369 start, 419 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4453,15 +4439,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 16
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 67
-    Water          : 14
+    Toxin          : 63
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4485,7 +4471,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +38
+    To Hit: Magic: +42
 
   HEALTH POOLS:
     Vitality: 441 = 68d4 (2 x 68) + 67(flat) + 3 x 68(Con)
@@ -4494,10 +4480,10 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
-    Total Dmg/5R:  2758
-    Total Dmg/10R: 4231
-    Mana: 1390 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 57 | Dmg/Turn: 285 (x19 mana)
+    Total Dmg/5R:  1436
+    Total Dmg/10R: 2873
+    Mana: 1390 start, 440 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  223
@@ -4521,15 +4507,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 16
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 67
-    Water          : 14
+    Toxin          : 63
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4553,7 +4539,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +38
+    To Hit: Magic: +42
 
   HEALTH POOLS:
     Vitality: 447 = 69d4 (2 x 69) + 68(flat) + 3 x 69(Con)
@@ -4564,7 +4550,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 5
     Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
     Total Dmg/5R:  2758
-    Total Dmg/10R: 3977
+    Total Dmg/10R: 3975
     Mana: 1410 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4589,15 +4575,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 17
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 67
-    Water          : 14
+    Toxin          : 63
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4621,7 +4607,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +39
+    To Hit: Magic: +43
 
   HEALTH POOLS:
     Vitality: 454 = 70d4 (2 x 70) + 69(flat) + 3 x 70(Con)
@@ -4657,15 +4643,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 17
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 69
-    Water          : 14
+    Toxin          : 65
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4689,7 +4675,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +39
+    To Hit: Magic: +43
 
   HEALTH POOLS:
     Vitality: 460 = 71d4 (2 x 71) + 70(flat) + 3 x 71(Con)
@@ -4725,15 +4711,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 17
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 69
-    Water          : 15
+    Toxin          : 65
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4757,7 +4743,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +39
+    To Hit: Magic: +43
 
   HEALTH POOLS:
     Vitality: 467 = 72d4 (2 x 72) + 71(flat) + 3 x 72(Con)
@@ -4768,7 +4754,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 5
     Magic Dmg/Cast: 114 | Dmg/Turn: 570 (x57 mana)
     Total Dmg/5R:  2873
-    Total Dmg/10R: 4093
+    Total Dmg/10R: 4091
     Mana: 1472 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4793,15 +4779,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 17
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 69
-    Water          : 15
+    Toxin          : 65
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4825,7 +4811,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +40
+    To Hit: Magic: +44
 
   HEALTH POOLS:
     Vitality: 473 = 73d4 (2 x 73) + 72(flat) + 3 x 73(Con)
@@ -4861,15 +4847,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 17
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 71
-    Water          : 15
+    Toxin          : 67
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4893,7 +4879,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +40
+    To Hit: Magic: +44
 
   HEALTH POOLS:
     Vitality: 480 = 74d4 (2 x 74) + 73(flat) + 3 x 74(Con)
@@ -4929,15 +4915,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 17
-    Fire           : 15
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 71
-    Water          : 15
+    Toxin          : 67
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4961,7 +4947,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +40
+    To Hit: Magic: +44
 
   HEALTH POOLS:
     Vitality: 486 = 75d4 (2 x 75) + 74(flat) + 3 x 75(Con)
@@ -4997,15 +4983,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 17
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 71
-    Water          : 15
+    Toxin          : 67
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5029,7 +5015,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +41
+    To Hit: Magic: +45
 
   HEALTH POOLS:
     Vitality: 493 = 76d4 (2 x 76) + 75(flat) + 3 x 76(Con)
@@ -5040,7 +5026,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 6
     Magic Dmg/Cast: 114 | Dmg/Turn: 684 (x57 mana)
     Total Dmg/5R:  3103
-    Total Dmg/10R: 4852
+    Total Dmg/10R: 4850
     Mana: 1554 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5065,15 +5051,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 17
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 73
-    Water          : 15
+    Toxin          : 69
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5097,7 +5083,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +41
+    To Hit: Magic: +45
 
   HEALTH POOLS:
     Vitality: 499 = 77d4 (2 x 77) + 76(flat) + 3 x 77(Con)
@@ -5133,15 +5119,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 18
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 73
-    Water          : 15
+    Toxin          : 69
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5165,7 +5151,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +41
+    To Hit: Magic: +45
 
   HEALTH POOLS:
     Vitality: 506 = 78d4 (2 x 78) + 77(flat) + 3 x 78(Con)
@@ -5201,15 +5187,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 18
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 73
-    Water          : 15
+    Toxin          : 69
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5233,7 +5219,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +42
+    To Hit: Magic: +46
 
   HEALTH POOLS:
     Vitality: 512 = 79d4 (2 x 79) + 78(flat) + 3 x 79(Con)
@@ -5244,7 +5230,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 6
     Magic Dmg/Cast: 114 | Dmg/Turn: 684 (x57 mana)
     Total Dmg/5R:  3218
-    Total Dmg/10R: 4968
+    Total Dmg/10R: 4966
     Mana: 1615 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5269,15 +5255,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 18
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 75
-    Water          : 16
+    Toxin          : 71
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5301,7 +5287,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +42
+    To Hit: Magic: +46
 
   HEALTH POOLS:
     Vitality: 519 = 80d4 (2 x 80) + 79(flat) + 3 x 80(Con)
@@ -5312,7 +5298,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 6
     Magic Dmg/Cast: 114 | Dmg/Turn: 684 (x57 mana)
     Total Dmg/5R:  3218
-    Total Dmg/10R: 4646
+    Total Dmg/10R: 4644
     Mana: 1636 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5337,15 +5323,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 18
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 75
-    Water          : 16
+    Toxin          : 71
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5369,7 +5355,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Magic: +42
+    To Hit: Magic: +46
 
   HEALTH POOLS:
     Vitality: 525 = 81d4 (2 x 81) + 80(flat) + 3 x 81(Con)
@@ -5405,15 +5391,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 18
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 75
-    Water          : 16
+    Toxin          : 71
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5437,7 +5423,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +43
+    To Hit: Magic: +47
 
   HEALTH POOLS:
     Vitality: 532 = 82d4 (2 x 82) + 81(flat) + 3 x 82(Con)
@@ -5473,15 +5459,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 18
-    Fire           : 16
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 77
-    Water          : 16
+    Toxin          : 73
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5505,7 +5491,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +60
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 538 = 83d4 (2 x 83) + 82(flat) + 3 x 83(Con)
@@ -5516,7 +5502,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 6
     Magic Dmg/Cast: 114 | Dmg/Turn: 684 (x57 mana)
     Total Dmg/5R:  3333
-    Total Dmg/10R: 4778
+    Total Dmg/10R: 4776
     Mana: 1697 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5541,15 +5527,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 18
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 112
-    Water          : 16
+    Toxin          : 108
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5573,7 +5559,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +60
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 545 = 84d4 (2 x 84) + 83(flat) + 3 x 84(Con)
@@ -5609,15 +5595,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 18
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 112
-    Water          : 16
+    Toxin          : 108
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5641,7 +5627,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +61
+    To Hit: Magic: +65
 
   HEALTH POOLS:
     Vitality: 551 = 85d4 (2 x 85) + 84(flat) + 3 x 85(Con)
@@ -5677,15 +5663,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 19
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 114
-    Water          : 16
+    Toxin          : 110
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5709,7 +5695,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +61
+    To Hit: Magic: +65
 
   HEALTH POOLS:
     Vitality: 558 = 86d4 (2 x 86) + 85(flat) + 3 x 86(Con)
@@ -5745,15 +5731,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 19
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 114
-    Water          : 16
+    Toxin          : 110
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5777,7 +5763,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +61
+    To Hit: Magic: +65
 
   HEALTH POOLS:
     Vitality: 564 = 87d4 (2 x 87) + 86(flat) + 3 x 87(Con)
@@ -5813,15 +5799,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 19
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 114
-    Water          : 17
+    Toxin          : 110
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5845,7 +5831,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +30
-    To Hit: Magic: +62
+    To Hit: Magic: +66
 
   HEALTH POOLS:
     Vitality: 571 = 88d4 (2 x 88) + 87(flat) + 3 x 88(Con)
@@ -5881,15 +5867,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 19
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 116
-    Water          : 17
+    Toxin          : 112
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5913,7 +5899,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +62
+    To Hit: Magic: +66
 
   HEALTH POOLS:
     Vitality: 577 = 89d4 (2 x 89) + 88(flat) + 3 x 89(Con)
@@ -5949,15 +5935,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 19
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 116
-    Water          : 17
+    Toxin          : 112
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5981,7 +5967,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +62
+    To Hit: Magic: +66
 
   HEALTH POOLS:
     Vitality: 584 = 90d4 (2 x 90) + 89(flat) + 3 x 90(Con)
@@ -5992,7 +5978,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 7
     Magic Dmg/Cast: 114 | Dmg/Turn: 798 (x57 mana)
     Total Dmg/5R:  3678
-    Total Dmg/10R: 5720
+    Total Dmg/10R: 5719
     Mana: 1841 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6017,15 +6003,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 19
-    Fire           : 17
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 116
-    Water          : 17
+    Toxin          : 112
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6049,7 +6035,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +63
+    To Hit: Magic: +67
 
   HEALTH POOLS:
     Vitality: 590 = 91d4 (2 x 91) + 90(flat) + 3 x 91(Con)
@@ -6085,15 +6071,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 19
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 118
-    Water          : 17
+    Toxin          : 114
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6117,7 +6103,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +63
+    To Hit: Magic: +67
 
   HEALTH POOLS:
     Vitality: 597 = 92d4 (2 x 92) + 91(flat) + 3 x 92(Con)
@@ -6153,15 +6139,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 19
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 118
-    Water          : 17
+    Toxin          : 114
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6185,7 +6171,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +63
+    To Hit: Magic: +67
 
   HEALTH POOLS:
     Vitality: 603 = 93d4 (2 x 93) + 92(flat) + 3 x 93(Con)
@@ -6221,15 +6207,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 20
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 118
-    Water          : 17
+    Toxin          : 114
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6253,7 +6239,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +64
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 610 = 94d4 (2 x 94) + 93(flat) + 3 x 94(Con)
@@ -6264,7 +6250,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 7
     Magic Dmg/Cast: 114 | Dmg/Turn: 798 (x57 mana)
     Total Dmg/5R:  4023
-    Total Dmg/10R: 6067
+    Total Dmg/10R: 6065
     Mana: 2017 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6289,15 +6275,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 20
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 120
-    Water          : 17
+    Toxin          : 116
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6321,7 +6307,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +64
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 616 = 95d4 (2 x 95) + 94(flat) + 3 x 95(Con)
@@ -6332,7 +6318,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 7
     Magic Dmg/Cast: 114 | Dmg/Turn: 798 (x57 mana)
     Total Dmg/5R:  4023
-    Total Dmg/10R: 5676
+    Total Dmg/10R: 5674
     Mana: 2038 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6357,15 +6343,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 20
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 120
-    Water          : 18
+    Toxin          : 116
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6389,7 +6375,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +64
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 623 = 96d4 (2 x 96) + 95(flat) + 3 x 96(Con)
@@ -6425,15 +6411,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 20
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 120
-    Water          : 18
+    Toxin          : 116
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6457,7 +6443,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +65
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 726 = 97d4 (2 x 97) + 96(flat) + 4 x 97(Con)
@@ -6493,15 +6479,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 20
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 122
-    Water          : 18
+    Toxin          : 118
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6525,7 +6511,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +65
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 734 = 98d4 (2 x 98) + 97(flat) + 4 x 98(Con)
@@ -6561,15 +6547,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 20
-    Fire           : 18
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 122
-    Water          : 18
+    Toxin          : 118
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6593,7 +6579,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +65
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 741 = 99d4 (2 x 99) + 98(flat) + 4 x 99(Con)
@@ -6604,7 +6590,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 7
     Magic Dmg/Cast: 114 | Dmg/Turn: 798 (x57 mana)
     Total Dmg/5R:  4023
-    Total Dmg/10R: 5819
+    Total Dmg/10R: 5817
     Mana: 2124 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6629,15 +6615,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 20
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 122
-    Water          : 18
+    Toxin          : 118
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6661,7 +6647,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +66
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 749 = 100d4 (2 x 100) + 99(flat) + 4 x 100(Con)
@@ -6697,15 +6683,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 20
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 124
-    Water          : 18
+    Toxin          : 120
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6729,7 +6715,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +66
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 756 = 101d4 (2 x 101) + 100(flat) + 4 x 101(Con)
@@ -6765,15 +6751,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 124
-    Water          : 18
+    Toxin          : 120
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6797,7 +6783,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +66
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 764 = 102d4 (2 x 102) + 101(flat) + 4 x 102(Con)
@@ -6808,7 +6794,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 7
     Magic Dmg/Cast: 114 | Dmg/Turn: 798 (x57 mana)
     Total Dmg/5R:  4023
-    Total Dmg/10R: 5935
+    Total Dmg/10R: 5933
     Mana: 2189 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6833,15 +6819,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 124
-    Water          : 18
+    Toxin          : 120
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6865,7 +6851,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +35
-    To Hit: Magic: +67
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 771 = 103d4 (2 x 103) + 102(flat) + 4 x 103(Con)
@@ -6876,7 +6862,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 7
     Magic Dmg/Cast: 114 | Dmg/Turn: 798 (x57 mana)
     Total Dmg/5R:  4023
-    Total Dmg/10R: 5545
+    Total Dmg/10R: 5543
     Mana: 2210 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6901,15 +6887,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 126
-    Water          : 19
+    Toxin          : 122
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6933,7 +6919,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +35
-    To Hit: Magic: +67
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 779 = 104d4 (2 x 104) + 103(flat) + 4 x 104(Con)
@@ -6969,15 +6955,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 126
-    Water          : 19
+    Toxin          : 122
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7001,7 +6987,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +35
-    To Hit: Magic: +67
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 786 = 105d4 (2 x 105) + 104(flat) + 4 x 105(Con)
@@ -7037,15 +7023,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 126
-    Water          : 19
+    Toxin          : 122
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7069,7 +7055,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +68
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 794 = 106d4 (2 x 106) + 105(flat) + 4 x 106(Con)
@@ -7105,15 +7091,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 19
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 128
-    Water          : 19
+    Toxin          : 124
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7137,7 +7123,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +68
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 801 = 107d4 (2 x 107) + 106(flat) + 4 x 107(Con)
@@ -7148,7 +7134,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 8
     Magic Dmg/Cast: 114 | Dmg/Turn: 912 (x57 mana)
     Total Dmg/5R:  4598
-    Total Dmg/10R: 6919
+    Total Dmg/10R: 6917
     Mana: 2296 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7173,15 +7159,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 128
-    Water          : 19
+    Toxin          : 124
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7205,7 +7191,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +68
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 809 = 108d4 (2 x 108) + 107(flat) + 4 x 108(Con)
@@ -7241,15 +7227,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 128
-    Water          : 19
+    Toxin          : 124
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7273,7 +7259,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +69
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 816 = 109d4 (2 x 109) + 108(flat) + 4 x 109(Con)
@@ -7309,15 +7295,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 130
-    Water          : 19
+    Toxin          : 126
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7341,7 +7327,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +69
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 824 = 110d4 (2 x 110) + 109(flat) + 4 x 110(Con)
@@ -7377,15 +7363,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 130
-    Water          : 19
+    Toxin          : 126
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7409,7 +7395,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +69
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 831 = 111d4 (2 x 111) + 110(flat) + 4 x 111(Con)
@@ -7420,7 +7406,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 8
     Magic Dmg/Cast: 114 | Dmg/Turn: 912 (x57 mana)
     Total Dmg/5R:  4598
-    Total Dmg/10R: 6029
+    Total Dmg/10R: 6027
     Mana: 2382 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7445,15 +7431,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 130
-    Water          : 20
+    Toxin          : 126
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7477,7 +7463,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 2
     Proficiency: +38
-    To Hit: Magic: +70
+    To Hit: Magic: +74
 
   HEALTH POOLS:
     Vitality: 839 = 112d4 (2 x 112) + 111(flat) + 4 x 112(Con)
@@ -7513,15 +7499,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 132
-    Water          : 20
+    Toxin          : 128
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7545,7 +7531,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +38
-    To Hit: Magic: +70
+    To Hit: Magic: +74
 
   HEALTH POOLS:
     Vitality: 846 = 113d4 (2 x 113) + 112(flat) + 4 x 113(Con)
@@ -7581,15 +7567,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 132
-    Water          : 20
+    Toxin          : 128
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7613,7 +7599,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +38
-    To Hit: Magic: +70
+    To Hit: Magic: +74
 
   HEALTH POOLS:
     Vitality: 854 = 114d4 (2 x 114) + 113(flat) + 4 x 114(Con)
@@ -7649,15 +7635,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 20
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 132
-    Water          : 20
+    Toxin          : 128
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7681,7 +7667,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +71
+    To Hit: Magic: +75
 
   HEALTH POOLS:
     Vitality: 861 = 115d4 (2 x 115) + 114(flat) + 4 x 115(Con)
@@ -7692,7 +7678,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 8
     Magic Dmg/Cast: 114 | Dmg/Turn: 912 (x57 mana)
     Total Dmg/5R:  4598
-    Total Dmg/10R: 6720
+    Total Dmg/10R: 6718
     Mana: 2468 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7717,15 +7703,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 134
-    Water          : 20
+    Toxin          : 130
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7749,7 +7735,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +71
+    To Hit: Magic: +75
 
   HEALTH POOLS:
     Vitality: 869 = 116d4 (2 x 116) + 115(flat) + 4 x 116(Con)
@@ -7760,7 +7746,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 8
     Magic Dmg/Cast: 114 | Dmg/Turn: 912 (x57 mana)
     Total Dmg/5R:  4598
-    Total Dmg/10R: 6261
+    Total Dmg/10R: 6259
     Mana: 2490 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7785,15 +7771,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 134
-    Water          : 20
+    Toxin          : 130
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7817,7 +7803,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +71
+    To Hit: Magic: +75
 
   HEALTH POOLS:
     Vitality: 876 = 117d4 (2 x 117) + 116(flat) + 4 x 117(Con)
@@ -7853,15 +7839,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 134
-    Water          : 20
+    Toxin          : 130
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7885,7 +7871,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +72
+    To Hit: Magic: +76
 
   HEALTH POOLS:
     Vitality: 884 = 118d4 (2 x 118) + 117(flat) + 4 x 118(Con)
@@ -7921,15 +7907,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 136
-    Water          : 20
+    Toxin          : 132
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7953,7 +7939,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +72
+    To Hit: Magic: +76
 
   HEALTH POOLS:
     Vitality: 891 = 119d4 (2 x 119) + 118(flat) + 4 x 119(Con)
@@ -7989,15 +7975,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 136
-    Water          : 21
+    Toxin          : 132
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8021,7 +8007,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +72
+    To Hit: Magic: +76
 
   HEALTH POOLS:
     Vitality: 899 = 120d4 (2 x 120) + 119(flat) + 4 x 120(Con)
@@ -8057,15 +8043,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 136
-    Water          : 21
+    Toxin          : 132
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8089,7 +8075,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +73
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 906 = 121d4 (2 x 121) + 120(flat) + 4 x 121(Con)
@@ -8125,15 +8111,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 138
-    Water          : 21
+    Toxin          : 134
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8157,7 +8143,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +73
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 914 = 122d4 (2 x 122) + 121(flat) + 4 x 122(Con)
@@ -8167,8 +8153,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 149 | Dmg/Turn: 1341 (x138 mana)
-    Total Dmg/5R:  3667
-    Total Dmg/10R: 6745
+    Total Dmg/5R:  3666
+    Total Dmg/10R: 6744
     Mana: 2619 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8193,15 +8179,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 21
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 138
-    Water          : 21
+    Toxin          : 134
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8225,7 +8211,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +73
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 921 = 123d4 (2 x 123) + 122(flat) + 4 x 123(Con)
@@ -8235,8 +8221,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 149 | Dmg/Turn: 1341 (x138 mana)
-    Total Dmg/5R:  3587
-    Total Dmg/10R: 6665
+    Total Dmg/5R:  3585
+    Total Dmg/10R: 6663
     Mana: 2640 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8261,15 +8247,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 138
-    Water          : 21
+    Toxin          : 134
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8293,7 +8279,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +74
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 929 = 124d4 (2 x 124) + 123(flat) + 4 x 124(Con)
@@ -8303,8 +8289,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 149 | Dmg/Turn: 1341 (x138 mana)
-    Total Dmg/5R:  3060
-    Total Dmg/10R: 6138
+    Total Dmg/5R:  3058
+    Total Dmg/10R: 6136
     Mana: 2662 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8329,15 +8315,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 140
-    Water          : 21
+    Toxin          : 136
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8361,7 +8347,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +74
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 936 = 125d4 (2 x 125) + 124(flat) + 4 x 125(Con)
@@ -8397,15 +8383,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 140
-    Water          : 21
+    Toxin          : 136
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8429,7 +8415,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +74
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 944 = 126d4 (2 x 126) + 125(flat) + 4 x 126(Con)
@@ -8465,15 +8451,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 140
-    Water          : 21
+    Toxin          : 136
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8497,7 +8483,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +43
-    To Hit: Magic: +75
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 951 = 127d4 (2 x 127) + 126(flat) + 4 x 127(Con)
@@ -8508,7 +8494,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 9
     Magic Dmg/Cast: 149 | Dmg/Turn: 1341 (x138 mana)
     Total Dmg/5R:  3036
-    Total Dmg/10R: 5638
+    Total Dmg/10R: 5636
     Mana: 2726 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8533,15 +8519,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 142
-    Water          : 22
+    Toxin          : 138
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8565,7 +8551,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +43
-    To Hit: Magic: +75
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 959 = 128d4 (2 x 128) + 127(flat) + 4 x 128(Con)
@@ -8601,15 +8587,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 142
-    Water          : 22
+    Toxin          : 138
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8633,7 +8619,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 17  RP: 2
     Proficiency: +43
-    To Hit: Magic: +75
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 966 = 129d4 (2 x 129) + 128(flat) + 4 x 129(Con)
@@ -8669,15 +8655,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 142
-    Water          : 22
+    Toxin          : 138
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8701,7 +8687,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 13  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +76
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 974 = 130d4 (2 x 130) + 129(flat) + 4 x 130(Con)
@@ -8737,15 +8723,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 22
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 144
-    Water          : 22
+    Toxin          : 140
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8769,7 +8755,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +76
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 981 = 131d4 (2 x 131) + 130(flat) + 4 x 131(Con)
@@ -8805,15 +8791,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 144
-    Water          : 22
+    Toxin          : 140
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8837,7 +8823,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +76
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 989 = 132d4 (2 x 132) + 131(flat) + 4 x 132(Con)
@@ -8847,8 +8833,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 149 | Dmg/Turn: 1341 (x138 mana)
-    Total Dmg/5R:  3238
-    Total Dmg/10R: 6316
+    Total Dmg/5R:  3236
+    Total Dmg/10R: 6314
     Mana: 2834 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8873,15 +8859,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 144
-    Water          : 22
+    Toxin          : 140
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8905,7 +8891,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +77
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1129 = 133d4 (2 x 133) + 132(flat) + 5 x 133(Con)
@@ -8941,15 +8927,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 146
-    Water          : 22
+    Toxin          : 142
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8973,7 +8959,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +77
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1138 = 134d4 (2 x 134) + 133(flat) + 5 x 134(Con)
@@ -9009,15 +8995,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 146
-    Water          : 22
+    Toxin          : 142
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9041,7 +9027,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +77
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1146 = 135d4 (2 x 135) + 134(flat) + 5 x 135(Con)
@@ -9077,15 +9063,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 146
-    Water          : 23
+    Toxin          : 142
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9109,7 +9095,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +46
-    To Hit: Magic: +78
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1019 = 136d4 (2 x 136) + 135(flat) + 4 x 136(Con)
@@ -9119,8 +9105,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 149 | Dmg/Turn: 1341 (x138 mana)
-    Total Dmg/5R:  4039
-    Total Dmg/10R: 7117
+    Total Dmg/5R:  4037
+    Total Dmg/10R: 7115
     Mana: 3056 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9145,15 +9131,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 148
-    Water          : 23
+    Toxin          : 144
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9177,7 +9163,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +46
-    To Hit: Magic: +78
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1026 = 137d4 (2 x 137) + 136(flat) + 4 x 137(Con)
@@ -9187,8 +9173,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 149 | Dmg/Turn: 1490 (x138 mana)
-    Total Dmg/5R:  3511
-    Total Dmg/10R: 6931
+    Total Dmg/5R:  3509
+    Total Dmg/10R: 6929
     Mana: 3078 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9213,15 +9199,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 148
-    Water          : 23
+    Toxin          : 144
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9245,7 +9231,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +46
-    To Hit: Magic: +78
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1034 = 138d4 (2 x 138) + 137(flat) + 4 x 138(Con)
@@ -9281,15 +9267,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 23
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 148
-    Water          : 23
+    Toxin          : 144
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9313,7 +9299,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +79
+    To Hit: Magic: +83
 
   HEALTH POOLS:
     Vitality: 1180 = 139d4 (2 x 139) + 138(flat) + 5 x 139(Con)
@@ -9349,15 +9335,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 150
-    Water          : 23
+    Toxin          : 146
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9381,7 +9367,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +79
+    To Hit: Magic: +83
 
   HEALTH POOLS:
     Vitality: 1189 = 140d4 (2 x 140) + 139(flat) + 5 x 140(Con)
@@ -9417,15 +9403,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 150
-    Water          : 23
+    Toxin          : 146
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9449,7 +9435,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +79
+    To Hit: Magic: +83
 
   HEALTH POOLS:
     Vitality: 1197 = 141d4 (2 x 141) + 140(flat) + 5 x 141(Con)
@@ -9459,8 +9445,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 149 | Dmg/Turn: 1490 (x138 mana)
-    Total Dmg/5R:  3654
-    Total Dmg/10R: 7074
+    Total Dmg/5R:  3652
+    Total Dmg/10R: 7072
     Mana: 3168 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9485,15 +9471,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 150
-    Water          : 23
+    Toxin          : 146
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9517,7 +9503,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +80
+    To Hit: Magic: +84
 
   HEALTH POOLS:
     Vitality: 1064 = 142d4 (2 x 142) + 141(flat) + 4 x 142(Con)
@@ -9527,8 +9513,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 149 | Dmg/Turn: 1490 (x138 mana)
-    Total Dmg/5R:  4258
-    Total Dmg/10R: 7678
+    Total Dmg/5R:  4256
+    Total Dmg/10R: 7676
     Mana: 3191 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9553,15 +9539,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 152
-    Water          : 23
+    Toxin          : 148
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9585,7 +9571,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +80
+    To Hit: Magic: +84
 
   HEALTH POOLS:
     Vitality: 1071 = 143d4 (2 x 143) + 142(flat) + 4 x 143(Con)
@@ -9595,8 +9581,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 149 | Dmg/Turn: 1490 (x138 mana)
-    Total Dmg/5R:  3662
-    Total Dmg/10R: 7082
+    Total Dmg/5R:  3660
+    Total Dmg/10R: 7080
     Mana: 3213 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9621,15 +9607,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 152
-    Water          : 24
+    Toxin          : 148
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9653,7 +9639,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +80
+    To Hit: Magic: +84
 
   HEALTH POOLS:
     Vitality: 1079 = 144d4 (2 x 144) + 143(flat) + 4 x 144(Con)
@@ -9689,15 +9675,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 152
-    Water          : 24
+    Toxin          : 148
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9721,7 +9707,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +85
 
   HEALTH POOLS:
     Vitality: 1231 = 145d4 (2 x 145) + 144(flat) + 5 x 145(Con)
@@ -9757,15 +9743,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 154
-    Water          : 24
+    Toxin          : 150
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9789,7 +9775,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +85
 
   HEALTH POOLS:
     Vitality: 1240 = 146d4 (2 x 146) + 145(flat) + 5 x 146(Con)
@@ -9825,15 +9811,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 24
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 154
-    Water          : 24
+    Toxin          : 150
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9857,7 +9843,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +85
 
   HEALTH POOLS:
     Vitality: 1248 = 147d4 (2 x 147) + 146(flat) + 5 x 147(Con)
@@ -9867,8 +9853,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 149 | Dmg/Turn: 1490 (x138 mana)
-    Total Dmg/5R:  3805
-    Total Dmg/10R: 7225
+    Total Dmg/5R:  3803
+    Total Dmg/10R: 7223
     Mana: 3303 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9893,15 +9879,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 154
-    Water          : 24
+    Toxin          : 150
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9925,7 +9911,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +86
 
   HEALTH POOLS:
     Vitality: 1257 = 148d4 (2 x 148) + 147(flat) + 5 x 148(Con)
@@ -9961,15 +9947,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 156
-    Water          : 24
+    Toxin          : 152
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9993,7 +9979,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +86
 
   HEALTH POOLS:
     Vitality: 1265 = 149d4 (2 x 149) + 148(flat) + 5 x 149(Con)
@@ -10029,15 +10015,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 156
-    Water          : 24
+    Toxin          : 152
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10061,7 +10047,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +86
 
   HEALTH POOLS:
     Vitality: 1274 = 150d4 (2 x 150) + 149(flat) + 5 x 150(Con)
@@ -10097,15 +10083,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 156
-    Water          : 24
+    Toxin          : 152
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10129,7 +10115,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 19  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1282 = 151d4 (2 x 151) + 150(flat) + 5 x 151(Con)
@@ -10165,15 +10151,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 158
-    Water          : 25
+    Toxin          : 154
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10197,7 +10183,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 19  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1291 = 152d4 (2 x 152) + 151(flat) + 5 x 152(Con)
@@ -10208,7 +10194,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 10
     Magic Dmg/Cast: 149 | Dmg/Turn: 1490 (x138 mana)
     Total Dmg/5R:  3782
-    Total Dmg/10R: 6665
+    Total Dmg/10R: 6663
     Mana: 3416 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10233,15 +10219,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 158
-    Water          : 25
+    Toxin          : 154
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10265,7 +10251,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1299 = 153d4 (2 x 153) + 152(flat) + 5 x 153(Con)
@@ -10301,15 +10287,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 158
-    Water          : 25
+    Toxin          : 154
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10333,7 +10319,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1308 = 154d4 (2 x 154) + 153(flat) + 5 x 154(Con)
@@ -10369,15 +10355,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 25
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 160
-    Water          : 25
+    Toxin          : 156
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10401,7 +10387,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1316 = 155d4 (2 x 155) + 154(flat) + 5 x 155(Con)
@@ -10437,15 +10423,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 160
-    Water          : 25
+    Toxin          : 156
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10469,7 +10455,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1325 = 156d4 (2 x 156) + 155(flat) + 5 x 156(Con)
@@ -10505,15 +10491,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 160
-    Water          : 25
+    Toxin          : 156
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10537,7 +10523,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1333 = 157d4 (2 x 157) + 156(flat) + 5 x 157(Con)
@@ -10547,8 +10533,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 149 | Dmg/Turn: 1639 (x138 mana)
-    Total Dmg/5R:  3992
-    Total Dmg/10R: 7754
+    Total Dmg/5R:  3990
+    Total Dmg/10R: 7752
     Mana: 3528 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10573,15 +10559,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 162
-    Water          : 25
+    Toxin          : 158
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10605,7 +10591,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1342 = 158d4 (2 x 158) + 157(flat) + 5 x 158(Con)
@@ -10616,7 +10602,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 11
     Magic Dmg/Cast: 149 | Dmg/Turn: 1639 (x138 mana)
     Total Dmg/5R:  3931
-    Total Dmg/10R: 7090
+    Total Dmg/10R: 7088
     Mana: 3551 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10641,15 +10627,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 162
-    Water          : 25
+    Toxin          : 158
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10673,7 +10659,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1350 = 159d4 (2 x 159) + 158(flat) + 5 x 159(Con)
@@ -10709,15 +10695,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 162
-    Water          : 26
+    Toxin          : 158
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10741,7 +10727,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1359 = 160d4 (2 x 160) + 159(flat) + 5 x 160(Con)
@@ -10777,15 +10763,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 164
-    Water          : 26
+    Toxin          : 160
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10809,7 +10795,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1367 = 161d4 (2 x 161) + 160(flat) + 5 x 161(Con)
@@ -10845,15 +10831,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 164
-    Water          : 26
+    Toxin          : 160
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10877,7 +10863,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1376 = 162d4 (2 x 162) + 161(flat) + 5 x 162(Con)
@@ -10913,15 +10899,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 26
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 164
-    Water          : 26
+    Toxin          : 160
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10945,7 +10931,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +87
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1384 = 163d4 (2 x 163) + 162(flat) + 5 x 163(Con)
@@ -10955,8 +10941,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 149 | Dmg/Turn: 1639 (x138 mana)
-    Total Dmg/5R:  4143
-    Total Dmg/10R: 7905
+    Total Dmg/5R:  4142
+    Total Dmg/10R: 7903
     Mana: 3663 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10981,15 +10967,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 166
-    Water          : 26
+    Toxin          : 162
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11013,7 +10999,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +87
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1393 = 164d4 (2 x 164) + 163(flat) + 5 x 164(Con)
@@ -11024,7 +11010,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Attacks/Turn: 11
     Magic Dmg/Cast: 149 | Dmg/Turn: 1639 (x138 mana)
     Total Dmg/5R:  4080
-    Total Dmg/10R: 7241
+    Total Dmg/10R: 7239
     Mana: 3686 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11049,15 +11035,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 166
-    Water          : 26
+    Toxin          : 162
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11081,7 +11067,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +87
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1401 = 165d4 (2 x 165) + 164(flat) + 5 x 165(Con)
@@ -11117,15 +11103,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 166
-    Water          : 26
+    Toxin          : 162
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11149,7 +11135,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +88
+    To Hit: Magic: +92
 
   HEALTH POOLS:
     Vitality: 1410 = 166d4 (2 x 166) + 165(flat) + 5 x 166(Con)
@@ -11185,15 +11171,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 168
-    Water          : 26
+    Toxin          : 164
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11217,7 +11203,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +88
+    To Hit: Magic: +92
 
   HEALTH POOLS:
     Vitality: 1418 = 167d4 (2 x 167) + 166(flat) + 5 x 167(Con)
@@ -11253,15 +11239,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 168
-    Water          : 27
+    Toxin          : 164
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11285,7 +11271,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +88
+    To Hit: Magic: +92
 
   HEALTH POOLS:
     Vitality: 1427 = 168d4 (2 x 168) + 167(flat) + 5 x 168(Con)
@@ -11321,15 +11307,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 168
-    Water          : 27
+    Toxin          : 164
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11353,7 +11339,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +89
+    To Hit: Magic: +93
 
   HEALTH POOLS:
     Vitality: 1435 = 169d4 (2 x 169) + 168(flat) + 5 x 169(Con)
@@ -11363,8 +11349,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 149 | Dmg/Turn: 1788 (x138 mana)
-    Total Dmg/5R:  4294
-    Total Dmg/10R: 8398
+    Total Dmg/5R:  4293
+    Total Dmg/10R: 8397
     Mana: 3798 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11389,15 +11375,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 170
-    Water          : 27
+    Toxin          : 166
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11421,7 +11407,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 17  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +89
+    To Hit: Magic: +93
 
   HEALTH POOLS:
     Vitality: 1444 = 170d4 (2 x 170) + 169(flat) + 5 x 170(Con)
@@ -11457,15 +11443,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 27
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 170
-    Water          : 27
+    Toxin          : 166
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11489,7 +11475,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +89
+    To Hit: Magic: +93
 
   HEALTH POOLS:
     Vitality: 1452 = 171d4 (2 x 171) + 170(flat) + 5 x 171(Con)
@@ -11525,15 +11511,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 170
-    Water          : 27
+    Toxin          : 166
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11557,7 +11543,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +90
+    To Hit: Magic: +94
 
   HEALTH POOLS:
     Vitality: 1461 = 172d4 (2 x 172) + 171(flat) + 5 x 172(Con)
@@ -11593,15 +11579,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 172
-    Water          : 27
+    Toxin          : 168
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11625,7 +11611,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +90
+    To Hit: Magic: +94
 
   HEALTH POOLS:
     Vitality: 1469 = 173d4 (2 x 173) + 172(flat) + 5 x 173(Con)
@@ -11661,15 +11647,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 172
-    Water          : 27
+    Toxin          : 168
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11693,7 +11679,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +90
+    To Hit: Magic: +94
 
   HEALTH POOLS:
     Vitality: 1478 = 174d4 (2 x 174) + 173(flat) + 5 x 174(Con)
@@ -11703,8 +11689,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 149 | Dmg/Turn: 1788 (x138 mana)
-    Total Dmg/5R:  4418
-    Total Dmg/10R: 8522
+    Total Dmg/5R:  4416
+    Total Dmg/10R: 8520
     Mana: 3911 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11729,15 +11715,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 172
-    Water          : 27
+    Toxin          : 168
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11761,7 +11747,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +59
-    To Hit: Magic: +91
+    To Hit: Magic: +95
 
   HEALTH POOLS:
     Vitality: 1486 = 175d4 (2 x 175) + 174(flat) + 5 x 175(Con)
@@ -11797,15 +11783,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 174
-    Water          : 28
+    Toxin          : 170
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11829,7 +11815,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +59
-    To Hit: Magic: +91
+    To Hit: Magic: +95
 
   HEALTH POOLS:
     Vitality: 1495 = 176d4 (2 x 176) + 175(flat) + 5 x 176(Con)
@@ -11865,15 +11851,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 174
-    Water          : 28
+    Toxin          : 170
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11897,7 +11883,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +59
-    To Hit: Magic: +91
+    To Hit: Magic: +95
 
   HEALTH POOLS:
     Vitality: 1503 = 177d4 (2 x 177) + 176(flat) + 5 x 177(Con)
@@ -11933,15 +11919,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 174
-    Water          : 28
+    Toxin          : 170
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11965,7 +11951,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +92
+    To Hit: Magic: +96
 
   HEALTH POOLS:
     Vitality: 1512 = 178d4 (2 x 178) + 177(flat) + 5 x 178(Con)
@@ -11975,8 +11961,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 149 | Dmg/Turn: 1788 (x138 mana)
-    Total Dmg/5R:  4561
-    Total Dmg/10R: 8665
+    Total Dmg/5R:  4560
+    Total Dmg/10R: 8664
     Mana: 4001 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12001,15 +11987,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 28
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 176
-    Water          : 28
+    Toxin          : 172
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12033,7 +12019,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +92
+    To Hit: Magic: +96
 
   HEALTH POOLS:
     Vitality: 1520 = 179d4 (2 x 179) + 178(flat) + 5 x 179(Con)
@@ -12043,8 +12029,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 149 | Dmg/Turn: 1788 (x138 mana)
-    Total Dmg/5R:  5301
-    Total Dmg/10R: 9405
+    Total Dmg/5R:  5300
+    Total Dmg/10R: 9404
     Mana: 4023 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12069,15 +12055,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 176
-    Water          : 28
+    Toxin          : 172
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12101,7 +12087,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +92
+    To Hit: Magic: +96
 
   HEALTH POOLS:
     Vitality: 1529 = 180d4 (2 x 180) + 179(flat) + 5 x 180(Con)
@@ -12111,8 +12097,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 149 | Dmg/Turn: 1788 (x138 mana)
-    Total Dmg/5R:  4569
-    Total Dmg/10R: 8673
+    Total Dmg/5R:  4567
+    Total Dmg/10R: 8671
     Mana: 4046 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12137,15 +12123,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 176
-    Water          : 28
+    Toxin          : 172
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12169,7 +12155,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +93
+    To Hit: Magic: +97
 
   HEALTH POOLS:
     Vitality: 1537 = 181d4 (2 x 181) + 180(flat) + 5 x 181(Con)
@@ -12205,15 +12191,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 178
-    Water          : 28
+    Toxin          : 174
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12237,7 +12223,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +93
+    To Hit: Magic: +97
 
   HEALTH POOLS:
     Vitality: 1546 = 182d4 (2 x 182) + 181(flat) + 5 x 182(Con)
@@ -12273,15 +12259,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 178
-    Water          : 28
+    Toxin          : 174
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12305,7 +12291,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +93
+    To Hit: Magic: +97
 
   HEALTH POOLS:
     Vitality: 1554 = 183d4 (2 x 183) + 182(flat) + 5 x 183(Con)
@@ -12341,15 +12327,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 178
-    Water          : 29
+    Toxin          : 174
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12373,7 +12359,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +62
-    To Hit: Magic: +94
+    To Hit: Magic: +98
 
   HEALTH POOLS:
     Vitality: 1563 = 184d4 (2 x 184) + 183(flat) + 5 x 184(Con)
@@ -12383,8 +12369,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 149 | Dmg/Turn: 1788 (x138 mana)
-    Total Dmg/5R:  4712
-    Total Dmg/10R: 8816
+    Total Dmg/5R:  4711
+    Total Dmg/10R: 8815
     Mana: 4136 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12409,15 +12395,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 180
-    Water          : 29
+    Toxin          : 176
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12441,7 +12427,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +62
-    To Hit: Magic: +94
+    To Hit: Magic: +98
 
   HEALTH POOLS:
     Vitality: 1571 = 185d4 (2 x 185) + 184(flat) + 5 x 185(Con)
@@ -12451,8 +12437,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 149 | Dmg/Turn: 1937 (x138 mana)
-    Total Dmg/5R:  5521
-    Total Dmg/10R: 9967
+    Total Dmg/5R:  5519
+    Total Dmg/10R: 9965
     Mana: 4158 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12477,15 +12463,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 180
-    Water          : 29
+    Toxin          : 176
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12509,7 +12495,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +62
-    To Hit: Magic: +94
+    To Hit: Magic: +98
 
   HEALTH POOLS:
     Vitality: 1580 = 186d4 (2 x 186) + 185(flat) + 5 x 186(Con)
@@ -12519,8 +12505,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 149 | Dmg/Turn: 1937 (x138 mana)
-    Total Dmg/5R:  4720
-    Total Dmg/10R: 9166
+    Total Dmg/5R:  4718
+    Total Dmg/10R: 9164
     Mana: 4181 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12545,15 +12531,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 29
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 180
-    Water          : 29
+    Toxin          : 176
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12577,7 +12563,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +95
+    To Hit: Magic: +99
 
   HEALTH POOLS:
     Vitality: 1588 = 187d4 (2 x 187) + 186(flat) + 5 x 187(Con)
@@ -12613,15 +12599,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 182
-    Water          : 29
+    Toxin          : 178
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12645,7 +12631,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +95
+    To Hit: Magic: +99
 
   HEALTH POOLS:
     Vitality: 1597 = 188d4 (2 x 188) + 187(flat) + 5 x 188(Con)
@@ -12655,8 +12641,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 149 | Dmg/Turn: 1937 (x138 mana)
-    Total Dmg/5R:  5012
-    Total Dmg/10R: 9458
+    Total Dmg/5R:  5010
+    Total Dmg/10R: 9456
     Mana: 4414 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12681,15 +12667,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 182
-    Water          : 29
+    Toxin          : 178
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12713,7 +12699,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +95
+    To Hit: Magic: +99
 
   HEALTH POOLS:
     Vitality: 1605 = 189d4 (2 x 189) + 188(flat) + 5 x 189(Con)
@@ -12723,8 +12709,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 149 | Dmg/Turn: 1937 (x138 mana)
-    Total Dmg/5R:  5820
-    Total Dmg/10R: 10266
+    Total Dmg/5R:  5818
+    Total Dmg/10R: 10264
     Mana: 4437 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12749,15 +12735,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 182
-    Water          : 29
+    Toxin          : 178
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12781,7 +12767,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +96
+    To Hit: Magic: +100
 
   HEALTH POOLS:
     Vitality: 1614 = 190d4 (2 x 190) + 189(flat) + 5 x 190(Con)
@@ -12791,8 +12777,8 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 149 | Dmg/Turn: 1937 (x138 mana)
-    Total Dmg/5R:  5020
-    Total Dmg/10R: 9466
+    Total Dmg/5R:  5018
+    Total Dmg/10R: 9464
     Mana: 4461 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12817,15 +12803,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 184
-    Water          : 29
+    Toxin          : 180
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12849,7 +12835,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +96
+    To Hit: Magic: +100
 
   HEALTH POOLS:
     Vitality: 1622 = 191d4 (2 x 191) + 190(flat) + 5 x 191(Con)
@@ -12885,15 +12871,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 184
-    Water          : 30
+    Toxin          : 180
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12917,7 +12903,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +96
+    To Hit: Magic: +100
 
   HEALTH POOLS:
     Vitality: 1631 = 192d4 (2 x 192) + 191(flat) + 5 x 192(Con)
@@ -12953,15 +12939,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 184
-    Water          : 30
+    Toxin          : 180
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12985,7 +12971,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +97
+    To Hit: Magic: +101
 
   HEALTH POOLS:
     Vitality: 1639 = 193d4 (2 x 193) + 192(flat) + 5 x 193(Con)
@@ -13021,15 +13007,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 186
-    Water          : 30
+    Toxin          : 182
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13053,7 +13039,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +97
+    To Hit: Magic: +101
 
   HEALTH POOLS:
     Vitality: 1648 = 194d4 (2 x 194) + 193(flat) + 5 x 194(Con)
@@ -13089,15 +13075,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 30
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 186
-    Water          : 30
+    Toxin          : 182
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13121,7 +13107,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +97
+    To Hit: Magic: +101
 
   HEALTH POOLS:
     Vitality: 1656 = 195d4 (2 x 195) + 194(flat) + 5 x 195(Con)
@@ -13157,15 +13143,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 186
-    Water          : 30
+    Toxin          : 182
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13189,7 +13175,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +98
+    To Hit: Magic: +102
 
   HEALTH POOLS:
     Vitality: 1665 = 196d4 (2 x 196) + 195(flat) + 5 x 196(Con)
@@ -13225,15 +13211,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 188
-    Water          : 30
+    Toxin          : 184
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13257,7 +13243,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +98
+    To Hit: Magic: +102
 
   HEALTH POOLS:
     Vitality: 1673 = 197d4 (2 x 197) + 196(flat) + 5 x 197(Con)
@@ -13293,15 +13279,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 188
-    Water          : 30
+    Toxin          : 184
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13325,7 +13311,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +98
+    To Hit: Magic: +102
 
   HEALTH POOLS:
     Vitality: 1682 = 198d4 (2 x 198) + 197(flat) + 5 x 198(Con)
@@ -13361,15 +13347,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 188
-    Water          : 30
+    Toxin          : 184
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13393,7 +13379,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +67
-    To Hit: Magic: +99
+    To Hit: Magic: +103
 
   HEALTH POOLS:
     Vitality: 1889 = 199d4 (2 x 199) + 198(flat) + 6 x 199(Con)
@@ -13429,15 +13415,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 190
-    Water          : 31
+    Toxin          : 186
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13461,7 +13447,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +67
-    To Hit: Magic: +99
+    To Hit: Magic: +103
 
   HEALTH POOLS:
     Vitality: 1899 = 200d4 (2 x 200) + 199(flat) + 6 x 200(Con)
@@ -13497,15 +13483,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 190
-    Water          : 31
+    Toxin          : 186
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13529,7 +13515,7 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 21  BAP: 26  RP: 2
     Proficiency: +67
-    To Hit: Magic: +99
+    To Hit: Magic: +103
 
   HEALTH POOLS:
     Vitality: 1908 = 201d4 (2 x 201) + 200(flat) + 6 x 201(Con)
@@ -13565,15 +13551,15 @@ EYUM TTRPG - TOXIN MAGE (NERITE GEAR)
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 33
-    Fire           : 31
+    Air            : 10
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Toxin          : 190
-    Water          : 31
+    Toxin          : 186
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand

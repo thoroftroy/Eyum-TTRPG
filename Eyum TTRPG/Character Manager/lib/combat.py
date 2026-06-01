@@ -42,7 +42,8 @@ def calculate_damage(char, settings):
         extra_damage_die = weapon_info.get('extra_damage_die')
         extra_damage = die_avg.get(extra_damage_die, 0) if extra_damage_die else 0
 
-    accuracy_bonus = char.weapon_group_accuracy + char.steady_aim_accuracy
+    weapon_accuracy = weapon_info.get('accuracy_bonus', 0) if not is_unarmed else 0
+    accuracy_bonus = char.weapon_group_accuracy + char.steady_aim_accuracy + weapon_accuracy
     if weapon_type == 'melee' and char.dual_wield_accuracy > 0 and not is_unarmed:
         accuracy_bonus += char.dual_wield_accuracy
     hit_chance = min(1.0, hit_chance_base + accuracy_bonus * 0.05)

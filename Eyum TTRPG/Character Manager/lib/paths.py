@@ -21,10 +21,6 @@ def apply_level_progression(char, target_level, settings):
             if char.has_physical and 'if_physical' in e2:
                 char.flat_vit += e2['if_physical']['flat_vit']
                 char.flat_hp += e2['if_physical']['flat_hp']
-            if char.has_magical:
-                cycle = ['Fire', 'Earth', 'Water', 'Air']
-                idx = ((lvl // 2) - 1) % 4
-                char.affinities[cycle[idx]] = char.affinities.get(cycle[idx], 0) + 1
 
         if lvl % 3 == 0:
             char.stat_points += e3['stat_points']
@@ -191,9 +187,9 @@ def apply_paths(char, target_level, build_config, settings):
                 if idx > 0:
                     char.vit_die = die_order[idx - 1]
 
-    # Magician tier 5 is automatically active for anyone with the Magician archetype
+    # Magician tier 5 applies only when 5+ whole levels achieved in Magician
     magician_achieved = char.archetype_levels.get(('Magical', 'Magician'), 0)
-    if magician_achieved > 0:
+    if magician_achieved >= 5:
         magician_t5 = paths_rules.get('Magical', {}).get('archetypes', {}).get('Magician', {}).get('5', {})
         apply_effects(char, magician_t5, cost_table)
 

@@ -52,7 +52,6 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 0
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
@@ -114,8 +113,6 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 0
-    Fire           : 1
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
@@ -180,8 +177,6 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 0
-    Fire           : 1
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
@@ -219,10 +214,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 15 (x15 mana)
-    Total Dmg/5R:  62
-    Total Dmg/10R: 114
-    Mana: 42 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 7 (x5 mana)
+    Total Dmg/5R:  39
+    Total Dmg/10R: 72
+    Mana: 42 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -246,8 +241,6 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 1
-    Fire           : 1
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
@@ -285,10 +278,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 15 (x15 mana)
-    Total Dmg/5R:  67
-    Total Dmg/10R: 119
-    Mana: 51 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 7 (x5 mana)
+    Total Dmg/5R:  39
+    Total Dmg/10R: 77
+    Mana: 51 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -312,8 +305,6 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 1
-    Fire           : 1
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
@@ -351,9 +342,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 21 (x30 mana)
-    Total Dmg/5R:  83
-    Total Dmg/10R: 139
+    Magic Dmg/Cast: 10 (x10 mana)
+    Total Dmg/5R:  53
+    Total Dmg/10R: 94
     Mana: 78 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -378,13 +369,12 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 1
-    Fire           : 5
+    Fire           : 4
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
-    Water          : 10
+    Water          : 9
 
   GEAR:
     Weapon: wand
@@ -417,9 +407,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 21 (x30 mana)
-    Total Dmg/5R:  88
-    Total Dmg/10R: 144
+    Magic Dmg/Cast: 10 (x10 mana)
+    Total Dmg/5R:  53
+    Total Dmg/10R: 101
     Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -444,13 +434,12 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Earth          : 1
-    Fire           : 5
+    Fire           : 4
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
-    Water          : 10
+    Water          : 9
 
   GEAR:
     Weapon: wand
@@ -483,10 +472,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 21 | Dmg/Turn: 42 (x30 mana)
-    Total Dmg/5R:  132
-    Total Dmg/10R: 244
-    Mana: 101 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 10 | Dmg/Turn: 20 (x10 mana)
+    Total Dmg/5R:  106
+    Total Dmg/10R: 162
+    Mana: 101 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -510,14 +499,13 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 5
-    Fire           : 5
+    Earth          : 4
+    Fire           : 4
     Generic        : 2
     Necrotic       : 3
     Psychic        : -3
     Radiant        : 3
-    Water          : 10
+    Water          : 9
 
   GEAR:
     Weapon: wand
@@ -550,10 +538,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 21 | Dmg/Turn: 42 (x30 mana)
-    Total Dmg/5R:  126
-    Total Dmg/10R: 238
-    Mana: 113 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 10 | Dmg/Turn: 20 (x10 mana)
+    Total Dmg/5R:  106
+    Total Dmg/10R: 161
+    Mana: 113 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -577,11 +565,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 5
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 5
+    Necrotic       : 4
     Psychic        : -3
     Radiant        : 3
     Water          : 10
@@ -617,9 +604,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 21 | Dmg/Turn: 42 (x30 mana)
-    Total Dmg/5R:  152
-    Total Dmg/10R: 264
+    Magic Dmg/Cast: 10 | Dmg/Turn: 20 (x10 mana)
+    Total Dmg/5R:  106
+    Total Dmg/10R: 172
     Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -644,11 +631,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 6
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 9
+    Necrotic       : 8
     Psychic        : -3
     Radiant        : 3
     Water          : 10
@@ -684,9 +670,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 21 | Dmg/Turn: 42 (x30 mana)
-    Total Dmg/5R:  147
-    Total Dmg/10R: 259
+    Magic Dmg/Cast: 10 | Dmg/Turn: 20 (x10 mana)
+    Total Dmg/5R:  106
+    Total Dmg/10R: 169
     Mana: 136 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -711,11 +697,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 1
-    Earth          : 7
-    Fire           : 6
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 9
+    Necrotic       : 8
     Psychic        : -3
     Radiant        : 3
     Water          : 10
@@ -742,7 +727,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
@@ -751,10 +736,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  166
-    Total Dmg/10R: 302
-    Mana: 147 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 24 (x20 mana)
+    Total Dmg/5R:  100
+    Total Dmg/10R: 164
+    Mana: 147 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -778,9 +763,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 16
-    Fire           : 8
+    Air            : 6
+    Earth          : 13
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -809,7 +794,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
@@ -818,10 +803,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  166
-    Total Dmg/10R: 302
-    Mana: 159 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 24 (x20 mana)
+    Total Dmg/5R:  100
+    Total Dmg/10R: 162
+    Mana: 159 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -845,9 +830,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 16
-    Fire           : 8
+    Air            : 6
+    Earth          : 13
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -876,7 +861,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +10
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
@@ -885,10 +870,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  196
-    Total Dmg/10R: 340
-    Mana: 170 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 24 (x20 mana)
+    Total Dmg/5R:  113
+    Total Dmg/10R: 177
+    Mana: 170 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -912,9 +897,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 17
-    Fire           : 8
+    Air            : 6
+    Earth          : 13
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -943,7 +928,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +11
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
@@ -952,9 +937,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  177
-    Total Dmg/10R: 321
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x20 mana)
+    Total Dmg/5R:  122
+    Total Dmg/10R: 186
     Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -979,9 +964,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 7
-    Earth          : 19
-    Fire           : 8
+    Air            : 6
+    Earth          : 15
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1019,10 +1004,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  177
-    Total Dmg/10R: 321
-    Mana: 193 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  136
+    Total Dmg/10R: 221
+    Mana: 193 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1046,10 +1031,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 20
-    Fire           : 8
-    Gel            : 3
+    Air            : 6
+    Earth          : 19
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1087,10 +1071,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  175
-    Total Dmg/10R: 319
-    Mana: 205 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 223
+    Mana: 205 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1114,10 +1098,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 0)
 
   AFFINITIES:
-    Air            : 8
-    Earth          : 20
-    Fire           : 8
-    Gel            : 3
+    Air            : 6
+    Earth          : 19
+    Fire           : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1155,10 +1138,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  209
-    Total Dmg/10R: 360
-    Mana: 216 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 240
+    Mana: 216 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1182,10 +1165,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 10
+    Fire           : 6
+    Gel            : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1223,9 +1206,9 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  207
-    Total Dmg/10R: 359
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 227
     Mana: 228 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1250,10 +1233,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 10
+    Fire           : 6
+    Gel            : 6
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1291,10 +1274,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
-    Total Dmg/5R:  210
-    Total Dmg/10R: 362
-    Mana: 260 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 243
+    Mana: 260 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1318,10 +1301,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 8
+    Fire           : 6
+    Gel            : 3
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1359,10 +1342,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 25 | Dmg/Turn: 50 (x21 mana)
-    Total Dmg/5R:  250
-    Total Dmg/10R: 416
-    Mana: 273 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 256
+    Mana: 273 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  71
@@ -1386,10 +1369,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 13
+    Fire           : 6
+    Gel            : 8
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1427,10 +1410,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 25 | Dmg/Turn: 50 (x21 mana)
-    Total Dmg/5R:  250
-    Total Dmg/10R: 416
-    Mana: 285 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 257
+    Mana: 285 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  73
@@ -1454,10 +1437,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 14
+    Fire           : 6
+    Gel            : 8
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1495,10 +1478,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 25 | Dmg/Turn: 50 (x21 mana)
-    Total Dmg/5R:  250
-    Total Dmg/10R: 441
-    Mana: 298 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 | Dmg/Turn: 30 (x20 mana)
+    Total Dmg/5R:  152
+    Total Dmg/10R: 270
+    Mana: 298 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  75
@@ -1522,10 +1505,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 14
+    Fire           : 6
+    Gel            : 8
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1563,10 +1546,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  350
-    Total Dmg/10R: 560
-    Mana: 310 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x15 mana)
+    Total Dmg/5R:  321
+    Total Dmg/10R: 489
+    Mana: 310 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  84
@@ -1590,10 +1573,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 16
+    Fire           : 6
+    Gel            : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1631,10 +1614,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 603
-    Mana: 323 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x15 mana)
+    Total Dmg/5R:  321
+    Total Dmg/10R: 510
+    Mana: 323 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1658,10 +1641,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 9
-    Gel            : 16
+    Fire           : 6
+    Gel            : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1699,10 +1682,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 585
-    Mana: 335 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x15 mana)
+    Total Dmg/5R:  321
+    Total Dmg/10R: 508
+    Mana: 335 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1726,10 +1709,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 16
+    Fire           : 6
+    Gel            : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1767,10 +1750,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 582
-    Mana: 348 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x20 mana)
+    Total Dmg/5R:  249
+    Total Dmg/10R: 365
+    Mana: 348 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  92
@@ -1794,10 +1777,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 18
+    Fire           : 6
+    Gel            : 12
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1835,10 +1818,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 607
-    Mana: 360 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x20 mana)
+    Total Dmg/5R:  249
+    Total Dmg/10R: 390
+    Mana: 360 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  94
@@ -1862,10 +1845,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 19
+    Fire           : 6
+    Gel            : 12
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1903,10 +1886,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 590
-    Mana: 373 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x20 mana)
+    Total Dmg/5R:  249
+    Total Dmg/10R: 382
+    Mana: 373 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  96
@@ -1930,10 +1913,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 19
+    Fire           : 6
+    Gel            : 12
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -1962,7 +1945,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +13
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 169 = 31d4 (2 x 31) + 30(flat) + 2 x 31(Con)
@@ -1971,10 +1954,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 632
-    Mana: 385 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 36 (x7 mana)
+    Total Dmg/5R:  187
+    Total Dmg/10R: 375
+    Mana: 385 start, 175 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -1998,10 +1981,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 22
+    Fire           : 6
+    Gel            : 14
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2030,7 +2013,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +13
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 175 = 32d4 (2 x 32) + 31(flat) + 2 x 32(Con)
@@ -2039,10 +2022,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 616
-    Mana: 398 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 36 (x7 mana)
+    Total Dmg/5R:  187
+    Total Dmg/10R: 375
+    Mana: 398 start, 188 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -2066,10 +2049,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 22
+    Fire           : 6
+    Gel            : 14
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2098,7 +2081,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Magic: +13
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 180 = 33d4 (2 x 33) + 32(flat) + 2 x 33(Con)
@@ -2107,10 +2090,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 611
-    Mana: 410 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 36 (x7 mana)
+    Total Dmg/5R:  187
+    Total Dmg/10R: 375
+    Mana: 410 start, 200 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  109
@@ -2134,10 +2117,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 22
+    Fire           : 6
+    Gel            : 14
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2166,7 +2149,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +14
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 186 = 34d4 (2 x 34) + 33(flat) + 2 x 34(Con)
@@ -2175,10 +2158,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 636
-    Mana: 423 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 36 (x7 mana)
+    Total Dmg/5R:  187
+    Total Dmg/10R: 375
+    Mana: 423 start, 213 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  113
@@ -2202,10 +2185,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 1)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 10
-    Gel            : 24
+    Fire           : 6
+    Gel            : 16
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2234,7 +2217,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +16
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 191 = 35d4 (2 x 35) + 34(flat) + 2 x 35(Con)
@@ -2243,10 +2226,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 652
-    Mana: 503 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 36 (x7 mana)
+    Total Dmg/5R:  187
+    Total Dmg/10R: 375
+    Mana: 503 start, 293 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  115
@@ -2270,10 +2253,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 27
+    Fire           : 6
+    Gel            : 19
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2302,7 +2285,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +16
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 197 = 36d4 (2 x 36) + 35(flat) + 2 x 36(Con)
@@ -2311,10 +2294,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 75 (x21 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 691
-    Mana: 518 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 36 (x7 mana)
+    Total Dmg/5R:  187
+    Total Dmg/10R: 375
+    Mana: 518 start, 308 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  117
@@ -2338,10 +2321,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 27
+    Fire           : 6
+    Gel            : 19
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2370,7 +2353,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +17
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 202 = 37d4 (2 x 37) + 36(flat) + 2 x 37(Con)
@@ -2379,10 +2362,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 29 | Dmg/Turn: 87 (x21 mana)
-    Total Dmg/5R:  435
-    Total Dmg/10R: 840
-    Mana: 569 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 14 | Dmg/Turn: 42 (x7 mana)
+    Total Dmg/5R:  217
+    Total Dmg/10R: 435
+    Mana: 569 start, 359 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  121
@@ -2406,10 +2389,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 30
+    Fire           : 6
+    Gel            : 21
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2438,7 +2421,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +17
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 208 = 38d4 (2 x 38) + 37(flat) + 2 x 38(Con)
@@ -2447,10 +2430,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 29 | Dmg/Turn: 87 (x21 mana)
-    Total Dmg/5R:  435
-    Total Dmg/10R: 820
-    Mana: 585 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 14 | Dmg/Turn: 42 (x7 mana)
+    Total Dmg/5R:  217
+    Total Dmg/10R: 435
+    Mana: 585 start, 375 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2474,10 +2457,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 30
+    Fire           : 6
+    Gel            : 21
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
@@ -2506,7 +2489,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +17
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 213 = 39d4 (2 x 39) + 38(flat) + 2 x 39(Con)
@@ -2515,10 +2498,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 35 | Dmg/Turn: 105 (x21 mana)
-    Total Dmg/5R:  525
-    Total Dmg/10R: 980
-    Mana: 600 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 17 | Dmg/Turn: 51 (x7 mana)
+    Total Dmg/5R:  262
+    Total Dmg/10R: 525
+    Mana: 600 start, 390 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2542,15 +2525,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 30
+    Fire           : 6
+    Gel            : 21
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2574,7 +2557,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +14
-    To Hit: Magic: +18
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 219 = 40d4 (2 x 40) + 39(flat) + 2 x 40(Con)
@@ -2583,10 +2566,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 35 | Dmg/Turn: 105 (x21 mana)
-    Total Dmg/5R:  525
-    Total Dmg/10R: 1015
-    Mana: 616 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 17 | Dmg/Turn: 51 (x7 mana)
+    Total Dmg/5R:  262
+    Total Dmg/10R: 525
+    Mana: 616 start, 406 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  129
@@ -2610,15 +2593,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 32
+    Fire           : 6
+    Gel            : 23
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2642,7 +2625,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +18
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 224 = 41d4 (2 x 41) + 40(flat) + 2 x 41(Con)
@@ -2651,10 +2634,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 41 | Dmg/Turn: 164 (x21 mana)
-    Total Dmg/5R:  820
-    Total Dmg/10R: 1473
-    Mana: 631 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 20 | Dmg/Turn: 80 (x7 mana)
+    Total Dmg/5R:  410
+    Total Dmg/10R: 820
+    Mana: 631 start, 351 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -2678,15 +2661,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 32
+    Fire           : 6
+    Gel            : 23
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2710,7 +2693,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +18
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 230 = 42d4 (2 x 42) + 41(flat) + 2 x 42(Con)
@@ -2719,10 +2702,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 41 | Dmg/Turn: 164 (x21 mana)
-    Total Dmg/5R:  820
-    Total Dmg/10R: 1401
-    Mana: 647 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 20 | Dmg/Turn: 80 (x7 mana)
+    Total Dmg/5R:  410
+    Total Dmg/10R: 820
+    Mana: 647 start, 367 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -2746,15 +2729,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 11
-    Gel            : 32
+    Fire           : 6
+    Gel            : 23
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2778,7 +2761,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +19
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 235 = 43d4 (2 x 43) + 42(flat) + 2 x 43(Con)
@@ -2787,10 +2770,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 47 | Dmg/Turn: 188 (x21 mana)
-    Total Dmg/5R:  940
-    Total Dmg/10R: 1745
-    Mana: 662 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 92 (x7 mana)
+    Total Dmg/5R:  470
+    Total Dmg/10R: 940
+    Mana: 662 start, 382 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  142
@@ -2814,15 +2797,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 34
+    Fire           : 6
+    Gel            : 25
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2846,7 +2829,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +19
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 241 = 44d4 (2 x 44) + 43(flat) + 2 x 44(Con)
@@ -2855,10 +2838,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 47 | Dmg/Turn: 188 (x21 mana)
-    Total Dmg/5R:  940
-    Total Dmg/10R: 1792
-    Mana: 678 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 92 (x7 mana)
+    Total Dmg/5R:  470
+    Total Dmg/10R: 940
+    Mana: 678 start, 398 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -2882,15 +2865,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 34
+    Fire           : 6
+    Gel            : 25
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2914,7 +2897,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +20
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 246 = 45d4 (2 x 45) + 44(flat) + 2 x 45(Con)
@@ -2923,10 +2906,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 53 | Dmg/Turn: 212 (x21 mana)
-    Total Dmg/5R:  1060
-    Total Dmg/10R: 1916
-    Mana: 693 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 26 | Dmg/Turn: 104 (x7 mana)
+    Total Dmg/5R:  530
+    Total Dmg/10R: 1060
+    Mana: 693 start, 413 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -2950,15 +2933,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 35
+    Fire           : 6
+    Gel            : 25
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -2982,7 +2965,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +21
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 252 = 46d4 (2 x 46) + 45(flat) + 2 x 46(Con)
@@ -2991,10 +2974,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 53 | Dmg/Turn: 212 (x21 mana)
-    Total Dmg/5R:  1060
-    Total Dmg/10R: 1812
-    Mana: 709 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 26 | Dmg/Turn: 104 (x7 mana)
+    Total Dmg/5R:  530
+    Total Dmg/10R: 1060
+    Mana: 709 start, 429 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  150
@@ -3018,15 +3001,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 37
+    Fire           : 6
+    Gel            : 27
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 11
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3050,7 +3033,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +21
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 257 = 47d4 (2 x 47) + 46(flat) + 2 x 47(Con)
@@ -3059,10 +3042,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 59 | Dmg/Turn: 236 (x21 mana)
-    Total Dmg/5R:  1180
-    Total Dmg/10R: 2196
-    Mana: 724 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 29 | Dmg/Turn: 116 (x7 mana)
+    Total Dmg/5R:  590
+    Total Dmg/10R: 1180
+    Mana: 724 start, 444 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3086,15 +3069,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 37
+    Fire           : 6
+    Gel            : 27
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3118,7 +3101,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +21
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 263 = 48d4 (2 x 48) + 47(flat) + 2 x 48(Con)
@@ -3127,10 +3110,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 59 | Dmg/Turn: 236 (x21 mana)
-    Total Dmg/5R:  1180
-    Total Dmg/10R: 2255
-    Mana: 740 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 29 | Dmg/Turn: 116 (x7 mana)
+    Total Dmg/5R:  590
+    Total Dmg/10R: 1180
+    Mana: 740 start, 460 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3154,15 +3137,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 37
+    Fire           : 6
+    Gel            : 27
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3186,7 +3169,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +22
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 268 = 49d4 (2 x 49) + 48(flat) + 2 x 49(Con)
@@ -3195,10 +3178,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 65 | Dmg/Turn: 260 (x21 mana)
-    Total Dmg/5R:  1300
-    Total Dmg/10R: 2470
-    Mana: 804 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 128 (x7 mana)
+    Total Dmg/5R:  650
+    Total Dmg/10R: 1300
+    Mana: 804 start, 524 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  163
@@ -3222,15 +3205,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 39
+    Fire           : 6
+    Gel            : 29
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3254,7 +3237,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +22
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 274 = 50d4 (2 x 50) + 49(flat) + 2 x 50(Con)
@@ -3263,10 +3246,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 65 | Dmg/Turn: 260 (x21 mana)
-    Total Dmg/5R:  1300
-    Total Dmg/10R: 2535
-    Mana: 821 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 128 (x7 mana)
+    Total Dmg/5R:  650
+    Total Dmg/10R: 1300
+    Mana: 821 start, 541 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  165
@@ -3290,15 +3273,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 2)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 12
-    Gel            : 39
+    Fire           : 6
+    Gel            : 29
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3322,7 +3305,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +27
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 279 = 51d4 (2 x 51) + 50(flat) + 2 x 51(Con)
@@ -3331,10 +3314,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 65 | Dmg/Turn: 260 (x21 mana)
-    Total Dmg/5R:  1300
-    Total Dmg/10R: 2535
-    Mana: 837 start, 18 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 128 (x7 mana)
+    Total Dmg/5R:  650
+    Total Dmg/10R: 1300
+    Mana: 837 start, 557 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3358,15 +3341,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 49
+    Fire           : 6
+    Gel            : 39
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3390,7 +3373,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +28
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 285 = 52d4 (2 x 52) + 51(flat) + 2 x 52(Con)
@@ -3399,10 +3382,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 65 | Dmg/Turn: 260 (x21 mana)
-    Total Dmg/5R:  1300
-    Total Dmg/10R: 2600
-    Mana: 854 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 128 (x7 mana)
+    Total Dmg/5R:  650
+    Total Dmg/10R: 1300
+    Mana: 854 start, 574 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -3426,15 +3409,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 51
+    Fire           : 6
+    Gel            : 41
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3458,7 +3441,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +28
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 290 = 53d4 (2 x 53) + 52(flat) + 2 x 53(Con)
@@ -3467,10 +3450,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 69 | Dmg/Turn: 276 (x21 mana)
-    Total Dmg/5R:  1380
-    Total Dmg/10R: 2760
-    Mana: 1082 start, 242 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 136 (x7 mana)
+    Total Dmg/5R:  690
+    Total Dmg/10R: 1380
+    Mana: 1082 start, 802 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  173
@@ -3494,15 +3477,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 52
+    Fire           : 6
+    Gel            : 41
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3526,7 +3509,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +28
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 296 = 54d4 (2 x 54) + 53(flat) + 2 x 54(Con)
@@ -3535,10 +3518,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 69 | Dmg/Turn: 276 (x21 mana)
-    Total Dmg/5R:  1380
-    Total Dmg/10R: 2760
-    Mana: 1103 start, 263 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 136 (x7 mana)
+    Total Dmg/5R:  690
+    Total Dmg/10R: 1380
+    Mana: 1103 start, 823 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3562,15 +3545,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 52
+    Fire           : 6
+    Gel            : 41
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 12
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3594,7 +3577,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +29
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 356 = 55d4 (2 x 55) + 54(flat) + 3 x 55(Con)
@@ -3603,10 +3586,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 69 | Dmg/Turn: 276 (x21 mana)
-    Total Dmg/5R:  1380
-    Total Dmg/10R: 2760
-    Mana: 1123 start, 283 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 136 (x7 mana)
+    Total Dmg/5R:  690
+    Total Dmg/10R: 1380
+    Mana: 1123 start, 843 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -3630,15 +3613,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 54
+    Fire           : 6
+    Gel            : 43
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3662,7 +3645,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +29
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 363 = 56d4 (2 x 56) + 55(flat) + 3 x 56(Con)
@@ -3671,10 +3654,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 69 | Dmg/Turn: 276 (x21 mana)
-    Total Dmg/5R:  1380
-    Total Dmg/10R: 2760
-    Mana: 1144 start, 304 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 136 (x7 mana)
+    Total Dmg/5R:  690
+    Total Dmg/10R: 1380
+    Mana: 1144 start, 864 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -3698,15 +3681,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 54
+    Fire           : 6
+    Gel            : 43
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3730,7 +3713,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +19
-    To Hit: Magic: +29
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 369 = 57d4 (2 x 57) + 56(flat) + 3 x 57(Con)
@@ -3739,10 +3722,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1164 start, 114 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1164 start, 814 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  188
@@ -3766,15 +3749,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 54
+    Fire           : 6
+    Gel            : 43
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3798,7 +3781,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +30
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 376 = 58d4 (2 x 58) + 57(flat) + 3 x 58(Con)
@@ -3807,10 +3790,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1185 start, 135 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1185 start, 835 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -3834,15 +3817,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 13
-    Gel            : 56
+    Fire           : 6
+    Gel            : 45
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3866,7 +3849,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +30
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 382 = 59d4 (2 x 59) + 58(flat) + 3 x 59(Con)
@@ -3875,10 +3858,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1205 start, 155 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1205 start, 855 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  194
@@ -3902,15 +3885,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 56
+    Fire           : 6
+    Gel            : 45
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -3934,7 +3917,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +30
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 389 = 60d4 (2 x 60) + 59(flat) + 3 x 60(Con)
@@ -3943,10 +3926,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1226 start, 176 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1226 start, 876 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -3970,15 +3953,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 56
+    Fire           : 6
+    Gel            : 45
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4002,7 +3985,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +32
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 395 = 61d4 (2 x 61) + 60(flat) + 3 x 61(Con)
@@ -4011,10 +3994,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1246 start, 196 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1246 start, 896 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -4038,15 +4021,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 59
+    Fire           : 6
+    Gel            : 47
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4070,7 +4053,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +32
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 402 = 62d4 (2 x 62) + 61(flat) + 3 x 62(Con)
@@ -4079,10 +4062,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1267 start, 217 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1267 start, 917 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  202
@@ -4106,15 +4089,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 59
+    Fire           : 6
+    Gel            : 47
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 13
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4138,7 +4121,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +32
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 408 = 63d4 (2 x 63) + 62(flat) + 3 x 63(Con)
@@ -4147,10 +4130,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1287 start, 237 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1287 start, 937 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4174,15 +4157,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 59
+    Fire           : 6
+    Gel            : 47
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4206,7 +4189,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +22
-    To Hit: Magic: +33
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 415 = 64d4 (2 x 64) + 63(flat) + 3 x 64(Con)
@@ -4215,10 +4198,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1308 start, 258 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1308 start, 958 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  208
@@ -4242,15 +4225,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 61
+    Fire           : 6
+    Gel            : 49
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4274,7 +4257,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +33
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 421 = 65d4 (2 x 65) + 64(flat) + 3 x 65(Con)
@@ -4283,10 +4266,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1328 start, 278 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1328 start, 978 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  215
@@ -4310,15 +4293,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 61
+    Fire           : 6
+    Gel            : 49
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4342,7 +4325,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +33
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 428 = 66d4 (2 x 66) + 65(flat) + 3 x 66(Con)
@@ -4351,10 +4334,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1349 start, 299 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1349 start, 999 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  217
@@ -4378,15 +4361,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 14
-    Gel            : 61
+    Fire           : 6
+    Gel            : 49
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4410,7 +4393,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +36
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 434 = 67d4 (2 x 67) + 66(flat) + 3 x 67(Con)
@@ -4419,10 +4402,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1369 start, 319 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1369 start, 1019 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4446,15 +4429,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 63
+    Fire           : 6
+    Gel            : 51
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4478,7 +4461,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +36
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 441 = 68d4 (2 x 68) + 67(flat) + 3 x 68(Con)
@@ -4487,10 +4470,10 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 69 | Dmg/Turn: 345 (x21 mana)
-    Total Dmg/5R:  1725
-    Total Dmg/10R: 3450
-    Mana: 1390 start, 340 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 34 | Dmg/Turn: 170 (x7 mana)
+    Total Dmg/5R:  862
+    Total Dmg/10R: 1725
+    Mana: 1390 start, 1040 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  223
@@ -4514,15 +4497,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 63
+    Fire           : 6
+    Gel            : 51
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4546,7 +4529,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +36
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 447 = 69d4 (2 x 69) + 68(flat) + 3 x 69(Con)
@@ -4582,15 +4565,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 64
+    Fire           : 6
+    Gel            : 51
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4614,7 +4597,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +37
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 454 = 70d4 (2 x 70) + 69(flat) + 3 x 70(Con)
@@ -4650,15 +4633,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 66
+    Fire           : 6
+    Gel            : 53
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 14
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4682,7 +4665,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +37
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 460 = 71d4 (2 x 71) + 70(flat) + 3 x 71(Con)
@@ -4718,15 +4701,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 66
+    Fire           : 6
+    Gel            : 53
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4750,7 +4733,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +37
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 467 = 72d4 (2 x 72) + 71(flat) + 3 x 72(Con)
@@ -4786,15 +4769,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 66
+    Fire           : 6
+    Gel            : 53
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4818,7 +4801,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +38
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 473 = 73d4 (2 x 73) + 72(flat) + 3 x 73(Con)
@@ -4854,15 +4837,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 68
+    Fire           : 6
+    Gel            : 55
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4886,7 +4869,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +38
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 480 = 74d4 (2 x 74) + 73(flat) + 3 x 74(Con)
@@ -4922,15 +4905,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 15
-    Gel            : 68
+    Fire           : 6
+    Gel            : 55
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -4954,7 +4937,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +38
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 486 = 75d4 (2 x 75) + 74(flat) + 3 x 75(Con)
@@ -4990,15 +4973,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 68
+    Fire           : 6
+    Gel            : 55
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5022,7 +5005,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +39
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 493 = 76d4 (2 x 76) + 75(flat) + 3 x 76(Con)
@@ -5058,15 +5041,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 70
+    Fire           : 6
+    Gel            : 57
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5090,7 +5073,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +40
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 499 = 77d4 (2 x 77) + 76(flat) + 3 x 77(Con)
@@ -5126,15 +5109,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 71
+    Fire           : 6
+    Gel            : 57
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5158,7 +5141,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +40
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 506 = 78d4 (2 x 78) + 77(flat) + 3 x 78(Con)
@@ -5194,15 +5177,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 71
+    Fire           : 6
+    Gel            : 57
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 15
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5226,7 +5209,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +41
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 512 = 79d4 (2 x 79) + 78(flat) + 3 x 79(Con)
@@ -5262,15 +5245,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 73
+    Fire           : 6
+    Gel            : 59
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5294,7 +5277,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +41
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 519 = 80d4 (2 x 80) + 79(flat) + 3 x 80(Con)
@@ -5330,15 +5313,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 73
+    Fire           : 6
+    Gel            : 59
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5362,7 +5345,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Magic: +41
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 525 = 81d4 (2 x 81) + 80(flat) + 3 x 81(Con)
@@ -5398,15 +5381,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 73
+    Fire           : 6
+    Gel            : 59
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5430,7 +5413,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +42
+    To Hit: Magic: +35
 
   HEALTH POOLS:
     Vitality: 532 = 82d4 (2 x 82) + 81(flat) + 3 x 82(Con)
@@ -5466,15 +5449,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 4)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 16
-    Gel            : 75
+    Fire           : 6
+    Gel            : 61
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5498,7 +5481,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +59
+    To Hit: Magic: +52
 
   HEALTH POOLS:
     Vitality: 538 = 83d4 (2 x 83) + 82(flat) + 3 x 83(Con)
@@ -5534,15 +5517,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 110
+    Fire           : 6
+    Gel            : 96
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5566,7 +5549,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +59
+    To Hit: Magic: +52
 
   HEALTH POOLS:
     Vitality: 545 = 84d4 (2 x 84) + 83(flat) + 3 x 84(Con)
@@ -5602,15 +5585,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 110
+    Fire           : 6
+    Gel            : 96
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5634,7 +5617,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +61
+    To Hit: Magic: +53
 
   HEALTH POOLS:
     Vitality: 551 = 85d4 (2 x 85) + 84(flat) + 3 x 85(Con)
@@ -5670,15 +5653,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 113
+    Fire           : 6
+    Gel            : 98
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5702,7 +5685,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +61
+    To Hit: Magic: +53
 
   HEALTH POOLS:
     Vitality: 558 = 86d4 (2 x 86) + 85(flat) + 3 x 86(Con)
@@ -5738,15 +5721,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 113
+    Fire           : 6
+    Gel            : 98
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 16
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5770,7 +5753,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +61
+    To Hit: Magic: +53
 
   HEALTH POOLS:
     Vitality: 564 = 87d4 (2 x 87) + 86(flat) + 3 x 87(Con)
@@ -5806,15 +5789,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 113
+    Fire           : 6
+    Gel            : 98
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5838,7 +5821,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +30
-    To Hit: Magic: +62
+    To Hit: Magic: +54
 
   HEALTH POOLS:
     Vitality: 571 = 88d4 (2 x 88) + 87(flat) + 3 x 88(Con)
@@ -5874,15 +5857,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 115
+    Fire           : 6
+    Gel            : 100
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5906,7 +5889,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +62
+    To Hit: Magic: +54
 
   HEALTH POOLS:
     Vitality: 577 = 89d4 (2 x 89) + 88(flat) + 3 x 89(Con)
@@ -5942,15 +5925,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 115
+    Fire           : 6
+    Gel            : 100
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -5974,7 +5957,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +62
+    To Hit: Magic: +54
 
   HEALTH POOLS:
     Vitality: 584 = 90d4 (2 x 90) + 89(flat) + 3 x 90(Con)
@@ -6010,15 +5993,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 17
-    Gel            : 115
+    Fire           : 6
+    Gel            : 100
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6042,7 +6025,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +63
+    To Hit: Magic: +55
 
   HEALTH POOLS:
     Vitality: 590 = 91d4 (2 x 91) + 90(flat) + 3 x 91(Con)
@@ -6078,15 +6061,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 117
+    Fire           : 6
+    Gel            : 102
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6110,7 +6093,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +63
+    To Hit: Magic: +55
 
   HEALTH POOLS:
     Vitality: 597 = 92d4 (2 x 92) + 91(flat) + 3 x 92(Con)
@@ -6146,15 +6129,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 117
+    Fire           : 6
+    Gel            : 102
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6178,7 +6161,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +63
+    To Hit: Magic: +55
 
   HEALTH POOLS:
     Vitality: 603 = 93d4 (2 x 93) + 92(flat) + 3 x 93(Con)
@@ -6214,15 +6197,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 118
+    Fire           : 6
+    Gel            : 102
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6246,7 +6229,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +64
+    To Hit: Magic: +56
 
   HEALTH POOLS:
     Vitality: 610 = 94d4 (2 x 94) + 93(flat) + 3 x 94(Con)
@@ -6282,15 +6265,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 120
+    Fire           : 6
+    Gel            : 104
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 17
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6314,7 +6297,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +64
+    To Hit: Magic: +56
 
   HEALTH POOLS:
     Vitality: 616 = 95d4 (2 x 95) + 94(flat) + 3 x 95(Con)
@@ -6350,15 +6333,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 120
+    Fire           : 6
+    Gel            : 104
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6382,7 +6365,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +64
+    To Hit: Magic: +56
 
   HEALTH POOLS:
     Vitality: 623 = 96d4 (2 x 96) + 95(flat) + 3 x 96(Con)
@@ -6418,15 +6401,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 120
+    Fire           : 6
+    Gel            : 104
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6450,7 +6433,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +65
+    To Hit: Magic: +57
 
   HEALTH POOLS:
     Vitality: 726 = 97d4 (2 x 97) + 96(flat) + 4 x 97(Con)
@@ -6486,15 +6469,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 122
+    Fire           : 6
+    Gel            : 106
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6518,7 +6501,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +65
+    To Hit: Magic: +57
 
   HEALTH POOLS:
     Vitality: 734 = 98d4 (2 x 98) + 97(flat) + 4 x 98(Con)
@@ -6554,15 +6537,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 6
     Earth          : 20
-    Fire           : 18
-    Gel            : 122
+    Fire           : 6
+    Gel            : 106
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6586,7 +6569,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +65
+    To Hit: Magic: +57
 
   HEALTH POOLS:
     Vitality: 741 = 99d4 (2 x 99) + 98(flat) + 4 x 99(Con)
@@ -6622,15 +6605,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 6
     Earth          : 20
-    Fire           : 19
-    Gel            : 122
+    Fire           : 6
+    Gel            : 106
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6654,7 +6637,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +66
+    To Hit: Magic: +58
 
   HEALTH POOLS:
     Vitality: 749 = 100d4 (2 x 100) + 99(flat) + 4 x 100(Con)
@@ -6690,15 +6673,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 6
     Earth          : 20
-    Fire           : 19
-    Gel            : 124
+    Fire           : 6
+    Gel            : 108
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6722,7 +6705,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +66
+    To Hit: Magic: +58
 
   HEALTH POOLS:
     Vitality: 756 = 101d4 (2 x 101) + 100(flat) + 4 x 101(Con)
@@ -6758,15 +6741,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
-    Gel            : 124
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 108
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6790,7 +6773,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +66
+    To Hit: Magic: +58
 
   HEALTH POOLS:
     Vitality: 764 = 102d4 (2 x 102) + 101(flat) + 4 x 102(Con)
@@ -6826,15 +6809,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
-    Gel            : 124
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 108
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 18
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6858,7 +6841,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +35
-    To Hit: Magic: +67
+    To Hit: Magic: +59
 
   HEALTH POOLS:
     Vitality: 771 = 103d4 (2 x 103) + 102(flat) + 4 x 103(Con)
@@ -6894,15 +6877,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
-    Gel            : 126
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 110
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6926,7 +6909,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +35
-    To Hit: Magic: +67
+    To Hit: Magic: +59
 
   HEALTH POOLS:
     Vitality: 779 = 104d4 (2 x 104) + 103(flat) + 4 x 104(Con)
@@ -6962,15 +6945,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 21
-    Fire           : 19
-    Gel            : 126
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 110
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -6994,7 +6977,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +35
-    To Hit: Magic: +67
+    To Hit: Magic: +59
 
   HEALTH POOLS:
     Vitality: 786 = 105d4 (2 x 105) + 104(flat) + 4 x 105(Con)
@@ -7030,15 +7013,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 19
-    Gel            : 126
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 110
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7062,7 +7045,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +68
+    To Hit: Magic: +60
 
   HEALTH POOLS:
     Vitality: 794 = 106d4 (2 x 106) + 105(flat) + 4 x 106(Con)
@@ -7098,15 +7081,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 19
-    Gel            : 128
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 112
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7130,7 +7113,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +68
+    To Hit: Magic: +60
 
   HEALTH POOLS:
     Vitality: 801 = 107d4 (2 x 107) + 106(flat) + 4 x 107(Con)
@@ -7166,15 +7149,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 20
-    Gel            : 128
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 112
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7198,7 +7181,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +68
+    To Hit: Magic: +60
 
   HEALTH POOLS:
     Vitality: 809 = 108d4 (2 x 108) + 107(flat) + 4 x 108(Con)
@@ -7234,15 +7217,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 21
-    Fire           : 20
-    Gel            : 128
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 112
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7266,7 +7249,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +69
+    To Hit: Magic: +61
 
   HEALTH POOLS:
     Vitality: 816 = 109d4 (2 x 109) + 108(flat) + 4 x 109(Con)
@@ -7302,15 +7285,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
-    Gel            : 130
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 114
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7334,7 +7317,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +69
+    To Hit: Magic: +61
 
   HEALTH POOLS:
     Vitality: 824 = 110d4 (2 x 110) + 109(flat) + 4 x 110(Con)
@@ -7370,15 +7353,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
-    Gel            : 130
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 114
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 19
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7402,7 +7385,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +69
+    To Hit: Magic: +61
 
   HEALTH POOLS:
     Vitality: 831 = 111d4 (2 x 111) + 110(flat) + 4 x 111(Con)
@@ -7438,15 +7421,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
-    Gel            : 130
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 114
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7470,7 +7453,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 2
     Proficiency: +38
-    To Hit: Magic: +70
+    To Hit: Magic: +62
 
   HEALTH POOLS:
     Vitality: 839 = 112d4 (2 x 112) + 111(flat) + 4 x 112(Con)
@@ -7506,15 +7489,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 22
-    Fire           : 20
-    Gel            : 132
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 116
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7538,7 +7521,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +38
-    To Hit: Magic: +70
+    To Hit: Magic: +62
 
   HEALTH POOLS:
     Vitality: 846 = 113d4 (2 x 113) + 112(flat) + 4 x 113(Con)
@@ -7574,15 +7557,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 20
-    Gel            : 132
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 116
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7606,7 +7589,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +38
-    To Hit: Magic: +70
+    To Hit: Magic: +62
 
   HEALTH POOLS:
     Vitality: 854 = 114d4 (2 x 114) + 113(flat) + 4 x 114(Con)
@@ -7642,15 +7625,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 20
-    Gel            : 132
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 116
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7674,7 +7657,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +71
+    To Hit: Magic: +63
 
   HEALTH POOLS:
     Vitality: 861 = 115d4 (2 x 115) + 114(flat) + 4 x 115(Con)
@@ -7710,15 +7693,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 21
-    Gel            : 134
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 118
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7742,7 +7725,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +71
+    To Hit: Magic: +63
 
   HEALTH POOLS:
     Vitality: 869 = 116d4 (2 x 116) + 115(flat) + 4 x 116(Con)
@@ -7778,15 +7761,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 22
-    Fire           : 21
-    Gel            : 134
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 118
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7810,7 +7793,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +71
+    To Hit: Magic: +63
 
   HEALTH POOLS:
     Vitality: 876 = 117d4 (2 x 117) + 116(flat) + 4 x 117(Con)
@@ -7846,15 +7829,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
-    Gel            : 134
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 118
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7878,7 +7861,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +72
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 884 = 118d4 (2 x 118) + 117(flat) + 4 x 118(Con)
@@ -7914,15 +7897,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
-    Gel            : 136
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 120
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 20
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -7946,7 +7929,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +72
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 891 = 119d4 (2 x 119) + 118(flat) + 4 x 119(Con)
@@ -7982,15 +7965,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
-    Gel            : 136
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 120
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8014,7 +7997,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +72
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 899 = 120d4 (2 x 120) + 119(flat) + 4 x 120(Con)
@@ -8050,15 +8033,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 23
-    Fire           : 21
-    Gel            : 136
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 120
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8082,7 +8065,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +73
+    To Hit: Magic: +65
 
   HEALTH POOLS:
     Vitality: 906 = 121d4 (2 x 121) + 120(flat) + 4 x 121(Con)
@@ -8118,15 +8101,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 21
-    Gel            : 138
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 122
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8150,7 +8133,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +73
+    To Hit: Magic: +65
 
   HEALTH POOLS:
     Vitality: 914 = 122d4 (2 x 122) + 121(flat) + 4 x 122(Con)
@@ -8186,15 +8169,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 21
-    Gel            : 138
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 122
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8218,7 +8201,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +73
+    To Hit: Magic: +65
 
   HEALTH POOLS:
     Vitality: 921 = 123d4 (2 x 123) + 122(flat) + 4 x 123(Con)
@@ -8254,15 +8237,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 22
-    Gel            : 138
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 122
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8286,7 +8269,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +74
+    To Hit: Magic: +66
 
   HEALTH POOLS:
     Vitality: 929 = 124d4 (2 x 124) + 123(flat) + 4 x 124(Con)
@@ -8322,15 +8305,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 23
-    Fire           : 22
-    Gel            : 140
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 124
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8354,7 +8337,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +74
+    To Hit: Magic: +66
 
   HEALTH POOLS:
     Vitality: 936 = 125d4 (2 x 125) + 124(flat) + 4 x 125(Con)
@@ -8390,15 +8373,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
-    Gel            : 140
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 124
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8422,7 +8405,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +74
+    To Hit: Magic: +66
 
   HEALTH POOLS:
     Vitality: 944 = 126d4 (2 x 126) + 125(flat) + 4 x 126(Con)
@@ -8458,15 +8441,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
-    Gel            : 140
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 124
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 21
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8490,7 +8473,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +43
-    To Hit: Magic: +75
+    To Hit: Magic: +67
 
   HEALTH POOLS:
     Vitality: 951 = 127d4 (2 x 127) + 126(flat) + 4 x 127(Con)
@@ -8526,15 +8509,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
-    Gel            : 142
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 126
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8558,7 +8541,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +43
-    To Hit: Magic: +75
+    To Hit: Magic: +67
 
   HEALTH POOLS:
     Vitality: 959 = 128d4 (2 x 128) + 127(flat) + 4 x 128(Con)
@@ -8594,15 +8577,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 24
-    Fire           : 22
-    Gel            : 142
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 126
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8626,7 +8609,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 17  RP: 2
     Proficiency: +43
-    To Hit: Magic: +75
+    To Hit: Magic: +67
 
   HEALTH POOLS:
     Vitality: 966 = 129d4 (2 x 129) + 128(flat) + 4 x 129(Con)
@@ -8662,15 +8645,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 22
-    Gel            : 142
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 126
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8694,7 +8677,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 13  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +76
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 974 = 130d4 (2 x 130) + 129(flat) + 4 x 130(Con)
@@ -8730,15 +8713,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 22
-    Gel            : 144
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 128
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8762,7 +8745,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +76
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 981 = 131d4 (2 x 131) + 130(flat) + 4 x 131(Con)
@@ -8798,15 +8781,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 23
-    Gel            : 144
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 128
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8830,7 +8813,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +76
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 989 = 132d4 (2 x 132) + 131(flat) + 4 x 132(Con)
@@ -8866,15 +8849,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 24
-    Fire           : 23
-    Gel            : 144
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 128
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8898,7 +8881,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +77
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 1129 = 133d4 (2 x 133) + 132(flat) + 5 x 133(Con)
@@ -8934,15 +8917,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
-    Gel            : 146
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 130
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -8966,7 +8949,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +77
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 1138 = 134d4 (2 x 134) + 133(flat) + 5 x 134(Con)
@@ -9002,15 +8985,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
-    Gel            : 146
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 130
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 22
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9034,7 +9017,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +77
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 1146 = 135d4 (2 x 135) + 134(flat) + 5 x 135(Con)
@@ -9070,15 +9053,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
-    Gel            : 146
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 130
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9102,7 +9085,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +46
-    To Hit: Magic: +78
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 1019 = 136d4 (2 x 136) + 135(flat) + 4 x 136(Con)
@@ -9138,15 +9121,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 25
-    Fire           : 23
-    Gel            : 148
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 132
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9170,7 +9153,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +46
-    To Hit: Magic: +78
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 1026 = 137d4 (2 x 137) + 136(flat) + 4 x 137(Con)
@@ -9206,15 +9189,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 23
-    Gel            : 148
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 132
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9238,7 +9221,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +46
-    To Hit: Magic: +78
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 1034 = 138d4 (2 x 138) + 137(flat) + 4 x 138(Con)
@@ -9274,15 +9257,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 23
-    Gel            : 148
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 132
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9306,7 +9289,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +79
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 1180 = 139d4 (2 x 139) + 138(flat) + 5 x 139(Con)
@@ -9342,15 +9325,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 24
-    Gel            : 150
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 134
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9374,7 +9357,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +79
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 1189 = 140d4 (2 x 140) + 139(flat) + 5 x 140(Con)
@@ -9410,15 +9393,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 25
-    Fire           : 24
-    Gel            : 150
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 134
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9442,7 +9425,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +79
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 1197 = 141d4 (2 x 141) + 140(flat) + 5 x 141(Con)
@@ -9478,15 +9461,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
-    Gel            : 150
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 134
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9510,7 +9493,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +80
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 1064 = 142d4 (2 x 142) + 141(flat) + 4 x 142(Con)
@@ -9546,15 +9529,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
-    Gel            : 152
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 136
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 23
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9578,7 +9561,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +80
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 1071 = 143d4 (2 x 143) + 142(flat) + 4 x 143(Con)
@@ -9614,15 +9597,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
-    Gel            : 152
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 136
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9646,7 +9629,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +80
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 1079 = 144d4 (2 x 144) + 143(flat) + 4 x 144(Con)
@@ -9682,15 +9665,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 26
-    Fire           : 24
-    Gel            : 152
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 136
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9714,7 +9697,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 1231 = 145d4 (2 x 145) + 144(flat) + 5 x 145(Con)
@@ -9750,15 +9733,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 24
-    Gel            : 154
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 138
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9782,7 +9765,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 1240 = 146d4 (2 x 146) + 145(flat) + 5 x 146(Con)
@@ -9818,15 +9801,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 24
-    Gel            : 154
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 138
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9850,7 +9833,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 1248 = 147d4 (2 x 147) + 146(flat) + 5 x 147(Con)
@@ -9886,15 +9869,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 25
-    Gel            : 154
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 138
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9918,7 +9901,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +74
 
   HEALTH POOLS:
     Vitality: 1257 = 148d4 (2 x 148) + 147(flat) + 5 x 148(Con)
@@ -9954,15 +9937,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 26
-    Fire           : 25
-    Gel            : 156
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 140
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -9986,7 +9969,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +74
 
   HEALTH POOLS:
     Vitality: 1265 = 149d4 (2 x 149) + 148(flat) + 5 x 149(Con)
@@ -10022,15 +10005,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
-    Gel            : 156
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 140
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10054,7 +10037,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +74
 
   HEALTH POOLS:
     Vitality: 1274 = 150d4 (2 x 150) + 149(flat) + 5 x 150(Con)
@@ -10090,15 +10073,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
-    Gel            : 156
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 140
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 24
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10122,7 +10105,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 19  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +75
 
   HEALTH POOLS:
     Vitality: 1282 = 151d4 (2 x 151) + 150(flat) + 5 x 151(Con)
@@ -10158,15 +10141,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
-    Gel            : 158
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 142
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10190,7 +10173,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 19  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +75
 
   HEALTH POOLS:
     Vitality: 1291 = 152d4 (2 x 152) + 151(flat) + 5 x 152(Con)
@@ -10226,15 +10209,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 27
-    Fire           : 25
-    Gel            : 158
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 142
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10258,7 +10241,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +75
 
   HEALTH POOLS:
     Vitality: 1299 = 153d4 (2 x 153) + 152(flat) + 5 x 153(Con)
@@ -10294,15 +10277,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 25
-    Gel            : 158
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 142
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10326,7 +10309,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +76
 
   HEALTH POOLS:
     Vitality: 1308 = 154d4 (2 x 154) + 153(flat) + 5 x 154(Con)
@@ -10362,15 +10345,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 25
-    Gel            : 160
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 144
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10394,7 +10377,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +76
 
   HEALTH POOLS:
     Vitality: 1316 = 155d4 (2 x 155) + 154(flat) + 5 x 155(Con)
@@ -10430,15 +10413,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 26
-    Gel            : 160
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 144
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10462,7 +10445,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +76
 
   HEALTH POOLS:
     Vitality: 1325 = 156d4 (2 x 156) + 155(flat) + 5 x 156(Con)
@@ -10498,15 +10481,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 27
-    Fire           : 26
-    Gel            : 160
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 144
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10530,7 +10513,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 1333 = 157d4 (2 x 157) + 156(flat) + 5 x 157(Con)
@@ -10566,15 +10549,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
-    Gel            : 162
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 146
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10598,7 +10581,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 1342 = 158d4 (2 x 158) + 157(flat) + 5 x 158(Con)
@@ -10634,15 +10617,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
-    Gel            : 162
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 146
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 25
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10666,7 +10649,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 1350 = 159d4 (2 x 159) + 158(flat) + 5 x 159(Con)
@@ -10702,15 +10685,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
-    Gel            : 162
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 146
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10734,7 +10717,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 1359 = 160d4 (2 x 160) + 159(flat) + 5 x 160(Con)
@@ -10770,15 +10753,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 28
-    Fire           : 26
-    Gel            : 164
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 148
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10802,7 +10785,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 1367 = 161d4 (2 x 161) + 160(flat) + 5 x 161(Con)
@@ -10838,15 +10821,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 26
-    Gel            : 164
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 148
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10870,7 +10853,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 1376 = 162d4 (2 x 162) + 161(flat) + 5 x 162(Con)
@@ -10906,15 +10889,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 26
-    Gel            : 164
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 148
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -10938,7 +10921,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +87
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 1384 = 163d4 (2 x 163) + 162(flat) + 5 x 163(Con)
@@ -10974,15 +10957,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 27
-    Gel            : 166
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 150
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11006,7 +10989,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +87
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 1393 = 164d4 (2 x 164) + 163(flat) + 5 x 164(Con)
@@ -11042,15 +11025,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 28
-    Fire           : 27
-    Gel            : 166
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 150
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11074,7 +11057,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +87
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 1401 = 165d4 (2 x 165) + 164(flat) + 5 x 165(Con)
@@ -11110,15 +11093,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
-    Gel            : 166
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 150
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11142,7 +11125,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +88
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 1410 = 166d4 (2 x 166) + 165(flat) + 5 x 166(Con)
@@ -11153,7 +11136,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Attacks/Turn: 11
     Magic Dmg/Cast: 78 | Dmg/Turn: 858 (x96 mana)
     Total Dmg/5R:  3203
-    Total Dmg/10R: 5851
+    Total Dmg/10R: 5844
     Mana: 3731 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11178,15 +11161,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
-    Gel            : 168
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 152
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 26
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11210,7 +11193,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +88
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 1418 = 167d4 (2 x 167) + 166(flat) + 5 x 167(Con)
@@ -11246,15 +11229,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
-    Gel            : 168
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 152
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11278,7 +11261,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +88
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 1427 = 168d4 (2 x 168) + 167(flat) + 5 x 168(Con)
@@ -11314,15 +11297,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 29
-    Fire           : 27
-    Gel            : 168
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 152
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11346,7 +11329,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +89
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1435 = 169d4 (2 x 169) + 168(flat) + 5 x 169(Con)
@@ -11382,15 +11365,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 27
-    Gel            : 170
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 154
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11414,7 +11397,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 17  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +89
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1444 = 170d4 (2 x 170) + 169(flat) + 5 x 170(Con)
@@ -11450,15 +11433,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 27
-    Gel            : 170
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 154
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11482,7 +11465,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +89
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1452 = 171d4 (2 x 171) + 170(flat) + 5 x 171(Con)
@@ -11518,15 +11501,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 28
-    Gel            : 170
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 154
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11550,7 +11533,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +90
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1461 = 172d4 (2 x 172) + 171(flat) + 5 x 172(Con)
@@ -11586,15 +11569,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 29
-    Fire           : 28
-    Gel            : 172
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 156
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11618,7 +11601,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +90
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1469 = 173d4 (2 x 173) + 172(flat) + 5 x 173(Con)
@@ -11654,15 +11637,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
-    Gel            : 172
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 156
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11686,7 +11669,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +90
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1478 = 174d4 (2 x 174) + 173(flat) + 5 x 174(Con)
@@ -11722,15 +11705,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
-    Gel            : 172
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 156
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 27
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11754,7 +11737,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +59
-    To Hit: Magic: +91
+    To Hit: Magic: +83
 
   HEALTH POOLS:
     Vitality: 1486 = 175d4 (2 x 175) + 174(flat) + 5 x 175(Con)
@@ -11790,15 +11773,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
-    Gel            : 174
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 158
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11822,7 +11805,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +59
-    To Hit: Magic: +91
+    To Hit: Magic: +83
 
   HEALTH POOLS:
     Vitality: 1495 = 176d4 (2 x 176) + 175(flat) + 5 x 176(Con)
@@ -11832,8 +11815,8 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 78 | Dmg/Turn: 936 (x96 mana)
-    Total Dmg/5R:  3376
-    Total Dmg/10R: 6796
+    Total Dmg/5R:  3368
+    Total Dmg/10R: 6788
     Mana: 3956 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11858,15 +11841,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 30
-    Fire           : 28
-    Gel            : 174
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 158
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11890,7 +11873,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +59
-    To Hit: Magic: +91
+    To Hit: Magic: +83
 
   HEALTH POOLS:
     Vitality: 1503 = 177d4 (2 x 177) + 176(flat) + 5 x 177(Con)
@@ -11926,15 +11909,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 28
-    Gel            : 174
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 158
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -11958,7 +11941,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +92
+    To Hit: Magic: +84
 
   HEALTH POOLS:
     Vitality: 1512 = 178d4 (2 x 178) + 177(flat) + 5 x 178(Con)
@@ -11994,15 +11977,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 28
-    Gel            : 176
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 160
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12026,7 +12009,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +92
+    To Hit: Magic: +84
 
   HEALTH POOLS:
     Vitality: 1520 = 179d4 (2 x 179) + 178(flat) + 5 x 179(Con)
@@ -12062,15 +12045,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 29
-    Gel            : 176
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 160
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12094,7 +12077,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +92
+    To Hit: Magic: +84
 
   HEALTH POOLS:
     Vitality: 1529 = 180d4 (2 x 180) + 179(flat) + 5 x 180(Con)
@@ -12130,15 +12113,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 30
-    Fire           : 29
-    Gel            : 176
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 160
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12162,7 +12145,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +93
+    To Hit: Magic: +85
 
   HEALTH POOLS:
     Vitality: 1537 = 181d4 (2 x 181) + 180(flat) + 5 x 181(Con)
@@ -12173,7 +12156,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Attacks/Turn: 12
     Magic Dmg/Cast: 78 | Dmg/Turn: 936 (x96 mana)
     Total Dmg/5R:  3380
-    Total Dmg/10R: 6262
+    Total Dmg/10R: 6254
     Mana: 4068 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12198,15 +12181,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
-    Gel            : 178
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 162
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12230,7 +12213,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +93
+    To Hit: Magic: +85
 
   HEALTH POOLS:
     Vitality: 1546 = 182d4 (2 x 182) + 181(flat) + 5 x 182(Con)
@@ -12241,7 +12224,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Attacks/Turn: 12
     Magic Dmg/Cast: 78 | Dmg/Turn: 936 (x96 mana)
     Total Dmg/5R:  3449
-    Total Dmg/10R: 6331
+    Total Dmg/10R: 6323
     Mana: 4091 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12266,15 +12249,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
-    Gel            : 178
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 162
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 28
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12298,7 +12281,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +93
+    To Hit: Magic: +85
 
   HEALTH POOLS:
     Vitality: 1554 = 183d4 (2 x 183) + 182(flat) + 5 x 183(Con)
@@ -12309,7 +12292,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Attacks/Turn: 12
     Magic Dmg/Cast: 78 | Dmg/Turn: 936 (x96 mana)
     Total Dmg/5R:  3518
-    Total Dmg/10R: 6400
+    Total Dmg/10R: 6392
     Mana: 4113 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12334,15 +12317,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
-    Gel            : 178
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 162
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12366,7 +12349,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +62
-    To Hit: Magic: +94
+    To Hit: Magic: +86
 
   HEALTH POOLS:
     Vitality: 1563 = 184d4 (2 x 184) + 183(flat) + 5 x 184(Con)
@@ -12402,15 +12385,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 31
-    Fire           : 29
-    Gel            : 180
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 164
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12434,7 +12417,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +62
-    To Hit: Magic: +94
+    To Hit: Magic: +86
 
   HEALTH POOLS:
     Vitality: 1571 = 185d4 (2 x 185) + 184(flat) + 5 x 185(Con)
@@ -12470,15 +12453,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 29
-    Gel            : 180
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 164
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12502,7 +12485,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +62
-    To Hit: Magic: +94
+    To Hit: Magic: +86
 
   HEALTH POOLS:
     Vitality: 1580 = 186d4 (2 x 186) + 185(flat) + 5 x 186(Con)
@@ -12538,15 +12521,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 29
-    Gel            : 180
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 164
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12570,7 +12553,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +95
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1588 = 187d4 (2 x 187) + 186(flat) + 5 x 187(Con)
@@ -12606,15 +12589,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 30
-    Gel            : 182
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 166
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12638,7 +12621,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +95
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1597 = 188d4 (2 x 188) + 187(flat) + 5 x 188(Con)
@@ -12674,15 +12657,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 31
-    Fire           : 30
-    Gel            : 182
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 166
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12706,7 +12689,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +95
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1605 = 189d4 (2 x 189) + 188(flat) + 5 x 189(Con)
@@ -12742,15 +12725,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
-    Gel            : 182
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 166
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12774,7 +12757,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +96
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1614 = 190d4 (2 x 190) + 189(flat) + 5 x 190(Con)
@@ -12810,15 +12793,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
-    Gel            : 184
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 168
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 29
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12842,7 +12825,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +96
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1622 = 191d4 (2 x 191) + 190(flat) + 5 x 191(Con)
@@ -12878,15 +12861,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
-    Gel            : 184
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 168
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12910,7 +12893,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +96
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1631 = 192d4 (2 x 192) + 191(flat) + 5 x 192(Con)
@@ -12946,15 +12929,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 32
-    Fire           : 30
-    Gel            : 184
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 168
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -12978,7 +12961,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +97
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1639 = 193d4 (2 x 193) + 192(flat) + 5 x 193(Con)
@@ -12988,8 +12971,8 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 78 | Dmg/Turn: 1014 (x96 mana)
-    Total Dmg/5R:  3855
-    Total Dmg/10R: 7560
+    Total Dmg/5R:  3847
+    Total Dmg/10R: 7552
     Mana: 4531 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13014,15 +12997,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 30
-    Gel            : 186
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 170
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13046,7 +13029,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +97
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1648 = 194d4 (2 x 194) + 193(flat) + 5 x 194(Con)
@@ -13082,15 +13065,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 30
-    Gel            : 186
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 170
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13114,7 +13097,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +97
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1656 = 195d4 (2 x 195) + 194(flat) + 5 x 195(Con)
@@ -13150,15 +13133,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 31
-    Gel            : 186
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 170
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13182,7 +13165,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +98
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1665 = 196d4 (2 x 196) + 195(flat) + 5 x 196(Con)
@@ -13218,15 +13201,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 32
-    Fire           : 31
-    Gel            : 188
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 172
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13250,7 +13233,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +98
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1673 = 197d4 (2 x 197) + 196(flat) + 5 x 197(Con)
@@ -13260,8 +13243,8 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 78 | Dmg/Turn: 1014 (x96 mana)
-    Total Dmg/5R:  3934
-    Total Dmg/10R: 7639
+    Total Dmg/5R:  3927
+    Total Dmg/10R: 7632
     Mana: 4625 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13286,15 +13269,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
-    Gel            : 188
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 172
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13318,7 +13301,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +98
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1682 = 198d4 (2 x 198) + 197(flat) + 5 x 198(Con)
@@ -13329,7 +13312,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Attacks/Turn: 13
     Magic Dmg/Cast: 78 | Dmg/Turn: 1014 (x96 mana)
     Total Dmg/5R:  3853
-    Total Dmg/10R: 6967
+    Total Dmg/10R: 6960
     Mana: 4649 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13354,15 +13337,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
-    Gel            : 188
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 172
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 30
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13386,7 +13369,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +67
-    To Hit: Magic: +99
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1889 = 199d4 (2 x 199) + 198(flat) + 6 x 199(Con)
@@ -13422,15 +13405,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
-    Gel            : 190
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 174
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 31
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13454,7 +13437,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +67
-    To Hit: Magic: +99
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1899 = 200d4 (2 x 200) + 199(flat) + 6 x 200(Con)
@@ -13490,15 +13473,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 33
-    Fire           : 31
-    Gel            : 190
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 174
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 31
+    Water          : 10
 
   GEAR:
     Weapon: wand
@@ -13522,7 +13505,7 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Speed: 30 ft
     AP: 21  BAP: 26  RP: 2
     Proficiency: +67
-    To Hit: Magic: +99
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1908 = 201d4 (2 x 201) + 200(flat) + 6 x 201(Con)
@@ -13532,8 +13515,8 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 14
     Magic Dmg/Cast: 78 | Dmg/Turn: 1092 (x96 mana)
-    Total Dmg/5R:  4014
-    Total Dmg/10R: 8004
+    Total Dmg/5R:  4007
+    Total Dmg/10R: 7997
     Mana: 4719 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13558,15 +13541,15 @@ EYUM TTRPG - GEL MAGE (BAD GEAR (IRON/BASE))
     Racial -> Human Aurian (Lvl 5)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 33
-    Fire           : 31
-    Gel            : 190
+    Air            : 6
+    Earth          : 20
+    Fire           : 6
+    Gel            : 174
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 31
+    Water          : 10
 
   GEAR:
     Weapon: wand

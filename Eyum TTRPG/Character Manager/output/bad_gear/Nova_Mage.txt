@@ -120,7 +120,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Psychic        : -3
     Radiant        : 8
@@ -185,7 +185,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Psychic        : -3
     Radiant        : 10
@@ -221,10 +221,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x36 mana)
-    Total Dmg/5R:  70
-    Total Dmg/10R: 126
-    Mana: 42 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 (x12 mana)
+    Total Dmg/5R:  52
+    Total Dmg/10R: 80
+    Mana: 42 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -250,8 +250,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Psychic        : -3
     Radiant        : 10
@@ -287,10 +286,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x36 mana)
-    Total Dmg/5R:  76
-    Total Dmg/10R: 132
-    Mana: 51 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 (x12 mana)
+    Total Dmg/5R:  56
+    Total Dmg/10R: 84
+    Mana: 51 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -316,8 +315,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Psychic        : -3
     Radiant        : 10
@@ -353,10 +351,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 32 (x60 mana)
-    Total Dmg/5R:  83
-    Total Dmg/10R: 139
-    Mana: 78 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 (x12 mana)
+    Total Dmg/5R:  60
+    Total Dmg/10R: 97
+    Mana: 78 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -382,13 +380,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 10
+    Fire           : 9
     Generic        : 2
-    Nova           : 0
     Psychic        : -3
     Radiant        : 10
-    Water          : 1
 
   GEAR:
     Weapon: wand
@@ -421,10 +416,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 32 (x60 mana)
-    Total Dmg/5R:  89
-    Total Dmg/10R: 145
-    Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 (x12 mana)
+    Total Dmg/5R:  60
+    Total Dmg/10R: 103
+    Mana: 90 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -450,13 +445,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 10
+    Fire           : 9
     Generic        : 2
-    Nova           : 0
     Psychic        : -3
     Radiant        : 10
-    Water          : 1
 
   GEAR:
     Weapon: wand
@@ -489,10 +481,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 32 | Dmg/Turn: 64 (x60 mana)
-    Total Dmg/5R:  120
-    Total Dmg/10R: 232
-    Mana: 101 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 24 (x12 mana)
+    Total Dmg/5R:  104
+    Total Dmg/10R: 160
+    Mana: 101 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -516,15 +508,13 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 5
-    Fire           : 10
+    Earth          : 4
+    Fire           : 9
     Generic        : 2
-    Nova           : 0
     Psychic        : -3
     Radiant        : 10
-    Water          : 1
 
   GEAR:
     Weapon: wand
@@ -557,10 +547,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x90 mana)
-    Total Dmg/5R:  131
-    Total Dmg/10R: 243
-    Mana: 113 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x30 mana)
+    Total Dmg/5R:  108
+    Total Dmg/10R: 164
+    Mana: 113 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -584,15 +574,14 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 7
+    Earth          : 6
     Fire           : 10
     Generic        : 2
-    Nova           : 2
+    Nova           : 1
     Psychic        : -3
     Radiant        : 10
-    Water          : 1
 
   GEAR:
     Weapon: wand
@@ -625,9 +614,9 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x90 mana)
-    Total Dmg/5R:  148
-    Total Dmg/10R: 260
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x30 mana)
+    Total Dmg/5R:  127
+    Total Dmg/10R: 183
     Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -652,15 +641,15 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 7
+    Earth          : 6
     Fire           : 10
     Generic        : 2
-    Nova           : 3
+    Nova           : 1
     Psychic        : -3
     Radiant        : 10
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: wand
@@ -693,10 +682,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x90 mana)
-    Total Dmg/5R:  134
-    Total Dmg/10R: 246
-    Mana: 136 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x30 mana)
+    Total Dmg/5R:  126
+    Total Dmg/10R: 182
+    Mana: 136 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -720,15 +709,15 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 7
+    Earth          : 6
     Fire           : 10
     Generic        : 2
-    Nova           : 3
+    Nova           : 1
     Psychic        : -3
     Radiant        : 10
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: wand
@@ -752,7 +741,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +7
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
@@ -761,10 +750,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x90 mana)
-    Total Dmg/5R:  136
-    Total Dmg/10R: 256
-    Mana: 147 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x30 mana)
+    Total Dmg/5R:  125
+    Total Dmg/10R: 181
+    Mana: 147 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -788,15 +777,15 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
-    Nova           : 9
+    Nova           : 8
     Psychic        : -3
     Radiant        : 10
-    Water          : 7
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -820,7 +809,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +7
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
@@ -829,10 +818,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x90 mana)
-    Total Dmg/5R:  150
-    Total Dmg/10R: 270
-    Mana: 159 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 22 | Dmg/Turn: 44 (x30 mana)
+    Total Dmg/5R:  133
+    Total Dmg/10R: 189
+    Mana: 159 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -856,15 +845,15 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
-    Nova           : 9
+    Nova           : 8
     Psychic        : -3
     Radiant        : 10
-    Water          : 7
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -888,7 +877,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +8
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
@@ -897,10 +886,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 126 | Dmg/Turn: 252 (x162 mana)
-    Total Dmg/5R:  229
-    Total Dmg/10R: 357
-    Mana: 170 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 61 | Dmg/Turn: 122 (x54 mana)
+    Total Dmg/5R:  218
+    Total Dmg/10R: 278
+    Mana: 170 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -924,15 +913,15 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
-    Nova           : 13
+    Nova           : 12
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -956,7 +945,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
@@ -965,10 +954,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 130 | Dmg/Turn: 260 (x162 mana)
-    Total Dmg/5R:  229
-    Total Dmg/10R: 357
-    Mana: 182 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 63 | Dmg/Turn: 126 (x54 mana)
+    Total Dmg/5R:  242
+    Total Dmg/10R: 302
+    Mana: 182 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -992,15 +981,15 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
-    Nova           : 15
+    Nova           : 14
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1024,7 +1013,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 109 = 17d6 (3 x 17) + 16(flat) + 2 x 17(Con)
@@ -1033,9 +1022,9 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 130 | Dmg/Turn: 260 (x162 mana)
-    Total Dmg/5R:  252
-    Total Dmg/10R: 380
+    Magic Dmg/Cast: 63 | Dmg/Turn: 126 (x54 mana)
+    Total Dmg/5R:  251
+    Total Dmg/10R: 311
     Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1060,16 +1049,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 15
+    Nova           : 14
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1093,7 +1082,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +9
+    To Hit: Magic: +8
 
   HEALTH POOLS:
     Vitality: 116 = 18d6 (3 x 18) + 17(flat) + 2 x 18(Con)
@@ -1102,10 +1091,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 130 | Dmg/Turn: 260 (x162 mana)
-    Total Dmg/5R:  252
-    Total Dmg/10R: 380
-    Mana: 205 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 63 | Dmg/Turn: 126 (x54 mana)
+    Total Dmg/5R:  251
+    Total Dmg/10R: 319
+    Mana: 205 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1129,16 +1118,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 15
+    Nova           : 14
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1162,7 +1151,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +14
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 122 = 19d6 (3 x 19) + 18(flat) + 2 x 19(Con)
@@ -1171,10 +1160,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 137 | Dmg/Turn: 274 (x162 mana)
-    Total Dmg/5R:  292
-    Total Dmg/10R: 444
-    Mana: 216 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x54 mana)
+    Total Dmg/5R:  320
+    Total Dmg/10R: 396
+    Mana: 216 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1198,16 +1187,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 25
+    Nova           : 24
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1231,7 +1220,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +14
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 129 = 20d6 (3 x 20) + 19(flat) + 2 x 20(Con)
@@ -1240,10 +1229,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 137 | Dmg/Turn: 274 (x162 mana)
-    Total Dmg/5R:  323
-    Total Dmg/10R: 475
-    Mana: 228 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x54 mana)
+    Total Dmg/5R:  335
+    Total Dmg/10R: 411
+    Mana: 228 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1267,16 +1256,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 10
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 25
+    Nova           : 24
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1309,10 +1298,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 137 | Dmg/Turn: 274 (x162 mana)
-    Total Dmg/5R:  306
-    Total Dmg/10R: 458
-    Mana: 260 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x54 mana)
+    Total Dmg/5R:  363
+    Total Dmg/10R: 453
+    Mana: 260 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1336,16 +1325,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 22
+    Nova           : 21
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1369,7 +1358,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +15
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 120 = 22d4 (2 x 22) + 21(flat) + 2 x 22(Con)
@@ -1378,10 +1367,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 137 | Dmg/Turn: 274 (x162 mana)
-    Total Dmg/5R:  317
-    Total Dmg/10R: 469
-    Mana: 273 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x54 mana)
+    Total Dmg/5R:  374
+    Total Dmg/10R: 450
+    Mana: 273 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  71
@@ -1405,16 +1394,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 27
+    Nova           : 26
     Psychic        : -3
     Radiant        : 10
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1438,7 +1427,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +15
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 125 = 23d4 (2 x 23) + 22(flat) + 2 x 23(Con)
@@ -1447,10 +1436,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 137 | Dmg/Turn: 274 (x162 mana)
-    Total Dmg/5R:  333
-    Total Dmg/10R: 485
-    Mana: 285 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x54 mana)
+    Total Dmg/5R:  390
+    Total Dmg/10R: 466
+    Mana: 285 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  73
@@ -1474,16 +1463,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 27
+    Nova           : 26
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1507,7 +1496,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +15
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 131 = 24d4 (2 x 24) + 23(flat) + 2 x 24(Con)
@@ -1516,10 +1505,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 137 | Dmg/Turn: 274 (x162 mana)
-    Total Dmg/5R:  335
-    Total Dmg/10R: 487
-    Mana: 298 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 136 (x54 mana)
+    Total Dmg/5R:  406
+    Total Dmg/10R: 482
+    Mana: 298 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  75
@@ -1543,16 +1532,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 27
+    Nova           : 26
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1576,7 +1565,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +16
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 136 = 25d4 (2 x 25) + 24(flat) + 2 x 25(Con)
@@ -1585,10 +1574,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  369
-    Total Dmg/10R: 597
-    Mana: 310 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  472
+    Total Dmg/10R: 586
+    Mana: 310 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  84
@@ -1612,16 +1601,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 29
+    Nova           : 28
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1645,7 +1634,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +16
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 142 = 26d4 (2 x 26) + 25(flat) + 2 x 26(Con)
@@ -1654,10 +1643,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  402
-    Total Dmg/10R: 630
-    Mana: 323 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  489
+    Total Dmg/10R: 596
+    Mana: 323 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1681,16 +1670,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 29
+    Nova           : 28
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1714,7 +1703,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +16
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 147 = 27d4 (2 x 27) + 26(flat) + 2 x 27(Con)
@@ -1723,10 +1712,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  457
-    Total Dmg/10R: 685
-    Mana: 335 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  490
+    Total Dmg/10R: 604
+    Mana: 335 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1750,16 +1739,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 29
+    Nova           : 28
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1783,7 +1772,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +17
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 153 = 28d4 (2 x 28) + 27(flat) + 2 x 28(Con)
@@ -1792,10 +1781,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  445
-    Total Dmg/10R: 673
-    Mana: 348 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  501
+    Total Dmg/10R: 615
+    Mana: 348 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  92
@@ -1819,16 +1808,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 11
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 31
+    Nova           : 30
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1852,7 +1841,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +17
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 158 = 29d4 (2 x 29) + 28(flat) + 2 x 29(Con)
@@ -1861,10 +1850,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  480
-    Total Dmg/10R: 708
-    Mana: 360 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  528
+    Total Dmg/10R: 642
+    Mana: 360 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  94
@@ -1888,16 +1877,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 31
+    Nova           : 30
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1921,7 +1910,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +17
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 164 = 30d4 (2 x 30) + 29(flat) + 2 x 30(Con)
@@ -1930,9 +1919,9 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  514
-    Total Dmg/10R: 742
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  562
+    Total Dmg/10R: 676
     Mana: 373 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1957,16 +1946,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 31
+    Nova           : 30
     Psychic        : -3
     Radiant        : 10
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -1990,7 +1979,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +18
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 169 = 31d4 (2 x 31) + 30(flat) + 2 x 31(Con)
@@ -1999,10 +1988,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  467
-    Total Dmg/10R: 695
-    Mana: 385 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  521
+    Total Dmg/10R: 635
+    Mana: 385 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -2026,16 +2015,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 33
+    Nova           : 32
     Psychic        : -3
     Radiant        : 10
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2059,7 +2048,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +18
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 175 = 32d4 (2 x 32) + 31(flat) + 2 x 32(Con)
@@ -2068,10 +2057,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  467
-    Total Dmg/10R: 695
-    Mana: 398 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  549
+    Total Dmg/10R: 663
+    Mana: 398 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -2095,16 +2084,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 33
+    Nova           : 32
     Psychic        : -3
     Radiant        : 10
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2128,7 +2117,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Magic: +18
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 180 = 33d4 (2 x 33) + 32(flat) + 2 x 33(Con)
@@ -2137,10 +2126,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  456
-    Total Dmg/10R: 684
-    Mana: 410 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  583
+    Total Dmg/10R: 697
+    Mana: 410 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  109
@@ -2164,16 +2153,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 33
+    Nova           : 32
     Psychic        : -3
     Radiant        : 10
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2197,7 +2186,7 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +19
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 186 = 34d4 (2 x 34) + 33(flat) + 2 x 34(Con)
@@ -2206,10 +2195,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  494
-    Total Dmg/10R: 722
-    Mana: 423 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  586
+    Total Dmg/10R: 730
+    Mana: 423 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  113
@@ -2233,16 +2222,16 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 4
-    Nova           : 35
+    Nova           : 34
     Psychic        : -3
     Radiant        : 10
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2275,10 +2264,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  534
-    Total Dmg/10R: 762
-    Mana: 435 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  595
+    Total Dmg/10R: 709
+    Mana: 435 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  115
@@ -2302,17 +2291,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 38
+    Nova           : 37
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2345,10 +2334,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 137 | Dmg/Turn: 411 (x162 mana)
-    Total Dmg/5R:  526
-    Total Dmg/10R: 754
-    Mana: 448 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x54 mana)
+    Total Dmg/5R:  628
+    Total Dmg/10R: 742
+    Mana: 448 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  117
@@ -2372,17 +2361,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 12
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 38
+    Nova           : 37
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2415,10 +2404,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 141 | Dmg/Turn: 423 (x162 mana)
-    Total Dmg/5R:  652
-    Total Dmg/10R: 937
-    Mana: 497 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x54 mana)
+    Total Dmg/5R:  706
+    Total Dmg/10R: 848
+    Mana: 497 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  121
@@ -2442,17 +2431,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 40
+    Nova           : 39
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2485,10 +2474,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 141 | Dmg/Turn: 423 (x162 mana)
-    Total Dmg/5R:  636
-    Total Dmg/10R: 921
-    Mana: 511 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x54 mana)
+    Total Dmg/5R:  740
+    Total Dmg/10R: 883
+    Mana: 511 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2512,17 +2501,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 40
+    Nova           : 39
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2555,10 +2544,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 147 | Dmg/Turn: 441 (x162 mana)
-    Total Dmg/5R:  758
-    Total Dmg/10R: 1129
-    Mana: 524 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x54 mana)
+    Total Dmg/5R:  805
+    Total Dmg/10R: 976
+    Mana: 524 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2582,17 +2571,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 40
+    Nova           : 39
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2625,10 +2614,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 147 | Dmg/Turn: 441 (x162 mana)
-    Total Dmg/5R:  809
-    Total Dmg/10R: 1179
-    Mana: 538 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 219 (x54 mana)
+    Total Dmg/5R:  807
+    Total Dmg/10R: 1015
+    Mana: 538 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  129
@@ -2652,17 +2641,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 42
+    Nova           : 41
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2695,10 +2684,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 153 | Dmg/Turn: 612 (x162 mana)
-    Total Dmg/5R:  899
-    Total Dmg/10R: 1507
-    Mana: 551 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 76 | Dmg/Turn: 304 (x54 mana)
+    Total Dmg/5R:  880
+    Total Dmg/10R: 1184
+    Mana: 551 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -2722,17 +2711,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 42
+    Nova           : 41
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2765,10 +2754,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 153 | Dmg/Turn: 612 (x162 mana)
-    Total Dmg/5R:  831
-    Total Dmg/10R: 1439
-    Mana: 565 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 76 | Dmg/Turn: 304 (x54 mana)
+    Total Dmg/5R:  900
+    Total Dmg/10R: 1204
+    Mana: 565 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -2792,17 +2781,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 42
+    Nova           : 41
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2835,10 +2824,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 158 | Dmg/Turn: 632 (x162 mana)
-    Total Dmg/5R:  969
-    Total Dmg/10R: 1691
-    Mana: 578 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 79 | Dmg/Turn: 316 (x54 mana)
+    Total Dmg/5R:  1007
+    Total Dmg/10R: 1368
+    Mana: 578 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  142
@@ -2862,17 +2851,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 44
+    Nova           : 43
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2905,10 +2894,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 158 | Dmg/Turn: 632 (x162 mana)
-    Total Dmg/5R:  1029
-    Total Dmg/10R: 1751
-    Mana: 592 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 79 | Dmg/Turn: 316 (x54 mana)
+    Total Dmg/5R:  1037
+    Total Dmg/10R: 1387
+    Mana: 592 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -2932,17 +2921,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 13
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 44
+    Nova           : 43
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -2975,10 +2964,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 164 | Dmg/Turn: 656 (x162 mana)
-    Total Dmg/5R:  1115
-    Total Dmg/10R: 1951
-    Mana: 605 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 82 | Dmg/Turn: 328 (x54 mana)
+    Total Dmg/5R:  1056
+    Total Dmg/10R: 1474
+    Mana: 605 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -3002,17 +2991,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 44
+    Nova           : 43
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3045,10 +3034,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 164 | Dmg/Turn: 656 (x162 mana)
-    Total Dmg/5R:  1173
-    Total Dmg/10R: 2009
-    Mana: 619 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 82 | Dmg/Turn: 328 (x54 mana)
+    Total Dmg/5R:  1013
+    Total Dmg/10R: 1431
+    Mana: 619 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  150
@@ -3072,17 +3061,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 46
+    Nova           : 45
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3115,10 +3104,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 170 | Dmg/Turn: 680 (x162 mana)
-    Total Dmg/5R:  1154
-    Total Dmg/10R: 2104
-    Mana: 632 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 85 | Dmg/Turn: 340 (x54 mana)
+    Total Dmg/5R:  1059
+    Total Dmg/10R: 1534
+    Mana: 632 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3142,17 +3131,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 46
+    Nova           : 45
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3185,10 +3174,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 170 | Dmg/Turn: 680 (x162 mana)
-    Total Dmg/5R:  1227
-    Total Dmg/10R: 2177
-    Mana: 646 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 85 | Dmg/Turn: 340 (x54 mana)
+    Total Dmg/5R:  1102
+    Total Dmg/10R: 1577
+    Mana: 646 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3212,17 +3201,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 46
+    Nova           : 45
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3255,10 +3244,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 176 | Dmg/Turn: 704 (x162 mana)
-    Total Dmg/5R:  1445
-    Total Dmg/10R: 2509
-    Mana: 708 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 88 | Dmg/Turn: 352 (x54 mana)
+    Total Dmg/5R:  1186
+    Total Dmg/10R: 1718
+    Mana: 708 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  163
@@ -3282,17 +3271,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 48
+    Nova           : 47
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3325,10 +3314,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 176 | Dmg/Turn: 704 (x162 mana)
-    Total Dmg/5R:  1312
-    Total Dmg/10R: 2376
-    Mana: 723 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 88 | Dmg/Turn: 352 (x54 mana)
+    Total Dmg/5R:  1306
+    Total Dmg/10R: 1838
+    Mana: 723 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  165
@@ -3352,17 +3341,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 48
+    Nova           : 47
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3395,10 +3384,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 176 | Dmg/Turn: 704 (x162 mana)
-    Total Dmg/5R:  1312
-    Total Dmg/10R: 2376
-    Mana: 737 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 88 | Dmg/Turn: 352 (x54 mana)
+    Total Dmg/5R:  1306
+    Total Dmg/10R: 1851
+    Mana: 737 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3422,17 +3411,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 48
+    Nova           : 47
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3465,10 +3454,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 176 | Dmg/Turn: 704 (x162 mana)
-    Total Dmg/5R:  1395
-    Total Dmg/10R: 2459
-    Mana: 752 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 88 | Dmg/Turn: 352 (x54 mana)
+    Total Dmg/5R:  1286
+    Total Dmg/10R: 1752
+    Mana: 752 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -3492,17 +3481,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 14
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 50
+    Nova           : 49
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3535,10 +3524,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 180 | Dmg/Turn: 720 (x162 mana)
-    Total Dmg/5R:  1766
-    Total Dmg/10R: 2906
-    Mana: 978 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 360 (x54 mana)
+    Total Dmg/5R:  1623
+    Total Dmg/10R: 2121
+    Mana: 978 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  173
@@ -3562,17 +3551,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 50
+    Nova           : 49
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3605,10 +3594,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 180 | Dmg/Turn: 720 (x162 mana)
-    Total Dmg/5R:  1622
-    Total Dmg/10R: 2762
-    Mana: 997 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 360 (x54 mana)
+    Total Dmg/5R:  1623
+    Total Dmg/10R: 2098
+    Mana: 997 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3632,17 +3621,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 50
+    Nova           : 49
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3675,10 +3664,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 180 | Dmg/Turn: 720 (x162 mana)
-    Total Dmg/5R:  1709
-    Total Dmg/10R: 2849
-    Mana: 1015 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 360 (x54 mana)
+    Total Dmg/5R:  1623
+    Total Dmg/10R: 2148
+    Mana: 1015 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -3702,17 +3691,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 52
+    Nova           : 51
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3745,10 +3734,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 180 | Dmg/Turn: 720 (x162 mana)
-    Total Dmg/5R:  1645
-    Total Dmg/10R: 2785
-    Mana: 1034 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 360 (x54 mana)
+    Total Dmg/5R:  1713
+    Total Dmg/10R: 2212
+    Mana: 1034 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -3772,17 +3761,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 52
+    Nova           : 51
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3815,10 +3804,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1560
-    Total Dmg/10R: 2985
-    Mana: 1052 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1762
+    Total Dmg/10R: 2417
+    Mana: 1052 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  188
@@ -3842,17 +3831,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 52
+    Nova           : 51
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3885,10 +3874,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1648
-    Total Dmg/10R: 3073
-    Mana: 1071 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1861
+    Total Dmg/10R: 2573
+    Mana: 1071 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -3912,17 +3901,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 54
+    Nova           : 53
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -3955,10 +3944,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1573
-    Total Dmg/10R: 2998
-    Mana: 1089 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1846
+    Total Dmg/10R: 2559
+    Mana: 1089 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  194
@@ -3982,17 +3971,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 54
+    Nova           : 53
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4025,10 +4014,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1670
-    Total Dmg/10R: 3095
-    Mana: 1108 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1852
+    Total Dmg/10R: 2509
+    Mana: 1108 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -4052,17 +4041,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 15
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 54
+    Nova           : 53
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4095,10 +4084,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1760
-    Total Dmg/10R: 3185
-    Mana: 1126 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1952
+    Total Dmg/10R: 2665
+    Mana: 1126 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -4122,17 +4111,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 56
+    Nova           : 55
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4165,10 +4154,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  2117
-    Total Dmg/10R: 3542
-    Mana: 1145 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1893
+    Total Dmg/10R: 2551
+    Mana: 1145 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  202
@@ -4192,17 +4181,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 56
+    Nova           : 55
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4235,10 +4224,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1920
-    Total Dmg/10R: 3345
-    Mana: 1163 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1893
+    Total Dmg/10R: 2458
+    Mana: 1163 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4262,17 +4251,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 56
+    Nova           : 55
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4305,9 +4294,9 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1933
-    Total Dmg/10R: 3358
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1893
+    Total Dmg/10R: 2614
     Mana: 1182 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4332,17 +4321,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 58
+    Nova           : 57
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4375,10 +4364,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1942
-    Total Dmg/10R: 3367
-    Mana: 1200 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1984
+    Total Dmg/10R: 2642
+    Mana: 1200 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  215
@@ -4402,17 +4391,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 58
+    Nova           : 57
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4445,10 +4434,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1746
-    Total Dmg/10R: 3171
-    Mana: 1219 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1984
+    Total Dmg/10R: 2654
+    Mana: 1219 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  217
@@ -4472,17 +4461,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 58
+    Nova           : 57
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4515,10 +4504,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1837
-    Total Dmg/10R: 3262
-    Mana: 1237 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  1984
+    Total Dmg/10R: 2706
+    Mana: 1237 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4542,17 +4531,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 60
+    Nova           : 59
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4585,10 +4574,10 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  2054
-    Total Dmg/10R: 3479
-    Mana: 1256 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 450 (x54 mana)
+    Total Dmg/5R:  2074
+    Total Dmg/10R: 2733
+    Mana: 1256 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  223
@@ -4612,17 +4601,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 16
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 60
+    Nova           : 59
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4656,8 +4645,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 5
     Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1859
-    Total Dmg/10R: 3284
+    Total Dmg/5R:  2136
+    Total Dmg/10R: 3561
     Mana: 1274 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4682,17 +4671,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 60
+    Nova           : 59
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4726,8 +4715,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 5
     Magic Dmg/Cast: 180 | Dmg/Turn: 900 (x162 mana)
-    Total Dmg/5R:  1952
-    Total Dmg/10R: 3377
+    Total Dmg/5R:  1945
+    Total Dmg/10R: 3370
     Mana: 1293 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4752,17 +4741,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 62
+    Nova           : 61
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4822,17 +4811,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 62
+    Nova           : 61
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4892,17 +4881,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 62
+    Nova           : 61
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -4962,17 +4951,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 64
+    Nova           : 63
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5006,8 +4995,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2240
-    Total Dmg/10R: 3950
+    Total Dmg/5R:  1979
+    Total Dmg/10R: 3689
     Mana: 1367 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5032,17 +5021,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 64
+    Nova           : 63
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5076,8 +5065,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  1989
-    Total Dmg/10R: 3699
+    Total Dmg/5R:  2070
+    Total Dmg/10R: 3780
     Mana: 1385 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5102,17 +5091,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 64
+    Nova           : 63
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5146,8 +5135,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2003
-    Total Dmg/10R: 3713
+    Total Dmg/5R:  2085
+    Total Dmg/10R: 3795
     Mana: 1404 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5172,17 +5161,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 17
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 66
+    Nova           : 65
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5216,8 +5205,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2355
-    Total Dmg/10R: 4065
+    Total Dmg/5R:  2177
+    Total Dmg/10R: 3887
     Mana: 1422 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5242,17 +5231,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 66
+    Nova           : 65
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5286,8 +5275,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2105
-    Total Dmg/10R: 3815
+    Total Dmg/5R:  2439
+    Total Dmg/10R: 4149
     Mana: 1441 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5312,17 +5301,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 66
+    Nova           : 65
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5382,17 +5371,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 68
+    Nova           : 67
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5452,17 +5441,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 68
+    Nova           : 67
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5522,17 +5511,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 68
+    Nova           : 67
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5592,17 +5581,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 70
+    Nova           : 69
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5636,8 +5625,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2175
-    Total Dmg/10R: 3885
+    Total Dmg/5R:  2259
+    Total Dmg/10R: 3969
     Mana: 1533 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5662,17 +5651,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 70
+    Nova           : 69
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5706,8 +5695,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2269
-    Total Dmg/10R: 3979
+    Total Dmg/5R:  2519
+    Total Dmg/10R: 4229
     Mana: 1552 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5732,17 +5721,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 18
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 70
+    Nova           : 69
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5776,8 +5765,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2189
-    Total Dmg/10R: 3899
+    Total Dmg/5R:  2274
+    Total Dmg/10R: 3984
     Mana: 1570 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5802,17 +5791,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 72
+    Nova           : 71
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5846,8 +5835,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2541
-    Total Dmg/10R: 4251
+    Total Dmg/5R:  2369
+    Total Dmg/10R: 4079
     Mana: 1589 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5872,17 +5861,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 72
+    Nova           : 71
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -5916,8 +5905,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 6
     Magic Dmg/Cast: 180 | Dmg/Turn: 1080 (x162 mana)
-    Total Dmg/5R:  2294
-    Total Dmg/10R: 4004
+    Total Dmg/5R:  2629
+    Total Dmg/10R: 4339
     Mana: 1607 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5942,17 +5931,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 72
+    Nova           : 71
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6012,17 +6001,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 74
+    Nova           : 73
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6082,17 +6071,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 74
+    Nova           : 73
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6152,17 +6141,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 74
+    Nova           : 73
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6196,8 +6185,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  2634
-    Total Dmg/10R: 4629
+    Total Dmg/5R:  2627
+    Total Dmg/10R: 4622
     Mana: 1772 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6222,17 +6211,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 76
+    Nova           : 75
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6292,17 +6281,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 19
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 76
+    Nova           : 75
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6362,17 +6351,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 76
+    Nova           : 75
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6432,17 +6421,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 78
+    Nova           : 77
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6476,8 +6465,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  2902
-    Total Dmg/10R: 4897
+    Total Dmg/5R:  2591
+    Total Dmg/10R: 4586
     Mana: 1850 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6502,17 +6491,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 78
+    Nova           : 77
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6546,8 +6535,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  2600
-    Total Dmg/10R: 4595
+    Total Dmg/5R:  2689
+    Total Dmg/10R: 4684
     Mana: 1870 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6572,17 +6561,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 78
+    Nova           : 77
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6616,8 +6605,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  2615
-    Total Dmg/10R: 4610
+    Total Dmg/5R:  2704
+    Total Dmg/10R: 4699
     Mana: 1889 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6642,17 +6631,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 80
+    Nova           : 79
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6686,8 +6675,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  3023
-    Total Dmg/10R: 5018
+    Total Dmg/5R:  2803
+    Total Dmg/10R: 4798
     Mana: 1909 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6712,17 +6701,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 80
+    Nova           : 79
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6756,8 +6745,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  2723
-    Total Dmg/10R: 4718
+    Total Dmg/5R:  3115
+    Total Dmg/10R: 5110
     Mana: 1928 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6782,17 +6771,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 80
+    Nova           : 79
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6852,17 +6841,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 20
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 82
+    Nova           : 81
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6922,17 +6911,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 82
+    Nova           : 81
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -6992,17 +6981,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 82
+    Nova           : 81
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7036,8 +7025,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  3085
-    Total Dmg/10R: 5080
+    Total Dmg/5R:  2777
+    Total Dmg/10R: 4772
     Mana: 2006 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7062,17 +7051,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 84
+    Nova           : 83
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7106,8 +7095,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 7
     Magic Dmg/Cast: 180 | Dmg/Turn: 1260 (x162 mana)
-    Total Dmg/5R:  2787
-    Total Dmg/10R: 4782
+    Total Dmg/5R:  2878
+    Total Dmg/10R: 4873
     Mana: 2026 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7132,17 +7121,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 84
+    Nova           : 83
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7176,8 +7165,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  2944
-    Total Dmg/10R: 5224
+    Total Dmg/5R:  3302
+    Total Dmg/10R: 5582
     Mana: 2045 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7202,17 +7191,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 84
+    Nova           : 83
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7246,8 +7235,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3324
-    Total Dmg/10R: 5604
+    Total Dmg/5R:  3051
+    Total Dmg/10R: 5331
     Mana: 2065 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7272,17 +7261,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 86
+    Nova           : 85
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7316,8 +7305,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  2969
-    Total Dmg/10R: 5249
+    Total Dmg/5R:  3418
+    Total Dmg/10R: 5698
     Mana: 2084 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7342,17 +7331,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 86
+    Nova           : 85
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7386,8 +7375,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3071
-    Total Dmg/10R: 5351
+    Total Dmg/5R:  3064
+    Total Dmg/10R: 5344
     Mana: 2104 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7412,17 +7401,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 21
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 86
+    Nova           : 85
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7482,17 +7471,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 88
+    Nova           : 87
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7552,17 +7541,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 88
+    Nova           : 87
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7622,17 +7611,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 88
+    Nova           : 87
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7666,8 +7655,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3030
-    Total Dmg/10R: 5310
+    Total Dmg/5R:  3124
+    Total Dmg/10R: 5404
     Mana: 2182 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7692,17 +7681,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 90
+    Nova           : 89
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7736,8 +7725,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3133
-    Total Dmg/10R: 5413
+    Total Dmg/5R:  3488
+    Total Dmg/10R: 5768
     Mana: 2201 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7762,17 +7751,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 90
+    Nova           : 89
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7806,8 +7795,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3042
-    Total Dmg/10R: 5322
+    Total Dmg/5R:  3136
+    Total Dmg/10R: 5416
     Mana: 2221 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7832,17 +7821,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 90
+    Nova           : 89
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7876,8 +7865,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3510
-    Total Dmg/10R: 5790
+    Total Dmg/5R:  3243
+    Total Dmg/10R: 5523
     Mana: 2240 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7902,17 +7891,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 92
+    Nova           : 91
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -7946,8 +7935,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3263
-    Total Dmg/10R: 5543
+    Total Dmg/5R:  3256
+    Total Dmg/10R: 5536
     Mana: 2260 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7972,17 +7961,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 22
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 92
+    Nova           : 91
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8042,17 +8031,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 92
+    Nova           : 91
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8112,17 +8101,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 94
+    Nova           : 93
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8182,17 +8171,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 94
+    Nova           : 93
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8226,8 +8215,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 8
     Magic Dmg/Cast: 180 | Dmg/Turn: 1440 (x162 mana)
-    Total Dmg/5R:  3564
-    Total Dmg/10R: 5844
+    Total Dmg/5R:  3204
+    Total Dmg/10R: 5484
     Mana: 2338 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8252,17 +8241,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 94
+    Nova           : 93
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8296,8 +8285,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3273
-    Total Dmg/10R: 5838
+    Total Dmg/5R:  3370
+    Total Dmg/10R: 5935
     Mana: 2357 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8322,17 +8311,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 96
+    Nova           : 95
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8366,8 +8355,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3348
-    Total Dmg/10R: 5913
+    Total Dmg/5R:  3382
+    Total Dmg/10R: 5947
     Mana: 2377 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8392,17 +8381,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 96
+    Nova           : 95
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8436,8 +8425,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3454
-    Total Dmg/10R: 6019
+    Total Dmg/5R:  3488
+    Total Dmg/10R: 6053
     Mana: 2396 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8462,17 +8451,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 96
+    Nova           : 95
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8506,8 +8495,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3363
-    Total Dmg/10R: 5928
+    Total Dmg/5R:  3911
+    Total Dmg/10R: 6476
     Mana: 2416 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8532,17 +8521,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 23
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 98
+    Nova           : 97
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8602,17 +8591,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 98
+    Nova           : 97
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8672,17 +8661,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 98
+    Nova           : 97
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8742,17 +8731,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 100
+    Nova           : 99
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8786,8 +8775,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3862
-    Total Dmg/10R: 6427
+    Total Dmg/5R:  3447
+    Total Dmg/10R: 6012
     Mana: 2494 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8812,17 +8801,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 100
+    Nova           : 99
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8856,8 +8845,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3457
-    Total Dmg/10R: 6022
+    Total Dmg/5R:  3556
+    Total Dmg/10R: 6121
     Mana: 2513 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8882,17 +8871,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 100
+    Nova           : 99
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8926,8 +8915,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3941
-    Total Dmg/10R: 6506
+    Total Dmg/5R:  3975
+    Total Dmg/10R: 6540
     Mana: 2533 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8952,17 +8941,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 102
+    Nova           : 101
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -8996,8 +8985,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3646
-    Total Dmg/10R: 6211
+    Total Dmg/5R:  3680
+    Total Dmg/10R: 6245
     Mana: 2552 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9022,17 +9011,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 102
+    Nova           : 101
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9066,8 +9055,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3550
-    Total Dmg/10R: 6115
+    Total Dmg/5R:  4097
+    Total Dmg/10R: 6662
     Mana: 2572 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9092,17 +9081,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 24
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 102
+    Nova           : 101
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9136,8 +9125,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 9
     Magic Dmg/Cast: 180 | Dmg/Turn: 1620 (x162 mana)
-    Total Dmg/5R:  3562
-    Total Dmg/10R: 6127
+    Total Dmg/5R:  3697
+    Total Dmg/10R: 6262
     Mana: 2591 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9162,17 +9151,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 104
+    Nova           : 103
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9232,17 +9221,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 104
+    Nova           : 103
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9302,17 +9291,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 104
+    Nova           : 103
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9372,17 +9361,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 106
+    Nova           : 105
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9442,17 +9431,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 106
+    Nova           : 105
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9486,8 +9475,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4339
-    Total Dmg/10R: 7189
+    Total Dmg/5R:  3871
+    Total Dmg/10R: 6721
     Mana: 2827 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9512,17 +9501,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 106
+    Nova           : 105
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9556,8 +9545,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4421
-    Total Dmg/10R: 7271
+    Total Dmg/5R:  4455
+    Total Dmg/10R: 7305
     Mana: 2847 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9582,17 +9571,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 108
+    Nova           : 107
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9626,8 +9615,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  3963
-    Total Dmg/10R: 6813
+    Total Dmg/5R:  3998
+    Total Dmg/10R: 6848
     Mana: 2868 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9652,17 +9641,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 25
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 108
+    Nova           : 107
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9696,8 +9685,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4076
-    Total Dmg/10R: 6926
+    Total Dmg/5R:  4110
+    Total Dmg/10R: 6960
     Mana: 2888 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9722,17 +9711,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 108
+    Nova           : 107
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9766,8 +9755,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  3989
-    Total Dmg/10R: 6839
+    Total Dmg/5R:  4126
+    Total Dmg/10R: 6976
     Mana: 2909 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9792,17 +9781,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 110
+    Nova           : 109
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9862,17 +9851,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 110
+    Nova           : 109
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -9932,17 +9921,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 110
+    Nova           : 109
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10002,17 +9991,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 112
+    Nova           : 111
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10046,8 +10035,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4067
-    Total Dmg/10R: 6917
+    Total Dmg/5R:  4171
+    Total Dmg/10R: 7021
     Mana: 2991 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10072,17 +10061,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 112
+    Nova           : 111
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10116,8 +10105,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4606
-    Total Dmg/10R: 7456
+    Total Dmg/5R:  4640
+    Total Dmg/10R: 7490
     Mana: 3011 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10142,17 +10131,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 112
+    Nova           : 111
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10186,8 +10175,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4153
-    Total Dmg/10R: 7003
+    Total Dmg/5R:  4187
+    Total Dmg/10R: 7037
     Mana: 3032 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10212,17 +10201,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 26
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 114
+    Nova           : 113
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10256,8 +10245,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4165
-    Total Dmg/10R: 7015
+    Total Dmg/5R:  4769
+    Total Dmg/10R: 7619
     Mana: 3052 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10282,17 +10271,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 114
+    Nova           : 113
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10326,8 +10315,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 10
     Magic Dmg/Cast: 180 | Dmg/Turn: 1800 (x162 mana)
-    Total Dmg/5R:  4175
-    Total Dmg/10R: 7025
+    Total Dmg/5R:  4314
+    Total Dmg/10R: 7164
     Mana: 3073 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10352,17 +10341,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 114
+    Nova           : 113
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10422,17 +10411,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 116
+    Nova           : 115
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10492,17 +10481,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 116
+    Nova           : 115
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10562,17 +10551,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 116
+    Nova           : 115
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10606,8 +10595,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4310
-    Total Dmg/10R: 7445
+    Total Dmg/5R:  4417
+    Total Dmg/10R: 7552
     Mana: 3155 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10632,17 +10621,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 118
+    Nova           : 117
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10676,8 +10665,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4906
-    Total Dmg/10R: 8041
+    Total Dmg/5R:  4940
+    Total Dmg/10R: 8075
     Mana: 3175 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10702,17 +10691,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 118
+    Nova           : 117
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10746,8 +10735,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4396
-    Total Dmg/10R: 7531
+    Total Dmg/5R:  4430
+    Total Dmg/10R: 7565
     Mana: 3196 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10772,17 +10761,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 27
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 118
+    Nova           : 117
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10816,8 +10805,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4411
-    Total Dmg/10R: 7546
+    Total Dmg/5R:  5073
+    Total Dmg/10R: 8208
     Mana: 3216 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10842,17 +10831,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 120
+    Nova           : 119
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10886,8 +10875,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4421
-    Total Dmg/10R: 7556
+    Total Dmg/5R:  4563
+    Total Dmg/10R: 7698
     Mana: 3237 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10912,17 +10901,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 120
+    Nova           : 119
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -10982,17 +10971,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 120
+    Nova           : 119
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11052,17 +11041,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 122
+    Nova           : 121
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11122,17 +11111,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 122
+    Nova           : 121
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11166,8 +11155,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4494
-    Total Dmg/10R: 7629
+    Total Dmg/5R:  4603
+    Total Dmg/10R: 7738
     Mana: 3319 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11192,17 +11181,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 122
+    Nova           : 121
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11236,8 +11225,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  5092
-    Total Dmg/10R: 8227
+    Total Dmg/5R:  5126
+    Total Dmg/10R: 8261
     Mana: 3339 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11262,17 +11251,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 124
+    Nova           : 123
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11306,8 +11295,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4704
-    Total Dmg/10R: 7839
+    Total Dmg/5R:  4739
+    Total Dmg/10R: 7874
     Mana: 3360 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11332,17 +11321,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 28
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 124
+    Nova           : 123
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11376,8 +11365,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4598
-    Total Dmg/10R: 7733
+    Total Dmg/5R:  5259
+    Total Dmg/10R: 8394
     Mana: 3380 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11402,17 +11391,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 124
+    Nova           : 123
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11446,8 +11435,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 11
     Magic Dmg/Cast: 180 | Dmg/Turn: 1980 (x162 mana)
-    Total Dmg/5R:  4610
-    Total Dmg/10R: 7745
+    Total Dmg/5R:  4755
+    Total Dmg/10R: 7890
     Mana: 3401 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11472,17 +11461,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 126
+    Nova           : 125
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11542,17 +11531,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 126
+    Nova           : 125
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11612,17 +11601,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 126
+    Nova           : 125
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11656,8 +11645,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  5300
-    Total Dmg/10R: 8720
+    Total Dmg/5R:  4728
+    Total Dmg/10R: 8148
     Mana: 3462 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11682,17 +11671,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 128
+    Nova           : 127
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11726,8 +11715,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  4737
-    Total Dmg/10R: 8157
+    Total Dmg/5R:  4849
+    Total Dmg/10R: 8269
     Mana: 3483 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11752,17 +11741,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 128
+    Nova           : 127
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11796,8 +11785,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  5390
-    Total Dmg/10R: 8810
+    Total Dmg/5R:  5424
+    Total Dmg/10R: 8844
     Mana: 3503 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11822,17 +11811,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 128
+    Nova           : 127
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11866,8 +11855,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  4953
-    Total Dmg/10R: 8373
+    Total Dmg/5R:  4988
+    Total Dmg/10R: 8408
     Mana: 3524 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11892,17 +11881,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 29
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 130
+    Nova           : 129
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -11936,8 +11925,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  4844
-    Total Dmg/10R: 8264
+    Total Dmg/5R:  5562
+    Total Dmg/10R: 8982
     Mana: 3544 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11962,17 +11951,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 130
+    Nova           : 129
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12032,17 +12021,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 130
+    Nova           : 129
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12102,17 +12091,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 132
+    Nova           : 131
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12172,17 +12161,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 132
+    Nova           : 131
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12216,8 +12205,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  5482
-    Total Dmg/10R: 8902
+    Total Dmg/5R:  4912
+    Total Dmg/10R: 8332
     Mana: 3626 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12242,17 +12231,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 132
+    Nova           : 131
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12286,8 +12275,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  4923
-    Total Dmg/10R: 8343
+    Total Dmg/5R:  5038
+    Total Dmg/10R: 8458
     Mana: 3647 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12312,17 +12301,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 134
+    Nova           : 133
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12356,8 +12345,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  5577
-    Total Dmg/10R: 8997
+    Total Dmg/5R:  5611
+    Total Dmg/10R: 9031
     Mana: 3667 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12382,17 +12371,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 134
+    Nova           : 133
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12426,8 +12415,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  5141
-    Total Dmg/10R: 8561
+    Total Dmg/5R:  5176
+    Total Dmg/10R: 8596
     Mana: 3688 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12452,17 +12441,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 30
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 134
+    Nova           : 133
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12496,8 +12485,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 12
     Magic Dmg/Cast: 180 | Dmg/Turn: 2160 (x162 mana)
-    Total Dmg/5R:  5033
-    Total Dmg/10R: 8453
+    Total Dmg/5R:  5751
+    Total Dmg/10R: 9171
     Mana: 3708 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12522,17 +12511,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 136
+    Nova           : 135
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12592,17 +12581,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 136
+    Nova           : 135
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12662,17 +12651,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 136
+    Nova           : 135
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12732,17 +12721,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 138
+    Nova           : 137
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12776,8 +12765,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5779
-    Total Dmg/10R: 9484
+    Total Dmg/5R:  5155
+    Total Dmg/10R: 8860
     Mana: 3790 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12802,17 +12791,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 138
+    Nova           : 137
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12846,8 +12835,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5165
-    Total Dmg/10R: 8870
+    Total Dmg/5R:  5281
+    Total Dmg/10R: 8986
     Mana: 3811 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12872,17 +12861,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 138
+    Nova           : 137
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12916,8 +12905,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5571
-    Total Dmg/10R: 9276
+    Total Dmg/5R:  5605
+    Total Dmg/10R: 9310
     Mana: 4018 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12942,17 +12931,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 140
+    Nova           : 139
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -12986,8 +12975,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5466
-    Total Dmg/10R: 9171
+    Total Dmg/5R:  5618
+    Total Dmg/10R: 9323
     Mana: 4040 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13012,17 +13001,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 31
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 140
+    Nova           : 139
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13082,17 +13071,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 140
+    Nova           : 139
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13152,17 +13141,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 142
+    Nova           : 141
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13222,17 +13211,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 142
+    Nova           : 141
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13266,8 +13255,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5529
-    Total Dmg/10R: 9234
+    Total Dmg/5R:  5648
+    Total Dmg/10R: 9353
     Mana: 4126 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13292,17 +13281,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 142
+    Nova           : 141
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13336,8 +13325,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  6241
-    Total Dmg/10R: 9946
+    Total Dmg/5R:  6276
+    Total Dmg/10R: 9981
     Mana: 4147 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13362,17 +13351,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 144
+    Nova           : 143
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13406,8 +13395,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5630
-    Total Dmg/10R: 9335
+    Total Dmg/5R:  5664
+    Total Dmg/10R: 9369
     Mana: 4169 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13432,17 +13421,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 144
+    Nova           : 143
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13476,8 +13465,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5643
-    Total Dmg/10R: 9348
+    Total Dmg/5R:  6418
+    Total Dmg/10R: 10123
     Mana: 4190 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13502,17 +13491,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 144
+    Nova           : 143
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13572,17 +13561,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 32
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 146
+    Nova           : 145
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13642,17 +13631,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 146
+    Nova           : 145
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13712,17 +13701,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 146
+    Nova           : 145
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13756,8 +13745,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  6325
-    Total Dmg/10R: 10030
+    Total Dmg/5R:  5706
+    Total Dmg/10R: 9411
     Mana: 4276 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13782,17 +13771,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 148
+    Nova           : 147
     Psychic        : -3
     Radiant        : 12
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13826,8 +13815,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 13
     Magic Dmg/Cast: 180 | Dmg/Turn: 2340 (x162 mana)
-    Total Dmg/5R:  5715
-    Total Dmg/10R: 9420
+    Total Dmg/5R:  5837
+    Total Dmg/10R: 9542
     Mana: 4298 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13852,17 +13841,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
+    Air            : 3
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 148
+    Nova           : 147
     Psychic        : -3
     Radiant        : 12
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: wand
@@ -13896,8 +13885,8 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
   DAMAGE:
     Attacks/Turn: 14
     Magic Dmg/Cast: 180 | Dmg/Turn: 2520 (x162 mana)
-    Total Dmg/5R:  5873
-    Total Dmg/10R: 9863
+    Total Dmg/5R:  5907
+    Total Dmg/10R: 9897
     Mana: 4319 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13922,17 +13911,17 @@ EYUM TTRPG - NOVA MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 28
+    Air            : 3
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 4
-    Nova           : 148
+    Nova           : 147
     Psychic        : -3
     Radiant        : 12
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: wand

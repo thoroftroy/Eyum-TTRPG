@@ -286,6 +286,10 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         char.has_magical = build_config.get('has_magical', False)
         char.affinities = build_config.get('starting_affinities', {"Generic": 1}).copy()
         char.gear = gear_override if gear_override is not None else build_config.get('gear', {})
+        weapon_name = char.gear.get('weapon', '')
+        if weapon_name and weapon_name not in ('none', None):
+            weapon_info = settings.get('weapons', {}).get(weapon_name, {})
+            char._weapon_magic_bonus = weapon_info.get('magic_bonus', 0)
         char.is_unarmed = build_config.get('unarmed_fighter', False) or char.gear.get('weapon', '') == 'none'
         char.tull_tier = 0
 

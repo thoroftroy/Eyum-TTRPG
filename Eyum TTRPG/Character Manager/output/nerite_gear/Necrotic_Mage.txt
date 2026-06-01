@@ -19,7 +19,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +3
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -29,8 +29,8 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 16 (x6 mana)
-    Total Dmg/5R:  52
-    Total Dmg/10R: 85
+    Total Dmg/5R:  67
+    Total Dmg/10R: 124
     Mana: 15 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -55,13 +55,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 2
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 3
+    Necrotic       : 8
     Psychic        : 3
     Radiant        : -3
-    Water          : 0
 
   GEAR:
     Weapon: nerite_wand
@@ -85,7 +82,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +3
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
@@ -95,8 +92,8 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 16 (x6 mana)
-    Total Dmg/5R:  62
-    Total Dmg/10R: 95
+    Total Dmg/5R:  72
+    Total Dmg/10R: 129
     Mana: 22 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -121,13 +118,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 3
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 3
+    Necrotic       : 8
     Psychic        : 3
     Radiant        : -3
-    Water          : 0
 
   GEAR:
     Weapon: nerite_wand
@@ -151,7 +145,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +3
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 25 = 4d8 (4 x 4) + 3(flat) + 1 x 4(Con)
@@ -162,7 +156,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Attacks/Turn: 1
     Magic Dmg/Cast: 16 (x6 mana)
     Total Dmg/5R:  82
-    Total Dmg/10R: 115
+    Total Dmg/10R: 139
     Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -188,13 +182,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 3
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 3
+    Necrotic       : 10
     Psychic        : 3
     Radiant        : -3
-    Water          : 2
 
   GEAR:
     Weapon: nerite_wand
@@ -218,7 +209,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +3
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
@@ -227,10 +218,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 37 (x18 mana)
-    Total Dmg/5R:  120
-    Total Dmg/10R: 197
-    Mana: 42 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x6 mana)
+    Total Dmg/5R:  92
+    Total Dmg/10R: 169
+    Mana: 42 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -255,13 +246,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 3
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 3
+    Necrotic       : 10
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -285,7 +273,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +3
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
@@ -294,10 +282,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 37 (x18 mana)
-    Total Dmg/5R:  120
-    Total Dmg/10R: 197
-    Mana: 51 start, 15 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x6 mana)
+    Total Dmg/5R:  92
+    Total Dmg/10R: 174
+    Mana: 51 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -322,13 +310,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 3
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 3
+    Necrotic       : 10
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -352,7 +337,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +6
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
@@ -361,10 +346,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 37 (x18 mana)
-    Total Dmg/5R:  156
-    Total Dmg/10R: 254
-    Mana: 71 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x6 mana)
+    Total Dmg/5R:  92
+    Total Dmg/10R: 185
+    Mana: 71 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -389,13 +374,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 3
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 16
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -419,7 +401,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +6
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
@@ -428,10 +410,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 37 (x18 mana)
-    Total Dmg/5R:  167
-    Total Dmg/10R: 265
-    Mana: 82 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 (x6 mana)
+    Total Dmg/5R:  92
+    Total Dmg/10R: 185
+    Mana: 82 start, 22 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -456,13 +438,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 3
-    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 16
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -486,7 +465,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +7
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
@@ -495,9 +474,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  269
-    Total Dmg/10R: 479
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 330
     Mana: 92 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -522,14 +501,12 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 3
-    Fire           : 5
+    Air            : 3
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 12
+    Necrotic       : 16
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -553,7 +530,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +12
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 54 = 10d6 (3 x 10) + 9(flat) + 1 x 10(Con)
@@ -562,10 +539,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  328
-    Total Dmg/10R: 594
-    Mana: 113 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 353
+    Mana: 113 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -589,14 +566,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 3
-    Fire           : 7
+    Air            : 5
+    Earth          : 2
+    Fire           : 6
     Generic        : 2
     Necrotic       : 21
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
+    Water          : 2
 
   GEAR:
     Weapon: nerite_wand
@@ -620,7 +597,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +9
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
@@ -629,10 +606,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  303
-    Total Dmg/10R: 541
-    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -656,14 +633,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 6
+    Air            : 3
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 16
+    Necrotic       : 18
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -687,7 +663,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +9
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
@@ -696,10 +672,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  306
-    Total Dmg/10R: 544
-    Mana: 136 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 136 start, 16 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -723,14 +699,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Earth          : 7
-    Fire           : 6
+    Air            : 3
+    Earth          : 6
+    Fire           : 4
     Generic        : 2
-    Necrotic       : 16
+    Necrotic       : 18
     Psychic        : 3
     Radiant        : -3
-    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -754,7 +729,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
@@ -763,10 +738,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  349
-    Total Dmg/10R: 615
-    Mana: 147 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 147 start, 27 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -790,14 +765,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 10
-    Fire           : 8
+    Air            : 5
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 23
     Psychic        : 3
     Radiant        : -3
-    Water          : 7
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -821,7 +796,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
@@ -830,10 +805,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  337
-    Total Dmg/10R: 603
-    Mana: 159 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 159 start, 39 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -857,14 +832,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 6
-    Earth          : 10
-    Fire           : 8
+    Air            : 5
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 23
     Psychic        : 3
     Radiant        : -3
-    Water          : 7
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -888,7 +863,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
@@ -897,10 +872,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  333
-    Total Dmg/10R: 599
-    Mana: 170 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 170 start, 50 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -924,14 +899,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 23
     Psychic        : 3
     Radiant        : -3
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -955,7 +930,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +14
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
@@ -964,10 +939,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 636
-    Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 182 start, 62 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -991,14 +966,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 10
-    Earth          : 10
-    Fire           : 8
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 25
     Psychic        : 3
     Radiant        : -3
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1022,7 +997,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +14
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 109 = 17d6 (3 x 17) + 16(flat) + 2 x 17(Con)
@@ -1031,10 +1006,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 636
-    Mana: 193 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 193 start, 73 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1058,14 +1033,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 10
-    Fire           : 8
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 25
     Psychic        : 3
     Radiant        : 1
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1089,7 +1064,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +14
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 116 = 18d6 (3 x 18) + 17(flat) + 2 x 18(Con)
@@ -1098,10 +1073,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 619
-    Mana: 205 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 205 start, 85 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1125,14 +1100,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 0)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 10
-    Fire           : 8
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 25
     Psychic        : 3
     Radiant        : 1
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1156,7 +1131,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +17
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 122 = 19d6 (3 x 19) + 18(flat) + 2 x 19(Con)
@@ -1165,10 +1140,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 656
-    Mana: 216 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 216 start, 96 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1192,14 +1167,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 10
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 31
     Psychic        : 3
     Radiant        : 1
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1223,7 +1198,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +17
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 129 = 20d6 (3 x 20) + 19(flat) + 2 x 20(Con)
@@ -1232,10 +1207,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 656
-    Mana: 228 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 228 start, 108 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1259,14 +1234,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 10
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 31
     Psychic        : 3
     Radiant        : 1
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1290,7 +1265,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +15
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 114 = 21d4 (2 x 21) + 20(flat) + 2 x 21(Con)
@@ -1299,10 +1274,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 677
-    Mana: 260 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 260 start, 140 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  69
@@ -1326,14 +1301,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 11
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 28
     Psychic        : 3
     Radiant        : 1
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1357,7 +1332,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +18
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 120 = 22d4 (2 x 22) + 21(flat) + 2 x 22(Con)
@@ -1366,10 +1341,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
-    Total Dmg/5R:  370
-    Total Dmg/10R: 661
-    Mana: 273 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x6 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 370
+    Mana: 273 start, 153 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  73
@@ -1393,14 +1368,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 11
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 33
     Psychic        : 3
     Radiant        : 1
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1424,7 +1399,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +18
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 125 = 23d4 (2 x 23) + 22(flat) + 2 x 23(Con)
@@ -1433,10 +1408,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 42 | Dmg/Turn: 84 (x18 mana)
-    Total Dmg/5R:  420
-    Total Dmg/10R: 729
-    Mana: 285 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 42 (x6 mana)
+    Total Dmg/5R:  210
+    Total Dmg/10R: 420
+    Mana: 285 start, 165 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  75
@@ -1460,14 +1435,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 11
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 33
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1491,7 +1466,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +18
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 131 = 24d4 (2 x 24) + 23(flat) + 2 x 24(Con)
@@ -1500,10 +1475,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 42 | Dmg/Turn: 84 (x18 mana)
-    Total Dmg/5R:  420
-    Total Dmg/10R: 778
-    Mana: 298 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 42 (x6 mana)
+    Total Dmg/5R:  210
+    Total Dmg/10R: 420
+    Mana: 298 start, 178 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  77
@@ -1527,14 +1502,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 11
-    Earth          : 11
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 33
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1558,7 +1533,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +19
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 136 = 25d4 (2 x 25) + 24(flat) + 2 x 25(Con)
@@ -1567,10 +1542,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1033
-    Mana: 310 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 310 start, 130 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1594,14 +1569,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 11
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 35
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1625,7 +1600,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +19
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 142 = 26d4 (2 x 26) + 25(flat) + 2 x 26(Con)
@@ -1634,10 +1609,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1000
-    Mana: 323 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 323 start, 143 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1661,14 +1636,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 11
-    Fire           : 9
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 35
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1692,7 +1667,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +19
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 147 = 27d4 (2 x 27) + 26(flat) + 2 x 27(Con)
@@ -1701,10 +1676,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1075
-    Mana: 335 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 335 start, 155 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  90
@@ -1728,14 +1703,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 11
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 35
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1759,7 +1734,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +20
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 153 = 28d4 (2 x 28) + 27(flat) + 2 x 28(Con)
@@ -1768,10 +1743,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1037
-    Mana: 348 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 348 start, 168 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  94
@@ -1795,14 +1770,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 11
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 37
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1826,7 +1801,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +20
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 158 = 29d4 (2 x 29) + 28(flat) + 2 x 29(Con)
@@ -1835,10 +1810,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1079
-    Mana: 360 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 360 start, 180 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  96
@@ -1862,14 +1837,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 12
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 37
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1893,7 +1868,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +20
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 164 = 30d4 (2 x 30) + 29(flat) + 2 x 30(Con)
@@ -1902,10 +1877,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1079
-    Mana: 373 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 373 start, 193 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  98
@@ -1929,14 +1904,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 12
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 37
     Psychic        : 3
     Radiant        : 1
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -1960,7 +1935,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +21
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 169 = 31d4 (2 x 31) + 30(flat) + 2 x 31(Con)
@@ -1969,10 +1944,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1121
-    Mana: 385 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 385 start, 205 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -1996,14 +1971,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 12
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 39
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2027,7 +2002,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +21
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 175 = 32d4 (2 x 32) + 31(flat) + 2 x 32(Con)
@@ -2036,10 +2011,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1083
-    Mana: 398 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 398 start, 218 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  104
@@ -2063,14 +2038,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 12
-    Earth          : 12
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 39
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2094,7 +2069,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Magic: +21
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 180 = 33d4 (2 x 33) + 32(flat) + 2 x 33(Con)
@@ -2103,10 +2078,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1083
-    Mana: 410 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 410 start, 230 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  111
@@ -2130,14 +2105,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 12
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 39
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2161,7 +2136,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +22
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 186 = 34d4 (2 x 34) + 33(flat) + 2 x 34(Con)
@@ -2170,10 +2145,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1125
-    Mana: 423 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 423 start, 243 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  115
@@ -2197,14 +2172,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 1)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 12
-    Fire           : 10
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 41
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2228,7 +2203,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +23
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 191 = 35d4 (2 x 35) + 34(flat) + 2 x 35(Con)
@@ -2237,10 +2212,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1167
-    Mana: 435 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 435 start, 255 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  117
@@ -2264,14 +2239,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 12
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 43
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2295,7 +2270,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +23
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 197 = 36d4 (2 x 36) + 35(flat) + 2 x 36(Con)
@@ -2304,10 +2279,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 42 | Dmg/Turn: 126 (x18 mana)
-    Total Dmg/5R:  630
-    Total Dmg/10R: 1139
-    Mana: 448 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 21 | Dmg/Turn: 63 (x6 mana)
+    Total Dmg/5R:  315
+    Total Dmg/10R: 630
+    Mana: 448 start, 268 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  119
@@ -2331,14 +2306,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 12
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 43
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2362,7 +2337,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +24
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 202 = 37d4 (2 x 37) + 36(flat) + 2 x 37(Con)
@@ -2371,10 +2346,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 46 | Dmg/Turn: 138 (x18 mana)
-    Total Dmg/5R:  690
-    Total Dmg/10R: 1333
-    Mana: 497 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 69 (x6 mana)
+    Total Dmg/5R:  345
+    Total Dmg/10R: 690
+    Mana: 497 start, 317 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2398,14 +2373,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 13
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 45
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2429,7 +2404,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +24
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 208 = 38d4 (2 x 38) + 37(flat) + 2 x 38(Con)
@@ -2438,10 +2413,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 46 | Dmg/Turn: 138 (x18 mana)
-    Total Dmg/5R:  690
-    Total Dmg/10R: 1288
-    Mana: 511 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 69 (x6 mana)
+    Total Dmg/5R:  345
+    Total Dmg/10R: 690
+    Mana: 511 start, 331 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2465,14 +2440,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 13
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 45
     Psychic        : 3
     Radiant        : 1
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2496,7 +2471,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +24
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 213 = 39d4 (2 x 39) + 38(flat) + 2 x 39(Con)
@@ -2505,10 +2480,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 52 | Dmg/Turn: 156 (x18 mana)
-    Total Dmg/5R:  780
-    Total Dmg/10R: 1508
-    Mana: 524 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 26 | Dmg/Turn: 78 (x6 mana)
+    Total Dmg/5R:  390
+    Total Dmg/10R: 780
+    Mana: 524 start, 344 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  127
@@ -2532,14 +2507,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 13
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 45
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2563,7 +2538,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +14
-    To Hit: Magic: +25
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 259 = 40d4 (2 x 40) + 39(flat) + 3 x 40(Con)
@@ -2572,10 +2547,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 52 | Dmg/Turn: 156 (x18 mana)
-    Total Dmg/5R:  780
-    Total Dmg/10R: 1508
-    Mana: 538 start, 16 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 26 | Dmg/Turn: 78 (x6 mana)
+    Total Dmg/5R:  390
+    Total Dmg/10R: 780
+    Mana: 538 start, 358 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  131
@@ -2599,14 +2574,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 13
-    Earth          : 13
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 47
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2630,7 +2605,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +25
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 265 = 41d4 (2 x 41) + 40(flat) + 3 x 41(Con)
@@ -2639,10 +2614,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 58 | Dmg/Turn: 232 (x18 mana)
-    Total Dmg/5R:  1160
-    Total Dmg/10R: 2074
-    Mana: 551 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 29 | Dmg/Turn: 116 (x6 mana)
+    Total Dmg/5R:  580
+    Total Dmg/10R: 1160
+    Mana: 551 start, 311 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -2666,14 +2641,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 13
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 47
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2697,7 +2672,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +25
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 272 = 42d4 (2 x 42) + 41(flat) + 3 x 42(Con)
@@ -2706,10 +2681,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 58 | Dmg/Turn: 232 (x18 mana)
-    Total Dmg/5R:  1160
-    Total Dmg/10R: 2132
-    Mana: 565 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 29 | Dmg/Turn: 116 (x6 mana)
+    Total Dmg/5R:  580
+    Total Dmg/10R: 1160
+    Mana: 565 start, 325 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  140
@@ -2733,14 +2708,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 13
-    Fire           : 11
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 47
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2764,7 +2739,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +26
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 235 = 43d4 (2 x 43) + 42(flat) + 2 x 43(Con)
@@ -2773,10 +2748,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 64 | Dmg/Turn: 256 (x18 mana)
-    Total Dmg/5R:  1280
-    Total Dmg/10R: 2366
-    Mana: 621 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 128 (x6 mana)
+    Total Dmg/5R:  640
+    Total Dmg/10R: 1280
+    Mana: 621 start, 381 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -2800,14 +2775,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 13
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 49
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2831,7 +2806,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +26
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 241 = 44d4 (2 x 44) + 43(flat) + 2 x 44(Con)
@@ -2840,10 +2815,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 64 | Dmg/Turn: 256 (x18 mana)
-    Total Dmg/5R:  1280
-    Total Dmg/10R: 2430
-    Mana: 636 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 128 (x6 mana)
+    Total Dmg/5R:  640
+    Total Dmg/10R: 1280
+    Mana: 636 start, 396 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -2867,14 +2842,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 13
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 49
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2898,7 +2873,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +26
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 246 = 45d4 (2 x 45) + 44(flat) + 2 x 45(Con)
@@ -2907,10 +2882,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 70 | Dmg/Turn: 280 (x18 mana)
-    Total Dmg/5R:  1400
-    Total Dmg/10R: 2732
-    Mana: 650 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 35 | Dmg/Turn: 140 (x6 mana)
+    Total Dmg/5R:  700
+    Total Dmg/10R: 1400
+    Mana: 650 start, 410 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  148
@@ -2934,14 +2909,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 14
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 49
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -2965,7 +2940,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +27
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 298 = 46d4 (2 x 46) + 45(flat) + 3 x 46(Con)
@@ -2974,10 +2949,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 70 | Dmg/Turn: 280 (x18 mana)
-    Total Dmg/5R:  1400
-    Total Dmg/10R: 2601
-    Mana: 665 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 35 | Dmg/Turn: 140 (x6 mana)
+    Total Dmg/5R:  700
+    Total Dmg/10R: 1400
+    Mana: 665 start, 425 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3001,14 +2976,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 14
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 51
     Psychic        : 3
     Radiant        : 1
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3032,7 +3007,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +27
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 304 = 47d4 (2 x 47) + 46(flat) + 3 x 47(Con)
@@ -3041,10 +3016,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 76 | Dmg/Turn: 304 (x18 mana)
-    Total Dmg/5R:  1520
-    Total Dmg/10R: 2812
-    Mana: 679 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 152 (x6 mana)
+    Total Dmg/5R:  760
+    Total Dmg/10R: 1520
+    Mana: 679 start, 439 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3068,14 +3043,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 14
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 51
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3099,7 +3074,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +27
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 311 = 48d4 (2 x 48) + 47(flat) + 3 x 48(Con)
@@ -3108,10 +3083,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 76 | Dmg/Turn: 304 (x18 mana)
-    Total Dmg/5R:  1520
-    Total Dmg/10R: 2888
-    Mana: 694 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 152 (x6 mana)
+    Total Dmg/5R:  760
+    Total Dmg/10R: 1520
+    Mana: 694 start, 454 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  156
@@ -3135,14 +3110,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 14
-    Earth          : 14
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 51
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3166,7 +3141,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +28
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 317 = 49d4 (2 x 49) + 48(flat) + 3 x 49(Con)
@@ -3175,10 +3150,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 82 | Dmg/Turn: 328 (x18 mana)
-    Total Dmg/5R:  1640
-    Total Dmg/10R: 3198
-    Mana: 708 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 164 (x6 mana)
+    Total Dmg/5R:  820
+    Total Dmg/10R: 1640
+    Mana: 708 start, 468 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  165
@@ -3202,14 +3177,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 14
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 53
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3233,7 +3208,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +28
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 324 = 50d4 (2 x 50) + 49(flat) + 3 x 50(Con)
@@ -3242,10 +3217,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 82 | Dmg/Turn: 328 (x18 mana)
-    Total Dmg/5R:  1640
-    Total Dmg/10R: 3280
-    Mana: 723 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 164 (x6 mana)
+    Total Dmg/5R:  820
+    Total Dmg/10R: 1640
+    Mana: 723 start, 483 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3269,14 +3244,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 2)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 14
-    Fire           : 12
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 53
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3300,7 +3275,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +29
+    To Hit: Magic: +35
 
   HEALTH POOLS:
     Vitality: 330 = 51d4 (2 x 51) + 50(flat) + 3 x 51(Con)
@@ -3309,10 +3284,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 82 | Dmg/Turn: 328 (x18 mana)
-    Total Dmg/5R:  1640
-    Total Dmg/10R: 3280
-    Mana: 737 start, 17 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 164 (x6 mana)
+    Total Dmg/5R:  820
+    Total Dmg/10R: 1640
+    Mana: 737 start, 497 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -3336,14 +3311,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 14
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 56
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3367,7 +3342,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +30
+    To Hit: Magic: +36
 
   HEALTH POOLS:
     Vitality: 337 = 52d4 (2 x 52) + 51(flat) + 3 x 52(Con)
@@ -3376,10 +3351,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 104 | Dmg/Turn: 416 (x162 mana)
-    Total Dmg/5R:  1344
-    Total Dmg/10R: 2636
-    Mana: 752 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 208 (x54 mana)
+    Total Dmg/5R:  843
+    Total Dmg/10R: 1524
+    Mana: 752 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3403,14 +3378,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 14
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 58
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3434,7 +3409,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +30
+    To Hit: Magic: +36
 
   HEALTH POOLS:
     Vitality: 343 = 53d4 (2 x 53) + 52(flat) + 3 x 53(Con)
@@ -3443,10 +3418,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 108 | Dmg/Turn: 432 (x162 mana)
-    Total Dmg/5R:  1470
-    Total Dmg/10R: 2838
-    Mana: 978 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 216 (x54 mana)
+    Total Dmg/5R:  974
+    Total Dmg/10R: 1564
+    Mana: 978 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  177
@@ -3470,14 +3445,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 15
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 58
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3501,7 +3476,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +30
+    To Hit: Magic: +36
 
   HEALTH POOLS:
     Vitality: 350 = 54d4 (2 x 54) + 53(flat) + 3 x 54(Con)
@@ -3510,10 +3485,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 108 | Dmg/Turn: 432 (x162 mana)
-    Total Dmg/5R:  1282
-    Total Dmg/10R: 2650
-    Mana: 997 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 216 (x54 mana)
+    Total Dmg/5R:  974
+    Total Dmg/10R: 1693
+    Mana: 997 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -3537,14 +3512,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 15
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 58
     Psychic        : 3
     Radiant        : 1
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3568,7 +3543,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +31
+    To Hit: Magic: +37
 
   HEALTH POOLS:
     Vitality: 356 = 55d4 (2 x 55) + 54(flat) + 3 x 55(Con)
@@ -3577,10 +3552,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 108 | Dmg/Turn: 432 (x162 mana)
-    Total Dmg/5R:  1368
-    Total Dmg/10R: 2736
-    Mana: 1015 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 216 (x54 mana)
+    Total Dmg/5R:  974
+    Total Dmg/10R: 1686
+    Mana: 1015 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  183
@@ -3604,14 +3579,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 15
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 60
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3635,7 +3610,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +31
+    To Hit: Magic: +37
 
   HEALTH POOLS:
     Vitality: 363 = 56d4 (2 x 56) + 55(flat) + 3 x 56(Con)
@@ -3644,10 +3619,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 108 | Dmg/Turn: 432 (x162 mana)
-    Total Dmg/5R:  1454
-    Total Dmg/10R: 2822
-    Mana: 1034 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 216 (x54 mana)
+    Total Dmg/5R:  1028
+    Total Dmg/10R: 1619
+    Mana: 1034 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  185
@@ -3671,14 +3646,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Earth          : 15
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 60
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3702,7 +3677,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +19
-    To Hit: Magic: +31
+    To Hit: Magic: +37
 
   HEALTH POOLS:
     Vitality: 369 = 57d4 (2 x 57) + 56(flat) + 3 x 57(Con)
@@ -3711,10 +3686,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1677
-    Total Dmg/10R: 3387
-    Mana: 1052 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1200
+    Total Dmg/10R: 2055
+    Mana: 1052 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -3738,14 +3713,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 15
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 60
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3769,7 +3744,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +32
+    To Hit: Magic: +38
 
   HEALTH POOLS:
     Vitality: 376 = 58d4 (2 x 58) + 57(flat) + 3 x 58(Con)
@@ -3778,10 +3753,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1763
-    Total Dmg/10R: 3473
-    Mana: 1071 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1243
+    Total Dmg/10R: 2013
+    Mana: 1071 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -3805,14 +3780,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 15
-    Fire           : 13
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 62
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3836,7 +3811,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +32
+    To Hit: Magic: +38
 
   HEALTH POOLS:
     Vitality: 382 = 59d4 (2 x 59) + 58(flat) + 3 x 59(Con)
@@ -3845,10 +3820,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1507
-    Total Dmg/10R: 3217
-    Mana: 1089 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1126
+    Total Dmg/10R: 1981
+    Mana: 1089 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  198
@@ -3872,14 +3847,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 15
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 62
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3903,7 +3878,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +32
+    To Hit: Magic: +38
 
   HEALTH POOLS:
     Vitality: 389 = 60d4 (2 x 60) + 59(flat) + 3 x 60(Con)
@@ -3912,10 +3887,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1593
-    Total Dmg/10R: 3303
-    Mana: 1108 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1255
+    Total Dmg/10R: 2110
+    Mana: 1108 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -3939,14 +3914,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 15
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 62
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -3970,7 +3945,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +33
+    To Hit: Magic: +39
 
   HEALTH POOLS:
     Vitality: 395 = 61d4 (2 x 61) + 60(flat) + 3 x 61(Con)
@@ -3979,10 +3954,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1679
-    Total Dmg/10R: 3389
-    Mana: 1126 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1298
+    Total Dmg/10R: 2068
+    Mana: 1126 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4006,14 +3981,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 16
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 64
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4037,7 +4012,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +33
+    To Hit: Magic: +39
 
   HEALTH POOLS:
     Vitality: 402 = 62d4 (2 x 62) + 61(flat) + 3 x 62(Con)
@@ -4046,10 +4021,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1784
-    Total Dmg/10R: 3494
-    Mana: 1145 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1137
+    Total Dmg/10R: 1744
+    Mana: 1145 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  206
@@ -4073,14 +4048,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 16
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 64
     Psychic        : 3
     Radiant        : 1
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4104,7 +4079,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +33
+    To Hit: Magic: +39
 
   HEALTH POOLS:
     Vitality: 408 = 63d4 (2 x 63) + 62(flat) + 3 x 63(Con)
@@ -4113,10 +4088,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1528
-    Total Dmg/10R: 3238
-    Mana: 1163 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1137
+    Total Dmg/10R: 1873
+    Mana: 1163 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  208
@@ -4140,14 +4115,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 16
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 64
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4171,7 +4146,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +22
-    To Hit: Magic: +34
+    To Hit: Magic: +40
 
   HEALTH POOLS:
     Vitality: 415 = 64d4 (2 x 64) + 63(flat) + 3 x 64(Con)
@@ -4180,10 +4155,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1614
-    Total Dmg/10R: 3324
-    Mana: 1182 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1137
+    Total Dmg/10R: 1994
+    Mana: 1182 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  212
@@ -4207,14 +4182,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Earth          : 16
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 66
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4238,7 +4213,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +34
+    To Hit: Magic: +40
 
   HEALTH POOLS:
     Vitality: 421 = 65d4 (2 x 65) + 64(flat) + 3 x 65(Con)
@@ -4247,10 +4222,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1700
-    Total Dmg/10R: 3410
-    Mana: 1200 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1191
+    Total Dmg/10R: 1961
+    Mana: 1200 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  219
@@ -4274,14 +4249,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 16
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 66
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4305,7 +4280,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +34
+    To Hit: Magic: +40
 
   HEALTH POOLS:
     Vitality: 428 = 66d4 (2 x 66) + 65(flat) + 3 x 66(Con)
@@ -4314,10 +4289,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1786
-    Total Dmg/10R: 3496
-    Mana: 1219 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1191
+    Total Dmg/10R: 2090
+    Mana: 1219 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4341,14 +4316,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 16
-    Fire           : 14
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 66
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4372,7 +4347,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +37
+    To Hit: Magic: +43
 
   HEALTH POOLS:
     Vitality: 501 = 67d4 (2 x 67) + 66(flat) + 4 x 67(Con)
@@ -4381,10 +4356,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1872
-    Total Dmg/10R: 3582
-    Mana: 1237 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1191
+    Total Dmg/10R: 2048
+    Mana: 1237 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  225
@@ -4408,14 +4383,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 16
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 72
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4439,7 +4414,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +37
+    To Hit: Magic: +43
 
   HEALTH POOLS:
     Vitality: 509 = 68d4 (2 x 68) + 67(flat) + 4 x 68(Con)
@@ -4448,10 +4423,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 108 | Dmg/Turn: 540 (x162 mana)
-    Total Dmg/5R:  1616
-    Total Dmg/10R: 3326
-    Mana: 1256 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 270 (x54 mana)
+    Total Dmg/5R:  1245
+    Total Dmg/10R: 2015
+    Mana: 1256 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  227
@@ -4475,14 +4450,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 16
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 72
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4506,7 +4481,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +37
+    To Hit: Magic: +43
 
   HEALTH POOLS:
     Vitality: 516 = 69d4 (2 x 69) + 68(flat) + 4 x 69(Con)
@@ -4542,14 +4517,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 17
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 72
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4573,7 +4548,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +38
+    To Hit: Magic: +44
 
   HEALTH POOLS:
     Vitality: 454 = 70d4 (2 x 70) + 69(flat) + 3 x 70(Con)
@@ -4609,14 +4584,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 17
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 74
     Psychic        : 3
     Radiant        : 1
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4640,7 +4615,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +38
+    To Hit: Magic: +44
 
   HEALTH POOLS:
     Vitality: 460 = 71d4 (2 x 71) + 70(flat) + 3 x 71(Con)
@@ -4676,14 +4651,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 17
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 74
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4707,7 +4682,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +38
+    To Hit: Magic: +44
 
   HEALTH POOLS:
     Vitality: 467 = 72d4 (2 x 72) + 71(flat) + 3 x 72(Con)
@@ -4743,14 +4718,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 17
-    Earth          : 17
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 74
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4774,7 +4749,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +39
+    To Hit: Magic: +45
 
   HEALTH POOLS:
     Vitality: 546 = 73d4 (2 x 73) + 72(flat) + 4 x 73(Con)
@@ -4810,14 +4785,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 17
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 76
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4841,7 +4816,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +39
+    To Hit: Magic: +45
 
   HEALTH POOLS:
     Vitality: 554 = 74d4 (2 x 74) + 73(flat) + 4 x 74(Con)
@@ -4877,14 +4852,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 17
-    Fire           : 15
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 76
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4908,7 +4883,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +39
+    To Hit: Magic: +45
 
   HEALTH POOLS:
     Vitality: 561 = 75d4 (2 x 75) + 74(flat) + 4 x 75(Con)
@@ -4944,14 +4919,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 17
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 76
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -4975,7 +4950,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 2
     Proficiency: +26
-    To Hit: Magic: +40
+    To Hit: Magic: +46
 
   HEALTH POOLS:
     Vitality: 569 = 76d4 (2 x 76) + 75(flat) + 4 x 76(Con)
@@ -5011,14 +4986,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 17
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 78
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5042,7 +5017,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 2
     Proficiency: +26
-    To Hit: Magic: +40
+    To Hit: Magic: +46
 
   HEALTH POOLS:
     Vitality: 576 = 77d4 (2 x 77) + 76(flat) + 4 x 77(Con)
@@ -5078,14 +5053,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 18
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 78
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5109,7 +5084,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 2
     Proficiency: +26
-    To Hit: Magic: +40
+    To Hit: Magic: +46
 
   HEALTH POOLS:
     Vitality: 584 = 78d4 (2 x 78) + 77(flat) + 4 x 78(Con)
@@ -5145,14 +5120,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 18
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 78
     Psychic        : 3
     Radiant        : 1
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5176,7 +5151,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 2
     Proficiency: +27
-    To Hit: Magic: +41
+    To Hit: Magic: +47
 
   HEALTH POOLS:
     Vitality: 591 = 79d4 (2 x 79) + 78(flat) + 4 x 79(Con)
@@ -5212,14 +5187,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 18
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 80
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5243,7 +5218,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 2
     Proficiency: +27
-    To Hit: Magic: +41
+    To Hit: Magic: +47
 
   HEALTH POOLS:
     Vitality: 599 = 80d4 (2 x 80) + 79(flat) + 4 x 80(Con)
@@ -5279,14 +5254,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 18
-    Earth          : 18
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 80
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5310,7 +5285,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +27
-    To Hit: Magic: +41
+    To Hit: Magic: +47
 
   HEALTH POOLS:
     Vitality: 606 = 81d4 (2 x 81) + 80(flat) + 4 x 81(Con)
@@ -5346,14 +5321,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 18
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 80
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5377,7 +5352,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +28
-    To Hit: Magic: +42
+    To Hit: Magic: +48
 
   HEALTH POOLS:
     Vitality: 614 = 82d4 (2 x 82) + 81(flat) + 4 x 82(Con)
@@ -5413,14 +5388,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 4)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 18
-    Fire           : 16
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 82
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5444,7 +5419,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +28
-    To Hit: Magic: +45
+    To Hit: Magic: +51
 
   HEALTH POOLS:
     Vitality: 621 = 83d4 (2 x 83) + 82(flat) + 4 x 83(Con)
@@ -5480,14 +5455,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 18
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 87
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5511,7 +5486,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +28
-    To Hit: Magic: +45
+    To Hit: Magic: +51
 
   HEALTH POOLS:
     Vitality: 629 = 84d4 (2 x 84) + 83(flat) + 4 x 84(Con)
@@ -5547,14 +5522,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 18
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 87
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5578,7 +5553,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +29
-    To Hit: Magic: +46
+    To Hit: Magic: +52
 
   HEALTH POOLS:
     Vitality: 636 = 85d4 (2 x 85) + 84(flat) + 4 x 85(Con)
@@ -5614,14 +5589,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 19
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 89
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5645,7 +5620,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +29
-    To Hit: Magic: +46
+    To Hit: Magic: +52
 
   HEALTH POOLS:
     Vitality: 644 = 86d4 (2 x 86) + 85(flat) + 4 x 86(Con)
@@ -5681,14 +5656,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 19
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 89
     Psychic        : 3
     Radiant        : 1
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5712,7 +5687,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +29
-    To Hit: Magic: +46
+    To Hit: Magic: +52
 
   HEALTH POOLS:
     Vitality: 651 = 87d4 (2 x 87) + 86(flat) + 4 x 87(Con)
@@ -5748,14 +5723,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 19
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 89
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5779,7 +5754,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 2
     Proficiency: +30
-    To Hit: Magic: +47
+    To Hit: Magic: +53
 
   HEALTH POOLS:
     Vitality: 659 = 88d4 (2 x 88) + 87(flat) + 4 x 88(Con)
@@ -5815,14 +5790,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 19
-    Earth          : 19
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 91
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5846,7 +5821,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 2
     Proficiency: +30
-    To Hit: Magic: +47
+    To Hit: Magic: +53
 
   HEALTH POOLS:
     Vitality: 666 = 89d4 (2 x 89) + 88(flat) + 4 x 89(Con)
@@ -5882,14 +5857,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 19
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 91
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5913,7 +5888,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 2
     Proficiency: +30
-    To Hit: Magic: +47
+    To Hit: Magic: +53
 
   HEALTH POOLS:
     Vitality: 674 = 90d4 (2 x 90) + 89(flat) + 4 x 90(Con)
@@ -5949,14 +5924,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 19
-    Fire           : 17
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 91
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -5980,7 +5955,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 2
     Proficiency: +31
-    To Hit: Magic: +48
+    To Hit: Magic: +54
 
   HEALTH POOLS:
     Vitality: 681 = 91d4 (2 x 91) + 90(flat) + 4 x 91(Con)
@@ -6016,14 +5991,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 19
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 93
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6047,7 +6022,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 2
     Proficiency: +31
-    To Hit: Magic: +48
+    To Hit: Magic: +54
 
   HEALTH POOLS:
     Vitality: 689 = 92d4 (2 x 92) + 91(flat) + 4 x 92(Con)
@@ -6083,14 +6058,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 19
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 93
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6114,7 +6089,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 2
     Proficiency: +31
-    To Hit: Magic: +48
+    To Hit: Magic: +54
 
   HEALTH POOLS:
     Vitality: 696 = 93d4 (2 x 93) + 92(flat) + 4 x 93(Con)
@@ -6150,14 +6125,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 20
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 93
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6181,7 +6156,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 2
     Proficiency: +32
-    To Hit: Magic: +49
+    To Hit: Magic: +55
 
   HEALTH POOLS:
     Vitality: 704 = 94d4 (2 x 94) + 93(flat) + 4 x 94(Con)
@@ -6217,14 +6192,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 20
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 95
     Psychic        : 3
     Radiant        : 1
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6248,7 +6223,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 2
     Proficiency: +32
-    To Hit: Magic: +49
+    To Hit: Magic: +55
 
   HEALTH POOLS:
     Vitality: 711 = 95d4 (2 x 95) + 94(flat) + 4 x 95(Con)
@@ -6284,14 +6259,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 20
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 95
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6315,7 +6290,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 2
     Proficiency: +32
-    To Hit: Magic: +49
+    To Hit: Magic: +55
 
   HEALTH POOLS:
     Vitality: 719 = 96d4 (2 x 96) + 95(flat) + 4 x 96(Con)
@@ -6351,14 +6326,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 20
-    Earth          : 20
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 95
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6382,7 +6357,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 2
     Proficiency: +33
-    To Hit: Magic: +50
+    To Hit: Magic: +56
 
   HEALTH POOLS:
     Vitality: 726 = 97d4 (2 x 97) + 96(flat) + 4 x 97(Con)
@@ -6418,14 +6393,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 20
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 97
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6449,7 +6424,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 2
     Proficiency: +33
-    To Hit: Magic: +50
+    To Hit: Magic: +56
 
   HEALTH POOLS:
     Vitality: 734 = 98d4 (2 x 98) + 97(flat) + 4 x 98(Con)
@@ -6485,14 +6460,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 5)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 20
-    Fire           : 18
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 97
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6516,7 +6491,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 2
     Proficiency: +33
-    To Hit: Magic: +53
+    To Hit: Magic: +59
 
   HEALTH POOLS:
     Vitality: 741 = 99d4 (2 x 99) + 98(flat) + 4 x 99(Con)
@@ -6552,14 +6527,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 20
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 103
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6583,7 +6558,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +54
+    To Hit: Magic: +60
 
   HEALTH POOLS:
     Vitality: 849 = 100d4 (2 x 100) + 99(flat) + 5 x 100(Con)
@@ -6619,14 +6594,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 20
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 105
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6650,7 +6625,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +54
+    To Hit: Magic: +60
 
   HEALTH POOLS:
     Vitality: 857 = 101d4 (2 x 101) + 100(flat) + 5 x 101(Con)
@@ -6686,14 +6661,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 21
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 105
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6717,7 +6692,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +34
-    To Hit: Magic: +54
+    To Hit: Magic: +60
 
   HEALTH POOLS:
     Vitality: 866 = 102d4 (2 x 102) + 101(flat) + 5 x 102(Con)
@@ -6753,14 +6728,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 21
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 105
     Psychic        : 3
     Radiant        : 1
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6784,7 +6759,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +35
-    To Hit: Magic: +55
+    To Hit: Magic: +61
 
   HEALTH POOLS:
     Vitality: 874 = 103d4 (2 x 103) + 102(flat) + 5 x 103(Con)
@@ -6820,14 +6795,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 21
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 107
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6851,7 +6826,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 2
     Proficiency: +35
-    To Hit: Magic: +55
+    To Hit: Magic: +61
 
   HEALTH POOLS:
     Vitality: 883 = 104d4 (2 x 104) + 103(flat) + 5 x 104(Con)
@@ -6887,14 +6862,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 21
-    Earth          : 21
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 107
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6918,7 +6893,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +35
-    To Hit: Magic: +55
+    To Hit: Magic: +61
 
   HEALTH POOLS:
     Vitality: 891 = 105d4 (2 x 105) + 104(flat) + 5 x 105(Con)
@@ -6954,14 +6929,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 21
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 107
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -6985,7 +6960,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +56
+    To Hit: Magic: +62
 
   HEALTH POOLS:
     Vitality: 900 = 106d4 (2 x 106) + 105(flat) + 5 x 106(Con)
@@ -7021,14 +6996,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 21
-    Fire           : 19
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 109
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7052,7 +7027,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +56
+    To Hit: Magic: +62
 
   HEALTH POOLS:
     Vitality: 908 = 107d4 (2 x 107) + 106(flat) + 5 x 107(Con)
@@ -7088,14 +7063,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 21
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 109
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7119,7 +7094,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +36
-    To Hit: Magic: +56
+    To Hit: Magic: +62
 
   HEALTH POOLS:
     Vitality: 917 = 108d4 (2 x 108) + 107(flat) + 5 x 108(Con)
@@ -7155,14 +7130,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 21
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 109
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7186,7 +7161,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +57
+    To Hit: Magic: +63
 
   HEALTH POOLS:
     Vitality: 925 = 109d4 (2 x 109) + 108(flat) + 5 x 109(Con)
@@ -7222,14 +7197,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 22
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 111
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7253,7 +7228,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +57
+    To Hit: Magic: +63
 
   HEALTH POOLS:
     Vitality: 934 = 110d4 (2 x 110) + 109(flat) + 5 x 110(Con)
@@ -7289,14 +7264,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 22
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 111
     Psychic        : 3
     Radiant        : 1
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7320,7 +7295,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 2
     Proficiency: +37
-    To Hit: Magic: +57
+    To Hit: Magic: +63
 
   HEALTH POOLS:
     Vitality: 942 = 111d4 (2 x 111) + 110(flat) + 5 x 111(Con)
@@ -7356,14 +7331,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 22
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 111
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7387,7 +7362,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 2
     Proficiency: +38
-    To Hit: Magic: +58
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 951 = 112d4 (2 x 112) + 111(flat) + 5 x 112(Con)
@@ -7423,14 +7398,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 22
-    Earth          : 22
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 113
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7454,7 +7429,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +38
-    To Hit: Magic: +58
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 959 = 113d4 (2 x 113) + 112(flat) + 5 x 113(Con)
@@ -7490,14 +7465,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 22
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 113
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7521,7 +7496,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +38
-    To Hit: Magic: +58
+    To Hit: Magic: +64
 
   HEALTH POOLS:
     Vitality: 968 = 114d4 (2 x 114) + 113(flat) + 5 x 114(Con)
@@ -7557,14 +7532,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 6)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 22
-    Fire           : 20
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 113
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7588,7 +7563,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +62
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 976 = 115d4 (2 x 115) + 114(flat) + 5 x 115(Con)
@@ -7624,14 +7599,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 22
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 122
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7655,7 +7630,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +62
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 985 = 116d4 (2 x 116) + 115(flat) + 5 x 116(Con)
@@ -7691,14 +7666,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 22
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 122
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7722,7 +7697,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +39
-    To Hit: Magic: +62
+    To Hit: Magic: +68
 
   HEALTH POOLS:
     Vitality: 993 = 117d4 (2 x 117) + 116(flat) + 5 x 117(Con)
@@ -7758,14 +7733,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 23
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 122
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7789,7 +7764,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +63
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 1002 = 118d4 (2 x 118) + 117(flat) + 5 x 118(Con)
@@ -7825,14 +7800,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 23
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 124
     Psychic        : 3
     Radiant        : 1
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7856,7 +7831,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +63
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 1010 = 119d4 (2 x 119) + 118(flat) + 5 x 119(Con)
@@ -7892,14 +7867,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 23
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 124
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7923,7 +7898,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 12  BAP: 15  RP: 2
     Proficiency: +40
-    To Hit: Magic: +63
+    To Hit: Magic: +69
 
   HEALTH POOLS:
     Vitality: 1019 = 120d4 (2 x 120) + 119(flat) + 5 x 120(Con)
@@ -7959,14 +7934,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 23
-    Earth          : 23
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 124
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -7990,7 +7965,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +64
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 1027 = 121d4 (2 x 121) + 120(flat) + 5 x 121(Con)
@@ -8026,14 +8001,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 23
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 126
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8057,7 +8032,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +64
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 1036 = 122d4 (2 x 122) + 121(flat) + 5 x 122(Con)
@@ -8093,14 +8068,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 23
-    Fire           : 21
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 126
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8124,7 +8099,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +41
-    To Hit: Magic: +64
+    To Hit: Magic: +70
 
   HEALTH POOLS:
     Vitality: 1044 = 123d4 (2 x 123) + 122(flat) + 5 x 123(Con)
@@ -8160,14 +8135,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 23
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 126
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8191,7 +8166,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +65
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 1053 = 124d4 (2 x 124) + 123(flat) + 5 x 124(Con)
@@ -8227,14 +8202,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 23
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 128
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8258,7 +8233,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +65
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 1061 = 125d4 (2 x 125) + 124(flat) + 5 x 125(Con)
@@ -8294,14 +8269,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 24
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 128
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8325,7 +8300,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +42
-    To Hit: Magic: +65
+    To Hit: Magic: +71
 
   HEALTH POOLS:
     Vitality: 1070 = 126d4 (2 x 126) + 125(flat) + 5 x 126(Con)
@@ -8361,14 +8336,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 24
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 128
     Psychic        : 3
     Radiant        : 1
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8392,7 +8367,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +43
-    To Hit: Magic: +66
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 1078 = 127d4 (2 x 127) + 126(flat) + 5 x 127(Con)
@@ -8428,14 +8403,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 24
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 130
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8459,7 +8434,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 16  RP: 2
     Proficiency: +43
-    To Hit: Magic: +66
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 1087 = 128d4 (2 x 128) + 127(flat) + 5 x 128(Con)
@@ -8495,14 +8470,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 24
-    Earth          : 24
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 130
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8526,7 +8501,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 17  RP: 2
     Proficiency: +43
-    To Hit: Magic: +66
+    To Hit: Magic: +72
 
   HEALTH POOLS:
     Vitality: 1095 = 129d4 (2 x 129) + 128(flat) + 5 x 129(Con)
@@ -8562,14 +8537,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 24
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 130
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8593,7 +8568,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 13  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +67
+    To Hit: Magic: +73
 
   HEALTH POOLS:
     Vitality: 1104 = 130d4 (2 x 130) + 129(flat) + 5 x 130(Con)
@@ -8629,14 +8604,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 7)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 24
-    Fire           : 22
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 132
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8660,7 +8635,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +71
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 1243 = 131d4 (2 x 131) + 130(flat) + 6 x 131(Con)
@@ -8696,14 +8671,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 24
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 140
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8727,7 +8702,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +44
-    To Hit: Magic: +71
+    To Hit: Magic: +77
 
   HEALTH POOLS:
     Vitality: 1253 = 132d4 (2 x 132) + 131(flat) + 6 x 132(Con)
@@ -8763,14 +8738,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 24
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 140
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8794,7 +8769,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +72
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 1262 = 133d4 (2 x 133) + 132(flat) + 6 x 133(Con)
@@ -8830,14 +8805,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 25
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 142
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8861,7 +8836,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +72
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 1272 = 134d4 (2 x 134) + 133(flat) + 6 x 134(Con)
@@ -8897,14 +8872,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 25
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 142
     Psychic        : 3
     Radiant        : 1
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8928,7 +8903,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +45
-    To Hit: Magic: +72
+    To Hit: Magic: +78
 
   HEALTH POOLS:
     Vitality: 1281 = 135d4 (2 x 135) + 134(flat) + 6 x 135(Con)
@@ -8964,14 +8939,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 25
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 142
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -8995,7 +8970,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 17  RP: 2
     Proficiency: +46
-    To Hit: Magic: +73
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 1291 = 136d4 (2 x 136) + 135(flat) + 6 x 136(Con)
@@ -9031,14 +9006,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 25
-    Earth          : 25
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 144
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9062,7 +9037,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +46
-    To Hit: Magic: +73
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 1300 = 137d4 (2 x 137) + 136(flat) + 6 x 137(Con)
@@ -9098,14 +9073,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 25
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 144
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9129,7 +9104,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +46
-    To Hit: Magic: +73
+    To Hit: Magic: +79
 
   HEALTH POOLS:
     Vitality: 1310 = 138d4 (2 x 138) + 137(flat) + 6 x 138(Con)
@@ -9165,14 +9140,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 25
-    Fire           : 23
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 144
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9196,7 +9171,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +74
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 1319 = 139d4 (2 x 139) + 138(flat) + 6 x 139(Con)
@@ -9232,14 +9207,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 25
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 146
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9263,7 +9238,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 14  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +74
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 1329 = 140d4 (2 x 140) + 139(flat) + 6 x 140(Con)
@@ -9299,14 +9274,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 25
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 146
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9330,7 +9305,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +47
-    To Hit: Magic: +74
+    To Hit: Magic: +80
 
   HEALTH POOLS:
     Vitality: 1338 = 141d4 (2 x 141) + 140(flat) + 6 x 141(Con)
@@ -9366,14 +9341,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 26
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 146
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9397,7 +9372,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +75
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1348 = 142d4 (2 x 142) + 141(flat) + 6 x 142(Con)
@@ -9433,14 +9408,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 26
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 148
     Psychic        : 3
     Radiant        : 1
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9464,7 +9439,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +75
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1357 = 143d4 (2 x 143) + 142(flat) + 6 x 143(Con)
@@ -9500,14 +9475,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 26
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 148
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9531,7 +9506,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 18  RP: 2
     Proficiency: +48
-    To Hit: Magic: +75
+    To Hit: Magic: +81
 
   HEALTH POOLS:
     Vitality: 1367 = 144d4 (2 x 144) + 143(flat) + 6 x 144(Con)
@@ -9567,14 +9542,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 26
-    Earth          : 26
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 148
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9598,7 +9573,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +76
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1376 = 145d4 (2 x 145) + 144(flat) + 6 x 145(Con)
@@ -9634,14 +9609,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 26
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 150
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9665,7 +9640,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +76
+    To Hit: Magic: +82
 
   HEALTH POOLS:
     Vitality: 1386 = 146d4 (2 x 146) + 145(flat) + 6 x 146(Con)
@@ -9701,14 +9676,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 8)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 26
-    Fire           : 24
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 150
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9732,7 +9707,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +49
-    To Hit: Magic: +81
+    To Hit: Magic: +87
 
   HEALTH POOLS:
     Vitality: 1395 = 147d4 (2 x 147) + 146(flat) + 6 x 147(Con)
@@ -9768,14 +9743,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 26
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 159
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9799,7 +9774,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1405 = 148d4 (2 x 148) + 147(flat) + 6 x 148(Con)
@@ -9835,14 +9810,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 26
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 161
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9866,7 +9841,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1414 = 149d4 (2 x 149) + 148(flat) + 6 x 149(Con)
@@ -9902,14 +9877,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 27
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 161
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -9933,7 +9908,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 15  BAP: 19  RP: 2
     Proficiency: +50
-    To Hit: Magic: +82
+    To Hit: Magic: +88
 
   HEALTH POOLS:
     Vitality: 1424 = 150d4 (2 x 150) + 149(flat) + 6 x 150(Con)
@@ -9969,14 +9944,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 27
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 161
     Psychic        : 3
     Radiant        : 1
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10000,7 +9975,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 19  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1433 = 151d4 (2 x 151) + 150(flat) + 6 x 151(Con)
@@ -10036,14 +10011,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 27
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 163
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10067,7 +10042,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 19  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1443 = 152d4 (2 x 152) + 151(flat) + 6 x 152(Con)
@@ -10103,14 +10078,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 27
-    Earth          : 27
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 163
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10134,7 +10109,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +51
-    To Hit: Magic: +83
+    To Hit: Magic: +89
 
   HEALTH POOLS:
     Vitality: 1452 = 153d4 (2 x 153) + 152(flat) + 6 x 153(Con)
@@ -10170,14 +10145,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 27
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 163
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10201,7 +10176,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1462 = 154d4 (2 x 154) + 153(flat) + 6 x 154(Con)
@@ -10237,14 +10212,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 27
-    Fire           : 25
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 165
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10268,7 +10243,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1471 = 155d4 (2 x 155) + 154(flat) + 6 x 155(Con)
@@ -10304,14 +10279,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 27
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 165
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10335,7 +10310,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +52
-    To Hit: Magic: +84
+    To Hit: Magic: +90
 
   HEALTH POOLS:
     Vitality: 1481 = 156d4 (2 x 156) + 155(flat) + 6 x 156(Con)
@@ -10371,14 +10346,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 27
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 165
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10402,7 +10377,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1490 = 157d4 (2 x 157) + 156(flat) + 6 x 157(Con)
@@ -10438,14 +10413,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 28
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 167
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10469,7 +10444,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1500 = 158d4 (2 x 158) + 157(flat) + 6 x 158(Con)
@@ -10505,14 +10480,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 28
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 167
     Psychic        : 3
     Radiant        : 1
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10536,7 +10511,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +53
-    To Hit: Magic: +85
+    To Hit: Magic: +91
 
   HEALTH POOLS:
     Vitality: 1509 = 159d4 (2 x 159) + 158(flat) + 6 x 159(Con)
@@ -10572,14 +10547,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 28
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 167
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10603,7 +10578,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 16  BAP: 20  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +92
 
   HEALTH POOLS:
     Vitality: 1519 = 160d4 (2 x 160) + 159(flat) + 6 x 160(Con)
@@ -10639,14 +10614,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 28
-    Earth          : 28
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 169
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10670,7 +10645,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +92
 
   HEALTH POOLS:
     Vitality: 1528 = 161d4 (2 x 161) + 160(flat) + 6 x 161(Con)
@@ -10706,14 +10681,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 28
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 169
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10737,7 +10712,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +54
-    To Hit: Magic: +86
+    To Hit: Magic: +92
 
   HEALTH POOLS:
     Vitality: 1538 = 162d4 (2 x 162) + 161(flat) + 6 x 162(Con)
@@ -10773,14 +10748,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 9)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 28
-    Fire           : 26
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 169
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10804,7 +10779,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +92
+    To Hit: Magic: +98
 
   HEALTH POOLS:
     Vitality: 1730 = 163d4 (2 x 163) + 182(flat) + 7 x 163(Con)
@@ -10840,14 +10815,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 28
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 181
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10871,7 +10846,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +92
+    To Hit: Magic: +98
 
   HEALTH POOLS:
     Vitality: 1741 = 164d4 (2 x 164) + 183(flat) + 7 x 164(Con)
@@ -10907,14 +10882,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 28
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 181
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -10938,7 +10913,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +55
-    To Hit: Magic: +92
+    To Hit: Magic: +98
 
   HEALTH POOLS:
     Vitality: 1751 = 165d4 (2 x 165) + 184(flat) + 7 x 165(Con)
@@ -10974,14 +10949,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 29
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 181
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11005,7 +10980,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +93
+    To Hit: Magic: +99
 
   HEALTH POOLS:
     Vitality: 1762 = 166d4 (2 x 166) + 185(flat) + 7 x 166(Con)
@@ -11041,14 +11016,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 29
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 183
     Psychic        : 3
     Radiant        : 1
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11072,7 +11047,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +93
+    To Hit: Magic: +99
 
   HEALTH POOLS:
     Vitality: 1772 = 167d4 (2 x 167) + 186(flat) + 7 x 167(Con)
@@ -11108,14 +11083,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 29
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 183
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11139,7 +11114,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 21  RP: 2
     Proficiency: +56
-    To Hit: Magic: +93
+    To Hit: Magic: +99
 
   HEALTH POOLS:
     Vitality: 1783 = 168d4 (2 x 168) + 187(flat) + 7 x 168(Con)
@@ -11175,14 +11150,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 29
-    Earth          : 29
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 183
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11206,7 +11181,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +94
+    To Hit: Magic: +100
 
   HEALTH POOLS:
     Vitality: 1793 = 169d4 (2 x 169) + 188(flat) + 7 x 169(Con)
@@ -11242,14 +11217,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 29
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 185
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11273,7 +11248,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 17  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +94
+    To Hit: Magic: +100
 
   HEALTH POOLS:
     Vitality: 1804 = 170d4 (2 x 170) + 189(flat) + 7 x 170(Con)
@@ -11309,14 +11284,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 29
-    Fire           : 27
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 185
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11340,7 +11315,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +57
-    To Hit: Magic: +94
+    To Hit: Magic: +100
 
   HEALTH POOLS:
     Vitality: 1814 = 171d4 (2 x 171) + 190(flat) + 7 x 171(Con)
@@ -11376,14 +11351,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 29
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 185
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11407,7 +11382,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +95
+    To Hit: Magic: +101
 
   HEALTH POOLS:
     Vitality: 1825 = 172d4 (2 x 172) + 191(flat) + 7 x 172(Con)
@@ -11443,14 +11418,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 29
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 187
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11474,7 +11449,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +95
+    To Hit: Magic: +101
 
   HEALTH POOLS:
     Vitality: 1835 = 173d4 (2 x 173) + 192(flat) + 7 x 173(Con)
@@ -11510,14 +11485,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 30
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 187
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11541,7 +11516,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +58
-    To Hit: Magic: +95
+    To Hit: Magic: +101
 
   HEALTH POOLS:
     Vitality: 1846 = 174d4 (2 x 174) + 193(flat) + 7 x 174(Con)
@@ -11577,14 +11552,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 30
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 187
     Psychic        : 3
     Radiant        : 1
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11608,7 +11583,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +59
-    To Hit: Magic: +96
+    To Hit: Magic: +102
 
   HEALTH POOLS:
     Vitality: 1856 = 175d4 (2 x 175) + 194(flat) + 7 x 175(Con)
@@ -11644,14 +11619,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 30
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 189
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11675,7 +11650,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 22  RP: 2
     Proficiency: +59
-    To Hit: Magic: +96
+    To Hit: Magic: +102
 
   HEALTH POOLS:
     Vitality: 1867 = 176d4 (2 x 176) + 195(flat) + 7 x 176(Con)
@@ -11711,14 +11686,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 30
-    Earth          : 30
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 189
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11742,7 +11717,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +59
-    To Hit: Magic: +96
+    To Hit: Magic: +102
 
   HEALTH POOLS:
     Vitality: 1877 = 177d4 (2 x 177) + 196(flat) + 7 x 177(Con)
@@ -11778,14 +11753,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 30
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 189
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11809,7 +11784,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +97
+    To Hit: Magic: +103
 
   HEALTH POOLS:
     Vitality: 1888 = 178d4 (2 x 178) + 197(flat) + 7 x 178(Con)
@@ -11845,14 +11820,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 30
-    Fire           : 28
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 191
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11876,7 +11851,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +97
+    To Hit: Magic: +103
 
   HEALTH POOLS:
     Vitality: 1898 = 179d4 (2 x 179) + 198(flat) + 7 x 179(Con)
@@ -11912,14 +11887,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 30
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 191
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -11943,7 +11918,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 18  BAP: 23  RP: 2
     Proficiency: +60
-    To Hit: Magic: +97
+    To Hit: Magic: +103
 
   HEALTH POOLS:
     Vitality: 1909 = 180d4 (2 x 180) + 199(flat) + 7 x 180(Con)
@@ -11979,14 +11954,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 30
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 191
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12010,7 +11985,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +98
+    To Hit: Magic: +104
 
   HEALTH POOLS:
     Vitality: 1919 = 181d4 (2 x 181) + 200(flat) + 7 x 181(Con)
@@ -12046,14 +12021,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 31
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 193
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12077,7 +12052,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +98
+    To Hit: Magic: +104
 
   HEALTH POOLS:
     Vitality: 1930 = 182d4 (2 x 182) + 201(flat) + 7 x 182(Con)
@@ -12113,14 +12088,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 31
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 193
     Psychic        : 3
     Radiant        : 1
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12144,7 +12119,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +61
-    To Hit: Magic: +98
+    To Hit: Magic: +104
 
   HEALTH POOLS:
     Vitality: 1940 = 183d4 (2 x 183) + 202(flat) + 7 x 183(Con)
@@ -12180,14 +12155,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 31
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 193
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12211,7 +12186,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 23  RP: 2
     Proficiency: +62
-    To Hit: Magic: +99
+    To Hit: Magic: +105
 
   HEALTH POOLS:
     Vitality: 1951 = 184d4 (2 x 184) + 203(flat) + 7 x 184(Con)
@@ -12247,14 +12222,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 31
-    Earth          : 31
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 195
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12278,7 +12253,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +62
-    To Hit: Magic: +99
+    To Hit: Magic: +105
 
   HEALTH POOLS:
     Vitality: 1961 = 185d4 (2 x 185) + 204(flat) + 7 x 185(Con)
@@ -12314,14 +12289,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 31
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 195
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12345,7 +12320,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +62
-    To Hit: Magic: +99
+    To Hit: Magic: +105
 
   HEALTH POOLS:
     Vitality: 1972 = 186d4 (2 x 186) + 205(flat) + 7 x 186(Con)
@@ -12381,14 +12356,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 31
-    Fire           : 29
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 195
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12412,7 +12387,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +100
+    To Hit: Magic: +106
 
   HEALTH POOLS:
     Vitality: 1982 = 187d4 (2 x 187) + 206(flat) + 7 x 187(Con)
@@ -12448,14 +12423,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 31
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 197
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12479,7 +12454,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +100
+    To Hit: Magic: +106
 
   HEALTH POOLS:
     Vitality: 1993 = 188d4 (2 x 188) + 207(flat) + 7 x 188(Con)
@@ -12515,14 +12490,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 31
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 197
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12546,7 +12521,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +63
-    To Hit: Magic: +100
+    To Hit: Magic: +106
 
   HEALTH POOLS:
     Vitality: 2003 = 189d4 (2 x 189) + 208(flat) + 7 x 189(Con)
@@ -12582,14 +12557,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 32
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 197
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12613,7 +12588,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 19  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +101
+    To Hit: Magic: +107
 
   HEALTH POOLS:
     Vitality: 2014 = 190d4 (2 x 190) + 209(flat) + 7 x 190(Con)
@@ -12649,14 +12624,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 32
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 199
     Psychic        : 3
     Radiant        : 1
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12680,7 +12655,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +101
+    To Hit: Magic: +107
 
   HEALTH POOLS:
     Vitality: 2024 = 191d4 (2 x 191) + 210(flat) + 7 x 191(Con)
@@ -12716,14 +12691,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 32
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 199
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12747,7 +12722,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 24  RP: 2
     Proficiency: +64
-    To Hit: Magic: +101
+    To Hit: Magic: +107
 
   HEALTH POOLS:
     Vitality: 2035 = 192d4 (2 x 192) + 211(flat) + 7 x 192(Con)
@@ -12783,14 +12758,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 32
-    Earth          : 32
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 199
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12814,7 +12789,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +102
+    To Hit: Magic: +108
 
   HEALTH POOLS:
     Vitality: 2045 = 193d4 (2 x 193) + 212(flat) + 7 x 193(Con)
@@ -12850,14 +12825,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 32
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 201
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12881,7 +12856,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +102
+    To Hit: Magic: +108
 
   HEALTH POOLS:
     Vitality: 2056 = 194d4 (2 x 194) + 213(flat) + 7 x 194(Con)
@@ -12917,14 +12892,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 32
-    Fire           : 30
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 201
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -12948,7 +12923,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +65
-    To Hit: Magic: +102
+    To Hit: Magic: +108
 
   HEALTH POOLS:
     Vitality: 2066 = 195d4 (2 x 195) + 214(flat) + 7 x 195(Con)
@@ -12984,14 +12959,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 32
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 201
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13015,7 +12990,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +103
+    To Hit: Magic: +109
 
   HEALTH POOLS:
     Vitality: 2077 = 196d4 (2 x 196) + 215(flat) + 7 x 196(Con)
@@ -13051,14 +13026,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 32
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 203
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13082,7 +13057,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +103
+    To Hit: Magic: +109
 
   HEALTH POOLS:
     Vitality: 2087 = 197d4 (2 x 197) + 216(flat) + 7 x 197(Con)
@@ -13118,14 +13093,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 33
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 203
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13149,7 +13124,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +66
-    To Hit: Magic: +103
+    To Hit: Magic: +109
 
   HEALTH POOLS:
     Vitality: 2098 = 198d4 (2 x 198) + 217(flat) + 7 x 198(Con)
@@ -13185,14 +13160,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 33
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 203
     Psychic        : 3
     Radiant        : 1
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13216,7 +13191,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +67
-    To Hit: Magic: +104
+    To Hit: Magic: +110
 
   HEALTH POOLS:
     Vitality: 2108 = 199d4 (2 x 199) + 218(flat) + 7 x 199(Con)
@@ -13252,14 +13227,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 33
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 205
     Psychic        : 3
     Radiant        : 1
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13283,7 +13258,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 20  BAP: 25  RP: 2
     Proficiency: +67
-    To Hit: Magic: +104
+    To Hit: Magic: +110
 
   HEALTH POOLS:
     Vitality: 2119 = 200d4 (2 x 200) + 219(flat) + 7 x 200(Con)
@@ -13319,14 +13294,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 33
-    Earth          : 33
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 205
     Psychic        : 3
     Radiant        : 1
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand
@@ -13350,7 +13325,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 35 ft
     AP: 21  BAP: 26  RP: 2
     Proficiency: +67
-    To Hit: Magic: +104
+    To Hit: Magic: +110
 
   HEALTH POOLS:
     Vitality: 2129 = 201d4 (2 x 201) + 220(flat) + 7 x 201(Con)
@@ -13386,14 +13361,14 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Racial -> Bugfolk Broodweaver (Lvl 10)
 
   AFFINITIES:
-    Air            : 34
-    Earth          : 33
-    Fire           : 31
+    Air            : 9
+    Earth          : 8
+    Fire           : 6
     Generic        : 2
     Necrotic       : 205
     Psychic        : 3
     Radiant        : 1
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: nerite_wand

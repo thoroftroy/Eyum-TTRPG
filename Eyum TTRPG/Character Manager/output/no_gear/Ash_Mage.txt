@@ -121,7 +121,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Necrotic       : 5
     Psychic        : -3
@@ -187,7 +187,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Necrotic       : 7
     Psychic        : -3
@@ -224,10 +224,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 18 (x18 mana)
-    Total Dmg/5R:  53
-    Total Dmg/10R: 82
-    Mana: 42 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 (x6 mana)
+    Total Dmg/5R:  45
+    Total Dmg/10R: 71
+    Mana: 42 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -253,8 +253,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Necrotic       : 7
     Psychic        : -3
@@ -291,10 +290,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 18 (x18 mana)
-    Total Dmg/5R:  58
-    Total Dmg/10R: 87
-    Mana: 51 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 (x6 mana)
+    Total Dmg/5R:  45
+    Total Dmg/10R: 77
+    Mana: 51 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -320,8 +319,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 4
+    Fire           : 3
     Generic        : 2
     Necrotic       : 7
     Psychic        : -3
@@ -358,10 +356,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 18 (x18 mana)
-    Total Dmg/5R:  78
-    Total Dmg/10R: 109
-    Mana: 78 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 (x6 mana)
+    Total Dmg/5R:  45
+    Total Dmg/10R: 90
+    Mana: 78 start, 18 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -387,13 +385,11 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 8
+    Fire           : 7
     Generic        : 2
     Necrotic       : 9
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -426,10 +422,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 18 (x18 mana)
-    Total Dmg/5R:  90
-    Total Dmg/10R: 121
-    Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 (x6 mana)
+    Total Dmg/5R:  45
+    Total Dmg/10R: 90
+    Mana: 90 start, 30 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -455,13 +451,11 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
-    Earth          : 1
-    Fire           : 8
+    Fire           : 7
     Generic        : 2
     Necrotic       : 9
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -494,10 +488,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x18 mana)
-    Total Dmg/5R:  115
-    Total Dmg/10R: 178
-    Mana: 101 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 | Dmg/Turn: 18 (x6 mana)
+    Total Dmg/5R:  90
+    Total Dmg/10R: 156
+    Mana: 101 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -521,15 +515,14 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 5
-    Fire           : 8
+    Earth          : 4
+    Fire           : 7
     Generic        : 2
     Necrotic       : 9
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -562,10 +555,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 18 | Dmg/Turn: 36 (x18 mana)
-    Total Dmg/5R:  133
-    Total Dmg/10R: 196
-    Mana: 113 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 | Dmg/Turn: 18 (x6 mana)
+    Total Dmg/5R:  90
+    Total Dmg/10R: 168
+    Mana: 113 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -589,15 +582,14 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : -3
     Cold           : -3
-    Earth          : 7
-    Fire           : 9
+    Earth          : 6
+    Fire           : 8
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 1
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -630,9 +622,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 40 | Dmg/Turn: 80 (x90 mana)
-    Total Dmg/5R:  103
-    Total Dmg/10R: 166
+    Magic Dmg/Cast: 9 | Dmg/Turn: 18 (x6 mana)
+    Total Dmg/5R:  90
+    Total Dmg/10R: 180
     Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -657,16 +649,15 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
-    Ash            : 0
+    Air            : -3
     Cold           : -3
-    Earth          : 7
-    Fire           : 10
+    Earth          : 6
+    Fire           : 8
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -699,10 +690,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 40 | Dmg/Turn: 80 (x90 mana)
-    Total Dmg/5R:  94
-    Total Dmg/10R: 157
-    Mana: 136 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 9 | Dmg/Turn: 18 (x6 mana)
+    Total Dmg/5R:  90
+    Total Dmg/10R: 180
+    Mana: 136 start, 16 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -726,16 +717,15 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
-    Ash            : 0
+    Air            : -3
     Cold           : -3
-    Earth          : 7
-    Fire           : 10
+    Earth          : 6
+    Fire           : 8
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 5
+    Water          : 4
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -759,7 +749,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +7
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 83 = 13d6 (3 x 13) + 12(flat) + 2 x 13(Con)
@@ -768,10 +758,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 25 | Dmg/Turn: 50 (x21 mana)
-    Total Dmg/5R:  188
-    Total Dmg/10R: 256
-    Mana: 147 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 19 | Dmg/Turn: 38 (x30 mana)
+    Total Dmg/5R:  104
+    Total Dmg/10R: 135
+    Mana: 147 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -795,16 +785,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Ash            : 6
+    Air            : 3
+    Ash            : 5
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 7
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -828,7 +818,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +7
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 90 = 14d6 (3 x 14) + 13(flat) + 2 x 14(Con)
@@ -837,10 +827,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 25 | Dmg/Turn: 50 (x21 mana)
-    Total Dmg/5R:  188
-    Total Dmg/10R: 256
-    Mana: 159 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 19 | Dmg/Turn: 38 (x30 mana)
+    Total Dmg/5R:  111
+    Total Dmg/10R: 143
+    Mana: 159 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -864,16 +854,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Ash            : 6
+    Air            : 3
+    Ash            : 5
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 3
-    Water          : 7
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -897,7 +887,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +7
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 96 = 15d6 (3 x 15) + 14(flat) + 2 x 15(Con)
@@ -906,10 +896,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 25 | Dmg/Turn: 50 (x21 mana)
-    Total Dmg/5R:  213
-    Total Dmg/10R: 281
-    Mana: 170 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 19 | Dmg/Turn: 38 (x30 mana)
+    Total Dmg/5R:  117
+    Total Dmg/10R: 149
+    Mana: 170 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -933,16 +923,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Ash            : 6
+    Air            : 3
+    Ash            : 5
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -966,7 +956,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +7
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 103 = 16d6 (3 x 16) + 15(flat) + 2 x 16(Con)
@@ -975,10 +965,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x48 mana)
-    Total Dmg/5R:  153
-    Total Dmg/10R: 216
-    Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 12 | Dmg/Turn: 24 (x7 mana)
+    Total Dmg/5R:  125
+    Total Dmg/10R: 250
+    Mana: 182 start, 42 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -1002,16 +992,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 4
-    Ash            : 8
+    Air            : 3
+    Ash            : 7
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1044,9 +1034,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x48 mana)
-    Total Dmg/5R:  174
-    Total Dmg/10R: 237
+    Magic Dmg/Cast: 17 | Dmg/Turn: 34 (x16 mana)
+    Total Dmg/5R:  171
+    Total Dmg/10R: 231
     Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1071,16 +1061,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 12
+    Air            : 3
+    Ash            : 11
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1113,10 +1103,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x48 mana)
-    Total Dmg/5R:  174
+    Magic Dmg/Cast: 17 | Dmg/Turn: 34 (x16 mana)
+    Total Dmg/5R:  171
     Total Dmg/10R: 237
-    Mana: 205 start, 13 after 10R (cast magic 10/10 rounds)
+    Mana: 205 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1140,16 +1130,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 12
+    Air            : 3
+    Ash            : 11
     Cold           : -3
-    Earth          : 10
-    Fire           : 11
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1182,10 +1172,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x48 mana)
-    Total Dmg/5R:  245
-    Total Dmg/10R: 330
-    Mana: 216 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x16 mana)
+    Total Dmg/5R:  232
+    Total Dmg/10R: 332
+    Mana: 216 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1209,16 +1199,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 22
+    Air            : 3
+    Ash            : 21
     Cold           : -3
-    Earth          : 10
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1251,10 +1241,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x48 mana)
-    Total Dmg/5R:  251
-    Total Dmg/10R: 336
-    Mana: 228 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x16 mana)
+    Total Dmg/5R:  232
+    Total Dmg/10R: 351
+    Mana: 228 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1278,16 +1268,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 22
+    Air            : 3
+    Ash            : 21
     Cold           : -3
-    Earth          : 10
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1311,7 +1301,7 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +11
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 114 = 21d4 (2 x 21) + 20(flat) + 2 x 21(Con)
@@ -1320,10 +1310,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x48 mana)
-    Total Dmg/5R:  257
-    Total Dmg/10R: 338
-    Mana: 260 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 20 | Dmg/Turn: 40 (x16 mana)
+    Total Dmg/5R:  208
+    Total Dmg/10R: 348
+    Mana: 260 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1347,16 +1337,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 19
+    Air            : 3
+    Ash            : 18
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1389,10 +1379,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x48 mana)
-    Total Dmg/5R:  274
-    Total Dmg/10R: 360
-    Mana: 273 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x16 mana)
+    Total Dmg/5R:  232
+    Total Dmg/10R: 404
+    Mana: 273 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  71
@@ -1416,16 +1406,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 24
+    Air            : 3
+    Ash            : 23
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 8
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1458,10 +1448,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x48 mana)
-    Total Dmg/5R:  299
-    Total Dmg/10R: 385
-    Mana: 285 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x16 mana)
+    Total Dmg/5R:  232
+    Total Dmg/10R: 408
+    Mana: 285 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  73
@@ -1485,16 +1475,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 24
+    Air            : 3
+    Ash            : 23
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1527,10 +1517,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x48 mana)
-    Total Dmg/5R:  313
-    Total Dmg/10R: 399
-    Mana: 298 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 46 (x16 mana)
+    Total Dmg/5R:  232
+    Total Dmg/10R: 431
+    Mana: 298 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  75
@@ -1554,16 +1544,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 5
-    Ash            : 24
+    Air            : 3
+    Ash            : 23
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1596,10 +1586,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  297
-    Total Dmg/10R: 425
-    Mana: 310 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  343
+    Total Dmg/10R: 407
+    Mana: 310 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  84
@@ -1623,16 +1613,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 26
+    Air            : 3
+    Ash            : 25
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1665,10 +1655,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  296
-    Total Dmg/10R: 424
-    Mana: 323 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  353
+    Total Dmg/10R: 417
+    Mana: 323 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1692,16 +1682,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 26
+    Air            : 3
+    Ash            : 25
     Cold           : -3
-    Earth          : 11
-    Fire           : 12
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1734,10 +1724,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  296
-    Total Dmg/10R: 424
-    Mana: 335 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  358
+    Total Dmg/10R: 421
+    Mana: 335 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1761,16 +1751,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 26
+    Air            : 3
+    Ash            : 25
     Cold           : -3
-    Earth          : 11
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1803,10 +1793,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 46 | Dmg/Turn: 138 (x48 mana)
-    Total Dmg/5R:  377
-    Total Dmg/10R: 505
-    Mana: 348 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 69 (x16 mana)
+    Total Dmg/5R:  349
+    Total Dmg/10R: 526
+    Mana: 348 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  92
@@ -1830,16 +1820,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 28
+    Air            : 3
+    Ash            : 27
     Cold           : -3
-    Earth          : 11
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1872,10 +1862,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 46 | Dmg/Turn: 138 (x48 mana)
-    Total Dmg/5R:  376
-    Total Dmg/10R: 504
-    Mana: 360 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 69 (x16 mana)
+    Total Dmg/5R:  349
+    Total Dmg/10R: 537
+    Mana: 360 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  94
@@ -1899,16 +1889,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 28
+    Air            : 3
+    Ash            : 27
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -1941,10 +1931,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 46 | Dmg/Turn: 138 (x48 mana)
-    Total Dmg/5R:  376
-    Total Dmg/10R: 504
-    Mana: 373 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 23 | Dmg/Turn: 69 (x16 mana)
+    Total Dmg/5R:  349
+    Total Dmg/10R: 560
+    Mana: 373 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  96
@@ -1968,16 +1958,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 28
+    Air            : 3
+    Ash            : 27
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 9
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2010,10 +2000,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  352
-    Total Dmg/10R: 480
-    Mana: 385 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  413
+    Total Dmg/10R: 477
+    Mana: 385 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -2037,16 +2027,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 30
+    Air            : 3
+    Ash            : 29
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2079,10 +2069,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  351
-    Total Dmg/10R: 480
-    Mana: 398 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  413
+    Total Dmg/10R: 487
+    Mana: 398 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -2106,16 +2096,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 6
-    Ash            : 30
+    Air            : 3
+    Ash            : 29
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2148,10 +2138,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  351
-    Total Dmg/10R: 480
-    Mana: 410 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  413
+    Total Dmg/10R: 491
+    Mana: 410 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  109
@@ -2175,16 +2165,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 30
+    Air            : 3
+    Ash            : 29
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2217,9 +2207,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  373
-    Total Dmg/10R: 501
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  413
+    Total Dmg/10R: 502
     Mana: 423 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2244,16 +2234,16 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 1)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 32
+    Air            : 3
+    Ash            : 31
     Cold           : -3
-    Earth          : 12
-    Fire           : 13
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 7
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2286,10 +2276,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  373
-    Total Dmg/10R: 501
-    Mana: 435 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  413
+    Total Dmg/10R: 519
+    Mana: 435 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  115
@@ -2313,17 +2303,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 32
+    Air            : 3
+    Ash            : 31
     Cold           : -3
-    Earth          : 12
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2356,10 +2346,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 55 | Dmg/Turn: 165 (x75 mana)
-    Total Dmg/5R:  372
-    Total Dmg/10R: 500
-    Mana: 448 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 27 | Dmg/Turn: 81 (x25 mana)
+    Total Dmg/5R:  413
+    Total Dmg/10R: 529
+    Mana: 448 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  117
@@ -2383,17 +2373,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 32
+    Air            : 3
+    Ash            : 31
     Cold           : -3
-    Earth          : 12
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2426,10 +2416,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 58 | Dmg/Turn: 174 (x75 mana)
-    Total Dmg/5R:  485
-    Total Dmg/10R: 670
-    Mana: 497 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 29 | Dmg/Turn: 87 (x25 mana)
+    Total Dmg/5R:  441
+    Total Dmg/10R: 619
+    Mana: 497 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  121
@@ -2453,17 +2443,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 34
+    Air            : 3
+    Ash            : 33
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2496,10 +2486,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 58 | Dmg/Turn: 174 (x75 mana)
-    Total Dmg/5R:  477
-    Total Dmg/10R: 663
-    Mana: 511 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 29 | Dmg/Turn: 87 (x25 mana)
+    Total Dmg/5R:  441
+    Total Dmg/10R: 640
+    Mana: 511 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2523,17 +2513,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 34
+    Air            : 3
+    Ash            : 33
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 10
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2566,10 +2556,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 64 | Dmg/Turn: 192 (x75 mana)
-    Total Dmg/5R:  532
-    Total Dmg/10R: 803
-    Mana: 524 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 96 (x25 mana)
+    Total Dmg/5R:  484
+    Total Dmg/10R: 718
+    Mana: 524 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2593,17 +2583,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 34
+    Air            : 3
+    Ash            : 33
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2636,10 +2626,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 64 | Dmg/Turn: 192 (x75 mana)
-    Total Dmg/5R:  560
-    Total Dmg/10R: 831
-    Mana: 538 start, 13 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 96 (x25 mana)
+    Total Dmg/5R:  484
+    Total Dmg/10R: 742
+    Mana: 538 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  129
@@ -2663,17 +2653,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 7
-    Ash            : 36
+    Air            : 3
+    Ash            : 35
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2706,10 +2696,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 70 | Dmg/Turn: 280 (x75 mana)
-    Total Dmg/5R:  723
-    Total Dmg/10R: 1198
-    Mana: 551 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 35 | Dmg/Turn: 140 (x25 mana)
+    Total Dmg/5R:  703
+    Total Dmg/10R: 963
+    Mana: 551 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -2733,17 +2723,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 36
+    Air            : 3
+    Ash            : 35
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2776,10 +2766,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 70 | Dmg/Turn: 280 (x75 mana)
-    Total Dmg/5R:  672
-    Total Dmg/10R: 1147
-    Mana: 565 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 35 | Dmg/Turn: 140 (x25 mana)
+    Total Dmg/5R:  703
+    Total Dmg/10R: 956
+    Mana: 565 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -2803,17 +2793,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 36
+    Air            : 3
+    Ash            : 35
     Cold           : -3
-    Earth          : 13
-    Fire           : 14
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2846,10 +2836,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 76 | Dmg/Turn: 304 (x75 mana)
-    Total Dmg/5R:  835
-    Total Dmg/10R: 1424
-    Mana: 578 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 152 (x25 mana)
+    Total Dmg/5R:  760
+    Total Dmg/10R: 1109
+    Mana: 578 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  142
@@ -2873,17 +2863,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 38
+    Air            : 3
+    Ash            : 37
     Cold           : -3
-    Earth          : 13
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2916,10 +2906,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 76 | Dmg/Turn: 304 (x75 mana)
-    Total Dmg/5R:  768
-    Total Dmg/10R: 1357
-    Mana: 592 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 152 (x25 mana)
+    Total Dmg/5R:  760
+    Total Dmg/10R: 1084
+    Mana: 592 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -2943,17 +2933,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 38
+    Air            : 3
+    Ash            : 37
     Cold           : -3
-    Earth          : 13
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -2986,10 +2976,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 81 | Dmg/Turn: 324 (x75 mana)
-    Total Dmg/5R:  1075
-    Total Dmg/10R: 1778
-    Mana: 605 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 40 | Dmg/Turn: 160 (x25 mana)
+    Total Dmg/5R:  817
+    Total Dmg/10R: 1219
+    Mana: 605 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -3013,17 +3003,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 38
+    Air            : 3
+    Ash            : 37
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3056,10 +3046,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 81 | Dmg/Turn: 324 (x75 mana)
-    Total Dmg/5R:  992
-    Total Dmg/10R: 1695
-    Mana: 619 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 40 | Dmg/Turn: 160 (x25 mana)
+    Total Dmg/5R:  817
+    Total Dmg/10R: 1227
+    Mana: 619 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  150
@@ -3083,17 +3073,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 40
+    Air            : 3
+    Ash            : 39
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 11
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3126,10 +3116,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 87 | Dmg/Turn: 348 (x75 mana)
-    Total Dmg/5R:  1085
-    Total Dmg/10R: 1902
-    Mana: 632 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 43 | Dmg/Turn: 172 (x25 mana)
+    Total Dmg/5R:  873
+    Total Dmg/10R: 1285
+    Mana: 632 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3153,17 +3143,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 40
+    Air            : 3
+    Ash            : 39
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3196,10 +3186,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 87 | Dmg/Turn: 348 (x75 mana)
-    Total Dmg/5R:  1144
-    Total Dmg/10R: 1961
-    Mana: 646 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 43 | Dmg/Turn: 172 (x25 mana)
+    Total Dmg/5R:  873
+    Total Dmg/10R: 1245
+    Mana: 646 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3223,17 +3213,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 8
-    Ash            : 40
+    Air            : 3
+    Ash            : 39
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3266,10 +3256,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 93 | Dmg/Turn: 372 (x75 mana)
-    Total Dmg/5R:  1089
-    Total Dmg/10R: 2020
-    Mana: 708 start, 12 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 46 | Dmg/Turn: 184 (x25 mana)
+    Total Dmg/5R:  931
+    Total Dmg/10R: 1522
+    Mana: 708 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  163
@@ -3293,17 +3283,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 42
+    Air            : 3
+    Ash            : 41
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3336,9 +3326,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 93 | Dmg/Turn: 372 (x75 mana)
-    Total Dmg/5R:  1108
-    Total Dmg/10R: 2039
+    Magic Dmg/Cast: 46 | Dmg/Turn: 184 (x25 mana)
+    Total Dmg/5R:  931
+    Total Dmg/10R: 1471
     Mana: 723 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3363,17 +3353,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 2)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 42
+    Air            : 3
+    Ash            : 41
     Cold           : -3
-    Earth          : 14
-    Fire           : 15
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3406,10 +3396,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 93 | Dmg/Turn: 372 (x75 mana)
-    Total Dmg/5R:  1108
-    Total Dmg/10R: 2039
-    Mana: 737 start, 14 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 46 | Dmg/Turn: 184 (x25 mana)
+    Total Dmg/5R:  931
+    Total Dmg/10R: 1417
+    Mana: 737 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3433,17 +3423,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 42
+    Air            : 3
+    Ash            : 41
     Cold           : -3
-    Earth          : 14
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3476,9 +3466,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 93 | Dmg/Turn: 372 (x75 mana)
-    Total Dmg/5R:  1303
-    Total Dmg/10R: 2234
+    Magic Dmg/Cast: 46 | Dmg/Turn: 184 (x25 mana)
+    Total Dmg/5R:  931
+    Total Dmg/10R: 1582
     Mana: 752 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3503,17 +3493,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 44
+    Air            : 3
+    Ash            : 43
     Cold           : -3
-    Earth          : 14
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3546,9 +3536,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 96 | Dmg/Turn: 384 (x75 mana)
-    Total Dmg/5R:  1461
-    Total Dmg/10R: 2468
+    Magic Dmg/Cast: 48 | Dmg/Turn: 192 (x25 mana)
+    Total Dmg/5R:  968
+    Total Dmg/10R: 1889
     Mana: 978 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3573,17 +3563,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 44
+    Air            : 3
+    Ash            : 43
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3616,10 +3606,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 96 | Dmg/Turn: 384 (x75 mana)
-    Total Dmg/5R:  1328
-    Total Dmg/10R: 2335
-    Mana: 997 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 192 (x25 mana)
+    Total Dmg/5R:  968
+    Total Dmg/10R: 1889
+    Mana: 997 start, 22 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3643,17 +3633,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 44
+    Air            : 3
+    Ash            : 43
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 12
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3686,10 +3676,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 96 | Dmg/Turn: 384 (x75 mana)
-    Total Dmg/5R:  1328
-    Total Dmg/10R: 2210
-    Mana: 1015 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 192 (x25 mana)
+    Total Dmg/5R:  968
+    Total Dmg/10R: 1937
+    Mana: 1015 start, 15 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -3713,17 +3703,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 46
+    Air            : 3
+    Ash            : 45
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3756,10 +3746,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 96 | Dmg/Turn: 384 (x75 mana)
-    Total Dmg/5R:  1348
-    Total Dmg/10R: 2355
-    Mana: 1034 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 192 (x25 mana)
+    Total Dmg/5R:  968
+    Total Dmg/10R: 1937
+    Mana: 1034 start, 34 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -3783,17 +3773,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 9
-    Ash            : 46
+    Air            : 3
+    Ash            : 45
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3826,9 +3816,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1860
-    Total Dmg/10R: 3118
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2160
     Mana: 1052 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3853,17 +3843,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 46
+    Air            : 3
+    Ash            : 45
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3896,10 +3886,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1677
-    Total Dmg/10R: 2936
-    Mana: 1071 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2079
+    Mana: 1071 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -3923,17 +3913,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 48
+    Air            : 3
+    Ash            : 47
     Cold           : -3
-    Earth          : 15
-    Fire           : 16
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -3966,10 +3956,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1502
-    Total Dmg/10R: 2761
-    Mana: 1089 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2152
+    Mana: 1089 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  194
@@ -3993,17 +3983,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 48
+    Air            : 3
+    Ash            : 47
     Cold           : -3
-    Earth          : 15
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4036,10 +4026,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1696
-    Total Dmg/10R: 2955
-    Mana: 1108 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2166
+    Mana: 1108 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -4063,17 +4053,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 48
+    Air            : 3
+    Ash            : 47
     Cold           : -3
-    Earth          : 15
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4106,9 +4096,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1956
-    Total Dmg/10R: 3215
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2306
     Mana: 1126 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4133,17 +4123,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 50
+    Air            : 3
+    Ash            : 49
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4176,10 +4166,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1783
-    Total Dmg/10R: 3041
-    Mana: 1145 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2224
+    Mana: 1145 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  202
@@ -4203,17 +4193,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 50
+    Air            : 3
+    Ash            : 49
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 13
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4246,10 +4236,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1600
-    Total Dmg/10R: 2859
-    Mana: 1163 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2228
+    Mana: 1163 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4273,17 +4263,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 50
+    Air            : 3
+    Ash            : 49
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4316,10 +4306,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1793
-    Total Dmg/10R: 3052
-    Mana: 1182 start, 9 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2277
+    Mana: 1182 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  208
@@ -4343,17 +4333,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 10
-    Ash            : 52
+    Air            : 3
+    Ash            : 51
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4386,9 +4376,9 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1802
-    Total Dmg/10R: 3060
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2325
     Mana: 1200 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4413,17 +4403,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 52
+    Air            : 3
+    Ash            : 51
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4456,10 +4446,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1629
-    Total Dmg/10R: 2887
-    Mana: 1219 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2325
+    Mana: 1219 start, 19 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  217
@@ -4483,17 +4473,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 52
+    Air            : 3
+    Ash            : 51
     Cold           : -3
-    Earth          : 16
-    Fire           : 17
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4526,10 +4516,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1619
-    Total Dmg/10R: 2706
-    Mana: 1237 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2374
+    Mana: 1237 start, 12 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4553,17 +4543,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 54
+    Air            : 3
+    Ash            : 53
     Cold           : -3
-    Earth          : 16
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4596,10 +4586,10 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 96 | Dmg/Turn: 480 (x75 mana)
-    Total Dmg/5R:  1638
-    Total Dmg/10R: 2897
-    Mana: 1256 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 240 (x25 mana)
+    Total Dmg/5R:  1211
+    Total Dmg/10R: 2422
+    Mana: 1256 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  223
@@ -4623,17 +4613,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 54
+    Air            : 3
+    Ash            : 53
     Cold           : -3
-    Earth          : 16
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4693,17 +4683,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 54
+    Air            : 3
+    Ash            : 53
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4763,17 +4753,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 56
+    Air            : 3
+    Ash            : 55
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 14
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4833,17 +4823,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 56
+    Air            : 3
+    Ash            : 55
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4903,17 +4893,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 11
-    Ash            : 56
+    Air            : 3
+    Ash            : 55
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -4973,17 +4963,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 58
+    Air            : 3
+    Ash            : 57
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5043,17 +5033,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 58
+    Air            : 3
+    Ash            : 57
     Cold           : -3
-    Earth          : 17
-    Fire           : 18
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5113,17 +5103,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 58
+    Air            : 3
+    Ash            : 57
     Cold           : -3
-    Earth          : 17
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5183,17 +5173,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 60
+    Air            : 3
+    Ash            : 59
     Cold           : -3
-    Earth          : 17
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5253,17 +5243,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 60
+    Air            : 3
+    Ash            : 59
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5323,17 +5313,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 60
+    Air            : 3
+    Ash            : 59
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 15
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5393,17 +5383,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 62
+    Air            : 3
+    Ash            : 61
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5463,17 +5453,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 12
-    Ash            : 62
+    Air            : 3
+    Ash            : 61
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5533,17 +5523,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 62
+    Air            : 3
+    Ash            : 61
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5603,17 +5593,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 64
+    Air            : 3
+    Ash            : 63
     Cold           : -3
-    Earth          : 18
-    Fire           : 19
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5673,17 +5663,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 64
+    Air            : 3
+    Ash            : 63
     Cold           : -3
-    Earth          : 18
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5743,17 +5733,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 64
+    Air            : 3
+    Ash            : 63
     Cold           : -3
-    Earth          : 18
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5813,17 +5803,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 66
+    Air            : 3
+    Ash            : 65
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5883,17 +5873,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 66
+    Air            : 3
+    Ash            : 65
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 16
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -5953,17 +5943,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 66
+    Air            : 3
+    Ash            : 65
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6023,17 +6013,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 13
-    Ash            : 68
+    Air            : 3
+    Ash            : 67
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6093,17 +6083,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 68
+    Air            : 3
+    Ash            : 67
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6163,17 +6153,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 68
+    Air            : 3
+    Ash            : 67
     Cold           : -3
-    Earth          : 19
-    Fire           : 20
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6233,17 +6223,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 70
+    Air            : 3
+    Ash            : 69
     Cold           : -3
-    Earth          : 19
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6303,17 +6293,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 70
+    Air            : 3
+    Ash            : 69
     Cold           : -3
-    Earth          : 19
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6373,17 +6363,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 70
+    Air            : 3
+    Ash            : 69
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6443,17 +6433,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 72
+    Air            : 3
+    Ash            : 71
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 17
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6513,17 +6503,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 72
+    Air            : 3
+    Ash            : 71
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6583,17 +6573,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 14
-    Ash            : 72
+    Air            : 3
+    Ash            : 71
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6653,17 +6643,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 74
+    Air            : 3
+    Ash            : 73
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6723,17 +6713,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 74
+    Air            : 3
+    Ash            : 73
     Cold           : -3
-    Earth          : 20
-    Fire           : 21
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6793,17 +6783,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 74
+    Air            : 3
+    Ash            : 73
     Cold           : -3
-    Earth          : 20
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6863,17 +6853,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 76
+    Air            : 3
+    Ash            : 75
     Cold           : -3
-    Earth          : 20
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -6933,17 +6923,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 76
+    Air            : 3
+    Ash            : 75
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7003,17 +6993,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 76
+    Air            : 3
+    Ash            : 75
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 18
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7073,17 +7063,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 78
+    Air            : 3
+    Ash            : 77
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7143,17 +7133,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 15
-    Ash            : 78
+    Air            : 3
+    Ash            : 77
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7213,17 +7203,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 78
+    Air            : 3
+    Ash            : 77
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7283,17 +7273,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 80
+    Air            : 3
+    Ash            : 79
     Cold           : -3
-    Earth          : 21
-    Fire           : 22
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7353,17 +7343,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 80
+    Air            : 3
+    Ash            : 79
     Cold           : -3
-    Earth          : 21
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7423,17 +7413,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 80
+    Air            : 3
+    Ash            : 79
     Cold           : -3
-    Earth          : 21
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7493,17 +7483,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 82
+    Air            : 3
+    Ash            : 81
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7563,17 +7553,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 82
+    Air            : 3
+    Ash            : 81
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 19
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7633,17 +7623,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 82
+    Air            : 3
+    Ash            : 81
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7703,17 +7693,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 16
-    Ash            : 84
+    Air            : 3
+    Ash            : 83
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7773,17 +7763,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 84
+    Air            : 3
+    Ash            : 83
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7843,17 +7833,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 84
+    Air            : 3
+    Ash            : 83
     Cold           : -3
-    Earth          : 22
-    Fire           : 23
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7913,17 +7903,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 86
+    Air            : 3
+    Ash            : 85
     Cold           : -3
-    Earth          : 22
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -7983,17 +7973,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 86
+    Air            : 3
+    Ash            : 85
     Cold           : -3
-    Earth          : 22
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8053,17 +8043,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 86
+    Air            : 3
+    Ash            : 85
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8123,17 +8113,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 88
+    Air            : 3
+    Ash            : 87
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 20
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8193,17 +8183,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 88
+    Air            : 3
+    Ash            : 87
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8263,17 +8253,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 17
-    Ash            : 88
+    Air            : 3
+    Ash            : 87
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8333,17 +8323,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 90
+    Air            : 3
+    Ash            : 89
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8403,17 +8393,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 90
+    Air            : 3
+    Ash            : 89
     Cold           : -3
-    Earth          : 23
-    Fire           : 24
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8473,17 +8463,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 90
+    Air            : 3
+    Ash            : 89
     Cold           : -3
-    Earth          : 23
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8543,17 +8533,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 92
+    Air            : 3
+    Ash            : 91
     Cold           : -3
-    Earth          : 23
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8613,17 +8603,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 92
+    Air            : 3
+    Ash            : 91
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8683,17 +8673,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 92
+    Air            : 3
+    Ash            : 91
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 21
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8753,17 +8743,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 94
+    Air            : 3
+    Ash            : 93
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8823,17 +8813,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 18
-    Ash            : 94
+    Air            : 3
+    Ash            : 93
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8893,17 +8883,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 94
+    Air            : 3
+    Ash            : 93
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -8963,17 +8953,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 96
+    Air            : 3
+    Ash            : 95
     Cold           : -3
-    Earth          : 24
-    Fire           : 25
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9033,17 +9023,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 96
+    Air            : 3
+    Ash            : 95
     Cold           : -3
-    Earth          : 24
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9103,17 +9093,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 96
+    Air            : 3
+    Ash            : 95
     Cold           : -3
-    Earth          : 24
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9173,17 +9163,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 98
+    Air            : 3
+    Ash            : 97
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9243,17 +9233,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 98
+    Air            : 3
+    Ash            : 97
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 22
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9313,17 +9303,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 98
+    Air            : 3
+    Ash            : 97
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9383,17 +9373,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 19
-    Ash            : 100
+    Air            : 3
+    Ash            : 99
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9453,17 +9443,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 100
+    Air            : 3
+    Ash            : 99
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9523,17 +9513,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 100
+    Air            : 3
+    Ash            : 99
     Cold           : -3
-    Earth          : 25
-    Fire           : 26
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9593,17 +9583,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 102
+    Air            : 3
+    Ash            : 101
     Cold           : -3
-    Earth          : 25
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9663,17 +9653,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 102
+    Air            : 3
+    Ash            : 101
     Cold           : -3
-    Earth          : 25
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9733,17 +9723,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 102
+    Air            : 3
+    Ash            : 101
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9803,17 +9793,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 104
+    Air            : 3
+    Ash            : 103
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 23
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9873,17 +9863,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 104
+    Air            : 3
+    Ash            : 103
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -9943,17 +9933,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 20
-    Ash            : 104
+    Air            : 3
+    Ash            : 103
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10013,17 +10003,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 106
+    Air            : 3
+    Ash            : 105
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10083,17 +10073,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 106
+    Air            : 3
+    Ash            : 105
     Cold           : -3
-    Earth          : 26
-    Fire           : 27
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10153,17 +10143,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 106
+    Air            : 3
+    Ash            : 105
     Cold           : -3
-    Earth          : 26
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10223,17 +10213,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 108
+    Air            : 3
+    Ash            : 107
     Cold           : -3
-    Earth          : 26
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10293,17 +10283,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 108
+    Air            : 3
+    Ash            : 107
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10363,17 +10353,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 108
+    Air            : 3
+    Ash            : 107
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 24
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10433,17 +10423,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 110
+    Air            : 3
+    Ash            : 109
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10503,17 +10493,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 21
-    Ash            : 110
+    Air            : 3
+    Ash            : 109
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10573,17 +10563,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 110
+    Air            : 3
+    Ash            : 109
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10643,17 +10633,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 112
+    Air            : 3
+    Ash            : 111
     Cold           : -3
-    Earth          : 27
-    Fire           : 28
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10713,17 +10703,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 112
+    Air            : 3
+    Ash            : 111
     Cold           : -3
-    Earth          : 27
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10783,17 +10773,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 112
+    Air            : 3
+    Ash            : 111
     Cold           : -3
-    Earth          : 27
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10853,17 +10843,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 114
+    Air            : 3
+    Ash            : 113
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10923,17 +10913,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 114
+    Air            : 3
+    Ash            : 113
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 25
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -10993,17 +10983,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 114
+    Air            : 3
+    Ash            : 113
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11063,17 +11053,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 22
-    Ash            : 116
+    Air            : 3
+    Ash            : 115
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11133,17 +11123,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 116
+    Air            : 3
+    Ash            : 115
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11203,17 +11193,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 116
+    Air            : 3
+    Ash            : 115
     Cold           : -3
-    Earth          : 28
-    Fire           : 29
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11273,17 +11263,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 118
+    Air            : 3
+    Ash            : 117
     Cold           : -3
-    Earth          : 28
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11343,17 +11333,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 118
+    Air            : 3
+    Ash            : 117
     Cold           : -3
-    Earth          : 28
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11413,17 +11403,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 118
+    Air            : 3
+    Ash            : 117
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11483,17 +11473,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 120
+    Air            : 3
+    Ash            : 119
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 26
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11553,17 +11543,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 120
+    Air            : 3
+    Ash            : 119
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11623,17 +11613,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 23
-    Ash            : 120
+    Air            : 3
+    Ash            : 119
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11693,17 +11683,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 122
+    Air            : 3
+    Ash            : 121
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11763,17 +11753,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 122
+    Air            : 3
+    Ash            : 121
     Cold           : -3
-    Earth          : 29
-    Fire           : 30
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11833,17 +11823,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 122
+    Air            : 3
+    Ash            : 121
     Cold           : -3
-    Earth          : 29
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11903,17 +11893,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 124
+    Air            : 3
+    Ash            : 123
     Cold           : -3
-    Earth          : 29
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -11973,17 +11963,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 124
+    Air            : 3
+    Ash            : 123
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12043,17 +12033,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 124
+    Air            : 3
+    Ash            : 123
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 27
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12113,17 +12103,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 126
+    Air            : 3
+    Ash            : 125
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12183,17 +12173,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 24
-    Ash            : 126
+    Air            : 3
+    Ash            : 125
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12253,17 +12243,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 126
+    Air            : 3
+    Ash            : 125
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12323,17 +12313,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 128
+    Air            : 3
+    Ash            : 127
     Cold           : -3
-    Earth          : 30
-    Fire           : 31
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12393,17 +12383,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 128
+    Air            : 3
+    Ash            : 127
     Cold           : -3
-    Earth          : 30
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12463,17 +12453,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 128
+    Air            : 3
+    Ash            : 127
     Cold           : -3
-    Earth          : 30
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12533,17 +12523,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 130
+    Air            : 3
+    Ash            : 129
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12603,17 +12593,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 130
+    Air            : 3
+    Ash            : 129
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 28
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12673,17 +12663,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 130
+    Air            : 3
+    Ash            : 129
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12743,17 +12733,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 25
-    Ash            : 132
+    Air            : 3
+    Ash            : 131
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12813,17 +12803,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 132
+    Air            : 3
+    Ash            : 131
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12883,17 +12873,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 132
+    Air            : 3
+    Ash            : 131
     Cold           : -3
-    Earth          : 31
-    Fire           : 32
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -12953,17 +12943,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 134
+    Air            : 3
+    Ash            : 133
     Cold           : -3
-    Earth          : 31
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13023,17 +13013,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 134
+    Air            : 3
+    Ash            : 133
     Cold           : -3
-    Earth          : 31
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13093,17 +13083,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 134
+    Air            : 3
+    Ash            : 133
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13163,17 +13153,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 136
+    Air            : 3
+    Ash            : 135
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 29
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13233,17 +13223,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 136
+    Air            : 3
+    Ash            : 135
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13303,17 +13293,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 26
-    Ash            : 136
+    Air            : 3
+    Ash            : 135
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13373,17 +13363,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 138
+    Air            : 3
+    Ash            : 137
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13443,17 +13433,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 138
+    Air            : 3
+    Ash            : 137
     Cold           : -3
-    Earth          : 32
-    Fire           : 33
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13513,17 +13503,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 138
+    Air            : 3
+    Ash            : 137
     Cold           : -3
-    Earth          : 32
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13583,17 +13573,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 140
+    Air            : 3
+    Ash            : 139
     Cold           : -3
-    Earth          : 32
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13653,17 +13643,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 140
+    Air            : 3
+    Ash            : 139
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13723,17 +13713,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 140
+    Air            : 3
+    Ash            : 139
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 30
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13793,17 +13783,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 142
+    Air            : 3
+    Ash            : 141
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13863,17 +13853,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 27
-    Ash            : 142
+    Air            : 3
+    Ash            : 141
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
@@ -13933,17 +13923,17 @@ EYUM TTRPG - ASH MAGE (NO GEAR)
     Racial -> Demon Sylphamare (Lvl 3)
 
   AFFINITIES:
-    Air            : 28
-    Ash            : 142
+    Air            : 3
+    Ash            : 141
     Cold           : -3
-    Earth          : 33
-    Fire           : 34
+    Earth          : 8
+    Fire           : 10
     Generic        : 2
     Infernal       : 5
     Necrotic       : 10
     Psychic        : -3
     Radiant        : 12
-    Water          : 31
+    Water          : 6
 
   GEAR:
     Weapon: Unarmed (1d4 Bludgeoning)
