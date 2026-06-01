@@ -75,8 +75,8 @@ AVG_LINE_STYLE = '--'
 HOVER_ALPHA = 0.15
 FOCUSED_ALPHA = 1.0
 
-plt.rcParams['figure.facecolor'] = '#fafafa'
-plt.rcParams['axes.facecolor'] = '#fafafa'
+plt.rcParams['figure.facecolor'] = '#1e1e1e'
+plt.rcParams['axes.facecolor'] = '#252525'
 plt.rcParams['axes.grid'] = True
 plt.rcParams['grid.alpha'] = 0.3
 
@@ -250,6 +250,7 @@ class CharacterManagerGUI:
         self.root.title("Eyum TTRPG Character Manager - Balance Visualizer")
         self.root.geometry("1400x900")
         self.root.minsize(1000, 650)
+        self._apply_dark_theme()
 
         self.data = None
         self.current_tier = None
@@ -296,6 +297,80 @@ class CharacterManagerGUI:
         self.original_backups = get_original_backup()
 
         self.root.after(500, self._initial_generate)
+
+    def _apply_dark_theme(self):
+        DARK_BG = '#1b1b1b'
+        DARK_FG = '#e0e0e0'
+        DARK_ENTRY = '#2b2b2b'
+        DARK_BUTTON = '#333333'
+        DARK_SELECT = '#264f78'
+
+        self.root.configure(bg=DARK_BG)
+        self.root.option_add('*background', DARK_BG)
+        self.root.option_add('*foreground', DARK_FG)
+        self.root.option_add('*selectBackground', DARK_SELECT)
+        self.root.option_add('*selectForeground', '#ffffff')
+
+        self.root.option_add('*Entry.background', DARK_ENTRY)
+        self.root.option_add('*Entry.foreground', DARK_FG)
+        self.root.option_add('*Entry.insertBackground', DARK_FG)
+        self.root.option_add('*Entry.highlightBackground', DARK_SELECT)
+        self.root.option_add('*Entry.highlightColor', DARK_SELECT)
+
+        self.root.option_add('*Listbox.background', DARK_ENTRY)
+        self.root.option_add('*Listbox.foreground', DARK_FG)
+
+        self.root.option_add('*Text.background', DARK_ENTRY)
+        self.root.option_add('*Text.foreground', DARK_FG)
+        self.root.option_add('*Text.insertBackground', DARK_FG)
+
+        self.root.option_add('*Canvas.background', DARK_BG)
+        self.root.option_add('*Canvas.highlightBackground', DARK_BG)
+        self.root.option_add('*Canvas.highlightThickness', 0)
+
+        self.root.option_add('*Scale.background', DARK_BG)
+        self.root.option_add('*Scale.troughColor', DARK_ENTRY)
+
+        self.root.option_add('*Scrollbar.background', DARK_BUTTON)
+        self.root.option_add('*Scrollbar.troughColor', DARK_ENTRY)
+
+        style = ttk.Style()
+        style.theme_use('clam')
+        style.configure('.', background=DARK_BG, foreground=DARK_FG)
+        style.configure('TFrame', background=DARK_BG)
+        style.configure('TLabel', background=DARK_BG, foreground=DARK_FG)
+        style.configure('TButton', background=DARK_BUTTON, foreground=DARK_FG, borderwidth=1)
+        style.map('TButton', background=[('active', DARK_SELECT)])
+        style.configure('TCheckbutton', background=DARK_BG, foreground=DARK_FG)
+        style.configure('TEntry', fieldbackground=DARK_ENTRY, foreground=DARK_FG)
+        style.configure('TCombobox', fieldbackground=DARK_ENTRY, background=DARK_BUTTON, foreground=DARK_FG)
+        style.map('TCombobox', fieldbackground=[('readonly', DARK_ENTRY)])
+        style.configure('TProgressbar', background=DARK_SELECT, troughcolor=DARK_ENTRY)
+        style.configure('TSeparator', background='#444')
+        style.configure('TNotebook', background=DARK_BG, borderwidth=0)
+        style.configure('TNotebook.Tab', background=DARK_BUTTON, foreground=DARK_FG, padding=[10,2])
+        style.map('TNotebook.Tab', background=[('selected', DARK_SELECT)])
+        style.configure('TPanedWindow', background=DARK_BG)
+        style.configure('TScale', background=DARK_BG, troughcolor=DARK_ENTRY)
+        style.configure('TSpinbox', fieldbackground=DARK_ENTRY, foreground=DARK_FG)
+        style.configure('TLabelframe', background=DARK_BG, foreground=DARK_FG)
+        style.configure('TLabelframe.Label', background=DARK_BG, foreground=DARK_FG)
+
+        plt.rcParams.update({
+            'figure.facecolor': DARK_BG,
+            'axes.facecolor': '#252525',
+            'axes.edgecolor': '#555',
+            'axes.labelcolor': DARK_FG,
+            'text.color': DARK_FG,
+            'xtick.color': '#999',
+            'ytick.color': '#999',
+            'grid.color': '#3a3a3a',
+            'grid.alpha': 0.3,
+            'legend.facecolor': '#2b2b2b',
+            'legend.edgecolor': '#555',
+        })
+        global AVG_LINE_COLOR
+        AVG_LINE_COLOR = '#aaaaaa'
 
     def _build_notebook(self):
         self.notebook = ttk.Notebook(self.root)
@@ -441,7 +516,8 @@ class CharacterManagerGUI:
 
         ttk.Label(left_frame, text="Data Files", font=('', 10, 'bold')).pack(anchor=tk.W, padx=5, pady=3)
 
-        self.file_listbox = tk.Listbox(left_frame, exportselection=False)
+        self.file_listbox = tk.Listbox(left_frame, exportselection=False,
+                                        bg='#2b2b2b', fg='#e0e0e0', selectbackground='#264f78')
         self.file_listbox.pack(fill=tk.BOTH, expand=True, padx=5, pady=3)
         for fname in JSON_FILES:
             self.file_listbox.insert(tk.END, fname)
@@ -476,7 +552,8 @@ class CharacterManagerGUI:
         self.settings_status = ttk.Label(editor_toolbar, text="")
         self.settings_status.pack(side=tk.LEFT, padx=5)
 
-        self.editor_text = tk.Text(right_frame, wrap=tk.NONE, font=('Courier', 10))
+        self.editor_text = tk.Text(right_frame, wrap=tk.NONE, font=('Courier', 10),
+                                    bg='#2b2b2b', fg='#e0e0e0', insertbackground='#e0e0e0')
         self.editor_text.pack(fill=tk.BOTH, expand=True)
 
         self.editor_text.bind('<KeyRelease>', self._on_editor_change)
@@ -710,7 +787,7 @@ class CharacterManagerGUI:
         self._spell_summary_frame.pack(side=tk.RIGHT, fill=tk.BOTH, padx=(3, 0))
         self._spell_summary_frame.pack_propagate(False)
         self._spell_summary_text = tk.Text(self._spell_summary_frame, font=('', 8), wrap=tk.WORD,
-                                            state=tk.DISABLED, height=12, borderwidth=0, bg='#fafafa')
+                                            state=tk.DISABLED, height=12, borderwidth=0, bg='#252525', fg='#d4d4d4')
         self._spell_summary_text.pack(fill=tk.BOTH, expand=True, padx=3, pady=3)
 
         self._load_spell_session()
@@ -1290,7 +1367,7 @@ class CharacterManagerGUI:
             fam_box.bind('<Button-1>', lambda e, a=aff_name: self._spell_toggle_family(a))
 
             hdr_lbl = tk.Label(header, text=aff_name[:14], font=('', 7, 'bold'),
-                              fg='#000' if all_vis else '#bbb', cursor='hand2')
+                              fg='#ccc' if all_vis else '#555', cursor='hand2')
             hdr_lbl.pack(side=tk.LEFT)
             hdr_lbl.bind('<Button-1>', lambda e, a=aff_name: self._spell_toggle_family(a))
 
@@ -1310,7 +1387,7 @@ class CharacterManagerGUI:
                 if is_healing:
                     display += ' ♥'
                 lbl = tk.Label(row_f, text=display, font=('', 7),
-                              fg='#333' if is_vis else '#bbb', anchor=tk.W, cursor='hand2')
+                              fg='#ccc' if is_vis else '#555', anchor=tk.W, cursor='hand2')
                 lbl.pack(side=tk.LEFT, fill=tk.X)
 
                 def make_toggle(a, s):
@@ -1554,7 +1631,7 @@ class CharacterManagerGUI:
             "\n".join(lines), xy=(x, y), xycoords='data',
             xytext=(tx, ty), textcoords='axes fraction',
             ha=ha, va=va, annotation_clip=False,
-            bbox=dict(boxstyle='round,pad=0.4', facecolor='#ffffcc',
+            bbox=dict(boxstyle='round,pad=0.4', facecolor='#2d2d30',
                       edgecolor='#888888', alpha=0.95),
             arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0', color='#555555'),
             fontsize=8, fontfamily='monospace', zorder=10
@@ -1812,7 +1889,7 @@ class CharacterManagerGUI:
                 box.pack(side=tk.LEFT, padx=2)
                 box.pack_propagate(False)
                 lbl = tk.Label(row, text=name, font=('', 7),
-                              fg='#333' if is_visible else '#bbb', anchor=tk.W, cursor='hand2')
+                              fg='#ccc' if is_visible else '#555', anchor=tk.W, cursor='hand2')
                 lbl.pack(side=tk.LEFT, fill=tk.X, padx=2)
                 def make_toggle(n):
                     return lambda e: self._toggle_line(n)
@@ -1840,7 +1917,7 @@ class CharacterManagerGUI:
             box.pack(side=tk.LEFT, padx=2)
             box.pack_propagate(False)
             lbl = tk.Label(row, text='Average', font=('', 7, 'bold'),
-                          fg='#333' if is_vis else '#bbb', anchor=tk.W, cursor='hand2')
+                          fg='#ccc' if is_vis else '#555', anchor=tk.W, cursor='hand2')
             lbl.pack(side=tk.LEFT, fill=tk.X, padx=2)
             def make_toggle_avg():
                 return lambda e: self._toggle_line('__average__')
@@ -2221,7 +2298,7 @@ class CharacterManagerGUI:
                     ha=ha, va=va,
                     annotation_clip=False,
                     bbox=dict(boxstyle='round,pad=0.4',
-                              facecolor='#ffffcc', edgecolor='#888888',
+                              facecolor='#2d2d30', edgecolor='#888888',
                               alpha=0.95),
                     arrowprops=dict(arrowstyle='->',
                                     connectionstyle='arc3,rad=0',
