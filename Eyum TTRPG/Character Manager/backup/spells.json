@@ -1,312 +1,1318 @@
 {
-  "Generic": [
+  "Air": [
     {
-      "name": "Mana Blast",
-      "mana": 0,
+      "name": "Gust",
+      "mana": 5,
+      "affinity_required": 6,
       "damage_dice": "1d4",
-      "attack_roll": true,
-      "description": "1d4 of chosen affinity damage."
+      "damage_type": "air",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "aoe_self": true,
+      "aoe_cone": true,
+      "extra_effect": "Push+Suffocating"
     },
     {
-      "name": "Mana Bolt",
-      "mana": 4,
-      "affinity_required": 5,
-      "damage_formula": "1+affinity_mod/2",
-      "attack_roll": true,
-      "description": "1+(Affinity Mod/2) of chosen affinity damage."
-    },
-    {
-      "name": "Mana Bomb",
+      "name": "Gale Lance",
       "mana": 8,
-      "affinity_required": 5,
-      "int_required": 18,
-      "extra_prereqs": {
-        "affinities_at": {"5": 3}
-      },
-      "damage_formula": "3+affinity_mod/2",
-      "save": "dex",
-      "aoe_radius": 10,
-      "description": "3+(Affinity Mod/2) damage to all in 10ft, Dex save negates."
+      "affinity_required": 8,
+      "damage_dice": "2d6",
+      "damage_type": "air",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 60,
+      "extra_effect": "Push+Suffocating"
     },
     {
-      "name": "Mana Explosion",
-      "mana": 14,
-      "affinity_required": 10,
-      "extra_prereqs": {
-        "affinities_at_10": 3
-      },
-      "damage_formula": "5+affinity_mod/2",
-      "save": "dex",
+      "name": "Cyclone",
+      "mana": 10,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "3d6",
+      "damage_type": "air",
+      "save": "str",
       "save_half": true,
-      "aoe_radius": 25,
-      "description": "5+(Affinity Mod/2) damage to all in 25ft, Dex save half."
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Push+Suffocating"
     },
     {
-      "name": "Mana Decimation",
-      "mana": 25,
+      "name": "Tempest Prison",
+      "mana": 15,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "4d6",
+      "damage_type": "air",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "concentration": true,
+      "extra_effect": "NoFlight+Push+Suffocating"
+    },
+    {
+      "name": "Sky Rend",
+      "mana": 20,
       "affinity_required": 16,
-      "int_required": 21,
-      "extra_prereqs": {
-        "affinities_at": {"16": 4}
-      },
-      "damage_formula": "30+affinity_mod",
-      "save": "dex",
+      "int_required": 23,
+      "damage_dice": "6d6",
+      "damage_type": "air",
+      "save": "str",
       "save_half": true,
-      "aoe_radius": 25,
-      "description": "30+Affinity Mod damage to all in 25ft, Dex save half."
+      "attack_roll": false,
+      "aoe_radius": 40,
+      "aoe_cone": true,
+      "extra_effect": "Suffocating+Push"
+    },
+    {
+      "name": "Silence",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_type": "air",
+      "concentration": true,
+      "extra_effect": "Mute"
+    },
+    {
+      "name": "Haste",
+      "mana": 9,
+      "affinity_required": 6,
+      "damage_type": "air"
     }
   ],
-  "Fire": [
+  "Ash": [
     {
-      "name": "Firebolt",
+      "name": "Ash Cloud",
+      "mana": 7,
+      "affinity_required": 6,
+      "damage_dice": "3d6",
+      "damage_type": "ash",
+      "aoe_radius": 40,
+      "concentration": true,
+      "extra_effect": "Blinded+Deafened"
+    },
+    {
+      "name": "Soot Mark",
+      "mana": 16,
+      "affinity_required": 8,
+      "damage_dice": "5d8",
+      "damage_type": "ash",
+      "attack_roll": true,
+      "extra_effect": "Blinded+Deafened"
+    },
+    {
+      "name": "Funeral Drift",
+      "mana": 25,
+      "affinity_required": 10,
+      "int_required": 17,
+      "damage_dice": "6d8",
+      "damage_type": "ash",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 90,
+      "extra_effect": "Blinded+Deafened"
+    },
+    {
+      "name": "Cinder Shroud",
+      "mana": 37,
+      "affinity_required": 12,
+      "int_required": 19,
+      "damage_dice": "4d6",
+      "damage_type": "ash",
+      "save": "wis",
+      "attack_roll": false,
+      "concentration": true,
+      "extra_effect": "Blinded"
+    },
+    {
+      "name": "Black Sky",
+      "mana": 58,
+      "affinity_required": 15,
+      "int_required": 23,
+      "damage_dice": "8d8",
+      "damage_type": "ash",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Blinded+Deafened"
+    }
+  ],
+  "Atomic": [
+    {
+      "name": "Go Atomic",
+      "mana": 449,
+      "affinity_required": 21,
+      "damage_dice": "20d20",
+      "damage_flat": 200,
+      "damage_type": "atomic",
+      "aoe_radius": 200,
+      "extra_effect": "Radiation"
+    },
+    {
+      "name": "Critical Atomicity",
+      "mana": 674,
+      "affinity_required": 23,
+      "int_required": 33,
+      "damage_dice": "24d20",
+      "damage_flat": 260,
+      "damage_type": "atomic",
+      "aoe_radius": 200,
+      "extra_effect": "Radiation"
+    },
+    {
+      "name": "Fallout Crown",
+      "mana": 897,
+      "affinity_required": 25,
+      "int_required": 37,
+      "damage_dice": "26d20",
+      "damage_flat": 300,
+      "damage_type": "atomic",
+      "aoe_radius": 220,
+      "extra_effect": "Radiation"
+    },
+    {
+      "name": "Fission Verdict",
+      "mana": 1196,
+      "affinity_required": 27,
+      "int_required": 41,
+      "damage_dice": "18d20",
+      "damage_flat": 180,
+      "damage_type": "atomic",
+      "aoe_radius": 120,
+      "extra_effect": "Radiation"
+    },
+    {
+      "name": "Last Sun",
+      "mana": 1794,
+      "affinity_required": 31,
+      "int_required": 46,
+      "damage_dice": "30d20",
+      "damage_flat": 400,
+      "damage_type": "atomic",
+      "aoe_radius": 300,
+      "extra_effect": "Radiation"
+    }
+  ],
+  "Blight": [
+    {
+      "name": "Wither",
+      "mana": 6,
+      "affinity_required": 6,
+      "damage_dice": "4d8",
+      "damage_type": "blight",
+      "attack_roll": true,
+      "extra_effect": "Withered"
+    },
+    {
+      "name": "Rotsap",
+      "mana": 16,
+      "affinity_required": 9,
+      "damage_dice": "6d8",
+      "damage_type": "blight",
+      "attack_roll": true,
+      "extra_effect": "Withered"
+    },
+    {
+      "name": "Hollow Season",
+      "mana": 28,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "8d8",
+      "damage_type": "blight",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Withered"
+    },
+    {
+      "name": "Dead Orchard",
+      "mana": 43,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "10d8",
+      "damage_type": "blight",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Withered"
+    },
+    {
+      "name": "Final Season",
+      "mana": 64,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "14d8",
+      "damage_type": "blight",
+      "attack_roll": true,
+      "extra_effect": "Withered+Restrained"
+    },
+    {
+      "name": "Withering Grasp",
+      "mana": 8,
+      "affinity_required": 7,
+      "damage_dice": "4d8",
+      "damage_type": "blight",
+      "attack_roll": true,
+      "extra_effect": "Withered"
+    }
+  ],
+  "Bloodfire": [
+    {
+      "name": "Blood Boil",
       "mana": 10,
-      "affinity_required": 3,
+      "affinity_required": 6,
+      "damage_dice": "4d8",
+      "damage_type": "bloodfire",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "extra_effect": "Bleeding+Burned"
+    },
+    {
+      "name": "Crimson Eruption",
+      "mana": 25,
+      "affinity_required": 9,
+      "str_required": 17,
+      "damage_dice": "6d8",
+      "damage_type": "bloodfire",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 15,
+      "extra_effect": "Bleeding+On Fire+Burned"
+    },
+    {
+      "name": "Hemorrhage Inferno",
+      "mana": 43,
+      "affinity_required": 11,
+      "str_required": 19,
+      "damage_dice": "10d8",
+      "damage_type": "bloodfire",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "extra_effect": "Bleeding+On Fire+Burned"
+    },
+    {
+      "name": "Bloodstorm Pyre",
+      "mana": 73,
+      "affinity_required": 13,
+      "str_required": 21,
+      "damage_dice": "15d8",
+      "damage_type": "bloodfire",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Bleeding+On Fire+Burned"
+    },
+    {
+      "name": "Red Cataclysm",
+      "mana": 128,
+      "affinity_required": 16,
+      "str_required": 23,
+      "damage_dice": "20d8",
+      "damage_type": "bloodfire",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Bleeding+On Fire+Burned"
+    },
+    {
+      "name": "Bloodletting",
+      "mana": 6,
+      "affinity_required": 7,
+      "damage_dice": "2d6",
+      "damage_type": "bloodfire",
+      "attack_roll": true,
+      "extra_effect": "Bleeding"
+    },
+    {
+      "name": "Leech",
+      "mana": 11,
+      "affinity_required": 9,
+      "damage_dice": "2d8",
+      "damage_type": "bloodfire"
+    }
+  ],
+  "Chaos": [
+    {
+      "name": "Chaos Bolt",
+      "mana": 4,
+      "affinity_required": 6,
+      "cha_required": 6,
       "damage_dice": "1d8",
-      "damage_type": "fire",
+      "damage_type": "chaos",
       "attack_roll": true
     },
     {
-      "name": "Fireball",
+      "name": "Chaotic Exchange",
       "mana": 16,
-      "affinity_required": 5,
-      "damage_dice": "2d6",
-      "damage_type": "fire",
-      "save": "dex",
-      "save_half": true,
-      "aoe_radius": 15
+      "affinity_required": 9,
+      "int_required": 17,
+      "cha_required": 9,
+      "damage_dice": "6d8",
+      "damage_type": "chaos",
+      "attack_roll": true
     },
     {
-      "name": "Fireburst",
-      "mana": 25,
-      "affinity_required": 8,
-      "int_required": 16,
-      "damage_dice": "4d6",
-      "damage_type": "fire",
-      "save": "dex",
-      "save_half": true,
+      "name": "Wild Sequence",
+      "mana": 28,
+      "affinity_required": 11,
+      "int_required": 19,
+      "cha_required": 11,
+      "damage_dice": "5d8",
+      "damage_type": "chaos",
+      "attack_roll": true
+    },
+    {
+      "name": "Unwritten Turn",
+      "mana": 43,
+      "affinity_required": 13,
+      "int_required": 21,
+      "cha_required": 13,
+      "damage_dice": "8d8",
+      "damage_type": "chaos"
+    },
+    {
+      "name": "Disorder Engine",
+      "mana": 67,
+      "affinity_required": 16,
+      "int_required": 25,
+      "cha_required": 16,
+      "damage_dice": "4d8",
+      "damage_type": "chaos",
       "aoe_radius": 20,
-      "extra_effect": "Burned"
-    },
-    {
-      "name": "Inferno Ring",
-      "mana": 40,
-      "affinity_required": 10,
-      "int_required": 18,
-      "damage_dice": "5d6",
-      "damage_type": "fire",
-      "save": "dex",
-      "aoe_radius": 25,
-      "extra_effect": "Burned+DoT",
       "concentration": true
+    }
+  ],
+  "Corruption": [
+    {
+      "name": "Abyssal Chains",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_dice": "5d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "extra_effect": "Entangled+Corrupt+Mute"
     },
     {
-      "name": "Cataclysm Pyre",
-      "mana": 55,
-      "affinity_required": 12,
-      "int_required": 22,
-      "damage_dice": "8d6",
-      "damage_type": "fire",
-      "save": "dex",
+      "name": "Black Binding",
+      "mana": 23,
+      "affinity_required": 9,
+      "int_required": 17,
+      "damage_dice": "8d8",
+      "damage_type": "corruption",
+      "save": "str",
       "save_half": true,
+      "attack_roll": false,
+      "extra_effect": "Entangled+Corrupt+Mute+Slowed+Cursed"
+    },
+    {
+      "name": "Corrupt Dominion",
+      "mana": 39,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "10d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Corrupt+Mute+Entangled+Slow Death"
+    },
+    {
+      "name": "Fallen Throne",
+      "mana": 68,
+      "affinity_required": 13,
+      "int_required": 21,
+      "damage_dice": "15d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Corrupt+Mute+Entangled+Slow Death"
+    },
+    {
+      "name": "Ruin of the Soul",
+      "mana": 120,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "20d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 30,
-      "extra_effect": "On Fire+GroundBurn"
+      "extra_effect": "Corrupt+Mute+Entangled+Slowed+Slow Death"
+    },
+    {
+      "name": "Bestow Curse",
+      "mana": 15,
+      "affinity_required": 11,
+      "damage_type": "corruption",
+      "extra_effect": "Cursed"
+    },
+    {
+      "name": "Black Tentacles",
+      "mana": 21,
+      "affinity_required": 13,
+      "damage_dice": "4d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "Restrained"
+    }
+  ],
+  "Dust": [
+    {
+      "name": "Dust Storm",
+      "mana": 7,
+      "affinity_required": 6,
+      "damage_dice": "2d4",
+      "damage_type": "dust",
+      "aoe_radius": 5,
+      "concentration": true,
+      "extra_effect": "Blinded"
+    },
+    {
+      "name": "Sand Veil",
+      "mana": 16,
+      "affinity_required": 8,
+      "damage_dice": "5d6",
+      "damage_type": "dust",
+      "attack_roll": true,
+      "extra_effect": "Blinded+Suffocating"
+    },
+    {
+      "name": "Abrasion Line",
+      "mana": 25,
+      "affinity_required": 10,
+      "int_required": 17,
+      "damage_dice": "6d6",
+      "damage_type": "dust",
+      "attack_roll": true,
+      "aoe_line": true,
+      "aoe_radius": 90,
+      "extra_effect": "Blinded+Suffocating"
+    },
+    {
+      "name": "Dune Mantle",
+      "mana": 37,
+      "affinity_required": 12,
+      "int_required": 19,
+      "damage_dice": "4d6",
+      "damage_type": "dust",
+      "save": "con",
+      "attack_roll": false,
+      "concentration": true,
+      "extra_effect": "Suffocating"
+    },
+    {
+      "name": "Burial Wind",
+      "mana": 58,
+      "affinity_required": 15,
+      "int_required": 23,
+      "damage_dice": "8d8",
+      "damage_type": "dust",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "aoe_cone": true,
+      "extra_effect": "Suffocating+Blinded"
     }
   ],
   "Earth": [
     {
       "name": "Quake",
-      "mana": 5,
-      "affinity_required": 5,
+      "mana": 6,
+      "affinity_required": 6,
       "damage_dice": "1d6",
       "damage_type": "earth",
       "save": "str",
+      "save_half": false,
+      "attack_roll": false,
       "aoe_radius": 20,
       "aoe_self": true,
       "extra_effect": "Prone"
     },
     {
       "name": "Stonewave",
-      "mana": 8,
-      "affinity_required": 7,
+      "mana": 10,
+      "affinity_required": 8,
       "damage_dice": "2d6",
       "damage_type": "earth",
       "save": "str",
       "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 30,
       "aoe_self": true,
       "extra_effect": "Prone+DifficultTerrain"
     },
     {
       "name": "Earthshatter",
-      "mana": 12,
-      "affinity_required": 10,
-      "int_required": 16,
+      "mana": 15,
+      "affinity_required": 11,
+      "int_required": 17,
       "damage_dice": "4d6",
       "damage_type": "earth",
       "save": "str",
       "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Prone+Slowed"
     },
     {
-      "name": "Bastion Rise",
-      "mana": 16,
-      "affinity_required": 12,
-      "int_required": 18,
-      "damage_dice": "3d6",
+      "name": "Faultline (Earth)",
+      "mana": 20,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "6d6",
       "damage_type": "earth",
       "save": "str",
-      "aoe_radius": 5,
-      "extra_effect": "Prone+Pillars"
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 40,
+      "aoe_self": true,
+      "aoe_line": true,
+      "extra_effect": "Prone+Restrained+DifficultTerrain"
     },
     {
       "name": "Worldbreak",
-      "mana": 31,
-      "affinity_required": 15,
-      "int_required": 22,
+      "mana": 38,
+      "affinity_required": 16,
+      "int_required": 23,
       "damage_dice": "8d6",
       "damage_type": "earth",
       "save": "str",
       "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 50,
       "aoe_self": true,
       "extra_effect": "Prone+Stunned"
-    }
-  ],
-  "Water": [
-    {
-      "name": "Jetstream",
-      "mana": 5,
-      "affinity_required": 5,
-      "damage_dice": "1d6",
-      "damage_type": "water",
-      "save": "dex",
-      "aoe_radius": 10,
-      "extra_effect": "Push+Soaked+Collision"
     },
     {
-      "name": "Riptide",
-      "mana": 8,
-      "affinity_required": 7,
-      "damage_dice": "2d6",
-      "damage_type": "water",
-      "save": "dex",
-      "save_half": true,
-      "aoe_radius": 20,
-      "extra_effect": "Push+Soaked+Collision"
-    },
-    {
-      "name": "Undertow",
-      "mana": 12,
-      "affinity_required": 10,
-      "int_required": 16,
-      "damage_dice": "3d6",
-      "damage_type": "water",
-      "save": "str",
-      "save_half": true,
-      "aoe_radius": 20,
-      "extra_effect": "Pull+Soaked+Collision"
-    },
-    {
-      "name": "Floodwall",
-      "mana": 16,
-      "affinity_required": 12,
-      "int_required": 18,
-      "damage_dice": "4d6",
-      "damage_type": "water",
-      "save": "str",
-      "aoe_radius": 30,
-      "extra_effect": "Soaked+Push",
-      "concentration": true
-    },
-    {
-      "name": "Maelstrom",
-      "mana": 31,
-      "affinity_required": 15,
-      "int_required": 22,
-      "damage_dice": "5d6",
-      "damage_type": "water",
-      "save": "str",
-      "save_half": true,
-      "aoe_radius": 30,
-      "extra_effect": "Soaked+DoT",
-      "concentration": true
-    }
-  ],
-  "Air": [
-    {
-      "name": "Gust",
-      "mana": 4,
-      "affinity_required": 5,
-      "damage_dice": "1d4",
-      "damage_type": "bludgeoning",
-      "save": "str",
-      "aoe_radius": 30,
-      "aoe_cone": true,
-      "extra_effect": "Push+Suffocating"
-    },
-    {
-      "name": "Gale Lance",
+      "name": "Stoneskin",
       "mana": 6,
-      "affinity_required": 7,
-      "damage_dice": "2d6",
-      "damage_type": "air",
-      "save": "str",
-      "aoe_radius": 60,
-      "aoe_line": true,
-      "extra_effect": "Push+Collision+Suffocating"
+      "affinity_required": 4,
+      "damage_type": "earth"
     },
     {
-      "name": "Cyclone",
-      "mana": 8,
-      "affinity_required": 10,
-      "int_required": 16,
+      "name": "Slow",
+      "mana": 9,
+      "affinity_required": 6,
+      "damage_type": "earth",
+      "save": "wis",
+      "attack_roll": false,
+      "extra_effect": "Slowed"
+    },
+    {
+      "name": "Bastion Rise",
+      "mana": 20,
+      "affinity_required": 13,
       "damage_dice": "3d6",
-      "damage_type": "air",
+      "damage_type": "earth",
       "save": "str",
-      "save_half": true,
-      "aoe_radius": 20,
-      "extra_effect": "Push+Suffocating"
+      "attack_roll": false,
+      "extra_effect": "Prone"
+    }
+  ],
+  "Eldritch": [
+    {
+      "name": "Eldritch Blast",
+      "mana": 2,
+      "damage_flat": 1,
+      "damage_type": "eldritch",
+      "attack_roll": true
     },
     {
-      "name": "Tempest Prison",
-      "mana": 12,
-      "affinity_required": 12,
-      "int_required": 18,
-      "damage_dice": "4d6",
-      "damage_type": "air",
+      "name": "Eldritch Tentacle",
+      "mana": 5,
+      "damage_type": "eldritch",
       "save": "str",
+      "attack_roll": false
+    },
+    {
+      "name": "Eldritch Explosion",
+      "mana": 6,
+      "damage_flat": 15,
+      "damage_type": "eldritch",
+      "save": "wis",
+      "save_half": false,
+      "attack_roll": false,
+      "aoe_radius": 30
+    },
+    {
+      "name": "Eldritch Shadow",
+      "mana": 18,
+      "damage_type": "eldritch",
+      "concentration": true
+    }
+  ],
+  "Fire": [
+    {
+      "name": "Firebolt",
+      "mana": 12,
+      "affinity_required": 4,
+      "damage_dice": "1d10",
+      "damage_flat": 4,
+      "damage_type": "fire",
+      "attack_roll": true
+    },
+    {
+      "name": "Fireball",
+      "mana": 20,
+      "affinity_required": 6,
+      "damage_dice": "2d6",
+      "damage_flat": 6,
+      "damage_type": "fire",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 15
+    },
+    {
+      "name": "Fireburst",
+      "mana": 30,
+      "affinity_required": 9,
+      "int_required": 16,
+      "damage_dice": "4d6",
+      "damage_flat": 8,
+      "damage_type": "fire",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Burned"
+    },
+    {
+      "name": "Inferno Ring",
+      "mana": 48,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "5d6",
+      "damage_flat": 12,
+      "damage_type": "fire",
+      "save": "dex",
+      "attack_roll": false,
       "aoe_radius": 25,
-      "extra_effect": "Push+Suffocating+NoFlight",
+      "concentration": true,
+      "extra_effect": "Burned"
+    },
+    {
+      "name": "Cataclysm Pyre",
+      "mana": 66,
+      "affinity_required": 13,
+      "int_required": 23,
+      "damage_dice": "8d6",
+      "damage_flat": 12,
+      "damage_type": "fire",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "On Fire"
+    },
+    {
+      "name": "Cauterize",
+      "mana": 5,
+      "damage_dice": "1d4",
+      "damage_type": "fire",
+      "attack_roll": true,
+      "extra_effect": "Bleeding+Burned"
+    }
+  ],
+  "Force": [
+    {
+      "name": "Telekinesis",
+      "mana": 15,
+      "affinity_required": 11,
+      "damage_type": "force",
+      "save": "str",
+      "attack_roll": false
+    }
+  ],
+  "Gel": [
+    {
+      "name": "Gel Coating",
+      "mana": 7,
+      "affinity_required": 13,
+      "damage_dice": "2d6",
+      "damage_type": "gel",
       "concentration": true
     },
     {
-      "name": "Sky Rend",
-      "mana": 16,
+      "name": "Gel Shaper",
+      "mana": 19,
       "affinity_required": 15,
-      "int_required": 22,
+      "int_required": 19,
+      "damage_type": "gel"
+    },
+    {
+      "name": "Caustic Prison",
+      "mana": 32,
+      "affinity_required": 17,
+      "int_required": 23,
+      "damage_dice": "4d6",
+      "damage_type": "gel",
+      "save": "con",
+      "attack_roll": false
+    },
+    {
+      "name": "Gel Bulwark",
+      "mana": 47,
+      "affinity_required": 19,
+      "int_required": 27,
+      "damage_dice": "4d8",
+      "damage_type": "gel",
+      "save": "con",
+      "attack_roll": false,
+      "concentration": true
+    },
+    {
+      "name": "Gel Sovereign",
+      "mana": 76,
+      "affinity_required": 22,
+      "int_required": 31,
+      "damage_type": "gel"
+    },
+    {
+      "name": "Gel Trap",
+      "mana": 8,
+      "affinity_required": 9,
+      "damage_type": "gel",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 10,
+      "extra_effect": "Restrained"
+    }
+  ],
+  "Ice/Cold": [
+    {
+      "name": "Flash Freeze",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_dice": "1d8",
+      "damage_type": "cold",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Soaked+Frozen+Petrified"
+    },
+    {
+      "name": "Deep Freeze",
+      "mana": 19,
+      "affinity_required": 9,
+      "damage_dice": "4d6",
+      "damage_type": "cold",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Frozen+Soaked+Petrified"
+    },
+    {
+      "name": "Glacial Prison",
+      "mana": 30,
+      "affinity_required": 11,
+      "int_required": 17,
       "damage_dice": "6d6",
-      "damage_type": "air",
+      "damage_type": "cold",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 15,
+      "extra_effect": "Frozen+Petrified+DifficultTerrain"
+    },
+    {
+      "name": "Absolute Zero",
+      "mana": 49,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "15d6",
+      "damage_type": "cold",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Frozen+Soaked+Petrified"
+    },
+    {
+      "name": "Frozen Cataclysm",
+      "mana": 90,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "10d6",
+      "damage_type": "cold",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Frozen+Petrified"
+    },
+    {
+      "name": "Flash Freeze (Unique)",
+      "mana": 6,
+      "affinity_required": 6,
+      "damage_dice": "2d6",
+      "damage_type": "cold",
+      "attack_roll": true,
+      "extra_effect": "Soaked+Frozen+Petrified"
+    },
+    {
+      "name": "Sleet Storm",
+      "mana": 15,
+      "affinity_required": 11,
+      "damage_dice": "2d6",
+      "damage_type": "cold",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "DifficultTerrain+Prone"
+    }
+  ],
+  "Infernal": [
+    {
+      "name": "Hellfire Orb",
+      "mana": 16,
+      "affinity_required": 11,
+      "damage_dice": "5d8",
+      "damage_type": "infernal",
+      "attack_roll": true,
+      "aoe_radius": 20,
+      "extra_effect": "Hellfire"
+    },
+    {
+      "name": "Devil’s Brand",
+      "mana": 24,
+      "affinity_required": 13,
+      "cha_required": 19,
+      "damage_dice": "8d8",
+      "damage_type": "infernal",
+      "attack_roll": true,
+      "extra_effect": "Hellfire"
+    },
+    {
+      "name": "Pitflame Circuit",
+      "mana": 43,
+      "affinity_required": 15,
+      "cha_required": 21,
+      "damage_dice": "7d8",
+      "damage_type": "infernal",
+      "attack_roll": true,
+      "extra_effect": "Hellfire"
+    },
+    {
+      "name": "Contract Pyre",
+      "mana": 60,
+      "affinity_required": 17,
+      "cha_required": 23,
+      "damage_dice": "10d8",
+      "damage_type": "infernal",
+      "save": "cha",
+      "attack_roll": false,
+      "extra_effect": "Hellfire"
+    },
+    {
+      "name": "Thronefire",
+      "mana": 88,
+      "affinity_required": 20,
+      "cha_required": 27,
+      "damage_dice": "12d8",
+      "damage_type": "infernal",
+      "save": "cha",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Hellfire"
+    },
+    {
+      "name": "Desperate Pact",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "5d8",
+      "damage_type": "infernal"
+    }
+  ],
+  "Lightning": [
+    {
+      "name": "Paralytic Bolt",
+      "mana": 7,
+      "affinity_required": 6,
+      "damage_dice": "3d6",
+      "damage_type": "lightning",
+      "save": "con",
+      "attack_roll": true,
+      "extra_effect": "Shocked+Paralyzed"
+    },
+    {
+      "name": "Chain Lightning",
+      "mana": 16,
+      "affinity_required": 9,
+      "damage_dice": "6d6",
+      "damage_type": "lightning",
+      "save": "con",
+      "attack_roll": true,
+      "extra_effect": "Shocked+Paralyzed"
+    },
+    {
+      "name": "Lightning Surge",
+      "mana": 28,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "8d6",
+      "damage_type": "lightning",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Shocked+Paralyzed"
+    },
+    {
+      "name": "Lightning Collapse",
+      "mana": 46,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "10d6",
+      "damage_type": "lightning",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Shocked+Paralyzed"
+    },
+    {
+      "name": "Judgment Strike",
+      "mana": 84,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "10d8",
+      "damage_type": "lightning",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Shocked+Paralyzed"
+    },
+    {
+      "name": "Static Shock",
+      "mana": 5,
+      "affinity_required": 6,
+      "damage_dice": "2d6",
+      "damage_type": "lightning",
+      "attack_roll": true,
+      "extra_effect": "Shocked"
+    }
+  ],
+  "Magma": [
+    {
+      "name": "Magma Ball",
+      "mana": 8,
+      "affinity_required": 9,
+      "damage_dice": "5d8",
+      "damage_type": "magma",
+      "attack_roll": true,
+      "extra_effect": "On Fire"
+    },
+    {
+      "name": "Crustbreaker",
+      "mana": 23,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "8d8",
+      "damage_type": "magma",
+      "attack_roll": true,
+      "extra_effect": "On Fire"
+    },
+    {
+      "name": "Lava Mantle",
+      "mana": 34,
+      "affinity_required": 13,
+      "con_required": 21,
+      "damage_dice": "4d8",
+      "damage_type": "magma",
+      "concentration": true,
+      "extra_effect": "On Fire"
+    },
+    {
+      "name": "Volcanic Snap",
+      "mana": 52,
+      "affinity_required": 15,
+      "int_required": 23,
+      "damage_dice": "10d8",
+      "damage_type": "magma",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 10,
+      "extra_effect": "On Fire+Blinded"
+    },
+    {
+      "name": "Caldera Break",
+      "mana": 78,
+      "affinity_required": 18,
+      "int_required": 27,
+      "damage_dice": "14d8",
+      "damage_type": "magma",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "On Fire+Blinded"
+    }
+  ],
+  "Metal": [
+    {
+      "name": "Iron Grave",
+      "mana": 13,
+      "affinity_required": 9,
+      "damage_dice": "6d8",
+      "damage_type": "metal",
       "save": "str",
       "save_half": true,
-      "aoe_radius": 40,
+      "attack_roll": false,
+      "extra_effect": "Pierced+Pinned+Hurting"
+    },
+    {
+      "name": "Iron Dominion",
+      "mana": 28,
+      "affinity_required": 11,
+      "con_required": 17,
+      "damage_dice": "10d8",
+      "damage_type": "metal",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 15,
+      "extra_effect": "Pierced+Hurting+DifficultTerrain"
+    },
+    {
+      "name": "Steel Catacomb",
+      "mana": 46,
+      "affinity_required": 13,
+      "con_required": 19,
+      "damage_dice": "14d8",
+      "damage_type": "metal",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Pierced+Restrained+Hurting"
+    },
+    {
+      "name": "Iron Judgment",
+      "mana": 73,
+      "affinity_required": 15,
+      "con_required": 21,
+      "damage_dice": "20d8",
+      "damage_type": "metal",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Pierced+Pinned+Restrained+Hurting"
+    },
+    {
+      "name": "Worldforge Collapse",
+      "mana": 120,
+      "affinity_required": 17,
+      "con_required": 23,
+      "damage_dice": "30d8",
+      "damage_type": "metal",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Pinned+Restrained+Pierced+Hurting"
+    },
+    {
+      "name": "Mend",
+      "mana": 9,
+      "affinity_required": 6,
+      "damage_type": "metal"
+    },
+    {
+      "name": "Blade Barrier",
+      "mana": 21,
+      "affinity_required": 13,
+      "damage_dice": "6d8",
+      "damage_type": "metal",
+      "save": "dex",
+      "attack_roll": false,
+      "concentration": true,
+      "extra_effect": "Pierced"
+    }
+  ],
+  "Miasma": [
+    {
+      "name": "Miasma Cloud",
+      "mana": 4,
+      "affinity_required": 13,
+      "damage_dice": "5d4",
+      "damage_type": "miasma",
+      "concentration": true,
+      "extra_effect": "Diseased+Poisoned"
+    },
+    {
+      "name": "Rot Lung",
+      "mana": 9,
+      "affinity_required": 15,
+      "int_required": 19,
+      "damage_dice": "8d8",
+      "damage_type": "miasma",
+      "attack_roll": true,
+      "extra_effect": "Diseased+Poisoned+Suffocating+Necrosis"
+    },
+    {
+      "name": "Grave Weather",
+      "mana": 13,
+      "affinity_required": 17,
+      "int_required": 23,
+      "damage_dice": "6d8",
+      "damage_type": "miasma",
+      "aoe_radius": 25,
+      "concentration": true,
+      "extra_effect": "Diseased+Poisoned+Necrosis"
+    },
+    {
+      "name": "Sepulcher Breath",
+      "mana": 19,
+      "affinity_required": 19,
+      "int_required": 27,
+      "damage_dice": "12d8",
+      "damage_type": "miasma",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Diseased+Poisoned+Suffocating+Necrosis"
+    },
+    {
+      "name": "Rot Kingdom",
+      "mana": 24,
+      "affinity_required": 22,
+      "int_required": 31,
+      "damage_dice": "16d8",
+      "damage_type": "miasma",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "concentration": true,
+      "extra_effect": "Diseased+Poisoned+Suffocating+Necrosis"
+    }
+  ],
+  "Mirage": [
+    {
+      "name": "Mirage",
+      "mana": 16,
+      "affinity_required": 6,
+      "damage_type": "mirage"
+    },
+    {
+      "name": "False Advance",
+      "mana": 25,
+      "affinity_required": 9,
+      "cha_required": 17,
+      "damage_type": "mirage",
+      "save": "wis",
+      "attack_roll": false
+    },
+    {
+      "name": "Hall of Glass",
+      "mana": 37,
+      "affinity_required": 11,
+      "cha_required": 19,
+      "damage_type": "mirage",
+      "save": "wis",
+      "attack_roll": false
+    },
+    {
+      "name": "Mirage Host",
+      "mana": 52,
+      "affinity_required": 13,
+      "cha_required": 21,
+      "damage_type": "mirage",
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "DifficultTerrain"
+    },
+    {
+      "name": "Sovereign Reflection",
+      "mana": 73,
+      "affinity_required": 16,
+      "cha_required": 25,
+      "damage_type": "mirage",
+      "attack_roll": true,
+      "concentration": true
+    },
+    {
+      "name": "Mirror Image",
+      "mana": 9,
+      "affinity_required": 9,
+      "damage_type": "mirage"
+    }
+  ],
+  "Mud": [
+    {
+      "name": "Mud Slide",
+      "mana": 6,
+      "affinity_required": 6,
+      "damage_dice": "2d6",
+      "damage_type": "mud",
+      "save": "dex",
+      "attack_roll": false,
       "aoe_cone": true,
-      "extra_effect": "Push+Collision+Suffocating"
+      "aoe_radius": 40,
+      "extra_effect": "Prone+Slowed+DifficultTerrain"
+    },
+    {
+      "name": "Sinkstep",
+      "mana": 13,
+      "affinity_required": 8,
+      "damage_dice": "5d6",
+      "damage_type": "mud",
+      "attack_roll": true,
+      "extra_effect": "Slowed"
+    },
+    {
+      "name": "Mire Field",
+      "mana": 23,
+      "affinity_required": 10,
+      "int_required": 17,
+      "damage_type": "mud",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "DifficultTerrain+Slowed+Prone"
+    },
+    {
+      "name": "Bog Drag",
+      "mana": 34,
+      "affinity_required": 12,
+      "int_required": 19,
+      "damage_type": "mud",
+      "save": "str",
+      "attack_roll": false,
+      "extra_effect": "Prone+Slowed"
+    },
+    {
+      "name": "Swallowing Fen",
+      "mana": 58,
+      "affinity_required": 15,
+      "int_required": 23,
+      "damage_dice": "10d8",
+      "damage_type": "mud",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Prone+Slowed"
     }
   ],
   "Necrotic": [
     {
       "name": "Rotting Touch",
-      "mana": 10,
-      "affinity_required": 5,
+      "mana": 12,
+      "affinity_required": 6,
       "damage_type": "necrotic",
       "attack_roll": true,
       "extra_effect": "Bleeding+Diseased+Necrosis"
     },
     {
       "name": "Plague Grasp",
-      "mana": 15,
-      "affinity_required": 8,
+      "mana": 18,
+      "affinity_required": 9,
       "damage_dice": "2d6",
       "damage_type": "necrotic",
       "attack_roll": true,
@@ -314,95 +1320,1514 @@
     },
     {
       "name": "Contagion Field",
-      "mana": 25,
-      "affinity_required": 10,
-      "int_required": 16,
+      "mana": 30,
+      "affinity_required": 11,
+      "int_required": 17,
       "damage_type": "necrotic",
       "save": "con",
+      "attack_roll": false,
       "aoe_radius": 10,
       "extra_effect": "Diseased+Necrosis"
     },
     {
       "name": "Death Bloom",
-      "mana": 45,
-      "affinity_required": 12,
-      "int_required": 18,
+      "mana": 54,
+      "affinity_required": 13,
+      "int_required": 19,
       "damage_dice": "6d6",
       "damage_type": "necrotic",
       "save": "con",
-      "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Diseased+Necrosis"
     },
     {
       "name": "Necrotic Collapse",
-      "mana": 65,
-      "affinity_required": 15,
-      "int_required": 22,
+      "mana": 78,
+      "affinity_required": 16,
+      "int_required": 23,
       "damage_dice": "8d6",
       "damage_type": "necrotic",
       "save": "con",
-      "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 25,
-      "extra_effect": "Necrosis+Scaling"
+      "extra_effect": "Necrosis"
+    },
+    {
+      "name": "Bane",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "necrotic",
+      "save": "cha",
+      "attack_roll": false,
+      "extra_effect": "Cursed"
+    },
+    {
+      "name": "Desecrate",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_type": "necrotic",
+      "aoe_radius": 20,
+      "concentration": true
+    },
+    {
+      "name": "Leech Life",
+      "mana": 6,
+      "damage_dice": "2d6",
+      "damage_type": "necrotic"
+    }
+  ],
+  "Nova": [
+    {
+      "name": "Nova Burst",
+      "mana": 54,
+      "affinity_required": 11,
+      "damage_dice": "10d12",
+      "damage_type": "nova",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Blinded"
+    },
+    {
+      "name": "Nova Compression",
+      "mana": 84,
+      "affinity_required": 13,
+      "int_required": 29,
+      "damage_dice": "18d12",
+      "damage_type": "nova",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Pull+Blinded"
+    },
+    {
+      "name": "Supernova Collapse",
+      "mana": 114,
+      "affinity_required": 15,
+      "int_required": 31,
+      "damage_dice": "26d12",
+      "damage_type": "nova",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Pull+Restrained+Blinded"
+    },
+    {
+      "name": "Stellar Annihilation",
+      "mana": 150,
+      "affinity_required": 17,
+      "int_required": 33,
+      "damage_dice": "36d12",
+      "damage_type": "nova",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 35,
+      "extra_effect": "Pull+Blinded"
+    },
+    {
+      "name": "Terminal Nova",
+      "mana": 225,
+      "affinity_required": 19,
+      "int_required": 35,
+      "damage_dice": "50d12",
+      "damage_type": "nova",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 40,
+      "extra_effect": "Pull+Blinded"
+    }
+  ],
+  "Obsidian": [
+    {
+      "name": "Obsidian Skin",
+      "mana": 7,
+      "affinity_required": 9,
+      "damage_dice": "2d6",
+      "damage_type": "obsidian"
+    },
+    {
+      "name": "Glass Carapace",
+      "mana": 19,
+      "affinity_required": 11,
+      "con_required": 17,
+      "damage_dice": "4d6",
+      "damage_type": "obsidian"
+    },
+    {
+      "name": "Shard Reprisal",
+      "mana": 28,
+      "affinity_required": 13,
+      "con_required": 19,
+      "damage_dice": "8d8",
+      "damage_type": "obsidian",
+      "attack_roll": true,
+      "extra_effect": "Pierced"
+    },
+    {
+      "name": "Mirror Bastion",
+      "mana": 43,
+      "affinity_required": 15,
+      "con_required": 21,
+      "damage_type": "obsidian",
+      "concentration": true
+    },
+    {
+      "name": "Black Monolith",
+      "mana": 64,
+      "affinity_required": 18,
+      "con_required": 25,
+      "damage_dice": "10d8",
+      "damage_type": "obsidian",
+      "save": "dex",
+      "attack_roll": false,
+      "extra_effect": "Pierced"
+    },
+    {
+      "name": "Obsidian Spray",
+      "mana": 12,
+      "affinity_required": 9,
+      "damage_dice": "5d8",
+      "damage_type": "obsidian",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_cone": true,
+      "aoe_radius": 30,
+      "extra_effect": "Pierced"
+    }
+  ],
+  "Poison": [
+    {
+      "name": "Contagion",
+      "mana": 8,
+      "affinity_required": 9,
+      "damage_dice": "4d8",
+      "damage_type": "poison",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "extra_effect": "Poisoned"
+    },
+    {
+      "name": "Venom Burst",
+      "mana": 19,
+      "affinity_required": 11,
+      "int_required": 18,
+      "damage_dice": "8d8",
+      "damage_type": "poison",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 15,
+      "extra_effect": "Poisoned"
+    },
+    {
+      "name": "Blight Venom",
+      "mana": 34,
+      "affinity_required": 13,
+      "int_required": 20,
+      "damage_dice": "10d8",
+      "damage_type": "poison",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "extra_effect": "Poisoned+Paralyzed"
+    },
+    {
+      "name": "Poison Tide",
+      "mana": 58,
+      "affinity_required": 15,
+      "int_required": 24,
+      "damage_dice": "12d8",
+      "damage_type": "poison",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Poisoned"
+    },
+    {
+      "name": "Plaguefall",
+      "mana": 106,
+      "affinity_required": 17,
+      "int_required": 28,
+      "damage_dice": "15d8",
+      "damage_type": "poison",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Poisoned"
+    }
+  ],
+  "Psychic": [
+    {
+      "name": "Mind Fog",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_type": "psychic",
+      "save": "wis",
+      "attack_roll": false,
+      "concentration": true,
+      "extra_effect": "Psychic Drain"
+    },
+    {
+      "name": "Thought Pierce",
+      "mana": 12,
+      "affinity_required": 9,
+      "damage_dice": "2d8",
+      "damage_type": "psychic",
+      "save": "wis",
+      "attack_roll": false,
+      "extra_effect": "Frightened+Stunned"
+    },
+    {
+      "name": "Mind Break",
+      "mana": 20,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "4d8",
+      "damage_type": "psychic",
+      "save": "int",
+      "attack_roll": false,
+      "extra_effect": "Enraged"
+    },
+    {
+      "name": "Psychic Collapse",
+      "mana": 30,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "6d8",
+      "damage_type": "psychic",
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "Demoralized+Despair+Psychic Drain"
+    },
+    {
+      "name": "Ego Shatter",
+      "mana": 63,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "8d8",
+      "damage_type": "psychic",
+      "save": "int",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Despair+Stunned+Psychic Drain"
+    },
+    {
+      "name": "Steady Mind",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "psychic",
+      "extra_effect": "Demoralized+Despair+Frightened"
+    },
+    {
+      "name": "Scry",
+      "mana": 18,
+      "affinity_required": 11,
+      "damage_type": "psychic",
+      "save": "wis",
+      "save_half": true,
+      "attack_roll": false
+    }
+  ],
+  "Quake": [
+    {
+      "name": "Earthquake",
+      "mana": 16,
+      "affinity_required": 13,
+      "damage_dice": "4d8",
+      "damage_type": "quake",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 50,
+      "aoe_self": true,
+      "extra_effect": "Prone"
+    },
+    {
+      "name": "Faultline (Quake)",
+      "mana": 28,
+      "affinity_required": 15,
+      "str_required": 19,
+      "damage_dice": "8d8",
+      "damage_type": "quake",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 120,
+      "extra_effect": "Prone"
+    },
+    {
+      "name": "Upheaval",
+      "mana": 43,
+      "affinity_required": 17,
+      "str_required": 21,
+      "damage_dice": "10d8",
+      "damage_type": "quake",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 60,
+      "aoe_self": true,
+      "extra_effect": "Prone"
+    },
+    {
+      "name": "Tectonic Crush",
+      "mana": 60,
+      "affinity_required": 19,
+      "str_required": 23,
+      "damage_dice": "12d8",
+      "damage_type": "quake",
+      "save": "str",
+      "attack_roll": false,
+      "extra_effect": "Prone"
+    },
+    {
+      "name": "Continental Break",
+      "mana": 90,
+      "affinity_required": 22,
+      "str_required": 27,
+      "damage_dice": "16d8",
+      "damage_type": "quake",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 80,
+      "aoe_self": true,
+      "extra_effect": "Prone"
+    },
+    {
+      "name": "Fossilize",
+      "mana": 18,
+      "affinity_required": 13,
+      "damage_type": "quake",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Petrified+Slowed"
     }
   ],
   "Radiant": [
     {
       "name": "Radiant Pulse",
-      "mana": 6,
-      "affinity_required": 5,
+      "mana": 8,
+      "affinity_required": 6,
       "damage_dice": "2d6",
       "damage_type": "radiant",
       "save": "con",
+      "attack_roll": false,
       "extra_effect": "Blinded"
     },
     {
       "name": "Radiant Wave",
-      "mana": 10,
-      "affinity_required": 8,
+      "mana": 12,
+      "affinity_required": 9,
       "damage_dice": "3d6",
       "damage_type": "radiant",
       "save": "con",
+      "attack_roll": false,
       "aoe_radius": 20,
       "aoe_self": true,
-      "extra_effect": "Blinded+Heal"
-    },
-    {
-      "name": "Solar Lance",
-      "mana": 16,
-      "affinity_required": 10,
-      "int_required": 16,
-      "damage_dice": "4d8",
-      "damage_type": "radiant",
-      "save": "dex",
-      "aoe_radius": 60,
-      "aoe_line": true,
       "extra_effect": "Blinded"
     },
     {
+      "name": "Solar Lance (Radiant)",
+      "mana": 20,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "4d8",
+      "damage_type": "radiant",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 60,
+      "extra_effect": "Blinded+Stunned"
+    },
+    {
       "name": "Divine Eruption",
-      "mana": 27,
-      "affinity_required": 12,
-      "int_required": 18,
+      "mana": 33,
+      "affinity_required": 13,
+      "int_required": 19,
       "damage_dice": "6d6",
       "damage_type": "radiant",
       "save": "con",
-      "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Blinded+Blessed"
     },
     {
       "name": "Ascension Nova",
-      "mana": 49,
-      "affinity_required": 15,
-      "int_required": 22,
+      "mana": 59,
+      "affinity_required": 16,
+      "int_required": 23,
       "damage_dice": "8d6",
       "damage_type": "radiant",
       "save": "con",
-      "save_half": true,
+      "attack_roll": false,
       "aoe_radius": 30,
-      "extra_effect": "Blinded+NoAdvantage+Heal"
+      "extra_effect": "Blinded+NoAdvantage"
+    },
+    {
+      "name": "Manaskin",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "radiant"
+    },
+    {
+      "name": "Bless",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "radiant",
+      "extra_effect": "Blessed"
+    },
+    {
+      "name": "Consecrate",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_type": "radiant",
+      "aoe_radius": 20,
+      "concentration": true
+    },
+    {
+      "name": "Spirit Guardians",
+      "mana": 18,
+      "affinity_required": 11,
+      "damage_dice": "3d8",
+      "damage_type": "radiant",
+      "aoe_radius": 15,
+      "aoe_self": true,
+      "concentration": true,
+      "extra_effect": "Slowed"
+    },
+    {
+      "name": "Resurrection",
+      "mana": 41,
+      "affinity_required": 11,
+      "damage_type": "radiant"
+    }
+  ],
+  "Shatter": [
+    {
+      "name": "Shatter Mind",
+      "mana": 24,
+      "affinity_required": 11,
+      "damage_dice": "7d8",
+      "damage_type": "shatter",
+      "save": "int",
+      "attack_roll": false,
+      "extra_effect": "Demoralized"
+    },
+    {
+      "name": "Fracture Thought",
+      "mana": 34,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "9d8",
+      "damage_type": "shatter",
+      "attack_roll": true
+    },
+    {
+      "name": "Splinter Will",
+      "mana": 46,
+      "affinity_required": 15,
+      "int_required": 21,
+      "damage_dice": "12d8",
+      "damage_type": "shatter",
+      "save": "int",
+      "attack_roll": false,
+      "extra_effect": "Demoralized"
+    },
+    {
+      "name": "Glass Soul",
+      "mana": 60,
+      "affinity_required": 17,
+      "int_required": 23,
+      "damage_dice": "14d8",
+      "damage_type": "shatter",
+      "attack_roll": true,
+      "extra_effect": "Demoralized+Stunned"
+    },
+    {
+      "name": "Collapse Identity",
+      "mana": 90,
+      "affinity_required": 19,
+      "int_required": 27,
+      "damage_dice": "18d8",
+      "damage_type": "shatter",
+      "save": "int",
+      "attack_roll": false,
+      "extra_effect": "Demoralized"
+    },
+    {
+      "name": "Dissonant Whispers",
+      "mana": 9,
+      "affinity_required": 7,
+      "damage_dice": "4d8",
+      "damage_type": "shatter",
+      "save": "wis",
+      "attack_roll": false
+    },
+    {
+      "name": "Power Word: Pain",
+      "mana": 45,
+      "affinity_required": 17,
+      "damage_type": "shatter",
+      "extra_effect": "Stunned"
+    }
+  ],
+  "Solar": [
+    {
+      "name": "Solar Beam",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_dice": "6d10",
+      "damage_type": "solar",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 60,
+      "extra_effect": "Blinded+Stunned"
+    },
+    {
+      "name": "Solar Lance (Solar)",
+      "mana": 23,
+      "affinity_required": 9,
+      "int_required": 17,
+      "damage_dice": "10d10",
+      "damage_type": "solar",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 90,
+      "extra_effect": "Blinded+NoAdvantage"
+    },
+    {
+      "name": "Solar Collapse",
+      "mana": 39,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "16d10",
+      "damage_type": "solar",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Blinded"
+    },
+    {
+      "name": "Solar Judgment",
+      "mana": 67,
+      "affinity_required": 13,
+      "int_required": 21,
+      "damage_dice": "22d10",
+      "damage_type": "solar",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Blinded+Stunned"
+    },
+    {
+      "name": "Solar Cataclysm",
+      "mana": 114,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "30d10",
+      "damage_type": "solar",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Blinded+Stunned"
+    }
+  ],
+  "Sorrow": [
+    {
+      "name": "Despair Aura",
+      "mana": 8,
+      "affinity_required": 9,
+      "damage_type": "sorrow",
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "aoe_self": true,
+      "concentration": true,
+      "extra_effect": "Despair"
+    },
+    {
+      "name": "Mourning Glance",
+      "mana": 19,
+      "affinity_required": 11,
+      "wis_required": 17,
+      "damage_dice": "5d8",
+      "damage_type": "sorrow",
+      "attack_roll": true,
+      "extra_effect": "Despair"
+    },
+    {
+      "name": "Grief Well",
+      "mana": 30,
+      "affinity_required": 13,
+      "wis_required": 19,
+      "damage_dice": "7d8",
+      "damage_type": "sorrow",
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Despair"
+    },
+    {
+      "name": "Widow’s Field",
+      "mana": 39,
+      "affinity_required": 15,
+      "wis_required": 21,
+      "damage_dice": "4d8",
+      "damage_type": "sorrow",
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "aoe_self": true,
+      "concentration": true,
+      "extra_effect": "Despair"
+    },
+    {
+      "name": "Last Lament",
+      "mana": 67,
+      "affinity_required": 18,
+      "wis_required": 25,
+      "damage_dice": "10d8",
+      "damage_type": "sorrow",
+      "save": "wis",
+      "attack_roll": false,
+      "extra_effect": "Despair"
+    }
+  ],
+  "Starlight": [
+    {
+      "name": "Stardust",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_type": "starlight",
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_cone": true,
+      "aoe_radius": 30
+    },
+    {
+      "name": "Guiding Constellation",
+      "mana": 19,
+      "affinity_required": 9,
+      "int_required": 17,
+      "damage_dice": "5d8",
+      "damage_type": "starlight",
+      "attack_roll": true,
+      "extra_effect": "Stunned"
+    },
+    {
+      "name": "Falling Choir",
+      "mana": 30,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "6d8",
+      "damage_type": "starlight",
+      "attack_roll": true,
+      "extra_effect": "Stunned"
+    },
+    {
+      "name": "Celestial Script",
+      "mana": 52,
+      "affinity_required": 13,
+      "int_required": 21,
+      "damage_type": "starlight",
+      "save": "wis",
+      "attack_roll": false,
+      "concentration": true,
+      "extra_effect": "Stunned"
+    },
+    {
+      "name": "Heavenfall Pattern",
+      "mana": 84,
+      "affinity_required": 16,
+      "int_required": 25,
+      "damage_dice": "12d8",
+      "damage_type": "starlight",
+      "attack_roll": true,
+      "extra_effect": "Stunned"
+    }
+  ],
+  "Steam": [
+    {
+      "name": "Scald",
+      "mana": 16,
+      "affinity_required": 6,
+      "damage_dice": "4d8",
+      "damage_type": "steam",
+      "attack_roll": true,
+      "extra_effect": "Burned"
+    },
+    {
+      "name": "Boiler Jet",
+      "mana": 25,
+      "affinity_required": 9,
+      "int_required": 17,
+      "damage_dice": "5d8",
+      "damage_type": "steam",
+      "attack_roll": true,
+      "aoe_line": true,
+      "aoe_radius": 60,
+      "extra_effect": "Burned"
+    },
+    {
+      "name": "Whiteout Vent",
+      "mana": 34,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "4d6",
+      "damage_type": "steam",
+      "aoe_radius": 15,
+      "concentration": true,
+      "extra_effect": "Burned"
+    },
+    {
+      "name": "Pressure Crown",
+      "mana": 46,
+      "affinity_required": 13,
+      "int_required": 21,
+      "damage_dice": "8d8",
+      "damage_type": "steam",
+      "attack_roll": true,
+      "extra_effect": "Burned+Soaked"
+    },
+    {
+      "name": "Engine Rupture",
+      "mana": 68,
+      "affinity_required": 16,
+      "int_required": 25,
+      "damage_dice": "12d8",
+      "damage_type": "steam",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Burned"
+    }
+  ],
+  "Storm": [
+    {
+      "name": "Storm Call",
+      "mana": 38,
+      "affinity_required": 16,
+      "damage_type": "storm",
+      "attack_roll": true,
+      "concentration": true
+    },
+    {
+      "name": "Galefront",
+      "mana": 52,
+      "affinity_required": 18,
+      "int_required": 21,
+      "damage_type": "storm",
+      "save": "str",
+      "attack_roll": false,
+      "extra_effect": "Push+Suffocating"
+    },
+    {
+      "name": "Tempest Axis",
+      "mana": 69,
+      "affinity_required": 20,
+      "int_required": 25,
+      "damage_type": "storm",
+      "aoe_radius": 20,
+      "aoe_line": true,
+      "extra_effect": "Soaked+DifficultTerrain"
+    },
+    {
+      "name": "Hurricane Throne",
+      "mana": 94,
+      "affinity_required": 22,
+      "int_required": 29,
+      "damage_type": "storm",
+      "aoe_radius": 40,
+      "aoe_self": true,
+      "concentration": true,
+      "extra_effect": "NoFlight"
+    },
+    {
+      "name": "World Tempest",
+      "mana": 136,
+      "affinity_required": 25,
+      "int_required": 33,
+      "damage_type": "storm",
+      "aoe_radius": 60,
+      "aoe_line": true,
+      "concentration": true
+    },
+    {
+      "name": "Tempest Strike",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "4d8",
+      "damage_type": "storm",
+      "attack_roll": true,
+      "extra_effect": "Soaked+Shocked"
+    }
+  ],
+  "Thunder": [
+    {
+      "name": "Thunderclap",
+      "mana": 13,
+      "affinity_required": 6,
+      "damage_dice": "4d8",
+      "damage_type": "thunder",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 10,
+      "aoe_self": true,
+      "extra_effect": "Push+Deafened"
+    },
+    {
+      "name": "Resonant Shot",
+      "mana": 19,
+      "affinity_required": 9,
+      "con_required": 17,
+      "damage_dice": "7d8",
+      "damage_type": "thunder",
+      "attack_roll": true,
+      "extra_effect": "Deafened"
+    },
+    {
+      "name": "Breaking Note",
+      "mana": 30,
+      "affinity_required": 11,
+      "con_required": 19,
+      "damage_dice": "9d8",
+      "damage_type": "thunder",
+      "attack_roll": true
+    },
+    {
+      "name": "Rolling Choir",
+      "mana": 46,
+      "affinity_required": 13,
+      "con_required": 21,
+      "damage_dice": "8d8",
+      "damage_type": "thunder",
+      "attack_roll": true,
+      "aoe_line": true,
+      "aoe_radius": 120,
+      "extra_effect": "Push"
+    },
+    {
+      "name": "Ruin Chime",
+      "mana": 69,
+      "affinity_required": 16,
+      "con_required": 25,
+      "damage_dice": "12d8",
+      "damage_type": "thunder",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Deafened"
+    },
+    {
+      "name": "Howling Gale",
+      "mana": 11,
+      "affinity_required": 9,
+      "damage_dice": "3d8",
+      "damage_type": "thunder",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 20
+    }
+  ],
+  "Torrent": [
+    {
+      "name": "Torrential Smash",
+      "mana": 13,
+      "affinity_required": 9,
+      "damage_dice": "5d8",
+      "damage_type": "torrent",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 30,
+      "extra_effect": "Push+Prone"
+    },
+    {
+      "name": "Pressure Ram",
+      "mana": 23,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "8d8",
+      "damage_type": "torrent",
+      "attack_roll": true,
+      "extra_effect": "Push"
+    },
+    {
+      "name": "Breach Current",
+      "mana": 34,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "7d8",
+      "damage_type": "torrent",
+      "attack_roll": true,
+      "aoe_line": true,
+      "aoe_radius": 90
+    },
+    {
+      "name": "Leviathan Drive",
+      "mana": 49,
+      "affinity_required": 15,
+      "int_required": 21,
+      "damage_dice": "8d8",
+      "damage_type": "torrent",
+      "attack_roll": true,
+      "concentration": true,
+      "extra_effect": "Push"
+    },
+    {
+      "name": "Breakwater",
+      "mana": 73,
+      "affinity_required": 18,
+      "int_required": 25,
+      "damage_dice": "12d8",
+      "damage_type": "torrent",
+      "save": "dex",
+      "attack_roll": false,
+      "extra_effect": "Push+Prone"
+    }
+  ],
+  "Toxin": [
+    {
+      "name": "Toxic Cloud",
+      "mana": 8,
+      "affinity_required": 9,
+      "damage_dice": "3d6",
+      "damage_type": "toxin",
+      "aoe_radius": 60,
+      "concentration": true,
+      "extra_effect": "Poisoned+Suffocating"
+    },
+    {
+      "name": "Corrosive Breath",
+      "mana": 19,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "6d8",
+      "damage_type": "toxin",
+      "attack_roll": true,
+      "extra_effect": "Poisoned+Suffocating"
+    },
+    {
+      "name": "Green Chamber",
+      "mana": 30,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "4d6",
+      "damage_type": "toxin",
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "Poisoned+Suffocating"
+    },
+    {
+      "name": "Caustic Kiss",
+      "mana": 46,
+      "affinity_required": 15,
+      "int_required": 21,
+      "damage_dice": "10d8",
+      "damage_type": "toxin",
+      "attack_roll": true,
+      "extra_effect": "Poisoned+Suffocating"
+    },
+    {
+      "name": "Suffocation Engine",
+      "mana": 69,
+      "affinity_required": 18,
+      "int_required": 25,
+      "damage_dice": "14d8",
+      "damage_type": "toxin",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Poisoned+Suffocating"
+    }
+  ],
+  "Vacuum": [
+    {
+      "name": "Pressure Spike",
+      "mana": 10,
+      "affinity_required": 11,
+      "damage_type": "vacuum",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Suffocating"
+    },
+    {
+      "name": "Collapse Point",
+      "mana": 23,
+      "affinity_required": 13,
+      "damage_dice": "4d8",
+      "damage_type": "vacuum",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 10,
+      "extra_effect": "Suffocating+Hurting"
+    },
+    {
+      "name": "Gravity Tear",
+      "mana": 37,
+      "affinity_required": 15,
+      "int_required": 17,
+      "damage_dice": "6d8",
+      "damage_type": "vacuum",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Pull+Suffocating+Hurting"
+    },
+    {
+      "name": "Event Collapse",
+      "mana": 60,
+      "affinity_required": 17,
+      "int_required": 19,
+      "damage_dice": "8d8",
+      "damage_type": "vacuum",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 25,
+      "extra_effect": "Suffocating+Hurting"
+    },
+    {
+      "name": "Singularity Core",
+      "mana": 114,
+      "affinity_required": 19,
+      "int_required": 23,
+      "damage_dice": "12d8",
+      "damage_type": "vacuum",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "extra_effect": "Suffocating+Hurting+Pull"
+    },
+    {
+      "name": "Gravity Lift",
+      "mana": 9,
+      "affinity_required": 11,
+      "damage_type": "vacuum",
+      "aoe_radius": 15,
+      "concentration": true
+    }
+  ],
+  "Void": [
+    {
+      "name": "Void Slash",
+      "mana": 16,
+      "affinity_required": 11,
+      "damage_dice": "8d8",
+      "damage_type": "void",
+      "attack_roll": true
+    },
+    {
+      "name": "Null Edge",
+      "mana": 28,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "10d8",
+      "damage_type": "void",
+      "attack_roll": true
+    },
+    {
+      "name": "Hollow Corridor",
+      "mana": 43,
+      "affinity_required": 15,
+      "int_required": 21,
+      "damage_dice": "10d8",
+      "damage_type": "void",
+      "attack_roll": true,
+      "aoe_line": true,
+      "aoe_radius": 120
+    },
+    {
+      "name": "Zero Mark",
+      "mana": 60,
+      "affinity_required": 17,
+      "int_required": 23,
+      "damage_dice": "14d8",
+      "damage_type": "void",
+      "attack_roll": true
+    },
+    {
+      "name": "Oblivion Cut",
+      "mana": 90,
+      "affinity_required": 20,
+      "int_required": 27,
+      "damage_dice": "18d8",
+      "damage_type": "void",
+      "attack_roll": true
+    },
+    {
+      "name": "Void Dart",
+      "mana": 9,
+      "affinity_required": 9,
+      "damage_dice": "4d8",
+      "damage_type": "void",
+      "attack_roll": true
+    },
+    {
+      "name": "Mana Drain",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "4d8",
+      "damage_type": "void",
+      "attack_roll": true
+    },
+    {
+      "name": "Anti-Magic Zone",
+      "mana": 30,
+      "affinity_required": 17,
+      "damage_type": "void",
+      "aoe_radius": 30,
+      "aoe_self": true
+    }
+  ],
+  "Warp": [
+    {
+      "name": "Warp Step",
+      "mana": 6,
+      "affinity_required": 6,
+      "damage_type": "warp"
+    },
+    {
+      "name": "Warp Slice",
+      "mana": 19,
+      "affinity_required": 9,
+      "int_required": 17,
+      "damage_dice": "6d8",
+      "damage_type": "warp",
+      "attack_roll": true
+    },
+    {
+      "name": "Fold Path",
+      "mana": 28,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_type": "warp",
+      "save": "wis",
+      "attack_roll": false,
+      "concentration": true
+    },
+    {
+      "name": "Sever Distance",
+      "mana": 43,
+      "affinity_required": 13,
+      "int_required": 21,
+      "damage_dice": "10d8",
+      "damage_type": "warp",
+      "attack_roll": true
+    },
+    {
+      "name": "Dislocation Gate",
+      "mana": 67,
+      "affinity_required": 16,
+      "int_required": 25,
+      "damage_type": "warp",
+      "save": "dex",
+      "attack_roll": false,
+      "extra_effect": "Prone"
+    },
+    {
+      "name": "Phase Step",
+      "mana": 12,
+      "affinity_required": 9,
+      "damage_type": "warp",
+      "attack_roll": true
+    }
+  ],
+  "Water": [
+    {
+      "name": "Jetstream",
+      "mana": 6,
+      "affinity_required": 6,
+      "damage_dice": "1d6",
+      "damage_type": "water",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 10,
+      "aoe_self": true,
+      "aoe_line": true,
+      "extra_effect": "Push+Soaked"
+    },
+    {
+      "name": "Riptide",
+      "mana": 10,
+      "affinity_required": 8,
+      "damage_dice": "2d6",
+      "damage_type": "water",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "aoe_self": true,
+      "aoe_line": true,
+      "extra_effect": "Push+Soaked"
+    },
+    {
+      "name": "Undertow",
+      "mana": 15,
+      "affinity_required": 11,
+      "int_required": 17,
+      "damage_dice": "3d6",
+      "damage_type": "water",
+      "save": "str",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Pull+Soaked"
+    },
+    {
+      "name": "Floodwall",
+      "mana": 20,
+      "affinity_required": 13,
+      "int_required": 19,
+      "damage_dice": "4d6",
+      "damage_type": "water",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_line": true,
+      "aoe_radius": 30,
+      "concentration": true,
+      "extra_effect": "Soaked+Push"
+    },
+    {
+      "name": "Maelstrom",
+      "mana": 38,
+      "affinity_required": 16,
+      "int_required": 23,
+      "damage_dice": "5d6",
+      "damage_type": "water",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 30,
+      "concentration": true,
+      "extra_effect": "Pull+DifficultTerrain+Soaked"
+    },
+    {
+      "name": "Quench",
+      "mana": 5,
+      "damage_type": "water",
+      "aoe_radius": 15,
+      "extra_effect": "On Fire+Soaked"
+    },
+    {
+      "name": "Waterskin",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "water"
+    },
+    {
+      "name": "Cleansing Waters",
+      "mana": 8,
+      "affinity_required": 4,
+      "damage_type": "water",
+      "extra_effect": "Poisoned+Diseased+Corrupt"
+    },
+    {
+      "name": "Cleanse",
+      "mana": 9,
+      "affinity_required": 3,
+      "damage_type": "water",
+      "extra_effect": "On Fire+Burned+Soaked+Poisoned+Diseased+Corrupt+Necrosis"
+    }
+  ],
+  "Generic": [
+    {
+      "name": "Mana Blast",
+      "mana": 0,
+      "damage_dice": "1d4",
+      "attack_roll": true
+    },
+    {
+      "name": "Mana Bolt",
+      "mana": 5,
+      "affinity_required": 6,
+      "damage_formula": "5+affinity_mod/2",
+      "attack_roll": true
+    },
+    {
+      "name": "Mana Bomb",
+      "mana": 15,
+      "int_required": 18,
+      "extra_prereqs": {
+        "affinities_at": {
+          "6": 3
+        }
+      },
+      "damage_formula": "10+affinity_mod/2",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false
+    },
+    {
+      "name": "Mana Explosion",
+      "mana": 20,
+      "extra_prereqs": {
+        "affinities_at": {
+          "11": 3
+        }
+      },
+      "damage_formula": "15+affinity_mod/2",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false
+    },
+    {
+      "name": "Mana Decimation",
+      "mana": 30,
+      "int_required": 21,
+      "extra_prereqs": {
+        "affinities_at": {
+          "16": 4
+        }
+      },
+      "damage_formula": "30+affinity_mod",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false
+    },
+    {
+      "name": "Restore Energy",
+      "mana": 6
+    },
+    {
+      "name": "Cure Wounds",
+      "mana": 11
+    },
+    {
+      "name": "Share Burden",
+      "mana": 12,
+      "concentration": true
+    },
+    {
+      "name": "Expose Weakness",
+      "mana": 14,
+      "save": "wis",
+      "attack_roll": false
+    },
+    {
+      "name": "Restoration",
+      "mana": 18,
+      "extra_effect": "Deafened+Paralyzed+Poisoned"
+    },
+    {
+      "name": "Remove Curse",
+      "mana": 18,
+      "extra_effect": "Cursed+Slow Death"
+    },
+    {
+      "name": "True Strike",
+      "mana": 18
+    },
+    {
+      "name": "Enlarge or Reduce",
+      "mana": 18
+    },
+    {
+      "name": "Force Share Burden",
+      "mana": 18,
+      "save": "wis",
+      "attack_roll": false,
+      "concentration": true
+    },
+    {
+      "name": "Elemental Ward",
+      "mana": 27
+    },
+    {
+      "name": "Revivify",
+      "mana": 9
+    },
+    {
+      "name": "Heal",
+      "mana": 5
+    },
+    {
+      "name": "Revitalize",
+      "mana": 5
+    },
+    {
+      "name": "Purify",
+      "mana": 6,
+      "extra_effect": "Poisoned+Bleeding+Cursed+Blinded+Pierced+Suffocating"
+    },
+    {
+      "name": "Medicinal Heal",
+      "mana": 5
+    },
+    {
+      "name": "Medicinal Revitalize",
+      "mana": 5
+    },
+    {
+      "name": "Healing Burst",
+      "mana": 9
+    },
+    {
+      "name": "Revitalization Burst",
+      "mana": 9
+    },
+    {
+      "name": "Full Restore"
+    },
+    {
+      "name": "Blood Heal",
+      "mana": 11
+    },
+    {
+      "name": "Martyr's Bond",
+      "mana": 9
+    },
+    {
+      "name": "Revive",
+      "mana": 21
+    },
+    {
+      "name": "Aura of Healing",
+      "mana": 11,
+      "concentration": true
+    },
+    {
+      "name": "Aura of Revitalization",
+      "mana": 11,
+      "concentration": true
+    },
+    {
+      "name": "Reactive Ward",
+      "mana": 10
+    },
+    {
+      "name": "Cleansing Burst",
+      "mana": 11,
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 15,
+      "aoe_self": true,
+      "extra_effect": "Blessed"
+    },
+    {
+      "name": "Halo",
+      "mana": 11,
+      "concentration": true
+    },
+    {
+      "name": "Sanctuary",
+      "mana": 17,
+      "aoe_radius": 15,
+      "concentration": true,
+      "extra_effect": "Blessed"
+    },
+    {
+      "name": "Rebirth",
+      "mana": 27,
+      "extra_effect": "Blessed"
     }
   ]
 }

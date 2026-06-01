@@ -72,11 +72,59 @@ def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
     return points_remaining
 
 
-def spend_affinity_points(char, primary_affinity=None):
+def spend_affinity_points(char, primary_affinity=None, affinity_prereqs=None):
     affp = char.affinity_points
     if affp <= 0:
         return
 
+    if primary_affinity and affinity_prereqs and primary_affinity in affinity_prereqs:
+        prereq = affinity_prereqs[primary_affinity]
+        needs_all = prereq.get('needs_all', [])
+        if needs_all:
+            all_satisfied = True
+            for tier in needs_all:
+                tier_affs = tier.get('affinities', [])
+                tier_min = tier.get('min_each', 0)
+                for aff in tier_affs:
+                    current = char.affinities.get(aff, 0)
+                    if current < tier_min:
+                        needed = tier_min - current
+                        if affp >= needed:
+                            char.affinities[aff] = char.affinities.get(aff, 0) + needed
+                            affp -= needed
+                        else:
+                            char.affinities[aff] = char.affinities.get(aff, 0) + affp
+                            affp = 0
+            for tier in needs_all:
+                tier_affs = tier.get('affinities', [])
+                tier_min = tier.get('min_each', 0)
+                for aff in tier_affs:
+                    if char.affinities.get(aff, 0) < tier_min:
+                        all_satisfied = False
+            if not all_satisfied:
+                char.affinity_points = affp
+                return
+        else:
+            needs = prereq.get('needs', {})
+            min_each = prereq.get('min_each', 0)
+            affinities_needed = needs.get('all_of', []) or needs.get('any_of', [])
+            all_satisfied = True
+            for aff in affinities_needed:
+                current = char.affinities.get(aff, 0)
+                if current < min_each:
+                    needed = min_each - current
+                    if affp >= needed:
+                        char.affinities[aff] = char.affinities.get(aff, 0) + needed
+                        affp -= needed
+                    else:
+                        char.affinities[aff] = char.affinities.get(aff, 0) + affp
+                        affp = 0
+            for aff in affinities_needed:
+                if char.affinities.get(aff, 0) < min_each:
+                    all_satisfied = False
+            if not all_satisfied:
+                char.affinity_points = affp
+                return
     if primary_affinity:
         char.affinities[primary_affinity] = char.affinities.get(primary_affinity, 0) + affp
     else:

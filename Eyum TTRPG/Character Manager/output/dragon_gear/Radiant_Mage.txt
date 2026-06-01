@@ -19,7 +19,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -28,10 +28,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 22 (x10 mana)
-    Total Dmg/5R:  78
-    Total Dmg/10R: 147
-    Mana: 15 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 11 (x5 mana)
+    Total Dmg/5R:  59
+    Total Dmg/10R: 118
+    Mana: 15 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  7
@@ -56,10 +56,12 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
+    Earth          : 3
     Fire           : 3
     Generic        : 2
     Psychic        : -3
-    Radiant        : 8
+    Radiant        : 3
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_wand
@@ -83,7 +85,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
@@ -92,10 +94,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 22 (x10 mana)
-    Total Dmg/5R:  86
-    Total Dmg/10R: 156
-    Mana: 22 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x12 mana)
+    Total Dmg/5R:  62
+    Total Dmg/10R: 122
+    Mana: 22 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  9
@@ -120,10 +122,12 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
   AFFINITIES:
     Air            : -3
     Cold           : -3
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 8
+    Radiant        : 3
+    Water          : 2
 
   GEAR:
     Weapon: dragonbone_wand
@@ -147,7 +151,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 25 = 4d8 (4 x 4) + 3(flat) + 1 x 4(Con)
@@ -156,10 +160,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 23 (x10 mana)
-    Total Dmg/5R:  100
-    Total Dmg/10R: 176
-    Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x12 mana)
+    Total Dmg/5R:  66
+    Total Dmg/10R: 125
+    Mana: 30 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  13
@@ -183,12 +187,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : -2
     Cold           : -3
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 10
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -212,7 +218,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
@@ -221,10 +227,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 50 (x30 mana)
-    Total Dmg/5R:  182
-    Total Dmg/10R: 347
-    Mana: 42 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 33 (x36 mana)
+    Total Dmg/5R:  136
+    Total Dmg/10R: 266
+    Mana: 42 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -248,13 +254,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : -1
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 10
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -278,7 +285,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
@@ -287,10 +294,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 50 (x30 mana)
-    Total Dmg/5R:  193
-    Total Dmg/10R: 358
-    Mana: 51 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 33 (x36 mana)
+    Total Dmg/5R:  136
+    Total Dmg/10R: 266
+    Mana: 51 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -314,13 +321,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : -1
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 10
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -344,7 +352,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
@@ -353,10 +361,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 59 (x30 mana)
-    Total Dmg/5R:  252
-    Total Dmg/10R: 452
-    Mana: 78 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 35 (x15 mana)
+    Total Dmg/5R:  178
+    Total Dmg/10R: 331
+    Mana: 78 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -380,14 +388,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : 2
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 16
-    Water          : 1
+    Radiant        : 7
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -411,7 +419,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
@@ -420,9 +428,9 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 59 (x30 mana)
-    Total Dmg/5R:  259
-    Total Dmg/10R: 459
+    Magic Dmg/Cast: 35 (x15 mana)
+    Total Dmg/5R:  178
+    Total Dmg/10R: 336
     Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -447,14 +455,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : 2
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 16
-    Water          : 1
+    Radiant        : 7
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -478,7 +486,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
@@ -487,10 +495,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 59 | Dmg/Turn: 118 (x30 mana)
-    Total Dmg/5R:  419
-    Total Dmg/10R: 818
-    Mana: 101 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 56 | Dmg/Turn: 112 (x60 mana)
+    Total Dmg/5R:  279
+    Total Dmg/10R: 584
+    Mana: 101 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -514,14 +522,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : 3
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 8
     Generic        : 2
     Psychic        : -3
-    Radiant        : 16
-    Water          : 1
+    Radiant        : 7
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -545,7 +553,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +12
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 54 = 10d6 (3 x 10) + 9(flat) + 1 x 10(Con)
@@ -554,9 +562,9 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 59 | Dmg/Turn: 118 (x30 mana)
-    Total Dmg/5R:  411
-    Total Dmg/10R: 857
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  476
+    Total Dmg/10R: 899
     Mana: 113 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -581,13 +589,13 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Air            : 3
     Cold           : -3
     Earth          : 3
     Fire           : 10
     Generic        : 2
     Psychic        : -3
-    Radiant        : 21
+    Radiant        : 18
     Water          : 3
 
   GEAR:
@@ -612,7 +620,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +10
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
@@ -621,10 +629,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 59 | Dmg/Turn: 118 (x30 mana)
-    Total Dmg/5R:  493
-    Total Dmg/10R: 916
-    Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  392
+    Total Dmg/10R: 744
+    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -648,14 +656,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : 3
     Cold           : -3
     Earth          : 7
     Fire           : 9
     Generic        : 2
     Psychic        : -3
-    Radiant        : 18
-    Water          : 1
+    Radiant        : 11
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -679,7 +687,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +10
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
@@ -688,10 +696,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 59 | Dmg/Turn: 118 (x30 mana)
-    Total Dmg/5R:  455
-    Total Dmg/10R: 878
-    Mana: 136 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  392
+    Total Dmg/10R: 744
+    Mana: 136 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -715,14 +723,14 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : 3
     Cold           : -3
     Earth          : 7
     Fire           : 9
     Generic        : 2
     Psychic        : -3
-    Radiant        : 18
-    Water          : 1
+    Radiant        : 11
+    Water          : 3
 
   GEAR:
     Weapon: dragonbone_wand
@@ -746,7 +754,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 70 = 13d6 (3 x 13) + 12(flat) + 1 x 13(Con)
@@ -755,9 +763,9 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 61 | Dmg/Turn: 122 (x42 mana)
-    Total Dmg/5R:  416
-    Total Dmg/10R: 862
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  465
+    Total Dmg/10R: 912
     Mana: 147 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -782,13 +790,13 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Air            : 3
     Cold           : -3
     Earth          : 10
     Fire           : 11
     Generic        : 2
     Psychic        : -3
-    Radiant        : 23
+    Radiant        : 20
     Water          : 7
 
   GEAR:
@@ -813,7 +821,7 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 76 = 14d6 (3 x 14) + 13(flat) + 1 x 14(Con)
@@ -822,10 +830,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 61 | Dmg/Turn: 122 (x42 mana)
-    Total Dmg/5R:  422
-    Total Dmg/10R: 869
-    Mana: 159 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  434
+    Total Dmg/10R: 880
+    Mana: 159 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -849,13 +857,13 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Air            : 3
     Cold           : -3
     Earth          : 10
     Fire           : 11
     Generic        : 2
     Psychic        : -3
-    Radiant        : 23
+    Radiant        : 20
     Water          : 7
 
   GEAR:
@@ -889,10 +897,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 61 | Dmg/Turn: 122 (x42 mana)
-    Total Dmg/5R:  513
-    Total Dmg/10R: 960
-    Mana: 170 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  474
+    Total Dmg/10R: 921
+    Mana: 170 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -956,10 +964,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 62 | Dmg/Turn: 124 (x42 mana)
-    Total Dmg/5R:  481
-    Total Dmg/10R: 927
-    Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  446
+    Total Dmg/10R: 892
+    Mana: 182 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -1023,10 +1031,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 62 | Dmg/Turn: 124 (x42 mana)
-    Total Dmg/5R:  481
-    Total Dmg/10R: 927
-    Mana: 193 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  507
+    Total Dmg/10R: 953
+    Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1091,10 +1099,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 62 | Dmg/Turn: 124 (x42 mana)
-    Total Dmg/5R:  488
-    Total Dmg/10R: 934
-    Mana: 205 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  507
+    Total Dmg/10R: 953
+    Mana: 205 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1159,10 +1167,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 67 | Dmg/Turn: 134 (x42 mana)
-    Total Dmg/5R:  514
-    Total Dmg/10R: 961
-    Mana: 216 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  543
+    Total Dmg/10R: 990
+    Mana: 216 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1227,10 +1235,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 67 | Dmg/Turn: 134 (x42 mana)
-    Total Dmg/5R:  483
-    Total Dmg/10R: 930
-    Mana: 228 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 138 (x54 mana)
+    Total Dmg/5R:  543
+    Total Dmg/10R: 990
+    Mana: 228 start, 12 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1295,10 +1303,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 65 | Dmg/Turn: 130 (x42 mana)
-    Total Dmg/5R:  570
-    Total Dmg/10R: 1017
-    Mana: 260 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 84 | Dmg/Turn: 168 (x60 mana)
+    Total Dmg/5R:  581
+    Total Dmg/10R: 1028
+    Mana: 260 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1363,10 +1371,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 69 | Dmg/Turn: 207 (x42 mana)
-    Total Dmg/5R:  738
-    Total Dmg/10R: 1407
-    Mana: 323 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 88 | Dmg/Turn: 264 (x60 mana)
+    Total Dmg/5R:  778
+    Total Dmg/10R: 1448
+    Mana: 323 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1431,10 +1439,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 71 | Dmg/Turn: 213 (x42 mana)
-    Total Dmg/5R:  908
-    Total Dmg/10R: 1578
-    Mana: 385 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 270 (x60 mana)
+    Total Dmg/5R:  881
+    Total Dmg/10R: 1551
+    Mana: 385 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -1499,10 +1507,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 91 | Dmg/Turn: 364 (x42 mana)
-    Total Dmg/5R:  1430
-    Total Dmg/10R: 2627
-    Mana: 551 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 111 | Dmg/Turn: 444 (x60 mana)
+    Total Dmg/5R:  1479
+    Total Dmg/10R: 2676
+    Mana: 551 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -1568,10 +1576,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 117 | Dmg/Turn: 468 (x42 mana)
-    Total Dmg/5R:  2005
-    Total Dmg/10R: 3435
-    Mana: 737 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 548 (x60 mana)
+    Total Dmg/5R:  2095
+    Total Dmg/10R: 3748
+    Mana: 737 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -1637,10 +1645,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 129 | Dmg/Turn: 645 (x81 mana)
-    Total Dmg/5R:  1930
-    Total Dmg/10R: 4091
-    Mana: 1126 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 145 | Dmg/Turn: 725 (x60 mana)
+    Total Dmg/5R:  2750
+    Total Dmg/10R: 4911
+    Mana: 1126 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -1706,10 +1714,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 129 | Dmg/Turn: 645 (x81 mana)
-    Total Dmg/5R:  2192
-    Total Dmg/10R: 4353
-    Mana: 1311 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 148 | Dmg/Turn: 740 (x60 mana)
+    Total Dmg/5R:  3112
+    Total Dmg/10R: 4979
+    Mana: 1311 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  231
@@ -1775,10 +1783,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 131 | Dmg/Turn: 786 (x42 mana)
-    Total Dmg/5R:  3948
-    Total Dmg/10R: 6287
-    Mana: 1496 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 151 | Dmg/Turn: 906 (x60 mana)
+    Total Dmg/5R:  3768
+    Total Dmg/10R: 6361
+    Mana: 1496 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  267
@@ -1844,10 +1852,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 135 | Dmg/Turn: 945 (x42 mana)
-    Total Dmg/5R:  4743
-    Total Dmg/10R: 8112
-    Mana: 1772 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 155 | Dmg/Turn: 1085 (x60 mana)
+    Total Dmg/5R:  4495
+    Total Dmg/10R: 7180
+    Mana: 1772 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  300
@@ -1913,10 +1921,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 138 | Dmg/Turn: 966 (x42 mana)
-    Total Dmg/5R:  4845
-    Total Dmg/10R: 7710
-    Mana: 1967 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 157 | Dmg/Turn: 1099 (x60 mana)
+    Total Dmg/5R:  5054
+    Total Dmg/10R: 7623
+    Mana: 1967 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  331
@@ -1982,10 +1990,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 141 | Dmg/Turn: 1128 (x42 mana)
-    Total Dmg/5R:  5655
-    Total Dmg/10R: 8723
-    Mana: 2162 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 160 | Dmg/Turn: 1280 (x60 mana)
+    Total Dmg/5R:  5791
+    Total Dmg/10R: 9249
+    Mana: 2162 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  362
@@ -2051,10 +2059,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 245 | Dmg/Turn: 2205 (x75 mana)
-    Total Dmg/5R:  7754
-    Total Dmg/10R: 11644
-    Mana: 2357 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 245 | Dmg/Turn: 2205 (x90 mana)
+    Total Dmg/5R:  7307
+    Total Dmg/10R: 11198
+    Mana: 2357 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  400
@@ -2120,9 +2128,9 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 251 | Dmg/Turn: 2259 (x75 mana)
-    Total Dmg/5R:  9330
-    Total Dmg/10R: 13220
+    Magic Dmg/Cast: 251 | Dmg/Turn: 2259 (x90 mana)
+    Total Dmg/5R:  7332
+    Total Dmg/10R: 11222
     Mana: 2552 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2189,10 +2197,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 257 | Dmg/Turn: 2570 (x75 mana)
-    Total Dmg/5R:  9924
-    Total Dmg/10R: 13522
-    Mana: 2888 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 257 | Dmg/Turn: 2570 (x90 mana)
+    Total Dmg/5R:  9101
+    Total Dmg/10R: 13423
+    Mana: 2888 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  462
@@ -2258,10 +2266,10 @@ EYUM TTRPG - RADIANT MAGE (DRAGON BONE/SCALE GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 265 | Dmg/Turn: 2650 (x75 mana)
-    Total Dmg/5R:  10873
-    Total Dmg/10R: 14474
-    Mana: 3093 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 265 | Dmg/Turn: 2650 (x90 mana)
+    Total Dmg/5R:  9318
+    Total Dmg/10R: 13641
+    Mana: 3093 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  495

@@ -19,7 +19,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -28,10 +28,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 10 (x10 mana)
-    Total Dmg/5R:  26
-    Total Dmg/10R: 45
-    Mana: 15 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 3 (x5 mana)
+    Total Dmg/5R:  16
+    Total Dmg/10R: 33
+    Mana: 15 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  7
@@ -56,10 +56,12 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
+    Earth          : 3
     Fire           : 3
     Generic        : 2
     Psychic        : -3
-    Radiant        : 8
+    Radiant        : 3
+    Water          : 2
 
   GEAR:
     Weapon: wand
@@ -83,7 +85,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
@@ -92,10 +94,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 10 (x10 mana)
-    Total Dmg/5R:  32
-    Total Dmg/10R: 52
-    Mana: 22 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 7 (x12 mana)
+    Total Dmg/5R:  20
+    Total Dmg/10R: 36
+    Mana: 22 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  9
@@ -120,10 +122,12 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
   AFFINITIES:
     Air            : -3
     Cold           : -3
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 8
+    Radiant        : 3
+    Water          : 2
 
   GEAR:
     Weapon: wand
@@ -147,7 +151,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 25 = 4d8 (4 x 4) + 3(flat) + 1 x 4(Con)
@@ -156,10 +160,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 11 (x10 mana)
-    Total Dmg/5R:  42
-    Total Dmg/10R: 63
-    Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 7 (x12 mana)
+    Total Dmg/5R:  24
+    Total Dmg/10R: 40
+    Mana: 30 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  13
@@ -183,12 +187,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : -2
     Cold           : -3
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 10
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -212,7 +218,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
@@ -221,10 +227,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x30 mana)
-    Total Dmg/5R:  71
-    Total Dmg/10R: 127
-    Mana: 42 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x36 mana)
+    Total Dmg/5R:  51
+    Total Dmg/10R: 95
+    Mana: 42 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -248,13 +254,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : -1
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 10
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -278,7 +285,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
@@ -287,10 +294,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x30 mana)
-    Total Dmg/5R:  79
-    Total Dmg/10R: 135
-    Mana: 51 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x36 mana)
+    Total Dmg/5R:  51
+    Total Dmg/10R: 95
+    Mana: 51 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -314,13 +321,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : -1
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 10
+    Radiant        : 3
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -344,7 +352,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
@@ -353,10 +361,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 30 (x30 mana)
-    Total Dmg/5R:  111
-    Total Dmg/10R: 179
-    Mana: 78 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 15 (x15 mana)
+    Total Dmg/5R:  78
+    Total Dmg/10R: 130
+    Mana: 78 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  21
@@ -380,14 +388,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : 2
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 16
-    Water          : 1
+    Radiant        : 7
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -411,7 +419,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
@@ -420,9 +428,9 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 30 (x30 mana)
-    Total Dmg/5R:  118
-    Total Dmg/10R: 186
+    Magic Dmg/Cast: 15 (x15 mana)
+    Total Dmg/5R:  78
+    Total Dmg/10R: 135
     Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -447,14 +455,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -3
+    Air            : 2
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 4
     Generic        : 2
     Psychic        : -3
-    Radiant        : 16
-    Water          : 1
+    Radiant        : 7
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -478,7 +486,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
@@ -487,10 +495,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x30 mana)
-    Total Dmg/5R:  172
-    Total Dmg/10R: 308
-    Mana: 101 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x60 mana)
+    Total Dmg/5R:  112
+    Total Dmg/10R: 216
+    Mana: 101 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -514,14 +522,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : 3
     Cold           : -3
-    Earth          : 1
+    Earth          : 3
     Fire           : 8
     Generic        : 2
     Psychic        : -3
-    Radiant        : 16
-    Water          : 1
+    Radiant        : 7
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -545,7 +553,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +12
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 54 = 10d6 (3 x 10) + 9(flat) + 1 x 10(Con)
@@ -554,9 +562,9 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x30 mana)
-    Total Dmg/5R:  175
-    Total Dmg/10R: 327
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  191
+    Total Dmg/10R: 335
     Mana: 113 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -581,13 +589,13 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Air            : 3
     Cold           : -3
     Earth          : 3
     Fire           : 10
     Generic        : 2
     Psychic        : -3
-    Radiant        : 21
+    Radiant        : 18
     Water          : 3
 
   GEAR:
@@ -612,7 +620,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +10
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
@@ -621,10 +629,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x30 mana)
-    Total Dmg/5R:  208
-    Total Dmg/10R: 352
-    Mana: 124 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  167
+    Total Dmg/10R: 287
+    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -648,14 +656,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : 3
     Cold           : -3
     Earth          : 7
     Fire           : 9
     Generic        : 2
     Psychic        : -3
-    Radiant        : 18
-    Water          : 1
+    Radiant        : 11
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -679,7 +687,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +10
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
@@ -688,10 +696,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x30 mana)
-    Total Dmg/5R:  198
-    Total Dmg/10R: 342
-    Mana: 136 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  167
+    Total Dmg/10R: 287
+    Mana: 136 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -715,14 +723,14 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : -2
+    Air            : 3
     Cold           : -3
     Earth          : 7
     Fire           : 9
     Generic        : 2
     Psychic        : -3
-    Radiant        : 18
-    Water          : 1
+    Radiant        : 11
+    Water          : 3
 
   GEAR:
     Weapon: wand
@@ -746,7 +754,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 70 = 13d6 (3 x 13) + 12(flat) + 1 x 13(Con)
@@ -755,9 +763,9 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 31 | Dmg/Turn: 62 (x42 mana)
-    Total Dmg/5R:  178
-    Total Dmg/10R: 330
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  197
+    Total Dmg/10R: 349
     Mana: 147 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -782,13 +790,13 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Air            : 3
     Cold           : -3
     Earth          : 10
     Fire           : 11
     Generic        : 2
     Psychic        : -3
-    Radiant        : 23
+    Radiant        : 20
     Water          : 7
 
   GEAR:
@@ -813,7 +821,7 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Speed: 25 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +5
-    To Hit: Magic: +13
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 76 = 14d6 (3 x 14) + 13(flat) + 1 x 14(Con)
@@ -822,10 +830,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 31 | Dmg/Turn: 62 (x42 mana)
-    Total Dmg/5R:  184
-    Total Dmg/10R: 336
-    Mana: 159 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  195
+    Total Dmg/10R: 347
+    Mana: 159 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -849,13 +857,13 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
     Racial -> Demon Sylphamare (Lvl 0)
 
   AFFINITIES:
-    Air            : 0
+    Air            : 3
     Cold           : -3
     Earth          : 10
     Fire           : 11
     Generic        : 2
     Psychic        : -3
-    Radiant        : 23
+    Radiant        : 20
     Water          : 7
 
   GEAR:
@@ -889,10 +897,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 31 | Dmg/Turn: 62 (x42 mana)
-    Total Dmg/5R:  216
-    Total Dmg/10R: 367
-    Mana: 170 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  205
+    Total Dmg/10R: 357
+    Mana: 170 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -956,10 +964,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 32 | Dmg/Turn: 64 (x42 mana)
-    Total Dmg/5R:  213
-    Total Dmg/10R: 365
-    Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  206
+    Total Dmg/10R: 358
+    Mana: 182 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -1023,10 +1031,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 32 | Dmg/Turn: 64 (x42 mana)
-    Total Dmg/5R:  213
-    Total Dmg/10R: 365
-    Mana: 193 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  237
+    Total Dmg/10R: 389
+    Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1091,10 +1099,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 32 | Dmg/Turn: 64 (x42 mana)
-    Total Dmg/5R:  219
-    Total Dmg/10R: 371
-    Mana: 205 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  237
+    Total Dmg/10R: 389
+    Mana: 205 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1159,10 +1167,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x42 mana)
-    Total Dmg/5R:  246
-    Total Dmg/10R: 398
-    Mana: 216 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  243
+    Total Dmg/10R: 395
+    Mana: 216 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1227,10 +1235,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x42 mana)
-    Total Dmg/5R:  244
-    Total Dmg/10R: 396
-    Mana: 228 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 76 (x54 mana)
+    Total Dmg/5R:  243
+    Total Dmg/10R: 395
+    Mana: 228 start, 12 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1295,10 +1303,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 35 | Dmg/Turn: 70 (x42 mana)
-    Total Dmg/5R:  271
-    Total Dmg/10R: 423
-    Mana: 260 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 54 | Dmg/Turn: 108 (x60 mana)
+    Total Dmg/5R:  313
+    Total Dmg/10R: 465
+    Mana: 260 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1363,10 +1371,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 39 | Dmg/Turn: 117 (x42 mana)
-    Total Dmg/5R:  379
-    Total Dmg/10R: 607
-    Mana: 323 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 58 | Dmg/Turn: 174 (x60 mana)
+    Total Dmg/5R:  421
+    Total Dmg/10R: 649
+    Mana: 323 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1431,10 +1439,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 40 | Dmg/Turn: 120 (x42 mana)
-    Total Dmg/5R:  459
-    Total Dmg/10R: 687
-    Mana: 385 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 60 | Dmg/Turn: 180 (x60 mana)
+    Total Dmg/5R:  493
+    Total Dmg/10R: 721
+    Mana: 385 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -1499,10 +1507,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 61 | Dmg/Turn: 244 (x42 mana)
-    Total Dmg/5R:  920
-    Total Dmg/10R: 1528
-    Mana: 551 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 80 | Dmg/Turn: 320 (x60 mana)
+    Total Dmg/5R:  971
+    Total Dmg/10R: 1579
+    Mana: 551 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -1568,10 +1576,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 87 | Dmg/Turn: 348 (x42 mana)
-    Total Dmg/5R:  1491
-    Total Dmg/10R: 2420
-    Mana: 737 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 107 | Dmg/Turn: 428 (x60 mana)
+    Total Dmg/5R:  1585
+    Total Dmg/10R: 2649
+    Mana: 737 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -1637,10 +1645,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 99 | Dmg/Turn: 495 (x81 mana)
-    Total Dmg/5R:  1477
-    Total Dmg/10R: 2902
-    Mana: 1126 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 115 | Dmg/Turn: 575 (x60 mana)
+    Total Dmg/5R:  2176
+    Total Dmg/10R: 3601
+    Mana: 1126 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -1706,10 +1714,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 99 | Dmg/Turn: 495 (x81 mana)
-    Total Dmg/5R:  1679
-    Total Dmg/10R: 3104
-    Mana: 1311 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 117 | Dmg/Turn: 585 (x60 mana)
+    Total Dmg/5R:  2477
+    Total Dmg/10R: 3725
+    Mana: 1311 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  231
@@ -1775,10 +1783,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 101 | Dmg/Turn: 606 (x42 mana)
-    Total Dmg/5R:  3042
-    Total Dmg/10R: 4670
-    Mana: 1496 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 120 | Dmg/Turn: 720 (x60 mana)
+    Total Dmg/5R:  3012
+    Total Dmg/10R: 4722
+    Mana: 1496 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  267
@@ -1844,10 +1852,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 105 | Dmg/Turn: 735 (x42 mana)
-    Total Dmg/5R:  3685
-    Total Dmg/10R: 6018
-    Mana: 1772 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 124 | Dmg/Turn: 868 (x60 mana)
+    Total Dmg/5R:  3619
+    Total Dmg/10R: 5420
+    Mana: 1772 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  300
@@ -1913,10 +1921,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 108 | Dmg/Turn: 756 (x42 mana)
-    Total Dmg/5R:  3787
-    Total Dmg/10R: 5877
-    Mana: 1967 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 127 | Dmg/Turn: 889 (x60 mana)
+    Total Dmg/5R:  4087
+    Total Dmg/10R: 5801
+    Mana: 1967 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  331
@@ -1982,10 +1990,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 111 | Dmg/Turn: 888 (x42 mana)
-    Total Dmg/5R:  4446
-    Total Dmg/10R: 6681
-    Mana: 2162 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 130 | Dmg/Turn: 1040 (x60 mana)
+    Total Dmg/5R:  4703
+    Total Dmg/10R: 6983
+    Mana: 2162 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  362
@@ -2051,10 +2059,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 215 | Dmg/Turn: 1935 (x75 mana)
-    Total Dmg/5R:  6788
-    Total Dmg/10R: 9353
-    Mana: 2357 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 215 | Dmg/Turn: 1935 (x90 mana)
+    Total Dmg/5R:  6227
+    Total Dmg/10R: 8792
+    Mana: 2357 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  400
@@ -2120,9 +2128,9 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 221 | Dmg/Turn: 1989 (x75 mana)
-    Total Dmg/5R:  8038
-    Total Dmg/10R: 10603
+    Magic Dmg/Cast: 221 | Dmg/Turn: 1989 (x90 mana)
+    Total Dmg/5R:  6426
+    Total Dmg/10R: 8992
     Mana: 2552 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2189,10 +2197,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 227 | Dmg/Turn: 2270 (x75 mana)
-    Total Dmg/5R:  8746
-    Total Dmg/10R: 11136
-    Mana: 2888 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 227 | Dmg/Turn: 2270 (x90 mana)
+    Total Dmg/5R:  7839
+    Total Dmg/10R: 10689
+    Mana: 2888 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  462
@@ -2258,10 +2266,10 @@ EYUM TTRPG - RADIANT MAGE (BAD GEAR (IRON/BASE))
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 234 | Dmg/Turn: 2340 (x75 mana)
-    Total Dmg/5R:  9633
-    Total Dmg/10R: 12027
-    Mana: 3093 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 234 | Dmg/Turn: 2340 (x90 mana)
+    Total Dmg/5R:  8232
+    Total Dmg/10R: 11082
+    Mana: 3093 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  495

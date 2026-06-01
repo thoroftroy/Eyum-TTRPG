@@ -906,5 +906,50 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
                     f.write("\n  >>> " + top_race + " is very popular (>" + str(int(top_pct)) +
                             "% pick rate). Review if its power budget is too high.\n")
         f.write("\n")
+        f.write("SPELL ANALYSIS & RANKINGS\n")
+        f.write("-" * 40 + "\n")
+        try:
+            die_avg = r.get('die_averages', {})
+            spells_data = settings.get('spells', {})
+            spell_stats = []
+            for aff_name, spells in spells_data.items():
+                if aff_name in ('Healing', 'Eldritch', 'Force'):
+                    continue
+                for spell in spells:
+                    mana = spell.get('mana', 0)
+                    dmg = 0
+                    if spell.get('damage_dice'):
+                        dmg += die_avg.get(spell['damage_dice'], 0)
+                    if spell.get('damage_flat'):
+                        dmg += spell['damage_flat']
+                    if spell.get('damage_formula'):
+                        dmg += 10
+                    if dmg <= 0 and mana <= 0:
+                        continue
+                    eff = dmg / max(mana, 1)
+                    spell_stats.append((dmg, mana, eff, aff_name, spell.get('name', '?')))
+            if spell_stats:
+                spell_stats.sort(key=lambda x: x[0], reverse=True)
+                f.write("\nTop 5 by base damage:\n")
+                for dmg, mana, eff, aff, name in spell_stats[:5]:
+                    f.write(f"  {aff}:{name} — {dmg:.1f} dmg, {mana} mana\n")
+                spell_stats.sort(key=lambda x: x[2], reverse=True)
+                f.write("\nTop 5 by mana efficiency:\n")
+                for dmg, mana, eff, aff, name in spell_stats[:5]:
+                    f.write(f"  {aff}:{name} — {eff:.2f} dmg/mana, {dmg:.1f} dmg, {mana} mana\n")
+                spell_stats.sort(key=lambda x: x[1])
+                zero_mana = [s for s in spell_stats if s[1] == 0]
+                if zero_mana:
+                    f.write("\nFree spells (0 mana):\n")
+                    for dmg, mana, eff, aff, name in zero_mana[:5]:
+                        f.write(f"  {aff}:{name} — {dmg:.1f} dmg\n")
+                high_cost = sorted([s for s in spell_stats if s[1] > 50], key=lambda x: x[0], reverse=True)
+                if high_cost:
+                    f.write("\nHighest-cost spells (50+ mana):\n")
+                    for dmg, mana, eff, aff, name in high_cost[:5]:
+                        f.write(f"  {aff}:{name} — {dmg:.1f} dmg, {mana} mana, {eff:.2f} dmg/mana\n")
+        except Exception:
+            pass
+        f.write("\n")
         f.write("=" * 60 + "\n")
         f.write("End of summary\n")

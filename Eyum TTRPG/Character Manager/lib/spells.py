@@ -60,6 +60,7 @@ def check_spell_prereqs(char, spell, element, aff_val):
 def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, weapon_info=None):
     if 'damage_dice' in spell:
         dmg = die_avg.get(spell['damage_dice'], 0)
+        dmg += spell.get('damage_flat', 0)
     elif 'damage_formula' in spell:
         formula = spell['damage_formula']
         if '+' in formula:

@@ -348,7 +348,8 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             select_feats(char, level, settings)
 
         if not is_casual and not build_config.get('worst', False):
-            spend_affinity_points(char, build_config.get('primary_affinity'))
+            affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
+            spend_affinity_points(char, build_config.get('primary_affinity'), affinity_prereqs)
 
         dmg_perturn = calculate_damage(char, settings)
         dmg_5round = calculate_5_round_damage(char, settings['rules'], dmg_perturn, settings)

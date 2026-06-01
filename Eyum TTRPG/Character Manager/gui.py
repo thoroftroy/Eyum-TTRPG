@@ -155,6 +155,8 @@ def extract_build_data(settings, results):
             'ManaEnd5R': int(d5.get('mana_end', 0)),
             'ManaStart10R': int(d10.get('mana_start', 0)),
             'ManaEnd10R': int(d10.get('mana_end', 0)),
+            'affinities': dict(c.affinities) if hasattr(c, 'affinities') else {},
+            'race': res.get('race', 'none'),
         }
     return build_data, levels
 
@@ -224,6 +226,9 @@ def collect_all_data(settings, progress_callback=None):
 
 
 class CharacterManagerGUI:
+    UPCAST_RULES = {}
+    _upcast_initialized = False
+
     def __init__(self, root):
         self.root = root
         self.root.title("Eyum TTRPG Character Manager - Balance Visualizer")
@@ -246,14 +251,29 @@ class CharacterManagerGUI:
         self._tooltip = None
         self._lines = {}
         self._line_visible = {}
+        self._build_enabled = {}
+        self._build_names = []
         self._focused_line_name = None
         self._selected_level = None
         self._click_annotation = None
         self._click_marker = None
         self._level_limit_enabled = False
+        self._affinity_markers = []
+        self._max_level = 30
+
+        self._spell_data = None
+        self._spell_rules = None
+        self._spell_zoomed = False
+        self._spell_lines = []
+        self._spell_line_data = {}
+        self._spell_legend_entries = []
+        self._spell_click_annotation = None
+        self._spell_click_marker = None
+        self._spell_visibility = {}
 
         self._build_notebook()
         self._create_graph_tab()
+        self._create_spell_tab()
         self._create_settings_tab()
         self._create_menu()
 
@@ -275,23 +295,25 @@ class CharacterManagerGUI:
         file_menu.add_command(label="Run Generator", command=self._run_generator_from_ui, accelerator="Ctrl+R")
         file_menu.add_separator()
         file_menu.add_command(label="Switch to Graph View", command=lambda: self.notebook.select(0), accelerator="Ctrl+G")
-        file_menu.add_command(label="Switch to Settings", command=lambda: self.notebook.select(1), accelerator="Ctrl+S")
+        file_menu.add_command(label="Switch to Spell Analysis", command=lambda: self.notebook.select(1), accelerator="Ctrl+S")
+        file_menu.add_command(label="Switch to Settings", command=lambda: self.notebook.select(2), accelerator="Ctrl+E")
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
 
         view_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="View", menu=view_menu)
         view_menu.add_command(label="Graph View", command=lambda: self.notebook.select(0), accelerator="Ctrl+G")
-        view_menu.add_command(label="Settings Editor", command=lambda: self.notebook.select(1), accelerator="Ctrl+E")
+        view_menu.add_command(label="Spell Analysis", command=lambda: self.notebook.select(1), accelerator="Ctrl+S")
+        view_menu.add_command(label="Settings Editor", command=lambda: self.notebook.select(2), accelerator="Ctrl+E")
 
         gen_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="Generate", menu=gen_menu)
         gen_menu.add_command(label="Run Generator Now", command=self._run_generator_from_ui, accelerator="Ctrl+R")
         gen_menu.add_command(label="Settings → Run Generator", command=lambda: self._settings_run(keep_changes=False))
 
-        self.root.bind_all('<Control-r>', lambda e: self._run_generator_from_ui())
         self.root.bind_all('<Control-g>', lambda e: self.notebook.select(0))
-        self.root.bind_all('<Control-e>', lambda e: self.notebook.select(1))
+        self.root.bind_all('<Control-s>', lambda e: self.notebook.select(1))
+        self.root.bind_all('<Control-e>', lambda e: self.notebook.select(2))
 
     def _create_graph_tab(self):
         self.graph_frame = ttk.Frame(self.notebook)
@@ -336,43 +358,61 @@ class CharacterManagerGUI:
 
         ttk.Separator(toolbar_frame, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=10)
 
-        self.limit_btn = ttk.Checkbutton(
-            toolbar_frame, text="Levels 1-30",
-            command=self._toggle_level_limit
+        ttk.Label(toolbar_frame, text="Max Level:").pack(side=tk.LEFT, padx=2)
+        self.level_slider = ttk.Scale(
+            toolbar_frame, from_=1, to=150, orient=tk.HORIZONTAL,
+            length=120, value=30
         )
-        self.limit_btn.pack(side=tk.LEFT, padx=5)
+        self.level_slider.pack(side=tk.LEFT, padx=2)
+        self.level_slider_label = ttk.Label(toolbar_frame, text="30")
+        self.level_slider_label.pack(side=tk.LEFT, padx=2)
+        self.level_slider.config(command=self._on_slider_change)
 
-        main_frame = ttk.Frame(self.graph_frame)
-        main_frame.pack(fill=tk.BOTH, expand=True)
+        ttk.Separator(toolbar_frame, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=5)
 
-        self.fig, self.ax = plt.subplots(figsize=(12, 6))
+        self.disable_nonmagic_btn = ttk.Button(
+            toolbar_frame, text="Toggle Non-Magic",
+            command=self._toggle_nonmagic
+        )
+        self.disable_nonmagic_btn.pack(side=tk.LEFT, padx=5)
+
+        main_pane = ttk.PanedWindow(self.graph_frame, orient=tk.HORIZONTAL)
+        main_pane.pack(fill=tk.BOTH, expand=True)
+
+        graph_side = ttk.Frame(main_pane)
+        main_pane.add(graph_side, weight=1)
+
+        self.fig, self.ax = plt.subplots(figsize=(10, 6))
         self.fig.subplots_adjust(left=0.08, right=0.97, top=0.95, bottom=0.08)
 
-        self.canvas = FigureCanvasTkAgg(self.fig, master=main_frame)
+        self.canvas = FigureCanvasTkAgg(self.fig, master=graph_side)
         self.canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
 
-        nav_frame = ttk.Frame(main_frame)
+        nav_frame = ttk.Frame(graph_side)
         nav_frame.pack(fill=tk.X)
         self.nav_toolbar = NavigationToolbar2Tk(self.canvas, nav_frame)
         self.nav_toolbar.update()
 
         self._setup_interactions()
 
-        summary_frame = ttk.Frame(self.graph_frame)
-        summary_frame.pack(fill=tk.X, padx=5, pady=(0, 5))
+        self.legend_frame = ttk.Frame(main_pane)
+        main_pane.add(self.legend_frame, weight=0)
 
-        self.summary_canvas = tk.Canvas(summary_frame, height=65, highlightthickness=0)
-        self.summary_scroll = ttk.Scrollbar(summary_frame, orient=tk.HORIZONTAL, command=self.summary_canvas.xview)
-        self.summary_inner = ttk.Frame(self.summary_canvas)
+        ttk.Label(self.legend_frame, text="Legend", font=('', 9, 'bold')).pack(anchor=tk.W, padx=3, pady=2)
 
-        self.summary_inner.bind('<Configure>', lambda e: self.summary_canvas.configure(
-            scrollregion=self.summary_canvas.bbox('all')
+        self.legend_canvas = tk.Canvas(self.legend_frame, width=200, highlightthickness=0)
+        self.legend_scroll = ttk.Scrollbar(self.legend_frame, orient=tk.VERTICAL, command=self.legend_canvas.yview)
+        self.legend_inner = ttk.Frame(self.legend_canvas)
+
+        self.legend_inner.bind('<Configure>', lambda e: self.legend_canvas.configure(
+            scrollregion=(0, 0, self.legend_inner.winfo_reqwidth(), self.legend_inner.winfo_reqheight())
         ))
-        self.summary_canvas.create_window((0, 0), window=self.summary_inner, anchor='nw', tags='inner')
-        self.summary_canvas.configure(xscrollcommand=self.summary_scroll.set)
+        self.legend_canvas.create_window((0, 0), window=self.legend_inner, anchor='nw', tags='inner')
+        self.legend_canvas.configure(yscrollcommand=self.legend_scroll.set)
 
-        self.summary_canvas.pack(fill=tk.X, expand=True)
-        self.summary_scroll.pack(fill=tk.X)
+        self.legend_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.legend_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+        self._bind_scrollwheel(self.legend_canvas)
 
     def _create_settings_tab(self):
         self.settings_frame = ttk.Frame(self.notebook)
@@ -432,13 +472,1161 @@ class CharacterManagerGUI:
         h_scroll.pack(fill=tk.X)
         v_scroll.pack(side=tk.RIGHT, fill=tk.Y)
 
+    LINE_STYLES = ['solid', 'dashed', 'dotted', 'dashdot', (0, (3, 1, 1, 1))]
+
+    def _create_spell_tab(self):
+        self.spell_frame = ttk.Frame(self.notebook)
+        self.notebook.add(self.spell_frame, text="Spell Analysis")
+
+        panes = ttk.PanedWindow(self.spell_frame, orient=tk.HORIZONTAL)
+        panes.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+
+        left_frame = ttk.Frame(panes, width=300)
+        panes.add(left_frame, weight=0)
+
+        canvas_frame = ttk.Frame(left_frame)
+        canvas_frame.pack(fill=tk.BOTH, expand=True)
+
+        self.spell_control_canvas = tk.Canvas(canvas_frame, width=280, highlightthickness=0)
+        scrollbar = ttk.Scrollbar(canvas_frame, orient=tk.VERTICAL, command=self.spell_control_canvas.yview)
+        self.spell_control_inner = ttk.Frame(self.spell_control_canvas)
+
+        self.spell_control_inner.bind('<Configure>', lambda e: self.spell_control_canvas.configure(
+            scrollregion=self.spell_control_canvas.bbox('all')
+        ))
+        self.spell_control_canvas.create_window((0, 0), window=self.spell_control_inner, anchor='nw', tags='inner')
+        self.spell_control_canvas.configure(yscrollcommand=scrollbar.set)
+        self.spell_control_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self._bind_scrollwheel(self.spell_control_canvas)
+
+        controls = self.spell_control_inner
+
+        ttk.Label(controls, text="Spell Parameters", font=('', 10, 'bold')).pack(anchor=tk.W, padx=5, pady=(8, 2))
+
+        f1 = ttk.Frame(controls)
+        f1.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(f1, text="Max Mana:").pack(side=tk.LEFT)
+        self._spell_mana_var = tk.StringVar(value="100")
+        self._spell_mana_entry = ttk.Entry(f1, textvariable=self._spell_mana_var, width=8)
+        self._spell_mana_entry.pack(side=tk.RIGHT)
+        self._spell_mana_entry.bind('<Return>', lambda e: self._refresh_spell_graph())
+        self._spell_mana_entry.bind('<FocusOut>', lambda e: self._refresh_spell_graph())
+
+        f2 = ttk.Frame(controls)
+        f2.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(f2, text="Target Count:").pack(side=tk.LEFT)
+        self._spell_target_label = ttk.Label(f2, text="1")
+        self._spell_target_label.pack(side=tk.RIGHT)
+        self._spell_target_var = tk.IntVar(value=1)
+        self._spell_target_scale = ttk.Scale(controls, from_=1, to=20, orient=tk.HORIZONTAL,
+                                              variable=self._spell_target_var)
+        self._spell_target_scale.pack(fill=tk.X, padx=5, pady=(0, 2))
+        self._spell_target_scale.config(command=self._on_spell_target_change)
+
+        f2b = ttk.Frame(controls)
+        f2b.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(f2b, text="Max Rounds:").pack(side=tk.LEFT)
+        self._spell_rounds_label = ttk.Label(f2b, text="10")
+        self._spell_rounds_label.pack(side=tk.RIGHT)
+        self._spell_rounds_var = tk.IntVar(value=10)
+        self._spell_rounds_scale = ttk.Scale(controls, from_=1, to=100, orient=tk.HORIZONTAL,
+                                              variable=self._spell_rounds_var)
+        self._spell_rounds_scale.pack(fill=tk.X, padx=5, pady=(0, 2))
+        self._spell_rounds_scale.config(command=self._on_spell_rounds_change)
+
+        fup = ttk.Frame(controls)
+        fup.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(fup, text="Upcasts:").pack(side=tk.LEFT)
+        self._spell_upcast_label = ttk.Label(fup, text="0")
+        self._spell_upcast_label.pack(side=tk.RIGHT)
+        self._spell_upcast_var = tk.IntVar(value=0)
+        self._spell_upcast_scale = ttk.Scale(controls, from_=0, to=5, orient=tk.HORIZONTAL,
+                                              variable=self._spell_upcast_var)
+        self._spell_upcast_scale.pack(fill=tk.X, padx=5, pady=(0, 2))
+        self._spell_upcast_scale.config(command=lambda v: (self._spell_upcast_label.config(text=str(int(float(v)))), self._refresh_spell_graph()))
+
+        f3 = ttk.Frame(controls)
+        f3.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(f3, text="Damage Modifier:").pack(side=tk.LEFT)
+        self._spell_dmg_mod_var = tk.StringVar(value="0")
+        self._spell_dmg_mod_entry = ttk.Entry(f3, textvariable=self._spell_dmg_mod_var, width=8)
+        self._spell_dmg_mod_entry.pack(side=tk.RIGHT)
+        self._spell_dmg_mod_entry.bind('<Return>', lambda e: self._refresh_spell_graph())
+        self._spell_dmg_mod_entry.bind('<FocusOut>', lambda e: self._refresh_spell_graph())
+
+        self._spell_affinity_vars = {}
+        self._spell_affinity_entries = {}
+        ttk.Label(controls, text="Affinity Values", font=('', 9, 'bold')).pack(anchor=tk.W, padx=5, pady=(6, 2))
+        base_affs = ['Fire', 'Earth', 'Water', 'Air', 'Necrotic', 'Radiant', 'Psychic', 'Generic', 'Eldritch']
+        for aff in base_affs:
+            f = ttk.Frame(controls)
+            f.pack(fill=tk.X, padx=5, pady=1)
+            ttk.Label(f, text=aff, width=10, anchor=tk.W).pack(side=tk.LEFT)
+            v = tk.StringVar(value="0")
+            e = ttk.Entry(f, textvariable=v, width=6)
+            e.pack(side=tk.RIGHT)
+            e.bind('<Return>', lambda e: self._refresh_spell_graph())
+            e.bind('<FocusOut>', lambda e: self._refresh_spell_graph())
+            self._spell_affinity_vars[aff] = v
+            self._spell_affinity_entries[aff] = e
+
+        ttk.Separator(controls, orient=tk.HORIZONTAL).pack(fill=tk.X, padx=5, pady=6)
+
+        ttk.Label(controls, text="Mana Blast Affinity", font=('', 9, 'bold')).pack(anchor=tk.W, padx=5, pady=2)
+        self._spell_mb_affinity_var = tk.StringVar(value="None")
+        self._spell_mb_affinity_combo = ttk.Combobox(controls, textvariable=self._spell_mb_affinity_var,
+                                                       state='readonly', width=22)
+        self._spell_mb_affinity_combo.pack(fill=tk.X, padx=5, pady=2)
+
+        ttk.Separator(controls, orient=tk.HORIZONTAL).pack(fill=tk.X, padx=5, pady=6)
+
+        self._spell_show_healing_var = tk.BooleanVar(value=True)
+        self._spell_leveled_only_var = tk.BooleanVar(value=False)
+
+        ttk.Separator(controls, orient=tk.HORIZONTAL).pack(fill=tk.X, padx=5, pady=6)
+
+        ttk.Label(controls, text="Character Bonuses", font=('', 10, 'bold')).pack(anchor=tk.W, padx=5, pady=(8, 2))
+
+        fk = ttk.Frame(controls)
+        fk.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(fk, text="Karma:").pack(side=tk.LEFT)
+        self._spell_karma_var = tk.StringVar(value="0")
+        self._spell_karma_entry = ttk.Entry(fk, textvariable=self._spell_karma_var, width=8)
+        self._spell_karma_entry.pack(side=tk.RIGHT)
+        self._spell_karma_entry.bind('<Return>', lambda e: self._refresh_spell_graph())
+        self._spell_karma_entry.bind('<FocusOut>', lambda e: self._refresh_spell_graph())
+
+        ttk.Label(controls, text="Eldritch Horror", font=('', 9)).pack(anchor=tk.W, padx=5, pady=(6, 1))
+        self._spell_eldritch_vars = {}
+        eldritch_toggles = [
+            ('Blast 3 dmg (L2)', 'e_l2'),
+            ('Blast costs 1 mana (L4)', 'e_l4'),
+            ('Curse: 5 dmg/turn (L6.5)', 'e_l65'),
+            ('Blast 6 dmg (L7)', 'e_l7'),
+            ('3 beams (L8)', 'e_l8'),
+            ('+25% all Eldritch (L11)', 'e_l11'),
+            ('+50% via Shadow (L14)', 'e_l14'),
+            ('Curse: 20 dmg/turn (L13)', 'e_l13'),
+            ('+25% all Eldritch (L18)', 'e_l18'),
+            ('+25% + karma/5 (L20)', 'e_l20'),
+        ]
+        for label, key in eldritch_toggles:
+            v = tk.BooleanVar(value=False)
+            self._spell_eldritch_vars[key] = v
+            ttk.Checkbutton(controls, text=label, variable=v, command=self._refresh_spell_graph).pack(anchor=tk.W, padx=20, pady=0)
+
+        aff_bonuses = [('Pyromancer +1d4 Fire', 'fire_bonus'), ('Geomancer +1d4 Earth', 'earth_bonus'),
+                       ('Tidemaster +1d4 Water', 'water_bonus'), ('Windwalker +1d4 Air', 'air_bonus'),
+                       ('Priest +1d4 Radiant', 'radiant_bonus'), ('Necromancer +1d4 Necrotic', 'necrotic_bonus')]
+        ttk.Label(controls, text="Affinity Archetypes", font=('', 9)).pack(anchor=tk.W, padx=5, pady=(6, 1))
+        self._spell_bonus_vars = {}
+        for label, key in aff_bonuses:
+            v = tk.BooleanVar(value=False)
+            self._spell_bonus_vars[key] = v
+            ttk.Checkbutton(controls, text=label, variable=v, command=self._refresh_spell_graph).pack(anchor=tk.W, padx=20, pady=0)
+
+        feat_bonuses = [('Static Discharge: +1d6 Lightning', 'feat_static'),
+                        ('Holy Radiance: +1d6 Radiant', 'feat_holy'),
+                        ('Lingering Shadow: +5 Necrotic', 'feat_shadow'),
+                        ('Explosive Power: +5 if 3+ tgt', 'feat_explosive'),
+                        ('Chain Lightning: +1 target', 'feat_chain'),
+                        ('Mind Spike: Psychic→HP', 'feat_mindspike'),
+                        ('Firebrand: Fire +On Fire', 'feat_firebrand'),
+                        ('Healer: Healing ×1.5', 'feat_healer')]
+        ttk.Label(controls, text="Feats & Abilities", font=('', 9)).pack(anchor=tk.W, padx=5, pady=(6, 1))
+        self._spell_feat_vars = {}
+        for label, key in feat_bonuses:
+            v = tk.BooleanVar(value=False)
+            self._spell_feat_vars[key] = v
+            ttk.Checkbutton(controls, text=label, variable=v, command=self._refresh_spell_graph).pack(anchor=tk.W, padx=20, pady=0)
+
+        ttk.Separator(controls, orient=tk.HORIZONTAL).pack(fill=tk.X, padx=5, pady=8)
+
+        self._spell_refresh_btn = ttk.Button(controls, text="Refresh Graph",
+                                              command=self._refresh_spell_graph)
+        self._spell_refresh_btn.pack(fill=tk.X, padx=5, pady=(4, 0))
+
+        self._spell_zoom_reset_btn = ttk.Button(controls, text="Reset Zoom",
+                                                 command=self._reset_spell_zoom)
+        self._spell_zoom_reset_btn.pack(fill=tk.X, padx=5, pady=(2, 4))
+
+        right_frame = ttk.Frame(panes)
+        panes.add(right_frame, weight=1)
+
+        graph_frame = ttk.Frame(right_frame)
+        graph_frame.pack(fill=tk.BOTH, expand=True)
+
+        self._spell_fig, self._spell_ax = plt.subplots(figsize=(10, 5))
+        self._spell_fig.subplots_adjust(left=0.08, right=0.97, top=0.95, bottom=0.08)
+
+        self._spell_canvas = FigureCanvasTkAgg(self._spell_fig, master=graph_frame)
+        self._spell_canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
+
+        self._spell_canvas.mpl_connect('button_press_event', self._on_spell_click)
+        self._spell_canvas.mpl_connect('scroll_event', self._on_spell_scroll)
+        self._spell_pan_data = None
+        self._spell_canvas.mpl_connect('button_press_event', self._on_spell_pan_press)
+        self._spell_canvas.mpl_connect('motion_notify_event', self._on_spell_pan_move)
+        self._spell_canvas.mpl_connect('button_release_event', self._on_spell_pan_release)
+
+        self._spell_bottom_frame = ttk.Frame(right_frame)
+        self._spell_bottom_frame.pack(fill=tk.BOTH, expand=True, padx=2, pady=2)
+
+        self._spell_legend_frame = ttk.LabelFrame(self._spell_bottom_frame, text="Spell Legend")
+        self._spell_legend_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        self._spell_legend_canvas = tk.Canvas(self._spell_legend_frame, height=160, highlightthickness=0)
+        self._spell_legend_scroll = ttk.Scrollbar(self._spell_legend_frame, orient=tk.VERTICAL,
+                                                    command=self._spell_legend_canvas.yview)
+        self._spell_legend_inner = ttk.Frame(self._spell_legend_canvas)
+
+        self._spell_legend_inner.bind('<Configure>', lambda e: self._spell_legend_canvas.configure(
+            scrollregion=(0, 0, self._spell_legend_inner.winfo_reqwidth(), self._spell_legend_inner.winfo_reqheight())
+        ))
+        self._spell_legend_canvas.create_window((0, 0), window=self._spell_legend_inner, anchor='nw', tags='inner')
+        self._spell_legend_canvas.configure(yscrollcommand=self._spell_legend_scroll.set)
+
+        self._spell_legend_canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self._spell_legend_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+        self._bind_scrollwheel(self._spell_legend_canvas)
+
+        self._spell_summary_frame = ttk.LabelFrame(self._spell_bottom_frame, text="Summary", width=200)
+        self._spell_summary_frame.pack(side=tk.RIGHT, fill=tk.BOTH, padx=(3, 0))
+        self._spell_summary_frame.pack_propagate(False)
+        self._spell_summary_text = tk.Text(self._spell_summary_frame, font=('', 8), wrap=tk.WORD,
+                                            state=tk.DISABLED, height=12, borderwidth=0, bg='#fafafa')
+        self._spell_summary_text.pack(fill=tk.BOTH, expand=True, padx=3, pady=3)
+
+        self._load_spell_session()
+        self.root.after(100, self._refresh_spell_graph)
+
+    def _on_spell_target_change(self, val):
+        self._spell_target_label.config(text=str(int(float(val))))
+        self._refresh_spell_graph()
+
+    def _on_spell_rounds_change(self, val):
+        self._spell_rounds_label.config(text=str(int(float(val))))
+        self._refresh_spell_graph()
+
+    def _load_spell_data(self):
+        if self._spell_data is not None and self._spell_rules is not None:
+            return
+        spells_path = os.path.join(DATA_DIR, 'spells.json')
+        rules_path = os.path.join(DATA_DIR, 'rules.json')
+        try:
+            with open(spells_path, 'r') as f:
+                self._spell_data = json.load(f)
+        except Exception:
+            self._spell_data = {}
+        try:
+            with open(rules_path, 'r') as f:
+                self._spell_rules = json.load(f)
+        except Exception:
+            self._spell_rules = {}
+
+    def _get_die_average(self, die_str, die_averages):
+        if die_str in die_averages:
+            return die_averages[die_str]
+        import re
+        m = re.match(r'^(\d+)d(\d+)$', die_str)
+        if m:
+            count = int(m.group(1))
+            sides = int(m.group(2))
+            return count * (sides / 2.0 + 0.5)
+        return 0
+
+    def _parse_formula(self, formula_str, affinity_value):
+        sanitized = formula_str.replace(' ', '')
+        try:
+            safe = sanitized.replace('affinity_mod', str(affinity_value))
+            result = eval(safe, {"__builtins__": {}}, {})
+            return float(result)
+        except Exception:
+            return 0
+
+    def _get_spell_damage_per_cast(self, spell, die_averages, base_dmg_mod, affinity_values, target_count, affinity):
+        damage = base_dmg_mod
+
+        if spell.get('damage_formula'):
+            aff_val = affinity_values.get(affinity, affinity_values.get('Generic', 0))
+            damage += self._parse_formula(spell['damage_formula'], aff_val)
+
+        if spell.get('damage_dice'):
+            damage += self._get_die_average(spell['damage_dice'], die_averages)
+
+        if spell.get('damage_flat'):
+            damage += spell['damage_flat']
+
+        has_aoe = spell.get('aoe_radius', 0) or spell.get('aoe_cone') or spell.get('aoe_line') or spell.get('aoe_self')
+        if has_aoe and target_count > 1:
+            damage *= target_count
+
+        return damage
+
+    def _get_spell_bonus(self, affinity, spell_name, die_averages, target_count):
+        bonus = 0
+
+        aff_bonus_map = {
+            'Fire': self._spell_bonus_vars.get('fire_bonus', tk.BooleanVar(value=False)),
+            'Earth': self._spell_bonus_vars.get('earth_bonus', tk.BooleanVar(value=False)),
+            'Water': self._spell_bonus_vars.get('water_bonus', tk.BooleanVar(value=False)),
+            'Air': self._spell_bonus_vars.get('air_bonus', tk.BooleanVar(value=False)),
+            'Radiant': self._spell_bonus_vars.get('radiant_bonus', tk.BooleanVar(value=False)),
+            'Necrotic': self._spell_bonus_vars.get('necrotic_bonus', tk.BooleanVar(value=False)),
+        }
+        if affinity in aff_bonus_map and aff_bonus_map[affinity].get():
+            bonus += die_averages.get('1d4', 2.5)
+
+        feat_vars = self._spell_feat_vars
+        if affinity == 'Lightning' and feat_vars.get('feat_static', tk.BooleanVar()).get():
+            bonus += die_averages.get('1d6', 3.5)
+        if affinity == 'Radiant' and feat_vars.get('feat_holy', tk.BooleanVar()).get():
+            bonus += die_averages.get('1d6', 3.5)
+        if affinity == 'Necrotic' and feat_vars.get('feat_shadow', tk.BooleanVar()).get():
+            bonus += 5
+        if target_count >= 3 and feat_vars.get('feat_explosive', tk.BooleanVar()).get():
+            bonus += 5
+        if affinity == 'Lightning' and feat_vars.get('feat_chain', tk.BooleanVar()).get():
+            if target_count < 2:
+                bonus += die_averages.get('3d6', 10.5)
+
+        ev = getattr(self, '_spell_eldritch_vars', {})
+        if affinity == 'Eldritch':
+            try:
+                karma = float(self._spell_karma_var.get())
+            except ValueError:
+                karma = 0
+            if 'Eldritch Blast' in spell_name:
+                base_dmg = 1
+                if ev.get('e_l2', tk.BooleanVar()).get():
+                    base_dmg = 3
+                if ev.get('e_l7', tk.BooleanVar()).get():
+                    base_dmg = 6
+                bonus += base_dmg
+            if ev.get('e_l65', tk.BooleanVar()).get():
+                curse_base = 5
+                if ev.get('e_l13', tk.BooleanVar()).get():
+                    curse_base = 20
+                bonus += self.CONDITION_DMG.get('Eldritch Curse', (0, 2))[1] * curse_base
+            if ev.get('e_l20', tk.BooleanVar()).get():
+                bonus += abs(karma) / 10
+
+        eld_mult = 1.0
+        if affinity == 'Eldritch':
+            if ev.get('e_l11', tk.BooleanVar()).get():
+                eld_mult += 0.25
+            if ev.get('e_l14', tk.BooleanVar()).get():
+                eld_mult += 0.50
+            if ev.get('e_l18', tk.BooleanVar()).get():
+                eld_mult += 0.25
+            if ev.get('e_l20', tk.BooleanVar()).get():
+                eld_mult += 0.25
+
+        beams = 1
+        if 'Eldritch Blast' in spell_name and ev.get('e_l8', tk.BooleanVar()).get():
+            beams = 3
+
+        if affinity == 'Healing' and feat_vars.get('feat_healer', tk.BooleanVar()).get():
+            return bonus, 1.5, beams, eld_mult
+
+        return bonus, 1.0, beams, eld_mult
+
+    def _get_upcast_dice(self, affinity, spell_name, die_averages):
+        if not CharacterManagerGUI._upcast_initialized:
+            CharacterManagerGUI.UPCAST_RULES = {
+                'Mana Decimation': (2, 30, None),
+            'Cataclysm Pyre': (2, die_averages.get('3d6',10.5) + die_averages.get('1d6',3.5), None),
+            'Worldbreak': (2, die_averages.get('2d6',7), None),
+            'Maelstrom': (2, die_averages.get('2d6',7) + die_averages.get('1d6',3.5), None),
+            'Sky Rend': (2, die_averages.get('2d6',7), None),
+            'Necrotic Collapse': (2, die_averages.get('3d6',10.5), None),
+            'Ascension Nova': (2, die_averages.get('3d6',10.5), None),
+            'Ego Shatter': (2, die_averages.get('2d6',7), None),
+            'Judgment Strike': (2, die_averages.get('10d8',45) + die_averages.get('8d8',36), None),
+            'Frozen Cataclysm': (2, die_averages.get('3d6',10.5), None),
+            'Singularity Core': (2, die_averages.get('4d8',18), None),
+            'Plaguefall': (2, die_averages.get('10d8',45) + die_averages.get('4d8',18), None),
+            'Ruin of the Soul': (2, die_averages.get('12d8',54), None),
+            'Red Cataclysm': (2, die_averages.get('12d8',54) + die_averages.get('6d8',27), None),
+            'Worldforge Collapse': (2, die_averages.get('8d8',36), None),
+            'Solar Cataclysm': (2, die_averages.get('8d10',44) + die_averages.get('4d10',22), None),
+            'Terminal Nova': (2, die_averages.get('12d12',78), None),
+            'Heavenfall Pattern': (2, die_averages.get('4d8',18), None),
+            'Swallowing Fen': (2, die_averages.get('3d8',13.5), None),
+            'Burial Wind': (2, die_averages.get('3d8',13.5), None),
+            'Engine Rupture': (2, die_averages.get('4d8',18) + die_averages.get('2d8',9), None),
+            'Caldera Break': (2, die_averages.get('4d8',18) + die_averages.get('2d8',9), None),
+            'Black Sky': (2, die_averages.get('3d8',13.5), None),
+            'Final Season': (2, die_averages.get('4d8',18), None),
+            'Suffocation Engine': (2, die_averages.get('4d8',18) + die_averages.get('2d8',9), None),
+            'Collapse Identity': (2, die_averages.get('5d8',22.5), None),
+            'Last Lament': (2, die_averages.get('3d8',13.5), None),
+            'Disorder Engine': (2, die_averages.get('2d8',9), None),
+            'Dislocation Gate': (2, die_averages.get('4d8',18), None),
+            'Ruin Chime': (2, die_averages.get('4d8',18), None),
+            'World Tempest': (2, 0, None),
+            'Oblivion Cut': (2, die_averages.get('6d8',27), None),
+            'Black Monolith': (2, die_averages.get('4d8',18), None),
+            'Continental Break': (2, die_averages.get('4d8',18), None),
+            'Thronefire': (2, die_averages.get('4d8',18) + die_averages.get('2d8',9), None),
+            'Breakwater': (2, die_averages.get('4d8',18), None),
+            'Rot Kingdom': (2, die_averages.get('5d8',22.5), None),
+                'Last Sun': (3, 100 + die_averages.get('6d20',63), None),
+            }
+            CharacterManagerGUI._upcast_initialized = True
+        rule = CharacterManagerGUI.UPCAST_RULES.get(spell_name, (2, die_averages.get('2d6',7), None))
+        return rule[1]
+
+    CONDITION_DMG = {
+        'Burned': (2.5, 2), 'Burn': (2.5, 2), 'On Fire': (3.5, 2),
+        'Bleeding': (2.5, 3), 'Bleed': (2.5, 3),
+        'Necrosis': (4.5, 3), 'Diseased': (3.5, 2),
+        'Shocked': (2.5, 2), 'Poisoned': (7.0, 3),
+        'Corrupt': (2.5, 3), 'Hurting': (1.0, 3),
+        'Suffocating': (3.5, 2), 'Frozen': (2.5, 3),
+        'Slow Death': (2.5, 3), 'Frostbitten': (2.5, 3),
+        'Hellfire': (4.5, 2), 'Radiation': (3.5, 3),
+        'Withered': (7.5, 2), 'Plagued': (6.0, 3),
+        'Eldritch Curse': (0, 2),
+        'Psychic Drain': (0, 2),
+        'Prone': (0, 2), 'Slowed': (0, 2), 'Stunned': (0, 2),
+        'Blinded': (0, 2), 'Mute': (0, 2), 'Deafened': (0, 2),
+        'Frightened': (0, 2), 'Demoralized': (0, 2), 'Despair': (0, 2),
+        'Enraged': (0, 2), 'Paralyzed': (0, 2), 'Petrified': (0, 2),
+        'Entangled': (0, 2), 'Restrained': (0, 2), 'Pinned': (0, 2),
+        'Blessed': (0, 2), 'Cursed': (0, 2), 'Soaked': (0, 2),
+        'Difficult Terrain': (0, 2), 'Pierced': (0, 2), 'Push': (0, 0),
+        'Pull': (0, 0), 'Heal': (0, 0), 'NoFlight': (0, 2),
+        'NoAdvantage': (0, 2), 'DoT': (7.0, 2), 'GroundBurn': (7.0, 2),
+        'Scaling': (0, 2), 'Collision': (0, 0),
+    }
+
+    def _get_condition_damage(self, spell, die_averages):
+        extra = spell.get('extra_effect', '')
+        if not extra:
+            return 0, []
+        total_dmg = 0
+        conditions_found = []
+        parts = [p.strip() for p in extra.split('+') if p.strip()]
+        for part in parts:
+            if part in self.CONDITION_DMG:
+                dmg, dur = self.CONDITION_DMG[part]
+                total_dmg += dmg * dur
+                conditions_found.append(part)
+        return total_dmg, conditions_found
+
+    def _refresh_spell_graph(self):
+        self._load_spell_data()
+        self._spell_ax.clear()
+        self._clear_spell_click_annotation()
+        self._spell_zoomed = False
+        self._spell_lines = []
+        self._spell_line_data = {}
+        self._spell_legend_entries = []
+
+        if not self._spell_data:
+            self._spell_ax.text(0.5, 0.5, 'No spell data available.',
+                                transform=self._spell_ax.transAxes, ha='center', va='center', fontsize=14)
+            self._spell_canvas.draw()
+            return
+
+        die_averages = self._spell_rules.get('die_averages', {}) if self._spell_rules else {}
+
+        try:
+            max_mana = float(self._spell_mana_var.get())
+        except ValueError:
+            max_mana = 100
+        try:
+            base_dmg_mod = float(self._spell_dmg_mod_var.get())
+        except ValueError:
+            base_dmg_mod = 0
+        affinity_values = {}
+        for aff, var in getattr(self, '_spell_affinity_vars', {}).items():
+            try:
+                affinity_values[aff] = float(var.get())
+            except ValueError:
+                affinity_values[aff] = 0
+
+        target_count = self._spell_target_var.get()
+        show_healing = self._spell_show_healing_var.get()
+        leveled_only = self._spell_leveled_only_var.get()
+        all_affinity_names = sorted([k for k in self._spell_data.keys() if k != 'Generic'])
+        if 'Generic' in self._spell_data:
+            all_affinity_names.append('Generic')
+
+        self._spell_mb_affinity_combo['values'] = ['None'] + [a for a in all_affinity_names if a != 'Generic']
+
+        mb_affinity = self._spell_mb_affinity_var.get()
+        if mb_affinity not in ('None', '') + tuple(all_affinity_names):
+            mb_affinity = 'None'
+
+        affinities_to_show = all_affinity_names
+
+        color_idx = 0
+        family_colors = {}
+        unique_spell_count = 0
+
+        for aff_name in all_affinity_names:
+            spells = self._spell_data.get(aff_name, [])
+            chain_spells = spells[:5]
+            extra_spells = spells[5:]
+            family_colors[aff_name] = COLOR_CYCLE[color_idx % len(COLOR_CYCLE)]
+            color_idx += 1
+            for _ in extra_spells:
+                unique_spell_count += 1
+
+        spell_list = []
+        for aff_name in affinities_to_show:
+            spells = self._spell_data.get(aff_name, [])
+            chain_spells = spells[:5]
+            extra_spells = spells[5:]
+            for i, spell in enumerate(chain_spells):
+                has_damage = spell.get('damage_dice') or spell.get('damage_flat') or spell.get('damage_formula')
+                if not has_damage and not show_healing:
+                    continue
+                is_healing = not has_damage and bool(spell.get('mana') or True)
+                spell_list.append((aff_name, spell, True, i, is_healing))
+            if not leveled_only:
+                for i, spell in enumerate(extra_spells):
+                    has_damage = spell.get('damage_dice') or spell.get('damage_flat') or spell.get('damage_formula')
+                    if not has_damage and not show_healing:
+                        continue
+                    is_healing = not has_damage and bool(spell.get('mana') or True)
+                    spell_list.append((aff_name, spell, False, i, is_healing))
+
+        unique_color_idx = 0
+        extra_color_map = {}
+        for aff_name in all_affinity_names:
+            extra_spells = self._spell_data.get(aff_name, [])[5:]
+            for s in extra_spells:
+                key = (aff_name, s.get('name'))
+                extra_color_map[key] = COLOR_CYCLE[(len(all_affinity_names) + unique_color_idx) % len(COLOR_CYCLE)]
+                unique_color_idx += 1
+
+        for aff_name, spell, is_chain, idx, is_healing in spell_list:
+            if is_chain:
+                color = family_colors[aff_name]
+                linestyle = self.LINE_STYLES[idx % len(self.LINE_STYLES)]
+            else:
+                color = extra_color_map.get((aff_name, spell.get('name')), COLOR_CYCLE[0])
+                linestyle = 'solid'
+
+            dmg_per_cast = self._get_spell_damage_per_cast(spell, die_averages, base_dmg_mod, affinity_values, target_count, aff_name)
+
+            bonus_aff = aff_name
+            if spell.get('name', '').startswith('Mana'):
+                mb_aff_sel = self._spell_mb_affinity_var.get()
+                if mb_aff_sel and mb_aff_sel != 'None':
+                    bonus_aff = mb_aff_sel
+                    dmg_per_cast += affinity_values.get(mb_aff_sel, 0)
+
+            bonus_dmg, heal_mult, beams, eld_mult = self._get_spell_bonus(bonus_aff, spell.get('name', ''), die_averages, target_count)
+            dmg_per_cast = (dmg_per_cast + bonus_dmg) * eld_mult * heal_mult * beams
+
+            mana_cost = spell.get('mana', 0)
+            if spell.get('name') == 'Eldritch Blast' and getattr(self, '_spell_eldritch_vars', {}).get('e_l4', tk.BooleanVar()).get():
+                mana_cost = 1
+            upcasts = self._spell_upcast_var.get()
+            if upcasts > 0 and mana_cost > 0 and is_chain:
+                rule = CharacterManagerGUI.UPCAST_RULES.get(spell.get('name', ''), (2, die_averages.get('2d6',7), None))
+                upcast_mult, upcast_dice, _ = rule
+                mana_cost = int(mana_cost * (upcast_mult ** upcasts))
+                dmg_per_cast += upcast_dice * upcasts
+
+            cond_dmg, cond_list = self._get_condition_damage(spell, die_averages)
+            dmg_per_cast += cond_dmg
+
+            if mana_cost is None:
+                mana_cost = 0
+
+            max_display_rounds = self._spell_rounds_var.get()
+            if mana_cost <= 0:
+                max_rounds = max_display_rounds
+            else:
+                max_rounds = min(max_display_rounds, int(max_mana // mana_cost))
+
+            rounds = list(range(max_rounds + 1))
+            cumulative_dmg = [round(r * dmg_per_cast, 1) for r in rounds]
+
+            label = f"{aff_name}: {spell['name']}"
+            line, = self._spell_ax.plot(rounds, cumulative_dmg, color=color, linestyle=linestyle,
+                                          linewidth=2, marker='', label='_nolegend_',
+                                          picker=True, pickradius=5)
+            self._spell_lines.append(line)
+            self._spell_legend_entries.append((aff_name, spell['name'], color, linestyle, is_healing, is_chain))
+            self._spell_line_data[line] = {
+                'affinity': aff_name,
+                'spell_name': spell['name'],
+                'dmg_per_cast': dmg_per_cast,
+                'mana_cost': mana_cost,
+                'max_rounds': max_rounds,
+                'is_healing': is_healing,
+                'max_mana': max_mana,
+                'upcasts': upcasts,
+                'beams': beams,
+                'conditions': cond_list,
+                'cond_dmg': cond_dmg,
+            }
+
+        if not hasattr(self, '_spell_visibility'):
+            self._spell_visibility = {}
+
+        for line in self._spell_lines:
+            ld = self._spell_line_data.get(line, {})
+            key = (ld.get('affinity', ''), ld.get('spell_name', ''))
+            if key in self._spell_visibility:
+                line.set_visible(self._spell_visibility[key])
+
+        self._rebuild_spell_legend()
+
+        from matplotlib.ticker import MultipleLocator
+        max_r = self._spell_rounds_var.get()
+        step = 1 if max_r <= 20 else (2 if max_r <= 50 else (5 if max_r <= 100 else 10))
+        self._spell_ax.xaxis.set_major_locator(MultipleLocator(step))
+
+        self._spell_ax.set_xlabel('Round', fontsize=11)
+        self._spell_ax.set_ylabel('Cumulative Damage', fontsize=11)
+        self._spell_ax.set_title('Spell Damage Over Rounds', fontsize=13, fontweight='bold')
+        self._spell_ax.tick_params(labelsize=9)
+        self._spell_ax.set_xlim(left=0)
+        self._spell_ax.set_ylim(bottom=0)
+        self._auto_resize_spell_ylim()
+        self._spell_canvas.draw()
+        self._save_spell_session()
+
+    def _save_spell_session(self):
+        session = {
+            'mana': self._spell_mana_var.get(),
+            'target_count': self._spell_target_var.get(),
+            'rounds': self._spell_rounds_var.get(),
+            'dmg_mod': self._spell_dmg_mod_var.get(),
+            'affinity_values': {k: v.get() for k, v in self._spell_affinity_vars.items()},
+            'mb_affinity': self._spell_mb_affinity_var.get(),
+            'karma': self._spell_karma_var.get(),
+            'show_healing': self._spell_show_healing_var.get(),
+            'leveled_only': self._spell_leveled_only_var.get(),
+            'eldritch_vars': {k: v.get() for k, v in self._spell_eldritch_vars.items()},
+            'bonus_vars': {k: v.get() for k, v in self._spell_bonus_vars.items()},
+            'feat_vars': {k: v.get() for k, v in self._spell_feat_vars.items()},
+            'upcasts': self._spell_upcast_var.get(),
+            'visibility': {f'{k[0]}|{k[1]}': v for k, v in getattr(self, '_spell_visibility', {}).items()},
+        }
+        path = os.path.join(DATA_DIR, 'spell_session.json')
+        with open(path, 'w') as f:
+            json.dump(session, f)
+
+    def _load_spell_session(self):
+        path = os.path.join(DATA_DIR, 'spell_session.json')
+        if not os.path.exists(path):
+            if not hasattr(self, '_spell_visibility'):
+                self._spell_visibility = {}
+            return
+        with open(path, 'r') as f:
+            session = json.load(f)
+        self._spell_mana_var.set(session.get('mana', '100'))
+        self._spell_target_var.set(session.get('target_count', 1))
+        self._spell_target_label.config(text=str(session.get('target_count', 1)))
+        self._spell_rounds_var.set(session.get('rounds', 10))
+        self._spell_rounds_label.config(text=str(session.get('rounds', 10)))
+        self._spell_upcast_var.set(session.get('upcasts', 0))
+        self._spell_upcast_label.config(text=str(session.get('upcasts', 0)))
+        self._spell_dmg_mod_var.set(session.get('dmg_mod', '0'))
+        for k, v in session.get('affinity_values', {}).items():
+            if k in self._spell_affinity_vars:
+                self._spell_affinity_vars[k].set(v)
+        self._spell_mb_affinity_var.set(session.get('mb_affinity', 'None'))
+        self._spell_karma_var.set(session.get('karma', '0'))
+        self._spell_show_healing_var.set(session.get('show_healing', True))
+        self._spell_leveled_only_var.set(session.get('leveled_only', False))
+        for k, v in session.get('eldritch_vars', {}).items():
+            if k in self._spell_eldritch_vars:
+                self._spell_eldritch_vars[k].set(v)
+        for k, v in session.get('bonus_vars', {}).items():
+            if k in self._spell_bonus_vars:
+                self._spell_bonus_vars[k].set(v)
+        for k, v in session.get('feat_vars', {}).items():
+            if k in self._spell_feat_vars:
+                self._spell_feat_vars[k].set(v)
+        if not hasattr(self, '_spell_visibility'):
+            self._spell_visibility = {}
+        for key_str, v in session.get('visibility', {}).items():
+            parts = key_str.split('|', 1)
+            if len(parts) == 2:
+                self._spell_visibility[(parts[0], parts[1])] = v
+
+    def _on_spell_scroll(self, event):
+        if event.inaxes != self._spell_ax:
+            return
+        self._spell_zoomed = True
+        scale = 0.85 if event.button == 'up' else 1.15
+        xlim = self._spell_ax.get_xlim()
+        ylim = self._spell_ax.get_ylim()
+        xdata, ydata = event.xdata, event.ydata
+        if xdata is None or ydata is None:
+            return
+        self._spell_ax.set_xlim([xdata - (xdata - xlim[0]) * scale,
+                                  xdata + (xlim[1] - xdata) * scale])
+        self._spell_ax.set_ylim([ydata - (ydata - ylim[0]) * scale,
+                                  ydata + (ylim[1] - ydata) * scale])
+        self._spell_canvas.draw_idle()
+
+    def _auto_resize_spell_ylim(self):
+        if getattr(self, '_spell_zoomed', False):
+            return
+        max_y = 0
+        for line in self._spell_lines:
+            if line.get_visible():
+                yd = line.get_ydata()
+                if len(yd) > 0:
+                    max_y = max(max_y, max(yd))
+        if max_y > 0:
+            self._spell_ax.set_ylim(top=max_y * 1.05)
+
+    def _on_spell_pan_press(self, event):
+        if event.button != 2 or event.inaxes != self._spell_ax:
+            return
+        self._spell_pan_data = (event.x, event.y)
+        self._spell_pan_xlim = self._spell_ax.get_xlim()
+        self._spell_pan_ylim = self._spell_ax.get_ylim()
+        self._spell_zoomed = True
+
+    def _on_spell_pan_move(self, event):
+        if self._spell_pan_data is None or event.inaxes != self._spell_ax:
+            return
+        if event.x is None or event.y is None:
+            return
+        dx = event.x - self._spell_pan_data[0]
+        dy = event.y - self._spell_pan_data[1]
+        xlim = self._spell_pan_xlim
+        ylim = self._spell_pan_ylim
+        bbox = self._spell_ax.bbox
+        xscale = (xlim[1] - xlim[0]) / bbox.width if bbox.width > 0 else 1
+        yscale = (ylim[1] - ylim[0]) / bbox.height if bbox.height > 0 else 1
+        self._spell_ax.set_xlim(xlim[0] - dx * xscale, xlim[1] - dx * xscale)
+        self._spell_ax.set_ylim(ylim[0] - dy * yscale, ylim[1] - dy * yscale)
+        self._spell_canvas.draw_idle()
+
+    def _on_spell_pan_release(self, event):
+        self._spell_pan_data = None
+
+    def _reset_spell_zoom(self):
+        self._spell_zoomed = False
+        self._spell_ax.set_xlim(left=0)
+        self._spell_ax.set_ylim(bottom=0)
+        self._auto_resize_spell_ylim()
+        self._spell_ax.autoscale(axis='x')
+        self._spell_canvas.draw()
+
+    def _rebuild_spell_legend(self):
+        for w in self._spell_legend_inner.winfo_children():
+            w.destroy()
+
+        btn_row = ttk.Frame(self._spell_legend_inner)
+        btn_row.grid(row=0, column=0, columnspan=20, sticky='ew', padx=2, pady=2)
+        ttk.Button(btn_row, text="All On", command=lambda: self._spell_toggle_all(True), width=7).pack(side=tk.LEFT, padx=1)
+        ttk.Button(btn_row, text="All Off", command=lambda: self._spell_toggle_all(False), width=7).pack(side=tk.LEFT, padx=1)
+        ttk.Button(btn_row, text="Base Mage", command=self._spell_toggle_base_mage, width=10).pack(side=tk.LEFT, padx=1)
+        ttk.Button(btn_row, text="Complex Only", command=self._spell_toggle_complex_only, width=11).pack(side=tk.LEFT, padx=1)
+        ttk.Separator(btn_row, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=4)
+        ttk.Button(btn_row, text="Healing", command=self._spell_toggle_healing, width=7).pack(side=tk.LEFT, padx=1)
+        ttk.Button(btn_row, text="Leveled", command=self._spell_toggle_leveled, width=7).pack(side=tk.LEFT, padx=1)
+
+        if not hasattr(self, '_spell_visibility'):
+            self._spell_visibility = {}
+
+        families = {}
+        for aff_name, spell_name, color, linestyle, is_healing, is_chain in self._spell_legend_entries:
+            families.setdefault(aff_name, []).append((spell_name, color, linestyle, is_healing))
+
+        COLS = 9
+        sorted_fams = sorted(families.items())
+        for idx, (aff_name, entries) in enumerate(sorted_fams):
+            col = idx % COLS
+            row = 1 + idx // COLS
+            fcolor = entries[0][1] if entries else '#888'
+            all_vis = all(self._spell_visibility.get((aff_name, sn), True) for sn, _, _, _ in entries)
+
+            group = ttk.Frame(self._spell_legend_inner, relief='groove', borderwidth=1)
+            group.grid(row=row, column=col, sticky='new', padx=2, pady=2)
+
+            header = ttk.Frame(group)
+            header.pack(fill=tk.X)
+
+            fam_box = tk.Frame(header, width=12, height=12, bg=fcolor if all_vis else '#dddddd',
+                              highlightbackground='#888', highlightthickness=1)
+            fam_box.pack(side=tk.LEFT, padx=2)
+            fam_box.pack_propagate(False)
+            fam_box.bind('<Button-1>', lambda e, a=aff_name: self._spell_toggle_family(a))
+
+            hdr_lbl = tk.Label(header, text=aff_name[:14], font=('', 7, 'bold'),
+                              fg='#000' if all_vis else '#bbb', cursor='hand2')
+            hdr_lbl.pack(side=tk.LEFT)
+            hdr_lbl.bind('<Button-1>', lambda e, a=aff_name: self._spell_toggle_family(a))
+
+            for spell_name, color, linestyle, is_healing in entries:
+                entry_key = (aff_name, spell_name)
+                is_vis = self._spell_visibility.get(entry_key, True)
+
+                row_f = ttk.Frame(group)
+                row_f.pack(fill=tk.X, padx=10)
+
+                box = tk.Frame(row_f, width=10, height=10, bg=color if is_vis else '#dddddd',
+                              highlightbackground='#888', highlightthickness=1)
+                box.pack(side=tk.LEFT, padx=1)
+                box.pack_propagate(False)
+
+                display = f"{spell_name[:18]}"
+                if is_healing:
+                    display += ' ♥'
+                lbl = tk.Label(row_f, text=display, font=('', 7),
+                              fg='#333' if is_vis else '#bbb', anchor=tk.W, cursor='hand2')
+                lbl.pack(side=tk.LEFT, fill=tk.X)
+
+                def make_toggle(a, s):
+                    return lambda e: self._spell_toggle_one(a, s)
+                box.bind('<Button-1>', make_toggle(aff_name, spell_name))
+                lbl.bind('<Button-1>', make_toggle(aff_name, spell_name))
+
+        self._update_spell_summary()
+
+    def _update_spell_summary(self):
+        self._spell_summary_text.config(state=tk.NORMAL)
+        self._spell_summary_text.delete('1.0', tk.END)
+
+        best_dmg = ('', 0)
+        best_eff = ('', 0)
+        best_s3 = ('', 0)
+        best_max = ('', 0)
+
+        for line, ld in self._spell_line_data.items():
+            if not line.get_visible():
+                continue
+            dmg = ld.get('dmg_per_cast', 0)
+            mana = ld.get('mana_cost', 0)
+            max_r = ld.get('max_rounds', 0)
+            aff = ld.get('affinity', '')
+            name = ld.get('spell_name', '')
+            label = f"{aff}:{name}"
+
+            total_dmg = dmg * max_r if max_r > 0 else dmg * self._spell_rounds_var.get()
+            if total_dmg > best_dmg[1]:
+                best_dmg = (label, total_dmg)
+
+            if mana > 0:
+                eff = dmg / mana
+                if eff > best_eff[1]:
+                    best_eff = (label, eff)
+
+            s3 = dmg * min(3, max_r)
+            if s3 > best_s3[1]:
+                best_s3 = (label, s3)
+
+            full_dmg = dmg * max_r
+            if full_dmg > best_max[1]:
+                best_max = (label, full_dmg)
+
+        lines = []
+        if best_dmg[1] > 0:
+            lines.append(f"Top Damage:\n{best_dmg[0]}\n{best_dmg[1]:.0f} total")
+        if best_eff[1] > 0:
+            lines.append(f"Best Efficiency:\n{best_eff[0]}\n{best_eff[1]:.1f} dmg/mana")
+        if best_s3[1] > 0:
+            lines.append(f"Best Short (3r):\n{best_s3[0]}\n{best_s3[1]:.0f} dmg")
+        if best_max[1] > 0:
+            lines.append(f"Best Long ({self._spell_rounds_var.get()}r):\n{best_max[0]}\n{best_max[1]:.0f} dmg")
+
+        vis_count = sum(1 for line in self._spell_lines if line.get_visible())
+        total_count = len(self._spell_lines)
+        lines.append(f"\nVisible: {vis_count}/{total_count}")
+
+        if not lines:
+            lines.append("No spells visible")
+
+        self._spell_summary_text.insert('1.0', '\n\n'.join(lines))
+        self._spell_summary_text.config(state=tk.DISABLED)
+
+    def _spell_toggle_one(self, aff_name, spell_name):
+        key = (aff_name, spell_name)
+        self._spell_visibility[key] = not self._spell_visibility.get(key, True)
+        for line in self._spell_lines:
+            ld = self._spell_line_data.get(line, {})
+            if ld.get('affinity') == aff_name and ld.get('spell_name') == spell_name:
+                line.set_visible(self._spell_visibility[key])
+                break
+        self._auto_resize_spell_ylim()
+        self._spell_canvas.draw()
+        self._rebuild_spell_legend()
+
+    def _spell_toggle_family(self, aff_name):
+        entries = [e for e in self._spell_legend_entries if e[0] == aff_name]
+        all_vis = all(self._spell_visibility.get((e[0], e[1]), True) for e in entries)
+        new_state = not all_vis
+        for e in entries:
+            self._spell_visibility[(e[0], e[1])] = new_state
+        for line in self._spell_lines:
+            ld = self._spell_line_data.get(line, {})
+            if ld.get('affinity') == aff_name:
+                line.set_visible(new_state)
+        self._auto_resize_spell_ylim()
+        self._spell_canvas.draw()
+        self._rebuild_spell_legend()
+
+    def _spell_toggle_all(self, state):
+        for e in self._spell_legend_entries:
+            self._spell_visibility[(e[0], e[1])] = state
+        for line in self._spell_lines:
+            line.set_visible(state)
+        self._spell_canvas.draw()
+        self._rebuild_spell_legend()
+
+    def _spell_toggle_healing(self):
+        current = self._spell_show_healing_var.get()
+        self._spell_show_healing_var.set(not current)
+        self._refresh_spell_graph()
+
+    def _spell_toggle_leveled(self):
+        current = self._spell_leveled_only_var.get()
+        self._spell_leveled_only_var.set(not current)
+        self._refresh_spell_graph()
+
+    def _spell_toggle_base_mage(self):
+        base = {'Fire', 'Earth', 'Water', 'Air', 'Necrotic', 'Radiant', 'Psychic', 'Generic'}
+        for entry in self._spell_legend_entries:
+            aff_name = entry[0]
+            sn = entry[1]
+            is_chain = entry[5] if len(entry) > 5 else False
+            visible = (aff_name in base and is_chain)
+            self._spell_visibility[(aff_name, sn)] = visible
+        for line in self._spell_lines:
+            ld = self._spell_line_data.get(line, {})
+            key = (ld.get('affinity', ''), ld.get('spell_name', ''))
+            line.set_visible(self._spell_visibility.get(key, True))
+        self._spell_canvas.draw()
+        self._rebuild_spell_legend()
+
+    def _spell_toggle_complex_only(self):
+        base = {'Fire', 'Earth', 'Water', 'Air', 'Necrotic', 'Radiant', 'Psychic'}
+        for entry in self._spell_legend_entries:
+            aff_name = entry[0]
+            sn = entry[1]
+            visible = (aff_name not in base)
+            self._spell_visibility[(aff_name, sn)] = visible
+        for line in self._spell_lines:
+            ld = self._spell_line_data.get(line, {})
+            key = (ld.get('affinity', ''), ld.get('spell_name', ''))
+            line.set_visible(self._spell_visibility.get(key, True))
+        self._spell_canvas.draw()
+        self._rebuild_spell_legend()
+
+    def _clear_spell_click_annotation(self):
+        if self._spell_click_annotation:
+            try:
+                self._spell_click_annotation.remove()
+            except Exception:
+                pass
+            self._spell_click_annotation = None
+        if self._spell_click_marker:
+            try:
+                self._spell_click_marker.remove()
+            except Exception:
+                pass
+            self._spell_click_marker = None
+
+    def _on_spell_click(self, event):
+        if event.button != 1 or event.inaxes != self._spell_ax:
+            return
+
+        self._clear_spell_click_annotation()
+
+        xdata, ydata = event.xdata, event.ydata
+        if xdata is None or ydata is None:
+            self._spell_canvas.draw_idle()
+            return
+
+        candidates = []
+        for line in self._spell_lines:
+            if not line.get_visible():
+                continue
+            xarr = line.get_xdata()
+            yarr = line.get_ydata()
+            if len(xarr) == 0:
+                continue
+            idx = min(range(len(xarr)), key=lambda i: abs(xarr[i] - xdata))
+            xd = xarr[idx]
+            yd = yarr[idx]
+            xr = self._spell_ax.get_xlim()[1] - self._spell_ax.get_xlim()[0]
+            yr = self._spell_ax.get_ylim()[1] - self._spell_ax.get_ylim()[0]
+            xr = max(xr, 0.1)
+            yr = max(yr, 0.1)
+            dist = (abs(xd - xdata) / xr) ** 2 + (abs(yd - ydata) / yr) ** 2
+            candidates.append((dist, line, int(round(xd)), yd))
+
+        candidates.sort(key=lambda x: x[0])
+        candidates = [c for c in candidates if c[0] < 0.05][:5]
+        if not candidates:
+            self._spell_canvas.draw_idle()
+            return
+
+        if len(candidates) == 1:
+            dist, closest_line, closest_round, closest_ydata = candidates[0]
+            data = self._spell_line_data.get(closest_line, {})
+            if not data:
+                self._spell_canvas.draw_idle()
+                return
+            self._show_single_info(closest_line, data, closest_round, closest_ydata)
+        else:
+            self._show_multi_selector(candidates)
+
+    def _show_single_info(self, line, data, closest_round, closest_ydata):
+        self._spell_click_marker, = self._spell_ax.plot(
+            closest_round, closest_ydata, 'o',
+            color=line.get_color(), markersize=10,
+            markeredgecolor='black', markeredgewidth=1.5, zorder=9
+        )
+
+        aff_name = data['affinity']
+        spell_name = data['spell_name']
+        dmg_per_cast = data['dmg_per_cast']
+        mana_cost = data['mana_cost']
+        max_rounds = data['max_rounds']
+        is_healing = data['is_healing']
+        max_mana = data['max_mana']
+        upcasts = data.get('upcasts', 0)
+        beams = data.get('beams', 1)
+        conditions = data.get('conditions', [])
+        cond_dmg = data.get('cond_dmg', 0)
+
+        total_mana_spent = mana_cost * closest_round
+        remaining_mana = max(max_mana - total_mana_spent, 0)
+        pct_left = (remaining_mana / max_mana * 100) if max_mana > 0 else 100
+        efficiency = closest_ydata / total_mana_spent if total_mana_spent > 0 else 0
+
+        info_lines = [f"{spell_name} ({aff_name})"]
+        info_lines.append(f"{'─'*35}")
+        info_lines.append(f"Round:              {closest_round}")
+        info_lines.append(f"Cumulative Damage:  {closest_ydata:.1f}")
+        info_lines.append(f"Mana per Cast:      {mana_cost}")
+        info_lines.append(f"Total Mana Spent:   {total_mana_spent:.0f}")
+        info_lines.append(f"Remaining Mana:     {remaining_mana:.0f} ({pct_left:.0f}%)")
+        info_lines.append(f"Damage per Mana:    {efficiency:.2f}")
+        if beams > 1:
+            info_lines.append(f"Beams:              {beams}")
+        if conditions:
+            info_lines.append(f"Conditions:         {', '.join(conditions)}")
+        if cond_dmg > 0:
+            info_lines.append(f"Condition Dmg:      +{cond_dmg:.1f}/cast")
+        if upcasts > 0:
+            info_lines.append(f"Upcast Tier:        {upcasts} (mana x{2**upcasts})")
+        if is_healing:
+            info_lines.append(f"{'─'*35}")
+            info_lines.append("This is healing, not damage")
+
+        self._place_annotation(info_lines, closest_round, closest_ydata)
+        self._spell_canvas.draw_idle()
+
+    def _place_annotation(self, lines, x, y):
+        xlim = self._spell_ax.get_xlim()
+        ylim = self._spell_ax.get_ylim()
+        tx = 0.98 if x < (xlim[0] + xlim[1]) / 2 else 0.02
+        ty = 0.02 if y > (ylim[0] + ylim[1]) / 2 else 0.98
+        ha = 'right' if tx > 0.5 else 'left'
+        va = 'bottom' if ty < 0.5 else 'top'
+        self._spell_click_annotation = self._spell_ax.annotate(
+            "\n".join(lines), xy=(x, y), xycoords='data',
+            xytext=(tx, ty), textcoords='axes fraction',
+            ha=ha, va=va, annotation_clip=False,
+            bbox=dict(boxstyle='round,pad=0.4', facecolor='#ffffcc',
+                      edgecolor='#888888', alpha=0.95),
+            arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0', color='#555555'),
+            fontsize=8, fontfamily='monospace', zorder=10
+        )
+
+    def _show_multi_selector(self, candidates):
+        info_lines = ["Multiple spells overlap:"]
+        for i, (dist, line, round_num, yd) in enumerate(candidates):
+            ld = self._spell_line_data.get(line, {})
+            name = f"{ld.get('affinity','')}:{ld.get('spell_name','')}"
+            marker, = self._spell_ax.plot(round_num, yd, 'o', color=line.get_color(),
+                                           markersize=8, markeredgecolor='black',
+                                           markeredgewidth=1, zorder=9)
+            info_lines.append(f"● {name}  R{round_num} {yd:.0f} dmg")
+        self._place_annotation(info_lines, candidates[0][2], candidates[0][3])
+        self._spell_canvas.draw_idle()
+
+    def _bind_scrollwheel(self, widget):
+        def _on_mousewheel(event):
+            if event.num == 4 or event.delta > 0:
+                widget.yview_scroll(-1, 'units')
+            elif event.num == 5 or event.delta < 0:
+                widget.yview_scroll(1, 'units')
+        widget.bind('<Button-4>', _on_mousewheel)
+        widget.bind('<Button-5>', _on_mousewheel)
+        widget.bind('<MouseWheel>', _on_mousewheel)
+
     def _setup_interactions(self):
         self.canvas.mpl_connect('motion_notify_event', self._on_hover)
         self.canvas.mpl_connect('axes_leave_event', self._on_leave_axes)
         self.canvas.mpl_connect('button_press_event', self._on_click)
 
     def _initial_generate(self):
-        self._run_generator()
+        self._load_graph_data()
+
+    def _save_graph_data(self):
+        try:
+            if self.data is None:
+                return
+            path = os.path.join(DATA_DIR, 'graph_cache.json')
+            with open(path, 'w') as f:
+                json.dump(self.data, f)
+            session = {
+                'build_enabled': self._build_enabled,
+                'line_visible': self._line_visible,
+                'current_tier': self.current_tier,
+                'current_stat': self.stat_var.get(),
+                'max_level': int(self.level_slider.get()),
+            }
+            with open(os.path.join(DATA_DIR, 'gui_session.json'), 'w') as f:
+                json.dump(session, f)
+        except Exception:
+            pass
+
+    def _load_graph_data(self):
+        try:
+            path = os.path.join(DATA_DIR, 'graph_cache.json')
+            if not os.path.exists(path):
+                return
+            with open(path, 'r') as f:
+                raw = json.load(f)
+            self.data = {}
+            for tier_name, tier_data in raw.items():
+                self.data[tier_name] = {}
+                for build_name, bd in tier_data.items():
+                    self.data[tier_name][build_name] = {}
+                    for lvl_str, stats in bd.items():
+                        self.data[tier_name][build_name][int(lvl_str)] = stats
+            self.settings = load_settings(DATA_DIR)
+            spath = os.path.join(DATA_DIR, 'gui_session.json')
+            if os.path.exists(spath):
+                with open(spath, 'r') as f:
+                    session = json.load(f)
+                self._build_enabled = session.get('build_enabled', {})
+                self._line_visible = session.get('line_visible', {})
+                self.current_tier = session.get('current_tier')
+                self.stat_var.set(session.get('current_stat', 'Dmg/Turn'))
+                ml = session.get('max_level', 30)
+                self.level_slider.set(ml)
+                if hasattr(self, 'level_slider_label'):
+                    self.level_slider_label.config(text=str(ml))
+            tiers = list(self.data.keys())
+            self.tier_combo['values'] = tiers
+            if self.current_tier not in tiers:
+                self.current_tier = tiers[0]
+            self.tier_var.set(self.current_tier)
+            self._update_graph()
+            self.status_label.config(text="Loaded cached data")
+        except Exception:
+            pass
 
     def _run_generator_from_ui(self):
         if self.settings is None:
@@ -473,6 +1661,7 @@ class CharacterManagerGUI:
             self.status_label.config(text="Ready")
             self.settings_status.config(text="Ready")
             _reenable()
+            self._save_graph_data()
 
         def error(exc):
             _reenable()
@@ -511,13 +1700,139 @@ class CharacterManagerGUI:
         all_levels = sorted(set(
             lvl for bd in tier_data.values() for lvl in bd.keys()
         ))
-        if self._level_limit_enabled:
-            all_levels = [l for l in all_levels if 1 <= l <= 30]
-        return all_levels
+        return [l for l in all_levels if l <= int(self.level_slider.get())]
 
-    def _toggle_level_limit(self):
-        self._level_limit_enabled = not self._level_limit_enabled
+    def _on_slider_change(self, val):
+        self.level_slider_label.config(text=str(int(float(val))))
         self._update_graph()
+
+    def _toggle_nonmagic(self):
+        if self.settings is None:
+            return
+        any_nonmagic_visible = any(
+            self._line_visible.get(name, True)
+            for name in self._build_names
+            if not self.settings.get('builds', {}).get(name, {}).get('has_magical', False)
+        )
+        new_state = not any_nonmagic_visible
+        for name in self._build_names:
+            bc = self.settings.get('builds', {}).get(name, {})
+            if not bc.get('has_magical', False) and name in self._lines:
+                self._build_enabled[name] = new_state
+                self._line_visible[name] = new_state
+                self._lines[name].set_visible(new_state)
+        self._rebuild_legend()
+        self._rebuild_summary()
+        self.canvas.draw()
+
+    def _rebuild_legend_panel(self, build_names, colors):
+        for w in self.legend_inner.winfo_children():
+            w.destroy()
+
+        builds_config = self.settings.get('builds', {}) if self.settings else {}
+
+        magical = []
+        physical = []
+        mixed = []
+        for name in build_names:
+            bc = builds_config.get(name, {})
+            has_mag = bc.get('has_magical', False)
+            has_phys = bc.get('has_physical', False)
+            if has_mag and has_phys:
+                mixed.append(name)
+            elif has_mag:
+                magical.append(name)
+            else:
+                physical.append(name)
+
+        def build_group(title, group, group_color):
+            if not group:
+                return
+            all_vis = all(self._line_visible.get(n, True) for n in group)
+            header = ttk.Frame(self.legend_inner)
+            header.pack(fill=tk.X, padx=1, pady=(4, 0))
+            fam_cb = ttk.Checkbutton(header, command=lambda g=group: self._toggle_group(g))
+            fam_cb.state(('selected',) if all_vis else ('!selected',))
+            fam_cb.pack(side=tk.LEFT)
+            tk.Label(header, text=title, font=('', 7, 'bold'), fg=group_color).pack(side=tk.LEFT, padx=2)
+
+            for name in group:
+                color = colors.get(name, '#888')
+                is_visible = self._line_visible.get(name, True)
+                row = ttk.Frame(self.legend_inner)
+                row.pack(fill=tk.X, padx=12, pady=0)
+                cb = ttk.Checkbutton(row, command=lambda n=name: self._toggle_build_check(n))
+                cb.state(('!selected',) if not is_visible else ('selected',))
+                cb.pack(side=tk.LEFT)
+                box = tk.Frame(row, width=10, height=10, bg=color if is_visible else '#ddd',
+                              highlightbackground='#888', highlightthickness=1)
+                box.pack(side=tk.LEFT, padx=2)
+                box.pack_propagate(False)
+                lbl = tk.Label(row, text=name, font=('', 7),
+                              fg='#333' if is_visible else '#bbb', anchor=tk.W, cursor='hand2')
+                lbl.pack(side=tk.LEFT, fill=tk.X, padx=2)
+                def make_toggle(n):
+                    return lambda e: self._toggle_line(n)
+                box.bind('<Button-1>', make_toggle(name))
+                lbl.bind('<Button-1>', make_toggle(name))
+
+        build_group('Magical', magical, '#9467bd')
+        build_group('Physical', physical, '#d62728')
+        build_group('Mixed', mixed, '#7f7f7f')
+
+        if '__average__' in self._lines:
+            is_vis = self._line_visible.get('__average__', True)
+            sep = ttk.Separator(self.legend_inner, orient=tk.HORIZONTAL)
+            sep.pack(fill=tk.X, padx=2, pady=4)
+            row = ttk.Frame(self.legend_inner)
+            row.pack(fill=tk.X, padx=1, pady=1)
+            cb = ttk.Checkbutton(row, command=lambda: self._toggle_line('__average__'))
+            cb.state(('selected',) if is_vis else ('!selected',))
+            cb.pack(side=tk.LEFT)
+            box = tk.Frame(row, width=10, height=10, bg=AVG_LINE_COLOR if is_vis else '#ddd',
+                          highlightbackground='#888', highlightthickness=1)
+            box.pack(side=tk.LEFT, padx=2)
+            box.pack_propagate(False)
+            lbl = tk.Label(row, text='Average', font=('', 7, 'bold'),
+                          fg='#333' if is_vis else '#bbb', anchor=tk.W, cursor='hand2')
+            lbl.pack(side=tk.LEFT, fill=tk.X, padx=2)
+            def make_toggle_avg():
+                return lambda e: self._toggle_line('__average__')
+            box.bind('<Button-1>', make_toggle_avg())
+            lbl.bind('<Button-1>', make_toggle_avg())
+
+    def _toggle_group(self, group):
+        all_vis = all(self._line_visible.get(n, True) for n in group)
+        new_state = not all_vis
+        for name in group:
+            if name in self._lines:
+                self._line_visible[name] = new_state
+                self._build_enabled[name] = new_state
+                self._lines[name].set_visible(new_state)
+        self._rebuild_legend()
+        self.canvas.draw()
+
+    def _rebuild_legend(self):
+        if self._build_names:
+            builds_config = self.settings.get('builds', {}) if self.settings else {}
+            color_used = set()
+            colors = {}
+            for i, name in enumerate(self._build_names):
+                cfg = builds_config.get(name, {})
+                c = cfg.get('color', None)
+                if c and c not in color_used:
+                    color_used.add(c)
+                    colors[name] = c
+                else:
+                    for ci in range(100):
+                        fallback = COLOR_CYCLE[(i + ci) % len(COLOR_CYCLE)]
+                        if fallback not in color_used:
+                            color_used.add(fallback)
+                            colors[name] = fallback
+                            break
+                    else:
+                        colors[name] = COLOR_CYCLE[i % len(COLOR_CYCLE)]
+            self._rebuild_legend_panel(self._build_names, colors)
 
     def _update_graph(self):
         if self.data is None:
@@ -537,14 +1852,33 @@ class CharacterManagerGUI:
         self.ax.clear()
 
         self._clear_click_annotation()
+        saved_visible = self._line_visible.copy()
         self._lines = {}
         self._line_visible = {}
         self._focused_line_name = None
         self._selected_level = None
+        self._affinity_markers = []
 
         build_names = [k for k in tier_data.keys() if k != '__average__']
-        colors = {name: COLOR_CYCLE[i % len(COLOR_CYCLE)]
-                  for i, name in enumerate(build_names)}
+        self._build_names = build_names
+        builds_config = self.settings.get('builds', {}) if self.settings else {}
+        color_used = set()
+        colors = {}
+        for i, name in enumerate(build_names):
+            cfg = builds_config.get(name, {})
+            c = cfg.get('color', None)
+            if c and c not in color_used:
+                color_used.add(c)
+                colors[name] = c
+            else:
+                for ci in range(100):
+                    fallback = COLOR_CYCLE[(i + ci) % len(COLOR_CYCLE)]
+                    if fallback not in color_used:
+                        color_used.add(fallback)
+                        colors[name] = fallback
+                        break
+                else:
+                    colors[name] = COLOR_CYCLE[i % len(COLOR_CYCLE)]
 
         all_levels = self._get_plot_levels(tier_data)
 
@@ -559,7 +1893,14 @@ class CharacterManagerGUI:
                 alpha=FOCUSED_ALPHA
             )
             self._lines[name] = line
-            self._line_visible[name] = True
+            if name in saved_visible:
+                visible = saved_visible[name]
+            else:
+                visible = True
+            self._line_visible[name] = visible
+            self._lines[name].set_visible(visible)
+            if name not in self._build_enabled:
+                self._build_enabled[name] = visible
 
         if '__average__' in tier_data:
             avg = tier_data['__average__']
@@ -573,17 +1914,7 @@ class CharacterManagerGUI:
             self._lines['__average__'] = line
             self._line_visible['__average__'] = True
 
-        leg = self.ax.legend(
-            loc='upper left', fontsize=8, framealpha=0.85,
-            edgecolor='#cccccc'
-        )
-        leg.set_draggable(True)
-
-        for leg_line, orig_label in zip(leg.get_lines(), [t.get_text() for t in leg.get_texts()]):
-            leg_line.set_picker(True)
-            leg_line.set_pickradius(5)
-            leg_line.set_linewidth(3)
-            leg_line._leg_label = orig_label
+        self._rebuild_legend_panel(build_names, colors)
 
         self.ax.set_xlabel('Level', fontsize=11)
         self.ax.set_ylabel(STAT_LABELS.get(stat, stat), fontsize=11)
@@ -593,98 +1924,80 @@ class CharacterManagerGUI:
         self.ax.set_xlim(min(all_levels) - 1, max(all_levels) + 1)
         self.ax.tick_params(labelsize=9)
 
+        self._draw_affinity_markers(tier_data, build_names, all_levels)
+
         self._rebuild_summary()
         self.canvas.draw()
 
     def _rebuild_summary(self):
-        for w in self.summary_inner.winfo_children():
-            w.destroy()
+        pass
 
-        if self.data is None:
+    def _draw_affinity_markers(self, tier_data, build_names, all_levels):
+        for m in self._affinity_markers:
+            try:
+                m.remove()
+            except:
+                pass
+        self._affinity_markers = []
+        if not all_levels or not self.settings:
             return
-
-        tier = self.tier_var.get()
-        stat = self.stat_var.get()
-        if not tier or tier not in self.data:
-            return
-
-        tier_data = self.data[tier]
-        build_names = [k for k in tier_data.keys() if k != '__average__']
-        colors = {name: COLOR_CYCLE[i % len(COLOR_CYCLE)]
-                  for i, name in enumerate(build_names)}
-
-        row_frame = ttk.Frame(self.summary_inner)
-        row_frame.pack(fill=tk.X, pady=1)
-
+        builds_config = self.settings.get('builds', {})
         for name in build_names:
-            color = colors[name]
-            is_visible = self._line_visible.get(name, True)
+            bc = builds_config.get(name, {})
+            primary = bc.get('primary_affinity', None)
+            if not primary:
+                continue
+            if name not in tier_data:
+                continue
             bd = tier_data[name]
-            last_lvl = max(bd.keys()) if bd else 0
-            last_val = bd[last_lvl][stat] if bd and last_lvl else 0
-
-            frame = ttk.Frame(row_frame)
-            frame.pack(side=tk.LEFT, padx=3)
-
-            color_box = tk.Frame(frame, width=16, height=16, bg=color,
-                                 highlightbackground='#888', highlightthickness=1)
-            color_box.pack(side=tk.LEFT, padx=2)
-            color_box.pack_propagate(False)
-
-            name_label = tk.Label(
-                frame, text=f"{name}: {last_val}",
-                font=('', 8), fg='#666' if not is_visible else '#000',
-                cursor='hand2'
-            )
-            name_label.pack(side=tk.LEFT, padx=2)
-
-            def make_toggle(n):
-                return lambda e: self._toggle_line(n)
-
-            frame.bind('<Button-1>', make_toggle(name))
-            color_box.bind('<Button-1>', make_toggle(name))
-            name_label.bind('<Button-1>', make_toggle(name))
-
-            frame._build_name = name
-            frame._orig_bg = None
-
-        if '__average__' in tier_data:
-            avg = tier_data['__average__']
-            last_lvl = max(avg.keys()) if avg else 0
-            last_val = avg[last_lvl][stat] if avg and last_lvl else 0
-            is_visible = self._line_visible.get('__average__', True)
-
-            frame = ttk.Frame(row_frame)
-            frame.pack(side=tk.LEFT, padx=3)
-
-            color_box = tk.Frame(frame, width=16, height=16, bg='#333',
-                                 highlightbackground='#888', highlightthickness=1)
-            color_box.pack(side=tk.LEFT, padx=2)
-            color_box.pack_propagate(False)
-
-            name_label = tk.Label(
-                frame, text=f"Average: {last_val}",
-                font=('', 8, 'bold'), fg='#666' if not is_visible else '#000',
-                cursor='hand2'
-            )
-            name_label.pack(side=tk.LEFT, padx=2)
-
-            def make_toggle_avg():
-                return lambda e: self._toggle_line('__average__')
-
-            frame._build_name = '__average__'
-
-            frame.bind('<Button-1>', make_toggle_avg())
-            color_box.bind('<Button-1>', make_toggle_avg())
-            name_label.bind('<Button-1>', make_toggle_avg())
+            found_10 = None
+            found_15 = None
+            for lvl in sorted(bd.keys()):
+                if lvl not in all_levels:
+                    continue
+                affs = bd[lvl].get('affinities', {})
+                primary_val = affs.get(primary, 0)
+                if primary_val >= 10 and found_10 is None:
+                    found_10 = lvl
+                if primary_val >= 15 and found_15 is None:
+                    found_15 = lvl
+            for found_lvl, label in [(found_10, 'Aff 10+'), (found_15, 'Aff 15+')]:
+                if found_lvl is not None:
+                    m = self.ax.axvline(x=found_lvl, color='#888888',
+                                        linestyle=':', linewidth=0.8, alpha=0.4, zorder=2)
+                    self._affinity_markers.append(m)
 
     def _toggle_line(self, name):
         if name in self._lines:
             is_visible = self._line_visible.get(name, True)
             self._line_visible[name] = not is_visible
             self._lines[name].set_visible(not is_visible)
+            self._build_enabled[name] = not is_visible
+            if self._build_names:
+                builds_config = self.settings.get('builds', {}) if self.settings else {}
+                color_used = set()
+                colors = {}
+                for i, bn in enumerate(self._build_names):
+                    cfg = builds_config.get(bn, {})
+                    c = cfg.get('color', None)
+                    if c and c not in color_used:
+                        color_used.add(c)
+                        colors[bn] = c
+                    else:
+                        for ci in range(100):
+                            fallback = COLOR_CYCLE[(i + ci) % len(COLOR_CYCLE)]
+                            if fallback not in color_used:
+                                color_used.add(fallback)
+                                colors[bn] = fallback
+                                break
+                        else:
+                            colors[bn] = COLOR_CYCLE[i % len(COLOR_CYCLE)]
+                self._rebuild_legend_panel(self._build_names, colors)
             self.canvas.draw()
             self._rebuild_summary()
+
+    def _toggle_build_check(self, name):
+        self._toggle_line(name)
 
     def _on_hover(self, event):
         if not self.data or not self._lines:
@@ -748,17 +2061,7 @@ class CharacterManagerGUI:
         self.canvas.draw_idle()
 
     def _update_hover_summary(self, level, tier, stat, tier_data):
-        for row in self.summary_inner.winfo_children():
-            for widget in row.winfo_children():
-                name = getattr(widget, '_build_name', None)
-                if not name:
-                    continue
-                if name in tier_data and level in tier_data[name]:
-                    val = tier_data[name][level][stat]
-                    for child in widget.winfo_children():
-                        if isinstance(child, tk.Label):
-                            display = name if name != '__average__' else 'Average'
-                            child.config(text=f"{display}: {val}")
+        pass
 
     def _on_leave_axes(self, event):
         self._clear_hover()
@@ -772,8 +2075,6 @@ class CharacterManagerGUI:
             self._vline.remove()
             self._vline = None
         self._selected_level = None
-        if self.data:
-            self._rebuild_summary()
         self.canvas.draw_idle()
 
     def _clear_click_annotation(self):
@@ -828,7 +2129,21 @@ class CharacterManagerGUI:
                     markersize=10, markeredgecolor='black',
                     markeredgewidth=1.5, zorder=9
                 )
-                lines = [f"{name}: {val}"]
+                lines = [f"{name} @ Level {nearest_level}"]
+                lines.append(f"{'─'*30}")
+                lines.append(f"{'Stat':12s} {'Value':>6s}")
+                for sk in ['STR', 'DEX', 'CON', 'WIS', 'INT', 'CHA']:
+                    lines.append(f"  {sk:10s}: {bd.get(sk,0):>3d}")
+                lines.append(f"{'─'*30}")
+                lines.append(f"{'Combat':12s} {'Value':>6s}")
+                for sk in ['Vitality', 'Health', 'Mana', 'AC', 'Feats', 'Spells']:
+                    lines.append(f"  {sk:10s}: {bd.get(sk,0):>3d}")
+                lines.append(f"  To Hit    : {bd.get('To Hit',0):>3d}")
+                lines.append(f"{'─'*30}")
+                lines.append(f"{'Damage':12s} {'Value':>6s}")
+                lines.append(f"  Dmg/Turn  : {bd.get('Dmg/Turn',0):>6d}")
+                lines.append(f"  Dmg/5R    : {bd.get('Dmg/5R',0):>6d}")
+                lines.append(f"  Dmg/10R   : {bd.get('Dmg/10R',0):>6d}")
                 mc = bd.get('ManaCost', 0)
                 if mc > 0:
                     mana_total = bd.get('Mana', 0)
@@ -837,19 +2152,35 @@ class CharacterManagerGUI:
                     u5, u10 = ms5 - me5, ms10 - me10
                     p5 = u5 / ms5 * 100 if ms5 > 0 else 0
                     p10 = u10 / ms10 * 100 if ms10 > 0 else 0
-                    lines.append(f"Mana: {mana_total}  Cost/Cast: {mc}")
-                    lines.append(f"5R: {ms5}→{me5} (used {u5}, {p5:.0f}%)")
-                    lines.append(f"10R: {ms10}→{me10} (used {u10}, {p10:.0f}%)")
+                    lines.append(f"{'─'*30}")
+                    lines.append(f"Mana/Cast  : {mc:>3d}  Pool: {mana_total}")
+                    lines.append(f"5R Mana    : {ms5}→{me5} (used {u5}, {p5:.0f}%)")
+                    lines.append(f"10R Mana   : {ms10}→{me10} (used {u10}, {p10:.0f}%)")
+                xlim = self.ax.get_xlim()
+                ylim = self.ax.get_ylim()
+                xmid = (xlim[0] + xlim[1]) / 2
+                ymid = (ylim[0] + ylim[1]) / 2
+                if nearest_level < xmid:
+                    tx, ha = 0.98, 'right'
+                else:
+                    tx, ha = 0.02, 'left'
+                if val > ymid:
+                    ty, va = 0.98, 'top'
+                else:
+                    ty, va = 0.02, 'bottom'
                 self._click_annotation = self.ax.annotate(
                     "\n".join(lines),
-                    xy=(nearest_level, val),
-                    xytext=(12, 12), textcoords='offset points',
-                    bbox=dict(boxstyle='round,pad=0.3',
+                    xy=(nearest_level, val), xycoords='data',
+                    xytext=(tx, ty), textcoords='axes fraction',
+                    ha=ha, va=va,
+                    annotation_clip=False,
+                    bbox=dict(boxstyle='round,pad=0.4',
                               facecolor='#ffffcc', edgecolor='#888888',
-                              alpha=0.9),
+                              alpha=0.95),
                     arrowprops=dict(arrowstyle='->',
-                                    connectionstyle='arc3,rad=0'),
-                    fontsize=9, zorder=10
+                                    connectionstyle='arc3,rad=0',
+                                    color='#555555'),
+                    fontsize=8, fontfamily='monospace', zorder=10
                 )
                 self.canvas.draw_idle()
                 return

@@ -19,7 +19,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 11 = 2d8 (4 x 2) + 0(flat) + 1 x 2(Con)
@@ -28,10 +28,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 10 (x15 mana)
-    Total Dmg/5R:  41
-    Total Dmg/10R: 80
-    Mana: 15 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x6 mana)
+    Total Dmg/5R:  52
+    Total Dmg/10R: 85
+    Mana: 15 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  7
@@ -55,10 +55,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
+    Earth          : 2
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 8
+    Necrotic       : 3
     Psychic        : 3
     Radiant        : -3
+    Water          : 0
 
   GEAR:
     Weapon: nerite_wand
@@ -82,7 +85,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +1
-    To Hit: Magic: +5
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 16 = 3d8 (4 x 3) + 0(flat) + 1 x 3(Con)
@@ -91,10 +94,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 10 (x15 mana)
-    Total Dmg/5R:  41
-    Total Dmg/10R: 80
-    Mana: 22 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 (x6 mana)
+    Total Dmg/5R:  62
+    Total Dmg/10R: 95
+    Mana: 22 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  9
@@ -118,11 +121,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 8
+    Necrotic       : 3
     Psychic        : 3
     Radiant        : -3
+    Water          : 0
 
   GEAR:
     Weapon: nerite_wand
@@ -146,7 +151,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 25 = 4d8 (4 x 4) + 3(flat) + 1 x 4(Con)
@@ -155,9 +160,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 11 (x15 mana)
-    Total Dmg/5R:  48
-    Total Dmg/10R: 90
+    Magic Dmg/Cast: 16 (x6 mana)
+    Total Dmg/5R:  82
+    Total Dmg/10R: 115
     Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -183,11 +188,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 3
     Psychic        : 3
     Radiant        : -3
+    Water          : 2
 
   GEAR:
     Weapon: nerite_wand
@@ -211,7 +218,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 26 = 5d6 (3 x 5) + 4(flat) + 1 x 5(Con)
@@ -220,9 +227,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x45 mana)
-    Total Dmg/5R:  100
-    Total Dmg/10R: 198
+    Magic Dmg/Cast: 37 (x18 mana)
+    Total Dmg/5R:  120
+    Total Dmg/10R: 197
     Mana: 42 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -248,12 +255,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 1
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 3
     Psychic        : 3
     Radiant        : -3
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -277,7 +285,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +6
+    To Hit: Magic: +3
 
   HEALTH POOLS:
     Vitality: 32 = 6d6 (3 x 6) + 5(flat) + 1 x 6(Con)
@@ -286,10 +294,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 25 (x45 mana)
-    Total Dmg/5R:  104
-    Total Dmg/10R: 202
-    Mana: 51 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 37 (x18 mana)
+    Total Dmg/5R:  120
+    Total Dmg/10R: 197
+    Mana: 51 start, 15 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -314,12 +322,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 1
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 10
+    Necrotic       : 3
     Psychic        : 3
     Radiant        : -3
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -343,7 +352,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 37 = 7d6 (3 x 7) + 6(flat) + 1 x 7(Con)
@@ -352,9 +361,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 31 (x45 mana)
-    Total Dmg/5R:  133
-    Total Dmg/10R: 252
+    Magic Dmg/Cast: 37 (x18 mana)
+    Total Dmg/5R:  156
+    Total Dmg/10R: 254
     Mana: 71 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -380,13 +389,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 1
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 16
+    Necrotic       : 10
     Psychic        : 3
     Radiant        : -3
-    Water          : 1
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -410,7 +419,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 43 = 8d6 (3 x 8) + 7(flat) + 1 x 8(Con)
@@ -419,10 +428,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 31 (x45 mana)
-    Total Dmg/5R:  136
-    Total Dmg/10R: 255
-    Mana: 82 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 37 (x18 mana)
+    Total Dmg/5R:  167
+    Total Dmg/10R: 265
+    Mana: 82 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -447,13 +456,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 3
-    Earth          : 1
-    Fire           : 1
+    Earth          : 3
+    Fire           : 3
     Generic        : 2
-    Necrotic       : 16
+    Necrotic       : 10
     Psychic        : 3
     Radiant        : -3
-    Water          : 1
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -477,7 +486,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +9
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 48 = 9d6 (3 x 9) + 8(flat) + 1 x 9(Con)
@@ -486,9 +495,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 31 | Dmg/Turn: 62 (x45 mana)
-    Total Dmg/5R:  253
-    Total Dmg/10R: 491
+    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
+    Total Dmg/5R:  269
+    Total Dmg/10R: 479
     Mana: 92 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -514,13 +523,13 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   AFFINITIES:
     Air            : 4
-    Earth          : 1
+    Earth          : 3
     Fire           : 5
     Generic        : 2
-    Necrotic       : 16
+    Necrotic       : 12
     Psychic        : 3
     Radiant        : -3
-    Water          : 1
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -553,10 +562,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 35 | Dmg/Turn: 70 (x45 mana)
-    Total Dmg/5R:  263
-    Total Dmg/10R: 529
-    Mana: 113 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 40 | Dmg/Turn: 80 (x15 mana)
+    Total Dmg/5R:  339
+    Total Dmg/10R: 605
+    Mana: 113 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -611,7 +620,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +10
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 59 = 11d6 (3 x 11) + 10(flat) + 1 x 11(Con)
@@ -620,10 +629,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 | Dmg/Turn: 66 (x45 mana)
-    Total Dmg/5R:  277
-    Total Dmg/10R: 529
-    Mana: 124 start, 10 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
+    Total Dmg/5R:  303
+    Total Dmg/10R: 541
+    Mana: 124 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -651,10 +660,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Earth          : 7
     Fire           : 6
     Generic        : 2
-    Necrotic       : 18
+    Necrotic       : 16
     Psychic        : 3
     Radiant        : -3
-    Water          : 1
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -678,7 +687,7 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +4
-    To Hit: Magic: +10
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 65 = 12d6 (3 x 12) + 11(flat) + 1 x 12(Con)
@@ -687,10 +696,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 | Dmg/Turn: 66 (x45 mana)
-    Total Dmg/5R:  251
-    Total Dmg/10R: 503
-    Mana: 136 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x18 mana)
+    Total Dmg/5R:  306
+    Total Dmg/10R: 544
+    Mana: 136 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  38
@@ -718,10 +727,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
     Earth          : 7
     Fire           : 6
     Generic        : 2
-    Necrotic       : 18
+    Necrotic       : 16
     Psychic        : 3
     Radiant        : -3
-    Water          : 1
+    Water          : 3
 
   GEAR:
     Weapon: nerite_wand
@@ -754,10 +763,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 35 | Dmg/Turn: 70 (x45 mana)
-    Total Dmg/5R:  246
-    Total Dmg/10R: 512
-    Mana: 147 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 82 (x15 mana)
+    Total Dmg/5R:  376
+    Total Dmg/10R: 642
+    Mana: 147 start, 12 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  42
@@ -821,10 +830,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 35 | Dmg/Turn: 70 (x45 mana)
-    Total Dmg/5R:  280
-    Total Dmg/10R: 546
-    Mana: 159 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 82 (x15 mana)
+    Total Dmg/5R:  418
+    Total Dmg/10R: 684
+    Mana: 159 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  44
@@ -888,10 +897,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 42 | Dmg/Turn: 84 (x42 mana)
-    Total Dmg/5R:  331
-    Total Dmg/10R: 597
-    Mana: 170 start, 2 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 41 | Dmg/Turn: 82 (x15 mana)
+    Total Dmg/5R:  418
+    Total Dmg/10R: 672
+    Mana: 170 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -955,9 +964,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 86 (x42 mana)
-    Total Dmg/5R:  317
-    Total Dmg/10R: 583
+    Magic Dmg/Cast: 42 | Dmg/Turn: 84 (x15 mana)
+    Total Dmg/5R:  427
+    Total Dmg/10R: 725
     Mana: 182 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1022,10 +1031,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 86 (x42 mana)
-    Total Dmg/5R:  352
-    Total Dmg/10R: 618
-    Mana: 193 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 42 | Dmg/Turn: 84 (x15 mana)
+    Total Dmg/5R:  427
+    Total Dmg/10R: 725
+    Mana: 193 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1089,10 +1098,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 86 (x42 mana)
-    Total Dmg/5R:  334
-    Total Dmg/10R: 600
-    Mana: 205 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 42 | Dmg/Turn: 84 (x15 mana)
+    Total Dmg/5R:  427
+    Total Dmg/10R: 715
+    Mana: 205 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1156,9 +1165,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x42 mana)
-    Total Dmg/5R:  340
-    Total Dmg/10R: 606
+    Magic Dmg/Cast: 45 | Dmg/Turn: 90 (x15 mana)
+    Total Dmg/5R:  455
+    Total Dmg/10R: 798
     Mana: 216 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1223,10 +1232,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 46 | Dmg/Turn: 92 (x42 mana)
-    Total Dmg/5R:  325
-    Total Dmg/10R: 591
-    Mana: 228 start, 6 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 45 | Dmg/Turn: 90 (x15 mana)
+    Total Dmg/5R:  455
+    Total Dmg/10R: 790
+    Mana: 228 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1290,10 +1299,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 88 (x42 mana)
-    Total Dmg/5R:  375
-    Total Dmg/10R: 641
-    Mana: 260 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 128 (x60 mana)
+    Total Dmg/5R:  407
+    Total Dmg/10R: 673
+    Mana: 260 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  69
@@ -1357,10 +1366,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 48 | Dmg/Turn: 144 (x42 mana)
-    Total Dmg/5R:  500
-    Total Dmg/10R: 899
-    Mana: 323 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 204 (x60 mana)
+    Total Dmg/5R:  548
+    Total Dmg/10R: 947
+    Mana: 323 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1424,10 +1433,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 50 | Dmg/Turn: 150 (x42 mana)
-    Total Dmg/5R:  615
-    Total Dmg/10R: 1014
-    Mana: 385 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x60 mana)
+    Total Dmg/5R:  630
+    Total Dmg/10R: 1029
+    Mana: 385 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -1491,9 +1500,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 83 | Dmg/Turn: 332 (x135 mana)
-    Total Dmg/5R:  1004
-    Total Dmg/10R: 1840
+    Magic Dmg/Cast: 89 | Dmg/Turn: 356 (x60 mana)
+    Total Dmg/5R:  1141
+    Total Dmg/10R: 1977
     Mana: 551 start, 11 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1558,10 +1567,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 107 | Dmg/Turn: 428 (x135 mana)
-    Total Dmg/5R:  979
-    Total Dmg/10R: 2271
-    Mana: 737 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 117 | Dmg/Turn: 468 (x60 mana)
+    Total Dmg/5R:  1757
+    Total Dmg/10R: 3049
+    Mana: 737 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -1625,10 +1634,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 111 | Dmg/Turn: 555 (x135 mana)
-    Total Dmg/5R:  1678
-    Total Dmg/10R: 3388
-    Mana: 1126 start, 4 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 124 | Dmg/Turn: 620 (x60 mana)
+    Total Dmg/5R:  2361
+    Total Dmg/10R: 4071
+    Mana: 1126 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -1692,10 +1701,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 111 | Dmg/Turn: 555 (x135 mana)
-    Total Dmg/5R:  1899
-    Total Dmg/10R: 3609
-    Mana: 1382 start, 8 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 129 | Dmg/Turn: 645 (x60 mana)
+    Total Dmg/5R:  2982
+    Total Dmg/10R: 4692
+    Mana: 1382 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  235
@@ -1759,10 +1768,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 113 | Dmg/Turn: 678 (x42 mana)
-    Total Dmg/5R:  3392
-    Total Dmg/10R: 5108
-    Mana: 1577 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 132 | Dmg/Turn: 792 (x60 mana)
+    Total Dmg/5R:  3447
+    Total Dmg/10R: 5199
+    Mana: 1577 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  271
@@ -1826,10 +1835,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 213 | Dmg/Turn: 1491 (x75 mana)
-    Total Dmg/5R:  5031
-    Total Dmg/10R: 7425
-    Mana: 1772 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1491 (x90 mana)
+    Total Dmg/5R:  4675
+    Total Dmg/10R: 7069
+    Mana: 1772 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  304
@@ -1893,10 +1902,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 225 | Dmg/Turn: 1575 (x75 mana)
-    Total Dmg/5R:  6206
-    Total Dmg/10R: 8600
-    Mana: 2068 start, 1 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 225 | Dmg/Turn: 1575 (x90 mana)
+    Total Dmg/5R:  5100
+    Total Dmg/10R: 7137
+    Mana: 2068 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  335
@@ -1960,10 +1969,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 231 | Dmg/Turn: 1848 (x75 mana)
-    Total Dmg/5R:  7050
-    Total Dmg/10R: 9786
-    Mana: 2273 start, 11 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 231 | Dmg/Turn: 1848 (x90 mana)
+    Total Dmg/5R:  5902
+    Total Dmg/10R: 8638
+    Mana: 2273 start, 8 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  366
@@ -2027,9 +2036,9 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 244 | Dmg/Turn: 2196 (x75 mana)
-    Total Dmg/5R:  8691
-    Total Dmg/10R: 11769
+    Magic Dmg/Cast: 244 | Dmg/Turn: 2196 (x90 mana)
+    Total Dmg/5R:  7368
+    Total Dmg/10R: 10446
     Mana: 2478 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2094,10 +2103,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 258 | Dmg/Turn: 2322 (x75 mana)
-    Total Dmg/5R:  9559
-    Total Dmg/10R: 11672
-    Mana: 2814 start, 3 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 258 | Dmg/Turn: 2322 (x90 mana)
+    Total Dmg/5R:  8148
+    Total Dmg/10R: 11226
+    Mana: 2814 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  435
@@ -2161,10 +2170,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 264 | Dmg/Turn: 2640 (x75 mana)
-    Total Dmg/5R:  10706
-    Total Dmg/10R: 14126
-    Mana: 3029 start, 5 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 264 | Dmg/Turn: 2640 (x90 mana)
+    Total Dmg/5R:  8874
+    Total Dmg/10R: 12294
+    Mana: 3029 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  466
@@ -2228,10 +2237,10 @@ EYUM TTRPG - NECROTIC MAGE (NERITE GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 281 | Dmg/Turn: 2810 (x75 mana)
-    Total Dmg/5R:  12116
-    Total Dmg/10R: 14994
-    Mana: 3244 start, 7 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 281 | Dmg/Turn: 2810 (x90 mana)
+    Total Dmg/5R:  10827
+    Total Dmg/10R: 14247
+    Mana: 3244 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  499
