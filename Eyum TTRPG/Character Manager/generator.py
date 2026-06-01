@@ -31,6 +31,7 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     stat_weights = [10, 4, 2, 1, 0.5, 0.25]
     is_physical = build_config.get('has_physical', False)
     is_magical = build_config.get('has_magical', False)
+    primary_aff = build_config.get('primary_affinity')
 
     if effect_key == 'stat':
         for stat, bonus in effect_val.items():
@@ -72,6 +73,8 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
         if is_magical:
             for aff, val in effect_val.items():
                 score += val * 3
+                if aff == primary_aff:
+                    score += val * 20
     elif effect_key == 'skill_points':
         score += effect_val * 1
     elif effect_key == 'stat_points':
@@ -196,7 +199,8 @@ def score_archetype_for_build(arch_name, arch_data, build_config):
         arch_aff_map = {
             'Pyromancer': 'Fire', 'Geomancer': 'Earth',
             'Tidemaster': 'Water', 'Windwalker': 'Air',
-            'Priest': 'Radiant', 'Necromancer': 'Necrotic'
+            'Priest': 'Radiant', 'Necromancer': 'Necrotic',
+            'Psychic': 'Psychic'
         }
         mapped = arch_aff_map.get(arch_name)
         if mapped:
@@ -212,6 +216,33 @@ def select_archetypes(build_config, settings, target_level):
     available_stp = 1 + (target_level // 2)
     path_rules = settings['paths']
     preferred = build_config.get('preferred_paths', list(path_rules.keys()))
+    affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
+    primary_aff = build_config.get('primary_affinity')
+
+    needs_generic = False
+    generic_element_arch = None
+    if primary_aff and primary_aff in affinity_prereqs:
+        prereq = affinity_prereqs[primary_aff]
+        def _reqs_need_generic(reqs):
+            needs = reqs.get('needs', {})
+            all_of = needs.get('all_of', [])
+            if 'Generic' in all_of:
+                return True
+            needs_all = reqs.get('needs_all', [])
+            for tier in needs_all:
+                if 'Generic' in tier.get('affinities', []):
+                    return True
+            return False
+        needs_generic = _reqs_need_generic(prereq)
+
+        generic_element_map = {
+            'Infernal': 'Pyromancer', 'Metal': 'Geomancer', 'Torrent': 'Tidemaster',
+            'Thunder': 'Windwalker', 'Mirage': 'Priest', 'Vacuum': 'Necromancer',
+            'Warp': 'Psychic', 'Void': 'Windwalker', 'Quake': 'Geomancer',
+            'Obsidian': 'Geomancer', 'Corruption': 'Geomancer',
+            'Frostfire': 'Windwalker', 'Glacial': 'Windwalker', 'Storm': 'Windwalker'
+        }
+        generic_element_arch = generic_element_map.get(primary_aff)
 
     arch_scores = []
     for path_name in preferred:
@@ -220,6 +251,10 @@ def select_archetypes(build_config, settings, target_level):
         for arch_name, arch_data in archs.items():
             score = score_archetype_for_build(arch_name, arch_data, build_config)
             base_tiers = sum(1 for k in arch_data if float(k) == int(float(k)) and not arch_data[k].get('repeatable', False))
+            if needs_generic and arch_name == 'Magician':
+                score += 500
+            if generic_element_arch and arch_name == generic_element_arch:
+                score += 400
             arch_scores.append((score, path_name, arch_name, base_tiers))
 
     reverse_sort = not build_config.get('worst', False)

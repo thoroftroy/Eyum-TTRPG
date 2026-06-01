@@ -147,6 +147,16 @@
         "5": {
           "spell_damage_mult": 2,
           "spell_mana_mult": 3
+        },
+        "6": {
+          "affinity_points": 10
+        },
+        "7": {
+          "spell_damage_mult": 3,
+          "spell_mana_mult": 4
+        },
+        "8": {
+          "generic_affinity_spendable": true
         }
       },
       "Pyromancer": {
@@ -167,6 +177,16 @@
         "3": {
           "magic_accuracy_non_water": 5,
           "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Lightning": 1,
+            "Ash": 1,
+            "Nova": 1,
+            "Bloodfire": 1,
+            "Infernal": 1,
+            "Magma": 1
+          }
         }
       },
       "Geomancer": {
@@ -187,6 +207,20 @@
         "3": {
           "magic_accuracy_non_air": 5,
           "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Dust": 1,
+            "Mud": 1,
+            "Metal": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Obsidian": 1,
+            "Quake": 1,
+            "Corruption": 1
+          }
         }
       },
       "Tidemaster": {
@@ -207,6 +241,13 @@
         "3": {
           "magic_accuracy_non_fire": 5,
           "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Ice/Cold": 2,
+            "Torrent": 2,
+            "Steam": 2
+          }
         }
       },
       "Windwalker": {
@@ -227,6 +268,20 @@
         "3": {
           "magic_accuracy_non_earth": 5,
           "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Toxin": 1,
+            "Thunder": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Frostfire": 1,
+            "Glacial": 1,
+            "Void": 1,
+            "Storm": 1
+          }
         }
       },
       "Priest": {
@@ -247,6 +302,19 @@
         "3": {
           "magic_accuracy_non_necrotic": 5,
           "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Hallowed": 1,
+            "Solar": 1,
+            "Mirage": 1,
+            "Starlight": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Atomic": 1
+          }
         }
       },
       "Necromancer": {
@@ -266,6 +334,131 @@
         },
         "3": {
           "magic_accuracy_non_radiant": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Cursed": 1,
+            "Poison": 1,
+            "Vacuum": 1,
+            "Blight": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Miasma": 1,
+            "Gel": 1
+          }
+        }
+      },
+      "Psychic": {
+        "1": {
+          "affinity": {
+            "Psychic": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Psychic": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "psychic_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_damage": 5
+        },
+        "4": {
+          "affinity": {
+            "Tremor": 1,
+            "Deluge": 1,
+            "Shatter": 1,
+            "Sorrow": 1,
+            "Warp": 1,
+            "Chaos": 1
+          }
+        }
+      },
+      "Healer": {
+        "1": {},
+        "2": {},
+        "2.5": {
+          "repeatable": true
+        },
+        "3": {
+          "hallowed_affinity": 2
+        },
+        "3.5": {
+          "hallowed_affinity": 2,
+          "karma": 10,
+          "repeatable": true
+        },
+        "4": {
+          "hallowed_affinity": 1,
+          "healing_maximize": true
+        },
+        "4.1": {},
+        "4.2": {
+          "magic_damage": 1,
+          "repeatable": true
+        },
+        "5": {
+          "karma": 10
+        },
+        "6": {
+          "hallowed_affinity": 1,
+          "cleansing": 1
+        },
+        "7": {
+          "karma": 10
+        },
+        "8": {
+          "hallowed_affinity": 1,
+          "concentration_two_spells": true
+        },
+        "9": {
+          "karma": 10,
+          "free_heal": true
+        },
+        "10": {
+          "hallowed_affinity": 1,
+          "reaction_save_ally": true
+        }
+      },
+      "Jack": {
+        "1": {
+          "affinity": {
+            "Fire": 1,
+            "Earth": 1,
+            "Water": 1,
+            "Air": 1
+          },
+          "magic_damage": 3
+        },
+        "1.5": {
+          "affinity": {
+            "Fire": 1,
+            "Water": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "affinity": {
+            "Radiant": 1,
+            "Necrotic": 1,
+            "Psychic": 1
+          }
+        },
+        "2.5": {
+          "affinity": {
+            "Radiant": 1,
+            "Necrotic": 1
+          },
+          "repeatable": true
+        },
+        "3": {
+          "affinity_per_level": 1,
           "magic_damage": 3
         }
       }
@@ -621,6 +814,17 @@
       "tier1_racial": true
     },
     "archetypes": {
+      "Bloodline Evolution": {
+        "1": {"tier_racial": 2},
+        "2": {"tier_racial": 3},
+        "3": {"tier_racial": 4},
+        "4": {"tier_racial": 5},
+        "5": {"tier_racial": 6},
+        "6": {"tier_racial": 7},
+        "7": {"tier_racial": 8},
+        "8": {"tier_racial": 9},
+        "9": {"tier_racial": 10}
+      },
       "General Evolution": {
         "1": {
           "darkvision_range": 30

@@ -65,6 +65,8 @@ def apply_effects(char, effects, cost_table=None):
         char.radiant_damage_bonus = effects['radiant_damage_bonus']
     if 'necrotic_damage_bonus' in effects:
         char.necrotic_damage_bonus = effects['necrotic_damage_bonus']
+    if 'psychic_damage_bonus' in effects:
+        char.psychic_damage_bonus = effects['psychic_damage_bonus']
     if 'skill_points' in effects:
         char.skill_points += effects['skill_points']
     if 'stat_points' in effects:
@@ -192,6 +194,8 @@ def apply_effects(char, effects, cost_table=None):
         char.spell_damage_mult = effects['spell_damage_mult']
     if 'spell_mana_mult' in effects:
         char.spell_mana_mult = effects['spell_mana_mult']
+    if 'generic_affinity_spendable' in effects:
+        char.generic_affinity_spendable = True
     if 'monster_damage' in effects:
         char.melee_damage += effects['monster_damage']
         char.ranged_damage += effects['monster_damage']

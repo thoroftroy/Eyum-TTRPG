@@ -7,6 +7,7 @@ AFFINITY_DAMAGE_BONUS_ATTRS = {
     'Air': 'air_damage_bonus',
     'Radiant': 'radiant_damage_bonus',
     'Necrotic': 'necrotic_damage_bonus',
+    'Psychic': 'psychic_damage_bonus',
 }
 
 

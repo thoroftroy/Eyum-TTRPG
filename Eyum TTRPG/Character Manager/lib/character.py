@@ -49,6 +49,7 @@ class Character:
         self.air_damage_bonus = None
         self.radiant_damage_bonus = None
         self.necrotic_damage_bonus = None
+        self.psychic_damage_bonus = None
 
         sp = r['starting_points']
         sc = r['starting_combat']
@@ -153,6 +154,7 @@ class Character:
         self.immunity_threatened = False
         self.immunity_surprised = False
         self.pact_access_tier = 1
+        self.generic_affinity_spendable = False
         self.anti_deity_damage = False
         self.healing_maximize = False
         self.cleansing = 0

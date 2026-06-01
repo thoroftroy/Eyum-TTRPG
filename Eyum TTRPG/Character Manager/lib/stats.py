@@ -75,6 +75,8 @@ def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
 def _affinity_prereqs_met(aff_name, char, affinity_prereqs):
     if not affinity_prereqs or aff_name not in affinity_prereqs:
         return True
+    if char.affinities.get(aff_name, 0) > 0:
+        return True
     prereq = affinity_prereqs[aff_name]
     needs_all = prereq.get('needs_all', [])
     if needs_all:
@@ -104,12 +106,25 @@ def spend_affinity_points(char, primary_affinity=None, affinity_prereqs=None):
 
     if primary_affinity:
         if primary_affinity == 'Generic':
+            if getattr(char, 'generic_affinity_spendable', False):
+                gained = affp // 3
+                if gained > 0:
+                    char.affinities['Generic'] = char.affinities.get('Generic', 0) + gained
+                    affp -= gained * 3
             char.affinity_points = affp
             return
 
         def _spend_on(aff_name, points):
             nonlocal affp
-            if affp <= 0 or aff_name == 'Generic':
+            if affp <= 0:
+                return
+            if aff_name == 'Generic':
+                if not getattr(char, 'generic_affinity_spendable', False):
+                    return
+                take = min(affp // 3, points)
+                if take > 0:
+                    char.affinities[aff_name] = char.affinities.get(aff_name, 0) + take
+                    affp -= take * 3
                 return
             if aff_name in affinity_prereqs and not _affinity_prereqs_met(aff_name, char, affinity_prereqs):
                 prereq = affinity_prereqs[aff_name]
@@ -143,6 +158,10 @@ def spend_affinity_points(char, primary_affinity=None, affinity_prereqs=None):
                 if affp <= 0:
                     break
                 if aff == 'Generic':
+                    if getattr(char, 'generic_affinity_spendable', False) and affp >= 3:
+                        char.affinities[aff] = char.affinities.get(aff, 0) + 1
+                        affp -= 3
+                        spent = True
                     continue
                 if affinity_prereqs and aff in affinity_prereqs and not _affinity_prereqs_met(aff, char, affinity_prereqs):
                     continue
