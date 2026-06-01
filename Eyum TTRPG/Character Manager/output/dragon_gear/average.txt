@@ -406,16 +406,16 @@ LEVEL 13
 
 LEVEL 14
 ----------------------------------------
-  Vitality:  avg=85  min=52  max=215
+  Vitality:  avg=83  min=52  max=215
   Health:    avg=60  min=52  max=73
   Mana:      avg=122  min=22  max=170
   AC:        avg=13  min=10  max=48
   Feats:     avg=2  min=0  max=4
   Spells:    avg=4  min=0  max=6
-  Dmg/Turn:  avg=66  min=4  max=318
-  Dmg/5R:    avg=259  min=21  max=774
-  Dmg/10R:   avg=491  min=34  max=1150
-  To Hit:    avg=+7  min=+4  max=+17
+  Dmg/Turn:  avg=64  min=4  max=308
+  Dmg/5R:    avg=250  min=21  max=755
+  Dmg/10R:   avg=478  min=34  max=1131
+  To Hit:    avg=+6  min=+4  max=+16
   STR:       avg=10  min=8  max=22
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=24
@@ -430,23 +430,23 @@ LEVEL 14
     AC:       Tanker (48)
     Feats:    Jack of all Trades (4)
     Spells:   Jack of all Trades (6)
-    Dmg:      Nova Mage (318)
-    Dmg/5R:   Solar Mage (774)
-    Dmg/10R:  Solar Mage (1150)
-    To Hit:   Fire Mage (+17)
+    Dmg:      Nova Mage (308)
+    Dmg/5R:   Solar Mage (755)
+    Dmg/10R:  Solar Mage (1131)
+    To Hit:   Earth Mage (+16)
 
 LEVEL 15
 ----------------------------------------
-  Vitality:  avg=91  min=56  max=229
+  Vitality:  avg=90  min=56  max=229
   Health:    avg=64  min=56  max=78
-  Mana:      avg=131  min=24  max=182
+  Mana:      avg=130  min=24  max=182
   AC:        avg=14  min=10  max=48
   Feats:     avg=2  min=0  max=5
   Spells:    avg=5  min=0  max=7
-  Dmg/Turn:  avg=67  min=4  max=326
-  Dmg/5R:    avg=268  min=19  max=793
-  Dmg/10R:   avg=492  min=30  max=1169
-  To Hit:    avg=+7  min=+5  max=+18
+  Dmg/Turn:  avg=63  min=0  max=318
+  Dmg/5R:    avg=258  min=0  max=774
+  Dmg/10R:   avg=474  min=0  max=1150
+  To Hit:    avg=+7  min=+5  max=+17
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=25
@@ -461,23 +461,23 @@ LEVEL 15
     AC:       Tanker (48)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (7)
-    Dmg:      Nova Mage (326)
-    Dmg/5R:   Solar Mage (793)
-    Dmg/10R:  Solar Mage (1169)
-    To Hit:   Fire Mage (+18)
+    Dmg:      Nova Mage (318)
+    Dmg/5R:   Solar Mage (774)
+    Dmg/10R:  Solar Mage (1150)
+    To Hit:   Earth Mage (+17)
 
 LEVEL 16
 ----------------------------------------
-  Vitality:  avg=90  min=59  max=261
+  Vitality:  avg=96  min=59  max=261
   Health:    avg=68  min=59  max=83
-  Mana:      avg=146  min=25  max=210
+  Mana:      avg=138  min=25  max=193
   AC:        avg=14  min=10  max=48
   Feats:     avg=2  min=0  max=5
   Spells:    avg=5  min=0  max=7
-  Dmg/Turn:  avg=66  min=0  max=326
-  Dmg/5R:    avg=268  min=0  max=868
-  Dmg/10R:   avg=493  min=0  max=1244
-  To Hit:    avg=+7  min=+5  max=+18
+  Dmg/Turn:  avg=64  min=0  max=318
+  Dmg/5R:    avg=265  min=0  max=874
+  Dmg/10R:   avg=490  min=0  max=1250
+  To Hit:    avg=+7  min=+5  max=+17
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=25
@@ -488,27 +488,27 @@ LEVEL 16
   BEST:
     Vitality: Tanker Archer (261)
     Health:   Jack of all Trades (83)
-    Mana:     Fire Mage (210)
+    Mana:     Fire Mage (193)
     AC:       Tanker (48)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (7)
-    Dmg:      Nova Mage (326)
-    Dmg/5R:   Solar Mage (868)
-    Dmg/10R:  Solar Mage (1244)
-    To Hit:   Fire Mage (+18)
+    Dmg:      Nova Mage (318)
+    Dmg/5R:   Solar Mage (874)
+    Dmg/10R:  Solar Mage (1250)
+    To Hit:   Earth Mage (+17)
 
 LEVEL 17
 ----------------------------------------
-  Vitality:  avg=96  min=63  max=276
+  Vitality:  avg=102  min=63  max=276
   Health:    avg=73  min=63  max=88
-  Mana:      avg=155  min=27  max=223
+  Mana:      avg=147  min=27  max=205
   AC:        avg=14  min=10  max=48
   Feats:     avg=2  min=0  max=5
   Spells:    avg=5  min=0  max=7
-  Dmg/Turn:  avg=66  min=0  max=326
-  Dmg/5R:    avg=275  min=0  max=923
-  Dmg/10R:   avg=504  min=0  max=1299
-  To Hit:    avg=+7  min=+5  max=+18
+  Dmg/Turn:  avg=64  min=0  max=318
+  Dmg/5R:    avg=259  min=0  max=874
+  Dmg/10R:   avg=478  min=0  max=1250
+  To Hit:    avg=+7  min=+5  max=+17
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=11  min=8  max=25
@@ -519,27 +519,27 @@ LEVEL 17
   BEST:
     Vitality: Tanker Archer (276)
     Health:   Jack of all Trades (88)
-    Mana:     Fire Mage (223)
+    Mana:     Fire Mage (205)
     AC:       Tanker (48)
     Feats:    Jack of all Trades (5)
     Spells:   Jack of all Trades (7)
-    Dmg:      Nova Mage (326)
-    Dmg/5R:   Solar Mage (923)
-    Dmg/10R:  Solar Mage (1299)
-    To Hit:   Fire Mage (+18)
+    Dmg:      Nova Mage (318)
+    Dmg/5R:   Solar Mage (874)
+    Dmg/10R:  Solar Mage (1250)
+    To Hit:   Earth Mage (+17)
 
 LEVEL 18
 ----------------------------------------
-  Vitality:  avg=102  min=66  max=292
+  Vitality:  avg=110  min=66  max=292
   Health:    avg=76  min=66  max=93
-  Mana:      avg=163  min=28  max=235
+  Mana:      avg=155  min=28  max=216
   AC:        avg=14  min=10  max=48
   Feats:     avg=3  min=0  max=6
   Spells:    avg=5  min=0  max=8
-  Dmg/Turn:  avg=73  min=0  max=334
-  Dmg/5R:    avg=290  min=0  max=947
-  Dmg/10R:   avg=527  min=0  max=1318
-  To Hit:    avg=+8  min=+6  max=+20
+  Dmg/Turn:  avg=76  min=0  max=410
+  Dmg/5R:    avg=284  min=0  max=947
+  Dmg/10R:   avg=532  min=0  max=1394
+  To Hit:    avg=+9  min=+6  max=+21
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=12  min=8  max=25
@@ -550,27 +550,27 @@ LEVEL 18
   BEST:
     Vitality: Tanker Archer (292)
     Health:   Jack of all Trades (93)
-    Mana:     Fire Mage (235)
+    Mana:     Fire Mage (216)
     AC:       Tanker (48)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (8)
-    Dmg:      Nova Mage (334)
+    Dmg:      Bloodfire Mage (410)
     Dmg/5R:   Solar Mage (947)
-    Dmg/10R:  Solar Mage (1318)
-    To Hit:   Fire Mage (+20)
+    Dmg/10R:  Solar Mage (1394)
+    To Hit:   Fire Mage (+21)
 
 LEVEL 19
 ----------------------------------------
-  Vitality:  avg=108  min=70  max=307
+  Vitality:  avg=117  min=70  max=307
   Health:    avg=81  min=70  max=98
-  Mana:      avg=173  min=30  max=248
+  Mana:      avg=164  min=30  max=228
   AC:        avg=14  min=10  max=48
   Feats:     avg=3  min=0  max=6
   Spells:    avg=5  min=0  max=8
-  Dmg/Turn:  avg=73  min=0  max=334
-  Dmg/5R:    avg=301  min=0  max=1053
-  Dmg/10R:   avg=546  min=0  max=1452
-  To Hit:    avg=+8  min=+6  max=+20
+  Dmg/Turn:  avg=76  min=0  max=410
+  Dmg/5R:    avg=284  min=0  max=947
+  Dmg/10R:   avg=530  min=0  max=1394
+  To Hit:    avg=+9  min=+6  max=+21
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=12  min=8  max=25
@@ -581,27 +581,27 @@ LEVEL 19
   BEST:
     Vitality: Tanker Archer (307)
     Health:   Jack of all Trades (98)
-    Mana:     Fire Mage (248)
+    Mana:     Fire Mage (228)
     AC:       Tanker (48)
     Feats:    Jack of all Trades (6)
     Spells:   Jack of all Trades (8)
-    Dmg:      Nova Mage (334)
-    Dmg/5R:   Solar Mage (1053)
-    Dmg/10R:  Solar Mage (1452)
-    To Hit:   Fire Mage (+20)
+    Dmg:      Bloodfire Mage (410)
+    Dmg/5R:   Solar Mage (947)
+    Dmg/10R:  Solar Mage (1394)
+    To Hit:   Fire Mage (+21)
 
 LEVEL 20
 ----------------------------------------
   Vitality:  avg=113  min=73  max=323
   Health:    avg=84  min=73  max=103
-  Mana:      avg=181  min=31  max=260
+  Mana:      avg=180  min=31  max=260
   AC:        avg=14  min=10  max=48
   Feats:     avg=3  min=0  max=6
   Spells:    avg=5  min=0  max=8
-  Dmg/Turn:  avg=74  min=0  max=334
-  Dmg/5R:    avg=300  min=0  max=1053
-  Dmg/10R:   avg=550  min=0  max=1423
-  To Hit:    avg=+8  min=+6  max=+20
+  Dmg/Turn:  avg=73  min=0  max=334
+  Dmg/5R:    avg=293  min=0  max=1053
+  Dmg/10R:   avg=542  min=0  max=1469
+  To Hit:    avg=+9  min=+6  max=+20
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
   CON:       avg=12  min=8  max=25
@@ -618,20 +618,20 @@ LEVEL 20
     Spells:   Jack of all Trades (8)
     Dmg:      Nova Mage (334)
     Dmg/5R:   Solar Mage (1053)
-    Dmg/10R:  Solar Mage (1423)
+    Dmg/10R:  Solar Mage (1469)
     To Hit:   Fire Mage (+20)
 
 LEVEL 21
 ----------------------------------------
   Vitality:  avg=119  min=77  max=338
   Health:    avg=89  min=77  max=108
-  Mana:      avg=190  min=33  max=273
+  Mana:      avg=189  min=33  max=273
   AC:        avg=14  min=10  max=48
   Feats:     avg=3  min=0  max=7
   Spells:    avg=6  min=0  max=9
-  Dmg/Turn:  avg=83  min=0  max=420
-  Dmg/5R:    avg=304  min=0  max=1053
-  Dmg/10R:   avg=557  min=0  max=1515
+  Dmg/Turn:  avg=82  min=0  max=420
+  Dmg/5R:    avg=296  min=0  max=1053
+  Dmg/10R:   avg=541  min=0  max=1515
   To Hit:    avg=+10  min=+7  max=+22
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
@@ -656,13 +656,13 @@ LEVEL 22
 ----------------------------------------
   Vitality:  avg=124  min=80  max=354
   Health:    avg=93  min=80  max=113
-  Mana:      avg=198  min=34  max=285
+  Mana:      avg=197  min=34  max=285
   AC:        avg=14  min=10  max=48
   Feats:     avg=3  min=0  max=7
   Spells:    avg=6  min=0  max=9
-  Dmg/Turn:  avg=83  min=0  max=420
-  Dmg/5R:    avg=309  min=0  max=1053
-  Dmg/10R:   avg=557  min=0  max=1486
+  Dmg/Turn:  avg=84  min=0  max=420
+  Dmg/5R:    avg=304  min=0  max=1053
+  Dmg/10R:   avg=547  min=0  max=1487
   To Hit:    avg=+10  min=+7  max=+22
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
@@ -680,7 +680,7 @@ LEVEL 22
     Spells:   Jack of all Trades (9)
     Dmg:      Bloodfire Mage (420)
     Dmg/5R:   Solar Mage (1053)
-    Dmg/10R:  Solar Mage (1486)
+    Dmg/10R:  Solar Mage (1487)
     To Hit:   Fire Mage (+22)
 
 LEVEL 23
@@ -691,9 +691,9 @@ LEVEL 23
   AC:        avg=14  min=10  max=48
   Feats:     avg=3  min=0  max=7
   Spells:    avg=6  min=0  max=9
-  Dmg/Turn:  avg=83  min=0  max=420
-  Dmg/5R:    avg=316  min=0  max=1053
-  Dmg/10R:   avg=575  min=0  max=1620
+  Dmg/Turn:  avg=84  min=0  max=420
+  Dmg/5R:    avg=311  min=0  max=1053
+  Dmg/10R:   avg=565  min=0  max=1620
   To Hit:    avg=+10  min=+7  max=+22
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=24
@@ -718,13 +718,13 @@ LEVEL 24
 ----------------------------------------
   Vitality:  avg=140  min=87  max=485
   Health:    avg=101  min=87  max=123
-  Mana:      avg=216  min=37  max=310
+  Mana:      avg=215  min=37  max=310
   AC:        avg=14  min=10  max=49
   Feats:     avg=4  min=0  max=8
   Spells:    avg=7  min=0  max=10
-  Dmg/Turn:  avg=133  min=0  max=840
-  Dmg/5R:    avg=418  min=0  max=1055
-  Dmg/10R:   avg=790  min=0  max=1725
+  Dmg/Turn:  avg=136  min=0  max=840
+  Dmg/5R:    avg=419  min=0  max=1055
+  Dmg/10R:   avg=793  min=0  max=1808
   To Hit:    avg=+11  min=+8  max=+23
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=25
@@ -742,20 +742,20 @@ LEVEL 24
     Spells:   Jack of all Trades (10)
     Dmg:      Metal Mage (840)
     Dmg/5R:   Magma Mage (1055)
-    Dmg/10R:  Magma Mage (1725)
+    Dmg/10R:  Miasma Mage (1808)
     To Hit:   Fire Mage (+23)
 
 LEVEL 25
 ----------------------------------------
   Vitality:  avg=146  min=91  max=504
   Health:    avg=105  min=91  max=128
-  Mana:      avg=225  min=39  max=323
+  Mana:      avg=224  min=39  max=323
   AC:        avg=14  min=10  max=49
   Feats:     avg=4  min=0  max=8
   Spells:    avg=7  min=0  max=10
-  Dmg/Turn:  avg=133  min=0  max=840
-  Dmg/5R:    avg=413  min=0  max=1074
-  Dmg/10R:   avg=786  min=0  max=1744
+  Dmg/Turn:  avg=136  min=0  max=840
+  Dmg/5R:    avg=411  min=0  max=1074
+  Dmg/10R:   avg=781  min=0  max=1875
   To Hit:    avg=+11  min=+8  max=+23
   STR:       avg=10  min=8  max=23
   DEX:       avg=10  min=8  max=25
@@ -773,20 +773,20 @@ LEVEL 25
     Spells:   Jack of all Trades (10)
     Dmg:      Metal Mage (840)
     Dmg/5R:   Magma Mage (1074)
-    Dmg/10R:  Magma Mage (1744)
+    Dmg/10R:  Miasma Mage (1875)
     To Hit:   Fire Mage (+23)
 
 LEVEL 26
 ----------------------------------------
-  Vitality:  avg=152  min=94  max=551
+  Vitality:  avg=153  min=94  max=551
   Health:    avg=109  min=94  max=133
-  Mana:      avg=239  min=40  max=387
+  Mana:      avg=232  min=40  max=335
   AC:        avg=14  min=10  max=51
   Feats:     avg=4  min=0  max=8
   Spells:    avg=7  min=0  max=10
-  Dmg/Turn:  avg=143  min=0  max=840
-  Dmg/5R:    avg=448  min=0  max=1140
-  Dmg/10R:   avg=810  min=0  max=2010
+  Dmg/Turn:  avg=164  min=0  max=2586
+  Dmg/5R:    avg=442  min=0  max=1074
+  Dmg/10R:   avg=809  min=0  max=1942
   To Hit:    avg=+11  min=+8  max=+24
   STR:       avg=10  min=8  max=25
   DEX:       avg=10  min=8  max=25
@@ -798,26 +798,26 @@ LEVEL 26
   BEST:
     Vitality: Tanker Archer (551)
     Health:   Jack of all Trades (133)
-    Mana:     Vacuum Mage (387)
+    Mana:     Fire Mage (335)
     AC:       Tanker (51)
     Feats:    Jack of all Trades (8)
     Spells:   Jack of all Trades (10)
-    Dmg:      Metal Mage (840)
-    Dmg/5R:   Poison Mage (1140)
-    Dmg/10R:  Miasma Mage (2010)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Magma Mage (1074)
+    Dmg/10R:  Miasma Mage (1942)
     To Hit:   Fire Mage (+24)
 
 LEVEL 27
 ----------------------------------------
-  Vitality:  avg=158  min=98  max=571
+  Vitality:  avg=159  min=98  max=571
   Health:    avg=114  min=98  max=138
-  Mana:      avg=248  min=42  max=402
+  Mana:      avg=242  min=42  max=348
   AC:        avg=14  min=10  max=51
   Feats:     avg=4  min=0  max=9
   Spells:    avg=8  min=0  max=11
-  Dmg/Turn:  avg=137  min=0  max=864
-  Dmg/5R:    avg=469  min=0  max=1474
-  Dmg/10R:   avg=846  min=0  max=2143
+  Dmg/Turn:  avg=161  min=0  max=2586
+  Dmg/5R:    avg=463  min=0  max=1474
+  Dmg/10R:   avg=841  min=0  max=2143
   To Hit:    avg=+12  min=+9  max=+25
   STR:       avg=10  min=8  max=25
   DEX:       avg=10  min=8  max=25
@@ -829,26 +829,26 @@ LEVEL 27
   BEST:
     Vitality: Tanker Archer (571)
     Health:   Jack of all Trades (138)
-    Mana:     Vacuum Mage (402)
+    Mana:     Fire Mage (348)
     AC:       Tanker (51)
     Feats:    Jack of all Trades (9)
     Spells:   Jack of all Trades (11)
-    Dmg:      Metal Mage (864)
+    Dmg:      Atomic Mage (2586)
     Dmg/5R:   Solar Mage (1474)
     Dmg/10R:  Solar Mage (2143)
     To Hit:   Fire Mage (+25)
 
 LEVEL 28
 ----------------------------------------
-  Vitality:  avg=164  min=101  max=592
+  Vitality:  avg=165  min=101  max=592
   Health:    avg=117  min=101  max=143
-  Mana:      avg=268  min=43  max=445
+  Mana:      avg=250  min=43  max=360
   AC:        avg=14  min=10  max=51
   Feats:     avg=4  min=0  max=9
   Spells:    avg=8  min=0  max=11
-  Dmg/Turn:  avg=142  min=0  max=876
-  Dmg/5R:    avg=497  min=0  max=1638
-  Dmg/10R:   avg=901  min=0  max=2328
+  Dmg/Turn:  avg=161  min=0  max=2586
+  Dmg/5R:    avg=472  min=0  max=1579
+  Dmg/10R:   avg=860  min=0  max=2249
   To Hit:    avg=+12  min=+9  max=+25
   STR:       avg=10  min=8  max=25
   DEX:       avg=10  min=8  max=25
@@ -860,26 +860,26 @@ LEVEL 28
   BEST:
     Vitality: Tanker Archer (592)
     Health:   Jack of all Trades (143)
-    Mana:     Vacuum Mage (445)
+    Mana:     Fire Mage (360)
     AC:       Tanker (51)
     Feats:    Jack of all Trades (9)
     Spells:   Jack of all Trades (11)
-    Dmg:      Metal Mage (876)
-    Dmg/5R:   Solar Mage (1638)
-    Dmg/10R:  Solar Mage (2328)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Solar Mage (1579)
+    Dmg/10R:  Solar Mage (2249)
     To Hit:   Fire Mage (+25)
 
 LEVEL 29
 ----------------------------------------
-  Vitality:  avg=170  min=105  max=612
+  Vitality:  avg=171  min=105  max=612
   Health:    avg=122  min=105  max=148
-  Mana:      avg=278  min=45  max=461
+  Mana:      avg=259  min=45  max=373
   AC:        avg=14  min=10  max=51
   Feats:     avg=4  min=0  max=9
   Spells:    avg=8  min=0  max=11
-  Dmg/Turn:  avg=142  min=0  max=876
-  Dmg/5R:    avg=498  min=0  max=1638
-  Dmg/10R:   avg=903  min=0  max=2250
+  Dmg/Turn:  avg=161  min=0  max=2586
+  Dmg/5R:    avg=467  min=0  max=1579
+  Dmg/10R:   avg=840  min=0  max=2249
   To Hit:    avg=+12  min=+9  max=+25
   STR:       avg=10  min=8  max=25
   DEX:       avg=10  min=8  max=25
@@ -891,26 +891,26 @@ LEVEL 29
   BEST:
     Vitality: Tanker Archer (612)
     Health:   Jack of all Trades (148)
-    Mana:     Vacuum Mage (461)
+    Mana:     Fire Mage (373)
     AC:       Tanker (51)
     Feats:    Jack of all Trades (9)
     Spells:   Jack of all Trades (11)
-    Dmg:      Metal Mage (876)
-    Dmg/5R:   Solar Mage (1638)
-    Dmg/10R:  Solar Mage (2250)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Solar Mage (1579)
+    Dmg/10R:  Solar Mage (2249)
     To Hit:   Fire Mage (+25)
 
 LEVEL 30
 ----------------------------------------
-  Vitality:  avg=175  min=108  max=664
+  Vitality:  avg=176  min=108  max=664
   Health:    avg=125  min=108  max=153
-  Mana:      avg=287  min=46  max=476
+  Mana:      avg=267  min=46  max=385
   AC:        avg=14  min=10  max=51
   Feats:     avg=5  min=0  max=10
   Spells:    avg=9  min=0  max=12
-  Dmg/Turn:  avg=183  min=0  max=2616
-  Dmg/5R:    avg=533  min=0  max=1435
-  Dmg/10R:   avg=978  min=0  max=2310
+  Dmg/Turn:  avg=172  min=0  max=2586
+  Dmg/5R:    avg=462  min=0  max=1239
+  Dmg/10R:   avg=832  min=0  max=2010
   To Hit:    avg=+13  min=+10  max=+26
   STR:       avg=10  min=8  max=25
   DEX:       avg=10  min=8  max=25
@@ -922,12 +922,5282 @@ LEVEL 30
   BEST:
     Vitality: Tanker Archer (664)
     Health:   Jack of all Trades (153)
-    Mana:     Vacuum Mage (476)
+    Mana:     Fire Mage (385)
     AC:       Tanker (51)
     Feats:    Jack of all Trades (10)
     Spells:   Jack of all Trades (12)
-    Dmg:      Atomic Mage (2616)
-    Dmg/5R:   Solar Mage (1435)
-    Dmg/10R:  Miasma Mage (2310)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Magma Mage (1239)
+    Dmg/10R:  Miasma Mage (2010)
     To Hit:   Fire Mage (+26)
+
+LEVEL 31
+----------------------------------------
+  Vitality:  avg=182  min=112  max=685
+  Health:    avg=130  min=112  max=158
+  Mana:      avg=276  min=48  max=398
+  AC:        avg=14  min=10  max=51
+  Feats:     avg=5  min=0  max=10
+  Spells:    avg=9  min=0  max=12
+  Dmg/Turn:  avg=172  min=0  max=2586
+  Dmg/5R:    avg=463  min=0  max=1239
+  Dmg/10R:   avg=831  min=0  max=2010
+  To Hit:    avg=+13  min=+10  max=+26
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (685)
+    Health:   Jack of all Trades (158)
+    Mana:     Fire Mage (398)
+    AC:       Tanker (51)
+    Feats:    Jack of all Trades (10)
+    Spells:   Jack of all Trades (12)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Magma Mage (1239)
+    Dmg/10R:  Miasma Mage (2010)
+    To Hit:   Fire Mage (+26)
+
+LEVEL 32
+----------------------------------------
+  Vitality:  avg=188  min=115  max=707
+  Health:    avg=134  min=115  max=163
+  Mana:      avg=284  min=49  max=410
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=5  min=0  max=10
+  Spells:    avg=9  min=0  max=12
+  Dmg/Turn:  avg=174  min=0  max=2586
+  Dmg/5R:    avg=485  min=0  max=1239
+  Dmg/10R:   avg=886  min=0  max=2010
+  To Hit:    avg=+13  min=+10  max=+26
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=12  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (707)
+    Health:   Jack of all Trades (163)
+    Mana:     Fire Mage (410)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (10)
+    Spells:   Jack of all Trades (12)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Magma Mage (1239)
+    Dmg/10R:  Miasma Mage (2010)
+    To Hit:   Fire Mage (+26)
+
+LEVEL 33
+----------------------------------------
+  Vitality:  avg=208  min=119  max=728
+  Health:    avg=138  min=119  max=168
+  Mana:      avg=294  min=51  max=423
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=5  min=0  max=11
+  Spells:    avg=10  min=0  max=13
+  Dmg/Turn:  avg=174  min=0  max=2586
+  Dmg/5R:    avg=480  min=0  max=1291
+  Dmg/10R:   avg=872  min=0  max=2010
+  To Hit:    avg=+14  min=+11  max=+27
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (728)
+    Health:   Jack of all Trades (168)
+    Mana:     Fire Mage (423)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (11)
+    Spells:   Jack of all Trades (13)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Solar Mage (1291)
+    Dmg/10R:  Miasma Mage (2010)
+    To Hit:   Fire Mage (+27)
+
+LEVEL 34
+----------------------------------------
+  Vitality:  avg=214  min=122  max=750
+  Health:    avg=142  min=122  max=173
+  Mana:      avg=309  min=52  max=503
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=5  min=0  max=11
+  Spells:    avg=10  min=0  max=13
+  Dmg/Turn:  avg=176  min=0  max=2586
+  Dmg/5R:    avg=480  min=0  max=1242
+  Dmg/10R:   avg=864  min=0  max=2023
+  To Hit:    avg=+15  min=+11  max=+27
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (750)
+    Health:   Jack of all Trades (173)
+    Mana:     Vacuum Mage (503)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (11)
+    Spells:   Jack of all Trades (13)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Void Mage (1242)
+    Dmg/10R:  Magma Mage (2023)
+    To Hit:   Fire Mage (+27)
+
+LEVEL 35
+----------------------------------------
+  Vitality:  avg=221  min=126  max=771
+  Health:    avg=146  min=126  max=178
+  Mana:      avg=318  min=54  max=518
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=5  min=0  max=11
+  Spells:    avg=10  min=0  max=13
+  Dmg/Turn:  avg=176  min=0  max=2586
+  Dmg/5R:    avg=492  min=0  max=1262
+  Dmg/10R:   avg=881  min=0  max=2010
+  To Hit:    avg=+15  min=+11  max=+27
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=10  min=8  max=25
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=17
+  CHA:       avg=9  min=8  max=14
+
+  BEST:
+    Vitality: Tanker Archer (771)
+    Health:   Jack of all Trades (178)
+    Mana:     Vacuum Mage (518)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (11)
+    Spells:   Jack of all Trades (13)
+    Dmg:      Atomic Mage (2586)
+    Dmg/5R:   Solar Mage (1262)
+    Dmg/10R:  Miasma Mage (2010)
+    To Hit:   Fire Mage (+27)
+
+LEVEL 36
+----------------------------------------
+  Vitality:  avg=226  min=129  max=793
+  Health:    avg=150  min=129  max=183
+  Mana:      avg=342  min=55  max=569
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=6  min=0  max=12
+  Spells:    avg=11  min=0  max=14
+  Dmg/Turn:  avg=182  min=0  max=2598
+  Dmg/5R:    avg=533  min=0  max=1355
+  Dmg/10R:   avg=956  min=0  max=2130
+  To Hit:    avg=+16  min=+12  max=+28
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (793)
+    Health:   Jack of all Trades (183)
+    Mana:     Vacuum Mage (569)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (12)
+    Spells:   Jack of all Trades (14)
+    Dmg:      Atomic Mage (2598)
+    Dmg/5R:   Solar Mage (1355)
+    Dmg/10R:  Miasma Mage (2130)
+    To Hit:   Fire Mage (+28)
+
+LEVEL 37
+----------------------------------------
+  Vitality:  avg=233  min=133  max=814
+  Health:    avg=155  min=133  max=188
+  Mana:      avg=352  min=57  max=585
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=6  min=0  max=12
+  Spells:    avg=11  min=0  max=14
+  Dmg/Turn:  avg=182  min=0  max=2598
+  Dmg/5R:    avg=525  min=0  max=1319
+  Dmg/10R:   avg=930  min=0  max=2251
+  To Hit:    avg=+16  min=+12  max=+28
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (814)
+    Health:   Jack of all Trades (188)
+    Mana:     Vacuum Mage (585)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (12)
+    Spells:   Jack of all Trades (14)
+    Dmg:      Atomic Mage (2598)
+    Dmg/5R:   Solar Mage (1319)
+    Dmg/10R:  Magma Mage (2251)
+    To Hit:   Fire Mage (+28)
+
+LEVEL 38
+----------------------------------------
+  Vitality:  avg=238  min=136  max=836
+  Health:    avg=158  min=136  max=193
+  Mana:      avg=361  min=58  max=600
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=6  min=0  max=12
+  Spells:    avg=11  min=0  max=14
+  Dmg/Turn:  avg=188  min=0  max=2616
+  Dmg/5R:    avg=550  min=0  max=1382
+  Dmg/10R:   avg=1002  min=0  max=2337
+  To Hit:    avg=+16  min=+12  max=+28
+  STR:       avg=10  min=8  max=25
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=21
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (836)
+    Health:   Jack of all Trades (193)
+    Mana:     Vacuum Mage (600)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (12)
+    Spells:   Jack of all Trades (14)
+    Dmg:      Atomic Mage (2616)
+    Dmg/5R:   Magma Mage (1382)
+    Dmg/10R:  Magma Mage (2337)
+    To Hit:   Fire Mage (+28)
+
+LEVEL 39
+----------------------------------------
+  Vitality:  avg=247  min=140  max=857
+  Health:    avg=163  min=140  max=198
+  Mana:      avg=374  min=60  max=616
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=6  min=0  max=13
+  Spells:    avg=11  min=0  max=15
+  Dmg/Turn:  avg=189  min=0  max=2616
+  Dmg/5R:    avg=566  min=0  max=1576
+  Dmg/10R:   avg=1011  min=0  max=2388
+  To Hit:    avg=+17  min=+13  max=+29
+  STR:       avg=10  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (857)
+    Health:   Jack of all Trades (198)
+    Mana:     Vacuum Mage (616)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (13)
+    Spells:   Jack of all Trades (15)
+    Dmg:      Atomic Mage (2616)
+    Dmg/5R:   Void Mage (1576)
+    Dmg/10R:  Void Mage (2388)
+    To Hit:   Fire Mage (+29)
+
+LEVEL 40
+----------------------------------------
+  Vitality:  avg=253  min=143  max=879
+  Health:    avg=166  min=143  max=203
+  Mana:      avg=383  min=61  max=631
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=6  min=0  max=13
+  Spells:    avg=11  min=0  max=15
+  Dmg/Turn:  avg=260  min=0  max=3512
+  Dmg/5R:    avg=748  min=0  max=1957
+  Dmg/10R:   avg=1375  min=0  max=3320
+  To Hit:    avg=+17  min=+13  max=+29
+  STR:       avg=10  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (879)
+    Health:   Jack of all Trades (203)
+    Mana:     Vacuum Mage (631)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (13)
+    Spells:   Jack of all Trades (15)
+    Dmg:      Atomic Mage (3512)
+    Dmg/5R:   Magma Mage (1957)
+    Dmg/10R:  Miasma Mage (3320)
+    To Hit:   Fire Mage (+29)
+
+LEVEL 41
+----------------------------------------
+  Vitality:  avg=259  min=147  max=900
+  Health:    avg=171  min=147  max=208
+  Mana:      avg=393  min=63  max=647
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=6  min=0  max=13
+  Spells:    avg=11  min=0  max=15
+  Dmg/Turn:  avg=260  min=0  max=3512
+  Dmg/5R:    avg=739  min=0  max=2028
+  Dmg/10R:   avg=1368  min=0  max=3320
+  To Hit:    avg=+17  min=+13  max=+29
+  STR:       avg=10  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (900)
+    Health:   Jack of all Trades (208)
+    Mana:     Vacuum Mage (647)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (13)
+    Spells:   Jack of all Trades (15)
+    Dmg:      Atomic Mage (3512)
+    Dmg/5R:   Solar Mage (2028)
+    Dmg/10R:  Miasma Mage (3320)
+    To Hit:   Fire Mage (+29)
+
+LEVEL 42
+----------------------------------------
+  Vitality:  avg=265  min=150  max=922
+  Health:    avg=175  min=150  max=213
+  Mana:      avg=403  min=64  max=662
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=7  min=0  max=14
+  Spells:    avg=12  min=0  max=16
+  Dmg/Turn:  avg=276  min=0  max=3536
+  Dmg/5R:    avg=783  min=0  max=2071
+  Dmg/10R:   avg=1424  min=0  max=3560
+  To Hit:    avg=+18  min=+14  max=+31
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (922)
+    Health:   Jack of all Trades (213)
+    Mana:     Vacuum Mage (662)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (14)
+    Spells:   Jack of all Trades (16)
+    Dmg:      Atomic Mage (3536)
+    Dmg/5R:   Magma Mage (2071)
+    Dmg/10R:  Miasma Mage (3560)
+    To Hit:   Fire Mage (+31)
+
+LEVEL 43
+----------------------------------------
+  Vitality:  avg=271  min=154  max=943
+  Health:    avg=179  min=154  max=218
+  Mana:      avg=413  min=66  max=678
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=7  min=0  max=14
+  Spells:    avg=12  min=0  max=16
+  Dmg/Turn:  avg=276  min=0  max=3536
+  Dmg/5R:    avg=805  min=0  max=2071
+  Dmg/10R:   avg=1496  min=0  max=3560
+  To Hit:    avg=+18  min=+14  max=+31
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (943)
+    Health:   Jack of all Trades (218)
+    Mana:     Vacuum Mage (678)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (14)
+    Spells:   Jack of all Trades (16)
+    Dmg:      Atomic Mage (3536)
+    Dmg/5R:   Magma Mage (2071)
+    Dmg/10R:  Miasma Mage (3560)
+    To Hit:   Fire Mage (+31)
+
+LEVEL 44
+----------------------------------------
+  Vitality:  avg=277  min=157  max=965
+  Health:    avg=183  min=157  max=223
+  Mana:      avg=422  min=67  max=693
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=7  min=0  max=14
+  Spells:    avg=12  min=0  max=16
+  Dmg/Turn:  avg=284  min=0  max=3560
+  Dmg/5R:    avg=847  min=0  max=2239
+  Dmg/10R:   avg=1556  min=0  max=3800
+  To Hit:    avg=+18  min=+14  max=+31
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=28
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (965)
+    Health:   Jack of all Trades (223)
+    Mana:     Vacuum Mage (693)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (14)
+    Spells:   Jack of all Trades (16)
+    Dmg:      Atomic Mage (3560)
+    Dmg/5R:   Solar Mage (2239)
+    Dmg/10R:  Miasma Mage (3800)
+    To Hit:   Fire Mage (+31)
+
+LEVEL 45
+----------------------------------------
+  Vitality:  avg=288  min=161  max=986
+  Health:    avg=187  min=161  max=228
+  Mana:      avg=433  min=69  max=709
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=7  min=0  max=15
+  Spells:    avg=13  min=0  max=17
+  Dmg/Turn:  avg=286  min=0  max=3560
+  Dmg/5R:    avg=820  min=0  max=2185
+  Dmg/10R:   avg=1488  min=0  max=3800
+  To Hit:    avg=+19  min=+15  max=+32
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=29
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (986)
+    Health:   Jack of all Trades (228)
+    Mana:     Vacuum Mage (709)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (15)
+    Spells:   Jack of all Trades (17)
+    Dmg:      Atomic Mage (3560)
+    Dmg/5R:   Magma Mage (2185)
+    Dmg/10R:  Miasma Mage (3800)
+    To Hit:   Fire Mage (+32)
+
+LEVEL 46
+----------------------------------------
+  Vitality:  avg=294  min=164  max=1008
+  Health:    avg=191  min=164  max=233
+  Mana:      avg=442  min=70  max=724
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=7  min=0  max=15
+  Spells:    avg=13  min=0  max=17
+  Dmg/Turn:  avg=294  min=0  max=3584
+  Dmg/5R:    avg=872  min=0  max=2299
+  Dmg/10R:   avg=1573  min=0  max=4040
+  To Hit:    avg=+19  min=+15  max=+32
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=29
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1008)
+    Health:   Jack of all Trades (233)
+    Mana:     Vacuum Mage (724)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (15)
+    Spells:   Jack of all Trades (17)
+    Dmg:      Atomic Mage (3584)
+    Dmg/5R:   Magma Mage (2299)
+    Dmg/10R:  Miasma Mage (4040)
+    To Hit:   Fire Mage (+32)
+
+LEVEL 47
+----------------------------------------
+  Vitality:  avg=301  min=168  max=1029
+  Health:    avg=195  min=168  max=238
+  Mana:      avg=452  min=72  max=740
+  AC:        avg=14  min=10  max=54
+  Feats:     avg=7  min=0  max=15
+  Spells:    avg=13  min=0  max=17
+  Dmg/Turn:  avg=294  min=0  max=3584
+  Dmg/5R:    avg=865  min=0  max=2299
+  Dmg/10R:   avg=1574  min=0  max=4040
+  To Hit:    avg=+19  min=+15  max=+32
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=26
+  CON:       avg=13  min=8  max=29
+  WIS:       avg=17  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1029)
+    Health:   Jack of all Trades (238)
+    Mana:     Vacuum Mage (740)
+    AC:       Tanker (54)
+    Feats:    Jack of all Trades (15)
+    Spells:   Jack of all Trades (17)
+    Dmg:      Atomic Mage (3584)
+    Dmg/5R:   Magma Mage (2299)
+    Dmg/10R:  Miasma Mage (4040)
+    To Hit:   Fire Mage (+32)
+
+LEVEL 48
+----------------------------------------
+  Vitality:  avg=328  min=219  max=1051
+  Health:    avg=199  min=171  max=243
+  Mana:      avg=474  min=73  max=804
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=8  min=0  max=16
+  Spells:    avg=14  min=0  max=18
+  Dmg/Turn:  avg=303  min=0  max=3608
+  Dmg/5R:    avg=918  min=0  max=2413
+  Dmg/10R:   avg=1719  min=0  max=4280
+  To Hit:    avg=+20  min=+16  max=+33
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=29
+  WIS:       avg=18  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1051)
+    Health:   Jack of all Trades (243)
+    Mana:     Vacuum Mage (804)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (16)
+    Spells:   Jack of all Trades (18)
+    Dmg:      Atomic Mage (3608)
+    Dmg/5R:   Magma Mage (2413)
+    Dmg/10R:  Miasma Mage (4280)
+    To Hit:   Fire Mage (+33)
+
+LEVEL 49
+----------------------------------------
+  Vitality:  avg=335  min=224  max=1072
+  Health:    avg=204  min=175  max=248
+  Mana:      avg=485  min=75  max=821
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=8  min=0  max=16
+  Spells:    avg=14  min=0  max=18
+  Dmg/Turn:  avg=303  min=0  max=3608
+  Dmg/5R:    avg=943  min=0  max=2525
+  Dmg/10R:   avg=1736  min=0  max=4280
+  To Hit:    avg=+20  min=+16  max=+33
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=29
+  WIS:       avg=18  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1072)
+    Health:   Jack of all Trades (248)
+    Mana:     Vacuum Mage (821)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (16)
+    Spells:   Jack of all Trades (18)
+    Dmg:      Atomic Mage (3608)
+    Dmg/5R:   Void Mage (2525)
+    Dmg/10R:  Magma Mage (4280)
+    To Hit:   Fire Mage (+33)
+
+LEVEL 50
+----------------------------------------
+  Vitality:  avg=343  min=228  max=1145
+  Health:    avg=207  min=178  max=253
+  Mana:      avg=494  min=76  max=837
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=8  min=0  max=16
+  Spells:    avg=14  min=0  max=18
+  Dmg/Turn:  avg=303  min=0  max=3608
+  Dmg/5R:    avg=934  min=0  max=2463
+  Dmg/10R:   avg=1712  min=0  max=4280
+  To Hit:    avg=+20  min=+16  max=+33
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=22
+  INT:       avg=14  min=8  max=18
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1145)
+    Health:   Jack of all Trades (253)
+    Mana:     Vacuum Mage (837)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (16)
+    Spells:   Jack of all Trades (18)
+    Dmg:      Atomic Mage (3608)
+    Dmg/5R:   Corruption Mage (2463)
+    Dmg/10R:  Miasma Mage (4280)
+    To Hit:   Fire Mage (+33)
+
+LEVEL 51
+----------------------------------------
+  Vitality:  avg=351  min=233  max=1167
+  Health:    avg=212  min=182  max=258
+  Mana:      avg=505  min=78  max=854
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=8  min=0  max=17
+  Spells:    avg=15  min=0  max=19
+  Dmg/Turn:  avg=311  min=0  max=3608
+  Dmg/5R:    avg=954  min=0  max=2491
+  Dmg/10R:   avg=1745  min=0  max=4401
+  To Hit:    avg=+21  min=+17  max=+34
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=22
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1167)
+    Health:   Jack of all Trades (258)
+    Mana:     Vacuum Mage (854)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (17)
+    Spells:   Jack of all Trades (19)
+    Dmg:      Atomic Mage (3608)
+    Dmg/5R:   Solar Mage (2491)
+    Dmg/10R:  Magma Mage (4401)
+    To Hit:   Fire Mage (+34)
+
+LEVEL 52
+----------------------------------------
+  Vitality:  avg=357  min=237  max=1190
+  Health:    avg=216  min=185  max=263
+  Mana:      avg=600  min=79  max=1082
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=8  min=0  max=17
+  Spells:    avg=15  min=0  max=19
+  Dmg/Turn:  avg=317  min=0  max=3624
+  Dmg/5R:    avg=1044  min=0  max=3021
+  Dmg/10R:   avg=1826  min=0  max=4978
+  To Hit:    avg=+21  min=+17  max=+34
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=22
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1190)
+    Health:   Jack of all Trades (263)
+    Mana:     Vacuum Mage (1082)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (17)
+    Spells:   Jack of all Trades (19)
+    Dmg:      Atomic Mage (3624)
+    Dmg/5R:   Solar Mage (3021)
+    Dmg/10R:  Magma Mage (4978)
+    To Hit:   Fire Mage (+34)
+
+LEVEL 53
+----------------------------------------
+  Vitality:  avg=364  min=242  max=1212
+  Health:    avg=220  min=189  max=268
+  Mana:      avg=612  min=81  max=1103
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=8  min=0  max=17
+  Spells:    avg=15  min=0  max=19
+  Dmg/Turn:  avg=317  min=0  max=3624
+  Dmg/5R:    avg=1055  min=0  max=2926
+  Dmg/10R:   avg=1873  min=0  max=4978
+  To Hit:    avg=+21  min=+17  max=+34
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=22
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=15
+
+  BEST:
+    Vitality: Tanker Archer (1212)
+    Health:   Jack of all Trades (268)
+    Mana:     Vacuum Mage (1103)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (17)
+    Spells:   Jack of all Trades (19)
+    Dmg:      Atomic Mage (3624)
+    Dmg/5R:   Poison Mage (2926)
+    Dmg/10R:  Magma Mage (4978)
+    To Hit:   Fire Mage (+34)
+
+LEVEL 54
+----------------------------------------
+  Vitality:  avg=384  min=246  max=1235
+  Health:    avg=224  min=192  max=273
+  Mana:      avg=623  min=82  max=1123
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=9  min=0  max=18
+  Spells:    avg=16  min=0  max=20
+  Dmg/Turn:  avg=312  min=0  max=3624
+  Dmg/5R:    avg=1078  min=0  max=3002
+  Dmg/10R:   avg=1840  min=0  max=4978
+  To Hit:    avg=+22  min=+18  max=+35
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1235)
+    Health:   Jack of all Trades (273)
+    Mana:     Vacuum Mage (1123)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (18)
+    Spells:   Jack of all Trades (20)
+    Dmg:      Atomic Mage (3624)
+    Dmg/5R:   Void Mage (3002)
+    Dmg/10R:  Magma Mage (4978)
+    To Hit:   Fire Mage (+35)
+
+LEVEL 55
+----------------------------------------
+  Vitality:  avg=391  min=251  max=1257
+  Health:    avg=228  min=196  max=278
+  Mana:      avg=635  min=84  max=1144
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=9  min=0  max=18
+  Spells:    avg=16  min=0  max=20
+  Dmg/Turn:  avg=312  min=0  max=3624
+  Dmg/5R:    avg=1069  min=0  max=3080
+  Dmg/10R:   avg=1887  min=0  max=4978
+  To Hit:    avg=+22  min=+18  max=+35
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1257)
+    Health:   Jack of all Trades (278)
+    Mana:     Vacuum Mage (1144)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (18)
+    Spells:   Jack of all Trades (20)
+    Dmg:      Atomic Mage (3624)
+    Dmg/5R:   Poison Mage (3080)
+    Dmg/10R:  Magma Mage (4978)
+    To Hit:   Fire Mage (+35)
+
+LEVEL 56
+----------------------------------------
+  Vitality:  avg=398  min=255  max=1280
+  Health:    avg=232  min=199  max=283
+  Mana:      avg=646  min=85  max=1164
+  AC:        avg=14  min=10  max=55
+  Feats:     avg=9  min=0  max=18
+  Spells:    avg=16  min=0  max=20
+  Dmg/Turn:  avg=388  min=0  max=4530
+  Dmg/5R:    avg=1198  min=0  max=3413
+  Dmg/10R:   avg=2130  min=0  max=5574
+  To Hit:    avg=+22  min=+18  max=+35
+  STR:       avg=11  min=8  max=26
+  DEX:       avg=11  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1280)
+    Health:   Jack of all Trades (283)
+    Mana:     Vacuum Mage (1164)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (18)
+    Spells:   Jack of all Trades (20)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Solar Mage (3413)
+    Dmg/10R:  Solar Mage (5574)
+    To Hit:   Fire Mage (+35)
+
+LEVEL 57
+----------------------------------------
+  Vitality:  avg=406  min=260  max=1302
+  Health:    avg=236  min=203  max=288
+  Mana:      avg=660  min=87  max=1185
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=9  min=0  max=19
+  Spells:    avg=16  min=0  max=21
+  Dmg/Turn:  avg=394  min=0  max=4530
+  Dmg/5R:    avg=1218  min=0  max=3446
+  Dmg/10R:   avg=2201  min=0  max=5608
+  To Hit:    avg=+23  min=+19  max=+36
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1302)
+    Health:   Jack of all Trades (288)
+    Mana:     Vacuum Mage (1185)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (19)
+    Spells:   Jack of all Trades (21)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Solar Mage (3446)
+    Dmg/10R:  Solar Mage (5608)
+    To Hit:   Fire Mage (+36)
+
+LEVEL 58
+----------------------------------------
+  Vitality:  avg=418  min=264  max=1325
+  Health:    avg=240  min=206  max=293
+  Mana:      avg=670  min=88  max=1205
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=9  min=0  max=19
+  Spells:    avg=16  min=0  max=21
+  Dmg/Turn:  avg=394  min=0  max=4530
+  Dmg/5R:    avg=1242  min=0  max=3595
+  Dmg/10R:   avg=2311  min=0  max=6032
+  To Hit:    avg=+23  min=+19  max=+37
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1325)
+    Health:   Jack of all Trades (293)
+    Mana:     Vacuum Mage (1205)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (19)
+    Spells:   Jack of all Trades (21)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Solar Mage (3595)
+    Dmg/10R:  Magma Mage (6032)
+    To Hit:   Fire Mage (+37)
+
+LEVEL 59
+----------------------------------------
+  Vitality:  avg=425  min=269  max=1347
+  Health:    avg=245  min=210  max=298
+  Mana:      avg=682  min=90  max=1226
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=9  min=0  max=19
+  Spells:    avg=16  min=0  max=21
+  Dmg/Turn:  avg=394  min=0  max=4530
+  Dmg/5R:    avg=1235  min=0  max=3489
+  Dmg/10R:   avg=2208  min=0  max=5724
+  To Hit:    avg=+23  min=+19  max=+37
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1347)
+    Health:   Jack of all Trades (298)
+    Mana:     Vacuum Mage (1226)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (19)
+    Spells:   Jack of all Trades (21)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Solar Mage (3489)
+    Dmg/10R:  Magma Mage (5724)
+    To Hit:   Fire Mage (+37)
+
+LEVEL 60
+----------------------------------------
+  Vitality:  avg=432  min=273  max=1370
+  Health:    avg=248  min=213  max=303
+  Mana:      avg=693  min=91  max=1246
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=10  min=0  max=20
+  Spells:    avg=17  min=0  max=22
+  Dmg/Turn:  avg=395  min=0  max=4530
+  Dmg/5R:    avg=1268  min=0  max=3235
+  Dmg/10R:   avg=2253  min=0  max=5724
+  To Hit:    avg=+24  min=+20  max=+38
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1370)
+    Health:   Jack of all Trades (303)
+    Mana:     Vacuum Mage (1246)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (20)
+    Spells:   Jack of all Trades (22)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3235)
+    Dmg/10R:  Magma Mage (5724)
+    To Hit:   Fire Mage (+38)
+
+LEVEL 61
+----------------------------------------
+  Vitality:  avg=440  min=278  max=1392
+  Health:    avg=253  min=217  max=308
+  Mana:      avg=705  min=93  max=1267
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=10  min=0  max=20
+  Spells:    avg=17  min=0  max=22
+  Dmg/Turn:  avg=395  min=0  max=4530
+  Dmg/5R:    avg=1259  min=0  max=3389
+  Dmg/10R:   avg=2285  min=0  max=5849
+  To Hit:    avg=+24  min=+20  max=+38
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1392)
+    Health:   Jack of all Trades (308)
+    Mana:     Vacuum Mage (1267)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (20)
+    Spells:   Jack of all Trades (22)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3389)
+    Dmg/10R:  Magma Mage (5849)
+    To Hit:   Fire Mage (+38)
+
+LEVEL 62
+----------------------------------------
+  Vitality:  avg=446  min=282  max=1415
+  Health:    avg=257  min=220  max=313
+  Mana:      avg=716  min=94  max=1287
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=10  min=0  max=20
+  Spells:    avg=17  min=0  max=22
+  Dmg/Turn:  avg=396  min=0  max=4530
+  Dmg/5R:    avg=1257  min=0  max=3389
+  Dmg/10R:   avg=2208  min=0  max=5973
+  To Hit:    avg=+24  min=+20  max=+38
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=27
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1415)
+    Health:   Jack of all Trades (313)
+    Mana:     Vacuum Mage (1287)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (20)
+    Spells:   Jack of all Trades (22)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3389)
+    Dmg/10R:  Magma Mage (5973)
+    To Hit:   Fire Mage (+38)
+
+LEVEL 63
+----------------------------------------
+  Vitality:  avg=456  min=287  max=1437
+  Health:    avg=261  min=224  max=318
+  Mana:      avg=729  min=96  max=1308
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=10  min=0  max=21
+  Spells:    avg=18  min=0  max=23
+  Dmg/Turn:  avg=396  min=0  max=4530
+  Dmg/5R:    avg=1302  min=0  max=3680
+  Dmg/10R:   avg=2322  min=0  max=6098
+  To Hit:    avg=+26  min=+21  max=+39
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1437)
+    Health:   Jack of all Trades (318)
+    Mana:     Vacuum Mage (1308)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (21)
+    Spells:   Jack of all Trades (23)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Solar Mage (3680)
+    Dmg/10R:  Magma Mage (6098)
+    To Hit:   Fire Mage (+39)
+
+LEVEL 64
+----------------------------------------
+  Vitality:  avg=463  min=291  max=1460
+  Health:    avg=265  min=227  max=323
+  Mana:      avg=739  min=97  max=1328
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=10  min=0  max=21
+  Spells:    avg=18  min=0  max=23
+  Dmg/Turn:  avg=397  min=0  max=4530
+  Dmg/5R:    avg=1300  min=0  max=3543
+  Dmg/10R:   avg=2311  min=0  max=6222
+  To Hit:    avg=+26  min=+21  max=+39
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1460)
+    Health:   Jack of all Trades (323)
+    Mana:     Vacuum Mage (1328)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (21)
+    Spells:   Jack of all Trades (23)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3543)
+    Dmg/10R:  Magma Mage (6222)
+    To Hit:   Fire Mage (+39)
+
+LEVEL 65
+----------------------------------------
+  Vitality:  avg=471  min=296  max=1482
+  Health:    avg=269  min=231  max=328
+  Mana:      avg=751  min=99  max=1349
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=10  min=0  max=21
+  Spells:    avg=18  min=0  max=23
+  Dmg/Turn:  avg=397  min=0  max=4530
+  Dmg/5R:    avg=1314  min=0  max=3543
+  Dmg/10R:   avg=2326  min=0  max=6222
+  To Hit:    avg=+26  min=+21  max=+39
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=14  min=8  max=31
+  WIS:       avg=18  min=8  max=23
+  INT:       avg=14  min=8  max=19
+  CHA:       avg=9  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1482)
+    Health:   Jack of all Trades (328)
+    Mana:     Vacuum Mage (1349)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (21)
+    Spells:   Jack of all Trades (23)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3543)
+    Dmg/10R:  Magma Mage (6222)
+    To Hit:   Fire Mage (+39)
+
+LEVEL 66
+----------------------------------------
+  Vitality:  avg=481  min=300  max=1572
+  Health:    avg=273  min=234  max=333
+  Mana:      avg=768  min=100  max=1369
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=11  min=0  max=22
+  Spells:    avg=19  min=0  max=24
+  Dmg/Turn:  avg=407  min=0  max=4530
+  Dmg/5R:    avg=1284  min=0  max=3752
+  Dmg/10R:   avg=2309  min=0  max=7505
+  To Hit:    avg=+27  min=+22  max=+40
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=18  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1572)
+    Health:   Jack of all Trades (333)
+    Mana:     Vacuum Mage (1369)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (22)
+    Spells:   Jack of all Trades (24)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Miasma Mage (3752)
+    Dmg/10R:  Miasma Mage (7505)
+    To Hit:   Fire Mage (+40)
+
+LEVEL 67
+----------------------------------------
+  Vitality:  avg=488  min=305  max=1595
+  Health:    avg=277  min=238  max=338
+  Mana:      avg=780  min=102  max=1390
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=11  min=0  max=22
+  Spells:    avg=19  min=0  max=24
+  Dmg/Turn:  avg=407  min=0  max=4530
+  Dmg/5R:    avg=1278  min=0  max=3752
+  Dmg/10R:   avg=2295  min=0  max=7505
+  To Hit:    avg=+27  min=+22  max=+40
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=18  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1595)
+    Health:   Jack of all Trades (338)
+    Mana:     Vacuum Mage (1390)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (22)
+    Spells:   Jack of all Trades (24)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Miasma Mage (3752)
+    Dmg/10R:  Miasma Mage (7505)
+    To Hit:   Fire Mage (+40)
+
+LEVEL 68
+----------------------------------------
+  Vitality:  avg=495  min=309  max=1619
+  Health:    avg=281  min=241  max=343
+  Mana:      avg=791  min=103  max=1410
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=11  min=0  max=22
+  Spells:    avg=19  min=0  max=24
+  Dmg/Turn:  avg=407  min=0  max=4530
+  Dmg/5R:    avg=1299  min=0  max=3752
+  Dmg/10R:   avg=2296  min=0  max=7505
+  To Hit:    avg=+27  min=+22  max=+40
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=18  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1619)
+    Health:   Jack of all Trades (343)
+    Mana:     Vacuum Mage (1410)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (22)
+    Spells:   Jack of all Trades (24)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Miasma Mage (3752)
+    Dmg/10R:  Miasma Mage (7505)
+    To Hit:   Fire Mage (+40)
+
+LEVEL 69
+----------------------------------------
+  Vitality:  avg=504  min=314  max=1642
+  Health:    avg=286  min=245  max=348
+  Mana:      avg=804  min=105  max=1431
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=11  min=0  max=23
+  Spells:    avg=20  min=0  max=25
+  Dmg/Turn:  avg=397  min=0  max=4530
+  Dmg/5R:    avg=1314  min=0  max=3851
+  Dmg/10R:   avg=2299  min=0  max=6222
+  To Hit:    avg=+28  min=+23  max=+41
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=18  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1642)
+    Health:   Jack of all Trades (348)
+    Mana:     Vacuum Mage (1431)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (23)
+    Spells:   Jack of all Trades (25)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3851)
+    Dmg/10R:  Magma Mage (6222)
+    To Hit:   Fire Mage (+41)
+
+LEVEL 70
+----------------------------------------
+  Vitality:  avg=512  min=318  max=1666
+  Health:    avg=289  min=248  max=353
+  Mana:      avg=816  min=106  max=1451
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=11  min=0  max=23
+  Spells:    avg=20  min=0  max=25
+  Dmg/Turn:  avg=397  min=0  max=4530
+  Dmg/5R:    avg=1350  min=0  max=4063
+  Dmg/10R:   avg=2372  min=0  max=6224
+  To Hit:    avg=+28  min=+23  max=+41
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=18  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1666)
+    Health:   Jack of all Trades (353)
+    Mana:     Vacuum Mage (1451)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (23)
+    Spells:   Jack of all Trades (25)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Solar Mage (4063)
+    Dmg/10R:  Solar Mage (6224)
+    To Hit:   Fire Mage (+41)
+
+LEVEL 71
+----------------------------------------
+  Vitality:  avg=519  min=323  max=1689
+  Health:    avg=294  min=252  max=358
+  Mana:      avg=828  min=108  max=1472
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=11  min=0  max=23
+  Spells:    avg=20  min=0  max=25
+  Dmg/Turn:  avg=397  min=0  max=4530
+  Dmg/5R:    avg=1322  min=0  max=3851
+  Dmg/10R:   avg=2304  min=0  max=6222
+  To Hit:    avg=+28  min=+23  max=+41
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=18  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=16
+
+  BEST:
+    Vitality: Tanker Archer (1689)
+    Health:   Jack of all Trades (358)
+    Mana:     Vacuum Mage (1472)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (23)
+    Spells:   Jack of all Trades (25)
+    Dmg:      Atomic Mage (4530)
+    Dmg/5R:   Poison Mage (3851)
+    Dmg/10R:  Magma Mage (6222)
+    To Hit:   Fire Mage (+41)
+
+LEVEL 72
+----------------------------------------
+  Vitality:  avg=535  min=327  max=1713
+  Health:    avg=297  min=255  max=363
+  Mana:      avg=840  min=109  max=1492
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=12  min=0  max=24
+  Spells:    avg=21  min=0  max=26
+  Dmg/Turn:  avg=487  min=0  max=5436
+  Dmg/5R:    avg=1415  min=0  max=4503
+  Dmg/10R:   avg=2585  min=0  max=8255
+  To Hit:    avg=+29  min=+24  max=+42
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1713)
+    Health:   Jack of all Trades (363)
+    Mana:     Vacuum Mage (1492)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (24)
+    Spells:   Jack of all Trades (26)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (8255)
+    To Hit:   Fire Mage (+42)
+
+LEVEL 73
+----------------------------------------
+  Vitality:  avg=542  min=332  max=1736
+  Health:    avg=302  min=259  max=368
+  Mana:      avg=852  min=111  max=1513
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=12  min=0  max=24
+  Spells:    avg=21  min=0  max=26
+  Dmg/Turn:  avg=487  min=0  max=5436
+  Dmg/5R:    avg=1510  min=0  max=4503
+  Dmg/10R:   avg=2739  min=0  max=8405
+  To Hit:    avg=+29  min=+24  max=+42
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1736)
+    Health:   Jack of all Trades (368)
+    Mana:     Vacuum Mage (1513)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (24)
+    Spells:   Jack of all Trades (26)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (8405)
+    To Hit:   Fire Mage (+42)
+
+LEVEL 74
+----------------------------------------
+  Vitality:  avg=549  min=336  max=1760
+  Health:    avg=306  min=262  max=373
+  Mana:      avg=863  min=112  max=1533
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=12  min=0  max=24
+  Spells:    avg=21  min=0  max=26
+  Dmg/Turn:  avg=488  min=0  max=5436
+  Dmg/5R:    avg=1514  min=0  max=4503
+  Dmg/10R:   avg=2733  min=0  max=8405
+  To Hit:    avg=+29  min=+24  max=+43
+  STR:       avg=11  min=8  max=27
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1760)
+    Health:   Jack of all Trades (373)
+    Mana:     Vacuum Mage (1533)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (24)
+    Spells:   Jack of all Trades (26)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (8405)
+    To Hit:   Fire Mage (+43)
+
+LEVEL 75
+----------------------------------------
+  Vitality:  avg=557  min=341  max=1783
+  Health:    avg=310  min=266  max=378
+  Mana:      avg=876  min=114  max=1554
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=12  min=0  max=25
+  Spells:    avg=22  min=0  max=27
+  Dmg/Turn:  avg=488  min=0  max=5436
+  Dmg/5R:    avg=1512  min=0  max=4621
+  Dmg/10R:   avg=2725  min=0  max=8555
+  To Hit:    avg=+30  min=+25  max=+44
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1783)
+    Health:   Jack of all Trades (378)
+    Mana:     Vacuum Mage (1554)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (25)
+    Spells:   Jack of all Trades (27)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Solar Mage (4621)
+    Dmg/10R:  Miasma Mage (8555)
+    To Hit:   Fire Mage (+44)
+
+LEVEL 76
+----------------------------------------
+  Vitality:  avg=564  min=345  max=1807
+  Health:    avg=314  min=269  max=383
+  Mana:      avg=887  min=115  max=1574
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=12  min=0  max=25
+  Spells:    avg=22  min=0  max=27
+  Dmg/Turn:  avg=488  min=0  max=5436
+  Dmg/5R:    avg=1479  min=0  max=4503
+  Dmg/10R:   avg=2669  min=0  max=8705
+  To Hit:    avg=+30  min=+25  max=+44
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1807)
+    Health:   Jack of all Trades (383)
+    Mana:     Vacuum Mage (1574)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (25)
+    Spells:   Jack of all Trades (27)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (8705)
+    To Hit:   Fire Mage (+44)
+
+LEVEL 77
+----------------------------------------
+  Vitality:  avg=572  min=350  max=1830
+  Health:    avg=318  min=273  max=388
+  Mana:      avg=899  min=117  max=1595
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=12  min=0  max=25
+  Spells:    avg=22  min=0  max=27
+  Dmg/Turn:  avg=488  min=0  max=5436
+  Dmg/5R:    avg=1529  min=0  max=4503
+  Dmg/10R:   avg=2709  min=0  max=8855
+  To Hit:    avg=+30  min=+25  max=+44
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=12  min=8  max=28
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1830)
+    Health:   Jack of all Trades (388)
+    Mana:     Vacuum Mage (1595)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (25)
+    Spells:   Jack of all Trades (27)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (8855)
+    To Hit:   Fire Mage (+44)
+
+LEVEL 78
+----------------------------------------
+  Vitality:  avg=581  min=354  max=1854
+  Health:    avg=322  min=276  max=393
+  Mana:      avg=912  min=118  max=1615
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=13  min=0  max=52
+  Spells:    avg=22  min=0  max=28
+  Dmg/Turn:  avg=489  min=0  max=5436
+  Dmg/5R:    avg=1539  min=0  max=4503
+  Dmg/10R:   avg=2721  min=0  max=8855
+  To Hit:    avg=+31  min=+26  max=+45
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1854)
+    Health:   Jack of all Trades (393)
+    Mana:     Vacuum Mage (1615)
+    AC:       Tanker (55)
+    Feats:    Archer (52)
+    Spells:   Jack of all Trades (28)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (8855)
+    To Hit:   Fire Mage (+45)
+
+LEVEL 79
+----------------------------------------
+  Vitality:  avg=589  min=359  max=1877
+  Health:    avg=327  min=280  max=398
+  Mana:      avg=924  min=120  max=1636
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=13  min=0  max=52
+  Spells:    avg=22  min=0  max=28
+  Dmg/Turn:  avg=489  min=0  max=5436
+  Dmg/5R:    avg=1519  min=0  max=4503
+  Dmg/10R:   avg=2725  min=0  max=9006
+  To Hit:    avg=+31  min=+26  max=+45
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1877)
+    Health:   Jack of all Trades (398)
+    Mana:     Vacuum Mage (1636)
+    AC:       Tanker (55)
+    Feats:    Archer (52)
+    Spells:   Jack of all Trades (28)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Fire Mage (+45)
+
+LEVEL 80
+----------------------------------------
+  Vitality:  avg=595  min=363  max=1901
+  Health:    avg=330  min=283  max=403
+  Mana:      avg=936  min=121  max=1656
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=13  min=0  max=52
+  Spells:    avg=22  min=0  max=28
+  Dmg/Turn:  avg=491  min=0  max=5436
+  Dmg/5R:    avg=1524  min=0  max=4503
+  Dmg/10R:   avg=2708  min=0  max=9006
+  To Hit:    avg=+31  min=+26  max=+45
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1901)
+    Health:   Jack of all Trades (403)
+    Mana:     Vacuum Mage (1656)
+    AC:       Tanker (55)
+    Feats:    Archer (52)
+    Spells:   Jack of all Trades (28)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Fire Mage (+45)
+
+LEVEL 81
+----------------------------------------
+  Vitality:  avg=603  min=368  max=1924
+  Health:    avg=335  min=287  max=408
+  Mana:      avg=948  min=123  max=1677
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=14  min=0  max=54
+  Spells:    avg=23  min=0  max=29
+  Dmg/Turn:  avg=490  min=0  max=5436
+  Dmg/5R:    avg=1528  min=0  max=4503
+  Dmg/10R:   avg=2747  min=0  max=9006
+  To Hit:    avg=+32  min=+27  max=+46
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=24
+  INT:       avg=15  min=8  max=20
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1924)
+    Health:   Jack of all Trades (408)
+    Mana:     Vacuum Mage (1677)
+    AC:       Tanker (55)
+    Feats:    Archer (54)
+    Spells:   Jack of all Trades (29)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Fire Mage (+46)
+
+LEVEL 82
+----------------------------------------
+  Vitality:  avg=610  min=372  max=1948
+  Health:    avg=338  min=290  max=413
+  Mana:      avg=960  min=124  max=1697
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=14  min=0  max=54
+  Spells:    avg=23  min=0  max=29
+  Dmg/Turn:  avg=490  min=0  max=5436
+  Dmg/5R:    avg=1563  min=0  max=4503
+  Dmg/10R:   avg=2790  min=0  max=9006
+  To Hit:    avg=+34  min=+27  max=+60
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=15  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1948)
+    Health:   Jack of all Trades (413)
+    Mana:     Vacuum Mage (1697)
+    AC:       Tanker (55)
+    Feats:    Archer (54)
+    Spells:   Jack of all Trades (29)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Poison Mage (+60)
+
+LEVEL 83
+----------------------------------------
+  Vitality:  avg=618  min=377  max=1971
+  Health:    avg=343  min=294  max=418
+  Mana:      avg=972  min=126  max=1718
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=14  min=0  max=54
+  Spells:    avg=23  min=0  max=29
+  Dmg/Turn:  avg=490  min=0  max=5436
+  Dmg/5R:    avg=1551  min=0  max=4621
+  Dmg/10R:   avg=2741  min=0  max=9006
+  To Hit:    avg=+34  min=+27  max=+60
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=32
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=15  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1971)
+    Health:   Jack of all Trades (418)
+    Mana:     Vacuum Mage (1718)
+    AC:       Tanker (55)
+    Feats:    Archer (54)
+    Spells:   Jack of all Trades (29)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Poison Mage (4621)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Poison Mage (+60)
+
+LEVEL 84
+----------------------------------------
+  Vitality:  avg=625  min=381  max=1995
+  Health:    avg=347  min=297  max=423
+  Mana:      avg=983  min=127  max=1738
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=14  min=0  max=56
+  Spells:    avg=24  min=0  max=30
+  Dmg/Turn:  avg=496  min=0  max=5436
+  Dmg/5R:    avg=1518  min=0  max=4621
+  Dmg/10R:   avg=2708  min=0  max=9006
+  To Hit:    avg=+35  min=+28  max=+61
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=15  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (1995)
+    Health:   Jack of all Trades (423)
+    Mana:     Vacuum Mage (1738)
+    AC:       Tanker (55)
+    Feats:    Archer (56)
+    Spells:   Jack of all Trades (30)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Poison Mage (4621)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Poison Mage (+61)
+
+LEVEL 85
+----------------------------------------
+  Vitality:  avg=633  min=386  max=2018
+  Health:    avg=351  min=301  max=428
+  Mana:      avg=995  min=129  max=1759
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=14  min=0  max=56
+  Spells:    avg=24  min=0  max=30
+  Dmg/Turn:  avg=496  min=0  max=5436
+  Dmg/5R:    avg=1613  min=0  max=4621
+  Dmg/10R:   avg=2827  min=0  max=9006
+  To Hit:    avg=+35  min=+28  max=+61
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=15  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (2018)
+    Health:   Jack of all Trades (428)
+    Mana:     Vacuum Mage (1759)
+    AC:       Tanker (55)
+    Feats:    Archer (56)
+    Spells:   Jack of all Trades (30)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Poison Mage (4621)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Poison Mage (+61)
+
+LEVEL 86
+----------------------------------------
+  Vitality:  avg=640  min=390  max=2042
+  Health:    avg=355  min=304  max=433
+  Mana:      avg=1006  min=130  max=1779
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=14  min=0  max=56
+  Spells:    avg=24  min=0  max=30
+  Dmg/Turn:  avg=502  min=0  max=5436
+  Dmg/5R:    avg=1558  min=0  max=4621
+  Dmg/10R:   avg=2787  min=0  max=9006
+  To Hit:    avg=+35  min=+28  max=+61
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=15  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=15  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (2042)
+    Health:   Jack of all Trades (433)
+    Mana:     Vacuum Mage (1779)
+    AC:       Tanker (55)
+    Feats:    Archer (56)
+    Spells:   Jack of all Trades (30)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Poison Mage (4621)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Poison Mage (+61)
+
+LEVEL 87
+----------------------------------------
+  Vitality:  avg=648  min=395  max=2065
+  Health:    avg=359  min=308  max=438
+  Mana:      avg=1019  min=132  max=1800
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=15  min=0  max=58
+  Spells:    avg=25  min=0  max=31
+  Dmg/Turn:  avg=503  min=0  max=5436
+  Dmg/5R:    avg=1618  min=0  max=4503
+  Dmg/10R:   avg=2924  min=0  max=9006
+  To Hit:    avg=+36  min=+29  max=+62
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (2065)
+    Health:   Jack of all Trades (438)
+    Mana:     Vacuum Mage (1800)
+    AC:       Tanker (55)
+    Feats:    Archer (58)
+    Spells:   Jack of all Trades (31)
+    Dmg:      Atomic Mage (5436)
+    Dmg/5R:   Miasma Mage (4503)
+    Dmg/10R:  Miasma Mage (9006)
+    To Hit:   Poison Mage (+62)
+
+LEVEL 88
+----------------------------------------
+  Vitality:  avg=655  min=399  max=2089
+  Health:    avg=363  min=311  max=443
+  Mana:      avg=1030  min=133  max=1820
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=15  min=0  max=58
+  Spells:    avg=25  min=0  max=31
+  Dmg/Turn:  avg=585  min=0  max=6342
+  Dmg/5R:    avg=1729  min=0  max=5391
+  Dmg/10R:   avg=3114  min=0  max=10056
+  To Hit:    avg=+36  min=+29  max=+62
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (2089)
+    Health:   Jack of all Trades (443)
+    Mana:     Vacuum Mage (1820)
+    AC:       Tanker (55)
+    Feats:    Archer (58)
+    Spells:   Jack of all Trades (31)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Solar Mage (5391)
+    Dmg/10R:  Miasma Mage (10056)
+    To Hit:   Poison Mage (+62)
+
+LEVEL 89
+----------------------------------------
+  Vitality:  avg=662  min=404  max=2112
+  Health:    avg=368  min=315  max=448
+  Mana:      avg=1042  min=135  max=1841
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=15  min=0  max=58
+  Spells:    avg=25  min=0  max=31
+  Dmg/Turn:  avg=585  min=0  max=6342
+  Dmg/5R:    avg=1746  min=0  max=5253
+  Dmg/10R:   avg=3097  min=0  max=10206
+  To Hit:    avg=+36  min=+29  max=+62
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=17
+
+  BEST:
+    Vitality: Tanker Archer (2112)
+    Health:   Jack of all Trades (448)
+    Mana:     Vacuum Mage (1841)
+    AC:       Tanker (55)
+    Feats:    Archer (58)
+    Spells:   Jack of all Trades (31)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10206)
+    To Hit:   Poison Mage (+62)
+
+LEVEL 90
+----------------------------------------
+  Vitality:  avg=668  min=408  max=2136
+  Health:    avg=371  min=318  max=453
+  Mana:      avg=1077  min=136  max=1952
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=15  min=0  max=60
+  Spells:    avg=26  min=0  max=32
+  Dmg/Turn:  avg=585  min=0  max=6342
+  Dmg/5R:    avg=1779  min=0  max=5253
+  Dmg/10R:   avg=3231  min=0  max=10507
+  To Hit:    avg=+37  min=+30  max=+63
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2136)
+    Health:   Jack of all Trades (453)
+    Mana:     Vacuum Mage (1952)
+    AC:       Tanker (55)
+    Feats:    Archer (60)
+    Spells:   Jack of all Trades (32)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+63)
+
+LEVEL 91
+----------------------------------------
+  Vitality:  avg=676  min=413  max=2159
+  Health:    avg=376  min=322  max=458
+  Mana:      avg=1089  min=138  max=1974
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=15  min=0  max=60
+  Spells:    avg=26  min=0  max=32
+  Dmg/Turn:  avg=585  min=0  max=6342
+  Dmg/5R:    avg=1784  min=0  max=5253
+  Dmg/10R:   avg=3192  min=0  max=10507
+  To Hit:    avg=+37  min=+30  max=+63
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2159)
+    Health:   Jack of all Trades (458)
+    Mana:     Vacuum Mage (1974)
+    AC:       Tanker (55)
+    Feats:    Archer (60)
+    Spells:   Jack of all Trades (32)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+63)
+
+LEVEL 92
+----------------------------------------
+  Vitality:  avg=683  min=417  max=2183
+  Health:    avg=379  min=325  max=463
+  Mana:      avg=1101  min=139  max=1995
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=15  min=0  max=60
+  Spells:    avg=26  min=0  max=32
+  Dmg/Turn:  avg=585  min=0  max=6342
+  Dmg/5R:    avg=1877  min=0  max=5391
+  Dmg/10R:   avg=3385  min=0  max=10507
+  To Hit:    avg=+37  min=+30  max=+63
+  STR:       avg=12  min=8  max=28
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2183)
+    Health:   Jack of all Trades (463)
+    Mana:     Vacuum Mage (1995)
+    AC:       Tanker (55)
+    Feats:    Archer (60)
+    Spells:   Jack of all Trades (32)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Poison Mage (5391)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+63)
+
+LEVEL 93
+----------------------------------------
+  Vitality:  avg=695  min=422  max=2206
+  Health:    avg=384  min=329  max=468
+  Mana:      avg=1114  min=141  max=2017
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=16  min=0  max=62
+  Spells:    avg=27  min=0  max=33
+  Dmg/Turn:  avg=587  min=0  max=6342
+  Dmg/5R:    avg=1765  min=0  max=5253
+  Dmg/10R:   avg=3128  min=0  max=10507
+  To Hit:    avg=+39  min=+31  max=+64
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2206)
+    Health:   Jack of all Trades (468)
+    Mana:     Vacuum Mage (2017)
+    AC:       Tanker (55)
+    Feats:    Archer (62)
+    Spells:   Jack of all Trades (33)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+64)
+
+LEVEL 94
+----------------------------------------
+  Vitality:  avg=702  min=426  max=2230
+  Health:    avg=388  min=332  max=473
+  Mana:      avg=1125  min=142  max=2038
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=16  min=0  max=62
+  Spells:    avg=27  min=0  max=33
+  Dmg/Turn:  avg=587  min=0  max=6342
+  Dmg/5R:    avg=1790  min=0  max=5253
+  Dmg/10R:   avg=3186  min=0  max=10507
+  To Hit:    avg=+39  min=+31  max=+64
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2230)
+    Health:   Jack of all Trades (473)
+    Mana:     Vacuum Mage (2038)
+    AC:       Tanker (55)
+    Feats:    Archer (62)
+    Spells:   Jack of all Trades (33)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+64)
+
+LEVEL 95
+----------------------------------------
+  Vitality:  avg=709  min=431  max=2253
+  Health:    avg=392  min=336  max=478
+  Mana:      avg=1138  min=144  max=2060
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=16  min=0  max=62
+  Spells:    avg=27  min=0  max=33
+  Dmg/Turn:  avg=587  min=0  max=6342
+  Dmg/5R:    avg=1776  min=0  max=5253
+  Dmg/10R:   avg=3238  min=0  max=10507
+  To Hit:    avg=+39  min=+31  max=+64
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=13  min=8  max=29
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2253)
+    Health:   Jack of all Trades (478)
+    Mana:     Vacuum Mage (2060)
+    AC:       Tanker (55)
+    Feats:    Archer (62)
+    Spells:   Jack of all Trades (33)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+64)
+
+LEVEL 96
+----------------------------------------
+  Vitality:  avg=740  min=435  max=2277
+  Health:    avg=396  min=339  max=483
+  Mana:      avg=1149  min=145  max=2081
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=16  min=0  max=64
+  Spells:    avg=27  min=0  max=34
+  Dmg/Turn:  avg=589  min=0  max=6342
+  Dmg/5R:    avg=1826  min=0  max=5253
+  Dmg/10R:   avg=3229  min=0  max=10507
+  To Hit:    avg=+40  min=+32  max=+65
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=13  min=8  max=30
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2277)
+    Health:   Jack of all Trades (483)
+    Mana:     Vacuum Mage (2081)
+    AC:       Tanker (55)
+    Feats:    Archer (64)
+    Spells:   Jack of all Trades (34)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+65)
+
+LEVEL 97
+----------------------------------------
+  Vitality:  avg=748  min=440  max=2300
+  Health:    avg=400  min=343  max=488
+  Mana:      avg=1161  min=147  max=2103
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=16  min=0  max=64
+  Spells:    avg=27  min=0  max=34
+  Dmg/Turn:  avg=589  min=0  max=6342
+  Dmg/5R:    avg=1846  min=0  max=5253
+  Dmg/10R:   avg=3263  min=0  max=10507
+  To Hit:    avg=+40  min=+32  max=+65
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=13  min=8  max=30
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=25
+  INT:       avg=16  min=8  max=21
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2300)
+    Health:   Jack of all Trades (488)
+    Mana:     Vacuum Mage (2103)
+    AC:       Tanker (55)
+    Feats:    Archer (64)
+    Spells:   Jack of all Trades (34)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+65)
+
+LEVEL 98
+----------------------------------------
+  Vitality:  avg=762  min=444  max=2324
+  Health:    avg=404  min=346  max=493
+  Mana:      avg=1184  min=148  max=2124
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=16  min=0  max=64
+  Spells:    avg=27  min=0  max=34
+  Dmg/Turn:  avg=589  min=0  max=6342
+  Dmg/5R:    avg=1844  min=0  max=5253
+  Dmg/10R:   avg=3272  min=0  max=10507
+  To Hit:    avg=+40  min=+32  max=+65
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=13  min=8  max=30
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2324)
+    Health:   Jack of all Trades (493)
+    Mana:     Vacuum Mage (2124)
+    AC:       Tanker (55)
+    Feats:    Archer (64)
+    Spells:   Jack of all Trades (34)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+65)
+
+LEVEL 99
+----------------------------------------
+  Vitality:  avg=783  min=449  max=2347
+  Health:    avg=409  min=350  max=498
+  Mana:      avg=1197  min=150  max=2146
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=17  min=0  max=66
+  Spells:    avg=28  min=0  max=35
+  Dmg/Turn:  avg=589  min=0  max=6342
+  Dmg/5R:    avg=1853  min=0  max=5253
+  Dmg/10R:   avg=3269  min=0  max=10507
+  To Hit:    avg=+41  min=+33  max=+66
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2347)
+    Health:   Jack of all Trades (498)
+    Mana:     Vacuum Mage (2146)
+    AC:       Tanker (55)
+    Feats:    Archer (66)
+    Spells:   Jack of all Trades (35)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+66)
+
+LEVEL 100
+----------------------------------------
+  Vitality:  avg=790  min=453  max=2371
+  Health:    avg=412  min=353  max=503
+  Mana:      avg=1209  min=151  max=2167
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=17  min=0  max=66
+  Spells:    avg=28  min=0  max=35
+  Dmg/Turn:  avg=590  min=0  max=6342
+  Dmg/5R:    avg=1891  min=0  max=5253
+  Dmg/10R:   avg=3340  min=0  max=10507
+  To Hit:    avg=+41  min=+33  max=+66
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2371)
+    Health:   Jack of all Trades (503)
+    Mana:     Vacuum Mage (2167)
+    AC:       Tanker (55)
+    Feats:    Archer (66)
+    Spells:   Jack of all Trades (35)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+66)
+
+LEVEL 101
+----------------------------------------
+  Vitality:  avg=799  min=458  max=2394
+  Health:    avg=417  min=357  max=508
+  Mana:      avg=1221  min=153  max=2189
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=17  min=0  max=66
+  Spells:    avg=28  min=0  max=35
+  Dmg/Turn:  avg=590  min=0  max=6342
+  Dmg/5R:    avg=1871  min=0  max=5253
+  Dmg/10R:   avg=3236  min=0  max=10507
+  To Hit:    avg=+41  min=+33  max=+66
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=33
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=10  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2394)
+    Health:   Jack of all Trades (508)
+    Mana:     Vacuum Mage (2189)
+    AC:       Tanker (55)
+    Feats:    Archer (66)
+    Spells:   Jack of all Trades (35)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+66)
+
+LEVEL 102
+----------------------------------------
+  Vitality:  avg=809  min=462  max=2521
+  Health:    avg=420  min=360  max=513
+  Mana:      avg=1232  min=154  max=2210
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=18  min=0  max=68
+  Spells:    avg=29  min=0  max=36
+  Dmg/Turn:  avg=590  min=0  max=6342
+  Dmg/5R:    avg=1876  min=0  max=5253
+  Dmg/10R:   avg=3273  min=0  max=10507
+  To Hit:    avg=+42  min=+34  max=+67
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2521)
+    Health:   Jack of all Trades (513)
+    Mana:     Vacuum Mage (2210)
+    AC:       Tanker (55)
+    Feats:    Archer (68)
+    Spells:   Jack of all Trades (36)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+67)
+
+LEVEL 103
+----------------------------------------
+  Vitality:  avg=817  min=467  max=2545
+  Health:    avg=425  min=364  max=518
+  Mana:      avg=1244  min=156  max=2232
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=18  min=0  max=68
+  Spells:    avg=29  min=0  max=36
+  Dmg/Turn:  avg=590  min=0  max=6342
+  Dmg/5R:    avg=1941  min=0  max=5253
+  Dmg/10R:   avg=3509  min=0  max=10507
+  To Hit:    avg=+42  min=+34  max=+67
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2545)
+    Health:   Jack of all Trades (518)
+    Mana:     Vacuum Mage (2232)
+    AC:       Tanker (55)
+    Feats:    Archer (68)
+    Spells:   Jack of all Trades (36)
+    Dmg:      Atomic Mage (6342)
+    Dmg/5R:   Miasma Mage (5253)
+    Dmg/10R:  Miasma Mage (10507)
+    To Hit:   Poison Mage (+67)
+
+LEVEL 104
+----------------------------------------
+  Vitality:  avg=825  min=471  max=2570
+  Health:    avg=429  min=367  max=523
+  Mana:      avg=1256  min=157  max=2253
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=18  min=0  max=68
+  Spells:    avg=29  min=0  max=36
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2048  min=0  max=6004
+  Dmg/10R:   avg=3688  min=0  max=12007
+  To Hit:    avg=+42  min=+34  max=+67
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2570)
+    Health:   Jack of all Trades (523)
+    Mana:     Vacuum Mage (2253)
+    AC:       Tanker (55)
+    Feats:    Archer (68)
+    Spells:   Jack of all Trades (36)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+67)
+
+LEVEL 105
+----------------------------------------
+  Vitality:  avg=835  min=476  max=2594
+  Health:    avg=433  min=371  max=528
+  Mana:      avg=1273  min=159  max=2275
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=18  min=0  max=70
+  Spells:    avg=30  min=0  max=37
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2049  min=0  max=6004
+  Dmg/10R:   avg=3659  min=0  max=12007
+  To Hit:    avg=+43  min=+35  max=+68
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2594)
+    Health:   Jack of all Trades (528)
+    Mana:     Vacuum Mage (2275)
+    AC:       Tanker (55)
+    Feats:    Archer (70)
+    Spells:   Jack of all Trades (37)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+68)
+
+LEVEL 106
+----------------------------------------
+  Vitality:  avg=843  min=480  max=2619
+  Health:    avg=437  min=374  max=533
+  Mana:      avg=1284  min=160  max=2296
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=18  min=0  max=70
+  Spells:    avg=30  min=0  max=37
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2060  min=0  max=6004
+  Dmg/10R:   avg=3769  min=0  max=12007
+  To Hit:    avg=+43  min=+35  max=+68
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2619)
+    Health:   Jack of all Trades (533)
+    Mana:     Vacuum Mage (2296)
+    AC:       Tanker (55)
+    Feats:    Archer (70)
+    Spells:   Jack of all Trades (37)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+68)
+
+LEVEL 107
+----------------------------------------
+  Vitality:  avg=851  min=485  max=2643
+  Health:    avg=441  min=378  max=538
+  Mana:      avg=1297  min=162  max=2318
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=18  min=0  max=70
+  Spells:    avg=30  min=0  max=37
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2102  min=0  max=6004
+  Dmg/10R:   avg=3791  min=0  max=12007
+  To Hit:    avg=+43  min=+35  max=+68
+  STR:       avg=12  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2643)
+    Health:   Jack of all Trades (538)
+    Mana:     Vacuum Mage (2318)
+    AC:       Tanker (55)
+    Feats:    Archer (70)
+    Spells:   Jack of all Trades (37)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+68)
+
+LEVEL 108
+----------------------------------------
+  Vitality:  avg=859  min=489  max=2668
+  Health:    avg=445  min=381  max=543
+  Mana:      avg=1310  min=163  max=2339
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=19  min=0  max=72
+  Spells:    avg=31  min=0  max=38
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2080  min=0  max=6004
+  Dmg/10R:   avg=3706  min=0  max=12007
+  To Hit:    avg=+44  min=+36  max=+69
+  STR:       avg=13  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2668)
+    Health:   Jack of all Trades (543)
+    Mana:     Vacuum Mage (2339)
+    AC:       Tanker (55)
+    Feats:    Archer (72)
+    Spells:   Jack of all Trades (38)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+69)
+
+LEVEL 109
+----------------------------------------
+  Vitality:  avg=867  min=494  max=2692
+  Health:    avg=449  min=385  max=548
+  Mana:      avg=1323  min=165  max=2361
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=19  min=0  max=72
+  Spells:    avg=31  min=0  max=38
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2118  min=0  max=6004
+  Dmg/10R:   avg=3800  min=0  max=12007
+  To Hit:    avg=+44  min=+36  max=+69
+  STR:       avg=13  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2692)
+    Health:   Jack of all Trades (548)
+    Mana:     Vacuum Mage (2361)
+    AC:       Tanker (55)
+    Feats:    Archer (72)
+    Spells:   Jack of all Trades (38)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+69)
+
+LEVEL 110
+----------------------------------------
+  Vitality:  avg=874  min=498  max=2717
+  Health:    avg=453  min=388  max=553
+  Mana:      avg=1334  min=166  max=2382
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=19  min=0  max=72
+  Spells:    avg=31  min=0  max=38
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2128  min=0  max=6004
+  Dmg/10R:   avg=3697  min=0  max=12007
+  To Hit:    avg=+44  min=+36  max=+69
+  STR:       avg=13  min=8  max=29
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=19  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2717)
+    Health:   Jack of all Trades (553)
+    Mana:     Vacuum Mage (2382)
+    AC:       Tanker (55)
+    Feats:    Archer (72)
+    Spells:   Jack of all Trades (38)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+69)
+
+LEVEL 111
+----------------------------------------
+  Vitality:  avg=884  min=503  max=2741
+  Health:    avg=458  min=392  max=558
+  Mana:      avg=1350  min=168  max=2404
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=19  min=0  max=74
+  Spells:    avg=32  min=0  max=39
+  Dmg/Turn:  avg=672  min=0  max=7248
+  Dmg/5R:    avg=2115  min=0  max=6004
+  Dmg/10R:   avg=3768  min=0  max=12007
+  To Hit:    avg=+45  min=+37  max=+70
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=20  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2741)
+    Health:   Jack of all Trades (558)
+    Mana:     Vacuum Mage (2404)
+    AC:       Tanker (55)
+    Feats:    Archer (74)
+    Spells:   Jack of all Trades (39)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+70)
+
+LEVEL 112
+----------------------------------------
+  Vitality:  avg=891  min=507  max=2766
+  Health:    avg=461  min=395  max=563
+  Mana:      avg=1362  min=169  max=2425
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=19  min=0  max=74
+  Spells:    avg=32  min=0  max=39
+  Dmg/Turn:  avg=674  min=0  max=7248
+  Dmg/5R:    avg=2122  min=0  max=6004
+  Dmg/10R:   avg=3791  min=0  max=12007
+  To Hit:    avg=+45  min=+37  max=+70
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=20  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2766)
+    Health:   Jack of all Trades (563)
+    Mana:     Vacuum Mage (2425)
+    AC:       Tanker (55)
+    Feats:    Archer (74)
+    Spells:   Jack of all Trades (39)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+70)
+
+LEVEL 113
+----------------------------------------
+  Vitality:  avg=900  min=512  max=2790
+  Health:    avg=466  min=399  max=568
+  Mana:      avg=1375  min=171  max=2447
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=19  min=0  max=74
+  Spells:    avg=32  min=0  max=39
+  Dmg/Turn:  avg=674  min=0  max=7248
+  Dmg/5R:    avg=2138  min=0  max=6004
+  Dmg/10R:   avg=3806  min=0  max=12007
+  To Hit:    avg=+45  min=+37  max=+70
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=20  min=8  max=26
+  INT:       avg=16  min=8  max=22
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2790)
+    Health:   Jack of all Trades (568)
+    Mana:     Vacuum Mage (2447)
+    AC:       Tanker (55)
+    Feats:    Archer (74)
+    Spells:   Jack of all Trades (39)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+70)
+
+LEVEL 114
+----------------------------------------
+  Vitality:  avg=908  min=516  max=2815
+  Health:    avg=470  min=402  max=573
+  Mana:      avg=1384  min=172  max=2468
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=20  min=0  max=76
+  Spells:    avg=33  min=0  max=40
+  Dmg/Turn:  avg=682  min=0  max=7248
+  Dmg/5R:    avg=2118  min=0  max=6004
+  Dmg/10R:   avg=3731  min=0  max=12007
+  To Hit:    avg=+46  min=+38  max=+71
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=17  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2815)
+    Health:   Jack of all Trades (573)
+    Mana:     Vacuum Mage (2468)
+    AC:       Tanker (55)
+    Feats:    Archer (76)
+    Spells:   Jack of all Trades (40)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+71)
+
+LEVEL 115
+----------------------------------------
+  Vitality:  avg=917  min=521  max=2839
+  Health:    avg=474  min=406  max=578
+  Mana:      avg=1396  min=174  max=2490
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=20  min=0  max=76
+  Spells:    avg=33  min=0  max=40
+  Dmg/Turn:  avg=682  min=0  max=7248
+  Dmg/5R:    avg=2128  min=0  max=6004
+  Dmg/10R:   avg=3710  min=0  max=12007
+  To Hit:    avg=+46  min=+38  max=+71
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=17  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2839)
+    Health:   Jack of all Trades (578)
+    Mana:     Vacuum Mage (2490)
+    AC:       Tanker (55)
+    Feats:    Archer (76)
+    Spells:   Jack of all Trades (40)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+71)
+
+LEVEL 116
+----------------------------------------
+  Vitality:  avg=923  min=525  max=2864
+  Health:    avg=478  min=409  max=583
+  Mana:      avg=1409  min=175  max=2511
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=20  min=0  max=76
+  Spells:    avg=33  min=0  max=40
+  Dmg/Turn:  avg=682  min=0  max=7248
+  Dmg/5R:    avg=2132  min=0  max=6004
+  Dmg/10R:   avg=3760  min=0  max=12007
+  To Hit:    avg=+46  min=+38  max=+71
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=30
+  CON:       avg=17  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=18
+
+  BEST:
+    Vitality: Tanker Archer (2864)
+    Health:   Jack of all Trades (583)
+    Mana:     Vacuum Mage (2511)
+    AC:       Tanker (55)
+    Feats:    Archer (76)
+    Spells:   Jack of all Trades (40)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+71)
+
+LEVEL 117
+----------------------------------------
+  Vitality:  avg=932  min=530  max=2888
+  Health:    avg=482  min=413  max=588
+  Mana:      avg=1470  min=177  max=2533
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=20  min=0  max=78
+  Spells:    avg=33  min=0  max=41
+  Dmg/Turn:  avg=697  min=0  max=7248
+  Dmg/5R:    avg=2101  min=0  max=6004
+  Dmg/10R:   avg=3751  min=0  max=12007
+  To Hit:    avg=+47  min=+39  max=+72
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2888)
+    Health:   Jack of all Trades (588)
+    Mana:     Vacuum Mage (2533)
+    AC:       Tanker (55)
+    Feats:    Archer (78)
+    Spells:   Jack of all Trades (41)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+72)
+
+LEVEL 118
+----------------------------------------
+  Vitality:  avg=940  min=534  max=2913
+  Health:    avg=486  min=416  max=593
+  Mana:      avg=1482  min=178  max=2554
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=20  min=0  max=78
+  Spells:    avg=33  min=0  max=41
+  Dmg/Turn:  avg=697  min=0  max=7248
+  Dmg/5R:    avg=2091  min=0  max=6004
+  Dmg/10R:   avg=3731  min=0  max=12007
+  To Hit:    avg=+47  min=+39  max=+72
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2913)
+    Health:   Jack of all Trades (593)
+    Mana:     Vacuum Mage (2554)
+    AC:       Tanker (55)
+    Feats:    Archer (78)
+    Spells:   Jack of all Trades (41)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+72)
+
+LEVEL 119
+----------------------------------------
+  Vitality:  avg=948  min=539  max=2937
+  Health:    avg=490  min=420  max=598
+  Mana:      avg=1495  min=180  max=2576
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=20  min=0  max=78
+  Spells:    avg=33  min=0  max=41
+  Dmg/Turn:  avg=697  min=0  max=7248
+  Dmg/5R:    avg=2134  min=0  max=6004
+  Dmg/10R:   avg=3825  min=0  max=12007
+  To Hit:    avg=+47  min=+39  max=+72
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=16  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2937)
+    Health:   Jack of all Trades (598)
+    Mana:     Vacuum Mage (2576)
+    AC:       Tanker (55)
+    Feats:    Archer (78)
+    Spells:   Jack of all Trades (41)
+    Dmg:      Atomic Mage (7248)
+    Dmg/5R:   Miasma Mage (6004)
+    Dmg/10R:  Miasma Mage (12007)
+    To Hit:   Poison Mage (+72)
+
+LEVEL 120
+----------------------------------------
+  Vitality:  avg=956  min=543  max=2962
+  Health:    avg=494  min=423  max=603
+  Mana:      avg=1507  min=181  max=2597
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=21  min=0  max=80
+  Spells:    avg=34  min=0  max=42
+  Dmg/Turn:  avg=782  min=0  max=8154
+  Dmg/5R:    avg=2206  min=0  max=6754
+  Dmg/10R:   avg=3994  min=0  max=13508
+  To Hit:    avg=+48  min=+40  max=+73
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2962)
+    Health:   Jack of all Trades (603)
+    Mana:     Vacuum Mage (2597)
+    AC:       Tanker (55)
+    Feats:    Archer (80)
+    Spells:   Jack of all Trades (42)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+73)
+
+LEVEL 121
+----------------------------------------
+  Vitality:  avg=964  min=548  max=2986
+  Health:    avg=499  min=427  max=608
+  Mana:      avg=1520  min=183  max=2619
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=21  min=0  max=80
+  Spells:    avg=34  min=0  max=42
+  Dmg/Turn:  avg=782  min=0  max=8154
+  Dmg/5R:    avg=2299  min=0  max=6754
+  Dmg/10R:   avg=4175  min=0  max=13508
+  To Hit:    avg=+48  min=+40  max=+73
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (2986)
+    Health:   Jack of all Trades (608)
+    Mana:     Vacuum Mage (2619)
+    AC:       Tanker (55)
+    Feats:    Archer (80)
+    Spells:   Jack of all Trades (42)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+73)
+
+LEVEL 122
+----------------------------------------
+  Vitality:  avg=972  min=552  max=3011
+  Health:    avg=502  min=430  max=613
+  Mana:      avg=1532  min=184  max=2640
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=21  min=0  max=80
+  Spells:    avg=34  min=0  max=42
+  Dmg/Turn:  avg=782  min=0  max=8154
+  Dmg/5R:    avg=2265  min=0  max=6754
+  Dmg/10R:   avg=4177  min=0  max=13508
+  To Hit:    avg=+48  min=+40  max=+73
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=34
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=16  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3011)
+    Health:   Jack of all Trades (613)
+    Mana:     Vacuum Mage (2640)
+    AC:       Tanker (55)
+    Feats:    Archer (80)
+    Spells:   Jack of all Trades (42)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+73)
+
+LEVEL 123
+----------------------------------------
+  Vitality:  avg=980  min=557  max=3035
+  Health:    avg=507  min=434  max=618
+  Mana:      avg=1545  min=186  max=2662
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=21  min=0  max=82
+  Spells:    avg=35  min=0  max=43
+  Dmg/Turn:  avg=789  min=0  max=8154
+  Dmg/5R:    avg=2272  min=0  max=6754
+  Dmg/10R:   avg=4053  min=0  max=13508
+  To Hit:    avg=+49  min=+41  max=+74
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=17  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3035)
+    Health:   Jack of all Trades (618)
+    Mana:     Vacuum Mage (2662)
+    AC:       Tanker (55)
+    Feats:    Archer (82)
+    Spells:   Jack of all Trades (43)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+74)
+
+LEVEL 124
+----------------------------------------
+  Vitality:  avg=987  min=561  max=3060
+  Health:    avg=511  min=437  max=623
+  Mana:      avg=1557  min=187  max=2683
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=21  min=0  max=82
+  Spells:    avg=35  min=0  max=43
+  Dmg/Turn:  avg=789  min=0  max=8154
+  Dmg/5R:    avg=2260  min=0  max=6754
+  Dmg/10R:   avg=4208  min=0  max=13508
+  To Hit:    avg=+49  min=+41  max=+74
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=17  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3060)
+    Health:   Jack of all Trades (623)
+    Mana:     Vacuum Mage (2683)
+    AC:       Tanker (55)
+    Feats:    Archer (82)
+    Spells:   Jack of all Trades (43)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+74)
+
+LEVEL 125
+----------------------------------------
+  Vitality:  avg=996  min=566  max=3084
+  Health:    avg=515  min=441  max=628
+  Mana:      avg=1570  min=189  max=2705
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=21  min=0  max=82
+  Spells:    avg=35  min=0  max=43
+  Dmg/Turn:  avg=789  min=0  max=8154
+  Dmg/5R:    avg=2282  min=0  max=6754
+  Dmg/10R:   avg=4140  min=0  max=13508
+  To Hit:    avg=+49  min=+41  max=+74
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=17  min=8  max=23
+  CHA:       avg=11  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3084)
+    Health:   Jack of all Trades (628)
+    Mana:     Vacuum Mage (2705)
+    AC:       Tanker (55)
+    Feats:    Archer (82)
+    Spells:   Jack of all Trades (43)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+74)
+
+LEVEL 126
+----------------------------------------
+  Vitality:  avg=1003  min=570  max=3109
+  Health:    avg=519  min=444  max=633
+  Mana:      avg=1583  min=190  max=2726
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=22  min=0  max=84
+  Spells:    avg=36  min=0  max=44
+  Dmg/Turn:  avg=789  min=0  max=8154
+  Dmg/5R:    avg=2261  min=0  max=6754
+  Dmg/10R:   avg=4130  min=0  max=13508
+  To Hit:    avg=+50  min=+42  max=+75
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=17  min=8  max=23
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3109)
+    Health:   Jack of all Trades (633)
+    Mana:     Vacuum Mage (2726)
+    AC:       Tanker (55)
+    Feats:    Archer (84)
+    Spells:   Jack of all Trades (44)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+75)
+
+LEVEL 127
+----------------------------------------
+  Vitality:  avg=1012  min=575  max=3133
+  Health:    avg=523  min=448  max=638
+  Mana:      avg=1596  min=192  max=2748
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=22  min=0  max=84
+  Spells:    avg=36  min=0  max=44
+  Dmg/Turn:  avg=789  min=0  max=8154
+  Dmg/5R:    avg=2220  min=0  max=6754
+  Dmg/10R:   avg=3999  min=0  max=13508
+  To Hit:    avg=+50  min=+42  max=+75
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=17  min=8  max=23
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3133)
+    Health:   Jack of all Trades (638)
+    Mana:     Vacuum Mage (2748)
+    AC:       Tanker (55)
+    Feats:    Archer (84)
+    Spells:   Jack of all Trades (44)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+75)
+
+LEVEL 128
+----------------------------------------
+  Vitality:  avg=1019  min=579  max=3158
+  Health:    avg=527  min=451  max=643
+  Mana:      avg=1608  min=193  max=2769
+  AC:        avg=15  min=10  max=55
+  Feats:     avg=22  min=0  max=84
+  Spells:    avg=36  min=0  max=44
+  Dmg/Turn:  avg=790  min=0  max=8154
+  Dmg/5R:    avg=2270  min=0  max=6754
+  Dmg/10R:   avg=4277  min=0  max=13508
+  To Hit:    avg=+50  min=+42  max=+75
+  STR:       avg=13  min=8  max=30
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=27
+  INT:       avg=17  min=8  max=23
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3158)
+    Health:   Jack of all Trades (643)
+    Mana:     Vacuum Mage (2769)
+    AC:       Tanker (55)
+    Feats:    Archer (84)
+    Spells:   Jack of all Trades (44)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+75)
+
+LEVEL 129
+----------------------------------------
+  Vitality:  avg=1029  min=584  max=3182
+  Health:    avg=531  min=455  max=648
+  Mana:      avg=1634  min=195  max=2793
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=22  min=0  max=86
+  Spells:    avg=37  min=0  max=45
+  Dmg/Turn:  avg=790  min=0  max=8154
+  Dmg/5R:    avg=2315  min=0  max=6754
+  Dmg/10R:   avg=4198  min=0  max=13508
+  To Hit:    avg=+51  min=+43  max=+76
+  STR:       avg=14  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3182)
+    Health:   Jack of all Trades (648)
+    Mana:     Psychic Mage (2793)
+    AC:       Tanker (55)
+    Feats:    Archer (86)
+    Spells:   Jack of all Trades (45)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+76)
+
+LEVEL 130
+----------------------------------------
+  Vitality:  avg=1051  min=588  max=3207
+  Health:    avg=535  min=458  max=653
+  Mana:      avg=1647  min=196  max=2814
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=22  min=0  max=86
+  Spells:    avg=37  min=0  max=45
+  Dmg/Turn:  avg=791  min=0  max=8154
+  Dmg/5R:    avg=2263  min=0  max=6754
+  Dmg/10R:   avg=4139  min=0  max=13508
+  To Hit:    avg=+52  min=+43  max=+76
+  STR:       avg=14  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3207)
+    Health:   Jack of all Trades (653)
+    Mana:     Necrotic Mage (2814)
+    AC:       Tanker (55)
+    Feats:    Archer (86)
+    Spells:   Jack of all Trades (45)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+76)
+
+LEVEL 131
+----------------------------------------
+  Vitality:  avg=1059  min=593  max=3231
+  Health:    avg=540  min=462  max=658
+  Mana:      avg=1661  min=198  max=2836
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=22  min=0  max=86
+  Spells:    avg=37  min=0  max=45
+  Dmg/Turn:  avg=791  min=0  max=8154
+  Dmg/5R:    avg=2260  min=0  max=6754
+  Dmg/10R:   avg=4217  min=0  max=13508
+  To Hit:    avg=+52  min=+43  max=+76
+  STR:       avg=14  min=8  max=30
+  DEX:       avg=14  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3231)
+    Health:   Jack of all Trades (658)
+    Mana:     Necrotic Mage (2836)
+    AC:       Tanker (55)
+    Feats:    Archer (86)
+    Spells:   Jack of all Trades (45)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+76)
+
+LEVEL 132
+----------------------------------------
+  Vitality:  avg=1148  min=597  max=3256
+  Health:    avg=543  min=465  max=663
+  Mana:      avg=1674  min=199  max=2857
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=23  min=0  max=88
+  Spells:    avg=38  min=0  max=46
+  Dmg/Turn:  avg=790  min=0  max=8154
+  Dmg/5R:    avg=2212  min=0  max=6754
+  Dmg/10R:   avg=4007  min=0  max=13508
+  To Hit:    avg=+53  min=+44  max=+77
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3256)
+    Health:   Jack of all Trades (663)
+    Mana:     Necrotic Mage (2857)
+    AC:       Tanker (55)
+    Feats:    Archer (88)
+    Spells:   Jack of all Trades (46)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+77)
+
+LEVEL 133
+----------------------------------------
+  Vitality:  avg=1157  min=602  max=3280
+  Health:    avg=548  min=469  max=668
+  Mana:      avg=1687  min=201  max=2879
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=23  min=0  max=88
+  Spells:    avg=38  min=0  max=46
+  Dmg/Turn:  avg=790  min=0  max=8154
+  Dmg/5R:    avg=2328  min=0  max=6754
+  Dmg/10R:   avg=4171  min=0  max=13508
+  To Hit:    avg=+53  min=+44  max=+77
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3280)
+    Health:   Jack of all Trades (668)
+    Mana:     Necrotic Mage (2879)
+    AC:       Tanker (55)
+    Feats:    Archer (88)
+    Spells:   Jack of all Trades (46)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+77)
+
+LEVEL 134
+----------------------------------------
+  Vitality:  avg=1166  min=606  max=3305
+  Health:    avg=551  min=472  max=673
+  Mana:      avg=1699  min=202  max=2900
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=23  min=0  max=88
+  Spells:    avg=38  min=0  max=46
+  Dmg/Turn:  avg=790  min=0  max=8154
+  Dmg/5R:    avg=2411  min=0  max=6754
+  Dmg/10R:   avg=4416  min=0  max=13508
+  To Hit:    avg=+53  min=+44  max=+77
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=20  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3305)
+    Health:   Jack of all Trades (673)
+    Mana:     Necrotic Mage (2900)
+    AC:       Tanker (55)
+    Feats:    Archer (88)
+    Spells:   Jack of all Trades (46)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+77)
+
+LEVEL 135
+----------------------------------------
+  Vitality:  avg=1146  min=611  max=3329
+  Health:    avg=556  min=476  max=678
+  Mana:      avg=1748  min=204  max=3056
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=23  min=0  max=90
+  Spells:    avg=38  min=0  max=47
+  Dmg/Turn:  avg=791  min=0  max=8154
+  Dmg/5R:    avg=2353  min=0  max=6754
+  Dmg/10R:   avg=4170  min=0  max=13508
+  To Hit:    avg=+54  min=+45  max=+78
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3329)
+    Health:   Jack of all Trades (678)
+    Mana:     Vacuum Mage (3056)
+    AC:       Tanker (55)
+    Feats:    Archer (90)
+    Spells:   Jack of all Trades (47)
+    Dmg:      Atomic Mage (8154)
+    Dmg/5R:   Miasma Mage (6754)
+    Dmg/10R:  Miasma Mage (13508)
+    To Hit:   Poison Mage (+78)
+
+LEVEL 136
+----------------------------------------
+  Vitality:  avg=1154  min=615  max=3354
+  Health:    avg=560  min=479  max=683
+  Mana:      avg=1761  min=205  max=3078
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=24  min=0  max=90
+  Spells:    avg=38  min=0  max=47
+  Dmg/Turn:  avg=876  min=0  max=9060
+  Dmg/5R:    avg=2523  min=0  max=7505
+  Dmg/10R:   avg=4631  min=0  max=15010
+  To Hit:    avg=+54  min=+45  max=+78
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3354)
+    Health:   Jack of all Trades (683)
+    Mana:     Vacuum Mage (3078)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (90)
+    Spells:   Jack of all Trades (47)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+78)
+
+LEVEL 137
+----------------------------------------
+  Vitality:  avg=1162  min=620  max=3378
+  Health:    avg=564  min=483  max=688
+  Mana:      avg=1774  min=207  max=3101
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=24  min=0  max=90
+  Spells:    avg=38  min=0  max=47
+  Dmg/Turn:  avg=876  min=0  max=9060
+  Dmg/5R:    avg=2598  min=0  max=7505
+  Dmg/10R:   avg=4753  min=0  max=15010
+  To Hit:    avg=+54  min=+45  max=+78
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=31
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3378)
+    Health:   Jack of all Trades (688)
+    Mana:     Vacuum Mage (3101)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (90)
+    Spells:   Jack of all Trades (47)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+78)
+
+LEVEL 138
+----------------------------------------
+  Vitality:  avg=1206  min=624  max=3403
+  Health:    avg=568  min=486  max=693
+  Mana:      avg=1788  min=208  max=3123
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=24  min=0  max=92
+  Spells:    avg=39  min=0  max=48
+  Dmg/Turn:  avg=877  min=0  max=9060
+  Dmg/5R:    avg=2473  min=0  max=7505
+  Dmg/10R:   avg=4604  min=0  max=15010
+  To Hit:    avg=+55  min=+46  max=+79
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3403)
+    Health:   Jack of all Trades (693)
+    Mana:     Vacuum Mage (3123)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (92)
+    Spells:   Jack of all Trades (48)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+79)
+
+LEVEL 139
+----------------------------------------
+  Vitality:  avg=1215  min=629  max=3427
+  Health:    avg=572  min=490  max=698
+  Mana:      avg=1801  min=210  max=3146
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=24  min=0  max=92
+  Spells:    avg=39  min=0  max=48
+  Dmg/Turn:  avg=877  min=0  max=9060
+  Dmg/5R:    avg=2462  min=0  max=7505
+  Dmg/10R:   avg=4524  min=0  max=15010
+  To Hit:    avg=+55  min=+46  max=+79
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3427)
+    Health:   Jack of all Trades (698)
+    Mana:     Vacuum Mage (3146)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (92)
+    Spells:   Jack of all Trades (48)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+79)
+
+LEVEL 140
+----------------------------------------
+  Vitality:  avg=1223  min=633  max=3452
+  Health:    avg=576  min=493  max=703
+  Mana:      avg=1814  min=211  max=3168
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=24  min=0  max=92
+  Spells:    avg=39  min=0  max=48
+  Dmg/Turn:  avg=877  min=0  max=9060
+  Dmg/5R:    avg=2536  min=0  max=7505
+  Dmg/10R:   avg=4706  min=0  max=15010
+  To Hit:    avg=+55  min=+46  max=+79
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=28
+  INT:       avg=17  min=8  max=24
+  CHA:       avg=12  min=8  max=19
+
+  BEST:
+    Vitality: Tanker Archer (3452)
+    Health:   Jack of all Trades (703)
+    Mana:     Vacuum Mage (3168)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (92)
+    Spells:   Jack of all Trades (48)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+79)
+
+LEVEL 141
+----------------------------------------
+  Vitality:  avg=1202  min=638  max=3476
+  Health:    avg=581  min=497  max=708
+  Mana:      avg=1827  min=213  max=3191
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=25  min=0  max=94
+  Spells:    avg=40  min=0  max=49
+  Dmg/Turn:  avg=876  min=0  max=9060
+  Dmg/5R:    avg=2535  min=0  max=7505
+  Dmg/10R:   avg=4634  min=0  max=15010
+  To Hit:    avg=+56  min=+47  max=+80
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3476)
+    Health:   Jack of all Trades (708)
+    Mana:     Vacuum Mage (3191)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (94)
+    Spells:   Jack of all Trades (49)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+80)
+
+LEVEL 142
+----------------------------------------
+  Vitality:  avg=1210  min=642  max=3501
+  Health:    avg=584  min=500  max=713
+  Mana:      avg=1839  min=214  max=3213
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=25  min=0  max=94
+  Spells:    avg=40  min=0  max=49
+  Dmg/Turn:  avg=876  min=0  max=9060
+  Dmg/5R:    avg=2574  min=0  max=7505
+  Dmg/10R:   avg=4713  min=0  max=15010
+  To Hit:    avg=+56  min=+47  max=+80
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3501)
+    Health:   Jack of all Trades (713)
+    Mana:     Vacuum Mage (3213)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (94)
+    Spells:   Jack of all Trades (49)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+80)
+
+LEVEL 143
+----------------------------------------
+  Vitality:  avg=1219  min=647  max=3525
+  Health:    avg=589  min=504  max=718
+  Mana:      avg=1853  min=216  max=3236
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=25  min=0  max=94
+  Spells:    avg=40  min=0  max=49
+  Dmg/Turn:  avg=876  min=0  max=9060
+  Dmg/5R:    avg=2544  min=0  max=7505
+  Dmg/10R:   avg=4576  min=0  max=15010
+  To Hit:    avg=+56  min=+47  max=+80
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=35
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3525)
+    Health:   Jack of all Trades (718)
+    Mana:     Vacuum Mage (3236)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (94)
+    Spells:   Jack of all Trades (49)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+80)
+
+LEVEL 144
+----------------------------------------
+  Vitality:  avg=1263  min=651  max=3695
+  Health:    avg=592  min=507  max=723
+  Mana:      avg=1865  min=217  max=3258
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=25  min=0  max=96
+  Spells:    avg=41  min=0  max=50
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2624  min=0  max=7505
+  Dmg/10R:   avg=4858  min=0  max=15010
+  To Hit:    avg=+57  min=+48  max=+81
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3695)
+    Health:   Jack of all Trades (723)
+    Mana:     Vacuum Mage (3258)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (96)
+    Spells:   Jack of all Trades (50)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+81)
+
+LEVEL 145
+----------------------------------------
+  Vitality:  avg=1272  min=656  max=3720
+  Health:    avg=597  min=511  max=728
+  Mana:      avg=1879  min=219  max=3281
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=25  min=0  max=96
+  Spells:    avg=41  min=0  max=50
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2522  min=0  max=7505
+  Dmg/10R:   avg=4429  min=0  max=15010
+  To Hit:    avg=+57  min=+48  max=+81
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=17  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3720)
+    Health:   Jack of all Trades (728)
+    Mana:     Vacuum Mage (3281)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (96)
+    Spells:   Jack of all Trades (50)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Poison Mage (+81)
+
+LEVEL 146
+----------------------------------------
+  Vitality:  avg=1280  min=660  max=3746
+  Health:    avg=601  min=514  max=733
+  Mana:      avg=1891  min=220  max=3303
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=25  min=0  max=96
+  Spells:    avg=41  min=0  max=50
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2588  min=0  max=7505
+  Dmg/10R:   avg=4730  min=0  max=15010
+  To Hit:    avg=+58  min=+48  max=+81
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3746)
+    Health:   Jack of all Trades (733)
+    Mana:     Vacuum Mage (3303)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (96)
+    Spells:   Jack of all Trades (50)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Necrotic Mage (+81)
+
+LEVEL 147
+----------------------------------------
+  Vitality:  avg=1301  min=665  max=3771
+  Health:    avg=605  min=518  max=738
+  Mana:      avg=1906  min=222  max=3326
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=26  min=0  max=98
+  Spells:    avg=42  min=0  max=51
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2598  min=0  max=7505
+  Dmg/10R:   avg=4715  min=0  max=15010
+  To Hit:    avg=+59  min=+49  max=+82
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3771)
+    Health:   Jack of all Trades (738)
+    Mana:     Vacuum Mage (3326)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (98)
+    Spells:   Jack of all Trades (51)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Necrotic Mage (+82)
+
+LEVEL 148
+----------------------------------------
+  Vitality:  avg=1310  min=669  max=3797
+  Health:    avg=609  min=521  max=743
+  Mana:      avg=1918  min=223  max=3348
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=26  min=0  max=98
+  Spells:    avg=42  min=0  max=51
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2545  min=0  max=7505
+  Dmg/10R:   avg=4529  min=0  max=15010
+  To Hit:    avg=+59  min=+49  max=+82
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3797)
+    Health:   Jack of all Trades (743)
+    Mana:     Vacuum Mage (3348)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (98)
+    Spells:   Jack of all Trades (51)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Necrotic Mage (+82)
+
+LEVEL 149
+----------------------------------------
+  Vitality:  avg=1319  min=674  max=3822
+  Health:    avg=613  min=525  max=748
+  Mana:      avg=1932  min=225  max=3371
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=26  min=0  max=98
+  Spells:    avg=42  min=0  max=51
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2600  min=0  max=7505
+  Dmg/10R:   avg=4790  min=0  max=15010
+  To Hit:    avg=+59  min=+49  max=+82
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=12  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3822)
+    Health:   Jack of all Trades (748)
+    Mana:     Vacuum Mage (3371)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (98)
+    Spells:   Jack of all Trades (51)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Necrotic Mage (+82)
+
+LEVEL 150
+----------------------------------------
+  Vitality:  avg=1327  min=678  max=3848
+  Health:    avg=617  min=528  max=753
+  Mana:      avg=1944  min=226  max=3393
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=27  min=0  max=100
+  Spells:    avg=43  min=0  max=52
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2590  min=0  max=7505
+  Dmg/10R:   avg=4675  min=0  max=15010
+  To Hit:    avg=+60  min=+50  max=+83
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3848)
+    Health:   Jack of all Trades (753)
+    Mana:     Vacuum Mage (3393)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (100)
+    Spells:   Jack of all Trades (52)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Necrotic Mage (+83)
+
+LEVEL 151
+----------------------------------------
+  Vitality:  avg=1336  min=683  max=3873
+  Health:    avg=622  min=532  max=758
+  Mana:      avg=1957  min=228  max=3416
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=27  min=0  max=100
+  Spells:    avg=43  min=0  max=52
+  Dmg/Turn:  avg=878  min=0  max=9060
+  Dmg/5R:    avg=2602  min=0  max=7505
+  Dmg/10R:   avg=4723  min=0  max=15010
+  To Hit:    avg=+60  min=+50  max=+83
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3873)
+    Health:   Jack of all Trades (758)
+    Mana:     Vacuum Mage (3416)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (100)
+    Spells:   Jack of all Trades (52)
+    Dmg:      Atomic Mage (9060)
+    Dmg/5R:   Miasma Mage (7505)
+    Dmg/10R:  Miasma Mage (15010)
+    To Hit:   Necrotic Mage (+83)
+
+LEVEL 152
+----------------------------------------
+  Vitality:  avg=1343  min=687  max=3899
+  Health:    avg=625  min=535  max=763
+  Mana:      avg=1970  min=229  max=3438
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=27  min=0  max=100
+  Spells:    avg=43  min=0  max=52
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2798  min=0  max=8255
+  Dmg/10R:   avg=5209  min=0  max=16511
+  To Hit:    avg=+60  min=+50  max=+83
+  STR:       avg=14  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=17  min=8  max=25
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3899)
+    Health:   Jack of all Trades (763)
+    Mana:     Vacuum Mage (3438)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (100)
+    Spells:   Jack of all Trades (52)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+83)
+
+LEVEL 153
+----------------------------------------
+  Vitality:  avg=1355  min=692  max=3924
+  Health:    avg=630  min=539  max=768
+  Mana:      avg=1985  min=231  max=3461
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=27  min=0  max=102
+  Spells:    avg=44  min=0  max=53
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2743  min=0  max=8255
+  Dmg/10R:   avg=5016  min=0  max=16511
+  To Hit:    avg=+61  min=+51  max=+84
+  STR:       avg=15  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=18  min=8  max=25
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3924)
+    Health:   Jack of all Trades (768)
+    Mana:     Vacuum Mage (3461)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (102)
+    Spells:   Jack of all Trades (53)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+84)
+
+LEVEL 154
+----------------------------------------
+  Vitality:  avg=1364  min=696  max=3950
+  Health:    avg=633  min=542  max=773
+  Mana:      avg=1997  min=232  max=3483
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=27  min=0  max=102
+  Spells:    avg=44  min=0  max=53
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2811  min=0  max=8255
+  Dmg/10R:   avg=5077  min=0  max=16511
+  To Hit:    avg=+61  min=+51  max=+84
+  STR:       avg=15  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=18  min=8  max=25
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3950)
+    Health:   Jack of all Trades (773)
+    Mana:     Vacuum Mage (3483)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (102)
+    Spells:   Jack of all Trades (53)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+84)
+
+LEVEL 155
+----------------------------------------
+  Vitality:  avg=1373  min=701  max=3975
+  Health:    avg=638  min=546  max=778
+  Mana:      avg=2011  min=234  max=3506
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=27  min=0  max=102
+  Spells:    avg=44  min=0  max=53
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2835  min=0  max=8255
+  Dmg/10R:   avg=5305  min=0  max=16511
+  To Hit:    avg=+61  min=+51  max=+84
+  STR:       avg=15  min=8  max=31
+  DEX:       avg=15  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=29
+  INT:       avg=18  min=8  max=25
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (3975)
+    Health:   Jack of all Trades (778)
+    Mana:     Vacuum Mage (3506)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (102)
+    Spells:   Jack of all Trades (53)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+84)
+
+LEVEL 156
+----------------------------------------
+  Vitality:  avg=1381  min=705  max=4001
+  Health:    avg=642  min=549  max=783
+  Mana:      avg=2044  min=235  max=3530
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=28  min=0  max=104
+  Spells:    avg=44  min=0  max=54
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2881  min=0  max=8255
+  Dmg/10R:   avg=5220  min=0  max=16511
+  To Hit:    avg=+62  min=+52  max=+85
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4001)
+    Health:   Jack of all Trades (783)
+    Mana:     Psychic Mage (3530)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (104)
+    Spells:   Jack of all Trades (54)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+85)
+
+LEVEL 157
+----------------------------------------
+  Vitality:  avg=1391  min=710  max=4026
+  Health:    avg=646  min=553  max=788
+  Mana:      avg=2057  min=237  max=3553
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=28  min=0  max=104
+  Spells:    avg=44  min=0  max=54
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2853  min=0  max=8255
+  Dmg/10R:   avg=5277  min=0  max=16511
+  To Hit:    avg=+62  min=+52  max=+85
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4026)
+    Health:   Jack of all Trades (788)
+    Mana:     Psychic Mage (3553)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (104)
+    Spells:   Jack of all Trades (54)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+85)
+
+LEVEL 158
+----------------------------------------
+  Vitality:  avg=1399  min=714  max=4052
+  Health:    avg=650  min=556  max=793
+  Mana:      avg=2070  min=238  max=3575
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=28  min=0  max=104
+  Spells:    avg=44  min=0  max=54
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2791  min=0  max=8255
+  Dmg/10R:   avg=5082  min=0  max=16511
+  To Hit:    avg=+62  min=+52  max=+85
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=32
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4052)
+    Health:   Jack of all Trades (793)
+    Mana:     Psychic Mage (3575)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (104)
+    Spells:   Jack of all Trades (54)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+85)
+
+LEVEL 159
+----------------------------------------
+  Vitality:  avg=1408  min=719  max=4077
+  Health:    avg=654  min=560  max=798
+  Mana:      avg=2088  min=240  max=3598
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=28  min=0  max=106
+  Spells:    avg=45  min=0  max=55
+  Dmg/Turn:  avg=964  min=0  max=9966
+  Dmg/5R:    avg=2856  min=0  max=8255
+  Dmg/10R:   avg=5182  min=0  max=16511
+  To Hit:    avg=+63  min=+53  max=+86
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=15  min=8  max=33
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4077)
+    Health:   Jack of all Trades (798)
+    Mana:     Psychic Mage (3598)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (106)
+    Spells:   Jack of all Trades (55)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+86)
+
+LEVEL 160
+----------------------------------------
+  Vitality:  avg=1417  min=723  max=4103
+  Health:    avg=658  min=563  max=803
+  Mana:      avg=2101  min=241  max=3620
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=28  min=0  max=106
+  Spells:    avg=45  min=0  max=55
+  Dmg/Turn:  avg=965  min=0  max=9966
+  Dmg/5R:    avg=2882  min=0  max=8255
+  Dmg/10R:   avg=5181  min=0  max=16511
+  To Hit:    avg=+63  min=+53  max=+86
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=15  min=8  max=33
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4103)
+    Health:   Jack of all Trades (803)
+    Mana:     Psychic Mage (3620)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (106)
+    Spells:   Jack of all Trades (55)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+86)
+
+LEVEL 161
+----------------------------------------
+  Vitality:  avg=1426  min=728  max=4128
+  Health:    avg=663  min=567  max=808
+  Mana:      avg=2114  min=243  max=3643
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=28  min=0  max=106
+  Spells:    avg=45  min=0  max=55
+  Dmg/Turn:  avg=965  min=0  max=9966
+  Dmg/5R:    avg=2841  min=0  max=8255
+  Dmg/10R:   avg=5138  min=0  max=16511
+  To Hit:    avg=+63  min=+53  max=+86
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=15  min=8  max=33
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4128)
+    Health:   Jack of all Trades (808)
+    Mana:     Psychic Mage (3643)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (106)
+    Spells:   Jack of all Trades (55)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+86)
+
+LEVEL 162
+----------------------------------------
+  Vitality:  avg=1455  min=732  max=4154
+  Health:    avg=667  min=570  max=813
+  Mana:      avg=2125  min=244  max=3665
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=29  min=0  max=108
+  Spells:    avg=46  min=0  max=56
+  Dmg/Turn:  avg=966  min=0  max=9966
+  Dmg/5R:    avg=2861  min=0  max=8255
+  Dmg/10R:   avg=5182  min=0  max=16511
+  To Hit:    avg=+65  min=+54  max=+92
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4154)
+    Health:   Jack of all Trades (813)
+    Mana:     Necrotic Mage (3665)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (108)
+    Spells:   Jack of all Trades (56)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+92)
+
+LEVEL 163
+----------------------------------------
+  Vitality:  avg=1464  min=737  max=4179
+  Health:    avg=672  min=574  max=818
+  Mana:      avg=2139  min=246  max=3688
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=29  min=0  max=108
+  Spells:    avg=46  min=0  max=56
+  Dmg/Turn:  avg=966  min=0  max=9966
+  Dmg/5R:    avg=2868  min=0  max=8255
+  Dmg/10R:   avg=5169  min=0  max=16511
+  To Hit:    avg=+65  min=+54  max=+92
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4179)
+    Health:   Jack of all Trades (818)
+    Mana:     Necrotic Mage (3688)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (108)
+    Spells:   Jack of all Trades (56)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+92)
+
+LEVEL 164
+----------------------------------------
+  Vitality:  avg=1473  min=741  max=4205
+  Health:    avg=676  min=577  max=823
+  Mana:      avg=2151  min=247  max=3710
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=29  min=0  max=108
+  Spells:    avg=46  min=0  max=56
+  Dmg/Turn:  avg=966  min=0  max=9966
+  Dmg/5R:    avg=2852  min=0  max=8255
+  Dmg/10R:   avg=5171  min=0  max=16511
+  To Hit:    avg=+65  min=+54  max=+92
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=36
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4205)
+    Health:   Jack of all Trades (823)
+    Mana:     Necrotic Mage (3710)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (108)
+    Spells:   Jack of all Trades (56)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+92)
+
+LEVEL 165
+----------------------------------------
+  Vitality:  avg=1484  min=746  max=4230
+  Health:    avg=680  min=581  max=828
+  Mana:      avg=2168  min=249  max=3733
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=29  min=0  max=110
+  Spells:    avg=47  min=0  max=57
+  Dmg/Turn:  avg=1006  min=0  max=9966
+  Dmg/5R:    avg=2777  min=0  max=8255
+  Dmg/10R:   avg=5250  min=0  max=16511
+  To Hit:    avg=+66  min=+55  max=+93
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4230)
+    Health:   Jack of all Trades (828)
+    Mana:     Necrotic Mage (3733)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (110)
+    Spells:   Jack of all Trades (57)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+93)
+
+LEVEL 166
+----------------------------------------
+  Vitality:  avg=1492  min=750  max=4256
+  Health:    avg=684  min=584  max=833
+  Mana:      avg=2181  min=250  max=3755
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=29  min=0  max=110
+  Spells:    avg=47  min=0  max=57
+  Dmg/Turn:  avg=1006  min=0  max=9966
+  Dmg/5R:    avg=2821  min=0  max=8255
+  Dmg/10R:   avg=5270  min=0  max=16511
+  To Hit:    avg=+66  min=+55  max=+93
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4256)
+    Health:   Jack of all Trades (833)
+    Mana:     Necrotic Mage (3755)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (110)
+    Spells:   Jack of all Trades (57)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+93)
+
+LEVEL 167
+----------------------------------------
+  Vitality:  avg=1502  min=755  max=4281
+  Health:    avg=688  min=588  max=838
+  Mana:      avg=2194  min=252  max=3778
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=29  min=0  max=110
+  Spells:    avg=47  min=0  max=57
+  Dmg/Turn:  avg=1006  min=0  max=9966
+  Dmg/5R:    avg=2833  min=0  max=8255
+  Dmg/10R:   avg=5166  min=0  max=16511
+  To Hit:    avg=+66  min=+55  max=+93
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=21  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4281)
+    Health:   Jack of all Trades (838)
+    Mana:     Necrotic Mage (3778)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (110)
+    Spells:   Jack of all Trades (57)
+    Dmg:      Atomic Mage (9966)
+    Dmg/5R:   Miasma Mage (8255)
+    Dmg/10R:  Miasma Mage (16511)
+    To Hit:   Necrotic Mage (+93)
+
+LEVEL 168
+----------------------------------------
+  Vitality:  avg=1512  min=759  max=4307
+  Health:    avg=692  min=591  max=843
+  Mana:      avg=2207  min=253  max=3800
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=30  min=0  max=112
+  Spells:    avg=48  min=0  max=58
+  Dmg/Turn:  avg=1099  min=0  max=10872
+  Dmg/5R:    avg=2936  min=0  max=9006
+  Dmg/10R:   avg=5480  min=0  max=18012
+  To Hit:    avg=+67  min=+56  max=+94
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4307)
+    Health:   Jack of all Trades (843)
+    Mana:     Necrotic Mage (3800)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (112)
+    Spells:   Jack of all Trades (58)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+94)
+
+LEVEL 169
+----------------------------------------
+  Vitality:  avg=1521  min=764  max=4332
+  Health:    avg=696  min=595  max=848
+  Mana:      avg=2221  min=255  max=3823
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=30  min=0  max=112
+  Spells:    avg=48  min=0  max=58
+  Dmg/Turn:  avg=1099  min=0  max=10872
+  Dmg/5R:    avg=2969  min=0  max=9006
+  Dmg/10R:   avg=5547  min=0  max=18012
+  To Hit:    avg=+67  min=+56  max=+94
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4332)
+    Health:   Jack of all Trades (848)
+    Mana:     Necrotic Mage (3823)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (112)
+    Spells:   Jack of all Trades (58)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+94)
+
+LEVEL 170
+----------------------------------------
+  Vitality:  avg=1530  min=768  max=4358
+  Health:    avg=700  min=598  max=853
+  Mana:      avg=2233  min=256  max=3845
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=30  min=0  max=112
+  Spells:    avg=48  min=0  max=58
+  Dmg/Turn:  avg=1099  min=0  max=10872
+  Dmg/5R:    avg=3053  min=0  max=9006
+  Dmg/10R:   avg=5700  min=0  max=18012
+  To Hit:    avg=+67  min=+56  max=+94
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=30
+  INT:       avg=18  min=8  max=26
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4358)
+    Health:   Jack of all Trades (853)
+    Mana:     Necrotic Mage (3845)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (112)
+    Spells:   Jack of all Trades (58)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+94)
+
+LEVEL 171
+----------------------------------------
+  Vitality:  avg=1539  min=773  max=4383
+  Health:    avg=705  min=602  max=858
+  Mana:      avg=2250  min=258  max=3868
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=30  min=0  max=114
+  Spells:    avg=49  min=0  max=59
+  Dmg/Turn:  avg=1108  min=0  max=10872
+  Dmg/5R:    avg=2948  min=0  max=9006
+  Dmg/10R:   avg=5533  min=0  max=18012
+  To Hit:    avg=+68  min=+57  max=+95
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=30
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4383)
+    Health:   Jack of all Trades (858)
+    Mana:     Necrotic Mage (3868)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (114)
+    Spells:   Jack of all Trades (59)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+95)
+
+LEVEL 172
+----------------------------------------
+  Vitality:  avg=1548  min=777  max=4409
+  Health:    avg=708  min=605  max=863
+  Mana:      avg=2263  min=259  max=3890
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=30  min=0  max=114
+  Spells:    avg=49  min=0  max=59
+  Dmg/Turn:  avg=1108  min=0  max=10872
+  Dmg/5R:    avg=2906  min=0  max=9006
+  Dmg/10R:   avg=5532  min=0  max=18012
+  To Hit:    avg=+68  min=+57  max=+95
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=30
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4409)
+    Health:   Jack of all Trades (863)
+    Mana:     Necrotic Mage (3890)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (114)
+    Spells:   Jack of all Trades (59)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+95)
+
+LEVEL 173
+----------------------------------------
+  Vitality:  avg=1557  min=782  max=4434
+  Health:    avg=713  min=609  max=868
+  Mana:      avg=2276  min=261  max=3913
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=30  min=0  max=114
+  Spells:    avg=49  min=0  max=59
+  Dmg/Turn:  avg=1108  min=0  max=10872
+  Dmg/5R:    avg=2911  min=0  max=9006
+  Dmg/10R:   avg=5442  min=0  max=18012
+  To Hit:    avg=+68  min=+57  max=+95
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=30
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4434)
+    Health:   Jack of all Trades (868)
+    Mana:     Necrotic Mage (3913)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (114)
+    Spells:   Jack of all Trades (59)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+95)
+
+LEVEL 174
+----------------------------------------
+  Vitality:  avg=1565  min=786  max=4460
+  Health:    avg=716  min=612  max=873
+  Mana:      avg=2285  min=262  max=3935
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=31  min=0  max=116
+  Spells:    avg=49  min=0  max=60
+  Dmg/Turn:  avg=1099  min=0  max=10872
+  Dmg/5R:    avg=2909  min=0  max=9006
+  Dmg/10R:   avg=5549  min=0  max=18012
+  To Hit:    avg=+69  min=+58  max=+96
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4460)
+    Health:   Jack of all Trades (873)
+    Mana:     Necrotic Mage (3935)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (116)
+    Spells:   Jack of all Trades (60)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+96)
+
+LEVEL 175
+----------------------------------------
+  Vitality:  avg=1575  min=791  max=4485
+  Health:    avg=721  min=616  max=878
+  Mana:      avg=2299  min=264  max=3958
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=31  min=0  max=116
+  Spells:    avg=49  min=0  max=60
+  Dmg/Turn:  avg=1099  min=0  max=10872
+  Dmg/5R:    avg=2982  min=0  max=9006
+  Dmg/10R:   avg=5477  min=0  max=18012
+  To Hit:    avg=+69  min=+58  max=+96
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4485)
+    Health:   Jack of all Trades (878)
+    Mana:     Necrotic Mage (3958)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (116)
+    Spells:   Jack of all Trades (60)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+96)
+
+LEVEL 176
+----------------------------------------
+  Vitality:  avg=1583  min=795  max=4511
+  Health:    avg=725  min=619  max=883
+  Mana:      avg=2312  min=265  max=3980
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=31  min=0  max=116
+  Spells:    avg=49  min=0  max=60
+  Dmg/Turn:  avg=1101  min=0  max=10872
+  Dmg/5R:    avg=3073  min=0  max=9006
+  Dmg/10R:   avg=5723  min=0  max=18012
+  To Hit:    avg=+69  min=+58  max=+96
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=20
+
+  BEST:
+    Vitality: Tanker Archer (4511)
+    Health:   Jack of all Trades (883)
+    Mana:     Necrotic Mage (3980)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (116)
+    Spells:   Jack of all Trades (60)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+96)
+
+LEVEL 177
+----------------------------------------
+  Vitality:  avg=1598  min=800  max=4536
+  Health:    avg=729  min=623  max=888
+  Mana:      avg=2329  min=267  max=4003
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=31  min=0  max=118
+  Spells:    avg=50  min=0  max=61
+  Dmg/Turn:  avg=1102  min=0  max=10872
+  Dmg/5R:    avg=2987  min=0  max=9006
+  Dmg/10R:   avg=5470  min=0  max=18012
+  To Hit:    avg=+70  min=+59  max=+97
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4536)
+    Health:   Jack of all Trades (888)
+    Mana:     Necrotic Mage (4003)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (118)
+    Spells:   Jack of all Trades (61)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+97)
+
+LEVEL 178
+----------------------------------------
+  Vitality:  avg=1607  min=804  max=4562
+  Health:    avg=733  min=626  max=893
+  Mana:      avg=2341  min=268  max=4025
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=31  min=0  max=118
+  Spells:    avg=50  min=0  max=61
+  Dmg/Turn:  avg=1106  min=0  max=10872
+  Dmg/5R:    avg=3081  min=0  max=9006
+  Dmg/10R:   avg=5769  min=0  max=18012
+  To Hit:    avg=+70  min=+59  max=+97
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4562)
+    Health:   Jack of all Trades (893)
+    Mana:     Necrotic Mage (4025)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (118)
+    Spells:   Jack of all Trades (61)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+97)
+
+LEVEL 179
+----------------------------------------
+  Vitality:  avg=1616  min=809  max=4587
+  Health:    avg=737  min=630  max=898
+  Mana:      avg=2355  min=270  max=4048
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=31  min=0  max=118
+  Spells:    avg=50  min=0  max=61
+  Dmg/Turn:  avg=1106  min=0  max=10872
+  Dmg/5R:    avg=3085  min=0  max=9006
+  Dmg/10R:   avg=5753  min=0  max=18012
+  To Hit:    avg=+70  min=+59  max=+97
+  STR:       avg=15  min=8  max=32
+  DEX:       avg=16  min=8  max=33
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=18  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4587)
+    Health:   Jack of all Trades (898)
+    Mana:     Necrotic Mage (4048)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (118)
+    Spells:   Jack of all Trades (61)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+97)
+
+LEVEL 180
+----------------------------------------
+  Vitality:  avg=1621  min=813  max=4613
+  Health:    avg=741  min=633  max=903
+  Mana:      avg=2368  min=271  max=4070
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=32  min=0  max=120
+  Spells:    avg=51  min=0  max=62
+  Dmg/Turn:  avg=1114  min=0  max=10872
+  Dmg/5R:    avg=3120  min=0  max=9006
+  Dmg/10R:   avg=5977  min=0  max=18012
+  To Hit:    avg=+71  min=+60  max=+98
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4613)
+    Health:   Jack of all Trades (903)
+    Mana:     Necrotic Mage (4070)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (120)
+    Spells:   Jack of all Trades (62)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+98)
+
+LEVEL 181
+----------------------------------------
+  Vitality:  avg=1630  min=818  max=4638
+  Health:    avg=746  min=637  max=908
+  Mana:      avg=2381  min=273  max=4093
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=32  min=0  max=120
+  Spells:    avg=51  min=0  max=62
+  Dmg/Turn:  avg=1114  min=0  max=10872
+  Dmg/5R:    avg=3090  min=0  max=9006
+  Dmg/10R:   avg=5778  min=0  max=18012
+  To Hit:    avg=+71  min=+60  max=+98
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4638)
+    Health:   Jack of all Trades (908)
+    Mana:     Necrotic Mage (4093)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (120)
+    Spells:   Jack of all Trades (62)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+98)
+
+LEVEL 182
+----------------------------------------
+  Vitality:  avg=1639  min=822  max=4664
+  Health:    avg=749  min=640  max=913
+  Mana:      avg=2394  min=274  max=4115
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=32  min=0  max=120
+  Spells:    avg=51  min=0  max=62
+  Dmg/Turn:  avg=1114  min=0  max=10872
+  Dmg/5R:    avg=3095  min=0  max=9006
+  Dmg/10R:   avg=5861  min=0  max=18012
+  To Hit:    avg=+71  min=+60  max=+98
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=18  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4664)
+    Health:   Jack of all Trades (913)
+    Mana:     Necrotic Mage (4115)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (120)
+    Spells:   Jack of all Trades (62)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+98)
+
+LEVEL 183
+----------------------------------------
+  Vitality:  avg=1654  min=827  max=4689
+  Health:    avg=754  min=644  max=918
+  Mana:      avg=2411  min=276  max=4138
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=32  min=0  max=122
+  Spells:    avg=52  min=0  max=63
+  Dmg/Turn:  avg=1117  min=0  max=10872
+  Dmg/5R:    avg=3098  min=0  max=9006
+  Dmg/10R:   avg=5781  min=0  max=18012
+  To Hit:    avg=+72  min=+61  max=+99
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4689)
+    Health:   Jack of all Trades (918)
+    Mana:     Necrotic Mage (4138)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (122)
+    Spells:   Jack of all Trades (63)
+    Dmg:      Atomic Mage (10872)
+    Dmg/5R:   Miasma Mage (9006)
+    Dmg/10R:  Miasma Mage (18012)
+    To Hit:   Necrotic Mage (+99)
+
+LEVEL 184
+----------------------------------------
+  Vitality:  avg=1662  min=831  max=4715
+  Health:    avg=757  min=647  max=923
+  Mana:      avg=2424  min=277  max=4160
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=32  min=0  max=122
+  Spells:    avg=52  min=0  max=63
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3230  min=0  max=9756
+  Dmg/10R:   avg=6211  min=0  max=19512
+  To Hit:    avg=+72  min=+61  max=+99
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4715)
+    Health:   Jack of all Trades (923)
+    Mana:     Necrotic Mage (4160)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (122)
+    Spells:   Jack of all Trades (63)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+99)
+
+LEVEL 185
+----------------------------------------
+  Vitality:  avg=1672  min=836  max=4740
+  Health:    avg=762  min=651  max=928
+  Mana:      avg=2437  min=279  max=4183
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=32  min=0  max=122
+  Spells:    avg=52  min=0  max=63
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3212  min=0  max=9756
+  Dmg/10R:   avg=6110  min=0  max=19512
+  To Hit:    avg=+72  min=+61  max=+99
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=37
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4740)
+    Health:   Jack of all Trades (928)
+    Mana:     Necrotic Mage (4183)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (122)
+    Spells:   Jack of all Trades (63)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+99)
+
+LEVEL 186
+----------------------------------------
+  Vitality:  avg=1688  min=840  max=4953
+  Health:    avg=766  min=654  max=933
+  Mana:      avg=2498  min=280  max=4390
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=33  min=0  max=124
+  Spells:    avg=53  min=0  max=64
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3241  min=0  max=9756
+  Dmg/10R:   avg=6255  min=0  max=19512
+  To Hit:    avg=+73  min=+62  max=+100
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4953)
+    Health:   Jack of all Trades (933)
+    Mana:     Vacuum Mage (4390)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (124)
+    Spells:   Jack of all Trades (64)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+100)
+
+LEVEL 187
+----------------------------------------
+  Vitality:  avg=1697  min=845  max=4979
+  Health:    avg=770  min=658  max=938
+  Mana:      avg=2512  min=282  max=4414
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=33  min=0  max=124
+  Spells:    avg=53  min=0  max=64
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3352  min=0  max=9756
+  Dmg/10R:   avg=6435  min=0  max=19512
+  To Hit:    avg=+73  min=+62  max=+100
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (4979)
+    Health:   Jack of all Trades (938)
+    Mana:     Vacuum Mage (4414)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (124)
+    Spells:   Jack of all Trades (64)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+100)
+
+LEVEL 188
+----------------------------------------
+  Vitality:  avg=1706  min=849  max=5006
+  Health:    avg=774  min=661  max=943
+  Mana:      avg=2524  min=283  max=4437
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=33  min=0  max=124
+  Spells:    avg=53  min=0  max=64
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3366  min=0  max=9756
+  Dmg/10R:   avg=6338  min=0  max=19512
+  To Hit:    avg=+73  min=+62  max=+100
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5006)
+    Health:   Jack of all Trades (943)
+    Mana:     Vacuum Mage (4437)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (124)
+    Spells:   Jack of all Trades (64)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+100)
+
+LEVEL 189
+----------------------------------------
+  Vitality:  avg=1713  min=854  max=5032
+  Health:    avg=778  min=665  max=948
+  Mana:      avg=2542  min=285  max=4461
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=34  min=0  max=126
+  Spells:    avg=54  min=0  max=65
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3371  min=0  max=9756
+  Dmg/10R:   avg=6388  min=0  max=19512
+  To Hit:    avg=+74  min=+63  max=+101
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5032)
+    Health:   Jack of all Trades (948)
+    Mana:     Vacuum Mage (4461)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (126)
+    Spells:   Jack of all Trades (65)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+101)
+
+LEVEL 190
+----------------------------------------
+  Vitality:  avg=1722  min=858  max=5059
+  Health:    avg=782  min=668  max=953
+  Mana:      avg=2555  min=286  max=4484
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=34  min=0  max=126
+  Spells:    avg=54  min=0  max=65
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3344  min=0  max=9756
+  Dmg/10R:   avg=6302  min=0  max=19512
+  To Hit:    avg=+74  min=+63  max=+101
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5059)
+    Health:   Jack of all Trades (953)
+    Mana:     Vacuum Mage (4484)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (126)
+    Spells:   Jack of all Trades (65)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+101)
+
+LEVEL 191
+----------------------------------------
+  Vitality:  avg=1731  min=863  max=5085
+  Health:    avg=787  min=672  max=958
+  Mana:      avg=2569  min=288  max=4508
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=34  min=0  max=126
+  Spells:    avg=54  min=0  max=65
+  Dmg/Turn:  avg=1208  min=0  max=11778
+  Dmg/5R:    avg=3300  min=0  max=9756
+  Dmg/10R:   avg=6328  min=0  max=19512
+  To Hit:    avg=+74  min=+63  max=+101
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=16  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5085)
+    Health:   Jack of all Trades (958)
+    Mana:     Vacuum Mage (4508)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (126)
+    Spells:   Jack of all Trades (65)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+101)
+
+LEVEL 192
+----------------------------------------
+  Vitality:  avg=1734  min=867  max=5112
+  Health:    avg=790  min=675  max=963
+  Mana:      avg=2580  min=289  max=4531
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=34  min=0  max=128
+  Spells:    avg=55  min=0  max=66
+  Dmg/Turn:  avg=1215  min=0  max=11778
+  Dmg/5R:    avg=3316  min=0  max=9756
+  Dmg/10R:   avg=6319  min=0  max=19512
+  To Hit:    avg=+75  min=+64  max=+102
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5112)
+    Health:   Jack of all Trades (963)
+    Mana:     Vacuum Mage (4531)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (128)
+    Spells:   Jack of all Trades (66)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+102)
+
+LEVEL 193
+----------------------------------------
+  Vitality:  avg=1744  min=872  max=5138
+  Health:    avg=795  min=679  max=968
+  Mana:      avg=2594  min=291  max=4555
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=34  min=0  max=128
+  Spells:    avg=55  min=0  max=66
+  Dmg/Turn:  avg=1215  min=0  max=11778
+  Dmg/5R:    avg=3289  min=0  max=9756
+  Dmg/10R:   avg=6225  min=0  max=19512
+  To Hit:    avg=+75  min=+64  max=+102
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5138)
+    Health:   Jack of all Trades (968)
+    Mana:     Vacuum Mage (4555)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (128)
+    Spells:   Jack of all Trades (66)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+102)
+
+LEVEL 194
+----------------------------------------
+  Vitality:  avg=1752  min=876  max=5165
+  Health:    avg=798  min=682  max=973
+  Mana:      avg=2607  min=292  max=4578
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=34  min=0  max=128
+  Spells:    avg=55  min=0  max=66
+  Dmg/Turn:  avg=1225  min=0  max=11778
+  Dmg/5R:    avg=3427  min=0  max=9756
+  Dmg/10R:   avg=6566  min=0  max=19512
+  To Hit:    avg=+75  min=+64  max=+102
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5165)
+    Health:   Jack of all Trades (973)
+    Mana:     Vacuum Mage (4578)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (128)
+    Spells:   Jack of all Trades (66)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+102)
+
+LEVEL 195
+----------------------------------------
+  Vitality:  avg=1766  min=881  max=5191
+  Health:    avg=803  min=686  max=978
+  Mana:      avg=2622  min=294  max=4602
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=35  min=0  max=130
+  Spells:    avg=55  min=0  max=67
+  Dmg/Turn:  avg=1223  min=0  max=11778
+  Dmg/5R:    avg=3343  min=0  max=9756
+  Dmg/10R:   avg=6395  min=0  max=19512
+  To Hit:    avg=+76  min=+65  max=+103
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5191)
+    Health:   Jack of all Trades (978)
+    Mana:     Vacuum Mage (4602)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (130)
+    Spells:   Jack of all Trades (67)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+103)
+
+LEVEL 196
+----------------------------------------
+  Vitality:  avg=1774  min=885  max=5218
+  Health:    avg=807  min=689  max=983
+  Mana:      avg=2635  min=295  max=4625
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=35  min=0  max=130
+  Spells:    avg=55  min=0  max=67
+  Dmg/Turn:  avg=1223  min=0  max=11778
+  Dmg/5R:    avg=3426  min=0  max=9756
+  Dmg/10R:   avg=6401  min=0  max=19512
+  To Hit:    avg=+76  min=+65  max=+103
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5218)
+    Health:   Jack of all Trades (983)
+    Mana:     Vacuum Mage (4625)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (130)
+    Spells:   Jack of all Trades (67)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+103)
+
+LEVEL 197
+----------------------------------------
+  Vitality:  avg=1784  min=890  max=5244
+  Health:    avg=811  min=693  max=988
+  Mana:      avg=2649  min=297  max=4649
+  AC:        avg=16  min=10  max=55
+  Feats:     avg=35  min=0  max=130
+  Spells:    avg=55  min=0  max=67
+  Dmg/Turn:  avg=1223  min=0  max=11778
+  Dmg/5R:    avg=3434  min=0  max=9756
+  Dmg/10R:   avg=6506  min=0  max=19512
+  To Hit:    avg=+76  min=+65  max=+103
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=13  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5244)
+    Health:   Jack of all Trades (988)
+    Mana:     Vacuum Mage (4649)
+    AC:       Tanker (55)
+    Feats:    Jack of all Trades (130)
+    Spells:   Jack of all Trades (67)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+103)
+
+LEVEL 198
+----------------------------------------
+  Vitality:  avg=1847  min=894  max=5271
+  Health:    avg=815  min=696  max=993
+  Mana:      avg=2662  min=298  max=4672
+  AC:        avg=16  min=10  max=56
+  Feats:     avg=35  min=0  max=132
+  Spells:    avg=56  min=0  max=68
+  Dmg/Turn:  avg=1223  min=0  max=11778
+  Dmg/5R:    avg=3306  min=0  max=9756
+  Dmg/10R:   avg=6291  min=0  max=19512
+  To Hit:    avg=+77  min=+66  max=+104
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=14  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5271)
+    Health:   Jack of all Trades (993)
+    Mana:     Vacuum Mage (4672)
+    AC:       Tanker (56)
+    Feats:    Jack of all Trades (132)
+    Spells:   Jack of all Trades (68)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+104)
+
+LEVEL 199
+----------------------------------------
+  Vitality:  avg=1857  min=899  max=5297
+  Health:    avg=819  min=700  max=998
+  Mana:      avg=2676  min=300  max=4696
+  AC:        avg=16  min=10  max=56
+  Feats:     avg=35  min=0  max=132
+  Spells:    avg=56  min=0  max=68
+  Dmg/Turn:  avg=1223  min=0  max=11778
+  Dmg/5R:    avg=3374  min=0  max=9756
+  Dmg/10R:   avg=6466  min=0  max=19512
+  To Hit:    avg=+77  min=+66  max=+104
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=14  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5297)
+    Health:   Jack of all Trades (998)
+    Mana:     Vacuum Mage (4696)
+    AC:       Tanker (56)
+    Feats:    Jack of all Trades (132)
+    Spells:   Jack of all Trades (68)
+    Dmg:      Atomic Mage (11778)
+    Dmg/5R:   Miasma Mage (9756)
+    Dmg/10R:  Miasma Mage (19512)
+    To Hit:   Necrotic Mage (+104)
+
+LEVEL 200
+----------------------------------------
+  Vitality:  avg=1866  min=903  max=5324
+  Health:    avg=823  min=703  max=1003
+  Mana:      avg=2689  min=301  max=4719
+  AC:        avg=16  min=10  max=56
+  Feats:     avg=35  min=0  max=132
+  Spells:    avg=56  min=0  max=68
+  Dmg/Turn:  avg=1315  min=0  max=12684
+  Dmg/5R:    avg=3553  min=0  max=10507
+  Dmg/10R:   avg=6862  min=0  max=21014
+  To Hit:    avg=+77  min=+66  max=+104
+  STR:       avg=15  min=8  max=33
+  DEX:       avg=17  min=8  max=34
+  CON:       avg=19  min=8  max=38
+  WIS:       avg=22  min=8  max=31
+  INT:       avg=19  min=8  max=27
+  CHA:       avg=14  min=8  max=21
+
+  BEST:
+    Vitality: Tanker Archer (5324)
+    Health:   Jack of all Trades (1003)
+    Mana:     Vacuum Mage (4719)
+    AC:       Tanker (56)
+    Feats:    Jack of all Trades (132)
+    Spells:   Jack of all Trades (68)
+    Dmg:      Atomic Mage (12684)
+    Dmg/5R:   Miasma Mage (10507)
+    Dmg/10R:  Miasma Mage (21014)
+    To Hit:   Necrotic Mage (+104)
 

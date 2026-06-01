@@ -29,6 +29,7 @@ sys.path.insert(0, SCRIPT_DIR)
 
 from lib.config import load_settings
 from lib.gear import resolve_gear
+from generator import generate_build
 
 ALL_STATS = [
     'Vitality', 'Health', 'Mana', 'AC', 'Feats', 'Spells', 'To Hit',
@@ -161,7 +162,20 @@ def extract_build_data(settings, results):
     return build_data, levels
 
 
+def _gen_one_build(args):
+    build_name, build_config, settings, levels, tier_dict, tier_label = args
+    if not build_config.get('generate', True):
+        return build_name, None
+    gear_override = resolve_gear(build_config, tier_dict) if 'gear' in build_config else None
+    results = generate_build(build_name, build_config, settings, levels, gear_override, tier_label)
+    bd, _ = extract_build_data(settings, results)
+    flattened = {lvl: bd[lvl] for lvl in sorted(bd.keys())}
+    return build_name, flattened
+
+
 def collect_all_data(settings, progress_callback=None):
+    from concurrent.futures import ProcessPoolExecutor, as_completed
+    import multiprocessing
     script_dir = SCRIPT_DIR
     base_output_dir = os.path.join(script_dir, "output")
     os.makedirs(base_output_dir, exist_ok=True)
@@ -175,7 +189,7 @@ def collect_all_data(settings, progress_callback=None):
 
     all_collected = OrderedDict()
     total_builds = sum(1 for b in settings['builds'].values() if b.get('generate', True)) * len(gear_tiers)
-    completed = 0
+    workers = min(32, multiprocessing.cpu_count() or 8)
 
     for tier in gear_tiers:
         tier_name = tier['name']
@@ -183,28 +197,26 @@ def collect_all_data(settings, progress_callback=None):
         tier_dir = os.path.join(base_output_dir, tier_name)
         os.makedirs(tier_dir, exist_ok=True)
 
+        builds = [(name, cfg, settings, levels, tier, tier_label)
+                  for name, cfg in settings['builds'].items()]
+        completed = 0
+
         tier_data = OrderedDict()
         all_level_data = []
 
-        for build_name, build_config in settings['builds'].items():
-            if not build_config.get('generate', True):
-                continue
+        with ProcessPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(_gen_one_build, args): args[0] for args in builds}
+            for future in as_completed(futures):
+                name, data = future.result()
+                if data is not None:
+                    tier_data[name] = data
+                    all_level_data.append((name, data))
+                completed += 1
+                if progress_callback:
+                    progress_callback(completed, total_builds, f"Generating {name} ({tier_label})...")
 
-            if progress_callback:
-                progress_callback(completed, total_builds, f"Generating {build_name} ({tier_label})...")
-
-            gear_override = resolve_gear(build_config, tier) if 'gear' in build_config else None
-
-            from generator import generate_build
-            results = generate_build(build_name, build_config, settings, levels, gear_override, tier_label)
-            build_data, build_levels = extract_build_data(settings, results)
-
-            flattened = {}
-            for lvl in sorted(build_data.keys()):
-                flattened[lvl] = build_data[lvl]
-            tier_data[build_name] = flattened
-            all_level_data.append((build_name, flattened))
-            completed += 1
+        tier_data = OrderedDict(sorted(tier_data.items()))
+        all_level_data = sorted(all_level_data, key=lambda x: x[0])
 
         all_levels = sorted(set(
             lvl for _, bd in all_level_data for lvl in bd.keys()
@@ -1681,6 +1693,10 @@ class CharacterManagerGUI:
                 self.tier_var.set(tiers[0])
             else:
                 self.tier_var.set(self.current_tier)
+            max_lvl = max(lvl for td in data.values() for build in td.values() for lvl in build.keys() if build != '__average__')
+            self.level_slider.configure(to=max_lvl)
+            self.level_slider.set(max_lvl)
+            self.level_slider_label.config(text=str(max_lvl))
             self._build_enabled = saved_build_enabled
             self._line_visible = saved_line_visible
             self._update_graph()
