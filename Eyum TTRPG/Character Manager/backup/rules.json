@@ -16,10 +16,10 @@
     "skill_points": 2,
     "vit_dice_count": 1,
     "hp_dice_count": 1,
-    "mana_dice_count": 1
+    "mana_dice_count": 1,
+    "skill_tree_point": true
   },
   "every_2_levels": {
-    "skill_tree_point": true,
     "if_physical": {
       "flat_vit": 2,
       "flat_hp": 1

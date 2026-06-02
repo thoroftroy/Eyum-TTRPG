@@ -48,7 +48,7 @@ def apply_paths(char, target_level, build_config, settings):
     if not path_list:
         return
 
-    available_stp = 1 + (target_level // 2)
+    available_stp = target_level
     if getattr(char, 'skill_tree_level_bonus', False):
         available_stp += max(0, (target_level - 1) // 2)
 

@@ -213,7 +213,7 @@ def score_archetype_for_build(arch_name, arch_data, build_config):
 
 
 def select_archetypes(build_config, settings, target_level):
-    available_stp = 1 + (target_level // 2)
+    available_stp = target_level
     path_rules = settings['paths']
     preferred = build_config.get('preferred_paths', list(path_rules.keys()))
     affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
