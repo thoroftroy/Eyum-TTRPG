@@ -120,7 +120,11 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     r1_fr = fr_die_avg * r1_hc
     r1_adv_dmg = char.ranged_adv_damage_stacks * 3.5 * r1_hc if use_adv_r1 else 0
 
-    if not (magic_dmg > best_phys_dmg and mana_cost > 0):
+    magic_dmg_per_cast = dmg_per_turn.get('magic_dmg', 0)
+    if magic_dmg_per_cast <= 0 and magic_dmg > 0:
+        magic_dmg_per_cast = magic_dmg
+
+    if not (magic_dmg > best_phys_dmg and magic_dmg_per_cast > 0):
         round_1_dmg = (atk_per_round + bonus_attacks) * (r1_phys + r1_fr + r1_adv_dmg)
         rest_phys = phys_per_hit * (perm_hc / hit_chance) if perm_adv and hit_chance > 0 else phys_per_hit
         rest_adv_dmg = char.ranged_adv_damage_stacks * 3.5 * perm_hc if perm_adv else 0
@@ -128,6 +132,13 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
         return {'total': int(round_1_dmg + rest_dmg),
                 'mana_start': 0, 'mana_end': 0,
                 'rounds_casting': 0,
+                'mana_per_round': 0}
+
+    if mana_cost <= 0:
+        total_dmg = int(atk_per_round * magic_dmg_per_cast * num_rounds)
+        return {'total': total_dmg,
+                'mana_start': 0, 'mana_end': 0,
+                'rounds_casting': num_rounds,
                 'mana_per_round': 0}
 
     max_mana = char.mana_max(r)

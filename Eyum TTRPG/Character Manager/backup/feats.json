@@ -359,15 +359,17 @@
   },
   "Forbidden Knowledge": {
     "type": "Passive",
-    "effects": {},
+    "effects": {
+      "generic_affinity": 3
+    },
     "prereq": {
       "path": {
         "Occultist": 1
       }
     },
-    "value": 0,
+    "value": 3,
     "repeatable": false,
-    "description": "+5 Arcana, -2 Social Insight."
+    "description": "+5 Arcana, +3 Generic Affinity, -2 Social Insight."
   },
   "Darkness Seer": {
     "type": "Passive",

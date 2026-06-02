@@ -218,31 +218,71 @@ def select_archetypes(build_config, settings, target_level):
     preferred = build_config.get('preferred_paths', list(path_rules.keys()))
     affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
     primary_aff = build_config.get('primary_affinity')
+    is_physical = build_config.get('has_physical', False)
+    is_magical = build_config.get('has_magical', False)
 
-    needs_generic = False
-    generic_element_arch = None
-    if primary_aff and primary_aff in affinity_prereqs:
-        prereq = affinity_prereqs[primary_aff]
-        def _reqs_need_generic(reqs):
-            needs = reqs.get('needs', {})
-            all_of = needs.get('all_of', [])
-            if 'Generic' in all_of:
-                return True
-            needs_all = reqs.get('needs_all', [])
-            for tier in needs_all:
-                if 'Generic' in tier.get('affinities', []):
-                    return True
-            return False
-        needs_generic = _reqs_need_generic(prereq)
+    primary_arch_map = {
+        'Fire': 'Pyromancer', 'Earth': 'Geomancer', 'Water': 'Tidemaster', 'Air': 'Windwalker',
+        'Radiant': 'Priest', 'Necrotic': 'Necromancer', 'Psychic': 'Psychic',
+        'Infernal': 'Pyromancer', 'Metal': 'Geomancer', 'Torrent': 'Tidemaster',
+        'Thunder': 'Windwalker', 'Mirage': 'Priest', 'Vacuum': 'Necromancer',
+        'Warp': 'Psychic', 'Void': 'Windwalker', 'Quake': 'Geomancer',
+        'Obsidian': 'Geomancer', 'Corruption': 'Geomancer',
+        'Frostfire': 'Windwalker', 'Glacial': 'Windwalker', 'Storm': 'Windwalker',
+        'Lightning': 'Pyromancer', 'Steam': 'Tidemaster', 'Magma': 'Pyromancer',
+        'Ice/Cold': 'Tidemaster', 'Dust': 'Geomancer', 'Mud': 'Geomancer',
+        'Nova': 'Pyromancer', 'Solar': 'Priest', 'Starlight': 'Priest',
+        'Hallowed': 'Priest', 'Cursed': 'Necromancer',
+        'Ash': 'Pyromancer', 'Blight': 'Necromancer', 'Poison': 'Necromancer', 'Toxin': 'Windwalker',
+        'Bloodfire': 'Pyromancer', 'Shatter': 'Psychic', 'Sorrow': 'Psychic', 'Chaos': 'Psychic',
+        'Tremor': 'Psychic', 'Deluge': 'Psychic', 'Miasma': 'Necromancer', 'Gel': 'Necromancer',
+        'Atomic': 'Priest', 'Eldritch': 'Magician',
+    }
+    primary_arch = primary_arch_map.get(primary_aff)
 
-        generic_element_map = {
-            'Infernal': 'Pyromancer', 'Metal': 'Geomancer', 'Torrent': 'Tidemaster',
-            'Thunder': 'Windwalker', 'Mirage': 'Priest', 'Vacuum': 'Necromancer',
-            'Warp': 'Psychic', 'Void': 'Windwalker', 'Quake': 'Geomancer',
-            'Obsidian': 'Geomancer', 'Corruption': 'Geomancer',
-            'Frostfire': 'Windwalker', 'Glacial': 'Windwalker', 'Storm': 'Windwalker'
-        }
-        generic_element_arch = generic_element_map.get(primary_aff)
+    element_arch_map = {
+        'Fire': 'Pyromancer', 'Earth': 'Geomancer', 'Water': 'Tidemaster', 'Air': 'Windwalker',
+        'Radiant': 'Priest', 'Necrotic': 'Necromancer', 'Psychic': 'Psychic',
+    }
+
+    needed_archs = set()
+    if primary_arch:
+        needed_archs.add(primary_arch)
+    if is_magical:
+        needed_archs.add('Magician')
+
+    if primary_aff:
+        def _collect_prereq_affs(aff, visited=None):
+            if visited is None: visited = set()
+            if aff in visited: return set()
+            visited.add(aff)
+            result = set()
+            if aff not in affinity_prereqs:
+                return result
+            pr = affinity_prereqs[aff]
+            needs_all = pr.get('needs_all', [])
+            if needs_all:
+                for tier in needs_all:
+                    for a in tier.get('affinities', []):
+                        result.add(a)
+                        result |= _collect_prereq_affs(a, visited)
+            else:
+                needs = pr.get('needs', {})
+                all_of = needs.get('all_of', [])
+                any_of = needs.get('any_of', [])
+                if all_of:
+                    for a in all_of:
+                        result.add(a)
+                        result |= _collect_prereq_affs(a, visited)
+                elif any_of:
+                    result.add(any_of[0])
+            return result
+
+        all_prereqs = _collect_prereq_affs(primary_aff)
+        for aff in all_prereqs:
+            arch = element_arch_map.get(aff)
+            if arch:
+                needed_archs.add(arch)
 
     arch_scores = []
     for path_name in preferred:
@@ -251,10 +291,8 @@ def select_archetypes(build_config, settings, target_level):
         for arch_name, arch_data in archs.items():
             score = score_archetype_for_build(arch_name, arch_data, build_config)
             base_tiers = sum(1 for k in arch_data if float(k) == int(float(k)) and not arch_data[k].get('repeatable', False))
-            if needs_generic and arch_name == 'Magician':
-                score += 500
-            if generic_element_arch and arch_name == generic_element_arch:
-                score += 400
+            if arch_name in needed_archs:
+                score += 2000
             arch_scores.append((score, path_name, arch_name, base_tiers))
 
     reverse_sort = not build_config.get('worst', False)

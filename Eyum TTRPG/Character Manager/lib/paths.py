@@ -110,10 +110,10 @@ def apply_paths(char, target_level, build_config, settings):
 
         # Apply repeatable sub-levels with remaining points
         remaining = share - achievements
-        if remaining > 0 and repeatables:
+        if remaining > 0:
             repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
             for key in repeat_keys:
-                max_count = repeatables.get(key, 0)
+                max_count = repeatables.get(key, 999)
                 already = repeat_taken_global.get((path_name, arch_name, key), 0)
                 can_take = min(remaining, max_count - already)
                 for _ in range(can_take):
@@ -123,9 +123,9 @@ def apply_paths(char, target_level, build_config, settings):
                 achievements += can_take
 
         remaining = share - achievements
-        if remaining > 0 and repeatables:
+        if remaining > 0:
             for key in repeat_keys:
-                max_count = repeatables.get(key, 0)
+                max_count = repeatables.get(key, 999)
                 already = repeat_taken_global.get((path_name, arch_name, key), 0)
                 can_take = min(remaining, max_count - already)
                 for _ in range(can_take):
@@ -149,14 +149,13 @@ def apply_paths(char, target_level, build_config, settings):
         path_remaining = share - achieved
         if path_remaining > 0:
             all_remaining += path_remaining
-        if repeatables:
-            arch_rule = paths_rules.get(path_name, {}).get('archetypes', {}).get(arch_name, {})
-            sorted_keys = sorted(arch_rule.keys(), key=lambda k: float(k))
-            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
-            for key in repeat_keys:
-                max_count = repeatables.get(key, 0)
-                achieved_count = repeat_taken_global.get((path_name, arch_name, key), 0)
-                path_repeat_data.append((path_name, arch_name, key, max_count, arch_rule[key], achieved_count))
+        arch_rule = paths_rules.get(path_name, {}).get('archetypes', {}).get(arch_name, {})
+        sorted_keys = sorted(arch_rule.keys(), key=lambda k: float(k))
+        repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
+        for key in repeat_keys:
+            max_count = repeatables.get(key, 999)
+            achieved_count = repeat_taken_global.get((path_name, arch_name, key), 0)
+            path_repeat_data.append((path_name, arch_name, key, max_count, arch_rule[key], achieved_count))
 
     if all_remaining > 0 and path_repeat_data:
         path_repeat_data.sort(key=lambda x: _repeatable_priority(x[4]), reverse=True)

@@ -1,143 +1,155 @@
 EYUM TTRPG - BALANCE SUMMARY & RECOMMENDATIONS
 ============================================================
 
-Generated from analysis of 100 levels across 4 gear tiers and 98 builds.
+Generated from analysis of 200 levels across 4 gear tiers and 110 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Atomic Mage       : 1456 category-level wins (2.8%)
-  Solar Mage        : 1365 category-level wins (2.7%)
-  Vacuum Mage       : 1339 category-level wins (2.6%)
-  Blight Mage       : 1338 category-level wins (2.6%)
-  Toxin Mage        : 1330 category-level wins (2.6%)
-  Poison Mage       : 1330 category-level wins (2.6%)
-  Starlight Mage    : 1319 category-level wins (2.6%)
-  Tanker Archer     : 1169 category-level wins (2.3%)
-  Miasma Mage       : 1165 category-level wins (2.3%)
-  Corruption Mage   : 1151 category-level wins (2.3%)
-  Gel Mage          : 1147 category-level wins (2.2%)
-  Obsidian Mage     : 1145 category-level wins (2.2%)
-  Jack of all Trades: 1123 category-level wins (2.2%)
-  Radiant Mage      : 1093 category-level wins (2.1%)
-  Fire Mage         : 1018 category-level wins (2.0%)
-  Tanker            : 1008 category-level wins (2.0%)
-  Psychic Mage      : 978 category-level wins (1.9%)
-  Bloodfire Mage    : 976 category-level wins (1.9%)
-  Nova Mage         : 965 category-level wins (1.9%)
-  Earth Mage        : 943 category-level wins (1.8%)
-  Infernal Mage     : 929 category-level wins (1.8%)
-  Magma Mage        : 924 category-level wins (1.8%)
-  Air Mage          : 923 category-level wins (1.8%)
-  Water Mage        : 923 category-level wins (1.8%)
-  Steam Mage        : 921 category-level wins (1.8%)
-  Ash Mage          : 914 category-level wins (1.8%)
-  Warp Mage         : 913 category-level wins (1.8%)
-  Shatter Mage      : 913 category-level wins (1.8%)
-  Lightning Mage    : 913 category-level wins (1.8%)
-  Chaos Mage        : 913 category-level wins (1.8%)
-  Thunder Mage      : 913 category-level wins (1.8%)
-  Ice/Cold Mage     : 913 category-level wins (1.8%)
-  Metal Mage        : 909 category-level wins (1.8%)
-  Torrent Mage      : 909 category-level wins (1.8%)
-  Mirage Mage       : 909 category-level wins (1.8%)
-  Quake Mage        : 909 category-level wins (1.8%)
-  Void Mage         : 907 category-level wins (1.8%)
-  Sorrow Mage       : 903 category-level wins (1.8%)
-  Dust Mage         : 903 category-level wins (1.8%)
-  Mud Mage          : 903 category-level wins (1.8%)
-  Mage Jack of all Trades: 903 category-level wins (1.8%)
-  Necrotic Mage     : 892 category-level wins (1.7%)
-  Storm Mage        : 891 category-level wins (1.7%)
-  Physical Fighter  : 865 category-level wins (1.7%)
-  Archer            : 824 category-level wins (1.6%)
-  Full Melee Fighter: 816 category-level wins (1.6%)
-  Archer/Melee Fighter: 784 category-level wins (1.5%)
-  Martial Fighter   : 728 category-level wins (1.4%)
-  Worst Physical    : 708 category-level wins (1.4%)
-  Worst Magical     : 327 category-level wins (0.6%)
-  Casual Archer/Melee:  40 category-level wins (0.1%)
-  Casual Archer     :  40 category-level wins (0.1%)
-  Casual Nova Mage  :  39 category-level wins (0.1%)
-  Casual Mirage Mage:  39 category-level wins (0.1%)
-  Casual Fire Mage  :  39 category-level wins (0.1%)
-  Casual Steam Mage :  39 category-level wins (0.1%)
-  Casual Shatter Mage:  39 category-level wins (0.1%)
-  Casual Corruption Mage:  39 category-level wins (0.1%)
-  Casual Chaos Mage :  39 category-level wins (0.1%)
-  Casual Lightning Mage:  39 category-level wins (0.1%)
-  Casual Toxin Mage :  39 category-level wins (0.1%)
-  Casual Bloodfire Mage:  39 category-level wins (0.1%)
-  Casual Blight Mage:  39 category-level wins (0.1%)
-  Casual Psychic Mage:  39 category-level wins (0.1%)
-  Casual Ice/Cold Mage:  39 category-level wins (0.1%)
-  Casual Poison Mage:  39 category-level wins (0.1%)
-  Casual Miasma Mage:  39 category-level wins (0.1%)
-  Casual Mage Jack  :  39 category-level wins (0.1%)
-  Casual Gel Mage   :  39 category-level wins (0.1%)
-  Casual Obsidian Mage:  39 category-level wins (0.1%)
-  Casual Radiant Mage:  39 category-level wins (0.1%)
-  Casual Dust Mage  :  39 category-level wins (0.1%)
-  Casual Thunder Mage:  39 category-level wins (0.1%)
-  Casual Air Mage   :  39 category-level wins (0.1%)
-  Casual Storm Mage :  39 category-level wins (0.1%)
-  Casual Quake Mage :  39 category-level wins (0.1%)
-  Casual Mud Mage   :  39 category-level wins (0.1%)
-  Casual Earth Mage :  39 category-level wins (0.1%)
-  Casual Sorrow Mage:  39 category-level wins (0.1%)
-  Casual Infernal Mage:  39 category-level wins (0.1%)
-  Casual Atomic Mage:  39 category-level wins (0.1%)
-  Casual Ash Mage   :  39 category-level wins (0.1%)
-  Casual Water Mage :  39 category-level wins (0.1%)
-  Casual Metal Mage :  39 category-level wins (0.1%)
-  Casual Starlight Mage:  39 category-level wins (0.1%)
-  Casual Void Mage  :  39 category-level wins (0.1%)
-  Casual Solar Mage :  39 category-level wins (0.1%)
-  Casual Warp Mage  :  39 category-level wins (0.1%)
-  Casual Magma Mage :  39 category-level wins (0.1%)
-  Casual Torrent Mage:  39 category-level wins (0.1%)
-  Casual Vacuum Mage:  39 category-level wins (0.1%)
-  Casual Tanker Archer:  31 category-level wins (0.1%)
-  Casual Jack of all Trades:  31 category-level wins (0.1%)
-  Casual Necrotic Mage:  27 category-level wins (0.1%)
-  Casual Full Melee :  16 category-level wins (0.0%)
-  Casual Physical   :  16 category-level wins (0.0%)
-  Casual Martial Fighter:  16 category-level wins (0.0%)
+  Atomic Mage       : 3274 category-level wins (2.8%)
+  Vacuum Mage       : 3004 category-level wins (2.6%)
+  Toxin Mage        : 3004 category-level wins (2.6%)
+  Starlight Mage    : 3004 category-level wins (2.6%)
+  Blight Mage       : 3004 category-level wins (2.6%)
+  Poison Mage       : 3004 category-level wins (2.6%)
+  Corruption Mage   : 2916 category-level wins (2.5%)
+  Glacial Mage      : 2910 category-level wins (2.5%)
+  Miasma Mage       : 2910 category-level wins (2.5%)
+  Gel Mage          : 2910 category-level wins (2.5%)
+  Obsidian Mage     : 2910 category-level wins (2.5%)
+  Jack of all Trades: 2392 category-level wins (2.0%)
+  Solar Mage        : 2084 category-level wins (1.8%)
+  Radiant Mage      : 2076 category-level wins (1.8%)
+  Tanker Archer     : 2069 category-level wins (1.8%)
+  Air Mage          : 2058 category-level wins (1.8%)
+  Bloodfire Mage    : 2016 category-level wins (1.7%)
+  Fire Mage         : 2013 category-level wins (1.7%)
+  Nova Mage         : 1989 category-level wins (1.7%)
+  Infernal Mage     : 1921 category-level wins (1.6%)
+  Shatter Mage      : 1920 category-level wins (1.6%)
+  Ice/Cold Mage     : 1920 category-level wins (1.6%)
+  Deluge Mage       : 1920 category-level wins (1.6%)
+  Chaos Mage        : 1920 category-level wins (1.6%)
+  Warp Mage         : 1920 category-level wins (1.6%)
+  Thunder Mage      : 1920 category-level wins (1.6%)
+  Lightning Mage    : 1914 category-level wins (1.6%)
+  Storm Mage        : 1914 category-level wins (1.6%)
+  Frostfire Mage    : 1914 category-level wins (1.6%)
+  Hallowed Mage     : 1908 category-level wins (1.6%)
+  Steam Mage        : 1905 category-level wins (1.6%)
+  Magma Mage        : 1905 category-level wins (1.6%)
+  Void Mage         : 1902 category-level wins (1.6%)
+  Earth Mage        : 1902 category-level wins (1.6%)
+  Mirage Mage       : 1900 category-level wins (1.6%)
+  Metal Mage        : 1900 category-level wins (1.6%)
+  Cursed Mage       : 1900 category-level wins (1.6%)
+  Psychic Mage      : 1896 category-level wins (1.6%)
+  Mud Mage          : 1894 category-level wins (1.6%)
+  Ash Mage          : 1894 category-level wins (1.6%)
+  Sorrow Mage       : 1894 category-level wins (1.6%)
+  Dust Mage         : 1894 category-level wins (1.6%)
+  Tremor Mage       : 1894 category-level wins (1.6%)
+  Torrent Mage      : 1884 category-level wins (1.6%)
+  Quake Mage        : 1884 category-level wins (1.6%)
+  Water Mage        : 1882 category-level wins (1.6%)
+  Necrotic Mage     : 1880 category-level wins (1.6%)
+  Physical Fighter  : 1809 category-level wins (1.6%)
+  Tanker            : 1708 category-level wins (1.5%)
+  Archer            : 1624 category-level wins (1.4%)
+  Full Melee Fighter: 1494 category-level wins (1.3%)
+  Mage Jack of all Trades: 1367 category-level wins (1.2%)
+  Archer/Melee Fighter: 1220 category-level wins (1.0%)
+  Martial Fighter   : 1201 category-level wins (1.0%)
+  Worst Physical    : 1108 category-level wins (0.9%)
+  Worst Magical     : 327 category-level wins (0.3%)
+  Casual Archer/Melee:  40 category-level wins (0.0%)
+  Casual Archer     :  40 category-level wins (0.0%)
+  Casual Water Mage :  39 category-level wins (0.0%)
+  Casual Metal Mage :  39 category-level wins (0.0%)
+  Casual Magma Mage :  39 category-level wins (0.0%)
+  Casual Ash Mage   :  39 category-level wins (0.0%)
+  Casual Poison Mage:  39 category-level wins (0.0%)
+  Casual Gel Mage   :  39 category-level wins (0.0%)
+  Casual Bloodfire Mage:  39 category-level wins (0.0%)
+  Casual Corruption Mage:  39 category-level wins (0.0%)
+  Casual Air Mage   :  39 category-level wins (0.0%)
+  Casual Sorrow Mage:  39 category-level wins (0.0%)
+  Casual Warp Mage  :  39 category-level wins (0.0%)
+  Casual Mage Jack  :  39 category-level wins (0.0%)
+  Casual Thunder Mage:  39 category-level wins (0.0%)
+  Casual Obsidian Mage:  39 category-level wins (0.0%)
+  Casual Chaos Mage :  39 category-level wins (0.0%)
+  Casual Atomic Mage:  39 category-level wins (0.0%)
+  Casual Psychic Mage:  39 category-level wins (0.0%)
+  Casual Dust Mage  :  39 category-level wins (0.0%)
+  Casual Shatter Mage:  39 category-level wins (0.0%)
+  Casual Mud Mage   :  39 category-level wins (0.0%)
+  Casual Void Mage  :  39 category-level wins (0.0%)
+  Casual Cursed Mage:  39 category-level wins (0.0%)
+  Casual Quake Mage :  39 category-level wins (0.0%)
+  Casual Torrent Mage:  39 category-level wins (0.0%)
+  Casual Steam Mage :  39 category-level wins (0.0%)
+  Casual Nova Mage  :  39 category-level wins (0.0%)
+  Casual Hallowed Mage:  39 category-level wins (0.0%)
+  Casual Radiant Mage:  39 category-level wins (0.0%)
+  Casual Ice/Cold Mage:  39 category-level wins (0.0%)
+  Casual Starlight Mage:  39 category-level wins (0.0%)
+  Casual Solar Mage :  39 category-level wins (0.0%)
+  Casual Blight Mage:  39 category-level wins (0.0%)
+  Casual Infernal Mage:  39 category-level wins (0.0%)
+  Casual Earth Mage :  39 category-level wins (0.0%)
+  Casual Miasma Mage:  39 category-level wins (0.0%)
+  Casual Mirage Mage:  39 category-level wins (0.0%)
+  Casual Frostfire Mage:  39 category-level wins (0.0%)
+  Casual Lightning Mage:  39 category-level wins (0.0%)
+  Casual Fire Mage  :  39 category-level wins (0.0%)
+  Casual Vacuum Mage:  39 category-level wins (0.0%)
+  Casual Toxin Mage :  39 category-level wins (0.0%)
+  Casual Storm Mage :  39 category-level wins (0.0%)
+  Casual Deluge Mage:  39 category-level wins (0.0%)
+  Casual Tremor Mage:  39 category-level wins (0.0%)
+  Casual Glacial Mage:  39 category-level wins (0.0%)
+  Casual Jack of all Trades:  31 category-level wins (0.0%)
+  Casual Tanker Archer:  31 category-level wins (0.0%)
+  Casual Necrotic Mage:  27 category-level wins (0.0%)
   Casual Tanker     :  16 category-level wins (0.0%)
+  Casual Martial Fighter:  16 category-level wins (0.0%)
+  Casual Physical   :  16 category-level wins (0.0%)
+  Casual Full Melee :  16 category-level wins (0.0%)
 
   >>> OK: No single build dominates. Top build (Atomic Mage) has 2.8% of wins.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
-  Magical builds  : 1628 damage BEST wins (91.6%)
-  Physical builds : 150 damage BEST wins (8.4%)
-  Mixed builds    :   0 damage BEST wins (0.0%)
+  Magical builds  : 27254 damage BEST wins (96.5%)
+  Physical builds : 681 damage BEST wins (2.4%)
+  Mixed builds    : 297 damage BEST wins (1.1%)
 
   >>> Magical builds dominate damage output. Consider buffing physical options.
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : mostly Tanker Archer (400/400 levels, 100.0%)
+  Vitality  : mostly Tanker Archer (800/800 levels, 100.0%)
     >>> MONOPOLY: Tanker Archer wins Vitality almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Health    : mostly Jack of all Trades (400/400 levels, 100.0%)
+  Health    : mostly Jack of all Trades (800/800 levels, 100.0%)
     >>> MONOPOLY: Jack of all Trades wins Health almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Mana      : mostly Vacuum Mage (396/400 levels, 99.0%)
+  Mana      : mostly Vacuum Mage (764/800 levels, 95.5%)
     >>> MONOPOLY: Vacuum Mage wins Mana almost exclusively.
     This is expected for magical builds. No action needed.
-  AC        : mostly Tanker (300/400 levels, 75.0%)
+  AC        : mostly Tanker (600/800 levels, 75.0%)
     (Moderate concentration)
-  Feats     : mostly Archer (400/400 levels, 100.0%)
+  Feats     : mostly Archer (800/800 levels, 100.0%)
     >>> MONOPOLY: Archer wins Feats almost exclusively.
     (Tied across all builds since every build gets +1 feat every 3 levels.)
-  Spells    : tied across all builds (all 400/400)
-  To Hit    : mostly Radiant Mage (182/400 levels, 45.5%)
+  Spells    : tied across all builds (all 800/800)
+  To Hit    : mostly Vacuum Mage (522/800 levels, 65.2%)
     (Moderate concentration)
-  Dmg/Turn  : mostly Atomic Mage (262/400 levels, 65.5%)
+  Dmg/Turn  : mostly Atomic Mage (380/800 levels, 47.5%)
     (Moderate concentration)
-  Dmg/5R    : mostly Solar Mage (239/400 levels, 59.8%)
+  Dmg/5R    : mostly Air Mage (362/800 levels, 45.2%)
     (Moderate concentration)
-  Dmg/10R   : mostly Solar Mage (205/400 levels, 51.2%)
+  Dmg/10R   : mostly Air Mage (373/800 levels, 46.6%)
     (Moderate concentration)
 
 STAT ANALYSIS
@@ -152,62 +164,62 @@ STAT ANALYSIS
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Atomic Mage       : avg dmg/turn 1678.5
-    Bloodfire Mage    : avg dmg/turn 434.3
-    Nova Mage         : avg dmg/turn 409.7
+    Atomic Mage       : avg dmg/turn 3304.0
+    Solar Mage        : avg dmg/turn 1866.2
+    Hallowed Mage     : avg dmg/turn 1792.3
   Bad Gear:
-    Atomic Mage       : avg dmg/turn 1693.5
-    Bloodfire Mage    : avg dmg/turn 451.1
-    Nova Mage         : avg dmg/turn 424.6
+    Atomic Mage       : avg dmg/turn 3347.7
+    Solar Mage        : avg dmg/turn 1908.4
+    Hallowed Mage     : avg dmg/turn 1835.8
     >> Casual Fire Mage benefits most from this tier (+1743% dmg vs previous tier).
   Nerite Gear:
-    Atomic Mage       : avg dmg/turn 1722.9
-    Bloodfire Mage    : avg dmg/turn 479.1
-    Nova Mage         : avg dmg/turn 453.1
-    >> Casual Fire Mage benefits most from this tier (+12105% dmg vs previous tier).
+    Atomic Mage       : avg dmg/turn 3423.5
+    Solar Mage        : avg dmg/turn 1983.0
+    Hallowed Mage     : avg dmg/turn 1911.3
+    >> Casual Fire Mage benefits most from this tier (+36938% dmg vs previous tier).
   Dragon Gear:
-    Atomic Mage       : avg dmg/turn 1769.5
-    Bloodfire Mage    : avg dmg/turn 523.5
-    Nova Mage         : avg dmg/turn 498.6
-    >> Casual Fire Mage benefits most from this tier (+30900% dmg vs previous tier).
+    Atomic Mage       : avg dmg/turn 3544.5
+    Solar Mage        : avg dmg/turn 2102.6
+    Hallowed Mage     : avg dmg/turn 2031.2
+    >> Casual Fire Mage benefits most from this tier (+95467% dmg vs previous tier).
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
     Level 5  (1-5) : dmg leader Fire Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Radiant Mage (3/5 levels)
-    Level 15 (11-15): dmg leader Solar Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Radiant Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Nova Mage (3/5 levels)
     Level 20 (16-20): dmg leader Bloodfire Mage (3/5 levels)
     Level 30 (21-30): dmg leader Bloodfire Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (48/51 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (77/151 levels)
 
   Bad Gear:
     Level 5  (1-5) : dmg leader Full Melee Fighter (3/5 levels)
-    Level 10 (6-10): dmg leader Radiant Mage (3/5 levels)
-    Level 15 (11-15): dmg leader Solar Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Radiant Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Nova Mage (3/5 levels)
     Level 20 (16-20): dmg leader Bloodfire Mage (3/5 levels)
     Level 30 (21-30): dmg leader Bloodfire Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (48/51 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (77/151 levels)
 
   Nerite Gear:
     Level 5  (1-5) : dmg leader Full Melee Fighter (3/5 levels)
-    Level 10 (6-10): dmg leader Radiant Mage (3/5 levels)
-    Level 15 (11-15): dmg leader Blight Mage (2/5 levels)
+    Level 10 (6-10): dmg leader Radiant Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Nova Mage (3/5 levels)
     Level 20 (16-20): dmg leader Bloodfire Mage (3/5 levels)
     Level 30 (21-30): dmg leader Bloodfire Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (48/51 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (77/151 levels)
 
   Dragon Gear:
     Level 5  (1-5) : dmg leader Full Melee Fighter (3/5 levels)
-    Level 10 (6-10): dmg leader Radiant Mage (3/5 levels)
-    Level 15 (11-15): dmg leader Blight Mage (2/5 levels)
+    Level 10 (6-10): dmg leader Radiant Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Nova Mage (3/5 levels)
     Level 20 (16-20): dmg leader Bloodfire Mage (3/5 levels)
     Level 30 (21-30): dmg leader Bloodfire Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (48/51 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (77/151 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
-  1. Physical builds are underperforming in damage (8% of damage BEST wins vs 92% for magical).
+  1. Physical builds are underperforming in damage (2% of damage BEST wins vs 97% for magical).
        - Increase base weapon damage or weapon damage_bonus values.
        - Add more damage-boosting feats for physical builds.
        - Check if extra_damage_die on weapons is being applied correctly.
@@ -219,14 +231,14 @@ DETAILED RECOMMENDATIONS
 
 RACE POPULARITY ANALYSIS
 ----------------------------------------
-  Bugfolk Broodweaver     : 11/48 (23%)  <<< POPULAR: may indicate above-average strength
-  Demon Sylphamare        : 10/48 (21%)  <<< POPULAR: may indicate above-average strength
-  Human Aurian            : 10/48 (21%)  <<< POPULAR: may indicate above-average strength
-  Therian Minotaur        :  6/48 (12%)
-  Elf Dryad               :  5/48 (10%)
-  Fishfolk Chelonar       :  4/48 (8%)
-  Harpy Hushwing          :  1/48 (2%)
-  Tull Tull               :  1/48 (2%)
+  Bugfolk Broodweaver     : 13/54 (24%)  <<< POPULAR: may indicate above-average strength
+  Demon Sylphamare        : 12/54 (22%)  <<< POPULAR: may indicate above-average strength
+  Human Aurian            : 11/54 (20%)  <<< POPULAR: may indicate above-average strength
+  Therian Minotaur        :  6/54 (11%)
+  Elf Dryad               :  6/54 (11%)
+  Fishfolk Chelonar       :  4/54 (7%)
+  Harpy Hushwing          :  1/54 (2%)
+  Tull Tull               :  1/54 (2%)
 
 SPELL ANALYSIS & RANKINGS
 ----------------------------------------

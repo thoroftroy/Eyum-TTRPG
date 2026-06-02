@@ -56,63 +56,73 @@
     "die": "1d8",
     "damage_type": "slashing",
     "type": "melee",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_greatsword": {
     "die": "2d6",
     "damage_type": "slashing",
     "type": "melee",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_shortbow": {
     "die": "1d6",
     "damage_type": "piercing",
     "type": "ranged",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_longbow": {
     "die": "1d8",
     "damage_type": "piercing",
     "type": "ranged",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_halberd": {
     "die": "1d10",
     "damage_type": "slashing",
     "type": "melee",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_staff": {
     "die": "1d6",
     "damage_type": "bludgeoning",
     "type": "melee",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_dagger": {
     "die": "1d4",
     "damage_type": "piercing",
     "type": "melee",
-    "damage_bonus": 6
+    "damage_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_focus": {
     "die": null,
     "damage_type": "force",
     "type": "magic",
-    "magic_bonus": 7
+    "magic_bonus": 7,
+    "accuracy_bonus": 6
   },
   "nerite_wand": {
     "die": null,
     "damage_type": "magical",
     "type": "magic",
     "magic_damage_die": "1d6",
-    "magic_bonus": 6
+    "magic_bonus": 6,
+    "accuracy_bonus": 6
   },
   "nerite_quarterstaff": {
     "die": "1d6",
     "damage_type": "bludgeoning",
     "type": "melee",
     "damage_bonus": 6,
-    "magic_damage_die": "1d4"
+    "magic_damage_die": "1d4",
+    "accuracy_bonus": 6
   },
   "dragonbone_longsword": {
     "die": "1d8",
@@ -120,7 +130,8 @@
     "type": "melee",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_greatsword": {
     "die": "2d6",
@@ -128,7 +139,8 @@
     "type": "melee",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_shortbow": {
     "die": "1d6",
@@ -136,7 +148,8 @@
     "type": "ranged",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_longbow": {
     "die": "1d8",
@@ -144,7 +157,8 @@
     "type": "ranged",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_halberd": {
     "die": "1d10",
@@ -152,7 +166,8 @@
     "type": "melee",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_staff": {
     "die": "1d6",
@@ -160,7 +175,8 @@
     "type": "melee",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_dagger": {
     "die": "1d4",
@@ -168,13 +184,15 @@
     "type": "melee",
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
-    "extra_damage_type": "force"
+    "extra_damage_type": "force",
+    "accuracy_bonus": 6
   },
   "dragonbone_focus": {
     "die": null,
     "damage_type": "force",
     "type": "magic",
-    "magic_bonus": 11
+    "magic_bonus": 11,
+    "accuracy_bonus": 6
   },
   "dragonbone_wand": {
     "die": null,
@@ -182,7 +200,8 @@
     "type": "magic",
     "magic_damage_die": "1d6",
     "magic_bonus": 10,
-    "extra_magic_damage_die": "1d10"
+    "extra_magic_damage_die": "1d10",
+    "accuracy_bonus": 6
   },
   "dragonbone_quarterstaff": {
     "die": "1d6",
@@ -191,6 +210,7 @@
     "damage_bonus": 10,
     "extra_damage_die": "1d10",
     "extra_damage_type": "force",
-    "magic_damage_die": "1d4"
+    "magic_damage_die": "1d4",
+    "accuracy_bonus": 6
   }
 }

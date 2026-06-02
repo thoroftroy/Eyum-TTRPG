@@ -237,9 +237,13 @@ def select_spell(char, settings, max_mana=None):
     if not candidates:
         return None, 0
 
-    if primary:
+    if primary and max_mana is None:
         primary_candidates = [c for c in candidates if c[2] == primary]
         if primary_candidates:
             candidates = primary_candidates
-    best = max(candidates, key=lambda x: x[0])
+
+    if max_mana is not None:
+        best = max(candidates, key=lambda x: x[0] * (max_mana // max(1, x[1]['mana'] * mana_mult)))
+    else:
+        best = max(candidates, key=lambda x: x[0])
     return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0]}, best[0]

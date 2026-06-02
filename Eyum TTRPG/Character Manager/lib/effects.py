@@ -300,6 +300,8 @@ def _repeatable_priority(effects):
     score = 0
     if 'melee_damage' in effects or 'ranged_damage' in effects or 'magic_damage' in effects or 'ranged_adv_damage' in effects:
         score = 5
+    elif 'generic_affinity' in effects:
+        score = 6
     elif 'flat_vit' in effects or 'flat_hp' in effects or 'ac_bonus' in effects:
         score = 4
     elif 'stat_point' in effects:
