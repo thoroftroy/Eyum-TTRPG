@@ -89,6 +89,9 @@ def apply_paths(char, target_level, build_config, settings):
         repeatables = pconf.get('repeatables', {})
 
         share = points_per + (1 if i < remainder else 0)
+        prev_key = (path_name, arch_name)
+        prev_level = build_config.get('_prev_arch_levels', {}).get(prev_key, 0)
+        share = max(share, prev_level)
 
         arch_rule = paths_rules.get(path_name, {}).get('archetypes', {}).get(arch_name, {})
 
@@ -136,6 +139,10 @@ def apply_paths(char, target_level, build_config, settings):
 
         char.archetype_levels[(path_name, arch_name)] = achievements
         char.archetype_whole_levels[(path_name, arch_name)] = whole_levels
+
+    build_config.setdefault('_prev_arch_levels', {})
+    for (pn, an), lv in char.archetype_levels.items():
+        build_config['_prev_arch_levels'][(pn, an)] = lv
 
     all_remaining = 0
     path_repeat_data = []

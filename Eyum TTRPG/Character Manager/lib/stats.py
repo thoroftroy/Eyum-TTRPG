@@ -75,8 +75,6 @@ def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
 def _affinity_prereqs_met(aff_name, char, affinity_prereqs):
     if not affinity_prereqs or aff_name not in affinity_prereqs:
         return True
-    if char.affinities.get(aff_name, 0) > 0:
-        return True
     prereq = affinity_prereqs[aff_name]
     needs_all = prereq.get('needs_all', [])
     if needs_all:
