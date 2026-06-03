@@ -88,19 +88,31 @@ def calculate_damage(char, settings):
         spell_info, spell_dmg = select_spell(char, settings, max_mana=char.mana_max(settings['rules']))
         if spell_info:
             mana_mult = getattr(char, 'spell_mana_mult', 1)
-            spell_atks = atk_per_round
-            if spell_info['spell'].get('costs_bonus_action'):
-                spell_atks = min(char.ap, char.bap)
-            mana_mult = getattr(char, 'spell_mana_mult', 1)
             if not spell_info.get('use_multiplier', True):
                 mana_mult = 1
             cost = spell_info['spell']['mana'] * mana_mult
-            max_casts_by_mana = char.mana_max(settings['rules']) // max(1, cost)
-            result['magic'] = int(spell_dmg) * min(spell_atks, max_casts_by_mana)
-            result['magic_dmg'] = spell_dmg
-            result['mana_cost'] = cost
-            result['spell_atks_raw'] = spell_atks
-            result['spell_atks_mana_capped'] = min(spell_atks, max_casts_by_mana)
+
+            if spell_info['spell'].get('storm_bolts'):
+                bolt_base = spell_dmg
+                ap_count = max(0, char.ap - 1)
+                bap_count = char.bap
+                total_bolts = ap_count + bap_count
+                storm_dmg = (ap_count * bolt_base * 2.0) + (bap_count * bolt_base)
+                result['magic'] = int(storm_dmg)
+                result['magic_dmg'] = spell_dmg
+                result['mana_cost'] = cost
+                result['storm_bolts'] = True
+                spell_atks = total_bolts
+            else:
+                spell_atks = atk_per_round
+                if spell_info['spell'].get('costs_bonus_action'):
+                    spell_atks = min(char.ap, char.bap)
+                max_casts_by_mana = char.mana_max(settings['rules']) // max(1, cost)
+                result['magic'] = int(spell_dmg) * min(spell_atks, max_casts_by_mana)
+                result['magic_dmg'] = spell_dmg
+                result['mana_cost'] = cost
+                result['spell_atks_raw'] = spell_atks
+                result['spell_atks_mana_capped'] = min(spell_atks, max_casts_by_mana)
             result['cond_dmg'] = spell_info.get('cond_dmg', 0)
             result['cond_names'] = spell_info.get('cond_names', []) if spell_info.get('cond_dmg', 0) > 0 else []
             result['spell_extra_effect'] = spell_info.get('extra_effect', '')
@@ -166,6 +178,18 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     rounds_casting = 0
 
     mana_mult = getattr(char, 'spell_mana_mult', 1)
+
+    # Storm spells: 1 AP to cast, then AP (crit) + BAp bolts each round
+    if dmg_per_turn.get('storm_bolts'):
+        bolt_base = magic_dmg_per_cast
+        first_round = max(0, char.ap - 1) * bolt_base * 2.0 + char.bap * bolt_base
+        later_round = char.ap * bolt_base * 2.0 + char.bap * bolt_base
+        total_dmg = int(first_round + later_round * (num_rounds - 1))
+        return {'total': total_dmg,
+                'mana_start': int(max_mana),
+                'mana_end': int(max_mana - mana_cost),  # cast cost once
+                'rounds_casting': num_rounds,
+                'mana_per_round': int(mana_cost)}
 
     for round_idx in range(num_rounds):
         spell_info, spell_dmg = select_spell(char, settings, max_mana=remaining_mana)

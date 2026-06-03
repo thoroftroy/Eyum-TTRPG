@@ -2832,7 +2832,8 @@
       "extra_effect": "Soaked+Storm Shocked+Shocked",
       "affinity_required": 11,
       "attack_roll": true,
-      "upcast_rule": "x2, +3d8 damage"
+      "upcast_rule": "x2, +3d8 damage",
+      "storm_bolts": true
     },
     {
       "name": "Storm Call",
@@ -2844,7 +2845,8 @@
       "concentration": true,
       "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 2d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Thunderstorm",
-      "range": 240
+      "range": 240,
+      "storm_bolts": true
     },
     {
       "name": "Thunderstorm",
@@ -2857,7 +2859,8 @@
       "concentration": true,
       "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 4d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Tempest",
-      "range": 240
+      "range": 240,
+      "storm_bolts": true
     },
     {
       "name": "Tempest",
@@ -2870,7 +2873,8 @@
       "concentration": true,
       "description": "You summon a raging tempest centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 6d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Hurricane Aura",
-      "range": 300
+      "range": 300,
+      "storm_bolts": true
     },
     {
       "name": "Hurricane Aura",
@@ -2885,7 +2889,8 @@
       "aoe_radius": 40,
       "description": "You summon a devastating hurricane centered on yourself with a radius of 40 ft. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 8d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Maelstrom",
-      "range": "Self"
+      "range": "Self",
+      "storm_bolts": true
     },
     {
       "name": "Maelstrom",
@@ -2899,7 +2904,8 @@
       "aoe_radius": 60,
       "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 10d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_rule": "x2, +10d10 Storm Damage",
-      "range": 360
+      "range": 360,
+      "storm_bolts": true
     }
   ],
   "Thunder": [
