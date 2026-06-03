@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 r"""
-Spell Updater — full sync from handbook to spells.json.
+Spell Updater — comprehensive sync from handbook to spells.json.
 Run from the Character Manager root directory:
     python3 update_spells.py
 
-Parses 6.1 Spells.md (Leveled + Unique + Healing tables),
-compares against data/spells.json, and writes output/updater_log.txt
-with full before/after details for every field change.
+Parses 6.1 Spells.md (Leveled + Unique tables), compares against
+data/spells.json, and writes output/updater_log.txt with full
+before/after details. Preserves all generator custom keys.
 """
 
 import json, re, os, sys
@@ -19,48 +19,66 @@ LOG_PATH = os.path.join(SCRIPT_DIR, 'output', 'updater_log.txt')
 
 # ── Condition definitions ───────────────────────────────────────
 ALL_CONDITIONS = [
-    # Environmental
     'On Fire', 'Frozen', 'Soaked', 'Storm Shocked',
-    'Hurting', 'Entangled', 'Suffocating', 'Prone',
-    'Grappled', 'Lethargic', 'Unconscious', 'Surprised',
-    'Threatened', 'Invisible', 'Intangible', 'Grounded',
-    'Restrained', 'Difficult Terrain',
-    # Physical
+    'Hurting', 'Entangled', 'Suffocating', 'Prone', 'Grappled',
+    'Lethargic', 'Unconscious', 'Surprised', 'Threatened',
+    'Invisible', 'Intangible', 'Grounded', 'Restrained',
+    'Difficult Terrain', 'Impassable Terrain',
     'Bleeding', 'Pierced', 'Burned', 'Frostbitten',
     'Shocked', 'Poisoned', 'Diseased', 'Hellfire',
     'Purged', 'Corrupt', 'Necrosis', 'Blinded',
     'Deafened', 'Paralyzed', 'Petrified', 'Stunned',
-    'Gelled', 'Radiation', 'Sickened', 'Withered',
-    'Plagued', 'DoT', 'GroundBurn',
-    # Mental
-    'Charmed', 'Frightened', 'Enraged',
-    'Demoralized', 'Despair', 'Hypnotized',
-    'Mute', 'Blurred', 'Addicted', 'Psychic Drain',
-    # Magical
-    'Cursed', 'Hexed', 'Silenced',
-    'Slow Death', 'Slowed', 'Hasted',
-    'Blessed', 'Hexproof', 'Eldritch Curse',
-    # Other
-    'Push', 'Pull', 'Heal',
-    'NoFlight', 'NoAdvantage',
-    'Collision', 'Scaling',
-    'Marked by Light', 'Impassable Terrain',
+    'Gelled', 'Radiation', 'Sickened', 'Withered', 'Plagued',
+    'DoT', 'GroundBurn',
+    'Charmed', 'Frightened', 'Enraged', 'Demoralized',
+    'Despair', 'Hypnotized', 'Mute', 'Blurred', 'Addicted',
+    'Psychic Drain',
+    'Cursed', 'Hexed', 'Silenced', 'Slow Death',
+    'Slowed', 'Hasted', 'Blessed', 'Hexproof', 'Eldritch Curse',
+    'Push', 'Pull', 'Heal', 'NoFlight', 'NoAdvantage',
+    'Collision', 'Scaling', 'Marked by Light',
+    'Frostburned', 'Taboo',
 ]
 
-# Map handbook names to JSON field names
 COND_ALIAS = {
     'Difficult Terrain': 'DifficultTerrain',
     'Impassable Terrain': 'DifficultTerrain',
 }
 
+# ── Custom keys preserved across runs ───────────────────────────
+CUSTOM_KEYS = frozenset({'bap_attack', 'retaliation', 'storm_bolts'})
+
+# Generator modeling overrides — applied AFTER handbook sync
+DAMAGE_OVERRIDES = {
+    # Whiteout Expanse: Soaked condition doubles damage per user instruction
+    ('Glacial', 'Whiteout Expanse'): {'damage_dice': '4d12', 'damage_flat': 12},
+    # Moving Glacier: assume pinned against wall + shatter explosion
+    ('Glacial', 'Moving Glacier'): {'damage_dice': '6d12', 'damage_flat': 40},
+    ('Glacial', 'Age of Ice'): {'save': 'con', 'save_half': True},
+    # Fission Verdict: all 3 blast radii hit the target (tripled)
+    ('Atomic', 'Fission Verdict'): {'damage_dice': '30d12', 'damage_flat': 600},
+}
+
+# ── Field lists ─────────────────────────────────────────────────
+STAT_PREREQ_KEYS = ['int_required', 'con_required', 'str_required',
+                    'dex_required', 'wis_required', 'cha_required']
+BOOLEAN_FLAGS = ['aoe_cone', 'aoe_line', 'aoe_cube', 'aoe_self',
+                 'concentration', 'attack_roll', 'save_half',
+                 'costs_bonus_action', 'bap_attack']
+AOE_FLAGS = {'aoe_cone': None, 'aoe_line': None, 'aoe_cube': None, 'aoe_self': None}
+
 # ── Regex patterns ──────────────────────────────────────────────
+# Primary damage: "takes 20 + 5d6", "deals 6d8 + 30", "taking 150 + 20d20"
 DAMAGE_FLAT_DICE = re.compile(
-    r'(?:take|deal)s?\s+(?:an?\s+additional\s+)?(?:up\s+to\s+)?'
+    r'(?:take|deal|taking|dealing|taken|suffer)s?\s+'
+    r'(?:an?\s+(?:additional\s+)?)?(?:up\s+to\s+)?'
     r'(?:(?P<flat>\d+(?:\.\d+)?)\s*\+\s*(?P<dice>\d+d\d+)'
-    r'|(?P<dice2>\d+d\d+)\s*\+\s*(?P<flat2>\d+(?:\.\d+)?))', re.IGNORECASE)
+    r'|(?P<dice2>\d+d\d+)\s*\+\s*(?P<flat2>\d+(?:\.\d+)?))',
+    re.IGNORECASE)
 
 DICE_ONLY = re.compile(
-    r'(?:take|deal)s?\s+(?P<dice>\d+d\d+)', re.IGNORECASE)
+    r'(?:take|deal|taking|dealing|taken|suffer)s?\s+(?P<dice>\d+d\d+)',
+    re.IGNORECASE)
 
 SAVE_RE = re.compile(
     r'(?:must\s+)?make\s+a(?:n)?\s+'
@@ -68,59 +86,38 @@ SAVE_RE = re.compile(
     r'\s+save', re.IGNORECASE)
 
 SAVE_MAP = {s.lower(): s[:3].lower() for s in
-            ['Strength', 'Dexterity', 'Constitution', 'Wisdom', 'Intelligence', 'Charisma']}
+            ['Strength','Dexterity','Constitution','Wisdom','Intelligence','Charisma']}
 
 AOE_RADIUS = re.compile(r'(\d+)\s*ft\s*radius', re.IGNORECASE)
 AOE_CONE = re.compile(r'(\d+)\s*ft\s*cone', re.IGNORECASE)
 AOE_LINE = re.compile(r'(\d+)\s*ft.*?line', re.IGNORECASE)
 AOE_CUBE = re.compile(r'(\d+)\s*ft\s*cube', re.IGNORECASE)
-AOE_SPHERE = re.compile(r'(\d+)\s*ft\s*sphere', re.IGNORECASE)
 
-RANGE_PATTERN = re.compile(
-    r'^(?:Self|Touch|(\d+)(?:/(\d+))?)\s*(?:\((.*)\))?$')
+RANGE_RE = re.compile(r'^([A-Za-z]+)?\s*(\d+)?(?:/(\d+))?(?:\s*\((.*)\))?$')
 
-# Prerequisite parsing
-STAT_PREREQ = re.compile(r'>\s*(\d+)\s*(Str|Dex|Con|Wis|Int|Cha)\b', re.IGNORECASE)
-AFFINITY_PREREQ = re.compile(r'>\s*(\d+)\s*([A-Z][\w\s/]+?)(?:\s*Affinity)?\s*(?:$|and|\b)', re.IGNORECASE)
-MULTI_AFF_RE = re.compile(
-    r'>\s*(\d+)\s*in\s*at\s*least\s*(\d+)\s*affinit', re.IGNORECASE)
-
-FIELDS = [
-    'mana', 'range', 'description', 'upcast', 'prerequisite',
-    'damage_dice', 'damage_flat', 'extra_effect',
-    'save', 'save_half', 'attack_roll',
-    'aoe_radius', 'aoe_cone', 'aoe_line', 'aoe_cube',
-    'aoe_self', 'concentration', 'costs_bonus_action',
-    'affinity_required', 'int_required', 'con_required',
-    'str_required', 'dex_required', 'wis_required', 'cha_required',
-    'affinities_at_required', 'affinities_at_count',
-]
+STAT_PREREQ = re.compile(r'>\s*(\d+)\s+(Str|Dex|Con|Wis|Int|Cha)\b', re.IGNORECASE)
+AFFINITY_PREREQ = re.compile(r'>\s*(\d+)\s*([A-Z][\w\s/]+?)(?:\s*Affinity)?\s*(?:$|and|,)', re.IGNORECASE)
 
 # ── Parsing ──────────────────────────────────────────────────────
 def parse_handbook(filepath):
-    """Return dict: spell_name -> {mana, affinity, range, desc, upcast, prereq}"""
     with open(filepath, 'r') as f:
         text = f.read()
-
     spells = {}
-    current_section = None
+    in_table = False
     for line in text.split('\n'):
         s = line.strip()
-        if s.startswith('## '):
-            current_section = s[3:].strip()
-            continue
-        if not s.startswith('| '):
+        if s.startswith('## Leveled Spells') or s.startswith('## Unique Spells') or s.startswith('## Healing Spells'):
+            in_table = True; continue
+        if s.startswith('## ') and not s.startswith('## Leveled') and not s.startswith('## Unique') and not s.startswith('## Healing'):
+            in_table = False; continue
+        if not in_table or not s.startswith('| '):
             continue
         cells = [c.strip() for c in s.split('|')]
-        if len(cells) < 6:
-            continue
+        if len(cells) < 5: continue
         name = cells[1]
-        if not name or name.startswith('---') or name == 'Spell Name':
-            continue
-        try:
-            mana = int(cells[2])
-        except ValueError:
-            continue
+        if not name or name.startswith('---') or name == 'Spell Name': continue
+        try: mana = int(cells[2])
+        except ValueError: continue
         spells[name] = {
             'mana': mana,
             'range': cells[3] if len(cells) > 3 else '',
@@ -128,131 +125,62 @@ def parse_handbook(filepath):
             'desc': cells[5] if len(cells) > 5 else '',
             'upcast': cells[6] if len(cells) > 6 else '',
             'prereq': cells[7] if len(cells) > 7 else '',
-            'section': current_section,
         }
     return spells
 
 
 def parse_range(rng_str):
-    """Parse range string like '60', '30/60', 'Self (30 ft)', 'Touch', '120 (20 ft radius)'
-    Returns dict with range, range_max, aoe info."""
     info = {}
-    rng_str = rng_str.strip()
-    if not rng_str:
-        return info
-
-    if rng_str.lower() == 'self':
+    if not rng_str: return info
+    r = rng_str.strip()
+    if r.lower() == 'self': info['aoe_self'] = True; return info
+    if r.lower() == 'touch': info['range'] = 'Touch'; return info
+    if r.lower().startswith('self'):
         info['aoe_self'] = True
+        m = re.search(r'\((.*)\)', r)
+        if m: info = _merge(info, _parse_aoe_text(m.group(1)))
         return info
-    if rng_str.lower() == 'touch':
+    if r.lower().startswith('touch'):
         info['range'] = 'Touch'
+        m = re.search(r'\((.*)\)', r)
+        if m: info = _merge(info, _parse_aoe_text(m.group(1)))
         return info
-
-    # Check for "Self (...)" and "Touch (...)" patterns
-    if rng_str.lower().startswith('self'):
-        info['aoe_self'] = True
-        # extract parenthetical like "Self (30 ft radius)"
-        paren = re.search(r'\((.*)\)', rng_str)
-        if paren:
-            return _parse_aoe_paren(paren.group(1), info)
-        return info
-
-    if rng_str.lower().startswith('touch'):
-        info['range'] = 'Touch'
-        return info
-
-    m = RANGE_PATTERN.match(rng_str)
+    m = re.match(r'^(\d+)(?:/(\d+))?(?:\s*\((.*)\))?$', r)
     if m:
-        if m.group(1):
-            info['range'] = int(m.group(1))
-        if m.group(2):
-            info['range_max'] = int(m.group(2))
-        if m.group(3):
-            _parse_aoe_paren(m.group(3), info)
+        info['range'] = int(m.group(1))
+        if m.group(2): info['range_max'] = int(m.group(2))
+        if m.group(3): info = _merge(info, _parse_aoe_text(m.group(3)))
     else:
-        info['range'] = rng_str
-
+        info['range'] = r
     return info
 
 
-def _parse_aoe_paren(paren_text, info):
-    """Parse parenthetical AoE like '20 ft radius', '30 ft cone', 'line, 10 ft wide'"""
-    t = paren_text.lower()
-    m = AOE_RADIUS.search(t)
-    if m:
-        info['aoe_radius'] = int(m.group(1))
-    m = AOE_CONE.search(t)
-    if m:
-        info['aoe_radius'] = int(m.group(1))
-        info['aoe_cone'] = True
-    m = AOE_LINE.search(t)
-    if m:
-        info['aoe_line'] = True
-    m = AOE_CUBE.search(t)
-    if m:
-        info['aoe_radius'] = int(m.group(1))
-        info['aoe_cube'] = True
-    m = AOE_SPHERE.search(t)
-    if m:
-        info['aoe_radius'] = int(m.group(1))
-    return info
-
-
-def parse_prereq(prereq_str, desc_str):
-    """Parse prerequisite column and also extract stat/affinity requirements from description.
-    Returns dict with affinity_required, int_required, etc."""
+def _parse_aoe_text(text):
     info = {}
-    # Combine both for parsing
-    combined = f"{prereq_str} {desc_str}"
-
-    if not prereq_str or prereq_str.lower() == 'none':
-        # Try description
-        pass
-
-    # Stat requirements: >16 Int
-    for m in STAT_PREREQ.finditer(prereq_str):
-        val = int(m.group(1)) + 1
-        stat = m.group(2).lower()
-        if stat == 'str':
-            info['str_required'] = val
-        elif stat == 'dex':
-            info['dex_required'] = val
-        elif stat == 'con':
-            info['con_required'] = val
-        elif stat == 'wis':
-            info['wis_required'] = val
-        elif stat == 'int':
-            info['int_required'] = val
-        elif stat == 'cha':
-            info['cha_required'] = val
-
-    # Also check description for stat requirements (like ">16 Int")
-    for m in STAT_PREREQ.finditer(desc_str):
-        val = int(m.group(1)) + 1
-        stat = m.group(2).lower()
-        key = f'{stat}_required'
-        if key not in info:
-            info[key] = val
-
+    t = text.lower()
+    m = AOE_RADIUS.search(t)
+    if m: info['aoe_radius'] = int(m.group(1))
+    m = AOE_CONE.search(t)
+    if m: info['aoe_radius'] = int(m.group(1)); info['aoe_cone'] = True
+    m = AOE_LINE.search(t)
+    if m: info['aoe_line'] = True
+    m = AOE_CUBE.search(t)
+    if m: info['aoe_radius'] = int(m.group(1)); info['aoe_cube'] = True
+    if 'sphere' in t:
+        m = re.search(r'(\d+)\s*ft\s*sphere', t, re.IGNORECASE)
+        if m: info['aoe_radius'] = max(int(m.group(1)), info.get('aoe_radius', 0))
     return info
 
 
-def parse_upcast_chain(upcast_str):
-    """Parse upcast column. Returns dict:
-    - next_spell: name of the next spell in chain (if it's a spell name)
-    - upcast_rule: scaling rule string (e.g., 'x2, +3d6 damage')
-    """
-    if not upcast_str or upcast_str.lower() in ('none', '-'):
-        return {}
-    # If it's just a spell name (no digits, no commas), it's the next spell
-    if re.match(r'^[A-Z][a-zA-Z\s]+$', upcast_str.strip()):
-        return {'upcast_to': upcast_str.strip()}
-    # Otherwise it's a scaling rule
-    return {'upcast_rule': upcast_str.strip()}
+def _merge(base, extra):
+    for k, v in extra.items():
+        if k == 'aoe_radius' and 'aoe_radius' in base and base['aoe_radius'] >= v: continue
+        if k in ('aoe_cone','aoe_line','aoe_cube'): v = True
+        base[k] = v
+    return base
 
 
 def extract_spell_info(desc, prereq_str, rng_str):
-    """Extract all machine-readable fields from a spell."""
     info = {}
 
     # Damage
@@ -262,17 +190,17 @@ def extract_spell_info(desc, prereq_str, rng_str):
         info['damage_flat'] = int(float(m.group('flat') or m.group('flat2')))
     else:
         m = DICE_ONLY.search(desc)
-        if m:
-            info['damage_dice'] = m.group('dice')
+        if m: info['damage_dice'] = m.group('dice')
 
     # Conditions with stack counts
     conditions = []
     for cond in ALL_CONDITIONS:
-        p = re.search(rf'{re.escape(cond)}\s*x(\d+)', desc, re.IGNORECASE)
+        name = cond
+        # Check for X×N notation first (e.g., "Radiation x15", "Bleeding x3")
+        p = re.search(rf'{re.escape(cond)}\s*[×xX]\s*(\d+)', desc)
         if p:
-            count = int(p.group(1))
             cname = COND_ALIAS.get(cond, cond)
-            conditions.append(f'{cname} x{count}')
+            conditions.append(f'{cname} x{p.group(1)}')
         elif re.search(rf'\b{re.escape(cond)}\b', desc, re.IGNORECASE):
             cname = COND_ALIAS.get(cond, cond)
             conditions.append(cname)
@@ -281,127 +209,106 @@ def extract_spell_info(desc, prereq_str, rng_str):
 
     # Save
     m = SAVE_RE.search(desc)
-    if m:
-        info['save'] = SAVE_MAP.get(m.group(1).lower(), m.group(1)[:3].lower())
+    if m: info['save'] = SAVE_MAP.get(m.group(1).lower(), m.group(1)[:3].lower())
     if 'half damage' in desc.lower() or 'take half' in desc.lower():
         info['save_half'] = True
 
-    # Attack roll
+    # Attack roll vs save — if both appear, attack+save spells need both modeled
     if 'spell attack' in desc.lower():
         info['attack_roll'] = True
 
-    # AoE from description (even if not in range)
-    for pattern, key in [(AOE_RADIUS, 'aoe_radius'), (AOE_CONE, 'aoe_cone'),
-                          (AOE_LINE, 'aoe_line'), (AOE_CUBE, 'aoe_cube')]:
-        m = pattern.search(desc)
-        if m:
-            if key == 'aoe_radius' and 'aoe_radius' not in info:
-                info['aoe_radius'] = int(m.group(1))
-            elif key not in ('aoe_radius',):
-                info[key] = True
-                if 'aoe_radius' not in info:
-                    try:
-                        info['aoe_radius'] = int(m.group(1))
-                    except (IndexError, ValueError):
-                        pass
-
-    # Range parsing
+    # AoE from range
     range_info = parse_range(rng_str)
     for k, v in range_info.items():
-        if k == 'range' and 'range' not in info:
+        if k == 'range' and 'range' not in info: info['range'] = v
+        elif k == 'range_max' and 'range_max' not in info: info['range_max'] = v
+        elif k == 'aoe_radius':
+            if 'aoe_radius' in info: info['aoe_radius'] = max(info['aoe_radius'], v)
+            else: info['aoe_radius'] = v
+        elif k in ('aoe_cone','aoe_line','aoe_cube','aoe_self'):
             info[k] = v
-        elif k not in ('range',):
-            if k == 'aoe_self' and v:
-                info['aoe_self'] = True
-            elif k == 'aoe_radius' and 'aoe_radius' not in info:
-                info['aoe_radius'] = v
-            elif k == 'range_max' and 'range_max' not in info:
-                info['range_max'] = v
+
+    # AoE from description (in case not in range column)
+    for pat, key in [(AOE_RADIUS, 'aoe_radius'), (AOE_CONE, 'aoe_cone'),
+                      (AOE_LINE, 'aoe_line'), (AOE_CUBE, 'aoe_cube')]:
+        if key in info: continue
+        m = pat.search(desc.lower())
+        if m:
+            if key == 'aoe_radius': info['aoe_radius'] = int(m.group(1))
+            else: info[key] = True
 
     # Concentration
-    if 'concentration' in desc.lower():
+    if re.search(r'(?<!not )\brequires\s+[Cc]oncentration\b', desc):
         info['concentration'] = True
 
     # Bonus action cost
-    if 'bonus action to cast' in desc.lower() or 'additional bonus action' in desc.lower():
+    if 'bonus action' in desc.lower() and 'cast' in desc.lower():
         info['costs_bonus_action'] = True
 
-    # Prerequisites from the prereq column
-    prereqs = parse_prereq(prereq_str, desc)
-    info.update(prereqs)
+    # Prerequisites
+    for m in STAT_PREREQ.finditer(prereq_str):
+        val = int(m.group(1)) + 1
+        stat = m.group(2).lower()
+        info[f'{stat}_required'] = val
+    # Also check description for stat prereqs
+    for m in STAT_PREREQ.finditer(desc):
+        val = int(m.group(1)) + 1
+        stat = m.group(2).lower()
+        key = f'{stat}_required'
+        if key not in info: info[key] = val
 
     # Affinity required from prerequisite
     m = AFFINITY_PREREQ.search(prereq_str)
     if m:
-        val = int(m.group(1)) + 1
-        aff_name = m.group(2).strip()
-        # Determine which affinity
-        info['affinity_required'] = val
-
-    # Multi-affinity prerequisite like ">5 in at least 3 affinities"
-    m = MULTI_AFF_RE.search(prereq_str)
-    if m:
         info['affinity_required'] = int(m.group(1)) + 1
-        info['affinities_at_required'] = int(m.group(1)) + 1
-        info['affinities_at_count'] = int(m.group(2))
 
     return info
 
 
+def parse_upcast_chain(upcast_str):
+    if not upcast_str or upcast_str.lower() in ('none', '-'): return {}
+    if re.match(r'^[A-Z][a-zA-Z\s\-]+$', upcast_str.strip()):
+        return {'upcast_to': upcast_str.strip()}
+    return {'upcast_rule': upcast_str.strip()}
+
+
 def fmt_val(v):
-    if v is None:
-        return '(none)'
-    if isinstance(v, bool):
-        return 'true' if v else 'false'
+    if v is None: return '(none)'
+    if isinstance(v, bool): return 'true' if v else 'false'
     return str(v)
-
-
-def _affinity_from_prereq(prereq_str, handbook_affinity):
-    """Determine what affinity this spell belongs to based on the prereq column."""
-    # If the prereq mentions a specific affinity, use that
-    m = re.search(r'>\s*\d+\s*([A-Z][\w\s/]+?)(?:\s*Affinity)?\s*(?:$|and)', prereq_str, re.IGNORECASE)
-    if m:
-        name = m.group(1).strip()
-        return name
-    # Otherwise use the handbook's affinity column
-    return handbook_affinity
 
 
 # ── Main ─────────────────────────────────────────────────────────
 def main():
     log_lines = []
-    def log(s=''):
-        log_lines.append(s)
+    def log(s=''): log_lines.append(s)
 
     ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     log(f"EYUM TTRPG — SPELL UPDATER LOG")
     log(f"Run at: {ts}")
-    log(f"Handbook: {HANDBOOK_PATH}")
-    log(f"Spells JSON: {SPELLS_PATH}")
     log("=" * 70)
 
     if not os.path.exists(HANDBOOK_PATH):
         print(f"ERROR: Handbook not found at {HANDBOOK_PATH}")
-        _flush_log(log_lines, LOG_PATH)
-        sys.exit(1)
+        _flush(log_lines); sys.exit(1)
 
     handbook = parse_handbook(HANDBOOK_PATH)
     log(f"Parsed {len(handbook)} spells from handbook")
 
+    clear_affinity_markers()  # Reset change tracking for this run
+
     with open(SPELLS_PATH, 'r') as f:
         spells_json = json.load(f)
 
-    # Build reverse index
+    # Index JSON spells by base name
     json_index = {}
     for aff_name, slist in spells_json.items():
         for s in slist:
             base = re.sub(r'\s*\(.*\)$', '', s['name']).strip()
             json_index.setdefault(base, []).append((aff_name, s, s['name']))
 
-    # ── Update existing spells ──
-    changed = []
-    unchanged = []
-    not_in_handbook = []
+    # ── Update existing ──
+    changed = []; unchanged = []; not_in_handbook = []
 
     for base_name, entries in json_index.items():
         if base_name not in handbook:
@@ -414,17 +321,17 @@ def main():
         upcast = parse_upcast_chain(h['upcast'])
 
         for aff, s, orig_name in entries:
+            custom = {k: s[k] for k in CUSTOM_KEYS if k in s}
             diffs = []
 
-            # ── simple fields ──
+            # mana
             if s.get('mana') != h['mana']:
                 diffs.append(f"mana: {s['mana']} → {h['mana']}")
                 s['mana'] = h['mana']
 
             # description
             if s.get('description', '') != h['desc']:
-                sammary = h['desc'][:60] + ('...' if len(h['desc']) > 60 else '')
-                diffs.append(f"description updated")
+                diffs.append("description updated")
                 s['description'] = h['desc']
 
             # upcast
@@ -442,72 +349,80 @@ def main():
                 s['range_max'] = info['range_max']
 
             # damage
-            if 'damage_dice' in info and info['damage_dice'] != s.get('damage_dice', ''):
-                diffs.append(f"damage_dice: {fmt_val(s.get('damage_dice'))} → {info['damage_dice']}")
-                s['damage_dice'] = info['damage_dice']
-            if 'damage_flat' in info and info.get('damage_flat', 0) != s.get('damage_flat', 0):
-                diffs.append(f"damage_flat: {s.get('damage_flat', 0)} → {info['damage_flat']}")
-                s['damage_flat'] = info['damage_flat']
+            if 'damage_dice' in info:
+                nd = info['damage_dice']
+                od = s.get('damage_dice', '')
+                if nd != od:
+                    diffs.append(f"damage_dice: {od} → {nd}")
+                    s['damage_dice'] = nd
+            if 'damage_flat' in info:
+                nf = info['damage_flat']
+                of = s.get('damage_flat', 0)
+                if nf != of:
+                    diffs.append(f"damage_flat: {of} → {nf}")
+                    s['damage_flat'] = nf
 
             # conditions
-            if 'extra_effect' in info and info['extra_effect'] != s.get('extra_effect', ''):
-                diffs.append(f"extra_effect: {fmt_val(s.get('extra_effect'))} → {info['extra_effect']}")
-                s['extra_effect'] = info['extra_effect']
+            ne = info.get('extra_effect') or ''
+            oe = s.get('extra_effect') or ''
+            if ne and ne != oe:
+                diffs.append(f"extra_effect: {oe} → {ne}")
+                s['extra_effect'] = ne
 
             # save
             if 'save' in info and s.get('save') != info['save']:
                 diffs.append(f"save: {fmt_val(s.get('save'))} → {info['save']}")
                 s['save'] = info['save']
-                if s.get('attack_roll') and info.get('save'):
-                    s['attack_roll'] = False
-                    diffs.append(f"attack_roll: true → false (save-based)")
+                if s.get('attack_roll'): s['attack_roll'] = False; diffs.append("attack_roll→false (save)")
 
             # AoE
-            for aoe_key in ('aoe_radius', 'aoe_cone', 'aoe_line', 'aoe_cube', 'aoe_self'):
-                if aoe_key in info:
-                    hval = info[aoe_key]
-                    sval = s.get(aoe_key)
-                    if aoe_key == 'aoe_radius':
-                        if hval != (sval or 0 if isinstance(hval, int) else None):
-                            diffs.append(f"{aoe_key}: {fmt_val(sval)} → {hval}")
-                            s[aoe_key] = hval
-                    else:
-                        if hval and not sval:
-                            diffs.append(f"{aoe_key}: false → true")
-                            s[aoe_key] = True
+            for k in ('aoe_radius','aoe_cone','aoe_line','aoe_cube','aoe_self'):
+                v = info.get(k)
+                if v is None: continue
+                if k == 'aoe_radius':
+                    if s.get(k) != v:
+                        diffs.append(f"{k}: {s.get(k)} → {v}"); s[k] = v
+                else:
+                    if v and not s.get(k): diffs.append(f"{k}: false → true"); s[k] = True
 
-            # booleans
-            for flag in ('concentration', 'attack_roll', 'save_half', 'costs_bonus_action'):
-                hval = info.get(flag)
-                sval = s.get(flag)
-                if hval and not sval:
-                    diffs.append(f"{flag}: false → true")
-                    s[flag] = True
+            # boolean flags
+            for flag in ('concentration','attack_roll','save_half','costs_bonus_action'):
+                if info.get(flag) and not s.get(flag):
+                    diffs.append(f"{flag}: false → true"); s[flag] = True
 
             # stat prerequisites
-            for stat_key in ('int_required', 'con_required', 'str_required',
-                            'dex_required', 'wis_required', 'cha_required',
-                            'affinity_required', 'affinities_at_required',
-                            'affinities_at_count'):
-                if stat_key in info:
-                    hval = info[stat_key]
-                    sval = s.get(stat_key)
-                    if hval != sval:
-                        diffs.append(f"{stat_key}: {fmt_val(sval)} → {hval}")
-                        s[stat_key] = hval
+            for sk in STAT_PREREQ_KEYS:
+                if sk in info and s.get(sk) != info[sk]:
+                    diffs.append(f"{sk}: {fmt_val(s.get(sk))} → {info[sk]}")
+                    s[sk] = info[sk]
+
+            # affinity_required
+            if 'affinity_required' in info:
+                nv = info['affinity_required']
+                if s.get('affinity_required') != nv:
+                    diffs.append(f"affinity_required: {fmt_val(s.get('affinity_required'))} → {nv}")
+                    s['affinity_required'] = nv
+
+            # Restore custom keys
+            for k, v in custom.items():
+                if s.get(k) != v:
+                    diffs.append(f"{k}: restored (custom flag)")
+                    s[k] = v
 
             if diffs:
                 changed.append((orig_name, aff, diffs))
+                # Write a marker file so the GUI knows which affinities changed
+                _mark_affinity(aff)
             else:
                 unchanged.append(f"  {orig_name} ({aff})")
 
     # ── New spells ──
-    all_json_bases = set()
+    all_bases = set()
     for entries in json_index.values():
-        for _, _, oname in entries:
-            all_json_bases.add(re.sub(r'\s*\(.*\)$', '', oname).strip())
+        for _, _, on in entries:
+            all_bases.add(re.sub(r'\s*\(.*\)$', '', on).strip())
 
-    new_spells = {n: h for n, h in handbook.items() if n not in all_json_bases}
+    new_spells = {n: h for n, h in handbook.items() if n not in all_bases}
 
     print(f"\n{'='*60}")
     print(f"Spell Updater — {len(changed)} changed, {len(unchanged)} unchanged")
@@ -515,56 +430,61 @@ def main():
     print(f"{len(not_in_handbook)} spells in JSON not in handbook")
     print(f"{'='*60}")
 
+    answer = 'n'
     if new_spells:
         print(f"\nNew spells in handbook NOT in spells.json:")
-        for name in sorted(new_spells.keys()):
-            print(f"  {name} ({new_spells[name]['affinity']})")
+        for n in sorted(new_spells.keys()):
+            print(f"  {n} ({new_spells[n]['affinity']})")
         answer = input(f"\nAdd these {len(new_spells)} spells to spells.json? [y/N]: ").strip().lower()
         if answer == 'y':
             added = []
             for hname, hdata in new_spells.items():
                 info = extract_spell_info(hdata['desc'], hdata['prereq'], hdata['range'])
-                upcast = parse_upcast_chain(hdata['upcast'])
-                affinity = hdata['affinity']
-                if affinity == 'Special':
-                    affinity = _affinity_from_prereq(hdata['prereq'], hdata['affinity'])
-                if affinity not in spells_json:
-                    spells_json[affinity] = []
-
-                entry = {'name': hname, 'mana': hdata['mana'],
-                         'description': hdata['desc'],
-                         'damage_type': affinity.lower()}
-                if 'range' in info:
-                    entry['range'] = info['range']
-                if 'range_max' in info:
-                    entry['range_max'] = info['range_max']
-                for field in ('damage_dice', 'damage_flat', 'extra_effect', 'save',
-                              'aoe_radius', 'affinity_required',
-                              'int_required', 'con_required', 'str_required',
-                              'dex_required', 'wis_required', 'cha_required',
-                              'affinities_at_required', 'affinities_at_count'):
-                    if field in info:
-                        entry[field] = info[field]
-                for flag in ('aoe_cone', 'aoe_line', 'aoe_cube', 'aoe_self',
-                            'concentration', 'attack_roll', 'save_half',
-                            'costs_bonus_action'):
-                    if info.get(flag):
-                        entry[flag] = True
-                for k, v in upcast.items():
-                    entry[k] = v
-
-                spells_json[affinity].append(entry)
+                up = parse_upcast_chain(hdata['upcast'])
+                aff = hdata['affinity']
+                if aff not in spells_json: spells_json[aff] = []
+                e = {'name': hname, 'mana': hdata['mana'], 'description': hdata['desc'],
+                     'damage_type': aff.lower()}
+                if 'range' in info: e['range'] = info['range']
+                if 'range_max' in info: e['range_max'] = info['range_max']
+                for f in ('damage_dice','damage_flat','extra_effect','save',
+                          'aoe_radius','affinity_required'):
+                    if f in info: e[f] = info[f]
+                for sk in STAT_PREREQ_KEYS:
+                    if sk in info: e[sk] = info[sk]
+                for f in BOOLEAN_FLAGS:
+                    if info.get(f): e[f] = True
+                for k, v in up.items(): e[k] = v
+                spells_json[aff].append(e)
                 added.append(hname)
-                log(f"  + ADDED: {hname} ({affinity}) mana={hdata['mana']}")
-
-            # Sort each affinity's list by mana
-            for aff_name in spells_json:
-                spells_json[aff_name].sort(key=lambda x: x.get('mana', 0))
+                log(f"  + ADDED: {hname} ({aff}) mana={hdata['mana']}")
+            for a in spells_json:
+                spells_json[a].sort(key=lambda x: (x.get('affinity_required',0), x.get('mana',0)))
             print(f"  Added {len(added)} spells.")
         else:
-            log(f"\nUser chose NOT to add new spells.")
-            for hname, hdata in sorted(new_spells.items()):
-                log(f"  (skipped) {hname} ({hdata['affinity']}): mana={hdata['mana']}")
+            log("User chose NOT to add new spells.")
+            for n in sorted(new_spells.keys()):
+                log(f"  (skipped) {n} ({new_spells[n]['affinity']}): mana={new_spells[n]['mana']}")
+
+    # ── Apply overrides ──
+    for (aff_name, spell_name), overrides in DAMAGE_OVERRIDES.items():
+        if aff_name not in spells_json: continue
+        for s in spells_json[aff_name]:
+            if s.get('name') == spell_name:
+                for k, v in overrides.items():
+                    if s.get(k) != v:
+                        log(f"  OVERRIDE: {spell_name} ({aff_name}): {k}: {s.get(k)} → {v}")
+                        s[k] = v
+                break
+
+    # Ensure every spell has damage_type
+    for aff, slist in spells_json.items():
+        aff_lower = aff.lower()
+        for s in slist:
+            if 'damage_type' not in s:
+                s['damage_type'] = aff_lower
+            if 'damage_dice' not in s and 'damage_formula' not in s:
+                s['damage_type'] = aff_lower
 
     # ── Write JSON ──
     with open(SPELLS_PATH, 'w') as f:
@@ -572,56 +492,67 @@ def main():
         f.write('\n')
 
     # ── Write log ──
-    log(f"\n{'='*70}")
-    log(f"SUMMARY")
-    log(f"{'='*70}")
-    log(f"  Total spells in handbook: {len(handbook)}")
+    log(f"\n{'='*70}\nSUMMARY\n{'='*70}")
+    log(f"  Total handbook spells parsed: {len(handbook)}")
     log(f"  Changed:  {len(changed)}")
     log(f"  Unchanged: {len(unchanged)}")
-    log(f"  New (in handbook, not in JSON): {len(new_spells)}")
+    log(f"  Added:    {len(new_spells)}" if answer == 'y' else f"  Skipped:  {len(new_spells)} new spells")
+    log(f"  Not in handbook: {len(not_in_handbook)}")
 
     if changed:
-        log(f"\n{'─'*70}")
-        log(f"CHANGED SPELLS ({len(changed)})")
-        log(f"{'─'*70}")
+        log(f"\n{'─'*70}\nCHANGED SPELLS ({len(changed)})\n{'─'*70}")
         for name, aff, diffs in sorted(changed, key=lambda x: x[0].lower()):
             log(f"\n  {name} ({aff})")
-            for d in diffs:
-                log(f"      {d}")
+            for d in diffs: log(f"      {d}")
 
     if unchanged:
-        log(f"\n{'─'*70}")
-        log(f"UNCHANGED SPELLS ({len(unchanged)})")
-        log(f"{'─'*70}")
-        for line in sorted(unchanged):
-            log(line)
-
-    if new_spells and answer != 'y':
-        log(f"\n{'─'*70}")
-        log(f"SKIPPED NEW SPELLS ({len(new_spells)})")
-        log(f"{'─'*70}")
-        for hname in sorted(new_spells.keys()):
-            hdata = new_spells[hname]
-            log(f"  {hname} ({hdata['affinity']}): mana={hdata['mana']}")
+        log(f"\n{'─'*70}\nUNCHANGED SPELLS ({len(unchanged)})\n{'─'*70}")
+        for line in sorted(unchanged): log(line)
 
     if not_in_handbook:
-        log(f"\n{'─'*70}")
-        log(f"SPELLS IN JSON NOT IN HANDBOOK ({len(not_in_handbook)})")
-        log(f"{'─'*70}")
-        log(f"  (These may be healing/utility spells from a separate handbook section.)")
-        for line in sorted(not_in_handbook):
-            log(line)
+        log(f"\n{'─'*70}\nNOT IN HANDBOOK ({len(not_in_handbook)})\n{'─'*70}")
+        for line in sorted(not_in_handbook): log(line)
 
-    log(f"\n{'='*70}")
-    log(f"End of log — {ts}")
-
-    _flush_log(log_lines, LOG_PATH)
-    print(f"\nDone. Full report written to: {LOG_PATH}")
+    log(f"\n{'='*70}\nEnd of log — {ts}")
+    _flush(log_lines)
+    print(f"\nDone. Full report: {LOG_PATH}")
 
 
-def _flush_log(lines, path):
+def _flush(lines, path=LOG_PATH):
     with open(path, 'w') as f:
         f.write('\n'.join(lines) + '\n')
+
+
+_AFFINITY_MARKER_PATH = os.path.join(SCRIPT_DIR, 'data', '.changed_affinities.json')
+
+
+def _mark_affinity(aff_name):
+    """Record that this affinity had a gameplay-relevant change."""
+    import json as _json
+    markers = {}
+    if os.path.exists(_AFFINITY_MARKER_PATH):
+        try:
+            with open(_AFFINITY_MARKER_PATH) as _f:
+                markers = _json.load(_f)
+        except Exception:
+            markers = {}
+    markers[aff_name] = markers.get(aff_name, 0) + 1
+    with open(_AFFINITY_MARKER_PATH, 'w') as _f:
+        _json.dump(markers, _f)
+
+
+def clear_affinity_markers():
+    if os.path.exists(_AFFINITY_MARKER_PATH):
+        os.remove(_AFFINITY_MARKER_PATH)
+
+
+def get_changed_affinities():
+    if not os.path.exists(_AFFINITY_MARKER_PATH):
+        return set()
+    import json as _json
+    with open(_AFFINITY_MARKER_PATH) as _f:
+        markers = _json.load(_f)
+    return set(markers.keys())
 
 
 if __name__ == '__main__':

@@ -1898,32 +1898,50 @@ class CharacterManagerGUI:
                         "Updater Error", proc.stderr[:500] or f"Exit code {proc.returncode}"))
                     self.root.after(0, lambda: self._regen_reenable())
                     return
-                # Determine which builds are affected
+                proc = subprocess.run(
+                    [sys.executable, script],
+                    input='n\n',
+                    capture_output=True, text=True, timeout=120,
+                    cwd=SCRIPT_DIR
+                )
+                self.root.after(0, lambda: self.status_label.config(
+                    text=f"Done: {len(proc.stdout.splitlines())} lines"))
+
+                # Reload fresh spells.json
                 self.settings = None
-                s = load_settings(DATA_DIR)
-                self.settings = s
-                # Find affinities referenced by changed spells
-                affected_affinities = set()
-                for line in proc.stdout.splitlines():
-                    for aff_name in s['spells'].keys():
-                        if aff_name in line or aff_name.lower() in line.lower():
-                            affected_affinities.add(aff_name)
+                s_after = load_settings(DATA_DIR)
+                self.settings = s_after
+
+                # Read affinity marker file from the updater
+                marker_path = os.path.join(DATA_DIR, '.changed_affinities.json')
+                changed_affinities = set()
+                if os.path.exists(marker_path):
+                    try:
+                        with open(marker_path) as f:
+                            markers = json.load(f)
+                        changed_affinities = set(markers.keys())
+                    except Exception:
+                        pass
+
                 # Find builds that use these affinities
                 affected_builds = set()
-                for bname, bconfig in s['builds'].items():
+                for bname, bconfig in s_after['builds'].items():
                     pa = bconfig.get('primary_affinity', '')
-                    if pa and pa in affected_affinities:
+                    if pa and pa in changed_affinities:
                         affected_builds.add(bname)
                         continue
                     for path in bconfig.get('preferred_paths', []):
-                        if path in affected_affinities:
+                        if path in changed_affinities:
                             affected_builds.add(bname)
                             break
-                for bname in s['builds']:
+
+                for bname in s_after['builds']:
                     if bname.lower().startswith('worst'):
                         affected_builds.add(bname)
-                if not affected_builds:
+
+                if not changed_affinities or not affected_builds:
                     affected_builds = None
+
                 self.generating = False
                 self.root.after(100, lambda: self._run_generator(build_filter=affected_builds))
             except subprocess.TimeoutExpired:

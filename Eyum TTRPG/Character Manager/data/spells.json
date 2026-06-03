@@ -49,7 +49,8 @@
       "extra_effect": "Suffocating",
       "description": "Choose a 5 ft wide, 60 ft long line you can see. Creatures in the line must make a Strength save. On a failure they take 2d6 Air damage, are pushed 20 ft in the line\u2019s direction, and if they collide with a creature or object all involved creatures take 1d6 Magical Bludgeoning damage. If moved more than 10 ft, they must make a Constitution save or gain Suffocating for 1 turn.",
       "upcast_to": "Cyclone",
-      "range": 60
+      "range": 60,
+      "damage_flat": 4
     },
     {
       "name": "Cyclone",
@@ -188,7 +189,8 @@
       "attack_roll": true,
       "upcast_rule": "x2, +40 damage, +1 Radiation stack",
       "damage_dice": "5d6",
-      "damage_flat": 20
+      "damage_flat": 40,
+      "aoe_radius": 5
     },
     {
       "name": "Go Atomic",
@@ -260,14 +262,14 @@
       "affinity_required": 101,
       "int_required": 46,
       "damage_dice": "15d12",
-      "damage_flat": 650,
+      "damage_flat": 750,
       "damage_type": "atomic",
       "aoe_radius": 300,
       "costs_bonus_action": true,
-      "extra_effect": "Radiation x25",
+      "extra_effect": "Radiation x35",
       "save_half": true,
-      "description": "This spell costs an additional Bonus Action to cast. Create an absolute end-state blast at a point you can see. Creatures in a 300 ft radius take 650 + 15d12 Atomic damage and gain Radiation x25. The ground remains terminally irradiated for 5 turns, applying Radiation x20 and 8d20 Atomic damage to creatures entering or ending their turn there. You take half damage from the explosion.",
-      "upcast_rule": "x3, +450 flat damage, +50 ft radius, +10 Radiation stacks",
+      "description": "This spell costs an additional Bonus Action to cast. Create an absolute end-state blast at a point you can see. Creatures in a 300 ft radius take 750 + 15d12 Atomic damage and gain Radiation x35. The ground remains terminally irradiated for 5 turns, applying Radiation x30 and 8d20 Atomic damage to creatures entering or ending their turn there. You take half damage from the explosion.",
+      "upcast_rule": "x3, +550 flat damage, +50 ft radius, +10 Radiation stacks",
       "range": 500
     }
   ],
@@ -833,15 +835,6 @@
       "range": 60
     },
     {
-      "name": "Eldritch Blast",
-      "mana": 2,
-      "attack_roll": true,
-      "damage_type": "eldritch",
-      "description": "Make a ranged spell attack against a creature you can see within range. This spell uses Eldritch Affinity only; Generic Affinity is not added. On hit, the target takes 1 Eldritch damage.",
-      "upcast_rule": "x2, fire 1 additional blast as a separate spell attack",
-      "range": 60
-    },
-    {
       "name": "Eldritch Tentacle",
       "mana": 5,
       "damage_type": "eldritch",
@@ -852,17 +845,6 @@
       "range": 120,
       "extra_effect": "Grappled",
       "concentration": true
-    },
-    {
-      "name": "Eldritch Tentacle",
-      "mana": 5,
-      "extra_effect": "Grappled",
-      "save": "str",
-      "concentration": true,
-      "damage_type": "eldritch",
-      "description": "Choose a creature you can see within range. It must make a Strength save against 10 + Eldritch Affinity. On a failure, it is Grappled, pulled to a space of your choice within 5 ft of you, and remains held while you maintain Concentration. A creature escaping this grapple rolls its Athletics or equivalent escape check against your spell save DC using Eldritch only, not Generic.",
-      "upcast_rule": "x2, affect 1 additional target with a separate tentacle",
-      "range": 120
     },
     {
       "name": "Eldritch Explosion",
@@ -878,16 +860,6 @@
       "aoe_self": true
     },
     {
-      "name": "Eldritch Explosion",
-      "mana": 6,
-      "save": "wis",
-      "damage_type": "eldritch",
-      "description": "Eldritch power erupts outward from you. All other creatures within 30 ft must make a Wisdom save against 5 + Eldritch Affinity. On a failure, a creature takes 15 Eldritch damage. On a success, it takes no damage unless another feature says otherwise.",
-      "upcast_rule": "x2, increase radius by 10 ft and damage by +15",
-      "aoe_radius": 30,
-      "aoe_self": true
-    },
-    {
       "name": "Eldritch Shadow",
       "mana": 18,
       "damage_type": "eldritch",
@@ -895,17 +867,8 @@
       "description": "Concentration. This spell may be cast as a Bonus Action. You gain the Invisible condition until you make an attack. While invisible from this spell, any attack you make that deals Eldritch damage deals 1.5x more damage.",
       "upcast_rule": "x10, you do not lose invisibility from attacking; may only be upcast this way once",
       "extra_effect": "Invisible",
-      "aoe_self": true
-    },
-    {
-      "name": "Eldritch Shadow",
-      "mana": 18,
-      "extra_effect": "Invisible",
-      "concentration": true,
-      "damage_type": "eldritch",
-      "description": "Concentration. This spell may be cast as a Bonus Action. You gain the Invisible condition until you make an attack. While invisible from this spell, any attack you make that deals Eldritch damage deals 1.5x more damage.",
-      "upcast_rule": "x10, you do not lose invisibility from attacking; may only be upcast this way once",
-      "aoe_self": true
+      "aoe_self": true,
+      "costs_bonus_action": true
     }
   ],
   "Fire": [
@@ -1462,7 +1425,7 @@
       "save_half": true,
       "attack_roll": false,
       "aoe_radius": 15,
-      "extra_effect": "Hurting+Grappled+DifficultTerrain+Pierced+DifficultTerrain",
+      "extra_effect": "Hurting+Grappled+DifficultTerrain+DifficultTerrain+Pierced",
       "description": "Choose a point you can see. Metallic structures erupt violently from the ground in a 15 ft radius, forming spikes, walls, and cages simultaneously. Creatures in the area must make a Strength save. On a failure, they take 8d8 Metal damage, become Grappled, gain Pierced, and have their movement reduced to 0 while inside the structure. While Grappled this way, they take 3 stacks of Hurting per turn instead of 2. The terrain becomes Impassable Terrain for all creatures except the caster. On a success, creatures take half damage and are not Grappled but must treat the area as Difficult Terrain.",
       "upcast_to": "Steel Catacomb",
       "range": 60
@@ -1946,7 +1909,10 @@
       "concentration": true,
       "description": "Your skin becomes black glass. Gain +10 AC but -10 ft Speed. Anyone hitting you with melee takes 6d12 Obsidian damage. This spell requires concentration.",
       "upcast_to": "Glass Carapace",
-      "aoe_self": true
+      "aoe_self": true,
+      "retaliation": {
+        "dice": "6d12"
+      }
     },
     {
       "name": "Glass Carapace",
@@ -1958,7 +1924,10 @@
       "concentration": true,
       "description": "Your skin becomes dark strong black glass. Gain +10 AC but -10 ft Speed and resistance to slashing and piercing damage. Anyone hitting you with melee takes 10d12 Obsidian damage. This spell requires concentration.",
       "upcast_to": "Shard Reprisal",
-      "aoe_self": true
+      "aoe_self": true,
+      "retaliation": {
+        "dice": "10d12"
+      }
     },
     {
       "name": "Shard Reprisal",
@@ -1986,7 +1955,10 @@
       "upcast_to": "Black Monolith",
       "aoe_self": true,
       "save": "wis",
-      "attack_roll": true
+      "attack_roll": true,
+      "retaliation": {
+        "dice": "4d8"
+      }
     },
     {
       "name": "Black Monolith",
@@ -2004,7 +1976,11 @@
       "extra_effect": "Pierced",
       "aoe_line": true,
       "attack_roll": true,
-      "save_half": true
+      "save_half": true,
+      "bap_attack": true,
+      "retaliation": {
+        "dice": "8d8"
+      }
     }
   ],
   "Poison": [
@@ -2833,7 +2809,7 @@
       "affinity_required": 11,
       "attack_roll": true,
       "upcast_rule": "x2, +3d8 damage",
-      "storm_bolts": true
+      "bap_attack": true
     },
     {
       "name": "Storm Call",
@@ -2846,7 +2822,7 @@
       "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 2d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Thunderstorm",
       "range": 240,
-      "storm_bolts": true
+      "bap_attack": true
     },
     {
       "name": "Thunderstorm",
@@ -2860,7 +2836,7 @@
       "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 4d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Tempest",
       "range": 240,
-      "storm_bolts": true
+      "bap_attack": true
     },
     {
       "name": "Tempest",
@@ -2874,7 +2850,7 @@
       "description": "You summon a raging tempest centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 6d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Hurricane Aura",
       "range": 300,
-      "storm_bolts": true
+      "bap_attack": true
     },
     {
       "name": "Hurricane Aura",
@@ -2890,7 +2866,7 @@
       "description": "You summon a devastating hurricane centered on yourself with a radius of 40 ft. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 8d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_to": "Maelstrom",
       "range": "Self",
-      "storm_bolts": true
+      "bap_attack": true
     },
     {
       "name": "Maelstrom",
@@ -2905,7 +2881,7 @@
       "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 10d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits.",
       "upcast_rule": "x2, +10d10 Storm Damage",
       "range": 360,
-      "storm_bolts": true
+      "bap_attack": true
     }
   ],
   "Thunder": [
@@ -3067,7 +3043,8 @@
       "save_half": true,
       "description": "Fire a devastating flood-lance. Creatures in the line must make a Dex save. On fail, take 12d8 Torrent damage, be pushed 40 ft, fall Prone, and any collision deals 6d8 Bludgeoning damage. On success, take half and are pushed 10 ft.",
       "upcast_rule": "x2, +4d8 damage and +10 ft push",
-      "range": 120
+      "range": 120,
+      "aoe_line": true
     }
   ],
   "Toxin": [
@@ -3109,7 +3086,8 @@
       "extra_effect": "Suffocating+Poisoned",
       "description": "Seal a section of space in choking toxic vapor for 3 turns. The area is heavily obscured. Creatures entering or ending their turn there take 4d6 Toxin damage and gain Poisoned and Suffocating. Concentration.",
       "upcast_to": "Caustic Kiss",
-      "range": 90
+      "range": 90,
+      "aoe_cube": true
     },
     {
       "name": "Caustic Kiss",
@@ -3466,19 +3444,20 @@
     },
     {
       "name": "Undertow",
-      "mana": 15,
+      "mana": 20,
       "affinity_required": 11,
-      "int_required": 17,
-      "damage_dice": "3d6",
+      "int_required": 19,
+      "damage_dice": "5d8",
       "damage_type": "water",
       "save": "str",
       "save_half": true,
       "attack_roll": false,
       "aoe_radius": 20,
-      "extra_effect": "Soaked",
-      "description": "Choose a point you can see within range. Water surges upward and inward in a churning vortex. Creatures in a 20 ft radius must make a Strength save. On a failure they take 3d6 Water damage and are pulled 10 ft toward the center. If they are pulled into another creature or solid object, all involved creatures take 3d6 Bludgeoning damage. On a success they take half damage and are not pulled. Any creature hit gains the Soaked condition weather they pass or fail the check.",
-      "upcast_to": "Floodwall",
-      "range": 60
+      "extra_effect": "Soaked+Suffocating+Demoralized",
+      "description": "Creatures in the area must make a Strength save. On a failure they take 5d8 Deluge damage, are pulled up to 15 ft toward the center of the spell, gain Soaked, and become Demoralized. Any creature already Soaked instead gains Suffocating until the start of its next turn. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
+      "upcast_to": "Abyssal Weight",
+      "range": "90 ft (15 ft radius)",
+      "concentration": true
     },
     {
       "name": "Floodwall",
@@ -3523,10 +3502,12 @@
       "description": "Choose an affinity type you have at least 3 in and make a magical attack against a creature in range which you can see. On hit deal 1d4 of  your chosen affinity damage.",
       "upcast_to": "Mana Bolt",
       "range": 30,
-      "range_max": 60
+      "range_max": 60,
+      "damage_type": "generic"
     },
     {
-      "name": "Full Restore"
+      "name": "Full Restore",
+      "damage_type": "generic"
     },
     {
       "name": "Heal",
@@ -3534,7 +3515,8 @@
       "description": "Heal a creature you touch 1d6 + Generic Affinity Health",
       "upcast_rule": "x2, +6 health",
       "range": "Touch",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Revitalize",
@@ -3542,7 +3524,8 @@
       "description": "Heal a creature you touch 1d8 + Generic Affinity Vitality",
       "upcast_rule": "x2, +8 Vitality",
       "range": "Touch",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Medicinal Heal",
@@ -3550,7 +3533,8 @@
       "description": "Heal a creature you touch 1d6 + Medicine Score Health",
       "upcast_rule": "x2, +6 health",
       "range": "Touch",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Medicinal Revitalize",
@@ -3558,14 +3542,16 @@
       "description": "Heal a creature you touch 1d8 + Medicine Score Vitality",
       "upcast_rule": "x2, +8 Vitality",
       "range": "Touch",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Restore Energy",
       "mana": 6,
       "description": "Touch a willing creature. It regains 1d8 + Wisdom Modifier Vitality.",
       "upcast_rule": "x2, raise the healing die by one tier (max 1d20) and add +1d4 healing",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Purify",
@@ -3573,14 +3559,16 @@
       "extra_effect": "Suffocating+Bleeding+Pierced+Poisoned+Blinded+Cursed",
       "description": "Remove one negative condition (Poisoned, Bleeding, Cursed, Blinded, Pierced, or Suffocating) from a creature you touch.",
       "upcast_rule": "x2, +1 target",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Revivify",
       "mana": 9,
       "description": "Instantly removes one level of exhaustion from the target.",
       "upcast_rule": "x2 +1 additional level",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Healing Burst",
@@ -3588,7 +3576,8 @@
       "description": "Heal all creatures within range 1d4 + Generic Affinity Health",
       "upcast_rule": "x2, +10 ft range",
       "range": "15 ft",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Revitalization Burst",
@@ -3596,14 +3585,16 @@
       "description": "Heal all creatures within range 1d6 + Generic Affinity Vitality",
       "upcast_rule": "x2, +10 ft range",
       "range": "15 ft",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Martyr's Bond",
       "mana": 9,
       "description": "Link yourself to one ally for 1 minute. Whenever that ally takes damage, you may choose to take that damage instead. If you do, you gain Resistance to that damage for that instance.",
       "upcast_rule": "x2, +1 linked ally",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Reactive Ward",
@@ -3611,21 +3602,24 @@
       "description": "Place an invisible ward on a creature that lasts 1 minute. The next time it would take damage, it instead heals for 2d8 + Healer Level HP, then the ward ends.",
       "upcast_rule": "x2, +1d8 healing, +1 instance of damage, x2 duration",
       "range": "30 ft",
-      "extra_effect": "Invisible"
+      "extra_effect": "Invisible",
+      "damage_type": "generic"
     },
     {
       "name": "Cure Wounds",
       "mana": 11,
       "description": "Touch a willing creature. It regains 1d6 + Wisdom Modifier Health.",
       "upcast_rule": "x2, raise the healing die by one tier (max 1d20) and add +1d4 healing",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Blood Heal",
       "mana": 11,
       "description": "You may expend any number of Vitality or Hp, the targeted creature gains as much Vitality or Hp as you expend",
       "upcast_rule": "x2, healing doubled (stacks)",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Aura of Healing",
@@ -3634,7 +3628,8 @@
       "description": "Heal all creatures within range 1d4 + Generic Affinity Health at the start of your turn. This spell requires concentration",
       "upcast_rule": "x2, +10 ft range",
       "range": "10 ft",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Aura of Revitalization",
@@ -3643,7 +3638,8 @@
       "description": "Heal all creatures within range 1d6 + Generic Affinity Vitality at the start of your turn. This spell requires concentration",
       "upcast_rule": "x2, +10 ft range",
       "range": "10 ft",
-      "extra_effect": "Heal"
+      "extra_effect": "Heal",
+      "damage_type": "generic"
     },
     {
       "name": "Cleansing Burst",
@@ -3654,7 +3650,8 @@
       "aoe_self": true,
       "extra_effect": "Purged+Blessed",
       "description": "Burst of purifying energy. All allies in range remove one condition of their choice and gain the Blessed condition for 2 rounds. Each ally heals 1d4 HP per condition removed from them this way. Each enemy in range must roll a WIS save or gain the Purged condition.",
-      "upcast_rule": "x2, +5 ft radius"
+      "upcast_rule": "x2, +5 ft radius",
+      "damage_type": "generic"
     },
     {
       "name": "Halo",
@@ -3662,7 +3659,8 @@
       "concentration": true,
       "description": "Requires Concentration. A halo appears above your head for the duration. During the duration your healing spells always heal for max and any creature you kill will be considered Evil Alignment regardless of if they actually were Evil unless they have more Karma than you.",
       "extra_effect": "Heal",
-      "aoe_self": true
+      "aoe_self": true,
+      "damage_type": "generic"
     },
     {
       "name": "Share Burden",
@@ -3670,7 +3668,8 @@
       "concentration": true,
       "description": "Choose an ally you can see. 50% of all damage that ally takes is instead dealt to you. Physical damage is changed to its magical counterpart. You may end this early as a free action. This spell requires Concentration.",
       "upcast_rule": "x2, redirect 25% more (max of 100%)",
-      "range": 60
+      "range": 60,
+      "damage_type": "generic"
     },
     {
       "name": "Expose Weakness",
@@ -3679,7 +3678,8 @@
       "attack_roll": false,
       "description": "Choose a creature you can see within range. It must make a Wisdom save. On a failure, choose one damage type for which you have more than 10 Affinity; the target gains a Weakness to that damage type for 1 turn. A target cannot gain this weakness if it has more than 5 Affinity in that type or already has Resistance/Immunity to it.",
       "upcast_rule": "x2, grant 1 additional chosen weakness type",
-      "range": 60
+      "range": 60,
+      "damage_type": "generic"
     },
     {
       "name": "Sanctuary",
@@ -3689,7 +3689,8 @@
       "extra_effect": "Blessed+Heal",
       "description": "Requires Concentration. Create a 15 ft radius zone. Allies inside cannot be targeted by hostile spells or attacks (area effects still affect them) and gain the Blessed condition (condition ends when you exit the Sanctuary). Allies inside heal 1d6 Vitality at the start of your turn.",
       "upcast_rule": "x2, +10 ft radius",
-      "range": "30 ft (15 ft zone)"
+      "range": "30 ft (15 ft zone)",
+      "damage_type": "generic"
     },
     {
       "name": "Restoration",
@@ -3697,7 +3698,8 @@
       "extra_effect": "Poisoned+Deafened+Paralyzed",
       "description": "Touch a creature and end one of the following conditions affecting it: Blind, Deafened, Paralyzed, Poisoned.",
       "upcast_rule": "x2, affect 1 additional creature",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Remove Curse",
@@ -3705,21 +3707,24 @@
       "extra_effect": "Cursed+Hexed+Slow Death",
       "description": "Touch a creature or object and end a curse affecting it. This ends Cursed and Hexed. After 3 upcasts, this spell may also remove 1 stack of Slow Death.",
       "upcast_rule": "x2, greater curse-removal effects as allowed by the GM and spell tier",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "True Strike",
       "mana": 18,
       "description": "Touch a creature. Its next attack ignores all Resistances.",
       "upcast_rule": "x10, that attack also ignores Immunities; may only be upcast this way once",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Enlarge or Reduce",
       "mana": 18,
       "description": "Choose a creature within range. It either increases by 1 size category or decreases by 1 size category.",
       "upcast_rule": "x2, increase the size change by 1 additional category",
-      "range": 20
+      "range": 20,
+      "damage_type": "generic"
     },
     {
       "name": "Force Share Burden",
@@ -3729,21 +3734,24 @@
       "concentration": true,
       "description": "Choose a creature you can see, they must make a Wis Save (DC 10 + Generic Affinity). 50% of all damage that you take is instead dealt to the targeted creature. Physical damage is changed to its magical counterpart. You may end this early as a free action. This spell requires Concentration.",
       "upcast_rule": "x2, redirect 25% more (max of 100%)",
-      "range": 60
+      "range": 60,
+      "damage_type": "generic"
     },
     {
       "name": "Revive",
       "mana": 21,
       "description": "Revive a creature who has been killed within 1 hour, the creature will be stabilized at 1 Hp",
       "upcast_rule": "x2, +1 hour",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Elemental Ward",
       "mana": 27,
       "description": "Touch a creature. Choose one damage type for which you have more than 10 Affinity. The target gains Resistance to that damage type for 1 minute.",
       "upcast_rule": "x2, grant 1 additional chosen resistance type",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Rebirth",
@@ -3751,7 +3759,8 @@
       "extra_effect": "Blessed",
       "description": "Touch a creature that died within the last hour. It returns to life with full HP and Vitality, but gains 2 levels of Exhaustion. The creature will have the Blessed condition for 2 hours.",
       "upcast_rule": "x2, -1 level of Exhaustion (max of 0)",
-      "range": "Touch"
+      "range": "Touch",
+      "damage_type": "generic"
     },
     {
       "name": "Mana Bolt",
@@ -3762,7 +3771,8 @@
       "description": "Choose an affinity type you have at least 5 in and make a magical attack against a creature in range which you can see. On hit deal 5 + (Affinity Mod / 2) of  your chosen affinity damage.",
       "upcast_to": "Mana Bomb",
       "range": 90,
-      "range_max": 120
+      "range_max": 120,
+      "damage_type": "generic"
     },
     {
       "name": "Mana Bomb",
@@ -3780,9 +3790,10 @@
       "description": "Choose an affinity type you have at least 5 in choose a 10 ft area within range that you can see, that area explodes with magic dealing 10 + (Affinity Mod / 2) damage to all creatures in the area who fail a Dex Save, on a success they take half.",
       "upcast_to": "Mana Explosion",
       "range": 60,
-      "affinity_required": 6,
+      "affinity_required": 18,
       "affinities_at_required": 6,
-      "affinities_at_count": 3
+      "affinities_at_count": 3,
+      "damage_type": "generic"
     },
     {
       "name": "Mana Explosion",
@@ -3801,7 +3812,8 @@
       "range": 60,
       "affinity_required": 11,
       "affinities_at_required": 11,
-      "affinities_at_count": 3
+      "affinities_at_count": 3,
+      "damage_type": "generic"
     },
     {
       "name": "Mana Decimation",
@@ -3821,7 +3833,373 @@
       "range": 60,
       "affinity_required": 16,
       "affinities_at_required": 16,
-      "affinities_at_count": 4
+      "affinities_at_count": 4,
+      "damage_type": "generic"
+    }
+  ],
+  "Cursed": [
+    {
+      "name": "Minor Curse",
+      "mana": 5,
+      "affinity_required": 6,
+      "save": "wis",
+      "damage_dice": "1d10",
+      "damage_type": "cursed",
+      "description": "Target a creature in range. It must make a Wisdom save or gain the Cursed condition. If it is already Cursed, it instead takes 1d10 Cursed damage.",
+      "upcast_to": "Hexing Word",
+      "range": 60,
+      "extra_effect": "Cursed"
+    },
+    {
+      "name": "Hexing Word",
+      "mana": 12,
+      "affinity_required": 11,
+      "save": "wis",
+      "damage_dice": "3d10",
+      "damage_type": "cursed",
+      "description": "Target a creature in range. It must make a Wisdom save. On a failure, it gains the Hexed condition. If already Hexed it takes 3d10 Cursed damage.",
+      "upcast_to": "Aura of Taboo",
+      "range": 60,
+      "extra_effect": "Cursed+Hexed"
+    },
+    {
+      "name": "Aura of Taboo",
+      "mana": 24,
+      "affinity_required": 16,
+      "int_required": 17,
+      "save": "wis",
+      "damage_dice": "2d8",
+      "damage_type": "cursed",
+      "aoe_radius": 20,
+      "description": "Creatures in the area must make a Wisdom save. On a failure they gain 1 stack of the Taboo condition and take 2d8 Cursed Damage.",
+      "upcast_to": "Doom",
+      "range": 90,
+      "extra_effect": "Cursed+Taboo"
+    },
+    {
+      "name": "Doom",
+      "mana": 60,
+      "affinity_required": 21,
+      "int_required": 19,
+      "attack_roll": true,
+      "damage_dice": "0d0",
+      "damage_type": "cursed",
+      "description": "Make a spell attack against a creature in range. On hit the creature gains 10 stacks of the Taboo condition.",
+      "upcast_to": "Final Malediction",
+      "range": 120,
+      "extra_effect": "Taboo"
+    },
+    {
+      "name": "Final Malediction",
+      "mana": 70,
+      "affinity_required": 26,
+      "int_required": 23,
+      "concentration": true,
+      "bap_attack": true,
+      "attack_roll": true,
+      "damage_dice": "2d10",
+      "damage_type": "cursed",
+      "aoe_radius": 25,
+      "aoe_self": true,
+      "description": "This spell requires concentration. While concentrating all creatures in range which you choose have -4 to all d20 rolls. You may spend any number of BAp to make spell attack rolls against creatures within the radius, on hit they gain 2 stacks of the Taboo condition and take 2d10 Cursed damage.",
+      "upcast_rule": "x2, -1 to d20, +1 taboo stack, +1d10 damage",
+      "range": "25 ft radius",
+      "extra_effect": "Cursed+Taboo"
+    }
+  ],
+  "Tremor": [
+    {
+      "name": "Echoquake",
+      "mana": 10,
+      "affinity_required": 6,
+      "save": "wis",
+      "damage_dice": "3d8",
+      "damage_type": "tremor",
+      "description": "Choose a creature you can see. It must make a Wisdom save. On a failure it takes 3d8 Tremor damage and gains Demoralized. Until the end of your next turn, the next time that creature takes damage from any source it takes an additional 2d8 Tremor damage and is knocked Prone.",
+      "upcast_to": "Aftershock",
+      "range": "60 ft",
+      "extra_effect": "Prone+Demoralized"
+    },
+    {
+      "name": "Aftershock",
+      "mana": 20,
+      "affinity_required": 11,
+      "int_required": 19,
+      "save": "str",
+      "damage_dice": "5d8",
+      "damage_type": "tremor",
+      "aoe_radius": 15,
+      "description": "The ground violently shakes beneath creatures in the area. Each creature must make a Strength save. On a failure it takes 5d8 Tremor damage, becomes Prone, and gains Demoralized. Any creature already suffering Demoralized instead gains Despair for 1 turn.",
+      "upcast_to": "Resonance Cascade",
+      "range": "90 ft (15 ft radius)",
+      "extra_effect": "Prone+Demoralized+Despair"
+    },
+    {
+      "name": "Resonance Cascade",
+      "mana": 35,
+      "affinity_required": 16,
+      "int_required": 21,
+      "damage_dice": "8d8",
+      "damage_type": "tremor",
+      "aoe_radius": 20,
+      "description": "A chain reaction of mental and physical shockwaves tears through the area. Creatures must make both a Strength save and a Wisdom save. If they fail either save they take 8d8 Tremor damage. If they fail both they also gain Despair and cannot cast spells until the end of their next turn. For the next 2 turns, whenever an affected creature takes damage it takes an additional 1d8 Tremor damage.",
+      "upcast_to": "Faultline of The Mind",
+      "range": "120 ft (20 ft radius)",
+      "extra_effect": "Despair"
+    },
+    {
+      "name": "Faultline of The Mind",
+      "mana": 55,
+      "affinity_required": 21,
+      "int_required": 23,
+      "save": "wis",
+      "damage_dice": "10d8",
+      "damage_type": "tremor",
+      "aoe_line": true,
+      "description": "Tear open a massive imaginary faultline. Creatures in the line must make a Wisdom save. On a failure they take 10d8 Tremor damage, gain Despair, and become Stunned for 1 turn. Any creature already suffering Demoralized, Despair, Frightened, or Psychic Drain instead automatically takes an additional 5d8 Tremor damage. Affected creatures will believe the faultline to be real.",
+      "upcast_to": "Worldbreaker Resonance",
+      "range": "120 ft (30 ft line)",
+      "extra_effect": "Stunned+Frightened+Demoralized+Despair+Psychic Drain"
+    },
+    {
+      "name": "Worldbreaker Resonance",
+      "mana": 90,
+      "affinity_required": 26,
+      "int_required": 27,
+      "damage_dice": "14d8",
+      "damage_type": "tremor",
+      "aoe_radius": 40,
+      "description": "A catastrophic resonance spreads through reality itself. Creatures must make a Strength save and a Wisdom save. On a failure of either they take 14d8 Tremor damage, become Prone, gain Despair for 3 turns, and cannot gain advantage on any rolls for the duration. For the next 3 turns, whenever an affected creature takes damage from any source it immediately takes an additional 4d8 Tremor damage.",
+      "upcast_rule": "x2, +8d8 damage, +4d8 residual damage",
+      "range": "150 ft (40 ft radius)",
+      "extra_effect": "Prone+Despair",
+      "save": "str"
+    }
+  ],
+  "Deluge": [
+    {
+      "name": "Drown Thought",
+      "mana": 10,
+      "affinity_required": 6,
+      "save": "wis",
+      "damage_dice": "3d8",
+      "damage_type": "deluge",
+      "description": "Choose a creature you can see. It must make a Wisdom save. On a failure it takes 3d8 Deluge damage, gains Soaked, and becomes Demoralized. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
+      "upcast_to": "Undertow",
+      "range": "60 ft",
+      "extra_effect": "Soaked+Demoralized",
+      "concentration": true
+    },
+    {
+      "name": "Undertow",
+      "mana": 20,
+      "affinity_required": 11,
+      "int_required": 19,
+      "save": "str",
+      "damage_dice": "5d8",
+      "damage_type": "deluge",
+      "aoe_radius": 15,
+      "description": "Creatures in the area must make a Strength save. On a failure they take 5d8 Deluge damage, are pulled up to 15 ft toward the center of the spell, gain Soaked, and become Demoralized. Any creature already Soaked instead gains Suffocating until the start of its next turn. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
+      "upcast_to": "Abyssal Weight",
+      "range": "90 ft (15 ft radius)",
+      "extra_effect": "Soaked+Suffocating+Demoralized",
+      "concentration": true
+    },
+    {
+      "name": "Abyssal Weight",
+      "mana": 35,
+      "affinity_required": 16,
+      "int_required": 21,
+      "save": "con",
+      "damage_dice": "8d8",
+      "damage_type": "deluge",
+      "description": "Choose a creature you can see. It must make a Constitution save. On a failure it takes 8d8 Deluge damage, gains Suffocating, and immediately loses 20% of its maximum Vitality. If the target already has Psychic Drain, it instead loses 40% of its maximum Vitality. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
+      "upcast_to": "Black Tide",
+      "range": "120 ft",
+      "extra_effect": "Soaked+Suffocating+Psychic Drain",
+      "concentration": true
+    },
+    {
+      "name": "Black Tide",
+      "mana": 55,
+      "affinity_required": 21,
+      "int_required": 23,
+      "save": "con",
+      "damage_dice": "10d8",
+      "damage_type": "deluge",
+      "aoe_radius": 25,
+      "description": "A crushing sea of dark water erupts from nowhere. Creatures in the area must make a Constitution save. On a failure they take 10d8 Deluge damage, gain Soaked and Suffocating, and cannot regain Vitality until the end of their next turn. Creatures already suffering Soaked, Suffocating, Demoralized, Despair, or Psychic Drain take an additional 4d8 Deluge damage. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
+      "upcast_to": "Mariana Grave",
+      "range": "120 ft (25 ft radius)",
+      "extra_effect": "Soaked+Suffocating+Demoralized+Despair+Psychic Drain",
+      "concentration": true
+    },
+    {
+      "name": "Mariana Grave",
+      "mana": 95,
+      "affinity_required": 26,
+      "int_required": 27,
+      "save": "con",
+      "damage_dice": "15d8",
+      "damage_type": "deluge",
+      "aoe_radius": 35,
+      "description": "The pressure of the deepest ocean descends upon the battlefield. Creatures must make a Constitution save. On a failure they take 15d8 Deluge damage, gain Soaked, Suffocating, and Despair for 3 turns. While affected, any Vitality they lose is lost directly from Health instead. If a creature begins its turn with the Soaked condition from this spell they take 4d8 Deluge damage. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
+      "upcast_rule": "x2, +10d8 Deluge damage",
+      "range": "150 ft (35 ft radius)",
+      "extra_effect": "Soaked+Suffocating+Despair",
+      "concentration": true
+    }
+  ],
+  "Frostfire": [
+    {
+      "name": "Frostburn Lance",
+      "mana": 12,
+      "affinity_required": 11,
+      "attack_roll": true,
+      "damage_dice": "5d8",
+      "damage_type": "frostfire",
+      "description": "Make a spell attack. On a hit the target takes 5d8 Frostfire damage and gains 1 stack of the Frostburned condition. If the target already has Burned, On Fire, Frozen, or Frostbitten, it takes an additional 2d8 Frostfire damage.",
+      "upcast_to": "Thermal Rupture",
+      "range": "60 ft",
+      "extra_effect": "On Fire+Frozen+Burned+Frostbitten+Frostburned"
+    },
+    {
+      "name": "Thermal Rupture",
+      "mana": 24,
+      "affinity_required": 21,
+      "int_required": 19,
+      "save": "dex",
+      "damage_dice": "8d8",
+      "damage_type": "frostfire",
+      "aoe_radius": 15,
+      "description": "Creatures must make a Dexterity save. On a failure they take 8d8 Frostfire damage and gain 2 stacks of the Frostburned condition. If a creature is already suffering a Fire or Ice condition, all damage it takes from conditions is doubled until the start of its next turn. On success damage is halved and no Frostburned is gained.",
+      "upcast_to": "Cryo-Inferno",
+      "range": "90 ft (15 ft radius)",
+      "upcast_rule": "Cryo-Inferno",
+      "extra_effect": "Frostburned"
+    },
+    {
+      "name": "Cryo-Inferno",
+      "mana": 38,
+      "affinity_required": 31,
+      "int_required": 21,
+      "save": "dex",
+      "damage_dice": "10d8",
+      "damage_type": "frostfire",
+      "aoe_radius": 20,
+      "description": "A storm of burning ice engulfs the area. Creatures must make a Dexterity save. On a failure they take 10d8 Frostfire damage, gain 5x Frostburned, on success damage is halved and no Frostburned is gained.",
+      "upcast_to": "Absolute Contradiction",
+      "range": "120 ft (20 ft radius)",
+      "extra_effect": "Frostburned"
+    },
+    {
+      "name": "Absolute Contradiction",
+      "mana": 60,
+      "affinity_required": 41,
+      "int_required": 23,
+      "save": "con",
+      "damage_dice": "12d8",
+      "damage_type": "frostfire",
+      "description": "Choose a creature you can see. It must make a Constitution save. On a failure it takes 12d8 Frostfire damage and gain x10 Frostburned. For the next 3 turns, every time the creature takes damage which uses Fire or Ice/Cold as its damage type (or as a component of the damage type) they must make a Constitution save or gain an additional 3 stacks of Frostburned per 5 damage taken (minimum of 3).",
+      "upcast_to": "Heat Death",
+      "range": "120 ft",
+      "extra_effect": "Frostburned"
+    },
+    {
+      "name": "Heat Death",
+      "mana": 100,
+      "affinity_required": 51,
+      "int_required": 27,
+      "save": "con",
+      "damage_dice": "16d8",
+      "damage_type": "frostfire",
+      "aoe_radius": 30,
+      "description": "Creatures must make a Constitution save. On a failure they take 16d8 Frostfire damage and x20 Frostburned and gain the OnFire Condition and 10 stacks of Frostbitten.",
+      "upcast_rule": "x2, +8d8 damage, +10 Frostburned stacks",
+      "range": "150 ft (30 ft radius)",
+      "extra_effect": "Frostbitten+Frostburned"
+    }
+  ],
+  "Glacial": [
+    {
+      "name": "Flash Freeze",
+      "mana": 6,
+      "affinity_required": 6,
+      "save": "dex",
+      "damage_dice": "2d6",
+      "damage_type": "glacial",
+      "aoe_radius": 10,
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + Ice/Cold Affinity Ice/Cold damage and apply 2 stacks of Frozen.",
+      "upcast_to": "Glacier Rise",
+      "range": 30,
+      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
+      "extra_effect": "Frozen+Soaked",
+      "attack_roll": true
+    },
+    {
+      "name": "Glacier Rise",
+      "mana": 25,
+      "affinity_required": 21,
+      "int_required": 19,
+      "concentration": true,
+      "bap_attack": true,
+      "attack_roll": true,
+      "damage_dice": "3d12",
+      "damage_type": "glacial",
+      "description": "Concentration. Raise a massive wall of ice up to 30 ft long, 10 ft tall, and 5 ft thick. The wall provides Full Cover and lasts 5 turns. Creatures adjacent to the wall at the start of their turn gain 3 stack of Frostbitten. The wall may be targeted and destroyed and has 50 + Glacial Affinity health hand 10 AC. When it is destroyed it explodes causing all creatures within 10 ft to make a DEX save or take 3d12 Glacial damage. While the wall if up the caster may expend BAp to shoot a shard of ice (spell attack) at creatures within 40 ft of the wall. On hit deal 3d10 Glacial damage and target gains 3 stacks of Frostbitten.",
+      "upcast_to": "Whiteout Expanse",
+      "range": "90 ft",
+      "extra_effect": "Frostbitten"
+    },
+    {
+      "name": "Whiteout Expanse",
+      "mana": 40,
+      "affinity_required": 31,
+      "int_required": 21,
+      "concentration": true,
+      "bap_attack": true,
+      "damage_dice": "4d12",
+      "damage_flat": 12,
+      "damage_type": "glacial",
+      "aoe_radius": 20,
+      "save": "con",
+      "description": "Concentration. A blizzard fills the area during concentration. Creatures inside have Blurred and must make a Constitution save at the start of each turn or gain 6 stacks of Frostbitten and become Soaked. The terrain becomes Difficult Terrain and line of sight through the area is blocked beyond 10 ft. While the blizzard is active the caster may expend BAp to target a creature in the Blizzard with the raining ice, the creature must make a Dex save or take 2d12 + 6 Glacial damage and gains 3 stacks of Frostbitten.",
+      "upcast_to": "Moving Glacier",
+      "range": "120 ft (20 ft radius)",
+      "extra_effect": "Soaked+DifficultTerrain+Frostbitten+Blurred"
+    },
+    {
+      "name": "Moving Glacier",
+      "mana": 80,
+      "affinity_required": 41,
+      "int_required": 23,
+      "damage_type": "glacial",
+      "description": "Create a massive glacier 20 ft long, 5 ft wide, and 10 ft tall in an unoccupied space adjacent to you. Choose a direction. The glacier surges forward up to 60 ft in that direction, stopping early if it collides with a solid wall or if it hits more than 5 creatures and/or objects. As the glacier moves, each creature in its path may expend its Reaction to make a Dexterity save. On a success, the creature may immediately move up to its movement speed to an unoccupied space outside the glacier's path. A creature that cannot move far enough, fails the save, or cannot expend a Reaction is struck by the glacier. A creature struck by the glacier takes 2d12 + 10 Glacial damage and is pushed along with it until the glacier stops moving. If a pushed creature collides with another creature or object during this movement, it takes 1d6 Bludgeoning damage for each collision. If the glacier is stopped by a solid wall, all creatures trapped between the glacier and the wall take 5d10 + 20 Bludgeoning damage. When the glacier stops moving, it shatters in a violent explosion of ice shards. All creatures within 20 ft of the glacier's final location must make a Dexterity save. On a failure, they take 4d12 + 10 Glacial damage. On a success, they take half as much damage. If the glacier would hit more than 5 creatures and/or objects during its movement, it immediately shatters at the point where the 5th creature or object is struck and resolves its explosion there instead of continuing forward.",
+      "upcast_to": "Age of Ice",
+      "range": "Self",
+      "damage_dice": "6d12",
+      "damage_flat": 40,
+      "extra_effect": "Collision",
+      "save": "dex",
+      "aoe_self": true,
+      "save_half": true
+    },
+    {
+      "name": "Age of Ice",
+      "mana": 100,
+      "affinity_required": 51,
+      "int_required": 27,
+      "save": "con",
+      "damage_dice": "8d12",
+      "damage_flat": 20,
+      "damage_type": "glacial",
+      "aoe_radius": 100,
+      "description": "Concentration. Choose a point within range. A supernatural ice age instantly descends upon the area for concentration. When the spell is cast, all creatures in the area must make a Constitution save. On a failure they take 8d12 + 20 Glacial damage, gain Soaked, gain 8 stacks of Frostbitten, and are knocked Prone. On a success they take half damage and gain half as many Frostbitten stacks. The entire area becomes Difficult Terrain and is considered completely frozen over. At the start of each turn, every creature in the area gains 2 stacks of Frostbitten and takes 2d12 Glacial damage. Any creature that reaches 10 or more Frostbitten stacks immediately becomes Petrified for 1 turn as they are completely encased in ice. Massive glaciers continuously erupt from the frozen landscape. At the end of each of your turns choose up to three points within the affected area. From each point, a glacier 20 ft long, 5 ft wide, and 10 ft tall erupts and surges up to 30 ft in a direction of your choice. These glaciers use all rules from Moving Glacier except they deal half damage. Structures, walls, and terrain within the area become coated in magically reinforced ice, doubling their HP and AC. If a creature begins its turn both Soaked and Frostbitten within the area, it must immediately make a Constitution save or become Petrified for 1 turn. When the spell ends, every glacier and ice formation created by the spell violently shatters. All creatures still within the area (+50 ft) must make a Dexterity save, taking 10d12 + 20 Glacial damage on a failure or half as much on a success.",
+      "upcast_rule": "x2, +100 ft radius, +2 Glaciers per turn",
+      "range": "300 ft (100 ft radius)",
+      "extra_effect": "Frozen+Soaked+Prone+DifficultTerrain+Frostbitten+Petrified",
+      "save_half": true,
+      "concentration": true
     }
   ]
 }

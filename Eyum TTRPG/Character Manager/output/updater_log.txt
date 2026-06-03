@@ -1,31 +1,55 @@
 EYUM TTRPG — SPELL UPDATER LOG
-Run at: 2026-06-03 11:16:07
-Handbook: /home/microwavedthebaby/Documents/Eyum-TTRPG/Eyum TTRPG/6.0 Magic/6.1 Spells.md
-Spells JSON: /home/microwavedthebaby/Documents/Eyum-TTRPG/Eyum TTRPG/Character Manager/data/spells.json
+Run at: 2026-06-03 13:08:43
 ======================================================================
-Parsed 274 spells from handbook
-  + ADDED: Obsidian Spray (Obsidian) mana=12
-  + ADDED: Tempest Strike (Storm) mana=12
+Parsed 297 spells from handbook
+  OVERRIDE: Whiteout Expanse (Glacial): damage_dice: 2d12 → 4d12
+  OVERRIDE: Whiteout Expanse (Glacial): damage_flat: 6 → 12
+  OVERRIDE: Moving Glacier (Glacial): damage_dice: 2d12 → 6d12
+  OVERRIDE: Moving Glacier (Glacial): damage_flat: 10 → 40
+  OVERRIDE: Fission Verdict (Atomic): damage_dice: 10d12 → 30d12
+  OVERRIDE: Fission Verdict (Atomic): damage_flat: 250 → 600
 
 ======================================================================
 SUMMARY
 ======================================================================
-  Total spells in handbook: 274
-  Changed:  0
-  Unchanged: 282
-  New (in handbook, not in JSON): 2
+  Total handbook spells parsed: 297
+  Changed:  3
+  Unchanged: 302
+  Skipped:  0 new spells
+  Not in handbook: 1
 
 ──────────────────────────────────────────────────────────────────────
-UNCHANGED SPELLS (282)
+CHANGED SPELLS (3)
+──────────────────────────────────────────────────────────────────────
+
+  Fission Verdict (Atomic)
+      damage_dice: 30d12 → 10d12
+      damage_flat: 600 → 250
+
+  Moving Glacier (Glacial)
+      damage_dice: 6d12 → 2d12
+      damage_flat: 40 → 10
+
+  Whiteout Expanse (Glacial)
+      damage_dice: 4d12 → 2d12
+      damage_flat: 12 → 6
+
+──────────────────────────────────────────────────────────────────────
+UNCHANGED SPELLS (302)
 ──────────────────────────────────────────────────────────────────────
   Abrasion Line (Dust)
+  Absolute Contradiction (Frostfire)
   Absolute Zero (Ice/Cold)
   Abyssal Chains (Corruption)
+  Abyssal Weight (Deluge)
+  Aftershock (Tremor)
+  Age of Ice (Glacial)
   Anti-Magic Zone (Void)
   Ascension Nova (Radiant)
   Ash Cloud (Ash)
   Aura of Healing (Generic)
   Aura of Revitalization (Generic)
+  Aura of Taboo (Cursed)
   Bane (Necrotic)
   Bastion Rise (Earth)
   Bestow Curse (Corruption)
@@ -33,6 +57,7 @@ UNCHANGED SPELLS (282)
   Black Monolith (Obsidian)
   Black Sky (Ash)
   Black Tentacles (Corruption)
+  Black Tide (Deluge)
   Blade Barrier (Metal)
   Bless (Radiant)
   Blight Venom (Poison)
@@ -71,6 +96,7 @@ UNCHANGED SPELLS (282)
   Crimson Eruption (Bloodfire)
   Critical Atomicity (Atomic)
   Crustbreaker (Magma)
+  Cryo-Inferno (Frostfire)
   Cure Wounds (Generic)
   Cyclone (Air)
   Dead Orchard (Blight)
@@ -84,18 +110,17 @@ UNCHANGED SPELLS (282)
   Disorder Engine (Chaos)
   Dissonant Whispers (Shatter)
   Divine Eruption (Radiant)
+  Doom (Cursed)
+  Drown Thought (Deluge)
   Dune Mantle (Dust)
   Dust Storm (Dust)
   Earthquake (Quake)
   Earthshatter (Earth)
+  Echoquake (Tremor)
   Ego Shatter (Psychic)
   Eldritch Blast (Eldritch)
-  Eldritch Blast (Eldritch)
-  Eldritch Explosion (Eldritch)
   Eldritch Explosion (Eldritch)
   Eldritch Shadow (Eldritch)
-  Eldritch Shadow (Eldritch)
-  Eldritch Tentacle (Eldritch)
   Eldritch Tentacle (Eldritch)
   Elemental Ward (Generic)
   Engine Rupture (Steam)
@@ -108,11 +133,13 @@ UNCHANGED SPELLS (282)
   False Advance (Mirage)
   Faultline (Earth) (Earth)
   Faultline (Quake) (Quake)
+  Faultline of The Mind (Tremor)
+  Final Malediction (Cursed)
   Final Season (Blight)
   Fireball (Fire)
   Firebolt (Fire)
   Fireburst (Fire)
-  Fission Verdict (Atomic)
+  Flash Freeze (Glacial)
   Flash Freeze (Ice/Cold)
   Flash Freeze (Unique) (Ice/Cold)
   Floodwall (Water)
@@ -120,6 +147,7 @@ UNCHANGED SPELLS (282)
   Force Share Burden (Generic)
   Fossilize (Quake)
   Fracture Thought (Shatter)
+  Frostburn Lance (Frostfire)
   Frozen Cataclysm (Ice/Cold)
   Funeral Drift (Ash)
   Gale Lance (Air)
@@ -129,6 +157,7 @@ UNCHANGED SPELLS (282)
   Gel Sovereign (Gel)
   Gel Trap (Gel)
   Glacial Prison (Ice/Cold)
+  Glacier Rise (Glacial)
   Glass Carapace (Obsidian)
   Glass Soul (Shatter)
   Go Atomic (Atomic)
@@ -144,9 +173,11 @@ UNCHANGED SPELLS (282)
   Haste (Air)
   Heal (Generic)
   Healing Burst (Generic)
+  Heat Death (Frostfire)
   Heavenfall Pattern (Starlight)
   Hellfire Orb (Infernal)
   Hemorrhage Inferno (Bloodfire)
+  Hexing Word (Cursed)
   Hollow Corridor (Void)
   Hollow Season (Blight)
   Howling Gale (Thunder)
@@ -175,6 +206,7 @@ UNCHANGED SPELLS (282)
   Mana Drain (Void)
   Mana Explosion (Generic)
   Manaskin (Radiant)
+  Mariana Grave (Deluge)
   Martyr's Bond (Generic)
   Medicinal Heal (Generic)
   Medicinal Revitalize (Generic)
@@ -182,6 +214,7 @@ UNCHANGED SPELLS (282)
   Miasma Cloud (Miasma)
   Mind Break (Psychic)
   Mind Fog (Psychic)
+  Minor Curse (Cursed)
   Mirage (Mirage)
   Mirage Host (Mirage)
   Mire Field (Mud)
@@ -196,6 +229,7 @@ UNCHANGED SPELLS (282)
   Oblivion Cut (Void)
   Obsidian Mirror (Obsidian)
   Obsidian Skin (Obsidian)
+  Obsidian Spray (Obsidian)
   Paralytic Bolt (Lightning)
   Phase Step (Warp)
   Pitflame Circuit (Infernal)
@@ -216,6 +250,7 @@ UNCHANGED SPELLS (282)
   Rebirth (Generic)
   Red Cataclysm (Bloodfire)
   Remove Curse (Generic)
+  Resonance Cascade (Tremor)
   Resonant Shot (Thunder)
   Restoration (Generic)
   Restore Energy (Generic)
@@ -274,7 +309,9 @@ UNCHANGED SPELLS (282)
   Telekinesis (Force)
   Tempest (Storm)
   Tempest Prison (Air)
+  Tempest Strike (Storm)
   Terminal Nova (Nova)
+  Thermal Rupture (Frostfire)
   Thought Pierce (Psychic)
   Thronefire (Infernal)
   Thunderclap (Thunder)
@@ -282,6 +319,7 @@ UNCHANGED SPELLS (282)
   Torrential Smash (Torrent)
   Toxic Cloud (Toxin)
   True Strike (Generic)
+  Undertow (Deluge)
   Undertow (Water)
   Unwritten Turn (Chaos)
   Upheaval (Quake)
@@ -298,14 +336,14 @@ UNCHANGED SPELLS (282)
   Wither (Blight)
   Withering Grasp (Blight)
   Worldbreak (Earth)
+  Worldbreaker Resonance (Tremor)
   Worldforge Collapse (Metal)
   Zero Mark (Void)
 
 ──────────────────────────────────────────────────────────────────────
-SPELLS IN JSON NOT IN HANDBOOK (1)
+NOT IN HANDBOOK (1)
 ──────────────────────────────────────────────────────────────────────
-  (These may be healing/utility spells from a separate handbook section.)
   Full Restore (Generic)
 
 ======================================================================
-End of log — 2026-06-03 11:16:07
+End of log — 2026-06-03 13:08:43

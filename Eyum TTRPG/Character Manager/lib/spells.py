@@ -222,7 +222,7 @@ def _add_spell_candidate(spell, element, aff_val, candidates, char, settings,
             candidates.append((base_dmg, spell, element, False))
 
 
-def select_spell(char, settings, max_mana=None):
+def select_spell(char, settings, max_mana=None, exclude_concentration=False):
     spells_data = settings.get('spells', {})
     best_element, best_aff_val = get_best_affinity(char)
     weapons = settings.get('weapons', {})
@@ -280,6 +280,11 @@ def select_spell(char, settings, max_mana=None):
                             affinity_prereqs, weapon_info)
 
     candidates = primary_candidates or element_candidates or generic_candidates
+
+    if exclude_concentration and candidates:
+        candidates = [c for c in candidates if not c[1].get('concentration')]
+        if not candidates:
+            candidates = primary_candidates or element_candidates or generic_candidates
 
     if not candidates:
         return None, 0

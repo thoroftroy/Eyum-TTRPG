@@ -91,33 +91,67 @@ def calculate_damage(char, settings):
             if not spell_info.get('use_multiplier', True):
                 mana_mult = 1
             cost = spell_info['spell']['mana'] * mana_mult
+            is_conc = spell_info['spell'].get('concentration')
+            has_bap = spell_info['spell'].get('bap_attack')
+            retal = spell_info['spell'].get('retaliation', {})
 
-            if spell_info['spell'].get('storm_bolts'):
-                bolt_base = spell_dmg
-                ap_count = max(0, char.ap - 1)
-                bap_count = char.bap
-                total_bolts = ap_count + bap_count
-                storm_dmg = (ap_count * bolt_base * 2.0) + (bap_count * bolt_base)
-                result['magic'] = int(storm_dmg)
+            # Retaliation damage (triggered by being attacked — assume 1 hit/round)
+            retal_dmg = 0
+            if retal:
+                retal_dice = die_average(retal.get('dice', ''))
+                retal_flat = retal.get('flat', 0)
+                retal_dmg = int(retal_dice + retal_flat)
+
+            if is_conc and has_bap:
+                # Concentration spell with per-action trigger (Storm bolts)
+                ap_actions = max(0, char.ap - 1)
+                bap_actions = char.bap
+                total_actions = ap_actions + bap_actions
+                magic = int((ap_actions * spell_dmg * 2.0) + (bap_actions * spell_dmg) + retal_dmg)
+                result['magic'] = magic
                 result['magic_dmg'] = spell_dmg
                 result['mana_cost'] = cost
-                result['storm_bolts'] = True
-                spell_atks = total_bolts
+                result['bap_attack'] = True
+                spell_atks = total_actions
+            elif is_conc:
+                # Passive concentration: 1 AP on concentration, remaining on next-best non-conc spell
+                si2, sd2 = select_spell(char, settings, max_mana=char.mana_max(settings['rules']),
+                                        exclude_concentration=True)
+                # Only use secondary if it's a DIFFERENT spell
+                same = si2 and si2.get('spell', {}).get('name') == spell_info['spell'].get('name')
+                if si2 and sd2 > 0 and not same:
+                    mn2 = getattr(char, 'spell_mana_mult', 1)
+                    if not si2.get('use_multiplier', True):
+                        mn2 = 1
+                    cost2 = si2['spell']['mana'] * mn2
+                    secondary_actions = max(0, char.ap - 1) + char.bap
+                    max_cast2 = max(1, char.mana_max(settings['rules']) // max(1, cost2)) if cost2 > 0 else secondary_actions
+                    casts2 = min(secondary_actions, max_cast2)
+                    magic = int(spell_dmg + sd2 * casts2 + retal_dmg)
+                    result['magic'] = magic
+                    result['magic_dmg'] = spell_dmg + sd2
+                else:
+                    result['magic'] = int(spell_dmg + retal_dmg)
+                    result['magic_dmg'] = spell_dmg
+                result['mana_cost'] = cost
+                spell_atks = 1
             else:
                 spell_atks = atk_per_round
                 if spell_info['spell'].get('costs_bonus_action'):
                     spell_atks = min(char.ap, char.bap)
                 max_casts_by_mana = char.mana_max(settings['rules']) // max(1, cost)
-                result['magic'] = int(spell_dmg) * min(spell_atks, max_casts_by_mana)
+                casts = min(spell_atks, max_casts_by_mana)
+                result['magic'] = int(spell_dmg * casts + retal_dmg)
                 result['magic_dmg'] = spell_dmg
                 result['mana_cost'] = cost
                 result['spell_atks_raw'] = spell_atks
-                result['spell_atks_mana_capped'] = min(spell_atks, max_casts_by_mana)
+                result['spell_atks_mana_capped'] = casts
             result['cond_dmg'] = spell_info.get('cond_dmg', 0)
             result['cond_names'] = spell_info.get('cond_names', []) if spell_info.get('cond_dmg', 0) > 0 else []
             result['spell_extra_effect'] = spell_info.get('extra_effect', '')
             result['spell_name'] = spell_info['spell'].get('name', '')
             result['spell_element'] = spell_info.get('element', '')
+            result['retal_dmg'] = retal_dmg
 
     result['per_turn'] = max(result['melee'], result['ranged'], result['magic'])
     result['attacks_per_turn'] = atk_per_round
@@ -178,19 +212,52 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     rounds_casting = 0
 
     mana_mult = getattr(char, 'spell_mana_mult', 1)
+    retal = dmg_per_turn.get('retal_dmg', 0)
 
-    # Storm spells: 1 AP to cast, then AP (crit) + BAp bolts each round
-    if dmg_per_turn.get('storm_bolts'):
+    # Storm/bap_attack style: bolts every round
+    if dmg_per_turn.get('bap_attack'):
         bolt_base = magic_dmg_per_cast
-        first_round = max(0, char.ap - 1) * bolt_base * 2.0 + char.bap * bolt_base
-        later_round = char.ap * bolt_base * 2.0 + char.bap * bolt_base
+        first_round = max(0, char.ap - 1) * bolt_base * 2.0 + char.bap * bolt_base + retal
+        later_round = char.ap * bolt_base * 2.0 + char.bap * bolt_base + retal
         total_dmg = int(first_round + later_round * (num_rounds - 1))
         return {'total': total_dmg,
                 'mana_start': int(max_mana),
-                'mana_end': int(max_mana - mana_cost),  # cast cost once
+                'mana_end': int(max_mana - mana_cost),
                 'rounds_casting': num_rounds,
                 'mana_per_round': int(mana_cost)}
 
+    # Check if the primary spell has concentration and a non-conc alternative exists
+    is_conc_spell = False
+    si_check, _ = select_spell(char, settings, max_mana=max_mana)
+    si_nc, sd_nc = select_spell(char, settings, max_mana=max_mana, exclude_concentration=True)
+    if si_check and si_check['spell'].get('concentration') and not si_check['spell'].get('bap_attack'):
+        same = si_nc and si_nc.get('spell', {}).get('name') == si_check['spell'].get('name')
+        if si_nc and sd_nc > 0 and not same:
+            is_conc_spell = True
+
+    if is_conc_spell:
+        # Passive concentration: 1 AP first round, then next-best spell remaining rounds
+        si2, sd2 = select_spell(char, settings, max_mana=max_mana, exclude_concentration=True)
+        if si2 and sd2 > magic_dmg_per_cast * 0.5:
+            mn2 = getattr(char, 'spell_mana_mult', 1)
+            if not si2.get('use_multiplier', True): mn2 = 1
+            cost2 = si2['spell']['mana'] * mn2
+            secondary_actions = max(0, char.ap - 1) + char.bap
+            max_cast2 = max(1, max_mana // max(1, cost2)) if cost2 > 0 else secondary_actions
+            casts2 = min(secondary_actions, max_cast2)
+            first_round = int(magic_dmg_per_cast + sd2 * casts2 + retal)
+            full_actions = char.ap + char.bap
+            casts2_full = min(full_actions, max_cast2)
+            later_round = int(sd2 * casts2_full + retal)
+            total_dmg = int(first_round + later_round * (num_rounds - 1))
+            remaining_mana = max_mana - mana_cost - casts2 * cost2 * (1 if num_rounds >= 1 else 0)
+            return {'total': total_dmg,
+                    'mana_start': int(max_mana),
+                    'mana_end': int(max(0, remaining_mana)),
+                    'rounds_casting': num_rounds,
+                    'mana_per_round': int(mana_cost + (cost2 * casts2_full if num_rounds > 1 else 0))}
+
+    # Default: proceed with normal multi-round calculation
     for round_idx in range(num_rounds):
         spell_info, spell_dmg = select_spell(char, settings, max_mana=remaining_mana)
         if spell_info and spell_dmg > phys_per_hit:
