@@ -284,7 +284,9 @@ def select_spell(char, settings, max_mana=None):
     if not candidates:
         return None, 0
 
-    best = max(candidates, key=lambda x: x[0])
+    # Mages always use their highest-tier castable spell (highest mana cost)
+    # even if it's less mana-efficient. This lets you balance spells by tweaking numbers.
+    best = max(candidates, key=lambda x: (x[1].get('mana', 0), x[0]))
     use_mult = len(best) > 3 and best[3]
     cond_dmg, cond_names = _get_condition_damage(best[1])
     return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0],

@@ -32,11 +32,13 @@
     }
   },
   "every_3_levels": {
-    "stat_points": 1,
+    "stat_points": 2,
     "affinity_points": 2,
     "feat": true,
     "skill_points": 2,
-    "if_magical_spell": true
+    "if_magical_spell": true,
+    "if_magical_stat_bonus": {"int": 2},
+    "if_physical_stat_bonus": {"str": 1, "dex": 1}
   },
   "every_8_levels": {
     "bap": 1,

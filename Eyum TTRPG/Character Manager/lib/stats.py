@@ -13,11 +13,23 @@ def cost_for_stat(current_val, cost_table):
     return tier + 1
 
 
-def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
+def spend_stat_points(char, priority, points, cost_table, char_type='balanced',
+                      settings=None, primary_aff=None):
     """Spend stat points to raise stats with realistic spread.
     char_type can be: 'tank', 'marksman', 'caster', 'jack', 'balanced'"""
 
     points_remaining = points
+
+    # Check spell prereqs for required stats — cap INT at WIS target so
+    # mages don't burn all points on INT after meeting reasonable requirements.
+    spell_stat_reqs = {'int': 0, 'con': 0, 'str': 0, 'dex': 0, 'wis': 0, 'cha': 0}
+    if settings and primary_aff and primary_aff != 'Generic':
+        for s in settings.get('spells', {}).get(primary_aff, []):
+            for stat in ['int', 'con', 'str', 'dex', 'wis', 'cha']:
+                key = f'{stat}_required'
+                val = s.get(key, 0)
+                if val and val > spell_stat_reqs[stat]:
+                    spell_stat_reqs[stat] = val
 
     stat_targets = {}
 
@@ -32,15 +44,23 @@ def spend_stat_points(char, priority, points, cost_table, char_type='balanced'):
     elif char_type == 'caster':
         stat_targets = {'wis': 18, 'int': 14, 'con': 12, 'dex': 10, 'cha': 8, 'str': 8}
     else:
-        for stat in priority:
-            if priority.index(stat) == 0:
+        for i, stat in enumerate(priority):
+            if i == 0:
                 stat_targets[stat] = 20
-            elif priority.index(stat) == 1:
+            elif i == 1:
                 stat_targets[stat] = 14
-            elif priority.index(stat) == 2:
+            elif i == 2:
                 stat_targets[stat] = 10
             else:
                 stat_targets[stat] = 8
+
+    # Override targets based on spell prereqs — stop once the character
+    # meets the highest relevant stat requirement for their primary affinity.
+    if char_type == 'caster' or char_type == 'balanced':
+        for stat in ['int', 'con', 'str', 'dex', 'wis', 'cha']:
+            needed = spell_stat_reqs[stat]
+            if needed and needed > stat_targets.get(stat, 8):
+                stat_targets[stat] = needed
 
     for stat in priority:
         target = stat_targets.get(stat, 8)

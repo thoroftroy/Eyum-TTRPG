@@ -37,6 +37,12 @@ def apply_level_progression(char, target_level, settings):
             char.skill_points += e3.get('skill_points', 0)
             if char.has_magical and e3.get('if_magical_spell', False):
                 char.spells_from_levels += 1
+            if char.has_magical and 'if_magical_stat_bonus' in e3:
+                for stat, bonus in e3['if_magical_stat_bonus'].items():
+                    setattr(char, stat, getattr(char, stat) + bonus)
+            if char.has_physical and 'if_physical_stat_bonus' in e3:
+                for stat, bonus in e3['if_physical_stat_bonus'].items():
+                    setattr(char, stat, getattr(char, stat) + bonus)
 
         if lvl % 8 == 0 and 'bap' in e8:
             char.bap += e8['bap']

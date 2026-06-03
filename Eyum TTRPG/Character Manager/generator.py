@@ -384,7 +384,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             apply_paths(char, level, build_config, settings)
 
         if build_config.get('spend_stat_points') == 'all' and not build_config.get('worst', False):
-            priority = build_config.get('stat_priority', ['str','dex','con','wis','int','cha'])
+            priority = list(build_config.get('stat_priority', ['str','dex','con','wis','int','cha']))
             total_pts = char.stat_points + settings['rules']['starting_points']['stat_points']
 
             cost_table = settings['rules']['stat_point_cost']
@@ -404,7 +404,27 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             elif 'fighter' in lower_name:
                 char_type = 'balanced'
 
-            spend_stat_points(char, priority, total_pts, cost_table, char_type)
+            # Check primary affinity spell prereqs for stat requirements
+            primary_aff = build_config.get('primary_affinity')
+            if primary_aff and primary_aff != 'Generic':
+                spells_data = settings.get('spells', {})
+                max_stat_needed = {'int': 0, 'con': 0, 'str': 0, 'dex': 0, 'wis': 0, 'cha': 0}
+                for s in spells_data.get(primary_aff, []):
+                    for stat in ['int', 'con', 'str', 'dex', 'wis', 'cha']:
+                        key = f'{stat}_required'
+                        val = s.get(key, 0)
+                        if val and val > max_stat_needed[stat]:
+                            max_stat_needed[stat] = val
+                # Push high-requirement stats to front of priority
+                stat_names = ['str', 'dex', 'con', 'wis', 'int', 'cha']
+                stats_by_req = sorted(stat_names, key=lambda s: max_stat_needed[s], reverse=True)
+                for s in reversed(stats_by_req):
+                    if max_stat_needed[s] > 0:
+                        if s in priority:
+                            priority.remove(s)
+                        priority.insert(0, s)
+
+            spend_stat_points(char, priority, total_pts, cost_table, char_type, settings, primary_aff)
             char.stat_points = 0
 
         if char.is_unarmed:

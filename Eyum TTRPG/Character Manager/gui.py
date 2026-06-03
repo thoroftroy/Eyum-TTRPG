@@ -178,7 +178,7 @@ def _gen_one_build(args):
     return build_name, flattened
 
 
-def collect_all_data(settings, progress_callback=None):
+def collect_all_data(settings, progress_callback=None, build_filter=None):
     from concurrent.futures import ProcessPoolExecutor, as_completed
     import multiprocessing
     script_dir = SCRIPT_DIR
@@ -192,8 +192,13 @@ def collect_all_data(settings, progress_callback=None):
         levels = gen['levels']
     gear_tiers = settings.get('gear_tiers', [{"name": "bad_gear", "label": "Bad Gear (Iron/Base)"}])
 
+    # Filter builds if requested
+    builds_source = settings['builds']
+    if build_filter:
+        builds_source = {k: v for k, v in builds_source.items() if v.get('generate', True) and k in build_filter}
+
     all_collected = OrderedDict()
-    total_builds = sum(1 for b in settings['builds'].values() if b.get('generate', True)) * len(gear_tiers)
+    total_builds = sum(1 for b in builds_source.values() if b.get('generate', True)) * len(gear_tiers)
     workers = min(32, multiprocessing.cpu_count() or 8)
 
     for tier in gear_tiers:
@@ -203,7 +208,7 @@ def collect_all_data(settings, progress_callback=None):
         os.makedirs(tier_dir, exist_ok=True)
 
         builds = [(name, cfg, settings, levels, tier, tier_label)
-                  for name, cfg in settings['builds'].items()]
+                  for name, cfg in builds_source.items()]
         completed = 0
 
         tier_data = OrderedDict()
@@ -465,11 +470,11 @@ class CharacterManagerGUI:
 
         ttk.Separator(toolbar_frame, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=5)
 
-        self.disable_nonmagic_btn = ttk.Button(
-            toolbar_frame, text="Toggle Non-Magic",
-            command=self._toggle_nonmagic
+        self.update_spells_btn = ttk.Button(
+            toolbar_frame, text="⟳ Update Spells",
+            command=self._update_spells_and_regen
         )
-        self.disable_nonmagic_btn.pack(side=tk.LEFT, padx=5)
+        self.update_spells_btn.pack(side=tk.LEFT, padx=5)
 
         main_pane = ttk.PanedWindow(self.graph_frame, orient=tk.HORIZONTAL)
         main_pane.pack(fill=tk.BOTH, expand=True)
@@ -1760,7 +1765,7 @@ class CharacterManagerGUI:
         else:
             self._run_generator()
 
-    def _run_generator(self, custom_settings=None):
+    def _run_generator(self, custom_settings=None, build_filter=None):
         if self.generating:
             messagebox.showinfo("Busy", "Generator is already running.")
             return
@@ -1776,9 +1781,28 @@ class CharacterManagerGUI:
             self.run_btn.config(state=tk.NORMAL)
             self.settings_run_btn.config(state=tk.NORMAL)
             self.settings_run_temp_btn.config(state=tk.NORMAL)
+            self.update_spells_btn.config(state=tk.NORMAL)
 
         def done(data):
-            self.data = data
+            if build_filter and self.data:
+                # Merge: update only the regenerated builds, keep others
+                for tier_name, tier_data in data.items():
+                    if tier_name not in self.data:
+                        self.data[tier_name] = {}
+                    for build_name, build_data in tier_data.items():
+                        self.data[tier_name][build_name] = build_data
+                    # Recalculate averages for this tier
+                    all_builds = [(n, d) for n, d in self.data.get(tier_name, {}).items() if n != '__average__']
+                    all_levels = sorted(set(l for _, bd in all_builds for l in bd.keys()))
+                    avg = {}
+                    for lvl in all_levels:
+                        avg[lvl] = {}
+                        vals = {stat: [bd[lvl].get(stat, 0) for _, bd in all_builds if lvl in bd] for stat in ALL_STATS}
+                        for stat, vlist in vals.items():
+                            avg[lvl][stat] = int(round(sum(vlist) / len(vlist))) if vlist else 0
+                    self.data[tier_name]['__average__'] = avg
+            else:
+                self.data = data
             tiers = list(data.keys())
             self.tier_combo['values'] = tiers
             if self.current_tier is None or self.current_tier not in tiers:
@@ -1809,7 +1833,7 @@ class CharacterManagerGUI:
             try:
                 settings = custom_settings if custom_settings is not None else load_settings(DATA_DIR)
                 self.settings = settings
-                result = collect_all_data(settings, progress)
+                result = collect_all_data(settings, progress, build_filter)
                 self.root.after(0, lambda: done(result))
             except Exception as e:
                 self.root.after(0, lambda: error(e))
@@ -1841,24 +1865,80 @@ class CharacterManagerGUI:
         self.level_slider_label.config(text=str(int(float(val))))
         self._update_graph()
 
-    def _toggle_nonmagic(self):
-        if self.settings is None:
+    def _update_spells_and_regen(self):
+        """Run the spell updater script then regenerate all builds."""
+        if self.generating:
+            messagebox.showinfo("Busy", "Already generating.")
             return
-        any_nonmagic_visible = any(
-            self._line_visible.get(name, True)
-            for name in self._build_names
-            if not self.settings.get('builds', {}).get(name, {}).get('has_magical', False)
-        )
-        new_state = not any_nonmagic_visible
-        for name in self._build_names:
-            bc = self.settings.get('builds', {}).get(name, {})
-            if not bc.get('has_magical', False) and name in self._lines:
-                self._build_enabled[name] = new_state
-                self._line_visible[name] = new_state
-                self._lines[name].set_visible(new_state)
-        self._rebuild_legend()
-        self._rebuild_summary()
-        self.canvas.draw()
+        import subprocess, threading
+        script = os.path.join(SCRIPT_DIR, 'update_spells.py')
+        if not os.path.exists(script):
+            messagebox.showerror("Error", f"update_spells.py not found at:\n{script}")
+            return
+
+        self.generating = True
+        self.update_spells_btn.config(state=tk.DISABLED)
+        self.run_btn.config(state=tk.DISABLED)
+
+        def run():
+            self.root.after(0, lambda: self.status_label.config(text="Running spell updater..."))
+            self.root.after(0, lambda: self.settings_status.config(text="Updating..."))
+            try:
+                proc = subprocess.run(
+                    [sys.executable, script],
+                    input='n\n',
+                    capture_output=True, text=True, timeout=120,
+                    cwd=SCRIPT_DIR
+                )
+                if proc.returncode == 0:
+                    self.root.after(0, lambda: self.status_label.config(
+                        text="Spells updated. Rebuilding affected builds..."))
+                else:
+                    self.root.after(0, lambda: messagebox.showerror(
+                        "Updater Error", proc.stderr[:500] or f"Exit code {proc.returncode}"))
+                    self.root.after(0, lambda: self._regen_reenable())
+                    return
+                # Determine which builds are affected
+                self.settings = None
+                s = load_settings(DATA_DIR)
+                self.settings = s
+                # Find affinities referenced by changed spells
+                affected_affinities = set()
+                for line in proc.stdout.splitlines():
+                    for aff_name in s['spells'].keys():
+                        if aff_name in line or aff_name.lower() in line.lower():
+                            affected_affinities.add(aff_name)
+                # Find builds that use these affinities
+                affected_builds = set()
+                for bname, bconfig in s['builds'].items():
+                    pa = bconfig.get('primary_affinity', '')
+                    if pa and pa in affected_affinities:
+                        affected_builds.add(bname)
+                        continue
+                    for path in bconfig.get('preferred_paths', []):
+                        if path in affected_affinities:
+                            affected_builds.add(bname)
+                            break
+                for bname in s['builds']:
+                    if bname.lower().startswith('worst'):
+                        affected_builds.add(bname)
+                if not affected_builds:
+                    affected_builds = None
+                self.generating = False
+                self.root.after(100, lambda: self._run_generator(build_filter=affected_builds))
+            except subprocess.TimeoutExpired:
+                self.root.after(0, lambda: messagebox.showerror("Updater Error", "Timed out after 120s"))
+                self.root.after(0, lambda: self._regen_reenable())
+            except Exception as e:
+                self.root.after(0, lambda: messagebox.showerror("Updater Error", str(e)))
+                self.root.after(0, lambda: self._regen_reenable())
+
+        threading.Thread(target=run, daemon=True).start()
+
+    def _regen_reenable(self):
+        self.generating = False
+        self.update_spells_btn.config(state=tk.NORMAL)
+        self.run_btn.config(state=tk.NORMAL)
 
     def _rebuild_legend_panel(self, build_names, colors):
         for w in self.legend_inner.winfo_children():

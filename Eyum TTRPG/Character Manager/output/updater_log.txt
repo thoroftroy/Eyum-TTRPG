@@ -1,20 +1,36 @@
 EYUM TTRPG — SPELL UPDATER LOG
-Run at: 2026-06-02 22:00:19
+Run at: 2026-06-03 10:26:27
 Handbook: /home/microwavedthebaby/Documents/Eyum-TTRPG/Eyum TTRPG/6.0 Magic/6.1 Spells.md
 Spells JSON: /home/microwavedthebaby/Documents/Eyum-TTRPG/Eyum TTRPG/Character Manager/data/spells.json
 ======================================================================
-Parsed 274 spells from handbook
+Parsed 275 spells from handbook
 
 ======================================================================
 SUMMARY
 ======================================================================
-  Total spells in handbook: 274
-  Changed:  0
-  Unchanged: 283
+  Total spells in handbook: 275
+  Changed:  4
+  Unchanged: 280
   New (in handbook, not in JSON): 0
 
 ──────────────────────────────────────────────────────────────────────
-UNCHANGED SPELLS (283)
+CHANGED SPELLS (4)
+──────────────────────────────────────────────────────────────────────
+
+  Critical Atomicity (Atomic)
+      mana: 650 → 500
+
+  Fallout Crown (Atomic)
+      mana: 900 → 600
+
+  Fission Verdict (Atomic)
+      mana: 1200 → 750
+
+  Last Sun (Atomic)
+      mana: 1800 → 1000
+
+──────────────────────────────────────────────────────────────────────
+UNCHANGED SPELLS (280)
 ──────────────────────────────────────────────────────────────────────
   Abrasion Line (Dust)
   Absolute Zero (Ice/Cold)
@@ -67,7 +83,6 @@ UNCHANGED SPELLS (283)
   Corrosive Breath (Toxin)
   Corrupt Dominion (Corruption)
   Crimson Eruption (Bloodfire)
-  Critical Atomicity (Atomic)
   Crustbreaker (Magma)
   Cure Wounds (Generic)
   Cyclone (Air)
@@ -102,7 +117,6 @@ UNCHANGED SPELLS (283)
   Expose Weakness (Generic)
   Fallen Throne (Corruption)
   Falling Choir (Starlight)
-  Fallout Crown (Atomic)
   False Advance (Mirage)
   Faultline (Earth) (Earth)
   Faultline (Quake) (Quake)
@@ -110,7 +124,6 @@ UNCHANGED SPELLS (283)
   Fireball (Fire)
   Firebolt (Fire)
   Fireburst (Fire)
-  Fission Verdict (Atomic)
   Flash Freeze (Ice/Cold)
   Flash Freeze (Unique) (Ice/Cold)
   Floodwall (Water)
@@ -157,7 +170,6 @@ UNCHANGED SPELLS (283)
   Jetstream (Water)
   Judgment Strike (Lightning)
   Last Lament (Sorrow)
-  Last Sun (Atomic)
   Lava Mantle (Magma)
   Leech (Bloodfire)
   Leech Life (Necrotic)
@@ -190,6 +202,7 @@ UNCHANGED SPELLS (283)
   Necrotic Collapse (Necrotic)
   Nova Burst (Nova)
   Nova Compression (Nova)
+  Nuclear Strike (Atomic)
   Null Edge (Void)
   Oblivion Cut (Void)
   Obsidian Skin (Obsidian)
@@ -307,4 +320,4 @@ SPELLS IN JSON NOT IN HANDBOOK (1)
   Full Restore (Generic)
 
 ======================================================================
-End of log — 2026-06-02 22:00:19
+End of log — 2026-06-03 10:26:27

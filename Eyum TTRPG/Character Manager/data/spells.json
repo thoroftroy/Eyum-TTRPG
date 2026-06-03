@@ -31,6 +31,27 @@
       "range": 60
     },
     {
+      "name": "Silence",
+      "mana": 8,
+      "affinity_required": 6,
+      "damage_type": "air",
+      "concentration": true,
+      "extra_effect": "Mute+Silenced",
+      "description": "Concentration. Create a 20 ft sphere at a point you can see within range. No sound passes into, out of, or through the sphere. Creatures inside are Silenced (Mute) and gain Immunity to Thunder damage while they remain inside it. The sphere is stationary but may be dismissed by you at any time.",
+      "upcast_rule": "x2, increase radius by 10 ft",
+      "range": 120
+    },
+    {
+      "name": "Haste",
+      "mana": 9,
+      "affinity_required": 6,
+      "damage_type": "air",
+      "extra_effect": "Lethargic+Hasted",
+      "description": "Touch a creature. It gains the Hasted condition for 3 turns. When Haste ends, that creature gains Lethargic as normal.",
+      "upcast_rule": "x2, increase duration by 1 turn",
+      "range": "Touch"
+    },
+    {
       "name": "Cyclone",
       "mana": 10,
       "affinity_required": 11,
@@ -78,27 +99,6 @@
       "description": "You tear the battlefield open with a colossal front of compressed wind in a 40 ft cone. Creatures in the cone must make a Strength save. On a failure they take 6d6 Air damage, are thrown to the cone\u2019s end, and if they strike a creature or object all involved creatures take 2d6 Magical Bludgeoning damage. Creatures moved more than 10 ft must make a Constitution save or gain Suffocating for 2 turns. On a success they take half damage and are pushed only 10 ft gaining Suffocating for 1 turn.",
       "upcast_rule": "x2, +2d6 damage and +10 ft cone length",
       "range": 120
-    },
-    {
-      "name": "Silence",
-      "mana": 8,
-      "affinity_required": 6,
-      "damage_type": "air",
-      "concentration": true,
-      "extra_effect": "Mute+Silenced",
-      "description": "Concentration. Create a 20 ft sphere at a point you can see within range. No sound passes into, out of, or through the sphere. Creatures inside are Silenced (Mute) and gain Immunity to Thunder damage while they remain inside it. The sphere is stationary but may be dismissed by you at any time.",
-      "upcast_rule": "x2, increase radius by 10 ft",
-      "range": 120
-    },
-    {
-      "name": "Haste",
-      "mana": 9,
-      "affinity_required": 6,
-      "damage_type": "air",
-      "extra_effect": "Lethargic+Hasted",
-      "description": "Touch a creature. It gains the Hasted condition for 3 turns. When Haste ends, that creature gains Lethargic as normal.",
-      "upcast_rule": "x2, increase duration by 1 turn",
-      "range": "Touch"
     }
   ],
   "Ash": [
@@ -178,6 +178,19 @@
   ],
   "Atomic": [
     {
+      "name": "Nuclear Strike",
+      "mana": 20,
+      "description": "Make a melee spell attack against a creature within reach. On a hit, an atomic explosion erupts centered on the target, affecting all creatures within 5 feet of it. Each affected creature must make a DEX save, taking 40 + 5d6 Atomic damage on a failure, or half as much on a success. The target of this attack automatically fails the save and takes an additional 10 Atomic damage. All creatures affected by the explosion gain 1 stack of Radiation. The target gains 3 stacks of Radiation instead.",
+      "damage_type": "atomic",
+      "range": "Touch",
+      "extra_effect": "Radiation",
+      "affinity_required": 2,
+      "attack_roll": true,
+      "upcast_rule": "x2, +40 damage, +1 Radiation stack",
+      "damage_dice": "5d6",
+      "damage_flat": 20
+    },
+    {
       "name": "Go Atomic",
       "mana": 400,
       "affinity_required": 21,
@@ -194,7 +207,7 @@
     },
     {
       "name": "Critical Atomicity",
-      "mana": 650,
+      "mana": 500,
       "affinity_required": 23,
       "int_required": 33,
       "damage_dice": "6d12",
@@ -211,7 +224,7 @@
     },
     {
       "name": "Fallout Crown",
-      "mana": 900,
+      "mana": 600,
       "affinity_required": 25,
       "int_required": 37,
       "damage_dice": "8d12",
@@ -227,7 +240,7 @@
     },
     {
       "name": "Fission Verdict",
-      "mana": 1200,
+      "mana": 750,
       "affinity_required": 27,
       "int_required": 41,
       "damage_dice": "30d12",
@@ -243,7 +256,7 @@
     },
     {
       "name": "Last Sun",
-      "mana": 1800,
+      "mana": 1000,
       "affinity_required": 31,
       "int_required": 46,
       "damage_dice": "15d12",
@@ -263,23 +276,35 @@
       "name": "Wither",
       "mana": 6,
       "affinity_required": 6,
+      "damage_dice": "2d8",
+      "damage_type": "blight",
+      "attack_roll": true,
+      "extra_effect": "Withered x1",
+      "description": "Make a spell attack. On hit, deal 2d8 Blight damage and apply Withered x1. Non-magical plants die instantly; magical plants take double damage.",
+      "upcast_to": "Rotsap",
+      "range": "Touch"
+    },
+    {
+      "name": "Withering Grasp",
+      "mana": 8,
+      "affinity_required": 7,
       "damage_dice": "4d8",
       "damage_type": "blight",
       "attack_roll": true,
       "extra_effect": "Withered x1",
-      "description": "Make a spell attack. On hit, deal 4d8 Blight damage and apply Withered x1. Non-magical plants die instantly; magical plants take double damage.",
-      "upcast_to": "Rotsap",
+      "description": "Make a melee spell attack. On hit, deal 4d8 Blight damage and apply Withered x1. Plant creatures take double damage.",
+      "upcast_rule": "x2, +3d8 damage and +1 Withered stack",
       "range": "Touch"
     },
     {
       "name": "Rotsap",
       "mana": 16,
       "affinity_required": 9,
-      "damage_dice": "6d8",
+      "damage_dice": "3d8",
       "damage_type": "blight",
       "attack_roll": true,
       "extra_effect": "Withered x2",
-      "description": "Make a spell attack. On hit, deal 6d8 Blight damage, apply Withered x2, and the target loses 2 Vitality at the start of its next turn for each stack of Withered it has.",
+      "description": "Make a spell attack. On hit, deal 3d8 Blight damage, apply Withered x2, and the target loses 2 Vitality at the start of its next turn for each stack of Withered it has.",
       "upcast_to": "Hollow Season",
       "range": 60
     },
@@ -288,13 +313,13 @@
       "mana": 28,
       "affinity_required": 11,
       "int_required": 17,
-      "damage_dice": "8d8",
+      "damage_dice": "4d8",
       "damage_type": "blight",
       "save": "con",
       "attack_roll": false,
       "extra_effect": "Withered x3",
       "save_half": true,
-      "description": "Choose a creature you can see. It must make a Constitution save. On fail, take 8d8 Blight damage, gain Withered x3, and all healing received is reduced by half for 2 turns. On success, take half and gain Withered x1.",
+      "description": "Choose a creature you can see. It must make a Constitution save. On fail, take 4d8 Blight damage, gain Withered x3, and all healing received is reduced by half for 2 turns. On success, take half and gain Withered x1.",
       "upcast_to": "Dead Orchard",
       "range": 90
     },
@@ -303,13 +328,13 @@
       "mana": 43,
       "affinity_required": 13,
       "int_required": 19,
-      "damage_dice": "10d8",
+      "damage_dice": "5d8",
       "damage_type": "blight",
       "save": "con",
       "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Withered x3",
-      "description": "Choose a point. Dead growth erupts through the ground. Creatures in the area must make a Constitution save. On fail, take 10d8 Blight damage, gain Withered x3, and have Disadvantage on Strength and Dexterity checks for 2 turns as their bodies dry and stiffen.",
+      "description": "Choose a point. Dead growth erupts through the ground. Creatures in the area must make a Constitution save. On fail, take 5d8 Blight damage, gain Withered x3, and have Disadvantage on Strength and Dexterity checks for 2 turns as their bodies dry and stiffen.",
       "upcast_to": "Final Season",
       "range": 120
     },
@@ -325,21 +350,21 @@
       "description": "Make a spell attack. On hit, deal 14d8 Blight damage, apply Withered x4, and until the end of its next two turns the target cannot regain Vitality by any means. If it is a plant creature, it instead takes double damage and is Restrained by its own dead growth.",
       "upcast_rule": "x2, +4d8 damage and +1 Withered stack",
       "range": 150
-    },
-    {
-      "name": "Withering Grasp",
-      "mana": 8,
-      "affinity_required": 7,
-      "damage_dice": "4d8",
-      "damage_type": "blight",
-      "attack_roll": true,
-      "extra_effect": "Withered x1",
-      "description": "Make a melee spell attack. On hit, deal 4d8 Blight damage and apply Withered x1. Plant creatures take double damage.",
-      "upcast_rule": "x2, +3d8 damage and +1 Withered stack",
-      "range": "Touch"
     }
   ],
   "Bloodfire": [
+    {
+      "name": "Bloodletting",
+      "mana": 6,
+      "affinity_required": 7,
+      "damage_dice": "2d6",
+      "damage_type": "bloodfire",
+      "attack_roll": true,
+      "extra_effect": "Bleeding",
+      "description": "Make a spell attack. On hit, deal 2d6 Bloodfire damage and apply Bleeding. If the target was already Bleeding, deal +3d6 Bloodfire damage instead.",
+      "upcast_rule": "x2, +2d6 bonus damage",
+      "range": 30
+    },
     {
       "name": "Blood Boil",
       "mana": 10,
@@ -353,6 +378,16 @@
       "description": "Choose a creature with the Bleeding condition that you can see within range. The target must make a Constitution save. On a failure, it takes 4d8 Bloodfire damage per stack of Bleeding it currently has, and then gains 1 additional stack of Bleeding before the damage is finalized. You heal Health equal to one-third of the total Bloodfire damage dealt, rounded down, and the target gains Burned for 2 turns. On a success, the target takes half damage, still gains 1 stack of Bleeding, and you heal for one-sixth of the damage dealt to vitality. If there are no targets with Bleeding in range you may apply bleeding to yourself (taking 1d4 true damage) and then do the effect of this spell.",
       "upcast_to": "Crimson Eruption",
       "range": 60
+    },
+    {
+      "name": "Leech",
+      "mana": 11,
+      "affinity_required": 9,
+      "damage_dice": "2d8",
+      "damage_type": "bloodfire",
+      "description": "Choose a creature. It takes 2d8 Bloodfire damage at the start of each of its turns for 3 turns. You regain Health equal to the damage. This spell cannot reduce the target below 1 HP.",
+      "upcast_rule": "x2, +1d8 damage",
+      "range": 30
     },
     {
       "name": "Crimson Eruption",
@@ -415,28 +450,6 @@
       "description": "Choose a point you can see within range. The battlefield erupts into a catastrophic rain of ignited blood and internal combustion. All creatures in a 30 ft radius must make a Constitution save. On a failure, a creature takes 20d8 Bloodfire damage, gains 4 stacks of Bleeding, gains On Fire, and if it was already Bleeding before the spell was cast it instead takes an additional 10d8 Bloodfire damage and gains 2 more stacks of Bleeding. On a success, the creature takes half damage, gains 2 stacks of Bleeding, and gains Burned for 3 turns. After the spell resolves, you heal Health equal to one-third of the total Bloodfire damage dealt by the spell, and any excess healing becomes Vitality.",
       "upcast_rule": "x2, +12d8 base damage and +6d8 bonus-to-bleeding-targets damage",
       "range": 150
-    },
-    {
-      "name": "Bloodletting",
-      "mana": 6,
-      "affinity_required": 7,
-      "damage_dice": "2d6",
-      "damage_type": "bloodfire",
-      "attack_roll": true,
-      "extra_effect": "Bleeding",
-      "description": "Make a spell attack. On hit, deal 2d6 Bloodfire damage and apply Bleeding. If the target was already Bleeding, deal +3d6 Bloodfire damage instead.",
-      "upcast_rule": "x2, +2d6 bonus damage",
-      "range": 30
-    },
-    {
-      "name": "Leech",
-      "mana": 11,
-      "affinity_required": 9,
-      "damage_dice": "2d8",
-      "damage_type": "bloodfire",
-      "description": "Choose a creature. It takes 2d8 Bloodfire damage at the start of each of its turns for 3 turns. You regain Health equal to the damage. This spell cannot reduce the target below 1 HP.",
-      "upcast_rule": "x2, +1d8 damage",
-      "range": 30
     }
   ],
   "Chaos": [
@@ -521,6 +534,30 @@
       "range": 40
     },
     {
+      "name": "Bestow Curse",
+      "mana": 15,
+      "affinity_required": 11,
+      "damage_type": "corruption",
+      "extra_effect": "Cursed",
+      "description": "Touch a creature. It becomes Cursed.",
+      "range": "Touch"
+    },
+    {
+      "name": "Black Tentacles",
+      "mana": 21,
+      "affinity_required": 13,
+      "damage_dice": "4d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "Restrained",
+      "description": "Tentacles of dark energy erupt for 3 turns. Creatures in the area must make a Str save. On fail, they take 4d8 Corruption damage and become Restrained. While Restrained this way, they take 4d8 Corruption damage at the start of each of your turns. Escape DC = your Spell Save DC. This spell requires Concentration.",
+      "upcast_rule": "x2, +5 ft radius",
+      "range": 60
+    },
+    {
       "name": "Black Binding",
       "mana": 23,
       "affinity_required": 9,
@@ -582,30 +619,6 @@
       "description": "Choose a point you can see within range. The area is consumed by overwhelming corruption that tears apart body, will, and magic. All creatures in a 30 ft radius must make a Strength save. On a failure, a creature takes 20d8 Corruption damage, gains 4 stacks of Corrupt, becomes Mute, becomes Entangled, gains Slowed for 3 turns, and gains Slow Death (4 stacks). On a success, the creature takes half damage, gains 2 stacks of Corrupt, and becomes Mute for 1 turn. Any creature that was already suffering from Corrupt before this spell was cast instead takes an additional 10d8 Corruption damage and automatically gains the full Slow Death effect on a failed save.",
       "upcast_rule": "x2, +12d8 damage and +1 Slow Death stack",
       "range": 150
-    },
-    {
-      "name": "Bestow Curse",
-      "mana": 15,
-      "affinity_required": 11,
-      "damage_type": "corruption",
-      "extra_effect": "Cursed",
-      "description": "Touch a creature. It becomes Cursed.",
-      "range": "Touch"
-    },
-    {
-      "name": "Black Tentacles",
-      "mana": 21,
-      "affinity_required": 13,
-      "damage_dice": "4d8",
-      "damage_type": "corruption",
-      "save": "str",
-      "attack_roll": false,
-      "aoe_radius": 20,
-      "concentration": true,
-      "extra_effect": "Restrained",
-      "description": "Tentacles of dark energy erupt for 3 turns. Creatures in the area must make a Str save. On fail, they take 4d8 Corruption damage and become Restrained. While Restrained this way, they take 4d8 Corruption damage at the start of each of your turns. Escape DC = your Spell Save DC. This spell requires Concentration.",
-      "upcast_rule": "x2, +5 ft radius",
-      "range": 60
     }
   ],
   "Dust": [
@@ -699,6 +712,27 @@
       "upcast_to": "Stonewave"
     },
     {
+      "name": "Stoneskin",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "earth",
+      "description": "Touch a creature. It gains Resistance to Physical Damage for 3 turns.",
+      "upcast_rule": "x2, increase duration by 2 turns",
+      "range": "Touch"
+    },
+    {
+      "name": "Slow",
+      "mana": 9,
+      "affinity_required": 6,
+      "damage_type": "earth",
+      "save": "wis",
+      "attack_roll": false,
+      "extra_effect": "Slowed",
+      "description": "Choose a creature you can see within range. It must make a Wisdom save or gain the Slowed condition for 3 turns.",
+      "upcast_rule": "x2, affect 1 additional creature",
+      "range": 60
+    },
+    {
       "name": "Stonewave",
       "mana": 10,
       "affinity_required": 8,
@@ -727,6 +761,19 @@
       "extra_effect": "Prone+Slowed",
       "description": "Choose a point on the ground you can see. Jagged stone erupts in a 20 ft radius. Creatures in the area must make a Strength save. On a failure they take 4d6 Earth damage, are Prone, and become Slowed for 2 turns. On a success they take half damage and are not Slowed or knocked prone.",
       "upcast_to": "Faultline",
+      "range": 60
+    },
+    {
+      "name": "Bastion Rise",
+      "mana": 20,
+      "affinity_required": 13,
+      "damage_dice": "3d6",
+      "damage_type": "earth",
+      "save": "str",
+      "attack_roll": false,
+      "extra_effect": "Prone",
+      "description": "Choose up to four 5 ft squares of ground you can see within range. Thick stone pillars rise 25 ft there and remain for 3 turns. If a creature was on the space you formed a pillar they must make a Strength save or take 3d6 Earth damage and become Prone. If a creature succeed the roll they may make an acrobatics check (DC 12) to stay on the top of the Pillar. The pillars create solid cover and block normal movement until destroyed or the spell ends.",
+      "upcast_rule": "x2, +2 pillars",
       "range": 60
     },
     {
@@ -763,40 +810,6 @@
       "extra_effect": "Prone+Stunned",
       "description": "The land violently collapses and rebounds around you in a 50 ft radius. All other creatures in range must make a Strength save. On a failure they take 8d6 Earth damage, are Prone, and are Stunned for 2 turns. On a success they take half damage and are only Prone. Structures in the area take double damage.",
       "upcast_rule": "x2, +2d6 damage and +10 ft radius"
-    },
-    {
-      "name": "Stoneskin",
-      "mana": 6,
-      "affinity_required": 4,
-      "damage_type": "earth",
-      "description": "Touch a creature. It gains Resistance to Physical Damage for 3 turns.",
-      "upcast_rule": "x2, increase duration by 2 turns",
-      "range": "Touch"
-    },
-    {
-      "name": "Slow",
-      "mana": 9,
-      "affinity_required": 6,
-      "damage_type": "earth",
-      "save": "wis",
-      "attack_roll": false,
-      "extra_effect": "Slowed",
-      "description": "Choose a creature you can see within range. It must make a Wisdom save or gain the Slowed condition for 3 turns.",
-      "upcast_rule": "x2, affect 1 additional creature",
-      "range": 60
-    },
-    {
-      "name": "Bastion Rise",
-      "mana": 20,
-      "affinity_required": 13,
-      "damage_dice": "3d6",
-      "damage_type": "earth",
-      "save": "str",
-      "attack_roll": false,
-      "extra_effect": "Prone",
-      "description": "Choose up to four 5 ft squares of ground you can see within range. Thick stone pillars rise 25 ft there and remain for 3 turns. If a creature was on the space you formed a pillar they must make a Strength save or take 3d6 Earth damage and become Prone. If a creature succeed the roll they may make an acrobatics check (DC 12) to stay on the top of the Pillar. The pillars create solid cover and block normal movement until destroyed or the spell ends.",
-      "upcast_rule": "x2, +2 pillars",
-      "range": 60
     }
   ],
   "Eldritch": [
@@ -806,6 +819,15 @@
       "damage_flat": 1,
       "damage_type": "eldritch",
       "attack_roll": true,
+      "description": "Make a ranged spell attack against a creature you can see within range. This spell uses Eldritch Affinity only; Generic Affinity is not added. On hit, the target takes 1 Eldritch damage.",
+      "upcast_rule": "x2, fire 1 additional blast as a separate spell attack",
+      "range": 60
+    },
+    {
+      "name": "Eldritch Blast",
+      "mana": 2,
+      "attack_roll": true,
+      "damage_type": "eldritch",
       "description": "Make a ranged spell attack against a creature you can see within range. This spell uses Eldritch Affinity only; Generic Affinity is not added. On hit, the target takes 1 Eldritch damage.",
       "upcast_rule": "x2, fire 1 additional blast as a separate spell attack",
       "range": 60
@@ -823,6 +845,17 @@
       "concentration": true
     },
     {
+      "name": "Eldritch Tentacle",
+      "mana": 5,
+      "extra_effect": "Grappled",
+      "save": "str",
+      "concentration": true,
+      "damage_type": "eldritch",
+      "description": "Choose a creature you can see within range. It must make a Strength save against 10 + Eldritch Affinity. On a failure, it is Grappled, pulled to a space of your choice within 5 ft of you, and remains held while you maintain Concentration. A creature escaping this grapple rolls its Athletics or equivalent escape check against your spell save DC using Eldritch only, not Generic.",
+      "upcast_rule": "x2, affect 1 additional target with a separate tentacle",
+      "range": 120
+    },
+    {
       "name": "Eldritch Explosion",
       "mana": 6,
       "damage_flat": 15,
@@ -836,25 +869,6 @@
       "aoe_self": true
     },
     {
-      "name": "Eldritch Shadow",
-      "mana": 18,
-      "damage_type": "eldritch",
-      "concentration": true,
-      "description": "Concentration. This spell may be cast as a Bonus Action. You gain the Invisible condition until you make an attack. While invisible from this spell, any attack you make that deals Eldritch damage deals 1.5x more damage.",
-      "upcast_rule": "x10, you do not lose invisibility from attacking; may only be upcast this way once",
-      "extra_effect": "Invisible",
-      "aoe_self": true
-    },
-    {
-      "name": "Eldritch Blast",
-      "mana": 2,
-      "attack_roll": true,
-      "damage_type": "eldritch",
-      "description": "Make a ranged spell attack against a creature you can see within range. This spell uses Eldritch Affinity only; Generic Affinity is not added. On hit, the target takes 1 Eldritch damage.",
-      "upcast_rule": "x2, fire 1 additional blast as a separate spell attack",
-      "range": 60
-    },
-    {
       "name": "Eldritch Explosion",
       "mana": 6,
       "save": "wis",
@@ -867,26 +881,36 @@
     {
       "name": "Eldritch Shadow",
       "mana": 18,
+      "damage_type": "eldritch",
+      "concentration": true,
+      "description": "Concentration. This spell may be cast as a Bonus Action. You gain the Invisible condition until you make an attack. While invisible from this spell, any attack you make that deals Eldritch damage deals 1.5x more damage.",
+      "upcast_rule": "x10, you do not lose invisibility from attacking; may only be upcast this way once",
+      "extra_effect": "Invisible",
+      "aoe_self": true
+    },
+    {
+      "name": "Eldritch Shadow",
+      "mana": 18,
       "extra_effect": "Invisible",
       "concentration": true,
       "damage_type": "eldritch",
       "description": "Concentration. This spell may be cast as a Bonus Action. You gain the Invisible condition until you make an attack. While invisible from this spell, any attack you make that deals Eldritch damage deals 1.5x more damage.",
       "upcast_rule": "x10, you do not lose invisibility from attacking; may only be upcast this way once",
       "aoe_self": true
-    },
-    {
-      "name": "Eldritch Tentacle",
-      "mana": 5,
-      "extra_effect": "Grappled",
-      "save": "str",
-      "concentration": true,
-      "damage_type": "eldritch",
-      "description": "Choose a creature you can see within range. It must make a Strength save against 10 + Eldritch Affinity. On a failure, it is Grappled, pulled to a space of your choice within 5 ft of you, and remains held while you maintain Concentration. A creature escaping this grapple rolls its Athletics or equivalent escape check against your spell save DC using Eldritch only, not Generic.",
-      "upcast_rule": "x2, affect 1 additional target with a separate tentacle",
-      "range": 120
     }
   ],
   "Fire": [
+    {
+      "name": "Cauterize",
+      "mana": 5,
+      "damage_dice": "1d4",
+      "damage_type": "fire",
+      "attack_roll": true,
+      "extra_effect": "Bleeding+Burned",
+      "description": "Touch a creature. If it is Bleeding, that condition ends immediately. The target then takes 1d4 Fire damage and gains Burned for 1 turn. If the target is unwilling, make a spell attack against it first.",
+      "upcast_rule": "x2, apply +1 additional Burned stack",
+      "range": "Touch"
+    },
     {
       "name": "Firebolt",
       "mana": 12,
@@ -965,17 +989,6 @@
       "description": "Choose a point you can see within range. A towering mass of fire detonates in a 30 ft radius. All creatures in the area must make a Dexterity save. On a failure they take 8d6 + 12 Fire damage, gain On Fire. On a success they take half damage and still gain On Fire. After resolving the blast, the ground in the radius burns until the end of your next turn; creatures entering or ending their turn there take 2d6 + 6 Fire damage.",
       "upcast_rule": "x2, +3d6 blast damage and +1d6 ground damage",
       "range": 120
-    },
-    {
-      "name": "Cauterize",
-      "mana": 5,
-      "damage_dice": "1d4",
-      "damage_type": "fire",
-      "attack_roll": true,
-      "extra_effect": "Bleeding+Burned",
-      "description": "Touch a creature. If it is Bleeding, that condition ends immediately. The target then takes 1d4 Fire damage and gains Burned for 1 turn. If the target is unwilling, make a spell attack against it first.",
-      "upcast_rule": "x2, apply +1 additional Burned stack",
-      "range": "Touch"
     }
   ],
   "Force": [
@@ -1003,6 +1016,19 @@
       "description": "Coat yourself in a thin layer of corrosive gel for 3 turns. You gain +2 AC and Advantage on checks to escape or resist a Grapple. A creature that hits you with an unarmed attack or a natural weapon, or that successfully Grapples you, takes 2d6 Gel damage. While coated, your unarmed attacks and Grapple damage deal an additional 2d6 Gel damage. If you take Fire damage while coated, the gel ignites and is consumed: you take double Fire damage from that source and the spell ends immediately. This spell requires Concentration.",
       "upcast_to": "Gel Shaper",
       "aoe_self": true
+    },
+    {
+      "name": "Gel Trap",
+      "mana": 8,
+      "affinity_required": 9,
+      "damage_type": "gel",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 10,
+      "extra_effect": "Restrained+Gelled",
+      "description": "Cover the ground in sticky gel. Creatures entering or starting their turn there must make a Str save or become Restrained and gain the Gelled condition. Escaping requires a Strength check vs your Spell Save DC. The gel lasts for 3 turns or until fire damage is dealt to the area, which burns it away.",
+      "upcast_rule": "x2, +5 ft radius",
+      "range": 30
     },
     {
       "name": "Gel Shaper",
@@ -1052,19 +1078,6 @@
       "description": "Summon a Gel Slime in an unoccupied space you can see within range. The slime is a summoned companion with level equal to your level - 2, has its own turn in Initiative, and perfectly obeys your commands. The slime uses the monster statblock of a Gel Slime at its level. If you have greater than 30 Affinity in any other element, you may instead summon a slime of that element, but at level - 3 (minimum level 1). For monster statblocks see [[7.3.1 Slimes]]. You may only have up to one slime companion per 5 levels summoned at a time (at level 5 you may have one at level 10 you may have two and so on), when this slime dies it fades into nothing and does not leave behind a core or mass. Summoning a new slime (above your max) will cause the oldest summoned slime to disappear.",
       "upcast_rule": "x2, +1 slime level",
       "range": 60
-    },
-    {
-      "name": "Gel Trap",
-      "mana": 8,
-      "affinity_required": 9,
-      "damage_type": "gel",
-      "save": "str",
-      "attack_roll": false,
-      "aoe_radius": 10,
-      "extra_effect": "Restrained+Gelled",
-      "description": "Cover the ground in sticky gel. Creatures entering or starting their turn there must make a Str save or become Restrained and gain the Gelled condition. Escaping requires a Strength check vs your Spell Save DC. The gel lasts for 3 turns or until fire damage is dealt to the area, which burns it away.",
-      "upcast_rule": "x2, +5 ft radius",
-      "range": 30
     }
   ],
   "Ice/Cold": [
@@ -1080,6 +1093,32 @@
       "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + Ice/Cold Affinity Ice/Cold damage and apply 2 stacks of Frozen.",
       "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
       "range": 30
+    },
+    {
+      "name": "Flash Freeze (Unique)",
+      "mana": 6,
+      "affinity_required": 6,
+      "damage_dice": "2d6",
+      "damage_type": "cold",
+      "attack_roll": true,
+      "extra_effect": "Frozen+Soaked",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + Ice/Cold Affinity Ice/Cold damage and apply 2 stacks of Frozen.",
+      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
+      "range": 30
+    },
+    {
+      "name": "Sleet Storm",
+      "mana": 15,
+      "affinity_required": 11,
+      "damage_dice": "2d6",
+      "damage_type": "cold",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Prone+DifficultTerrain",
+      "description": "Freezing rain and hail pound the area for 3 turns. The area is heavily obscured and becomes Difficult Terrain. Creatures entering or ending their turn there take 2d6 Cold damage and must make a Dex save or fall Prone.",
+      "upcast_rule": "x2, +10 ft radius",
+      "range": 60
     },
     {
       "name": "Deep Freeze",
@@ -1138,35 +1177,19 @@
       "description": "A catastrophic freeze overtakes the area. All creatures must make a Con save. On fail take 10d6 Cold damage and gain 20 stacks Frozen. Any creature affected becomes Petrified for 2 turns. The area remains frozen for 2 turns, applying 2 stacks Frozen to creatures entering or ending their turn there and dealing 10d6 Ice/Cold damage.",
       "upcast_rule": "x2, +3d6 damage and +2 Frozen stacks",
       "range": 120
-    },
-    {
-      "name": "Flash Freeze (Unique)",
-      "mana": 6,
-      "affinity_required": 6,
-      "damage_dice": "2d6",
-      "damage_type": "cold",
-      "attack_roll": true,
-      "extra_effect": "Frozen+Soaked",
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + Ice/Cold Affinity Ice/Cold damage and apply 2 stacks of Frozen.",
-      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
-      "range": 30
-    },
-    {
-      "name": "Sleet Storm",
-      "mana": 15,
-      "affinity_required": 11,
-      "damage_dice": "2d6",
-      "damage_type": "cold",
-      "save": "dex",
-      "attack_roll": false,
-      "aoe_radius": 20,
-      "extra_effect": "Prone+DifficultTerrain",
-      "description": "Freezing rain and hail pound the area for 3 turns. The area is heavily obscured and becomes Difficult Terrain. Creatures entering or ending their turn there take 2d6 Cold damage and must make a Dex save or fall Prone.",
-      "upcast_rule": "x2, +10 ft radius",
-      "range": 60
     }
   ],
   "Infernal": [
+    {
+      "name": "Desperate Pact",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "5d8",
+      "damage_type": "infernal",
+      "description": "Touch a willing creature. It gains +2 to all d20 rolls for 2 turns. If it drops below 25% of its max HP while the pact is active, the pact ends early and it takes 5d8 Infernal damage.",
+      "upcast_rule": "x2, +1 turn duration and +2 to rolls",
+      "range": "Touch"
+    },
     {
       "name": "Hellfire Orb",
       "mana": 16,
@@ -1234,19 +1257,21 @@
       "description": "A circle of infernal law ignites. Creatures in the area must make a Charisma save. On fail, take 12d8 Infernal damage, gain Hellfire, and for 3 turns take 4d8 Infernal damage whenever they attack, cast, or move more than 15 ft in a turn.",
       "upcast_rule": "x2, +4d8 entry damage and +2d8 trigger damage",
       "range": 150
-    },
-    {
-      "name": "Desperate Pact",
-      "mana": 12,
-      "affinity_required": 11,
-      "damage_dice": "5d8",
-      "damage_type": "infernal",
-      "description": "Touch a willing creature. It gains +2 to all d20 rolls for 2 turns. If it drops below 25% of its max HP while the pact is active, the pact ends early and it takes 5d8 Infernal damage.",
-      "upcast_rule": "x2, +1 turn duration and +2 to rolls",
-      "range": "Touch"
     }
   ],
   "Lightning": [
+    {
+      "name": "Static Shock",
+      "mana": 5,
+      "affinity_required": 6,
+      "damage_dice": "2d6",
+      "damage_type": "lightning",
+      "attack_roll": true,
+      "extra_effect": "Shocked",
+      "description": "Make a spell attack. On hit, deal 2d6 Lightning damage and apply Shocked. The bolt then arcs to a second creature within 15 ft, dealing 1d6 Lightning damage and applying Shocked.",
+      "upcast_rule": "x2, arc to a third creature",
+      "range": 30
+    },
     {
       "name": "Paralytic Bolt",
       "mana": 7,
@@ -1318,18 +1343,6 @@
       "description": "Lightning repeatedly strikes all creatures in the area. Each creature must make a Dex save. On fail take 10d8 Lightning damage and gain 3 stacks Shocked. At the start of their next turn, all affected creatures are struck again for 8d8 Lightning damage. Any creature with Shocked must make a Con save or become Paralyzed for 2 turns.",
       "upcast_rule": "x2, +10d8 primary and +8d8 secondary damage",
       "range": 150
-    },
-    {
-      "name": "Static Shock",
-      "mana": 5,
-      "affinity_required": 6,
-      "damage_dice": "2d6",
-      "damage_type": "lightning",
-      "attack_roll": true,
-      "extra_effect": "Shocked",
-      "description": "Make a spell attack. On hit, deal 2d6 Lightning damage and apply Shocked. The bolt then arcs to a second creature within 15 ft, dealing 1d6 Lightning damage and applying Shocked.",
-      "upcast_rule": "x2, arc to a third creature",
-      "range": 30
     }
   ],
   "Magma": [
@@ -1405,6 +1418,17 @@
   ],
   "Metal": [
     {
+      "name": "Mend",
+      "mana": 9,
+      "affinity_required": 6,
+      "damage_type": "metal",
+      "description": "Repair a non-magical object or construct up to 1 ft cube. Cracks seal, breaks rejoin. Cannot restore destroyed items.",
+      "upcast_rule": "x2, repair up to 3 ft cube",
+      "range": "Touch",
+      "aoe_radius": 1,
+      "aoe_cube": true
+    },
+    {
       "name": "Iron Grave",
       "mana": 13,
       "affinity_required": 9,
@@ -1417,6 +1441,21 @@
       "description": "Choose a creature you can see within range. Jagged metal spikes erupt from the ground and surrounding space, snapping inward with crushing force. The target must make a Strength save. On a failure, it takes 4d8 Metal damage, becomes Grappled (DC = Spell Save DC), and gains Pierced. While Grappled in this way, the creature is considered Pinned: it cannot stand up, cannot be moved by external effects, and cannot take Dash or Disengage actions. At the start of each of its turns while pinned, it gains 2 stacks of Hurting as the metal tightens. On a success, the creature takes half damage and is not Grappled, but still gains Pierced.",
       "upcast_to": "Iron Dominion",
       "range": 30
+    },
+    {
+      "name": "Blade Barrier",
+      "mana": 21,
+      "affinity_required": 13,
+      "damage_dice": "6d8",
+      "damage_type": "metal",
+      "save": "dex",
+      "attack_roll": false,
+      "concentration": true,
+      "extra_effect": "Pierced",
+      "save_half": true,
+      "description": "Whirling metal blades form a wall for 3 turns. Creatures passing through must make a Dex save. On fail, they take 6d8 Metal damage and gain Pierced. On success, they take half damage. The wall blocks line of sight and movement. This spell requires Concentration.",
+      "upcast_rule": "x2, +15 ft wall length",
+      "range": 60
     },
     {
       "name": "Iron Dominion",
@@ -1479,32 +1518,6 @@
       "description": "The entire area collapses into a dense, grinding mass of metal. All creatures must make a Strength save. On a failure, they take 14d8 Metal damage, become Pinned, Restrained, and gain Pierced. At the start of each turn, they take 6 stacks of Hurting and 6d8 Metal damage if they fail to escape. Any creature that escapes is immediately pushed out and takes 6d8 Metal damage from tearing free. On a success, they take half damage and are not restrained but still gain Pierced.",
       "upcast_rule": "x2, +8d8 damage and +1 Hurting stack per turn",
       "range": 150
-    },
-    {
-      "name": "Mend",
-      "mana": 9,
-      "affinity_required": 6,
-      "damage_type": "metal",
-      "description": "Repair a non-magical object or construct up to 1 ft cube. Cracks seal, breaks rejoin. Cannot restore destroyed items.",
-      "upcast_rule": "x2, repair up to 3 ft cube",
-      "range": "Touch",
-      "aoe_radius": 1,
-      "aoe_cube": true
-    },
-    {
-      "name": "Blade Barrier",
-      "mana": 21,
-      "affinity_required": 13,
-      "damage_dice": "6d8",
-      "damage_type": "metal",
-      "save": "dex",
-      "attack_roll": false,
-      "concentration": true,
-      "extra_effect": "Pierced",
-      "save_half": true,
-      "description": "Whirling metal blades form a wall for 3 turns. Creatures passing through must make a Dex save. On fail, they take 6d8 Metal damage and gain Pierced. On success, they take half damage. The wall blocks line of sight and movement. This spell requires Concentration.",
-      "upcast_rule": "x2, +15 ft wall length",
-      "range": 60
     }
   ],
   "Miasma": [
@@ -1525,11 +1538,11 @@
       "mana": 12,
       "affinity_required": 15,
       "int_required": 19,
-      "damage_dice": "8d8",
+      "damage_dice": "6d8",
       "damage_type": "miasma",
       "attack_roll": true,
       "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x1",
-      "description": "Make a spell attack. On hit, deal 8d8 Miasma damage and the target gains Diseased, Poisoned, and Suffocating for 1 turn. If already Diseased or Poisoned, it instead also gains Necrosis x1.",
+      "description": "Make a spell attack. On hit, deal 6d8 Miasma damage and the target gains Diseased, Poisoned, and Suffocating for 1 turn. If already Diseased or Poisoned, it instead also gains Necrosis x1.",
       "upcast_to": "Grave Weather",
       "range": 90
     },
@@ -1538,12 +1551,12 @@
       "mana": 18,
       "affinity_required": 17,
       "int_required": 23,
-      "damage_dice": "6d8",
+      "damage_dice": "3d8",
       "damage_type": "miasma",
       "aoe_radius": 25,
       "concentration": true,
       "extra_effect": "Poisoned+Diseased+Necrosis x1",
-      "description": "Spread a dense miasmic weather front for 3 turns. Creatures entering or ending their turn there take 6d8 Miasma damage and gain Diseased and Poisoned. Creatures already suffering both also gain Necrosis x1. Concentration.",
+      "description": "Spread a dense miasmic weather front for 3 turns. Creatures entering or ending their turn there take 3d8 Miasma damage and gain Diseased and Poisoned. Creatures already suffering both also gain Necrosis x1. Concentration.",
       "upcast_to": "Sepulcher Breath",
       "range": 120
     },
@@ -1552,13 +1565,13 @@
       "mana": 24,
       "affinity_required": 19,
       "int_required": 27,
-      "damage_dice": "12d8",
+      "damage_dice": "8d8",
       "damage_type": "miasma",
       "save": "con",
       "attack_roll": false,
       "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x2",
       "save_half": true,
-      "description": "Choose a creature. It must make a Constitution save. On fail, take 12d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 2 turns, and Necrosis x2. On success, take half and gain Diseased.",
+      "description": "Choose a creature. It must make a Constitution save. On fail, take 8d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 2 turns, and Necrosis x2. On success, take half and gain Diseased.",
       "upcast_to": "Rot Kingdom",
       "range": 120
     },
@@ -1567,19 +1580,27 @@
       "mana": 30,
       "affinity_required": 22,
       "int_required": 31,
-      "damage_dice": "16d8",
+      "damage_dice": "10d8",
       "damage_type": "miasma",
       "save": "con",
       "attack_roll": false,
       "aoe_radius": 30,
       "concentration": true,
       "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x2",
-      "description": "Create a catastrophic death-fog. Creatures in the area must make a Constitution save. On fail, take 16d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 3 turns, and Necrosis x2. Creatures already suffering Diseased or Poisoned instead gain Necrosis x3. The zone persists for 3 turns. Concentration.",
+      "description": "Create a catastrophic death-fog. Creatures in the area must make a Constitution save. On fail, take 10d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 3 turns, and Necrosis x2. Creatures already suffering Diseased or Poisoned instead gain Necrosis x3. The zone persists for 3 turns. Concentration.",
       "upcast_rule": "x2, +5d8 damage and +1 Necrosis stack",
       "range": 150
     }
   ],
   "Mirage": [
+    {
+      "name": "Mirror Image",
+      "mana": 9,
+      "affinity_required": 9,
+      "damage_type": "mirage",
+      "description": "Create 3 illusory duplicates that surround you for 3 turns. When a creature attacks you, roll a d4. On a 1, the attack hits you. On a 2-4, it destroys a duplicate instead. Each destroyed duplicate reduces the die size by 1 (1-2 will hit you then 1-3 will hit you, etc).",
+      "aoe_self": true
+    },
     {
       "name": "Mirage",
       "mana": 16,
@@ -1639,14 +1660,6 @@
       "description": "Create 3 duplicates and become the center of a shifting illusion for 3 turns. Until the spell ends, the first time each turn you would be hit, roll d4; on 2\u20134, the hit instead destroys a duplicate or misses entirely if none remain. While any duplicate remains, your spell attacks gain +2 Accuracy. Concentration.",
       "upcast_rule": "x2, create +1 duplicate (max 5)",
       "aoe_self": true
-    },
-    {
-      "name": "Mirror Image",
-      "mana": 9,
-      "affinity_required": 9,
-      "damage_type": "mirage",
-      "description": "Create 3 illusory duplicates that surround you for 3 turns. When a creature attacks you, roll a d4. On a 1, the attack hits you. On a 2-4, it destroys a duplicate instead. Each destroyed duplicate reduces the die size by 1 (1-2 will hit you then 1-3 will hit you, etc).",
-      "aoe_self": true
     }
   ],
   "Mud": [
@@ -1703,7 +1716,8 @@
       "extra_effect": "Prone+Slowed",
       "description": "Choose a creature standing on the ground. It must make a Strength save or be dragged half-submerged into the mud, taking 8d6 Mud damage, becoming Prone, and being unable to stand until it escapes with a Strength check vs your Spell Save DC. At the start of each of its turns while trapped, it gains Slowed again.",
       "upcast_to": "Swallowing Fen",
-      "range": 90
+      "range": 90,
+      "damage_dice": "8d6"
     },
     {
       "name": "Swallowing Fen",
@@ -1723,6 +1737,27 @@
   ],
   "Necrotic": [
     {
+      "name": "Bane",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "necrotic",
+      "save": "cha",
+      "attack_roll": false,
+      "extra_effect": "Cursed",
+      "description": "Choose up to 2 creatures you can see within range. Each must make a Charisma save or become Cursed for 3 turns.",
+      "upcast_rule": "x2, affect 1 additional creature",
+      "range": 30
+    },
+    {
+      "name": "Leech Life",
+      "mana": 6,
+      "damage_dice": "2d6",
+      "damage_type": "necrotic",
+      "description": "Deal 2d6 Necrotic damage to a creature. One ally within 30 ft of the target heals for half the damage dealt.",
+      "upcast_rule": "x2, +2d6 damage and healing",
+      "range": "30 ft"
+    },
+    {
       "name": "Rotting Touch",
       "mana": 12,
       "affinity_required": 6,
@@ -1732,6 +1767,17 @@
       "description": "Casting this spell consumes an additional 1d4 Vitality. Make a spell attack. On hit, the target gains Bleeding and Diseased for 2 turns. If the target already has either condition, they instead gain 1 stack of Necrosis. If they already have any stacks of Necrosis they will gain two additional stacks instead.",
       "upcast_to": "Plague Grasp",
       "range": "Touch"
+    },
+    {
+      "name": "Desecrate",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_type": "necrotic",
+      "aoe_radius": 20,
+      "concentration": true,
+      "description": "Desecrate the ground for the duration. Necrotic and Corruption spells deal +2 dice of damage in the area. Radiant spells deal -2 dice (minimum of 0). Undead creatures gain +2 AC while inside. This spell requires Concentration.",
+      "upcast_rule": "x2, +10 ft radius",
+      "range": 60
     },
     {
       "name": "Plague Grasp",
@@ -1788,38 +1834,6 @@
       "description": "Casting this spell consumes an additional 1d6 Vitality. All creatures in the area must make a Con save. On fail they take 8d6 Necrotic damage and gain 3 stacks of Necrosis. For each existing negative condition on a creature, increase damage by +1d6 (+1 for each unique condition and +1 for each stack of Necrosis, necrosis from this instance of this spell will not add to the damage).",
       "upcast_rule": "x2, +3d6 damage and +2 Necrosis stack",
       "range": 90
-    },
-    {
-      "name": "Bane",
-      "mana": 6,
-      "affinity_required": 4,
-      "damage_type": "necrotic",
-      "save": "cha",
-      "attack_roll": false,
-      "extra_effect": "Cursed",
-      "description": "Choose up to 2 creatures you can see within range. Each must make a Charisma save or become Cursed for 3 turns.",
-      "upcast_rule": "x2, affect 1 additional creature",
-      "range": 30
-    },
-    {
-      "name": "Desecrate",
-      "mana": 12,
-      "affinity_required": 11,
-      "damage_type": "necrotic",
-      "aoe_radius": 20,
-      "concentration": true,
-      "description": "Desecrate the ground for the duration. Necrotic and Corruption spells deal +2 dice of damage in the area. Radiant spells deal -2 dice (minimum of 0). Undead creatures gain +2 AC while inside. This spell requires Concentration.",
-      "upcast_rule": "x2, +10 ft radius",
-      "range": 60
-    },
-    {
-      "name": "Leech Life",
-      "mana": 6,
-      "damage_dice": "2d6",
-      "damage_type": "necrotic",
-      "description": "Deal 2d6 Necrotic damage to a creature. One ally within 30 ft of the target heals for half the damage dealt.",
-      "upcast_rule": "x2, +2d6 damage and healing",
-      "range": "30 ft"
     }
   ],
   "Nova": [
@@ -1913,6 +1927,22 @@
       "aoe_self": true
     },
     {
+      "name": "Obsidian Spray",
+      "mana": 12,
+      "affinity_required": 9,
+      "damage_dice": "5d8",
+      "damage_type": "obsidian",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_cone": true,
+      "aoe_radius": 30,
+      "extra_effect": "Pierced",
+      "save_half": true,
+      "description": "Spray a cone of razor-sharp obsidian shards. Creatures in the cone must make a Dex save. On fail, they take 5d8 Obsidian damage and gain Pierced. On success, they take half damage.",
+      "upcast_rule": "x2, +3d8 damage",
+      "range": "30 ft cone"
+    },
+    {
       "name": "Glass Carapace",
       "mana": 19,
       "affinity_required": 11,
@@ -1962,22 +1992,6 @@
       "upcast_rule": "x2, +1 monolith or +4d8 burst damage",
       "range": 90,
       "aoe_radius": 15
-    },
-    {
-      "name": "Obsidian Spray",
-      "mana": 12,
-      "affinity_required": 9,
-      "damage_dice": "5d8",
-      "damage_type": "obsidian",
-      "save": "dex",
-      "attack_roll": false,
-      "aoe_cone": true,
-      "aoe_radius": 30,
-      "extra_effect": "Pierced",
-      "save_half": true,
-      "description": "Spray a cone of razor-sharp obsidian shards. Creatures in the cone must make a Dex save. On fail, they take 5d8 Obsidian damage and gain Pierced. On success, they take half damage.",
-      "upcast_rule": "x2, +3d8 damage",
-      "range": "30 ft cone"
     }
   ],
   "Poison": [
@@ -2061,6 +2075,16 @@
   ],
   "Psychic": [
     {
+      "name": "Steady Mind",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "psychic",
+      "extra_effect": "Frightened+Demoralized+Despair",
+      "description": "Remove Demoralized, Despair, and Frightened from a creature you can see.",
+      "upcast_rule": "x2, affect 1 additional creature",
+      "range": 30
+    },
+    {
       "name": "Mind Fog",
       "mana": 8,
       "affinity_required": 6,
@@ -2085,6 +2109,18 @@
       "description": "Target must make a Wis save. On fail take 2d8 + Psychic Affinity Psychic damage and gain the Frightened condition. If already Frightened, they are Stunned for 1 turn instead.",
       "upcast_to": "Mind Break",
       "range": 60
+    },
+    {
+      "name": "Scry",
+      "mana": 18,
+      "affinity_required": 11,
+      "damage_type": "psychic",
+      "save": "wis",
+      "save_half": true,
+      "attack_roll": false,
+      "description": "Observe a creature you know personally (have met, know by name) from afar for 5 minutes. You see through its eyes and hear through its ears. The target makes a Wis save; on a success, it senses it is being watched but cannot identify you. On a failure, it is unaware.",
+      "upcast_rule": "x2, +5 minutes",
+      "range": "Unlimited"
     },
     {
       "name": "Mind Break",
@@ -2130,28 +2166,6 @@
       "description": "Creatures must make an Int save. On fail take 8d8 + Psychic Affinity Psychic damage and gain the Despair condition, if they already have Despair they instead take an additional 2d10 Psychic damage and are stunned for one turn. All creatures who fail their save by more than 3 also gain the Psychic Drain condition for 3 turns.",
       "upcast_rule": "x2, +2d6 damage, Psychic Drain loses an additional 20% of target's maximum Vitality up to 80%",
       "range": 90
-    },
-    {
-      "name": "Steady Mind",
-      "mana": 6,
-      "affinity_required": 4,
-      "damage_type": "psychic",
-      "extra_effect": "Frightened+Demoralized+Despair",
-      "description": "Remove Demoralized, Despair, and Frightened from a creature you can see.",
-      "upcast_rule": "x2, affect 1 additional creature",
-      "range": 30
-    },
-    {
-      "name": "Scry",
-      "mana": 18,
-      "affinity_required": 11,
-      "damage_type": "psychic",
-      "save": "wis",
-      "save_half": true,
-      "attack_roll": false,
-      "description": "Observe a creature you know personally (have met, know by name) from afar for 5 minutes. You see through its eyes and hear through its ears. The target makes a Wis save; on a success, it senses it is being watched but cannot identify you. On a failure, it is unaware.",
-      "upcast_rule": "x2, +5 minutes",
-      "range": "Unlimited"
     }
   ],
   "Quake": [
@@ -2168,6 +2182,18 @@
       "extra_effect": "Prone",
       "description": "The ground shakes violently. Creatures within 50 ft must make a Strength save or fall Prone and take 4d8 Quake damage. Structures take double damage.",
       "upcast_to": "Faultline"
+    },
+    {
+      "name": "Fossilize",
+      "mana": 18,
+      "affinity_required": 13,
+      "damage_type": "quake",
+      "save": "con",
+      "attack_roll": false,
+      "extra_effect": "Petrified+Slowed",
+      "description": "Choose a creature which is at least one size smaller than you. It must make a Con save (DC 10 + Quake Affinity). On fail, it becomes Petrified for 2 turns. On success, it is Slowed for 1 turn instead.",
+      "upcast_rule": "x2, +1 turns duration",
+      "range": 60
     },
     {
       "name": "Faultline (Quake)",
@@ -2228,21 +2254,28 @@
       "extra_effect": "Prone",
       "description": "An overwhelming seismic event erupts around you. Creatures in range must make a Strength save. On fail, take 16d8 Quake damage, fall Prone, and all ground in the area becomes shattered, unstable terrain for 3 turns. Structures take double damage throughout.",
       "upcast_rule": "x2, +4d8 damage and +10 ft radius"
-    },
-    {
-      "name": "Fossilize",
-      "mana": 18,
-      "affinity_required": 13,
-      "damage_type": "quake",
-      "save": "con",
-      "attack_roll": false,
-      "extra_effect": "Petrified+Slowed",
-      "description": "Choose a creature which is at least one size smaller than you. It must make a Con save (DC 10 + Quake Affinity). On fail, it becomes Petrified for 2 turns. On success, it is Slowed for 1 turn instead.",
-      "upcast_rule": "x2, +1 turns duration",
-      "range": 60
     }
   ],
   "Radiant": [
+    {
+      "name": "Manaskin",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "radiant",
+      "description": "Touch a creature. It gains Resistance to Elemental Damage for 3 turns.",
+      "upcast_rule": "x2, increase duration by 2 turns",
+      "range": "Touch"
+    },
+    {
+      "name": "Bless",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "radiant",
+      "extra_effect": "Blessed",
+      "description": "Choose up to 2 creatures you can see within range. They gain the Blessed condition for 3 turns.",
+      "upcast_rule": "x2, affect 1 additional creature",
+      "range": 30
+    },
     {
       "name": "Radiant Pulse",
       "mana": 8,
@@ -2271,6 +2304,30 @@
       "save_half": true,
       "description": "A wave of radiant energy expands outward. All creatures must make a Con save. On fail take 3d6 Radiant damage and become Blinded for 1 turn. Allies instead heal 1d6 Vitality. If the target is of the Evil Alignment they take an additional 10 Radiant damage. If the target is of a Good Alignment they take half damage.",
       "upcast_to": "Solar Lance"
+    },
+    {
+      "name": "Consecrate",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_type": "radiant",
+      "aoe_radius": 20,
+      "concentration": true,
+      "description": "Consecrate the ground for the duration. Radiant spells deal +2 dice of damage in the area. Necrotic and Corruption spells deal -2 dice (minimum of 0). Undead creatures have Disadvantage on all rolls while inside. This spell requires Concentration.",
+      "upcast_rule": "x2, +10 ft radius",
+      "range": 60
+    },
+    {
+      "name": "Spirit Guardians",
+      "mana": 18,
+      "affinity_required": 11,
+      "damage_dice": "3d8",
+      "damage_type": "radiant",
+      "aoe_radius": 15,
+      "aoe_self": true,
+      "concentration": true,
+      "extra_effect": "Slowed",
+      "description": "Spectral guardians circle you for 3 turns. An enemy entering the aura for the first time on a turn takes 3d8 Radiant damage and becomes Slowed for 1 turn. If it tries to leave the aura, it takes 3d8 Radiant damage again. This spell requires Concentration.",
+      "upcast_rule": "x2, +2d8 damage and +5 ft radius"
     },
     {
       "name": "Solar Lance (Radiant)",
@@ -2306,6 +2363,15 @@
       "range": 60
     },
     {
+      "name": "Resurrection",
+      "mana": 41,
+      "affinity_required": 11,
+      "damage_type": "radiant",
+      "description": "Touch a creature that has been dead for less than 10 minutes. It returns to life with 1 HP.",
+      "upcast_rule": "x2, increase the maximum time since death by 10 minutes per upcast, to a maximum of 48 hours",
+      "range": "Touch"
+    },
+    {
       "name": "Ascension Nova",
       "mana": 59,
       "affinity_required": 16,
@@ -2320,61 +2386,22 @@
       "description": "A blinding explosion of divine energy. Creatures must make a Con save. On fail take 8d6 Radiant damage, are Blinded, and cannot have advantage for 2 turns. Allies in the area heal 2d6 Vitality and 1d6 Health. If the target is of the Evil Alignment they take an additional 25 Radiant damage. If the target is of a Good Alignment they take half damage.",
       "upcast_rule": "x2, +3d6 damage +25 damage to Evil Alignment",
       "range": 90
-    },
-    {
-      "name": "Manaskin",
-      "mana": 6,
-      "affinity_required": 4,
-      "damage_type": "radiant",
-      "description": "Touch a creature. It gains Resistance to Elemental Damage for 3 turns.",
-      "upcast_rule": "x2, increase duration by 2 turns",
-      "range": "Touch"
-    },
-    {
-      "name": "Bless",
-      "mana": 6,
-      "affinity_required": 4,
-      "damage_type": "radiant",
-      "extra_effect": "Blessed",
-      "description": "Choose up to 2 creatures you can see within range. They gain the Blessed condition for 3 turns.",
-      "upcast_rule": "x2, affect 1 additional creature",
-      "range": 30
-    },
-    {
-      "name": "Consecrate",
-      "mana": 12,
-      "affinity_required": 11,
-      "damage_type": "radiant",
-      "aoe_radius": 20,
-      "concentration": true,
-      "description": "Consecrate the ground for the duration. Radiant spells deal +2 dice of damage in the area. Necrotic and Corruption spells deal -2 dice (minimum of 0). Undead creatures have Disadvantage on all rolls while inside. This spell requires Concentration.",
-      "upcast_rule": "x2, +10 ft radius",
-      "range": 60
-    },
-    {
-      "name": "Spirit Guardians",
-      "mana": 18,
-      "affinity_required": 11,
-      "damage_dice": "3d8",
-      "damage_type": "radiant",
-      "aoe_radius": 15,
-      "aoe_self": true,
-      "concentration": true,
-      "extra_effect": "Slowed",
-      "description": "Spectral guardians circle you for 3 turns. An enemy entering the aura for the first time on a turn takes 3d8 Radiant damage and becomes Slowed for 1 turn. If it tries to leave the aura, it takes 3d8 Radiant damage again. This spell requires Concentration.",
-      "upcast_rule": "x2, +2d8 damage and +5 ft radius"
-    },
-    {
-      "name": "Resurrection",
-      "mana": 41,
-      "affinity_required": 11,
-      "damage_type": "radiant",
-      "description": "Touch a creature that has been dead for less than 10 minutes. It returns to life with 1 HP.",
-      "upcast_rule": "x2, increase the maximum time since death by 10 minutes per upcast, to a maximum of 48 hours",
-      "range": "Touch"
     }
   ],
   "Shatter": [
+    {
+      "name": "Dissonant Whispers",
+      "mana": 9,
+      "affinity_required": 7,
+      "damage_dice": "4d8",
+      "damage_type": "shatter",
+      "save": "wis",
+      "attack_roll": false,
+      "save_half": true,
+      "description": "Choose a creature. It must make a Wis save. On fail, it takes 4d8 Shatter damage. On success, it takes half damage.",
+      "upcast_rule": "x2, +2d8 damage",
+      "range": 60
+    },
     {
       "name": "Shatter Mind",
       "mana": 24,
@@ -2399,6 +2426,16 @@
       "attack_roll": true,
       "description": "Make a spell attack. On hit, deal 9d8 Shatter damage and split the target\u2019s focus: it must choose on its next turn to either move or take a Bonus Action, but not both.",
       "upcast_to": "Splinter Will",
+      "range": 60
+    },
+    {
+      "name": "Power Word: Pain",
+      "mana": 45,
+      "affinity_required": 17,
+      "damage_type": "shatter",
+      "extra_effect": "Stunned",
+      "description": "Choose a creature with 100 HP or fewer. It is wracked with excruciating pain. It is Stunned for 1 turn and its max HP is reduced by 20 until a Long Rest. This effect cannot kill the creature, if it's health would be reduced below 5 it is reduced to 5 instead.",
+      "upcast_rule": "x2, HP reduction +20",
       "range": 60
     },
     {
@@ -2441,29 +2478,6 @@
       "description": "Choose a creature. It must make an Int save. On fail, take 18d8 Shatter damage, become Demoralized for 3 turns, lose 1 Ap and 1 Rp next turn, and cannot benefit from morale, inspiration, or courage-style effects until the end of your next turn.",
       "upcast_rule": "x2, +5d8 damage and +1 Ap loss step once only",
       "range": 150
-    },
-    {
-      "name": "Dissonant Whispers",
-      "mana": 9,
-      "affinity_required": 7,
-      "damage_dice": "4d8",
-      "damage_type": "shatter",
-      "save": "wis",
-      "attack_roll": false,
-      "save_half": true,
-      "description": "Choose a creature. It must make a Wis save. On fail, it takes 4d8 Shatter damage. On success, it takes half damage.",
-      "upcast_rule": "x2, +2d8 damage",
-      "range": 60
-    },
-    {
-      "name": "Power Word: Pain",
-      "mana": 45,
-      "affinity_required": 17,
-      "damage_type": "shatter",
-      "extra_effect": "Stunned",
-      "description": "Choose a creature with 100 HP or fewer. It is wracked with excruciating pain. It is Stunned for 1 turn and its max HP is reduced by 20 until a Long Rest. This effect cannot kill the creature, if it's health would be reduced below 5 it is reduced to 5 instead.",
-      "upcast_rule": "x2, HP reduction +20",
-      "range": 60
     }
   ],
   "Solar": [
@@ -2501,22 +2515,6 @@
       "range": 90
     },
     {
-      "name": "Solar Collapse",
-      "mana": 39,
-      "affinity_required": 11,
-      "int_required": 19,
-      "damage_dice": "8d10",
-      "damage_type": "solar",
-      "save": "con",
-      "save_half": true,
-      "attack_roll": false,
-      "aoe_radius": 20,
-      "extra_effect": "Blinded",
-      "description": "Choose a point. A sphere of condensed sunlight collapses inward before exploding outward. Creatures must make a Constitution save. On a failure, they take 8d10 Solar damage, become Blinded for 2 turns, and have their Perception-based checks automatically fail while blinded this way. Creatures relying on sight for abilities cannot use those abilities. On a success, they take half damage and are not Blinded.",
-      "upcast_to": "Solar Judgment",
-      "range": 120
-    },
-    {
       "name": "Solar Lance (Solar)",
       "mana": 23,
       "affinity_required": 9,
@@ -2531,6 +2529,22 @@
       "description": "The beam intensifies into a wider, sustained blast. Creatures must make a Dexterity save. On a failure, they take 5d10 Solar damage, become Blinded for 2 turns, and cannot benefit from advantage or invisibility effects during that time. Undead automatically fail the Blind effect portion of the save. On a success, they take half damage.",
       "upcast_to": "Solar Collapse",
       "range": 90
+    },
+    {
+      "name": "Solar Collapse",
+      "mana": 39,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "8d10",
+      "damage_type": "solar",
+      "save": "con",
+      "save_half": true,
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Blinded",
+      "description": "Choose a point. A sphere of condensed sunlight collapses inward before exploding outward. Creatures must make a Constitution save. On a failure, they take 8d10 Solar damage, become Blinded for 2 turns, and have their Perception-based checks automatically fail while blinded this way. Creatures relying on sight for abilities cannot use those abilities. On a success, they take half damage and are not Blinded.",
+      "upcast_to": "Solar Judgment",
+      "range": 120
     },
     {
       "name": "Solar Collapse",
@@ -2804,7 +2818,20 @@
       "concentration": true,
       "description": "Summon a storm. As a Bonus Action each turn for 1 minute, call down a lightning bolt that counts as a spell attack against a creature you can see, dealing 3d10 Lightning damage on hit. Concentration.",
       "upcast_to": "Galefront",
-      "range": 240
+      "range": 240,
+      "damage_dice": "3d10"
+    },
+    {
+      "name": "Tempest Strike",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "4d8",
+      "damage_type": "storm",
+      "attack_roll": true,
+      "extra_effect": "Soaked+Storm Shocked+Shocked",
+      "description": "Make a spell attack. On hit, deal 4d8 Storm damage and the target gains Soaked and Storm Shocked.",
+      "upcast_rule": "x2, +3d8 damage",
+      "range": 60
     },
     {
       "name": "Galefront",
@@ -2859,21 +2886,23 @@
       "description": "Choose a 60 ft radius zone. For 3 turns, at the start of each of your turns choose up to three storm effects in the zone: lightning strike, gale line, rain collapse, or thunder boom. Creatures can be hit by multiple different effects in the same turn. Concentration.",
       "upcast_rule": "x2, one additional storm effect choice per turn",
       "range": 360
-    },
-    {
-      "name": "Tempest Strike",
-      "mana": 12,
-      "affinity_required": 11,
-      "damage_dice": "4d8",
-      "damage_type": "storm",
-      "attack_roll": true,
-      "extra_effect": "Soaked+Storm Shocked+Shocked",
-      "description": "Make a spell attack. On hit, deal 4d8 Storm damage and the target gains Soaked and Storm Shocked.",
-      "upcast_rule": "x2, +3d8 damage",
-      "range": 60
     }
   ],
   "Thunder": [
+    {
+      "name": "Howling Gale",
+      "mana": 11,
+      "affinity_required": 9,
+      "damage_dice": "3d8",
+      "damage_type": "thunder",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "save_half": true,
+      "description": "A concussive blast erupts from you. Creatures in the area must make a Con save. On fail, they take 3d8 Thunder damage and lose their Reaction until the end of their next turn. On success, they take half damage.",
+      "upcast_rule": "x2, +2d8 damage",
+      "aoe_self": true
+    },
     {
       "name": "Thunderclap",
       "mana": 13,
@@ -2943,20 +2972,6 @@
       "description": "Choose a creature you can see. It must make a Con save. On fail, take 12d8 Thunder damage, gain Deafened for 3 turns, and lose the ability to cast spells with verbal or sound-dependent components during that time. On success, take half and gain Deafened for 1 turn.",
       "upcast_rule": "x2, +4d8 damage and +1 turn Deafened",
       "range": 150
-    },
-    {
-      "name": "Howling Gale",
-      "mana": 11,
-      "affinity_required": 9,
-      "damage_dice": "3d8",
-      "damage_type": "thunder",
-      "save": "con",
-      "attack_roll": false,
-      "aoe_radius": 20,
-      "save_half": true,
-      "description": "A concussive blast erupts from you. Creatures in the area must make a Con save. On fail, they take 3d8 Thunder damage and lose their Reaction until the end of their next turn. On success, they take half damage.",
-      "upcast_rule": "x2, +2d8 damage",
-      "aoe_self": true
     }
   ],
   "Torrent": [
@@ -3108,6 +3123,17 @@
   ],
   "Vacuum": [
     {
+      "name": "Gravity Lift",
+      "mana": 9,
+      "affinity_required": 11,
+      "damage_type": "vacuum",
+      "aoe_radius": 15,
+      "concentration": true,
+      "description": "Reduce gravity in the area. Creatures and loose objects float 20 ft upward, then drift down over 2 turns. Falling damage from this effect is negated. While ascending or descending, creatures have Disadvantage on melee attacks and cannot take Dash actions. This spell requires Concentration.",
+      "upcast_rule": "x2, +10 ft radius and float height becomes 40 ft",
+      "range": 60
+    },
+    {
       "name": "Pressure Spike",
       "mana": 10,
       "affinity_required": 11,
@@ -3177,20 +3203,31 @@
       "description": "A temporary singularity forms. Creatures must make a Con save. On fail take 12d8 Vacuum damage, gain Suffocating, and 5 stacks Hurting. All creatures are pulled to center and repeatedly collide for 5d6 Bludgeoning damage. Creatures remain Suffocating for 2 turns after leaving.",
       "upcast_rule": "x2, raise dice tier and +4d8 damage",
       "range": 150
-    },
-    {
-      "name": "Gravity Lift",
-      "mana": 9,
-      "affinity_required": 11,
-      "damage_type": "vacuum",
-      "aoe_radius": 15,
-      "concentration": true,
-      "description": "Reduce gravity in the area. Creatures and loose objects float 20 ft upward, then drift down over 2 turns. Falling damage from this effect is negated. While ascending or descending, creatures have Disadvantage on melee attacks and cannot take Dash actions. This spell requires Concentration.",
-      "upcast_rule": "x2, +10 ft radius and float height becomes 40 ft",
-      "range": 60
     }
   ],
   "Void": [
+    {
+      "name": "Void Dart",
+      "mana": 9,
+      "affinity_required": 9,
+      "damage_dice": "4d8",
+      "damage_type": "void",
+      "attack_roll": true,
+      "description": "Make a spell attack. On hit, deal 4d8 Void damage and remove 1 random positive temporary effect from the target. If no effect is removed, deal +2d8 Void damage instead.",
+      "upcast_rule": "x2, +2d8 damage and remove 1 additional effect",
+      "range": 60
+    },
+    {
+      "name": "Mana Drain",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "4d8",
+      "damage_type": "void",
+      "attack_roll": true,
+      "description": "Make a spell attack. On hit, the target loses 4d6 Mana. You regain half the mana drained. If the target has no mana, it instead takes 4d8 Void damage.",
+      "upcast_rule": "x2, +2d6 mana drained",
+      "range": 60
+    },
     {
       "name": "Void Slash",
       "mana": 16,
@@ -3213,6 +3250,17 @@
       "description": "Make a spell attack. On hit, deal 10d8 Void damage and the target loses one active magical effect of your choice that is currently on it, if any. If no such effect exists, deal +4d8 damage instead.",
       "upcast_to": "Hollow Corridor",
       "range": 60
+    },
+    {
+      "name": "Anti-Magic Zone",
+      "mana": 30,
+      "affinity_required": 17,
+      "damage_type": "void",
+      "aoe_radius": 30,
+      "aoe_self": true,
+      "concentration": true,
+      "description": "All magic is suppressed in the area for 2 turns. Spells cannot be cast, active magical effects are suppressed, magic items cease functioning, and concentration is broken. Creatures cannot teleport into or out of the zone.",
+      "upcast_rule": "x2, +1 turn duration and +10 ft radius"
     },
     {
       "name": "Hollow Corridor",
@@ -3251,39 +3299,6 @@
       "description": "Make a melee spell attack. On hit, deal 18d8 Void damage. If this reduces the target to 0 Health or destroys an object, it is erased beyond normal recovery methods short of the highest restoration effects. Even on survival, the wound cannot be naturally healed until after a Long Rest.",
       "upcast_rule": "x2, +6d8 damage",
       "range": "Touch"
-    },
-    {
-      "name": "Void Dart",
-      "mana": 9,
-      "affinity_required": 9,
-      "damage_dice": "4d8",
-      "damage_type": "void",
-      "attack_roll": true,
-      "description": "Make a spell attack. On hit, deal 4d8 Void damage and remove 1 random positive temporary effect from the target. If no effect is removed, deal +2d8 Void damage instead.",
-      "upcast_rule": "x2, +2d8 damage and remove 1 additional effect",
-      "range": 60
-    },
-    {
-      "name": "Mana Drain",
-      "mana": 12,
-      "affinity_required": 11,
-      "damage_dice": "4d8",
-      "damage_type": "void",
-      "attack_roll": true,
-      "description": "Make a spell attack. On hit, the target loses 4d6 Mana. You regain half the mana drained. If the target has no mana, it instead takes 4d8 Void damage.",
-      "upcast_rule": "x2, +2d6 mana drained",
-      "range": 60
-    },
-    {
-      "name": "Anti-Magic Zone",
-      "mana": 30,
-      "affinity_required": 17,
-      "damage_type": "void",
-      "aoe_radius": 30,
-      "aoe_self": true,
-      "concentration": true,
-      "description": "All magic is suppressed in the area for 2 turns. Spells cannot be cast, active magical effects are suppressed, magic items cease functioning, and concentration is broken. Creatures cannot teleport into or out of the zone.",
-      "upcast_rule": "x2, +1 turn duration and +10 ft radius"
     }
   ],
   "Warp": [
@@ -3295,6 +3310,16 @@
       "description": "Teleport up to 30 ft to an unoccupied space. You may bring one willing creature touching you.",
       "upcast_to": "Warp Slice",
       "aoe_self": true
+    },
+    {
+      "name": "Phase Step",
+      "mana": 12,
+      "affinity_required": 9,
+      "damage_type": "warp",
+      "attack_roll": true,
+      "description": "Teleport to an unoccupied space you can see. You have Advantage on the first spell attack or weapon attack you make before the end of this turn.",
+      "upcast_rule": "x2 +30 ft range",
+      "range": 60
     },
     {
       "name": "Warp Slice",
@@ -3344,20 +3369,21 @@
       "extra_effect": "Prone",
       "description": "Create a gate under a creature you can see. It must make a Dexterity save. On fail, it is dropped through space and reappears in a point you choose within 60 ft, taking 12d8 Warp damage and falling Prone. If reappearing adjacent to a hazard, cliff, or effect, it resolves normally.",
       "upcast_rule": "x2, +4d8 damage and +20 ft relocation distance",
-      "range": 150
-    },
-    {
-      "name": "Phase Step",
-      "mana": 12,
-      "affinity_required": 9,
-      "damage_type": "warp",
-      "attack_roll": true,
-      "description": "Teleport to an unoccupied space you can see. You have Advantage on the first spell attack or weapon attack you make before the end of this turn.",
-      "upcast_rule": "x2 +30 ft range",
-      "range": 60
+      "range": 150,
+      "damage_dice": "12d8"
     }
   ],
   "Water": [
+    {
+      "name": "Quench",
+      "mana": 5,
+      "damage_type": "water",
+      "aoe_radius": 15,
+      "extra_effect": "On Fire+Soaked",
+      "description": "Remove the On Fire condition from a creature you can see. If the target is Soaked, end On Fire from all creatures in a 15 ft radius.",
+      "upcast_rule": "x2, affect all creatures in 15 ft radius burst",
+      "range": 60
+    },
     {
       "name": "Jetstream",
       "mana": 6,
@@ -3372,6 +3398,35 @@
       "extra_effect": "Soaked",
       "description": "You fire a concentrated stream of water in a 10 ft line. All creatures in that line must make a Dexterity save. On a failure they take 1d6 Water damage, are pushed to the end of the line, and if they collide with a creature or object all involved creatures take 1d4 Bludgeoning damage. Any creature hit gains the Soaked condition weather they pass or fail the check.",
       "upcast_to": "Riptide"
+    },
+    {
+      "name": "Waterskin",
+      "mana": 6,
+      "affinity_required": 4,
+      "damage_type": "water",
+      "description": "Touch a creature. It gains Resistance to Magical Damage for 3 turns.",
+      "upcast_rule": "x2, increase duration by 2 turns",
+      "range": "Touch"
+    },
+    {
+      "name": "Cleansing Waters",
+      "mana": 8,
+      "affinity_required": 4,
+      "damage_type": "water",
+      "extra_effect": "Poisoned+Diseased+Corrupt",
+      "description": "Remove Poisoned, Diseased, and Corrupt from a creature you can see.",
+      "upcast_rule": "x2, also remove Withered and Plagued",
+      "range": 30
+    },
+    {
+      "name": "Cleanse",
+      "mana": 9,
+      "affinity_required": 3,
+      "damage_type": "water",
+      "extra_effect": "On Fire+Soaked+Burned+Poisoned+Diseased+Corrupt+Necrosis",
+      "description": "Touch a creature and remove one of the following conditions: On Fire, Burned, Soaked. After 1 upcast, this spell may also remove Poisoned, Diseased, Corrupt, or Necrosis.",
+      "upcast_rule": "x2, affect 1 additional creature",
+      "range": 10
     },
     {
       "name": "Riptide",
@@ -3437,45 +3492,6 @@
       "description": "Choose a point you can see within range. A massive rotating basin of water forms in a 30 ft radius for 3 turns. When it appears, creatures in the area must make a Strength save. On a failure they take 5d6 Water damage and are pulled **15 ft** toward the center. Any creature that ends its turn in the area takes 2d6 Water damage and must repeat the save. The area is Difficult Terrain while the spell lasts. Any creature hit gains the Soaked condition weather they pass or fail the check. This spell requires Concentration.",
       "upcast_rule": "x2, +2d6 initial damage and +1d6 end-of-turn damage",
       "range": 90
-    },
-    {
-      "name": "Quench",
-      "mana": 5,
-      "damage_type": "water",
-      "aoe_radius": 15,
-      "extra_effect": "On Fire+Soaked",
-      "description": "Remove the On Fire condition from a creature you can see. If the target is Soaked, end On Fire from all creatures in a 15 ft radius.",
-      "upcast_rule": "x2, affect all creatures in 15 ft radius burst",
-      "range": 60
-    },
-    {
-      "name": "Waterskin",
-      "mana": 6,
-      "affinity_required": 4,
-      "damage_type": "water",
-      "description": "Touch a creature. It gains Resistance to Magical Damage for 3 turns.",
-      "upcast_rule": "x2, increase duration by 2 turns",
-      "range": "Touch"
-    },
-    {
-      "name": "Cleansing Waters",
-      "mana": 8,
-      "affinity_required": 4,
-      "damage_type": "water",
-      "extra_effect": "Poisoned+Diseased+Corrupt",
-      "description": "Remove Poisoned, Diseased, and Corrupt from a creature you can see.",
-      "upcast_rule": "x2, also remove Withered and Plagued",
-      "range": 30
-    },
-    {
-      "name": "Cleanse",
-      "mana": 9,
-      "affinity_required": 3,
-      "damage_type": "water",
-      "extra_effect": "On Fire+Soaked+Burned+Poisoned+Diseased+Corrupt+Necrosis",
-      "description": "Touch a creature and remove one of the following conditions: On Fire, Burned, Soaked. After 1 upcast, this spell may also remove Poisoned, Diseased, Corrupt, or Necrosis.",
-      "upcast_rule": "x2, affect 1 additional creature",
-      "range": 10
     }
   ],
   "Generic": [
@@ -3490,6 +3506,9 @@
       "range_max": 60
     },
     {
+      "name": "Full Restore"
+    },
+    {
       "name": "Mana Bolt",
       "mana": 5,
       "affinity_required": 6,
@@ -3499,6 +3518,159 @@
       "upcast_to": "Mana Bomb",
       "range": 90,
       "range_max": 120
+    },
+    {
+      "name": "Heal",
+      "mana": 5,
+      "description": "Heal a creature you touch 1d6 + Generic Affinity Health",
+      "upcast_rule": "x2, +6 health",
+      "range": "Touch",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Revitalize",
+      "mana": 5,
+      "description": "Heal a creature you touch 1d8 + Generic Affinity Vitality",
+      "upcast_rule": "x2, +8 Vitality",
+      "range": "Touch",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Medicinal Heal",
+      "mana": 5,
+      "description": "Heal a creature you touch 1d6 + Medicine Score Health",
+      "upcast_rule": "x2, +6 health",
+      "range": "Touch",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Medicinal Revitalize",
+      "mana": 5,
+      "description": "Heal a creature you touch 1d8 + Medicine Score Vitality",
+      "upcast_rule": "x2, +8 Vitality",
+      "range": "Touch",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Restore Energy",
+      "mana": 6,
+      "description": "Touch a willing creature. It regains 1d8 + Wisdom Modifier Vitality.",
+      "upcast_rule": "x2, raise the healing die by one tier (max 1d20) and add +1d4 healing",
+      "range": "Touch"
+    },
+    {
+      "name": "Purify",
+      "mana": 6,
+      "extra_effect": "Suffocating+Bleeding+Pierced+Poisoned+Blinded+Cursed",
+      "description": "Remove one negative condition (Poisoned, Bleeding, Cursed, Blinded, Pierced, or Suffocating) from a creature you touch.",
+      "upcast_rule": "x2, +1 target",
+      "range": "Touch"
+    },
+    {
+      "name": "Revivify",
+      "mana": 9,
+      "description": "Instantly removes one level of exhaustion from the target.",
+      "upcast_rule": "x2 +1 additional level",
+      "range": "Touch"
+    },
+    {
+      "name": "Healing Burst",
+      "mana": 9,
+      "description": "Heal all creatures within range 1d4 + Generic Affinity Health",
+      "upcast_rule": "x2, +10 ft range",
+      "range": "15 ft",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Revitalization Burst",
+      "mana": 9,
+      "description": "Heal all creatures within range 1d6 + Generic Affinity Vitality",
+      "upcast_rule": "x2, +10 ft range",
+      "range": "15 ft",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Martyr's Bond",
+      "mana": 9,
+      "description": "Link yourself to one ally for 1 minute. Whenever that ally takes damage, you may choose to take that damage instead. If you do, you gain Resistance to that damage for that instance.",
+      "upcast_rule": "x2, +1 linked ally",
+      "range": "Touch"
+    },
+    {
+      "name": "Reactive Ward",
+      "mana": 10,
+      "description": "Place an invisible ward on a creature that lasts 1 minute. The next time it would take damage, it instead heals for 2d8 + Healer Level HP, then the ward ends.",
+      "upcast_rule": "x2, +1d8 healing, +1 instance of damage, x2 duration",
+      "range": "30 ft",
+      "extra_effect": "Invisible"
+    },
+    {
+      "name": "Cure Wounds",
+      "mana": 11,
+      "description": "Touch a willing creature. It regains 1d6 + Wisdom Modifier Health.",
+      "upcast_rule": "x2, raise the healing die by one tier (max 1d20) and add +1d4 healing",
+      "range": "Touch"
+    },
+    {
+      "name": "Blood Heal",
+      "mana": 11,
+      "description": "You may expend any number of Vitality or Hp, the targeted creature gains as much Vitality or Hp as you expend",
+      "upcast_rule": "x2, healing doubled (stacks)",
+      "range": "Touch"
+    },
+    {
+      "name": "Aura of Healing",
+      "mana": 11,
+      "concentration": true,
+      "description": "Heal all creatures within range 1d4 + Generic Affinity Health at the start of your turn. This spell requires concentration",
+      "upcast_rule": "x2, +10 ft range",
+      "range": "10 ft",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Aura of Revitalization",
+      "mana": 11,
+      "concentration": true,
+      "description": "Heal all creatures within range 1d6 + Generic Affinity Vitality at the start of your turn. This spell requires concentration",
+      "upcast_rule": "x2, +10 ft range",
+      "range": "10 ft",
+      "extra_effect": "Heal"
+    },
+    {
+      "name": "Cleansing Burst",
+      "mana": 11,
+      "save": "wis",
+      "attack_roll": false,
+      "aoe_radius": 15,
+      "aoe_self": true,
+      "extra_effect": "Purged+Blessed",
+      "description": "Burst of purifying energy. All allies in range remove one condition of their choice and gain the Blessed condition for 2 rounds. Each ally heals 1d4 HP per condition removed from them this way. Each enemy in range must roll a WIS save or gain the Purged condition.",
+      "upcast_rule": "x2, +5 ft radius"
+    },
+    {
+      "name": "Halo",
+      "mana": 11,
+      "concentration": true,
+      "description": "Requires Concentration. A halo appears above your head for the duration. During the duration your healing spells always heal for max and any creature you kill will be considered Evil Alignment regardless of if they actually were Evil unless they have more Karma than you.",
+      "extra_effect": "Heal",
+      "aoe_self": true
+    },
+    {
+      "name": "Share Burden",
+      "mana": 12,
+      "concentration": true,
+      "description": "Choose an ally you can see. 50% of all damage that ally takes is instead dealt to you. Physical damage is changed to its magical counterpart. You may end this early as a free action. This spell requires Concentration.",
+      "upcast_rule": "x2, redirect 25% more (max of 100%)",
+      "range": 60
+    },
+    {
+      "name": "Expose Weakness",
+      "mana": 14,
+      "save": "wis",
+      "attack_roll": false,
+      "description": "Choose a creature you can see within range. It must make a Wisdom save. On a failure, choose one damage type for which you have more than 10 Affinity; the target gains a Weakness to that damage type for 1 turn. A target cannot gain this weakness if it has more than 5 Affinity in that type or already has Resistance/Immunity to it.",
+      "upcast_rule": "x2, grant 1 additional chosen weakness type",
+      "range": 60
     },
     {
       "name": "Mana Bomb",
@@ -3521,74 +3693,14 @@
       "affinities_at_count": 3
     },
     {
-      "name": "Mana Explosion",
-      "mana": 20,
-      "extra_prereqs": {
-        "affinities_at": {
-          "11": 3
-        }
-      },
-      "damage_formula": "15+affinity_mod/2",
-      "save": "dex",
-      "save_half": true,
-      "attack_roll": false,
-      "description": "Choose an affinity type you have at least 10 in choose a 25 ft area within range that you can see, that area explodes with magic dealing 15 + (Affinity Mod / 2) damage to all creatures in the area who fail a Dex Save, on a success they take half.",
-      "upcast_to": "Mana Decimation",
-      "range": 60,
-      "affinity_required": 11,
-      "affinities_at_required": 11,
-      "affinities_at_count": 3
-    },
-    {
-      "name": "Mana Decimation",
-      "mana": 30,
-      "int_required": 21,
-      "extra_prereqs": {
-        "affinities_at": {
-          "16": 4
-        }
-      },
-      "damage_formula": "30+affinity_mod",
-      "save": "dex",
-      "save_half": true,
-      "attack_roll": false,
-      "description": "Choose an affinity type you have at least 15 in choose a 25 ft area within range that you can see, that area explodes with magic dealing 30 + Affinity Mod damage to all creatures in the area who fail a Dex Save, on a success they take half.",
-      "upcast_rule": "x2, +30 damage",
-      "range": 60,
-      "affinity_required": 16,
-      "affinities_at_required": 16,
-      "affinities_at_count": 4
-    },
-    {
-      "name": "Restore Energy",
-      "mana": 6,
-      "description": "Touch a willing creature. It regains 1d8 + Wisdom Modifier Vitality.",
-      "upcast_rule": "x2, raise the healing die by one tier (max 1d20) and add +1d4 healing",
-      "range": "Touch"
-    },
-    {
-      "name": "Cure Wounds",
-      "mana": 11,
-      "description": "Touch a willing creature. It regains 1d6 + Wisdom Modifier Health.",
-      "upcast_rule": "x2, raise the healing die by one tier (max 1d20) and add +1d4 healing",
-      "range": "Touch"
-    },
-    {
-      "name": "Share Burden",
-      "mana": 12,
+      "name": "Sanctuary",
+      "mana": 17,
+      "aoe_radius": 15,
       "concentration": true,
-      "description": "Choose an ally you can see. 50% of all damage that ally takes is instead dealt to you. Physical damage is changed to its magical counterpart. You may end this early as a free action. This spell requires Concentration.",
-      "upcast_rule": "x2, redirect 25% more (max of 100%)",
-      "range": 60
-    },
-    {
-      "name": "Expose Weakness",
-      "mana": 14,
-      "save": "wis",
-      "attack_roll": false,
-      "description": "Choose a creature you can see within range. It must make a Wisdom save. On a failure, choose one damage type for which you have more than 10 Affinity; the target gains a Weakness to that damage type for 1 turn. A target cannot gain this weakness if it has more than 5 Affinity in that type or already has Resistance/Immunity to it.",
-      "upcast_rule": "x2, grant 1 additional chosen weakness type",
-      "range": 60
+      "extra_effect": "Blessed+Heal",
+      "description": "Requires Concentration. Create a 15 ft radius zone. Allies inside cannot be targeted by hostile spells or attacks (area effects still affect them) and gain the Blessed condition (condition ends when you exit the Sanctuary). Allies inside heal 1d6 Vitality at the start of your turn.",
+      "upcast_rule": "x2, +10 ft radius",
+      "range": "30 ft (15 ft zone)"
     },
     {
       "name": "Restoration",
@@ -3631,91 +3743,23 @@
       "range": 60
     },
     {
-      "name": "Elemental Ward",
-      "mana": 27,
-      "description": "Touch a creature. Choose one damage type for which you have more than 10 Affinity. The target gains Resistance to that damage type for 1 minute.",
-      "upcast_rule": "x2, grant 1 additional chosen resistance type",
-      "range": "Touch"
-    },
-    {
-      "name": "Revivify",
-      "mana": 9,
-      "description": "Instantly removes one level of exhaustion from the target.",
-      "upcast_rule": "x2 +1 additional level",
-      "range": "Touch"
-    },
-    {
-      "name": "Heal",
-      "mana": 5,
-      "description": "Heal a creature you touch 1d6 + Generic Affinity Health",
-      "upcast_rule": "x2, +6 health",
-      "range": "Touch",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Revitalize",
-      "mana": 5,
-      "description": "Heal a creature you touch 1d8 + Generic Affinity Vitality",
-      "upcast_rule": "x2, +8 Vitality",
-      "range": "Touch",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Purify",
-      "mana": 6,
-      "extra_effect": "Suffocating+Bleeding+Pierced+Poisoned+Blinded+Cursed",
-      "description": "Remove one negative condition (Poisoned, Bleeding, Cursed, Blinded, Pierced, or Suffocating) from a creature you touch.",
-      "upcast_rule": "x2, +1 target",
-      "range": "Touch"
-    },
-    {
-      "name": "Medicinal Heal",
-      "mana": 5,
-      "description": "Heal a creature you touch 1d6 + Medicine Score Health",
-      "upcast_rule": "x2, +6 health",
-      "range": "Touch",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Medicinal Revitalize",
-      "mana": 5,
-      "description": "Heal a creature you touch 1d8 + Medicine Score Vitality",
-      "upcast_rule": "x2, +8 Vitality",
-      "range": "Touch",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Healing Burst",
-      "mana": 9,
-      "description": "Heal all creatures within range 1d4 + Generic Affinity Health",
-      "upcast_rule": "x2, +10 ft range",
-      "range": "15 ft",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Revitalization Burst",
-      "mana": 9,
-      "description": "Heal all creatures within range 1d6 + Generic Affinity Vitality",
-      "upcast_rule": "x2, +10 ft range",
-      "range": "15 ft",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Full Restore"
-    },
-    {
-      "name": "Blood Heal",
-      "mana": 11,
-      "description": "You may expend any number of Vitality or Hp, the targeted creature gains as much Vitality or Hp as you expend",
-      "upcast_rule": "x2, healing doubled (stacks)",
-      "range": "Touch"
-    },
-    {
-      "name": "Martyr's Bond",
-      "mana": 9,
-      "description": "Link yourself to one ally for 1 minute. Whenever that ally takes damage, you may choose to take that damage instead. If you do, you gain Resistance to that damage for that instance.",
-      "upcast_rule": "x2, +1 linked ally",
-      "range": "Touch"
+      "name": "Mana Explosion",
+      "mana": 20,
+      "extra_prereqs": {
+        "affinities_at": {
+          "11": 3
+        }
+      },
+      "damage_formula": "15+affinity_mod/2",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "description": "Choose an affinity type you have at least 10 in choose a 25 ft area within range that you can see, that area explodes with magic dealing 15 + (Affinity Mod / 2) damage to all creatures in the area who fail a Dex Save, on a success they take half.",
+      "upcast_to": "Mana Decimation",
+      "range": 60,
+      "affinity_required": 11,
+      "affinities_at_required": 11,
+      "affinities_at_count": 3
     },
     {
       "name": "Revive",
@@ -3725,59 +3769,11 @@
       "range": "Touch"
     },
     {
-      "name": "Aura of Healing",
-      "mana": 11,
-      "concentration": true,
-      "description": "Heal all creatures within range 1d4 + Generic Affinity Health at the start of your turn. This spell requires concentration",
-      "upcast_rule": "x2, +10 ft range",
-      "range": "10 ft",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Aura of Revitalization",
-      "mana": 11,
-      "concentration": true,
-      "description": "Heal all creatures within range 1d6 + Generic Affinity Vitality at the start of your turn. This spell requires concentration",
-      "upcast_rule": "x2, +10 ft range",
-      "range": "10 ft",
-      "extra_effect": "Heal"
-    },
-    {
-      "name": "Reactive Ward",
-      "mana": 10,
-      "description": "Place an invisible ward on a creature that lasts 1 minute. The next time it would take damage, it instead heals for 2d8 + Healer Level HP, then the ward ends.",
-      "upcast_rule": "x2, +1d8 healing, +1 instance of damage, x2 duration",
-      "range": "30 ft",
-      "extra_effect": "Invisible"
-    },
-    {
-      "name": "Cleansing Burst",
-      "mana": 11,
-      "save": "wis",
-      "attack_roll": false,
-      "aoe_radius": 15,
-      "aoe_self": true,
-      "extra_effect": "Purged+Blessed",
-      "description": "Burst of purifying energy. All allies in range remove one condition of their choice and gain the Blessed condition for 2 rounds. Each ally heals 1d4 HP per condition removed from them this way. Each enemy in range must roll a WIS save or gain the Purged condition.",
-      "upcast_rule": "x2, +5 ft radius"
-    },
-    {
-      "name": "Halo",
-      "mana": 11,
-      "concentration": true,
-      "description": "Requires Concentration. A halo appears above your head for the duration. During the duration your healing spells always heal for max and any creature you kill will be considered Evil Alignment regardless of if they actually were Evil unless they have more Karma than you.",
-      "extra_effect": "Heal",
-      "aoe_self": true
-    },
-    {
-      "name": "Sanctuary",
-      "mana": 17,
-      "aoe_radius": 15,
-      "concentration": true,
-      "extra_effect": "Blessed+Heal",
-      "description": "Requires Concentration. Create a 15 ft radius zone. Allies inside cannot be targeted by hostile spells or attacks (area effects still affect them) and gain the Blessed condition (condition ends when you exit the Sanctuary). Allies inside heal 1d6 Vitality at the start of your turn.",
-      "upcast_rule": "x2, +10 ft radius",
-      "range": "30 ft (15 ft zone)"
+      "name": "Elemental Ward",
+      "mana": 27,
+      "description": "Touch a creature. Choose one damage type for which you have more than 10 Affinity. The target gains Resistance to that damage type for 1 minute.",
+      "upcast_rule": "x2, grant 1 additional chosen resistance type",
+      "range": "Touch"
     },
     {
       "name": "Rebirth",
@@ -3786,6 +3782,26 @@
       "description": "Touch a creature that died within the last hour. It returns to life with full HP and Vitality, but gains 2 levels of Exhaustion. The creature will have the Blessed condition for 2 hours.",
       "upcast_rule": "x2, -1 level of Exhaustion (max of 0)",
       "range": "Touch"
+    },
+    {
+      "name": "Mana Decimation",
+      "mana": 30,
+      "int_required": 21,
+      "extra_prereqs": {
+        "affinities_at": {
+          "16": 4
+        }
+      },
+      "damage_formula": "30+affinity_mod",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "description": "Choose an affinity type you have at least 15 in choose a 25 ft area within range that you can see, that area explodes with magic dealing 30 + Affinity Mod damage to all creatures in the area who fail a Dex Save, on a success they take half.",
+      "upcast_rule": "x2, +30 damage",
+      "range": 60,
+      "affinity_required": 16,
+      "affinities_at_required": 16,
+      "affinities_at_count": 4
     }
   ]
 }
