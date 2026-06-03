@@ -95,6 +95,18 @@
           "melee_damage": 1,
           "repeatable": true
         }
+      },
+      "Mageslayer": {
+        "1": {"magic_save_bonus": 2},
+        "2": {},
+        "3": {"melee_damage": 2, "ranged_damage": 2},
+        "4": {},
+        "5": {"melee_damage": 3, "ranged_damage": 3},
+        "6": {},
+        "7": {"melee_damage": 4, "ranged_damage": 4},
+        "8": {},
+        "9": {"melee_damage": 5, "ranged_damage": 5},
+        "10": {}
       }
     }
   },

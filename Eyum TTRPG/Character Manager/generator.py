@@ -327,16 +327,15 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
     all_races = build_race_data(settings)
 
     is_worst = build_config.get('worst', False)
-    is_casual = build_name.lower().startswith('casual ')
     family_name = None
     subrace_name = None
-    if not is_worst and not is_casual and 'preferred_paths' in build_config and ('paths' not in build_config or not build_config.get('paths')):
+    if not is_worst and 'preferred_paths' in build_config and ('paths' not in build_config or not build_config.get('paths')):
         max_level = max(levels)
         dynamic_paths = select_archetypes(build_config, settings, max(levels))
         build_config['paths'] = dynamic_paths
 
     race_pickup = build_config.get('race', None)
-    if race_pickup and not is_worst and not is_casual:
+    if race_pickup and not is_worst:
         family_name, subrace_name = select_best_race(build_config, all_races)
         if family_name and subrace_name:
             race_data = all_races[family_name]['subraces'][subrace_name]
@@ -357,6 +356,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             char.primary_affinity = primary_aff
         char.has_physical = build_config.get('has_physical', False)
         char.has_magical = build_config.get('has_magical', False)
+        char.has_utility = any(p.get('path') == 'Utility' for p in build_config.get('paths', []))
         char.affinities = build_config.get('starting_affinities', {"Generic": 1}).copy()
         char.gear = gear_override if gear_override is not None else build_config.get('gear', {})
         weapon_name = char.gear.get('weapon', '')
@@ -366,7 +366,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         char.is_unarmed = build_config.get('unarmed_fighter', False) or char.gear.get('weapon', '') == 'none'
         char.tull_tier = 0
 
-        if race_pickup and not is_worst and not is_casual and family_name and subrace_name:
+        if race_pickup and not is_worst and family_name and subrace_name:
             race_data = all_races[family_name]['subraces'][subrace_name]
             race_bonuses = race_data.get('stat_bonuses', {})
             affinity_bonuses = race_data.get('affinity_bonuses', {})
@@ -380,16 +380,12 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             char.speed = race_data.get('speed', 30)
 
         apply_level_progression(char, level, settings)
-        if not is_worst and not is_casual:
+        if not is_worst:
             apply_paths(char, level, build_config, settings)
 
         if build_config.get('spend_stat_points') == 'all' and not build_config.get('worst', False):
             priority = build_config.get('stat_priority', ['str','dex','con','wis','int','cha'])
             total_pts = char.stat_points + settings['rules']['starting_points']['stat_points']
-
-            is_casual = build_name.lower().startswith('casual ')
-            if is_casual:
-                total_pts = total_pts * 2 // 5
 
             cost_table = settings['rules']['stat_point_cost']
 
@@ -424,10 +420,9 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
                 char.melee_damage += 2
                 char.melee_extra_info = "1d4 Bludgeoning (Fist)"
 
-        if not is_casual:
-            select_feats(char, level, settings)
+        select_feats(char, level, settings)
 
-        if not is_casual and not build_config.get('worst', False):
+        if not build_config.get('worst', False):
             affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
             spend_affinity_points(char, build_config.get('primary_affinity'), affinity_prereqs)
 

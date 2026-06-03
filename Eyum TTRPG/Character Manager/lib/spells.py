@@ -10,6 +10,55 @@ AFFINITY_DAMAGE_BONUS_ATTRS = {
     'Psychic': 'psychic_damage_bonus',
 }
 
+CONDITION_DMG = {
+    'Burned': (2.5, 2), 'Burn': (2.5, 2), 'On Fire': (3.5, 3),
+    'Bleeding': (2.5, 3), 'Bleed': (2.5, 3),
+    'Necrosis': (4.5, 3), 'Diseased': (3.5, 2),
+    'Shocked': (2.5, 2), 'Poisoned': (7.0, 3),
+    'Corrupt': (2.5, 3), 'Hurting': (1.0, 3),
+    'Suffocating': (3.5, 2), 'Frozen': (2.5, 2),
+    'Slow Death': (2.5, 3), 'Frostbitten': (2.5, 3),
+    'Hellfire': (4.5, 2), 'Radiation': (3.5, 3),
+    'Withered': (7.5, 2), 'Plagued': (6.0, 3),
+    'Eldritch Curse': (0, 2), 'Psychic Drain': (0, 2),
+    'Storm Shocked': (2.5, 2),
+    'Prone': (0, 2), 'Slowed': (0, 2), 'Stunned': (0, 2),
+    'Blinded': (0, 2), 'Mute': (0, 2), 'Deafened': (0, 2),
+    'Frightened': (0, 2), 'Demoralized': (0, 2), 'Despair': (0, 2),
+    'Enraged': (0, 2), 'Paralyzed': (0, 2), 'Petrified': (0, 2),
+    'Entangled': (0, 2), 'Restrained': (0, 2), 'Pinned': (0, 2),
+    'Blessed': (0, 2), 'Cursed': (0, 2), 'Soaked': (0, 2),
+    'Difficult Terrain': (0, 2), 'Pierced': (0, 2), 'Push': (0, 0),
+    'Pull': (0, 0), 'Heal': (0, 0), 'NoFlight': (0, 2),
+    'NoAdvantage': (0, 2), 'DoT': (7.0, 2), 'GroundBurn': (7.0, 2),
+    'Scaling': (0, 2), 'Collision': (0, 0),
+    'DifficultTerrain': (0, 2),
+}
+
+
+def _get_condition_damage(spell, die_avg):
+    extra = spell.get('extra_effect', '')
+    if not extra:
+        return 0, []
+    total_dmg = 0
+    conditions_found = []
+    parts = [p.strip() for p in extra.split('+')]
+    for part in parts:
+        multiplier = 1
+        cond_name = part
+        if ' x' in part:
+            cond_name, mult_str = part.rsplit(' x', 1)
+            cond_name = cond_name.strip()
+            try:
+                multiplier = int(mult_str.strip())
+            except ValueError:
+                multiplier = 1
+        if cond_name in CONDITION_DMG:
+            dmg_per_tick, duration = CONDITION_DMG[cond_name]
+            total_dmg += dmg_per_tick * duration * multiplier
+            conditions_found.append(f'{cond_name} x{multiplier}' if multiplier > 1 else cond_name)
+    return total_dmg, conditions_found
+
 
 def affinity_mod(affinity):
     return int(math.ceil((affinity - 2) / 2.0))
@@ -126,17 +175,50 @@ def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, we
     if spell.get('attack_roll'):
         dmg *= hit_chance
 
-    if spell.get('extra_effect') == 'Burned+DoT':
-        dmg += die_avg.get('2d6', 7) * 2
-    elif spell.get('extra_effect') == 'On Fire+GroundBurn':
-        dmg += die_avg.get('2d6', 7) * 2
-    elif spell.get('extra_effect') == 'Soaked+DoT':
-        dmg += die_avg.get('2d6', 7) * 2
+    cond_dmg, _ = _get_condition_damage(spell, die_avg)
+    dmg += cond_dmg
 
     if char and getattr(char, 'spell_damage_mult', 1) > 1:
-        dmg *= char.spell_damage_mult
+        if spell.get('mana', 0) > 0:
+            dmg *= char.spell_damage_mult
 
     return dmg
+
+
+def _add_spell_candidate(spell, element, aff_val, candidates, char, settings,
+                         die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                         affinity_prereqs, weapon_info):
+    if not check_spell_prereqs(char, spell, element, aff_val if element else 0, affinity_prereqs):
+        return
+
+    save = spell.get('save')
+    if save:
+        dc = spell_save_dc(char, element) if element else 0
+        if spell.get('save_half', False):
+            fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
+            save_mul = fail_chance + (1 - fail_chance) * 0.5
+        else:
+            fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
+            save_mul = fail_chance
+        dmg = spell_avg_damage(spell, element, aff_val, die_avg, spell_hit_chance, char, weapon_info)
+        dmg *= save_mul
+    else:
+        dmg = spell_avg_damage(spell, element, aff_val, die_avg, spell_hit_chance, char, weapon_info)
+
+    if dmg <= 0:
+        return
+
+    base_mana = spell['mana']
+    multiplied_mana = base_mana * mana_mult
+    affordable_mult = max_mana is None or multiplied_mana <= max_mana
+    affordable_base = max_mana is None or base_mana <= max_mana
+
+    if affordable_mult:
+        candidates.append((dmg, spell, element, True))
+    elif affordable_base and mana_mult > 1:
+        base_dmg = dmg / getattr(char, 'spell_damage_mult', 1)
+        if base_dmg > 0:
+            candidates.append((base_dmg, spell, element, False))
 
 
 def select_spell(char, settings, max_mana=None):
@@ -150,8 +232,6 @@ def select_spell(char, settings, max_mana=None):
     target_ac = avg_ac(prof)
     target_save = avg_save_mod(prof)
 
-    candidates = []
-
     magic_to_hit = char.to_hit_magic() if hasattr(char, 'to_hit_magic') else 0
     if magic_to_hit >= target_ac:
         spell_hit_chance = min(0.95, 1.0 - (target_ac - magic_to_hit - 1) / 20.0)
@@ -161,52 +241,31 @@ def select_spell(char, settings, max_mana=None):
     mana_mult = getattr(char, 'spell_mana_mult', 1)
     affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
 
+    primary_candidates = []
+    element_candidates = []
+    generic_candidates = []
+
     primary = getattr(char, 'primary_affinity', None)
     primary_val = char.affinities.get(primary, 0) if primary else 0
     if primary and primary != best_element and primary in spells_data:
-        primary_spells = spells_data[primary]
-        for spell in primary_spells:
-            if max_mana is not None and spell['mana'] * mana_mult > max_mana:
-                continue
-            if check_spell_prereqs(char, spell, primary, primary_val, affinity_prereqs):
-                save = spell.get('save')
-                if save:
-                    dc = spell_save_dc(char, primary)
-                    if spell.get('save_half', False):
-                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
-                        save_mul = fail_chance + (1 - fail_chance) * 0.5
-                    else:
-                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
-                        save_mul = fail_chance
-                    dmg = spell_avg_damage(spell, primary, primary_val, die_avg, spell_hit_chance, char, weapon_info)
-                    dmg *= save_mul
-                else:
-                    dmg = spell_avg_damage(spell, primary, primary_val, die_avg, spell_hit_chance, char, weapon_info)
-                if dmg > 0:
-                    candidates.append((dmg, spell, primary))
+        for spell in spells_data[primary]:
+            _add_spell_candidate(spell, primary, primary_val, primary_candidates, char, settings,
+                                die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                                affinity_prereqs, weapon_info)
 
     if best_element:
-        elem_spells = spells_data.get(best_element, [])
-        elem_aff_val = char.affinities.get(best_element, 0)
-        for spell in elem_spells:
-            if max_mana is not None and spell['mana'] * mana_mult > max_mana:
+        sorted_affs = sorted(char.affinities.items(), key=lambda x: x[1] if x[0] != 'Generic' else -1, reverse=True)
+        for aff_name, aff_val in sorted_affs:
+            if aff_name == 'Generic':
                 continue
-            if check_spell_prereqs(char, spell, best_element, elem_aff_val, affinity_prereqs):
-                save = spell.get('save')
-                if save:
-                    aff_for_dc = elem_aff_val if spell.get('affinity_required', 0) > 0 else 0
-                    dc = spell_save_dc(char, best_element)
-                    if spell.get('save_half', False):
-                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
-                        save_mul = fail_chance + (1 - fail_chance) * 0.5
-                    else:
-                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
-                        save_mul = fail_chance
-                    dmg = spell_avg_damage(spell, best_element, elem_aff_val, die_avg, spell_hit_chance, char, weapon_info)
-                    dmg *= save_mul
-                else:
-                    dmg = spell_avg_damage(spell, best_element, elem_aff_val, die_avg, spell_hit_chance, char, weapon_info)
-                candidates.append((dmg, spell, best_element))
+            if aff_name not in spells_data:
+                continue
+            for spell in spells_data.get(aff_name, []):
+                _add_spell_candidate(spell, aff_name, aff_val, element_candidates, char, settings,
+                                    die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                                    affinity_prereqs, weapon_info)
+            if element_candidates:
+                break
 
     for gname in ('Mana Decimation', 'Mana Explosion', 'Mana Bomb', 'Mana Bolt', 'Mana Blast'):
         gspell = None
@@ -216,29 +275,19 @@ def select_spell(char, settings, max_mana=None):
                 break
         if not gspell:
             continue
-        if max_mana is not None and gspell['mana'] * mana_mult > max_mana:
-            continue
-        if check_spell_prereqs(char, gspell, None, best_aff_val):
-            save = gspell.get('save')
-            if save:
-                dc = spell_save_dc(char, best_element) if best_element else 0
-                if gspell.get('save_half', False):
-                    fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
-                    save_mul = fail_chance + (1 - fail_chance) * 0.5
-                else:
-                    fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
-                    save_mul = fail_chance
-                dmg = spell_avg_damage(gspell, None, best_aff_val, die_avg, spell_hit_chance, char, weapon_info)
-                dmg *= save_mul
-            else:
-                dmg = spell_avg_damage(gspell, None, best_aff_val, die_avg, spell_hit_chance, char, weapon_info)
-            candidates.append((dmg, gspell, None))
+        _add_spell_candidate(gspell, None, best_aff_val, generic_candidates, char, settings,
+                            die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                            affinity_prereqs, weapon_info)
+
+    candidates = primary_candidates or element_candidates or generic_candidates
 
     if not candidates:
         return None, 0
 
-    if max_mana is not None:
-        best = max(candidates, key=lambda x: x[0] * (max_mana // max(1, x[1]['mana'] * mana_mult)))
-    else:
-        best = max(candidates, key=lambda x: x[0])
-    return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0]}, best[0]
+    best = max(candidates, key=lambda x: x[0])
+    use_mult = len(best) > 3 and best[3]
+    cond_dmg, cond_names = _get_condition_damage(best[1], die_avg)
+    return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0],
+            'use_multiplier': use_mult,
+            'cond_dmg': cond_dmg, 'cond_names': cond_names,
+            'extra_effect': best[1].get('extra_effect', '')}, best[0]

@@ -152,6 +152,11 @@ def extract_build_data(settings, results):
             'INT': c.int,
             'CHA': c.cha,
             'ManaCost': int(d.get('mana_cost', 0)),
+            'CondDmg': d.get('cond_dmg', 0),
+            'CondNames': d.get('cond_names', []) if d.get('cond_dmg', 0) > 0 else [],
+            'SpellExtra': d.get('spell_extra_effect', ''),
+            'SpellName': d.get('spell_name', ''),
+            'SpellElement': d.get('spell_element', ''),
             'ManaStart5R': int(d5.get('mana_start', 0)),
             'ManaEnd5R': int(d5.get('mana_end', 0)),
             'ManaStart10R': int(d10.get('mana_start', 0)),
@@ -971,17 +976,18 @@ class CharacterManagerGUI:
         return rule[1]
 
     CONDITION_DMG = {
-        'Burned': (2.5, 2), 'Burn': (2.5, 2), 'On Fire': (3.5, 2),
+        'Burned': (2.5, 2), 'Burn': (2.5, 2), 'On Fire': (3.5, 3),
         'Bleeding': (2.5, 3), 'Bleed': (2.5, 3),
         'Necrosis': (4.5, 3), 'Diseased': (3.5, 2),
         'Shocked': (2.5, 2), 'Poisoned': (7.0, 3),
         'Corrupt': (2.5, 3), 'Hurting': (1.0, 3),
-        'Suffocating': (3.5, 2), 'Frozen': (2.5, 3),
+        'Suffocating': (3.5, 2), 'Frozen': (2.5, 2),
         'Slow Death': (2.5, 3), 'Frostbitten': (2.5, 3),
         'Hellfire': (4.5, 2), 'Radiation': (3.5, 3),
         'Withered': (7.5, 2), 'Plagued': (6.0, 3),
         'Eldritch Curse': (0, 2),
         'Psychic Drain': (0, 2),
+        'Storm Shocked': (2.5, 2),
         'Prone': (0, 2), 'Slowed': (0, 2), 'Stunned': (0, 2),
         'Blinded': (0, 2), 'Mute': (0, 2), 'Deafened': (0, 2),
         'Frightened': (0, 2), 'Demoralized': (0, 2), 'Despair': (0, 2),
@@ -1002,10 +1008,20 @@ class CharacterManagerGUI:
         conditions_found = []
         parts = [p.strip() for p in extra.split('+') if p.strip()]
         for part in parts:
-            if part in self.CONDITION_DMG:
-                dmg, dur = self.CONDITION_DMG[part]
-                total_dmg += dmg * dur
-                conditions_found.append(part)
+            multiplier = 1
+            cond_name = part
+            if ' x' in part:
+                cond_name, mult_str = part.rsplit(' x', 1)
+                cond_name = cond_name.strip()
+                try:
+                    multiplier = int(mult_str.strip())
+                except ValueError:
+                    multiplier = 1
+            if cond_name in self.CONDITION_DMG:
+                dmg, dur = self.CONDITION_DMG[cond_name]
+                total_dmg += dmg * dur * multiplier
+                label = f'{cond_name} x{multiplier}' if multiplier > 1 else cond_name
+                conditions_found.append(label)
         return total_dmg, conditions_found
 
     def _refresh_spell_graph(self):
@@ -1850,20 +1866,17 @@ class CharacterManagerGUI:
 
         builds_config = self.settings.get('builds', {}) if self.settings else {}
 
-        magical = []; magical_casual = []
-        physical = []; physical_casual = []
-        mixed = []; mixed_casual = []
+        magical = []; physical = []; mixed = []
         for name in build_names:
             bc = builds_config.get(name, {})
-            is_casual = name.lower().startswith('casual ')
             has_mag = bc.get('has_magical', False)
             has_phys = bc.get('has_physical', False)
             if has_mag and has_phys:
-                (mixed_casual if is_casual else mixed).append(name)
+                mixed.append(name)
             elif has_mag:
-                (magical_casual if is_casual else magical).append(name)
+                magical.append(name)
             else:
-                (physical_casual if is_casual else physical).append(name)
+                physical.append(name)
 
         def build_group(title, group, group_color):
             if not group:
@@ -1897,11 +1910,8 @@ class CharacterManagerGUI:
                 lbl.bind('<Button-1>', make_toggle(name))
 
         build_group('Magical', magical, '#9467bd')
-        build_group('Casual Magical', magical_casual, '#c5b0d5')
         build_group('Physical', physical, '#d62728')
-        build_group('Casual Physical', physical_casual, '#ff9896')
         build_group('Mixed', mixed, '#7f7f7f')
-        build_group('Casual Mixed', mixed_casual, '#c7c7c7')
 
         if '__average__' in self._lines:
             is_vis = self._line_visible.get('__average__', True)
@@ -2269,6 +2279,11 @@ class CharacterManagerGUI:
                 lines.append(f"  Dmg/10R   : {bd.get('Dmg/10R',0):>6d}")
                 mc = bd.get('ManaCost', 0)
                 if mc > 0:
+                    spell_name = bd.get('SpellName', '')
+                    spell_elem = bd.get('SpellElement', '')
+                    if spell_name:
+                        elem_str = f" ({spell_elem})" if spell_elem else ''
+                        lines.append(f"Spell      : {spell_name}{elem_str}")
                     mana_total = bd.get('Mana', 0)
                     ms5, me5 = bd.get('ManaStart5R', 0), bd.get('ManaEnd5R', 0)
                     ms10, me10 = bd.get('ManaStart10R', 0), bd.get('ManaEnd10R', 0)
@@ -2279,6 +2294,11 @@ class CharacterManagerGUI:
                     lines.append(f"Mana/Cast  : {mc:>3d}  Pool: {mana_total}")
                     lines.append(f"5R Mana    : {ms5}→{me5} (used {u5}, {p5:.0f}%)")
                     lines.append(f"10R Mana   : {ms10}→{me10} (used {u10}, {p10:.0f}%)")
+                    cd = bd.get('CondDmg', 0)
+                    cn = bd.get('CondNames', [])
+                    if cd > 0:
+                        lines.append(f"{'─'*30}")
+                        lines.append(f"Cond Dmg   : +{cd:.1f}/cast from {', '.join(cn)}")
                 xlim = self.ax.get_xlim()
                 ylim = self.ax.get_ylim()
                 xmid = (xlim[0] + xlim[1]) / 2

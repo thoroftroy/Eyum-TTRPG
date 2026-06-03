@@ -10,6 +10,9 @@ def apply_level_progression(char, target_level, settings):
     e10 = r.get('every_10_levels', {})
     prof = r['proficiency']
 
+    elemental_cycle = ['Fire', 'Earth', 'Water', 'Air']
+    elem_idx = 0
+
     for lvl in range(2, target_level + 1):
         char.level = lvl
         char.skill_points += per['skill_points']
@@ -21,6 +24,12 @@ def apply_level_progression(char, target_level, settings):
             if char.has_physical and 'if_physical' in e2:
                 char.flat_vit += e2['if_physical']['flat_vit']
                 char.flat_hp += e2['if_physical']['flat_hp']
+            if char.has_magical and 'if_magical' in e2:
+                elem = elemental_cycle[elem_idx % len(elemental_cycle)]
+                char.affinities[elem] = char.affinities.get(elem, 0) + e2['if_magical']['elemental_affinity']
+                elem_idx += 1
+            if getattr(char, 'has_utility', False) and 'if_utility' in e2:
+                char.skill_points += e2['if_utility']['skill_points']
 
         if lvl % 3 == 0:
             char.stat_points += e3['stat_points']
@@ -32,6 +41,8 @@ def apply_level_progression(char, target_level, settings):
         if lvl % 8 == 0 and 'bap' in e8:
             char.bap += e8['bap']
             char.skill_points += e8.get('skill_points', 0)
+            if char.has_magical and 'if_magical' in e8:
+                char.magic_damage += e8['if_magical']['base_magic_damage']
 
         if lvl % 10 == 0 and 'ap' in e10:
             char.ap += e10['ap']

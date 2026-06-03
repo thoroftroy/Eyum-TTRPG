@@ -141,57 +141,62 @@
   "Atomic": [
     {
       "name": "Go Atomic",
-      "mana": 449,
+      "mana": 500,
       "affinity_required": 21,
       "damage_dice": "20d20",
-      "damage_flat": 200,
+      "damage_flat": 150,
       "damage_type": "atomic",
       "aoe_radius": 200,
-      "extra_effect": "Radiation"
+      "costs_bonus_action": true,
+      "extra_effect": "Radiation x15"
     },
     {
       "name": "Critical Atomicity",
-      "mana": 674,
+      "mana": 750,
       "affinity_required": 23,
       "int_required": 33,
-      "damage_dice": "24d20",
-      "damage_flat": 260,
+      "damage_dice": "6d12",
+      "damage_flat": 200,
       "damage_type": "atomic",
       "aoe_radius": 200,
-      "extra_effect": "Radiation"
+      "costs_bonus_action": true,
+      "extra_effect": "Radiation x18"
     },
     {
       "name": "Fallout Crown",
-      "mana": 897,
+      "mana": 1000,
       "affinity_required": 25,
       "int_required": 37,
-      "damage_dice": "26d20",
-      "damage_flat": 300,
+      "damage_dice": "8d12",
+      "damage_flat": 250,
       "damage_type": "atomic",
       "aoe_radius": 220,
-      "extra_effect": "Radiation"
+      "costs_bonus_action": true,
+      "extra_effect": "Radiation x20"
     },
     {
       "name": "Fission Verdict",
-      "mana": 1196,
+      "mana": 1500,
       "affinity_required": 27,
       "int_required": 41,
-      "damage_dice": "18d20",
-      "damage_flat": 180,
+      "damage_dice": "30d12",
+      "damage_flat": 600,
       "damage_type": "atomic",
       "aoe_radius": 120,
-      "extra_effect": "Radiation"
+      "costs_bonus_action": true,
+      "extra_effect": "Radiation x36"
     },
     {
       "name": "Last Sun",
-      "mana": 1794,
+      "mana": 2500,
       "affinity_required": 31,
       "int_required": 46,
-      "damage_dice": "30d20",
-      "damage_flat": 400,
+      "damage_dice": "15d12",
+      "damage_flat": 600,
       "damage_type": "atomic",
       "aoe_radius": 300,
-      "extra_effect": "Radiation"
+      "costs_bonus_action": true,
+      "extra_effect": "Radiation x25"
     }
   ],
   "Blight": [
@@ -795,7 +800,7 @@
   "Ice/Cold": [
     {
       "name": "Flash Freeze",
-      "mana": 8,
+      "mana": 6,
       "affinity_required": 6,
       "damage_dice": "1d8",
       "damage_type": "cold",
@@ -1002,7 +1007,7 @@
   "Magma": [
     {
       "name": "Magma Ball",
-      "mana": 8,
+      "mana": 12,
       "affinity_required": 9,
       "damage_dice": "5d8",
       "damage_type": "magma",
@@ -1059,7 +1064,7 @@
       "name": "Iron Grave",
       "mana": 13,
       "affinity_required": 9,
-      "damage_dice": "6d8",
+      "damage_dice": "4d8",
       "damage_type": "metal",
       "save": "str",
       "save_half": true,
@@ -1071,7 +1076,7 @@
       "mana": 28,
       "affinity_required": 11,
       "con_required": 17,
-      "damage_dice": "10d8",
+      "damage_dice": "8d8",
       "damage_type": "metal",
       "save": "str",
       "save_half": true,
@@ -1084,7 +1089,7 @@
       "mana": 46,
       "affinity_required": 13,
       "con_required": 19,
-      "damage_dice": "14d8",
+      "damage_dice": "10d8",
       "damage_type": "metal",
       "save": "str",
       "attack_roll": false,
@@ -1096,7 +1101,7 @@
       "mana": 73,
       "affinity_required": 15,
       "con_required": 21,
-      "damage_dice": "20d8",
+      "damage_dice": "12d8",
       "damage_type": "metal",
       "save": "str",
       "attack_roll": false,
@@ -1108,7 +1113,7 @@
       "mana": 120,
       "affinity_required": 17,
       "con_required": 23,
-      "damage_dice": "30d8",
+      "damage_dice": "14d8",
       "damage_type": "metal",
       "save": "str",
       "save_half": true,
@@ -1137,7 +1142,7 @@
   "Miasma": [
     {
       "name": "Miasma Cloud",
-      "mana": 4,
+      "mana": 6,
       "affinity_required": 13,
       "damage_dice": "5d4",
       "damage_type": "miasma",
@@ -1146,7 +1151,7 @@
     },
     {
       "name": "Rot Lung",
-      "mana": 9,
+      "mana": 12,
       "affinity_required": 15,
       "int_required": 19,
       "damage_dice": "8d8",
@@ -1156,7 +1161,7 @@
     },
     {
       "name": "Grave Weather",
-      "mana": 13,
+      "mana": 18,
       "affinity_required": 17,
       "int_required": 23,
       "damage_dice": "6d8",
@@ -1167,7 +1172,7 @@
     },
     {
       "name": "Sepulcher Breath",
-      "mana": 19,
+      "mana": 24,
       "affinity_required": 19,
       "int_required": 27,
       "damage_dice": "12d8",
@@ -1178,7 +1183,7 @@
     },
     {
       "name": "Rot Kingdom",
-      "mana": 24,
+      "mana": 30,
       "affinity_required": 22,
       "int_required": 31,
       "damage_dice": "16d8",
@@ -1382,7 +1387,7 @@
       "name": "Nova Burst",
       "mana": 54,
       "affinity_required": 11,
-      "damage_dice": "10d12",
+      "damage_dice": "5d12",
       "damage_type": "nova",
       "save": "con",
       "save_half": true,
@@ -1395,7 +1400,7 @@
       "mana": 84,
       "affinity_required": 13,
       "int_required": 29,
-      "damage_dice": "18d12",
+      "damage_dice": "9d12",
       "damage_type": "nova",
       "save": "str",
       "attack_roll": false,
@@ -1407,7 +1412,7 @@
       "mana": 114,
       "affinity_required": 15,
       "int_required": 31,
-      "damage_dice": "26d12",
+      "damage_dice": "12d12",
       "damage_type": "nova",
       "save": "str",
       "save_half": true,
@@ -1420,7 +1425,7 @@
       "mana": 150,
       "affinity_required": 17,
       "int_required": 33,
-      "damage_dice": "36d12",
+      "damage_dice": "15d12",
       "damage_type": "nova",
       "save": "str",
       "attack_roll": false,
@@ -1432,7 +1437,7 @@
       "mana": 225,
       "affinity_required": 19,
       "int_required": 35,
-      "damage_dice": "50d12",
+      "damage_dice": "20d12",
       "damage_type": "nova",
       "save": "str",
       "save_half": true,
@@ -1920,23 +1925,47 @@
       "extra_effect": "Blinded"
     },
     {
+      "name": "Solar Lance (Solar)",
+      "mana": 23,
+      "affinity_required": 9,
+      "int_required": 17,
+      "damage_dice": "5d10",
+      "damage_type": "solar",
+      "save": "dex",
+      "attack_roll": false,
+      "aoe_line": true,
+      "extra_effect": "Blinded"
+    },
+    {
+      "name": "Solar Collapse",
+      "mana": 39,
+      "affinity_required": 11,
+      "int_required": 19,
+      "damage_dice": "8d10",
+      "damage_type": "solar",
+      "save": "con",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "extra_effect": "Blinded"
+    },
+    {
       "name": "Solar Judgment",
       "mana": 67,
       "affinity_required": 13,
       "int_required": 21,
-      "damage_dice": "22d10",
+      "damage_dice": "11d10",
       "damage_type": "solar",
       "save": "con",
       "attack_roll": false,
       "aoe_radius": 25,
-      "extra_effect": "Blinded+Stunned"
+      "extra_effect": "Blinded"
     },
     {
       "name": "Solar Cataclysm",
       "mana": 114,
       "affinity_required": 16,
       "int_required": 23,
-      "damage_dice": "30d10",
+      "damage_dice": "15d10",
       "damage_type": "solar",
       "save": "con",
       "save_half": true,
@@ -2117,7 +2146,7 @@
   "Storm": [
     {
       "name": "Storm Call",
-      "mana": 38,
+      "mana": 8,
       "affinity_required": 16,
       "damage_type": "storm",
       "attack_roll": true,
@@ -2125,7 +2154,7 @@
     },
     {
       "name": "Galefront",
-      "mana": 52,
+      "mana": 14,
       "affinity_required": 18,
       "int_required": 21,
       "damage_type": "storm",
@@ -2135,7 +2164,7 @@
     },
     {
       "name": "Tempest Axis",
-      "mana": 69,
+      "mana": 21,
       "affinity_required": 20,
       "int_required": 25,
       "damage_type": "storm",
@@ -2145,7 +2174,7 @@
     },
     {
       "name": "Hurricane Throne",
-      "mana": 94,
+      "mana": 29,
       "affinity_required": 22,
       "int_required": 29,
       "damage_type": "storm",
@@ -2156,7 +2185,7 @@
     },
     {
       "name": "World Tempest",
-      "mana": 136,
+      "mana": 36,
       "affinity_required": 25,
       "int_required": 33,
       "damage_type": "storm",

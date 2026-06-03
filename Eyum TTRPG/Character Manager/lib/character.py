@@ -70,6 +70,7 @@ class Character:
 
         self.has_physical = False
         self.has_magical = False
+        self.has_utility = False
         self.affinities = {"Generic": 1}
         self.archetype_levels = {}
         self.archetype_whole_levels = {}
