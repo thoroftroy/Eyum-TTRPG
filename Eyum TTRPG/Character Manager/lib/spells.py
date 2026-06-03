@@ -1,4 +1,5 @@
 import math
+from .die_avg import die_average
 
 AFFINITY_DAMAGE_BONUS_ATTRS = {
     'Fire': 'fire_damage_bonus',
@@ -36,7 +37,7 @@ CONDITION_DMG = {
 }
 
 
-def _get_condition_damage(spell, die_avg):
+def _get_condition_damage(spell):
     extra = spell.get('extra_effect', '')
     if not extra:
         return 0, []
@@ -127,9 +128,9 @@ def check_spell_prereqs(char, spell, element, aff_val, affinity_prereqs=None):
     return True
 
 
-def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, weapon_info=None):
+def spell_avg_damage(spell, element, aff_val, hit_chance, char=None, weapon_info=None):
     if 'damage_dice' in spell:
-        dmg = die_avg.get(spell['damage_dice'], 0)
+        dmg = die_average(spell['damage_dice'], 0)
         dmg += spell.get('damage_flat', 0)
     elif 'damage_formula' in spell:
         formula = spell['damage_formula']
@@ -161,21 +162,21 @@ def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, we
             if bonus_attr:
                 bonus_die = getattr(char, bonus_attr, None)
                 if bonus_die:
-                    dmg += die_avg.get(bonus_die, 0)
+                    dmg += die_average(bonus_die, 0)
 
     if weapon_info:
         magic_die = weapon_info.get('magic_damage_die')
         if magic_die:
-            dmg += die_avg.get(magic_die, 0)
+            dmg += die_average(magic_die, 0)
         extra_magic_die = weapon_info.get('extra_magic_damage_die')
         if extra_magic_die:
-            dmg += die_avg.get(extra_magic_die, 0)
+            dmg += die_average(extra_magic_die, 0)
         dmg += weapon_info.get('magic_bonus', 0)
 
     if spell.get('attack_roll'):
         dmg *= hit_chance
 
-    cond_dmg, _ = _get_condition_damage(spell, die_avg)
+    cond_dmg, _ = _get_condition_damage(spell)
     dmg += cond_dmg
 
     if char and getattr(char, 'spell_damage_mult', 1) > 1:
@@ -186,7 +187,7 @@ def spell_avg_damage(spell, element, aff_val, die_avg, hit_chance, char=None, we
 
 
 def _add_spell_candidate(spell, element, aff_val, candidates, char, settings,
-                         die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                         spell_hit_chance, target_save, max_mana, mana_mult,
                          affinity_prereqs, weapon_info):
     if not check_spell_prereqs(char, spell, element, aff_val if element else 0, affinity_prereqs):
         return
@@ -200,10 +201,10 @@ def _add_spell_candidate(spell, element, aff_val, candidates, char, settings,
         else:
             fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
             save_mul = fail_chance
-        dmg = spell_avg_damage(spell, element, aff_val, die_avg, spell_hit_chance, char, weapon_info)
+        dmg = spell_avg_damage(spell, element, aff_val, spell_hit_chance, char, weapon_info)
         dmg *= save_mul
     else:
-        dmg = spell_avg_damage(spell, element, aff_val, die_avg, spell_hit_chance, char, weapon_info)
+        dmg = spell_avg_damage(spell, element, aff_val, spell_hit_chance, char, weapon_info)
 
     if dmg <= 0:
         return
@@ -223,7 +224,6 @@ def _add_spell_candidate(spell, element, aff_val, candidates, char, settings,
 
 def select_spell(char, settings, max_mana=None):
     spells_data = settings.get('spells', {})
-    die_avg = settings['rules']['die_averages']
     best_element, best_aff_val = get_best_affinity(char)
     weapons = settings.get('weapons', {})
     weapon_info = weapons.get(char.gear.get('weapon', ''), {})
@@ -250,7 +250,7 @@ def select_spell(char, settings, max_mana=None):
     if primary and primary != best_element and primary in spells_data:
         for spell in spells_data[primary]:
             _add_spell_candidate(spell, primary, primary_val, primary_candidates, char, settings,
-                                die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                                spell_hit_chance, target_save, max_mana, mana_mult,
                                 affinity_prereqs, weapon_info)
 
     if best_element:
@@ -262,7 +262,7 @@ def select_spell(char, settings, max_mana=None):
                 continue
             for spell in spells_data.get(aff_name, []):
                 _add_spell_candidate(spell, aff_name, aff_val, element_candidates, char, settings,
-                                    die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                                    spell_hit_chance, target_save, max_mana, mana_mult,
                                     affinity_prereqs, weapon_info)
             if element_candidates:
                 break
@@ -276,7 +276,7 @@ def select_spell(char, settings, max_mana=None):
         if not gspell:
             continue
         _add_spell_candidate(gspell, None, best_aff_val, generic_candidates, char, settings,
-                            die_avg, spell_hit_chance, target_save, max_mana, mana_mult,
+                            spell_hit_chance, target_save, max_mana, mana_mult,
                             affinity_prereqs, weapon_info)
 
     candidates = primary_candidates or element_candidates or generic_candidates
@@ -286,7 +286,7 @@ def select_spell(char, settings, max_mana=None):
 
     best = max(candidates, key=lambda x: x[0])
     use_mult = len(best) > 3 and best[3]
-    cond_dmg, cond_names = _get_condition_damage(best[1], die_avg)
+    cond_dmg, cond_names = _get_condition_damage(best[1])
     return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0],
             'use_multiplier': use_mult,
             'cond_dmg': cond_dmg, 'cond_names': cond_names,

@@ -1,4 +1,5 @@
 import math
+from .die_avg import die_average
 
 
 def affinity_mod(affinity):
@@ -175,17 +176,17 @@ class Character:
 
     def vit_max(self, r):
         con_mod = self.mod('con')
-        dice_avg = self.vit_n * r['die_averages'][self.vit_die]
+        dice_avg = self.vit_n * die_average(self.vit_die)
         con_bonus = con_mod * self.vit_n
         return self.flat_vit + int(dice_avg + con_bonus)
 
     def hp_max(self, r):
-        dice_avg = self.hp_n * r['die_averages'][self.hp_die]
+        dice_avg = self.hp_n * die_average(self.hp_die)
         return self.flat_hp + int(dice_avg)
 
     def mana_max(self, r):
         wis_mod = self.mod('wis')
-        dice_avg = self.mana_n * r['die_averages'][self.mana_die]
+        dice_avg = self.mana_n * die_average(self.mana_die)
         return self.flat_mana + int(dice_avg + wis_mod * self.mana_n)
 
     def ac(self, armor_type, armor_types, dex_table=None):

@@ -1,4 +1,5 @@
 from .spells import select_spell
+from .die_avg import die_average
 
 
 def attacks_per_round(char):
@@ -16,7 +17,6 @@ def calculate_damage(char, settings):
               'cond_dmg': 0, 'cond_names': [], 'spell_extra_effect': ''}
 
     hit_chance_base = 1.0
-    die_avg = settings['rules']['die_averages']
     weapons = settings.get('weapons', {})
     weapon_name = char.gear.get('weapon', '')
     weapon_info = weapons.get(weapon_name, {})
@@ -30,18 +30,18 @@ def calculate_damage(char, settings):
         if char.tull_claw_die:
             claw_idx = die_order.index(char.tull_claw_die)
             effective_idx = min(claw_idx + char.brawler_stacks, len(die_order) - 1)
-            base_weapon = die_avg.get(die_order[effective_idx], 2.5) + char.tull_claw_flat
+            base_weapon = die_average(die_order[effective_idx], 2.5) + char.tull_claw_flat
         else:
             brawler_die = die_order[min(char.brawler_stacks, len(die_order) - 1)]
-            base_weapon = die_avg.get(brawler_die, 2.5)
+            base_weapon = die_average(brawler_die, 2.5)
         damage_bonus = 0
         extra_damage = 0
         weapon_type = 'melee'
     else:
-        base_weapon = die_avg.get(weapon_die, 0) if weapon_die else 0
+        base_weapon = die_average(weapon_die, 0) if weapon_die else 0
         damage_bonus = weapon_info.get('damage_bonus', 0)
         extra_damage_die = weapon_info.get('extra_damage_die')
-        extra_damage = die_avg.get(extra_damage_die, 0) if extra_damage_die else 0
+        extra_damage = die_average(extra_damage_die, 0) if extra_damage_die else 0
 
     weapon_accuracy = weapon_info.get('accuracy_bonus', 0) if not is_unarmed else 0
     accuracy_bonus = char.weapon_group_accuracy + char.steady_aim_accuracy + weapon_accuracy
@@ -59,13 +59,13 @@ def calculate_damage(char, settings):
 
     crit_bonus_avg = 0
     if char.crit_bonus_die:
-        crit_bonus_avg = die_avg.get(char.crit_bonus_die, 0) * 0.05
+        crit_bonus_avg = die_average(char.crit_bonus_die, 0) * 0.05
 
     cleave_bonus_avg = char.cleave_damage * 0.75 if char.cleave_damage else 0
 
     charge_bonus_avg = 0
     if char.charge_die:
-        charge_bonus_avg = die_avg.get(char.charge_die, 0)
+        charge_bonus_avg = die_average(char.charge_die, 0)
 
     per_hit_feat_bonus = crit_bonus_avg + cleave_bonus_avg + (charge_bonus_avg / max(atk_per_round, 1))
 
@@ -127,7 +127,7 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     if phys_per_hit <= 0 and best_phys_dmg > 0:
         phys_per_hit = best_phys_dmg / max(atk_per_round, 1)
 
-    fr_die_avg = r['die_averages'].get(char.first_round_damage, 0) if char.first_round_damage else 0
+    fr_die_avg = die_average(char.first_round_damage) if char.first_round_damage else 0
     bonus_attacks = 1 if getattr(char, 'ap_first_round', 0) else 0
     r1_adv = getattr(char, 'first_round_advantage', False)
     perm_adv = getattr(char, 'ranged_expertise', False)
