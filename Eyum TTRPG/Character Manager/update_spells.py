@@ -322,7 +322,13 @@ def main():
 
         for aff, s, orig_name in entries:
             custom = {k: s[k] for k in CUSTOM_KEYS if k in s}
+            base = orig_name.split('(')[0].strip()
+            # Fields that intentionally differ from handbook (generator overrides)
+            skip_keys = set(DAMAGE_OVERRIDES.get((aff, base), {}).keys())
             diffs = []
+            gameplay_diffs = 0  # count diffs that aren't from overrides
+
+            # ── simple fields ──
 
             # mana
             if s.get('mana') != h['mana']:
@@ -349,13 +355,13 @@ def main():
                 s['range_max'] = info['range_max']
 
             # damage
-            if 'damage_dice' in info:
+            if 'damage_dice' in info and 'damage_dice' not in skip_keys:
                 nd = info['damage_dice']
                 od = s.get('damage_dice', '')
                 if nd != od:
                     diffs.append(f"damage_dice: {od} → {nd}")
                     s['damage_dice'] = nd
-            if 'damage_flat' in info:
+            if 'damage_flat' in info and 'damage_flat' not in skip_keys:
                 nf = info['damage_flat']
                 of = s.get('damage_flat', 0)
                 if nf != of:
@@ -370,10 +376,13 @@ def main():
                 s['extra_effect'] = ne
 
             # save
-            if 'save' in info and s.get('save') != info['save']:
-                diffs.append(f"save: {fmt_val(s.get('save'))} → {info['save']}")
-                s['save'] = info['save']
-                if s.get('attack_roll'): s['attack_roll'] = False; diffs.append("attack_roll→false (save)")
+            if 'save' in info and 'save' not in skip_keys:
+                if s.get('save') != info['save']:
+                    diffs.append(f"save: {fmt_val(s.get('save'))} → {info['save']}")
+                    s['save'] = info['save']
+                    if s.get('attack_roll'): s['attack_roll'] = False; diffs.append("attack_roll→false (save)")
+
+            # save_half handled via boolean flags below
 
             # AoE
             for k in ('aoe_radius','aoe_cone','aoe_line','aoe_cube','aoe_self'):
@@ -411,7 +420,6 @@ def main():
 
             if diffs:
                 changed.append((orig_name, aff, diffs))
-                # Write a marker file so the GUI knows which affinities changed
                 _mark_affinity(aff)
             else:
                 unchanged.append(f"  {orig_name} ({aff})")

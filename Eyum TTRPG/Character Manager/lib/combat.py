@@ -103,11 +103,13 @@ def calculate_damage(char, settings):
                 retal_dmg = int(retal_dice + retal_flat)
 
             if is_conc and has_bap:
-                # Concentration spell with per-action trigger (Storm bolts)
                 ap_actions = max(0, char.ap - 1)
                 bap_actions = char.bap
                 total_actions = ap_actions + bap_actions
-                magic = int((ap_actions * spell_dmg * 2.0) + (bap_actions * spell_dmg) + retal_dmg)
+                cond_dmg_val = spell_info.get('cond_dmg', 0)
+                base_dmg = spell_dmg - cond_dmg_val
+                magic = int((ap_actions * base_dmg * 2.0) + (bap_actions * base_dmg)
+                            + (total_actions * cond_dmg_val) + retal_dmg)
                 result['magic'] = magic
                 result['magic_dmg'] = spell_dmg
                 result['mana_cost'] = cost
@@ -146,6 +148,16 @@ def calculate_damage(char, settings):
                 result['mana_cost'] = cost
                 result['spell_atks_raw'] = spell_atks
                 result['spell_atks_mana_capped'] = casts
+                # If multiplier is active but base version would give more damage, use base
+                if mana_mult > 1 and spell_info.get('use_multiplier', True):
+                    base_cost = spell_info['spell']['mana']
+                    base_casts = min(spell_atks, char.mana_max(settings['rules']) // max(1, base_cost))
+                    base_dmg = spell_dmg / char.spell_damage_mult if char.spell_damage_mult > 1 else spell_dmg
+                    base_total = int(base_dmg * base_casts + retal_dmg)
+                    if base_total > result['magic']:
+                        result['magic'] = base_total
+                        result['mana_cost'] = base_cost
+                        result['spell_atks_mana_capped'] = base_casts
             result['cond_dmg'] = spell_info.get('cond_dmg', 0)
             result['cond_names'] = spell_info.get('cond_names', []) if spell_info.get('cond_dmg', 0) > 0 else []
             result['spell_extra_effect'] = spell_info.get('extra_effect', '')
@@ -217,8 +229,12 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     # Storm/bap_attack style: bolts every round
     if dmg_per_turn.get('bap_attack'):
         bolt_base = magic_dmg_per_cast
-        first_round = max(0, char.ap - 1) * bolt_base * 2.0 + char.bap * bolt_base + retal
-        later_round = char.ap * bolt_base * 2.0 + char.bap * bolt_base + retal
+        cond_val = dmg_per_turn.get('cond_dmg', 0)
+        base = bolt_base - cond_val
+        first_round = (max(0, char.ap - 1) * base * 2.0 + char.bap * base
+                       + (max(0, char.ap - 1) + char.bap) * cond_val)
+        later_round = (char.ap * base * 2.0 + char.bap * base
+                       + (char.ap + char.bap) * cond_val)
         total_dmg = int(first_round + later_round * (num_rounds - 1))
         return {'total': total_dmg,
                 'mana_start': int(max_mana),

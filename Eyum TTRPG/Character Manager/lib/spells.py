@@ -23,6 +23,8 @@ CONDITION_DMG = {
     'Withered': (7.5, 2), 'Plagued': (6.0, 3),
     'Eldritch Curse': (0, 2), 'Psychic Drain': (0, 2),
     'Storm Shocked': (2.5, 2),
+    'Frostburned': (2.5, 3),
+    'Taboo': (2.5, 3),
     'Prone': (0, 2), 'Slowed': (0, 2), 'Stunned': (0, 2),
     'Blinded': (0, 2), 'Mute': (0, 2), 'Deafened': (0, 2),
     'Frightened': (0, 2), 'Demoralized': (0, 2), 'Despair': (0, 2),
@@ -178,10 +180,9 @@ def spell_avg_damage(spell, element, aff_val, hit_chance, char=None, weapon_info
 
     cond_dmg, _ = _get_condition_damage(spell)
     dmg += cond_dmg
-
     if char and getattr(char, 'spell_damage_mult', 1) > 1:
         if spell.get('mana', 0) > 0:
-            dmg *= char.spell_damage_mult
+            dmg = (dmg - cond_dmg) * char.spell_damage_mult + cond_dmg
 
     return dmg
 
@@ -289,8 +290,9 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
     if not candidates:
         return None, 0
 
-    # Mages always use their highest-tier castable spell (highest mana cost)
-    # even if it's less mana-efficient. This lets you balance spells by tweaking numbers.
+    # Always use the highest-tier (highest mana) castable spell.
+    # The mage should use their best spell; fall back to cheaper ones
+    # only when mana runs out.
     best = max(candidates, key=lambda x: (x[1].get('mana', 0), x[0]))
     use_mult = len(best) > 3 and best[3]
     cond_dmg, cond_names = _get_condition_damage(best[1])

@@ -32,21 +32,21 @@
     }
   },
   "every_3_levels": {
-    "stat_points": 1,
+    "stat_points": 2,
     "affinity_points": 2,
     "feat": true,
     "skill_points": 2,
-    "if_magical_spell": true
+    "if_magical_spell": true,
+    "if_magical_stat_bonus": {"int": 2},
+    "if_physical_stat_bonus": {"str": 1, "dex": 1}
   },
   "every_8_levels": {
     "bap": 1,
-    "skill_points": 5,
-    "if_magical": {
-      "base_magic_damage": 1
-    }
+    "skill_points": 5
   },
   "every_10_levels": {
-    "ap": 1
+    "ap": 1,
+    "stat_points": 5
   },
   "proficiency": {
     "base": 1,
@@ -91,9 +91,11 @@
     "10d10": 55.0,
     "10d12": 65.0,
     "12d8": 54.0,
+    "12d12": 78.0,
     "14d8": 63.0,
     "15d6": 52.5,
     "15d8": 67.5,
+    "15d12": 97.5,
     "16d8": 72.0,
     "16d10": 88.0,
     "18d8": 81.0,
@@ -107,6 +109,7 @@
     "26d20": 273.0,
     "30d8": 135.0,
     "30d10": 165.0,
+    "30d12": 195.0,
     "30d20": 315.0,
     "36d12": 234.0,
     "50d12": 325.0
@@ -404,79 +407,72 @@
     "Infernal": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Fire"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Metal": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Earth"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Torrent": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Water"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Thunder": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Air"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Mirage": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Radiant"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Vacuum": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Necrotic"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Warp": {
       "needs": {
         "all_of": [
-          "Force",
+          "Generic",
           "Psychic"
         ]
       },
       "min_each": 10,
-      "total_spent": 20,
-      "requires_force": true
+      "total_spent": 20
     },
     "Storm": {
       "needs": {
@@ -517,12 +513,11 @@
         "all_of": [
           "Water",
           "Air",
-          "Force"
+          "Generic"
         ]
       },
       "min_each": 10,
-      "total_spent": 30,
-      "requires_force": true
+      "total_spent": 30
     },
     "Obsidian": {
       "needs": {
@@ -541,12 +536,11 @@
         "all_of": [
           "Earth",
           "Air",
-          "Force"
+          "Generic"
         ]
       },
       "min_each": 10,
-      "total_spent": 30,
-      "requires_force": true
+      "total_spent": 30
     },
     "Corruption": {
       "needs_all": [

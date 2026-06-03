@@ -1,46 +1,77 @@
 EYUM TTRPG — SPELL UPDATER LOG
-Run at: 2026-06-03 13:08:43
+Run at: 2026-06-03 14:49:28
 ======================================================================
 Parsed 297 spells from handbook
-  OVERRIDE: Whiteout Expanse (Glacial): damage_dice: 2d12 → 4d12
-  OVERRIDE: Whiteout Expanse (Glacial): damage_flat: 6 → 12
-  OVERRIDE: Moving Glacier (Glacial): damage_dice: 2d12 → 6d12
-  OVERRIDE: Moving Glacier (Glacial): damage_flat: 10 → 40
-  OVERRIDE: Fission Verdict (Atomic): damage_dice: 10d12 → 30d12
-  OVERRIDE: Fission Verdict (Atomic): damage_flat: 250 → 600
 
 ======================================================================
 SUMMARY
 ======================================================================
   Total handbook spells parsed: 297
-  Changed:  3
-  Unchanged: 302
+  Changed:  13
+  Unchanged: 292
   Skipped:  0 new spells
   Not in handbook: 1
 
 ──────────────────────────────────────────────────────────────────────
-CHANGED SPELLS (3)
+CHANGED SPELLS (13)
 ──────────────────────────────────────────────────────────────────────
 
-  Fission Verdict (Atomic)
-      damage_dice: 30d12 → 10d12
-      damage_flat: 600 → 250
+  Abyssal Chains (Corruption)
+      description updated
+      damage_flat: 30 → 10
 
-  Moving Glacier (Glacial)
-      damage_dice: 6d12 → 2d12
-      damage_flat: 40 → 10
+  Black Binding (Corruption)
+      description updated
+      damage_flat: 50 → 30
 
-  Whiteout Expanse (Glacial)
-      damage_dice: 4d12 → 2d12
-      damage_flat: 12 → 6
+  Black Monolith (Obsidian)
+      description updated
+
+  Corrupt Dominion (Corruption)
+      description updated
+      damage_flat: 70 → 50
+
+  Fallen Throne (Corruption)
+      description updated
+      damage_flat: 100 → 70
+
+  Final Malediction (Cursed)
+      description updated
+
+  Hurricane Aura (Storm)
+      description updated
+      damage_dice: 4d6 → 4d10
+
+  Maelstrom (Storm)
+      description updated
+      damage_dice: 5d6 → 5d10
+
+  Maelstrom (Water)
+      description updated
+      damage_dice: 5d6 → 5d10
+
+  Ruin of the Soul (Corruption)
+      description updated
+      damage_flat: 180 → 100
+
+  Storm Call (Storm)
+      description updated
+      damage_dice: 1d6 → 1d10
+
+  Tempest (Storm)
+      description updated
+      damage_dice: 3d6 → 3d10
+
+  Thunderstorm (Storm)
+      description updated
+      damage_dice: 2d6 → 2d10
 
 ──────────────────────────────────────────────────────────────────────
-UNCHANGED SPELLS (302)
+UNCHANGED SPELLS (292)
 ──────────────────────────────────────────────────────────────────────
   Abrasion Line (Dust)
   Absolute Contradiction (Frostfire)
   Absolute Zero (Ice/Cold)
-  Abyssal Chains (Corruption)
   Abyssal Weight (Deluge)
   Aftershock (Tremor)
   Age of Ice (Glacial)
@@ -53,8 +84,6 @@ UNCHANGED SPELLS (302)
   Bane (Necrotic)
   Bastion Rise (Earth)
   Bestow Curse (Corruption)
-  Black Binding (Corruption)
-  Black Monolith (Obsidian)
   Black Sky (Ash)
   Black Tentacles (Corruption)
   Black Tide (Deluge)
@@ -92,7 +121,6 @@ UNCHANGED SPELLS (302)
   Continental Break (Quake)
   Contract Pyre (Infernal)
   Corrosive Breath (Toxin)
-  Corrupt Dominion (Corruption)
   Crimson Eruption (Bloodfire)
   Critical Atomicity (Atomic)
   Crustbreaker (Magma)
@@ -127,18 +155,17 @@ UNCHANGED SPELLS (302)
   Enlarge or Reduce (Generic)
   Event Collapse (Vacuum)
   Expose Weakness (Generic)
-  Fallen Throne (Corruption)
   Falling Choir (Starlight)
   Fallout Crown (Atomic)
   False Advance (Mirage)
   Faultline (Earth) (Earth)
   Faultline (Quake) (Quake)
   Faultline of The Mind (Tremor)
-  Final Malediction (Cursed)
   Final Season (Blight)
   Fireball (Fire)
   Firebolt (Fire)
   Fireburst (Fire)
+  Fission Verdict (Atomic)
   Flash Freeze (Glacial)
   Flash Freeze (Ice/Cold)
   Flash Freeze (Unique) (Ice/Cold)
@@ -181,7 +208,6 @@ UNCHANGED SPELLS (302)
   Hollow Corridor (Void)
   Hollow Season (Blight)
   Howling Gale (Thunder)
-  Hurricane Aura (Storm)
   Inferno Ring (Fire)
   Iron Dominion (Metal)
   Iron Grave (Metal)
@@ -196,8 +222,6 @@ UNCHANGED SPELLS (302)
   Leviathan Drive (Torrent)
   Lightning Collapse (Lightning)
   Lightning Surge (Lightning)
-  Maelstrom (Storm)
-  Maelstrom (Water)
   Magma Ball (Magma)
   Mana Blast (Generic)
   Mana Bolt (Generic)
@@ -220,6 +244,7 @@ UNCHANGED SPELLS (302)
   Mire Field (Mud)
   Mirror Image (Mirage)
   Mourning Glance (Sorrow)
+  Moving Glacier (Glacial)
   Mud Slide (Mud)
   Necrotic Collapse (Necrotic)
   Nova Burst (Nova)
@@ -266,7 +291,6 @@ UNCHANGED SPELLS (302)
   Rotsap (Blight)
   Rotting Touch (Necrotic)
   Ruin Chime (Thunder)
-  Ruin of the Soul (Corruption)
   Sanctuary (Generic)
   Sand Veil (Dust)
   Scald (Steam)
@@ -301,13 +325,11 @@ UNCHANGED SPELLS (302)
   Stellar Annihilation (Nova)
   Stoneskin (Earth)
   Stonewave (Earth)
-  Storm Call (Storm)
   Suffocation Engine (Toxin)
   Supernova Collapse (Nova)
   Swallowing Fen (Mud)
   Tectonic Crush (Quake)
   Telekinesis (Force)
-  Tempest (Storm)
   Tempest Prison (Air)
   Tempest Strike (Storm)
   Terminal Nova (Nova)
@@ -315,7 +337,6 @@ UNCHANGED SPELLS (302)
   Thought Pierce (Psychic)
   Thronefire (Infernal)
   Thunderclap (Thunder)
-  Thunderstorm (Storm)
   Torrential Smash (Torrent)
   Toxic Cloud (Toxin)
   True Strike (Generic)
@@ -330,6 +351,7 @@ UNCHANGED SPELLS (302)
   Warp Slice (Warp)
   Warp Step (Warp)
   Waterskin (Water)
+  Whiteout Expanse (Glacial)
   Whiteout Vent (Steam)
   Widow’s Field (Sorrow)
   Wild Sequence (Chaos)
@@ -346,4 +368,4 @@ NOT IN HANDBOOK (1)
   Full Restore (Generic)
 
 ======================================================================
-End of log — 2026-06-03 13:08:43
+End of log — 2026-06-03 14:49:28

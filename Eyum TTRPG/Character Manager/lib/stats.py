@@ -157,9 +157,16 @@ def spend_affinity_points(char, primary_affinity=None, affinity_prereqs=None):
                     needs = prereq['needs']
                     min_each = prereq.get('min_each', 0)
                     for a in (needs.get('all_of', []) or needs.get('any_of', [])):
-                        needed = min_each - char.affinities.get(a, 0)
-                        if needed > 0 and a != 'Generic':
-                            _spend_on(a, needed)
+                                needed = min_each - char.affinities.get(a, 0)
+                                if needed > 0:
+                                    if a == 'Generic':
+                                        if getattr(char, 'generic_affinity_spendable', False):
+                                            can_get = min(needed, affp // 3)
+                                            if can_get > 0:
+                                                char.affinities['Generic'] = char.affinities.get('Generic', 0) + can_get
+                                                affp -= can_get * 3
+                                    else:
+                                        _spend_on(a, needed)
                 if not _affinity_prereqs_met(aff_name, char, affinity_prereqs):
                     return
 

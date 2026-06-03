@@ -151,6 +151,8 @@ def extract_build_data(settings, results):
             'WIS': c.wis,
             'INT': c.int,
             'CHA': c.cha,
+            'AP': c.ap,
+            'BAp': c.bap,
             'ManaCost': int(d.get('mana_cost', 0)),
             'CondDmg': d.get('cond_dmg', 0),
             'CondNames': d.get('cond_names', []) if d.get('cond_dmg', 0) > 0 else [],
@@ -993,6 +995,8 @@ class CharacterManagerGUI:
         'Eldritch Curse': (0, 2),
         'Psychic Drain': (0, 2),
         'Storm Shocked': (2.5, 2),
+        'Frostburned': (2.5, 3),
+        'Taboo': (2.5, 3),
         'Prone': (0, 2), 'Slowed': (0, 2), 'Stunned': (0, 2),
         'Blinded': (0, 2), 'Mute': (0, 2), 'Deafened': (0, 2),
         'Frightened': (0, 2), 'Demoralized': (0, 2), 'Despair': (0, 2),
@@ -1904,46 +1908,25 @@ class CharacterManagerGUI:
                     capture_output=True, text=True, timeout=120,
                     cwd=SCRIPT_DIR
                 )
-                self.root.after(0, lambda: self.status_label.config(
-                    text=f"Done: {len(proc.stdout.splitlines())} lines"))
 
-                # Reload fresh spells.json
+                # Parse stdout: "Spell Updater — 3 changed, 302 unchanged"
+                changed_count = 0
+                for line in proc.stdout.splitlines():
+                    m = re.search(r'(\d+)\s+changed', line)
+                    if m:
+                        changed_count = int(m.group(1))
+                        break
+
+                if changed_count == 0:
+                    self.root.after(0, lambda: self.status_label.config(text="No handbook changes detected"))
+                    self.root.after(0, lambda: self._regen_reenable())
+                    self.generating = False
+                    return
+
+                self.root.after(0, lambda: self.status_label.config(text=f"{changed_count} spells changed, rebuilding..."))
                 self.settings = None
-                s_after = load_settings(DATA_DIR)
-                self.settings = s_after
-
-                # Read affinity marker file from the updater
-                marker_path = os.path.join(DATA_DIR, '.changed_affinities.json')
-                changed_affinities = set()
-                if os.path.exists(marker_path):
-                    try:
-                        with open(marker_path) as f:
-                            markers = json.load(f)
-                        changed_affinities = set(markers.keys())
-                    except Exception:
-                        pass
-
-                # Find builds that use these affinities
-                affected_builds = set()
-                for bname, bconfig in s_after['builds'].items():
-                    pa = bconfig.get('primary_affinity', '')
-                    if pa and pa in changed_affinities:
-                        affected_builds.add(bname)
-                        continue
-                    for path in bconfig.get('preferred_paths', []):
-                        if path in changed_affinities:
-                            affected_builds.add(bname)
-                            break
-
-                for bname in s_after['builds']:
-                    if bname.lower().startswith('worst'):
-                        affected_builds.add(bname)
-
-                if not changed_affinities or not affected_builds:
-                    affected_builds = None
-
                 self.generating = False
-                self.root.after(100, lambda: self._run_generator(build_filter=affected_builds))
+                self.root.after(100, lambda: self._run_generator())
             except subprocess.TimeoutExpired:
                 self.root.after(0, lambda: messagebox.showerror("Updater Error", "Timed out after 120s"))
                 self.root.after(0, lambda: self._regen_reenable())
@@ -2303,7 +2286,10 @@ class CharacterManagerGUI:
                 continue
             line.set_alpha(FOCUSED_ALPHA)
         if self._vline:
-            self._vline.remove()
+            try:
+                self._vline.remove()
+            except NotImplementedError:
+                pass
             self._vline = None
         self._selected_level = None
         self.canvas.draw_idle()
@@ -2367,9 +2353,10 @@ class CharacterManagerGUI:
                     lines.append(f"  {sk:10s}: {bd.get(sk,0):>3d}")
                 lines.append(f"{'─'*30}")
                 lines.append(f"{'Combat':12s} {'Value':>6s}")
-                for sk in ['Vitality', 'Health', 'Mana', 'AC', 'Feats', 'Spells']:
+                for sk in ['Vitality', 'Health', 'Mana', 'AC']:
                     lines.append(f"  {sk:10s}: {bd.get(sk,0):>3d}")
                 lines.append(f"  To Hit    : {bd.get('To Hit',0):>3d}")
+                lines.append(f"  AP        : {bd.get('AP',0):>3d}  BAp: {bd.get('BAp',0)}")
                 lines.append(f"{'─'*30}")
                 lines.append(f"{'Damage':12s} {'Value':>6s}")
                 lines.append(f"  Dmg/Turn  : {bd.get('Dmg/Turn',0):>6d}")

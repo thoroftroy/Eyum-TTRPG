@@ -42,13 +42,11 @@
   },
   "every_8_levels": {
     "bap": 1,
-    "skill_points": 5,
-    "if_magical": {
-      "base_magic_damage": 1
-    }
+    "skill_points": 5
   },
   "every_10_levels": {
-    "ap": 1
+    "ap": 1,
+    "stat_points": 5
   },
   "proficiency": {
     "base": 1,

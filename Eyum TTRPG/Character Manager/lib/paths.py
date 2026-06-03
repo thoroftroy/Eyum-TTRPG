@@ -1,4 +1,22 @@
 from .effects import apply_effects, _repeatable_priority
+from .stats import cost_for_stat
+
+
+def _add_stat_bonus(char, stat_name, bonus, cost_table):
+    """Apply a raw stat bonus using fractional tracking per handbook rules.
+    When a stat costs N points to raise, +1 flat bonus grants 1/N of a stat point."""
+    if bonus <= 0:
+        return
+    current = getattr(char, stat_name)
+    cost = cost_for_stat(current, cost_table)
+    if stat_name not in char.stat_points_banked:
+        char.stat_points_banked[stat_name] = 0.0
+    char.stat_points_banked[stat_name] += bonus / cost
+    total_banked = char.stat_points_banked[stat_name]
+    whole_points = int(total_banked)
+    if whole_points >= 1:
+        setattr(char, stat_name, current + whole_points)
+        char.stat_points_banked[stat_name] = total_banked - whole_points
 
 
 def apply_level_progression(char, target_level, settings):
@@ -39,19 +57,18 @@ def apply_level_progression(char, target_level, settings):
                 char.spells_from_levels += 1
             if char.has_magical and 'if_magical_stat_bonus' in e3:
                 for stat, bonus in e3['if_magical_stat_bonus'].items():
-                    setattr(char, stat, getattr(char, stat) + bonus)
+                    _add_stat_bonus(char, stat, bonus, r['stat_point_cost'])
             if char.has_physical and 'if_physical_stat_bonus' in e3:
                 for stat, bonus in e3['if_physical_stat_bonus'].items():
-                    setattr(char, stat, getattr(char, stat) + bonus)
+                    _add_stat_bonus(char, stat, bonus, r['stat_point_cost'])
 
         if lvl % 8 == 0 and 'bap' in e8:
             char.bap += e8['bap']
             char.skill_points += e8.get('skill_points', 0)
-            if char.has_magical and 'if_magical' in e8:
-                char.magic_damage += e8['if_magical']['base_magic_damage']
 
         if lvl % 10 == 0 and 'ap' in e10:
             char.ap += e10['ap']
+            char.stat_points += e10.get('stat_points', 0)
 
         char.prof = prof['base'] + (lvl // 3)
 
