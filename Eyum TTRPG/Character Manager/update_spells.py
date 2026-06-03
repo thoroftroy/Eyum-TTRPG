@@ -56,7 +56,8 @@ COND_ALIAS = {
 # ── Regex patterns ──────────────────────────────────────────────
 DAMAGE_FLAT_DICE = re.compile(
     r'(?:take|deal)s?\s+(?:an?\s+additional\s+)?(?:up\s+to\s+)?'
-    r'(?P<flat>\d+(?:\.\d+)?)\s*\+\s*(?P<dice>\d+d\d+)', re.IGNORECASE)
+    r'(?:(?P<flat>\d+(?:\.\d+)?)\s*\+\s*(?P<dice>\d+d\d+)'
+    r'|(?P<dice2>\d+d\d+)\s*\+\s*(?P<flat2>\d+(?:\.\d+)?))', re.IGNORECASE)
 
 DICE_ONLY = re.compile(
     r'(?:take|deal)s?\s+(?P<dice>\d+d\d+)', re.IGNORECASE)
@@ -257,8 +258,8 @@ def extract_spell_info(desc, prereq_str, rng_str):
     # Damage
     m = DAMAGE_FLAT_DICE.search(desc)
     if m:
-        info['damage_dice'] = m.group('dice')
-        info['damage_flat'] = int(float(m.group('flat')))
+        info['damage_dice'] = m.group('dice') or m.group('dice2')
+        info['damage_flat'] = int(float(m.group('flat') or m.group('flat2')))
     else:
         m = DICE_ONLY.search(desc)
         if m:

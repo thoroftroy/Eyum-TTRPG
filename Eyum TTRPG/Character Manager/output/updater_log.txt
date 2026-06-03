@@ -1,36 +1,22 @@
 EYUM TTRPG — SPELL UPDATER LOG
-Run at: 2026-06-03 10:26:27
+Run at: 2026-06-03 11:16:07
 Handbook: /home/microwavedthebaby/Documents/Eyum-TTRPG/Eyum TTRPG/6.0 Magic/6.1 Spells.md
 Spells JSON: /home/microwavedthebaby/Documents/Eyum-TTRPG/Eyum TTRPG/Character Manager/data/spells.json
 ======================================================================
-Parsed 275 spells from handbook
+Parsed 274 spells from handbook
+  + ADDED: Obsidian Spray (Obsidian) mana=12
+  + ADDED: Tempest Strike (Storm) mana=12
 
 ======================================================================
 SUMMARY
 ======================================================================
-  Total spells in handbook: 275
-  Changed:  4
-  Unchanged: 280
-  New (in handbook, not in JSON): 0
+  Total spells in handbook: 274
+  Changed:  0
+  Unchanged: 282
+  New (in handbook, not in JSON): 2
 
 ──────────────────────────────────────────────────────────────────────
-CHANGED SPELLS (4)
-──────────────────────────────────────────────────────────────────────
-
-  Critical Atomicity (Atomic)
-      mana: 650 → 500
-
-  Fallout Crown (Atomic)
-      mana: 900 → 600
-
-  Fission Verdict (Atomic)
-      mana: 1200 → 750
-
-  Last Sun (Atomic)
-      mana: 1800 → 1000
-
-──────────────────────────────────────────────────────────────────────
-UNCHANGED SPELLS (280)
+UNCHANGED SPELLS (282)
 ──────────────────────────────────────────────────────────────────────
   Abrasion Line (Dust)
   Absolute Zero (Ice/Cold)
@@ -83,6 +69,7 @@ UNCHANGED SPELLS (280)
   Corrosive Breath (Toxin)
   Corrupt Dominion (Corruption)
   Crimson Eruption (Bloodfire)
+  Critical Atomicity (Atomic)
   Crustbreaker (Magma)
   Cure Wounds (Generic)
   Cyclone (Air)
@@ -117,6 +104,7 @@ UNCHANGED SPELLS (280)
   Expose Weakness (Generic)
   Fallen Throne (Corruption)
   Falling Choir (Starlight)
+  Fallout Crown (Atomic)
   False Advance (Mirage)
   Faultline (Earth) (Earth)
   Faultline (Quake) (Quake)
@@ -124,6 +112,7 @@ UNCHANGED SPELLS (280)
   Fireball (Fire)
   Firebolt (Fire)
   Fireburst (Fire)
+  Fission Verdict (Atomic)
   Flash Freeze (Ice/Cold)
   Flash Freeze (Unique) (Ice/Cold)
   Floodwall (Water)
@@ -134,7 +123,6 @@ UNCHANGED SPELLS (280)
   Frozen Cataclysm (Ice/Cold)
   Funeral Drift (Ash)
   Gale Lance (Air)
-  Galefront (Storm)
   Gel Bulwark (Gel)
   Gel Coating (Gel)
   Gel Shaper (Gel)
@@ -162,7 +150,7 @@ UNCHANGED SPELLS (280)
   Hollow Corridor (Void)
   Hollow Season (Blight)
   Howling Gale (Thunder)
-  Hurricane Throne (Storm)
+  Hurricane Aura (Storm)
   Inferno Ring (Fire)
   Iron Dominion (Metal)
   Iron Grave (Metal)
@@ -170,12 +158,14 @@ UNCHANGED SPELLS (280)
   Jetstream (Water)
   Judgment Strike (Lightning)
   Last Lament (Sorrow)
+  Last Sun (Atomic)
   Lava Mantle (Magma)
   Leech (Bloodfire)
   Leech Life (Necrotic)
   Leviathan Drive (Torrent)
   Lightning Collapse (Lightning)
   Lightning Surge (Lightning)
+  Maelstrom (Storm)
   Maelstrom (Water)
   Magma Ball (Magma)
   Mana Blast (Generic)
@@ -195,7 +185,6 @@ UNCHANGED SPELLS (280)
   Mirage (Mirage)
   Mirage Host (Mirage)
   Mire Field (Mud)
-  Mirror Bastion (Obsidian)
   Mirror Image (Mirage)
   Mourning Glance (Sorrow)
   Mud Slide (Mud)
@@ -205,8 +194,8 @@ UNCHANGED SPELLS (280)
   Nuclear Strike (Atomic)
   Null Edge (Void)
   Oblivion Cut (Void)
+  Obsidian Mirror (Obsidian)
   Obsidian Skin (Obsidian)
-  Obsidian Spray (Obsidian)
   Paralytic Bolt (Lightning)
   Phase Step (Warp)
   Pitflame Circuit (Infernal)
@@ -283,13 +272,13 @@ UNCHANGED SPELLS (280)
   Swallowing Fen (Mud)
   Tectonic Crush (Quake)
   Telekinesis (Force)
-  Tempest Axis (Storm)
+  Tempest (Storm)
   Tempest Prison (Air)
-  Tempest Strike (Storm)
   Terminal Nova (Nova)
   Thought Pierce (Psychic)
   Thronefire (Infernal)
   Thunderclap (Thunder)
+  Thunderstorm (Storm)
   Torrential Smash (Torrent)
   Toxic Cloud (Toxin)
   True Strike (Generic)
@@ -308,7 +297,6 @@ UNCHANGED SPELLS (280)
   Wild Sequence (Chaos)
   Wither (Blight)
   Withering Grasp (Blight)
-  World Tempest (Storm)
   Worldbreak (Earth)
   Worldforge Collapse (Metal)
   Zero Mark (Void)
@@ -320,4 +308,4 @@ SPELLS IN JSON NOT IN HANDBOOK (1)
   Full Restore (Generic)
 
 ======================================================================
-End of log — 2026-06-03 10:26:27
+End of log — 2026-06-03 11:16:07
