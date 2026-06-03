@@ -1,5 +1,5 @@
 EYUM TTRPG — SPELL UPDATER LOG
-Run at: 2026-06-03 14:49:28
+Run at: 2026-06-03 15:19:40
 ======================================================================
 Parsed 297 spells from handbook
 
@@ -7,71 +7,18 @@ Parsed 297 spells from handbook
 SUMMARY
 ======================================================================
   Total handbook spells parsed: 297
-  Changed:  13
-  Unchanged: 292
+  Changed:  0
+  Unchanged: 305
   Skipped:  0 new spells
   Not in handbook: 1
 
 ──────────────────────────────────────────────────────────────────────
-CHANGED SPELLS (13)
-──────────────────────────────────────────────────────────────────────
-
-  Abyssal Chains (Corruption)
-      description updated
-      damage_flat: 30 → 10
-
-  Black Binding (Corruption)
-      description updated
-      damage_flat: 50 → 30
-
-  Black Monolith (Obsidian)
-      description updated
-
-  Corrupt Dominion (Corruption)
-      description updated
-      damage_flat: 70 → 50
-
-  Fallen Throne (Corruption)
-      description updated
-      damage_flat: 100 → 70
-
-  Final Malediction (Cursed)
-      description updated
-
-  Hurricane Aura (Storm)
-      description updated
-      damage_dice: 4d6 → 4d10
-
-  Maelstrom (Storm)
-      description updated
-      damage_dice: 5d6 → 5d10
-
-  Maelstrom (Water)
-      description updated
-      damage_dice: 5d6 → 5d10
-
-  Ruin of the Soul (Corruption)
-      description updated
-      damage_flat: 180 → 100
-
-  Storm Call (Storm)
-      description updated
-      damage_dice: 1d6 → 1d10
-
-  Tempest (Storm)
-      description updated
-      damage_dice: 3d6 → 3d10
-
-  Thunderstorm (Storm)
-      description updated
-      damage_dice: 2d6 → 2d10
-
-──────────────────────────────────────────────────────────────────────
-UNCHANGED SPELLS (292)
+UNCHANGED SPELLS (305)
 ──────────────────────────────────────────────────────────────────────
   Abrasion Line (Dust)
   Absolute Contradiction (Frostfire)
   Absolute Zero (Ice/Cold)
+  Abyssal Chains (Corruption)
   Abyssal Weight (Deluge)
   Aftershock (Tremor)
   Age of Ice (Glacial)
@@ -84,6 +31,8 @@ UNCHANGED SPELLS (292)
   Bane (Necrotic)
   Bastion Rise (Earth)
   Bestow Curse (Corruption)
+  Black Binding (Corruption)
+  Black Monolith (Obsidian)
   Black Sky (Ash)
   Black Tentacles (Corruption)
   Black Tide (Deluge)
@@ -121,6 +70,7 @@ UNCHANGED SPELLS (292)
   Continental Break (Quake)
   Contract Pyre (Infernal)
   Corrosive Breath (Toxin)
+  Corrupt Dominion (Corruption)
   Crimson Eruption (Bloodfire)
   Critical Atomicity (Atomic)
   Crustbreaker (Magma)
@@ -155,12 +105,14 @@ UNCHANGED SPELLS (292)
   Enlarge or Reduce (Generic)
   Event Collapse (Vacuum)
   Expose Weakness (Generic)
+  Fallen Throne (Corruption)
   Falling Choir (Starlight)
   Fallout Crown (Atomic)
   False Advance (Mirage)
   Faultline (Earth) (Earth)
   Faultline (Quake) (Quake)
   Faultline of The Mind (Tremor)
+  Final Malediction (Cursed)
   Final Season (Blight)
   Fireball (Fire)
   Firebolt (Fire)
@@ -208,6 +160,7 @@ UNCHANGED SPELLS (292)
   Hollow Corridor (Void)
   Hollow Season (Blight)
   Howling Gale (Thunder)
+  Hurricane Aura (Storm)
   Inferno Ring (Fire)
   Iron Dominion (Metal)
   Iron Grave (Metal)
@@ -222,6 +175,8 @@ UNCHANGED SPELLS (292)
   Leviathan Drive (Torrent)
   Lightning Collapse (Lightning)
   Lightning Surge (Lightning)
+  Maelstrom (Storm)
+  Maelstrom (Water)
   Magma Ball (Magma)
   Mana Blast (Generic)
   Mana Bolt (Generic)
@@ -291,6 +246,7 @@ UNCHANGED SPELLS (292)
   Rotsap (Blight)
   Rotting Touch (Necrotic)
   Ruin Chime (Thunder)
+  Ruin of the Soul (Corruption)
   Sanctuary (Generic)
   Sand Veil (Dust)
   Scald (Steam)
@@ -325,11 +281,13 @@ UNCHANGED SPELLS (292)
   Stellar Annihilation (Nova)
   Stoneskin (Earth)
   Stonewave (Earth)
+  Storm Call (Storm)
   Suffocation Engine (Toxin)
   Supernova Collapse (Nova)
   Swallowing Fen (Mud)
   Tectonic Crush (Quake)
   Telekinesis (Force)
+  Tempest (Storm)
   Tempest Prison (Air)
   Tempest Strike (Storm)
   Terminal Nova (Nova)
@@ -337,6 +295,7 @@ UNCHANGED SPELLS (292)
   Thought Pierce (Psychic)
   Thronefire (Infernal)
   Thunderclap (Thunder)
+  Thunderstorm (Storm)
   Torrential Smash (Torrent)
   Toxic Cloud (Toxin)
   True Strike (Generic)
@@ -368,4 +327,4 @@ NOT IN HANDBOOK (1)
   Full Restore (Generic)
 
 ======================================================================
-End of log — 2026-06-03 14:49:28
+End of log — 2026-06-03 15:19:40

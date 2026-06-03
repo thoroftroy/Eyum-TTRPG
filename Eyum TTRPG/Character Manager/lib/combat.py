@@ -107,9 +107,18 @@ def calculate_damage(char, settings):
                 bap_actions = char.bap
                 total_actions = ap_actions + bap_actions
                 cond_dmg_val = spell_info.get('cond_dmg', 0)
-                base_dmg = spell_dmg - cond_dmg_val
-                magic = int((ap_actions * base_dmg * 2.0) + (bap_actions * base_dmg)
-                            + (total_actions * cond_dmg_val) + retal_dmg)
+                # BAp attacks cost 1/4 of the spell's base mana per bolt per the handbook
+                bolt_mana = max(1, spell_info['spell']['mana'] // 4)
+                total_mana = cost + total_actions * bolt_mana
+                mana_pool = char.mana_max(settings['rules'])
+                max_by_mana = max(0, (mana_pool - cost) // max(1, bolt_mana))
+                effective_actions = min(total_actions, max_by_mana)
+                ap_eff = min(ap_actions, effective_actions)
+                bap_eff = effective_actions - ap_eff
+                # BAp bolts don't get base magic damage per the handbook
+                bolt_base = max(0, spell_dmg - cond_dmg_val - getattr(char, 'magic_damage', 0) * getattr(char, 'spell_damage_mult', 1))
+                magic = int((ap_eff * bolt_base * 2.0) + (bap_eff * bolt_base)
+                            + (effective_actions * cond_dmg_val) + retal_dmg)
                 result['magic'] = magic
                 result['magic_dmg'] = spell_dmg
                 result['mana_cost'] = cost
@@ -132,6 +141,9 @@ def calculate_damage(char, settings):
                     magic = int(spell_dmg + sd2 * casts2 + retal_dmg)
                     result['magic'] = magic
                     result['magic_dmg'] = spell_dmg + sd2
+                    result['secondary_spell'] = si2.get('spell', {}).get('name', '')
+                    result['secondary_dmg'] = sd2
+                    result['secondary_casts'] = casts2
                 else:
                     result['magic'] = int(spell_dmg + retal_dmg)
                     result['magic_dmg'] = spell_dmg
@@ -230,7 +242,9 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
     if dmg_per_turn.get('bap_attack'):
         bolt_base = magic_dmg_per_cast
         cond_val = dmg_per_turn.get('cond_dmg', 0)
-        base = bolt_base - cond_val
+        # BAp bolts don't get base magic damage per the handbook
+        magic_dmg_portion = getattr(char, 'magic_damage', 0) * getattr(char, 'spell_damage_mult', 1)
+        base = max(0, bolt_base - cond_val - magic_dmg_portion)
         first_round = (max(0, char.ap - 1) * base * 2.0 + char.bap * base
                        + (max(0, char.ap - 1) + char.bap) * cond_val)
         later_round = (char.ap * base * 2.0 + char.bap * base

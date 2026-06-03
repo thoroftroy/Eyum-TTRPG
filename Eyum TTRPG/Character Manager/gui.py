@@ -13,6 +13,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import os
 import sys
+import re
 import json
 import shutil
 import threading
@@ -159,6 +160,8 @@ def extract_build_data(settings, results):
             'SpellExtra': d.get('spell_extra_effect', ''),
             'SpellName': d.get('spell_name', ''),
             'SpellElement': d.get('spell_element', ''),
+            'SecondarySpell': d.get('secondary_spell', ''),
+            'SecondaryCasts': d.get('secondary_casts', 0),
             'ManaStart5R': int(d5.get('mana_start', 0)),
             'ManaEnd5R': int(d5.get('mana_end', 0)),
             'ManaStart10R': int(d10.get('mana_start', 0)),
@@ -2369,6 +2372,10 @@ class CharacterManagerGUI:
                     if spell_name:
                         elem_str = f" ({spell_elem})" if spell_elem else ''
                         lines.append(f"Spell      : {spell_name}{elem_str}")
+                    sspell = bd.get('SecondarySpell', '')
+                    scasts = bd.get('SecondaryCasts', 0)
+                    if sspell:
+                        lines.append(f"Secondary  : {sspell} x{scasts}")
                     mana_total = bd.get('Mana', 0)
                     ms5, me5 = bd.get('ManaStart5R', 0), bd.get('ManaEnd5R', 0)
                     ms10, me10 = bd.get('ManaStart10R', 0), bd.get('ManaEnd10R', 0)
