@@ -4,8 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "bdba9961ee4b0802",
+        "id": "bcb110ca3b01e3bf",
         "type": "tabs",
+        "dimension": 42.068527918781726,
         "children": [
           {
             "id": "291366f7d5640838",
@@ -13,75 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.1 Building Your Character"
-            }
-          },
-          {
-            "id": "4cfa4e373f953140",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dist/content/Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+                "file": "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "3.3 Leveling Up"
             }
-          },
-          {
-            "id": "cceb77e114a47aa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6.1 Spells"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "e4261fb6ad4f4b01",
+        "id": "bdba9961ee4b0802",
         "type": "tabs",
+        "dimension": 57.931472081218274,
         "children": [
           {
-            "id": "88234382241f1212",
+            "id": "cf6466ee249b46d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eyum TTRPG/Character Manager/Real Test Character.md",
+                "file": "Eyum TTRPG/3.0 Character Management/Example Character/Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Real Test Character"
-            }
-          },
-          {
-            "id": "63098737412b6f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Eyum TTRPG/4.0 Races/Demon and Subraces.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Demon and Subraces"
+              "title": "Level 2"
             }
           }
         ]
@@ -246,12 +205,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "88234382241f1212",
+  "active": "291366f7d5640838",
   "lastOpenFiles": [
-    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
-    "Eyum TTRPG/Character Manager/Real Test Character.md",
-    "dist/content/Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+    "Eyum TTRPG/3.0 Character Management/Example Character/Level 2.md",
+    "Eyum TTRPG/3.0 Character Management/Example Character/Level 1.md",
     "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
+    "Eyum TTRPG/3.0 Character Management/3.2 Character Information.md",
+    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+    "Eyum TTRPG/3.0 Character Management/Example Character/Real Test Character.md",
+    "Eyum TTRPG/3.0 Character Management/Example Character",
+    "Eyum TTRPG/3.0 Character Management/Untitled Folder",
+    "dist/content/Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+    "Eyum TTRPG/Character Manager/Real Test Character.md",
+    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
     "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
     "Eyum TTRPG/2.0 Reference Tables/2.1 Affinities.md",
     "Eyum TTRPG/4.0 Races/Demon and Subraces.md",
@@ -265,11 +231,7 @@
     "Eyum TTRPG/Character Manager/output/bad_gear/Storm_Mage.txt",
     "Eyum TTRPG/Character Manager/output/bad_gear/Mirage_Mage.txt",
     "Eyum TTRPG/Character Manager/output/bad_gear/Thunder_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Warp_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Chaos_Mage.txt",
     "Eyum TTRPG/2.0 Reference Tables/2.7 Character Reference.md",
-    "Eyum TTRPG/3.0 Character Management/3.2 Character Information.md",
-    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
     "Eyum TTRPG/0.0 In Progress/0.2 TODO.md",
     "Eyum TTRPG/2.0 Reference Tables/2.3 Injuries.md",
     "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
@@ -281,9 +243,6 @@
     "Eyum TTRPG/4.0 Races/Tull and Subraces.md",
     "site/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/Monster Planner.md",
     "site/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Unique Monsters.md",
-    "site/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monster Modifiers.md",
-    "site/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
-    "site/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.3 Dragons.md",
     "assets/Draugir.jpg",
     "assets/Dryad.jpg",
     "assets/Nymph.jpg",

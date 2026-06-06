@@ -1,12 +1,12 @@
 
 | Character Information |          |                           |              | Stats                  | (Stat) | (Modifier) |
 | --------------------- | -------- | ------------------------- | ------------ | ---------------------- | ------ | ---------- |
-| Name                  | Zeus     | Level                     | 1            | Strength               | 10     | 0          |
+| Name                  | Zeus     | Level                     | 2            | Strength               | 10     | 0          |
 | Race                  | Pyrrakin | Inspiration               | 0            | Dexterity              | 10     | 0          |
 | Background            | Nerd     | Armor Class               | 11           | Constitution           | 10     | 0          |
 | Title(s)              |          | Initiative                |              | Wisdom                 | 20     | +5         |
 | Sex                   | Male     | Speed                     | 35, climb 30 | Intelligence           | 18     | +4         |
-| Size                  | Medium   | Karma                     |              | Charisma               | 7      | -1         |
+| Size                  | Medium   | Karma                     | 0            | Charisma               | 7      | -1         |
 | Height                | 5'3      | Proficiency Bonus         | +1           |                        |        |            |
 | Weight                | 140      | Action Points (Ap)        | 1            | Stat Points (Stp)      | 0      |            |
 | Build                 | Thin     | Bonus Action Points (BAp) | 1            | Skill Points (Skp)     | 2      |            |
