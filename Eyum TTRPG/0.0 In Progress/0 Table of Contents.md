@@ -53,3 +53,10 @@
 	- [[7.3.4 Chimera]]
 	- [[7.3.5 Monster Modifiers]]
 	- [[7.3.6 Unique Monsters]]
+
+
+Current Handbook Version: v3.20.40
+
+> Major version (#).#.# indicates how many major overhauls have taken place.
+> Medium version #.(#).# indicates how many times a large edit has been made which impacts the actual functionality of the system. This number resets each time the Major version number increases. 
+> Minor version #.#.(#) indicates how many small edits have been made, usually balance changes and tweaks. This number resets each time the Medium or Major version number increases. 
