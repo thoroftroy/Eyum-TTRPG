@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eyum Character Sheet Editor</title>
+<link rel="stylesheet" href="eyum-sheet.css">
+</head>
+<body>
+
+<div class="toolbar">
+  <h1>Eyum Character Sheet Editor</h1>
+  <button id="btnAddField">+ Field</button>
+  <button id="btnAddTable">+ Table</button>
+  <button id="btnAddTextarea">+ Text Box</button>
+  <button id="btnAddLabel">+ Label</button>
+  <span class="sep"></span>
+  <button id="btnToggleGrid" class="active">Grid: ON</button>
+  <label>Size <select id="btnGridSize"><option value="5">5px</option><option value="10" selected>10px</option><option value="20">20px</option><option value="50">50px</option></select></label>
+  <span class="sep"></span>
+  <button id="btnReset">Reset</button>
+  <button id="btnPrint" class="primary">Save as PDF</button>
+  <button id="btnDebug">Debug</button>
+</div>
+
+<div id="debugPanel" style="display:none;position:fixed;bottom:0;left:0;right:0;height:180px;background:#0a0a1a;border-top:2px solid #4fc3f7;z-index:10001;overflow-y:auto;padding:10px;font-family:monospace;font-size:11px;color:#0f0;"></div>
+
+<div class="workspace">
+  <div class="page-sheet" id="pageSheet0">
+    <span class="page-label">Page 1</span>
+    <div class="grid-canvas" id="grid0"></div>
+  </div>
+  <div class="page-sheet" id="pageSheet1">
+    <span class="page-label">Page 2</span>
+    <div class="grid-canvas" id="grid1"></div>
+  </div>
+  <div class="page-sheet" id="pageSheet2">
+    <span class="page-label">Page 3</span>
+    <div class="grid-canvas" id="grid2"></div>
+  </div>
+</div>
+
+<script src="eyum-sheet.js"></script>
+</body>
+</html>

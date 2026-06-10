@@ -1,0 +1,216 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #1a1a2e; --surface: #16213e; --border: #2a2a4a;
+  --text: #e0e0e0; --muted: #888; --accent: #4fc3f7;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg); color: var(--text); min-height: 100vh;
+}
+
+/* Toolbar */
+.toolbar {
+  position: sticky; top: 0; z-index: 10000;
+  display: flex; gap: 6px; padding: 6px 14px;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  align-items: center; flex-wrap: wrap;
+}
+.toolbar h1 { font-size: 14px; font-weight: 600; margin-right: auto; color: var(--accent); }
+.toolbar button {
+  padding: 5px 10px; border: 1px solid var(--border);
+  background: #1e2a3a; color: var(--text); border-radius: 4px;
+  cursor: pointer; font-size: 11px; font-family: inherit;
+}
+.toolbar button:hover { background: #2c3e50; border-color: var(--accent); }
+.toolbar button.primary { background: var(--accent); color: #1a1a2e; border-color: var(--accent); font-weight: 600; }
+.toolbar button.active { border-color: var(--accent); background: #2c3e50; }
+.toolbar .sep { width: 1px; height: 20px; background: var(--border); margin: 0 4px; }
+.toolbar select {
+  padding: 4px 6px; border: 1px solid var(--border);
+  background: #1e2a3a; color: var(--text); border-radius: 4px;
+  font-size: 11px; font-family: inherit; cursor: pointer;
+}
+.toolbar label { font-size: 10px; color: var(--muted); display: flex; align-items: center; gap: 3px; }
+
+.workspace {
+  padding: 20px; display: flex; flex-direction: column; gap: 30px; align-items: center;
+}
+
+.page-sheet {
+  background: #fff; box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  border-radius: 2px; position: relative;
+}
+.page-sheet .page-label {
+  position: absolute; top: -22px; left: 0;
+  font-size: 11px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: 1px; font-weight: 600;
+}
+
+.grid-canvas { position: relative; overflow: visible; background: #fff; }
+
+/* Alignment guide lines */
+.guide-line {
+  position: absolute; pointer-events: none; z-index: 9998;
+  background: #ff4081; opacity: 0.8;
+}
+
+/* === Elements === */
+.el {
+  position: absolute; background: #fff; border: 1px solid #ddd;
+  overflow: visible; padding: 4px; min-width: 60px; min-height: 24px;
+  color: #222; font-size: 12px;
+  word-wrap: break-word; overflow-wrap: break-word;
+}
+.el input, .el textarea, .el [contenteditable] {
+  pointer-events: auto !important;
+  position: relative; z-index: 2;
+  user-select: text;
+  -moz-user-select: text;
+}
+.el:hover { border-color: #aaa; }
+.el.selected { border: 2px solid #4fc3f7; box-shadow: 0 0 6px rgba(79,195,247,0.4); padding: 3px; }
+
+.el-drag-handle {
+  position: absolute; top: 0; left: 0; right: 0; height: 6px;
+  cursor: move; z-index: 5;
+}
+.el-drag-handle:hover { background: rgba(79,195,247,0.15); }
+
+.el-resize-handle {
+  position: absolute; right: 0; bottom: 0; width: 14px; height: 14px;
+  cursor: se-resize; z-index: 5;
+}
+.el-resize-handle::after {
+  content: ''; position: absolute; right: 2px; bottom: 2px;
+  width: 8px; height: 8px;
+  border-right: 2px solid #999; border-bottom: 2px solid #999;
+}
+
+.el-delete-btn {
+  position: absolute; top: -10px; right: -10px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: #e74c3c; color: #fff; border: none;
+  font-size: 13px; line-height: 1; cursor: pointer;
+  opacity: 0; z-index: 10; text-align: center; padding: 0;
+}
+.el:hover .el-delete-btn, .el.selected .el-delete-btn { opacity: 1; }
+
+/* Field */
+.field-wrap { display: flex; align-items: center; gap: 6px; height: 100%; }
+.field-label { font-size: 11px; font-weight: 600; color: #333; white-space: nowrap; min-width: 0; outline: none; cursor: text; }
+.field-input { flex: 1; min-width: 60px; padding: 2px 5px; border: 1px solid #ccc; border-radius: 2px; font-size: 12px; font-family: inherit; background: #fafafa; outline: none; }
+.field-input:focus { border-color: #4fc3f7; background: #fff; }
+
+/* Textarea */
+.el-textarea { width: 100%; height: 100%; resize: none; border: 1px solid #ccc; padding: 6px; font-size: 12px; font-family: inherit; background: #fafafa; border-radius: 2px; outline: none; }
+.el-textarea:focus { border-color: #4fc3f7; background: #fff; }
+
+/* Label */
+.el-label-text { outline: none; cursor: text; font-weight: 700; color: #2c3e50; }
+
+/* Tables */
+.editable-table { width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; }
+.editable-table th {
+  background: #f0f0f0; font-weight: 700; color: #333;
+  border: 1px solid #ccc; padding: 4px 6px;
+  position: relative; text-align: left; outline: none; cursor: text;
+  overflow: hidden; text-overflow: ellipsis;
+}
+.editable-table td {
+  border: 1px solid #ddd; padding: 3px 6px; outline: none; cursor: text;
+  word-wrap: break-word; overflow-wrap: break-word; color: #222;
+}
+.editable-table td:focus, .editable-table th:focus { background: #eef6ff; }
+.editable-table tr:nth-child(even) td { background: #fafafa; }
+
+.col-resize-handle {
+  position: absolute; right: 0; top: 0; bottom: 0;
+  width: 6px; cursor: col-resize; z-index: 6;
+}
+.col-resize-handle:hover { background: rgba(79,195,247,0.3); }
+
+.table-btns {
+  position: absolute; bottom: -20px; left: 0;
+  display: flex; gap: 3px;
+}
+.table-action-btn {
+  padding: 1px 7px; font-size: 10px; background: #e8e8e8;
+  border: 1px solid #ccc; border-radius: 3px; cursor: pointer;
+  color: #555; font-family: inherit;
+}
+.table-action-btn:hover { background: #d0d0d0; }
+
+.row-delete-btn {
+  background: none; border: none; color: #c0392b;
+  font-size: 14px; cursor: pointer; padding: 0 2px; line-height: 1;
+}
+.row-delete-btn:hover { color: #e74c3c; }
+
+/* Properties panel */
+.prop-panel {
+  position: fixed; z-index: 9999;
+  background: #1a1a2e; border: 1px solid var(--accent);
+  border-radius: 6px; padding: 6px 10px;
+  display: flex; gap: 6px; align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+.prop-panel label { font-size: 10px; color: var(--muted); text-transform: uppercase; display: flex; align-items: center; gap: 3px; }
+.prop-panel input[type="number"] { width: 45px; padding: 3px; border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 3px; font-size: 11px; font-family: inherit; }
+.prop-panel input[type="color"] { width: 22px; height: 20px; padding: 0; border: 1px solid var(--border); border-radius: 3px; cursor: pointer; background: none; }
+.prop-panel button {
+  padding: 2px 7px; font-size: 11px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); border-radius: 3px; cursor: pointer; font-family: inherit;
+}
+.prop-panel button:hover { border-color: var(--accent); }
+
+/* Debug */
+#debugPanel { white-space: pre-wrap; user-select: text; }
+
+/* === PRINT - preserves exact positions === */
+@media print {
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { background: #fff !important; margin: 0; padding: 0; }
+  .toolbar, .el-drag-handle, .el-resize-handle, .el-delete-btn,
+  .prop-panel, #debugPanel, .table-btns, .row-delete-btn,
+  .col-resize-handle, .guide-line { display: none !important; }
+  .workspace { padding: 0 !important; gap: 0 !important; }
+  .page-sheet {
+    box-shadow: none !important; border-radius: 0 !important;
+    margin: 0 !important; width: 8.5in !important; height: 11in !important;
+    page-break-after: always; position: relative !important;
+    overflow: hidden !important;
+  }
+  .page-sheet:last-child { page-break-after: avoid; }
+  .page-label { display: none !important; }
+  .grid-canvas {
+    width: 8.5in !important; height: 11in !important;
+    overflow: hidden !important; background: #fff !important;
+    background-image: none !important;
+  }
+  .el {
+    position: absolute !important;
+    border: 1px solid #999 !important;
+    page-break-inside: avoid;
+    color: #000 !important;
+    background: #fff !important;
+  }
+  .el.selected { border: 1px solid #999 !important; box-shadow: none !important; padding: 4px !important; }
+  .editable-table { border-collapse: collapse !important; }
+  .editable-table th,
+  .editable-table td {
+    border: 1px solid #666 !important;
+    color: #000 !important;
+    background: #fff !important;
+    padding: 3px 5px !important;
+  }
+  .editable-table th { background: #e8e8e8 !important; font-weight: 700 !important; }
+  .editable-table tr:nth-child(even) td { background: #f8f8f8 !important; }
+  .field-label { color: #000 !important; }
+  .field-input { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
+  .el-textarea { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
+  .el-label-text { color: #000 !important; }
+  input, textarea { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
+  @page { size: letter; margin: 0; }
+}
