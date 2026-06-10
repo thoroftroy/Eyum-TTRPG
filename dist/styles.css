@@ -313,16 +313,16 @@ body { font-family: var(--font); }
 }
 .cs-overlay input {
   position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
-  background: transparent; color: var(--text); border: none; outline: none;
-  text-align: left;
+  background: transparent; color: #000; border: none; outline: none;
+  text-align: left; caret-color: #000;
 }
 .cs-overlay textarea {
   position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
-  background: transparent; color: var(--text); border: none; outline: none;
-  resize: none; overflow: hidden;
+  background: transparent; color: #000; border: none; outline: none;
+  resize: none; overflow: hidden; caret-color: #000;
 }
 .cs-overlay input:focus, .cs-overlay textarea:focus {
-  background: rgba(122,183,255,.15); border: 1px dashed #7ab7ff; border-radius: 2px;
+  background: rgba(122,183,255,.15); border: 1px dashed #7ab7ff; border-radius: 2px; color: #000;
 }
 .cs-overlay input:hover, .cs-overlay textarea:hover { background: rgba(255,255,255,.03); }
 
