@@ -506,257 +506,152 @@ function getDefaultFile(node) {
   return null;
 }
 
-// ========== CHARACTER SHEET (2.7) ==========
-const CS_KEY = 'eyum-character-sheet';
-const AFFINITY_NAMES = [
-  'Generic','Lightning','Hallowed','Tremor','Thunder','Obsidian',
-  'Fire','Steam','Starlight','Deluge','Mirage','Quake',
-  'Earth','Magma','Cursed','Shatter','Vacuum','Corruption',
-  'Water','Ice/Cold','Ash','Sorrow','Warp','Miasma',
-  'Air','Dust','Blight','Chaos','Storm','Gel',
-  'Radiant','Mud','Poison','Infernal','Frostfire','Atomic',
-  'Necrotic','Nova','Toxin','Metal','Glacial','Eldritch',
-  'Psychic','Solar','Bloodfire','Torrent','Void'
-];
+// ========== CHARACTER SHEET (2.7) - PDF overlay edition ==========
+const CS_KEY = 'eyum-character-sheet-v2';
 
-function getDefaultSheetData() {
-  return {
-    name:'',race:'',background:'',title:'',sex:'',size:'',height:'',weight:'',build:'',age:'',
-    level:'1',inspiration:'0',armorClass:'',initiative:'',speed:'',karma:'',
-    profBonus:'+1',actionPts:'1',bonusActionPts:'1',reactionPts:'1',
-    statPts:'24',skillPts:'5',affPts:'5',
-    str:'8',strMod:'-1',dex:'8',dexMod:'-1',con:'8',conMod:'-1',
-    wis:'8',wisMod:'-1',int:'8',intMod:'-1',cha:'8',chaMod:'-1',
-    vitMax:'',vitCur:'',vitDice:'1d8',
-    hpMax:'',hpCur:'',hpDice:'1d6',
-    mpMax:'',mpCur:'',mpDice:'1d6',
-    meleeDmg:'0',meleeAcc:'0',rangedDmg:'0',rangedAcc:'0',magicDmg:'0',magicAcc:'0',
-    affinities:{},
-    spells:'',
-    strSave:'',athletics:'',conSave:'',dexSave:'',acrobatics:'',sleight:'',stealth:'',
-    wisSave:'',arcana:'',history:'',search:'',situational:'',
-    intSave:'',spot:'',nature:'',religion:'',medicine:'',
-    chaSave:'',deception:'',intimidation:'',performance:'',persuasion:'',socialInsight:'',barter:'',
-    passive1name:'',passive1desc:'',passive1uses:'',
-    passive2name:'',passive2desc:'',passive2uses:'',
-    passive3name:'',passive3desc:'',passive3uses:'',
-    active1name:'',active1desc:'',active1cost:'',active1uses:'',
-    active2name:'',active2desc:'',active2cost:'',active2uses:'',
-    active3name:'',active3desc:'',active3cost:'',active3uses:'',
-    copper:'',silver:'',gold:'',platinum:'',nerite:'',
-    item1name:'',item1desc:'',item1dmg:'',item1val:'',item1qty:'',
-    item2name:'',item2desc:'',item2dmg:'',item2val:'',item2qty:'',
-    item3name:'',item3desc:'',item3dmg:'',item3val:'',item3qty:'',
-    item4name:'',item4desc:'',item4dmg:'',item4val:'',item4qty:'',
-    notes:'',backstory:''
-  };
+const CS_FIELDS_P1 = [
+  ["name",70,37,240,18,"text"],["level",370,37,60,18,"text"],["stp",685,37,60,18,"text"],
+  ["race",62,82,250,18,"text"],["insp",405,217,60,18,"text"],["skp",685,82,60,18,"text"],
+  ["background",105,127,210,18,"text"],["ac",410,82,60,18,"text"],["affp",710,127,60,18,"text"],
+  ["title",72,172,245,18,"text"],["initiative",395,127,60,18,"text"],
+  ["sex",52,217,260,18,"text"],["karma",618,172,60,18,"text"],
+  ["size",55,262,260,18,"text"],["prof_bonus",445,172,60,18,"text"],
+  ["ap",450,284,60,18,"text"],["height",72,307,240,18,"text"],
+  ["bap",475,329,60,18,"text"],["rp",505,374,60,18,"text"],
+  ["weight",75,352,240,18,"text"],["build",62,442,250,18,"text"],["age",55,397,250,18,"text"],
+  ["str_score",740,250,50,18,"text"],["str_mod",860,250,40,18,"text"],
+  ["dex_score",740,276,50,18,"text"],["dex_mod",860,276,40,18,"text"],
+  ["con_score",740,302,50,18,"text"],["con_mod",860,302,40,18,"text"],
+  ["wis_score",740,329,50,18,"text"],["wis_mod",860,329,40,18,"text"],
+  ["int_score",740,355,50,18,"text"],["int_mod",860,355,40,18,"text"],
+  ["cha_score",740,381,50,18,"text"],["cha_mod",860,381,40,18,"text"],
+  ["vit_max",168,520,50,18,"text"],["vit_cur",250,520,50,18,"text"],["vit_dice",330,520,50,18,"text"],
+  ["hp_max",168,546,50,18,"text"],["hp_cur",250,546,50,18,"text"],["hp_dice",330,546,50,18,"text"],
+  ["mp_max",168,572,50,18,"text"],["mp_cur",250,572,50,18,"text"],["mp_dice",330,572,50,18,"text"],
+  ["melee_dmg",475,520,50,18,"text"],["melee_acc",580,520,50,18,"text"],
+  ["ranged_dmg",475,546,50,18,"text"],["ranged_acc",580,546,50,18,"text"],
+  ["magical_dmg",475,572,50,18,"text"],["magical_acc",580,572,50,18,"text"],
+];
+const AFF_COLS = [130,278,426,574,722,870];
+const AFF_ROWS = [689,715,741,767,794,820,846,872];
+const AFF_NAMES = [
+  ['Generic','Lightning','Hallowed','Tremor','Thunder','Obsidian'],
+  ['Fire','Steam','Starlight','Deluge','Mirage','Quake'],
+  ['Earth','Magma','Cursed','Shatter','Vacuum','Corruption'],
+  ['Water','Ice/Cold','Ash','Sorrow','Warp','Miasma'],
+  ['Air','Dust','Blight','Chaos','Storm','Gel'],
+  ['Radiant','Mud','Poison','Infernal','Frostfire','Atomic'],
+  ['Necrotic','Nova','Toxin','Metal','Glacial','Eldritch'],
+  ['Psychic','Solar','Bloodfire','Torrent','Void',''],
+];
+function buildAffFields() {
+  var f = [];
+  for (var ri=0; ri<8; ri++)
+    for (var ci=0; ci<6; ci++)
+      if (AFF_NAMES[ri][ci])
+        f.push(['aff_'+AFF_NAMES[ri][ci], AFF_COLS[ci], AFF_ROWS[ri], 35, 18, 'text']);
+  return f;
 }
+
+const CS_FIELDS_P2 = (function() {
+  var f = [];
+  var ly=[72,98,149,200,227,253,279,330,356,383,409,435], ln=['str_save','athletics','con_save','dex_save','acrobatics','sleight','stealth','wis_save','arcana','history','search','situational'];
+  var ry=[72,98,125,151,177,228,254,281,307,333,359,386], rn=['int_save','spot','nature','religion','medicine','cha_save','deception','intimidation','performance','persuasion','social_insight','barter'];
+  for (var i=0;i<ly.length;i++) { f.push([ln[i]+'_mod',260,ly[i],45,18,'text']); f.push([ln[i]+'_prof',324,ly[i],45,18,'text']); f.push([ln[i]+'_exp',387,ly[i],45,18,'text']); }
+  for (var i=0;i<ry.length;i++) { f.push([rn[i]+'_mod',710,ry[i],45,18,'text']); f.push([rn[i]+'_prof',774,ry[i],45,18,'text']); f.push([rn[i]+'_exp',837,ry[i],45,18,'text']); }
+  for (var i=0;i<3;i++) { var y=778+i*26; f.push(['passive'+(i+1)+'_name',23,y,170,18,'text']); f.push(['passive'+(i+1)+'_desc',206,y,500,18,'text']); f.push(['passive'+(i+1)+'_uses',718,y,170,18,'text']); }
+  for (var i=0;i<3;i++) { var y=870+i*26; f.push(['active'+(i+1)+'_name',23,y,170,18,'text']); f.push(['active'+(i+1)+'_desc',206,y,500,18,'text']); f.push(['active'+(i+1)+'_cost',718,y,70,18,'text']); f.push(['active'+(i+1)+'_uses',800,y,100,18,'text']); }
+  return f;
+})();
+
+const CS_FIELDS_P3 = (function() {
+  var f = [];
+  var cn=['copper','silver','gold','platinum','nerite'], cy=[59,85,111,137,164];
+  for (var i=0;i<5;i++) f.push([cn[i]+'_amt',150,cy[i],55,18,'text']);
+  for (var i=0;i<4;i++) { var y=272+i*26; f.push(['item'+(i+1)+'_name',34,y,190,18,'text']); f.push(['item'+(i+1)+'_desc',232,y,360,18,'text']); f.push(['item'+(i+1)+'_dmg',603,y,80,18,'text']); f.push(['item'+(i+1)+'_val',702,y,80,18,'text']); f.push(['item'+(i+1)+'_qty',801,y,80,18,'text']); }
+  f.push(['notes_text',26,660,400,200,'textarea']);
+  f.push(['backstory_text',668,660,220,400,'textarea']);
+  return f;
+})();
 
 function loadSheetData() {
   try {
-    const saved = JSON.parse(localStorage.getItem(CS_KEY));
-    if (saved && typeof saved === 'object') {
-      const defaults = getDefaultSheetData();
-      for (const k in defaults) {
-        if (saved[k] === undefined) saved[k] = defaults[k];
-      }
-      if (!saved.affinities || typeof saved.affinities !== 'object') saved.affinities = {};
-      return saved;
-    }
+    var d = JSON.parse(localStorage.getItem(CS_KEY));
+    if (d && typeof d === 'object') return d;
   } catch(e) {}
-  return getDefaultSheetData();
+  return {};
 }
-
 function saveSheetData() {
-  const data = {};
-  document.querySelectorAll('.char-sheet input, .char-sheet textarea').forEach(function(el) {
-    const name = el.getAttribute('data-cs');
-    if (!name) return;
-    if (name.startsWith('aff_')) {
-      if (!data.affinities) data.affinities = {};
-      data.affinities[name.slice(4)] = el.value;
+  var d = loadSheetData();
+  document.querySelectorAll('.cs-overlay input, .cs-overlay textarea').forEach(function(el) {
+    var n = el.getAttribute('data-cs');
+    if (n) d[n] = el.value;
+  });
+  localStorage.setItem(CS_KEY, JSON.stringify(d));
+  var el = document.getElementById('csSaved');
+  if (el) { el.classList.add('visible'); clearTimeout(el._ht); el._ht = setTimeout(function(){ el.classList.remove('visible'); }, 2000); }
+}
+var _csTimer = null;
+function autoSave() { clearTimeout(_csTimer); _csTimer = setTimeout(saveSheetData, 300); }
+
+function buildOverlayHTML(fields, W, H) {
+  var h = '';
+  fields.forEach(function(f) {
+    var name=f[0],x=f[1],y=f[2],w=f[3],fh=f[4],type=f[5];
+    var lp=(x/W*100),tp=(y/H*100),wp=(w/W*100),hp=(fh/H*100);
+    if (type==='textarea') {
+      h += '<textarea data-cs="'+name+'" oninput="autoSave()" style="position:absolute;left:'+lp.toFixed(2)+'%;top:'+tp.toFixed(2)+'%;width:'+wp.toFixed(2)+'%;height:'+hp.toFixed(2)+'%;"></textarea>';
     } else {
-      data[name] = el.value;
+      h += '<input data-cs="'+name+'" oninput="autoSave()" style="position:absolute;left:'+lp.toFixed(2)+'%;top:'+tp.toFixed(2)+'%;width:'+wp.toFixed(2)+'%;height:'+hp.toFixed(2)+'%;">';
     }
   });
-
-  const saved = loadSheetData();
-  for (const k in saved) {
-    if (data[k] === undefined) data[k] = saved[k];
-  }
-
-  localStorage.setItem(CS_KEY, JSON.stringify(data));
-  showSavedIndicator();
+  return h;
 }
 
-let saveTimer = null;
-function autoSave() {
-  clearTimeout(saveTimer);
-  saveTimer = setTimeout(saveSheetData, 300);
-}
-
-function showSavedIndicator() {
-  const el = document.getElementById('csSaved');
-  if (!el) return;
-  el.classList.add('visible');
-  clearTimeout(el._hideTimer);
-  el._hideTimer = setTimeout(function() { el.classList.remove('visible'); }, 2000);
-}
-
-function input_cs(name, value, cls, type) {
-  type = type || 'text';
-  cls = cls || '';
-  return '<input type="'+type+'" data-cs="'+name+'" value="'+value.replace(/"/g,'&quot;')+'" class="'+cls+'" oninput="autoSave()">';
-}
-
-function textarea_cs(name, value) {
-  return '<textarea data-cs="'+name+'" oninput="autoSave()">'+value.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</textarea>';
+function populateFields() {
+  var d = loadSheetData();
+  document.querySelectorAll('.cs-overlay input, .cs-overlay textarea').forEach(function(el) {
+    var n = el.getAttribute('data-cs');
+    if (d[n] !== undefined) el.value = d[n];
+  });
 }
 
 function renderCharacterSheet() {
-  const d = loadSheetData();
+  var W=918, H=1188;
+  var allP1 = CS_FIELDS_P1.concat(buildAffFields());
+  allP1.push(['spells',26,970,870,100,'textarea']);
+  allP1.push(['notes_p1',680,465,200,120,'textarea']);
 
-  let html = '<div class="char-sheet-container">';
-  html += '<div class="char-sheet-header">';
-  html += '<h1>Character Reference</h1>';
-  html += '<div class="btn-row">';
+  var html = '<div class="cs-toolbar">';
+  html += '<h2>Character Reference</h2>';
+  html += '<div class="cs-btns">';
   html += '<a href="./character-sheet.pdf" download class="char-sheet-btn download">Download Blank PDF</a>';
-  html += '<button class="char-sheet-btn" onclick="window.print()">Print Sheet</button>';
+  html += '<button class="char-sheet-btn" onclick="window.print()">Print Filled Sheet</button>';
   html += '<button class="char-sheet-btn" onclick="clearSheet()">Clear All</button>';
   html += '<span class="char-sheet-saved" id="csSaved">Saved</span>';
   html += '</div></div>';
 
-  html += '<div class="char-sheet">';
+  html += '<div class="cs-pages">';
 
-  // --- Character Info ---
-  html += '<div class="section-title">Character Information</div>';
-  html += '<table><colgroup><col style="width:14%"><col style="width:19%"><col style="width:14%"><col style="width:19%"><col style="width:14%"><col style="width:20%"></colgroup>';
-  html += '<tr><td class="label-cell">Name</td><td>'+input_cs('name',d.name)+'</td><td class="label-cell">Level</td><td>'+input_cs('level',d.level,'narrow')+'</td><td class="label-cell">Stat Pts</td><td>'+input_cs('statPts',d.statPts,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Race</td><td>'+input_cs('race',d.race)+'</td><td class="label-cell">Inspiration</td><td>'+input_cs('inspiration',d.inspiration,'narrow')+'</td><td class="label-cell">Skill Pts</td><td>'+input_cs('skillPts',d.skillPts,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Background</td><td>'+input_cs('background',d.background)+'</td><td class="label-cell">Armor Class</td><td>'+input_cs('armorClass',d.armorClass,'narrow')+'</td><td class="label-cell">Affinity Pts</td><td>'+input_cs('affPts',d.affPts,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Title(s)</td><td>'+input_cs('title',d.title)+'</td><td class="label-cell">Initiative</td><td>'+input_cs('initiative',d.initiative,'narrow')+'</td><td rowspan="7" style="vertical-align:top;padding:8px;">';
-  html += '<table style="width:100%"><tr><th>Stat</th><th>Score</th><th>Mod</th></tr>';
-  html += '<tr><td class="label-cell">Strength</td><td>'+input_cs('str',d.str,'score')+'</td><td>'+input_cs('strMod',d.strMod,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Dexterity</td><td>'+input_cs('dex',d.dex,'score')+'</td><td>'+input_cs('dexMod',d.dexMod,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Constitution</td><td>'+input_cs('con',d.con,'score')+'</td><td>'+input_cs('conMod',d.conMod,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Wisdom</td><td>'+input_cs('wis',d.wis,'score')+'</td><td>'+input_cs('wisMod',d.wisMod,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Intelligence</td><td>'+input_cs('int',d.int,'score')+'</td><td>'+input_cs('intMod',d.intMod,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Charisma</td><td>'+input_cs('cha',d.cha,'score')+'</td><td>'+input_cs('chaMod',d.chaMod,'narrow')+'</td></tr>';
-  html += '</table></td></tr>';
-  html += '<tr><td class="label-cell">Sex</td><td>'+input_cs('sex',d.sex)+'</td><td class="label-cell">Speed</td><td>'+input_cs('speed',d.speed,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Size</td><td>'+input_cs('size',d.size)+'</td><td class="label-cell">Prof Bonus</td><td>'+input_cs('profBonus',d.profBonus,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Height</td><td>'+input_cs('height',d.height)+'</td><td class="label-cell">Action Pts</td><td>'+input_cs('actionPts',d.actionPts,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Weight</td><td>'+input_cs('weight',d.weight)+'</td><td class="label-cell">Bonus Action</td><td>'+input_cs('bonusActionPts',d.bonusActionPts,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Build</td><td>'+input_cs('build',d.build)+'</td><td class="label-cell">Reaction Pts</td><td>'+input_cs('reactionPts',d.reactionPts,'narrow')+'</td></tr>';
-  html += '<tr><td class="label-cell">Age</td><td>'+input_cs('age',d.age)+'</td><td class="label-cell">Karma</td><td>'+input_cs('karma',d.karma,'narrow')+'</td></tr>';
-  html += '</table>';
-
-  // --- Pools & Combat ---
-  html += '<div class="section-title">Pools &amp; Combat</div>';
-  html += '<table>';
-  html += '<tr><th></th><th>Max</th><th>Current</th><th>Dice</th><th></th><th></th><th>Base Dmg</th><th>Base Acc</th></tr>';
-  html += '<tr><td class="label-cell">Vitality</td><td>'+input_cs('vitMax',d.vitMax,'med')+'</td><td>'+input_cs('vitCur',d.vitCur,'med')+'</td><td>'+input_cs('vitDice',d.vitDice,'med')+'</td><td class="label-cell">Melee</td><td></td><td>'+input_cs('meleeDmg',d.meleeDmg,'med')+'</td><td>'+input_cs('meleeAcc',d.meleeAcc,'med')+'</td></tr>';
-  html += '<tr><td class="label-cell">Health</td><td>'+input_cs('hpMax',d.hpMax,'med')+'</td><td>'+input_cs('hpCur',d.hpCur,'med')+'</td><td>'+input_cs('hpDice',d.hpDice,'med')+'</td><td class="label-cell">Ranged</td><td></td><td>'+input_cs('rangedDmg',d.rangedDmg,'med')+'</td><td>'+input_cs('rangedAcc',d.rangedAcc,'med')+'</td></tr>';
-  html += '<tr><td class="label-cell">Mana</td><td>'+input_cs('mpMax',d.mpMax,'med')+'</td><td>'+input_cs('mpCur',d.mpCur,'med')+'</td><td>'+input_cs('mpDice',d.mpDice,'med')+'</td><td class="label-cell">Magical</td><td></td><td>'+input_cs('magicDmg',d.magicDmg,'med')+'</td><td>'+input_cs('magicAcc',d.magicAcc,'med')+'</td></tr>';
-  html += '</table>';
-
-  // --- Affinities ---
-  html += '<div class="section-title">Affinities</div>';
-  html += '<div class="aff-grid">';
-  AFFINITY_NAMES.forEach(function(name) {
-    html += '<div class="aff-pair"><input type="text" value="'+name+'" readonly style="font-size:10px;opacity:.6;cursor:default;">'+input_cs('aff_'+name, d.affinities[name]||'', 'med', 'number')+'</div>';
-  });
-  html += '</div>';
-
-  // --- Skills ---
-  html += '<div class="section-title">Skills</div>';
-  html += '<div class="two-col"><div><table>';
-  html += '<tr><th>Skill</th><th>Mod</th><th>Prof</th><th>Exp</th></tr>';
-  html += '<tr class="skill-cat"><td colspan="4">Strength</td></tr>';
-  html += '<tr class="skill-sub"><td>Str Saving Throw</td><td>'+input_cs('strSave',d.strSave,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Athletics</td><td>'+input_cs('athletics',d.athletics,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-cat"><td colspan="4">Constitution</td></tr>';
-  html += '<tr class="skill-sub"><td>Con Saving Throw</td><td>'+input_cs('conSave',d.conSave,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-cat"><td colspan="4">Dexterity</td></tr>';
-  html += '<tr class="skill-sub"><td>Dex Saving Throw</td><td>'+input_cs('dexSave',d.dexSave,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Acrobatics</td><td>'+input_cs('acrobatics',d.acrobatics,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Sleight of Hand</td><td>'+input_cs('sleight',d.sleight,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Stealth</td><td>'+input_cs('stealth',d.stealth,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-cat"><td colspan="4">Wisdom</td></tr>';
-  html += '<tr class="skill-sub"><td>Wis Saving Throw</td><td>'+input_cs('wisSave',d.wisSave,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Arcana</td><td>'+input_cs('arcana',d.arcana,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>History</td><td>'+input_cs('history',d.history,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Search</td><td>'+input_cs('search',d.search,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Situational Insight</td><td>'+input_cs('situational',d.situational,'med')+'</td><td></td><td></td></tr>';
-  html += '</table></div><div><table>';
-  html += '<tr><th>Skill</th><th>Mod</th><th>Prof</th><th>Exp</th></tr>';
-  html += '<tr class="skill-cat"><td colspan="4">Intelligence</td></tr>';
-  html += '<tr class="skill-sub"><td>Int Saving Throw</td><td>'+input_cs('intSave',d.intSave,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Spot</td><td>'+input_cs('spot',d.spot,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Nature</td><td>'+input_cs('nature',d.nature,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Religion</td><td>'+input_cs('religion',d.religion,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Medicine</td><td>'+input_cs('medicine',d.medicine,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-cat"><td colspan="4">Charisma</td></tr>';
-  html += '<tr class="skill-sub"><td>Char Saving Throw</td><td>'+input_cs('chaSave',d.chaSave,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Deception</td><td>'+input_cs('deception',d.deception,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Intimidation</td><td>'+input_cs('intimidation',d.intimidation,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Performance</td><td>'+input_cs('performance',d.performance,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Persuasion</td><td>'+input_cs('persuasion',d.persuasion,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Social Insight</td><td>'+input_cs('socialInsight',d.socialInsight,'med')+'</td><td></td><td></td></tr>';
-  html += '<tr class="skill-sub"><td>Barter</td><td>'+input_cs('barter',d.barter,'med')+'</td><td></td><td></td></tr>';
-  html += '</table>';
-  html += '<table class="cost-table" style="margin-top:10px;">';
-  html += '<tr><th>Range</th><th>Norm</th><th>Prof</th><th>Exp</th></tr>';
-  ['1-3|1|1|1','4-6|3|1|1','7-9|6|2|1','10-12|9|4|2','13-15|12|6|3','16-18|15|8|4','19-20|18|10|5','21+|50|25|10'].forEach(function(r){ var c=r.split('|'); html += '<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[2]+'</td><td>'+c[3]+'</td></tr>'; });
-  html += '</table></div></div>';
-
-  // --- Passive Abilities ---
-  html += '<div class="section-title">Passive Abilities</div>';
-  html += '<table><tr><th>Name</th><th>Description</th><th>Uses / Recharge</th></tr>';
-  for (var i=1; i<=3; i++) {
-    html += '<tr><td>'+input_cs('passive'+i+'name',d['passive'+i+'name'])+'</td><td>'+input_cs('passive'+i+'desc',d['passive'+i+'desc'])+'</td><td>'+input_cs('passive'+i+'uses',d['passive'+i+'uses'])+'</td></tr>';
-  }
-  html += '</table>';
-
-  // --- Active Abilities ---
-  html += '<div class="section-title">Active Abilities</div>';
-  html += '<table><tr><th>Name</th><th>Description</th><th>Cost</th><th>Uses / Recharge</th></tr>';
-  for (var i=1; i<=3; i++) {
-    html += '<tr><td>'+input_cs('active'+i+'name',d['active'+i+'name'])+'</td><td>'+input_cs('active'+i+'desc',d['active'+i+'desc'])+'</td><td>'+input_cs('active'+i+'cost',d['active'+i+'cost'])+'</td><td>'+input_cs('active'+i+'uses',d['active'+i+'uses'])+'</td></tr>';
-  }
-  html += '</table>';
-
-  // --- Inventory ---
-  html += '<div class="section-title">Inventory &amp; Currency</div>';
-  html += '<div class="two-col"><div><table>';
-  html += '<tr><th>Coin</th><th>Amount</th><th>Conv</th><th>Reference</th></tr>';
-  html += '<tr><td class="label-cell">Copper</td><td>'+input_cs('copper',d.copper,'med')+'</td><td>100</td><td>1 Cent</td></tr>';
-  html += '<tr><td class="label-cell">Silver</td><td>'+input_cs('silver',d.silver,'med')+'</td><td>100</td><td>1 Dollar</td></tr>';
-  html += '<tr><td class="label-cell">Gold</td><td>'+input_cs('gold',d.gold,'med')+'</td><td>10</td><td>100 Dollars</td></tr>';
-  html += '<tr><td class="label-cell">Platinum</td><td>'+input_cs('platinum',d.platinum,'med')+'</td><td>10</td><td>1000 Dollars</td></tr>';
-  html += '<tr><td class="label-cell">Nerite</td><td>'+input_cs('nerite',d.nerite,'med')+'</td><td>\u2014</td><td>10000 Dollars</td></tr>';
-  html += '</table></div><div><table>';
-  html += '<tr><th>Item</th><th>Description</th><th>Dmg</th><th>Val</th><th>Qty</th></tr>';
-  for (var i=1; i<=4; i++) {
-    html += '<tr><td>'+input_cs('item'+i+'name',d['item'+i+'name'])+'</td><td>'+input_cs('item'+i+'desc',d['item'+i+'desc'])+'</td><td>'+input_cs('item'+i+'dmg',d['item'+i+'dmg'],'med')+'</td><td>'+input_cs('item'+i+'val',d['item'+i+'val'],'med')+'</td><td>'+input_cs('item'+i+'qty',d['item'+i+'qty'],'med')+'</td></tr>';
-  }
-  html += '</table></div></div>';
-
-  // --- Spells ---
-  html += '<div class="section-title">Spells</div>';
-  html += textarea_cs('spells', d.spells);
-
-  // --- Notes ---
-  html += '<div class="section-title">Other Information / Notes</div>';
-  html += textarea_cs('notes', d.notes);
-
-  // --- Backstory ---
-  html += '<div class="section-title">Backstory</div>';
-  html += textarea_cs('backstory', d.backstory);
-
+  // Page 1
+  html += '<div class="cs-page"><div class="cs-overlay" style="background-image:url(./cs_page-1.png);">';
+  html += buildOverlayHTML(allP1, W, H);
   html += '</div></div>';
 
+  // Page 2
+  html += '<div class="cs-page"><div class="cs-overlay" style="background-image:url(./cs_page-2.png);">';
+  html += buildOverlayHTML(CS_FIELDS_P2, W, H);
+  html += '</div></div>';
+
+  // Page 3
+  html += '<div class="cs-page"><div class="cs-overlay" style="background-image:url(./cs_page-3.png);">';
+  html += buildOverlayHTML(CS_FIELDS_P3, W, H);
+  html += '</div></div>';
+
+  html += '</div>';
+
   els.content.innerHTML = html;
+  populateFields();
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
 

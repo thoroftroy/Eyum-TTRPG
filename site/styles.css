@@ -284,37 +284,19 @@ body { font-family: var(--font); }
 }
 
 
-/* === Character Sheet (2.7) === */
-.char-sheet-container {
-  max-width: 100%;
-  padding: 0;
-  margin: 0;
+/* === Character Sheet (2.7) PDF overlay === */
+.cs-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px; margin-bottom: 16px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--border);
 }
-.char-sheet-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--border);
-}
-.char-sheet-header h1 { margin: 0; font-size: 22px; }
-.char-sheet-header .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.cs-toolbar h2 { margin: 0; font-size: 20px; }
+.cs-btns { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .char-sheet-btn {
-  padding: 8px 16px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--panel-2);
-  color: var(--text);
-  cursor: pointer;
-  font-size: 13px;
-  font-family: inherit;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  padding: 7px 14px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--panel-2); color: var(--text); cursor: pointer;
+  font-size: 13px; font-family: inherit; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 6px;
 }
 .char-sheet-btn:hover { background: rgba(255,255,255,.1); border-color: #7ab7ff; }
 .char-sheet-btn.download { background: #7ab7ff; color: #000; border-color: #7ab7ff; font-weight: 600; }
@@ -322,93 +304,45 @@ body { font-family: var(--font); }
 .char-sheet-saved { font-size: 12px; color: #4caf50; opacity: 0; transition: opacity .2s; }
 .char-sheet-saved.visible { opacity: 1; }
 
-.char-sheet { display: flex; flex-direction: column; gap: 14px; }
-.char-sheet table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 0; }
-.char-sheet th {
+.cs-pages { display: flex; flex-direction: column; gap: 20px; align-items: center; }
+.cs-page { width: 100%; max-width: 800px; }
+.cs-overlay {
+  position: relative; width: 100%; aspect-ratio: 918 / 1188;
+  background-size: 100% 100%; background-repeat: no-repeat;
   border: 1px solid var(--border);
-  padding: 6px 8px;
+}
+.cs-overlay input {
+  position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
+  background: transparent; color: var(--text); border: none; outline: none;
   text-align: left;
-  background: var(--panel-2);
-  font-weight: 600;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  color: var(--muted);
 }
-.char-sheet td {
-  border: 1px solid var(--border);
-  padding: 4px 6px;
-  vertical-align: top;
+.cs-overlay textarea {
+  position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
+  background: transparent; color: var(--text); border: none; outline: none;
+  resize: none; overflow: hidden;
 }
-.char-sheet td.label-cell {
-  font-weight: 600;
-  font-size: 12px;
-  white-space: nowrap;
-  width: 1%;
-  background: rgba(255,255,255,.02);
+.cs-overlay input:focus, .cs-overlay textarea:focus {
+  background: rgba(122,183,255,.15); border: 1px dashed #7ab7ff; border-radius: 2px;
 }
-.char-sheet input, .char-sheet textarea {
-  width: 100%;
-  padding: 5px 7px;
-  border: 1px solid transparent;
-  border-radius: 3px;
-  background: rgba(255,255,255,.04);
-  color: var(--text);
-  font-size: 13px;
-  font-family: inherit;
-  outline: none;
-  transition: border-color .15s, background .15s;
-}
-.char-sheet input:hover, .char-sheet textarea:hover { border-color: var(--border); }
-.char-sheet input:focus, .char-sheet textarea:focus {
-  border-color: #7ab7ff;
-  background: rgba(122,183,255,.08);
-}
-.char-sheet input.narrow { width: 50px; text-align: center; }
-.char-sheet input.med { width: 70px; text-align: center; }
-.char-sheet input.score { font-size: 16px; font-weight: 700; text-align: center; }
-.char-sheet textarea {
-  resize: vertical;
-  min-height: 60px;
-}
-.char-sheet .section-title {
-  font-size: 14px;
-  font-weight: 700;
-  margin: 12px 0 6px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid var(--border);
-  color: #7ab7ff;
-}
-.char-sheet .aff-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; }
-.char-sheet .aff-pair { display: flex; gap: 2px; align-items: center; }
-.char-sheet .aff-pair input[type="text"] { flex: 1; font-size: 11px; padding: 4px; min-width: 0; }
-.char-sheet .aff-pair input[type="number"] { width: 32px; text-align: center; font-size: 12px; font-weight: 600; padding: 4px; }
-.char-sheet .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.char-sheet .skill-cat { font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--link); }
-.char-sheet .skill-sub { padding-left: 16px; }
-.char-sheet .skill-sub td { font-size: 12px; }
-.char-sheet .cost-table td { text-align: center; }
-.char-sheet .cost-table td:first-child { text-align: left; font-weight: 600; }
+.cs-overlay input:hover, .cs-overlay textarea:hover { background: rgba(255,255,255,.03); }
 
 @media print {
   body { background: #fff !important; color: #000 !important; }
-  .sidebar, .toolbar, .graph-toggle, .graph-panel, .char-sheet-header .btn-row,
-  .char-sheet-saved, #mobileSidebar, #toggleSidebar { display: none !important; }
+  .sidebar, .toolbar, .graph-toggle, .graph-panel, .cs-toolbar,
+  #mobileSidebar, #toggleSidebar, .char-sheet-saved { display: none !important; }
   .app { display: block !important; }
   .main { max-width: 100% !important; }
-  .content { max-width: 100% !important; padding: 0 !important; }
-  .char-sheet input, .char-sheet textarea {
-    border: 1px solid #ccc !important;
-    background: #fff !important;
-    color: #000 !important;
+  .content { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+  .cs-pages { gap: 0 !important; }
+  .cs-page { max-width: 100% !important; page-break-after: always; }
+  .cs-page:last-child { page-break-after: avoid; }
+  .cs-overlay { border: none !important; }
+  .cs-overlay input, .cs-overlay textarea {
+    background: transparent !important; color: #000 !important;
+    border: none !important;
   }
-  .char-sheet th {
-    background: #eee !important;
-    color: #000 !important;
-    border-color: #999 !important;
+  .cs-overlay input:focus, .cs-overlay textarea:focus {
+    background: transparent !important; border: none !important;
   }
-  .char-sheet td { border-color: #ccc !important; }
-  .char-sheet .section-title { color: #000 !important; border-color: #999 !important; }
-  .char-sheet .skill-cat { color: #000 !important; }
   @page { size: letter; margin: 10mm; }
 }
