@@ -310,6 +310,8 @@ body { font-family: var(--font); }
   position: relative; width: 100%; aspect-ratio: 918 / 1188;
   background-size: 100% 100%; background-repeat: no-repeat;
   border: 1px solid var(--border);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 .cs-overlay input {
   position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
@@ -327,6 +329,7 @@ body { font-family: var(--font); }
 .cs-overlay input:hover, .cs-overlay textarea:hover { background: rgba(255,255,255,.03); }
 
 @media print {
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { background: #fff !important; color: #000 !important; }
   .sidebar, .toolbar, .graph-toggle, .graph-panel, .cs-toolbar,
   #mobileSidebar, #toggleSidebar, .char-sheet-saved { display: none !important; }
