@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eyum TTRPG/2.0 Reference Tables/2.7 Character Reference.md",
+                "file": "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/Monster Planner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.7 Character Reference"
+              "title": "Monster Planner"
+            }
+          },
+          {
+            "id": "460bcc430376f576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Unique Monsters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.3.6 Unique Monsters"
+            }
+          },
+          {
+            "id": "a9d8fa7af0d828f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.6 Materials"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,8 +212,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "291366f7d5640838",
+  "active": "a9d8fa7af0d828f6",
   "lastOpenFiles": [
+    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Unique Monsters.md",
+    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/Monster Planner.md",
+    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Chimera.md",
+    "Eyum TTRPG/0.0 In Progress/0.2 TODO.md",
+    "Eyum TTRPG/2.0 Reference Tables/2.7 Character Reference.md",
     "site/cs_page-3.png",
     "site/cs_page-2.png",
     "site/cs_page-1.png",
@@ -193,7 +227,6 @@
     "dist/cs_page-1.png",
     "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
     "site/character-sheet.pdf",
-    "Eyum TTRPG/2.0 Reference Tables/2.7 Character Reference.md",
     "dist/character-sheet.pdf",
     "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
     "Eyum TTRPG/2.0 Reference Tables/Eyum Character Sheet.pdf",
@@ -212,7 +245,6 @@
     "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
     "Eyum TTRPG/6.0 Magic/6.2 Runes.md",
     "Eyum TTRPG/3.0 Character Management/3.2 Character Information.md",
-    "Eyum TTRPG/0.0 In Progress/0.2 TODO.md",
     "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
     "Eyum TTRPG/1.0 The basics/1.6 Other Rules.md",
     "Eyum TTRPG/0.0 In Progress/0.1 Glossary.md",
@@ -224,12 +256,9 @@
     "Eyum TTRPG/Character Manager/Real Test Character.md",
     "Eyum TTRPG/2.0 Reference Tables/2.1 Affinities.md",
     "Eyum TTRPG/4.0 Races/Demon and Subraces.md",
-    "Eyum TTRPG/4.0 Races/4.1 Races.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.3 Injuries.md",
     "assets/Draugir.jpg",
     "assets/Dryad.jpg",
     "assets/Nymph.jpg",
-    "assets/Siren.jpg",
-    "assets/Dwarf.jpg"
+    "assets/Siren.jpg"
   ]
 }
