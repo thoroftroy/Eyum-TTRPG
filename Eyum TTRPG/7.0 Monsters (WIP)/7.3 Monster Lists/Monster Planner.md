@@ -1,9 +1,7 @@
 
 ### Unique Monsters
 - Phoenix, fire bird which can resurrect itself 
-- Basilisk, giant lizard creature which can paralyze creatures by looking at them. Very powerful
 - Unicorn, horse with a horn, supposedly magical and friendly, has a variant with wings called a Pegasus
-- Hydra, special dragon like creature with many heads, it cannot fly, each time you kill it it just comes back with another head and half of its health, you must kill it in one hit for it to actually die
 - Banshee, a ghost like creature who's scream can kill
 - Gashadokuro, a humanoid skeletal giant
 - Aboleth, large tentacled fish like creature with 3 eyes
