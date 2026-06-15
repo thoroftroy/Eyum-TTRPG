@@ -54,7 +54,7 @@
 	- 7.3.5 Monstrosities
 
 
-Current Handbook Version: v3.22.0
+Current Handbook Version: v3.22.1
 
 > Major version (#).#.# indicates how many major overhauls have taken place.
 > Medium version #.(#).# indicates how many times a large edit has been made which impacts the actual functionality of the system. This number resets each time the Major version number increases. 
