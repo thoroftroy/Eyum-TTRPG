@@ -42,6 +42,7 @@
 #### 6.0 Magic
 - [[6.1 Spells]]
 - [[6.2 Runes]]
+- [[6.3 Alchemy]]
 #### 7.0 Monsters (WIP)
 - [[7.1 Monsters]]
 - [[7.2 Passives and Actives List]]
