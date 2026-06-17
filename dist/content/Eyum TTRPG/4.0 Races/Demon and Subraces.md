@@ -10,15 +10,15 @@
 | Sylphamare | Huge   | 6'0" – 8'2"  | 260 – 620 lb | 200 – 300 years  | 60               |
 | Varkuun    | Medium | 5'4" – 7'1"  | 170 – 390 lb | 95 – 142 years   | 29               |
 
-| Race       | Speed        | Negative Affinities    | Neutral Affinities                  | Positive Affinities     | Stat Bonuses                  |
-| ---------- | ------------ | ---------------------- | ----------------------------------- | ----------------------- | ----------------------------- |
-| Demon      | 30           | Radiant, Cold          | Generic, Earth, Water, Air, Psychic | Fire, Necrotic          | +3 STR, +2 CON, +1 AC         |
-| Ferramite  | 30, climb 30 | Radiant, Psychic, Cold | Generic, Earth, Air                 | Fire, Necrotic, Water   | +3 STR, +1 CON, -1 CHA, +3 AC |
-| Pyrrakin   | 35, climb 30 | Radiant, Water, Cold   | Generic, Earth, Air, Psychic        | Fire                    | +2 DEX, +1 STR, +1 AC         |
-| Drakari    | 30, climb 20 | Radiant, Psychic, Cold | Generic, Earth, Water               | Fire, Air, Necrotic     | +2 STR, +1 CON, +1 AC         |
-| Cinderkin  | 30           | Water, Radiant, Cold   | Generic, Earth, Air, Psychic        | Fire, Necrotic          | +2 CHA, +1 INT                |
-| Sylphamare | 25           | Air, Psychic, Cold     | Generic, Earth, Water, Necrotic     | Fire, Radiant           | +3 WIS, +2 INT, -2 DEX, +1 AC |
-| Varkuun    | 30, climb 20 | Radiant, Cold          | Generic, Earth, Water, Air          | Fire, Necrotic, Psychic | +2 STR, +1 CHA, +1 AC         |
+| Race       | Speed        | Negative Affinities    | Neutral Affinities                     | Positive Affinities     | Stat Bonuses                  |
+| ---------- | ------------ | ---------------------- | -------------------------------------- | ----------------------- | ----------------------------- |
+| Demon      | 30           | Radiant, Cold          | Generic, Earth, Water, Air, Psychic    | Fire, Necrotic          | +3 STR, +2 CON, +1 AC         |
+| Ferramite  | 30, climb 30 | Radiant, Psychic, Cold | Generic, Earth, Air                    | Fire, Necrotic, Water   | +3 STR, +1 CON, -1 CHA, +3 AC |
+| Pyrrakin   | 35, climb 30 | Radiant, Water, Cold   | Generic, Earth, Air, Psychic, Necrotic | Fire                    | +2 DEX, +1 STR, +1 AC         |
+| Drakari    | 30, climb 20 | Radiant, Psychic, Cold | Generic, Earth, Water                  | Fire, Air, Necrotic     | +2 STR, +1 CON, +1 AC         |
+| Cinderkin  | 30           | Water, Radiant, Cold   | Generic, Earth, Air, Psychic           | Fire, Necrotic          | +2 CHA, +1 INT                |
+| Sylphamare | 25           | Air, Psychic, Cold     | Generic, Earth, Water, Necrotic        | Fire, Radiant           | +3 WIS, +2 INT, -2 DEX, +1 AC |
+| Varkuun    | 30, climb 20 | Radiant, Cold          | Generic, Earth, Water, Air             | Fire, Necrotic, Psychic | +2 STR, +1 CHA, +1 AC         |
 ## Demon
 Demons follow a humanoid body plan but with heavy predatory traits that make the human shape feel secondary. The skeleton is tall and rigid through the chest, with broad shoulders, a thick spine, and joints that look slightly overbuilt. The head is usually larger than human average with a heavier brow ridge, a stronger jaw, and cheekbones that sit high and sharp. Horns rise from the skull in many forms, straight, swept back, curled, forked, or uneven, and their bases look fused to the bone, not like surface growth. A tail extends from the lower spine. It is muscular, flexible, and often ends in a hard tip, ridge, or spade-like shape.
 

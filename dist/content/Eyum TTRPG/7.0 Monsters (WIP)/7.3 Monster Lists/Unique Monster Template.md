@@ -1,0 +1,18 @@
+# MonsterName (Type (Monstrosity, Sprite, etc))
+(quick description to show what the monster is like for editing) Detailed Physical Description, how they behave, what they gain per level, how they breed, what they drop etc
+###### Any unique abilities if any (if not skip)
+- **AbilityActive (Active, # Mana):** Descirption
+- **AbilityPassive (Passive):** Descirption
+
+### Statblock/Growth Table/Harvestable Materials for MonsterName
+| Name | DR  | AC  | Speed | Type | Affinity | Gen Dmg Mod | Resistance | Weakness | Vitality | Health | Mana | Stats (STR/CON/DEX/WIS/INT/CHA) | Passives | Actives |
+| ---- | --- | --- | ----- | ---- | -------- | ----------- | ---------- | -------- | -------- | ------ | ---- | ------------------------------- | -------- | ------- |
+|      |     |     |       |      |          |             |            |          |          |        |      |                                 |          |         |
+
+| Name | Size | Max Lvl | Base Wt | Wt/Lvl | Max Wt | Base Lgth | Lgth/Lvl | Max Lgth | Base Wing | Wing/Lvl | Max Wing |
+| ---- | ---- | ------- | ------- | ------ | ------ | --------- | -------- | -------- | --------- | -------- | -------- |
+|      |      |         |         |        |        |           |          |          |           |          |          |
+
+| Name | Eggs | Hide | Meat | Feathers | Claws | Teeth | Horns | Unique Materials |
+| ---- | ---- | ---- | ---- | -------- | ----- | ----- | ----- | ---------------- |
+|      |      |      |      |          |       |       |       |                  |

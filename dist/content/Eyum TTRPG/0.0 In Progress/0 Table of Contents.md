@@ -42,14 +42,20 @@
 #### 6.0 Magic
 - [[6.1 Spells]]
 - [[6.2 Runes]]
+- [[6.3 Alchemy]]
 #### 7.0 Monsters (WIP)
 - [[7.1 Monsters]]
 - [[7.2 Passives and Actives List]]
 - 7.3 Monster Lists
-	- [[Monster Planner]]
-	- [[7.3.1.1 Slimes]]
-	- [[7.3.1.2 Golems]]
-	- [[7.3.1.3 Dragons]]
-	- [[7.3.2.1 Chimera]]
-	- [[7.3.5 Monster Modifiers]]
-	- [[Unique Monster Template]]
+	- 7.3.1 Elemental
+	- 7.3.2 Animal
+	- 7.3.3 Undead
+	- 7.3.4 Aquatic
+	- 7.3.5 Monstrosities
+
+
+Current Handbook Version: v3.24.0
+
+> Major version (#).#.# indicates how many major overhauls have taken place.
+> Medium version #.(#).# indicates how many times a large edit has been made which impacts the actual functionality of the system or actual new content. This number resets each time the Major version number increases. 
+> Minor version #.#.(#) indicates how many small edits have been made, usually balance changes and tweaks. This number resets each time the Medium or Major version number increases. 

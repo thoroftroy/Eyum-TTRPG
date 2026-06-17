@@ -137,6 +137,9 @@ function extractAllEdges(node, nameMap) {
 await rmSafe(outDir);
 await copyDir(siteDir, outDir);
 
+// Ensure content dir is clean before copying markdown from source
+await rmSafe(contentDir);
+
 // Copy Character Manager data files for the web app
 const charMgrData = path.join(repoRoot, 'Eyum TTRPG', 'Character Manager', 'data');
 const dataFiles = ['graph_cache.json', 'spells.json', 'rules.json', 'builds.json'];
