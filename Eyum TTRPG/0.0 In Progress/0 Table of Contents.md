@@ -54,7 +54,7 @@
 	- 7.3.5 Monstrosities
 
 
-Current Handbook Version: v3.25.0.0
+Current Handbook Version: v3.25.1.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
