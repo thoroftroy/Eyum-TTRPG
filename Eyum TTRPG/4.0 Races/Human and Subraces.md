@@ -88,7 +88,7 @@ Skin is thick, rough, and resilient, commonly stone-gray, dark tan, or earth-ton
 - **Tier 4:** **Stone Bones.** Gain 3 + Racial Tier Damage Reduction. 
 - **Tier 5:** **Groundshaker.** As an Action once per turn, stomp: creatures within 10 ft must pass a DEX save (DC 10 + STR mod + Tier) or fall Prone and take 2d10 Bludgeoning (half on save, not prone).
 - **Tier 6:** **Unmovable.** You cannot be forcibly moved, shoved, or knocked prone. 
-- **Tier 7:** **Titan Grip.** You may wield Two-Handed weapons in one hand (still treated as heavy) and may duel wield them.
+- **Tier 7:** **Titan Grip.** You may wield Two-Handed weapons in one hand (still treated as heavy) and may dual wield them.
 - **Tier 8:** **Juggernaut.** Gain +2 AC (stacks) but suffer -2 Initiative.
 - **Tier 9:** **Brute Vitality.** Gain +2 HP per level (retroactive).
 - **Tier 10:** **Apex Giant.** Choose one:
