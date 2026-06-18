@@ -379,9 +379,9 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
                 char.affinities[aff] = char.affinities.get(aff, 0) + val
             char.speed = race_data.get('speed', 30)
 
-        apply_level_progression(char, level, settings)
         if not is_worst:
             apply_paths(char, level, build_config, settings)
+        apply_level_progression(char, level, settings)
 
         if build_config.get('spend_stat_points') == 'all' and not build_config.get('worst', False):
             priority = list(build_config.get('stat_priority', ['str','dex','con','wis','int','cha']))

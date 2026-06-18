@@ -287,6 +287,12 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
         if not candidates:
             candidates = primary_candidates or element_candidates or generic_candidates
 
+    total_known = getattr(char, 'starting_spells', 0) + getattr(char, 'spells_from_levels', 0)
+    total_known = max(1, total_known)
+    if len(candidates) > total_known:
+        candidates.sort(key=lambda x: x[0], reverse=True)
+        candidates = candidates[:total_known]
+
     if not candidates:
         return None, 0
 

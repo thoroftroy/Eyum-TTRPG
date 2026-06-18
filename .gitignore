@@ -1,0 +1,13 @@
+# Build output (generated content in dist/)
+dist/content/
+dist/manifest.json
+dist/builds.json
+dist/rules.json
+dist/spells.json
+dist/graph_cache.json
+
+# Node
+node_modules/
+
+# Python
+__pycache__/

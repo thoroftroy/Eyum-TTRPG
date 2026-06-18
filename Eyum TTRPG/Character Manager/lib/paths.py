@@ -46,7 +46,7 @@ def apply_level_progression(char, target_level, settings):
                 elem = elemental_cycle[elem_idx % len(elemental_cycle)]
                 char.affinities[elem] = char.affinities.get(elem, 0) + e2['if_magical']['elemental_affinity']
                 elem_idx += 1
-            if getattr(char, 'has_utility', False) and 'if_utility' in e2:
+            if any(p == 'Utility' for (p, a), v in char.archetype_levels.items() if v > 0) and 'if_utility' in e2:
                 char.skill_points += e2['if_utility']['skill_points']
 
         if lvl % 3 == 0:
@@ -55,10 +55,12 @@ def apply_level_progression(char, target_level, settings):
             char.skill_points += e3.get('skill_points', 0)
             if char.has_magical and e3.get('if_magical_spell', False):
                 char.spells_from_levels += 1
-            if char.has_magical and 'if_magical_stat_bonus' in e3:
+            magical_levels = sum(v for (p, a), v in char.archetype_levels.items() if p == 'Magical')
+            physical_levels = sum(v for (p, a), v in char.archetype_levels.items() if p == 'Physical')
+            if magical_levels > physical_levels and 'if_magical_stat_bonus' in e3:
                 for stat, bonus in e3['if_magical_stat_bonus'].items():
                     _add_stat_bonus(char, stat, bonus, r['stat_point_cost'])
-            if char.has_physical and 'if_physical_stat_bonus' in e3:
+            elif physical_levels > magical_levels and 'if_physical_stat_bonus' in e3:
                 for stat, bonus in e3['if_physical_stat_bonus'].items():
                     _add_stat_bonus(char, stat, bonus, r['stat_point_cost'])
 
@@ -91,6 +93,8 @@ def apply_paths(char, target_level, build_config, settings):
     stp_remaining = available_stp
     for pconf in path_list:
         path_name = pconf['path']
+        if path_name == 'Magical' and not char.has_magical:
+            continue
         if path_name in path_initial_paid:
             continue
         path_initial_paid.add(path_name)
@@ -228,8 +232,8 @@ def apply_paths(char, target_level, build_config, settings):
                     char.vit_die = die_order[idx - 1]
 
     # Magician tier 5 applies only when 5+ whole levels achieved in Magician
-    magician_achieved = char.archetype_levels.get(('Magical', 'Magician'), 0)
-    if magician_achieved >= 5:
+    magician_whole_levels = char.archetype_whole_levels.get(('Magical', 'Magician'), 0)
+    if magician_whole_levels >= 5:
         magician_t5 = paths_rules.get('Magical', {}).get('archetypes', {}).get('Magician', {}).get('5', {})
         apply_effects(char, magician_t5, cost_table)
 
@@ -243,8 +247,6 @@ def apply_per_level_bonuses(char, target_level):
     if sp_bonus:
         retro = max(0, target_level - 1) * sp_bonus
         char.skill_points += retro
-        if target_level >= 6:
-            char.skill_points += 10
     if prof_bonus:
         prof_gains = target_level // 3 + 1
         char.skill_points += prof_gains * 3 * prof_bonus

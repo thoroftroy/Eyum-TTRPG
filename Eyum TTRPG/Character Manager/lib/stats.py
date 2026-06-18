@@ -10,7 +10,7 @@ def cost_for_stat(current_val, cost_table):
         if low <= new_val <= high:
             return cost
     tier = (new_val - 1) // 10
-    return tier + 1
+    return tier
 
 
 def spend_stat_points(char, priority, points, cost_table, char_type='balanced',

@@ -3,7 +3,6 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
 const repoRoot = process.cwd();
-const siteDir = path.join(repoRoot, 'site');
 const outDir = path.join(repoRoot, 'dist');
 const contentDir = path.join(outDir, 'content');
 
@@ -12,7 +11,6 @@ const IGNORE_DIRS = new Set([
   '.github',
   'node_modules',
   'dist',
-  'site',
 ]);
 
 async function rmSafe(target) {
@@ -21,20 +19,6 @@ async function rmSafe(target) {
 
 async function mkdirp(target) {
   await fs.mkdir(target, { recursive: true });
-}
-
-async function copyDir(src, dest) {
-  await mkdirp(dest);
-  const entries = await fs.readdir(src, { withFileTypes: true });
-  for (const entry of entries) {
-    const from = path.join(src, entry.name);
-    const to = path.join(dest, entry.name);
-    if (entry.isDirectory()) {
-      await copyDir(from, to);
-    } else {
-      await fs.copyFile(from, to);
-    }
-  }
 }
 
 async function walkMarkdown(dir, rel = '') {
@@ -133,9 +117,6 @@ function extractAllEdges(node, nameMap) {
   walk(node);
   return edges;
 }
-
-await rmSafe(outDir);
-await copyDir(siteDir, outDir);
 
 // Ensure content dir is clean before copying markdown from source
 await rmSafe(contentDir);

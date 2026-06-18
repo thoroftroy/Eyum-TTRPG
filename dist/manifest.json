@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T20:37:57.965Z",
+  "generatedAt": "2026-06-18T17:00:41.327Z",
   "defaultFile": "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
   "tree": {
     "type": "folder",
@@ -122,23 +122,6 @@
             "name": "3.0 Character Management",
             "path": "Eyum TTRPG/3.0 Character Management",
             "children": [
-              {
-                "type": "folder",
-                "name": "Example Character",
-                "path": "Eyum TTRPG/3.0 Character Management/Example Character",
-                "children": [
-                  {
-                    "type": "file",
-                    "name": "Level 1.md",
-                    "path": "Eyum TTRPG/3.0 Character Management/Example Character/Level 1.md"
-                  },
-                  {
-                    "type": "file",
-                    "name": "Level 2.md",
-                    "path": "Eyum TTRPG/3.0 Character Management/Example Character/Level 2.md"
-                  }
-                ]
-              },
               {
                 "type": "file",
                 "name": "3.1 Building Your Character.md",
@@ -324,6 +307,11 @@
                     "name": "7.3.2 Animal",
                     "path": "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal",
                     "children": [
+                      {
+                        "type": "file",
+                        "name": "7.3.2.0 Common Animals.md",
+                        "path": "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md"
+                      },
                       {
                         "type": "file",
                         "name": "7.3.2.1 Chimera.md",
@@ -1638,6 +1626,14 @@
     ],
     [
       "Eyum TTRPG/1.0 The basics/1.2 Dice and Skills.md",
+      "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md"
+    ],
+    [
+      "Eyum TTRPG/1.0 The basics/1.2 Dice and Skills.md",
+      "Eyum TTRPG/6.0 Magic/6.1 Spells.md"
+    ],
+    [
+      "Eyum TTRPG/1.0 The basics/1.2 Dice and Skills.md",
       "Eyum TTRPG/1.0 The basics/1.3 Player Stats.md"
     ],
     [
@@ -1694,11 +1690,27 @@
     ],
     [
       "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
+      "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md"
+    ],
+    [
+      "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
       "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md"
     ],
     [
       "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
       "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md"
+    ],
+    [
+      "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental/7.3.1.1 Slimes.md"
+    ],
+    [
+      "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental/7.3.1.2 Golems.md"
+    ],
+    [
+      "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental/7.3.1.3 Dragons.md"
     ],
     [
       "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
@@ -1786,6 +1798,54 @@
     ],
     [
       "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
+    ],
+    [
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
       "Eyum TTRPG/6.0 Magic/6.2 Runes.md"
     ],
     [
@@ -1833,6 +1893,10 @@
       "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md"
     ],
     [
+      "Eyum TTRPG/3.0 Character Management/3.1 Building Your Character.md",
+      "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md"
+    ],
+    [
       "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
       "Eyum TTRPG/1.0 The basics/1.6 Other Rules.md"
     ],
@@ -1847,6 +1911,10 @@
     [
       "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
       "Eyum TTRPG/6.0 Magic/6.2 Runes.md"
+    ],
+    [
+      "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md"
     ],
     [
       "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
@@ -2025,6 +2093,10 @@
       "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md"
     ],
     [
+      "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md",
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md"
+    ],
+    [
       "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental/7.3.1.1 Slimes.md",
       "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md"
     ],
@@ -2066,6 +2138,22 @@
     ],
     [
       "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental/7.3.1.3 Dragons.md",
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md"
+    ],
+    [
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md",
+      "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md"
+    ],
+    [
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md",
+      "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md"
+    ],
+    [
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md",
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md"
+    ],
+    [
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md",
       "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md"
     ],
     [
@@ -2187,6 +2275,10 @@
     [
       "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",
       "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental/7.3.1.3 Dragons.md"
+    ],
+    [
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",
+      "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md"
     ],
     [
       "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",

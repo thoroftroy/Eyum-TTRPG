@@ -133,7 +133,7 @@
     "rp": 1
   },
   "magical_start": {
-    "spells_at_level_1": 2
+    "spells_at_level_1": 1
   },
   "ac": {
     "base": 10,
@@ -405,74 +405,95 @@
       "total_spent": 20
     },
     "Infernal": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Fire"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Fire"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Metal": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Earth"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Earth"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Torrent": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Water"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Water"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Thunder": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Air"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Air"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Mirage": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Radiant"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Radiant"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Vacuum": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Necrotic"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Necrotic"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Warp": {
-      "needs": {
-        "all_of": [
-          "Generic",
-          "Psychic"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 20
+      "needs_all": [
+        {
+          "affinities": ["Generic"],
+          "min_each": 3
+        },
+        {
+          "affinities": ["Psychic"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 13
     },
     "Storm": {
       "needs": {
@@ -532,15 +553,17 @@
       "total_spent": 40
     },
     "Quake": {
-      "needs": {
-        "all_of": [
-          "Earth",
-          "Air",
-          "Generic"
-        ]
-      },
-      "min_each": 10,
-      "total_spent": 30
+      "needs_all": [
+        {
+          "affinities": ["Earth", "Air"],
+          "min_each": 10
+        },
+        {
+          "affinities": ["Generic"],
+          "min_each": 5
+        }
+      ],
+      "total_spent": 25
     },
     "Corruption": {
       "needs_all": [
