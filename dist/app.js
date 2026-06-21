@@ -105,13 +105,7 @@ class GraphView {
     this.initialized = false;
 
     this.setupEvents();
-    requestAnimationFrame(() => {
-      this.resize();
-      if (!this.width || !this.height) return;
-      this.initPositions();
-      this.initialized = true;
-      this.tick();
-    });
+    this.tick();
   }
 
   get currentPath() { return this._currentPath; }
@@ -364,6 +358,13 @@ class GraphView {
   }
 
   tick() {
+    if (!this.initialized) {
+      this.resize();
+      if (this.width && this.height) {
+        this.initPositions();
+        this.initialized = true;
+      }
+    }
     if (this.initialized) {
       this.applyForces();
       this.render();
