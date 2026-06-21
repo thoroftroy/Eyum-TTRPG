@@ -105,7 +105,22 @@ class GraphView {
     this.initialized = false;
 
     this.setupEvents();
-    this.tick();
+    this._initRetries = 0;
+    this._tryInit();
+  }
+
+  _tryInit() {
+    this.resize();
+    if (this.width && this.height) {
+      this.initPositions();
+      this.initialized = true;
+      this.tick();
+      return;
+    }
+    this._initRetries++;
+    if (this._initRetries < 50) {
+      this._initTimer = setTimeout(() => this._tryInit(), 100);
+    }
   }
 
   get currentPath() { return this._currentPath; }
@@ -358,13 +373,6 @@ class GraphView {
   }
 
   tick() {
-    if (!this.initialized) {
-      this.resize();
-      if (this.width && this.height) {
-        this.initPositions();
-        this.initialized = true;
-      }
-    }
     if (this.initialized) {
       this.applyForces();
       this.render();
@@ -503,11 +511,13 @@ class GraphView {
     }, { passive: false });
 
     this.resizeObserver = new ResizeObserver(() => {
+      if (!this.width || !this.height) return;
       const cx = this.width / 2;
       const cy = this.height / 2;
       this.resize();
       const nx = this.width / 2;
       const ny = this.height / 2;
+      if (isNaN(nx) || isNaN(ny)) return;
       this.viewTX += (nx - cx);
       this.viewTY += (ny - cy);
     });
@@ -838,6 +848,7 @@ let graphView = null;
 
 function toggleGraph(manifest) {
   if (!els.graphPanel) return;
+  if (!manifest || !manifest.tree) { console.warn('GraphView: manifest not loaded'); return; }
   if (els.graphPanel.classList.toggle('open')) {
     if (!graphView) {
       try {
