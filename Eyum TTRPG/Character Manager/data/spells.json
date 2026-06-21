@@ -1052,7 +1052,7 @@
       "affinity_required": 76,
       "int_required": 31,
       "damage_type": "gel",
-      "description": "Summon a Gel Slime in an unoccupied space you can see within range. The slime is a summoned companion with level equal to your level - 2, has its own turn in Initiative, and perfectly obeys your commands. The slime uses the monster statblock of a Gel Slime at its level. If you have greater than 30 Affinity in any other element, you may instead summon a slime of that element, but at level - 3 (minimum level 1). For monster statblocks see [[7.3.1 Slimes]]. You may only have up to one slime companion per 5 levels summoned at a time (at level 5 you may have one at level 10 you may have two and so on), when this slime dies it fades into nothing and does not leave behind a core or mass. Summoning a new slime (above your max) will cause the oldest summoned slime to disappear.",
+      "description": "Summon a Gel Slime in an unoccupied space you can see within range. The slime is a summoned companion with level equal to your level - 2, has its own turn in Initiative, and perfectly obeys your commands. The slime uses the monster statblock of a Gel Slime at its level. If you have greater than 30 Affinity in any other element, you may instead summon a slime of that element, but at level - 3 (minimum level 1). For monster statblocks see [[7.3.1.1 Slimes]]. You may only have up to one slime companion per 5 levels summoned at a time (at level 5 you may have one at level 10 you may have two and so on), when this slime dies it fades into nothing and does not leave behind a core or mass. Summoning a new slime (above your max) will cause the oldest summoned slime to disappear.",
       "upcast_rule": "x2, +1 slime level",
       "range": 60
     }

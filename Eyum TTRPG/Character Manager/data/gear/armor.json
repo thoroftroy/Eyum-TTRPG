@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Padded",
+    "ac_bonus": 1,
+    "armor_type": "Light",
+    "max_dex": 5,
+    "max_dex_expert": 7,
+    "penalty": "Stealth Disadvantage, -1 AC",
+    "price_copper": 10000,
+    "material_note": "Leather, Wool, or Dragon Scales"
+  },
+  {
+    "name": "Leather",
+    "ac_bonus": 1,
+    "armor_type": "Light",
+    "max_dex": 5,
+    "max_dex_expert": 7,
+    "penalty": "-1 AC",
+    "price_copper": 10000,
+    "material_note": "Leather or Dragon Scales"
+  },
+  {
+    "name": "Studded Leather",
+    "ac_bonus": 2,
+    "armor_type": "Light",
+    "max_dex": 5,
+    "max_dex_expert": 7,
+    "penalty": "-1 AC",
+    "price_copper": 20000,
+    "material_note": "Leather base, metal studs (half normal metal bonuses)"
+  },
+  {
+    "name": "Hide",
+    "ac_bonus": 2,
+    "armor_type": "Medium",
+    "max_dex": 4,
+    "max_dex_expert": 6,
+    "penalty": "-1 AC",
+    "price_copper": 30000,
+    "material_note": "Chimera/Animal Hide only"
+  },
+  {
+    "name": "Chain Shirt",
+    "ac_bonus": 3,
+    "armor_type": "Medium",
+    "max_dex": 4,
+    "max_dex_expert": 6,
+    "penalty": "-1 AC",
+    "price_copper": 40000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Scale Mail",
+    "ac_bonus": 4,
+    "armor_type": "Medium",
+    "max_dex": 4,
+    "max_dex_expert": 6,
+    "penalty": "Stealth Disadvantage, -1 AC",
+    "price_copper": 100000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Breastplate",
+    "ac_bonus": 4,
+    "armor_type": "Medium",
+    "max_dex": 4,
+    "max_dex_expert": 6,
+    "penalty": "-1 AC",
+    "price_copper": 100000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Half-Plate",
+    "ac_bonus": 5,
+    "armor_type": "Medium",
+    "max_dex": 4,
+    "max_dex_expert": 6,
+    "penalty": "Stealth Disadvantage, -1 AC",
+    "price_copper": 300000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Ring Mail",
+    "ac_bonus": 4,
+    "armor_type": "Heavy",
+    "max_dex": 3,
+    "max_dex_expert": 5,
+    "penalty": "Stealth Disadvantage, -1 AC",
+    "price_copper": 200000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Chain Mail",
+    "ac_bonus": 6,
+    "armor_type": "Heavy",
+    "max_dex": 3,
+    "max_dex_expert": 5,
+    "penalty": "-5 ft Speed, -1 AC",
+    "price_copper": 400000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Splint",
+    "ac_bonus": 7,
+    "armor_type": "Heavy",
+    "max_dex": 3,
+    "max_dex_expert": 5,
+    "penalty": "-5 ft Speed, -1 AC",
+    "price_copper": 500000,
+    "material_note": "Metal or Dragon Scales only"
+  },
+  {
+    "name": "Plate",
+    "ac_bonus": 8,
+    "armor_type": "Heavy",
+    "max_dex": 3,
+    "max_dex_expert": 5,
+    "penalty": "-10 ft Speed, -1 AC",
+    "price_copper": 600000,
+    "material_note": "Metal or Dragon Scales only"
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Mundane Arrow",
+    "damage_bonus": 0,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow"
+    ],
+    "price_copper": 1,
+    "notes": "Standard; not normally tracked"
+  },
+  {
+    "name": "Mundane Bolt",
+    "damage_bonus": 0,
+    "weapons": [
+      "Hand Crossbow",
+      "Light Crossbow",
+      "Heavy Crossbow"
+    ],
+    "price_copper": 1,
+    "notes": "Standard; not normally tracked"
+  },
+  {
+    "name": "Great Arrow",
+    "damage_bonus": 2,
+    "weapons": [
+      "Greatbow"
+    ],
+    "price_copper": 5,
+    "notes": "+2 damage to unarmored targets"
+  },
+  {
+    "name": "Broadhead",
+    "damage_bonus": 1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow"
+    ],
+    "price_copper": 100,
+    "notes": "2 Crushing (half material mod on damage vs armored)"
+  },
+  {
+    "name": "Bodkin",
+    "damage_bonus": 1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow",
+      "Hand Crossbow",
+      "Light Crossbow",
+      "Heavy Crossbow"
+    ],
+    "price_copper": 100,
+    "notes": "2 Piercing (half material mod on accuracy vs armored)"
+  },
+  {
+    "name": "Barbed",
+    "damage_bonus": 1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow"
+    ],
+    "price_copper": 100,
+    "notes": "2 Barbed (lodges on HP damage, removal applies bleeding stacks)"
+  },
+  {
+    "name": "Hunting",
+    "damage_bonus": 1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow"
+    ],
+    "price_copper": 100,
+    "notes": "2 Hunter (half material mod damage vs non-humanoids)"
+  },
+  {
+    "name": "Blunt",
+    "damage_bonus": -1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow"
+    ],
+    "price_copper": 100,
+    "notes": "Blunt (converts to Bludgeoning), 1 Crushing. Cannot combine with Barbed"
+  },
+  {
+    "name": "Rope Arrow",
+    "damage_bonus": -1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow",
+      "Hand Crossbow",
+      "Light Crossbow",
+      "Heavy Crossbow"
+    ],
+    "price_copper": 50,
+    "notes": "-10 ft range; carries up to 100 ft rope"
+  },
+  {
+    "name": "Signal Arrow",
+    "damage_bonus": 0,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow",
+      "Hand Crossbow",
+      "Light Crossbow",
+      "Heavy Crossbow"
+    ],
+    "price_copper": 75,
+    "notes": "Emits bright colored smoke/light for 1 minute"
+  },
+  {
+    "name": "Fire Arrow",
+    "damage_bonus": 1,
+    "weapons": [
+      "Shortbow",
+      "Longbow",
+      "Greatbow",
+      "Hand Crossbow",
+      "Light Crossbow",
+      "Heavy Crossbow"
+    ],
+    "price_copper": 200,
+    "notes": "Blunt; must ignite manually; +1d4 fire while burning; applies OnFire"
+  },
+  {
+    "name": "Whistling Arrow",
+    "damage_bonus": 3,
+    "weapons": [
+      "Longbow",
+      "Greatbow"
+    ],
+    "price_copper": 200,
+    "notes": "3 Piercing; +60 ft max range; loud whistle; no stealth"
+  }
+]

@@ -1,0 +1,588 @@
+[
+  {
+    "name": "Fist",
+    "die": "1d4",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Unarmed"
+    ],
+    "versatile_die": null,
+    "price_copper": 0,
+    "notes": "Basic unarmed strikes"
+  },
+  {
+    "name": "Knuckles",
+    "die": "1d6",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Unarmed",
+      "Light"
+    ],
+    "versatile_die": null,
+    "price_copper": 10000,
+    "notes": "Keeps hands free for climbing"
+  },
+  {
+    "name": "Dagger",
+    "die": "1d4",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 20,
+    "categories": [
+      "Finesse",
+      "Light",
+      "Thrown"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": "Concealable"
+  },
+  {
+    "name": "Handaxe",
+    "die": "1d6",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 20,
+    "categories": [
+      "Light",
+      "Thrown"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Sickle",
+    "die": "1d4",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Light"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Spear",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 20,
+    "categories": [
+      "Thrown",
+      "Versatile"
+    ],
+    "versatile_die": "1d8",
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Greatclub",
+    "die": "1d8",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 10000,
+    "notes": ""
+  },
+  {
+    "name": "Shortsword",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Finesse",
+      "Light"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Longsword",
+    "die": "1d8",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Versatile"
+    ],
+    "versatile_die": "1d10",
+    "price_copper": 30000,
+    "notes": ""
+  },
+  {
+    "name": "Greatsword",
+    "die": "2d6",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Heavy",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 40000,
+    "notes": ""
+  },
+  {
+    "name": "Rapier",
+    "die": "1d8",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Finesse"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Scimitar",
+    "die": "1d6",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Finesse",
+      "Light"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Warhammer",
+    "die": "1d8",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Versatile"
+    ],
+    "versatile_die": "1d10",
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Battleaxe",
+    "die": "1d8",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Versatile"
+    ],
+    "versatile_die": "1d10",
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Greataxe",
+    "die": "1d12",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Heavy",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 30000,
+    "notes": ""
+  },
+  {
+    "name": "Halberd",
+    "die": "1d10",
+    "dmg_type": "Slashing",
+    "range": 10,
+    "ranged_max": 10,
+    "categories": [
+      "Heavy",
+      "Reach",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Maul",
+    "die": "2d6",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Heavy",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Morningstar",
+    "die": "1d8",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Martial"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Flail",
+    "die": "1d8",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Martial"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Katar",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Finesse",
+      "Light"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Khopesh",
+    "die": "1d8",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Martial",
+      "Hooking"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Nunchaku",
+    "die": "1d6",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Finesse",
+      "Light"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Scythe",
+    "die": "2d4",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Heavy",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Whip",
+    "die": "1d4",
+    "dmg_type": "Slashing",
+    "range": 10,
+    "ranged_max": 10,
+    "categories": [
+      "Finesse",
+      "Reach"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Trident",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 20,
+    "categories": [
+      "Thrown",
+      "Versatile"
+    ],
+    "versatile_die": "1d6",
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Glaive",
+    "die": "1d10",
+    "dmg_type": "Slashing",
+    "range": 10,
+    "ranged_max": 10,
+    "categories": [
+      "Heavy",
+      "Reach",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "War Pick",
+    "die": "1d8",
+    "dmg_type": "Piercing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Martial"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Shortbow",
+    "die": "1d4",
+    "dmg_type": "Piercing",
+    "range": 80,
+    "ranged_max": 320,
+    "categories": [
+      "Ranged",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": "Uses arrows"
+  },
+  {
+    "name": "Longbow",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 150,
+    "ranged_max": 600,
+    "categories": [
+      "Heavy",
+      "Ranged",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": "Uses arrows"
+  },
+  {
+    "name": "Light Crossbow",
+    "die": "1d4",
+    "dmg_type": "Piercing",
+    "range": 80,
+    "ranged_max": 320,
+    "categories": [
+      "Ranged",
+      "Two-Handed",
+      "Loading"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": "Uses bolts"
+  },
+  {
+    "name": "Heavy Crossbow",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 100,
+    "ranged_max": 400,
+    "categories": [
+      "Heavy",
+      "Ranged",
+      "Loading"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": "Uses bolts"
+  },
+  {
+    "name": "Hand Crossbow",
+    "die": "1d4",
+    "dmg_type": "Piercing",
+    "range": 30,
+    "ranged_max": 120,
+    "categories": [
+      "Light",
+      "Ranged",
+      "Loading"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": "Uses bolts"
+  },
+  {
+    "name": "Sling",
+    "die": "1d4",
+    "dmg_type": "Bludgeoning",
+    "range": 30,
+    "ranged_max": 120,
+    "categories": [
+      "Ranged"
+    ],
+    "versatile_die": null,
+    "price_copper": 2000,
+    "notes": "Uses stones or bullets"
+  },
+  {
+    "name": "Blowgun",
+    "die": "1",
+    "dmg_type": "Piercing",
+    "range": 25,
+    "ranged_max": 100,
+    "categories": [
+      "Ranged",
+      "Loading"
+    ],
+    "versatile_die": null,
+    "price_copper": 2000,
+    "notes": "Negligible damage, for poison delivery"
+  },
+  {
+    "name": "Atlatl",
+    "die": "1d6",
+    "dmg_type": "Piercing",
+    "range": 50,
+    "ranged_max": 150,
+    "categories": [
+      "Ranged",
+      "Thrown"
+    ],
+    "versatile_die": null,
+    "price_copper": 10000,
+    "notes": ""
+  },
+  {
+    "name": "Chakram",
+    "die": "1d6",
+    "dmg_type": "Slashing",
+    "range": 30,
+    "ranged_max": 60,
+    "categories": [
+      "Thrown",
+      "Finesse"
+    ],
+    "versatile_die": null,
+    "price_copper": 20000,
+    "notes": ""
+  },
+  {
+    "name": "Bolas",
+    "die": "1d4",
+    "dmg_type": "Bludgeoning",
+    "range": 20,
+    "ranged_max": 60,
+    "categories": [
+      "Thrown",
+      "Restraining"
+    ],
+    "versatile_die": null,
+    "price_copper": 10000,
+    "notes": ""
+  },
+  {
+    "name": "Macuahuitl",
+    "die": "1d6",
+    "dmg_type": "Slashing",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Heavy",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 5000,
+    "notes": "Wood base; embed Obsidian, claws, teeth, or dragon scales on edges"
+  },
+  {
+    "name": "Wand",
+    "die": null,
+    "dmg_type": "Magical",
+    "range": 0,
+    "ranged_max": 0,
+    "categories": [
+      "Magical"
+    ],
+    "versatile_die": null,
+    "magic_die": "1d6",
+    "price_copper": 10000,
+    "notes": "Adds +1d6 to spell attack damage"
+  },
+  {
+    "name": "Quarterstaff",
+    "die": "1d6",
+    "dmg_type": "Bludgeoning",
+    "range": 5,
+    "ranged_max": 5,
+    "categories": [
+      "Versatile",
+      "Magical"
+    ],
+    "versatile_die": "1d8",
+    "magic_die": "1d4",
+    "price_copper": 5000,
+    "notes": "Two hands does not increase magical die"
+  },
+  {
+    "name": "Throwing Shield",
+    "die": "1d4",
+    "dmg_type": "Bludgeoning",
+    "range": 15,
+    "ranged_max": 15,
+    "categories": [
+      "Thrown",
+      "Special"
+    ],
+    "versatile_die": null,
+    "price_copper": 10000,
+    "notes": "Attached with leather cord"
+  },
+  {
+    "name": "Lance",
+    "die": "1d8",
+    "dmg_type": "Piercing",
+    "range": 15,
+    "ranged_max": 15,
+    "categories": [
+      "Heavy",
+      "Reach",
+      "Two-Handed"
+    ],
+    "versatile_die": null,
+    "price_copper": 30000,
+    "notes": "Disadv within 5ft; +1d6 mounted; one-handed while mounted"
+  }
+]

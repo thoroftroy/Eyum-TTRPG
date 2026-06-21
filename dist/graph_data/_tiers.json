@@ -71,7 +71,7 @@
       "Worst Physical"
     ],
     "has_average": true,
-    "size_kb": 3217.7
+    "size_kb": 3215.4
   },
   "bad_gear": {
     "file": "bad_gear.json",
@@ -145,10 +145,10 @@
       "Worst Physical"
     ],
     "has_average": true,
-    "size_kb": 3218.8
+    "size_kb": 3216.8
   },
-  "nerite_gear": {
-    "file": "nerite_gear.json",
+  "good_gear": {
+    "file": "good_gear.json",
     "builds": [
       "Air Mage",
       "Archer",
@@ -219,10 +219,10 @@
       "Worst Physical"
     ],
     "has_average": true,
-    "size_kb": 3222.0
+    "size_kb": 3219.5
   },
-  "dragon_gear": {
-    "file": "dragon_gear.json",
+  "amazing_gear": {
+    "file": "amazing_gear.json",
     "builds": [
       "Air Mage",
       "Archer",
@@ -293,6 +293,6 @@
       "Worst Physical"
     ],
     "has_average": true,
-    "size_kb": 3224.4
+    "size_kb": 3221.9
   }
 }

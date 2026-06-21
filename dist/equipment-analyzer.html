@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipment Analyzer - Eyum TTRPG</title>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<style>
+:root{--bg:#1a1a1a;--fg:#e0e0e0;--pnl:#252525;--bdr:#444;--sel:#264f78;--btn:#333;--red:#f44}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font:12px -apple-system,BlinkMacSystemFont,sans-serif;height:100vh;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;padding:6px 12px;background:#1f1f1f;border-bottom:1px solid var(--bdr);gap:12px;flex-shrink:0}
+.topbar a{color:#4fc3f7;text-decoration:none;font-size:12px}
+.topbar select,.topbar input{background:var(--pnl);color:var(--fg);border:1px solid var(--bdr);padding:3px 6px;border-radius:3px;font-size:11px}
+.main{flex:1;display:flex;overflow:hidden;min-height:0}
+.sidebar{width:260px;overflow-y:auto;padding:8px;border-right:1px solid var(--bdr);flex-shrink:0;background:#1f1f1f}
+.plot-area{flex:1;display:flex;flex-direction:column;min-height:0}
+.plot-row{flex:1;display:flex;min-height:0}
+.plot-row>div{flex:1;min-height:0}
+.bottombar{display:flex;gap:6px;padding:6px 10px;border-top:1px solid var(--bdr);background:#1f1f1f;flex-wrap:wrap;align-items:center;flex-shrink:0}
+.bottombar select{background:var(--pnl);color:var(--fg);border:1px solid var(--bdr);padding:3px 6px;border-radius:3px;font-size:10px}
+.row{display:flex;align-items:center;gap:4px;margin:2px 0}
+.row label{flex:1;font-size:10px;color:#aaa}
+.row input,.row select{width:60px;padding:2px 4px;background:var(--pnl);color:var(--fg);border:1px solid var(--bdr);border-radius:3px;font-size:10px}
+.section{font-size:10px;color:#888;margin:6px 0 2px;font-weight:bold;text-transform:uppercase}
+.tgl{display:flex;align-items:center;gap:2px;font-size:9px;cursor:pointer}
+.tgl input{margin:0;width:auto}
+.btn{padding:3px 8px;background:var(--btn);color:var(--fg);border:1px solid var(--bdr);border-radius:3px;cursor:pointer;font-size:10px}
+.btn:hover{background:var(--sel)}
+.filter-tag{padding:2px 6px;background:var(--pnl);border:1px solid var(--bdr);border-radius:3px;font-size:10px;cursor:pointer}
+.filter-tag.on{background:var(--sel);border-color:#6af}
+.info{position:absolute;top:8px;right:8px;background:#2d2d30;border:1px solid #555;padding:8px 10px;border-radius:5px;font:10px monospace;max-width:300px;z-index:10;display:none}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="./index.html">← Handbook</a>
+  <span style="font-weight:bold">Equipment Analyzer</span>
+  <select id="graphMode" onchange="render()">
+    <option value="dpr">DPR vs AC</option>
+    <option value="hit">Hit Chance vs AC</option>
+    <option value="dpa">Damage Per AP</option>
+    <option value="ttk">Time To Kill</option>
+    <option value="scatter">Scatter (DMG × ACC)</option>
+  </select>
+  <select id="targetAC" onchange="render()">
+    <option value="14">Target AC 14</option>
+    <option value="16" selected>Target AC 16</option>
+    <option value="18">Target AC 18</option>
+    <option value="20">Target AC 20</option>
+    <option value="22">Target AC 22</option>
+    <option value="25">Target AC 25</option>
+    <option value="30">Target AC 30</option>
+  </select>
+  <input type="number" id="targetHP" value="100" min="10" max="5000" step="50" onchange="render()" style="width:60px" title="Target HP for TTK">
+  <label style="font-size:10px">HP</label>
+  <span style="font-size:10px;color:#888" id="entryCount"></span>
+</div>
+<div class="main">
+  <div class="sidebar" id="sidebar"></div>
+  <div class="plot-area">
+    <div class="plot-row">
+      <div id="plot1" style="flex:2"></div>
+      <div id="plot2" style="flex:1"></div>
+    </div>
+    <div class="plot-row">
+      <div id="plot3" style="flex:2"></div>
+      <div id="plot4" style="flex:1"></div>
+    </div>
+    <div class="info" id="info"></div>
+  </div>
+</div>
+<div class="bottombar" id="bottombar"></div>
+
+<script>
+const LSK='eyum-eq-analyzer';
+let EQ=null,sv={};
+try{sv=JSON.parse(localStorage.getItem(LSK)||'{}')}catch(e){sv={}}
+function ss(){localStorage.setItem(LSK,JSON.stringify(sv))}
+function s(k,v){sv[k]=v;ss()}
+
+const C=['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf',
+         '#aec7e8','#ffbb78','#98df8a','#ff9896','#c5b0d5','#c49c94','#f7b6d2','#c7c7c7','#dbdb8d','#9edae5'];
+
+function d(s){return document.getElementById(s)}
+
+async function init(){
+  try{EQ=await(await fetch('./equipment.json')).json()}catch(e){d('plot1').innerHTML='<div style="color:var(--red);padding:16px">Failed to load equipment.json. Run: python3 scripts/generate_equipment.py</div>';return}
+  buildSidebar();
+  buildBottombar();
+  render();
+}
+
+function buildSidebar(){
+  const mat=EQ.materials||[],cats=Object.keys(EQ.by_category||{});
+  d('sidebar').innerHTML=`
+    <div class="section">Character</div>
+    <div class="row"><label>Level</label><input id="chLvl" type="number" value="${sv.chLvl||5}" min="1" max="200" onchange="s('chLvl',+this.value);render()"></div>
+    <div class="row"><label>STR Mod</label><input id="chStr" type="number" value="${sv.chStr||3}" min="-5" max="20" onchange="s('chStr',+this.value);render()"></div>
+    <div class="row"><label>DEX Mod</label><input id="chDex" type="number" value="${sv.chDex||3}" min="-5" max="20" onchange="s('chDex',+this.value);render()"></div>
+    <div class="row"><label>Prof Bonus</label><input id="chProf" type="number" value="${sv.chProf||2}" min="0" max="10" onchange="s('chProf',+this.value);render()"></div>
+    <div class="row"><label>Expertise</label><input id="chExp" type="number" value="${sv.chExp||0}" min="0" max="5" onchange="s('chExp',+this.value);render()"></div>
+    <div class="row"><label>AP/Round</label><input id="chAP" type="number" value="${sv.chAP||1}" min="1" max="5" onchange="s('chAP',+this.value);render()"></div>
+    <div class="row"><label>Extra Atk</label><input id="chExtra" type="number" value="${sv.chExtra||0}" min="0" max="5" onchange="s('chExtra',+this.value);render()"></div>
+    <div class="section">Bonuses</div>
+    <div class="row"><label>Melee Dmg+</label><input id="chMDmg" type="number" value="${sv.chMDmg||0}" onchange="s('chMDmg',+this.value);render()"></div>
+    <div class="row"><label>Ranged Dmg+</label><input id="chRDmg" type="number" value="${sv.chRDmg||0}" onchange="s('chRDmg',+this.value);render()"></div>
+    <div class="row"><label>Acc Bonus</label><input id="chAcc" type="number" value="${sv.chAcc||0}" onchange="s('chAcc',+this.value);render()"></div>
+    <div class="row"><label>Dmg Mult</label><input id="chMult" type="number" value="${sv.chMult||1}" step="0.1" min="0.5" max="5" onchange="s('chMult',+this.value);render()"></div>
+    <div class="section">Feats & Abilities</div>
+    ${['Dual Wielder (+2 Acc)','Heavy Hitter (+5 Dmg 2H)','Great Cleave','Brutal Crit (+1d8)','Point Blank Shot','Charging Strike (+1d6)','Vital Spot (+1d12 vs Prone)','Executioner','Firebrand','Static Discharge'].map(f=>{
+      const k='feat_'+f.split(' ')[0];
+      return`<label class="tgl"><input type="checkbox" ${sv[k]?'checked':''} onchange="s('${k}',this.checked);render()">${f}</label>`;
+    }).join('')}
+    <div class="section">Weapon Modifiers</div>
+    <div class="row"><label>Sharpened +1</label><input type="checkbox" ${sv.mod_sharp?'checked':''} onchange="s('mod_sharp',this.checked);render()"></div>
+    <div class="row"><label>Enchanted +2</label><input type="checkbox" ${sv.mod_ench?'checked':''} onchange="s('mod_ench',this.checked);render()"></div>
+  `;
+}
+
+function buildBottombar(){
+  const cats=Object.keys(EQ.by_category||{}).sort();
+  const mats=EQ.materials.map(m=>m.name);
+  const types=['Bludgeoning','Piercing','Slashing','Magical','Force'];
+  d('bottombar').innerHTML=`
+    <span style="font-size:10px;color:#888">Filter:</span>
+    <select id="fCat" onchange="render()"><option value="">All Categories</option>${cats.map(c=>`<option>${c}</option>`).join('')}</select>
+    <select id="fMat" onchange="render()"><option value="">All Materials</option>${mats.map(m=>`<option>${m}</option>`).join('')}</select>
+    <select id="fType" onchange="render()"><option value="">All Damage Types</option>${types.map(t=>`<option>${t}</option>`).join('')}</select>
+    <span style="font-size:10px;color:#888">Quick:</span>
+    ${cats.slice(0,12).map(c=>`<span class="filter-tag" id="qt_${c}" onclick="toggleQuick('${c}')">${c}</span>`).join('')}
+    <button class="btn" onclick="clearFilters()">Clear</button>
+    <button class="btn" onclick="s('sortBy','dpr');render()">Sort:DPR</button>
+    <button class="btn" onclick="s('sortBy','ttk');render()">Sort:TTK</button>
+    <button class="btn" onclick="s('sortBy','acc');render()">Sort:Acc</button>
+    <button class="btn" onclick="s('sortBy','dmg');render()">Sort:DMG</button>
+  `;
+}
+
+function toggleQuick(cat){
+  const el=d('qt_'+cat);el.classList.toggle('on');
+  const cur=d('fCat').value;
+  d('fCat').value = el.classList.contains('on') ? cat : '';
+  render();
+}
+function clearFilters(){d('fCat').value='';d('fMat').value='';d('fType').value='';
+  document.querySelectorAll('.filter-tag').forEach(e=>e.classList.remove('on'));render()}
+
+function getBonuses(){
+  const lvl=sv.chLvl||5,str=sv.chStr||3,dex=sv.chDex||3,prof=sv.chProf||2,exp=sv.chExp||0;
+  let accBonus=str+prof+exp+(sv.chAcc||0);
+  let dmgBonus=str+(sv.chMDmg||0);
+  if(sv.feat_Heavy) dmgBonus+=5;
+  if(sv.feat_Charging) dmgBonus+=3.5;
+  if(sv.mod_sharp) dmgBonus+=1;
+  if(sv.mod_ench){dmgBonus+=2;accBonus+=2;}
+  const dmgMult=sv.chMult||1;
+  const ap=sv.chAP||1,extra=sv.chExtra||0;
+  const attacks=ap+extra;
+  return {accBonus,dmgBonus,dmgMult,attacks,str,dex};
+}
+
+function hitChance(acc,targetAC){
+  const needed=targetAC-acc;
+  if(needed<=1)return 0.95;if(needed>=20)return 0.05;
+  return Math.max(0.05,Math.min(0.95,(21-needed)/20));
+}
+
+function applyFilters(){
+  let w=EQ.weapons||[];
+  const cat=d('fCat')?.value,mat=d('fMat')?.value,type=d('fType')?.value;
+  if(cat) w=w.filter(x=>x.category.includes(cat));
+  if(mat) w=w.filter(x=>x.material===mat);
+  if(type) w=w.filter(x=>x.dmg_type===type);
+  return w;
+}
+
+function render(){
+  if(!EQ)return;
+  const bon=getBonuses();
+  const targetAC=+(d('targetAC')?.value||16);
+  const targetHP=+(d('targetHP')?.value||100);
+  const mode=d('graphMode')?.value||'dpr';
+  const sortBy=sv.sortBy||'dpr';
+  let weapons=applyFilters();
+
+  // Calculate effective stats with bonuses
+  weapons=weapons.map(w=>{
+    const acc=w.total_acc+bon.accBonus;
+    const dmg=(w.total_dmg+bon.dmgBonus)*bon.dmgMult;
+    const hc=hitChance(acc,targetAC);
+    const cc=0.05;
+    const critDmg=dmg*2;
+    const dpr=(hc*dmg+cc*(critDmg-dmg))*bon.attacks;
+    const dpa=bon.attacks>0?dpr/bon.attacks:0;
+    const ttk=dpr>0?targetHP/dpr:999;
+    return{...w,eff_acc:acc,eff_dmg:Math.round(dmg*10)/10,hit_chance:Math.round(hc*100),dpr:Math.round(dpr*10)/10,dpa:Math.round(dpa*10)/10,ttk:Math.round(ttk*10)/10};
+  });
+
+  // Sort
+  if(sortBy==='dpr') weapons.sort((a,b)=>b.dpr-a.dpr);
+  else if(sortBy==='ttk') weapons.sort((a,b)=>a.ttk-b.ttk);
+  else if(sortBy==='acc') weapons.sort((a,b)=>b.eff_acc-a.eff_acc);
+  else if(sortBy==='dmg') weapons.sort((a,b)=>b.eff_dmg-a.eff_dmg);
+
+  d('entryCount').textContent=`${weapons.length} entries`;
+
+  // Top 50 for graph
+  const top=weapons.slice(0,50);
+  const names=top.map(w=>w.name.length>28?w.name.slice(0,25)+'...':w.name);
+  const colors=top.map(w=>{
+    if(w.material==='Voidsteel')return '#c084fc';
+    if(w.material==='Nerite')return '#facc15';
+    if(w.material==='Hallowed Iron'||w.material==='Infernal Iron')return '#f87171';
+    if(w.dmg_type==='Piercing')return '#4ade80';
+    if(w.dmg_type==='Slashing')return '#f59e0b';
+    if(w.dmg_type==='Bludgeoning')return '#60a5fa';
+    return C[top.indexOf(w)%C.length];
+  });
+
+  // Plot 1: Main metric
+  let yVals,yLabel;
+  if(mode==='dpr'){yVals=top.map(w=>w.dpr);yLabel='DPR vs AC '+targetAC}
+  else if(mode==='hit'){yVals=top.map(w=>w.hit_chance);yLabel='Hit Chance %'}
+  else if(mode==='dpa'){yVals=top.map(w=>w.dpa);yLabel='Damage Per AP'}
+  else if(mode==='ttk'){yVals=top.map(w=>Math.min(w.ttk,200));yLabel='TTK (rounds, capped 200)'}
+  else{yVals=top.map(w=>w.dpr);yLabel='DPR'}
+
+  Plotly.newPlot('plot1',[{
+    x:names,y:yVals,type:'bar',marker:{color:colors},
+    hovertemplate:'%{x}<br>%{y:.1f}<extra></extra>',
+    text:top.map(w=>w.material+' | '+w.dmg_type),textposition:'none'
+  }],{
+    paper_bgcolor:'#1a1a1a',plot_bgcolor:'#222',font:{color:'#e0e0e0',size:10},
+    margin:{l:40,r:10,t:30,b:80},xaxis:{tickangle:-45,tickfont:{size:8}},
+    yaxis:{title:yLabel,gridcolor:'#333'}
+  },{responsive:true});
+
+  // Plot 2: Dmg vs Hit Chance scatter
+  Plotly.newPlot('plot2',[{
+    x:top.map(w=>w.hit_chance),y:top.map(w=>w.eff_dmg),
+    type:'scatter',mode:'markers',marker:{size:8,color:colors},
+    text:top.map(w=>w.name),hovertemplate:'%{text}<br>Hit:%{x}% DMG:%{y}<extra></extra>'
+  }],{
+    paper_bgcolor:'#1a1a1a',plot_bgcolor:'#222',font:{color:'#e0e0e0',size:10},
+    margin:{l:40,r:10,t:30,b:40},xaxis:{title:'Hit Chance %',gridcolor:'#333'},
+    yaxis:{title:'Eff Damage',gridcolor:'#333'}
+  },{responsive:true});
+
+  // Plot 3: TTK by material (treemap-style bar)
+  const byMat={};
+  top.forEach(w=>{byMat[w.material]=(byMat[w.material]||0)+w.dpr});
+  const matNames=Object.keys(byMat).sort((a,b)=>byMat[b]-byMat[a]).slice(0,15);
+  Plotly.newPlot('plot3',[{
+    x:matNames,y:matNames.map(m=>byMat[m]),
+    type:'bar',marker:{color:matNames.map((_,i)=>C[i%C.length])},
+    hovertemplate:'%{x}<br>Total: %{y:.0f}<extra></extra>'
+  }],{
+    paper_bgcolor:'#1a1a1a',plot_bgcolor:'#222',font:{color:'#e0e0e0',size:10},
+    margin:{l:40,r:10,t:30,b:80},xaxis:{tickangle:-45,tickfont:{size:8}},
+    yaxis:{title:'Sum DPR by Material',gridcolor:'#333'}
+  },{responsive:true});
+
+  // Plot 4: Top table
+  const tableData=top.slice(0,20).map(w=>[w.name,w.material,w.dmg_type,w.eff_dmg,w.hit_chance+'%',w.dpr,w.ttk+'r']);
+  Plotly.newPlot('plot4',[{
+    type:'table',header:{values:['Weapon','Material','Type','DMG','Hit%','DPR','TTK'],
+    font:{color:'#fff',size:10},fill:{color:'#333'},align:'left'},
+    cells:{values:[tableData.map(r=>r[0]),tableData.map(r=>r[1]),tableData.map(r=>r[2]),
+      tableData.map(r=>r[3]),tableData.map(r=>r[4]),tableData.map(r=>r[5]),tableData.map(r=>r[6])],
+    font:{color:'#ddd',size:9},fill:{color:['#252525','#2a2a2a']},align:'left',height:22}
+  }],{
+    paper_bgcolor:'#1a1a1a',margin:{l:0,r:0,t:20,b:0}
+  },{responsive:true});
+
+  // Click handlers
+  [d('plot1'),d('plot2')].forEach(el=>{
+    if(el) el.on('plotly_click',function(ev){if(!ev.points.length)return;
+      const p=ev.points[0];const idx=p.pointIndex;const w=top[idx];
+      if(!w)return;d('info').innerHTML=`<b>${w.name}</b><br>Material: ${w.material} | ${w.dmg_type}<br>Die: ${w.die||'n/a'} | Range: ${w.range}ft<br>Acc: ${w.total_acc}+${bon.accBonus}=${w.eff_acc}<br>DMG: ${w.total_dmg}+${bon.dmgBonus}×${bon.dmgMult}=${w.eff_dmg}<br>DPR: ${w.dpr} | TTK(${targetHP}hp): ${w.ttk}r<br>Price: ${w.price_gold}g | Ench: ${w.ench}`;
+      d('info').style.display='block';
+    });
+  });
+}
+init();
+</script>
+</body>
+</html>

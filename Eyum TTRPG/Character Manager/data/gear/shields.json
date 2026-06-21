@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Buckler",
+    "ac_bonus": 1,
+    "price_copper": 10000,
+    "notes": "Hand remains free while wielding; favored by duelists"
+  },
+  {
+    "name": "Small Shield",
+    "ac_bonus": 1,
+    "price_copper": 20000,
+    "notes": "Light, round or oval, strapped to arm"
+  },
+  {
+    "name": "Medium Shield",
+    "ac_bonus": 2,
+    "price_copper": 40000,
+    "notes": "Standard infantry shield, most versatile"
+  },
+  {
+    "name": "Large Shield",
+    "ac_bonus": 3,
+    "price_copper": 60000,
+    "notes": "-5 ft speed; covers most of the body"
+  },
+  {
+    "name": "Tower Shield",
+    "ac_bonus": 4,
+    "price_copper": 100000,
+    "notes": "-10 ft speed; can deploy for 3/4 cover; one-handed ranged weapon usable behind it"
+  },
+  {
+    "name": "Aspis",
+    "ac_bonus": 2,
+    "price_copper": 50000,
+    "notes": "+1 AC when adjacent to shield-wielding ally"
+  },
+  {
+    "name": "Throwing Shield",
+    "ac_bonus": 1,
+    "price_copper": 10000,
+    "notes": "Can be thrown as weapon (see Weapons table)"
+  },
+  {
+    "name": "Kite Shield",
+    "ac_bonus": 3,
+    "price_copper": 60000,
+    "notes": "+1 AC while mounted"
+  },
+  {
+    "name": "Heater Shield",
+    "ac_bonus": 3,
+    "price_copper": 50000,
+    "notes": "+1 Athletics to shove"
+  },
+  {
+    "name": "Pavise",
+    "ac_bonus": 3,
+    "price_copper": 80000,
+    "notes": "Can deploy for 3/4 cover; half AC bonus when not deployed"
+  },
+  {
+    "name": "Bouche Shield",
+    "ac_bonus": 2,
+    "price_copper": 40000,
+    "notes": "+1 attack and +1d4 damage with lance while mounted"
+  },
+  {
+    "name": "Targe",
+    "ac_bonus": 2,
+    "price_copper": 30000,
+    "notes": "Bonus action shield bash: 1d4 piercing (material damage bonus halved)"
+  }
+]

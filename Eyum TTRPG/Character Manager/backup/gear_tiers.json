@@ -1,18 +1,6 @@
 [
-  {
-    "name": "no_gear",
-    "label": "No Gear"
-  },
-  {
-    "name": "bad_gear",
-    "label": "Bad Gear (Iron/Base)"
-  },
-  {
-    "name": "nerite_gear",
-    "label": "Nerite Gear"
-  },
-  {
-    "name": "dragon_gear",
-    "label": "Dragon Bone/Scale Gear"
-  }
+  {"name": "no_gear",      "label": "No Gear",           "gold_per_level": 0},
+  {"name": "bad_gear",     "label": "Bad Gear",          "gold_per_level": 1},
+  {"name": "good_gear",    "label": "Good Gear",         "gold_per_level": 100},
+  {"name": "amazing_gear", "label": "Amazing Gear",      "gold_per_level": 10000}
 ]

@@ -18,7 +18,7 @@ from lib.paths import apply_level_progression, apply_paths
 from lib.feats import select_feats
 from lib.stats import spend_stat_points, spend_affinity_points
 from lib.combat import calculate_damage, calculate_5_round_damage, calculate_10_round_damage
-from lib.gear import resolve_gear
+from lib.gear import resolve_gear, select_gear, get_equipment
 from lib.races import select_best_race, build_racial_archetype, build_race_data
 from lib.output import format_sheet, write_build_file, write_average, write_overall_averages, write_summary
 
@@ -468,7 +468,12 @@ def main():
         levels = list(range(1, gen['max_level'] + 1))
     else:
         levels = gen['levels']
-    gear_tiers = settings.get('gear_tiers', [{"name": "bad_gear", "label": "Bad Gear (Iron/Base)"}])
+    gear_tiers = settings.get('gear_tiers', [{"name": "bad_gear", "label": "Bad Gear", "gold_per_level": 1}])
+
+    # Load equipment data for dynamic gear selection
+    eq_data = get_equipment()
+    if eq_data:
+        print(f"Equipment data loaded: {len(eq_data.get('weapons',[]))} weapons available")
 
     all_tier_results = []
 
@@ -479,37 +484,91 @@ def main():
         os.makedirs(tier_dir, exist_ok=True)
 
         all_results = {}
-        print("\n=== Gear Tier: " + tier_label + " ===")
+        max_level = max(levels)
+        print(f"\n=== Gear Tier: {tier_label} ===")
 
         for build_name, build_config in settings['builds'].items():
             if not build_config.get('generate', True):
                 continue
 
-            print("  Generating: " + build_name + " (levels: " + str(levels) + ")")
-            gear_override = resolve_gear(build_config, tier) if 'gear' in build_config else None
+            print(f"  Generating: {build_name} (levels: {min(levels)}-{max_level})")
+            # Select best gear the character can afford at max level
+            gear_override = select_gear(build_config, tier_name, max_level) if tier_name != 'no_gear' else {'weapon': None, 'armor': 'none'}
+            if gear_override:
+                print(f"    Gear: {gear_override.get('weapon','none')} | {gear_override.get('armor','none')}")
+            sys.stdout.flush()
             results = generate_build(build_name, build_config, settings, levels, gear_override, tier_label)
             all_results[build_name] = results
 
             if settings['generation'].get('separate_files', True):
                 path = write_build_file(build_name, results, tier_dir, tier_label)
-                print("    -> " + path)
+                print(f"    -> {path}")
 
         if settings['generation'].get('generate_average', True):
             avg_path = os.path.join(tier_dir, "average.txt")
             write_average(all_results, settings, avg_path)
-            print("    Average stats -> " + avg_path)
+            print(f"    Average stats -> {avg_path}")
 
         all_tier_results.append((tier_name, all_results))
 
     overall_path = os.path.join(script_dir, "averages.txt")
     write_overall_averages(gear_tiers, all_tier_results, settings, overall_path)
-    print("\nOverall averages across tiers -> " + overall_path)
+    print(f"\nOverall averages across tiers -> {overall_path}")
 
     summary_path = os.path.join(script_dir, "summary.txt")
     write_summary(all_tier_results, settings, summary_path, settings['builds'])
-    print("Balance summary -> " + summary_path)
+    print(f"Balance summary -> {summary_path}")
+
+    # Append weapon balance analysis
+    if eq_data:
+        _append_weapon_balance(eq_data, summary_path)
 
     print("\nDone!")
+
+
+def _append_weapon_balance(eq_data, summary_path):
+    """Append weapon balance statistics to the summary file."""
+    weapons = eq_data.get('weapons', [])
+    if not weapons: return
+
+    lines = ["\n" + "="*70, "WEAPON BALANCE ANALYSIS (from Equipment Analyzer)", "="*70]
+
+    dprs = [w.get('dpr_vs_ac16', 0) for w in weapons if w.get('dpr_vs_ac16', 0) > 0]
+    if dprs:
+        dprs.sort()
+        lines.append(f"\nDPR Distribution (vs AC 16, {len(dprs)} weapons):")
+        lines.append(f"  Min: {dprs[0]:.1f}  Q1: {dprs[len(dprs)//4]:.1f}  Median: {dprs[len(dprs)//2]:.1f}  Q3: {dprs[3*len(dprs)//4]:.1f}  Max: {dprs[-1]:.1f}")
+
+    by_dpr = sorted(weapons, key=lambda x: x.get('dpr_vs_ac16', 0), reverse=True)
+    lines.append("\nTop 10 Weapons by DPR (vs AC 16):")
+    for i, w in enumerate(by_dpr[:10]):
+        lines.append(f"  {i+1}. {w['name']:<50} DPR:{w.get('dpr_vs_ac16',0):.1f}  DMG:{w['total_dmg']}  Acc:{w['total_acc']}  {w.get('dpr_tier','?')}")
+
+    mat_dpr = {}
+    for w in weapons:
+        mat_dpr[w['material']] = mat_dpr.get(w['material'], 0) + w.get('dpr_vs_ac16', 0)
+    mat_rank = sorted(mat_dpr.items(), key=lambda x: x[1], reverse=True)
+    lines.append("\nMaterial Performance (sum DPR vs AC 16):")
+    for i, (mat, dpr) in enumerate(mat_rank[:10]):
+        lines.append(f"  {i+1}. {mat:<25} Sum DPR: {dpr:.0f}")
+
+    cat_dpr = {}
+    for w in weapons:
+        for c in w.get('category', []):
+            cat_dpr[c] = cat_dpr.get(c, 0) + w.get('dpr_vs_ac16', 0)
+    lines.append("\nCategory Performance (sum DPR vs AC 16):")
+    for c, dpr in sorted(cat_dpr.items(), key=lambda x: x[1], reverse=True):
+        lines.append(f"  {c:<20} Sum DPR: {dpr:.0f}")
+
+    tier_counts = {}
+    for w in weapons:
+        t = w.get('dpr_tier', 'unknown')
+        tier_counts[t] = tier_counts.get(t, 0) + 1
+    lines.append(f"\nDPR Tier Distribution: {tier_counts}")
+
+    with open(summary_path, 'a') as f:
+        f.write('\n'.join(lines) + '\n')
+    print("Weapon balance appended to summary")
 
 
 if __name__ == "__main__":

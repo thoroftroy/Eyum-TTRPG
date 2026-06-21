@@ -29,7 +29,7 @@ BACKUP_DIR = os.path.join(SCRIPT_DIR, 'backup')
 sys.path.insert(0, SCRIPT_DIR)
 
 from lib.config import load_settings
-from lib.gear import resolve_gear
+from lib.gear import resolve_gear, select_gear
 from generator import generate_build
 
 ALL_STATS = [
@@ -65,9 +65,10 @@ STAT_LABELS = OrderedDict([
 ])
 
 JSON_FILES = [
-    'rules.json', 'weapons.json', 'armor_types.json', 'paths.json',
+    'rules.json', 'armor_types.json', 'paths.json',
     'gear_tiers.json', 'races.json', 'builds.json', 'spells.json',
-    'feats.json', 'generation.json'
+    'feats.json', 'generation.json',
+    'gear/weapons.json', 'gear/armor.json', 'gear/shields.json', 'gear/arrows.json',
 ]
 
 AVG_LINE_COLOR = '#333333'
@@ -75,6 +76,26 @@ AVG_LINE_WIDTH = 3.5
 AVG_LINE_STYLE = '--'
 HOVER_ALPHA = 0.15
 FOCUSED_ALPHA = 1.0
+
+class ToolTip:
+    """Hover tooltip for any widget."""
+    def __init__(self, widget, text):
+        self.widget = widget
+        self.text = text
+        self.tw = None
+        widget.bind('<Enter>', self._show)
+        widget.bind('<Leave>', self._hide)
+    def _show(self, e=None):
+        if self.tw: return
+        x, y = self.widget.winfo_pointerxy()
+        self.tw = tk.Toplevel(self.widget)
+        self.tw.wm_overrideredirect(True)
+        self.tw.wm_geometry(f'+{x+10}+{y+10}')
+        lbl = ttk.Label(self.tw, text=self.text, background='#333', foreground='#eee',
+                        relief='solid', borderwidth=1, padding=(6,3), font=('TkDefaultFont', 9))
+        lbl.pack()
+    def _hide(self, e=None):
+        if self.tw: self.tw.destroy(); self.tw = None
 
 plt.rcParams['figure.facecolor'] = '#1e1e1e'
 plt.rcParams['axes.facecolor'] = '#252525'
@@ -89,6 +110,7 @@ def create_backup():
         src = os.path.join(DATA_DIR, fname)
         dst = os.path.join(BACKUP_DIR, fname)
         if os.path.exists(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
 
 
@@ -99,6 +121,7 @@ def restore_backup():
         src = os.path.join(BACKUP_DIR, fname)
         dst = os.path.join(DATA_DIR, fname)
         if os.path.exists(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
     return True
 
@@ -176,7 +199,13 @@ def _gen_one_build(args):
     build_name, build_config, settings, levels, tier_dict, tier_label = args
     if not build_config.get('generate', True):
         return build_name, None
-    gear_override = resolve_gear(build_config, tier_dict) if 'gear' in build_config else None
+    # Use select_gear with max level budget for proper tiered gear
+    tier_name = tier_dict.get('name', '')
+    max_level = max(levels)
+    if tier_name == 'no_gear':
+        gear_override = {'weapon': None, 'armor': 'none'}
+    else:
+        gear_override = select_gear(build_config, tier_name, max_level)
     results = generate_build(build_name, build_config, settings, levels, gear_override, tier_label)
     bd, _ = extract_build_data(settings, results)
     flattened = {lvl: bd[lvl] for lvl in sorted(bd.keys())}
@@ -305,6 +334,7 @@ class CharacterManagerGUI:
         self._build_notebook()
         self._create_graph_tab()
         self._create_spell_tab()
+        self._create_equipment_tab()
         self._create_settings_tab()
         self._create_menu()
 
@@ -401,7 +431,8 @@ class CharacterManagerGUI:
         file_menu.add_separator()
         file_menu.add_command(label="Switch to Graph View", command=lambda: self.notebook.select(0), accelerator="Ctrl+G")
         file_menu.add_command(label="Switch to Spell Analysis", command=lambda: self.notebook.select(1), accelerator="Ctrl+S")
-        file_menu.add_command(label="Switch to Settings", command=lambda: self.notebook.select(2), accelerator="Ctrl+E")
+        file_menu.add_command(label="Switch to Equipment Analyzer", command=lambda: self.notebook.select(2), accelerator="Ctrl+W")
+        file_menu.add_command(label="Switch to Settings", command=lambda: self.notebook.select(3), accelerator="Ctrl+T")
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
 
@@ -409,7 +440,8 @@ class CharacterManagerGUI:
         menubar.add_cascade(label="View", menu=view_menu)
         view_menu.add_command(label="Graph View", command=lambda: self.notebook.select(0), accelerator="Ctrl+G")
         view_menu.add_command(label="Spell Analysis", command=lambda: self.notebook.select(1), accelerator="Ctrl+S")
-        view_menu.add_command(label="Settings Editor", command=lambda: self.notebook.select(2), accelerator="Ctrl+E")
+        view_menu.add_command(label="Equipment Analyzer", command=lambda: self.notebook.select(2), accelerator="Ctrl+W")
+        view_menu.add_command(label="Settings Editor", command=lambda: self.notebook.select(3), accelerator="Ctrl+T")
 
         gen_menu = tk.Menu(menubar, tearoff=0)
         menubar.add_cascade(label="Generate", menu=gen_menu)
@@ -418,7 +450,8 @@ class CharacterManagerGUI:
 
         self.root.bind_all('<Control-g>', lambda e: self.notebook.select(0))
         self.root.bind_all('<Control-s>', lambda e: self.notebook.select(1))
-        self.root.bind_all('<Control-e>', lambda e: self.notebook.select(2))
+        self.root.bind_all('<Control-w>', lambda e: self.notebook.select(2))
+        self.root.bind_all('<Control-t>', lambda e: self.notebook.select(3))
 
     def _create_graph_tab(self):
         self.graph_frame = ttk.Frame(self.notebook)
@@ -1692,6 +1725,425 @@ class CharacterManagerGUI:
         self._place_annotation(all_lines, candidates[0][2], candidates[0][3])
         self._spell_canvas.draw_idle()
 
+    def _create_equipment_tab(self):
+        self.eq_frame = ttk.Frame(self.notebook)
+        self.notebook.add(self.eq_frame, text="Equipment Analyzer")
+
+        # ── Top controls row 1 ──
+        ctrl1 = ttk.Frame(self.eq_frame)
+        ctrl1.pack(fill=tk.X, padx=5, pady=3)
+        def _spin(parent, label, var, fr, to, w, cmd):
+            ttk.Label(parent, text=label).pack(side=tk.LEFT, padx=(8,2))
+            s = ttk.Spinbox(parent, from_=fr, to=to, textvariable=var, width=w, command=cmd)
+            s.pack(side=tk.LEFT, padx=2)
+            return s
+
+        self.eq_target_ac = tk.IntVar(value=16)
+        _spin(ctrl1, "Target AC:", self.eq_target_ac, 0, 999, 4, self._update_equipment)
+        self.eq_target_hp = tk.IntVar(value=100)
+        _spin(ctrl1, "HP:", self.eq_target_hp, 10, 5000, 5, self._update_equipment)
+        self.eq_str = tk.IntVar(value=3)
+        _spin(ctrl1, "STR:", self.eq_str, -5, 20, 4, self._update_equipment)
+        self.eq_dex = tk.IntVar(value=3)
+        _spin(ctrl1, "DEX:", self.eq_dex, -5, 20, 4, self._update_equipment)
+        self.eq_prof = tk.IntVar(value=2)
+        _spin(ctrl1, "Prof:", self.eq_prof, 0, 10, 3, self._update_equipment)
+        self.eq_ap = tk.IntVar(value=1)
+        _spin(ctrl1, "AP:", self.eq_ap, 1, 5, 3, self._update_equipment)
+        self.eq_extra = tk.IntVar(value=0)
+        _spin(ctrl1, "Extra Atk:", self.eq_extra, 0, 5, 3, self._update_equipment)
+        self.eq_flat_dmg = tk.IntVar(value=0)
+        _spin(ctrl1, "Dmg+:", self.eq_flat_dmg, 0, 50, 4, self._update_equipment)
+        self.eq_flat_acc = tk.IntVar(value=0)
+        _spin(ctrl1, "Acc+:", self.eq_flat_acc, 0, 20, 4, self._update_equipment)
+        self.eq_top_n = tk.IntVar(value=30)
+        _spin(ctrl1, "Top N:", self.eq_top_n, 5, 100, 4, self._update_equipment)
+
+        # ── Filter row (include + exclude) ──
+        flt = ttk.Frame(self.eq_frame)
+        flt.pack(fill=tk.X, padx=5, pady=2)
+        ttk.Label(flt, text="Include:").pack(side=tk.LEFT, padx=5)
+        self.eq_cat_var = tk.StringVar(value='')
+        self.eq_cat_combo = ttk.Combobox(flt, textvariable=self.eq_cat_var, width=14)
+        self.eq_cat_combo.pack(side=tk.LEFT, padx=2)
+        self.eq_cat_combo.bind('<<ComboboxSelected>>', lambda e: self._eq_append_filter(self.eq_cat_var, self.eq_cat_combo))
+        self.eq_cat_combo.bind('<Return>', lambda e: self._update_equipment())
+
+        self.eq_mat_var = tk.StringVar(value='')
+        self.eq_mat_combo = ttk.Combobox(flt, textvariable=self.eq_mat_var, width=14)
+        self.eq_mat_combo.pack(side=tk.LEFT, padx=2)
+        self.eq_mat_combo.bind('<<ComboboxSelected>>', lambda e: self._eq_append_filter(self.eq_mat_var, self.eq_mat_combo))
+        self.eq_mat_combo.bind('<Return>', lambda e: self._update_equipment())
+
+        ttk.Label(flt, text="Exclude:").pack(side=tk.LEFT, padx=(15,5))
+        self.eq_ex_cat_var = tk.StringVar(value='')
+        self.eq_ex_cat_combo = ttk.Combobox(flt, textvariable=self.eq_ex_cat_var, width=14)
+        self.eq_ex_cat_combo.pack(side=tk.LEFT, padx=2)
+        self.eq_ex_cat_combo.bind('<<ComboboxSelected>>', lambda e: self._eq_append_filter(self.eq_ex_cat_var, self.eq_ex_cat_combo))
+        self.eq_ex_cat_combo.bind('<Return>', lambda e: self._update_equipment())
+        self.eq_ex_mat_var = tk.StringVar(value='')
+        self.eq_ex_mat_combo = ttk.Combobox(flt, textvariable=self.eq_ex_mat_var, width=14)
+        self.eq_ex_mat_combo.pack(side=tk.LEFT, padx=2)
+        self.eq_ex_mat_combo.bind('<<ComboboxSelected>>', lambda e: self._eq_append_filter(self.eq_ex_mat_var, self.eq_ex_mat_combo))
+        self.eq_ex_mat_combo.bind('<Return>', lambda e: self._update_equipment())
+        ttk.Button(flt, text="Clear", command=self._eq_clear_filters).pack(side=tk.LEFT, padx=10)
+
+        # ── Sort radio buttons with tooltips ──
+        ttk.Label(flt, text="Sort:").pack(side=tk.LEFT, padx=(15,2))
+        self.eq_sort_var = tk.StringVar(value='DPR')
+        TOOLTIPS = {
+            'DPR': 'Expected Damage Per Round: avg dmg x hit chance x attacks/round. Measures sustained output against target AC.',
+            'TTK': 'Time To Kill: rounds needed to deal target HP. Lower is better. Incorporates accuracy, damage, and AP economy.',
+            'DMG': 'Effective Damage: raw damage per hit including all bonuses. Ignores accuracy, so favors high-damage weapons.',
+            'Acc': 'Effective Accuracy: total attack bonus. Ignores damage, so favors reliable-hit weapons.',
+        }
+        self._eq_tooltip_lbl = ttk.Label(self.eq_frame, text='', foreground='#888', font=('TkDefaultFont', 9))
+        self._eq_tooltip_lbl.pack(fill=tk.X, padx=10, pady=0)
+        for val, lbl in [('DPR','DPR'),('TTK','TTK'),('DMG','DMG'),('Acc','Acc')]:
+            rb = ttk.Radiobutton(flt, text=lbl, variable=self.eq_sort_var, value=val, command=self._update_equipment)
+            rb.pack(side=tk.LEFT, padx=3)
+            rb.bind('<Enter>', lambda e, v=val: self._eq_tooltip_lbl.configure(text=TOOLTIPS.get(v,'')))
+            rb.bind('<Leave>', lambda e: self._eq_tooltip_lbl.configure(text=''))
+
+        # Feat / Skill tree toggles
+        feat_container = ttk.LabelFrame(self.eq_frame, text="Feats and Skill Tree Effects")
+        feat_container.pack(fill=tk.X, padx=5, pady=(5,2))
+
+        feat_inner = ttk.Frame(feat_container)
+        feat_inner.pack(fill=tk.X, padx=4, pady=4)
+
+        FEATS = [
+            ('Brutal Crit', '+1d8 on critical hits', 'bc'),
+            ('Brawler 3', 'Unarmed damage up 3 die tiers', 'brawler'),
+            ('Weapon Master', '+1 Accuracy with weapon type', 'wm'),
+            ('Heavy Hitter', '+5 melee damage (two-handed)', 'hh'),
+            ('Dual Wielder', '+2 attack rolls (dual wielding)', 'dw'),
+            ('Great Cleave', 'Free attack on kill (+3 dmg)', 'gc'),
+            ('Charging Strike', '+1d6 damage after 15ft move', 'cs'),
+            ('Executioner', 'Auto-crit vs <10% HP targets', 'ex'),
+            ('Point Blank Shot', 'No disadvantage in melee range', 'pbs'),
+            ('Vital Spot', '+1d12 vs Prone/Restrained', 'vs'),
+            ('Steady Aim', '+5 Accuracy if no movement', 'ss'),
+            ('Duelist L1', '+1 melee accuracy (Duelist L1)', 'du1'),
+            ('Marksman L1', '+1 ranged accuracy (Marksman L1)', 'ma1'),
+            ('Quick Reflexes', '+1 Reaction Point', 'qr'),
+            ('Fast Hands', '+1 Bonus Action Point', 'fh'),
+            ('R: Energy', 'Rune Energy: +1 Accuracy', 'r_energy'),
+            ('R: G. Energy', 'Rune Greater Energy: +2 Accuracy', 'r_genergy'),
+            ('R: Fire', 'Rune Fire: +1d6 Fire damage', 'r_fire'),
+            ('R: G. Fire', 'Rune Greater Fire: +2d8 Fire damage', 'r_gfire'),
+            ('R: Earth', 'Rune Earth: +1d6 Earth damage', 'r_earth'),
+            ('R: Water', 'Rune Water: +1d6 Water damage', 'r_water'),
+            ('R: Air', 'Rune Air: +1d6 Air damage', 'r_air'),
+            ('R: Force', 'Rune Force: +1d6 Force damage', 'r_force'),
+            ('R: Necrotic', 'Rune Necrotic: +1d6 Necrotic damage', 'r_necrotic'),
+            ('R: Radiant', 'Rune Radiant: +1d6 Radiant damage', 'r_radiant'),
+            ('R: Psychic', 'Rune Psychic: +1d6 Psychic damage', 'r_psychic'),
+        ]
+        num_cols = 3
+        for i, (short, desc, key) in enumerate(FEATS):
+            v = tk.BooleanVar(value=False)
+            v.trace_add('write', lambda *a: self._update_equipment())
+            setattr(self, f'_eq_feat_{key}', v)
+            row = i % num_cols
+            col = i // num_cols
+            cb = ttk.Checkbutton(feat_inner, text=short, variable=v)
+            cb.grid(row=row, column=col, sticky='w', padx=4, pady=1)
+            ToolTip(cb, desc)
+
+        # Graphs
+        # Info label at bottom for click details
+        self.eq_info_var = tk.StringVar(value='')
+        info_lbl = ttk.Label(self.eq_frame, textvariable=self.eq_info_var, font=('TkDefaultFont', 8),
+                            foreground='#aaa', wraplength=1200, justify='left')
+        info_lbl.pack(fill=tk.X, padx=8, pady=(0,4))
+        self.eq_fig = plt.figure(figsize=(14, 8), dpi=100)
+        self.eq_ax1 = self.eq_fig.add_subplot(2, 2, 1)
+        self.eq_ax2 = self.eq_fig.add_subplot(2, 2, 2)
+        self.eq_ax3 = self.eq_fig.add_subplot(2, 2, 3)
+        self.eq_ax4 = self.eq_fig.add_subplot(2, 2, 4)
+        self.eq_fig.tight_layout(pad=3)
+
+        self.eq_canvas = FigureCanvasTkAgg(self.eq_fig, self.eq_frame)
+        self.eq_canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True, padx=2, pady=2)
+
+        # Scatter hover state
+        self._eq_scatter_annot = None
+        self._eq_scatter_points = None
+        self._eq_scatter_weapons = []
+
+        self._eq_data = None
+        self._eq_weapons = []
+        self._load_equipment_data()
+        self.eq_canvas.mpl_connect('button_press_event', self._on_eq_click)
+        self.eq_canvas.mpl_connect('motion_notify_event', self._on_eq_hover)
+
+    def _load_equipment_data(self):
+        import json, os
+        paths = [
+            os.path.join(DATA_DIR, 'equipment.json'),
+            os.path.join(os.path.dirname(DATA_DIR), '..', 'dist', 'equipment.json'),
+        ]
+        for p in paths:
+            try:
+                with open(p) as f:
+                    self._eq_data = json.load(f)
+                self._eq_weapons = self._eq_data.get('weapons', [])
+                cats = sorted(self._eq_data.get('by_category', {}).keys())
+                weapon_names = sorted(set(w['weapon'] for w in self._eq_weapons))
+                mats = sorted(set(w['material'] for w in self._eq_weapons))
+                all_filter_vals = [''] + cats + weapon_names
+                for combo in [self.eq_cat_combo, self.eq_ex_cat_combo]:
+                    combo['values'] = all_filter_vals
+                for combo in [self.eq_mat_combo, self.eq_ex_mat_combo]:
+                    combo['values'] = [''] + mats
+                self._update_equipment()
+                return
+            except Exception:
+                continue
+        self._eq_data = {'weapons': [], 'by_category': {}, 'materials': []}
+        self._eq_weapons = []
+
+    def _eq_clear_filters(self):
+        self.eq_cat_var.set(''); self.eq_mat_var.set('')
+        self.eq_ex_cat_var.set(''); self.eq_ex_mat_var.set('')
+        self._update_equipment()
+
+    def _eq_append_filter(self, var, combo):
+        """When dropdown item clicked, append after comma instead of replacing."""
+        current = var.get().strip()
+        selected = combo.get().strip()
+        if not selected: return
+        if current:
+            parts = [x.strip() for x in current.split(',') if x.strip()]
+            if selected not in parts:
+                parts.append(selected)
+            var.set(', '.join(parts))
+        else:
+            var.set(selected)
+        self._update_equipment()
+
+    def _hit_chance(self, acc, target_ac):
+        needed = target_ac - acc
+        if needed <= 1: return 0.95
+        if needed >= 20: return 0.05
+        return max(0.05, min(0.95, (21 - needed) / 20))
+
+    def _eq_feat_on(self, key):
+        try: return getattr(self, f'_eq_feat_{key}').get()
+        except: return False
+
+    def _update_equipment(self, *args):
+        if not self._eq_weapons:
+            return
+        target_ac = self.eq_target_ac.get()
+        target_hp = self.eq_target_hp.get()
+        str_mod = self.eq_str.get()
+        prof = self.eq_prof.get()
+        ap = self.eq_ap.get()
+        extra = self.eq_extra.get()
+        flat_dmg = self.eq_flat_dmg.get()
+        flat_acc = self.eq_flat_acc.get()
+        top_n = self.eq_top_n.get()
+        sort_by = self.eq_sort_var.get()
+        inc_cats = [x.strip() for x in self.eq_cat_var.get().split(',') if x.strip()]
+        inc_mats = [x.strip() for x in self.eq_mat_var.get().split(',') if x.strip()]
+        exc_cats = [x.strip() for x in self.eq_ex_cat_var.get().split(',') if x.strip()]
+        exc_mats = [x.strip() for x in self.eq_ex_mat_var.get().split(',') if x.strip()]
+
+        # Apply feat bonuses from actual handbook feats
+        dmg_bonus = str_mod + flat_dmg
+        acc_bonus = str_mod + prof + flat_acc
+        if self._eq_feat_on('dw'): acc_bonus += 2
+        if self._eq_feat_on('hh'): dmg_bonus += 5
+        if self._eq_feat_on('wm'): acc_bonus += 1
+        if self._eq_feat_on('gc'): dmg_bonus += 3
+        if self._eq_feat_on('cs'): dmg_bonus += 3.5
+        if self._eq_feat_on('du1'): acc_bonus += 1
+        if self._eq_feat_on('ma1'): acc_bonus += 1
+        if self._eq_feat_on('ss'): acc_bonus += 5
+        if self._eq_feat_on('r_energy'): acc_bonus += 1
+        if self._eq_feat_on('r_genergy'): acc_bonus += 2
+        if self._eq_feat_on('r_fire'): dmg_bonus += 3.5    # 1d6
+        if self._eq_feat_on('r_gfire'): dmg_bonus += 9      # 2d8
+        if self._eq_feat_on('r_earth'): dmg_bonus += 3.5
+        if self._eq_feat_on('r_water'): dmg_bonus += 3.5
+        if self._eq_feat_on('r_air'): dmg_bonus += 3.5
+        if self._eq_feat_on('r_force'): dmg_bonus += 3.5
+        if self._eq_feat_on('r_necrotic'): dmg_bonus += 3.5
+        if self._eq_feat_on('r_radiant'): dmg_bonus += 3.5
+        if self._eq_feat_on('r_psychic'): dmg_bonus += 3.5
+        attacks = ap + extra
+        if self._eq_feat_on('fh'): attacks += 0.5  # BAp gives ~0.5 extra attacks per round
+
+        weapons = self._eq_weapons[:]
+        if inc_cats:
+            weapons = [w for w in weapons if any(c in w.get('category', []) or c == w.get('weapon','') for c in inc_cats)]
+        if inc_mats:
+            weapons = [w for w in weapons if w['material'] in inc_mats]
+        if exc_cats:
+            weapons = [w for w in weapons if not any(c in w.get('category', []) or c == w.get('weapon','') for c in exc_cats)]
+        if exc_mats:
+            weapons = [w for w in weapons if w['material'] not in exc_mats]
+
+        DIE_AVG = {}
+        if self._eq_data:
+            DIE_AVG = self._eq_data.get('die_averages', {})
+
+        for w in weapons:
+            acc = w['total_acc'] + acc_bonus
+            dmg = w['total_dmg'] + dmg_bonus
+            # Brutal Crit
+            if self._eq_feat_on('bc'):
+                bc_extra = DIE_AVG.get('1d8', 4.5)
+            else:
+                bc_extra = 0
+            hc = self._hit_chance(acc, target_ac)
+            cc = 0.05
+            crit_dmg = dmg * 2 + bc_extra
+            normal_hit = hc - cc
+            if normal_hit < 0: normal_hit = 0
+            w['_dpr'] = (normal_hit * dmg + cc * crit_dmg) * attacks
+            w['_hit'] = hc * 100
+            w['_ttk'] = target_hp / w['_dpr'] if w['_dpr'] > 0 else 999
+            w['_eff_acc'] = acc
+            w['_eff_dmg'] = dmg
+
+        if sort_by == 'DPR':
+            weapons.sort(key=lambda x: x['_dpr'], reverse=True)
+        elif sort_by == 'TTK':
+            weapons.sort(key=lambda x: x['_ttk'])
+        elif sort_by == 'DMG':
+            weapons.sort(key=lambda x: x['_eff_dmg'], reverse=True)
+        elif sort_by == 'Acc':
+            weapons.sort(key=lambda x: x['_eff_acc'], reverse=True)
+
+        top = weapons[:top_n]
+
+        for ax in [self.eq_ax1, self.eq_ax2, self.eq_ax3, self.eq_ax4]:
+            ax.clear()
+
+        # Ax1: Horizontal bar chart with wrapped names
+        names = [w['name'][:40] for w in top]
+        dprs = [w['_dpr'] for w in top]
+        colors = [f'C{i}' for i in range(len(top))]
+        self.eq_ax1.barh(range(len(top)), dprs, color=colors, height=0.7)
+        self.eq_ax1.set_yticks(range(len(top)))
+        self.eq_ax1.set_yticklabels(names, fontsize=6)
+        self.eq_ax1.invert_yaxis()
+        self.eq_ax1.set_xlabel(f'DPR vs AC {target_ac}')
+        self.eq_ax1.set_title(f'Top {len(top)} Weapons by {sort_by}')
+
+        # Ax2: Scatter — DMG vs Hit%, with hover
+        hits = [w['_hit'] for w in top]
+        dmgs = [w['_eff_dmg'] for w in top]
+        sc = self.eq_ax2.scatter(hits, dmgs, c=range(len(top)), cmap='viridis', s=50, alpha=0.85, picker=5)
+        self.eq_ax2.set_xlabel('Hit Chance %')
+        self.eq_ax2.set_ylabel('Effective Damage')
+        self.eq_ax2.set_title('DMG x Accuracy: hover for details')
+        self._eq_scatter_points = sc
+        self._eq_scatter_weapons = top
+
+        # Ax3: By material — top 5
+        by_mat = {}
+        for w in weapons:
+            by_mat[w['material']] = by_mat.get(w['material'], 0) + w['_dpr']
+        mat_items = sorted(by_mat.items(), key=lambda x: x[1], reverse=True)[:5]
+        if mat_items:
+            mnames = [m[0] for m in mat_items]
+            mvals = [m[1] for m in mat_items]
+            self.eq_ax3.bar(range(len(mnames)), mvals, color=[f'C{i}' for i in range(len(mnames))])
+            self.eq_ax3.set_xticks(range(len(mnames)))
+            self.eq_ax3.set_xticklabels(mnames, rotation=30, ha='right', fontsize=8)
+            self.eq_ax3.set_ylabel('Sum DPR')
+            self.eq_ax3.set_title('By Material (Top 5)')
+
+        # Ax4: By category
+        by_cat = {}
+        for w in weapons:
+            for c in w.get('category', []):
+                by_cat[c] = by_cat.get(c, 0) + w['_dpr']
+        cat_items = sorted(by_cat.items(), key=lambda x: x[1], reverse=True)
+        if cat_items:
+            cnames = [c[0] for c in cat_items]
+            cvals = [c[1] for c in cat_items]
+            self.eq_ax4.bar(range(len(cnames)), cvals, color=[f'C{i}' for i in range(len(cnames))])
+            self.eq_ax4.set_xticks(range(len(cnames)))
+            self.eq_ax4.set_xticklabels(cnames, rotation=45, ha='right', fontsize=7)
+            self.eq_ax4.set_ylabel('Sum DPR')
+            self.eq_ax4.set_title('By Category')
+
+        self.eq_fig.tight_layout(pad=3)
+        self.eq_canvas.draw_idle()
+
+    def _on_eq_hover(self, event):
+        if event.inaxes != self.eq_ax2 or not self._eq_scatter_weapons:
+            if self._eq_scatter_annot:
+                self._eq_scatter_annot.set_visible(False)
+                self.eq_canvas.draw_idle()
+            return
+        top = self._eq_scatter_weapons
+        # Find closest point
+        min_dist = 999
+        closest = None
+        for i, w in enumerate(top):
+            dx = event.xdata - w['_hit']
+            dy = event.ydata - w['_eff_dmg']
+            dist = (dx*dx + dy*dy) ** 0.5
+            if dist < min_dist:
+                min_dist = dist
+                closest = (i, w)
+        if min_dist < 8 and closest:
+            i, w = closest
+            txt = f"{w['name']}\nMaterial: {w['material']}\nDMG: {w['_eff_dmg']:.1f}  Hit: {w['_hit']:.0f}%  DPR: {w['_dpr']:.1f}"
+            if self._eq_scatter_annot:
+                self._eq_scatter_annot.set_text(txt)
+                self._eq_scatter_annot.xy = (w['_hit'], w['_eff_dmg'])
+                self._eq_scatter_annot.set_visible(True)
+            else:
+                self._eq_scatter_annot = self.eq_ax2.annotate(txt, xy=(w['_hit'], w['_eff_dmg']),
+                    xytext=(10, 10), textcoords='offset points', fontsize=8, fontfamily='monospace',
+                    bbox=dict(boxstyle='round', facecolor='#2d2d30', edgecolor='#888', alpha=0.95),
+                    arrowprops=dict(arrowstyle='->', color='#555'))
+            self.eq_canvas.draw_idle()
+        elif self._eq_scatter_annot:
+            self._eq_scatter_annot.set_visible(False)
+            self.eq_canvas.draw_idle()
+
+    def _on_eq_click(self, event):
+        if event.inaxes != self.eq_ax1 or not self._eq_weapons:
+            return
+        target_ac = self.eq_target_ac.get()
+        target_hp = self.eq_target_hp.get()
+        weapons = self._eq_weapons[:]
+        inc_cats = [x.strip() for x in self.eq_cat_var.get().split(',') if x.strip()]
+        inc_mats = [x.strip() for x in self.eq_mat_var.get().split(',') if x.strip()]
+        exc_cats = [x.strip() for x in self.eq_ex_cat_var.get().split(',') if x.strip()]
+        exc_mats = [x.strip() for x in self.eq_ex_mat_var.get().split(',') if x.strip()]
+        if inc_cats: weapons = [w for w in weapons if any(c in w.get('category', []) or c == w.get('weapon','') for c in inc_cats)]
+        if inc_mats: weapons = [w for w in weapons if w['material'] in inc_mats]
+        if exc_cats: weapons = [w for w in weapons if not any(c in w.get('category', []) or c == w.get('weapon','') for c in exc_cats)]
+        if exc_mats: weapons = [w for w in weapons if w['material'] not in exc_mats]
+        sort_by = self.eq_sort_var.get()
+        if sort_by == 'DPR': weapons.sort(key=lambda x: x.get('_dpr', 0), reverse=True)
+        elif sort_by == 'TTK': weapons.sort(key=lambda x: x.get('_ttk', 999))
+        elif sort_by == 'DMG': weapons.sort(key=lambda x: x.get('_eff_dmg', 0), reverse=True)
+        elif sort_by == 'Acc': weapons.sort(key=lambda x: x.get('_eff_acc', 0), reverse=True)
+        top = weapons[:self.eq_top_n.get()]
+        idx = int(round(event.ydata))
+        if 0 <= idx < len(top):
+            w = top[idx]
+            lines = [
+                f"  {w['name']}",
+                f"  Material: {w['material']} | {w['dmg_type']}",
+                f"  Die: {w['die']} | Range: {w['range']}ft",
+                f"  Acc: {w['_eff_acc']} | DMG: {w['_eff_dmg']:.1f}",
+                f"  DPR: {w['_dpr']:.1f} | Hit%: {w['_hit']:.0f}%",
+                f"  TTK({target_hp}hp): {w['_ttk']:.1f}r | Price: {w['price_gold']:.0f}g",
+            ]
+            self.eq_info_var.set("\n".join(lines))
+            self.eq_canvas.draw_idle()
+
     def _bind_scrollwheel(self, widget):
         def _on_mousewheel(event):
             if event.num == 4 or event.delta > 0:
@@ -2135,7 +2587,7 @@ class CharacterManagerGUI:
 
         self.ax.set_xlabel('Level', fontsize=11)
         self.ax.set_ylabel(STAT_LABELS.get(stat, stat), fontsize=11)
-        self.ax.set_title(f'{STAT_LABELS.get(stat, stat)} by Level — {tier.replace("_", " ").title()}',
+        self.ax.set_title(f'{STAT_LABELS.get(stat, stat)} by Level - {tier.replace("_", " ").title()}',
                           fontsize=13, fontweight='bold')
 
         self.ax.set_xlim(min(all_levels) - 1, max(all_levels) + 1)

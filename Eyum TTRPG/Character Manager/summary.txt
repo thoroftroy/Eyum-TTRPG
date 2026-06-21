@@ -1,221 +1,288 @@
 EYUM TTRPG - BALANCE SUMMARY & RECOMMENDATIONS
 ============================================================
 
-Generated from analysis of 200 levels across 4 gear tiers and 110 builds.
+Generated from analysis of 200 levels across 4 gear tiers and 67 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Jack of all Trades: 3132 category-level wins (3.1%)
-  Atomic Mage       : 3086 category-level wins (3.1%)
-  Poison Mage       : 2395 category-level wins (2.4%)
-  Blight Mage       : 2377 category-level wins (2.4%)
-  Psychic Mage      : 2375 category-level wins (2.4%)
-  Toxin Mage        : 2328 category-level wins (2.3%)
-  Glacial Mage      : 2327 category-level wins (2.3%)
-  Starlight Mage    : 2326 category-level wins (2.3%)
-  Obsidian Mage     : 2323 category-level wins (2.3%)
-  Necrotic Mage     : 2119 category-level wins (2.1%)
-  Bloodfire Mage    : 2056 category-level wins (2.1%)
-  Lightning Mage    : 2041 category-level wins (2.0%)
-  Storm Mage        : 2041 category-level wins (2.0%)
-  Deluge Mage       : 2041 category-level wins (2.0%)
-  Chaos Mage        : 2041 category-level wins (2.0%)
-  Frostfire Mage    : 2041 category-level wins (2.0%)
-  Shatter Mage      : 2041 category-level wins (2.0%)
-  Ice/Cold Mage     : 2041 category-level wins (2.0%)
-  Warp Mage         : 1972 category-level wins (2.0%)
-  Void Mage         : 1972 category-level wins (2.0%)
-  Thunder Mage      : 1972 category-level wins (2.0%)
-  Tanker Archer     : 1849 category-level wins (1.8%)
-  Gel Mage          : 1849 category-level wins (1.8%)
-  Miasma Mage       : 1849 category-level wins (1.8%)
-  Corruption Mage   : 1849 category-level wins (1.8%)
-  Vacuum Mage       : 1789 category-level wins (1.8%)
-  Radiant Mage      : 1635 category-level wins (1.6%)
-  Physical Fighter  : 1625 category-level wins (1.6%)
-  Archer            : 1624 category-level wins (1.6%)
-  Fire Mage         : 1617 category-level wins (1.6%)
-  Air Mage          : 1608 category-level wins (1.6%)
-  Nova Mage         : 1582 category-level wins (1.6%)
-  Magma Mage        : 1576 category-level wins (1.6%)
-  Steam Mage        : 1576 category-level wins (1.6%)
-  Dust Mage         : 1571 category-level wins (1.6%)
-  Sorrow Mage       : 1571 category-level wins (1.6%)
-  Tremor Mage       : 1571 category-level wins (1.6%)
-  Ash Mage          : 1571 category-level wins (1.6%)
-  Solar Mage        : 1571 category-level wins (1.6%)
-  Mud Mage          : 1571 category-level wins (1.6%)
-  Hallowed Mage     : 1571 category-level wins (1.6%)
-  Cursed Mage       : 1571 category-level wins (1.6%)
-  Earth Mage        : 1569 category-level wins (1.6%)
-  Water Mage        : 1564 category-level wins (1.6%)
-  Infernal Mage     : 1512 category-level wins (1.5%)
-  Quake Mage        : 1507 category-level wins (1.5%)
-  Metal Mage        : 1507 category-level wins (1.5%)
-  Mirage Mage       : 1507 category-level wins (1.5%)
-  Torrent Mage      : 1498 category-level wins (1.5%)
-  Tanker            : 1486 category-level wins (1.5%)
-  Mage Jack of all Trades: 1010 category-level wins (1.0%)
-  Archer/Melee Fighter: 993 category-level wins (1.0%)
-  Martial Fighter   : 948 category-level wins (0.9%)
-  Full Melee Fighter: 946 category-level wins (0.9%)
-  Worst Physical    : 883 category-level wins (0.9%)
-  Worst Magical     : 102 category-level wins (0.1%)
+  Storm Mage        : 1732 category-level wins (3.1%)
+  Sorrow Mage       : 1667 category-level wins (3.0%)
+  Human Generalist  : 1612 category-level wins (2.9%)
+  Jack of all Trades: 1601 category-level wins (2.9%)
+  Atomic Mage       : 1544 category-level wins (2.8%)
+  Psychic Mage      : 1426 category-level wins (2.6%)
+  Glacial Mage      : 1379 category-level wins (2.5%)
+  Necrotic Mage     : 1147 category-level wins (2.1%)
+  Water Mage        : 1136 category-level wins (2.1%)
+  Fishfolk Water Mage: 1133 category-level wins (2.0%)
+  Fire Mage         : 1118 category-level wins (2.0%)
+  Tanker Archer     : 1031 category-level wins (1.9%)
+  Toxin Mage        : 942 category-level wins (1.7%)
+  Obsidian Mage     : 935 category-level wins (1.7%)
+  Blight Mage       : 926 category-level wins (1.7%)
+  Starlight Mage    : 920 category-level wins (1.7%)
+  Poison Mage       : 920 category-level wins (1.7%)
+  Vacuum Mage       : 914 category-level wins (1.7%)
+  Gel Mage          : 907 category-level wins (1.6%)
+  Shapeshifter Hybrid: 898 category-level wins (1.6%)
+  Thunder Mage      : 896 category-level wins (1.6%)
+  Lightning Mage    : 894 category-level wins (1.6%)
+  Ice/Cold Mage     : 893 category-level wins (1.6%)
+  Miasma Mage       : 893 category-level wins (1.6%)
+  Void Mage         : 889 category-level wins (1.6%)
+  Warp Mage         : 889 category-level wins (1.6%)
+  Chaos Mage        : 888 category-level wins (1.6%)
+  Frostfire Mage    : 888 category-level wins (1.6%)
+  Shatter Mage      : 886 category-level wins (1.6%)
+  Bloodfire Mage    : 886 category-level wins (1.6%)
+  Deluge Mage       : 886 category-level wins (1.6%)
+  Corruption Mage   : 880 category-level wins (1.6%)
+  Magma Mage        : 876 category-level wins (1.6%)
+  Quake Mage        : 871 category-level wins (1.6%)
+  Air Mage          : 871 category-level wins (1.6%)
+  Steam Mage        : 871 category-level wins (1.6%)
+  Mage Jack of all Trades: 868 category-level wins (1.6%)
+  Radiant Mage      : 868 category-level wins (1.6%)
+  Infernal Mage     : 867 category-level wins (1.6%)
+  Dust Mage         : 867 category-level wins (1.6%)
+  Earth Mage        : 866 category-level wins (1.6%)
+  Nova Mage         : 866 category-level wins (1.6%)
+  Solar Mage        : 866 category-level wins (1.6%)
+  Mirage Mage       : 865 category-level wins (1.6%)
+  Ash Mage          : 865 category-level wins (1.6%)
+  Torrent Mage      : 865 category-level wins (1.6%)
+  Cursed Mage       : 865 category-level wins (1.6%)
+  Mud Mage          : 865 category-level wins (1.6%)
+  Metal Mage        : 865 category-level wins (1.6%)
+  Tremor Mage       : 865 category-level wins (1.6%)
+  Undead Necromancer: 865 category-level wins (1.6%)
+  Hallowed Mage     : 865 category-level wins (1.6%)
+  Physical Fighter  : 854 category-level wins (1.5%)
+  Archer            : 849 category-level wins (1.5%)
+  Naga Tank         : 705 category-level wins (1.3%)
+  Elven Archer      : 112 category-level wins (0.2%)
+  Archer/Melee Fighter:  98 category-level wins (0.2%)
+  Martial Fighter   :  95 category-level wins (0.2%)
+  Full Melee Fighter:  90 category-level wins (0.2%)
+  Harpy Brawler     :  78 category-level wins (0.1%)
+  Demon Berserker   :  77 category-level wins (0.1%)
+  Therian Berserker :  77 category-level wins (0.1%)
+  Tanker            :  77 category-level wins (0.1%)
+  Worst Physical    :  75 category-level wins (0.1%)
+  Bugfolk Tank      :  75 category-level wins (0.1%)
+  Mageslayer        :  75 category-level wins (0.1%)
+  Worst Magical     :  65 category-level wins (0.1%)
 
-  >>> OK: No single build dominates. Top build (Jack of all Trades) has 3.1% of wins.
+  >>> OK: No single build dominates. Top build (Storm Mage) has 3.1% of wins.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
-  Magical builds  : 28324 damage BEST wins (96.7%)
-  Physical builds : 159 damage BEST wins (0.5%)
-  Mixed builds    : 797 damage BEST wins (2.7%)
+  Magical builds  : 2639 damage BEST wins (98.0%)
+  Physical builds :  52 damage BEST wins (1.9%)
+  Mixed builds    :   2 damage BEST wins (0.1%)
 
   >>> Magical builds dominate damage output. Consider buffing physical options.
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : mostly Tanker Archer (794/800 levels, 99.2%)
+  Vitality  : mostly Tanker Archer (767/800 levels, 95.9%)
     >>> MONOPOLY: Tanker Archer wins Vitality almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Health    : mostly Jack of all Trades (800/800 levels, 100.0%)
-    >>> MONOPOLY: Jack of all Trades wins Health almost exclusively.
+  Health    : mostly Human Generalist (782/800 levels, 97.8%)
+    >>> MONOPOLY: Human Generalist wins Health almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Mana      : mostly Lightning Mage (518/800 levels, 64.8%)
-    (Moderate concentration)
-  AC        : mostly Tanker (597/800 levels, 74.6%)
+  Mana      : mostly Sorrow Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Sorrow Mage wins Mana almost exclusively.
+    This is expected for magical builds. No action needed.
+  AC        : mostly Naga Tank (630/800 levels, 78.8%)
     (Moderate concentration)
   Feats     : mostly Archer (800/800 levels, 100.0%)
     >>> MONOPOLY: Archer wins Feats almost exclusively.
     (Tied across all builds since every build gets +1 feat every 3 levels.)
   Spells    : tied across all builds (all 800/800)
-  To Hit    : mostly Poison Mage (546/800 levels, 68.2%)
+  To Hit    : mostly Psychic Mage (533/800 levels, 66.6%)
     (Moderate concentration)
-  Dmg/Turn  : mostly Atomic Mage (765/800 levels, 95.6%)
-    >>> MONOPOLY: Atomic Mage wins Dmg/Turn almost exclusively.
-    >>> IMBALANCE: Damage output is concentrated in one build.
-    Consider: rebalancing damage scaling so other builds can compete.
-  Dmg/5R    : mostly Jack of all Trades (413/800 levels, 51.6%)
+  Dmg/Turn  : mostly Atomic Mage (635/800 levels, 79.4%)
     (Moderate concentration)
-  Dmg/10R   : mostly Jack of all Trades (384/800 levels, 48.0%)
+  Dmg/5R    : mostly Storm Mage (400/800 levels, 50.0%)
+    (Moderate concentration)
+  Dmg/10R   : mostly Storm Mage (444/800 levels, 55.5%)
     (Moderate concentration)
 
 STAT ANALYSIS
 ----------------------------------------
-  STR   : avg= 9  max=Physical Fighter   (24)  min=Fire Mage          ( 8)
-  DEX   : avg=10  max=Archer             (25)  min=Casual Fire Mage   ( 8)
-  CON   : avg=11  max=Tanker Archer      (28)  min=Casual Fire Mage   ( 8)
-  WIS   : avg=17  max=Necrotic Mage      (23)  min=Archer             ( 8)
-  INT   : avg=12  max=Necrotic Mage      (20)  min=Archer             ( 8)
-  CHA   : avg= 8  max=Jack of all Trades (13)  min=Archer             ( 8)
+  STR   : avg=12  max=Quake Mage         (26)  min=Fire Mage          ( 8)
+  DEX   : avg=10  max=Archer             (26)  min=Fire Mage          ( 6)
+  CON   : avg=12  max=Tanker Archer      (28)  min=Air Mage           ( 8)
+  WIS   : avg=13  max=Sorrow Mage        (25)  min=Archer             ( 8)
+  INT   : avg=18  max=Storm Mage         (34)  min=Archer             ( 8)
+  CHA   : avg= 9  max=Infernal Mage      (26)  min=Undead Necromancer ( 3)
 
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Atomic Mage       : avg dmg/turn 5536.1
-    Solar Mage        : avg dmg/turn 2066.3
-    Gel Mage          : avg dmg/turn 1871.8
+    Atomic Mage       : avg dmg/turn 4812.9
+    Corruption Mage   : avg dmg/turn 2555.3
+    Miasma Mage       : avg dmg/turn 2329.3
   Bad Gear:
-    Atomic Mage       : avg dmg/turn 6552.6
-    Gel Mage          : avg dmg/turn 2619.9
-    Miasma Mage       : avg dmg/turn 2614.3
-    >> Casual Fire Mage benefits most from this tier (+1743% dmg vs previous tier).
-  Nerite Gear:
-    Atomic Mage       : avg dmg/turn 6640.2
-    Gel Mage          : avg dmg/turn 2705.4
-    Miasma Mage       : avg dmg/turn 2699.6
-    >> Casual Fire Mage benefits most from this tier (+36938% dmg vs previous tier).
-  Dragon Gear:
-    Atomic Mage       : avg dmg/turn 6779.0
-    Gel Mage          : avg dmg/turn 2840.9
-    Miasma Mage       : avg dmg/turn 2835.3
-    >> Casual Fire Mage benefits most from this tier (+95467% dmg vs previous tier).
+    Atomic Mage       : avg dmg/turn 4852.3
+    Corruption Mage   : avg dmg/turn 2709.1
+    Fishfolk Water Mage: avg dmg/turn 2605.8
+    >> Worst Physical benefits most from this tier (+200% dmg vs previous tier).
+  Good Gear:
+    Atomic Mage       : avg dmg/turn 4879.8
+    Fishfolk Water Mage: avg dmg/turn 2881.4
+    Water Mage        : avg dmg/turn 2881.0
+    >> Cursed Mage benefits most from this tier (+283% dmg vs previous tier).
+  Amazing Gear:
+    Atomic Mage       : avg dmg/turn 4923.6
+    Fishfolk Water Mage: avg dmg/turn 3317.9
+    Water Mage        : avg dmg/turn 3317.5
+    >> Cursed Mage benefits most from this tier (+572% dmg vs previous tier).
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
     Level 5  (1-5) : dmg leader Fire Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Radiant Mage (2/5 levels)
-    Level 15 (11-15): dmg leader Nova Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Nova Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Bloodfire Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (151/151 levels)
+    Level 10 (6-10): dmg leader Fire Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Magma Mage (4/5 levels)
+    Level 20 (16-20): dmg leader Toxin Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Atomic Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (150/151 levels)
 
   Bad Gear:
-    Level 5  (1-5) : dmg leader Atomic Mage (5/5 levels)
-    Level 10 (6-10): dmg leader Atomic Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Atomic Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Atomic Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Atomic Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (151/151 levels)
+    Level 5  (1-5) : dmg leader Obsidian Mage (1/5 levels)
+    Level 10 (6-10): dmg leader Water Mage (2/5 levels)
+    Level 15 (11-15): dmg leader Glacial Mage (3/5 levels)
+    Level 20 (16-20): dmg leader Water Mage (3/5 levels)
+    Level 30 (21-30): dmg leader Atomic Mage (5/10 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (150/151 levels)
 
-  Nerite Gear:
-    Level 5  (1-5) : dmg leader Atomic Mage (5/5 levels)
-    Level 10 (6-10): dmg leader Atomic Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Atomic Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Atomic Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Atomic Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (151/151 levels)
+  Good Gear:
+    Level 5  (1-5) : dmg leader Thunder Mage (2/5 levels)
+    Level 10 (6-10): dmg leader Water Mage (3/5 levels)
+    Level 15 (11-15): dmg leader Water Mage (3/5 levels)
+    Level 20 (16-20): dmg leader Water Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Water Mage (4/10 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (149/151 levels)
 
-  Dragon Gear:
-    Level 5  (1-5) : dmg leader Atomic Mage (5/5 levels)
-    Level 10 (6-10): dmg leader Atomic Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Atomic Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Atomic Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Atomic Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (151/151 levels)
+  Amazing Gear:
+    Level 5  (1-5) : dmg leader Thunder Mage (2/5 levels)
+    Level 10 (6-10): dmg leader Water Mage (3/5 levels)
+    Level 15 (11-15): dmg leader Water Mage (3/5 levels)
+    Level 20 (16-20): dmg leader Water Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Water Mage (6/10 levels)
+    Level 50+ (50+): dmg leader Atomic Mage (143/151 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
-  1. Physical builds are underperforming in damage (1% of damage BEST wins vs 97% for magical).
+  1. Physical builds are underperforming in damage (2% of damage BEST wins vs 98% for magical).
        - Increase base weapon damage or weapon damage_bonus values.
        - Add more damage-boosting feats for physical builds.
        - Check if extra_damage_die on weapons is being applied correctly.
   2. Archer dominates Feat accumulation (100%).
        - Ensure other builds have feat access through their path choices.
-  3. Atomic Mage has a monopoly on Dmg/Turn (96%).
-       - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Atomic Mage has unintended damage synergies.
-  4. Jack (hybrid build) wins no BEST categories.
+  3. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.
 
 RACE POPULARITY ANALYSIS
 ----------------------------------------
-  Bugfolk Broodweaver     : 13/54 (24%)  <<< POPULAR: may indicate above-average strength
-  Demon Sylphamare        : 12/54 (22%)  <<< POPULAR: may indicate above-average strength
-  Human Aurian            : 11/54 (20%)  <<< POPULAR: may indicate above-average strength
-  Therian Minotaur        :  6/54 (11%)
-  Elf Dryad               :  6/54 (11%)
-  Fishfolk Chelonar       :  4/54 (7%)
-  Harpy Hushwing          :  1/54 (2%)
-  Tull Tull               :  1/54 (2%)
+  Bugfolk Broodweaver     : 13/65 (20%)  <<< POPULAR: may indicate above-average strength
+  Demon Sylphamare        : 12/65 (18%)
+  Human Aurian            : 11/65 (17%)
+  Therian Minotaur        :  7/65 (11%)
+  Elf Dryad               :  6/65 (9%)
+  Fishfolk Chelonar       :  4/65 (6%)
+  Harpy Hushwing          :  1/65 (2%)
+  Tull Tull               :  1/65 (2%)
+  Human Human             :  1/65 (2%)
+  Elf Elf                 :  1/65 (2%)
+  Demon Demon             :  1/65 (2%)
+  Bugfolk Chitinfolk      :  1/65 (2%)
+  Fishfolk Nerid          :  1/65 (2%)
+  Harpy Harpy             :  1/65 (2%)
+  Naga Naga               :  1/65 (2%)
+  Shapeshifter Shapeshifter:  1/65 (2%)
+  Therian Therian         :  1/65 (2%)
+  Undead Revenant         :  1/65 (2%)
 
 SPELL ANALYSIS & RANKINGS
 ----------------------------------------
 
 Top 5 by base damage:
-  Atomic:Last Sun — 715.0 dmg, 1794 mana
-  Atomic:Fallout Crown — 573.0 dmg, 897 mana
-  Atomic:Critical Atomicity — 512.0 dmg, 674 mana
-  Atomic:Go Atomic — 410.0 dmg, 449 mana
-  Atomic:Fission Verdict — 369.0 dmg, 1196 mana
+  Atomic:Last Sun — 847.5 dmg, 500 mana
+  Atomic:Fission Verdict — 795.0 dmg, 400 mana
+  Atomic:Fallout Crown — 300.0 dmg, 300 mana
+  Atomic:Critical Atomicity — 289.0 dmg, 200 mana
+  Atomic:Go Atomic — 200.0 dmg, 100 mana
 
 Top 5 by mana efficiency:
+  Corruption:Abyssal Chains — 5.88 dmg/mana, 47.0 dmg, 8 mana
+  Void:Void Slash — 4.50 dmg/mana, 36.0 dmg, 8 mana
   Solar:Solar Beam — 4.12 dmg/mana, 33.0 dmg, 8 mana
-  Miasma:Rot Lung — 4.00 dmg/mana, 36.0 dmg, 9 mana
-  Miasma:Miasma Cloud — 3.12 dmg/mana, 12.5 dmg, 4 mana
-  Miasma:Rot Kingdom — 3.00 dmg/mana, 72.0 dmg, 24 mana
-  Blight:Wither — 3.00 dmg/mana, 18.0 dmg, 6 mana
+  Corruption:Black Binding — 4.09 dmg/mana, 94.0 dmg, 23 mana
+  Earth:Faultline (Earth) — 3.60 dmg/mana, 36.0 dmg, 10 mana
 
 Free spells (0 mana):
   Generic:Mana Blast — 2.5 dmg
 
 Highest-cost spells (50+ mana):
-  Atomic:Last Sun — 715.0 dmg, 1794 mana, 0.40 dmg/mana
-  Atomic:Fallout Crown — 573.0 dmg, 897 mana, 0.64 dmg/mana
-  Atomic:Critical Atomicity — 512.0 dmg, 674 mana, 0.76 dmg/mana
-  Atomic:Go Atomic — 410.0 dmg, 449 mana, 0.91 dmg/mana
-  Atomic:Fission Verdict — 369.0 dmg, 1196 mana, 0.31 dmg/mana
+  Atomic:Last Sun — 847.5 dmg, 500 mana, 1.70 dmg/mana
+  Atomic:Fission Verdict — 795.0 dmg, 400 mana, 1.99 dmg/mana
+  Atomic:Fallout Crown — 300.0 dmg, 300 mana, 1.00 dmg/mana
+  Atomic:Critical Atomicity — 289.0 dmg, 200 mana, 1.45 dmg/mana
+  Atomic:Go Atomic — 200.0 dmg, 100 mana, 2.00 dmg/mana
 
 ============================================================
 End of summary
+
+======================================================================
+WEAPON BALANCE ANALYSIS (from Equipment Analyzer)
+======================================================================
+
+DPR Distribution (vs AC 16, 2246 weapons):
+  Min: 0.1  Q1: 1.0  Median: 1.9  Q3: 3.4  Max: 9.1
+
+Top 10 Weapons by DPR (vs AC 16):
+  1. Voidsteel Greatsword                               DPR:9.1  DMG:14.0  Acc:7  best
+  2. Voidsteel Maul                                     DPR:9.1  DMG:14.0  Acc:7  best
+  3. Voidsteel Greataxe                                 DPR:8.8  DMG:13.5  Acc:7  best
+  4. Voidsteel Longsword                                DPR:8.1  DMG:12.5  Acc:7  best
+  5. Voidsteel Warhammer                                DPR:8.1  DMG:12.5  Acc:7  best
+  6. Voidsteel Battleaxe                                DPR:8.1  DMG:12.5  Acc:7  best
+  7. Voidsteel Halberd                                  DPR:8.1  DMG:12.5  Acc:7  best
+  8. Voidsteel Glaive                                   DPR:8.1  DMG:12.5  Acc:7  best
+  9. Macuahuitl (Dragon Scale (Radiant))                DPR:8.1  DMG:12.5  Acc:7  best
+  10. Macuahuitl (Dragon Scale (Necrotic))               DPR:8.1  DMG:12.5  Acc:7  best
+
+Material Performance (sum DPR vs AC 16):
+  1. Voidsteel                 Sum DPR: 336
+  2. Wood+Dragon Scale (Radiant) Sum DPR: 316
+  3. Wood+Dragon Scale (Necrotic) Sum DPR: 316
+  4. Wood+Dragon Scale (Fire)  Sum DPR: 292
+  5. Nerite                    Sum DPR: 281
+  6. Uranium                   Sum DPR: 254
+  7. Wood+Dragon Scale (Earth) Sum DPR: 246
+  8. Carbon                    Sum DPR: 211
+  9. Infernal Iron             Sum DPR: 211
+  10. Titanium                  Sum DPR: 168
+
+Category Performance (sum DPR vs AC 16):
+  Two-Handed           Sum DPR: 2995
+  Heavy                Sum DPR: 2795
+  Ranged               Sum DPR: 1051
+  Light                Sum DPR: 750
+  Thrown               Sum DPR: 697
+  Finesse              Sum DPR: 630
+  Versatile            Sum DPR: 592
+  Loading              Sum DPR: 461
+  Reach                Sum DPR: 376
+  Martial              Sum DPR: 376
+  Magical              Sum DPR: 175
+  Unarmed              Sum DPR: 147
+  Hooking              Sum DPR: 94
+  Restraining          Sum DPR: 67
+  Special              Sum DPR: 67
+
+DPR Tier Distribution: {'best': 517, 'above_avg': 532, 'below_avg': 629, 'worst': 616}

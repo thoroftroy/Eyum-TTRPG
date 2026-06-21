@@ -137,6 +137,15 @@ try {
   execSync(`python3 "${splitScript}" "${path.join(outDir, 'graph_cache.json')}" "${path.join(outDir, 'graph_data')}"`, { stdio: 'inherit' });
 } catch { console.log('  Skipped graph cache split (python3 not available)'); }
 
+// Generate equipment combinations JSON
+try {
+  const eqScript = path.join(repoRoot, 'scripts', 'generate_equipment.py');
+  execSync(`python3 "${eqScript}" "${path.join(outDir, 'equipment.json')}"`, { stdio: 'inherit' });
+  // Also copy to Character Manager data dir so GUI can find it
+  const guiEqPath = path.join(repoRoot, 'Eyum TTRPG', 'Character Manager', 'data', 'equipment.json');
+  await fs.copyFile(path.join(outDir, 'equipment.json'), guiEqPath);
+} catch { console.log('  Skipped equipment generation (python3 not available)'); }
+
 const tree = await walkMarkdown(repoRoot);
 await copyMarkdownFiles(tree);
 
