@@ -846,24 +846,47 @@ function clearSheet() {
 
 let graphView = null;
 
+function showGraphError(msg) {
+  // Show error inside the graph canvas area — don't toggle panel state
+  if (!els.graphCanvas) return;
+  const old = els.graphCanvas.querySelector('.graph-error-msg');
+  if (old) old.remove();
+  const div = document.createElement('div');
+  div.className = 'graph-error-msg';
+  div.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#ff4444;font:13px monospace;padding:24px;text-align:center;white-space:pre-wrap;z-index:10;pointer-events:none;background:rgba(0,0,0,0.85)';
+  div.textContent = msg;
+  els.graphCanvas.appendChild(div);
+  setTimeout(() => div.remove(), 5000);
+}
+
 function toggleGraph(manifest) {
   if (!els.graphPanel) return;
-  if (!manifest || !manifest.tree) { console.warn('GraphView: manifest not loaded'); return; }
-  if (els.graphPanel.classList.toggle('open')) {
-    if (!graphView) {
-      try {
-        graphView = new GraphView(els.graphCanvas, manifest, currentPath, (path) => {
-          location.hash = encodeURIComponent(path);
-          els.graphPanel.classList.remove('open');
-        });
-      } catch (err) {
-        console.error('GraphView failed:', err);
-        els.graphPanel.classList.remove('open');
-      }
-    } else {
-      graphView.currentPath = currentPath;
-    }
+  if (!manifest || !manifest.tree) { showGraphError('Manifest not loaded yet.\nWait for page to finish loading.'); return; }
+  if (!els.graphPanel.classList.toggle('open')) return; // panel closed
+
+  // Panel just opened
+  if (graphView) {
+    graphView.currentPath = currentPath;
     if (graphView) graphView.resetView();
+    return;
+  }
+
+  // First open — create GraphView
+  try {
+    graphView = new GraphView(els.graphCanvas, manifest, currentPath, (path) => {
+      location.hash = encodeURIComponent(path);
+      els.graphPanel.classList.remove('open');
+    });
+    if (!graphView.nodes || graphView.nodes.length === 0) {
+      showGraphError('Graph has 0 nodes.\nTree: ' + (manifest.tree ? 'ok' : 'missing') + ' | Edges: ' + (manifest.edges ? manifest.edges.length : 'none'));
+      graphView.destroy();
+      graphView = null;
+      els.graphPanel.classList.remove('open');
+    }
+  } catch (err) {
+    showGraphError('GraphView crashed:\n' + (err.message || String(err)));
+    graphView = null;
+    els.graphPanel.classList.remove('open');
   }
 }
 
