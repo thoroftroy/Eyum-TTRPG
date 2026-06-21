@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "d1bf75a0c255e98b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.3 Alchemy"
+            }
+          },
+          {
             "id": "48789f4a92721538",
             "type": "leaf",
             "state": {
@@ -62,9 +76,23 @@
               "icon": "lucide-file",
               "title": "6.3 Alchemy"
             }
+          },
+          {
+            "id": "d8a233d623722e3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.5 Weapons, Armors, and Tools"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -226,43 +254,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "1de68bb02318b149",
+  "active": "d1bf75a0c255e98b",
   "lastOpenFiles": [
-    "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
-    "Eyum TTRPG/6.0 Magic/6.3 Alchemy.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.6 Materials.md",
-    "Eyum TTRPG/0.0 In Progress/0.2 TODO.md",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Demon_Berserker.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Elven_Archer.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Human_Generalist.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Glacial_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Frostfire_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Cursed_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Hallowed_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Deluge_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Tremor_Mage.txt",
-    "Eyum TTRPG/Character Manager/output/bad_gear/Atomic_Mage.txt",
-    "Eyum TTRPG/1.0 The basics/1.2 Dice and Skills.md",
-    "Eyum TTRPG/6.0 Magic/6.1 Spells.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.0 Common Animals.md",
-    "Eyum TTRPG/1.0 The basics/1.5 Mounts and Familiars.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.6 Roc.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.5 Cerberus.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.1 Monsters.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.4 Conditions.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.1 Chimera.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/Unique Monster Template.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.1 Affinities.md",
-    "Eyum TTRPG/3.0 Character Management/3.3 Leveling Up.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.11 Grootslang.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.10 Bulette.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.9 Warg.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.8 Thunderbird.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.7 Catoblepas.md",
-    "Eyum TTRPG/2.0 Reference Tables/2.5 Weapons, Armors, and Tools.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.4 Yeti.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.3 Unicorn.md",
-    "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monster Modifiers.md",
+    "dist/content/README.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.7 Frostling.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.6 Whispercap.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.5 Pebble Toad.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.4 Glimmer Moth.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.3 Ember Sprite.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.2 Will-o'-Wisp.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites/7.3.6.1 Dust Bunny.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monstrosities/7.3.5.5 Mimic.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monstrosities/7.3.5.4 Beholder.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monstrosities/7.3.5.3 Camazotz.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monstrosities/7.3.5.2 Shoggoth.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monstrosities/7.3.5.1 Chupacabra.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.8 Deepcrawler.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.7 Serpent Whale.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.6 Lusca.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.5 Aspidochelone.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.4 Megalodon.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.3 Kraken.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.2 Kelpie.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic/7.3.4.1 Aboleth.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.9 Warg.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.8 Thunderbird.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.7 Catoblepas.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.6 Roc.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal/7.3.2.5 Cerberus.md",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.6 Sprites",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monstrosities",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.4 Aquatic",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.3 Undead",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.2 Animal",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.1 Elemental",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists",
+    "dist/content/Eyum TTRPG/7.0 Monsters (WIP)",
+    "dist/content/Eyum TTRPG/6.0 Magic",
+    "dist/content/Eyum TTRPG/5.0 Deities (WIP)",
     "site/cs_page-3.png",
     "site/cs_page-2.png",
     "site/cs_page-1.png",

@@ -46,10 +46,18 @@
 
   <div id="graphPanel" class="graph-panel">
     <div class="graph-header">
-      <span>Graph View</span>
+      <div class="graph-header-left">
+        <span>Graph View</span>
+      </div>
       <button id="graphClose" class="ghost-button" title="Close graph">✕</button>
     </div>
-    <div id="graphCanvas" class="graph-canvas"></div>
+    <div id="graphCanvas" class="graph-canvas">
+      <div class="graph-zoom-controls">
+        <button class="graph-zoom-btn" id="graphZoomIn" title="Zoom in">+</button>
+        <button class="graph-zoom-btn" id="graphZoomOut" title="Zoom out">−</button>
+        <button class="graph-zoom-btn" id="graphReset" title="Reset view">⌂</button>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>

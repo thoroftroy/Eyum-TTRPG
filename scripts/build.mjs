@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
+import { execSync } from 'node:child_process';
 
 const repoRoot = process.cwd();
 const outDir = path.join(repoRoot, 'dist');
@@ -129,6 +130,12 @@ for (const f of dataFiles) {
   try { await fs.copyFile(src, path.join(outDir, f)); }
   catch { console.log(`  Skipped ${f} (not found, run generator first)`); }
 }
+
+// Split massive graph_cache.json into per-tier files for the web graph view
+try {
+  const splitScript = path.join(repoRoot, 'scripts', 'split_graph_cache.py');
+  execSync(`python3 "${splitScript}" "${path.join(outDir, 'graph_cache.json')}" "${path.join(outDir, 'graph_data')}"`, { stdio: 'inherit' });
+} catch { console.log('  Skipped graph cache split (python3 not available)'); }
 
 const tree = await walkMarkdown(repoRoot);
 await copyMarkdownFiles(tree);
