@@ -18,6 +18,7 @@
 - [[3.1 Building Your Character]]
 - [[3.2 Character Information]]
 - [[3.3 Leveling Up]]
+- [[3.4 Feats]]
 #### 4.0 Races
 - [[4.1 Races]]
 - [[4.2 Languages]]

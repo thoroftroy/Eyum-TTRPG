@@ -18,6 +18,7 @@
 - [[3.1 Building Your Character]]
 - [[3.2 Character Information]]
 - [[3.3 Leveling Up]]
+- [[3.4 Feats]]
 #### 4.0 Races
 - [[4.1 Races]]
 - [[4.2 Languages]]
@@ -54,7 +55,7 @@
 	- 7.3.5 Monstrosities
 
 
-Current Handbook Version: v3.25.6.0
+Current Handbook Version: v3.25.7.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
