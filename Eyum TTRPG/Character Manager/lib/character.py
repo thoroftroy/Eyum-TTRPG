@@ -2,6 +2,62 @@ import math
 from .die_avg import die_average
 
 
+# ---- Affinity Bonus Tables (from 2.1 Affinities) ----
+
+_ATTACK_STANDARD = [
+    (-10 + 1, -10), (-6 + 1, -8), (-3 + 1, -5), (0 + 1, -3), (3 + 1, 0),
+    (6, 1), (9, 2), (13, 3), (18, 4), (24, 5), (31, 6), (39, 7), (49, 8),
+    (61, 9), (75, 10), (91, 11), (110, 12), (132, 13), (158, 14), (189, 15),
+    (226, 16), (270, 17), (322, 18),
+]
+_ATTACK_GENERIC = [
+    (0 + 1, 0), (2 + 1, 1), (5 + 1, 2), (8 + 1, 3), (12 + 1, 4),
+    (17, 5), (23, 6), (30, 7), (38, 8), (47, 9), (57, 10),
+    (68, 11), (80, 12), (93, 13), (107, 14), (122, 15),
+]
+_DC_STANDARD = [
+    (-10 + 1, -8), (-5 + 1, -5), (-1 + 1, -3), (2 + 1, -1), (5 + 1, 0),
+    (8, 1), (13, 2), (19, 3), (27, 4), (37, 5), (49, 6), (63, 7), (80, 8),
+    (100, 9), (123, 10), (150, 11), (181, 12), (217, 13), (259, 14), (308, 15),
+]
+_DC_GENERIC = [
+    (0 + 1, 0), (3 + 1, 1), (6 + 1, 2), (10 + 1, 3), (15 + 1, 4),
+    (21, 5), (28, 6), (36, 7), (45, 8), (55, 9), (66, 10),
+    (78, 11), (91, 12), (105, 13), (120, 14), (136, 15),
+]
+_ATTACK_OVERFLOW = (322, 60, 18)     # (max, step, max_bonus)
+_ATTACK_GEN_OVERFLOW = (122, 20, 15)  # (max, step, max_bonus)
+_DC_OVERFLOW = (308, 80, 15)          # (max, step, max_bonus)
+_DC_GEN_OVERFLOW = (136, 30, 15)      # (max, step, max_bonus)
+
+
+def _lookup(val, table, overflow):
+    """Look up a bonus from a threshold table. val is the affinity value."""
+    for limit, bonus in table:
+        if val <= limit:
+            return bonus
+    max_limit, step, max_bonus = overflow
+    extra = (val - max_limit) // step
+    return max_bonus + max(0, extra)
+
+
+def attack_bonus_standard(affinity):
+    return _lookup(affinity, _ATTACK_STANDARD, _ATTACK_OVERFLOW)
+
+
+def attack_bonus_generic(affinity):
+    return _lookup(affinity, _ATTACK_GENERIC, _ATTACK_GEN_OVERFLOW)
+
+
+def dc_bonus_standard(affinity):
+    return _lookup(affinity, _DC_STANDARD, _DC_OVERFLOW)
+
+
+def dc_bonus_generic(affinity):
+    return _lookup(affinity, _DC_GENERIC, _DC_GEN_OVERFLOW)
+
+
+# Backwards-compatible alias for old spell damage formula use
 def affinity_mod(affinity):
     return int(math.ceil((affinity - 2) / 2.0))
 
@@ -246,4 +302,6 @@ class Character:
         weapon_magic_bonus = 0
         if weapon_name and weapon_name not in ('none', None):
             weapon_magic_bonus = getattr(self, '_weapon_magic_bonus', 0)
-        return generic + affinity_mod(best_specific) + self.magic_accuracy + weapon_magic_bonus
+        return (attack_bonus_generic(generic)
+                + attack_bonus_standard(best_specific)
+                + self.magic_accuracy + weapon_magic_bonus)

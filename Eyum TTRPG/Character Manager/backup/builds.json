@@ -1,7 +1,17 @@
 {
-  "Jack of all Trades": {
-    "description": "Hybrid build with both physical and magical capabilities",
-    "color": "#7f7f7f",
+  "Archetype: Indomitable": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "con",
+      "str"
+    ],
+    "description": "Indomitable archetype specialist",
+    "color": "#e6194b",
     "race": "auto",
     "base_stats": {
       "str": 8,
@@ -11,165 +21,34 @@
       "int": 8,
       "cha": 8
     },
-    "stat_priority": [
-      "str",
-      "wis",
-      "dex",
-      "con",
-      "int",
-      "cha"
-    ],
     "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical",
-      "Magical",
-      "Utility"
-    ],
-    "has_physical": true,
-    "has_magical": true,
-    "has_utility": true,
     "starting_affinities": {
       "Generic": 1
     },
     "gear": {
       "weapon": "iron_greatsword",
-      "armor": "light"
-    },
-    "generate": true
-  },
-  "Archer": {
-    "description": "Ranged physical damage dealer",
-    "color": "#2ca02c",
-    "race": "auto",
-    "base_stats": {
-      "str": 6,
-      "dex": 11,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "dex",
-      "con",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical",
-      "Utility"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "has_utility": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_longbow",
-      "armor": "light"
-    }
-  },
-  "Archer/Melee Fighter": {
-    "description": "Hybrid ranged and melee physical fighter",
-    "color": "#8c564b",
-    "race": "auto",
-    "base_stats": {
-      "str": 13,
-      "dex": 8,
-      "con": 10,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "dex",
-      "con",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_longbow",
-      "armor": "medium"
-    }
-  },
-  "Full Melee Fighter": {
-    "description": "Pure melee DPS fighter",
-    "color": "#d62728",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "dex",
-      "con",
-      "wis",
-      "int",
-      "cha"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
-    "generate": true
-  },
-  "Tanker Archer": {
-    "description": "Tanky ranged fighter",
-    "color": "#17becf",
-    "race": "auto",
-    "base_stats": {
-      "str": 9,
-      "dex": 7,
-      "con": 13,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "con",
-      "dex",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_longbow",
       "armor": "heavy"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Indomitable"
+      ]
     }
   },
-  "Tanker": {
-    "description": "Tanky melee fighter with high survivability",
-    "color": "#1f77b4",
+  "Archetype: Marksman": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "dex",
+      "con"
+    ],
+    "description": "Marksman archetype specialist",
+    "color": "#3cb44b",
     "race": "auto",
     "base_stats": {
       "str": 8,
@@ -179,33 +58,73 @@
       "int": 8,
       "cha": 8
     },
-    "stat_priority": [
-      "con",
-      "str",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
     "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longbow",
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Marksman"
+      ]
+    }
+  },
+  "Archetype: Duelist": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
     "preferred_paths": [
       "Physical"
     ],
-    "has_physical": true,
-    "has_magical": false,
+    "stat_priority": [
+      "str",
+      "dex",
+      "con"
+    ],
+    "description": "Duelist archetype specialist",
+    "color": "#ffe119",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
     "starting_affinities": {
       "Generic": 1
     },
     "gear": {
       "weapon": "iron_longsword",
-      "armor": "heavy",
-      "shield": "shield_heater"
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Duelist"
+      ]
+    }
   },
-  "Physical Fighter": {
-    "description": "Physical-focused versatile fighter",
-    "color": "#ff7f0e",
+  "Archetype: Mageslayer": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "str",
+      "con",
+      "dex"
+    ],
+    "description": "Mageslayer archetype specialist",
+    "color": "#4363d8",
     "race": "auto",
     "base_stats": {
       "str": 8,
@@ -215,328 +134,34 @@
       "int": 8,
       "cha": 8
     },
-    "stat_priority": [
-      "str",
-      "con",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
     "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical",
-      "Utility"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "has_utility": true,
     "starting_affinities": {
       "Generic": 1
     },
     "gear": {
       "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
-    "generate": true
-  },
-  "Fire Mage": {
-    "description": "Fire affinity mage",
-    "color": "#e63946",
-    "primary_affinity": "Fire",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Water Mage": {
-    "description": "Water affinity mage",
-    "color": "#457b9d",
-    "primary_affinity": "Water",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Earth Mage": {
-    "description": "Earth affinity mage",
-    "color": "#5a7d3a",
-    "primary_affinity": "Earth",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "con",
-      "int",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Air Mage": {
-    "description": "Air affinity mage",
-    "color": "#a8dadc",
-    "primary_affinity": "Air",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "dex",
-      "int",
-      "con",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Necrotic Mage": {
-    "description": "Necrotic affinity mage",
-    "color": "#6b2b6b",
-    "primary_affinity": "Necrotic",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "int",
-      "wis",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Radiant Mage": {
-    "description": "Radiant affinity mage",
-    "color": "#f4d35e",
-    "primary_affinity": "Radiant",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "cha",
-      "int",
-      "con",
-      "dex",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "light"
-    },
-    "generate": true
-  },
-  "Mage Jack of all Trades": {
-    "description": "All magics without any affinity preference",
-    "color": "#9467bd",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "quarterstaff",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Martial Fighter": {
-    "description": "Unarmed melee fighter using Tull racial path",
-    "color": "#e377c2",
-    "race": "Tull",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "con",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1,
-      "Necrotic": 3,
-      "Fire": 0,
-      "Earth": 0,
-      "Water": 0,
-      "Air": 0,
-      "Radiant": -3,
-      "Psychic": -3
-    },
-    "gear": {
-      "weapon": "none",
       "armor": "heavy"
     },
     "generate": true,
-    "unarmed_fighter": true
+    "paths": {
+      "Physical": [
+        "Mageslayer"
+      ]
+    }
   },
-  "Mageslayer": {
-    "description": "Anti-mage physical fighter specializing in hunting spellcasters",
-    "color": "#4a0e4e",
+  "Archetype: Brawler": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "str",
+      "con"
+    ],
+    "description": "Brawler archetype specialist",
+    "color": "#f58231",
     "race": "auto",
     "base_stats": {
       "str": 8,
@@ -546,6 +171,1209 @@
       "int": 8,
       "cha": 8
     },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Brawler"
+      ]
+    },
+    "is_unarmed": true
+  },
+  "Archetype: Vanguard": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "con",
+      "str"
+    ],
+    "description": "Vanguard archetype specialist",
+    "color": "#911eb4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "heavy"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Vanguard"
+      ]
+    }
+  },
+  "Archetype: Juggernaut": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "str",
+      "con"
+    ],
+    "description": "Juggernaut archetype specialist",
+    "color": "#42d4f4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_greatsword",
+      "armor": "heavy"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Juggernaut"
+      ]
+    }
+  },
+  "Archetype: Skirmisher": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "dex",
+      "str"
+    ],
+    "description": "Skirmisher archetype specialist",
+    "color": "#f032e6",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_shortsword",
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Skirmisher"
+      ]
+    }
+  },
+  "Archetype: Sentinel": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Physical"
+    ],
+    "stat_priority": [
+      "con",
+      "str"
+    ],
+    "description": "Sentinel archetype specialist",
+    "color": "#bfef45",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "heavy"
+    },
+    "generate": true,
+    "paths": {
+      "Physical": [
+        "Sentinel"
+      ]
+    }
+  },
+  "Archetype: Magician": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Magician archetype specialist",
+    "color": "#fabed4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Magician"
+      ]
+    }
+  },
+  "Archetype: Pyromancer": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Pyromancer archetype specialist",
+    "color": "#469990",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer"
+      ]
+    }
+  },
+  "Archetype: Geomancer": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Geomancer archetype specialist",
+    "color": "#dcbeff",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer"
+      ]
+    }
+  },
+  "Archetype: Tidemaster": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Tidemaster archetype specialist",
+    "color": "#9A6324",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Tidemaster"
+      ]
+    }
+  },
+  "Archetype: Windwalker": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Windwalker archetype specialist",
+    "color": "#fffac8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker"
+      ]
+    }
+  },
+  "Archetype: Priest": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Priest archetype specialist",
+    "color": "#800000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest"
+      ]
+    }
+  },
+  "Archetype: Necromancer": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Necromancer archetype specialist",
+    "color": "#aaffc3",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer"
+      ]
+    }
+  },
+  "Archetype: Psychic": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Psychic archetype specialist",
+    "color": "#808000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic"
+      ]
+    }
+  },
+  "Archetype: Healer": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Healer archetype specialist",
+    "color": "#ffd8b1",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Healer"
+      ]
+    }
+  },
+  "Archetype: Jack": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Jack archetype specialist",
+    "color": "#000075",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Jack"
+      ]
+    }
+  },
+  "Archetype: Ritualist": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "description": "Ritualist archetype specialist",
+    "color": "#a9a9a9",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Ritualist"
+      ]
+    }
+  },
+  "Archetype: Scholar": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Scholar archetype specialist",
+    "color": "#e6194b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Scholar"
+      ]
+    }
+  },
+  "Archetype: Scoundrel": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Scoundrel archetype specialist",
+    "color": "#3cb44b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Scoundrel"
+      ]
+    }
+  },
+  "Archetype: Rune Master": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Rune Master archetype specialist",
+    "color": "#ffe119",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Rune Master"
+      ]
+    }
+  },
+  "Archetype: Slime Rancher": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Slime Rancher archetype specialist",
+    "color": "#4363d8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Slime Rancher"
+      ]
+    }
+  },
+  "Archetype: Golem Tamer": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Golem Tamer archetype specialist",
+    "color": "#f58231",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Golem Tamer"
+      ]
+    }
+  },
+  "Archetype: Dragonslayer": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Dragonslayer archetype specialist",
+    "color": "#911eb4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Dragonslayer"
+      ]
+    }
+  },
+  "Archetype: Monster Hunter": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Monster Hunter archetype specialist",
+    "color": "#42d4f4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Monster Hunter"
+      ]
+    }
+  },
+  "Archetype: Human Hunter": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Human Hunter archetype specialist",
+    "color": "#f032e6",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Human Hunter"
+      ]
+    }
+  },
+  "Archetype: Alchemist": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Alchemist archetype specialist",
+    "color": "#bfef45",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Alchemist"
+      ]
+    }
+  },
+  "Archetype: Butcher": {
+    "has_physical": false,
+    "has_magical": false,
+    "has_utility": true,
+    "preferred_paths": [
+      "Utility"
+    ],
+    "stat_priority": [
+      "int",
+      "wis",
+      "dex"
+    ],
+    "description": "Butcher archetype specialist",
+    "color": "#fabed4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Utility": [
+        "Butcher"
+      ]
+    }
+  },
+  "Archetype: Pact Taker": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Pact",
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "Pact Taker archetype specialist",
+    "color": "#469990",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Pact": [
+        "Pact Taker"
+      ]
+    }
+  },
+  "Archetype: Beacon": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Pact",
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "Beacon archetype specialist",
+    "color": "#dcbeff",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Pact": [
+        "Beacon"
+      ]
+    }
+  },
+  "Archetype: Occultist": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Pact",
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "Occultist archetype specialist",
+    "color": "#9A6324",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Pact": [
+        "Occultist"
+      ]
+    }
+  },
+  "Archetype: Reaper": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Pact",
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "Reaper archetype specialist",
+    "color": "#fffac8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Pact": [
+        "Reaper"
+      ]
+    }
+  },
+  "Archetype: Eldritch Horror": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Pact",
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "Eldritch Horror archetype specialist",
+    "color": "#800000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Pact": [
+        "Eldritch Horror"
+      ]
+    }
+  },
+  "Archetype: Godslayer": {
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "preferred_paths": [
+      "Pact",
+      "Magical"
+    ],
+    "stat_priority": [
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "Godslayer archetype specialist",
+    "color": "#aaffc3",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Pact": [
+        "Godslayer"
+      ]
+    }
+  },
+  "Archetype: Bloodline Evolution": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Racial",
+      "Physical"
+    ],
     "stat_priority": [
       "str",
       "con",
@@ -554,24 +1382,9 @@
       "int",
       "cha"
     ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
-    "generate": true
-  },
-  "Worst Magical": {
-    "description": "Deliberately worst magical build - always picks lowest options",
-    "race": null,
+    "description": "Bloodline Evolution archetype specialist",
+    "color": "#808000",
+    "race": "auto",
     "base_stats": {
       "str": 8,
       "dex": 8,
@@ -580,46 +1393,79 @@
       "int": 8,
       "cha": 8
     },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
     "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical",
-      "Physical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
     "starting_affinities": {
       "Generic": 1
     },
     "gear": {
-      "weapon": "none",
-      "armor": "none"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
     "generate": true,
-    "worst": true
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Worst Physical": {
-    "description": "Deliberately worst physical build - always picks lowest options",
-    "race": null,
+  "Archetype: General Evolution": {
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "preferred_paths": [
+      "Racial",
+      "Physical"
+    ],
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "description": "General Evolution archetype specialist",
+    "color": "#ffd8b1",
+    "race": "auto",
     "base_stats": {
       "str": 8,
       "dex": 8,
       "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "spend_stat_points": "all",
+    "starting_affinities": {
+      "Generic": 1
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "General Evolution"
+      ]
+    }
+  },
+  "Race: Human Human": {
+    "description": "Human Human build",
+    "color": "#e6194b",
+    "race": "Human",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 9,
       "wis": 8,
       "int": 8,
       "cha": 8
     },
     "stat_priority": [
       "str",
-      "dex",
       "con",
+      "dex",
       "wis",
       "int",
       "cha"
@@ -627,1609 +1473,264 @@
     "spend_stat_points": "all",
     "preferred_paths": [
       "Physical",
-      "Magical"
+      "Racial"
     ],
     "has_physical": true,
     "has_magical": false,
-    "starting_affinities": {},
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1
+    },
     "gear": {
-      "weapon": "none",
-      "armor": "none"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
     "generate": true,
-    "worst": true
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Psychic Mage": {
-    "description": "Psychic affinity mage",
-    "primary_affinity": "Psychic",
-    "color": "#8b5cf6",
-    "race": "auto",
+  "Race: Human Aurian": {
+    "description": "Human Aurian build",
+    "color": "#3cb44b",
+    "race": "Human",
     "base_stats": {
-      "str": 8,
+      "str": 9,
       "dex": 8,
       "con": 8,
-      "wis": 8,
-      "int": 8,
+      "wis": 10,
+      "int": 9,
       "cha": 8
     },
     "stat_priority": [
       "wis",
+      "str",
       "int",
-      "con",
       "dex",
-      "cha",
-      "str"
+      "con",
+      "cha"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
-      "Magical"
+      "Physical",
+      "Racial"
     ],
-    "has_physical": false,
-    "has_magical": true,
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Psychic": -3
     },
     "gear": {
-      "weapon": "wand",
-      "armor": "none"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Lightning Mage": {
-    "description": "Lightning affinity mage",
-    "primary_affinity": "Lightning",
-    "color": "#facc15",
-    "race": "auto",
+  "Race: Human Halofade": {
+    "description": "Human Halofade build",
+    "color": "#ffe119",
+    "race": "Human",
     "base_stats": {
-      "str": 8,
+      "str": 7,
       "dex": 8,
       "con": 8,
       "wis": 8,
       "int": 8,
-      "cha": 8
+      "cha": 10
     },
     "stat_priority": [
+      "cha",
+      "dex",
+      "con",
       "wis",
       "int",
-      "con",
-      "dex",
-      "cha",
       "str"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
-      "Magical"
+      "Physical",
+      "Racial"
     ],
-    "has_physical": false,
-    "has_magical": true,
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Radiant": 3,
+      "Psychic": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Earth": -3
     },
     "gear": {
-      "weapon": "wand",
-      "armor": "none"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Ice/Cold Mage": {
-    "description": "Ice/Cold affinity mage",
-    "primary_affinity": "Ice/Cold",
-    "color": "#67e8f9",
-    "race": "auto",
+  "Race: Human Giant": {
+    "description": "Human Giant build",
+    "color": "#4363d8",
+    "race": "Human",
     "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
+      "str": 14,
+      "dex": 6,
+      "con": 10,
+      "wis": 4,
+      "int": 4,
       "cha": 8
     },
     "stat_priority": [
-      "wis",
-      "int",
+      "str",
       "con",
-      "dex",
       "cha",
-      "str"
+      "dex",
+      "wis",
+      "int"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
-      "Magical"
+      "Physical",
+      "Racial"
     ],
-    "has_physical": false,
-    "has_magical": true,
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Earth": 3,
+      "Water": 3,
+      "Air": -3,
+      "Psychic": -3
     },
     "gear": {
-      "weapon": "wand",
-      "armor": "none"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Vacuum Mage": {
-    "description": "Vacuum affinity mage",
-    "primary_affinity": "Vacuum",
-    "color": "#2d2d3d",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Poison Mage": {
-    "description": "Poison affinity mage",
-    "primary_affinity": "Poison",
-    "color": "#65a30d",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Corruption Mage": {
-    "description": "Corruption affinity mage",
-    "primary_affinity": "Corruption",
-    "color": "#4a1d6e",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Bloodfire Mage": {
-    "description": "Bloodfire affinity mage",
-    "primary_affinity": "Bloodfire",
-    "color": "#b91c1c",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Metal Mage": {
-    "description": "Metal affinity mage",
-    "primary_affinity": "Metal",
-    "color": "#94a3b8",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Solar Mage": {
-    "description": "Solar affinity mage",
-    "primary_affinity": "Solar",
-    "color": "#fb923c",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Nova Mage": {
-    "description": "Nova affinity mage",
-    "primary_affinity": "Nova",
-    "color": "#eab308",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Starlight Mage": {
-    "description": "Starlight affinity mage",
-    "primary_affinity": "Starlight",
-    "color": "#a78bfa",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Mud Mage": {
-    "description": "Mud affinity mage",
-    "primary_affinity": "Mud",
-    "color": "#78350f",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Dust Mage": {
-    "description": "Dust affinity mage",
-    "primary_affinity": "Dust",
-    "color": "#d6c8a6",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Steam Mage": {
-    "description": "Steam affinity mage",
-    "primary_affinity": "Steam",
-    "color": "#cbd5e1",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Magma Mage": {
-    "description": "Magma affinity mage",
-    "primary_affinity": "Magma",
-    "color": "#ea580c",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Ash Mage": {
-    "description": "Ash affinity mage",
-    "primary_affinity": "Ash",
-    "color": "#78716c",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Blight Mage": {
-    "description": "Blight affinity mage",
-    "primary_affinity": "Blight",
-    "color": "#4d7c0f",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Toxin Mage": {
-    "description": "Toxin affinity mage",
-    "primary_affinity": "Toxin",
-    "color": "#84cc16",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Shatter Mage": {
-    "description": "Shatter affinity mage",
-    "primary_affinity": "Shatter",
-    "color": "#b4c6e7",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Sorrow Mage": {
-    "description": "Sorrow affinity mage",
-    "primary_affinity": "Sorrow",
-    "color": "#6366f1",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Chaos Mage": {
-    "description": "Chaos affinity mage",
-    "primary_affinity": "Chaos",
-    "color": "#ef4444",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Warp Mage": {
-    "description": "Warp affinity mage",
-    "primary_affinity": "Warp",
-    "color": "#d946ef",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Thunder Mage": {
-    "description": "Thunder affinity mage",
-    "primary_affinity": "Thunder",
-    "color": "#1e40af",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Mirage Mage": {
-    "description": "Mirage affinity mage",
-    "primary_affinity": "Mirage",
-    "color": "#fcd34d",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Storm Mage": {
-    "description": "Storm affinity mage",
-    "primary_affinity": "Storm",
-    "color": "#0ea5e9",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Void Mage": {
-    "description": "Void affinity mage",
-    "primary_affinity": "Void",
-    "color": "#18181b",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Obsidian Mage": {
-    "description": "Obsidian affinity mage",
-    "primary_affinity": "Obsidian",
-    "color": "#8b5cf6",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Quake Mage": {
-    "description": "Quake affinity mage",
-    "primary_affinity": "Quake",
-    "color": "#854d0e",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Infernal Mage": {
-    "description": "Infernal affinity mage",
-    "primary_affinity": "Infernal",
-    "color": "#991b1b",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Torrent Mage": {
-    "description": "Torrent affinity mage",
-    "primary_affinity": "Torrent",
-    "color": "#06b6d4",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Miasma Mage": {
-    "description": "Miasma affinity mage",
-    "primary_affinity": "Miasma",
-    "color": "#713f12",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Gel Mage": {
-    "description": "Gel affinity mage",
-    "primary_affinity": "Gel",
-    "color": "#a3e635",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Atomic Mage": {
-    "description": "Atomic affinity mage",
-    "primary_affinity": "Atomic",
-    "color": "#e11d48",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Tremor Mage": {
-    "description": "Tremor affinity mage",
-    "primary_affinity": "Tremor",
-    "color": "#92400e",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Deluge Mage": {
-    "description": "Deluge affinity mage",
-    "primary_affinity": "Deluge",
-    "color": "#0e7490",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Hallowed Mage": {
-    "description": "Hallowed affinity mage",
-    "primary_affinity": "Hallowed",
-    "color": "#fbbf24",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Cursed Mage": {
-    "description": "Cursed affinity mage",
-    "primary_affinity": "Cursed",
-    "color": "#7e22ce",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Frostfire Mage": {
-    "description": "Frostfire affinity mage",
-    "primary_affinity": "Frostfire",
-    "color": "#06b6d4",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Glacial Mage": {
-    "description": "Glacial affinity mage",
-    "primary_affinity": "Glacial",
-    "color": "#a5f3fc",
-    "race": "auto",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "wis",
-      "int",
-      "con",
-      "dex",
-      "cha",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Magical"
-    ],
-    "has_physical": false,
-    "has_magical": true,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "wand",
-      "armor": "none"
-    },
-    "generate": true
-  },
-  "Human Generalist": {
-    "description": "Human specializing in racial tiers with physical and utility paths",
-    "color": "#c9a96e",
+  "Race: Human Iceborn": {
+    "description": "Human Iceborn build",
+    "color": "#f58231",
     "race": "Human",
     "base_stats": {
       "str": 8,
       "dex": 8,
-      "con": 8,
-      "wis": 8,
+      "con": 9,
+      "wis": 9,
       "int": 8,
       "cha": 8
     },
     "stat_priority": [
-      "str",
       "con",
-      "dex",
       "wis",
+      "str",
+      "dex",
       "int",
       "cha"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
       "Physical",
-      "Utility"
+      "Racial"
     ],
     "has_physical": true,
     "has_magical": false,
-    "has_utility": true,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
-    "generate": true
-  },
-  "Elven Archer": {
-    "description": "Elf specializing in racial tiers with archery physical path",
-    "color": "#7cba6d",
-    "race": "Elf",
-    "base_stats": {
-      "str": 6,
-      "dex": 11,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "dex",
-      "wis",
-      "con",
-      "str"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_longbow",
-      "armor": "light"
-    },
-    "generate": true
-  },
-  "Demon Berserker": {
-    "description": "Demon specializing in racial tiers with brutal melee combat",
-    "color": "#b22222",
-    "race": "Demon",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "str",
-      "con",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_greatsword",
-      "armor": "medium"
-    },
-    "generate": true
-  },
-  "Bugfolk Tank": {
-    "description": "Bugfolk specializing in racial tiers with heavy armor defense",
-    "color": "#5c8a3c",
-    "race": "Bugfolk",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "con",
-      "str",
-      "dex",
-      "wis",
-      "int",
-      "cha"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Water": 3,
+      "Radiant": 3,
+      "Fire": -3
     },
     "gear": {
       "weapon": "iron_longsword",
-      "armor": "heavy",
-      "shield": "shield_heater"
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Fishfolk Water Mage": {
-    "description": "Fishfolk specializing in racial tiers with water magic",
-    "color": "#1e7a8a",
-    "primary_affinity": "Water",
-    "race": "Fishfolk",
+  "Race: Human Fireborn": {
+    "description": "Human Fireborn build",
+    "color": "#911eb4",
+    "race": "Human",
     "base_stats": {
-      "str": 8,
+      "str": 10,
       "dex": 8,
-      "con": 8,
+      "con": 7,
       "wis": 8,
       "int": 8,
       "cha": 8
     },
     "stat_priority": [
-      "wis",
-      "con",
-      "int",
+      "str",
       "dex",
+      "wis",
+      "int",
       "cha",
-      "str"
+      "con"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
-      "Magical"
+      "Physical",
+      "Racial"
     ],
-    "has_physical": false,
-    "has_magical": true,
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Fire": 3,
+      "Psychic": 3,
+      "Water": -3,
+      "Radiant": -3
     },
     "gear": {
-      "weapon": "wand",
-      "armor": "none"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Harpy Brawler": {
-    "description": "Harpy specializing in racial tiers with aerial brawling combat",
-    "color": "#d4a574",
-    "race": "Harpy",
+  "Race: Human Kravari": {
+    "description": "Human Kravari build",
+    "color": "#42d4f4",
+    "race": "Human",
     "base_stats": {
-      "str": 8,
+      "str": 11,
       "dex": 8,
       "con": 8,
       "wis": 8,
-      "int": 8,
+      "int": 6,
       "cha": 8
     },
     "stat_priority": [
@@ -2237,71 +1738,46 @@
       "dex",
       "con",
       "wis",
-      "int",
-      "cha"
+      "cha",
+      "int"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
-      "Physical"
+      "Physical",
+      "Racial"
     ],
     "has_physical": true,
     "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Psychic": -3,
+      "Air": -3
     },
     "gear": {
       "weapon": "iron_longsword",
-      "armor": "light"
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Naga Tank": {
-    "description": "Naga specializing in racial tiers with heavy defense",
-    "color": "#2d7a4a",
-    "race": "Naga",
+  "Race: Human Sandman": {
+    "description": "Human Sandman build",
+    "color": "#f032e6",
+    "race": "Human",
     "base_stats": {
       "str": 8,
-      "dex": 8,
+      "dex": 9,
       "con": 8,
       "wis": 8,
       "int": 8,
-      "cha": 8
-    },
-    "stat_priority": [
-      "con",
-      "dex",
-      "str",
-      "wis",
-      "int",
-      "cha"
-    ],
-    "spend_stat_points": "all",
-    "preferred_paths": [
-      "Physical"
-    ],
-    "has_physical": true,
-    "has_magical": false,
-    "starting_affinities": {
-      "Generic": 1
-    },
-    "gear": {
-      "weapon": "iron_longsword",
-      "armor": "heavy",
-      "shield": "shield_heater"
-    },
-    "generate": true
-  },
-  "Shapeshifter Hybrid": {
-    "description": "Shapeshifter specializing in racial tiers with balanced hybrid combat",
-    "color": "#9b59b6",
-    "race": "Shapeshifter",
-    "base_stats": {
-      "str": 8,
-      "dex": 8,
-      "con": 8,
-      "wis": 8,
-      "int": 8,
-      "cha": 8
+      "cha": 9
     },
     "stat_priority": [
       "dex",
@@ -2314,27 +1790,362 @@
     "spend_stat_points": "all",
     "preferred_paths": [
       "Physical",
-      "Magical"
+      "Racial"
     ],
     "has_physical": true,
-    "has_magical": true,
+    "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Psychic": 3,
+      "Water": 3,
+      "Radiant": 3,
+      "Earth": -3
     },
     "gear": {
-      "weapon": "quarterstaff",
-      "armor": "light"
+      "weapon": "iron_longsword",
+      "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Therian Berserker": {
-    "description": "Therian specializing in racial tiers with savage melee combat",
-    "color": "#8B4513",
-    "race": "Therian",
+  "Race: Elf Elf": {
+    "description": "Elf Elf build",
+    "color": "#bfef45",
+    "race": "Elf",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 9,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "wis",
+      "str",
+      "con",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Earth": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Draugir": {
+    "description": "Elf Draugir build",
+    "color": "#fabed4",
+    "race": "Elf",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "int",
+      "str",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Dryad": {
+    "description": "Elf Dryad build",
+    "color": "#469990",
+    "race": "Elf",
     "base_stats": {
       "str": 8,
       "dex": 8,
+      "con": 9,
+      "wis": 10,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "con",
+      "str",
+      "dex",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Radiant": 3,
+      "Fire": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Nymph": {
+    "description": "Elf Nymph build",
+    "color": "#dcbeff",
+    "race": "Elf",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
       "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 10
+    },
+    "stat_priority": [
+      "cha",
+      "dex",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Psychic": 3,
+      "Radiant": 3,
+      "Fire": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Siren": {
+    "description": "Elf Siren build",
+    "color": "#9A6324",
+    "race": "Elf",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 13
+    },
+    "stat_priority": [
+      "cha",
+      "str",
+      "dex",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Psychic": 3,
+      "Radiant": 3,
+      "Earth": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Dwarf": {
+    "description": "Elf Dwarf build",
+    "color": "#fffac8",
+    "race": "Elf",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Snerin": {
+    "description": "Elf Snerin build",
+    "color": "#800000",
+    "race": "Elf",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 10,
+      "cha": 8
+    },
+    "stat_priority": [
+      "int",
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Air": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Ironwroth": {
+    "description": "Elf Ironwroth build",
+    "color": "#aaffc3",
+    "race": "Elf",
+    "base_stats": {
+      "str": 11,
+      "dex": 8,
+      "con": 9,
       "wis": 8,
       "int": 8,
       "cha": 8
@@ -2349,39 +2160,3555 @@
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
-      "Physical"
+      "Physical",
+      "Racial"
     ],
     "has_physical": true,
     "has_magical": false,
+    "has_utility": false,
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Earth": 3,
+      "Water": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
     },
     "gear": {
-      "weapon": "iron_greatsword",
+      "weapon": "iron_longsword",
       "armor": "medium"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
   },
-  "Undead Necromancer": {
-    "description": "Undead specializing in racial tiers with necrotic death magic",
-    "color": "#4a2b6e",
-    "primary_affinity": "Necrotic",
-    "race": "Undead",
+  "Race: Elf Fairy": {
+    "description": "Elf Fairy build",
+    "color": "#808000",
+    "race": "Elf",
     "base_stats": {
-      "str": 8,
-      "dex": 8,
+      "str": 6,
+      "dex": 11,
       "con": 8,
       "wis": 8,
       "int": 8,
       "cha": 8
     },
     "stat_priority": [
-      "int",
-      "wis",
-      "con",
       "dex",
+      "con",
+      "wis",
+      "int",
       "cha",
       "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Earth": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Pixy": {
+    "description": "Elf Pixy build",
+    "color": "#ffd8b1",
+    "race": "Elf",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "dex",
+      "cha",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Psychic": 3,
+      "Necrotic": 3,
+      "Earth": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Elf Spriteling": {
+    "description": "Elf Spriteling build",
+    "color": "#000075",
+    "race": "Elf",
+    "base_stats": {
+      "str": 7,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "con",
+      "wis",
+      "int",
+      "cha",
+      "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Fire": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Demon": {
+    "description": "Demon Demon build",
+    "color": "#a9a9a9",
+    "race": "Demon",
+    "base_stats": {
+      "str": 11,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Ferramite": {
+    "description": "Demon Ferramite build",
+    "color": "#e6194b",
+    "race": "Demon",
+    "base_stats": {
+      "str": 11,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Necrotic": 3,
+      "Water": 3,
+      "Radiant": -3,
+      "Psychic": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Pyrrakin": {
+    "description": "Demon Pyrrakin build",
+    "color": "#3cb44b",
+    "race": "Demon",
+    "base_stats": {
+      "str": 9,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "str",
+      "con",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Radiant": -3,
+      "Water": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Drakari": {
+    "description": "Demon Drakari build",
+    "color": "#ffe119",
+    "race": "Demon",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Air": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Cinderkin": {
+    "description": "Demon Cinderkin build",
+    "color": "#4363d8",
+    "race": "Demon",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 10
+    },
+    "stat_priority": [
+      "cha",
+      "int",
+      "str",
+      "dex",
+      "con",
+      "wis"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Necrotic": 3,
+      "Water": -3,
+      "Radiant": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Sylphamare": {
+    "description": "Demon Sylphamare build",
+    "color": "#f58231",
+    "race": "Demon",
+    "base_stats": {
+      "str": 8,
+      "dex": 6,
+      "con": 8,
+      "wis": 11,
+      "int": 10,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "str",
+      "con",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Radiant": 3,
+      "Air": -3,
+      "Psychic": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Demon Varkuun": {
+    "description": "Demon Varkuun build",
+    "color": "#911eb4",
+    "race": "Demon",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "str",
+      "cha",
+      "dex",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 3,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Cold": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Chitinfolk": {
+    "description": "Bugfolk Chitinfolk build",
+    "color": "#42d4f4",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Skorren": {
+    "description": "Bugfolk Skorren build",
+    "color": "#f032e6",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Water": 3,
+      "Air": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Kheprid": {
+    "description": "Bugfolk Kheprid build",
+    "color": "#bfef45",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Verdleap": {
+    "description": "Bugfolk Verdleap build",
+    "color": "#fabed4",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Earth": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Miregnat": {
+    "description": "Bugfolk Miregnat build",
+    "color": "#469990",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 7,
+      "dex": 10,
+      "con": 6,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "dex",
+      "wis",
+      "int",
+      "str",
+      "cha",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Necrotic": 3,
+      "Earth": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Longweaver": {
+    "description": "Bugfolk Longweaver build",
+    "color": "#dcbeff",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 10,
+      "dex": 7,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Air": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Webjack": {
+    "description": "Bugfolk Webjack build",
+    "color": "#9A6324",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 9,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "dex",
+      "con",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Air": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Broodweaver": {
+    "description": "Bugfolk Broodweaver build",
+    "color": "#fffac8",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 9,
+      "int": 10,
+      "cha": 8
+    },
+    "stat_priority": [
+      "int",
+      "wis",
+      "str",
+      "dex",
+      "con",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Air": 3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Duskwing": {
+    "description": "Bugfolk Duskwing build",
+    "color": "#800000",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "dex",
+      "cha",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Earth": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Glimmerwing": {
+    "description": "Bugfolk Glimmerwing build",
+    "color": "#aaffc3",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 10
+    },
+    "stat_priority": [
+      "cha",
+      "dex",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Necrotic": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Twigwrought": {
+    "description": "Bugfolk Twigwrought build",
+    "color": "#808000",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 10,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "wis",
+      "str",
+      "dex",
+      "con",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Air": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Formid": {
+    "description": "Bugfolk Formid build",
+    "color": "#ffd8b1",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Bugfolk Plateroll": {
+    "description": "Bugfolk Plateroll build",
+    "color": "#000075",
+    "race": "Bugfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 7,
+      "con": 11,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Fishfolk Nerid": {
+    "description": "Fishfolk Nerid build",
+    "color": "#a9a9a9",
+    "race": "Fishfolk",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Fishfolk Mermaid": {
+    "description": "Fishfolk Mermaid build",
+    "color": "#e6194b",
+    "race": "Fishfolk",
+    "base_stats": {
+      "str": 6,
+      "dex": 7,
+      "con": 7,
+      "wis": 8,
+      "int": 7,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "cha",
+      "dex",
+      "con",
+      "int",
+      "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Fishfolk Cephalid": {
+    "description": "Fishfolk Cephalid build",
+    "color": "#3cb44b",
+    "race": "Fishfolk",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 10,
+      "cha": 8
+    },
+    "stat_priority": [
+      "int",
+      "dex",
+      "str",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Fishfolk Deepmantle": {
+    "description": "Fishfolk Deepmantle build",
+    "color": "#ffe119",
+    "race": "Fishfolk",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Fishfolk Chelonar": {
+    "description": "Fishfolk Chelonar build",
+    "color": "#4363d8",
+    "race": "Fishfolk",
+    "base_stats": {
+      "str": 9,
+      "dex": 7,
+      "con": 13,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Earth": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Harpy": {
+    "description": "Harpy Harpy build",
+    "color": "#f58231",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "dex",
+      "cha",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Earth": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Hushwing": {
+    "description": "Harpy Hushwing build",
+    "color": "#911eb4",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 10,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "dex",
+      "str",
+      "con",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Fire": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Skyclaw": {
+    "description": "Harpy Skyclaw build",
+    "color": "#42d4f4",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 10,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "dex",
+      "con",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Water": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Blackfeather": {
+    "description": "Harpy Blackfeather build",
+    "color": "#f032e6",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 10,
+      "cha": 8
+    },
+    "stat_priority": [
+      "int",
+      "dex",
+      "str",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Palehook": {
+    "description": "Harpy Palehook build",
+    "color": "#bfef45",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": 3,
+      "Water": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Roundfeather": {
+    "description": "Harpy Roundfeather build",
+    "color": "#fabed4",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 8,
+      "dex": 7,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Radiant": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Harpy Earfang": {
+    "description": "Harpy Earfang build",
+    "color": "#469990",
+    "race": "Harpy",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "int",
+      "str",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Psychic": 3,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Naga": {
+    "description": "Naga Naga build",
+    "color": "#dcbeff",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Slarik": {
+    "description": "Naga Slarik build",
+    "color": "#9A6324",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 7,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Air": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Scaledrake": {
+    "description": "Naga Scaledrake build",
+    "color": "#fffac8",
+    "race": "Naga",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Radiant": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Ophidian": {
+    "description": "Naga Ophidian build",
+    "color": "#800000",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "int",
+      "str",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Viperean": {
+    "description": "Naga Viperean build",
+    "color": "#aaffc3",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "dex",
+      "cha",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Nagaith": {
+    "description": "Naga Nagaith build",
+    "color": "#808000",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Air": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Serpentarii": {
+    "description": "Naga Serpentarii build",
+    "color": "#ffd8b1",
+    "race": "Naga",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Radiant": 3,
+      "Water": -3,
+      "Air": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Carapax": {
+    "description": "Naga Carapax build",
+    "color": "#000075",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 7,
+      "con": 11,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Radiant": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Naga Anuran": {
+    "description": "Naga Anuran build",
+    "color": "#a9a9a9",
+    "race": "Naga",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 9,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "wis",
+      "str",
+      "con",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Air": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Shapeshifter Shapeshifter": {
+    "description": "Shapeshifter Shapeshifter build",
+    "color": "#e6194b",
+    "race": "Shapeshifter",
+    "base_stats": {
+      "str": 8,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "dex",
+      "cha",
+      "str",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Shapeshifter Mireglopian": {
+    "description": "Shapeshifter Mireglopian build",
+    "color": "#3cb44b",
+    "race": "Shapeshifter",
+    "base_stats": {
+      "str": 7,
+      "dex": 9,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha",
+      "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Water": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Shapeshifter Mirr": {
+    "description": "Shapeshifter Mirr build",
+    "color": "#ffe119",
+    "race": "Shapeshifter",
+    "base_stats": {
+      "str": 7,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 10
+    },
+    "stat_priority": [
+      "cha",
+      "int",
+      "dex",
+      "con",
+      "wis",
+      "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Psychic": 3,
+      "Radiant": 3,
+      "Fire": -3,
+      "Earth": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Shapeshifter Skinwalker": {
+    "description": "Shapeshifter Skinwalker build",
+    "color": "#4363d8",
+    "race": "Shapeshifter",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Therian": {
+    "description": "Therian Therian build",
+    "color": "#f58231",
+    "race": "Therian",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Felar": {
+    "description": "Therian Felar build",
+    "color": "#911eb4",
+    "race": "Therian",
+    "base_stats": {
+      "str": 9,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "str",
+      "con",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Air": 3,
+      "Necrotic": 3,
+      "Earth": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Wolfkin": {
+    "description": "Therian Wolfkin build",
+    "color": "#42d4f4",
+    "race": "Therian",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Centaur": {
+    "description": "Therian Centaur build",
+    "color": "#f032e6",
+    "race": "Therian",
+    "base_stats": {
+      "str": 11,
+      "dex": 7,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Radiant": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Tuskwroth": {
+    "description": "Therian Tuskwroth build",
+    "color": "#bfef45",
+    "race": "Therian",
+    "base_stats": {
+      "str": 11,
+      "dex": 7,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Radiant": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Minotaur": {
+    "description": "Therian Minotaur build",
+    "color": "#fabed4",
+    "race": "Therian",
+    "base_stats": {
+      "str": 13,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Murren": {
+    "description": "Therian Murren build",
+    "color": "#469990",
+    "race": "Therian",
+    "base_stats": {
+      "str": 7,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "int",
+      "con",
+      "wis",
+      "cha",
+      "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Probassan": {
+    "description": "Therian Probassan build",
+    "color": "#dcbeff",
+    "race": "Therian",
+    "base_stats": {
+      "str": 12,
+      "dex": 6,
+      "con": 11,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 3,
+      "Necrotic": 3,
+      "Fire": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Drowseer": {
+    "description": "Therian Drowseer build",
+    "color": "#9A6324",
+    "race": "Therian",
+    "base_stats": {
+      "str": 9,
+      "dex": 7,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "cha",
+      "dex"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Psychic": 3,
+      "Radiant": 3,
+      "Earth": -3,
+      "Necrotic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Spinekin": {
+    "description": "Therian Spinekin build",
+    "color": "#fffac8",
+    "race": "Therian",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Ursworn": {
+    "description": "Therian Ursworn build",
+    "color": "#800000",
+    "race": "Therian",
+    "base_stats": {
+      "str": 12,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 3,
+      "Necrotic": 3,
+      "Air": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Therian Gnoll": {
+    "description": "Therian Gnoll build",
+    "color": "#aaffc3",
+    "race": "Therian",
+    "base_stats": {
+      "str": 10,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "dex",
+      "con",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Tull": {
+    "description": "Tull Tull build",
+    "color": "#808000",
+    "race": "Tull",
+    "base_stats": {
+      "str": 9,
+      "dex": 8,
+      "con": 9,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Grivlit": {
+    "description": "Tull Grivlit build",
+    "color": "#ffd8b1",
+    "race": "Tull",
+    "base_stats": {
+      "str": 9,
+      "dex": 9,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "dex",
+      "con",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Grull": {
+    "description": "Tull Grull build",
+    "color": "#000075",
+    "race": "Tull",
+    "base_stats": {
+      "str": 11,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Gorul": {
+    "description": "Tull Gorul build",
+    "color": "#a9a9a9",
+    "race": "Tull",
+    "base_stats": {
+      "str": 12,
+      "dex": 8,
+      "con": 11,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Boaf": {
+    "description": "Tull Boaf build",
+    "color": "#e6194b",
+    "race": "Tull",
+    "base_stats": {
+      "str": 13,
+      "dex": 8,
+      "con": 12,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Brogath": {
+    "description": "Tull Brogath build",
+    "color": "#3cb44b",
+    "race": "Tull",
+    "base_stats": {
+      "str": 14,
+      "dex": 8,
+      "con": 13,
+      "wis": 8,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Troll": {
+    "description": "Tull Troll build",
+    "color": "#ffe119",
+    "race": "Tull",
+    "base_stats": {
+      "str": 16,
+      "dex": 8,
+      "con": 17,
+      "wis": 8,
+      "int": 6,
+      "cha": 7
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "dex",
+      "wis",
+      "cha",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Cyclopse": {
+    "description": "Tull Cyclopse build",
+    "color": "#4363d8",
+    "race": "Tull",
+    "base_stats": {
+      "str": 17,
+      "dex": 8,
+      "con": 16,
+      "wis": 6,
+      "int": 8,
+      "cha": 7
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "int",
+      "cha",
+      "wis"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Tull Naram-Sin": {
+    "description": "Tull Naram-Sin build",
+    "color": "#f58231",
+    "race": "Tull",
+    "base_stats": {
+      "str": 14,
+      "dex": 12,
+      "con": 11,
+      "wis": 10,
+      "int": 13,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "int",
+      "dex",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Radiant": -3,
+      "Psychic": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Revenant": {
+    "description": "Undead Revenant build",
+    "color": "#911eb4",
+    "race": "Undead",
+    "base_stats": {
+      "str": 8,
+      "dex": 6,
+      "con": 10,
+      "wis": 8,
+      "int": 8,
+      "cha": 3
+    },
+    "stat_priority": [
+      "con",
+      "str",
+      "wis",
+      "int",
+      "dex",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Ossid": {
+    "description": "Undead Ossid build",
+    "color": "#42d4f4",
+    "race": "Undead",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 6,
+      "wis": 8,
+      "int": 8,
+      "cha": 3
+    },
+    "stat_priority": [
+      "dex",
+      "str",
+      "wis",
+      "int",
+      "con",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Earth": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Shadowman": {
+    "description": "Undead Shadowman build",
+    "color": "#f032e6",
+    "race": "Undead",
+    "base_stats": {
+      "str": 8,
+      "dex": 10,
+      "con": 8,
+      "wis": 8,
+      "int": 9,
+      "cha": 8
+    },
+    "stat_priority": [
+      "dex",
+      "int",
+      "str",
+      "con",
+      "wis",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Sanguivar": {
+    "description": "Undead Sanguivar build",
+    "color": "#bfef45",
+    "race": "Undead",
+    "base_stats": {
+      "str": 10,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 8,
+      "cha": 9
+    },
+    "stat_priority": [
+      "str",
+      "cha",
+      "dex",
+      "con",
+      "wis",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Water": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Relicwraith": {
+    "description": "Undead Relicwraith build",
+    "color": "#fabed4",
+    "race": "Undead",
+    "base_stats": {
+      "str": 5,
+      "dex": 8,
+      "con": 8,
+      "wis": 8,
+      "int": 10,
+      "cha": 8
+    },
+    "stat_priority": [
+      "int",
+      "dex",
+      "con",
+      "wis",
+      "cha",
+      "str"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Lycanthrex": {
+    "description": "Undead Lycanthrex build",
+    "color": "#469990",
+    "race": "Undead",
+    "base_stats": {
+      "str": 11,
+      "dex": 8,
+      "con": 10,
+      "wis": 8,
+      "int": 7,
+      "cha": 8
+    },
+    "stat_priority": [
+      "str",
+      "con",
+      "dex",
+      "wis",
+      "cha",
+      "int"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Race: Undead Mycelari": {
+    "description": "Undead Mycelari build",
+    "color": "#dcbeff",
+    "race": "Undead",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 10,
+      "wis": 9,
+      "int": 8,
+      "cha": 6
+    },
+    "stat_priority": [
+      "con",
+      "wis",
+      "str",
+      "dex",
+      "int",
+      "cha"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Physical",
+      "Racial"
+    ],
+    "has_physical": true,
+    "has_magical": false,
+    "has_utility": false,
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 3,
+      "Earth": 3,
+      "Psychic": 3,
+      "Radiant": -3,
+      "Fire": -3
+    },
+    "gear": {
+      "weapon": "iron_longsword",
+      "armor": "medium"
+    },
+    "generate": true,
+    "paths": {
+      "Racial": [
+        "Bloodline Evolution"
+      ]
+    }
+  },
+  "Affinity: Air Mage": {
+    "description": "Air affinity mage",
+    "color": "#9A6324",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
     ],
     "spend_stat_points": "all",
     "preferred_paths": [
@@ -2389,13 +5716,1825 @@
     ],
     "has_physical": false,
     "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Air",
     "starting_affinities": {
-      "Generic": 1
+      "Generic": 1,
+      "Air": 20
     },
     "gear": {
-      "weapon": "wand",
-      "armor": "none"
+      "armor": "light"
     },
-    "generate": true
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Ash Mage": {
+    "description": "Ash affinity mage",
+    "color": "#fffac8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Ash",
+    "starting_affinities": {
+      "Generic": 1,
+      "Ash": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Atomic Mage": {
+    "description": "Atomic affinity mage",
+    "color": "#800000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Atomic",
+    "starting_affinities": {
+      "Generic": 1,
+      "Atomic": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Blight Mage": {
+    "description": "Blight affinity mage",
+    "color": "#aaffc3",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Blight",
+    "starting_affinities": {
+      "Generic": 1,
+      "Blight": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Bloodfire Mage": {
+    "description": "Bloodfire affinity mage",
+    "color": "#808000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Bloodfire",
+    "starting_affinities": {
+      "Generic": 1,
+      "Bloodfire": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Chaos Mage": {
+    "description": "Chaos affinity mage",
+    "color": "#ffd8b1",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Chaos",
+    "starting_affinities": {
+      "Generic": 1,
+      "Chaos": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Corruption Mage": {
+    "description": "Corruption affinity mage",
+    "color": "#000075",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Corruption",
+    "starting_affinities": {
+      "Generic": 1,
+      "Corruption": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Cursed Mage": {
+    "description": "Cursed affinity mage",
+    "color": "#a9a9a9",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Cursed",
+    "starting_affinities": {
+      "Generic": 1,
+      "Cursed": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Deluge Mage": {
+    "description": "Deluge affinity mage",
+    "color": "#e6194b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Deluge",
+    "starting_affinities": {
+      "Generic": 1,
+      "Deluge": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Dust Mage": {
+    "description": "Dust affinity mage",
+    "color": "#3cb44b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Dust",
+    "starting_affinities": {
+      "Generic": 1,
+      "Dust": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Earth Mage": {
+    "description": "Earth affinity mage",
+    "color": "#ffe119",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Earth",
+    "starting_affinities": {
+      "Generic": 1,
+      "Earth": 20
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Eldritch Mage": {
+    "description": "Eldritch affinity mage",
+    "color": "#4363d8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Eldritch",
+    "starting_affinities": {
+      "Generic": 1,
+      "Eldritch": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Magician",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Fire Mage": {
+    "description": "Fire affinity mage",
+    "color": "#f58231",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Fire",
+    "starting_affinities": {
+      "Generic": 1,
+      "Fire": 20
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Force Mage": {
+    "description": "Force affinity mage",
+    "color": "#911eb4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Force",
+    "starting_affinities": {
+      "Generic": 1,
+      "Force": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Magician",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Frostfire Mage": {
+    "description": "Frostfire affinity mage",
+    "color": "#42d4f4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Frostfire",
+    "starting_affinities": {
+      "Generic": 1,
+      "Frostfire": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Gel Mage": {
+    "description": "Gel affinity mage",
+    "color": "#f032e6",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Gel",
+    "starting_affinities": {
+      "Generic": 1,
+      "Gel": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Glacial Mage": {
+    "description": "Glacial affinity mage",
+    "color": "#bfef45",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Glacial",
+    "starting_affinities": {
+      "Generic": 1,
+      "Glacial": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Ice/Cold Mage": {
+    "description": "Ice/Cold affinity mage",
+    "color": "#fabed4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Ice/Cold",
+    "starting_affinities": {
+      "Generic": 1,
+      "Ice/Cold": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Tidemaster",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Infernal Mage": {
+    "description": "Infernal affinity mage",
+    "color": "#469990",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Infernal",
+    "starting_affinities": {
+      "Generic": 1,
+      "Infernal": 10,
+      "Fire": 12
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Lightning Mage": {
+    "description": "Lightning affinity mage",
+    "color": "#dcbeff",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Lightning",
+    "starting_affinities": {
+      "Generic": 1,
+      "Lightning": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Magma Mage": {
+    "description": "Magma affinity mage",
+    "color": "#9A6324",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Magma",
+    "starting_affinities": {
+      "Generic": 1,
+      "Magma": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Metal Mage": {
+    "description": "Metal affinity mage",
+    "color": "#fffac8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Metal",
+    "starting_affinities": {
+      "Generic": 1,
+      "Metal": 10,
+      "Earth": 12
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Miasma Mage": {
+    "description": "Miasma affinity mage",
+    "color": "#800000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Miasma",
+    "starting_affinities": {
+      "Generic": 1,
+      "Miasma": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Mirage Mage": {
+    "description": "Mirage affinity mage",
+    "color": "#aaffc3",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Mirage",
+    "starting_affinities": {
+      "Generic": 1,
+      "Mirage": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Mud Mage": {
+    "description": "Mud affinity mage",
+    "color": "#808000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Mud",
+    "starting_affinities": {
+      "Generic": 1,
+      "Mud": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Necrotic Mage": {
+    "description": "Necrotic affinity mage",
+    "color": "#ffd8b1",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Necrotic",
+    "starting_affinities": {
+      "Generic": 1,
+      "Necrotic": 20
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Nova Mage": {
+    "description": "Nova affinity mage",
+    "color": "#000075",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Nova",
+    "starting_affinities": {
+      "Generic": 1,
+      "Nova": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Pyromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Obsidian Mage": {
+    "description": "Obsidian affinity mage",
+    "color": "#a9a9a9",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Obsidian",
+    "starting_affinities": {
+      "Generic": 1,
+      "Obsidian": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Poison Mage": {
+    "description": "Poison affinity mage",
+    "color": "#e6194b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Poison",
+    "starting_affinities": {
+      "Generic": 1,
+      "Poison": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Psychic Mage": {
+    "description": "Psychic affinity mage",
+    "color": "#3cb44b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Psychic",
+    "starting_affinities": {
+      "Generic": 1,
+      "Psychic": 20
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Quake Mage": {
+    "description": "Quake affinity mage",
+    "color": "#ffe119",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Quake",
+    "starting_affinities": {
+      "Generic": 1,
+      "Quake": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Geomancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Radiant Mage": {
+    "description": "Radiant affinity mage",
+    "color": "#4363d8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Radiant",
+    "starting_affinities": {
+      "Generic": 1,
+      "Radiant": 20
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Shatter Mage": {
+    "description": "Shatter affinity mage",
+    "color": "#f58231",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Shatter",
+    "starting_affinities": {
+      "Generic": 1,
+      "Shatter": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Solar Mage": {
+    "description": "Solar affinity mage",
+    "color": "#911eb4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Solar",
+    "starting_affinities": {
+      "Generic": 1,
+      "Solar": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Sorrow Mage": {
+    "description": "Sorrow affinity mage",
+    "color": "#42d4f4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Sorrow",
+    "starting_affinities": {
+      "Generic": 1,
+      "Sorrow": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Starlight Mage": {
+    "description": "Starlight affinity mage",
+    "color": "#f032e6",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Starlight",
+    "starting_affinities": {
+      "Generic": 1,
+      "Starlight": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Steam Mage": {
+    "description": "Steam affinity mage",
+    "color": "#bfef45",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Steam",
+    "starting_affinities": {
+      "Generic": 1,
+      "Steam": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Tidemaster",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Storm Mage": {
+    "description": "Storm affinity mage",
+    "color": "#fabed4",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Storm",
+    "starting_affinities": {
+      "Generic": 1,
+      "Storm": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Thunder Mage": {
+    "description": "Thunder affinity mage",
+    "color": "#469990",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Thunder",
+    "starting_affinities": {
+      "Generic": 1,
+      "Thunder": 10,
+      "Air": 12
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Torrent Mage": {
+    "description": "Torrent affinity mage",
+    "color": "#dcbeff",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Torrent",
+    "starting_affinities": {
+      "Generic": 1,
+      "Torrent": 10,
+      "Water": 12
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Tidemaster",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Toxin Mage": {
+    "description": "Toxin affinity mage",
+    "color": "#9A6324",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Toxin",
+    "starting_affinities": {
+      "Generic": 1,
+      "Toxin": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Tremor Mage": {
+    "description": "Tremor affinity mage",
+    "color": "#fffac8",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Tremor",
+    "starting_affinities": {
+      "Generic": 1,
+      "Tremor": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Vacuum Mage": {
+    "description": "Vacuum affinity mage",
+    "color": "#800000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Vacuum",
+    "starting_affinities": {
+      "Generic": 1,
+      "Vacuum": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Necromancer",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Void Mage": {
+    "description": "Void affinity mage",
+    "color": "#aaffc3",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Void",
+    "starting_affinities": {
+      "Generic": 1,
+      "Void": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Windwalker",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Warp Mage": {
+    "description": "Warp affinity mage",
+    "color": "#808000",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Warp",
+    "starting_affinities": {
+      "Generic": 1,
+      "Warp": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Psychic",
+        "Magician"
+      ]
+    }
+  },
+  "Affinity: Water Mage": {
+    "description": "Water affinity mage",
+    "color": "#ffd8b1",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 12,
+      "cha": 8
+    },
+    "stat_priority": [
+      "wis",
+      "int",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Water",
+    "starting_affinities": {
+      "Generic": 1,
+      "Water": 20
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Tidemaster",
+        "Magician"
+      ]
+    }
   }
 }

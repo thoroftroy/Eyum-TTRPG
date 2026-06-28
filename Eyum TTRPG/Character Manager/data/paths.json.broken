@@ -1,0 +1,1289 @@
+{
+  "Physical": {
+    "initial": {
+      "melee_damage": 2,
+      "melee_accuracy": 1
+    },
+    "archetypes": {
+      "Indomitable": {
+        "1": {
+          "vit_die_type": "1d10"
+        },
+        "2": {
+          "vit_die_type": "1d12"
+        },
+        "2.5": {
+          "hp_die_type": "1d8"
+        },
+        "3": {
+          "vit_die_type": "1d20"
+        },
+        "3.5": {
+          "hp_die_type": "1d10"
+        },
+        "4": {
+          "ac_bonus": 3
+        },
+        "4.5": {
+          "ac_bonus": 1,
+          "repeatable": true
+        },
+        "4.75": {
+          "flat_vit": 10,
+          "flat_hp": 5,
+          "repeatable": true
+        },
+        "5": {
+          "flat_vit": 15,
+          "flat_hp": 10
+        },
+        "6": {
+          "damage_reduction": 5
+        },
+        "6.5": {
+          "flat_vit": 5,
+          "repeatable": true
+        },
+        "7": {
+          "flat_vit": 20,
+          "flat_hp": 10
+        },
+        "7.5": {
+          "flat_vit": 5,
+          "repeatable": true
+        },
+        "8": {
+          "ac_bonus": 2
+        }
+      },
+      "Marksman": {
+        "1": {
+          "ranged_accuracy": 1
+        },
+        "1.5": {
+          "proficiency_weapon": "ranged",
+          "repeatable": true
+        },
+        "2": {
+          "ranged_ignore_half_cover": true
+        },
+        "2.5": {
+          "ranged_accuracy": 1,
+          "repeatable": true
+        },
+        "3": {
+          "ranged_damage": 5
+        },
+        "3.5": {
+          "expertise_weapon": "ranged",
+          "ranged_expertise": true,
+          "repeatable": true
+        },
+        "3.75": {
+          "melee_damage": 1,
+          "repeatable": true
+        },
+        "4": {
+          "melee_damage": 2
+        },
+          "ranged_adv_damage": 1
+        },
+        "4.5": {
+          "ranged_adv_damage": 1,
+          "repeatable": true
+        },
+        "5": {
+          "ranged_damage": 5
+        },
+        "5.5": {
+          "ranged_damage": 2,
+          "repeatable": true
+        },
+        "6": {
+          "ranged_adv_damage": 3
+        },
+        "6.5": {
+          "ranged_adv_damage": 2,
+          "repeatable": true
+        },
+        "7": {
+          "ranged_accuracy": 3,
+          "ranged_damage": 5
+        },
+        "7.5": {
+          "ranged_accuracy": 2,
+          "repeatable": true
+        },
+        "8": {
+          "ranged_damage": 8,
+          "ranged_accuracy": 3
+        }
+      },
+      "Duelist": {
+        "1": {
+          "melee_accuracy": 1
+        },
+        "1.5": {
+          "proficiency_weapon": "melee",
+          "repeatable": true
+        },
+        "2": {
+          "melee_damage": 3
+        },
+        "2.5": {
+          "melee_accuracy": 1,
+          "repeatable": true
+        },
+        "3": {
+          "melee_kill_bonus": true
+        },
+        "3.5": {
+          "expertise_weapon": "melee",
+          "repeatable": true
+        },
+        "3.75": {
+          "melee_damage": 1,
+          "repeatable": true
+        },
+        "5": {
+          "melee_damage": 4,
+          "melee_accuracy": 2
+        },
+        "5.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        },
+        "6": {
+          "melee_damage": 5,
+          "melee_accuracy": 1
+        },
+        "6.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        },
+        "7": {
+          "melee_damage": 6,
+          "melee_accuracy": 2
+        },
+        "7.5": {
+          "melee_damage": 3,
+          "repeatable": true
+        },
+        "8": {
+          "melee_damage": 8,
+          "melee_accuracy": 3
+        }
+      },
+      "Mageslayer": {
+        "1": {"magic_save_bonus": 2},
+        "2": {},
+        "3": {"melee_damage": 2, "ranged_damage": 2},
+        "4": {},
+        "5": {"melee_damage": 3, "ranged_damage": 3},
+        "6": {},
+        "7": {"melee_damage": 4, "ranged_damage": 4},
+        "8": {},
+        "9": {"melee_damage": 5, "ranged_damage": 5},
+        "10": {}
+      },
+      "Brawler": {
+        "1": {
+          "melee_damage": 2,
+          "brawler_stacks": 1
+        },
+        "1.5": {
+          "brawler_stacks": 1,
+          "repeatable": true
+        },
+        "2": {
+          "melee_damage": 3
+        },
+        "2.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        },
+        "3": {
+          "melee_damage": 3
+        },
+        "3.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        },
+        "4": {
+          "melee_damage": 4
+        },
+        "4.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        }
+      },
+      "Vanguard": {
+        "1": {
+          "ac_bonus": 1,
+          "flat_vit": 3
+        },
+        "1.5": {
+          "ac_bonus": 1,
+          "repeatable": true,
+          "max_repeats": 3
+        },
+        "1.75": {
+          "vit_per_level_bonus": 1
+        },
+        "2": {
+          "flat_vit": 5,
+          "ac_bonus": 1
+        },
+        "2.5": {
+          "flat_vit": 3,
+          "repeatable": true
+        },
+        "3": {
+          "ac_bonus": 1,
+          "flat_vit": 5
+        },
+        "3.5": {
+          "flat_vit": 5,
+          "repeatable": true
+        },
+        "4": {
+          "ac_bonus": 2,
+          "flat_vit": 10
+        },
+        "4.5": {
+          "ac_bonus": 1,
+          "repeatable": true,
+          "max_repeats": 2
+        }
+      },
+      "Juggernaut": {
+        "1": {
+          "melee_damage": 3
+        },
+        "1.5": {
+          "melee_damage": 1,
+          "repeatable": true
+        },
+        "2": {
+          "melee_damage": 2,
+          "melee_accuracy": 1
+        },
+        "2.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        },
+        "3": {
+          "melee_damage": 3
+        },
+        "3.5": {
+          "flat_vit": 5,
+          "repeatable": true
+        },
+        "4": {
+          "melee_damage": 5
+        },
+        "4.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        }
+      },
+      "Skirmisher": {
+        "1": {
+          "speed": 10,
+          "melee_damage": 1
+        },
+        "1.5": {
+          "speed": 5,
+          "repeatable": true
+        },
+        "2": {
+          "melee_damage": 3
+        },
+        "2.5": {
+          "initiative": 1,
+          "repeatable": true
+        },
+        "3": {
+          "melee_damage": 2,
+          "melee_accuracy": 1
+        },
+        "3.5": {
+          "melee_damage": 2,
+          "repeatable": true
+        },
+        "4": {
+          "melee_damage": 4,
+          "speed": 10
+        },
+        "4.5": {
+          "speed": 5,
+          "repeatable": true
+        }
+      },
+      "Sentinel": {
+        "1": {
+          "ac_bonus": 1
+        },
+        "1.5": {
+          "ac_bonus": 1,
+          "repeatable": true,
+          "max_repeats": 3
+        },
+        "2": {
+          "melee_damage": 1,
+          "ac_bonus": 1
+        },
+        "2.5": {
+          "ac_bonus": 1,
+          "repeatable": true
+        },
+        "3": {
+          "ac_bonus": 1,
+          "flat_vit": 5
+        },
+        "3.5": {
+          "ac_bonus": 1,
+          "repeatable": true
+        },
+        "4": {
+          "ac_bonus": 2,
+          "flat_vit": 10
+        },
+        "4.5": {
+          "ac_bonus": 1,
+          "repeatable": true
+        }
+      }
+    }
+  },
+  "Magical": {
+    "initial": {
+      "magic_blast": true,
+      "generic_affinity": 1
+    },
+    "archetypes": {
+      "Magician": {
+        "1": {
+          "mana_die_type": "1d8",
+          "magic_damage": 2
+        },
+        "1.5": {
+          "affinity_points": 2,
+          "repeatable": true
+        },
+        "1.75": {
+          "spell": 1,
+          "repeatable": true
+        },
+        "2": {
+          "mana_die_type": "1d10"
+        },
+        "2.5": {
+          "magic_accuracy": 1,
+          "repeatable": true
+        },
+        "3": {
+          "mana_die_type": "1d12",
+          "magic_damage": 2
+        },
+        "3.5": {
+          "magic_damage": 2,
+          "repeatable": true
+        },
+        "4": {
+          "mana_die_type": "1d20",
+          "magic_damage": 2
+        },
+        "4.5": {
+          "mana_dice_count": 2,
+          "repeatable": true
+        },
+        "4.75": {
+          "generic_affinity": 1,
+          "repeatable": true
+        },
+        "5": {
+          "spell_damage_mult": 2,
+          "spell_mana_mult": 4
+        },
+        "6": {
+          "affinity_points": 10
+        },
+        "7": {
+          "spell_damage_mult": 3,
+          "spell_mana_mult": 6
+        },
+        "8": {
+          "generic_affinity_spendable": true
+        }
+      },
+      "Pyromancer": {
+        "1": {
+          "affinity": {
+            "Fire": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Fire": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "fire_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_accuracy_non_water": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Lightning": 1,
+            "Ash": 1,
+            "Nova": 1,
+            "Bloodfire": 1,
+            "Infernal": 1,
+            "Magma": 1
+          }
+        }
+      },
+      "Geomancer": {
+        "1": {
+          "affinity": {
+            "Earth": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Earth": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "earth_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_accuracy_non_air": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Dust": 1,
+            "Mud": 1,
+            "Metal": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Obsidian": 1,
+            "Quake": 1,
+            "Corruption": 1
+          }
+        }
+      },
+      "Tidemaster": {
+        "1": {
+          "affinity": {
+            "Water": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Water": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "water_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_accuracy_non_fire": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Ice/Cold": 2,
+            "Torrent": 2,
+            "Steam": 2
+          }
+        }
+      },
+      "Windwalker": {
+        "1": {
+          "affinity": {
+            "Air": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Air": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "air_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_accuracy_non_earth": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Toxin": 1,
+            "Thunder": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Frostfire": 1,
+            "Glacial": 1,
+            "Void": 1,
+            "Storm": 1
+          }
+        }
+      },
+      "Priest": {
+        "1": {
+          "affinity": {
+            "Radiant": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Radiant": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "radiant_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_accuracy_non_necrotic": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Hallowed": 1,
+            "Solar": 1,
+            "Mirage": 1,
+            "Starlight": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Atomic": 1
+          }
+        },
+        "6": {
+          "radiant_damage_bonus": "2d8"
+        },
+        "6.5": {
+          "radiant_damage_bonus": "1d8",
+          "repeatable": true,
+          "max_repeats": 3
+        },
+        "7": {
+          "magic_accuracy": 2,
+          "flat_vit": 5
+        },
+        "8": {
+          "ac_bonus": 1,
+          "magic_damage": 2
+        },
+        "8.5": {
+          "magic_damage": 1,
+          "repeatable": true
+        },
+        "9": {
+          "magic_damage": 3,
+          "magic_accuracy": 2
+        },
+        "10": {
+          "radiant_damage_bonus": "3d10",
+          "magic_damage": 3
+        },
+        "10.5": {
+          "magic_damage": 2,
+          "repeatable": true
+        },
+        "11": {
+          "magic_accuracy": 3,
+          "radiant_damage_bonus": "1d8"
+        },
+        "12": {
+          "magic_damage": 8,
+          "radiant_damage_bonus": "6d12"
+        }
+      },
+      "Necromancer": {
+        "1": {
+          "affinity": {
+            "Necrotic": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Necrotic": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "necrotic_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_accuracy_non_radiant": 5,
+          "magic_damage": 3
+        },
+        "4": {
+          "affinity": {
+            "Cursed": 1,
+            "Poison": 1,
+            "Vacuum": 1,
+            "Blight": 1
+          }
+        },
+        "5": {
+          "affinity": {
+            "Miasma": 1,
+            "Gel": 1
+          }
+        },
+        "6": {
+          "necrotic_damage_bonus": "2d8",
+          "magic_accuracy": 1
+        },
+        "6.5": {
+          "necrotic_damage_bonus": "1d8",
+          "repeatable": true,
+          "max_repeats": 3
+        },
+        "7": {
+          "magic_damage": 2,
+          "flat_vit": 5
+        },
+        "8": {
+          "necrotic_damage_bonus": "1d8",
+          "magic_damage": 2
+        },
+        "8.5": {
+          "necrotic_damage_bonus": "1d4",
+          "repeatable": true,
+          "max_repeats": 3
+        },
+        "9": {
+          "magic_damage": 3,
+          "flat_vit": 10
+        },
+        "10": {
+          "necrotic_damage_bonus": "5d10",
+          "magic_damage": 4
+        },
+        "10.5": {
+          "magic_damage": 2,
+          "repeatable": true
+        },
+        "11": {
+          "damage_reduction": 3,
+          "necrotic_damage_bonus": "1d12"
+        },
+        "12": {
+          "magic_damage": 8,
+          "necrotic_damage_bonus": "3d12",
+          "flat_vit": 20
+        }
+      },
+      "Psychic": {
+        "1": {
+          "affinity": {
+            "Psychic": 4
+          }
+        },
+        "1.5": {
+          "affinity": {
+            "Psychic": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "psychic_damage_bonus": "1d4"
+        },
+        "3": {
+          "magic_damage": 5
+        },
+        "4": {
+          "affinity": {
+            "Tremor": 1,
+            "Deluge": 1,
+            "Shatter": 1,
+            "Sorrow": 1,
+            "Warp": 1,
+            "Chaos": 1
+          }
+        }
+      },
+      "Ritualist": {
+        "1": {"magic_damage": 1, "skill_points": 2},
+        "2": {"magic_damage": 1, "skill_points": 2},
+        "3": {"magic_damage": 2, "skill_points": 2},
+        "4": {"magic_damage": 2, "skill_points": 2},
+        "5": {"magic_damage": 3, "skill_points": 2}
+      },
+      "Healer": {
+        "1": {},
+        "2": {},
+        "2.5": {
+          "repeatable": true
+        },
+        "3": {
+          "hallowed_affinity": 2
+        },
+        "3.5": {
+          "hallowed_affinity": 2,
+          "karma": 10,
+          "repeatable": true
+        },
+        "4": {
+          "hallowed_affinity": 1,
+          "healing_maximize": true
+        },
+        "4.1": {},
+        "4.2": {
+          "magic_damage": 1,
+          "repeatable": true
+        },
+        "5": {
+          "karma": 10
+        },
+        "6": {
+          "hallowed_affinity": 1,
+          "cleansing": 1
+        },
+        "7": {
+          "karma": 10
+        },
+        "8": {
+          "hallowed_affinity": 1,
+          "concentration_two_spells": true
+        },
+        "9": {
+          "karma": 10,
+          "free_heal": true
+        },
+        "10": {
+          "hallowed_affinity": 1,
+          "reaction_save_ally": true
+        }
+      },
+      "Jack": {
+        "1": {
+          "affinity": {
+            "Fire": 1,
+            "Earth": 1,
+            "Water": 1,
+            "Air": 1
+          },
+          "magic_damage": 3
+        },
+        "1.5": {
+          "affinity": {
+            "Fire": 1,
+            "Water": 1
+          },
+          "repeatable": true
+        },
+        "2": {
+          "affinity": {
+            "Radiant": 1,
+            "Necrotic": 1,
+            "Psychic": 1
+          }
+        },
+        "2.5": {
+          "affinity": {
+            "Radiant": 1,
+            "Necrotic": 1
+          },
+          "repeatable": true
+        },
+        "3": {
+          "affinity_per_level": 1,
+          "magic_damage": 3
+        }
+      }
+    }
+  },
+  "Utility": {
+    "initial": {
+      "skill_points": 2
+    },
+    "archetypes": {
+      "Scholar": {
+        "1": {
+          "skill_points_per_level": 1
+        },
+        "2": {
+          "proficiency_per_level": 1
+        },
+        "3": {
+          "expertise_per_level": 1
+        },
+        "3.5": {
+          "skill_points": 2,
+          "stat_point": 1,
+          "repeatable": true
+        },
+        "4": {
+          "feat_per_feat": 1
+        }
+      },
+      "Scoundrel": {
+        "1": {
+          "initiative": 2,
+          "first_round_advantage": true
+        },
+        "1.5": {
+          "bonus_action_sprint": true
+        },
+        "2": {
+          "first_round_damage": "1d6"
+        },
+        "3": {
+          "speed": 30,
+          "ap_first_round": 1
+        },
+        "3.5": {
+          "initiative": 1,
+          "repeatable": true
+        },
+        "4": {
+          "first_round_advantage": true
+        }
+      },
+      "Rune Master": {
+        "1": {
+          "rune_access": true
+        },
+        "2": {
+          "rune_cost_reduction": -10
+        },
+        "2.5": {
+          "rune_dc_bonus": 5
+        },
+        "2.75": {
+          "rune_dc_bonus": 2,
+          "repeatable": true
+        },
+        "3": {
+          "rune_dc_bonus": 2
+        },
+        "3.5": {
+          "rune_dc_bonus": 1,
+          "repeatable": true
+        },
+        "4": {
+          "rune_circle_reduction": true
+        },
+        "5": {
+          "rune_crafting": true
+        },
+        "6": {
+          "rune_shatter_protect": true
+        }
+      },
+      "Alchemist": {
+        "1": {"skill_points": 3},
+        "2": {"skill_points": 3},
+        "2.5": {"skill_points": 1, "repeatable": true},
+        "3": {"skill_points": 3},
+        "3.5": {"skill_points": 1, "repeatable": true},
+        "4": {"skill_points": 3},
+        "5": {"skill_points": 3},
+        "6": {"skill_points": 5}
+      },
+      "Slime Rancher": {
+        "1": {},
+        "1.5": {
+          "affinity": {
+            "Gel": 1
+          },
+          "repeatable": true
+        },
+        "2": {},
+        "3": {},
+        "3.5": {},
+        "4": {},
+        "5": {}
+      },
+      "Golem Tamer": {
+        "1": {},
+        "2": {},
+        "2.5": {},
+        "3": {},
+        "3.5": {},
+        "4": {},
+        "5": {},
+        "6": {}
+      },
+      "Dragonslayer": {
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "5.1": {},
+        "5.2": {},
+        "5.3": {},
+        "5.4": {},
+        "5.5": {},
+        "5.6": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {}
+      },
+      "Monster Hunter": {
+        "1": {
+          "monster_damage": 1,
+          "repeatable": true
+        },
+        "2": {
+          "monster_attack_penalty": 1,
+          "repeatable": true
+        }
+      },
+      "Human Hunter": {
+        "1": {
+          "melee_damage": 1,
+          "repeatable": true
+        },
+        "2": {
+          "humanoid_attack_penalty": 1
+        }
+      },
+      "Butcher": {
+        "1": {
+          "skill_points": 2
+        },
+        "1.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "2": {
+          "skill_points": 2
+        },
+        "2.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "3": {
+          "skill_points": 3
+        },
+        "3.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "4": {
+          "skill_points": 3
+        },
+        "4.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "5": {
+          "skill_points": 3
+        },
+        "5.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "6": {
+          "skill_points": 4
+        }
+      }
+    }
+  },
+  "Pact": {
+    "initial": {
+      "pact_access_tier": 1
+    },
+    "archetypes": {
+      "Pact Taker": {
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {
+          "repeatable": true
+        }
+      },
+      "Beacon": {
+        "1": {
+          "pact_access_tier": 2
+        },
+        "2": {
+          "pact_access_tier": 3
+        },
+        "3": {
+          "pact_access_tier": 4
+        },
+        "4": {
+          "pact_access_tier": 5
+        }
+      },
+      "Occultist": {
+        "1": {
+          "pact_access_tier": 2
+        },
+        "2": {
+          "pact_access_tier": 3
+        },
+        "3": {
+          "pact_access_tier": 4
+        },
+        "4": {
+          "pact_access_tier": 5
+        }
+      },
+      "Reaper": {
+        "1": {
+          "pact_access_tier": 2
+        },
+        "2": {
+          "pact_access_tier": 3
+        },
+        "3": {
+          "pact_access_tier": 4
+        },
+        "4": {
+          "pact_access_tier": 5
+        }
+      },
+      "Eldritch Horror": {
+        "1": {
+          "eldritch_blast_damage": 1,
+          "karma": -20,
+          "spell": 1
+        },
+        "1.5": {
+          "eldritch_affinity": 2,
+          "karma": -1,
+          "repeatable": true
+        },
+        "2": {
+          "eldritch_blast_damage": 3,
+          "karma": -1
+        },
+        "2.5": {
+          "true_sight_range": 20,
+          "speed": 5,
+          "karma": -1
+        },
+        "3": {
+          "eldritch_blast_range": 60,
+          "karma": -1
+        },
+        "3.5": {
+          "eldritch_affinity_upgradable": true,
+          "karma": -1
+        },
+        "4": {
+          "karma": -3,
+          "spell": 1
+        },
+        "5": {
+          "karma": -10,
+          "spell": 1
+        },
+        "5.1": {
+          "fly_speed": 20,
+          "karma": -5
+        },
+        "5.2": {
+          "fly_speed": 20,
+          "karma": -5
+        },
+        "5.3": {
+          "karma": -5,
+          "spell": 1
+        },
+        "5.4": {
+          "fly_speed": 5,
+          "karma": -5,
+          "repeatable": true
+        },
+        "6": {
+          "karma": -3
+        },
+        "6.5": {
+          "karma": -3
+        },
+        "7": {
+          "eldritch_blast_damage": 8,
+          "karma": -3,
+          "stat": {
+            "str": -1,
+            "con": -1
+          }
+        },
+        "8": {
+          "karma": -3,
+          "spell": 1
+        },
+        "9": {
+          "karma": -10
+        },
+        "10": {
+          "karma": -10
+        },
+        "11": {
+          "eldritch_damage_doubled": true,
+          "eldritch_affinity": 5,
+          "karma": -10,
+          "spell": 1
+        },
+        "12": {
+          "karma": -10
+        },
+        "13": {
+          "karma": -10
+        },
+        "14": {
+          "karma": -10,
+          "spell": 1
+        },
+        "15": {
+          "karma": -10
+        },
+        "16": {
+          "karma": -25,
+          "affinity": {
+            "Necrotic": 5
+          },
+          "eldritch_affinity": 5
+        },
+        "17": {
+          "karma": -10,
+          "spell": 1
+        },
+        "18": {
+          "karma": -10
+        },
+        "19": {
+          "eldritch_affinity": 10,
+          "karma": -25
+        },
+        "20": {
+          "karma": -50,
+          "anti_deity_damage": true
+        }
+      },
+      "Godslayer": {
+        "1": {
+          "anti_deity_damage": true
+        },
+        "2": {
+          "deity_to_hit": 10
+        },
+        "2.5": {
+          "deity_to_hit": 5,
+          "repeatable": true
+        },
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {
+          "anti_deity_damage_bonus": 5
+        },
+        "8.5": {
+          "anti_deity_damage_bonus": 3,
+          "repeatable": true
+        },
+        "9": {},
+        "9.5": {},
+        "10": {
+          "anti_deity_damage_double": true
+        }
+      }
+    }
+  },
+  "Racial": {
+    "initial": {
+      "tier1_racial": true
+    },
+    "archetypes": {
+      "Bloodline Evolution": {
+        "1": {"tier_racial": 2},
+        "2": {"tier_racial": 3},
+        "3": {"tier_racial": 4},
+        "4": {"tier_racial": 5},
+        "5": {"tier_racial": 6},
+        "6": {"tier_racial": 7},
+        "7": {"tier_racial": 8},
+        "8": {"tier_racial": 9},
+        "9": {"tier_racial": 10}
+      },
+      "General Evolution": {
+        "1": {
+          "darkvision_range": 30
+        },
+        "1.1": {
+          "darkvision_range": 60
+        },
+        "1.2": {
+          "darkvision_range": 90
+        },
+        "1.3": {
+          "darkvision_magical": true
+        },
+        "1.4": {
+          "darkvision_color": true
+        },
+        "2": {
+          "initiative": 1
+        },
+        "3": {
+          "immunity_threatened": true
+        },
+        "4": {
+          "immunity_surprised": true,
+          "initiative": 3
+        },
+        "5": {
+          "speed": 10
+        },
+        "5.5": {
+          "speed": 5,
+          "repeatable": true
+        },
+        "6": {
+          "skill_tree_level_bonus": true
+        }
+      },
+      "Tull Tull": {
+        "1": {"tier_racial": 1, "claw_die": "1d6", "claw_flat": 2, "stat": {"str": 1, "con": 1, "cha": -1}, "skill_points": 2},
+        "2": {"tier_racial": 2, "stat": {"str": 2, "con": 1}, "skill_points": 2},
+        "3": {"tier_racial": 3, "pack_tactics": true, "skill_points": 2},
+        "4": {"tier_racial": 4, "stat": {"str": 1, "con": 1}, "skill_points": 2},
+        "5": {"tier_racial": 5, "claw_die": "1d8", "claw_flat": 4, "skill_points": 2},
+        "6": {"tier_racial": 6, "stat": {"str": 1, "con": 1}, "skill_points": 2},
+        "7": {"tier_racial": 7, "extra_attack_bap": true, "skill_points": 2},
+        "8": {"tier_racial": 8, "stat": {"str": 1, "con": 1}, "skill_points": 2},
+        "9": {"tier_racial": 9, "claw_die": "1d10", "claw_flat": 8, "skill_points": 2},
+        "10": {"tier_racial": 10, "stat": {"dex": 4, "int": 5, "wis": 2}, "skill_points": 2}
+      },
+      "Tull Grivlit": {
+        "1": {"tier_racial": 1, "claw_die": "1d6", "claw_flat": 2, "stat": {"str": 1, "dex": 1, "cha": -1}, "skill_points": 2},
+        "2": {"tier_racial": 2, "stat": {"str": 2, "con": 1}, "skill_points": 2},
+        "3": {"tier_racial": 3, "pack_tactics": true, "skill_points": 2},
+        "4": {"tier_racial": 4, "stat": {"str": 1, "con": 1}, "skill_points": 2},
+        "5": {"tier_racial": 5, "claw_die": "1d8", "claw_flat": 4, "skill_points": 2},
+        "6": {"tier_racial": 6, "stat": {"str": 1, "con": 1}, "skill_points": 2},
+        "7": {"tier_racial": 7, "extra_attack_bap": true, "skill_points": 2},
+        "8": {"tier_racial": 8, "stat": {"str": 1, "con": 1}, "skill_points": 2},
+        "9": {"tier_racial": 9, "claw_die": "1d10", "claw_flat": 8, "skill_points": 2},
+        "10": {"tier_racial": 10, "stat": {"dex": 4, "int": 5, "wis": 2}, "skill_points": 2}
+      }
+    }
+  }
+}

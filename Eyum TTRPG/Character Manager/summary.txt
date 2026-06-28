@@ -1,211 +1,329 @@
 EYUM TTRPG - BALANCE SUMMARY & RECOMMENDATIONS
 ============================================================
 
-Generated from analysis of 200 levels across 4 gear tiers and 67 builds.
+Generated from analysis of 200 levels across 4 gear tiers and 176 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Storm Mage        : 1732 category-level wins (3.1%)
-  Sorrow Mage       : 1667 category-level wins (3.0%)
-  Human Generalist  : 1612 category-level wins (2.9%)
-  Jack of all Trades: 1601 category-level wins (2.9%)
-  Atomic Mage       : 1544 category-level wins (2.8%)
-  Psychic Mage      : 1426 category-level wins (2.6%)
-  Glacial Mage      : 1379 category-level wins (2.5%)
-  Necrotic Mage     : 1147 category-level wins (2.1%)
-  Water Mage        : 1136 category-level wins (2.1%)
-  Fishfolk Water Mage: 1133 category-level wins (2.0%)
-  Fire Mage         : 1118 category-level wins (2.0%)
-  Tanker Archer     : 1031 category-level wins (1.9%)
-  Toxin Mage        : 942 category-level wins (1.7%)
-  Obsidian Mage     : 935 category-level wins (1.7%)
-  Blight Mage       : 926 category-level wins (1.7%)
-  Starlight Mage    : 920 category-level wins (1.7%)
-  Poison Mage       : 920 category-level wins (1.7%)
-  Vacuum Mage       : 914 category-level wins (1.7%)
-  Gel Mage          : 907 category-level wins (1.6%)
-  Shapeshifter Hybrid: 898 category-level wins (1.6%)
-  Thunder Mage      : 896 category-level wins (1.6%)
-  Lightning Mage    : 894 category-level wins (1.6%)
-  Ice/Cold Mage     : 893 category-level wins (1.6%)
-  Miasma Mage       : 893 category-level wins (1.6%)
-  Void Mage         : 889 category-level wins (1.6%)
-  Warp Mage         : 889 category-level wins (1.6%)
-  Chaos Mage        : 888 category-level wins (1.6%)
-  Frostfire Mage    : 888 category-level wins (1.6%)
-  Shatter Mage      : 886 category-level wins (1.6%)
-  Bloodfire Mage    : 886 category-level wins (1.6%)
-  Deluge Mage       : 886 category-level wins (1.6%)
-  Corruption Mage   : 880 category-level wins (1.6%)
-  Magma Mage        : 876 category-level wins (1.6%)
-  Quake Mage        : 871 category-level wins (1.6%)
-  Air Mage          : 871 category-level wins (1.6%)
-  Steam Mage        : 871 category-level wins (1.6%)
-  Mage Jack of all Trades: 868 category-level wins (1.6%)
-  Radiant Mage      : 868 category-level wins (1.6%)
-  Infernal Mage     : 867 category-level wins (1.6%)
-  Dust Mage         : 867 category-level wins (1.6%)
-  Earth Mage        : 866 category-level wins (1.6%)
-  Nova Mage         : 866 category-level wins (1.6%)
-  Solar Mage        : 866 category-level wins (1.6%)
-  Mirage Mage       : 865 category-level wins (1.6%)
-  Ash Mage          : 865 category-level wins (1.6%)
-  Torrent Mage      : 865 category-level wins (1.6%)
-  Cursed Mage       : 865 category-level wins (1.6%)
-  Mud Mage          : 865 category-level wins (1.6%)
-  Metal Mage        : 865 category-level wins (1.6%)
-  Tremor Mage       : 865 category-level wins (1.6%)
-  Undead Necromancer: 865 category-level wins (1.6%)
-  Hallowed Mage     : 865 category-level wins (1.6%)
-  Physical Fighter  : 854 category-level wins (1.5%)
-  Archer            : 849 category-level wins (1.5%)
-  Naga Tank         : 705 category-level wins (1.3%)
-  Elven Archer      : 112 category-level wins (0.2%)
-  Archer/Melee Fighter:  98 category-level wins (0.2%)
-  Martial Fighter   :  95 category-level wins (0.2%)
-  Full Melee Fighter:  90 category-level wins (0.2%)
-  Harpy Brawler     :  78 category-level wins (0.1%)
-  Demon Berserker   :  77 category-level wins (0.1%)
-  Therian Berserker :  77 category-level wins (0.1%)
-  Tanker            :  77 category-level wins (0.1%)
-  Worst Physical    :  75 category-level wins (0.1%)
-  Bugfolk Tank      :  75 category-level wins (0.1%)
-  Mageslayer        :  75 category-level wins (0.1%)
-  Worst Magical     :  65 category-level wins (0.1%)
+  Archetype: Indomitable: 1613 category-level wins (11.8%)
+  Archetype: Skirmisher: 1405 category-level wins (10.3%)
+  Archetype: Eldritch Horror: 822 category-level wins (6.0%)
+  Archetype: Sentinel: 817 category-level wins (6.0%)
+  Archetype: Scholar: 801 category-level wins (5.9%)
+  Affinity: Atomic Mage: 671 category-level wins (4.9%)
+  Archetype: Duelist: 636 category-level wins (4.7%)
+  Affinity: Sorrow Mage: 609 category-level wins (4.5%)
+  Archetype: Marksman: 327 category-level wins (2.4%)
+  Affinity: Eldritch Mage: 290 category-level wins (2.1%)
+  Affinity: Miasma Mage: 167 category-level wins (1.2%)
+  Affinity: Storm Mage: 148 category-level wins (1.1%)
+  Affinity: Starlight Mage: 133 category-level wins (1.0%)
+  Affinity: Blight Mage:  88 category-level wins (0.6%)
+  Affinity: Gel Mage:  80 category-level wins (0.6%)
+  Affinity: Obsidian Mage:  70 category-level wins (0.5%)
+  Archetype: Necromancer:  70 category-level wins (0.5%)
+  Affinity: Magma Mage:  66 category-level wins (0.5%)
+  Affinity: Corruption Mage:  52 category-level wins (0.4%)
+  Affinity: Radiant Mage:  52 category-level wins (0.4%)
+  Archetype: Magician:  50 category-level wins (0.4%)
+  Affinity: Necrotic Mage:  50 category-level wins (0.4%)
+  Affinity: Force Mage:  49 category-level wins (0.4%)
+  Affinity: Quake Mage:  48 category-level wins (0.4%)
+  Affinity: Fire Mage:  48 category-level wins (0.4%)
+  Affinity: Glacial Mage:  48 category-level wins (0.4%)
+  Affinity: Void Mage:  47 category-level wins (0.3%)
+  Affinity: Earth Mage:  47 category-level wins (0.3%)
+  Affinity: Cursed Mage:  46 category-level wins (0.3%)
+  Affinity: Frostfire Mage:  46 category-level wins (0.3%)
+  Archetype: Healer :  46 category-level wins (0.3%)
+  Archetype: Pyromancer:  46 category-level wins (0.3%)
+  Affinity: Vacuum Mage:  46 category-level wins (0.3%)
+  Affinity: Mud Mage:  46 category-level wins (0.3%)
+  Affinity: Chaos Mage:  46 category-level wins (0.3%)
+  Archetype: Priest :  46 category-level wins (0.3%)
+  Affinity: Metal Mage:  46 category-level wins (0.3%)
+  Affinity: Air Mage:  46 category-level wins (0.3%)
+  Affinity: Dust Mage:  46 category-level wins (0.3%)
+  Affinity: Ice/Cold Mage:  46 category-level wins (0.3%)
+  Affinity: Water Mage:  46 category-level wins (0.3%)
+  Affinity: Thunder Mage:  46 category-level wins (0.3%)
+  Affinity: Deluge Mage:  46 category-level wins (0.3%)
+  Affinity: Infernal Mage:  46 category-level wins (0.3%)
+  Affinity: Toxin Mage:  46 category-level wins (0.3%)
+  Affinity: Nova Mage:  46 category-level wins (0.3%)
+  Affinity: Lightning Mage:  46 category-level wins (0.3%)
+  Affinity: Torrent Mage:  46 category-level wins (0.3%)
+  Archetype: Ritualist:  46 category-level wins (0.3%)
+  Affinity: Poison Mage:  46 category-level wins (0.3%)
+  Archetype: Tidemaster:  46 category-level wins (0.3%)
+  Affinity: Solar Mage:  46 category-level wins (0.3%)
+  Affinity: Psychic Mage:  46 category-level wins (0.3%)
+  Affinity: Warp Mage:  46 category-level wins (0.3%)
+  Affinity: Steam Mage:  46 category-level wins (0.3%)
+  Archetype: Windwalker:  46 category-level wins (0.3%)
+  Archetype: Psychic:  46 category-level wins (0.3%)
+  Archetype: Geomancer:  46 category-level wins (0.3%)
+  Affinity: Tremor Mage:  46 category-level wins (0.3%)
+  Affinity: Shatter Mage:  46 category-level wins (0.3%)
+  Affinity: Mirage Mage:  46 category-level wins (0.3%)
+  Affinity: Bloodfire Mage:  46 category-level wins (0.3%)
+  Affinity: Ash Mage:  46 category-level wins (0.3%)
+  Archetype: Jack   :  46 category-level wins (0.3%)
+  Archetype: Juggernaut:  37 category-level wins (0.3%)
+  Archetype: Brawler:  33 category-level wins (0.2%)
+  Archetype: Reaper :  30 category-level wins (0.2%)
+  Archetype: Godslayer:  30 category-level wins (0.2%)
+  Archetype: Occultist:  30 category-level wins (0.2%)
+  Archetype: Mageslayer:  30 category-level wins (0.2%)
+  Archetype: Pact Taker:  30 category-level wins (0.2%)
+  Archetype: Beacon :  30 category-level wins (0.2%)
+  Race: Therian Murren:  28 category-level wins (0.2%)
+  Race: Elf Spriteling:  28 category-level wins (0.2%)
+  Race: Elf Fairy   :  28 category-level wins (0.2%)
+  Archetype: Vanguard:  27 category-level wins (0.2%)
+  Race: Elf Elf     :  26 category-level wins (0.2%)
+  Race: Undead Ossid:  26 category-level wins (0.2%)
+  Race: Naga Viperean:  26 category-level wins (0.2%)
+  Race: Naga Ophidian:  26 category-level wins (0.2%)
+  Race: Naga Naga   :  26 category-level wins (0.2%)
+  Race: Shapeshifter Shapeshifter:  26 category-level wins (0.2%)
+  Race: Elf Draugir :  26 category-level wins (0.2%)
+  Race: Human Sandman:  26 category-level wins (0.2%)
+  Race: Bugfolk Miregnat:  26 category-level wins (0.2%)
+  Race: Bugfolk Duskwing:  26 category-level wins (0.2%)
+  Race: Fishfolk Cephalid:  26 category-level wins (0.2%)
+  Race: Harpy Blackfeather:  26 category-level wins (0.2%)
+  Race: Harpy Harpy :  26 category-level wins (0.2%)
+  Race: Therian Felar:  26 category-level wins (0.2%)
+  Race: Shapeshifter Skinwalker:  26 category-level wins (0.2%)
+  Race: Demon Pyrrakin:  26 category-level wins (0.2%)
+  Race: Elf Pixy    :  26 category-level wins (0.2%)
+  Race: Bugfolk Glimmerwing:  26 category-level wins (0.2%)
+  Race: Bugfolk Verdleap:  26 category-level wins (0.2%)
+  Race: Undead Shadowman:  26 category-level wins (0.2%)
+  Race: Bugfolk Webjack:  26 category-level wins (0.2%)
+  Race: Naga Nagaith:  26 category-level wins (0.2%)
+  Race: Harpy Earfang:  26 category-level wins (0.2%)
+  Race: Naga Anuran :  26 category-level wins (0.2%)
+  Race: Harpy Skyclaw:  26 category-level wins (0.2%)
+  Race: Harpy Hushwing:  26 category-level wins (0.2%)
+  Race: Tull Grivlit:  24 category-level wins (0.2%)
+  Race: Elf Nymph   :  24 category-level wins (0.2%)
+  Race: Therian Gnoll:  24 category-level wins (0.2%)
+  Race: Demon Ferramite:  23 category-level wins (0.2%)
+  Race: Shapeshifter Mirr:  23 category-level wins (0.2%)
+  Race: Demon Drakari:  23 category-level wins (0.2%)
+  Race: Therian Wolfkin:  23 category-level wins (0.2%)
+  Archetype: General Evolution:  23 category-level wins (0.2%)
+  Race: Bugfolk Twigwrought:  23 category-level wins (0.2%)
+  Race: Therian Therian:  23 category-level wins (0.2%)
+  Race: Elf Dwarf   :  23 category-level wins (0.2%)
+  Race: Undead Lycanthrex:  23 category-level wins (0.2%)
+  Race: Bugfolk Kheprid:  23 category-level wins (0.2%)
+  Race: Tull Grull  :  23 category-level wins (0.2%)
+  Race: Naga Scaledrake:  23 category-level wins (0.2%)
+  Race: Undead Relicwraith:  23 category-level wins (0.2%)
+  Race: Shapeshifter Mireglopian:  23 category-level wins (0.2%)
+  Race: Elf Siren   :  23 category-level wins (0.2%)
+  Race: Undead Sanguivar:  23 category-level wins (0.2%)
+  Race: Bugfolk Chitinfolk:  23 category-level wins (0.2%)
+  Race: Bugfolk Longweaver:  23 category-level wins (0.2%)
+  Race: Fishfolk Mermaid:  23 category-level wins (0.2%)
+  Race: Harpy Palehook:  23 category-level wins (0.2%)
+  Race: Therian Centaur:  23 category-level wins (0.2%)
+  Race: Demon Cinderkin:  23 category-level wins (0.2%)
+  Race: Tull Naram-Sin:  23 category-level wins (0.2%)
+  Race: Fishfolk Chelonar:  23 category-level wins (0.2%)
+  Race: Bugfolk Broodweaver:  23 category-level wins (0.2%)
+  Race: Elf Ironwroth:  23 category-level wins (0.2%)
+  Race: Elf Dryad   :  23 category-level wins (0.2%)
+  Race: Tull Boaf   :  23 category-level wins (0.2%)
+  Race: Demon Demon :  23 category-level wins (0.2%)
+  Race: Human Kravari:  23 category-level wins (0.2%)
+  Race: Undead Mycelari:  23 category-level wins (0.2%)
+  Race: Fishfolk Nerid:  23 category-level wins (0.2%)
+  Race: Therian Drowseer:  23 category-level wins (0.2%)
+  Race: Therian Minotaur:  23 category-level wins (0.2%)
+  Race: Therian Spinekin:  23 category-level wins (0.2%)
+  Race: Elf Snerin  :  23 category-level wins (0.2%)
+  Race: Tull Gorul  :  23 category-level wins (0.2%)
+  Race: Harpy Roundfeather:  23 category-level wins (0.2%)
+  Archetype: Bloodline Evolution:  23 category-level wins (0.2%)
+  Race: Fishfolk Deepmantle:  23 category-level wins (0.2%)
+  Race: Therian Probassan:  23 category-level wins (0.2%)
+  Race: Human Giant :  23 category-level wins (0.2%)
+  Race: Human Halofade:  23 category-level wins (0.2%)
+  Race: Naga Serpentarii:  23 category-level wins (0.2%)
+  Race: Tull Tull   :  23 category-level wins (0.2%)
+  Race: Therian Tuskwroth:  23 category-level wins (0.2%)
+  Race: Tull Troll  :  23 category-level wins (0.2%)
+  Race: Human Human :  23 category-level wins (0.2%)
+  Race: Human Aurian:  23 category-level wins (0.2%)
+  Race: Bugfolk Plateroll:  23 category-level wins (0.2%)
+  Race: Tull Cyclopse:  23 category-level wins (0.2%)
+  Race: Naga Slarik :  23 category-level wins (0.2%)
+  Race: Undead Revenant:  23 category-level wins (0.2%)
+  Race: Human Iceborn:  23 category-level wins (0.2%)
+  Race: Demon Sylphamare:  23 category-level wins (0.2%)
+  Race: Therian Ursworn:  23 category-level wins (0.2%)
+  Race: Human Fireborn:  23 category-level wins (0.2%)
+  Race: Bugfolk Formid:  23 category-level wins (0.2%)
+  Race: Naga Carapax:  23 category-level wins (0.2%)
+  Race: Tull Brogath:  23 category-level wins (0.2%)
+  Race: Bugfolk Skorren:  23 category-level wins (0.2%)
+  Race: Demon Varkuun:  23 category-level wins (0.2%)
+  Archetype: Butcher:  15 category-level wins (0.1%)
+  Archetype: Slime Rancher:  15 category-level wins (0.1%)
+  Archetype: Monster Hunter:  15 category-level wins (0.1%)
+  Archetype: Rune Master:  15 category-level wins (0.1%)
+  Archetype: Human Hunter:  15 category-level wins (0.1%)
+  Archetype: Golem Tamer:  15 category-level wins (0.1%)
+  Archetype: Scoundrel:  15 category-level wins (0.1%)
+  Archetype: Dragonslayer:  15 category-level wins (0.1%)
+  Archetype: Alchemist:  15 category-level wins (0.1%)
 
-  >>> OK: No single build dominates. Top build (Storm Mage) has 3.1% of wins.
+  >>> OK: No single build dominates. Top build (Archetype: Indomitable) has 11.8% of wins.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
-  Magical builds  : 2639 damage BEST wins (98.0%)
-  Physical builds :  52 damage BEST wins (1.9%)
-  Mixed builds    :   2 damage BEST wins (0.1%)
+  Magical builds  : 1021 damage BEST wins (42.4%)
+  Physical builds : 1386 damage BEST wins (57.6%)
 
-  >>> Magical builds dominate damage output. Consider buffing physical options.
+  >>> Damage type balance is reasonable.
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : mostly Tanker Archer (767/800 levels, 95.9%)
-    >>> MONOPOLY: Tanker Archer wins Vitality almost exclusively.
+  Vitality  : mostly Archetype: Indomitable (799/800 levels, 99.9%)
+    >>> MONOPOLY: Archetype: Indomitable wins Vitality almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Health    : mostly Human Generalist (782/800 levels, 97.8%)
-    >>> MONOPOLY: Human Generalist wins Health almost exclusively.
+  Health    : mostly Archetype: Indomitable (800/800 levels, 100.0%)
+    >>> MONOPOLY: Archetype: Indomitable wins Health almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Mana      : mostly Sorrow Mage (800/800 levels, 100.0%)
-    >>> MONOPOLY: Sorrow Mage wins Mana almost exclusively.
-    This is expected for magical builds. No action needed.
-  AC        : mostly Naga Tank (630/800 levels, 78.8%)
+  Mana      : mostly Affinity: Sorrow Mage (563/800 levels, 70.4%)
     (Moderate concentration)
-  Feats     : mostly Archer (800/800 levels, 100.0%)
-    >>> MONOPOLY: Archer wins Feats almost exclusively.
+  AC        : mostly Archetype: Sentinel (792/800 levels, 99.0%)
+    >>> MONOPOLY: Archetype: Sentinel wins AC almost exclusively.
+    This is expected for tank/heavy-armor builds. No action needed.
+  Feats     : mostly Archetype: Scholar (800/800 levels, 100.0%)
+    >>> MONOPOLY: Archetype: Scholar wins Feats almost exclusively.
     (Tied across all builds since every build gets +1 feat every 3 levels.)
-  Spells    : tied across all builds (all 800/800)
-  To Hit    : mostly Psychic Mage (533/800 levels, 66.6%)
+  Spells    : mostly Archetype: Eldritch Horror (792/800 levels, 99.0%)
+    >>> MONOPOLY: Archetype: Eldritch Horror wins Spells almost exclusively.
+    This is expected for magical builds. No action needed.
+  To Hit    : mostly Archetype: Duelist (603/800 levels, 75.4%)
     (Moderate concentration)
-  Dmg/Turn  : mostly Atomic Mage (635/800 levels, 79.4%)
+  Dmg/Turn  : mostly Affinity: Atomic Mage (625/800 levels, 78.1%)
     (Moderate concentration)
-  Dmg/5R    : mostly Storm Mage (400/800 levels, 50.0%)
-    (Moderate concentration)
-  Dmg/10R   : mostly Storm Mage (444/800 levels, 55.5%)
-    (Moderate concentration)
+  Dmg/5R    : mostly Archetype: Skirmisher (666/800 levels, 83.2%)
+    >>> MONOPOLY: Archetype: Skirmisher wins Dmg/5R almost exclusively.
+    >>> IMBALANCE: Damage output is concentrated in one build.
+    Consider: rebalancing damage scaling so other builds can compete.
+  Dmg/10R   : mostly Archetype: Skirmisher (684/800 levels, 85.5%)
+    >>> MONOPOLY: Archetype: Skirmisher wins Dmg/10R almost exclusively.
+    >>> IMBALANCE: Damage output is concentrated in one build.
+    Consider: rebalancing damage scaling so other builds can compete.
 
 STAT ANALYSIS
 ----------------------------------------
-  STR   : avg=12  max=Quake Mage         (26)  min=Fire Mage          ( 8)
-  DEX   : avg=10  max=Archer             (26)  min=Fire Mage          ( 6)
-  CON   : avg=12  max=Tanker Archer      (28)  min=Air Mage           ( 8)
-  WIS   : avg=13  max=Sorrow Mage        (25)  min=Archer             ( 8)
-  INT   : avg=18  max=Storm Mage         (34)  min=Archer             ( 8)
-  CHA   : avg= 9  max=Infernal Mage      (26)  min=Undead Necromancer ( 3)
+  STR   : avg=13  max=Affinity: Bloodfire Mage (27)  min=Archetype: Marksman ( 6)
+  DEX   : avg=11  max=Archetype: Scholar (28)  min=Archetype: Indomitable ( 6)
+  CON   : avg=13  max=Affinity: Thunder Mage (33)  min=Archetype: Scholar ( 8)
+  WIS   : avg=13  max=Archetype: Scholar (32)  min=Archetype: Indomitable ( 4)
+  INT   : avg=15  max=Archetype: Scholar (38)  min=Archetype: Indomitable ( 4)
+  CHA   : avg= 9  max=Affinity: Infernal Mage (26)  min=Race: Undead Revenant ( 6)
 
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Atomic Mage       : avg dmg/turn 4812.9
-    Corruption Mage   : avg dmg/turn 2555.3
-    Miasma Mage       : avg dmg/turn 2329.3
+    Affinity: Atomic Mage: avg dmg/turn 5108.1
+    Affinity: Blight Mage: avg dmg/turn 2504.8
+    Archetype: Skirmisher: avg dmg/turn 2305.2
   Bad Gear:
-    Atomic Mage       : avg dmg/turn 4852.3
-    Corruption Mage   : avg dmg/turn 2709.1
-    Fishfolk Water Mage: avg dmg/turn 2605.8
-    >> Worst Physical benefits most from this tier (+200% dmg vs previous tier).
+    Affinity: Atomic Mage: avg dmg/turn 5232.1
+    Affinity: Blight Mage: avg dmg/turn 3123.7
+    Archetype: Skirmisher: avg dmg/turn 2904.1
+    >> Affinity: Deluge Mage benefits most from this tier (+158% dmg vs previous tier).
   Good Gear:
-    Atomic Mage       : avg dmg/turn 4879.8
-    Fishfolk Water Mage: avg dmg/turn 2881.4
-    Water Mage        : avg dmg/turn 2881.0
-    >> Cursed Mage benefits most from this tier (+283% dmg vs previous tier).
+    Affinity: Atomic Mage: avg dmg/turn 5232.1
+    Affinity: Blight Mage: avg dmg/turn 3123.7
+    Archetype: Skirmisher: avg dmg/turn 2953.9
+    >> Affinity: Deluge Mage benefits most from this tier (+158% dmg vs previous tier).
   Amazing Gear:
-    Atomic Mage       : avg dmg/turn 4923.6
-    Fishfolk Water Mage: avg dmg/turn 3317.9
-    Water Mage        : avg dmg/turn 3317.5
-    >> Cursed Mage benefits most from this tier (+572% dmg vs previous tier).
+    Affinity: Atomic Mage: avg dmg/turn 5232.1
+    Affinity: Blight Mage: avg dmg/turn 3123.7
+    Archetype: Skirmisher: avg dmg/turn 3036.9
+    >> Affinity: Deluge Mage benefits most from this tier (+158% dmg vs previous tier).
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
-    Level 5  (1-5) : dmg leader Fire Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Fire Mage (2/5 levels)
-    Level 15 (11-15): dmg leader Magma Mage (4/5 levels)
-    Level 20 (16-20): dmg leader Toxin Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Atomic Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (150/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Necrotic Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Magma Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Magma Mage (4/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Atomic Mage (2/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Atomic Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Atomic Mage (151/151 levels)
 
   Bad Gear:
-    Level 5  (1-5) : dmg leader Obsidian Mage (1/5 levels)
-    Level 10 (6-10): dmg leader Water Mage (2/5 levels)
-    Level 15 (11-15): dmg leader Glacial Mage (3/5 levels)
-    Level 20 (16-20): dmg leader Water Mage (3/5 levels)
-    Level 30 (21-30): dmg leader Atomic Mage (5/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (150/151 levels)
+    Level 5  (1-5) : dmg leader Archetype: Skirmisher (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Miasma Mage (3/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Miasma Mage (4/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Miasma Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Gel Mage (7/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Atomic Mage (147/151 levels)
 
   Good Gear:
-    Level 5  (1-5) : dmg leader Thunder Mage (2/5 levels)
-    Level 10 (6-10): dmg leader Water Mage (3/5 levels)
-    Level 15 (11-15): dmg leader Water Mage (3/5 levels)
-    Level 20 (16-20): dmg leader Water Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Water Mage (4/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (149/151 levels)
+    Level 5  (1-5) : dmg leader Archetype: Skirmisher (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Miasma Mage (3/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Miasma Mage (4/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Miasma Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Gel Mage (7/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Atomic Mage (147/151 levels)
 
   Amazing Gear:
-    Level 5  (1-5) : dmg leader Thunder Mage (2/5 levels)
-    Level 10 (6-10): dmg leader Water Mage (3/5 levels)
-    Level 15 (11-15): dmg leader Water Mage (3/5 levels)
-    Level 20 (16-20): dmg leader Water Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Water Mage (6/10 levels)
-    Level 50+ (50+): dmg leader Atomic Mage (143/151 levels)
+    Level 5  (1-5) : dmg leader Archetype: Skirmisher (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Miasma Mage (3/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Miasma Mage (4/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Miasma Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Gel Mage (7/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Atomic Mage (147/151 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
-  1. Physical builds are underperforming in damage (2% of damage BEST wins vs 98% for magical).
-       - Increase base weapon damage or weapon damage_bonus values.
-       - Add more damage-boosting feats for physical builds.
-       - Check if extra_damage_die on weapons is being applied correctly.
-  2. Archer dominates Feat accumulation (100%).
+  1. Physical and magical damage are reasonably balanced (58% vs 42%). Monitor as new content is added.
+  2. Archetype: Scholar dominates Feat accumulation (100%).
        - Ensure other builds have feat access through their path choices.
-  3. Jack (hybrid build) wins no BEST categories.
+  3. Archetype: Skirmisher has a monopoly on Dmg/5R (83%).
+       - Rebalance damage formulas so other builds can compete in this category.
+       - Check if Archetype: Skirmisher has unintended damage synergies.
+  4. Archetype: Skirmisher has a monopoly on Dmg/10R (86%).
+       - Rebalance damage formulas so other builds can compete in this category.
+       - Check if Archetype: Skirmisher has unintended damage synergies.
+  5. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.
 
 RACE POPULARITY ANALYSIS
 ----------------------------------------
-  Bugfolk Broodweaver     : 13/65 (20%)  <<< POPULAR: may indicate above-average strength
-  Demon Sylphamare        : 12/65 (18%)
-  Human Aurian            : 11/65 (17%)
-  Therian Minotaur        :  7/65 (11%)
-  Elf Dryad               :  6/65 (9%)
-  Fishfolk Chelonar       :  4/65 (6%)
-  Harpy Hushwing          :  1/65 (2%)
-  Tull Tull               :  1/65 (2%)
-  Human Human             :  1/65 (2%)
-  Elf Elf                 :  1/65 (2%)
-  Demon Demon             :  1/65 (2%)
-  Bugfolk Chitinfolk      :  1/65 (2%)
-  Fishfolk Nerid          :  1/65 (2%)
-  Harpy Harpy             :  1/65 (2%)
-  Naga Naga               :  1/65 (2%)
-  Shapeshifter Shapeshifter:  1/65 (2%)
-  Therian Therian         :  1/65 (2%)
-  Undead Revenant         :  1/65 (2%)
+  Demon Sylphamare        : 38/176 (22%)  <<< POPULAR: may indicate above-average strength
+  Bugfolk Chitinfolk      : 13/176 (7%)
+  Bugfolk Broodweaver     : 13/176 (7%)
+  Human Aurian            : 13/176 (7%)
+  Therian Therian         : 12/176 (7%)
+  Elf Elf                 : 11/176 (6%)
+  Naga Naga               :  9/176 (5%)
+  Tull Tull               :  9/176 (5%)
+  Human Human             :  8/176 (5%)
+  Demon Demon             :  7/176 (4%)
+  Harpy Harpy             :  7/176 (4%)
+  Undead Revenant         :  7/176 (4%)
+  Elf Dryad               :  7/176 (4%)
+  Human Giant             :  6/176 (3%)
+  Fishfolk Nerid          :  5/176 (3%)
+  Therian Minotaur        :  4/176 (2%)
+  Shapeshifter Shapeshifter:  4/176 (2%)
+  Fishfolk Chelonar       :  2/176 (1%)
+  Elf Fairy               :  1/176 (1%)
 
 SPELL ANALYSIS & RANKINGS
 ----------------------------------------
@@ -234,8 +352,14 @@ Highest-cost spells (50+ mana):
   Atomic:Critical Atomicity — 289.0 dmg, 200 mana, 1.45 dmg/mana
   Atomic:Go Atomic — 200.0 dmg, 100 mana, 2.00 dmg/mana
 
-============================================================
-End of summary
+ARCHETYPE DRIFT DETECTION
+----------------------------------------
+Checks whether Archetype-specialist builds actually focus on their
+namesake archetype, or drift toward a different one that scores higher.
+Drift = a non-Racial archetype has more levels than the namesake.
+
+  No drift detected — all Archetype builds focus on their namesake.
+
 
 ======================================================================
 WEAPON BALANCE ANALYSIS (from Equipment Analyzer)

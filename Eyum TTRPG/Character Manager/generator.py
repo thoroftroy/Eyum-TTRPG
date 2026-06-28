@@ -32,6 +32,8 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     is_physical = build_config.get('has_physical', False)
     is_magical = build_config.get('has_magical', False)
     primary_aff = build_config.get('primary_affinity')
+    weapon = build_config.get('gear', {}).get('weapon', '')
+    is_ranged = 'bow' in weapon.lower() or 'crossbow' in weapon.lower()
 
     if effect_key == 'stat':
         for stat, bonus in effect_val.items():
@@ -40,26 +42,25 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
                     if s == stat and i < len(stat_weights):
                         score += bonus * stat_weights[i]
     elif effect_key == 'melee_damage':
-        if is_physical:
+        if is_physical and not is_ranged:
             score += effect_val * 15
     elif effect_key == 'ranged_damage':
-        if is_physical:
+        if is_physical and (is_ranged or not weapon):
             score += effect_val * 15
     elif effect_key == 'magic_damage':
         if is_magical:
             score += effect_val * 15
     elif effect_key == 'melee_accuracy':
-        if is_physical:
+        if is_physical and not is_ranged:
             score += effect_val * 10
     elif effect_key == 'ranged_accuracy':
-        if is_physical:
+        if is_physical and (is_ranged or not weapon):
             score += effect_val * 10
     elif effect_key == 'magic_accuracy':
         if is_magical:
             score += effect_val * 10
     elif effect_key == 'weapon_group_accuracy':
-        if is_physical:
-            score += effect_val * 10
+        score += effect_val * 10
     elif effect_key == 'ac_bonus':
         score += effect_val * 8
     elif effect_key == 'flat_vit':
@@ -70,11 +71,11 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
         if is_magical:
             score += effect_val * 5
     elif effect_key == 'affinity':
-        if is_magical:
-            for aff, val in effect_val.items():
+        for aff, val in effect_val.items():
+            if is_magical:
                 score += val * 3
-                if aff == primary_aff:
-                    score += val * 20
+            if aff == primary_aff:
+                score += val * 20
     elif effect_key == 'skill_points':
         score += effect_val * 1
     elif effect_key == 'stat_points':
@@ -82,14 +83,9 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     elif effect_key == 'extra_attack_bap':
         if is_physical:
             score += 20
-    elif effect_key == 'pack_tactics':
-        if is_physical:
-            score += 8
     elif effect_key == 'initiative':
         score += effect_val * 3
     elif effect_key == 'speed':
-        score += effect_val * 2
-    elif effect_key == 'fly_speed':
         score += effect_val * 2
     elif effect_key == 'skill_points_per_level':
         score += 8
@@ -107,9 +103,6 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     elif effect_key == 'spell':
         if is_magical:
             score += effect_val * 5
-    elif effect_key == 'mana_dice_count':
-        if is_magical:
-            score += effect_val * 5
     elif effect_key == 'mana_per_level':
         if is_magical:
             score += effect_val * 3
@@ -120,35 +113,17 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     elif effect_key == 'brawler_stacks':
         if is_physical:
             score += effect_val * 8
-    elif effect_key == 'antideity_damage' or effect_key == 'anti_deity_damage':
-        score += 10
     elif effect_key == 'hallowed_affinity':
         if is_magical:
             score += effect_val * 3
     elif effect_key == 'eldritch_affinity':
         if is_magical:
             score += effect_val * 3
-    elif effect_key == 'karma':
-        score += 0
-    elif effect_key == 'pact_access_tier':
-        score += 2
-    elif effect_key == 'tier_racial':
-        score += 3
-    elif effect_key == 'initiative_advantage':
-        score += 5
-    elif effect_key == 'first_round_damage':
-        score += 3
-    elif effect_key == 'ap_first_round':
-        score += 3
-    elif effect_key == 'first_round_advantage':
-        score += 5
-    elif effect_key == 'true_sight_range':
-        score += effect_val * 0.5
-    elif effect_key == 'darkvision_range':
-        score += effect_val * 0.3
-    elif effect_key == 'magic_blast':
+    elif effect_key in ('fire_damage_bonus', 'earth_damage_bonus', 'water_damage_bonus',
+                        'air_damage_bonus', 'radiant_damage_bonus', 'necrotic_damage_bonus',
+                        'psychic_damage_bonus'):
         if is_magical:
-            score += 3
+            score += 6
     elif effect_key == 'generic_affinity':
         if is_magical:
             score += effect_val * 3
@@ -161,17 +136,67 @@ def score_effect_for_build(effect_key, effect_val, build_config, arch_name=''):
     elif effect_key == 'ranged_adv_damage':
         if is_physical:
             score += effect_val * 4
-    elif effect_key == 'ranged_expertise':
-        if is_physical:
-            score += 5
     elif effect_key == 'spell_damage_mult':
         if is_magical:
             score += effect_val * 20
     elif effect_key == 'spell_mana_mult':
         if is_magical:
             score += effect_val * -8
+    elif effect_key == 'vit_die_type':
+        die_order = ['1d4','1d6','1d8','1d10','1d12','1d20']
+        new_idx = die_order.index(effect_val) if effect_val in die_order else 3
+        old_idx = 3
+        score += (new_idx - old_idx) * 2
+    elif effect_key == 'mana_die_type':
+        die_order = ['1d4','1d6','1d8','1d10','1d12','1d20']
+        new_idx = die_order.index(effect_val) if effect_val in die_order else 2
+        old_idx = 2
+        score += (new_idx - old_idx) * 2
+    elif effect_key in ('true_sight_range', 'darkvision_range', 'fly_speed',
+                        'initiative_advantage', 'first_round_damage', 'ap_first_round',
+                        'first_round_advantage', 'magic_blast', 'ranged_expertise',
+                        'pact_access_tier', 'tier_racial', 'karma', 'anti_deity_damage',
+                        'antideity_damage', 'monster_damage', 'humanoid_damage'):
+        score += 1
 
     return score
+
+
+def _get_affinity_arch_map(settings):
+    """Derive affinity->archetype mapping from rules data, not hardcoded."""
+    affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
+    base_elements = {
+        'Fire': 'Pyromancer', 'Earth': 'Geomancer', 'Water': 'Tidemaster', 'Air': 'Windwalker',
+        'Radiant': 'Priest', 'Necrotic': 'Necromancer', 'Psychic': 'Psychic',
+    }
+    result = dict(base_elements)
+    # Walk prerequisite tree: if Lightning needs Fire+Air, map Lightning to whichever base
+    # element has the most archetype affinity overlap
+    downstream = {}
+    for aff, prereq in affinity_prereqs.items():
+        if aff in result:
+            continue
+        needs_all = prereq.get('needs_all', [])
+        needs = prereq.get('needs', {})
+        all_affs = []
+        if needs_all:
+            for tier in needs_all:
+                all_affs.extend(tier.get('affinities', []))
+        else:
+            all_affs = needs.get('all_of', []) or needs.get('any_of', [])
+        # Find base elements among prerequisites
+        for base_aff in all_affs:
+            if base_aff in result:
+                result[aff] = result[base_aff]
+                break
+        if aff not in result and all_affs:
+            result[aff] = 'Magician'
+    # Override specific known mappings
+    overrides = {
+        'Generic': 'Magician', 'Force': 'Magician', 'Eldritch': 'Magician',
+    }
+    result.update(overrides)
+    return result
 
 
 def score_archetype_for_build(arch_name, arch_data, build_config):
@@ -189,19 +214,9 @@ def score_archetype_for_build(arch_name, arch_data, build_config):
                 continue
             total += score_effect_for_build(ek, ev, build_config, arch_name) * multiplier
 
-    if arch_name == 'Indomitable':
-        total -= 20
-    if arch_name == 'Magician':
-        total -= 20
-
     primary_aff = build_config.get('primary_affinity')
     if primary_aff:
-        arch_aff_map = {
-            'Pyromancer': 'Fire', 'Geomancer': 'Earth',
-            'Tidemaster': 'Water', 'Windwalker': 'Air',
-            'Priest': 'Radiant', 'Necromancer': 'Necrotic',
-            'Psychic': 'Psychic'
-        }
+        arch_aff_map = _ARCH_AFF_MAP_CACHE
         mapped = arch_aff_map.get(arch_name)
         if mapped:
             if mapped == primary_aff:
@@ -212,38 +227,22 @@ def score_archetype_for_build(arch_name, arch_data, build_config):
     return total
 
 
+_ARCH_AFF_MAP_CACHE = {}
+
+
 def select_archetypes(build_config, settings, target_level):
+    global _ARCH_AFF_MAP_CACHE
+    if not _ARCH_AFF_MAP_CACHE:
+        _ARCH_AFF_MAP_CACHE = _get_affinity_arch_map(settings)
+    
     available_stp = target_level
     path_rules = settings['paths']
     preferred = build_config.get('preferred_paths', list(path_rules.keys()))
     affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
     primary_aff = build_config.get('primary_affinity')
-    is_physical = build_config.get('has_physical', False)
     is_magical = build_config.get('has_magical', False)
 
-    primary_arch_map = {
-        'Fire': 'Pyromancer', 'Earth': 'Geomancer', 'Water': 'Tidemaster', 'Air': 'Windwalker',
-        'Radiant': 'Priest', 'Necrotic': 'Necromancer', 'Psychic': 'Psychic',
-        'Infernal': 'Pyromancer', 'Metal': 'Geomancer', 'Torrent': 'Tidemaster',
-        'Thunder': 'Windwalker', 'Mirage': 'Priest', 'Vacuum': 'Necromancer',
-        'Warp': 'Psychic', 'Void': 'Windwalker', 'Quake': 'Geomancer',
-        'Obsidian': 'Geomancer', 'Corruption': 'Geomancer',
-        'Frostfire': 'Windwalker', 'Glacial': 'Windwalker', 'Storm': 'Windwalker',
-        'Lightning': 'Pyromancer', 'Steam': 'Tidemaster', 'Magma': 'Pyromancer',
-        'Ice/Cold': 'Tidemaster', 'Dust': 'Geomancer', 'Mud': 'Geomancer',
-        'Nova': 'Pyromancer', 'Solar': 'Priest', 'Starlight': 'Priest',
-        'Hallowed': 'Priest', 'Cursed': 'Necromancer',
-        'Ash': 'Pyromancer', 'Blight': 'Necromancer', 'Poison': 'Necromancer', 'Toxin': 'Windwalker',
-        'Bloodfire': 'Pyromancer', 'Shatter': 'Psychic', 'Sorrow': 'Psychic', 'Chaos': 'Psychic',
-        'Tremor': 'Psychic', 'Deluge': 'Psychic', 'Miasma': 'Necromancer', 'Gel': 'Necromancer',
-        'Atomic': 'Priest', 'Eldritch': 'Magician',
-    }
-    primary_arch = primary_arch_map.get(primary_aff)
-
-    element_arch_map = {
-        'Fire': 'Pyromancer', 'Earth': 'Geomancer', 'Water': 'Tidemaster', 'Air': 'Windwalker',
-        'Radiant': 'Priest', 'Necrotic': 'Necromancer', 'Psychic': 'Psychic',
-    }
+    primary_arch = _ARCH_AFF_MAP_CACHE.get(primary_aff) if primary_aff else None
 
     needed_archs = set()
     if primary_arch:
@@ -251,7 +250,8 @@ def select_archetypes(build_config, settings, target_level):
     if is_magical:
         needed_archs.add('Magician')
 
-    if primary_aff:
+    # Add prerequisite affinity archetypes for complex affinities
+    if primary_aff and primary_aff in affinity_prereqs:
         def _collect_prereq_affs(aff, visited=None):
             if visited is None: visited = set()
             if aff in visited: return set()
@@ -280,7 +280,7 @@ def select_archetypes(build_config, settings, target_level):
 
         all_prereqs = _collect_prereq_affs(primary_aff)
         for aff in all_prereqs:
-            arch = element_arch_map.get(aff)
+            arch = _ARCH_AFF_MAP_CACHE.get(aff)
             if arch:
                 needed_archs.add(arch)
 
@@ -334,13 +334,25 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         dynamic_paths = select_archetypes(build_config, settings, max(levels))
         build_config['paths'] = dynamic_paths
 
+    # Normalize paths: accept both [{"path":..., "archetype":...}] list and {path: [archs]} dict
+    raw_paths = build_config.get('paths', {})
+    if isinstance(raw_paths, dict):
+        # Convert dict format to list format for internal use
+        path_list = []
+        for pname, archs in raw_paths.items():
+            for aname in archs:
+                path_list.append({"path": pname, "archetype": aname, "level": 999, "repeatables": {}})
+        build_config['paths'] = path_list
+    else:
+        path_list = raw_paths
+
     race_pickup = build_config.get('race', None)
     if race_pickup and not is_worst:
         family_name, subrace_name = select_best_race(build_config, all_races)
         if family_name and subrace_name:
             race_data = all_races[family_name]['subraces'][subrace_name]
             arch_name = f"{family_name} {subrace_name}"
-            has_racial_path = any(p.get('path') == 'Racial' for p in build_config.get('paths', []))
+            has_racial_path = any(p.get('path') == 'Racial' for p in path_list)
             if not has_racial_path:
                 build_config.setdefault('paths', []).append(
                     {"path": "Racial", "archetype": arch_name, "level": 10, "repeatables": {}}
@@ -356,7 +368,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             char.primary_affinity = primary_aff
         char.has_physical = build_config.get('has_physical', False)
         char.has_magical = build_config.get('has_magical', False)
-        char.has_utility = any(p.get('path') == 'Utility' for p in build_config.get('paths', []))
+        char.has_utility = any(p.get('path') == 'Utility' for p in path_list)
         char.affinities = build_config.get('starting_affinities', {"Generic": 1}).copy()
         char.gear = gear_override if gear_override is not None else build_config.get('gear', {})
         weapon_name = char.gear.get('weapon', '')
@@ -389,20 +401,18 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
 
             cost_table = settings['rules']['stat_point_cost']
 
-            lower_name = build_name.lower()
-            char_type = 'balanced'
-            if 'worst' in lower_name:
-                char_type = 'balanced'
-            elif 'tank' in lower_name:
-                char_type = 'tank'
-            elif 'archer' in lower_name:
-                char_type = 'marksman'
-            elif 'mage' in lower_name:
-                char_type = 'caster'
-            elif 'jack' in lower_name:
-                char_type = 'jack'
-            elif 'fighter' in lower_name:
-                char_type = 'balanced'
+            # Determine character type from build config, not name
+            char_type = build_config.get('char_type', 'balanced')
+            if char_type == 'auto':
+                pri = build_config.get('stat_priority', [])
+                if build_config.get('has_magical') and not build_config.get('has_physical'):
+                    char_type = 'caster'
+                elif build_config.get('has_physical') and pri and pri[0] == 'con':
+                    char_type = 'tank'
+                elif build_config.get('has_physical') and pri and pri[0] == 'dex':
+                    char_type = 'marksman'
+                else:
+                    char_type = 'balanced'
 
             # Check primary affinity spell prereqs for stat requirements
             primary_aff = build_config.get('primary_affinity')

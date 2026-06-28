@@ -2295,7 +2295,7 @@ class CharacterManagerGUI:
                 result = collect_all_data(settings, progress, build_filter)
                 self.root.after(0, lambda: done(result))
             except Exception as e:
-                self.root.after(0, lambda: error(e))
+                self.root.after(0, lambda e=e: error(e))
 
         self.generating = True
         self.run_btn.config(state=tk.DISABLED)
@@ -2402,17 +2402,14 @@ class CharacterManagerGUI:
 
         builds_config = self.settings.get('builds', {}) if self.settings else {}
 
-        magical = []; physical = []; mixed = []
+        archetypes = []; races = []; affinities = []
         for name in build_names:
-            bc = builds_config.get(name, {})
-            has_mag = bc.get('has_magical', False)
-            has_phys = bc.get('has_physical', False)
-            if has_mag and has_phys:
-                mixed.append(name)
-            elif has_mag:
-                magical.append(name)
-            else:
-                physical.append(name)
+            if name.startswith('Archetype:'):
+                archetypes.append(name)
+            elif name.startswith('Race:'):
+                races.append(name)
+            elif name.startswith('Affinity:'):
+                affinities.append(name)
 
         def build_group(title, group, group_color):
             if not group:
@@ -2423,7 +2420,7 @@ class CharacterManagerGUI:
             fam_cb = ttk.Checkbutton(header, command=lambda g=group: self._toggle_group(g))
             fam_cb.state(('selected',) if all_vis else ('!selected',))
             fam_cb.pack(side=tk.LEFT)
-            tk.Label(header, text=title, font=('', 7, 'bold'), fg=group_color).pack(side=tk.LEFT, padx=2)
+            tk.Label(header, text=f'{title} ({len(group)})', font=('', 7, 'bold'), fg=group_color).pack(side=tk.LEFT, padx=2)
 
             for name in group:
                 color = colors.get(name, '#888')
@@ -2437,17 +2434,20 @@ class CharacterManagerGUI:
                               highlightbackground='#888', highlightthickness=1)
                 box.pack(side=tk.LEFT, padx=2)
                 box.pack_propagate(False)
-                lbl = tk.Label(row, text=name, font=('', 7),
-                              fg='#ccc' if is_visible else '#555', anchor=tk.W, cursor='hand2')
+                # Show short name
+                short = name.split(':', 1)[1].strip() if ':' in name else name
+                lbl = tk.Label(row, text=short, font=('', 7),
+                               fg='#ccc' if is_visible else '#555', anchor=tk.W, cursor='hand2')
                 lbl.pack(side=tk.LEFT, fill=tk.X, padx=2)
                 def make_toggle(n):
                     return lambda e: self._toggle_line(n)
                 box.bind('<Button-1>', make_toggle(name))
                 lbl.bind('<Button-1>', make_toggle(name))
 
-        build_group('Magical', magical, '#9467bd')
-        build_group('Physical', physical, '#d62728')
-        build_group('Mixed', mixed, '#7f7f7f')
+        COLORS = {'Archetype': '#d62728', 'Race': '#2ca02c', 'Affinity': '#9467bd'}
+        build_group('Archetypes', sorted(archetypes), COLORS['Archetype'])
+        build_group('Races', sorted(races), COLORS['Race'])
+        build_group('Affinities', sorted(affinities), COLORS['Affinity'])
 
         if '__average__' in self._lines:
             is_vis = self._line_visible.get('__average__', True)

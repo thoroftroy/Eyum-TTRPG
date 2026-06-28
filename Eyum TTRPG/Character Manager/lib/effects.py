@@ -204,6 +204,10 @@ def apply_effects(char, effects, cost_table=None):
         pass
     if 'monster_attack_penalty' in effects:
         pass
+    if 'humanoid_damage' in effects:
+        char.melee_damage += effects['humanoid_damage']
+    if 'humanoid_attack_penalty' in effects:
+        char.ac_bonus += effects['humanoid_attack_penalty']
 
 
 def apply_feat_effects(char, effects):

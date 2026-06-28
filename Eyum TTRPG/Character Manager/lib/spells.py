@@ -1,5 +1,5 @@
-import math
 from .die_avg import die_average
+from .character import dc_bonus_generic, dc_bonus_standard, affinity_mod
 
 AFFINITY_DAMAGE_BONUS_ATTRS = {
     'Fire': 'fire_damage_bonus',
@@ -63,10 +63,6 @@ def _get_condition_damage(spell):
     return total_dmg, conditions_found
 
 
-def affinity_mod(affinity):
-    return int(math.ceil((affinity - 2) / 2.0))
-
-
 def avg_ac(proficiency):
     return 13 + min(5, proficiency // 6)
 
@@ -78,7 +74,7 @@ def avg_save_mod(proficiency):
 def spell_save_dc(char, element):
     generic = char.affinities.get('Generic', 0)
     relevant = char.affinities.get(element, 0) if element else 0
-    return 10 + generic + relevant
+    return 10 + dc_bonus_generic(generic) + dc_bonus_standard(relevant)
 
 
 def get_best_affinity(char):

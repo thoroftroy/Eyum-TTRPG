@@ -989,5 +989,76 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
         except Exception:
             pass
         f.write("\n")
-        f.write("=" * 60 + "\n")
-        f.write("End of summary\n")
+        f.write("ARCHETYPE DRIFT DETECTION\n")
+        f.write("-" * 40 + "\n")
+        f.write("Checks whether Archetype-specialist builds actually focus on their\n")
+        f.write("namesake archetype, or drift toward a different one that scores higher.\n")
+        f.write("Drift = a non-Racial archetype has more levels than the namesake.\n\n")
+
+        seen_drifts = set()
+        drift_found = 0
+        for build_name, bc in build_configs.items():
+            if not build_name.startswith('Archetype:'):
+                continue
+            target_arch = build_name.split(':', 1)[1].strip()
+            paths = bc.get('paths', {})
+            if not paths:
+                continue
+            primary_path = None
+            primary_arch = None
+            if isinstance(paths, dict):
+                for pname, archs in paths.items():
+                    if archs:
+                        primary_path = pname
+                        primary_arch = archs[0]
+                        break
+            elif isinstance(paths, list):
+                for p in paths:
+                    primary_path = p.get('path')
+                    primary_arch = p.get('archetype')
+                    if primary_arch:
+                        break
+            if not primary_arch:
+                continue
+
+            # Check only first tier result (deduplicate across gear tiers)
+            first_tier = all_tier_results[0][1] if all_tier_results else {}
+            results = first_tier.get(build_name, [])
+            if not results:
+                continue
+            max_res = max(results, key=lambda r: r['level'])
+            c = max_res['char']
+            arch_levels = getattr(c, 'archetype_levels', {})
+            if not arch_levels:
+                continue
+
+            # Find the archetype with most levels, EXCLUDING Racial path
+            best_arch = None
+            best_levels = 0
+            for (p, a), lv in arch_levels.items():
+                if p == 'Racial':
+                    continue
+                if lv > best_levels:
+                    best_levels = lv
+                    best_arch = a
+
+            if best_arch and best_arch != primary_arch:
+                key = (build_name, best_arch)
+                if key in seen_drifts:
+                    continue
+                seen_drifts.add(key)
+                drift_found += 1
+                f.write(f"  DRIFT: {build_name}\n")
+                f.write(f"    Namesake: {primary_arch} (in {primary_path})\n")
+                f.write(f"    Drifted to: {best_arch} ({best_levels} levels)\n")
+                sorted_archs = sorted([(a, lv) for (p, a), lv in arch_levels.items() if p != 'Racial'], key=lambda x: x[1], reverse=True)
+                arch_summary = ', '.join(f'{a}({lv})' for a, lv in sorted_archs[:5])
+                f.write(f"    Non-Racial archetypes: {arch_summary}\n\n")
+
+        if drift_found == 0:
+            f.write("  No drift detected — all Archetype builds focus on their namesake.\n")
+        else:
+            f.write(f"  {drift_found} builds drifted away from their named archetype.\n")
+            f.write("  This means another archetype scored higher than the specialized one.\n")
+            f.write("  The named archetype may need buffing or the driftee may need nerfing.\n")
+        f.write("\n")
