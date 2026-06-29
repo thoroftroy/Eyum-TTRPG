@@ -111,7 +111,7 @@ Skin ranges from pale blue to blue-gray or frost-white and feels cold to the tou
 - **Tier 9:** **Ice Ward.** Gain +3 AC (stacks).
 - **Tier 10:** **Apex Iceborn.** Choose one:
     - **Absolute Cold:** Your Cold damage ignores Resistances and Immunizes.
-    - **Glacier Heart:** Regenerate 1d8 + Ice/Cold Affinity HP at the start of your turn while below half HP if you didn't take Fire damage on the last turn.
+    - **Glacier Heart:** Regenerate 1d8 + your Ice/Cold Attack Damage Bonus (see the Attack Damage Bonus table in [[2.1 Affinities#Affinity Bonus Tables]]) HP at the start of your turn while below half HP if you didn't take Fire damage on the last turn.
     - **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save (DC 15 + Save DC Bonus) halves). 
 ## Fireborn
 Fireborn have a strong, grounded humanoid build with thick legs and a reinforced core. The spine is flexible, and musculature is dense around the abdomen and thighs. Hands are broad with toughened palms.
@@ -159,7 +159,7 @@ The skin is constantly damp, as if lightly sweating at all times, giving a slick
 - **Tier 4:** **Dream Slip.** Once per round as a Reaction, you may make an attacker who just missed their attack against you gain the Unconscious condition until the start of your next turn.
 - **Tier 5:** **Mind Shield.** Gain +2 to Wisdom saving throws and Greater Resistance to Psychic.
 - **Tier 6:** **Thought Reading.** As an Action, you may read surface thoughts (GM's Digression) of a creature within 30 ft that fails a WIS save (DC 10 + Save DC Bonus).
-- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + Psychic Affinity. 
+- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + your Psychic Attack Damage Bonus (see the Attack Damage Bonus table in [[2.1 Affinities#Affinity Bonus Tables]]). 
 - **Tier 8:** **Nightmare Twist.** Whenever you deal Psychic damage you may take 1d4 True damage to inflict the despair condition on the target. 
 - **Tier 9:** **Mind Spike Mastery.** Your Mental Spike damage increases to 2d10 Psychic Damage and targets hit by it gain the Demoralized condition. 
 - **Tier 10:** **Apex Sandman.** Choose one:

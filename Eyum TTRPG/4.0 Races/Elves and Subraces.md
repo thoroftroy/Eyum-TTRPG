@@ -178,7 +178,7 @@ Skin is smooth, thin, and lightly reflective, ranging from pale peach to tan and
 - **Tier 1:** **Radiant Spark.** Gain +3 Radiant Affinity and learn 1 spell.
 - **Tier 2:** **Glitter Ward.** Once per turn as a Bonus Action, gain +2 AC until your next turn.
 - **Tier 3:** **Lightstep.** You may take Disengage as a free action.
-- **Tier 4:** **Healing Dust.** Once per combat as a Bonus Action, heal a creature within 20 ft for 1d10 + Radiant Affinity.
+- **Tier 4:** **Healing Dust.** Once per combat as a Bonus Action, heal a creature within 20 ft for 1d10 + your Radiant Attack Damage Bonus (see the Attack Damage Bonus table in [[2.1 Affinities#Affinity Bonus Tables]]).
 - **Tier 5:** **Bright Bolt.** When you deal Radiant damage, add +1d8 Radiant damage.
 - **Tier 6:** **Radiant Resilience.** Gain Resistance to Radiant damage and +5 Radiant Affinity.
 - **Tier 7:** **Flashblind.** Once per combat as an Action, creatures within 10 ft must pass a CON save (DC 5 + Racial Tier) or gain Stunned condition until your next turn.
