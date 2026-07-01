@@ -628,12 +628,17 @@ function setBreadcrumbs(path) {
 
 function fixWikiLinks(markdown) {
   return markdown.replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
-    const clean = target.split('|')[0].trim();
-    const [pageName, fragment] = clean.split('#');
+    const parts = target.split('|');
+    const raw = parts[0].trim();
+    const display = parts.length > 1 ? parts[1].trim() : raw;
+    const hashIdx = raw.indexOf('#');
+    const pageName = hashIdx >= 0 ? raw.slice(0, hashIdx).trim() : raw;
+    const fragment = hashIdx >= 0 ? raw.slice(hashIdx + 1).trim() : null;
     const mapped = wikiMap.get(slugifyTitle(pageName));
-    if (!mapped) return clean;
+    if (!mapped) return display;
     const url = `#${encodeURIComponent(mapped)}`;
-    return `[${clean}](${fragment ? url + '#' + slugifyFragment(fragment) : url})`;
+    const fullUrl = fragment ? url + '%23' + slugifyFragment(fragment) : url;
+    return `[${display}](${fullUrl})`;
   });
 }
 
@@ -668,9 +673,22 @@ async function loadPage(path, scrollToId) {
     els.content.innerHTML = sanitized;
     interceptContentLinks();
     if (scrollToId) {
-      const el = document.getElementById(scrollToId);
-      if (el) el.scrollIntoView({ behavior: 'instant' });
-      else window.scrollTo({ top: 0, behavior: 'instant' });
+      requestAnimationFrame(() => {
+        let el = document.getElementById(scrollToId);
+        if (!el) {
+          // Fallback: search headings by text matching the fragment
+          const searchText = scrollToId.replace(/-/g, ' ').toLowerCase();
+          const headings = els.content.querySelectorAll('h1,h2,h3,h4,h5,h6');
+          for (const h of headings) {
+            if (h.textContent.toLowerCase().trim() === searchText) {
+              el = h;
+              break;
+            }
+          }
+        }
+        if (el) el.scrollIntoView({ behavior: 'instant' });
+        else window.scrollTo({ top: 0, behavior: 'instant' });
+      });
     } else {
       window.scrollTo({ top: 0, behavior: 'instant' });
     }

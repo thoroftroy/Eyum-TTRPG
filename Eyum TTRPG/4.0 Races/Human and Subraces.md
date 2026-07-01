@@ -106,13 +106,13 @@ Skin ranges from pale blue to blue-gray or frost-white and feels cold to the tou
 - **Tier 4:** **Glacial Skin.** Gain +1 AC, you gain greater resistance to Ice/Cold damage.
 - **Tier 5:** **Freeze Step.** Once per combat as a BAp, gain +15 ft movement and ignore difficult terrain until end of turn.
 - **Tier 6:** **Winter Casting.** You may optionally change your Water and Air Affinity spells to Ice/Cold (both affinity and damage).
-- **Tier 7:** **Frostbite.** When you deal Ice/Cold damage, target must pass a CON save (DC 10 + Save DC Bonus) or suffer -10 ft speed until the end of its next turn (stacks, minimum of 0 speed).
+- **Tier 7:** **Frostbite.** When you deal Ice/Cold damage, target must pass a CON save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) or suffer -10 ft speed until the end of its next turn (stacks, minimum of 0 speed).
 - **Tier 8:** **Frozen.** Whenever you deal Ice/Cold your target gains 1 stack of Frostbitten for 3 turns (End DC is raised to 10 + Racial Tier). 
 - **Tier 9:** **Ice Ward.** Gain +3 AC (stacks).
 - **Tier 10:** **Apex Iceborn.** Choose one:
     - **Absolute Cold:** Your Cold damage ignores Resistances and Immunizes.
-    - **Glacier Heart:** Regenerate 1d8 + your Ice/Cold Attack Damage Bonus (see the Attack Damage Bonus table in [[2.1 Affinities#Affinity Bonus Tables]]) HP at the start of your turn while below half HP if you didn't take Fire damage on the last turn.
-    - **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save (DC 15 + Save DC Bonus) halves). 
+    - **Glacier Heart:** Regenerate 1d8 + your Ice/Cold Attack Damage Bonus (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]) HP at the start of your turn while below half HP if you didn't take Fire damage on the last turn.
+    - **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save (DC 15 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) halves). 
 ## Fireborn
 Fireborn have a strong, grounded humanoid build with thick legs and a reinforced core. The spine is flexible, and musculature is dense around the abdomen and thighs. Hands are broad with toughened palms.
 
@@ -122,7 +122,7 @@ Skin tones range from light red and copper to dark gray with warm undertones. Th
 - **Tier 2:** **Flame Affinity.** Gain +5 Fire Affinity and +2 Magma Affinity.
 - **Tier 3:** **Cinder Bolt.** Once per turn as an Action, ranged spell attack (90 ft): 2d10 Fire Affinity/Damage.
 - **Tier 4:** **Burning Body.** When a creature hits you with a melee attack, it takes 1d4 Fire damage and gains the burned condition.
-- **Tier 5:** **Ignition.** When you deal Fire damage, target must pass a CON save (DC 10 + Save DC Bonus) or gain On Fire for 3 turns.
+- **Tier 5:** **Ignition.** When you deal Fire damage, target must pass a CON save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) or gain On Fire for 3 turns.
 - **Tier 6:** **Firecasting.** Your Fire Affinity attack spells deal +1d6 Fire damage, you also gain +3 Magma Affinity.
 - **Tier 7:** **Flare Step.** Once per combat as a Bonus Action, teleport 15 ft and deal 1d10 Fire to one creature adjacent to your destination (fire spell attack roll).
 - **Tier 8:** **Blazing Will.** You may add your Fire Affinity to Wisdom Saves and gain +10 Vitality. 
@@ -158,11 +158,11 @@ The skin is constantly damp, as if lightly sweating at all times, giving a slick
 - **Tier 3:** **Mental Spike.** Once per combat as an Action, ranged spell attack (60 ft): 2d6 Psychic Damage/Affinity.
 - **Tier 4:** **Dream Slip.** Once per round as a Reaction, you may make an attacker who just missed their attack against you gain the Unconscious condition until the start of your next turn.
 - **Tier 5:** **Mind Shield.** Gain +2 to Wisdom saving throws and Greater Resistance to Psychic.
-- **Tier 6:** **Thought Reading.** As an Action, you may read surface thoughts (GM's Digression) of a creature within 30 ft that fails a WIS save (DC 10 + Save DC Bonus).
-- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + your Psychic Attack Damage Bonus (see the Attack Damage Bonus table in [[2.1 Affinities#Affinity Bonus Tables]]). 
+- **Tier 6:** **Thought Reading.** As an Action, you may read surface thoughts (GM's Digression) of a creature within 30 ft that fails a WIS save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]).
+- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + your Psychic Attack Damage Bonus (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]). 
 - **Tier 8:** **Nightmare Twist.** Whenever you deal Psychic damage you may take 1d4 True damage to inflict the despair condition on the target. 
 - **Tier 9:** **Mind Spike Mastery.** Your Mental Spike damage increases to 2d10 Psychic Damage and targets hit by it gain the Demoralized condition. 
 - **Tier 10:** **Apex Sandman.** Choose one:
     - **Dominant Will:** Gain +2 to all skill checks, saving throws, and attack rolls and advantage on WIS saves.
     - **Psychic Storm:** You may target up to two creatures with your Mental Spike per attack. 
-    - **Dream Master:** You may enter the mind of an unconscious target. While you are inside their mind, time is frozen in the outside world and you may converse freely. While inside a creature’s mind, all attacks deal psychic damage, and any damage they would deal is reduced to 1d8. All resistances and immunities are ignored. You gain triple advantage on Intimidation checks while inside someone’s mind, along with a flat +5 bonus. On its turn, the creature whose mind you are in may attempt a Wisdom saving throw (DC 10 + Save DC Bonus) to banish you. On a success, you are forcibly removed and take 2d10 psychic damage (ignoring resistances and immunities). On a failure, the creature gains the Demoralized condition. After failing 3 times, it gains the Despair condition. After failing 3 additional times, it can no longer attempt saves to banish you. Checks to remove Demoralized and Despair conditions cannot be made while a Dream Master is there and the conditions remain even after the Dream Master leaves. 
+    - **Dream Master:** You may enter the mind of an unconscious target. While you are inside their mind, time is frozen in the outside world and you may converse freely. While inside a creature’s mind, all attacks deal psychic damage, and any damage they would deal is reduced to 1d8. All resistances and immunities are ignored. You gain triple advantage on Intimidation checks while inside someone’s mind, along with a flat +5 bonus. On its turn, the creature whose mind you are in may attempt a Wisdom saving throw (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) to banish you. On a success, you are forcibly removed and take 2d10 psychic damage (ignoring resistances and immunities). On a failure, the creature gains the Demoralized condition. After failing 3 times, it gains the Despair condition. After failing 3 additional times, it can no longer attempt saves to banish you. Checks to remove Demoralized and Despair conditions cannot be made while a Dream Master is there and the conditions remain even after the Dream Master leaves. 
