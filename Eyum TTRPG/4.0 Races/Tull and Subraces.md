@@ -2,15 +2,15 @@
 
 | Name      | Size   | Height Range | Mass Range     | Typical Lifespan | Age of Adulthood |
 | --------- | ------ | ------------ | -------------- | ---------------- | ---------------- |
-| Grivlit   | Small  | 3'0" – 4'2"  | 35 – 75 lb     | 45 – 67 years    | 14               |
-| Tull      | Small  | 3'6" – 4'8"  | 45 – 95 lb     | 50 – 75 years    | 15               |
-| Grull     | Medium | 4'2" – 5'4"  | 90 – 180 lb    | 55 – 82 years    | 17               |
-| Gorul     | Medium | 5'0" – 6'2"  | 160 – 300 lb   | 60 – 90 years    | 18               |
-| Boaf      | Large  | 5'8" – 7'2"  | 220 – 420 lb   | 65 – 97 years    | 19               |
-| Brogath   | Large  | 6'4" – 8'0"  | 380 – 720 lb   | 70 – 105 years   | 21               |
-| Troll     | Huge   | 8'0" – 11'6" | 800 – 1,600 lb | 90 – 135 years   | 27               |
-| Cyclopse  | Huge   | 8'6" – 12'0" | 900 – 1,900 lb | 85 – 127 years   | 25               |
-| Naram-Sin | Medium | 5'10" – 6'8" | 210 – 360 lb   | 65 – 97 years    | 19               |
+| Grivlit   | Small  | 3'0" - 4'2"  | 35 - 75 lb     | 45 - 67 years    | 14               |
+| Tull      | Small  | 3'6" - 4'8"  | 45 - 95 lb     | 50 - 75 years    | 15               |
+| Grull     | Medium | 4'2" - 5'4"  | 90 - 180 lb    | 55 - 82 years    | 17               |
+| Gorul     | Medium | 5'0" - 6'2"  | 160 - 300 lb   | 60 - 90 years    | 18               |
+| Boaf      | Large  | 5'8" - 7'2"  | 220 - 420 lb   | 65 - 97 years    | 19               |
+| Brogath   | Large  | 6'4" - 8'0"  | 380 - 720 lb   | 70 - 105 years   | 21               |
+| Troll     | Huge   | 8'0" - 11'6" | 800 - 1,600 lb | 90 - 135 years   | 27               |
+| Cyclopse  | Huge   | 8'6" - 12'0" | 900 - 1,900 lb | 85 - 127 years   | 25               |
+| Naram-Sin | Medium | 5'10" - 6'8" | 210 - 360 lb   | 65 - 97 years    | 19               |
 
 | Race      | Speed | Negative Affinities | Neutral Affinities               | Positive Affinities | Stat Bonuses                           |
 | --------- | ----- | ------------------- | -------------------------------- | ------------------- | -------------------------------------- |

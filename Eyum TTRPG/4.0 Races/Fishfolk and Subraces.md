@@ -2,11 +2,11 @@
 
 | Name       | Size   | Length Range* | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ---------- | ------ | ------------- | ------------ | ---------------- | ---------------- |
-| Nerid      | Large  | 5'4" – 7'8"   | 140 – 380 lb | 90 – 135 years   | 27               |
-| Mermaid    | Medium | 5'0" – 6'6"   | 160 – 420 lb | 80 – 120 years   | 24               |
-| Cephalid   | Medium | 4'10" – 6'6"  | 110 – 280 lb | 75 – 112 years   | 22               |
-| Deepmantle | Medium | 5'0" – 7'0"   | 140 – 360 lb | 75 – 112 years   | 22               |
-| Chelonar   | Large  | 4'8" – 6'4"   | 180 – 520 lb | 400 – 600 years  | 120              |
+| Nerid      | Large  | 5'4" - 7'8"   | 140 - 380 lb | 90 - 135 years   | 27               |
+| Mermaid    | Medium | 5'0" - 6'6"   | 160 - 420 lb | 80 - 120 years   | 24               |
+| Cephalid   | Medium | 4'10" - 6'6"  | 110 - 280 lb | 75 - 112 years   | 22               |
+| Deepmantle | Medium | 5'0" - 7'0"   | 140 - 360 lb | 75 - 112 years   | 22               |
+| Chelonar   | Large  | 4'8" - 6'4"   | 180 - 520 lb | 400 - 600 years  | 120              |
 
 | Race       | Speed                 | Negative Affinities | Neutral Affinities             | Positive Affinities    | Stat Bonuses                   |
 | ---------- | --------------------- | ------------------- | ------------------------------ | ---------------------- | ------------------------------ |

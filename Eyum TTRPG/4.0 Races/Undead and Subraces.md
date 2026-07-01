@@ -4,13 +4,13 @@
 
 | Name        | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ----------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Revenant    | Medium | 5'0" – 6'10" | 90 – 240 lb  | 300 – 450 years  | 18               |
-| Ossid       | Medium | 4'8" – 6'8"  | 45 – 90 lb   | 300 – 450 years  | 18               |
-| Shadowman   | Medium | 4'8" – 7'2"  | 10 – 80 lb   | 300 – 450 years  | 20               |
-| Sanguivar   | Medium | 5'2" – 7'0"  | 110 – 260 lb | 300 – 450 years  | 20               |
-| Relicwraith | Medium | 4'6" – 7'0"  | 10 – 40 lb   | 300 – 450 years  | 18               |
-| Lycanthrex  | Large  | 5'6" – 7'8"  | 160 – 420 lb | 70 – 105 years   | 21               |
-| Mycelari    | Medium | 4'0" – 6'6"  | 90 – 280 lb  | 300 – 450 years  | 18               |
+| Revenant    | Medium | 5'0" - 6'10" | 90 - 240 lb  | 300 - 450 years  | 18               |
+| Ossid       | Medium | 4'8" - 6'8"  | 45 - 90 lb   | 300 - 450 years  | 18               |
+| Shadowman   | Medium | 4'8" - 7'2"  | 10 - 80 lb   | 300 - 450 years  | 20               |
+| Sanguivar   | Medium | 5'2" - 7'0"  | 110 - 260 lb | 300 - 450 years  | 20               |
+| Relicwraith | Medium | 4'6" - 7'0"  | 10 - 40 lb   | 300 - 450 years  | 18               |
+| Lycanthrex  | Large  | 5'6" - 7'8"  | 160 - 420 lb | 70 - 105 years   | 21               |
+| Mycelari    | Medium | 4'0" - 6'6"  | 90 - 280 lb  | 300 - 450 years  | 18               |
 
 | Race        | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities | Stat Bonuses            |
 | ----------- | ------------ | ------------------- | ----------------------------------------- | ------------------- | ----------------------- |
