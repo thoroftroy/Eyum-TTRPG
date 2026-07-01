@@ -91,8 +91,9 @@ function extractLinksFromFile(filePath, nameMap) {
     const re = /\[\[([^\]]+)\]\]/g;
     let m;
     while ((m = re.exec(content)) !== null) {
-      const target = m[1].split('|')[0].trim().toLowerCase();
-      const resolved = nameMap.get(target);
+      const raw = m[1].split('|')[0].trim().toLowerCase();
+      const pageName = raw.split('#')[0];  // strip fragment for lookup
+      const resolved = nameMap.get(pageName);
       if (resolved) links.push(resolved);
     }
     return links;

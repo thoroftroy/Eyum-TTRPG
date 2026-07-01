@@ -629,13 +629,19 @@ function setBreadcrumbs(path) {
 function fixWikiLinks(markdown) {
   return markdown.replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
     const clean = target.split('|')[0].trim();
-    const mapped = wikiMap.get(slugifyTitle(clean));
+    const [pageName, fragment] = clean.split('#');
+    const mapped = wikiMap.get(slugifyTitle(pageName));
     if (!mapped) return clean;
-    return `[${clean}](#${encodeURIComponent(mapped)})`;
+    const url = `#${encodeURIComponent(mapped)}`;
+    return `[${clean}](${fragment ? url + '#' + slugifyFragment(fragment) : url})`;
   });
 }
 
-async function loadPage(path) {
+function slugifyFragment(text) {
+  return text.toLowerCase().replace(/[^\w]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+async function loadPage(path, scrollToId) {
   // Section 2.7 - Character Reference -> load editable character sheet
   if (path.includes('2.7 Character Reference')) {
     currentPath = path;
@@ -661,7 +667,13 @@ async function loadPage(path) {
     const sanitized = DOMPurify.sanitize(html);
     els.content.innerHTML = sanitized;
     interceptContentLinks();
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    if (scrollToId) {
+      const el = document.getElementById(scrollToId);
+      if (el) el.scrollIntoView({ behavior: 'instant' });
+      else window.scrollTo({ top: 0, behavior: 'instant' });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
   } catch (err) {
     els.content.innerHTML = `<div class="error">${err.message}</div>`;
   }
@@ -672,10 +684,11 @@ function interceptContentLinks() {
     a.addEventListener('click', (e) => {
       const hash = a.getAttribute('href');
       if (!hash) return;
-      const target = decodeURIComponent(hash.slice(1));
-      if (!target.endsWith('.md')) return;
+      const decoded = decodeURIComponent(hash.slice(1));
+      const [target, fragment] = decoded.split('#');
+      if (!target || !target.endsWith('.md')) return;
       e.preventDefault();
-      location.hash = encodeURIComponent(target);
+      location.hash = encodeURIComponent(target) + (fragment ? '#' + fragment : '');
     });
   });
 }
@@ -892,8 +905,9 @@ function toggleGraph(manifest) {
 
 function registerUIEvents() {
   window.addEventListener('hashchange', () => {
-    const path = decodeURIComponent(location.hash.slice(1));
-    if (path) loadPage(path);
+    const raw = decodeURIComponent(location.hash.slice(1));
+    const [path, fragment] = raw.split('#');
+    if (path) loadPage(path, fragment || undefined);
   });
 
   els.textColor.addEventListener('input', () => {
@@ -961,9 +975,10 @@ async function init() {
     buildWikiMap(manifest.tree);
     renderTree(manifest.tree, els.tree);
 
-    const requested = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
-    const start = requested || manifest.defaultFile || getDefaultFile(manifest.tree);
-    if (start) await loadPage(start);
+    const raw = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
+    const [requestedPath, requestedFragment] = raw ? raw.split('#') : [null, null];
+    const start = requestedPath || manifest.defaultFile || getDefaultFile(manifest.tree);
+    if (start) await loadPage(start, requestedFragment || undefined);
   } catch (err) {
     els.content.innerHTML = `<div class="error">Failed to load site data: ${err.message}</div>`;
   }

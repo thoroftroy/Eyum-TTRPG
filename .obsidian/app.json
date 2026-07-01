@@ -1,4 +1,7 @@
 {
   "readableLineLength": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "dist/"
+  ]
 }
