@@ -69,10 +69,10 @@ Gain +1 to Infernal Affinity and +4 to Fire Affinity.
 - **Tier 5:** **Evasive Skitter.** If you move at least 10 ft on your turn, gain +3 AC until start of your next turn. (Once per round)
 - **Tier 6:** **Fire Resilience.** Gain Greater Resistance to Fire.
 - **Tier 7:** **Skirmish Combo.** After you hit with an attack, you may spend 1 BAp to make a second attack with a -2 Accuracy penalty.
-- **Tier 8:** **No-Stop Momentum.** If you spend all of your movement on your turn you become immune to forced movement effects and the Prone condition until the start of your next turn
+- **Tier 8:** **No-Stop Momentum.** If you spend all of your movement on your turn you become immune to forced movement effects and the [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] condition until the start of your next turn
 - **Tier 9:** **Blazing Afterimage.** If enemies take opportunity attacks against you and fail their attack roll they take 3d10 Fire damage (ignoring resistance).
 - **Tier 10:** **Inferno Runner.** Choose one:
-    - **Flame Trail:** Your movement leaves flame on the ground everywhere you move during combat, this flame lasts until the start of your next turn. Any creature who enters this flame gains the On Fire condition and takes 1d6 fire damage. Any creature within 5 ft of the fire trail will take 1d4 fire damage at the start of their turn. 
+    - **Flame Trail:** Your movement leaves flame on the ground everywhere you move during combat, this flame lasts until the start of your next turn. Any creature who enters this flame gains the [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]] condition and takes 1d6 fire damage. Any creature within 5 ft of the fire trail will take 1d4 fire damage at the start of their turn. 
     - **Pyro Focus:** All fire damage you deal deals double damage.
     - **Taunt Escape:** You may now take the Taunt Escape action. After taking this action when you would normally provoke an opportunity attack this round the creature must make the attack if they are able but they get -15 to their attack roll as well as disadvantage. Your Blazing Afterimage passive now deals 4d12 fire damage and can ignore immunity as well. 
 ## Drakari
@@ -94,7 +94,7 @@ Gain +2 to Infernal Affinity and +3 to Fire Affinity.
 - **Tier 9:** **Dragon’s Pressure.** Once per combat as an Action, enemies within 10 ft must pass a WIS save (DC 10 + STR mod + Tier) or suffer -10 Accuracy until your next turn.
 - **Tier 10:** **True Drakari.** Choose one:
     - **Breath Spark:** As an Action, deal 4d12 Infernal in a 25 ft cone (DEX (DC 20) save halves). (Once per turn)
-    - **Iron Scales:** Gain +3 AC and immunity to Frightened, Bleeding, Burned, Frostbitten, Shocked, Poisoned, Diseased, Hellfire, Blinded, Deafened, Paralyzed, Petrified, and Stunned.
+    - **Iron Scales:** Gain +3 AC and immunity to [[2.4 Conditions#Mental-Conditions|Frightened]], [[2.4 Conditions#Physical-Conditions|Bleeding]], [[2.4 Conditions#Physical-Conditions|Burned]], [[2.4 Conditions#Physical-Conditions|Frostbitten]], [[2.4 Conditions#Physical-Conditions|Shocked]], [[2.4 Conditions#Physical-Conditions|Poisoned]], [[2.4 Conditions#Physical-Conditions|Diseased]], [[2.4 Conditions#Physical-Conditions|Hellfire]], [[2.4 Conditions#Physical-Conditions|Blinded]], [[2.4 Conditions#Physical-Conditions|Deafened]], [[2.4 Conditions#Physical-Conditions|Paralyzed]], [[2.4 Conditions#Physical-Conditions|Petrified]], and [[2.4 Conditions#Physical-Conditions|Stunned]].
     - **Sky Predator:** Your flying speed doubles and while flying you gain +5 to all attack rolls and +10 Base Melee and Ranged Damage. 
 ## Cinderkin
 Cinderkin are the near-human demon-blooded type. Their skeleton and proportions read mostly human: upright posture, humanlike limb ratios, and a face that can appear fully human at a distance. They are usually smoother and less armored than full demons, with fewer extreme ridges and less harsh body geometry. This makes their movement look more familiar and controlled, and their expressions easier to read.
@@ -113,7 +113,7 @@ Gain +1 to Infernal Affinity and +4 to Fire Affinity.
 - **Tier 9:** **Charm of Ash.** Once per turn as an Action, one creature within 30 ft must pass a WIS save (DC 10 + CHA mod + Tier) or be forced to choose: lose all of its Ap next turn or take 10d12 Fire.
 - **Tier 10:** **True Cinderblood.** Choose one:
     - **Master Charmer:** Gain +10 CHA.
-    - **Hellfire Casting:** You gain +20 Fire Affinity and when dealing damage from a Fire Affinity spell you may reroll 1s and 2s on your damage dice once, you must use the new option. 
+    - **[[2.4 Conditions#Physical-Conditions|Hellfire]] Casting:** You gain +20 Fire Affinity and when dealing damage from a Fire Affinity spell you may reroll 1s and 2s on your damage dice once, you must use the new option. 
     - **Unseen Horns:** Gain +10 to all wisdom saving throws and +5 Generic Affinity.
 ## Sylphamare
 Sylphamare are huge, long-limbed humanoids with a frail-looking frame that is deceptive. The torso is narrow and tall, the shoulders slope gently, and the limbs are very long relative to the body. The arms hang low, and the hands are large with thin, extended fingers. The legs are also long, with joints that look high-set and angular, creating a slow, gliding stride. The spine appears slightly curved even at rest, giving them a forward-leaning silhouette. It looks as if they constantly walk hunched over. 
@@ -127,9 +127,9 @@ Gain +3 to Infernal Affinity and +3 to Radiant Affinity.
 - **Tier 4:** **Dual Spark.** Gain +5 Radiant Affinity and +5 Infernal Affinity.
 - **Tier 5:** **Condemn.** Once per turn when you hit with a spell or attack, choose Infernal or Radiant and add 4d8 of that damage type.
 - **Tier 6:** **Unnerving Stillness.** If you do not move on your turn (spend an entire turn without movement) gain +2 AC and +2 Magic Accuracy until you move again. For each subsequent turn of not moving you gain an additional +1 AC and +1 Magic Accuracy.
-- **Tier 7:** **Slow Mercy.** Whenever you deal magical damage to a target they must make a Wisdom Saving Throw (DC 10 + WIS mod + Racial Tier) on fail they gain 1 stack of Slow Death. 
-- **Tier 8:** **Weight of Presence.** All creatures that start their turn within 20 ft of you must make a Wisdom Saving Throw (DC 5 + CHAR mod + Racial Tier), on fail they gain the Despair and Frightened conditions. The DC's to remove those conditions raises from 10 to 10 + Racial Tier. If the creature fails their initial Wisdom Saving Throw by greater than 5 they also gain paralyzed for 1 turn. 
-- **Tier 9:** **Hush Field.** As an action create a Hush Field with a radius of 50 ft with you at the center, all creatures other than you in that field gain the Silenced condition until they leave the area. This skill uses concentration. 
+- **Tier 7:** **Slow Mercy.** Whenever you deal magical damage to a target they must make a Wisdom Saving Throw (DC 10 + WIS mod + Racial Tier) on fail they gain 1 stack of [[2.4 Conditions#Magical-Conditions|Slow Death]]. 
+- **Tier 8:** **Weight of Presence.** All creatures that start their turn within 20 ft of you must make a Wisdom Saving Throw (DC 5 + CHAR mod + Racial Tier), on fail they gain the [[2.4 Conditions#Mental-Conditions|Despair]] and [[2.4 Conditions#Mental-Conditions|Frightened]] conditions. The DC's to remove those conditions raises from 10 to 10 + Racial Tier. If the creature fails their initial Wisdom Saving Throw by greater than 5 they also gain paralyzed for 1 turn. 
+- **Tier 9:** **Hush Field.** As an action create a Hush Field with a radius of 50 ft with you at the center, all creatures other than you in that field gain the [[2.4 Conditions#Magical-Conditions|Silenced]] condition until they leave the area. This skill uses concentration. 
 - **Tier 10:** **Ancient Sylphamare.** Choose one:
     - **Sanctified Flame:** Gain Immunity to both Infernal and Radiant and your Condemn skill can be used on all spells and attacks instead of once per turn.
     - **Oracular Mind:** You may concentrate on two things at once but your concentration checks DC raises to 20 while you concentrate on two things. 

@@ -23,7 +23,7 @@ Their skin is smooth and highly elastic, able to stretch, fold, or tighten witho
 - **Tier 3:** **Soft-Bone Evasion.** Once per round when you are hit as a reaction, reduce that hit’s damage by 1d10 + DEX mod.
 - **Tier 4:** **Adaptive Anatomy.** At the start of combat, choose one: +2 AC, or +10 ft speed, or +2 to all saving throws until combat ends.
 - **Tier 5:** **Stolen Mannerisms.** Once per turn as a Bonus Action, choose one creature you can see within 30 ft. You gain advantage on your next attack against it and +5. When creatures try to make social or situational insight checks to learn about you they have a -5 penalty. 
-- **Tier 6:** **Flesh-Lock.** You become immune to being Grappled, Restrained, or Prone by creatures of your size or smaller.
+- **Tier 6:** **Flesh-Lock.** You become immune to being [[2.4 Conditions#Environmental-Positional-Conditions|Grappled]], [[2.4 Conditions#Environmental-Positional-Conditions|Restrained]], or [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] by creatures of your size or smaller.
 - **Tier 7:** **Split Mask.** Once per short rest, create a perfect “shell” copy of yourself (looks real, no stats). As an Action, you may swap places with it if within 60 ft. Creatures cannot tell which one is real no matter what. If the shell takes damage it is destroyed. 
 - **Tier 8:** **Perfect Imitation.** You can perfectly mimic a voice after hearing it for 10 seconds. You can remember and mimic any number of voices. You gain +10 on deception checks when trying to deceive using that voice. 
 - **Tier 9:** **Man of Many Shells.** Once per combat as an action you may create up to 8 perfect shells around you within 90 ft. These shells are just like the ones from Split mask, they are indistinguishable and you may teleport/swap places with any of them as a bonus action on your turn. 
@@ -36,7 +36,7 @@ Mireglopians are semi-liquid beings with no permanent bones. Their body holds sh
 
 The surface is slick and wet-looking even when dry, with a light sheen that reflects in broad highlights rather than sharp shine. Skin color ranges from milky clear to swampy greens, muddy browns, deep blues, and dark gray. In paler individuals, internal flow lines are visible: slow drifting streaks, cloudy pockets, or dense knots that move like currents. In darker individuals, the body may look opaque, but still shows subtle shifting patterns under the surface. Hair does not grow naturally. They can push up hair shapes as thin strands or ridges, but it behaves like soft gel and slumps or dissolves when attention fades. Eyes are made by condensing material into clear lenses; they can place them anywhere, and can make more than two, but the details are often simple, smooth iris rings, dark pupil spots, and a glassy look without fine veins. A mouth can be a normal slit or a soft opening that reshapes as they speak or feed. Teeth, if present, are usually formed as hard nodules inside the mouth rather than rooted enamel.
 ###### Racial Abilities
-You have Less Weakness to Fire damage and Greater resistance to Water damage. You are immune to Gel damage and the Gelled Condition. 
+You have Less Weakness to Fire damage and Greater resistance to Water damage. You are immune to Gel damage and the [[2.4 Conditions#Physical-Conditions|Gelled]] Condition. 
 - **Tier 1:** **Gel Body.** You have double advantage on checks to resist Grapple/Restrain, and you can squeeze through any gap you can fit your head through. You may form your body into any simple shape but no part of your body can be thinner than 3 in in diameter. When you hit a creature with an unarmed attack it does Gel damage instead of Bludgeoning. You gain +3 Gel Affinity.
 - **Tier 2:** **Mire Regeneration.** At the start of your turn, heal 1d8 + CON mod if you are above half HP.
 - **Tier 3:** **Acid Skin.** Once per turn when a creature hits you in melee, it takes 2d6 Gel + 2d6 Miasma damage.
@@ -62,7 +62,7 @@ Their true skin is pale white to soft gray, smooth, and slightly reflective in a
 - **Tier 5:** **Hall of Copies.** As an Action, create 3 illusion copies around you for 1 minute. The first 3 hits against you each round have a 50% chance (roll a percentage die, if above 5 it counts) to strike a copy instead (destroying one).
 - **Tier 6:** **Compulsion Glance.** Once per turn as a Bonus Action, one creature within 30 ft makes a WIS save (DC 10 + CHA mod + Tier). Fail: it suffers -10 Accuracy until your next turn.
 - **Tier 7:** **Identity Stitch.** Once per short rest, if you have spoken with a creature for 1 minute, you can perfectly mimic its voice, posture, and presence. You are now indistinguishable from that creature. You may add this voice to your Favored Forms list if you have this creature as a Favored Form. 
-- **Tier 8:** **Mirror Panic.** As an Action, one creature within 30 ft must pass a WIS save (DC 10 + CHA mod + Tier) or gain Demoralized and Despair and take 2d10 Psychic.
+- **Tier 8:** **Mirror Panic.** As an Action, one creature within 30 ft must pass a WIS save (DC 10 + CHA mod + Tier) or gain [[2.4 Conditions#Mental-Conditions|Demoralized]] and [[2.4 Conditions#Mental-Conditions|Despair]] and take 2d10 Psychic.
 - **Tier 9:** **Perfect Lie.** You gain +5 to Deception checks and Proficiency and Expertise in Deception. 
 - **Tier 10:** **True Mirr.** Choose one:
     - **Absolute Illusion:** Your Hall of Copies becomes 8 copies, and while any copy remains you gain +3 AC and +5 to hit. Rolling a 3 or higher on the percentage die (or a 1d10) will now cause a copy to be struck instead of a 5 or higher. 
@@ -83,4 +83,4 @@ Their skin can reproduce fine surface detail with high precision. Texture change
 - **Tier 9:** **Skin Hunt.** When attacking any humanoid you have advantage on attack rolls. 
 - **Tier 10:** **Apex Skinwalker.** Choose one:
     - **Monster Borrow:** You can copy and change forms into monsters as well as humanoids, you gain all of their stats, skills, and abilities but retain your own HP and Vitality. 
-    - **Uncatchable Form:** Gain +20 ft speed, immunity to Grappled/Restrained/Prone, and your Bone Shift Defense becomes 4d10 + CON mod.
+    - **Uncatchable Form:** Gain +20 ft speed, immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Grappled]]/[[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]/[[2.4 Conditions#Environmental-Positional-Conditions|Prone]], and your Bone Shift Defense becomes 4d10 + CON mod.

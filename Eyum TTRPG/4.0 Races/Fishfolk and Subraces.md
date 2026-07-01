@@ -24,17 +24,17 @@ When out of water, the tail converts into legs. The legs are long and thin compa
 ###### Racial Abilities
 You can breathe air and water. 
 - **Tier 1:** **Amphibious Frame.** While submerged, gain +1 AC.
-- **Tier 2:** **Webbed Grip.** Gain +2 to Athletics and Acrobatics checks made while swimming as well as gain advantage on attack rolls while underwater. If you succeed in a melee attack against a creature it gains the Soaked condition for 1 turn. 
+- **Tier 2:** **Webbed Grip.** Gain +2 to Athletics and Acrobatics checks made while swimming as well as gain advantage on attack rolls while underwater. If you succeed in a melee attack against a creature it gains the [[2.4 Conditions#Environmental-Positional-Conditions|Soaked]] condition for 1 turn. 
 - **Tier 3:** **Tail Lash.** You gain a natural melee attack: 1d6 + STR mod + Racial Tier Bludgeoning. 
 - **Tier 4:** **Water Resilience.** Gain Resistance to Water damage and you can reroll 1s on attack rolls and damage dice from Water Affinity spells.
 - **Tier 5:** **Riptide Burst.** Once per turn as a Bonus Action, you may move up to 15 ft in water without provoking reactions and make one Tail Lash.
 - **Tier 6:** **Gill Surge.** Gain +15 ft swim speed.
 - **Tier 7:** **Predator’s Bite.** Your Tail Lash damage increases to 1d10 + STR mod + Racial Tier Bludgeoning.
 - **Tier 8:** **Deep Diver.** You gain 60 ft of darkvision while underwater and advantage on attack rolls made in light and dim light while underwater. 
-- **Tier 9:** **Current Crush.** As an action you may choose a target that is currently touching water or has the soaked condition and crush them with the pressure of the water. The target must make a CON save (DC 10 + Racial Tier + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) on a fail they take 3d12 water damage and gain the Suffocating condition for 3 turns (end DC raised to 20). 
+- **Tier 9:** **Current Crush.** As an action you may choose a target that is currently touching water or has the soaked condition and crush them with the pressure of the water. The target must make a CON save (DC 10 + Racial Tier + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) on a fail they take 3d12 water damage and gain the [[2.4 Conditions#Environmental-Positional-Conditions|Suffocating]] condition for 3 turns (end DC raised to 20). 
 - **Tier 10:** **Apex Nerid.** Choose one:
     - **Leviathan Tail:** Your Tail Lash becomes 2d20 + STR mod + Racial Tier Bludgeoning.
-    - **Ocean Crush:** Your Current Crush damage raises to 4d20 and Suffocating is applied for 5 turns (end DC raised to 25). 
+    - **Ocean Crush:** Your Current Crush damage raises to 4d20 and [[2.4 Conditions#Environmental-Positional-Conditions|Suffocating]] is applied for 5 turns (end DC raised to 25). 
     - **Abyss Hunter:** For one turn any attack you do which would deal water damage is now a crit (once per combat).
 ## Mermaid
 Mermaids have the same general human and fish components as nerids, but their body arrangement flips depending on whether they are submerged or not. In water, the lower body is human legs and feet, while the upper body is fish-like. The fish upper body is not a full animal head; it is still built around a humanoid skull and shoulders, but the surface becomes more aquatic: smooth wet skin, heavy scaling, and fin structures along the arms, shoulders, and back. The chest and throat show gill slits more strongly than a nerid’s, often larger and more obvious, with visible folds of moist tissue. The arms remain present, but the forearms may carry thin fin-webbing that spreads when swimming.

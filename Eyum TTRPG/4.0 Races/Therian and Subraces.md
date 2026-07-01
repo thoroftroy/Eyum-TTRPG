@@ -41,7 +41,7 @@ The head is animal-like rather than human. The face usually has a muzzle, a larg
 - **Tier 5:** **Predator Step.** Once per turn as a Bonus Action, gain +15 ft speed until end of turn and you do not provoke opportunity attacks from the creature you most recently attacked.
 - **Tier 6:** **Brutal Grip.** Gain +5 to grapple checks and checks to resist grapples.
 - **Tier 7:** **Tear Down.** When you hit a creature you have grappled, add +2d6 Slashing.
-- **Tier 8:** **Instinct Guard.** Gain +5 to Initiative and immunity to Surprised.
+- **Tier 8:** **Instinct Guard.** Gain +5 to Initiative and immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Surprised]].
 - **Tier 9:** **Blood Frenzy.** Once per combat choose a target; you gain advantage on all melee attacks against it and deal double damage to it.
 - **Tier 10:** **Apex Therian.** Choose one:
     - **Alpha Hunter:** Gain +5 STR, +3 DEX, and +2 AC.
@@ -82,21 +82,21 @@ The head has a long muzzle and wide nasal structure. The nose is broad and visib
 - **Tier 10:** **Apex Wolfkin.** Choose one:
     - **True Alpha:** Pack Howl becomes +5 to hit and +5 saves.
     - **Dire Mauler:** Your bite becomes 2d10 Piercing + STR mod, and Maul Combo no longer has the -2 penalty.
-    - **Unkillable Hound:** Gain immunity to Frightened, and once per combat you may ignore all damage from one hit.
+    - **Unkillable Hound:** Gain immunity to [[2.4 Conditions#Mental-Conditions|Frightened]], and once per combat you may ignore all damage from one hit.
 ## Centaur
 Centaurs have a true two-part body plan: a human upper body joined smoothly at the waist to a full horse lower body. The lower half includes the horse ribcage, four legs, and a long spine that carries the weight of both halves. The chest and shoulders of the human half are broad and strong, because the arms must work while the lower body is in motion. The human spine connects into the horse spine at a thick, reinforced junction, and this join area is heavily muscled and wide, forming a natural “saddle” curve behind the human waist.
 
 The horse body has a deep barrel chest, strong hips, and long legs with large joints built for speed and load. Each leg ends in a hoof made of hard keratin, with visible growth rings and a thick, worn edge. The tail is horse-like, long, hair-heavy, and used for balance and to swat irritants. Coat hair covers the horse half and can be short and sleek or thicker and rougher depending on climate. Coat colors include black, brown, tan, gray, white, and patterned coats such as spots or patches; many also have darker lower legs or a lighter belly. The human half has normal human skin tones and normal head hair. The hairline, facial structure, eyes, and teeth are fully human, and the arms end in normal human hands with five fingers. The overall look is a clean blend: human above, horse below, with no extra limbs beyond the two human arms and four horse legs.
 ###### Racial Abilities
-- **Tier 1:** **Charge Frame.** Gain +15 Max Vitality and you have advantage on saves vs being knocked Prone.
+- **Tier 1:** **Charge Frame.** Gain +15 Max Vitality and you have advantage on saves vs being knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]].
 - **Tier 2:** **Hoof Strike.** Your unarmed strikes deal 1d8 Bludgeoning + STR mod.
 - **Tier 3:** **Trample.** If you move at least 20 ft in a straight line, the first creature you pass within 5 ft takes 2d6 Bludgeoning (DEX save DC 10 + STR mod + Tier halves). 
 - **Tier 4:** **Surefoot Gallop.** You are immune to difficult terrain on land.
 - **Tier 5:** **Momentum Guard.** If you used all your movement this turn, gain +3 AC until start of next turn.
 - **Tier 6:** **Heavy Kick.** When you hit with Hoof Strike, add +1d10 Bludgeoning. 
 - **Tier 7:** **Drive-By.** After you hit with a melee attack during movement, you may move 10 ft without provoking opportunity attacks from that target.
-- **Tier 8:** **Stampede Line.** As an Action, move up to your speed in a straight line; each enemy in the path makes a DEX save (DC 20) or takes 4d10 Bludgeoning and is knocked Prone (half/no prone on success). 
-- **Tier 9:** **Warhorse Instinct.** Gain +5 to Initiative and immunity to Surprised; while above half HP you are immune to Stunned.
+- **Tier 8:** **Stampede Line.** As an Action, move up to your speed in a straight line; each enemy in the path makes a DEX save (DC 20) or takes 4d10 Bludgeoning and is knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] (half/no prone on success). 
+- **Tier 9:** **Warhorse Instinct.** Gain +5 to Initiative and immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Surprised]]; while above half HP you are immune to [[2.4 Conditions#Physical-Conditions|Stunned]].
 - **Tier 10:** **Apex Centaur.** Choose one:
     - **Thunder Charger:** Trample becomes every creature you pass and damage becomes 6d10.
     - **Iron Haunch:** Gain +4 AC and +40 Max Vitality.
@@ -108,7 +108,7 @@ The head is fully porcine: broad snout, wide nostrils, and a flat nose disk that
 ###### Racial Abilities
 - **Tier 1:** **Tusks.** You gain a natural melee attack: 1d8 Piercing + STR mod. 
 - **Tier 2:** **Boar Charge.** If you move at least 15 ft straight toward a target, your next Tusks attack adds +2d6 damage.
-- **Tier 3:** **Thick Skull.** Gain +5 to CON saves and advantage on saves vs Stunned.
+- **Tier 3:** **Thick Skull.** Gain +5 to CON saves and advantage on saves vs [[2.4 Conditions#Physical-Conditions|Stunned]].
 - **Tier 4:** **Hide Plates.** Gain +1 AC.
 - **Tier 5:** **Bulldoze.** Once per turn when you hit with a melee attack, push the target 5 ft (STR save DC 10 + STR mod + Tier negates).
 - **Tier 6:** **Rage Bristles.** When you take damage, gain +2 AC until the start of your next turn (stacks).
@@ -118,7 +118,7 @@ The head is fully porcine: broad snout, wide nostrils, and a flat nose disk that
 - **Tier 10:** **Apex Tuskwroth.** Choose one:
     - **Titan Tusks:** Your Tusks attack becomes 2d12 Piercing + STR mod, and Boar Charge adds +6d10.
     - **Ironhide Beast:** Gain +4 AC and +30 Max HP.
-    - **War Stampede:** Allies within 15 ft gain +5 to hit and are immune to Frightened.
+    - **War Stampede:** Allies within 15 ft gain +5 to hit and are immune to [[2.4 Conditions#Mental-Conditions|Frightened]].
 ## Minotaur
 Minotaurs are bull-headed humanoids with a very large, muscular build. The skeleton is humanlike in layout but scaled up, with thick bones, large joints, and a deep ribcage. The shoulders are broad, the neck is thick, and the upper back is heavily muscled to support the head and horns. Arms are long and powerful, ending in humanlike hands with five fingers and thick, rough skin on the palms. Legs are strong and stable, usually ending in cloven hooves rather than human feet, with hard keratin and a wide stance that supports sudden charges and heavy impacts.
 
@@ -126,10 +126,10 @@ The head is that of a bull: a long, broad muzzle, wide nostrils, and a heavy jaw
 ###### Racial Abilities
 - **Tier 1:** **Horn Gore.** Natural gore: 1d10 Piercing + STR mod. 
 - **Tier 2:** **Labyrinth Sense.** You cannot be lost by mundane means; gain +5 to navigation/tracking in tunnels.
-- **Tier 3:** **Power Charge.** If you move 20 ft straight and hit, add +3d8 damage and knock Prone (STR save DC 10 + STR mod + Tier negates).
+- **Tier 3:** **Power Charge.** If you move 20 ft straight and hit, add +3d8 damage and knock [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] (STR save DC 10 + STR mod + Tier negates).
 - **Tier 4:** **Bull Hide.** Gain +1 AC and +10 Max HP.
 - **Tier 5:** **Ramming Momentum.** After you hit, you may move 10 ft without provoking reactions from that target. (Once per turn)
-- **Tier 6:** **Unbreakable Neck.** Gain immunity to Charmed and advantage on WIS saves.
+- **Tier 6:** **Unbreakable Neck.** Gain immunity to [[2.4 Conditions#Mental-Conditions|Charmed]] and advantage on WIS saves.
 - **Tier 7:** **Gore Follow-Up.** After you hit with any melee attack, you may spend 1 BAp to make a gore attack. 
 - **Tier 8:** **Arena Roar.** As an Action, enemies within 20 ft make a WIS save (DC 10 + STR mod + Tier) or suffer -10 Accuracy until your next turn. 
 - **Tier 9:** **Minotaur’s Fury.** Once per combat choose a target; you have advantage on attacks vs it and deal double damage to it.
@@ -150,7 +150,7 @@ The head is rodent-like, with a pointed or rounded muzzle and large front inciso
 - **Tier 6:** **Burrow Sense.** You always know the location of hidden/underground movement within 30 ft if it is touching the ground.
 - **Tier 7:** **Skitter Combo.** After you hit, you may spend 1 BAp to make a second attack at -2 Accuracy. 
 - **Tier 8:** **Vanish.** Once per short rest as a Bonus Action, become invisible until the start of your next turn (ends early if you attack/cast).
-- **Tier 9:** **Rat King Panic.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + DEX mod + Tier) or takes 6d10 Psychic and is Frightened for 1 turn.
+- **Tier 9:** **Rat King Panic.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + DEX mod + Tier) or takes 6d10 Psychic and is [[2.4 Conditions#Mental-Conditions|Frightened]] for 1 turn.
 - **Tier 10:** **Apex Murren.** Choose one:
     - **Shadow Thief:** You may Vanish once per turn (still ends on attack/cast).
     - **Plague Fang:** Needle Bite’s damage becomes 1d8 + DEX mod Piercing + 3d6 Necrotic .
@@ -165,9 +165,9 @@ The head is elephant-like with a large skull and a long trunk. The trunk is musc
 - **Tier 3:** **Tusk Gore.** Natural gore: 1d10 Piercing + STR mod.
 - **Tier 4:** **Stone Skin.** Gain +1 AC and resistance to Earth damage.
 - **Tier 5:** **Heavy Step.** Once per turn when you move at least 10 ft, creatures within 5 ft of your path take 1d6 Bludgeoning (no save).
-- **Tier 6:** **Unshakeable.** Immunity to Prone and advantage on CON saves.
+- **Tier 6:** **Unshakeable.** Immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and advantage on CON saves.
 - **Tier 7:** **Crush Combo.** After you hit with a melee attack, you may spend 1 BAp to make a second melee attack at -2 Accuracy. 
-- **Tier 8:** **Stamping Ground.** As an Action, enemies within 10 ft make a DEX save (DC 20) or take 4d12 Bludgeoning and are knocked Prone (half/no prone on success). (Once per combat)
+- **Tier 8:** **Stamping Ground.** As an Action, enemies within 10 ft make a DEX save (DC 20) or take 4d12 Bludgeoning and are knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] (half/no prone on success). (Once per combat)
 - **Tier 9:** **Titan Dominance.** Once per combat choose a target; you gain advantage on attacks vs it and deal double damage to it.
 - **Tier 10:** **Apex Probassan.** Choose one:
     - **Living Fortress:** Gain +5 AC and +60 Max Vitality.
@@ -182,14 +182,14 @@ The head is sloth-like: short face, rounded muzzle, and blunt nose. Eyes are for
 - **Tier 2:** **Hook Claws.** Your unarmed strikes deal 1d8 + Racial Tier + STR mod Slashing.
 - **Tier 3:** **Slow Grip.** Gain +5 to grapple checks.
 - **Tier 4:** **Sleepwalker Hide.** Gain +2 AC while you have not moved this turn until your next turn.
-- **Tier 5:** **Drowsing Aura.** As an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier) or becomes Slowed for 1 turn. (Once per turn)
+- **Tier 5:** **Drowsing Aura.** As an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier) or becomes [[2.4 Conditions#Magical-Conditions|Slowed]] for 1 turn. (Once per turn)
 - **Tier 6:** **Pain Dull.** Gain resistance to Necrotic damage and +5 to CON saves.
 - **Tier 7:** **Crushing Clutch.** When you hit a creature you are grappling, add +3d8 Bludgeoning.
 - **Tier 8:** **Nap Step.** Once per short rest as a Bonus Action, become intangible until the start of your next turn; you may move through creatures/objects as difficult terrain (if you end your turn in a creature or object you take 10d20 True Damage but remain intangible for an additional turn).
-- **Tier 9:** **Sleep End.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier). Fail: Stunned for 1 turn and takes 8d10 Psychic. Success: half damage.
+- **Tier 9:** **Sleep End.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier). Fail: [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn and takes 8d10 Psychic. Success: half damage.
 - **Tier 10:** **Apex Drowseer.** Choose one:
     - **Hibernation Tank:** Gain +4 AC and +40 Max Vitality.
-    - **Dream Crippler:** Your Drowsing Aura becomes an aura: enemies within 10 ft are Slowed automatically.
+    - **Dream Crippler:** Your Drowsing Aura becomes an aura: enemies within 10 ft are [[2.4 Conditions#Magical-Conditions|Slowed]] automatically.
     - **Hook Execution:** Hook Claws become 2d12 + Racial Tier + STR mod Slashing,.
 ## Spinekin
 Spinekin are porcupine-like humanoids with a mostly human front and a defensive spine field across the back. The body plan is upright and human, but the upper back and shoulders are thicker and more muscular, supporting the mass of the spines. Posture tends to be slightly hunched at the shoulders, both from weight and from habit, which makes the back surface more protected and more threatening. Arms and legs are strong and compact. Hands are humanlike, with thick skin and tough pads, and nails that can be hard and dark but usually not true claws.
@@ -221,7 +221,7 @@ The head is bear-like with a broad muzzle, large nose, and heavy jaw. Ears are s
 - **Tier 5:** **Rage Push.** Once per turn on a melee hit, push the target 5 ft (STR save DC 10 + STR mod + Tier negates).
 - **Tier 6:** **Hard to Kill.** Gain +20 Max HP and advantage on CON saves.
 - **Tier 7:** **Bear Combo.** After you hit, you may spend 1 BAp to make another melee attack at -2 Accuracy. 
-- **Tier 8:** **Roaring Stand.** Immunity to Frightened; allies within 10 ft gain +5 to WIS saves.
+- **Tier 8:** **Roaring Stand.** Immunity to [[2.4 Conditions#Mental-Conditions|Frightened]]; allies within 10 ft gain +5 to WIS saves.
 - **Tier 9:** **Ursine Fury.** Once per combat choose a target; you gain advantage on attacks vs it and deal double damage to it.
 - **Tier 10:** **Apex Ursworn.** Choose one:
     - **Titan Bear:** Gain +5 STR, +3 CON, and +3 AC.

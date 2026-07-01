@@ -107,11 +107,11 @@ Skin is smooth and opaque, ranging from pale cream to tan and deep brown, often 
 ###### Racial Abilities
 - **Tier 1:** **Alluring Voice.** Gain Proficiency and Expertise in Persuasion and Deception and +5 to your CHAR score.
 - **Tier 2:** **Mind Touch.** Gain +2 Psychic Affinity and you learn 1 spell.
-- **Tier 3:** **Charm Pulse.** Once per turn as an Action, a creature within 30 ft must pass a WIS save (DC 10 + CHA mod + Racial Tier) or gain the Charmed Condition with a removal DC of 10 + Racial Tier.
+- **Tier 3:** **Charm Pulse.** Once per turn as an Action, a creature within 30 ft must pass a WIS save (DC 10 + CHA mod + Racial Tier) or gain the [[2.4 Conditions#Mental-Conditions|Charmed]] Condition with a removal DC of 10 + Racial Tier.
 - **Tier 5:** **Psychic Spike.** Once per turn on a spell hit or weapon hit, add 1d10 Psychic damage.
 - **Tier 6:** **Mesmer Ward.** Gain Resistance to Psychic damage.
 - **Tier 7:** **Commanding Note.** As a reaction, force a creature within 30 ft to reroll one attack roll, skill check, or saving throw. It must use the new roll.
-- **Tier 8:** **False Calm.** Gain immunity to charmed. When you apply the charmed condition the DC raises to 10 + CHA mod + Racial Tier. Dealing damage to a creature you have charmed will no longer end the Charmed condition. 
+- **Tier 8:** **False Calm.** Gain immunity to charmed. When you apply the charmed condition the DC raises to 10 + CHA mod + Racial Tier. Dealing damage to a creature you have charmed will no longer end the [[2.4 Conditions#Mental-Conditions|Charmed]] condition. 
 - **Tier 9:** **Dominant Song.** Once per combat as an Action, choose one creature within 30 ft; it must pass a WIS save or lose all of its BAp and Rp next turn and take 2d10 Psychic damage.
 - **Tier 10:** **Queen’s Lullaby.** Choose one:
     - **Perfect Charm:** Your Charm Pulse affects all chosen creatures within 30 ft and the WIS save DC raised to 15 + CHA mod + Racial Tier.
@@ -159,7 +159,7 @@ Skin is opaque and rough, colored tan, deep brown, or dark umber. Thick callused
 ###### Racial Abilities
 - **Tier 1:** **Iron Frame.** Gain +1 AC and count as one size larger during combat by get -5 ft speed. 
 - **Tier 2:** **Slow Power.** Your melee attacks deal +2 + Racial Tier force damage if you moved 10 ft or less this turn, if you utilize this you cannot move this turn.
-- **Tier 3:** **Reinforced Bones.** Become immune to Prone condition.
+- **Tier 3:** **Reinforced Bones.** Become immune to [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] condition.
 - **Tier 4:** **Plated Body.** Gain 3 Damage Reduction.
 - **Tier 5:** **Crushing Grip.** Gain advantage on grapple checks; While you are grappling a creature they take 1d6 true damage at the start of their turn each turn.
 - **Tier 6:** **Second Plate.** Gain +1 AC (stacks).
@@ -181,7 +181,7 @@ Skin is smooth, thin, and lightly reflective, ranging from pale peach to tan and
 - **Tier 4:** **Healing Dust.** Once per combat as a Bonus Action, heal a creature within 20 ft for 1d10 + your Radiant Attack Damage Bonus (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]).
 - **Tier 5:** **Bright Bolt.** When you deal Radiant damage, add +1d8 Radiant damage.
 - **Tier 6:** **Radiant Resilience.** Gain Resistance to Radiant damage and +5 Radiant Affinity.
-- **Tier 7:** **Flashblind.** Once per combat as an Action, creatures within 10 ft must pass a CON save (DC 5 + Racial Tier) or gain Stunned condition until your next turn.
+- **Tier 7:** **Flashblind.** Once per combat as an Action, creatures within 10 ft must pass a CON save (DC 5 + Racial Tier) or gain [[2.4 Conditions#Physical-Conditions|Stunned]] condition until your next turn.
 - **Tier 8:** **Tiny Slip.** You can move through enemies’ spaces without provoking reactions.
 - **Tier 9:** **Halo Focus.** Gain +5 Magic Accuracy and +3 Radiant Affinity.
 - **Tier 10:** **Arch-Fairy.** Choose one:

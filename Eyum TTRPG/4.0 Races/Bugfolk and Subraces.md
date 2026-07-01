@@ -133,7 +133,7 @@ The spider legs are long and strong, built for climbing and sudden bursts of spe
 - **Tier 6:** **Silk Armor.** Gain +2 AC while not wearing heavy armor.
 - **Tier 7:** **Bind and Bite.** If a target is restrained by you, you may spend 1 BAp to make a melee attack against it.
 - **Tier 8:** **Threaded Battlefield.** Your web patches increase to 15 ft.
-- **Tier 9:** **True Cocoon.** Creatures restrained from your webbing effect become Paralyzed for 1 turn.  
+- **Tier 9:** **True Cocoon.** Creatures restrained from your webbing effect become [[2.4 Conditions#Physical-Conditions|Paralyzed]] for 1 turn.  
 - **Tier 10:** **Master Weaver.** Choose one:
     - **Poison Fangs:** Once per turn, add 3d10 Poison to a melee hit.
     - **Web Fortress:** Your web patches grow to be 25 ft and all creatures who start their turn in the web or enter the web must make a STR save (DC 20 + STR mod) or be restrained until the end of their next turn. If the creature fails the check by >10 they become paralyzed for 1 turn. 
@@ -215,7 +215,7 @@ Their face is more symmetrical and less severe than a Duskwing’s. Eyes remain 
 - **Tier 6:** **Clean Wings.** You become immune to toxin damage.
 - **Tier 7:** **Needle Dive.** If you moved at least 15 ft this turn, you may spend 1 BAp to add +1d10 Toxin damage to a melee attack.
 - **Tier 8:** **Wingbeat Escape.** You may take Disengage as a free action.
-- **Tier 9:** **Potent Venom.** Once per round when you deal Toxin damage, the target makes a CON save or gains the Slowed and Poisoned conditions for 3 turns.
+- **Tier 9:** **Potent Venom.** Once per round when you deal Toxin damage, the target makes a CON save or gains the [[2.4 Conditions#Magical-Conditions|Slowed]] and [[2.4 Conditions#Physical-Conditions|Poisoned]] conditions for 3 turns.
 - **Tier 10:** **Prismatic Apex.** Choose one:
     - **Toxin Mastery:** Each time you deal Toxin damage with an attack double the damage. 
     - **Radiant Gleam:** Gain +5 Radiant Affinity, +3 Base Magic Accuracy, and spells of the Radiant Affinity do double damage/healing.

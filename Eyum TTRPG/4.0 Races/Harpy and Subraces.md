@@ -89,7 +89,7 @@ Skin is rarely visible and is dark gray to black where exposed. Feathers are uni
 - **Tier 2:** **Crow Mind.** Gain +2 to Investigation and +2 to Search and +3 to your INT score. Gain +2 Necrotic Affinity. 
 - **Tier 3:** **Shadow Hop.** Once per combat as a BAp, move 15 ft without provoking reactions.    
 - **Tier 4:** **Necrotic Resilience.** Gain Resistance to Necrotic, your Base Melee Damage from Carrion Cut increases to 1d8. Gain +3 Necrotic Affinity. 
-- **Tier 5:** **Black Omen.** Once per combat as an Action, a creature within 30 ft must pass a WIS save (DC 10 + INT mod + Racial Tier) or take 2d10 Necrotic damage and gain 1 stack of Slow Death.
+- **Tier 5:** **Black Omen.** Once per combat as an Action, a creature within 30 ft must pass a WIS save (DC 10 + INT mod + Racial Tier) or take 2d10 Necrotic damage and gain 1 stack of [[2.4 Conditions#Magical-Conditions|Slow Death]].
 - **Tier 6:** **Air Resilience.** Gain Resistance to Air, when you would normally deal damage as necrotic you may instead choose to deal air damage.
 - **Tier 7:** **Murder Swarm.** If you have at least two allies within 10 ft of you, you and your allies gain +5 + Racial Tier Necrotic damage on all melee and ranged attacks. 
 - **Tier 8:** **Unseen Flier.** Gain advantage on Stealth checks while flying or in dim light/darkness.
@@ -105,13 +105,13 @@ Large wings grow from the upper back and fold into a broad mantle when at rest. 
 
 Exposed skin on the head ranges from pinkish flesh to gray or slate and is leathery and wrinkled. Feathers are usually dark brown or black, with pale bone-colored neck plumage. Eyes are heavy-lidded, often amber or dull gold. Teeth are absent as they have a beak. 
 ###### Racial Abilities
-- **Tier 1:** **Iron Gut.** You cannot gain the Poisoned, Diseased, or Necrosis conditions from eating or drinking. 
+- **Tier 1:** **Iron Gut.** You cannot gain the [[2.4 Conditions#Physical-Conditions|Poisoned]], [[2.4 Conditions#Physical-Conditions|Diseased]], or [[2.4 Conditions#Physical-Conditions|Necrosis]] conditions from eating or drinking. 
 - **Tier 2:** **Thick Hide.** Gain +1 AC.
-- **Tier 3:** **Hook Beak.** Natural melee attack: 1d8 + Racial Tier + STR mod Piercing. When you hit an attack with Hook Beak your target gains the Necrosis condition for 1 turn. 
+- **Tier 3:** **Hook Beak.** Natural melee attack: 1d8 + Racial Tier + STR mod Piercing. When you hit an attack with Hook Beak your target gains the [[2.4 Conditions#Physical-Conditions|Necrosis]] condition for 1 turn. 
 - **Tier 4:** **Scavenger’s Reward.** When a creature within 30 ft dies, you gain Vitality equal to Racial Tier. 
-- **Tier 5:** **Pale Resilience.** You are immune to poison, toxin, blight, and necrotic damage. You cannot gain the Poisoned, Diseased, or Necrosis conditions from any source. 
+- **Tier 5:** **Pale Resilience.** You are immune to poison, toxin, blight, and necrotic damage. You cannot gain the [[2.4 Conditions#Physical-Conditions|Poisoned]], [[2.4 Conditions#Physical-Conditions|Diseased]], or [[2.4 Conditions#Physical-Conditions|Necrosis]] conditions from any source. 
 - **Tier 6:** **Palehook Endurance.** You have advantage on constitution saves and gain +5 to your CON score. 
-- **Tier 7:** **Rip and Tear.** Your Hook Beak damage increases to 1d12 + Racial Tier + STR mod Piercing. When you hit an Attack with Hook Beak your target now gains 3 stacks of bleeding as well as Necrosis for 3 turns. 
+- **Tier 7:** **Rip and Tear.** Your Hook Beak damage increases to 1d12 + Racial Tier + STR mod Piercing. When you hit an Attack with Hook Beak your target now gains 3 stacks of bleeding as well as [[2.4 Conditions#Physical-Conditions|Necrosis]] for 3 turns. 
 - **Tier 8:** **Bulwark Wings.** While flying gain +5 AC (stacks).
 - **Tier 9:** **Carrion Fortress.** Gain 5 Damage Reduction.
 - **Tier 10:** **Apex Palehook.** Choose one:
