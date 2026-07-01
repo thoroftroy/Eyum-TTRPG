@@ -11,13 +11,14 @@ const els = {
   sidebar: document.getElementById('sidebar'),
   mobileSidebar: document.getElementById('mobileSidebar'),
   toggleSidebar: document.getElementById('toggleSidebar'),
-  graphToggle: document.getElementById('graphToggle'),
   graphPanel: document.getElementById('graphPanel'),
   graphClose: document.getElementById('graphClose'),
   graphCanvas: document.getElementById('graphCanvas'),
   graphZoomIn: document.getElementById('graphZoomIn'),
   graphZoomOut: document.getElementById('graphZoomOut'),
   graphReset: document.getElementById('graphReset'),
+  prevFile: document.getElementById('prevFile'),
+  nextFile: document.getElementById('nextFile'),
 };
 
 let manifest;
@@ -583,6 +584,19 @@ function buildWikiMap(node, basePath = '') {
   for (const child of node.children || []) buildWikiMap(child, basePath);
 }
 
+let flatFileList = [];
+function buildFlatList(node) {
+  if (node.type === 'file') flatFileList.push(node.path);
+  for (const child of node.children || []) buildFlatList(child);
+}
+
+function updateNavButtons() {
+  if (!currentPath) return;
+  const idx = flatFileList.indexOf(currentPath);
+  if (els.prevFile) els.prevFile.disabled = idx <= 0;
+  if (els.nextFile) els.nextFile.disabled = idx < 0 || idx >= flatFileList.length - 1;
+}
+
 function renderTree(node, container) {
   const sorted = [...(node.children || [])].sort((a, b) => {
     if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
@@ -660,6 +674,7 @@ async function loadPage(path, scrollToId) {
   currentPath = path;
   if (graphView) graphView.currentPath = path;
   updateActiveLink();
+  updateNavButtons();
   setBreadcrumbs(path);
   els.content.innerHTML = '<div class="loading">Loading...</div>';
 
@@ -957,9 +972,6 @@ function registerUIEvents() {
     }
   });
 
-  if (els.graphToggle) {
-    els.graphToggle.addEventListener('click', () => { try { toggleGraph(manifest); } catch (e) { console.error(e); } });
-  }
   if (els.graphClose) {
     els.graphClose.addEventListener('click', () => { if (els.graphPanel) els.graphPanel.classList.remove('open'); });
   }
@@ -971,6 +983,18 @@ function registerUIEvents() {
   }
   if (els.graphReset) {
     els.graphReset.addEventListener('click', () => { if (graphView) graphView.resetView(); });
+  }
+  if (els.prevFile) {
+    els.prevFile.addEventListener('click', () => {
+      const idx = flatFileList.indexOf(currentPath);
+      if (idx > 0) location.hash = encodeURIComponent(flatFileList[idx - 1]);
+    });
+  }
+  if (els.nextFile) {
+    els.nextFile.addEventListener('click', () => {
+      const idx = flatFileList.indexOf(currentPath);
+      if (idx >= 0 && idx < flatFileList.length - 1) location.hash = encodeURIComponent(flatFileList[idx + 1]);
+    });
   }
 
   // Escape key closes graph panel
@@ -991,6 +1015,7 @@ async function init() {
     const manifestRes = await fetch('./manifest.json');
     manifest = await manifestRes.json();
     buildWikiMap(manifest.tree);
+    buildFlatList(manifest.tree);
     renderTree(manifest.tree, els.tree);
 
     const raw = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
