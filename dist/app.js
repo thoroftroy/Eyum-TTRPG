@@ -687,12 +687,18 @@ async function loadPage(path, scrollToId) {
     const sanitized = DOMPurify.sanitize(html);
     els.content.innerHTML = sanitized;
     interceptContentLinks();
-    if (scrollToId) {
+    const targetId = scrollToId || (() => {
+      try {
+        const raw = decodeURIComponent(location.hash.slice(1));
+        const parts = raw.split('#');
+        return parts.length > 1 ? parts[1] : null;
+      } catch { return null; }
+    })();
+    if (targetId) {
       requestAnimationFrame(() => {
-        let el = document.getElementById(scrollToId);
+        let el = document.getElementById(targetId);
         if (!el) {
-          // Fallback: search headings by text matching the fragment
-          const searchText = scrollToId.replace(/-/g, ' ').toLowerCase();
+          const searchText = targetId.replace(/-/g, ' ').toLowerCase();
           const headings = els.content.querySelectorAll('h1,h2,h3,h4,h5,h6');
           for (const h of headings) {
             if (h.textContent.toLowerCase().trim() === searchText) {
