@@ -2,13 +2,13 @@
 
 | Name         | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ------------ | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Harpy        | Medium | 5'1" – 6'8"  | 120 – 240 lb | 70 – 105 years   | 21               |
-| Hushwing     | Medium | 5'0" – 6'6"  | 120 – 240 lb | 75 – 112 years   | 22               |
-| Skyclaw      | Medium | 5'2" – 6'10" | 130 – 260 lb | 65 – 97 years    | 19               |
-| Blackfeather | Medium | 5'0" – 6'6"  | 115 – 230 lb | 55 – 82 years    | 16               |
-| Palehook     | Large  | 5'4" – 7'2"  | 150 – 320 lb | 60 – 90 years    | 18               |
-| Roundfeather | Medium | 4'8" – 6'0"  | 150 – 310 lb | 45 – 67 years    | 13               |
-| Earfang      | Medium | 5'0" – 6'7"  | 95 – 200 lb  | 70 – 105 years   | 21               |
+| Harpy        | Medium | 5'1" ,  6'8"  | 120 ,  240 lb | 70 ,  105 years   | 21               |
+| Hushwing     | Medium | 5'0" ,  6'6"  | 120 ,  240 lb | 75 ,  112 years   | 22               |
+| Skyclaw      | Medium | 5'2" ,  6'10" | 130 ,  260 lb | 65 ,  97 years    | 19               |
+| Blackfeather | Medium | 5'0" ,  6'6"  | 115 ,  230 lb | 55 ,  82 years    | 16               |
+| Palehook     | Large  | 5'4" ,  7'2"  | 150 ,  320 lb | 60 ,  90 years    | 18               |
+| Roundfeather | Medium | 4'8" ,  6'0"  | 150 ,  310 lb | 45 ,  67 years    | 13               |
+| Earfang      | Medium | 5'0" ,  6'7"  | 95 ,  200 lb  | 70 ,  105 years   | 21               |
 
 | Race         | Speed          | Negative Affinities | Neutral Affinities                | Positive Affinities      | Stat Bonuses   |
 | ------------ | -------------- | ------------------- | --------------------------------- | ------------------------ | -------------- |
@@ -20,7 +20,7 @@
 | Roundfeather | 30, glide only | Air, Fire           | Generic, Earth, Water, Psychic    | Radiant, Necrotic        | +2 CON, -1 DEX |
 | Earfang      | 30, fly 40     | Radiant, Earth      | Generic, Fire, Water              | Air, Psychic, Necrotic   | +2 DEX, +1 INT |
 ## Harpy
-Harpies are upright, two-legged humanoids with a mixed avian–mammalian body plan. The upper body follows a human skeletal structure, but the arms are fully transformed into wing-limbs. These wings retain shoulder, elbow, and wrist joints, with long feathered forearms and reduced hand bones forming hooked, grasping digits near the wing edge. Fine manipulation is limited but possible wish effort.
+Harpies are upright, two-legged humanoids with a mixed avian, mammalian body plan. The upper body follows a human skeletal structure, but the arms are fully transformed into wing-limbs. These wings retain shoulder, elbow, and wrist joints, with long feathered forearms and reduced hand bones forming hooked, grasping digits near the wing edge. Fine manipulation is limited but possible wish effort.
 
 Below the knee, the legs shift into bird anatomy. The lower leg bones are elongated and angled backward, ending in taloned feet with sharp, curved claws built for gripping stone and wood. The pelvis is reinforced to handle both upright stance and launch forces during flight. The chest is broad and deep to anchor large flight muscles.
 

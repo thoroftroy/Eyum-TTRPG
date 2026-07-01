@@ -2,17 +2,17 @@
 
 | Name       | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ---------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Elf        | Medium | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
-| Draugir    | Medium | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
-| Dryad      | Medium | 4'11" – 6'7" | 95 – 200 lb  | 180 – 270 years  | 54               |
-| Nymph      | Medium | 4'10" – 6'5" | 90 – 185 lb  | 180 – 270 years  | 54               |
-| Siren      | Medium | 4'10" – 6'5" | 90 – 185 lb  | 90 – 135 years   | 27               |
-| Dwarf      | Small  | 3'8" – 4'10" | 120 – 220 lb | 190 – 285 years  | 57               |
-| Snerin     | Small  | 2'10" – 3'8" | 55 – 110 lb  | 190 – 285 years  | 57               |
-| Ironwroth  | Medium | 4'10" – 5'9" | 170 – 290 lb | 200 – 300 years  | 60               |
-| Fairy      | Tiny   | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
-| Pixy       | Tiny   | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
-| Spriteling | Small  | 8" – 18"     | 0.6 – 3 lb   | 40 – 60 years    | 12               |
+| Elf        | Medium | 4'10" ,  6'6" | 90 ,  190 lb  | 200 ,  300 years  | 60               |
+| Draugir    | Medium | 4'10" ,  6'6" | 90 ,  190 lb  | 200 ,  300 years  | 60               |
+| Dryad      | Medium | 4'11" ,  6'7" | 95 ,  200 lb  | 180 ,  270 years  | 54               |
+| Nymph      | Medium | 4'10" ,  6'5" | 90 ,  185 lb  | 180 ,  270 years  | 54               |
+| Siren      | Medium | 4'10" ,  6'5" | 90 ,  185 lb  | 90 ,  135 years   | 27               |
+| Dwarf      | Small  | 3'8" ,  4'10" | 120 ,  220 lb | 190 ,  285 years  | 57               |
+| Snerin     | Small  | 2'10" ,  3'8" | 55 ,  110 lb  | 190 ,  285 years  | 57               |
+| Ironwroth  | Medium | 4'10" ,  5'9" | 170 ,  290 lb | 200 ,  300 years  | 60               |
+| Fairy      | Tiny   | 6" ,  14"     | 0.3 ,  1.5 lb | 40 ,  60 years    | 12               |
+| Pixy       | Tiny   | 6" ,  14"     | 0.3 ,  1.5 lb | 40 ,  60 years    | 12               |
+| Spriteling | Small  | 8" ,  18"     | 0.6 ,  3 lb   | 40 ,  60 years    | 12               |
 
 | Race       | Speed        | Negative Affinities | Neutral Affinities             | Positive Affinities     | Stat Bonuses   |
 | ---------- | ------------ | ------------------- | ------------------------------ | ----------------------- | -------------- |

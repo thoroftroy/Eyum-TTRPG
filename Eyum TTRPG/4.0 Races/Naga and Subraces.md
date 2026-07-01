@@ -2,15 +2,15 @@
 
 | Name        | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ----------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Naga        | Medium | 5'0" – 6'9"  | 160 – 360 lb | 80 – 120 years   | 24               |
-| Slarik      | Medium | 4'10" – 6'4" | 140 – 340 lb | 60 – 90 years    | 18               |
-| Scaledrake  | Large  | 5'4" – 7'3"  | 220 – 520 lb | 85 – 127 years   | 25               |
-| Ophidian    | Medium | 5'0" – 6'10" | 140 – 320 lb | 80 – 120 years   | 24               |
-| Viperean    | Medium | 5'1" – 6'8"  | 130 – 290 lb | 90 – 135 years   | 27               |
-| Nagaith     | Medium | 5'0" – 6'10" | 170 – 380 lb | 75 – 112 years   | 22               |
-| Serpentarii | Large  | 5'6" – 7'6"  | 240 – 620 lb | 70 – 105 years   | 21               |
-| Carapax     | Large  | 4'11" – 6'8" | 260 – 700 lb | 120 – 180 years  | 36               |
-| Anuran      | Medium | 4'8" – 6'6"  | 150 – 360 lb | 60 – 90 years    | 18               |
+| Naga        | Medium | 5'0" ,  6'9"  | 160 ,  360 lb | 80 ,  120 years   | 24               |
+| Slarik      | Medium | 4'10" ,  6'4" | 140 ,  340 lb | 60 ,  90 years    | 18               |
+| Scaledrake  | Large  | 5'4" ,  7'3"  | 220 ,  520 lb | 85 ,  127 years   | 25               |
+| Ophidian    | Medium | 5'0" ,  6'10" | 140 ,  320 lb | 80 ,  120 years   | 24               |
+| Viperean    | Medium | 5'1" ,  6'8"  | 130 ,  290 lb | 90 ,  135 years   | 27               |
+| Nagaith     | Medium | 5'0" ,  6'10" | 170 ,  380 lb | 75 ,  112 years   | 22               |
+| Serpentarii | Large  | 5'6" ,  7'6"  | 240 ,  620 lb | 70 ,  105 years   | 21               |
+| Carapax     | Large  | 4'11" ,  6'8" | 260 ,  700 lb | 120 ,  180 years  | 36               |
+| Anuran      | Medium | 4'8" ,  6'6"  | 150 ,  360 lb | 60 ,  90 years    | 18               |
 
 | Race        | Speed        | Negative Affinities | Neutral Affinities               | Positive Affinities      | Stat Bonuses          |
 | ----------- | ------------ | ------------------- | -------------------------------- | ------------------------ | --------------------- |

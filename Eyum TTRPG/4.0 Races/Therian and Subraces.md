@@ -1,19 +1,19 @@
 **Language:** Common, Therian
 
 | Name      | Size   | Height Range | Mass Range     | Typical Lifespan | Age of Adulthood |
-| :-------- | ------ | :----------- | :------------- | :--------------- | :--------------- |
-| Therian   | Medium | 4'8" – 7'2"  | 110 – 360 lb   | 60 – 90 years    | 18               |
-| Felar     | Medium | 4'9" – 6'8"  | 95 – 240 lb    | 60 – 90 years    | 18               |
-| Wolfkin   | Medium | 5'0" – 7'1"  | 120 – 310 lb   | 55 – 82 years    | 16               |
-| Centaur   | Large  | 6'2" – 8'4"  | 700 – 1,400 lb | 50 – 75 years    | 15               |
-| Tuskwroth | Large  | 5'0" – 7'0"  | 170 – 420 lb   | 60 – 90 years    | 18               |
-| Minotaur  | Large  | 6'2" – 8'6"  | 350 – 900 lb   | 70 – 105 years   | 21               |
-| Murren    | Small  | 3'2" – 4'8"  | 45 – 130 lb    | 35 – 52 years    | 10               |
-| Probassan | Huge   | 6'4" – 9'2"  | 520 – 1,200 lb | 90 – 135 years   | 27               |
-| Drowseer  | Medium | 5'0" – 6'6"  | 160 – 360 lb   | 80 – 120 years   | 24               |
-| Spinekin  | Medium | 4'10" – 6'6" | 120 – 320 lb   | 70 – 105 years   | 21               |
-| Ursworn   | Large  | 6'0" – 8'2"  | 260 – 720 lb   | 70 – 105 years   | 21               |
-| Gnoll     | Medium | 5'2" – 7'4"  | 140 – 360 lb   | 55 – 82 years    | 16               |
+| :, , , ,  | , , ,  | :, , , , , - | :, , , , , , - | :, , , , , , , - | :, , , , , , , - |
+| Therian   | Medium | 4'8" ,  7'2"  | 110 ,  360 lb   | 60 ,  90 years    | 18               |
+| Felar     | Medium | 4'9" ,  6'8"  | 95 ,  240 lb    | 60 ,  90 years    | 18               |
+| Wolfkin   | Medium | 5'0" ,  7'1"  | 120 ,  310 lb   | 55 ,  82 years    | 16               |
+| Centaur   | Large  | 6'2" ,  8'4"  | 700 ,  1,400 lb | 50 ,  75 years    | 15               |
+| Tuskwroth | Large  | 5'0" ,  7'0"  | 170 ,  420 lb   | 60 ,  90 years    | 18               |
+| Minotaur  | Large  | 6'2" ,  8'6"  | 350 ,  900 lb   | 70 ,  105 years   | 21               |
+| Murren    | Small  | 3'2" ,  4'8"  | 45 ,  130 lb    | 35 ,  52 years    | 10               |
+| Probassan | Huge   | 6'4" ,  9'2"  | 520 ,  1,200 lb | 90 ,  135 years   | 27               |
+| Drowseer  | Medium | 5'0" ,  6'6"  | 160 ,  360 lb   | 80 ,  120 years   | 24               |
+| Spinekin  | Medium | 4'10" ,  6'6" | 120 ,  320 lb   | 70 ,  105 years   | 21               |
+| Ursworn   | Large  | 6'0" ,  8'2"  | 260 ,  720 lb   | 70 ,  105 years   | 21               |
+| Gnoll     | Medium | 5'2" ,  7'4"  | 140 ,  360 lb   | 55 ,  82 years    | 16               |
 
 | Race      | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities    | Stat Bonuses           |
 | --------- | ------------ | ------------------- | ----------------------------------------- | ---------------------- | ---------------------- |

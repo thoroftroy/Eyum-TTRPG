@@ -2,13 +2,13 @@
 
 | Name       | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ---------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Demon      | Medium | 5'0" – 6'8"  | 120 – 300 lb | 90 – 135 years   | 27               |
-| Ferramite  | Large  | 5'4" – 7'2"  | 180 – 420 lb | 120 – 180 years  | 36               |
-| Pyrrakin   | Medium | 5'2" – 6'10" | 140 – 320 lb | 80 – 120 years   | 24               |
-| Drakari    | Large  | 5'5" – 7'4"  | 190 – 450 lb | 100 – 150 years  | 30               |
-| Cinderkin  | Medium | 5'1" – 6'9"  | 130 – 310 lb | 70 – 105 years   | 21               |
-| Sylphamare | Huge   | 6'0" – 8'2"  | 260 – 620 lb | 200 – 300 years  | 60               |
-| Varkuun    | Medium | 5'4" – 7'1"  | 170 – 390 lb | 95 – 142 years   | 29               |
+| Demon      | Medium | 5'0" ,  6'8"  | 120 ,  300 lb | 90 ,  135 years   | 27               |
+| Ferramite  | Large  | 5'4" ,  7'2"  | 180 ,  420 lb | 120 ,  180 years  | 36               |
+| Pyrrakin   | Medium | 5'2" ,  6'10" | 140 ,  320 lb | 80 ,  120 years   | 24               |
+| Drakari    | Large  | 5'5" ,  7'4"  | 190 ,  450 lb | 100 ,  150 years  | 30               |
+| Cinderkin  | Medium | 5'1" ,  6'9"  | 130 ,  310 lb | 70 ,  105 years   | 21               |
+| Sylphamare | Huge   | 6'0" ,  8'2"  | 260 ,  620 lb | 200 ,  300 years  | 60               |
+| Varkuun    | Medium | 5'4" ,  7'1"  | 170 ,  390 lb | 95 ,  142 years   | 29               |
 
 | Race       | Speed        | Negative Affinities    | Neutral Affinities                     | Positive Affinities     | Stat Bonuses                  |
 | ---------- | ------------ | ---------------------- | -------------------------------------- | ----------------------- | ----------------------------- |

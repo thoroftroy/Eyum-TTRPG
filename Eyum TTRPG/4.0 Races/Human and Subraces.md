@@ -2,14 +2,14 @@
 
 | Name     | Size   | Height Range  | Mass Range     | Typical Lifespan | Age of Adulthood |
 | -------- | ------ | ------------- | -------------- | ---------------- | ---------------- |
-| Human    | Medium | 4'7" – 6'7"   | 90 – 265 lb    | 60 – 90 years    | 18               |
-| Aurian   | Medium | 5'3" – 6'11"  | 120 – 240 lb   | 55 – 82 years    | 17               |
-| Halofade | Medium | 5'10" – 7'10" | 100 – 190 lb   | 70 – 105 years   | 21               |
-| Giant    | Huge   | 8'2" – 13'1"  | 450 – 1,300 lb | 65 – 97 years    | 19               |
-| Iceborn  | Medium | 5'2" – 6'7"   | 110 – 210 lb   | 60 – 90 years    | 18               |
-| Fireborn | Medium | 5'3" – 6'7"   | 120 – 220 lb   | 60 – 90 years    | 18               |
-| Kravari  | Medium | 5'7" – 6'11"  | 180 – 310 lb   | 40 – 60 years    | 12               |
-| Sandman  | Medium | 5'2" – 6'3"   | 100 – 185 lb   | 50 – 75 years    | 15               |
+| Human    | Medium | 4'7" ,  6'7"   | 90 ,  265 lb    | 60 ,  90 years    | 18               |
+| Aurian   | Medium | 5'3" ,  6'11"  | 120 ,  240 lb   | 55 ,  82 years    | 17               |
+| Halofade | Medium | 5'10" ,  7'10" | 100 ,  190 lb   | 70 ,  105 years   | 21               |
+| Giant    | Huge   | 8'2" ,  13'1"  | 450 ,  1,300 lb | 65 ,  97 years    | 19               |
+| Iceborn  | Medium | 5'2" ,  6'7"   | 110 ,  210 lb   | 60 ,  90 years    | 18               |
+| Fireborn | Medium | 5'3" ,  6'7"   | 120 ,  220 lb   | 60 ,  90 years    | 18               |
+| Kravari  | Medium | 5'7" ,  6'11"  | 180 ,  310 lb   | 40 ,  60 years    | 12               |
+| Sandman  | Medium | 5'2" ,  6'3"   | 100 ,  185 lb   | 50 ,  75 years    | 15               |
 
 | Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
 | -------- | ----------- | ------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |

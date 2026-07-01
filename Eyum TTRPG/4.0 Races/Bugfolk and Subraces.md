@@ -2,19 +2,19 @@
 
 | Name        | Size   | Height Range  | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ----------- | ------ | ------------- | ------------ | ---------------- | ---------------- |
-| Chitinfolk  | Medium | 4'9" – 6'9"   | 120 – 340 lb | 60 – 90 years    | 18               |
-| Skorren     | Large  | 5'0" – 7'2"   | 180 – 520 lb | 70 – 105 years   | 21               |
-| Kheprid     | Medium | 4'8" – 6'8"   | 160 – 480 lb | 70 – 105 years   | 21               |
-| Verdleap    | Medium | 4'10" – 6'10" | 120 – 300 lb | 60 – 90 years    | 18               |
-| Miregnat    | Small  | 4'6" – 6'4"   | 90 – 220 lb  | 50 – 75 years    | 15               |
-| Longweaver  | Large  | 5'4" – 7'4"   | 260 – 780 lb | 70 – 105 years   | 21               |
-| Webjack     | Medium | 5'0" – 6'10"  | 140 – 360 lb | 60 – 90 years    | 18               |
-| Broodweaver | Medium | 4'10" – 6'8"  | 120 – 320 lb | 60 – 90 years    | 18               |
-| Duskwing    | Medium | 4'8" – 6'7"   | 110 – 280 lb | 60 – 90 years    | 18               |
-| Glimmerwing | Medium | 4'9" – 6'8"   | 110 – 270 lb | 60 – 90 years    | 18               |
-| Twigwrought | Medium | 4'10" – 7'0"  | 120 – 320 lb | 70 – 105 years   | 21               |
-| Formid      | Medium | 4'7" – 6'6"   | 140 – 360 lb | 60 – 90 years    | 18               |
-| Plateroll   | Medium | 4'6" – 6'6"   | 170 – 520 lb | 80 – 120 years   | 24               |
+| Chitinfolk  | Medium | 4'9" ,  6'9"   | 120 ,  340 lb | 60 ,  90 years    | 18               |
+| Skorren     | Large  | 5'0" ,  7'2"   | 180 ,  520 lb | 70 ,  105 years   | 21               |
+| Kheprid     | Medium | 4'8" ,  6'8"   | 160 ,  480 lb | 70 ,  105 years   | 21               |
+| Verdleap    | Medium | 4'10" ,  6'10" | 120 ,  300 lb | 60 ,  90 years    | 18               |
+| Miregnat    | Small  | 4'6" ,  6'4"   | 90 ,  220 lb  | 50 ,  75 years    | 15               |
+| Longweaver  | Large  | 5'4" ,  7'4"   | 260 ,  780 lb | 70 ,  105 years   | 21               |
+| Webjack     | Medium | 5'0" ,  6'10"  | 140 ,  360 lb | 60 ,  90 years    | 18               |
+| Broodweaver | Medium | 4'10" ,  6'8"  | 120 ,  320 lb | 60 ,  90 years    | 18               |
+| Duskwing    | Medium | 4'8" ,  6'7"   | 110 ,  280 lb | 60 ,  90 years    | 18               |
+| Glimmerwing | Medium | 4'9" ,  6'8"   | 110 ,  270 lb | 60 ,  90 years    | 18               |
+| Twigwrought | Medium | 4'10" ,  7'0"  | 120 ,  320 lb | 70 ,  105 years   | 21               |
+| Formid      | Medium | 4'7" ,  6'6"   | 140 ,  360 lb | 60 ,  90 years    | 18               |
+| Plateroll   | Medium | 4'6" ,  6'6"   | 170 ,  520 lb | 80 ,  120 years   | 24               |
 
 | Race        | Speed        | Negative Affinities | Neutral Affinities            | Positive Affinities      | Stat Bonuses                   |
 | ----------- | ------------ | ------------------- | ----------------------------- | ------------------------ | ------------------------------ |
@@ -257,7 +257,7 @@ The head is beetle-like, with a hard faceplate and strong jaw structures. Eyes a
     - **Juggernaut:** +5 STR and +10 CON (If it goes above 20 each point will be .5 like normal and so on).
     - **Crush Armor:** You ignore resistances with your melee attacks and after hitting an enemy wearing medium or heavy armor they lose -5 AC until your next turn.
 ## Plateroll
-Platerolls resemble a giant isopod adapted into a more human-presenting shape. Their core body is wide and heavily plated, with overlapping shell segments running from the upper back down toward the hips like layered shields. Along the sides of the body and lower torso, many small limb structures may exist—reduced walking limbs compared to a true isopod, but still visible as clusters of short, jointed appendages that help with stability, gripping surfaces, or anchoring while moving.
+Platerolls resemble a giant isopod adapted into a more human-presenting shape. Their core body is wide and heavily plated, with overlapping shell segments running from the upper back down toward the hips like layered shields. Along the sides of the body and lower torso, many small limb structures may exist, reduced walking limbs compared to a true isopod, but still visible as clusters of short, jointed appendages that help with stability, gripping surfaces, or anchoring while moving.
 
 Their primary arms and legs are larger and more humanoid, positioned like a biped, but thicker and reinforced with plating. The head is more humanoid than most bugfolk: it has a clearer face shape, a visible nose ridge, and forward-facing eyes, though the skin is still chitinous and segmented around the jaw and temples. The mouth is humanlike in placement but framed by harder plates. Color tends toward slate gray, deep green, brown, or muted purple-gray, often with lighter edges on plate seams. The surface texture is matte to slightly glossy, and the body looks built to curl and compress, like an armored creature that can tuck inward to protect its underside.
 ###### Racial Abilities

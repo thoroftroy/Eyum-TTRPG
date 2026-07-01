@@ -13,7 +13,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (8 days):** Once per long rest, you may enter Overdrive for 1 minute. While Overdrive, you take two turns on your first round of combat, your melee attacks deal double damage, and creatures within 15 ft of you take 2d10 Fire damage at the start of your turns. You must personally defeat (reduce to 0 HP) at least 3 hostile creatures during the pact period. Failure results in Exhaustion (3 stacks) that cannot be removed for 8 days.
 
-**Tier 5 (20 days):** You gain all Ignivar Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may create a 40 ft radius Nova Pulse centered on yourself. All creatures must make a CON save (DC 16) or take 10d10 Fire damage and be [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. Those who succeed take half damage. You are immune to this effect. You must, before the pact ends, lead a charge into battle or be the first to engage in at least 3 separate combats. Failure results in permanent Greater Weakness to Fire and Cold damage.
+**Tier 5 (20 days):** You gain all Ignivar Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may create a 40 ft radius Nova Pulse centered on yourself. All creatures must make a CON save (DC 16) or take 10d10 Fire damage and be [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. Those who succeed take half damage. You are immune to this effect. You must, before the pact ends, lead a charge into battle or be the first to engage in at least 3 separate combats. Failure results in permanent Greater Weakness to Fire and Cold damage.
 
 ## Aegirion
 *Water*
@@ -26,20 +26,20 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** Once per long rest, as an action, you create a 40 ft radius Pressure Zone centered on yourself for 1 minute. Creatures inside must make a CON save (DC 15) at the start of their turns or take 4d10 Bludgeoning damage and be [[2.4 Conditions#Environmental-Positional-Conditions|Restrained]] for that turn. You must, once per day, convince someone to change their mind through calm discussion (not intimidation). Failure results in you gaining the Restrained condition at the start of each combat for 12 days until you take damage.
 
-**Tier 5 (25 days):** You gain all Aegirion Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may flood a 100 ft radius with waist-deep water for 1 hour. While in the water, you may teleport to any point within it as a bonus action, and non-allied creatures have their speed halved. You must, by the end of the pact, establish a lasting agreement between two hostile parties. Failure results in permanent half movement speed in all terrain.
+**Tier 5 (25 days):** You gain all Aegirion Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may flood a 100 ft radius with waist-deep water for 1 hour. While in the water, you may teleport to any point within it as a bonus action, and non-allied creatures have their speed halved. You must, by the end of the pact, establish a lasting agreement between two hostile parties. Failure results in permanent half movement speed in all terrain.
 
 ## Eldathis
 *Radiant*
 
 **Tier 1 (2 days):** You gain Resistance to Radiant damage. Once per turn when you deal damage to a creature that has lied to you or broken a promise, you deal +2d10 Radiant damage. You must, once per day, speak a hard truth that costs you something (a relationship, a reputation, an opportunity). Failure results in the [[2.4 Conditions#Magical-Conditions|Cursed]] condition for 2 days.
 
-**Tier 2 (4 days):** Once per short rest, as a bonus action, you may detect lies within 30 ft for 10 minutes. Any creature that speaks a deliberate lie while you are concentrating glows faintly and you know it is lying. You must, once per day, judge someone publicly (call out a wrongdoing, report a crime, or enforce a rule). Failure results in you being unable to speak anything but the truth for 4 days — any attempt to lie deals 2d10 Psychic damage to you.
+**Tier 2 (4 days):** Once per short rest, as a bonus action, you may detect lies within 30 ft for 10 minutes. Any creature that speaks a deliberate lie while you are concentrating glows faintly and you know it is lying. You must, once per day, judge someone publicly (call out a wrongdoing, report a crime, or enforce a rule). Failure results in you being unable to speak anything but the truth for 4 days ,  any attempt to lie deals 2d10 Psychic damage to you.
 
 **Tier 3 (8 days):** Once per long rest, as an action, you may fire a 120 ft line of Radiant light (10 ft wide). Creatures must make a WIS save (DC 14) or take 6d10 Radiant damage. Creatures that are [[2.4 Conditions#Magical-Conditions|Cursed]], [[2.4 Conditions#Physical-Conditions|Withered]], or [[2.4 Conditions#Physical-Conditions|Corrupt]]ed take double damage. You must, once per day, make a public atonement for a wrong you have done (apologize, return stolen goods, confess). Failure results in the Cursed condition and disadvantage on all CHA checks for 8 days.
 
 **Tier 4 (14 days):** Once per long rest, you may activate Aura of Judgment for 1 minute. Creatures within 30 ft that tell a lie, break an oath, or act against their stated alignment must make a WIS save (DC 14) or take 5d10 Radiant damage and gain the [[2.4 Conditions#Magical-Conditions|Cursed]] condition for 24 hours. You must, by the end of the pact, successfully resolve a moral conflict where you choose the harder right over the easier wrong. Failure results in you being Cursed permanently and unable to benefit from any divine blessing for 14 days.
 
-**Tier 5 (30 days):** You gain all Eldathis Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may declare Final Judgment on one creature you can see within 120 ft. It must make a WIS save (DC 16). On a failure, it takes 15d10 Radiant damage and is [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. On a success, it takes half damage. If the creature is below half Health, the damage is doubled. You must, by the end of the pact, convert at least 10 people to follow a moral code or law you uphold. Failure results in permanent [[2.4 Conditions#Mental-Conditions|Despair]] and you cannot be healed by Radiant or Holy effects.
+**Tier 5 (30 days):** You gain all Eldathis Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may declare Final Judgment on one creature you can see within 120 ft. It must make a WIS save (DC 16). On a failure, it takes 15d10 Radiant damage and is [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. On a success, it takes half damage. If the creature is below half Health, the damage is doubled. You must, by the end of the pact, convert at least 10 people to follow a moral code or law you uphold. Failure results in permanent [[2.4 Conditions#Mental-Conditions|Despair]] and you cannot be healed by Radiant or Holy effects.
 
 ## Cryovara
 *Ice/Cold*
@@ -52,7 +52,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** Once per long rest, as an action, you unleash a 60 ft cone of freezing wind. Creatures must make a CON save (DC 15) or take 6d10 Cold damage and gain [[2.4 Conditions#Environmental-Positional-Conditions|Frozen]] (4 stacks). Those who succeed take half damage and gain Frozen (2 stacks). You must, once per day, complete a task that requires patience (wait in line for 30+ minutes, perform a repetitive chore for an hour, etc.). Failure results in Frozen (5 stacks) at the start of each day for 12 days.
 
-**Tier 5 (25 days):** You gain all Cryovara Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may call a Glacier Fall from the sky at a point within 120 ft (30 ft radius). Creatures must make a DEX save (DC 16) or take 10d10 Cold damage and be buried under ice ([[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]). Those who succeed take half damage. You must, by the end of the pact, survive a situation where you were severely disadvantaged (environmental hazard, numerical disadvantage, etc.). Failure results in permanent half Vitality maximum and Greater Weakness to Fire.
+**Tier 5 (25 days):** You gain all Cryovara Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may call a Glacier Fall from the sky at a point within 120 ft (30 ft radius). Creatures must make a DEX save (DC 16) or take 10d10 Cold damage and be buried under ice ([[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]). Those who succeed take half damage. You must, by the end of the pact, survive a situation where you were severely disadvantaged (environmental hazard, numerical disadvantage, etc.). Failure results in permanent half Vitality maximum and Greater Weakness to Fire.
 
 ## Indravajra
 *Lightning*
@@ -65,7 +65,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (10 days):** Once per long rest, you may take to the air for 1 minute. You gain a fly speed equal to your walking speed, your ranged attacks deal +2d10 Lightning damage, and you cannot be targeted by melee attacks unless the attacker can also fly. You must, by the end of the pact, make at least 3 creatures publicly submit to your authority or fear you. Failure results in you being [[2.4 Conditions#Environmental-Positional-Conditions|Grounded]] (cannot fly or levitate) for 10 days.
 
-**Tier 5 (22 days):** You gain all Indravajra Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you create a 100 ft radius storm overhead for 3 turns. At the start of each turn, lightning strikes all enemies of your choice in the area. Each must make a DEX save (DC 16) or take 6d10 Lightning damage and be [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. You must, by the end of the pact, defeat a powerful opponent in single combat or public contest. Failure results in permanent disadvantage on all CHA checks and Greater Weakness to Lightning.
+**Tier 5 (22 days):** You gain all Indravajra Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you create a 100 ft radius storm overhead for 3 turns. At the start of each turn, lightning strikes all enemies of your choice in the area. Each must make a DEX save (DC 16) or take 6d10 Lightning damage and be [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. You must, by the end of the pact, defeat a powerful opponent in single combat or public contest. Failure results in permanent disadvantage on all CHA checks and Greater Weakness to Lightning.
 
 ## Seraphael
 *Hallowed*
@@ -78,7 +78,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** Once per long rest, you may create a 60 ft radius Sanctuary for 1 minute. Creatures of your choice cannot enter. Evil creatures that attempt to enter take 6d10 Hallowed damage. Allies inside heal 1d10 Vitality at the start of their turns. You must, by the end of the pact, protect someone who could not protect themselves for at least 3 days. Failure results in all your healing being halved for 12 days.
 
-**Tier 5 (25 days):** You gain all Seraphael Tier 1–4 benefits while this pact is active. In addition, once per turn as an Action you may purge evil. Choose a targeted creature of the Evil alignment, they take 100 Hallowed damage. There is no save. You must, by the end of the pact, convert at least one corrupted creature or location back to purity. Failure results in permanent inability to benefit from healing magic.
+**Tier 5 (25 days):** You gain all Seraphael Tier 1, 4 benefits while this pact is active. In addition, once per turn as an Action you may purge evil. Choose a targeted creature of the Evil alignment, they take 100 Hallowed damage. There is no save. You must, by the end of the pact, convert at least one corrupted creature or location back to purity. Failure results in permanent inability to benefit from healing magic.
 
 ## Pelagion
 *Torrent*
@@ -91,7 +91,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (10 days):** Once per long rest, as an action, you make 3 melee attacks against a single target. Each hit deals 4d10 Torrent damage. If all 3 hit the same target, it takes an additional 6d10 Torrent damage. You must, by the end of the pact, kill at least 5 hostile creatures without showing mercy (no accepting surrender). Failure results in you being unable to take the Attack action for the first round of each combat for 10 days.
 
-**Tier 5 (20 days):** You gain all Pelagion Tier 1–4 benefits while this pact is active. In addition, once per day, you may enter a Feeding Frenzy for 1 minute. You gain Haste (double speed, +2 AC, one additional attack per action) and all your attacks heal you for 25% of damage dealt. You must, by the end of the pact, lead or participate in a raid, invasion, or major assault. Failure results in permanent half damage against all creatures.
+**Tier 5 (20 days):** You gain all Pelagion Tier 1, 4 benefits while this pact is active. In addition, once per day, you may enter a Feeding Frenzy for 1 minute. You gain Haste (double speed, +2 AC, one additional attack per action) and all your attacks heal you for 25% of damage dealt. You must, by the end of the pact, lead or participate in a raid, invasion, or major assault. Failure results in permanent half damage against all creatures.
 
 ## Keraunos
 *Thunder*
@@ -104,7 +104,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** Once per long rest, as an action, you create a 100 ft radius storm for 3 turns. At the start of each turn, enemies in the area take 4d10 Thunder damage and 4d10 Lightning damage. You must, by the end of the pact, cause a visible change in the weather or environment through your actions. Failure results in you taking 2d10 Thunder damage at the start of each of your turns in combat for 12 days.
 
-**Tier 5 (25 days):** You gain all Keraunos Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may call a Tidal Wave that surges forward 200 ft (60 ft wide, 30 ft tall). Creatures must make a STR save (DC 16) or take 10d10 Bludgeoning damage and be swept to the wave's endpoint. You must, by the end of the pact, conquer or control a coastal area or body of water. Failure results in permanent Greater Weakness to Thunder and Lightning.
+**Tier 5 (25 days):** You gain all Keraunos Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may call a Tidal Wave that surges forward 200 ft (60 ft wide, 30 ft tall). Creatures must make a STR save (DC 16) or take 10d10 Bludgeoning damage and be swept to the wave's endpoint. You must, by the end of the pact, conquer or control a coastal area or body of water. Failure results in permanent Greater Weakness to Thunder and Lightning.
 
 ## Hephaestion
 *Metal*
@@ -117,7 +117,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (14 days):** Once per long rest, as an action, you create a divine metal cage around a target within 60 ft. The cage has 500 HP and AC 30. The target is trapped until the cage is destroyed or you release it. You must, by the end of the pact, teach someone a craft or skill that will outlast you. Failure results in you being trapped ([[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]) at the start of each combat for 14 days until you take 50 damage to break free.
 
-**Tier 5 (30 days):** You gain all Hephaestion Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may reshape the terrain within 120 ft. Raise walls, open ditches, or smooth ground. Creatures caught in the reshaping take 8d10 Metal damage. You must, by the end of the pact, create a permanent structure that will survive for at least 10 years. Failure results in permanent -5 AC and all your equipment becoming brittle (breaks on a natural 1 attack roll).
+**Tier 5 (30 days):** You gain all Hephaestion Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may reshape the terrain within 120 ft. Raise walls, open ditches, or smooth ground. Creatures caught in the reshaping take 8d10 Metal damage. You must, by the end of the pact, create a permanent structure that will survive for at least 10 years. Failure results in permanent -5 AC and all your equipment becoming brittle (breaks on a natural 1 attack roll).
 
 ## Aeolus
 *Storm*
@@ -130,7 +130,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** Once per long rest, as an action, you create a 40 ft radius Cyclone at a point within 120 ft for 3 turns. Creatures inside must make a STR save (DC 15) each turn or be lifted 40 ft into the air and take 4d10 Slashing damage. You must, once per day, refuse an offer of permanent residence, binding contract, or long-term commitment. Failure results in you being unable to fly or levitate and your jump height being halved for 12 days.
 
-**Tier 5 (25 days):** You gain all Aeolus Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may release a 200 ft cone of wind that transports non-allied creatures to a random location within 1 mile (no save for creatures smaller than Large; Large+ get a STR save). You must, by the end of the pact, travel to at least 3 different settlements or regions and leave a mark on each. Failure results in permanent [[2.4 Conditions#Environmental-Positional-Conditions|Grounded]] condition and half speed.
+**Tier 5 (25 days):** You gain all Aeolus Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may release a 200 ft cone of wind that transports non-allied creatures to a random location within 1 mile (no save for creatures smaller than Large; Large+ get a STR save). You must, by the end of the pact, travel to at least 3 different settlements or regions and leave a mark on each. Failure results in permanent [[2.4 Conditions#Environmental-Positional-Conditions|Grounded]] condition and half speed.
 
 ## Rimeflame
 *Frostfire*
@@ -143,7 +143,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (10 days):** Once per long rest, as an action, you create a 40 ft radius Thermal Shockwave. All creatures must make a CON save (DC 15) or take 8d10 Frostfire damage. Their armor and weapons are degraded (-1 to AC or damage until repaired). You must, by the end of the pact, survive in an extreme environment for at least 24 consecutive hours. Failure results in permanent -2 AC until you complete a quest for Rimeflame.
 
-**Tier 5 (22 days):** You gain all Rimeflame Tier 1–4 benefits while this pact is active. In addition, once per turn when you deal Cold damage to a creature that is [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]], it takes an additional 6d10 Frostfire damage and is [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. You must, by the end of the pact, convert at least 3 creatures to a lifestyle of endurance and thrill-seeking. Failure results in permanent Greater Weakness to both Cold and Fire.
+**Tier 5 (22 days):** You gain all Rimeflame Tier 1, 4 benefits while this pact is active. In addition, once per turn when you deal Cold damage to a creature that is [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]], it takes an additional 6d10 Frostfire damage and is [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn. You must, by the end of the pact, convert at least 3 creatures to a lifestyle of endurance and thrill-seeking. Failure results in permanent Greater Weakness to both Cold and Fire.
 
 ## Cryolith
 *Glacial*
@@ -156,7 +156,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (14 days):** You gain 100 additional armor that regenerates at the start of each turn. While you have any armor, you cannot be moved by any force. You must, by the end of the pact, maintain a secret or keep a location hidden for the entire duration. Failure results in you being unable to gain armor from any source for 14 days.
 
-**Tier 5 (28 days):** You gain all Cryolith Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may encase one creature within 60 ft in a block of ice. The ice has 800 HP and AC 30. The creature is Incapacitated until the ice is destroyed. You must, by the end of the pact, permanently seal away a significant threat (GM decides). Failure results in permanent [[2.4 Conditions#Environmental-Positional-Conditions|Frozen]] condition (cannot be removed) until you serve Cryolith for 1 year.
+**Tier 5 (28 days):** You gain all Cryolith Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may encase one creature within 60 ft in a block of ice. The ice has 800 HP and AC 30. The creature is Incapacitated until the ice is destroyed. You must, by the end of the pact, permanently seal away a significant threat (GM decides). Failure results in permanent [[2.4 Conditions#Environmental-Positional-Conditions|Frozen]] condition (cannot be removed) until you serve Cryolith for 1 year.
 
 ## Gelidra
 *Gel*
@@ -169,7 +169,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (12 days):** As an action, you may collapse into a pool of gel and reform at any point within 60 ft. When you reform, creatures adjacent to you must make a DEX save (DC 14) or be [[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]. You may do this once per short rest. You must, once per day, use nonlethal means to subdue a threat. Failure results in you being unable to move more than 15 ft from your current position for 12 days.
 
-**Tier 5 (24 days):** You gain all Gelidra Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may create a 40 ft radius pool of adhesive gel for 1 minute. Creatures inside are [[2.4 Conditions#Magical-Conditions|Slowed]] and must make a STR save (DC 15) each turn or be [[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]. Restrained creatures take 5d10 Gel damage at the start of their turns. You must, by the end of the pact, bind or capture at least 20 creatures. Failure results in permanent half movement speed and you cannot use teleportation effects.
+**Tier 5 (24 days):** You gain all Gelidra Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may create a 40 ft radius pool of adhesive gel for 1 minute. Creatures inside are [[2.4 Conditions#Magical-Conditions|Slowed]] and must make a STR save (DC 15) each turn or be [[2.4 Conditions#Environmental-Positional-Conditions|Restrained]]. Restrained creatures take 5d10 Gel damage at the start of their turns. You must, by the end of the pact, bind or capture at least 20 creatures. Failure results in permanent half movement speed and you cannot use teleportation effects.
 
 ## Mnemosyne
 *Psychic*
@@ -182,7 +182,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (14 days):** Once per long rest, as an action, you fire a 120 ft line of psychic memory (10 ft wide). Creatures must make a WIS save (DC 15) or take 6d10 Psychic damage and forget the last 10 minutes (lose memory of the current combat). You must, by the end of the pact, uncover a secret that someone has kept for at least 1 year. Failure results in you losing all memory of the past month and having to relearn it.
 
-**Tier 5 (28 days):** You gain all Mnemosyne Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may flood a 100 ft radius with ancestral memories. All non-allied creatures must make a WIS save (DC 16) or be overwhelmed, becoming [[2.4 Conditions#Physical-Conditions|Stunned]] for 1d4 turns. You must, by the end of the pact, preserve an important piece of knowledge or history that would otherwise be lost. Failure results in permanent memory loss — you lose all knowledge of one skill or language (your choice).
+**Tier 5 (28 days):** You gain all Mnemosyne Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may flood a 100 ft radius with ancestral memories. All non-allied creatures must make a WIS save (DC 16) or be overwhelmed, becoming [[2.4 Conditions#Physical-Conditions|Stunned]] for 1d4 turns. You must, by the end of the pact, preserve an important piece of knowledge or history that would otherwise be lost. Failure results in permanent memory loss ,  you lose all knowledge of one skill or language (your choice).
 
 ## Hemalux
 *Bloodfire*
@@ -195,4 +195,4 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 4 (14 days):** Once per round, when an allied creature within 30 ft would take damage, you may intercept that damage, taking it yourself instead. You gain +3 AC for 1 turn after doing so. You must, by the end of the pact, successfully protect someone from a genuine threat (not a staged one). Failure results in you being unable to take damage for allies (all interception abilities fail) for 14 days.
 
-**Tier 5 (28 days):** You gain all Hemalux Tier 1–4 benefits while this pact is active. In addition, once per day, as an action, you may sacrifice half your current Vitality to grant all allied creatures within 120 ft immunity to all damage and conditions for 2 turns. You must, by the end of the pact, die for a cause or come within 1 HP of death while protecting someone. Failure results in permanent cowardice — you cannot willingly take damage for another creature ever again.
+**Tier 5 (28 days):** You gain all Hemalux Tier 1, 4 benefits while this pact is active. In addition, once per day, as an action, you may sacrifice half your current Vitality to grant all allied creatures within 120 ft immunity to all damage and conditions for 2 turns. You must, by the end of the pact, die for a cause or come within 1 HP of death while protecting someone. Failure results in permanent cowardice ,  you cannot willingly take damage for another creature ever again.
