@@ -2,17 +2,17 @@
 
 | Name       | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ---------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Elf        | Medium | 4'10" ,  6'6" | 90 ,  190 lb  | 200 ,  300 years  | 60               |
-| Draugir    | Medium | 4'10" ,  6'6" | 90 ,  190 lb  | 200 ,  300 years  | 60               |
-| Dryad      | Medium | 4'11" ,  6'7" | 95 ,  200 lb  | 180 ,  270 years  | 54               |
-| Nymph      | Medium | 4'10" ,  6'5" | 90 ,  185 lb  | 180 ,  270 years  | 54               |
-| Siren      | Medium | 4'10" ,  6'5" | 90 ,  185 lb  | 90 ,  135 years   | 27               |
-| Dwarf      | Small  | 3'8" ,  4'10" | 120 ,  220 lb | 190 ,  285 years  | 57               |
-| Snerin     | Small  | 2'10" ,  3'8" | 55 ,  110 lb  | 190 ,  285 years  | 57               |
-| Ironwroth  | Medium | 4'10" ,  5'9" | 170 ,  290 lb | 200 ,  300 years  | 60               |
-| Fairy      | Tiny   | 6" ,  14"     | 0.3 ,  1.5 lb | 40 ,  60 years    | 12               |
-| Pixy       | Tiny   | 6" ,  14"     | 0.3 ,  1.5 lb | 40 ,  60 years    | 12               |
-| Spriteling | Small  | 8" ,  18"     | 0.6 ,  3 lb   | 40 ,  60 years    | 12               |
+| Elf        | Medium | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
+| Draugir    | Medium | 4'10" – 6'6" | 90 – 190 lb  | 200 – 300 years  | 60               |
+| Dryad      | Medium | 4'11" – 6'7" | 95 – 200 lb  | 180 – 270 years  | 54               |
+| Nymph      | Medium | 4'10" – 6'5" | 90 – 185 lb  | 180 – 270 years  | 54               |
+| Siren      | Medium | 4'10" – 6'5" | 90 – 185 lb  | 90 – 135 years   | 27               |
+| Dwarf      | Small  | 3'8" – 4'10" | 120 – 220 lb | 190 – 285 years  | 57               |
+| Snerin     | Small  | 2'10" – 3'8" | 55 – 110 lb  | 190 – 285 years  | 57               |
+| Ironwroth  | Medium | 4'10" – 5'9" | 170 – 290 lb | 200 – 300 years  | 60               |
+| Fairy      | Tiny   | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
+| Pixy       | Tiny   | 6" – 14"     | 0.3 – 1.5 lb | 40 – 60 years    | 12               |
+| Spriteling | Small  | 8" – 18"     | 0.6 – 3 lb   | 40 – 60 years    | 12               |
 
 | Race       | Speed        | Negative Affinities | Neutral Affinities             | Positive Affinities     | Stat Bonuses   |
 | ---------- | ------------ | ------------------- | ------------------------------ | ----------------------- | -------------- |
@@ -178,7 +178,7 @@ Skin is smooth, thin, and lightly reflective, ranging from pale peach to tan and
 - **Tier 1:** **Radiant Spark.** Gain +3 Radiant Affinity and learn 1 spell.
 - **Tier 2:** **Glitter Ward.** Once per turn as a Bonus Action, gain +2 AC until your next turn.
 - **Tier 3:** **Lightstep.** You may take Disengage as a free action.
-- **Tier 4:** **Healing Dust.** Once per combat as a Bonus Action, heal a creature within 20 ft for 1d10 + your Radiant Attack Damage Bonus (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]).
+- **Tier 4:** **Healing Dust.** Once per combat as a Bonus Action, heal a creature within 20 ft for 1d10 + your Radiant [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]).
 - **Tier 5:** **Bright Bolt.** When you deal Radiant damage, add +1d8 Radiant damage.
 - **Tier 6:** **Radiant Resilience.** Gain Resistance to Radiant damage and +5 Radiant Affinity.
 - **Tier 7:** **Flashblind.** Once per combat as an Action, creatures within 10 ft must pass a CON save (DC 5 + Racial Tier) or gain [[2.4 Conditions#Physical-Conditions|Stunned]] condition until your next turn.

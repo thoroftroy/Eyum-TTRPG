@@ -4,13 +4,13 @@
 
 | Name        | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ----------- | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Revenant    | Medium | 5'0" ,  6'10" | 90 ,  240 lb  | 300 ,  450 years  | 18               |
-| Ossid       | Medium | 4'8" ,  6'8"  | 45 ,  90 lb   | 300 ,  450 years  | 18               |
-| Shadowman   | Medium | 4'8" ,  7'2"  | 10 ,  80 lb   | 300 ,  450 years  | 20               |
-| Sanguivar   | Medium | 5'2" ,  7'0"  | 110 ,  260 lb | 300 ,  450 years  | 20               |
-| Relicwraith | Medium | 4'6" ,  7'0"  | 10 ,  40 lb   | 300 ,  450 years  | 18               |
-| Lycanthrex  | Large  | 5'6" ,  7'8"  | 160 ,  420 lb | 70 ,  105 years   | 21               |
-| Mycelari    | Medium | 4'0" ,  6'6"  | 90 ,  280 lb  | 300 ,  450 years  | 18               |
+| Revenant    | Medium | 5'0" – 6'10" | 90 – 240 lb  | 300 – 450 years  | 18               |
+| Ossid       | Medium | 4'8" – 6'8"  | 45 – 90 lb   | 300 – 450 years  | 18               |
+| Shadowman   | Medium | 4'8" – 7'2"  | 10 – 80 lb   | 300 – 450 years  | 20               |
+| Sanguivar   | Medium | 5'2" – 7'0"  | 110 – 260 lb | 300 – 450 years  | 20               |
+| Relicwraith | Medium | 4'6" – 7'0"  | 10 – 40 lb   | 300 – 450 years  | 18               |
+| Lycanthrex  | Large  | 5'6" – 7'8"  | 160 – 420 lb | 70 – 105 years   | 21               |
+| Mycelari    | Medium | 4'0" – 6'6"  | 90 – 280 lb  | 300 – 450 years  | 18               |
 
 | Race        | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities | Stat Bonuses            |
 | ----------- | ------------ | ------------------- | ----------------------------------------- | ------------------- | ----------------------- |
@@ -53,7 +53,7 @@ You have Weakness to Radiant and Bludgeoning damage and resistance to Slashing a
 - **Tier 5:** **Shard Step.** Once per turn as a Bonus Action, move 15 ft without provoking opportunity attacks.
 - **Tier 6:** **Dry-Bone Resilience.** Gain resistance to physical damage.
 - **Tier 7:** **Spine Hook.** Once per turn on a melee hit, force a STR save (DC 10 + DEX mod + Tier). Fail: target is [[2.4 Conditions#Environmental-Positional-Conditions|Grappled]] by you.
-- **Tier 8:** **Hemorrhage Law.** [[2.4 Conditions#Physical-Conditions|Bleeding]] you apply has its end DC increased to 10 + Tier and healing spells no longer end the condition. If a creature damages you in melee, it gains 1 stack of Bleeding. (No save)
+- **Tier 8:** **Hemorrhage Law.** [[2.4 Conditions#Physical-Conditions|Bleeding]] you apply has its end DC increased to 10 + Tier and healing spells no longer end the condition. If a creature damages you in melee, it gains 1 stack of [[2.4 Conditions#Physical-Conditions|Bleeding]]. (No save)
 - **Tier 9:** **Blood Rattle.** Once per combat as an Action, enemies within 15 ft must pass a WIS save (DC 10 + DEX mod + Tier) or suffer -10 Accuracy until your next turn.
 - **Tier 10:** **True Ossid.** Choose one:
     - **Razor Skeleton:** Your unarmed strikes become 3d10 + DEX mod Piercing and apply +1 [[2.4 Conditions#Physical-Conditions|Bleeding]] stack on every hit.
@@ -95,7 +95,7 @@ You have Weakness to Radiant damage.
 - **Tier 9:** **Crimson Duel.** Once per combat choose a target; you have advantage on all attacks against it and deal double damage to it.
 - **Tier 10:** **True Sanguivar.** Choose one:
     - **Crimson Lord:** Your Siphon Bite heal becomes 4d10 + CON mod, and you heal half of all Necrotic damage you deal to HP.
-    - **Court of Night:** Royal Bite becomes an aura: enemies within 10 ft have -10 on saving throws vs your [[2.4 Conditions#Mental-Conditions|Charmed]]/[[2.4 Conditions#Mental-Conditions|Hypnotized]] effects, and you may apply Hypnotized (one-word command) instead of Charmed.
+    - **Court of Night:** Royal Bite becomes an aura: enemies within 10 ft have -10 on saving throws vs your [[2.4 Conditions#Mental-Conditions|Charmed]]/[[2.4 Conditions#Mental-Conditions|Hypnotized]] effects, and you may apply [[2.4 Conditions#Mental-Conditions|Hypnotized]] (one-word command) instead of [[2.4 Conditions#Mental-Conditions|Charmed]].
     - **Bloodstorm Body:** Gain Fly 60 and +50 ft speed, and Mist Rush becomes once per turn with no BAp cost.
 ## Relicwraith
 Relicwraiths lack a permanent physical body. Instead, they appear as translucent humanoid shapes formed of pale mist, smoke, or faint light. The shape loosely mirrors a human skeleton and torso, but limbs taper into vapor toward the ends. The head is present but simplified, with only vague facial structure.

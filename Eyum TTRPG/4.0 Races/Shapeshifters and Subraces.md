@@ -2,10 +2,10 @@
 
 | Name         | Size   | Height Range | Mass Range   | Typical Lifespan | Age of Adulthood |
 | ------------ | ------ | ------------ | ------------ | ---------------- | ---------------- |
-| Shapeshifter | Medium | 4'8" ,  7'2"  | 90 ,  360 lb  | 60 ,  90 years    | 18               |
-| Mireglopian  | Medium | 4'0" ,  8'0"* | 80 ,  420 lb  | 50 ,  75 years    | 15               |
-| Mirr         | Medium | 5'0" ,  6'8"  | 110 ,  260 lb | 70 ,  105 years   | 21               |
-| Skinwalker   | Medium | 4'10" ,  7'4" | 100 ,  340 lb | 60 ,  90 years    | 18               |
+| Shapeshifter | Medium | 4'8" – 7'2"  | 90 – 360 lb  | 60 – 90 years    | 18               |
+| Mireglopian  | Medium | 4'0" – 8'0"* | 80 – 420 lb  | 50 – 75 years    | 15               |
+| Mirr         | Medium | 5'0" – 6'8"  | 110 – 260 lb | 70 – 105 years   | 21               |
+| Skinwalker   | Medium | 4'10" – 7'4" | 100 – 340 lb | 60 – 90 years    | 18               |
 
 | Race         | Speed       | Negative Affinities | Neutral Affinities                                  | Positive Affinities | Stat Bonuses           |
 | ------------ | ----------- | ------------------- | --------------------------------------------------- | ------------------- | ---------------------- |
@@ -70,7 +70,7 @@ Their true skin is pale white to soft gray, smooth, and slightly reflective in a
 ## Skinwalker
 Skinwalkers are true physical mimics. Their baseline body is humanoid, but it is built around extreme internal re-organization. Bones can change length and shape, joints can relocate, and muscles can re-anchor to new attachment points. During change, the body briefly shows intermediate states: ribs shifting under the skin, shoulders widening, neck shortening, or the pelvis rotating to support a new stance. When finished, the form is fully functional: posture, balance, and weight distribution match the copied creature rather than remaining human-shaped.
 
-Their skin can reproduce fine surface detail with high precision. Texture changes are real: copied scales are hard and overlapping, copied fur grows as true strands, copied calluses thicken in the correct places, and copied scars become raised or indented with real depth. Pigment can match complex patterns, spots, stripes, mottling, or uneven sun-darkening. Hands and feet can become paws, hooves, claws, or other structures, with nails and pads that feel correct under pressure. Hair grows as real filament with accurate direction and density; it clumps when wet, blows in wind, and tangles naturally. Eyes replicate well enough to capture species-specific traits: slit pupils, reflective layers, cloudy lenses, or odd iris shapes. The eyes also move and focus correctly for the form, predatory forward focus or wide prey-like side vision. Teeth and jaw structure are fully rebuilt, so bites, snarls, and chewing mechanics match the copied mouth. Even small asymmetries can be carried over: a crooked tooth, a torn ear edge, or an uneven scar line, if the skinwalker has seen it clearly.
+Their skin can reproduce fine surface detail with high precision. Texture changes are real: copied scales are hard and overlapping, copied fur grows as true strands, copied calluses thicken in the correct places, and copied scars become raised or indented with real depth. Pigment can match complex patterns—spots, stripes, mottling, or uneven sun-darkening. Hands and feet can become paws, hooves, claws, or other structures, with nails and pads that feel correct under pressure. Hair grows as real filament with accurate direction and density; it clumps when wet, blows in wind, and tangles naturally. Eyes replicate well enough to capture species-specific traits: slit pupils, reflective layers, cloudy lenses, or odd iris shapes. The eyes also move and focus correctly for the form, predatory forward focus or wide prey-like side vision. Teeth and jaw structure are fully rebuilt, so bites, snarls, and chewing mechanics match the copied mouth. Even small asymmetries can be carried over: a crooked tooth, a torn ear edge, or an uneven scar line, if the skinwalker has seen it clearly.
 ###### Racial Abilities
 - **Tier 1:** **True Mimicry.** You can physically copy a humanoid you have observed for 1 minute. The copy includes scent/texture/voice. Your speed and size change to match the race of the creature you copy but your weight stays the same. You can remember up to 1 + (Racial Tier/3 (rounded down)) forms. 
 - **Tier 2:** **Predator Frame.** While in any form other than your own gain +1 Base Accuracy. 
