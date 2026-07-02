@@ -2,12 +2,17 @@
   "Physical": {
     "initial": {
       "melee_damage": 2,
-      "melee_accuracy": 1
+      "ranged_damage": 2,
+      "melee_accuracy": 1,
+      "ranged_accuracy": 1
     },
     "archetypes": {
       "Indomitable": {
         "1": {
           "vit_die_type": "1d10"
+        },
+        "1.5": {
+          "intimidation_challenge": true
         },
         "2": {
           "vit_die_type": "1d12"
@@ -15,53 +20,72 @@
         "2.5": {
           "hp_die_type": "1d8"
         },
+        "2.75": {
+          "melee_damage_below_half": "1d6"
+        },
         "3": {
           "vit_die_type": "1d20"
         },
         "3.5": {
           "hp_die_type": "1d10"
         },
+        "3.75": {
+          "injury_double_damage": true
+        },
         "4": {
           "ac_bonus": 3
         },
-        "4.5": {
+        "4.25": {
           "ac_bonus": 1,
-          "repeatable": true
+          "repeatable": true,
+          "max_repeats": 5
         },
-        "4.75": {
+        "4.5": {
           "flat_vit": 10,
           "flat_hp": 5,
           "repeatable": true
         },
+        "4.75": {
+          "low_hp_damage_bonus_pct": 15
+        },
         "5": {
-          "flat_vit": 15,
-          "flat_hp": 10
+          "death_save_1hp": true
+        },
+        "5.5": {
+          "death_save_extra": 1,
+          "repeatable": true,
+          "max_repeats": 3
         },
         "6": {
-          "damage_reduction": 5
+          "phys_damage_resistance": true
         },
         "6.5": {
-          "flat_vit": 5,
-          "repeatable": true
+          "spell_save_half_to_none": true
+        },
+        "6.75": {
+          "vit_per_level": 5
         },
         "7": {
-          "flat_vit": 20,
-          "flat_hp": 10
+          "retaliation_damage_con_mod": true
         },
         "7.5": {
-          "flat_vit": 5,
+          "retaliation_damage_flat": 2,
           "repeatable": true
         },
+        "7.75": {
+          "retaliation_magic_ranged": true
+        },
         "8": {
-          "ac_bonus": 2
+          "ally_damage_take": true
         }
       },
       "Marksman": {
         "1": {
-          "ranged_accuracy": 1
+          "ranged_accuracy": 1,
+          "ranged_damage": 1
         },
         "1.5": {
-          "proficiency_weapon": "ranged",
+          "ranged_damage": 0,
           "repeatable": true
         },
         "2": {
@@ -69,13 +93,13 @@
         },
         "2.5": {
           "ranged_accuracy": 1,
+          "ranged_damage": 1,
           "repeatable": true
         },
         "3": {
           "ranged_damage": 5
         },
         "3.5": {
-          "expertise_weapon": "ranged",
           "ranged_expertise": true,
           "repeatable": true
         },
@@ -91,38 +115,40 @@
           "repeatable": true
         },
         "5": {
-          "ranged_damage": 5
+          "ranged_ignore_three_quarters_cover": true,
+          "ranged_damage": 3
         },
         "5.5": {
-          "ranged_damage": 2,
+          "ranged_damage": 3,
           "repeatable": true
         },
         "6": {
-          "ranged_adv_damage": 3
+          "ricochet_attack": true
         },
         "6.5": {
-          "ranged_adv_damage": 2,
-          "repeatable": true
+          "ricochet_full_damage": true
         },
         "7": {
-          "ranged_accuracy": 3,
-          "ranged_damage": 5
+          "ranged_crit_stun": true,
+          "ranged_crit_threatened": true
         },
         "7.5": {
-          "ranged_accuracy": 2,
+          "ranged_accuracy": 3,
           "repeatable": true
         },
         "8": {
-          "ranged_damage": 8,
-          "ranged_accuracy": 3
+          "ranged_double_range": true,
+          "ranged_no_long_disadv": true,
+          "ranged_damage": 3
         }
       },
       "Duelist": {
         "1": {
-          "melee_accuracy": 1
+          "melee_accuracy": 1,
+          "melee_damage": 1
         },
         "1.5": {
-          "proficiency_weapon": "melee",
+          "melee_damage": 0,
           "repeatable": true
         },
         "2": {
@@ -130,246 +156,263 @@
         },
         "2.5": {
           "melee_accuracy": 1,
+          "melee_damage": 1,
           "repeatable": true
         },
         "3": {
           "melee_kill_bonus": true
         },
         "3.5": {
-          "expertise_weapon": "melee",
+          "melee_expertise": true,
           "repeatable": true
         },
         "3.75": {
           "melee_damage": 1,
           "repeatable": true
         },
+        "4": {
+          "melee_reroll_ones": true
+        },
         "5": {
-          "melee_damage": 4,
-          "melee_accuracy": 2
+          "riposte_attack": true
         },
         "5.5": {
-          "melee_damage": 2,
-          "repeatable": true
+          "riposte_damage": "1d6",
+          "repeatable": true,
+          "max_repeats": 3
         },
         "6": {
-          "melee_damage": 5,
-          "melee_accuracy": 1
+          "melee_pierce_attack": "1d8"
         },
         "7": {
-          "melee_damage": 6,
-          "melee_accuracy": 2
+          "dueling_bonus": true
         },
         "7.5": {
-          "melee_damage": 3,
+          "dueling_damage_bonus": "1d6",
           "repeatable": true
         },
         "8": {
-          "melee_damage": 8,
-          "melee_accuracy": 3
+          "duel_challenge": true
         }
       },
       "Mageslayer": {
         "1": {
-          "damage_reduction": 2
+          "magic_resist_saves": 2
         },
         "2": {
-          "ac_bonus": 1
+          "caster_enemy_attack_penalty": 3
         },
         "3": {
           "melee_damage": 2,
           "ranged_damage": 2,
-          "melee_accuracy": 1
+          "caster_enemy_hit_bonus": 3
         },
         "4": {
-          "melee_damage": 3,
-          "ranged_damage": 3
+          "caster_enemy_damage_bonus": "2d8"
         },
         "5": {
           "melee_damage": 3,
-          "ranged_damage": 3
+          "ranged_damage": 3,
+          "mana_burn_on_hit": true
         },
         "6": {
-          "melee_damage": 4
+          "caster_enemy_damage_mult": 1.5
         },
         "7": {
           "melee_damage": 4,
           "ranged_damage": 4,
-          "melee_accuracy": 1
+          "caster_enemy_hit_bonus": 3
         },
         "8": {
-          "melee_accuracy": 3
+          "caster_enemy_advantage": true
         },
         "9": {
           "melee_damage": 5,
           "ranged_damage": 5
         },
         "10": {
-          "damage_reduction": 3
+          "aoe_no_hp_bypass": true
         }
       },
       "Brawler": {
         "1": {
-          "melee_damage": 2,
           "brawler_stacks": 1
         },
         "1.5": {
           "brawler_stacks": 1,
-          "repeatable": true
+          "repeatable": true,
+          "max_repeats": 3
         },
         "2": {
-          "melee_damage": 3
+          "grapple_larger": true
         },
         "2.5": {
-          "melee_damage": 2,
+          "melee_damage": 1,
           "repeatable": true
+        },
+        "2.75": {
+          "grapple_free_unarmed": true
         },
         "3": {
-          "melee_damage": 3
+          "grapple_bonus_action": true
         },
         "3.5": {
-          "melee_damage": 2,
+          "melee_damage": 3,
           "repeatable": true
+        },
+        "3.75": {
+          "grapple_advantage": true
         },
         "4": {
-          "melee_damage": 4
+          "unarmed_bonus_action": true
         },
         "4.5": {
-          "melee_damage": 2,
-          "repeatable": true
+          "unarmed_bonus_action_damage": 2,
+          "unarmed_advantage": true
         }
       },
       "Vanguard": {
         "1": {
-          "ac_bonus": 1,
-          "flat_vit": 3
+          "aura_ac": 1,
+          "aura_reaction_block": true
         },
         "1.5": {
-          "ac_bonus": 1,
-          "repeatable": true
+          "aura_range": 5,
+          "repeatable": true,
+          "max_repeats": 3
         },
         "1.75": {
-          "vit_per_level": 1
+          "vit_per_level": 2
         },
         "2": {
-          "flat_vit": 5,
-          "ac_bonus": 1
+          "aura_damage_share_vit": true
         },
         "2.5": {
-          "flat_vit": 3,
-          "repeatable": true
+          "aura_save_bonus": 1,
+          "repeatable": true,
+          "max_repeats": 3
         },
         "3": {
-          "ac_bonus": 1,
-          "flat_vit": 5
+          "aura_damage_reduction": 1
         },
         "3.5": {
-          "flat_vit": 5,
-          "repeatable": true
+          "aura_immune_frightened": true
+        },
+        "3.75": {
+          "aura_attack_bonus": 1
         },
         "4": {
-          "ac_bonus": 2,
-          "flat_vit": 10
+          "aura_self_bonus": true
         },
         "4.5": {
-          "ac_bonus": 1,
-          "repeatable": true
+          "aura_damage_reduction": 3,
+          "aura_ac": 1,
+          "aura_ability_bonus": 3
         }
       },
       "Juggernaut": {
         "1": {
-          "melee_damage": 3
+          "melee_damage_two_handed": 2
         },
         "1.5": {
-          "melee_damage": 1,
+          "proficiency_melee": true,
           "repeatable": true
         },
         "2": {
-          "melee_damage": 2,
-          "melee_accuracy": 1
+          "melee_knockdown_heavy": true
         },
         "2.5": {
-          "melee_damage": 2,
+          "melee_damage_two_handed": 1,
           "repeatable": true
         },
         "3": {
-          "melee_damage": 3
+          "melee_splash_heavy": true
         },
         "3.5": {
-          "flat_vit": 5,
-          "repeatable": true
+          "heavy_kill_vit_heal": true
+        },
+        "3.75": {
+          "heavy_reach": 5
         },
         "4": {
-          "melee_damage": 5
+          "heavy_strike_double": true
         },
         "4.5": {
-          "melee_damage": 2,
-          "repeatable": true
+          "heavy_strike_triple": true
         }
       },
       "Skirmisher": {
         "1": {
           "speed": 10,
-          "melee_damage": 1
+          "disengage_dash_bonus": true
         },
         "1.5": {
           "speed": 5,
           "repeatable": true
         },
         "2": {
-          "melee_damage": 3
+          "charging_strike": "1d6"
         },
         "2.5": {
           "initiative": 1,
           "repeatable": true
         },
+        "2.75": {
+          "charging_strike": "1d6",
+          "repeatable": true
+        },
         "3": {
-          "melee_damage": 2,
-          "melee_accuracy": 1
+          "skirmish_disengage_on_hit": true
         },
         "3.5": {
-          "melee_damage": 2,
+          "skirmish_move_after_hit": 10
+        },
+        "3.75": {
+          "melee_damage": 3,
           "repeatable": true
         },
         "4": {
-          "melee_damage": 4,
-          "speed": 10
+          "skirmish_movement_damage": 2
         },
         "4.5": {
-          "speed": 5,
-          "repeatable": true
+          "skirmish_movement_damage": 5
         }
       },
       "Sentinel": {
         "1": {
-          "ac_bonus": 1
+          "ac_bonus_shield": 1,
+          "sentinel_difficult_terrain": true
         },
         "1.5": {
-          "ac_bonus": 1,
-          "repeatable": true
+          "ac_bonus_shield": 1,
+          "repeatable": true,
+          "max_repeats": 3
+        },
+        "1.75": {
+          "sentinel_reaction_protect": true
         },
         "2": {
-          "melee_damage": 1,
-          "ac_bonus": 1
+          "shield_bash": true
         },
         "2.5": {
-          "ac_bonus": 1,
-          "repeatable": true
+          "shield_bash_upgrade": 1,
+          "repeatable": true,
+          "max_repeats": 4
         },
         "3": {
-          "ac_bonus": 1,
-          "flat_vit": 5
+          "sentinel_damage_reduce_half_ac": true
         },
         "3.5": {
-          "ac_bonus": 1,
-          "repeatable": true
+          "sentinel_damage_reduce_full_ac": true
+        },
+        "3.75": {
+          "rp_bonus": 1
         },
         "4": {
-          "ac_bonus": 2,
-          "flat_vit": 10
+          "sentinel_move_slow_zone": true
         },
         "4.5": {
-          "ac_bonus": 1,
-          "repeatable": true
+          "sentinel_move_slow_strong": true
         }
       }
     }
@@ -383,7 +426,7 @@
       "Magician": {
         "1": {
           "mana_die_type": "1d8",
-          "magic_damage": 2
+          "magic_damage": 1
         },
         "1.5": {
           "affinity_points": 2,
@@ -402,15 +445,14 @@
         },
         "3": {
           "mana_die_type": "1d12",
-          "magic_damage": 2
+          "magic_damage": 1
         },
         "3.5": {
-          "magic_damage": 2,
+          "magic_damage": 1,
           "repeatable": true
         },
         "4": {
-          "mana_die_type": "1d20",
-          "magic_damage": 2
+          "mana_die_type": "1d20"
         },
         "4.5": {
           "mana_dice_count": 2,
@@ -433,6 +475,12 @@
         },
         "8": {
           "generic_affinity_spendable": true
+        },
+        "9": {
+          "spell_add_damage_bonus": true
+        },
+        "10": {
+          "affinity_bonus_next_bracket": true
         }
       },
       "Pyromancer": {
@@ -452,16 +500,16 @@
         },
         "3": {
           "magic_accuracy_non_water": 5,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "affinity": {
-            "Lightning": 1,
-            "Ash": 1,
-            "Nova": 1,
-            "Bloodfire": 1,
-            "Infernal": 1,
-            "Magma": 1
+            "Lightning": 2,
+            "Ash": 2,
+            "Nova": 2,
+            "Bloodfire": 2,
+            "Infernal": 2,
+            "Magma": 2
           }
         }
       },
@@ -482,21 +530,23 @@
         },
         "3": {
           "magic_accuracy_non_air": 5,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "affinity": {
-            "Dust": 1,
-            "Mud": 1,
-            "Metal": 1
-          }
+            "Dust": 2,
+            "Mud": 2,
+            "Metal": 2
+          },
+          "repeatable": true
         },
         "5": {
           "affinity": {
-            "Obsidian": 1,
-            "Quake": 1,
-            "Corruption": 1
-          }
+            "Obsidian": 2,
+            "Quake": 2,
+            "Corruption": 2
+          },
+          "repeatable": true
         }
       },
       "Tidemaster": {
@@ -516,14 +566,15 @@
         },
         "3": {
           "magic_accuracy_non_fire": 5,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "affinity": {
-            "Ice/Cold": 2,
-            "Torrent": 2,
-            "Steam": 2
-          }
+            "Ice/Cold": 4,
+            "Torrent": 4,
+            "Steam": 4
+          },
+          "repeatable": true
         }
       },
       "Windwalker": {
@@ -543,21 +594,23 @@
         },
         "3": {
           "magic_accuracy_non_earth": 5,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "affinity": {
-            "Toxin": 1,
-            "Thunder": 1
-          }
+            "Toxin": 2,
+            "Thunder": 2
+          },
+          "repeatable": true
         },
         "5": {
           "affinity": {
-            "Frostfire": 1,
-            "Glacial": 1,
-            "Void": 1,
-            "Storm": 1
-          }
+            "Frostfire": 2,
+            "Glacial": 2,
+            "Void": 2,
+            "Storm": 2
+          },
+          "repeatable": true
         }
       },
       "Priest": {
@@ -577,47 +630,48 @@
         },
         "3": {
           "magic_accuracy_non_necrotic": 5,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "affinity": {
-            "Hallowed": 1,
-            "Solar": 1,
-            "Mirage": 1,
-            "Starlight": 1
-          }
+            "Hallowed": 2,
+            "Solar": 2,
+            "Mirage": 2,
+            "Starlight": 2
+          },
+          "repeatable": true
         },
-        "5": {
+        "4.5": {
           "affinity": {
-            "Atomic": 1
-          }
+            "Atomic": 2
+          },
+          "repeatable": true
         },
         "6": {
-          "radiant_damage_bonus": "2d8"
+          "radiant_damage_bonus": "2d8",
+          "anti_undead_damage_bonus": true
         },
         "6.5": {
           "radiant_damage_bonus": "1d8",
           "repeatable": true,
-          "max_repeats": 3
+          "max_repeats": 2
         },
         "7": {
-          "magic_accuracy": 2,
-          "flat_vit": 5
+          "magic_damage": 3
         },
         "8": {
-          "ac_bonus": 1,
-          "magic_damage": 2
+          "magic_damage": 3
         },
         "8.5": {
           "magic_damage": 1,
-          "repeatable": true
+          "repeatable": true,
+          "max_repeats": 3
         },
         "9": {
-          "magic_damage": 3,
-          "magic_accuracy": 2
+          "magic_damage": 4
         },
         "10": {
-          "radiant_damage_bonus": "3d10",
+          "radiant_damage_bonus": "5d10",
           "magic_damage": 3
         },
         "10.5": {
@@ -625,12 +679,12 @@
           "repeatable": true
         },
         "11": {
-          "magic_accuracy": 3,
-          "radiant_damage_bonus": "1d8"
+          "magic_damage": 3,
+          "radiant_damage_bonus": "3d8"
         },
         "12": {
-          "magic_damage": 8,
-          "radiant_damage_bonus": "6d12"
+          "radiant_damage_bonus": "12d12",
+          "magic_damage": 5
         }
       },
       "Necromancer": {
@@ -650,25 +704,27 @@
         },
         "3": {
           "magic_accuracy_non_radiant": 5,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "affinity": {
-            "Cursed": 1,
-            "Poison": 1,
-            "Vacuum": 1,
-            "Blight": 1
-          }
+            "Cursed": 2,
+            "Poison": 2,
+            "Vacuum": 2,
+            "Blight": 2
+          },
+          "repeatable": true
         },
-        "5": {
+        "4.5": {
           "affinity": {
-            "Miasma": 1,
-            "Gel": 1
-          }
+            "Miasma": 2,
+            "Gel": 2
+          },
+          "repeatable": true
         },
         "6": {
           "necrotic_damage_bonus": "2d8",
-          "magic_accuracy": 1
+          "magic_damage": 2
         },
         "6.5": {
           "necrotic_damage_bonus": "1d8",
@@ -676,21 +732,17 @@
           "max_repeats": 3
         },
         "7": {
-          "magic_damage": 2,
-          "flat_vit": 5
+          "magic_damage": 3
         },
         "8": {
-          "necrotic_damage_bonus": "1d8",
-          "magic_damage": 2
+          "magic_damage": 3
         },
         "8.5": {
-          "necrotic_damage_bonus": "1d4",
-          "repeatable": true,
-          "max_repeats": 3
+          "magic_damage": 1,
+          "repeatable": true
         },
         "9": {
-          "magic_damage": 3,
-          "flat_vit": 10
+          "magic_damage": 4
         },
         "10": {
           "necrotic_damage_bonus": "5d10",
@@ -701,13 +753,12 @@
           "repeatable": true
         },
         "11": {
-          "damage_reduction": 3,
-          "necrotic_damage_bonus": "1d12"
+          "magic_damage": 3,
+          "damage_reduction": 3
         },
         "12": {
-          "magic_damage": 8,
-          "necrotic_damage_bonus": "3d12",
-          "flat_vit": 20
+          "magic_damage": 5,
+          "necrotic_damage_bonus": "3d12"
         }
       },
       "Psychic": {
@@ -726,35 +777,38 @@
           "psychic_damage_bonus": "1d4"
         },
         "3": {
-          "magic_damage": 5
+          "magic_damage": 3,
+          "psychic_save_dc_bonus": 4
         },
         "4": {
           "affinity": {
-            "Tremor": 1,
-            "Deluge": 1,
-            "Shatter": 1,
-            "Sorrow": 1,
-            "Warp": 1,
-            "Chaos": 1
-          }
+            "Tremor": 2,
+            "Deluge": 2,
+            "Shatter": 2,
+            "Sorrow": 2,
+            "Warp": 2,
+            "Chaos": 2
+          },
+          "repeatable": true
         }
       },
       "Healer": {
         "1": {
-          "skill_points": 2
+          "hallowed_affinity": 1
         },
         "2": {
-          "skill_points": 3
+          "skill_points": 6
         },
         "2.5": {
-          "skill_points": 1,
+          "skill_points": 3,
           "repeatable": true
         },
         "3": {
-          "hallowed_affinity": 2
+          "hallowed_affinity": 2,
+          "hallowed_heal_bonus": true
         },
         "3.5": {
-          "hallowed_affinity": 2,
+          "hallowed_affinity": 3,
           "karma": 10,
           "repeatable": true
         },
@@ -777,7 +831,8 @@
           "cleansing": 1
         },
         "7": {
-          "karma": 10
+          "karma": 10,
+          "self_revive": true
         },
         "8": {
           "hallowed_affinity": 1,
@@ -825,7 +880,7 @@
         },
         "3": {
           "affinity_per_level": 1,
-          "magic_damage": 3
+          "magic_damage": 2
         },
         "4": {
           "generic_affinity": 4
@@ -849,31 +904,28 @@
           "affinity_points": 10
         },
         "8": {
-          "magic_damage": 3
+          "affinity_boost_20pct": true
         },
         "9": {
-          "magic_damage": 5
+          "affinity_double_spend": true
         }
       },
       "Ritualist": {
         "1": {
-          "magic_damage": 1,
           "skill_points": 2
         },
         "2": {
-          "magic_damage": 1,
           "skill_points": 2
         },
         "3": {
-          "magic_damage": 2,
-          "skill_points": 2
+          "skill_points": 2,
+          "ritual_damage_bonus_pct": 50
         },
         "4": {
-          "magic_damage": 2,
-          "skill_points": 2
+          "skill_points": 2,
+          "ritual_damage_bonus_pct": 100
         },
         "5": {
-          "magic_damage": 3,
           "skill_points": 2
         }
       }
@@ -957,6 +1009,63 @@
           "rune_shatter_protect": true
         }
       },
+      "Alchemist": {
+        "1": {
+          "skill_points": 3
+        },
+        "2": {
+          "skill_points": 3
+        },
+        "2.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "3": {
+          "skill_points": 3
+        },
+        "3.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "4": {
+          "skill_points": 3
+        },
+        "5": {
+          "skill_points": 3
+        },
+        "6": {
+          "skill_points": 5
+        }
+      },
+      "Butcher": {
+        "1": {
+          "skill_points": 3
+        },
+        "1.5": {
+          "skill_points": 1,
+          "repeatable": true
+        },
+        "2": {
+          "skill_points": 3
+        },
+        "3": {
+          "skill_points": 3
+        },
+        "4": {
+          "skill_points": 3
+        },
+        "5": {
+          "skill_points": 3
+        },
+        "5.5": {
+          "skill_points": 1,
+          "repeatable": true,
+          "max_repeats": 2
+        },
+        "6": {
+          "skill_points": 4
+        }
+      },
       "Slime Rancher": {
         "1": {
           "skill_points": 1,
@@ -1023,7 +1132,7 @@
           "damage_reduction": 3
         },
         "3": {
-          "ac_bonus": 2
+          "damage_reduction": 3
         },
         "4": {
           "damage_reduction": 3
@@ -1035,16 +1144,16 @@
           "skill_points": 2
         },
         "5.2": {
-          "skill_points": 1
+          "skill_points": 2
         },
         "5.3": {
           "skill_points": 3
         },
         "5.4": {
-          "skill_points": 2
+          "skill_points": 3
         },
         "5.5": {
-          "skill_points": 2
+          "skill_points": 3
         },
         "5.6": {
           "skill_points": 3
@@ -1054,7 +1163,7 @@
           "ranged_damage": 4
         },
         "7": {
-          "damage_reduction": 4
+          "damage_reduction": 3
         },
         "8": {
           "melee_accuracy": 3
@@ -1070,83 +1179,36 @@
           "repeatable": true
         },
         "2": {
-          "monster_attack_penalty": 1
+          "monster_attack_penalty": 1,
+          "repeatable": true
         }
       },
       "Human Hunter": {
         "1": {
-          "humanoid_damage": 2
-        },
-        "2": {
-          "humanoid_attack_penalty": 2
-        }
-      },
-      "Alchemist": {
-        "1": {
-          "skill_points": 3
-        },
-        "2": {
-          "skill_points": 3
-        },
-        "2.5": {
-          "skill_points": 1,
-          "repeatable": true
-        },
-        "3": {
-          "skill_points": 3
-        },
-        "3.5": {
-          "skill_points": 1,
-          "repeatable": true
-        },
-        "4": {
-          "skill_points": 3
-        },
-        "5": {
-          "skill_points": 3
-        },
-        "6": {
-          "skill_points": 5
-        }
-      },
-      "Butcher": {
-        "1": {
-          "skill_points": 3
+          "humanoid_damage": 3
         },
         "1.5": {
-          "skill_points": 1,
+          "humanoid_damage": 2,
           "repeatable": true
         },
         "2": {
-          "skill_points": 2
+          "humanoid_damage": 2
         },
         "2.5": {
-          "skill_points": 1,
-          "repeatable": true
+          "humanoid_damage": 1,
+          "repeatable": true,
+          "max_repeats": 5
         },
         "3": {
-          "skill_points": 3
+          "humanoid_damage": 6
         },
         "3.5": {
-          "skill_points": 1,
-          "repeatable": true
+          "humanoid_damage": 6,
+          "repeatable": true,
+          "max_repeats": 3
         },
         "4": {
-          "skill_points": 3
-        },
-        "4.5": {
-          "skill_points": 1,
-          "repeatable": true
-        },
-        "5": {
-          "skill_points": 3
-        },
-        "5.5": {
-          "skill_points": 1,
-          "repeatable": true
-        },
-        "6": {
-          "skill_points": 4
+          "humanoid_damage": 4
         }
       }
     }
@@ -1451,6 +1513,9 @@
         },
         "6": {
           "skill_tree_level_bonus": true
+        },
+        "1.5": {
+          "darkvision_range": 120
         }
       },
       "Tull Tull": {

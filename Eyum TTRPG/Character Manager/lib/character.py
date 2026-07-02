@@ -2,33 +2,44 @@ import math
 from .die_avg import die_average
 
 
-# ---- Affinity Bonus Tables (from 2.1 Affinities) ----
+# ---- Affinity Bonus Tables (from 2.1 Affinities, exact handbook values) ----
 
 _ATTACK_STANDARD = [
-    (-10 + 1, -10), (-6 + 1, -8), (-3 + 1, -5), (0 + 1, -3), (3 + 1, 0),
-    (6, 1), (9, 2), (13, 3), (18, 4), (24, 5), (31, 6), (39, 7), (49, 8),
-    (61, 9), (75, 10), (91, 11), (110, 12), (132, 13), (158, 14), (189, 15),
-    (226, 16), (270, 17), (322, 18),
+    (-10, -10), (-6, -8), (-3, -5), (0, -3), (2, 0),
+    (4, 1), (7, 2), (12, 3), (18, 4), (25, 5), (33, 6), (42, 7), (52, 8),
+    (64, 9), (76, 10), (90, 11), (104, 12), (120, 13), (137, 14), (155, 15),
 ]
 _ATTACK_GENERIC = [
-    (0 + 1, 0), (2 + 1, 1), (5 + 1, 2), (8 + 1, 3), (12 + 1, 4),
-    (17, 5), (23, 6), (30, 7), (38, 8), (47, 9), (57, 10),
-    (68, 11), (80, 12), (93, 13), (107, 14), (122, 15),
+    (0, 0), (3, 1), (4, 2), (6, 3), (8, 4),
+    (12, 5), (16, 6), (20, 7), (24, 8), (30, 9), (36, 10),
+    (42, 11), (48, 12), (56, 13), (64, 14), (72, 15),
 ]
 _DC_STANDARD = [
-    (-10 + 1, -8), (-5 + 1, -5), (-1 + 1, -3), (2 + 1, -1), (5 + 1, 0),
-    (8, 1), (13, 2), (19, 3), (27, 4), (37, 5), (49, 6), (63, 7), (80, 8),
-    (100, 9), (123, 10), (150, 11), (181, 12), (217, 13), (259, 14), (308, 15),
+    (-10, -8), (-5, -5), (-1, -3), (2, -1), (3, 0),
+    (6, 1), (10, 2), (15, 3), (21, 4), (28, 5), (36, 6), (44, 7), (54, 8),
+    (64, 9), (75, 10), (87, 11), (100, 12), (114, 13), (129, 14),
 ]
 _DC_GENERIC = [
-    (0 + 1, 0), (3 + 1, 1), (6 + 1, 2), (10 + 1, 3), (15 + 1, 4),
-    (21, 5), (28, 6), (36, 7), (45, 8), (55, 9), (66, 10),
-    (78, 11), (91, 12), (105, 13), (120, 14), (136, 15),
+    (0, 0), (3, 1), (4, 2), (5, 3), (7, 4),
+    (10, 5), (13, 6), (17, 7), (20, 8), (25, 9), (30, 10),
+    (35, 11), (40, 12), (46, 13), (52, 14), (59, 15),
 ]
-_ATTACK_OVERFLOW = (322, 60, 18)     # (max, step, max_bonus)
-_ATTACK_GEN_OVERFLOW = (122, 20, 15)  # (max, step, max_bonus)
-_DC_OVERFLOW = (308, 80, 15)          # (max, step, max_bonus)
-_DC_GEN_OVERFLOW = (136, 30, 15)      # (max, step, max_bonus)
+_DAMAGE_STANDARD = [
+    (-10, -5), (-5, -3), (0, -1), (2, 0), (3, 1),
+    (5, 2), (9, 3), (13, 4), (17, 5), (23, 6), (29, 7), (35, 8),
+    (43, 9), (51, 10), (60, 11), (69, 12), (80, 13), (91, 14), (102, 15),
+]
+_DAMAGE_GENERIC = [
+    (0, 0), (3, 1), (4, 2), (5, 3), (6, 4),
+    (8, 5), (11, 6), (14, 7), (17, 8), (21, 9), (24, 10),
+    (29, 11), (33, 12), (38, 13), (44, 14), (49, 15),
+]
+_ATTACK_OVERFLOW = (155, 20, 15)     # (max, step, max_bonus)
+_ATTACK_GEN_OVERFLOW = (72, 10, 15)  # (max, step, max_bonus)
+_DC_OVERFLOW = (129, 15, 14)         # (max, step, max_bonus)
+_DC_GEN_OVERFLOW = (59, 5, 15)       # (max, step, max_bonus)
+_DAMAGE_OVERFLOW = (102, 10, 15)     # (max, step, max_bonus)
+_DAMAGE_GEN_OVERFLOW = (49, 5, 15)   # (max, step, max_bonus)
 
 
 def _lookup(val, table, overflow):
@@ -57,9 +68,17 @@ def dc_bonus_generic(affinity):
     return _lookup(affinity, _DC_GENERIC, _DC_GEN_OVERFLOW)
 
 
-# Backwards-compatible alias for old spell damage formula use
+def damage_bonus_standard(affinity):
+    return _lookup(affinity, _DAMAGE_STANDARD, _DAMAGE_OVERFLOW)
+
+
+def damage_bonus_generic(affinity):
+    return _lookup(affinity, _DAMAGE_GENERIC, _DAMAGE_GEN_OVERFLOW)
+
+
 def affinity_mod(affinity):
-    return int(math.ceil((affinity - 2) / 2.0))
+    """Backwards-compatible alias: uses the damage bonus table (Standard column)."""
+    return damage_bonus_standard(affinity)
 
 
 class Character:

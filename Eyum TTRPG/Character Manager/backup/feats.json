@@ -964,7 +964,7 @@
     "prereq": {},
     "value": 0,
     "repeatable": false,
-    "description": "Whenever you take damage, all creatures within 10 ft of you must make a Dexterity save or take 1d4 + Lightning Affinity Lightning damage. Any creature that fails this save causes the lightning to arc to all other creatures within 10 ft of it that have not already made this save. Those creatures must then make the same Dexterity save or take 1d4 + Lightning Affinity Lightning damage. This chain effect continues, repeating from each newly failed save, until no eligible creatures remain.",
+    "description": "Whenever you take damage, all creatures within 10 ft of you must make a Dexterity save or take 1d4 + Attack Damage Bonus Lightning damage. Any creature that fails this save causes the lightning to arc to all other creatures within 10 ft of it that have not already made this save. Those creatures must then make the same Dexterity save or take 1d4 + your Lightning Attack Damage Bonus Lightning damage. This chain effect continues, repeating from each newly failed save, until no eligible creatures remain.",
     "prerequisites": {
       "affinity": {
         "Lightning": 3
@@ -1079,7 +1079,7 @@
     },
     "value": 0,
     "repeatable": false,
-    "description": "When hit by melee attack, the attacker takes 1d4 + Necrotic Affinity Necrotic damage unless the attack dealt radiant damage to you.",
+    "description": "When hit by melee attack, the attacker takes 1d4 + Attack Damage Bonus Necrotic damage unless the attack dealt radiant damage to you.",
     "prerequisites": {
       "path": {
         "Reaper": 1
@@ -1335,7 +1335,7 @@
     },
     "value": 0,
     "repeatable": false,
-    "description": "Heal a targets Vitality by 1d4 + Radiant Affinity.",
+    "description": "Heal a targets Vitality by 1d4 + Attack Damage Bonus (Radiant).",
     "prerequisites": {
       "path": {
         "Priest": 1

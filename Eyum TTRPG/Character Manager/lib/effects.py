@@ -108,6 +108,9 @@ def apply_effects(char, effects, cost_table=None):
         char.bonus_action_sprint = True
     if 'melee_kill_bonus' in effects:
         char.melee_kill_bonus = True
+    if 'melee_expertise' in effects:
+        char.melee_accuracy += 2
+        char.melee_damage += 1
     if 'ranged_ignore_half_cover' in effects:
         char.ranged_ignore_half_cover = True
     if 'skill_points_per_level' in effects:
@@ -208,6 +211,71 @@ def apply_effects(char, effects, cost_table=None):
         char.melee_damage += effects['humanoid_damage']
     if 'humanoid_attack_penalty' in effects:
         char.ac_bonus += effects['humanoid_attack_penalty']
+    if 'melee_damage_two_handed' in effects:
+        char.melee_damage += effects['melee_damage_two_handed']
+    if 'riposte_damage' in effects:
+        char.melee_damage += die_average_sub(effects['riposte_damage'])
+    if 'melee_pierce_attack' in effects:
+        char.melee_damage += die_average_sub(effects['melee_pierce_attack'])
+    if 'dueling_damage_bonus' in effects:
+        char.melee_damage += die_average_sub(effects['dueling_damage_bonus'])
+    if 'ranged_adv_damage' in effects and 'ranged_adv_damage_stacks' in dir(char):
+        char.ranged_adv_damage_stacks += effects['ranged_adv_damage']
+    if 'retaliation_damage_flat' in effects:
+        char.melee_damage += effects['retaliation_damage_flat']
+    if 'aura_ac' in effects:
+        char.ac_bonus += effects['aura_ac']
+    if 'aura_attack_bonus' in effects:
+        char.melee_accuracy += effects['aura_attack_bonus']
+        char.ranged_accuracy += effects['aura_attack_bonus']
+    if 'aura_ability_bonus' in effects:
+        char.melee_accuracy += effects['aura_ability_bonus']
+        char.ranged_accuracy += effects['aura_ability_bonus']
+        char.magic_accuracy += effects['aura_ability_bonus']
+    if 'aura_damage_reduction' in effects:
+        char.damage_reduction += effects['aura_damage_reduction']
+    if 'caster_enemy_damage_bonus' in effects:
+        char.melee_damage += die_average_sub(effects['caster_enemy_damage_bonus'])
+        char.ranged_damage += die_average_sub(effects['caster_enemy_damage_bonus'])
+    if 'caster_enemy_hit_bonus' in effects:
+        char.melee_accuracy += effects['caster_enemy_hit_bonus']
+        char.ranged_accuracy += effects['caster_enemy_hit_bonus']
+    if 'caster_enemy_damage_mult' in effects:
+        char.melee_damage = int(char.melee_damage * effects['caster_enemy_damage_mult'])
+        char.ranged_damage = int(char.ranged_damage * effects['caster_enemy_damage_mult'])
+    if 'psychic_save_dc_bonus' in effects:
+        char.magic_damage += effects['psychic_save_dc_bonus']
+    if 'spell_add_damage_bonus' in effects:
+        char.magic_damage += 3
+    if 'affinity_bonus_next_bracket' in effects:
+        char.magic_damage += 2
+    if 'affinity_boost_20pct' in effects:
+        for aff in list(char.affinities.keys()):
+            if aff != 'Generic':
+                char.affinities[aff] = int(char.affinities[aff] * 1.2)
+    if 'affinity_double_spend' in effects:
+        char.affinity_points *= 2
+    if 'ritual_damage_bonus_pct' in effects:
+        char.magic_damage = int(char.magic_damage * (1 + effects['ritual_damage_bonus_pct'] / 100.0))
+    if 'rp_bonus' in effects:
+        char.rp += effects['rp_bonus']
+    if 'heavy_reach' in effects:
+        char.melee_damage += effects['heavy_reach']
+    if 'charging_strike' in effects:
+        char.melee_damage += die_average_sub(effects['charging_strike'])
+    if 'skirmish_movement_damage' in effects:
+        char.melee_damage += effects['skirmish_movement_damage']
+    if 'disengage_dash_bonus' in effects:
+        char.speed += 5
+    if 'ac_bonus_shield' in effects:
+        char.ac_bonus += effects['ac_bonus_shield']
+
+
+def die_average_sub(die_str):
+    if isinstance(die_str, (int, float)):
+        return die_str
+    from .die_avg import die_average
+    return die_average(die_str, 0)
 
 
 def apply_feat_effects(char, effects):
@@ -302,12 +370,18 @@ def _repeatable_priority(effects):
     if not effects:
         return 0
     score = 0
-    if 'melee_damage' in effects or 'ranged_damage' in effects or 'magic_damage' in effects or 'ranged_adv_damage' in effects:
+    damage_keys = ('melee_damage', 'ranged_damage', 'magic_damage', 'ranged_adv_damage',
+                   'melee_damage_two_handed', 'riposte_damage', 'melee_pierce_attack',
+                   'dueling_damage_bonus', 'charging_strike', 'skirmish_movement_damage',
+                   'retaliation_damage_flat')
+    if any(k in effects for k in damage_keys):
         score = 5
     elif 'generic_affinity' in effects:
         score = 6
-    elif 'flat_vit' in effects or 'flat_hp' in effects or 'ac_bonus' in effects:
+    elif 'flat_vit' in effects or 'flat_hp' in effects or 'ac_bonus' in effects or 'ac_bonus_shield' in effects or 'vit_per_level' in effects:
         score = 4
+    elif 'speed' in effects or 'initiative' in effects:
+        score = 3
     elif 'stat_point' in effects:
         score = 3
     elif 'affinity_points' in effects or 'affinity' in effects or 'generic_affinity' in effects:

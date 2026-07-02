@@ -89,7 +89,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 4 (x8 mana)
-    Total Dmg/5R:  13
+    Total Dmg/5R:  14
     Total Dmg/10R: 21
     Mana: 16 start, 0 after 10R (cast magic 10/10 rounds)
 
@@ -209,9 +209,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 8 (x12 mana)
-    Total Dmg/5R:  28
-    Total Dmg/10R: 41
+    Magic Dmg/Cast: 7 (x12 mana)
+    Total Dmg/5R:  25
+    Total Dmg/10R: 35
     Mana: 32 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -262,7 +262,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 1  BAP: 1  RP: 1
     Proficiency: +2
-    To Hit: Magic: +4
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 31 = 6d6 (3 x 6) + 10(flat) + 0 x 6(Con)
@@ -271,9 +271,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 19 (x30 mana)
-    Total Dmg/5R:  42
-    Total Dmg/10R: 56
+    Magic Dmg/Cast: 18 (x30 mana)
+    Total Dmg/5R:  40
+    Total Dmg/10R: 51
     Mana: 39 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -333,9 +333,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 23 (x54 mana)
-    Total Dmg/5R:  34
-    Total Dmg/10R: 49
+    Magic Dmg/Cast: 22 (x54 mana)
+    Total Dmg/5R:  31
+    Total Dmg/10R: 43
     Mana: 57 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -396,9 +396,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 23 (x54 mana)
-    Total Dmg/5R:  43
-    Total Dmg/10R: 58
+    Magic Dmg/Cast: 22 (x54 mana)
+    Total Dmg/5R:  40
+    Total Dmg/10R: 51
     Mana: 74 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -459,9 +459,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 24 | Dmg/Turn: 24 (x54 mana)
-    Total Dmg/5R:  65
-    Total Dmg/10R: 97
+    Magic Dmg/Cast: 23 | Dmg/Turn: 23 (x54 mana)
+    Total Dmg/5R:  60
+    Total Dmg/10R: 85
     Mana: 83 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -523,9 +523,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 22 | Dmg/Turn: 22 (x84 mana)
-    Total Dmg/5R:  73
-    Total Dmg/10R: 125
+    Magic Dmg/Cast: 24 | Dmg/Turn: 24 (x84 mana)
+    Total Dmg/5R:  65
+    Total Dmg/10R: 104
     Mana: 93 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -587,9 +587,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 22 | Dmg/Turn: 22 (x84 mana)
-    Total Dmg/5R:  84
-    Total Dmg/10R: 150
+    Magic Dmg/Cast: 25 | Dmg/Turn: 25 (x84 mana)
+    Total Dmg/5R:  74
+    Total Dmg/10R: 119
     Mana: 113 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -652,8 +652,8 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 2
     Magic Dmg/Cast: 57 | Dmg/Turn: 57 (x114 mana)
-    Total Dmg/5R:  139
-    Total Dmg/10R: 205
+    Total Dmg/5R:  122
+    Total Dmg/10R: 167
     Mana: 124 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -716,8 +716,8 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 2
     Magic Dmg/Cast: 55 | Dmg/Turn: 55 (x114 mana)
-    Total Dmg/5R:  119
-    Total Dmg/10R: 191
+    Total Dmg/5R:  104
+    Total Dmg/10R: 153
     Mana: 147 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -738,16 +738,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 10
     Generic        : 2
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 26
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 27
     Psychic        : -3
     Radiant        : 10
     Water          : 1
@@ -783,9 +783,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 31 | Dmg/Turn: 31 (x150 mana)
-    Total Dmg/5R:  139
-    Total Dmg/10R: 225
+    Magic Dmg/Cast: 35 | Dmg/Turn: 35 (x150 mana)
+    Total Dmg/5R:  118
+    Total Dmg/10R: 166
     Mana: 215 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -806,16 +806,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 10
     Generic        : 2
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 26
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 27
     Psychic        : -3
     Radiant        : 10
     Water          : 1
@@ -852,8 +852,8 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 2
     Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  165
-    Total Dmg/10R: 251
+    Total Dmg/5R:  138
+    Total Dmg/10R: 187
     Mana: 230 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -874,16 +874,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 10
     Generic        : 3
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 26
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 27
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -920,8 +920,8 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 2
     Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  152
-    Total Dmg/10R: 233
+    Total Dmg/5R:  128
+    Total Dmg/10R: 174
     Mana: 246 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -942,16 +942,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 10
     Generic        : 3
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 29
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 30
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -988,8 +988,8 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 2
     Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 239
+    Total Dmg/5R:  139
+    Total Dmg/10R: 184
     Mana: 261 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1010,16 +1010,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 10
     Generic        : 3
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 29
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 30
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -1055,9 +1055,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 245
+    Magic Dmg/Cast: 93 | Dmg/Turn: 93 (x225 mana)
+    Total Dmg/5R:  143
+    Total Dmg/10R: 192
     Mana: 277 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1078,16 +1078,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 10
     Generic        : 4
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 29
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 30
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -1123,9 +1123,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 86 | Dmg/Turn: 86 (x225 mana)
-    Total Dmg/5R:  163
-    Total Dmg/10R: 249
+    Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
+    Total Dmg/5R:  146
+    Total Dmg/10R: 195
     Mana: 292 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1146,16 +1146,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 12
     Generic        : 4
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 31
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 32
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -1182,7 +1182,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +10
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 108 = 20d4 (2 x 20) + 38(flat) + 1 x 20(Con)
@@ -1191,9 +1191,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  168
-    Total Dmg/10R: 266
+    Magic Dmg/Cast: 93 | Dmg/Turn: 93 (x225 mana)
+    Total Dmg/5R:  154
+    Total Dmg/10R: 206
     Mana: 308 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1214,16 +1214,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 2
     Fire           : 12
     Generic        : 4
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 41
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 42
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -1259,9 +1259,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 93 | Dmg/Turn: 93 (x225 mana)
-    Total Dmg/5R:  209
-    Total Dmg/10R: 307
+    Magic Dmg/Cast: 97 | Dmg/Turn: 97 (x225 mana)
+    Total Dmg/5R:  192
+    Total Dmg/10R: 247
     Mana: 344 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1282,16 +1282,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 12
     Generic        : 5
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 41
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 42
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -1318,7 +1318,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 119 = 22d4 (2 x 22) + 42(flat) + 1 x 22(Con)
@@ -1327,9 +1327,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  199
-    Total Dmg/10R: 297
+    Magic Dmg/Cast: 93 | Dmg/Turn: 93 (x225 mana)
+    Total Dmg/5R:  186
+    Total Dmg/10R: 244
     Mana: 361 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1350,16 +1350,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 13
     Generic        : 5
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 43
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 44
     Psychic        : -3
     Radiant        : 10
     Water          : 2
@@ -1386,7 +1386,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 124 = 23d4 (2 x 23) + 44(flat) + 1 x 23(Con)
@@ -1395,9 +1395,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  180
-    Total Dmg/10R: 278
+    Magic Dmg/Cast: 93 | Dmg/Turn: 93 (x225 mana)
+    Total Dmg/5R:  169
+    Total Dmg/10R: 227
     Mana: 377 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1418,16 +1418,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 13
     Generic        : 5
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 43
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 44
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1454,7 +1454,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 130 = 24d4 (2 x 24) + 46(flat) + 1 x 24(Con)
@@ -1463,9 +1463,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 90 | Dmg/Turn: 90 (x225 mana)
-    Total Dmg/5R:  177
-    Total Dmg/10R: 275
+    Magic Dmg/Cast: 97 | Dmg/Turn: 97 (x225 mana)
+    Total Dmg/5R:  183
+    Total Dmg/10R: 241
     Mana: 394 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1486,16 +1486,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : -1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 13
     Generic        : 6
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 43
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 44
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1522,7 +1522,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 160 = 25d4 (2 x 25) + 48(flat) + 2 x 25(Con)
@@ -1531,9 +1531,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 86 (x225 mana)
-    Total Dmg/5R:  180
-    Total Dmg/10R: 327
+    Magic Dmg/Cast: 97 | Dmg/Turn: 97 (x225 mana)
+    Total Dmg/5R:  193
+    Total Dmg/10R: 281
     Mana: 410 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1554,16 +1554,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 14
     Generic        : 6
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 45
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 46
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1590,7 +1590,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 167 = 26d4 (2 x 26) + 50(flat) + 2 x 26(Con)
@@ -1599,9 +1599,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 86 (x225 mana)
-    Total Dmg/5R:  176
-    Total Dmg/10R: 323
+    Magic Dmg/Cast: 97 | Dmg/Turn: 97 (x225 mana)
+    Total Dmg/5R:  185
+    Total Dmg/10R: 273
     Mana: 427 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1622,16 +1622,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 14
     Generic        : 6
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 45
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 46
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1658,7 +1658,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +11
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 173 = 27d4 (2 x 27) + 52(flat) + 2 x 27(Con)
@@ -1667,9 +1667,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 86 (x225 mana)
-    Total Dmg/5R:  189
-    Total Dmg/10R: 344
+    Magic Dmg/Cast: 97 | Dmg/Turn: 97 (x225 mana)
+    Total Dmg/5R:  203
+    Total Dmg/10R: 295
     Mana: 443 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1690,16 +1690,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 15
     Generic        : 7
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 45
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 46
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1726,7 +1726,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +11
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 180 = 28d4 (2 x 28) + 54(flat) + 2 x 28(Con)
@@ -1735,9 +1735,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 166 (x225 mana)
-    Total Dmg/5R:  266
-    Total Dmg/10R: 421
+    Magic Dmg/Cast: 93 | Dmg/Turn: 187 (x225 mana)
+    Total Dmg/5R:  258
+    Total Dmg/10R: 350
     Mana: 488 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1758,16 +1758,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 3
     Fire           : 16
     Generic        : 7
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 47
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 48
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1794,7 +1794,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +11
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 186 = 29d4 (2 x 29) + 56(flat) + 2 x 29(Con)
@@ -1803,9 +1803,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 173 (x225 mana)
-    Total Dmg/5R:  292
-    Total Dmg/10R: 448
+    Magic Dmg/Cast: 95 | Dmg/Turn: 191 (x225 mana)
+    Total Dmg/5R:  300
+    Total Dmg/10R: 436
     Mana: 505 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1826,16 +1826,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 16
-    Generic        : 8
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 47
+    Generic        : 7
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 48
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1862,7 +1862,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +11
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 193 = 30d4 (2 x 30) + 58(flat) + 2 x 30(Con)
@@ -1871,9 +1871,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 173 (x225 mana)
-    Total Dmg/5R:  268
-    Total Dmg/10R: 423
+    Magic Dmg/Cast: 99 | Dmg/Turn: 198 (x225 mana)
+    Total Dmg/5R:  290
+    Total Dmg/10R: 425
     Mana: 523 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1894,16 +1894,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 16
-    Generic        : 9
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 47
+    Generic        : 8
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 48
     Psychic        : -3
     Radiant        : 10
     Water          : 3
@@ -1930,7 +1930,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +11
+    To Hit: Magic: +12
 
   HEALTH POOLS:
     Vitality: 230 = 31d4 (2 x 31) + 60(flat) + 3 x 31(Con)
@@ -1939,9 +1939,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 166 (x225 mana)
-    Total Dmg/5R:  261
-    Total Dmg/10R: 416
+    Magic Dmg/Cast: 95 | Dmg/Turn: 191 (x225 mana)
+    Total Dmg/5R:  289
+    Total Dmg/10R: 425
     Mana: 540 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1962,16 +1962,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 17
-    Generic        : 9
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 49
+    Generic        : 8
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 50
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2007,9 +2007,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 166 (x225 mana)
-    Total Dmg/5R:  258
-    Total Dmg/10R: 422
+    Magic Dmg/Cast: 97 | Dmg/Turn: 194 (x225 mana)
+    Total Dmg/5R:  301
+    Total Dmg/10R: 465
     Mana: 558 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2030,16 +2030,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 0
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 17
-    Generic        : 10
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 49
+    Generic        : 8
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 50
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2066,7 +2066,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +11
-    To Hit: Magic: +12
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 245 = 33d4 (2 x 33) + 64(flat) + 3 x 33(Con)
@@ -2075,9 +2075,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 166 (x225 mana)
-    Total Dmg/5R:  323
-    Total Dmg/10R: 487
+    Magic Dmg/Cast: 97 | Dmg/Turn: 194 (x225 mana)
+    Total Dmg/5R:  360
+    Total Dmg/10R: 524
     Mana: 575 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2098,16 +2098,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 17
-    Generic        : 11
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 49
+    Generic        : 9
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 50
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2143,9 +2143,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 166 (x225 mana)
-    Total Dmg/5R:  253
-    Total Dmg/10R: 417
+    Magic Dmg/Cast: 93 | Dmg/Turn: 187 (x225 mana)
+    Total Dmg/5R:  291
+    Total Dmg/10R: 455
     Mana: 627 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2166,16 +2166,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 18
-    Generic        : 11
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 51
+    Generic        : 9
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 52
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2211,9 +2211,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 173 (x225 mana)
-    Total Dmg/5R:  272
-    Total Dmg/10R: 435
+    Magic Dmg/Cast: 93 | Dmg/Turn: 187 (x225 mana)
+    Total Dmg/5R:  298
+    Total Dmg/10R: 462
     Mana: 645 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2234,16 +2234,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 19
-    Generic        : 12
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 51
+    Generic        : 10
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 52
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2279,9 +2279,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 86 | Dmg/Turn: 173 (x225 mana)
-    Total Dmg/5R:  298
-    Total Dmg/10R: 462
+    Magic Dmg/Cast: 97 | Dmg/Turn: 194 (x225 mana)
+    Total Dmg/5R:  338
+    Total Dmg/10R: 501
     Mana: 664 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2302,16 +2302,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 4
     Fire           : 19
-    Generic        : 13
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 51
+    Generic        : 11
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 52
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2338,7 +2338,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +13
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 312 = 37d4 (2 x 37) + 72(flat) + 4 x 37(Con)
@@ -2347,9 +2347,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 250 (x225 mana)
-    Total Dmg/5R:  368
-    Total Dmg/10R: 531
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  399
+    Total Dmg/10R: 563
     Mana: 682 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2370,16 +2370,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 20
-    Generic        : 13
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 53
+    Generic        : 11
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 54
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2415,9 +2415,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 250 (x225 mana)
-    Total Dmg/5R:  348
-    Total Dmg/10R: 512
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  380
+    Total Dmg/10R: 544
     Mana: 701 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2438,16 +2438,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 20
-    Generic        : 14
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 53
+    Generic        : 12
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 54
     Psychic        : -3
     Radiant        : 10
     Water          : 4
@@ -2474,7 +2474,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +14
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 329 = 39d4 (2 x 39) + 76(flat) + 4 x 39(Con)
@@ -2483,9 +2483,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 83 | Dmg/Turn: 250 (x225 mana)
-    Total Dmg/5R:  354
-    Total Dmg/10R: 518
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  387
+    Total Dmg/10R: 551
     Mana: 719 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2506,16 +2506,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 20
-    Generic        : 15
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 53
+    Generic        : 13
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 54
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2542,7 +2542,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +14
-    To Hit: Magic: +14
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 338 = 40d4 (2 x 40) + 78(flat) + 4 x 40(Con)
@@ -2551,9 +2551,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 79 | Dmg/Turn: 239 (x225 mana)
-    Total Dmg/5R:  322
-    Total Dmg/10R: 486
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  377
+    Total Dmg/10R: 541
     Mana: 778 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2574,16 +2574,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 21
-    Generic        : 15
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 55
+    Generic        : 13
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 56
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2610,7 +2610,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +14
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 346 = 41d4 (2 x 41) + 80(flat) + 4 x 41(Con)
@@ -2619,9 +2619,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 79 | Dmg/Turn: 239 (x225 mana)
-    Total Dmg/5R:  396
-    Total Dmg/10R: 615
+    Magic Dmg/Cast: 97 | Dmg/Turn: 291 (x225 mana)
+    Total Dmg/5R:  459
+    Total Dmg/10R: 678
     Mana: 797 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2642,16 +2642,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 21
-    Generic        : 16
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 55
+    Generic        : 14
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 56
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2678,7 +2678,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +14
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 355 = 42d4 (2 x 42) + 82(flat) + 4 x 42(Con)
@@ -2687,9 +2687,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 83 | Dmg/Turn: 250 (x225 mana)
-    Total Dmg/5R:  378
-    Total Dmg/10R: 597
+    Magic Dmg/Cast: 97 | Dmg/Turn: 291 (x225 mana)
+    Total Dmg/5R:  430
+    Total Dmg/10R: 648
     Mana: 817 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2710,16 +2710,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 21
-    Generic        : 17
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 55
+    Generic        : 15
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 56
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2746,7 +2746,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +14
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 363 = 43d4 (2 x 43) + 84(flat) + 4 x 43(Con)
@@ -2755,9 +2755,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 79 | Dmg/Turn: 239 (x225 mana)
-    Total Dmg/5R:  382
-    Total Dmg/10R: 600
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  445
+    Total Dmg/10R: 663
     Mana: 836 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2778,16 +2778,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 23
-    Generic        : 17
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 57
+    Generic        : 15
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 58
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2823,9 +2823,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 79 | Dmg/Turn: 239 (x225 mana)
-    Total Dmg/5R:  362
-    Total Dmg/10R: 580
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  426
+    Total Dmg/10R: 645
     Mana: 856 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2846,16 +2846,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 5
     Fire           : 23
-    Generic        : 18
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 57
+    Generic        : 16
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 58
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2882,7 +2882,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 380 = 45d4 (2 x 45) + 88(flat) + 4 x 45(Con)
@@ -2891,9 +2891,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 79 | Dmg/Turn: 239 (x225 mana)
-    Total Dmg/5R:  345
-    Total Dmg/10R: 563
+    Magic Dmg/Cast: 93 | Dmg/Turn: 281 (x225 mana)
+    Total Dmg/5R:  412
+    Total Dmg/10R: 631
     Mana: 875 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2914,16 +2914,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 23
-    Generic        : 19
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 57
+    Generic        : 17
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 58
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -2950,7 +2950,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 435 = 46d4 (2 x 46) + 90(flat) + 5 x 46(Con)
@@ -2959,9 +2959,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 76 | Dmg/Turn: 229 (x225 mana)
-    Total Dmg/5R:  326
-    Total Dmg/10R: 544
+    Magic Dmg/Cast: 90 | Dmg/Turn: 271 (x225 mana)
+    Total Dmg/5R:  393
+    Total Dmg/10R: 612
     Mana: 895 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2982,16 +2982,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 24
-    Generic        : 19
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 59
+    Generic        : 17
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 60
     Psychic        : -3
     Radiant        : 10
     Water          : 5
@@ -3018,7 +3018,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 444 = 47d4 (2 x 47) + 92(flat) + 5 x 47(Con)
@@ -3027,9 +3027,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 305 (x225 mana)
-    Total Dmg/5R:  303
-    Total Dmg/10R: 522
+    Magic Dmg/Cast: 187 | Dmg/Turn: 375 (x225 mana)
+    Total Dmg/5R:  338
+    Total Dmg/10R: 557
     Mana: 914 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3050,16 +3050,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 24
-    Generic        : 20
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 59
+    Generic        : 18
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 60
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3086,7 +3086,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 454 = 48d4 (2 x 48) + 94(flat) + 5 x 48(Con)
@@ -3095,9 +3095,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 305 (x225 mana)
-    Total Dmg/5R:  302
-    Total Dmg/10R: 521
+    Magic Dmg/Cast: 187 | Dmg/Turn: 375 (x225 mana)
+    Total Dmg/5R:  339
+    Total Dmg/10R: 557
     Mana: 934 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3118,16 +3118,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 24
-    Generic        : 21
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 59
+    Generic        : 19
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 60
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3154,7 +3154,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 463 = 49d4 (2 x 49) + 96(flat) + 5 x 49(Con)
@@ -3163,9 +3163,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 145 | Dmg/Turn: 291 (x225 mana)
-    Total Dmg/5R:  232
-    Total Dmg/10R: 451
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  284
+    Total Dmg/10R: 502
     Mana: 1002 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3186,16 +3186,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 25
-    Generic        : 21
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 61
+    Generic        : 19
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 62
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3222,7 +3222,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 473 = 50d4 (2 x 50) + 98(flat) + 5 x 50(Con)
@@ -3231,9 +3231,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 305 (x225 mana)
-    Total Dmg/5R:  307
-    Total Dmg/10R: 526
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  344
+    Total Dmg/10R: 562
     Mana: 1023 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3254,16 +3254,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 25
-    Generic        : 22
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 61
+    Generic        : 20
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 62
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3290,7 +3290,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +15
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 482 = 51d4 (2 x 51) + 100(flat) + 5 x 51(Con)
@@ -3299,9 +3299,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 305 (x225 mana)
-    Total Dmg/5R:  276
-    Total Dmg/10R: 495
+    Magic Dmg/Cast: 187 | Dmg/Turn: 375 (x225 mana)
+    Total Dmg/5R:  323
+    Total Dmg/10R: 542
     Mana: 1043 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3322,16 +3322,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 26
-    Generic        : 23
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 61
+    Generic        : 21
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 62
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3358,7 +3358,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +16
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 492 = 52d4 (2 x 52) + 102(flat) + 5 x 52(Con)
@@ -3367,9 +3367,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 145 | Dmg/Turn: 291 (x225 mana)
-    Total Dmg/5R:  258
-    Total Dmg/10R: 477
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  319
+    Total Dmg/10R: 538
     Mana: 1064 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3390,16 +3390,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 6
     Fire           : 27
-    Generic        : 23
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 63
+    Generic        : 21
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 64
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3435,9 +3435,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 145 | Dmg/Turn: 291 (x225 mana)
-    Total Dmg/5R:  257
-    Total Dmg/10R: 476
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  319
+    Total Dmg/10R: 538
     Mana: 1084 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3458,16 +3458,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 27
-    Generic        : 24
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 63
+    Generic        : 22
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 64
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3503,9 +3503,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 145 | Dmg/Turn: 291 (x225 mana)
-    Total Dmg/5R:  260
-    Total Dmg/10R: 478
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  327
+    Total Dmg/10R: 545
     Mana: 1105 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3526,16 +3526,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 27
-    Generic        : 25
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 63
+    Generic        : 23
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 64
     Psychic        : -3
     Radiant        : 10
     Water          : 6
@@ -3562,7 +3562,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +17
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 575 = 55d4 (2 x 55) + 108(flat) + 6 x 55(Con)
@@ -3571,9 +3571,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 145 | Dmg/Turn: 291 (x225 mana)
-    Total Dmg/5R:  350
-    Total Dmg/10R: 568
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  402
+    Total Dmg/10R: 620
     Mana: 1125 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3594,16 +3594,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 28
-    Generic        : 25
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 65
+    Generic        : 23
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 66
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -3630,7 +3630,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +17
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 586 = 56d4 (2 x 56) + 110(flat) + 6 x 56(Con)
@@ -3639,9 +3639,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 145 | Dmg/Turn: 291 (x225 mana)
-    Total Dmg/5R:  319
-    Total Dmg/10R: 537
+    Magic Dmg/Cast: 180 | Dmg/Turn: 361 (x225 mana)
+    Total Dmg/5R:  371
+    Total Dmg/10R: 589
     Mana: 1146 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3662,16 +3662,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 28
-    Generic        : 26
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 65
+    Generic        : 24
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 66
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -3698,7 +3698,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +19
-    To Hit: Magic: +17
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 596 = 57d4 (2 x 57) + 112(flat) + 6 x 57(Con)
@@ -3707,9 +3707,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  331
-    Total Dmg/10R: 604
+    Magic Dmg/Cast: 180 | Dmg/Turn: 451 (x225 mana)
+    Total Dmg/5R:  383
+    Total Dmg/10R: 656
     Mana: 1166 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3730,16 +3730,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 28
-    Generic        : 27
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 65
+    Generic        : 25
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 66
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -3766,7 +3766,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +17
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 607 = 58d4 (2 x 58) + 114(flat) + 6 x 58(Con)
@@ -3775,9 +3775,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  338
-    Total Dmg/10R: 611
+    Magic Dmg/Cast: 173 | Dmg/Turn: 434 (x225 mana)
+    Total Dmg/5R:  389
+    Total Dmg/10R: 662
     Mana: 1245 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3798,16 +3798,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 29
-    Generic        : 27
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 67
+    Generic        : 25
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 68
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -3834,7 +3834,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +17
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 617 = 59d4 (2 x 59) + 116(flat) + 6 x 59(Con)
@@ -3843,9 +3843,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  297
-    Total Dmg/10R: 570
+    Magic Dmg/Cast: 180 | Dmg/Turn: 451 (x225 mana)
+    Total Dmg/5R:  360
+    Total Dmg/10R: 633
     Mana: 1266 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3866,16 +3866,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 30
-    Generic        : 28
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 67
+    Generic        : 26
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 68
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -3902,7 +3902,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +17
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 628 = 60d4 (2 x 60) + 118(flat) + 6 x 60(Con)
@@ -3911,9 +3911,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  298
-    Total Dmg/10R: 571
+    Magic Dmg/Cast: 180 | Dmg/Turn: 451 (x225 mana)
+    Total Dmg/5R:  377
+    Total Dmg/10R: 650
     Mana: 1288 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3934,16 +3934,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 7
     Fire           : 30
-    Generic        : 29
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 67
+    Generic        : 27
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 68
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -3970,7 +3970,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +17
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 638 = 61d4 (2 x 61) + 120(flat) + 6 x 61(Con)
@@ -3979,9 +3979,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  297
-    Total Dmg/10R: 570
+    Magic Dmg/Cast: 173 | Dmg/Turn: 434 (x225 mana)
+    Total Dmg/5R:  360
+    Total Dmg/10R: 633
     Mana: 1309 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4002,16 +4002,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 31
-    Generic        : 29
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 69
+    Generic        : 27
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 70
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -4038,7 +4038,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +17
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 649 = 62d4 (2 x 62) + 122(flat) + 6 x 62(Con)
@@ -4047,9 +4047,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  300
-    Total Dmg/10R: 573
+    Magic Dmg/Cast: 173 | Dmg/Turn: 434 (x225 mana)
+    Total Dmg/5R:  367
+    Total Dmg/10R: 640
     Mana: 1331 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4070,16 +4070,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 31
-    Generic        : 30
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 69
+    Generic        : 28
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 70
     Psychic        : -3
     Radiant        : 10
     Water          : 7
@@ -4106,7 +4106,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +18
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 659 = 63d4 (2 x 63) + 124(flat) + 6 x 63(Con)
@@ -4115,9 +4115,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  455
-    Total Dmg/10R: 728
+    Magic Dmg/Cast: 173 | Dmg/Turn: 434 (x225 mana)
+    Total Dmg/5R:  511
+    Total Dmg/10R: 784
     Mana: 1352 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4138,16 +4138,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 31
-    Generic        : 31
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 69
+    Generic        : 29
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 70
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4174,7 +4174,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +22
-    To Hit: Magic: +18
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 734 = 64d4 (2 x 64) + 126(flat) + 7 x 64(Con)
@@ -4183,9 +4183,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  404
-    Total Dmg/10R: 677
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  456
+    Total Dmg/10R: 729
     Mana: 1438 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4206,16 +4206,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 32
-    Generic        : 31
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 71
+    Generic        : 29
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 72
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4242,7 +4242,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +18
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 745 = 65d4 (2 x 65) + 128(flat) + 7 x 65(Con)
@@ -4251,9 +4251,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  327
-    Total Dmg/10R: 600
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  379
+    Total Dmg/10R: 652
     Mana: 1460 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4274,16 +4274,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 32
-    Generic        : 32
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 71
+    Generic        : 30
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 72
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4310,7 +4310,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 757 = 66d4 (2 x 66) + 130(flat) + 7 x 66(Con)
@@ -4319,9 +4319,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  377
-    Total Dmg/10R: 650
+    Magic Dmg/Cast: 173 | Dmg/Turn: 434 (x225 mana)
+    Total Dmg/5R:  441
+    Total Dmg/10R: 714
     Mana: 1483 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4342,16 +4342,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 32
-    Generic        : 33
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 71
+    Generic        : 31
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 72
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4378,7 +4378,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 768 = 67d4 (2 x 67) + 132(flat) + 7 x 67(Con)
@@ -4387,9 +4387,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  404
-    Total Dmg/10R: 677
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  456
+    Total Dmg/10R: 729
     Mana: 1438 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4410,16 +4410,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 34
-    Generic        : 33
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 73
+    Generic        : 31
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 74
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4446,7 +4446,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 780 = 68d4 (2 x 68) + 134(flat) + 7 x 68(Con)
@@ -4455,9 +4455,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  327
-    Total Dmg/10R: 600
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  379
+    Total Dmg/10R: 652
     Mana: 1460 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4478,16 +4478,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 8
     Fire           : 34
-    Generic        : 34
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 73
+    Generic        : 32
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 74
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4514,7 +4514,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 791 = 69d4 (2 x 69) + 136(flat) + 7 x 69(Con)
@@ -4523,9 +4523,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  377
-    Total Dmg/10R: 650
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  425
+    Total Dmg/10R: 698
     Mana: 1481 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4546,16 +4546,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 34
-    Generic        : 35
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 73
+    Generic        : 33
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 74
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4582,7 +4582,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 803 = 70d4 (2 x 70) + 138(flat) + 7 x 70(Con)
@@ -4591,9 +4591,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  406
-    Total Dmg/10R: 679
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  464
+    Total Dmg/10R: 737
     Mana: 1503 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4614,16 +4614,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 35
-    Generic        : 35
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 75
+    Generic        : 33
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 76
     Psychic        : -3
     Radiant        : 10
     Water          : 8
@@ -4650,7 +4650,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 814 = 71d4 (2 x 71) + 140(flat) + 7 x 71(Con)
@@ -4659,9 +4659,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  486
-    Total Dmg/10R: 760
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  539
+    Total Dmg/10R: 812
     Mana: 1595 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4682,16 +4682,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 35
-    Generic        : 36
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 75
+    Generic        : 34
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 76
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -4718,7 +4718,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 826 = 72d4 (2 x 72) + 142(flat) + 7 x 72(Con)
@@ -4727,9 +4727,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 145 | Dmg/Turn: 364 (x225 mana)
-    Total Dmg/5R:  458
-    Total Dmg/10R: 731
+    Magic Dmg/Cast: 166 | Dmg/Turn: 417 (x225 mana)
+    Total Dmg/5R:  510
+    Total Dmg/10R: 783
     Mana: 1618 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4750,16 +4750,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 35
-    Generic        : 37
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 75
+    Generic        : 35
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 76
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -4786,7 +4786,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +19
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 837 = 73d4 (2 x 73) + 144(flat) + 7 x 73(Con)
@@ -4795,9 +4795,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  491
-    Total Dmg/10R: 819
+    Magic Dmg/Cast: 159 | Dmg/Turn: 479 (x225 mana)
+    Total Dmg/5R:  528
+    Total Dmg/10R: 855
     Mana: 1640 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4818,16 +4818,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 36
-    Generic        : 37
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 77
+    Generic        : 35
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 78
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -4854,7 +4854,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +19
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 849 = 74d4 (2 x 74) + 146(flat) + 7 x 74(Con)
@@ -4863,9 +4863,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  499
-    Total Dmg/10R: 827
+    Magic Dmg/Cast: 166 | Dmg/Turn: 500 (x225 mana)
+    Total Dmg/5R:  561
+    Total Dmg/10R: 889
     Mana: 1663 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4886,16 +4886,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 36
-    Generic        : 38
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 77
+    Generic        : 36
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 78
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -4922,7 +4922,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 860 = 75d4 (2 x 75) + 148(flat) + 7 x 75(Con)
@@ -4931,9 +4931,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  400
-    Total Dmg/10R: 728
+    Magic Dmg/Cast: 166 | Dmg/Turn: 500 (x225 mana)
+    Total Dmg/5R:  462
+    Total Dmg/10R: 790
     Mana: 1685 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4954,16 +4954,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 37
-    Generic        : 39
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 77
+    Generic        : 37
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 78
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -4990,7 +4990,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 872 = 76d4 (2 x 76) + 150(flat) + 7 x 76(Con)
@@ -4999,9 +4999,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  450
-    Total Dmg/10R: 777
+    Magic Dmg/Cast: 159 | Dmg/Turn: 479 (x225 mana)
+    Total Dmg/5R:  489
+    Total Dmg/10R: 816
     Mana: 1708 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5022,16 +5022,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 9
     Fire           : 38
-    Generic        : 39
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 79
+    Generic        : 37
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 80
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -5058,7 +5058,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 883 = 77d4 (2 x 77) + 152(flat) + 7 x 77(Con)
@@ -5067,9 +5067,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  455
-    Total Dmg/10R: 783
+    Magic Dmg/Cast: 159 | Dmg/Turn: 479 (x225 mana)
+    Total Dmg/5R:  500
+    Total Dmg/10R: 828
     Mana: 1730 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5090,16 +5090,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 38
-    Generic        : 40
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 79
+    Generic        : 38
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 80
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -5126,7 +5126,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 895 = 78d4 (2 x 78) + 154(flat) + 7 x 78(Con)
@@ -5135,9 +5135,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  402
-    Total Dmg/10R: 730
+    Magic Dmg/Cast: 159 | Dmg/Turn: 479 (x225 mana)
+    Total Dmg/5R:  448
+    Total Dmg/10R: 775
     Mana: 1753 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5158,16 +5158,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 38
-    Generic        : 41
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 79
+    Generic        : 39
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 80
     Psychic        : -3
     Radiant        : 10
     Water          : 9
@@ -5194,7 +5194,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 906 = 79d4 (2 x 79) + 156(flat) + 7 x 79(Con)
@@ -5203,9 +5203,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  437
-    Total Dmg/10R: 765
+    Magic Dmg/Cast: 152 | Dmg/Turn: 458 (x225 mana)
+    Total Dmg/5R:  460
+    Total Dmg/10R: 788
     Mana: 1775 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5226,16 +5226,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 39
-    Generic        : 41
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 81
+    Generic        : 39
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 82
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5262,7 +5262,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 918 = 80d4 (2 x 80) + 158(flat) + 7 x 80(Con)
@@ -5271,9 +5271,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  411
-    Total Dmg/10R: 693
+    Magic Dmg/Cast: 152 | Dmg/Turn: 458 (x225 mana)
+    Total Dmg/5R:  435
+    Total Dmg/10R: 717
     Mana: 1798 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5294,16 +5294,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 39
-    Generic        : 42
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 81
+    Generic        : 40
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 82
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5330,7 +5330,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 929 = 81d4 (2 x 81) + 160(flat) + 7 x 81(Con)
@@ -5339,9 +5339,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  501
-    Total Dmg/10R: 829
+    Magic Dmg/Cast: 159 | Dmg/Turn: 479 (x225 mana)
+    Total Dmg/5R:  529
+    Total Dmg/10R: 856
     Mana: 1820 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5362,16 +5362,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 39
-    Generic        : 43
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 81
+    Generic        : 41
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 82
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5398,7 +5398,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 941 = 82d4 (2 x 82) + 162(flat) + 7 x 82(Con)
@@ -5407,9 +5407,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  461
-    Total Dmg/10R: 789
+    Magic Dmg/Cast: 152 | Dmg/Turn: 458 (x225 mana)
+    Total Dmg/5R:  475
+    Total Dmg/10R: 803
     Mana: 1843 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5430,16 +5430,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 40
-    Generic        : 43
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 83
+    Generic        : 41
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 84
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5466,7 +5466,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 952 = 83d4 (2 x 83) + 164(flat) + 7 x 83(Con)
@@ -5475,9 +5475,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  483
-    Total Dmg/10R: 811
+    Magic Dmg/Cast: 152 | Dmg/Turn: 458 (x225 mana)
+    Total Dmg/5R:  498
+    Total Dmg/10R: 826
     Mana: 1865 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5498,16 +5498,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 41
-    Generic        : 44
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 83
+    Generic        : 42
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 84
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5534,7 +5534,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 964 = 84d4 (2 x 84) + 166(flat) + 7 x 84(Con)
@@ -5543,9 +5543,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 145 | Dmg/Turn: 437 (x225 mana)
-    Total Dmg/5R:  491
-    Total Dmg/10R: 819
+    Magic Dmg/Cast: 152 | Dmg/Turn: 458 (x225 mana)
+    Total Dmg/5R:  509
+    Total Dmg/10R: 836
     Mana: 1888 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5566,16 +5566,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 10
     Fire           : 41
-    Generic        : 45
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 83
+    Generic        : 43
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 84
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5602,7 +5602,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1060 = 85d4 (2 x 85) + 168(flat) + 8 x 85(Con)
@@ -5634,16 +5634,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 42
-    Generic        : 45
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 85
+    Generic        : 43
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 86
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5670,7 +5670,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1073 = 86d4 (2 x 86) + 170(flat) + 8 x 86(Con)
@@ -5702,16 +5702,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 42
-    Generic        : 46
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 85
+    Generic        : 44
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 86
     Psychic        : -3
     Radiant        : 10
     Water          : 10
@@ -5738,7 +5738,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1085 = 87d4 (2 x 87) + 172(flat) + 8 x 87(Con)
@@ -5770,16 +5770,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 42
-    Generic        : 47
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 85
+    Generic        : 45
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 86
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -5806,7 +5806,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +30
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1098 = 88d4 (2 x 88) + 174(flat) + 8 x 88(Con)
@@ -5838,16 +5838,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 43
-    Generic        : 47
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 87
+    Generic        : 45
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 88
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -5874,7 +5874,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1110 = 89d4 (2 x 89) + 176(flat) + 8 x 89(Con)
@@ -5906,16 +5906,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 43
-    Generic        : 48
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 87
+    Generic        : 46
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 88
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -5942,7 +5942,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1123 = 90d4 (2 x 90) + 178(flat) + 8 x 90(Con)
@@ -5951,9 +5951,9 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 145 | Dmg/Turn: 510 (x225 mana)
-    Total Dmg/5R:  358
-    Total Dmg/10R: 740
+    Magic Dmg/Cast: 152 | Dmg/Turn: 535 (x225 mana)
+    Total Dmg/5R:  378
+    Total Dmg/10R: 761
     Mana: 2023 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5974,16 +5974,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 43
-    Generic        : 49
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 87
+    Generic        : 47
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 88
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -6010,7 +6010,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1135 = 91d4 (2 x 91) + 180(flat) + 8 x 91(Con)
@@ -6042,16 +6042,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 45
-    Generic        : 49
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 89
+    Generic        : 47
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 90
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -6078,7 +6078,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1148 = 92d4 (2 x 92) + 182(flat) + 8 x 92(Con)
@@ -6110,16 +6110,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 11
     Fire           : 45
-    Generic        : 50
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 89
+    Generic        : 48
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 90
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -6146,7 +6146,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +21
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 1160 = 93d4 (2 x 93) + 184(flat) + 8 x 93(Con)
@@ -6178,16 +6178,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 45
-    Generic        : 51
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 89
+    Generic        : 49
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 90
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -6214,7 +6214,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1173 = 94d4 (2 x 94) + 186(flat) + 8 x 94(Con)
@@ -6246,16 +6246,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 46
-    Generic        : 51
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 91
+    Generic        : 49
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 92
     Psychic        : -3
     Radiant        : 10
     Water          : 11
@@ -6282,7 +6282,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1185 = 95d4 (2 x 95) + 188(flat) + 8 x 95(Con)
@@ -6314,16 +6314,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 46
-    Generic        : 52
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 91
+    Generic        : 50
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 92
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6350,7 +6350,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1198 = 96d4 (2 x 96) + 190(flat) + 8 x 96(Con)
@@ -6382,16 +6382,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 46
-    Generic        : 53
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 91
+    Generic        : 51
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 92
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6418,7 +6418,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1210 = 97d4 (2 x 97) + 192(flat) + 8 x 97(Con)
@@ -6450,16 +6450,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 47
-    Generic        : 53
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 93
+    Generic        : 51
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 94
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6486,7 +6486,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1223 = 98d4 (2 x 98) + 194(flat) + 8 x 98(Con)
@@ -6518,16 +6518,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 47
-    Generic        : 54
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 93
+    Generic        : 52
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 94
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6554,7 +6554,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1235 = 99d4 (2 x 99) + 196(flat) + 8 x 99(Con)
@@ -6586,16 +6586,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 48
-    Generic        : 55
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 93
+    Generic        : 53
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 94
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6622,7 +6622,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1248 = 100d4 (2 x 100) + 198(flat) + 8 x 100(Con)
@@ -6654,16 +6654,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 12
     Fire           : 49
-    Generic        : 55
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 95
+    Generic        : 53
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 96
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6690,7 +6690,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1260 = 101d4 (2 x 101) + 200(flat) + 8 x 101(Con)
@@ -6722,16 +6722,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 49
-    Generic        : 56
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 95
+    Generic        : 54
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 96
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6758,7 +6758,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1273 = 102d4 (2 x 102) + 202(flat) + 8 x 102(Con)
@@ -6790,16 +6790,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 49
-    Generic        : 57
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 95
+    Generic        : 55
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 96
     Psychic        : -3
     Radiant        : 10
     Water          : 12
@@ -6826,7 +6826,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +35
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1285 = 103d4 (2 x 103) + 204(flat) + 8 x 103(Con)
@@ -6858,16 +6858,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 50
-    Generic        : 57
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 97
+    Generic        : 55
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 98
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -6894,7 +6894,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +35
-    To Hit: Magic: +23
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1298 = 104d4 (2 x 104) + 206(flat) + 8 x 104(Con)
@@ -6926,16 +6926,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 50
-    Generic        : 58
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 97
+    Generic        : 56
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 98
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -6962,7 +6962,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +35
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1310 = 105d4 (2 x 105) + 208(flat) + 8 x 105(Con)
@@ -6994,16 +6994,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 50
-    Generic        : 59
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 97
+    Generic        : 57
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 98
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -7030,7 +7030,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +36
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1323 = 106d4 (2 x 106) + 210(flat) + 8 x 106(Con)
@@ -7062,16 +7062,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 51
-    Generic        : 59
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 99
+    Generic        : 57
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 100
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -7098,7 +7098,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +36
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1335 = 107d4 (2 x 107) + 212(flat) + 8 x 107(Con)
@@ -7130,16 +7130,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 52
-    Generic        : 60
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 99
+    Generic        : 58
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 100
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -7166,7 +7166,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +36
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1348 = 108d4 (2 x 108) + 214(flat) + 8 x 108(Con)
@@ -7198,16 +7198,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 13
     Fire           : 52
-    Generic        : 61
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 99
+    Generic        : 59
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 100
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -7234,7 +7234,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +37
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1360 = 109d4 (2 x 109) + 216(flat) + 8 x 109(Con)
@@ -7266,16 +7266,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 53
-    Generic        : 61
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 101
+    Generic        : 59
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 102
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -7302,7 +7302,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +37
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1373 = 110d4 (2 x 110) + 218(flat) + 8 x 110(Con)
@@ -7334,16 +7334,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 53
-    Generic        : 62
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 101
+    Generic        : 60
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 102
     Psychic        : -3
     Radiant        : 10
     Water          : 13
@@ -7370,7 +7370,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 14  RP: 1
     Proficiency: +37
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1496 = 111d4 (2 x 111) + 220(flat) + 9 x 111(Con)
@@ -7402,16 +7402,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 53
-    Generic        : 63
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 101
+    Generic        : 61
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 102
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7438,7 +7438,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 14  RP: 1
     Proficiency: +38
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1510 = 112d4 (2 x 112) + 222(flat) + 9 x 112(Con)
@@ -7470,16 +7470,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 54
-    Generic        : 63
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 103
+    Generic        : 61
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 104
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7506,7 +7506,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +38
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1523 = 113d4 (2 x 113) + 224(flat) + 9 x 113(Con)
@@ -7538,16 +7538,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 54
-    Generic        : 64
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 103
+    Generic        : 62
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 104
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7574,7 +7574,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +38
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1537 = 114d4 (2 x 114) + 226(flat) + 9 x 114(Con)
@@ -7606,16 +7606,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 54
-    Generic        : 65
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 103
+    Generic        : 63
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 104
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7642,7 +7642,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +39
-    To Hit: Magic: +23
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 1550 = 115d4 (2 x 115) + 228(flat) + 9 x 115(Con)
@@ -7674,16 +7674,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 56
-    Generic        : 65
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 105
+    Generic        : 63
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 106
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7710,7 +7710,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +39
-    To Hit: Magic: +23
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 1564 = 116d4 (2 x 116) + 230(flat) + 9 x 116(Con)
@@ -7742,16 +7742,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 14
     Fire           : 56
-    Generic        : 66
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 105
+    Generic        : 64
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 106
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7778,7 +7778,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +39
-    To Hit: Magic: +23
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1577 = 117d4 (2 x 117) + 232(flat) + 9 x 117(Con)
@@ -7810,16 +7810,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 56
-    Generic        : 67
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 105
+    Generic        : 65
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 106
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7846,7 +7846,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +40
-    To Hit: Magic: +23
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1591 = 118d4 (2 x 118) + 234(flat) + 9 x 118(Con)
@@ -7878,16 +7878,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 57
-    Generic        : 67
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 107
+    Generic        : 65
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 108
     Psychic        : -3
     Radiant        : 10
     Water          : 14
@@ -7914,7 +7914,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +40
-    To Hit: Magic: +23
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1604 = 119d4 (2 x 119) + 236(flat) + 9 x 119(Con)
@@ -7946,16 +7946,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 57
-    Generic        : 68
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 107
+    Generic        : 66
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 108
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -7982,7 +7982,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +40
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1618 = 120d4 (2 x 120) + 238(flat) + 9 x 120(Con)
@@ -8014,16 +8014,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 57
-    Generic        : 69
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 107
+    Generic        : 67
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 108
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8050,7 +8050,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +41
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1631 = 121d4 (2 x 121) + 240(flat) + 9 x 121(Con)
@@ -8082,16 +8082,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 58
-    Generic        : 69
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 109
+    Generic        : 67
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 110
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8118,7 +8118,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +41
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1645 = 122d4 (2 x 122) + 242(flat) + 9 x 122(Con)
@@ -8150,16 +8150,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 58
-    Generic        : 70
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 109
+    Generic        : 68
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 110
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8186,7 +8186,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +41
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1658 = 123d4 (2 x 123) + 244(flat) + 9 x 123(Con)
@@ -8218,16 +8218,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 59
-    Generic        : 71
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 109
+    Generic        : 69
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 110
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8254,7 +8254,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +42
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1672 = 124d4 (2 x 124) + 246(flat) + 9 x 124(Con)
@@ -8286,16 +8286,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 15
     Fire           : 60
-    Generic        : 71
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 111
+    Generic        : 69
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 112
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8322,7 +8322,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +42
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1685 = 125d4 (2 x 125) + 248(flat) + 9 x 125(Con)
@@ -8354,16 +8354,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 60
-    Generic        : 72
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 111
+    Generic        : 70
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 112
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8390,7 +8390,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +42
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1699 = 126d4 (2 x 126) + 250(flat) + 9 x 126(Con)
@@ -8422,16 +8422,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 60
-    Generic        : 73
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 111
+    Generic        : 71
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 112
     Psychic        : -3
     Radiant        : 10
     Water          : 15
@@ -8458,7 +8458,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +43
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1712 = 127d4 (2 x 127) + 252(flat) + 9 x 127(Con)
@@ -8490,16 +8490,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 61
-    Generic        : 73
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 113
+    Generic        : 71
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 114
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8526,7 +8526,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +43
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1726 = 128d4 (2 x 128) + 254(flat) + 9 x 128(Con)
@@ -8558,16 +8558,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 61
-    Generic        : 74
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 113
+    Generic        : 72
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 114
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8594,7 +8594,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 17  RP: 1
     Proficiency: +43
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1739 = 129d4 (2 x 129) + 256(flat) + 9 x 129(Con)
@@ -8626,16 +8626,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 61
-    Generic        : 75
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 113
+    Generic        : 73
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 114
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8662,7 +8662,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 13  BAP: 17  RP: 1
     Proficiency: +44
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1883 = 130d4 (2 x 130) + 258(flat) + 10 x 130(Con)
@@ -8694,16 +8694,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 62
-    Generic        : 75
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 115
+    Generic        : 73
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 116
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8730,7 +8730,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +44
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1766 = 131d4 (2 x 131) + 260(flat) + 9 x 131(Con)
@@ -8762,16 +8762,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 63
-    Generic        : 76
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 115
+    Generic        : 74
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 116
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8798,7 +8798,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +44
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1780 = 132d4 (2 x 132) + 262(flat) + 9 x 132(Con)
@@ -8830,16 +8830,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 16
     Fire           : 63
-    Generic        : 77
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 115
+    Generic        : 75
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 116
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8866,7 +8866,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +45
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1793 = 133d4 (2 x 133) + 264(flat) + 9 x 133(Con)
@@ -8898,16 +8898,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 64
-    Generic        : 77
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 117
+    Generic        : 75
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 118
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -8934,7 +8934,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +45
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1807 = 134d4 (2 x 134) + 266(flat) + 9 x 134(Con)
@@ -8966,16 +8966,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 64
-    Generic        : 78
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 117
+    Generic        : 76
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 118
     Psychic        : -3
     Radiant        : 10
     Water          : 16
@@ -9002,7 +9002,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +45
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1820 = 135d4 (2 x 135) + 268(flat) + 9 x 135(Con)
@@ -9034,16 +9034,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 64
-    Generic        : 79
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 117
+    Generic        : 77
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 118
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9070,7 +9070,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +46
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1970 = 136d4 (2 x 136) + 270(flat) + 10 x 136(Con)
@@ -9102,16 +9102,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 65
-    Generic        : 79
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 119
+    Generic        : 77
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 120
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9138,7 +9138,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +46
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1984 = 137d4 (2 x 137) + 272(flat) + 10 x 137(Con)
@@ -9170,16 +9170,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 65
-    Generic        : 80
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 119
+    Generic        : 78
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 120
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9206,7 +9206,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +46
-    To Hit: Magic: +26
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1999 = 138d4 (2 x 138) + 274(flat) + 10 x 138(Con)
@@ -9238,16 +9238,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 65
-    Generic        : 81
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 119
+    Generic        : 79
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 120
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9274,7 +9274,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +47
-    To Hit: Magic: +26
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 2013 = 139d4 (2 x 139) + 276(flat) + 10 x 139(Con)
@@ -9306,16 +9306,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 67
-    Generic        : 81
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 121
+    Generic        : 79
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 122
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9342,7 +9342,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +47
-    To Hit: Magic: +26
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 2028 = 140d4 (2 x 140) + 278(flat) + 10 x 140(Con)
@@ -9374,16 +9374,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 17
     Fire           : 67
-    Generic        : 82
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 121
+    Generic        : 80
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 122
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9410,7 +9410,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +47
-    To Hit: Magic: +26
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 2042 = 141d4 (2 x 141) + 280(flat) + 10 x 141(Con)
@@ -9442,16 +9442,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 67
-    Generic        : 83
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 121
+    Generic        : 81
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 122
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9478,7 +9478,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +48
-    To Hit: Magic: +26
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 2057 = 142d4 (2 x 142) + 282(flat) + 10 x 142(Con)
@@ -9510,16 +9510,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 68
-    Generic        : 83
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 123
+    Generic        : 81
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 124
     Psychic        : -3
     Radiant        : 10
     Water          : 17
@@ -9546,7 +9546,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +48
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2071 = 143d4 (2 x 143) + 284(flat) + 10 x 143(Con)
@@ -9578,16 +9578,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 68
-    Generic        : 84
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 123
+    Generic        : 82
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 124
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -9614,7 +9614,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +48
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2086 = 144d4 (2 x 144) + 286(flat) + 10 x 144(Con)
@@ -9646,16 +9646,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 68
-    Generic        : 85
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 123
+    Generic        : 83
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 124
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -9682,7 +9682,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +49
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2100 = 145d4 (2 x 145) + 288(flat) + 10 x 145(Con)
@@ -9714,16 +9714,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 69
-    Generic        : 85
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 125
+    Generic        : 83
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 126
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -9750,7 +9750,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +49
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2115 = 146d4 (2 x 146) + 290(flat) + 10 x 146(Con)
@@ -9782,16 +9782,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 69
-    Generic        : 86
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 125
+    Generic        : 84
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 126
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -9818,7 +9818,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +49
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2129 = 147d4 (2 x 147) + 292(flat) + 10 x 147(Con)
@@ -9850,16 +9850,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 70
-    Generic        : 87
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 125
+    Generic        : 85
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 126
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -9886,7 +9886,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +50
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2144 = 148d4 (2 x 148) + 294(flat) + 10 x 148(Con)
@@ -9918,16 +9918,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 18
     Fire           : 71
-    Generic        : 87
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 127
+    Generic        : 85
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 128
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -9954,7 +9954,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +50
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2158 = 149d4 (2 x 149) + 296(flat) + 10 x 149(Con)
@@ -9986,16 +9986,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 71
-    Generic        : 88
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 127
+    Generic        : 86
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 128
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -10022,7 +10022,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +50
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2173 = 150d4 (2 x 150) + 298(flat) + 10 x 150(Con)
@@ -10054,16 +10054,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 71
-    Generic        : 89
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 127
+    Generic        : 87
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 128
     Psychic        : -3
     Radiant        : 10
     Water          : 18
@@ -10090,7 +10090,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 19  RP: 1
     Proficiency: +51
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2187 = 151d4 (2 x 151) + 300(flat) + 10 x 151(Con)
@@ -10122,16 +10122,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 72
-    Generic        : 89
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 129
+    Generic        : 87
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 130
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10158,7 +10158,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 19  RP: 1
     Proficiency: +51
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2202 = 152d4 (2 x 152) + 302(flat) + 10 x 152(Con)
@@ -10190,16 +10190,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 72
-    Generic        : 90
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 129
+    Generic        : 88
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 130
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10226,7 +10226,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +51
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2216 = 153d4 (2 x 153) + 304(flat) + 10 x 153(Con)
@@ -10258,16 +10258,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 72
-    Generic        : 91
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 129
+    Generic        : 89
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 130
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10294,7 +10294,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +52
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2231 = 154d4 (2 x 154) + 306(flat) + 10 x 154(Con)
@@ -10326,16 +10326,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 73
-    Generic        : 91
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 131
+    Generic        : 89
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 132
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10362,7 +10362,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +52
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2245 = 155d4 (2 x 155) + 308(flat) + 10 x 155(Con)
@@ -10394,16 +10394,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 74
-    Generic        : 92
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 131
+    Generic        : 90
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 132
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10430,7 +10430,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +52
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2260 = 156d4 (2 x 156) + 310(flat) + 10 x 156(Con)
@@ -10462,16 +10462,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 19
     Fire           : 74
-    Generic        : 93
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 131
+    Generic        : 91
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 132
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10498,7 +10498,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +53
-    To Hit: Magic: +27
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2431 = 157d4 (2 x 157) + 312(flat) + 11 x 157(Con)
@@ -10530,16 +10530,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 75
-    Generic        : 93
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 133
+    Generic        : 91
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 134
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10566,7 +10566,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +53
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2447 = 158d4 (2 x 158) + 314(flat) + 11 x 158(Con)
@@ -10598,16 +10598,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 75
-    Generic        : 94
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 133
+    Generic        : 92
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 134
     Psychic        : -3
     Radiant        : 10
     Water          : 19
@@ -10634,7 +10634,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +53
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2462 = 159d4 (2 x 159) + 316(flat) + 11 x 159(Con)
@@ -10666,16 +10666,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 75
-    Generic        : 95
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 133
+    Generic        : 93
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 134
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -10702,7 +10702,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +54
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2478 = 160d4 (2 x 160) + 318(flat) + 11 x 160(Con)
@@ -10734,16 +10734,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 76
-    Generic        : 95
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 135
+    Generic        : 93
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 136
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -10770,7 +10770,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +54
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2332 = 161d4 (2 x 161) + 320(flat) + 10 x 161(Con)
@@ -10802,16 +10802,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 76
-    Generic        : 96
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 135
+    Generic        : 94
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 136
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -10838,7 +10838,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +54
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2347 = 162d4 (2 x 162) + 322(flat) + 10 x 162(Con)
@@ -10870,16 +10870,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 76
-    Generic        : 97
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 135
+    Generic        : 95
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 136
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -10906,7 +10906,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +55
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2524 = 163d4 (2 x 163) + 324(flat) + 11 x 163(Con)
@@ -10938,16 +10938,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 78
-    Generic        : 97
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 137
+    Generic        : 95
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 138
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -10974,7 +10974,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +55
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2540 = 164d4 (2 x 164) + 326(flat) + 11 x 164(Con)
@@ -11006,16 +11006,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 20
     Fire           : 78
-    Generic        : 98
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 137
+    Generic        : 96
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 138
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -11042,7 +11042,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +55
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2555 = 165d4 (2 x 165) + 328(flat) + 11 x 165(Con)
@@ -11074,16 +11074,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 78
-    Generic        : 99
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 137
+    Generic        : 97
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 138
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -11110,7 +11110,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +56
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2571 = 166d4 (2 x 166) + 330(flat) + 11 x 166(Con)
@@ -11142,16 +11142,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 79
-    Generic        : 99
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 139
+    Generic        : 97
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 140
     Psychic        : -3
     Radiant        : 10
     Water          : 20
@@ -11178,7 +11178,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +56
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2586 = 167d4 (2 x 167) + 332(flat) + 11 x 167(Con)
@@ -11210,16 +11210,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 79
-    Generic        : 100
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 139
+    Generic        : 98
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 140
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11246,7 +11246,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +56
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2602 = 168d4 (2 x 168) + 334(flat) + 11 x 168(Con)
@@ -11278,16 +11278,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 79
-    Generic        : 101
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 139
+    Generic        : 99
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 140
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11314,7 +11314,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 22  RP: 1
     Proficiency: +57
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2617 = 169d4 (2 x 169) + 336(flat) + 11 x 169(Con)
@@ -11346,16 +11346,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 80
-    Generic        : 101
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 141
+    Generic        : 99
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 142
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11382,7 +11382,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 17  BAP: 22  RP: 1
     Proficiency: +57
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2633 = 170d4 (2 x 170) + 338(flat) + 11 x 170(Con)
@@ -11414,16 +11414,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 80
-    Generic        : 102
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 141
+    Generic        : 100
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 142
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11450,7 +11450,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +57
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2648 = 171d4 (2 x 171) + 340(flat) + 11 x 171(Con)
@@ -11482,16 +11482,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 81
-    Generic        : 103
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 141
+    Generic        : 101
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 142
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11518,7 +11518,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +58
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2664 = 172d4 (2 x 172) + 342(flat) + 11 x 172(Con)
@@ -11550,16 +11550,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 21
     Fire           : 82
-    Generic        : 103
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 143
+    Generic        : 101
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 144
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11586,7 +11586,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +58
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2679 = 173d4 (2 x 173) + 344(flat) + 11 x 173(Con)
@@ -11618,16 +11618,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 82
-    Generic        : 104
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 143
+    Generic        : 102
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 144
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11654,7 +11654,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +58
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2695 = 174d4 (2 x 174) + 346(flat) + 11 x 174(Con)
@@ -11686,16 +11686,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 82
-    Generic        : 105
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 143
+    Generic        : 103
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 144
     Psychic        : -3
     Radiant        : 10
     Water          : 21
@@ -11722,7 +11722,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +59
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2710 = 175d4 (2 x 175) + 348(flat) + 11 x 175(Con)
@@ -11754,16 +11754,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 83
-    Generic        : 105
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 145
+    Generic        : 103
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 146
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -11790,7 +11790,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +59
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2726 = 176d4 (2 x 176) + 350(flat) + 11 x 176(Con)
@@ -11822,16 +11822,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 83
-    Generic        : 106
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 145
+    Generic        : 104
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 146
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -11858,7 +11858,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +59
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2741 = 177d4 (2 x 177) + 352(flat) + 11 x 177(Con)
@@ -11890,16 +11890,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 83
-    Generic        : 107
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 145
+    Generic        : 105
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 146
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -11926,7 +11926,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +60
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2757 = 178d4 (2 x 178) + 354(flat) + 11 x 178(Con)
@@ -11958,16 +11958,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 84
-    Generic        : 107
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 147
+    Generic        : 105
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 148
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -11994,7 +11994,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +60
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2772 = 179d4 (2 x 179) + 356(flat) + 11 x 179(Con)
@@ -12026,16 +12026,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 85
-    Generic        : 108
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 147
+    Generic        : 106
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 148
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -12062,7 +12062,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +60
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2788 = 180d4 (2 x 180) + 358(flat) + 11 x 180(Con)
@@ -12094,16 +12094,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 22
     Fire           : 85
-    Generic        : 109
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 147
+    Generic        : 107
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 148
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -12130,7 +12130,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +61
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2803 = 181d4 (2 x 181) + 360(flat) + 11 x 181(Con)
@@ -12162,16 +12162,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 86
-    Generic        : 109
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 149
+    Generic        : 107
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 150
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -12198,7 +12198,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +61
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2819 = 182d4 (2 x 182) + 362(flat) + 11 x 182(Con)
@@ -12230,16 +12230,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 86
-    Generic        : 110
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 149
+    Generic        : 108
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 150
     Psychic        : -3
     Radiant        : 10
     Water          : 22
@@ -12266,7 +12266,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +61
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2834 = 183d4 (2 x 183) + 364(flat) + 11 x 183(Con)
@@ -12298,16 +12298,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 86
-    Generic        : 111
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 149
+    Generic        : 109
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 150
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12334,7 +12334,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +62
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2850 = 184d4 (2 x 184) + 366(flat) + 11 x 184(Con)
@@ -12366,16 +12366,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 87
-    Generic        : 111
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 151
+    Generic        : 109
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 152
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12402,7 +12402,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +62
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2865 = 185d4 (2 x 185) + 368(flat) + 11 x 185(Con)
@@ -12434,16 +12434,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 87
-    Generic        : 112
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 151
+    Generic        : 110
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 152
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12470,7 +12470,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +62
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2881 = 186d4 (2 x 186) + 370(flat) + 11 x 186(Con)
@@ -12502,16 +12502,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 87
-    Generic        : 113
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 151
+    Generic        : 111
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 152
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12538,7 +12538,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +63
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2896 = 187d4 (2 x 187) + 372(flat) + 11 x 187(Con)
@@ -12570,16 +12570,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 89
-    Generic        : 113
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 153
+    Generic        : 111
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 154
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12606,7 +12606,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +63
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2912 = 188d4 (2 x 188) + 374(flat) + 11 x 188(Con)
@@ -12638,16 +12638,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 23
     Fire           : 89
-    Generic        : 114
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 153
+    Generic        : 112
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 154
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12674,7 +12674,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +63
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2927 = 189d4 (2 x 189) + 376(flat) + 11 x 189(Con)
@@ -12706,16 +12706,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 89
-    Generic        : 115
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 153
+    Generic        : 113
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 154
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12742,7 +12742,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +64
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2943 = 190d4 (2 x 190) + 378(flat) + 11 x 190(Con)
@@ -12774,16 +12774,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 90
-    Generic        : 115
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 155
+    Generic        : 113
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 156
     Psychic        : -3
     Radiant        : 10
     Water          : 23
@@ -12810,7 +12810,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 24  RP: 1
     Proficiency: +64
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2958 = 191d4 (2 x 191) + 380(flat) + 11 x 191(Con)
@@ -12842,16 +12842,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 90
-    Generic        : 116
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 155
+    Generic        : 114
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 156
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -12878,7 +12878,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 24  RP: 1
     Proficiency: +64
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2974 = 192d4 (2 x 192) + 382(flat) + 11 x 192(Con)
@@ -12910,16 +12910,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 90
-    Generic        : 117
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 155
+    Generic        : 115
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 156
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -12946,7 +12946,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +65
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3182 = 193d4 (2 x 193) + 384(flat) + 12 x 193(Con)
@@ -12978,16 +12978,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 91
-    Generic        : 117
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 157
+    Generic        : 115
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 158
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -13014,7 +13014,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +65
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3199 = 194d4 (2 x 194) + 386(flat) + 12 x 194(Con)
@@ -13046,16 +13046,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 91
-    Generic        : 118
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 157
+    Generic        : 116
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 158
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -13082,7 +13082,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +65
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3215 = 195d4 (2 x 195) + 388(flat) + 12 x 195(Con)
@@ -13114,16 +13114,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 92
-    Generic        : 119
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 157
+    Generic        : 117
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 158
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -13150,7 +13150,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +66
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3232 = 196d4 (2 x 196) + 390(flat) + 12 x 196(Con)
@@ -13182,16 +13182,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 24
     Fire           : 93
-    Generic        : 119
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 159
+    Generic        : 117
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 160
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -13218,7 +13218,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +66
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3248 = 197d4 (2 x 197) + 392(flat) + 12 x 197(Con)
@@ -13250,16 +13250,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 25
     Fire           : 93
-    Generic        : 120
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 159
+    Generic        : 118
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 160
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -13286,7 +13286,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +66
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3265 = 198d4 (2 x 198) + 394(flat) + 12 x 198(Con)
@@ -13318,16 +13318,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 25
     Fire           : 93
-    Generic        : 121
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 159
+    Generic        : 119
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 160
     Psychic        : -3
     Radiant        : 10
     Water          : 24
@@ -13354,7 +13354,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +67
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3281 = 199d4 (2 x 199) + 396(flat) + 12 x 199(Con)
@@ -13386,16 +13386,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 25
     Fire           : 94
-    Generic        : 121
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 161
+    Generic        : 119
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 162
     Psychic        : -3
     Radiant        : 10
     Water          : 25
@@ -13422,7 +13422,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +67
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3298 = 200d4 (2 x 200) + 398(flat) + 12 x 200(Con)
@@ -13454,16 +13454,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 25
     Fire           : 94
-    Generic        : 122
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 161
+    Generic        : 120
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 162
     Psychic        : -3
     Radiant        : 10
     Water          : 25
@@ -13490,7 +13490,7 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
     Speed: 25 ft
     AP: 21  BAP: 26  RP: 1
     Proficiency: +67
-    To Hit: Magic: +30
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3314 = 201d4 (2 x 201) + 400(flat) + 12 x 201(Con)
@@ -13522,16 +13522,16 @@ EYUM TTRPG - AFFINITY: NOVA MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Ash            : 1
-    Bloodfire      : 1
+    Ash            : 2
+    Bloodfire      : 2
     Cold           : -3
     Earth          : 25
     Fire           : 94
-    Generic        : 123
-    Infernal       : 6
-    Lightning      : 1
-    Magma          : 1
-    Nova           : 161
+    Generic        : 121
+    Infernal       : 7
+    Lightning      : 2
+    Magma          : 2
+    Nova           : 162
     Psychic        : -3
     Radiant        : 10
     Water          : 25

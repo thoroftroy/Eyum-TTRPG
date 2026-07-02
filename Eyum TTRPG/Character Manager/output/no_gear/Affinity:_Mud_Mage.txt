@@ -145,8 +145,8 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 1 (x6 mana)
-    Total Dmg/5R:  5
-    Total Dmg/10R: 12
+    Total Dmg/5R:  6
+    Total Dmg/10R: 13
     Mana: 30 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -206,8 +206,8 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 5 (x10 mana)
-    Total Dmg/5R:  26
-    Total Dmg/10R: 39
+    Total Dmg/5R:  23
+    Total Dmg/10R: 34
     Mana: 42 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -267,8 +267,8 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 5 (x10 mana)
-    Total Dmg/5R:  29
-    Total Dmg/10R: 42
+    Total Dmg/5R:  27
+    Total Dmg/10R: 37
     Mana: 51 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -328,8 +328,8 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 5 (x10 mana)
-    Total Dmg/5R:  29
-    Total Dmg/10R: 49
+    Total Dmg/5R:  25
+    Total Dmg/10R: 42
     Mana: 71 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -389,8 +389,8 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
   DAMAGE:
     Attacks/Turn: 1
     Magic Dmg/Cast: 5 (x10 mana)
-    Total Dmg/5R:  29
-    Total Dmg/10R: 55
+    Total Dmg/5R:  25
+    Total Dmg/10R: 48
     Mana: 90 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -440,7 +440,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 1  BAP: 2  RP: 1
     Proficiency: +3
-    To Hit: Magic: +4
+    To Hit: Magic: +5
 
   HEALTH POOLS:
     Vitality: 56 = 9d4 (2 x 9) + 16(flat) + 2 x 9(Con)
@@ -449,9 +449,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 2 | Dmg/Turn: 5 (x6 mana)
-    Total Dmg/5R:  26
-    Total Dmg/10R: 53
+    Magic Dmg/Cast: 2 | Dmg/Turn: 4 (x6 mana)
+    Total Dmg/5R:  24
+    Total Dmg/10R: 47
     Mana: 101 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -511,9 +511,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 14 | Dmg/Turn: 29 (x13 mana)
-    Total Dmg/5R:  131
-    Total Dmg/10R: 173
+    Magic Dmg/Cast: 13 | Dmg/Turn: 26 (x13 mana)
+    Total Dmg/5R:  119
+    Total Dmg/10R: 151
     Mana: 123 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -573,9 +573,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 15 | Dmg/Turn: 31 (x13 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 224
+    Magic Dmg/Cast: 13 | Dmg/Turn: 27 (x13 mana)
+    Total Dmg/5R:  139
+    Total Dmg/10R: 187
     Mana: 146 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -635,9 +635,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 15 | Dmg/Turn: 31 (x13 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 240
+    Magic Dmg/Cast: 13 | Dmg/Turn: 27 (x13 mana)
+    Total Dmg/5R:  139
+    Total Dmg/10R: 201
     Mana: 160 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -697,9 +697,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 15 | Dmg/Turn: 31 (x13 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 244
+    Magic Dmg/Cast: 13 | Dmg/Turn: 27 (x13 mana)
+    Total Dmg/5R:  139
+    Total Dmg/10R: 207
     Mana: 173 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -720,12 +720,12 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Dust           : 1
+    Dust           : 2
     Earth          : 16
     Fire           : -1
     Generic        : 2
-    Metal          : 1
-    Mud            : 15
+    Metal          : 2
+    Mud            : 16
     Necrotic       : -3
     Radiant        : 3
     Water          : 10
@@ -761,9 +761,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 17 | Dmg/Turn: 34 (x13 mana)
-    Total Dmg/5R:  172
-    Total Dmg/10R: 314
+    Magic Dmg/Cast: 13 | Dmg/Turn: 27 (x13 mana)
+    Total Dmg/5R:  139
+    Total Dmg/10R: 254
     Mana: 243 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -784,12 +784,12 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Dust           : 1
+    Dust           : 2
     Earth          : 16
     Fire           : -1
     Generic        : 2
-    Metal          : 1
-    Mud            : 15
+    Metal          : 2
+    Mud            : 16
     Necrotic       : -3
     Radiant        : 3
     Water          : 10
@@ -825,9 +825,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 17 | Dmg/Turn: 34 (x13 mana)
-    Total Dmg/5R:  172
-    Total Dmg/10R: 344
+    Magic Dmg/Cast: 13 | Dmg/Turn: 27 (x13 mana)
+    Total Dmg/5R:  139
+    Total Dmg/10R: 279
     Mana: 260 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -848,12 +848,12 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Dust           : 1
+    Dust           : 2
     Earth          : 16
     Fire           : -1
     Generic        : 3
-    Metal          : 1
-    Mud            : 16
+    Metal          : 2
+    Mud            : 17
     Necrotic       : -3
     Radiant        : 3
     Water          : 10
@@ -880,7 +880,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 2  BAP: 2  RP: 1
     Proficiency: +6
-    To Hit: Magic: +5
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 118 = 16d4 (2 x 16) + 30(flat) + 3 x 16(Con)
@@ -889,9 +889,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 15 | Dmg/Turn: 31 (x13 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 318
+    Magic Dmg/Cast: 13 | Dmg/Turn: 27 (x13 mana)
+    Total Dmg/5R:  139
+    Total Dmg/10R: 279
     Mana: 294 start, 34 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -912,16 +912,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 1
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 16
     Fire           : -1
     Generic        : 3
-    Metal          : 1
-    Mud            : 18
+    Metal          : 2
+    Mud            : 19
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -947,7 +947,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +5
+    To Hit: Magic: +6
 
   HEALTH POOLS:
     Vitality: 125 = 17d4 (2 x 17) + 32(flat) + 3 x 17(Con)
@@ -956,9 +956,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 31 | Dmg/Turn: 63 (x52 mana)
-    Total Dmg/5R:  218
-    Total Dmg/10R: 287
+    Magic Dmg/Cast: 27 | Dmg/Turn: 55 (x52 mana)
+    Total Dmg/5R:  184
+    Total Dmg/10R: 226
     Mana: 312 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -979,16 +979,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 16
     Fire           : -1
     Generic        : 3
-    Metal          : 1
-    Mud            : 18
+    Metal          : 2
+    Mud            : 19
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1014,7 +1014,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 2  BAP: 3  RP: 1
     Proficiency: +6
-    To Hit: Magic: +6
+    To Hit: Magic: +7
 
   HEALTH POOLS:
     Vitality: 133 = 18d4 (2 x 18) + 34(flat) + 3 x 18(Con)
@@ -1023,9 +1023,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x52 mana)
-    Total Dmg/5R:  227
-    Total Dmg/10R: 301
+    Magic Dmg/Cast: 30 | Dmg/Turn: 60 (x52 mana)
+    Total Dmg/5R:  198
+    Total Dmg/10R: 244
     Mana: 331 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1046,16 +1046,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 16
     Fire           : -1
     Generic        : 4
-    Metal          : 1
-    Mud            : 18
+    Metal          : 2
+    Mud            : 19
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1090,10 +1090,10 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 37 | Dmg/Turn: 74 (x52 mana)
-    Total Dmg/5R:  262
-    Total Dmg/10R: 341
-    Mana: 349 start, 0 after 10R (cast magic 10/10 rounds)
+    Magic Dmg/Cast: 16 | Dmg/Turn: 32 (x136 mana)
+    Total Dmg/5R:  68
+    Total Dmg/10R: 114
+    Mana: 349 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1113,16 +1113,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 17
     Fire           : 0
     Generic        : 4
-    Metal          : 1
-    Mud            : 20
+    Metal          : 2
+    Mud            : 21
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1157,9 +1157,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 27 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  95
-    Total Dmg/10R: 181
+    Magic Dmg/Cast: 34 | Dmg/Turn: 34 (x232 mana)
+    Total Dmg/5R:  98
+    Total Dmg/10R: 147
     Mana: 368 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1180,16 +1180,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 17
     Fire           : 0
     Generic        : 4
-    Metal          : 1
-    Mud            : 30
+    Metal          : 2
+    Mud            : 31
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1215,7 +1215,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +7
-    To Hit: Magic: +8
+    To Hit: Magic: +9
 
   HEALTH POOLS:
     Vitality: 176 = 21d4 (2 x 21) + 40(flat) + 4 x 21(Con)
@@ -1224,9 +1224,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 32 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  115
-    Total Dmg/10R: 201
+    Magic Dmg/Cast: 39 | Dmg/Turn: 39 (x232 mana)
+    Total Dmg/5R:  118
+    Total Dmg/10R: 170
     Mana: 407 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1247,16 +1247,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 18
     Fire           : 0
     Generic        : 5
-    Metal          : 1
-    Mud            : 30
+    Metal          : 2
+    Mud            : 31
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1291,9 +1291,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 27 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  92
-    Total Dmg/10R: 184
+    Magic Dmg/Cast: 34 | Dmg/Turn: 34 (x232 mana)
+    Total Dmg/5R:  106
+    Total Dmg/10R: 158
     Mana: 427 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1314,16 +1314,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 19
     Fire           : 0
     Generic        : 5
-    Metal          : 1
-    Mud            : 32
+    Metal          : 2
+    Mud            : 33
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1349,7 +1349,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 216 = 23d4 (2 x 23) + 44(flat) + 5 x 23(Con)
@@ -1358,9 +1358,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 27 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  80
-    Total Dmg/10R: 172
+    Magic Dmg/Cast: 34 | Dmg/Turn: 34 (x232 mana)
+    Total Dmg/5R:  100
+    Total Dmg/10R: 156
     Mana: 446 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1381,16 +1381,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 19
     Fire           : 0
     Generic        : 5
-    Metal          : 1
-    Mud            : 33
+    Metal          : 2
+    Mud            : 34
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1416,7 +1416,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 3  RP: 1
     Proficiency: +8
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 226 = 24d4 (2 x 24) + 46(flat) + 5 x 24(Con)
@@ -1425,9 +1425,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 27 | Dmg/Turn: 54 (x232 mana)
-    Total Dmg/5R:  127
-    Total Dmg/10R: 219
+    Magic Dmg/Cast: 39 | Dmg/Turn: 78 (x232 mana)
+    Total Dmg/5R:  122
+    Total Dmg/10R: 177
     Mana: 466 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1448,16 +1448,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 2
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 19
     Fire           : 0
     Generic        : 6
-    Metal          : 1
-    Mud            : 33
+    Metal          : 2
+    Mud            : 34
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1483,7 +1483,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 235 = 25d4 (2 x 25) + 48(flat) + 5 x 25(Con)
@@ -1492,9 +1492,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  122
-    Total Dmg/10R: 260
+    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x232 mana)
+    Total Dmg/5R:  123
+    Total Dmg/10R: 206
     Mana: 485 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1515,16 +1515,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 20
     Fire           : 0
     Generic        : 6
-    Metal          : 1
-    Mud            : 35
+    Metal          : 2
+    Mud            : 36
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1550,7 +1550,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +9
+    To Hit: Magic: +10
 
   HEALTH POOLS:
     Vitality: 245 = 26d4 (2 x 26) + 50(flat) + 5 x 26(Con)
@@ -1559,9 +1559,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  109
-    Total Dmg/10R: 246
+    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x232 mana)
+    Total Dmg/5R:  116
+    Total Dmg/10R: 199
     Mana: 505 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1582,16 +1582,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 20
     Fire           : 0
     Generic        : 6
-    Metal          : 1
-    Mud            : 35
+    Metal          : 2
+    Mud            : 36
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1617,7 +1617,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +9
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 254 = 27d4 (2 x 27) + 52(flat) + 5 x 27(Con)
@@ -1626,9 +1626,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  141
-    Total Dmg/10R: 288
+    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x232 mana)
+    Total Dmg/5R:  138
+    Total Dmg/10R: 226
     Mana: 524 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1649,16 +1649,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 20
     Fire           : 1
     Generic        : 7
-    Metal          : 1
-    Mud            : 35
+    Metal          : 2
+    Mud            : 36
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1684,7 +1684,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 264 = 28d4 (2 x 28) + 54(flat) + 5 x 28(Con)
@@ -1693,9 +1693,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 16 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  94
-    Total Dmg/10R: 241
+    Magic Dmg/Cast: 34 | Dmg/Turn: 68 (x232 mana)
+    Total Dmg/5R:  126
+    Total Dmg/10R: 214
     Mana: 544 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1716,16 +1716,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 21
     Fire           : 1
     Generic        : 7
-    Metal          : 1
-    Mud            : 37
+    Metal          : 2
+    Mud            : 38
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1751,7 +1751,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 273 = 29d4 (2 x 29) + 56(flat) + 5 x 29(Con)
@@ -1760,9 +1760,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  93
-    Total Dmg/10R: 240
+    Magic Dmg/Cast: 36 | Dmg/Turn: 72 (x232 mana)
+    Total Dmg/5R:  133
+    Total Dmg/10R: 262
     Mana: 563 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1783,16 +1783,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 22
     Fire           : 1
-    Generic        : 8
-    Metal          : 1
-    Mud            : 37
+    Generic        : 7
+    Metal          : 2
+    Mud            : 38
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1818,7 +1818,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 3  BAP: 4  RP: 1
     Proficiency: +10
-    To Hit: Magic: +10
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 283 = 30d4 (2 x 30) + 58(flat) + 5 x 30(Con)
@@ -1827,9 +1827,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  152
-    Total Dmg/10R: 299
+    Magic Dmg/Cast: 41 | Dmg/Turn: 83 (x232 mana)
+    Total Dmg/5R:  201
+    Total Dmg/10R: 330
     Mana: 583 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1850,16 +1850,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 22
     Fire           : 1
-    Generic        : 9
-    Metal          : 1
-    Mud            : 37
+    Generic        : 8
+    Metal          : 2
+    Mud            : 38
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1894,9 +1894,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  122
-    Total Dmg/10R: 278
+    Magic Dmg/Cast: 36 | Dmg/Turn: 72 (x232 mana)
+    Total Dmg/5R:  161
+    Total Dmg/10R: 290
     Mana: 602 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1917,16 +1917,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 23
     Fire           : 1
-    Generic        : 9
-    Metal          : 1
-    Mud            : 40
+    Generic        : 8
+    Metal          : 2
+    Mud            : 41
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -1952,7 +1952,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 4  RP: 1
     Proficiency: +11
-    To Hit: Magic: +12
+    To Hit: Magic: +11
 
   HEALTH POOLS:
     Vitality: 302 = 32d4 (2 x 32) + 62(flat) + 5 x 32(Con)
@@ -1961,9 +1961,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  108
-    Total Dmg/10R: 272
+    Magic Dmg/Cast: 37 | Dmg/Turn: 75 (x232 mana)
+    Total Dmg/5R:  163
+    Total Dmg/10R: 318
     Mana: 622 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1984,16 +1984,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 3
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 23
     Fire           : 1
-    Generic        : 10
-    Metal          : 1
-    Mud            : 40
+    Generic        : 8
+    Metal          : 2
+    Mud            : 41
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2028,9 +2028,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  173
-    Total Dmg/10R: 337
+    Magic Dmg/Cast: 37 | Dmg/Turn: 75 (x232 mana)
+    Total Dmg/5R:  230
+    Total Dmg/10R: 394
     Mana: 641 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2051,16 +2051,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 23
     Fire           : 1
-    Generic        : 11
-    Metal          : 1
-    Mud            : 40
+    Generic        : 9
+    Metal          : 2
+    Mud            : 41
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2086,7 +2086,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +12
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 321 = 34d4 (2 x 34) + 66(flat) + 5 x 34(Con)
@@ -2095,9 +2095,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 16 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  88
-    Total Dmg/10R: 243
+    Magic Dmg/Cast: 32 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  154
+    Total Dmg/10R: 318
     Mana: 695 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2118,16 +2118,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 24
     Fire           : 1
-    Generic        : 11
-    Metal          : 1
-    Mud            : 42
+    Generic        : 9
+    Metal          : 2
+    Mud            : 43
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2153,7 +2153,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +12
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 330 = 35d4 (2 x 35) + 68(flat) + 5 x 35(Con)
@@ -2162,9 +2162,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 64 (x232 mana)
-    Total Dmg/5R:  153
-    Total Dmg/10R: 309
+    Magic Dmg/Cast: 32 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  192
+    Total Dmg/10R: 356
     Mana: 715 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2185,16 +2185,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 24
     Fire           : 2
-    Generic        : 12
-    Metal          : 1
-    Mud            : 42
+    Generic        : 10
+    Metal          : 2
+    Mud            : 43
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2220,7 +2220,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +12
-    To Hit: Magic: +12
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 340 = 36d4 (2 x 36) + 70(flat) + 5 x 36(Con)
@@ -2229,9 +2229,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 21 | Dmg/Turn: 64 (x232 mana)
-    Total Dmg/5R:  137
-    Total Dmg/10R: 292
+    Magic Dmg/Cast: 37 | Dmg/Turn: 113 (x232 mana)
+    Total Dmg/5R:  197
+    Total Dmg/10R: 361
     Mana: 736 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2252,16 +2252,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 24
     Fire           : 2
-    Generic        : 13
-    Metal          : 1
-    Mud            : 42
+    Generic        : 11
+    Metal          : 2
+    Mud            : 43
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2287,7 +2287,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +12
+    To Hit: Magic: +13
 
   HEALTH POOLS:
     Vitality: 349 = 37d4 (2 x 37) + 72(flat) + 5 x 37(Con)
@@ -2296,9 +2296,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x232 mana)
-    Total Dmg/5R:  136
-    Total Dmg/10R: 292
+    Magic Dmg/Cast: 37 | Dmg/Turn: 113 (x232 mana)
+    Total Dmg/5R:  209
+    Total Dmg/10R: 373
     Mana: 719 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2319,16 +2319,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 26
     Fire           : 2
-    Generic        : 13
-    Metal          : 1
-    Mud            : 44
+    Generic        : 11
+    Metal          : 2
+    Mud            : 45
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2363,9 +2363,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x232 mana)
-    Total Dmg/5R:  122
-    Total Dmg/10R: 285
+    Magic Dmg/Cast: 37 | Dmg/Turn: 113 (x232 mana)
+    Total Dmg/5R:  197
+    Total Dmg/10R: 361
     Mana: 739 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2386,16 +2386,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 26
     Fire           : 2
-    Generic        : 14
-    Metal          : 1
-    Mud            : 44
+    Generic        : 12
+    Metal          : 2
+    Mud            : 45
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2421,7 +2421,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +13
-    To Hit: Magic: +13
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 368 = 39d4 (2 x 39) + 76(flat) + 5 x 39(Con)
@@ -2430,9 +2430,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x232 mana)
-    Total Dmg/5R:  155
-    Total Dmg/10R: 318
+    Magic Dmg/Cast: 37 | Dmg/Turn: 113 (x232 mana)
+    Total Dmg/5R:  230
+    Total Dmg/10R: 394
     Mana: 758 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2453,16 +2453,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 26
     Fire           : 2
-    Generic        : 15
-    Metal          : 1
-    Mud            : 45
+    Generic        : 13
+    Metal          : 2
+    Mud            : 46
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2488,7 +2488,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 4  BAP: 5  RP: 1
     Proficiency: +14
-    To Hit: Magic: +13
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 378 = 40d4 (2 x 40) + 78(flat) + 5 x 40(Con)
@@ -2497,9 +2497,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 10 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  81
-    Total Dmg/10R: 245
+    Magic Dmg/Cast: 32 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  160
+    Total Dmg/10R: 324
     Mana: 778 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2520,16 +2520,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 4
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 27
     Fire           : 2
-    Generic        : 15
-    Metal          : 1
-    Mud            : 47
+    Generic        : 13
+    Metal          : 2
+    Mud            : 48
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2555,7 +2555,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +13
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 428 = 41d4 (2 x 41) + 80(flat) + 6 x 41(Con)
@@ -2564,9 +2564,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  180
-    Total Dmg/10R: 399
+    Magic Dmg/Cast: 37 | Dmg/Turn: 113 (x232 mana)
+    Total Dmg/5R:  288
+    Total Dmg/10R: 507
     Mana: 838 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2587,16 +2587,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 27
     Fire           : 2
-    Generic        : 16
-    Metal          : 1
-    Mud            : 47
+    Generic        : 14
+    Metal          : 2
+    Mud            : 48
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2622,7 +2622,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +14
-    To Hit: Magic: +13
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 439 = 42d4 (2 x 42) + 82(flat) + 6 x 42(Con)
@@ -2631,9 +2631,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 16 | Dmg/Turn: 48 (x232 mana)
-    Total Dmg/5R:  139
-    Total Dmg/10R: 357
+    Magic Dmg/Cast: 37 | Dmg/Turn: 113 (x232 mana)
+    Total Dmg/5R:  233
+    Total Dmg/10R: 451
     Mana: 859 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2654,16 +2654,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 27
     Fire           : 2
-    Generic        : 17
-    Metal          : 1
-    Mud            : 47
+    Generic        : 15
+    Metal          : 2
+    Mud            : 48
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2689,7 +2689,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +13
+    To Hit: Magic: +14
 
   HEALTH POOLS:
     Vitality: 449 = 43d4 (2 x 43) + 84(flat) + 6 x 43(Con)
@@ -2698,9 +2698,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  137
-    Total Dmg/10R: 356
+    Magic Dmg/Cast: 32 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  237
+    Total Dmg/10R: 456
     Mana: 879 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2721,16 +2721,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 28
     Fire           : 3
-    Generic        : 17
-    Metal          : 1
-    Mud            : 49
+    Generic        : 15
+    Metal          : 2
+    Mud            : 50
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2765,9 +2765,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  186
-    Total Dmg/10R: 404
+    Magic Dmg/Cast: 32 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  283
+    Total Dmg/10R: 502
     Mana: 900 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2788,16 +2788,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 28
     Fire           : 3
-    Generic        : 18
-    Metal          : 1
-    Mud            : 49
+    Generic        : 16
+    Metal          : 2
+    Mud            : 50
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2823,7 +2823,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +15
-    To Hit: Magic: +14
+    To Hit: Magic: +15
 
   HEALTH POOLS:
     Vitality: 470 = 45d4 (2 x 45) + 88(flat) + 6 x 45(Con)
@@ -2832,9 +2832,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  121
-    Total Dmg/10R: 339
+    Magic Dmg/Cast: 32 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  225
+    Total Dmg/10R: 444
     Mana: 920 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2855,16 +2855,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 29
     Fire           : 3
-    Generic        : 19
-    Metal          : 1
-    Mud            : 49
+    Generic        : 17
+    Metal          : 2
+    Mud            : 50
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2899,9 +2899,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  199
-    Total Dmg/10R: 417
+    Magic Dmg/Cast: 27 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  264
+    Total Dmg/10R: 482
     Mana: 941 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2922,16 +2922,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 30
     Fire           : 3
-    Generic        : 19
-    Metal          : 1
-    Mud            : 51
+    Generic        : 17
+    Metal          : 2
+    Mud            : 52
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -2957,7 +2957,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 491 = 47d4 (2 x 47) + 92(flat) + 6 x 47(Con)
@@ -2966,9 +2966,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  182
-    Total Dmg/10R: 401
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  272
+    Total Dmg/10R: 490
     Mana: 961 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2989,16 +2989,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 30
     Fire           : 3
-    Generic        : 20
-    Metal          : 1
-    Mud            : 52
+    Generic        : 18
+    Metal          : 2
+    Mud            : 53
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3024,7 +3024,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 6  RP: 1
     Proficiency: +16
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 502 = 48d4 (2 x 48) + 94(flat) + 6 x 48(Con)
@@ -3033,9 +3033,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  117
-    Total Dmg/10R: 335
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  214
+    Total Dmg/10R: 432
     Mana: 982 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3056,16 +3056,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 5
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 30
     Fire           : 3
-    Generic        : 21
-    Metal          : 1
-    Mud            : 52
+    Generic        : 19
+    Metal          : 2
+    Mud            : 53
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3091,7 +3091,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 512 = 49d4 (2 x 49) + 96(flat) + 6 x 49(Con)
@@ -3100,9 +3100,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 5 | Dmg/Turn: 21 (x232 mana)
-    Total Dmg/5R:  136
-    Total Dmg/10R: 355
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  258
+    Total Dmg/10R: 476
     Mana: 1002 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3123,16 +3123,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 31
     Fire           : 3
-    Generic        : 21
-    Metal          : 1
-    Mud            : 54
+    Generic        : 19
+    Metal          : 2
+    Mud            : 55
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3158,7 +3158,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 5  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +15
+    To Hit: Magic: +16
 
   HEALTH POOLS:
     Vitality: 523 = 50d4 (2 x 50) + 98(flat) + 6 x 50(Con)
@@ -3167,9 +3167,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  139
-    Total Dmg/10R: 358
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  244
+    Total Dmg/10R: 462
     Mana: 1023 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3190,16 +3190,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 31
     Fire           : 3
-    Generic        : 22
-    Metal          : 1
-    Mud            : 54
+    Generic        : 20
+    Metal          : 2
+    Mud            : 55
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3225,7 +3225,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +17
-    To Hit: Magic: +15
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 533 = 51d4 (2 x 51) + 100(flat) + 6 x 51(Con)
@@ -3234,9 +3234,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 10 | Dmg/Turn: 43 (x232 mana)
-    Total Dmg/5R:  79
-    Total Dmg/10R: 297
+    Magic Dmg/Cast: 37 | Dmg/Turn: 151 (x232 mana)
+    Total Dmg/5R:  213
+    Total Dmg/10R: 432
     Mana: 1043 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3257,16 +3257,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 31
     Fire           : 4
-    Generic        : 23
-    Metal          : 1
-    Mud            : 54
+    Generic        : 21
+    Metal          : 2
+    Mud            : 55
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3292,7 +3292,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +15
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 544 = 52d4 (2 x 52) + 102(flat) + 6 x 52(Con)
@@ -3301,9 +3301,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 5 | Dmg/Turn: 21 (x232 mana)
-    Total Dmg/5R:  142
-    Total Dmg/10R: 360
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  290
+    Total Dmg/10R: 509
     Mana: 1116 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3324,16 +3324,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 32
     Fire           : 4
-    Generic        : 23
-    Metal          : 1
-    Mud            : 56
+    Generic        : 21
+    Metal          : 2
+    Mud            : 57
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3359,7 +3359,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +16
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 554 = 53d4 (2 x 53) + 104(flat) + 6 x 53(Con)
@@ -3368,9 +3368,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 5 | Dmg/Turn: 21 (x232 mana)
-    Total Dmg/5R:  118
-    Total Dmg/10R: 337
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  276
+    Total Dmg/10R: 495
     Mana: 1137 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3391,16 +3391,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 33
     Fire           : 4
-    Generic        : 24
-    Metal          : 1
-    Mud            : 56
+    Generic        : 22
+    Metal          : 2
+    Mud            : 57
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3426,7 +3426,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +18
-    To Hit: Magic: +16
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 565 = 54d4 (2 x 54) + 106(flat) + 6 x 54(Con)
@@ -3435,9 +3435,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 5 | Dmg/Turn: 21 (x232 mana)
-    Total Dmg/5R:  57
-    Total Dmg/10R: 276
+    Magic Dmg/Cast: 32 | Dmg/Turn: 129 (x232 mana)
+    Total Dmg/5R:  219
+    Total Dmg/10R: 437
     Mana: 1159 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3458,16 +3458,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 33
     Fire           : 4
-    Generic        : 25
-    Metal          : 1
-    Mud            : 56
+    Generic        : 23
+    Metal          : 2
+    Mud            : 57
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3493,7 +3493,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +16
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 575 = 55d4 (2 x 55) + 108(flat) + 6 x 55(Con)
@@ -3502,9 +3502,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 5 | Dmg/Turn: 21 (x232 mana)
-    Total Dmg/5R:  99
-    Total Dmg/10R: 317
+    Magic Dmg/Cast: 27 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  221
+    Total Dmg/10R: 439
     Mana: 1125 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3525,16 +3525,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 34
     Fire           : 4
-    Generic        : 25
-    Metal          : 1
-    Mud            : 59
+    Generic        : 23
+    Metal          : 2
+    Mud            : 60
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3560,7 +3560,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 7  RP: 1
     Proficiency: +19
-    To Hit: Magic: +16
+    To Hit: Magic: +17
 
   HEALTH POOLS:
     Vitality: 586 = 56d4 (2 x 56) + 110(flat) + 6 x 56(Con)
@@ -3569,9 +3569,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 5 | Dmg/Turn: 21 (x232 mana)
-    Total Dmg/5R:  76
-    Total Dmg/10R: 294
+    Magic Dmg/Cast: 27 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  205
+    Total Dmg/10R: 423
     Mana: 1146 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3592,16 +3592,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 6
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 34
     Fire           : 4
-    Generic        : 26
-    Metal          : 1
-    Mud            : 59
+    Generic        : 24
+    Metal          : 2
+    Mud            : 60
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3627,7 +3627,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +19
-    To Hit: Magic: +16
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 596 = 57d4 (2 x 57) + 112(flat) + 6 x 57(Con)
@@ -3636,9 +3636,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  191
-    Total Dmg/10R: 464
+    Magic Dmg/Cast: 27 | Dmg/Turn: 135 (x232 mana)
+    Total Dmg/5R:  302
+    Total Dmg/10R: 576
     Mana: 1166 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3659,16 +3659,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 34
     Fire           : 4
-    Generic        : 27
-    Metal          : 1
-    Mud            : 59
+    Generic        : 25
+    Metal          : 2
+    Mud            : 60
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3694,7 +3694,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +16
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 607 = 58d4 (2 x 58) + 114(flat) + 6 x 58(Con)
@@ -3703,9 +3703,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  241
-    Total Dmg/10R: 514
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  322
+    Total Dmg/10R: 595
     Mana: 1187 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3726,16 +3726,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 35
     Fire           : 4
-    Generic        : 27
-    Metal          : 1
-    Mud            : 61
+    Generic        : 25
+    Metal          : 2
+    Mud            : 62
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3761,7 +3761,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +16
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 617 = 59d4 (2 x 59) + 116(flat) + 6 x 59(Con)
@@ -3770,9 +3770,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  163
-    Total Dmg/10R: 436
+    Magic Dmg/Cast: 27 | Dmg/Turn: 135 (x232 mana)
+    Total Dmg/5R:  278
+    Total Dmg/10R: 551
     Mana: 1207 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3793,16 +3793,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 35
     Fire           : 5
-    Generic        : 28
-    Metal          : 1
-    Mud            : 61
+    Generic        : 26
+    Metal          : 2
+    Mud            : 62
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3828,7 +3828,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 6  BAP: 8  RP: 1
     Proficiency: +20
-    To Hit: Magic: +16
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 628 = 60d4 (2 x 60) + 118(flat) + 6 x 60(Con)
@@ -3837,9 +3837,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  139
-    Total Dmg/10R: 412
+    Magic Dmg/Cast: 27 | Dmg/Turn: 135 (x232 mana)
+    Total Dmg/5R:  261
+    Total Dmg/10R: 534
     Mana: 1228 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3860,16 +3860,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 35
     Fire           : 5
-    Generic        : 29
-    Metal          : 1
-    Mud            : 61
+    Generic        : 27
+    Metal          : 2
+    Mud            : 62
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3895,7 +3895,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +17
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 699 = 61d4 (2 x 61) + 120(flat) + 7 x 61(Con)
@@ -3904,9 +3904,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  138
-    Total Dmg/10R: 411
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  237
+    Total Dmg/10R: 510
     Mana: 1309 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3927,16 +3927,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 37
     Fire           : 5
-    Generic        : 29
-    Metal          : 1
-    Mud            : 63
+    Generic        : 27
+    Metal          : 2
+    Mud            : 64
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -3962,7 +3962,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +17
+    To Hit: Magic: +18
 
   HEALTH POOLS:
     Vitality: 711 = 62d4 (2 x 62) + 122(flat) + 7 x 62(Con)
@@ -3971,9 +3971,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  60
-    Total Dmg/10R: 333
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  165
+    Total Dmg/10R: 438
     Mana: 1331 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -3994,16 +3994,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 37
     Fire           : 5
-    Generic        : 30
-    Metal          : 1
-    Mud            : 63
+    Generic        : 28
+    Metal          : 2
+    Mud            : 64
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4029,7 +4029,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +21
-    To Hit: Magic: +18
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 722 = 63d4 (2 x 63) + 124(flat) + 7 x 63(Con)
@@ -4038,9 +4038,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  115
-    Total Dmg/10R: 388
+    Magic Dmg/Cast: 27 | Dmg/Turn: 135 (x232 mana)
+    Total Dmg/5R:  256
+    Total Dmg/10R: 529
     Mana: 1352 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4061,16 +4061,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 37
     Fire           : 5
-    Generic        : 31
-    Metal          : 1
-    Mud            : 64
+    Generic        : 29
+    Metal          : 2
+    Mud            : 65
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4096,7 +4096,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 8  RP: 1
     Proficiency: +22
-    To Hit: Magic: +18
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 734 = 64d4 (2 x 64) + 126(flat) + 7 x 64(Con)
@@ -4105,9 +4105,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  92
-    Total Dmg/10R: 365
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  205
+    Total Dmg/10R: 478
     Mana: 1374 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4128,16 +4128,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 7
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 38
     Fire           : 5
-    Generic        : 31
-    Metal          : 1
-    Mud            : 66
+    Generic        : 29
+    Metal          : 2
+    Mud            : 67
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4163,7 +4163,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +18
+    To Hit: Magic: +19
 
   HEALTH POOLS:
     Vitality: 745 = 65d4 (2 x 65) + 128(flat) + 7 x 65(Con)
@@ -4172,9 +4172,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  196
-    Total Dmg/10R: 469
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  293
+    Total Dmg/10R: 566
     Mana: 1395 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4195,16 +4195,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 38
     Fire           : 5
-    Generic        : 32
-    Metal          : 1
-    Mud            : 66
+    Generic        : 30
+    Metal          : 2
+    Mud            : 67
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4230,7 +4230,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +22
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 757 = 66d4 (2 x 66) + 130(flat) + 7 x 66(Con)
@@ -4239,9 +4239,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  113
-    Total Dmg/10R: 386
+    Magic Dmg/Cast: 27 | Dmg/Turn: 135 (x232 mana)
+    Total Dmg/5R:  249
+    Total Dmg/10R: 522
     Mana: 1417 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4262,16 +4262,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 38
     Fire           : 5
-    Generic        : 33
-    Metal          : 1
-    Mud            : 66
+    Generic        : 31
+    Metal          : 2
+    Mud            : 67
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4297,7 +4297,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 768 = 67d4 (2 x 67) + 132(flat) + 7 x 67(Con)
@@ -4306,9 +4306,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  90
-    Total Dmg/10R: 363
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  198
+    Total Dmg/10R: 471
     Mana: 1438 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4329,16 +4329,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 39
     Fire           : 6
-    Generic        : 33
-    Metal          : 1
-    Mud            : 68
+    Generic        : 31
+    Metal          : 2
+    Mud            : 69
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4364,7 +4364,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 780 = 68d4 (2 x 68) + 134(flat) + 7 x 68(Con)
@@ -4373,9 +4373,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  90
-    Total Dmg/10R: 363
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  198
+    Total Dmg/10R: 471
     Mana: 1460 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4396,16 +4396,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 39
     Fire           : 6
-    Generic        : 34
-    Metal          : 1
-    Mud            : 68
+    Generic        : 32
+    Metal          : 2
+    Mud            : 69
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4431,7 +4431,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +23
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 791 = 69d4 (2 x 69) + 136(flat) + 7 x 69(Con)
@@ -4440,9 +4440,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  86
-    Total Dmg/10R: 359
+    Magic Dmg/Cast: 21 | Dmg/Turn: 108 (x232 mana)
+    Total Dmg/5R:  191
+    Total Dmg/10R: 464
     Mana: 1481 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4463,16 +4463,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 40
     Fire           : 6
-    Generic        : 35
-    Metal          : 1
-    Mud            : 68
+    Generic        : 33
+    Metal          : 2
+    Mud            : 69
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4498,7 +4498,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 7  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 803 = 70d4 (2 x 70) + 138(flat) + 7 x 70(Con)
@@ -4507,9 +4507,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  62
-    Total Dmg/10R: 281
+    Magic Dmg/Cast: 16 | Dmg/Turn: 81 (x232 mana)
+    Total Dmg/5R:  136
+    Total Dmg/10R: 356
     Mana: 1503 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4530,16 +4530,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 41
     Fire           : 6
-    Generic        : 35
-    Metal          : 1
-    Mud            : 70
+    Generic        : 33
+    Metal          : 2
+    Mud            : 71
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4565,7 +4565,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 814 = 71d4 (2 x 71) + 140(flat) + 7 x 71(Con)
@@ -4574,9 +4574,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  117
-    Total Dmg/10R: 390
+    Magic Dmg/Cast: 16 | Dmg/Turn: 81 (x232 mana)
+    Total Dmg/5R:  193
+    Total Dmg/10R: 466
     Mana: 1524 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4597,16 +4597,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 41
     Fire           : 6
-    Generic        : 36
-    Metal          : 1
-    Mud            : 71
+    Generic        : 34
+    Metal          : 2
+    Mud            : 72
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4632,7 +4632,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 9  RP: 1
     Proficiency: +24
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 826 = 72d4 (2 x 72) + 142(flat) + 7 x 72(Con)
@@ -4641,9 +4641,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 5 | Dmg/Turn: 27 (x232 mana)
-    Total Dmg/5R:  94
-    Total Dmg/10R: 367
+    Magic Dmg/Cast: 16 | Dmg/Turn: 81 (x232 mana)
+    Total Dmg/5R:  173
+    Total Dmg/10R: 446
     Mana: 1546 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4664,16 +4664,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 8
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 41
     Fire           : 6
-    Generic        : 37
-    Metal          : 1
-    Mud            : 71
+    Generic        : 35
+    Metal          : 2
+    Mud            : 72
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4699,7 +4699,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 837 = 73d4 (2 x 73) + 144(flat) + 7 x 73(Con)
@@ -4708,9 +4708,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  237
-    Total Dmg/10R: 564
+    Magic Dmg/Cast: 10 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  277
+    Total Dmg/10R: 605
     Mana: 1567 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4731,16 +4731,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 42
     Fire           : 6
-    Generic        : 37
-    Metal          : 1
-    Mud            : 73
+    Generic        : 35
+    Metal          : 2
+    Mud            : 74
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4766,7 +4766,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +18
+    To Hit: Magic: +20
 
   HEALTH POOLS:
     Vitality: 849 = 74d4 (2 x 74) + 146(flat) + 7 x 74(Con)
@@ -4775,9 +4775,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  132
-    Total Dmg/10R: 459
+    Magic Dmg/Cast: 16 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  214
+    Total Dmg/10R: 542
     Mana: 1589 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4798,16 +4798,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 42
     Fire           : 6
-    Generic        : 38
-    Metal          : 1
-    Mud            : 73
+    Generic        : 36
+    Metal          : 2
+    Mud            : 74
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4833,7 +4833,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +25
-    To Hit: Magic: +19
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 860 = 75d4 (2 x 75) + 148(flat) + 7 x 75(Con)
@@ -4842,9 +4842,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  108
-    Total Dmg/10R: 436
+    Magic Dmg/Cast: 16 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  195
+    Total Dmg/10R: 522
     Mana: 1610 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4865,16 +4865,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 42
     Fire           : 7
-    Generic        : 39
-    Metal          : 1
-    Mud            : 73
+    Generic        : 37
+    Metal          : 2
+    Mud            : 74
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4900,7 +4900,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +19
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 872 = 76d4 (2 x 76) + 150(flat) + 7 x 76(Con)
@@ -4909,9 +4909,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  169
-    Total Dmg/10R: 497
+    Magic Dmg/Cast: 16 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  246
+    Total Dmg/10R: 574
     Mana: 1632 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4932,16 +4932,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 43
     Fire           : 7
-    Generic        : 39
-    Metal          : 1
-    Mud            : 75
+    Generic        : 37
+    Metal          : 2
+    Mud            : 76
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -4967,7 +4967,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +19
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 883 = 77d4 (2 x 77) + 152(flat) + 7 x 77(Con)
@@ -4976,9 +4976,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  219
-    Total Dmg/10R: 547
+    Magic Dmg/Cast: 16 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  294
+    Total Dmg/10R: 622
     Mana: 1653 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -4999,16 +4999,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 44
     Fire           : 7
-    Generic        : 40
-    Metal          : 1
-    Mud            : 75
+    Generic        : 38
+    Metal          : 2
+    Mud            : 76
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5034,7 +5034,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +26
-    To Hit: Magic: +19
+    To Hit: Magic: +21
 
   HEALTH POOLS:
     Vitality: 895 = 78d4 (2 x 78) + 154(flat) + 7 x 78(Con)
@@ -5043,9 +5043,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  130
-    Total Dmg/10R: 458
+    Magic Dmg/Cast: 16 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  209
+    Total Dmg/10R: 537
     Mana: 1675 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5066,16 +5066,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 44
     Fire           : 7
-    Generic        : 41
-    Metal          : 1
-    Mud            : 75
+    Generic        : 39
+    Metal          : 2
+    Mud            : 76
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5101,7 +5101,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 906 = 79d4 (2 x 79) + 156(flat) + 7 x 79(Con)
@@ -5110,9 +5110,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  110
-    Total Dmg/10R: 438
+    Magic Dmg/Cast: 10 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  155
+    Total Dmg/10R: 483
     Mana: 1775 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5133,16 +5133,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 45
     Fire           : 7
-    Generic        : 41
-    Metal          : 1
-    Mud            : 78
+    Generic        : 39
+    Metal          : 2
+    Mud            : 79
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5168,7 +5168,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 8  BAP: 10  RP: 1
     Proficiency: +27
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 918 = 80d4 (2 x 80) + 158(flat) + 7 x 80(Con)
@@ -5177,9 +5177,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  177
-    Total Dmg/10R: 504
+    Magic Dmg/Cast: 10 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  222
+    Total Dmg/10R: 550
     Mana: 1798 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5200,16 +5200,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 9
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 45
     Fire           : 7
-    Generic        : 42
-    Metal          : 1
-    Mud            : 78
+    Generic        : 40
+    Metal          : 2
+    Mud            : 79
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5235,7 +5235,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +27
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 1010 = 81d4 (2 x 81) + 160(flat) + 8 x 81(Con)
@@ -5244,9 +5244,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  71
-    Total Dmg/10R: 399
+    Magic Dmg/Cast: 16 | Dmg/Turn: 97 (x232 mana)
+    Total Dmg/5R:  165
+    Total Dmg/10R: 493
     Mana: 1820 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5267,16 +5267,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 45
     Fire           : 7
-    Generic        : 43
-    Metal          : 1
-    Mud            : 78
+    Generic        : 41
+    Metal          : 2
+    Mud            : 79
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5302,7 +5302,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 1023 = 82d4 (2 x 82) + 162(flat) + 8 x 82(Con)
@@ -5311,9 +5311,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  48
-    Total Dmg/10R: 311
+    Magic Dmg/Cast: 10 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  97
+    Total Dmg/10R: 360
     Mana: 1843 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5334,16 +5334,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 46
     Fire           : 7
-    Generic        : 43
-    Metal          : 1
-    Mud            : 80
+    Generic        : 41
+    Metal          : 2
+    Mud            : 81
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5369,7 +5369,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +20
+    To Hit: Magic: +22
 
   HEALTH POOLS:
     Vitality: 1035 = 83d4 (2 x 83) + 164(flat) + 8 x 83(Con)
@@ -5378,9 +5378,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  175
-    Total Dmg/10R: 502
+    Magic Dmg/Cast: 10 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  219
+    Total Dmg/10R: 546
     Mana: 1865 start, 3 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5401,16 +5401,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 46
     Fire           : 8
-    Generic        : 44
-    Metal          : 1
-    Mud            : 80
+    Generic        : 42
+    Metal          : 2
+    Mud            : 81
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5436,7 +5436,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +28
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1048 = 84d4 (2 x 84) + 166(flat) + 8 x 84(Con)
@@ -5445,9 +5445,9 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 5 | Dmg/Turn: 32 (x232 mana)
-    Total Dmg/5R:  159
-    Total Dmg/10R: 487
+    Magic Dmg/Cast: 10 | Dmg/Turn: 64 (x232 mana)
+    Total Dmg/5R:  203
+    Total Dmg/10R: 531
     Mana: 1888 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5468,16 +5468,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 46
     Fire           : 8
-    Generic        : 45
-    Metal          : 1
-    Mud            : 80
+    Generic        : 43
+    Metal          : 2
+    Mud            : 81
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5503,7 +5503,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1060 = 85d4 (2 x 85) + 168(flat) + 8 x 85(Con)
@@ -5535,16 +5535,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 48
     Fire           : 8
-    Generic        : 45
-    Metal          : 1
-    Mud            : 82
+    Generic        : 43
+    Metal          : 2
+    Mud            : 83
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5570,7 +5570,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1073 = 86d4 (2 x 86) + 170(flat) + 8 x 86(Con)
@@ -5602,16 +5602,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 48
     Fire           : 8
-    Generic        : 46
-    Metal          : 1
-    Mud            : 82
+    Generic        : 44
+    Metal          : 2
+    Mud            : 83
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 10
 
@@ -5637,7 +5637,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +29
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1085 = 87d4 (2 x 87) + 172(flat) + 8 x 87(Con)
@@ -5669,16 +5669,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 48
     Fire           : 8
-    Generic        : 47
-    Metal          : 1
-    Mud            : 82
+    Generic        : 45
+    Metal          : 2
+    Mud            : 83
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -5704,7 +5704,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 11  RP: 1
     Proficiency: +30
-    To Hit: Magic: +20
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1098 = 88d4 (2 x 88) + 174(flat) + 8 x 88(Con)
@@ -5736,16 +5736,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 10
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 49
     Fire           : 8
-    Generic        : 47
-    Metal          : 1
-    Mud            : 84
+    Generic        : 45
+    Metal          : 2
+    Mud            : 85
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -5771,7 +5771,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1110 = 89d4 (2 x 89) + 176(flat) + 8 x 89(Con)
@@ -5803,16 +5803,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 49
     Fire           : 8
-    Generic        : 48
-    Metal          : 1
-    Mud            : 84
+    Generic        : 46
+    Metal          : 2
+    Mud            : 85
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -5838,7 +5838,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 9  BAP: 12  RP: 1
     Proficiency: +30
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1123 = 90d4 (2 x 90) + 178(flat) + 8 x 90(Con)
@@ -5870,16 +5870,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 49
     Fire           : 8
-    Generic        : 49
-    Metal          : 1
-    Mud            : 84
+    Generic        : 47
+    Metal          : 2
+    Mud            : 85
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -5905,7 +5905,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1135 = 91d4 (2 x 91) + 180(flat) + 8 x 91(Con)
@@ -5937,16 +5937,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 50
     Fire           : 9
-    Generic        : 49
-    Metal          : 1
-    Mud            : 86
+    Generic        : 47
+    Metal          : 2
+    Mud            : 87
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -5972,7 +5972,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +21
+    To Hit: Magic: +23
 
   HEALTH POOLS:
     Vitality: 1148 = 92d4 (2 x 92) + 182(flat) + 8 x 92(Con)
@@ -6004,16 +6004,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 50
     Fire           : 9
-    Generic        : 50
-    Metal          : 1
-    Mud            : 86
+    Generic        : 48
+    Metal          : 2
+    Mud            : 87
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -6039,7 +6039,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +31
-    To Hit: Magic: +21
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 1160 = 93d4 (2 x 93) + 184(flat) + 8 x 93(Con)
@@ -6071,16 +6071,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 51
     Fire           : 9
-    Generic        : 51
-    Metal          : 1
-    Mud            : 86
+    Generic        : 49
+    Metal          : 2
+    Mud            : 87
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -6106,7 +6106,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +21
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 1173 = 94d4 (2 x 94) + 186(flat) + 8 x 94(Con)
@@ -6138,16 +6138,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 52
     Fire           : 9
-    Generic        : 51
-    Metal          : 1
-    Mud            : 88
+    Generic        : 49
+    Metal          : 2
+    Mud            : 89
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 11
 
@@ -6173,7 +6173,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +21
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 1185 = 95d4 (2 x 95) + 188(flat) + 8 x 95(Con)
@@ -6205,16 +6205,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 52
     Fire           : 9
-    Generic        : 52
-    Metal          : 1
-    Mud            : 88
+    Generic        : 50
+    Metal          : 2
+    Mud            : 89
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6240,7 +6240,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 12  RP: 1
     Proficiency: +32
-    To Hit: Magic: +21
+    To Hit: Magic: +24
 
   HEALTH POOLS:
     Vitality: 1198 = 96d4 (2 x 96) + 190(flat) + 8 x 96(Con)
@@ -6272,16 +6272,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 11
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 52
     Fire           : 9
-    Generic        : 53
-    Metal          : 1
-    Mud            : 88
+    Generic        : 51
+    Metal          : 2
+    Mud            : 89
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6307,7 +6307,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1210 = 97d4 (2 x 97) + 192(flat) + 8 x 97(Con)
@@ -6339,16 +6339,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 53
     Fire           : 9
-    Generic        : 53
-    Metal          : 1
-    Mud            : 90
+    Generic        : 51
+    Metal          : 2
+    Mud            : 91
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6374,7 +6374,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1223 = 98d4 (2 x 98) + 194(flat) + 8 x 98(Con)
@@ -6406,16 +6406,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 53
     Fire           : 9
-    Generic        : 54
-    Metal          : 1
-    Mud            : 90
+    Generic        : 52
+    Metal          : 2
+    Mud            : 91
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6441,7 +6441,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +33
-    To Hit: Magic: +21
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1235 = 99d4 (2 x 99) + 196(flat) + 8 x 99(Con)
@@ -6473,16 +6473,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 53
     Fire           : 10
-    Generic        : 55
-    Metal          : 1
-    Mud            : 90
+    Generic        : 53
+    Metal          : 2
+    Mud            : 91
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6508,7 +6508,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 10  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1248 = 100d4 (2 x 100) + 198(flat) + 8 x 100(Con)
@@ -6540,16 +6540,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 54
     Fire           : 10
-    Generic        : 55
-    Metal          : 1
-    Mud            : 92
+    Generic        : 53
+    Metal          : 2
+    Mud            : 93
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6575,7 +6575,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1260 = 101d4 (2 x 101) + 200(flat) + 8 x 101(Con)
@@ -6607,16 +6607,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 55
     Fire           : 10
-    Generic        : 56
-    Metal          : 1
-    Mud            : 92
+    Generic        : 54
+    Metal          : 2
+    Mud            : 93
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6642,7 +6642,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +34
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1273 = 102d4 (2 x 102) + 202(flat) + 8 x 102(Con)
@@ -6674,16 +6674,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 55
     Fire           : 10
-    Generic        : 57
-    Metal          : 1
-    Mud            : 92
+    Generic        : 55
+    Metal          : 2
+    Mud            : 93
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 12
 
@@ -6709,7 +6709,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +35
-    To Hit: Magic: +22
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1388 = 103d4 (2 x 103) + 204(flat) + 9 x 103(Con)
@@ -6741,16 +6741,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 56
     Fire           : 10
-    Generic        : 57
-    Metal          : 1
-    Mud            : 94
+    Generic        : 55
+    Metal          : 2
+    Mud            : 95
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -6776,7 +6776,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 13  RP: 1
     Proficiency: +35
-    To Hit: Magic: +23
+    To Hit: Magic: +25
 
   HEALTH POOLS:
     Vitality: 1402 = 104d4 (2 x 104) + 206(flat) + 9 x 104(Con)
@@ -6808,16 +6808,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 12
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 56
     Fire           : 10
-    Generic        : 58
-    Metal          : 1
-    Mud            : 94
+    Generic        : 56
+    Metal          : 2
+    Mud            : 95
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -6843,7 +6843,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +35
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1415 = 105d4 (2 x 105) + 208(flat) + 9 x 105(Con)
@@ -6875,16 +6875,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 56
     Fire           : 10
-    Generic        : 59
-    Metal          : 1
-    Mud            : 94
+    Generic        : 57
+    Metal          : 2
+    Mud            : 95
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -6910,7 +6910,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +36
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1429 = 106d4 (2 x 106) + 210(flat) + 9 x 106(Con)
@@ -6942,16 +6942,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 57
     Fire           : 10
-    Generic        : 59
-    Metal          : 1
-    Mud            : 96
+    Generic        : 57
+    Metal          : 2
+    Mud            : 97
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -6977,7 +6977,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +36
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1442 = 107d4 (2 x 107) + 212(flat) + 9 x 107(Con)
@@ -7009,16 +7009,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 57
     Fire           : 11
-    Generic        : 60
-    Metal          : 1
-    Mud            : 96
+    Generic        : 58
+    Metal          : 2
+    Mud            : 97
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -7044,7 +7044,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +36
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1456 = 108d4 (2 x 108) + 214(flat) + 9 x 108(Con)
@@ -7076,16 +7076,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 57
     Fire           : 11
-    Generic        : 61
-    Metal          : 1
-    Mud            : 96
+    Generic        : 59
+    Metal          : 2
+    Mud            : 97
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -7111,7 +7111,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +37
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1469 = 109d4 (2 x 109) + 216(flat) + 9 x 109(Con)
@@ -7143,16 +7143,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 59
     Fire           : 11
-    Generic        : 61
-    Metal          : 1
-    Mud            : 98
+    Generic        : 59
+    Metal          : 2
+    Mud            : 99
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -7178,7 +7178,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 11  BAP: 14  RP: 1
     Proficiency: +37
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1483 = 110d4 (2 x 110) + 218(flat) + 9 x 110(Con)
@@ -7210,16 +7210,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 59
     Fire           : 11
-    Generic        : 62
-    Metal          : 1
-    Mud            : 98
+    Generic        : 60
+    Metal          : 2
+    Mud            : 99
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 13
 
@@ -7245,7 +7245,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 1
     Proficiency: +37
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1496 = 111d4 (2 x 111) + 220(flat) + 9 x 111(Con)
@@ -7277,16 +7277,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 59
     Fire           : 11
-    Generic        : 63
-    Metal          : 1
-    Mud            : 98
+    Generic        : 61
+    Metal          : 2
+    Mud            : 99
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7312,7 +7312,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 14  RP: 1
     Proficiency: +38
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1510 = 112d4 (2 x 112) + 222(flat) + 9 x 112(Con)
@@ -7344,16 +7344,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 13
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 60
     Fire           : 11
-    Generic        : 63
-    Metal          : 1
-    Mud            : 100
+    Generic        : 61
+    Metal          : 2
+    Mud            : 101
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7379,7 +7379,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +38
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1523 = 113d4 (2 x 113) + 224(flat) + 9 x 113(Con)
@@ -7411,16 +7411,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 60
     Fire           : 11
-    Generic        : 64
-    Metal          : 1
-    Mud            : 100
+    Generic        : 62
+    Metal          : 2
+    Mud            : 101
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7446,7 +7446,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +38
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1537 = 114d4 (2 x 114) + 226(flat) + 9 x 114(Con)
@@ -7478,16 +7478,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 60
     Fire           : 11
-    Generic        : 65
-    Metal          : 1
-    Mud            : 100
+    Generic        : 63
+    Metal          : 2
+    Mud            : 101
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7513,7 +7513,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +39
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1550 = 115d4 (2 x 115) + 228(flat) + 9 x 115(Con)
@@ -7545,16 +7545,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 61
     Fire           : 12
-    Generic        : 65
-    Metal          : 1
-    Mud            : 102
+    Generic        : 63
+    Metal          : 2
+    Mud            : 103
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7580,7 +7580,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +39
-    To Hit: Magic: +23
+    To Hit: Magic: +26
 
   HEALTH POOLS:
     Vitality: 1564 = 116d4 (2 x 116) + 230(flat) + 9 x 116(Con)
@@ -7612,16 +7612,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 61
     Fire           : 12
-    Generic        : 66
-    Metal          : 1
-    Mud            : 102
+    Generic        : 64
+    Metal          : 2
+    Mud            : 103
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7647,7 +7647,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +39
-    To Hit: Magic: +23
+    To Hit: Magic: +27
 
   HEALTH POOLS:
     Vitality: 1577 = 117d4 (2 x 117) + 232(flat) + 9 x 117(Con)
@@ -7679,16 +7679,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 62
     Fire           : 12
-    Generic        : 67
-    Metal          : 1
-    Mud            : 102
+    Generic        : 65
+    Metal          : 2
+    Mud            : 103
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7714,7 +7714,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +40
-    To Hit: Magic: +23
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1591 = 118d4 (2 x 118) + 234(flat) + 9 x 118(Con)
@@ -7746,16 +7746,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 63
     Fire           : 12
-    Generic        : 67
-    Metal          : 1
-    Mud            : 104
+    Generic        : 65
+    Metal          : 2
+    Mud            : 105
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 14
 
@@ -7781,7 +7781,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +40
-    To Hit: Magic: +23
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1604 = 119d4 (2 x 119) + 236(flat) + 9 x 119(Con)
@@ -7813,16 +7813,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 63
     Fire           : 12
-    Generic        : 68
-    Metal          : 1
-    Mud            : 104
+    Generic        : 66
+    Metal          : 2
+    Mud            : 105
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -7848,7 +7848,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 12  BAP: 15  RP: 1
     Proficiency: +40
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1618 = 120d4 (2 x 120) + 238(flat) + 9 x 120(Con)
@@ -7880,16 +7880,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 14
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 63
     Fire           : 12
-    Generic        : 69
-    Metal          : 1
-    Mud            : 104
+    Generic        : 67
+    Metal          : 2
+    Mud            : 105
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -7915,7 +7915,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +41
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1631 = 121d4 (2 x 121) + 240(flat) + 9 x 121(Con)
@@ -7947,16 +7947,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 64
     Fire           : 12
-    Generic        : 69
-    Metal          : 1
-    Mud            : 106
+    Generic        : 67
+    Metal          : 2
+    Mud            : 107
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -7982,7 +7982,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +41
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1645 = 122d4 (2 x 122) + 242(flat) + 9 x 122(Con)
@@ -8014,16 +8014,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 64
     Fire           : 12
-    Generic        : 70
-    Metal          : 1
-    Mud            : 106
+    Generic        : 68
+    Metal          : 2
+    Mud            : 107
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -8049,7 +8049,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +41
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1658 = 123d4 (2 x 123) + 244(flat) + 9 x 123(Con)
@@ -8081,16 +8081,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 64
     Fire           : 13
-    Generic        : 71
-    Metal          : 1
-    Mud            : 106
+    Generic        : 69
+    Metal          : 2
+    Mud            : 107
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -8116,7 +8116,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +42
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1672 = 124d4 (2 x 124) + 246(flat) + 9 x 124(Con)
@@ -8148,16 +8148,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 65
     Fire           : 13
-    Generic        : 71
-    Metal          : 1
-    Mud            : 108
+    Generic        : 69
+    Metal          : 2
+    Mud            : 109
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -8183,7 +8183,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +42
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1685 = 125d4 (2 x 125) + 248(flat) + 9 x 125(Con)
@@ -8215,16 +8215,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 66
     Fire           : 13
-    Generic        : 72
-    Metal          : 1
-    Mud            : 108
+    Generic        : 70
+    Metal          : 2
+    Mud            : 109
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -8250,7 +8250,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +42
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1699 = 126d4 (2 x 126) + 250(flat) + 9 x 126(Con)
@@ -8282,16 +8282,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 66
     Fire           : 13
-    Generic        : 73
-    Metal          : 1
-    Mud            : 108
+    Generic        : 71
+    Metal          : 2
+    Mud            : 109
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 15
 
@@ -8317,7 +8317,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +43
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1839 = 127d4 (2 x 127) + 252(flat) + 10 x 127(Con)
@@ -8349,16 +8349,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 67
     Fire           : 13
-    Generic        : 73
-    Metal          : 1
-    Mud            : 110
+    Generic        : 71
+    Metal          : 2
+    Mud            : 111
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8384,7 +8384,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 16  RP: 1
     Proficiency: +43
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1854 = 128d4 (2 x 128) + 254(flat) + 10 x 128(Con)
@@ -8416,16 +8416,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 15
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 67
     Fire           : 13
-    Generic        : 74
-    Metal          : 1
-    Mud            : 110
+    Generic        : 72
+    Metal          : 2
+    Mud            : 111
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8451,7 +8451,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 17  RP: 1
     Proficiency: +43
-    To Hit: Magic: +24
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1868 = 129d4 (2 x 129) + 256(flat) + 10 x 129(Con)
@@ -8483,16 +8483,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 67
     Fire           : 13
-    Generic        : 75
-    Metal          : 1
-    Mud            : 110
+    Generic        : 73
+    Metal          : 2
+    Mud            : 111
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8518,7 +8518,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 13  BAP: 17  RP: 1
     Proficiency: +44
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1883 = 130d4 (2 x 130) + 258(flat) + 10 x 130(Con)
@@ -8550,16 +8550,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 68
     Fire           : 13
-    Generic        : 75
-    Metal          : 1
-    Mud            : 112
+    Generic        : 73
+    Metal          : 2
+    Mud            : 113
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8585,7 +8585,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +44
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1897 = 131d4 (2 x 131) + 260(flat) + 10 x 131(Con)
@@ -8617,16 +8617,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 68
     Fire           : 14
-    Generic        : 76
-    Metal          : 1
-    Mud            : 112
+    Generic        : 74
+    Metal          : 2
+    Mud            : 113
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8652,7 +8652,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +44
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1912 = 132d4 (2 x 132) + 262(flat) + 10 x 132(Con)
@@ -8684,16 +8684,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 68
     Fire           : 14
-    Generic        : 77
-    Metal          : 1
-    Mud            : 112
+    Generic        : 75
+    Metal          : 2
+    Mud            : 113
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8719,7 +8719,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +45
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1926 = 133d4 (2 x 133) + 264(flat) + 10 x 133(Con)
@@ -8751,16 +8751,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 70
     Fire           : 14
-    Generic        : 77
-    Metal          : 1
-    Mud            : 114
+    Generic        : 75
+    Metal          : 2
+    Mud            : 115
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8786,7 +8786,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +45
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1941 = 134d4 (2 x 134) + 266(flat) + 10 x 134(Con)
@@ -8818,16 +8818,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 70
     Fire           : 14
-    Generic        : 78
-    Metal          : 1
-    Mud            : 114
+    Generic        : 76
+    Metal          : 2
+    Mud            : 115
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 16
 
@@ -8853,7 +8853,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +45
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1955 = 135d4 (2 x 135) + 268(flat) + 10 x 135(Con)
@@ -8885,16 +8885,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 70
     Fire           : 14
-    Generic        : 79
-    Metal          : 1
-    Mud            : 114
+    Generic        : 77
+    Metal          : 2
+    Mud            : 115
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -8920,7 +8920,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 17  RP: 1
     Proficiency: +46
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1970 = 136d4 (2 x 136) + 270(flat) + 10 x 136(Con)
@@ -8952,16 +8952,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 16
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 71
     Fire           : 14
-    Generic        : 79
-    Metal          : 1
-    Mud            : 116
+    Generic        : 77
+    Metal          : 2
+    Mud            : 117
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -8987,7 +8987,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +46
-    To Hit: Magic: +25
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1984 = 137d4 (2 x 137) + 272(flat) + 10 x 137(Con)
@@ -9019,16 +9019,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 71
     Fire           : 14
-    Generic        : 80
-    Metal          : 1
-    Mud            : 116
+    Generic        : 78
+    Metal          : 2
+    Mud            : 117
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -9054,7 +9054,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +46
-    To Hit: Magic: +26
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 1999 = 138d4 (2 x 138) + 274(flat) + 10 x 138(Con)
@@ -9086,16 +9086,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 71
     Fire           : 14
-    Generic        : 81
-    Metal          : 1
-    Mud            : 116
+    Generic        : 79
+    Metal          : 2
+    Mud            : 117
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -9121,7 +9121,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +47
-    To Hit: Magic: +26
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 2013 = 139d4 (2 x 139) + 276(flat) + 10 x 139(Con)
@@ -9153,16 +9153,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 72
     Fire           : 15
-    Generic        : 81
-    Metal          : 1
-    Mud            : 118
+    Generic        : 79
+    Metal          : 2
+    Mud            : 119
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -9188,7 +9188,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 14  BAP: 18  RP: 1
     Proficiency: +47
-    To Hit: Magic: +26
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 2028 = 140d4 (2 x 140) + 278(flat) + 10 x 140(Con)
@@ -9220,16 +9220,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 72
     Fire           : 15
-    Generic        : 82
-    Metal          : 1
-    Mud            : 118
+    Generic        : 80
+    Metal          : 2
+    Mud            : 119
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -9255,7 +9255,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +47
-    To Hit: Magic: +26
+    To Hit: Magic: +28
 
   HEALTH POOLS:
     Vitality: 2042 = 141d4 (2 x 141) + 280(flat) + 10 x 141(Con)
@@ -9287,16 +9287,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 73
     Fire           : 15
-    Generic        : 83
-    Metal          : 1
-    Mud            : 118
+    Generic        : 81
+    Metal          : 2
+    Mud            : 119
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -9322,7 +9322,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +48
-    To Hit: Magic: +26
+    To Hit: Magic: +29
 
   HEALTH POOLS:
     Vitality: 2057 = 142d4 (2 x 142) + 282(flat) + 10 x 142(Con)
@@ -9354,16 +9354,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 74
     Fire           : 15
-    Generic        : 83
-    Metal          : 1
-    Mud            : 120
+    Generic        : 81
+    Metal          : 2
+    Mud            : 121
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 17
 
@@ -9389,7 +9389,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +48
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2071 = 143d4 (2 x 143) + 284(flat) + 10 x 143(Con)
@@ -9421,16 +9421,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 74
     Fire           : 15
-    Generic        : 84
-    Metal          : 1
-    Mud            : 120
+    Generic        : 82
+    Metal          : 2
+    Mud            : 121
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9456,7 +9456,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 18  RP: 1
     Proficiency: +48
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2086 = 144d4 (2 x 144) + 286(flat) + 10 x 144(Con)
@@ -9488,16 +9488,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 17
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 74
     Fire           : 15
-    Generic        : 85
-    Metal          : 1
-    Mud            : 120
+    Generic        : 83
+    Metal          : 2
+    Mud            : 121
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9523,7 +9523,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +49
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2100 = 145d4 (2 x 145) + 288(flat) + 10 x 145(Con)
@@ -9555,16 +9555,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 75
     Fire           : 15
-    Generic        : 85
-    Metal          : 1
-    Mud            : 122
+    Generic        : 83
+    Metal          : 2
+    Mud            : 123
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9590,7 +9590,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +49
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2115 = 146d4 (2 x 146) + 290(flat) + 10 x 146(Con)
@@ -9622,16 +9622,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 75
     Fire           : 15
-    Generic        : 86
-    Metal          : 1
-    Mud            : 122
+    Generic        : 84
+    Metal          : 2
+    Mud            : 123
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9657,7 +9657,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +49
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2129 = 147d4 (2 x 147) + 292(flat) + 10 x 147(Con)
@@ -9689,16 +9689,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 75
     Fire           : 16
-    Generic        : 87
-    Metal          : 1
-    Mud            : 122
+    Generic        : 85
+    Metal          : 2
+    Mud            : 123
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9724,7 +9724,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +50
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2144 = 148d4 (2 x 148) + 294(flat) + 10 x 148(Con)
@@ -9756,16 +9756,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 76
     Fire           : 16
-    Generic        : 87
-    Metal          : 1
-    Mud            : 124
+    Generic        : 85
+    Metal          : 2
+    Mud            : 125
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9791,7 +9791,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +50
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2158 = 149d4 (2 x 149) + 296(flat) + 10 x 149(Con)
@@ -9823,16 +9823,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 77
     Fire           : 16
-    Generic        : 88
-    Metal          : 1
-    Mud            : 124
+    Generic        : 86
+    Metal          : 2
+    Mud            : 125
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9858,7 +9858,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 15  BAP: 19  RP: 1
     Proficiency: +50
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2173 = 150d4 (2 x 150) + 298(flat) + 10 x 150(Con)
@@ -9890,16 +9890,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 77
     Fire           : 16
-    Generic        : 89
-    Metal          : 1
-    Mud            : 124
+    Generic        : 87
+    Metal          : 2
+    Mud            : 125
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 18
 
@@ -9925,7 +9925,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 19  RP: 1
     Proficiency: +51
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2187 = 151d4 (2 x 151) + 300(flat) + 10 x 151(Con)
@@ -9957,16 +9957,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 78
     Fire           : 16
-    Generic        : 89
-    Metal          : 1
-    Mud            : 126
+    Generic        : 87
+    Metal          : 2
+    Mud            : 127
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -9992,7 +9992,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 19  RP: 1
     Proficiency: +51
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2202 = 152d4 (2 x 152) + 302(flat) + 10 x 152(Con)
@@ -10024,16 +10024,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 18
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 78
     Fire           : 16
-    Generic        : 90
-    Metal          : 1
-    Mud            : 126
+    Generic        : 88
+    Metal          : 2
+    Mud            : 127
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10059,7 +10059,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +51
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2216 = 153d4 (2 x 153) + 304(flat) + 10 x 153(Con)
@@ -10091,16 +10091,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 78
     Fire           : 16
-    Generic        : 91
-    Metal          : 1
-    Mud            : 126
+    Generic        : 89
+    Metal          : 2
+    Mud            : 127
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10126,7 +10126,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +52
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2231 = 154d4 (2 x 154) + 306(flat) + 10 x 154(Con)
@@ -10158,16 +10158,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 79
     Fire           : 16
-    Generic        : 91
-    Metal          : 1
-    Mud            : 128
+    Generic        : 89
+    Metal          : 2
+    Mud            : 129
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10193,7 +10193,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +52
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2245 = 155d4 (2 x 155) + 308(flat) + 10 x 155(Con)
@@ -10225,16 +10225,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 79
     Fire           : 17
-    Generic        : 92
-    Metal          : 1
-    Mud            : 128
+    Generic        : 90
+    Metal          : 2
+    Mud            : 129
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10260,7 +10260,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +52
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2260 = 156d4 (2 x 156) + 310(flat) + 10 x 156(Con)
@@ -10292,16 +10292,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 79
     Fire           : 17
-    Generic        : 93
-    Metal          : 1
-    Mud            : 128
+    Generic        : 91
+    Metal          : 2
+    Mud            : 129
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10327,7 +10327,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +53
-    To Hit: Magic: +26
+    To Hit: Magic: +30
 
   HEALTH POOLS:
     Vitality: 2274 = 157d4 (2 x 157) + 312(flat) + 10 x 157(Con)
@@ -10359,16 +10359,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 81
     Fire           : 17
-    Generic        : 93
-    Metal          : 1
-    Mud            : 130
+    Generic        : 91
+    Metal          : 2
+    Mud            : 131
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10394,7 +10394,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +53
-    To Hit: Magic: +27
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2289 = 158d4 (2 x 158) + 314(flat) + 10 x 158(Con)
@@ -10426,16 +10426,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 81
     Fire           : 17
-    Generic        : 94
-    Metal          : 1
-    Mud            : 130
+    Generic        : 92
+    Metal          : 2
+    Mud            : 131
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 19
 
@@ -10461,7 +10461,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +53
-    To Hit: Magic: +27
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2303 = 159d4 (2 x 159) + 316(flat) + 10 x 159(Con)
@@ -10493,16 +10493,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 81
     Fire           : 17
-    Generic        : 95
-    Metal          : 1
-    Mud            : 130
+    Generic        : 93
+    Metal          : 2
+    Mud            : 131
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10528,7 +10528,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 16  BAP: 20  RP: 1
     Proficiency: +54
-    To Hit: Magic: +27
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2318 = 160d4 (2 x 160) + 318(flat) + 10 x 160(Con)
@@ -10560,16 +10560,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 19
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 82
     Fire           : 17
-    Generic        : 95
-    Metal          : 1
-    Mud            : 132
+    Generic        : 93
+    Metal          : 2
+    Mud            : 133
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10595,7 +10595,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +54
-    To Hit: Magic: +27
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2493 = 161d4 (2 x 161) + 320(flat) + 11 x 161(Con)
@@ -10627,16 +10627,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 82
     Fire           : 17
-    Generic        : 96
-    Metal          : 1
-    Mud            : 132
+    Generic        : 94
+    Metal          : 2
+    Mud            : 133
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10662,7 +10662,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +54
-    To Hit: Magic: +27
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2509 = 162d4 (2 x 162) + 322(flat) + 11 x 162(Con)
@@ -10694,16 +10694,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 82
     Fire           : 17
-    Generic        : 97
-    Metal          : 1
-    Mud            : 132
+    Generic        : 95
+    Metal          : 2
+    Mud            : 133
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10729,7 +10729,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +55
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2524 = 163d4 (2 x 163) + 324(flat) + 11 x 163(Con)
@@ -10761,16 +10761,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 83
     Fire           : 18
-    Generic        : 97
-    Metal          : 1
-    Mud            : 134
+    Generic        : 95
+    Metal          : 2
+    Mud            : 135
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10796,7 +10796,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +55
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2540 = 164d4 (2 x 164) + 326(flat) + 11 x 164(Con)
@@ -10828,16 +10828,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 83
     Fire           : 18
-    Generic        : 98
-    Metal          : 1
-    Mud            : 134
+    Generic        : 96
+    Metal          : 2
+    Mud            : 135
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10863,7 +10863,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +55
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2555 = 165d4 (2 x 165) + 328(flat) + 11 x 165(Con)
@@ -10895,16 +10895,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 84
     Fire           : 18
-    Generic        : 99
-    Metal          : 1
-    Mud            : 134
+    Generic        : 97
+    Metal          : 2
+    Mud            : 135
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10930,7 +10930,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +56
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2571 = 166d4 (2 x 166) + 330(flat) + 11 x 166(Con)
@@ -10962,16 +10962,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 85
     Fire           : 18
-    Generic        : 99
-    Metal          : 1
-    Mud            : 136
+    Generic        : 97
+    Metal          : 2
+    Mud            : 137
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 20
 
@@ -10997,7 +10997,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +56
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2586 = 167d4 (2 x 167) + 332(flat) + 11 x 167(Con)
@@ -11029,16 +11029,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 85
     Fire           : 18
-    Generic        : 100
-    Metal          : 1
-    Mud            : 136
+    Generic        : 98
+    Metal          : 2
+    Mud            : 137
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11064,7 +11064,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 21  RP: 1
     Proficiency: +56
-    To Hit: Magic: +28
+    To Hit: Magic: +31
 
   HEALTH POOLS:
     Vitality: 2602 = 168d4 (2 x 168) + 334(flat) + 11 x 168(Con)
@@ -11096,16 +11096,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 20
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 85
     Fire           : 18
-    Generic        : 101
-    Metal          : 1
-    Mud            : 136
+    Generic        : 99
+    Metal          : 2
+    Mud            : 137
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11131,7 +11131,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 22  RP: 1
     Proficiency: +57
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2617 = 169d4 (2 x 169) + 336(flat) + 11 x 169(Con)
@@ -11163,16 +11163,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 86
     Fire           : 18
-    Generic        : 101
-    Metal          : 1
-    Mud            : 138
+    Generic        : 99
+    Metal          : 2
+    Mud            : 139
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11198,7 +11198,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 17  BAP: 22  RP: 1
     Proficiency: +57
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2633 = 170d4 (2 x 170) + 338(flat) + 11 x 170(Con)
@@ -11230,16 +11230,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 86
     Fire           : 18
-    Generic        : 102
-    Metal          : 1
-    Mud            : 138
+    Generic        : 100
+    Metal          : 2
+    Mud            : 139
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11265,7 +11265,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +57
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2648 = 171d4 (2 x 171) + 340(flat) + 11 x 171(Con)
@@ -11297,16 +11297,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 86
     Fire           : 19
-    Generic        : 103
-    Metal          : 1
-    Mud            : 138
+    Generic        : 101
+    Metal          : 2
+    Mud            : 139
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11332,7 +11332,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +58
-    To Hit: Magic: +28
+    To Hit: Magic: +32
 
   HEALTH POOLS:
     Vitality: 2664 = 172d4 (2 x 172) + 342(flat) + 11 x 172(Con)
@@ -11364,16 +11364,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 87
     Fire           : 19
-    Generic        : 103
-    Metal          : 1
-    Mud            : 140
+    Generic        : 101
+    Metal          : 2
+    Mud            : 141
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11399,7 +11399,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +58
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2679 = 173d4 (2 x 173) + 344(flat) + 11 x 173(Con)
@@ -11431,16 +11431,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 88
     Fire           : 19
-    Generic        : 104
-    Metal          : 1
-    Mud            : 140
+    Generic        : 102
+    Metal          : 2
+    Mud            : 141
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11466,7 +11466,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +58
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2695 = 174d4 (2 x 174) + 346(flat) + 11 x 174(Con)
@@ -11498,16 +11498,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 88
     Fire           : 19
-    Generic        : 105
-    Metal          : 1
-    Mud            : 140
+    Generic        : 103
+    Metal          : 2
+    Mud            : 141
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 21
 
@@ -11533,7 +11533,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +59
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2710 = 175d4 (2 x 175) + 348(flat) + 11 x 175(Con)
@@ -11565,16 +11565,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 89
     Fire           : 19
-    Generic        : 105
-    Metal          : 1
-    Mud            : 142
+    Generic        : 103
+    Metal          : 2
+    Mud            : 143
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -11600,7 +11600,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 22  RP: 1
     Proficiency: +59
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2726 = 176d4 (2 x 176) + 350(flat) + 11 x 176(Con)
@@ -11632,16 +11632,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 21
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 89
     Fire           : 19
-    Generic        : 106
-    Metal          : 1
-    Mud            : 142
+    Generic        : 104
+    Metal          : 2
+    Mud            : 143
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -11667,7 +11667,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +59
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2741 = 177d4 (2 x 177) + 352(flat) + 11 x 177(Con)
@@ -11699,16 +11699,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 89
     Fire           : 19
-    Generic        : 107
-    Metal          : 1
-    Mud            : 142
+    Generic        : 105
+    Metal          : 2
+    Mud            : 143
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -11734,7 +11734,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +60
-    To Hit: Magic: +28
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2757 = 178d4 (2 x 178) + 354(flat) + 11 x 178(Con)
@@ -11766,16 +11766,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 90
     Fire           : 19
-    Generic        : 107
-    Metal          : 1
-    Mud            : 144
+    Generic        : 105
+    Metal          : 2
+    Mud            : 145
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -11801,7 +11801,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +60
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2772 = 179d4 (2 x 179) + 356(flat) + 11 x 179(Con)
@@ -11833,16 +11833,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 90
     Fire           : 20
-    Generic        : 108
-    Metal          : 1
-    Mud            : 144
+    Generic        : 106
+    Metal          : 2
+    Mud            : 145
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -11868,7 +11868,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 18  BAP: 23  RP: 1
     Proficiency: +60
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2788 = 180d4 (2 x 180) + 358(flat) + 11 x 180(Con)
@@ -11900,16 +11900,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 90
     Fire           : 20
-    Generic        : 109
-    Metal          : 1
-    Mud            : 144
+    Generic        : 107
+    Metal          : 2
+    Mud            : 145
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -11935,7 +11935,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +61
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2803 = 181d4 (2 x 181) + 360(flat) + 11 x 181(Con)
@@ -11967,16 +11967,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 92
     Fire           : 20
-    Generic        : 109
-    Metal          : 1
-    Mud            : 146
+    Generic        : 107
+    Metal          : 2
+    Mud            : 147
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -12002,7 +12002,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +61
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2819 = 182d4 (2 x 182) + 362(flat) + 11 x 182(Con)
@@ -12034,16 +12034,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 92
     Fire           : 20
-    Generic        : 110
-    Metal          : 1
-    Mud            : 146
+    Generic        : 108
+    Metal          : 2
+    Mud            : 147
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 22
 
@@ -12069,7 +12069,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +61
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2834 = 183d4 (2 x 183) + 364(flat) + 11 x 183(Con)
@@ -12101,16 +12101,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 92
     Fire           : 20
-    Generic        : 111
-    Metal          : 1
-    Mud            : 146
+    Generic        : 109
+    Metal          : 2
+    Mud            : 147
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12136,7 +12136,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 23  RP: 1
     Proficiency: +62
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2850 = 184d4 (2 x 184) + 366(flat) + 11 x 184(Con)
@@ -12168,16 +12168,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 22
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 93
     Fire           : 20
-    Generic        : 111
-    Metal          : 1
-    Mud            : 148
+    Generic        : 109
+    Metal          : 2
+    Mud            : 149
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12203,7 +12203,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +62
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2865 = 185d4 (2 x 185) + 368(flat) + 11 x 185(Con)
@@ -12235,16 +12235,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 93
     Fire           : 20
-    Generic        : 112
-    Metal          : 1
-    Mud            : 148
+    Generic        : 110
+    Metal          : 2
+    Mud            : 149
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12270,7 +12270,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +62
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2881 = 186d4 (2 x 186) + 370(flat) + 11 x 186(Con)
@@ -12302,16 +12302,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 93
     Fire           : 20
-    Generic        : 113
-    Metal          : 1
-    Mud            : 148
+    Generic        : 111
+    Metal          : 2
+    Mud            : 149
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12337,7 +12337,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +63
-    To Hit: Magic: +29
+    To Hit: Magic: +33
 
   HEALTH POOLS:
     Vitality: 2896 = 187d4 (2 x 187) + 372(flat) + 11 x 187(Con)
@@ -12369,16 +12369,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 94
     Fire           : 21
-    Generic        : 113
-    Metal          : 1
-    Mud            : 150
+    Generic        : 111
+    Metal          : 2
+    Mud            : 151
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12404,7 +12404,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +63
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2912 = 188d4 (2 x 188) + 374(flat) + 11 x 188(Con)
@@ -12436,16 +12436,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 94
     Fire           : 21
-    Generic        : 114
-    Metal          : 1
-    Mud            : 150
+    Generic        : 112
+    Metal          : 2
+    Mud            : 151
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12471,7 +12471,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +63
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2927 = 189d4 (2 x 189) + 376(flat) + 11 x 189(Con)
@@ -12503,16 +12503,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 95
     Fire           : 21
-    Generic        : 115
-    Metal          : 1
-    Mud            : 150
+    Generic        : 113
+    Metal          : 2
+    Mud            : 151
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12538,7 +12538,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 19  BAP: 24  RP: 1
     Proficiency: +64
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 2943 = 190d4 (2 x 190) + 378(flat) + 11 x 190(Con)
@@ -12570,16 +12570,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 96
     Fire           : 21
-    Generic        : 115
-    Metal          : 1
-    Mud            : 152
+    Generic        : 113
+    Metal          : 2
+    Mud            : 153
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 23
 
@@ -12605,7 +12605,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 24  RP: 1
     Proficiency: +64
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3149 = 191d4 (2 x 191) + 380(flat) + 12 x 191(Con)
@@ -12637,16 +12637,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 96
     Fire           : 21
-    Generic        : 116
-    Metal          : 1
-    Mud            : 152
+    Generic        : 114
+    Metal          : 2
+    Mud            : 153
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -12672,7 +12672,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 24  RP: 1
     Proficiency: +64
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3166 = 192d4 (2 x 192) + 382(flat) + 12 x 192(Con)
@@ -12704,16 +12704,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 23
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 96
     Fire           : 21
-    Generic        : 117
-    Metal          : 1
-    Mud            : 152
+    Generic        : 115
+    Metal          : 2
+    Mud            : 153
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -12739,7 +12739,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +65
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3182 = 193d4 (2 x 193) + 384(flat) + 12 x 193(Con)
@@ -12771,16 +12771,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 97
     Fire           : 21
-    Generic        : 117
-    Metal          : 1
-    Mud            : 154
+    Generic        : 115
+    Metal          : 2
+    Mud            : 155
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -12806,7 +12806,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +65
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3199 = 194d4 (2 x 194) + 386(flat) + 12 x 194(Con)
@@ -12838,16 +12838,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 97
     Fire           : 21
-    Generic        : 118
-    Metal          : 1
-    Mud            : 154
+    Generic        : 116
+    Metal          : 2
+    Mud            : 155
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -12873,7 +12873,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +65
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3215 = 195d4 (2 x 195) + 388(flat) + 12 x 195(Con)
@@ -12905,16 +12905,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 97
     Fire           : 22
-    Generic        : 119
-    Metal          : 1
-    Mud            : 154
+    Generic        : 117
+    Metal          : 2
+    Mud            : 155
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -12940,7 +12940,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +66
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3232 = 196d4 (2 x 196) + 390(flat) + 12 x 196(Con)
@@ -12972,16 +12972,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 98
     Fire           : 22
-    Generic        : 119
-    Metal          : 1
-    Mud            : 156
+    Generic        : 117
+    Metal          : 2
+    Mud            : 157
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -13007,7 +13007,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +66
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3248 = 197d4 (2 x 197) + 392(flat) + 12 x 197(Con)
@@ -13039,16 +13039,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 99
     Fire           : 22
-    Generic        : 120
-    Metal          : 1
-    Mud            : 156
+    Generic        : 118
+    Metal          : 2
+    Mud            : 157
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -13074,7 +13074,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +66
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3265 = 198d4 (2 x 198) + 394(flat) + 12 x 198(Con)
@@ -13106,16 +13106,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 99
     Fire           : 22
-    Generic        : 121
-    Metal          : 1
-    Mud            : 156
+    Generic        : 119
+    Metal          : 2
+    Mud            : 157
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 24
 
@@ -13141,7 +13141,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +67
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3281 = 199d4 (2 x 199) + 396(flat) + 12 x 199(Con)
@@ -13173,16 +13173,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 100
     Fire           : 22
-    Generic        : 121
-    Metal          : 1
-    Mud            : 158
+    Generic        : 119
+    Metal          : 2
+    Mud            : 159
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 25
 
@@ -13208,7 +13208,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 20  BAP: 25  RP: 1
     Proficiency: +67
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3298 = 200d4 (2 x 200) + 398(flat) + 12 x 200(Con)
@@ -13240,16 +13240,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 24
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 100
     Fire           : 22
-    Generic        : 122
-    Metal          : 1
-    Mud            : 158
+    Generic        : 120
+    Metal          : 2
+    Mud            : 159
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 25
 
@@ -13275,7 +13275,7 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
     Speed: 30 ft
     AP: 21  BAP: 26  RP: 1
     Proficiency: +67
-    To Hit: Magic: +29
+    To Hit: Magic: +34
 
   HEALTH POOLS:
     Vitality: 3314 = 201d4 (2 x 201) + 400(flat) + 12 x 201(Con)
@@ -13307,16 +13307,16 @@ EYUM TTRPG - AFFINITY: MUD MAGE (NO GEAR)
 
   AFFINITIES:
     Air            : 25
-    Corruption     : 1
-    Dust           : 1
+    Corruption     : 2
+    Dust           : 2
     Earth          : 100
     Fire           : 22
-    Generic        : 123
-    Metal          : 1
-    Mud            : 158
+    Generic        : 121
+    Metal          : 2
+    Mud            : 159
     Necrotic       : -3
-    Obsidian       : 1
-    Quake          : 1
+    Obsidian       : 2
+    Quake          : 2
     Radiant        : 3
     Water          : 25
 
