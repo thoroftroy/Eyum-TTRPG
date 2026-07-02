@@ -154,11 +154,66 @@ def hit_chance(accuracy, target_ac):
 def crit_chance():
     return 0.05
 
+def _make_category(w):
+    return [t for t in w["types"] if t in [
+        "Unarmed","Light","Finesse","Thrown","Versatile","Two-Handed","Heavy",
+        "Reach","Martial","Hooking","Ranged","Loading","Magical","Restraining","Special"
+    ]]
+
+
+def _make_entry(w, die_str, base_avg, total_dmg, total_acc, mat_name, dmg_mod, acc_mod,
+                weight, mat_price_mult, mat_price_lbs, ench, notes, dmg_type_override=None):
+    is_two_handed = "Two-Handed" in w["types"]
+    is_heavy = "Heavy" in w["types"]
+    if weight is None:
+        weight = 10 if is_two_handed else (7 if is_heavy else (3 if "Light" in w["types"] else 5))
+    material_cost = mat_price_lbs * weight
+    total_price_gold = (w["base_price"] / 100) * mat_price_mult + material_cost
+    return {
+        "name": f"{mat_name} {w['name']}",
+        "weapon": w["name"], "material": mat_name,
+        "die": die_str, "dmg_type": dmg_type_override or w["dmg_type"],
+        "base_avg_dmg": round(base_avg, 1), "mat_dmg_mod": dmg_mod,
+        "mat_acc_mod": acc_mod, "total_dmg": round(total_dmg, 1),
+        "total_acc": total_acc, "range": w["range"],
+        "ranged_max": w.get("ranged_max", w["range"]),
+        "types": w["types"], "category": _make_category(w),
+        "ap": w["ap"], "weight_lbs": weight,
+        "price_gold": round(total_price_gold, 1),
+        "price_mult": mat_price_mult, "ench": ench,
+        "notes": notes,
+    }
+
+
 def generate_weapons():
     results = []
     for w in WEAPONS:
         is_ranged = w["name"] in RANGED_WEAPONS
         is_macuahuitl = w["name"] == "Macuahuitl"
+
+        # Macuahuitl is NOT made of metal materials — only wooden base + embedded materials
+        if is_macuahuitl:
+            base_die = w.get("versatile_die") or w["die"]
+            die_str = base_die
+            base_avg = avg_die(die_str) if die_str else 0
+
+            # Wooden base (no embeds)
+            wood_entry = _make_entry(w, die_str, base_avg, base_avg - 5, -5,
+                                     "Wood", -5, -5, 5, 0.1, 0.01, -5,
+                                     "Wooden club, no embedded materials yet")
+            wood_entry["name"] = "Macuahuitl (wooden)"
+            results.append(wood_entry)
+
+            for embed in MACUAHUITL_EMBEDS:
+                mac_e = _make_entry(w, die_str, base_avg,
+                                    base_avg + embed["damage"], embed["accuracy"],
+                                    f"Wood+{embed['name']}", embed["damage"], embed["accuracy"],
+                                    5, 1.0, 50.0, 0,
+                                    f"Wooden club, {embed['notes']}",
+                                    dmg_type_override=embed["dmg_type"])
+                mac_e["name"] = f"Macuahuitl ({embed['name']})"
+                results.append(mac_e)
+            continue
 
         for m in MATERIALS:
             base_die = w.get("versatile_die") or w["die"]
@@ -170,65 +225,17 @@ def generate_weapons():
             total_damage = base_avg + dmg_mod
             total_accuracy = acc_mod
 
-            # Price
-            mat_price_mult = m["price_mult"]
-            mat_price_lbs = m["price_lbs"]
-            is_two_handed = "Two-Handed" in w["types"]
-            is_heavy = "Heavy" in w["types"]
-            weight = 10 if is_two_handed else (7 if is_heavy else (3 if "Light" in w["types"] else 5))
-            material_cost = mat_price_lbs * weight
-            total_price_gold = (w["base_price"] / 100) * mat_price_mult + material_cost
-
-            category = [t for t in w["types"] if t in [
-                "Unarmed","Light","Finesse","Thrown","Versatile","Two-Handed","Heavy",
-                "Reach","Martial","Hooking","Ranged","Loading","Magical","Restraining","Special"
-            ]]
-
-            entry = {
-                "name": f"{m['name']} {w['name']}",
-                "weapon": w["name"], "material": m["name"],
-                "die": die_str, "dmg_type": w["dmg_type"],
-                "base_avg_dmg": round(base_avg,1), "mat_dmg_mod": dmg_mod,
-                "mat_acc_mod": acc_mod, "total_dmg": round(total_damage,1),
-                "total_acc": total_accuracy, "range": w["range"],
-                "ranged_max": w.get("ranged_max", w["range"]),
-                "types": w["types"], "category": category,
-                "ap": w["ap"], "weight_lbs": weight,
-                "price_gold": round(total_price_gold,1),
-                "price_mult": mat_price_mult, "ench": m["ench"],
-                "notes": w.get("notes",""),
-            }
+            entry = _make_entry(w, die_str, base_avg, total_damage, total_accuracy,
+                                m["name"], dmg_mod, acc_mod, None,
+                                m["price_mult"], m["price_lbs"], m["ench"],
+                                w.get("notes", ""))
             results.append(entry)
 
-            # For ranged weapons: generate arrow variant with same material
             if is_ranged and m["name"] != "Junk Metal":
                 ammo_entry = dict(entry)
                 ammo_entry["name"] = f"{m['name']} {w['name']} ({m['name']} arrow)"
                 ammo_entry["notes"] = f"Bow: {m['name']}, Arrow: {m['name']}"
                 results.append(ammo_entry)
-
-            # Macuahuitl: wooden base (Junk Metal stats), embeddable with specific materials
-            if is_macuahuitl:
-                # Only generate Macuahuitl with the actual wooden base (Junk Metal stats)
-                # plus embedded material variants
-                entry["name"] = f"Macuahuitl (wooden)"
-                entry["material"] = "Wood"
-                entry["notes"] = "Wooden club, no embedded materials yet"
-                # Override stats for wooden base only
-                entry["total_dmg"] = round(base_avg + m["damage"], 1)
-                entry["total_acc"] = m["accuracy"]
-                results.append(entry)
-
-                for embed in MACUAHUITL_EMBEDS:
-                    mac_entry = dict(entry)
-                    mac_entry["name"] = f"Macuahuitl ({embed['name']})"
-                    mac_entry["material"] = f"Wood+{embed['name']}"
-                    mac_entry["dmg_type"] = embed["dmg_type"]
-                    mac_entry["total_dmg"] = round(base_avg + embed["damage"], 1)
-                    mac_entry["total_acc"] = embed["accuracy"]
-                    mac_entry["notes"] = f"Wooden club, {embed['notes']}"
-                    results.append(mac_entry)
-                continue  # Skip the normal material loop for Macuahuitl (only wood base + embeds)
 
     return results
 
