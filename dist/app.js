@@ -672,6 +672,8 @@ async function loadPage(path, scrollToId) {
   }
 
   currentPath = path;
+  let pageName = path.replace(/\.md$/i, '').split('/').pop();
+  document.title = pageName + ': Eyum TTRPG';
   if (graphView) graphView.currentPath = path;
   updateActiveLink();
   updateNavButtons();
