@@ -7,18 +7,16 @@
 | Skyclaw      | Medium | 5'2" - 6'10" | 130 - 260 lb | 65 - 97 years    | 19               |
 | Blackfeather | Medium | 5'0" - 6'6"  | 115 - 230 lb | 55 - 82 years    | 16               |
 | Palehook     | Large  | 5'4" - 7'2"  | 150 - 320 lb | 60 - 90 years    | 18               |
-| Roundfeather | Medium | 4'8" - 6'0"  | 150 - 310 lb | 45 - 67 years    | 13               |
 | Earfang      | Medium | 5'0" - 6'7"  | 95 - 200 lb  | 70 - 105 years   | 21               |
 
-| Race         | Speed          | Negative Affinities | Neutral Affinities                | Positive Affinities      | Stat Bonuses   |
-| ------------ | -------------- | ------------------- | --------------------------------- | ------------------------ | -------------- |
-| Harpy        | 30, fly 40     | Earth, Necrotic     | Generic, Fire, Water, Psychic     | Air, Radiant             | +1 DEX, +1 CHA |
-| Hushwing     | 30, fly 40     | Fire, Earth         | Generic, Water, Psychic, Necrotic | Air, Radiant             | +2 WIS, +1 DEX |
-| Skyclaw      | 35, fly 45     | Water, Psychic      | Generic, Fire, Earth              | Air, Radiant, Necrotic   | +2 STR, +1 DEX |
-| Blackfeather | 30, fly 35     | Radiant, Fire       | Generic, Earth, Water, Psychic    | Air, Necrotic            | +2 INT, +1 DEX |
-| Palehook     | 30, fly 40     | Air, Psychic        | Generic, Fire, Earth              | Necrotic, Radiant, Water | +2 CON, +1 STR |
-| Roundfeather | 30, glide only | Air, Fire           | Generic, Earth, Water, Psychic    | Radiant, Necrotic        | +2 CON, -1 DEX |
-| Earfang      | 30, fly 40     | Radiant, Earth      | Generic, Fire, Water              | Air, Psychic, Necrotic   | +2 DEX, +1 INT |
+| Race         | Speed      | Negative Affinities | Neutral Affinities                | Positive Affinities      | Stat Bonuses   |
+| ------------ | ---------- | ------------------- | --------------------------------- | ------------------------ | -------------- |
+| Harpy        | 30, fly 40 | Earth, Necrotic     | Generic, Fire, Water, Psychic     | Air, Radiant             | +1 DEX, +1 CHA |
+| Hushwing     | 30, fly 40 | Fire, Earth         | Generic, Water, Psychic, Necrotic | Air, Radiant             | +2 WIS, +1 DEX |
+| Skyclaw      | 35, fly 45 | Water, Psychic      | Generic, Fire, Earth              | Air, Radiant, Necrotic   | +2 STR, +1 DEX |
+| Blackfeather | 30, fly 35 | Radiant, Fire       | Generic, Earth, Water, Psychic    | Air, Necrotic            | +2 INT, +1 DEX |
+| Palehook     | 30, fly 40 | Air, Psychic        | Generic, Fire, Earth              | Necrotic, Radiant, Water | +2 CON, +1 STR |
+| Earfang      | 30, fly 40 | Radiant, Earth      | Generic, Fire, Water              | Air, Psychic, Necrotic   | +2 DEX, +1 INT |
 ## Harpy
 Harpies are upright, two-legged humanoids with a mixed avian-mammalian body plan. The upper body follows a human skeletal structure, but the arms are fully transformed into wing-limbs. These wings retain shoulder, elbow, and wrist joints, with long feathered forearms and reduced hand bones forming hooked, grasping digits near the wing edge. Fine manipulation is limited but possible wish effort.
 
@@ -117,26 +115,6 @@ Exposed skin on the head ranges from pinkish flesh to gray or slate and is leath
 - **Tier 10:** **Apex Palehook.** Choose one:
     - **Undying Scavenger:** Your Scavenger's Reward now heals 1d6 Health and 1d8 + Racial Tier Vitality.
     - **Bone Hook:** Your Hook Beak damage increases to 3d12 + Racial Tier + STR mod Piercing and ignores resistances. 
-## Roundfeather
-Roundfeathers retain a fully human head with normal facial structure and hair replaced by short feathers. The torso is rounded and birdlike but remains upright and humanoid in shape. Arms are wing-like, with elongated bones and thin membranes, ending in small bat-like hands.
-
-Legs are human from the hip to the knee, then transition into short bird legs with small talons. Wings are underpowered and cannot produce sustained lift, only controlled gliding or braking falls. The chest is wide and padded, giving a soft, heavy appearance.
-
-Skin is lightly visible and pale pink, gray, or tan. Feathers are thick, soft, and often white, gray, or mottled, creating a puffed outline. Eyes are round and gentle, usually amber, orange, brown, or gray. Teeth are blunt and humanlike. 
-###### Racial Abilities
-- **Tier 1:** **Glide Control.** You no longer take fall damage. 
-- **Tier 2:** **Padded Body.** Gain +1 AC.
-- **Tier 3:** **Body Slam.** Natural melee attack: 1d10 + Racial Tier + STR mod Bludgeoning.
-- **Tier 4:** **Stubborn Bulk.** You cannot be shoved or knocked prone.
-- **Tier 5:** **Round Momentum.** If you move at least 10 ft before Body Slam double its damage.
-- **Tier 6:** **Thick Feathers.** Gain 3 Damage Reduction.
-- **Tier 7:** **Bracing.** As a bonus action you may increase your Damage Reduction by 3 until your next turn (stacks).
-- **Tier 8:** **Resilience.** Gain Lesser Resistance to all damage types.
-- **Tier 9:** **Heavy Survivor.** Once per turn, when you would drop to 0 HP, drop to 1 HP instead.
-- **Tier 10:** **Apex Roundfeather.** Choose one:
-    - **Living Cushion:** Your damage reduction becomes 10, Bracing increases to 10 per use.
-    - **Rolling Impact:** Body slam damage increases to 2d20 + Racial Tier + STR mod Bludgeoning
-    - **Unbreakable:** Critical hits against you become normal hits and aoe damage does not split into HP.
 ## Earfang
 Earfangs have a bat-like head with an elongated muzzle, large upright ears, and sharp facial features. The ears are thin, veined, and highly mobile. The mouth supports clear fangs, and the jaw is narrow but strong. Eyes are forward-facing with large pupils.
 

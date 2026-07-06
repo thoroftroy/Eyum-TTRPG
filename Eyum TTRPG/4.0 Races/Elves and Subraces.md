@@ -12,7 +12,6 @@
 | Ironwroth  | Medium | 4'10" - 5'9" | 170 - 290 lb | 200 - 300 years  | 60               |
 | Fairy      | Tiny   | 6" - 14"     | 0.3 - 1.5 lb | 40 - 60 years    | 12               |
 | Pixy       | Tiny   | 6" - 14"     | 0.3 - 1.5 lb | 40 - 60 years    | 12               |
-| Spriteling | Small  | 8" - 18"     | 0.6 - 3 lb   | 40 - 60 years    | 12               |
 
 | Race       | Speed        | Negative Affinities | Neutral Affinities             | Positive Affinities     | Stat Bonuses   |
 | ---------- | ------------ | ------------------- | ------------------------------ | ----------------------- | -------------- |
@@ -26,7 +25,6 @@
 | Ironwroth  | 25           | Air, Psychic        | Generic, Fire, Radiant         | Earth, Water, Necrotic  | +3 STR, +1 CON |
 | Fairy      | 10, fly 40   | Earth, Necrotic     | Generic, Fire, Water, Psychic  | Air, Radiant            | +3 DEX, -2 STR |
 | Pixy       | 10, fly 40   | Earth, Radiant      | Generic, Fire, Water, Air      | Psychic, Necrotic       | +2 DEX, +1 CHA |
-| Spriteling | 30           | Fire, Necrotic      | Generic, Earth, Water, Psychic | Air, Radiant            | +2 DEX, -1 STR |
 ## Elf
 Elves are upright, two-legged humanoids with a light, refined skeletal structure and long, balanced proportions. Their limbs are slightly longer relative to the torso than in humans, giving them a tall, narrow silhouette even at average height. Joints are smooth and flexible, allowing quiet, precise movement with minimal wasted motion. The spine is straight and elastic, supporting an upright posture that appears relaxed but controlled. Elves are known far and wide for their beauty. 
 
@@ -205,20 +203,3 @@ Skin is smooth and opaque, commonly purple-gray, slate-gray, charcoal, or cool l
 - **Tier 10:** **Arch-Pixy.** Choose one:
     - **Nightmare:** When you deal damage with a spell you may convert its damage type into psychic. 
     - **Black Bloom:** Your Hex Prick becomes 1d12 + Racial Tier Necrotic and can be used on all attacks.
-## Spriteling
-Spritelings are small humanoids without wings, built for ground movement. The body is compact, with short torsos and narrow shoulders. Limbs are proportioned for quick steps rather than long reach. Hands are delicate and fine-boned.
-
-Skin is smooth and opaque, ranging from pale cream to tan and soft brown, sometimes speckled. Hair is fine and light, in black, brown, blonde, red, white, or muted pastel tones. Eyes are forward-facing with visible whites and irises of green, blue, gray, hazel, or amber. Teeth are small and blunt. 
-###### Racial Abilities
-- **Tier 1:** **Quick Hands.** Gain +5 Skill Points immediately.
-- **Tier 2:** **Nimble.** Gain +10 to Initiative but if you are not first in the initiative order you gain the demoralized condition for 1 round.
-- **Tier 3:** **Lightfoot.** After you attack, you may move 10 ft without provoking reactions from the target you attacked.
-- **Tier 4:** **Lucky Spark.** You gain 3 Luck Points per short rest (max of 3). Each point may be used to reroll one d20 roll from a skill check, saving throw, or attack roll, you must use the new result.
-- **Tier 5:** **Darting Strike.** Once per turn on a weapon hit, add 1d6 force damage.
-- **Tier 6:** **Spriteling Reflex.** Gain +1 Rp.
-- **Tier 7:** **Rapid Action.** Gain +1 Ap
-- **Tier 8:** **Slippery.** You have advantage on checks to escape grapples and restraints.
-- **Tier 9:** **True Nimble.** If you are the first in the initiative order you always crit on your first turn.
-- **Tier 10:** **Elder Sprite.** Choose one:
-    - **Speedster:** Gain +30 ft base speed.
-    - **Trickster:** Gain +4 to all skill checks.
