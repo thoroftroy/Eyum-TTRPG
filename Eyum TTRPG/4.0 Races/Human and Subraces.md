@@ -14,51 +14,51 @@
 | Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
 | -------- | ----------- | ------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |
 | Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    |
-| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +1 STR, +2 WIS, +1 INT                 |
+| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +2 WIS, +1 INT, -1 CON                 |
 | Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         |
-| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +6 STR, +2 CON, -2 DEX, -4 INT, -4 WIS |
+| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +8 STR, +4 CON, -2 DEX, -4 INT, -4 WIS |
 | Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         |
-| Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, -1 CON                         |
-| Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, -2 INT                         |
-| Sandman  | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 DEX, +1 CHA                         |
+| Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, +1 WIS, -1 CON                 |
+| Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                 |
+| Sandman  | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                         |
 ## Human
 Humans are upright, two-legged mammals with a balanced and highly variable build. The skeleton is internally rigid with flexible joints at the neck, shoulders, elbows, hips, knees, and ankles, allowing both endurance walking and short bursts of speed. The torso is widest at the shoulders, narrows toward the waist, and widens again at the hips, giving stable upright balance. Arms are shorter than legs and end in hands with five flexible fingers capable of both fine manipulation and strong grip.
 
 Skin is opaque, elastic, and soft, thickening naturally at areas of repeated pressure such as palms, soles, knees, and elbows. Skin tones range widely from pale pink-beige through tan, brown, and deep brown. Hair grows primarily on the scalp, with finer growth on limbs and torso. Hair texture ranges from straight to tightly curled. Eyes are forward-facing with visible whites and a colored iris, commonly brown, blue, green, gray, or hazel. Teeth are flat and blunt, suited for mixed diets. Humans have no claws, fangs, horns, wings, or other extreme features.
 ###### Racial Abilities
-- **Tier 1:** **Adaptable.** Gain +1 Skill Point on every level (retroactive).
-- **Tier 2:** **Hard to Kill.** Gain +1 HP and +1 Vit per level (retroactive).
-- **Tier 3:** **Human Grit.** Once per combat when you would drop to 0 HP, drop to 1 HP instead.
-- **Tier 4:** **Quick Learner.** Gain +1 Stat Point every 2 levels (retroactive).
-- **Tier 5:** **Second Breath.** Once per combat as a BAp, heal 1d8 + Racial Tier + CON mod vitality.
-- **Tier 6:** **Versatile Training.** Gain 3 Proficiency Upgrades or +5 Stat Points.
-- **Tier 7:** **Clutch Focus.** Once per combat, reroll one skill check, saving throw, or attack roll (must use the new roll).
-- **Tier 8:** **Battle Routine.** Gain +3 Initiative and +1 to all saving throws.
-- **Tier 9:** **Stubborn Survivor.** Gain Greater Resistance to one damage type of your choice (chosen now, permanent).
-- **Tier 10:** **Peak Human.** Choose one:
+- **Tier 1:** **Adaptable:** Gain +1 Skill Point on every level (retroactive).
+- **Tier 2:** **Hard to Kill:** Gain +1 HP and +1 Vit per level (retroactive).
+- **Tier 3:** **Sheer Freaking Will:** Once per long rest when you would drop to 0 HP, drop to 1 HP instead.
+- **Tier 4:** **Quick Learner:** Gain +1 Stat Point every 2 levels (retroactive, stacks with level 1).
+- **Tier 5:** **Second Breath:** Once per combat when reduced to 0 Vitality heal 1d8 + ConMod Vitality and deal x2 damage for that turn.
+- **Tier 6:** **Versatile Training:** Gain 3 Proficiency Upgrades or +5 Stat Points.
+- **Tier 7:** **Clutch Focus:** When on 20% HP or lower gain advantage on all attack rolls and deal +20% more damage. 
+- **Tier 8:** **Battle Routine:** Gain +3 Initiative and +1 to all saving throws.
+- **Tier 9:** **Stubborn Survivor:** Sheer Freaking Will can activate once per short rests and drops you to 50% HP instead of 1. 
+- **Tier 10:** **Peak Human** Choose one:
     - **Generalist:** Gain +4 to all skill checks.
     - **Toughened:** Gain +2 AC and +50 Vitality.
-    - **Specialist:** Gain +15 to attack rolls with one weapon type OR +5 Generic Affinity (choose one).
+    - **Specialist:** Gain +15 to attack rolls with one weapon type OR +10 Generic Affinity (choose one).
 ## Aurian
 Aurians share a human skeletal plan but with distinct proportional differences. Their arms are unusually long, nearly equal in length to their legs, giving them a wide reach and a slightly hanging resting posture. The bones are denser than human average, producing a heavier feel even at similar size. The shoulders are broad, and the joints appear sharply defined.
 
 Skin is tan to bronze, smooth, and resistant to discoloration. Beneath the skin, veins are visibly red or orange rather than blue, faintly glowing under exertion or heat. Hair grows thickly on the scalp and is uniformly white or pale silver. Eyes are solid red or ember-orange, with little or no visible white. Facial features tend to be angular, with strong jawlines and pronounced cheekbones. Teeth remain blunt and humanlike. 
 ###### Racial Abilities
 +5 ft Melee Range.
-- **Tier 1:** **Ember Veins.** Gain +2 Generic Affinity and +1 Base Magic Accuracy.
-- **Tier 2:** **Inner Mana Furnace.** After spending 20 mana in a single turn gain +2 + Racial Tier True damage to your next magic attack (does not stack). 
-- **Tier 3:** **Mana Conduit.** Gain +2 Mana per level (retroactive) and +3 Generic Affinity.
-- **Tier 4:** **Spell Precision.** Once per turn, when you hit with a spell attack, add +1d6 damage of that spell’s affinity.
-- **Tier 5:** **Affinity Master.** You may change the affinity of whatever spell you are casting to any affinity type which you have at least 5 affinity in. The damage type of the spell will also change to the corresponding damage type. 
-- **Tier 6:** **Affinity Bloom.** Gain +10 Affinity Points immediately (same as the normal affinity points, just extra).
-- **Tier 7:** **Arcane Certainty.** Once per combat you may guarantee a crit on a spell attack.
-- **Tier 8:** **Overchannel.** You may spend an additional BAp to upcast a spell without costing more mana, you will take 1d4 true damage each time you do this. You may not do more than one upcast at a time with this. You may not spend mana to increase the upcast of a spell that you are upcasting this way. 
-- **Tier 9:** **All-Thread Casting.** Your spells ignore half cover and gain +2 Magic Accuracy.
+- **Tier 1:** **Magic Veins:** Gain +2 Generic Affinity and +1 Base Magic Accuracy.
+- **Tier 2:** **Inner Mana Furnace:** When you roll a Mana Dice on a level up double the mana gain (this level and all future levels).
+- **Tier 3:** **Mana Conduit:** Gain +2 Mana per level (retroactive) and +10 Affinity Points. 
+- **Tier 4:** **Spell Precision:** Your Spell [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Roll Bonus|Attack Roll Bonus]] goes up one tier (if it was in the 3 to 4 range it is now in the 5 to 7 range, etc). If you are already at the max Tier then gain +1 to Spell Attack Rolls.
+- **Tier 5:** **Affinity Master:** You may change the affinity of whatever spell you are casting to any affinity type which you have at least 10 affinity in. The damage type of the spell will also change to the corresponding damage type. 
+- **Tier 6:** **Affinity Bloom:** Gain +10 Affinity Points.
+- **Tier 7:** **Arcane Versatility:** The prerequisite cost for unlocking a new Affinity is reduced by 50% (rounding down). 
+- **Tier 8:** **Overchannel:** You may spend an additional Bonus Action Point (BAp) to upcast a spell without increasing its Mana cost. Each upcast causes True Damage equal to its upcast number in d8s. For example, the first upcast deals 1d8 True Damage (1d8 total), the second deals an additional 2d8 (3d8 total), and the third deals an additional 3d8 (6d8 total). You may not spend Mana to further increase the upcast level of a spell being upcast in this way.
+- **Tier 9:** **All-Thread Casting:** Your spells ignore Resistance and Lesser Resistance. All attacks you make count as magical even if they were physical attacks. You may add your [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] to any attack using its relevant affinity. Any attacks without affinity will use Generic. If the spell already gained bonus damage from your Attack Damage Bonus then for those spells move the Attack Damage Bonus up 1 tier, if you are already at the Maximum tier instead do +1 damage. 
 - **Tier 10:** **Aurian Ascendant.** Choose one:
-    - **Pure Affinity:** Gain +30 Affinity Points and +5 Generic Affinity. 
-    - **Perfect Casting:** When a creature succeeds in one of your saving throws they take 1d10 + the spells affinity damage (as the spells affinity damage type) anyways. 
-    - **Mana Engine:** Gain +40 Max Mana and Mana Well (recover 1d10 + 5 Mana once per turn as a BAp).
-    - **Overchannel God:** You may Overchannel a spell more than once at a time, for each upcast level increase the dice tier of the true damage you will take. (1d4 for 1 upcast, 1d6 for 2nd upcast, 1d8 for a third and so on) with a max of 1d20 (also the cap of upcasts from this method). 
+    - **Pure Affinity:** Gain +30 Affinity Points and +5 Generic Affinity. Gain +5 Affinity points for every level after this. 
+    - **Perfect Casting:** When a creature succeeds in one of your saving throws and would not take damage they take half damage anyways. 
+    - **Mana Engine:** Gain +40 Max Mana and +10 Mana for every level after this. 
+    - **Overchannel God:** The damage from Overchanneling spells is reduced to d4s and the damage is dealt to Vitality first (still ignores all resistances, immunities, and damage mitigation effects).
 ## Halofade
 Halofades are extremely tall and thin, with exaggerated limb length and narrow frames. Arms and legs are disproportionately long, and fingers and toes are elongated with many visible joints, giving the hands and feet a spindled, almost skeletal look. The ribcage is narrow, shoulders slope downward, and the neck is long and delicate. Despite the fragile appearance, joints are reinforced and do not bend unnaturally.
 
@@ -82,8 +82,9 @@ Giants are massive humanoids scaled far beyond human size. The skeleton is extre
 
 Skin is thick, rough, and resilient, commonly stone-gray, dark tan, or earth-toned. Calluses form rapidly and scars remain raised and visible. Hair is coarse and heavy, usually dark brown, black, or rust-red. Eyes are dark, brown, green, or nearly black. Teeth are broad and flat. Movement is slow but powerful, and the body carries a constant sense of weight and pressure.
 ###### Racial Abilities
+You have disadvantage on any roll which uses Affinity. You have -5 to your Generic Affinity. 
 - **Tier 1:** **Crushing Hands.** Your unarmed attacks deal 2d20 Bludgeoning damage and you have advantage on Grapple Checks. 
-- **Tier 2:** **Thick Hide.** Gain +1 AC and +5 to your STR score.
+- **Tier 2:** **Thick Hide.** Gain +1 AC and +3 to your CON score. You have lesser resistance to Slashing and Piercing damage. 
 - **Tier 3:** **Heavy Swing.** You may spend a BAp to double the damage an Unarmed attack. 
 - **Tier 4:** **Stone Bones.** Gain 3 + Racial Tier Damage Reduction. 
 - **Tier 5:** **Groundshaker.** As an Action once per turn, stomp: creatures within 10 ft must pass a DEX save (DC 10 + STR mod + Tier) or fall [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and take 2d10 Bludgeoning (half on save, not prone).
