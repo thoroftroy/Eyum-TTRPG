@@ -11,16 +11,16 @@
 | Kravari  | Medium | 5'7" - 6'11"  | 180 - 310 lb   | 40 - 60 years    | 12               |
 | Sandman  | Medium | 5'2" - 6'3"   | 100 - 185 lb   | 50 - 75 years    | 15               |
 
-| Race     | Speed       | Negative Affinities | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
-| -------- | ----------- | ------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |
-| Human    | 30          |                     | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    |
-| Aurian   | 30          | Psychic             | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +2 WIS, +1 INT, -1 CON                 |
-| Halofade | 30, swim 30 | Fire, Earth         | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         |
-| Giant    | 35          | Air, Psychic        | Generic, Fire, Radiant                                       | Earth, Water                      | +8 STR, +4 CON, -2 DEX, -4 INT, -4 WIS |
-| Iceborn  | 30, swim 30 | Fire                | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         |
-| Fireborn | 30          | Water, Radiant      | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, +1 WIS, -1 CON                 |
-| Kravari  | 30          | Psychic, Air        | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                 |
-| Sandman  | 30, swim 30 | Earth               | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                         |
+| Race     | Speed | Negative Affinities                                   | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
+| -------- | ----- | ----------------------------------------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |
+| Human    | 25    |                                                       | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    |
+| Aurian   | 25    | Psychic                                               | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +2 WIS, +1 INT, -1 CON                 |
+| Halofade | 25    | Fire, Earth                                           | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         |
+| Giant    | 30    | Air, Psychic, Water, Fire, Radiant, Necrotic, Generic | Earth                                                        |                                   | +8 STR, +4 CON, -2 DEX, -4 INT, -4 WIS |
+| Iceborn  | 25    | Fire                                                  | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         |
+| Fireborn | 25    | Water, Radiant                                        | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, +1 WIS, -1 CON                 |
+| Kravari  | 25    | Psychic, Air                                          | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                 |
+| Sandman  | 25    | Earth                                                 | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                         |
 ## Human
 Humans are upright, two-legged mammals with a balanced and highly variable build. The skeleton is internally rigid with flexible joints at the neck, shoulders, elbows, hips, knees, and ankles, allowing both endurance walking and short bursts of speed. The torso is widest at the shoulders, narrows toward the waist, and widens again at the hips, giving stable upright balance. Arms are shorter than legs and end in hands with five flexible fingers capable of both fine manipulation and strong grip.
 
@@ -54,7 +54,7 @@ Skin is tan to bronze, smooth, and resistant to discoloration. Beneath the skin,
 - **Tier 7:** **Arcane Versatility:** The prerequisite cost for unlocking a new Affinity is reduced by 50% (rounding down). 
 - **Tier 8:** **Overchannel:** You may spend an additional Bonus Action Point (BAp) to upcast a spell without increasing its Mana cost. Each upcast causes True Damage equal to its upcast number in d8s. For example, the first upcast deals 1d8 True Damage (1d8 total), the second deals an additional 2d8 (3d8 total), and the third deals an additional 3d8 (6d8 total). You may not spend Mana to further increase the upcast level of a spell being upcast in this way.
 - **Tier 9:** **All-Thread Casting:** Your spells ignore Resistance and Lesser Resistance. All attacks you make count as magical even if they were physical attacks. You may add your [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] to any attack using its relevant affinity. Any attacks without affinity will use Generic. If the spell already gained bonus damage from your Attack Damage Bonus then for those spells move the Attack Damage Bonus up 1 tier, if you are already at the Maximum tier instead do +1 damage. 
-- **Tier 10:** **Aurian Ascendant.** Choose one:
+- **Tier 10:** **Aurian Ascendant** Choose one:
     - **Pure Affinity:** Gain +30 Affinity Points and +5 Generic Affinity. Gain +5 Affinity points for every level after this. 
     - **Perfect Casting:** When a creature succeeds in one of your saving throws and would not take damage they take half damage anyways. 
     - **Mana Engine:** Gain +40 Max Mana and +10 Mana for every level after this. 
@@ -83,34 +83,35 @@ Giants are massive humanoids scaled far beyond human size. The skeleton is extre
 Skin is thick, rough, and resilient, commonly stone-gray, dark tan, or earth-toned. Calluses form rapidly and scars remain raised and visible. Hair is coarse and heavy, usually dark brown, black, or rust-red. Eyes are dark, brown, green, or nearly black. Teeth are broad and flat. Movement is slow but powerful, and the body carries a constant sense of weight and pressure.
 ###### Racial Abilities
 You have disadvantage on any roll which uses Affinity. You have -5 to your Generic Affinity. 
-- **Tier 1:** **Crushing Hands.** Your unarmed attacks deal 2d20 Bludgeoning damage and you have advantage on Grapple Checks. 
-- **Tier 2:** **Thick Hide.** Gain +1 AC and +3 to your CON score. You have lesser resistance to Slashing and Piercing damage. 
-- **Tier 3:** **Heavy Swing.** You may spend a BAp to double the damage an Unarmed attack. 
-- **Tier 4:** **Stone Bones.** Gain 3 + Racial Tier Damage Reduction. 
-- **Tier 5:** **Groundshaker.** As an Action once per turn, stomp: creatures within 10 ft must pass a DEX save (DC 10 + STR mod + Tier) or fall [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and take 2d10 Bludgeoning (half on save, not prone).
-- **Tier 6:** **Unmovable.** You cannot be forcibly moved, shoved, or knocked prone. 
-- **Tier 7:** **Titan Grip.** You may wield Two-Handed weapons in one hand (still treated as heavy) and may dual wield them.
-- **Tier 8:** **Juggernaut.** Gain +2 AC (stacks) but suffer -2 Initiative.
-- **Tier 9:** **Brute Vitality.** Gain +2 HP per level (retroactive).
-- **Tier 10:** **Apex Giant.** Choose one:
+- **Tier 1:** **Crushing Hands:** Your unarmed attacks deal 2d12 Bludgeoning damage and you have advantage on Grapple Checks. 
+- **Tier 2:** **Thick Hide:** Gain +1 AC and +3 to your CON score. You have lesser resistance to Slashing and Piercing damage. 
+- **Tier 3:** **Heavy Swing:** You may spend a BAp to double the damage an Unarmed attack. 
+- **Tier 4:** **Stone Bones:** Gain 3 + Racial Tier Damage Reduction. 
+- **Tier 5:** **Groundshaker:** As an Action once per turn, stomp: creatures within 10 ft must pass a DEX save (DC 10 + STR mod + Tier) or fall [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and take 2d10 Bludgeoning (half on save, not prone).
+- **Tier 6:** **Unmovable:** You cannot be forcibly moved, shoved, or knocked prone. Your movement ignores difficult terrain. 
+- **Tier 7:** **Titan Grip:** You may wield Two-Handed weapons in one hand (still treated as heavy) and may dual wield them.
+- **Tier 8:** **Juggernaut:** Gain +2 AC and +2 CON but suffer -2 Initiative.
+- **Tier 9:** **Brute Vitality:** Gain +5 Vitality and +2 HP per level, this bonus applies retroactively and for all future levels.
+- **Tier 10:** **Apex Giant** Choose one:
     - **Mountain:** Your groundshaker skill increases to 20 ft radius and the damage increases to 2d12.
     - **Siegebreaker:** Skills that only work with Unarmed Attacks now work with any melee attack. 
-    - **Unstoppable:** You are immune to difficult terrain and you automatically succeed all constitution and strength saves. 
+    - **Unstoppable:** You automatically succeed all constitution and strength saves and gain +5 to your STR and CON scores. 
 ## Iceborn
 Iceborn resemble humans in proportion but are more compact and dense. The torso is short and solid, shoulders are broad, and muscles are packed tightly rather than elongated. Limbs are slightly shorter relative to body length, increasing stability. Fat layers favor insulation rather than bulk.
 
 Skin ranges from pale blue to blue-gray or frost-white and feels cold to the touch even in warm conditions. Hair is thick and white, silver, or pale blue. Eyes are ice-blue, pale gray, or clear white, with rare green variants. Skin texture firms and stiffens slightly in extreme cold. Teeth are blunt and humanlike. Their overall appearance is solid, heavy, and resistant to environmental stress.
 ###### Racial Abilities
-- **Tier 1:** **Cold Adaptation.** Gain Resistance to Cold and gain +3 Water Affinity and +3 Air Affinity.
-- **Tier 2:** **Frost Affinity.** Gain +5 Ice/Cold Affinity
-- **Tier 3:** **Ice Shards.** Once per turn as an Action, ranged spell attack (60 ft): 2d10 Ice/Cold Affinity/Damage.
-- **Tier 4:** **Glacial Skin.** Gain +1 AC, you gain greater resistance to Ice/Cold damage.
-- **Tier 5:** **Freeze Step.** Once per combat as a BAp, gain +15 ft movement and ignore difficult terrain until end of turn.
-- **Tier 6:** **Winter Casting.** You may optionally change your Water and Air Affinity spells to Ice/Cold (both affinity and damage).
-- **Tier 7:** **Frostbite.** When you deal Ice/Cold damage, target must pass a CON save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) or suffer -10 ft speed until the end of its next turn (stacks, minimum of 0 speed).
-- **Tier 8:** **[[2.4 Conditions#Environmental-Positional-Conditions|Frozen]].** Whenever you deal Ice/Cold your target gains 1 stack of [[2.4 Conditions#Physical-Conditions|Frostbitten]] for 3 turns (End DC is raised to 10 + Racial Tier). 
-- **Tier 9:** **Ice Ward.** Gain +3 AC (stacks).
-- **Tier 10:** **Apex Iceborn.** Choose one:
+Gain +2 Ice/Cold Affinity and lesser weakness to Fire damage. 
+- **Tier 1:** **Cold Adaptation:** Gain Resistance to Ice/Cold and unlock the Ice/Cold affinity to be used like normal skipping its prerequisites. Gain +5 Ice/Cold Affinity.
+- **Tier 2:** **Frost Affinity:** Gain +10 Ice/Cold Affinity.
+- **Tier 3:** **Ice Shards:** Learn the Unique Spell Ice Shards. 
+- **Tier 4:** **Glacial Skin:** Gain +1 AC, you gain greater resistance to Ice/Cold damage.
+- **Tier 5:** **Freeze Step:** Once per combat as a BAp, gain +15 ft movement and ignore difficult terrain until end of turn.
+- **Tier 6:** **Winter Casting:** You may optionally change your Water and Air Affinity spells to Ice/Cold (both affinity and damage).
+- **Tier 7:** **Frostbite:** When you deal Ice/Cold damage, target must pass a CON save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) or suffer -10 ft speed until the end of its next turn (stacks, minimum of 0 speed).
+- **Tier 8:** **Frozen:** Whenever you deal Ice/Cold your target gains 1 stack of [[2.4 Conditions#Physical-Conditions|Frostbitten]] for 3 turns (End DC is raised to 10 + Racial Tier). 
+- **Tier 9:** **Ice Ward:** Gain +3 AC (stacks).
+- **Tier 10:** **Apex Iceborn** Choose one:
     - **Absolute Cold:** Your Cold damage ignores Resistances and Immunizes.
     - **Glacier Heart:** Regenerate 1d8 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]) HP at the start of your turn while below half HP if you didn't take Fire damage on the last turn.
     - **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save (DC 15 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) halves). 
