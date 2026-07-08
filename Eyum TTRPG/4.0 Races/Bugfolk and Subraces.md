@@ -16,92 +16,97 @@
 | Formid      | Medium | 4'7" - 6'6"   | 140 - 360 lb | 60 - 90 years    | 18               |
 | Plateroll   | Medium | 4'6" - 6'6"   | 170 - 520 lb | 80 - 120 years   | 24               |
 
-| Race        | Speed        | Negative Affinities | Neutral Affinities            | Positive Affinities      | Stat Bonuses                   |
-| ----------- | ------------ | ------------------- | ----------------------------- | ------------------------ | ------------------------------ |
-| Chitinfolk  | 30           | Radiant, Psychic    | Generic, Fire, Water, Air     | Earth, Necrotic          | +1 CON, +1 STR                 |
-| Skorren     | 30           | Air, Radiant        | Generic, Fire, Earth          | Necrotic, Psychic, Water | +2 STR, +1 CON, -1 CHA         |
-| Kheprid     | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 CON, +1 STR                 |
-| Verdleap    | 35, climb 30 | Earth, Necrotic     | Generic, Fire, Water, Psychic | Air, Radiant             | +2 DEX, +1 CON                 |
-| Miregnat    | 30, fly 30   | Earth, Radiant      | Generic, Fire, Water, Psychic | Air, Necrotic            | +2 DEX, -1 STR, -2 Con, -1 CHA |
-| Longweaver  | 30, climb 40 | Radiant, Air        | Generic, Fire, Water          | Earth, Necrotic, Psychic | +2 STR, +1 CON, -1 DEX         |
-| Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +1 STR, +1 DEX                 |
-| Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   | +2 INT, +1 WIS                 |
-| Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   | +1 DEX, +1 CHA                 |
-| Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water, Psychic | Air, Radiant             | +2 CHA, +1 DEX                 |
-| Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     | +2 WIS, -1 CHA                 |
-| Formid      | 30           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 STR, +1 CON, +1 AC          |
-| Plateroll   | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +3 CON, -1 DEX                 |
+| Race        | Speed        | Negative Affinities | Neutral Affinities            | Positive Affinities      | Stat Bonuses                           |
+| ----------- | ------------ | ------------------- | ----------------------------- | ------------------------ | -------------------------------------- |
+| Chitinfolk  | 25           | Radiant, Psychic    | Generic, Fire, Water, Air     | Earth, Necrotic          | +4 CON, +1 STR, -3 CHA                 |
+| Skorren     | 30, climb 30 | Air, Radiant        | Generic, Fire, Earth          | Necrotic, Psychic, Water | +3 STR, +1 CON, -2 CHA                 |
+| Kheprid     | 20           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +2 STR, +2 CON, -2 DEX                 |
+| Verdleap    | 40, climb 30 | Earth, Necrotic     | Generic, Fire, Water, Psychic | Air, Radiant             | +6 DEX, +2 CON, -2 INT, -2 WIS, -2 CHA |
+| Miregnat    | 25, fly 30   | Earth, Radiant      | Generic, Fire, Water, Psychic | Air, Necrotic            |                                        |
+| Longweaver  | 30, climb 40 | Radiant, Air        | Generic, Fire, Water          | Earth, Necrotic, Psychic | +2 STR, +2 CON, -2 WIS                 |
+| Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +2 DEX, +1 STR, -1 CHA |
+| Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   |                                        |
+| Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   |                                        |
+| Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water, Psychic | Air, Radiant             |                                        |
+| Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     |                                        |
+| Formid      | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic |                                        |
+| Plateroll   | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic |                                        |
 ## Chitinfolk
-Chitinfolk are upright, two-legged arthropoid humanoids with a broad, beetle-like body plan. Their skeleton is an internal frame reinforced by thick external plates. The torso is wrapped in hard chitin that forms a chest shell, back plates, and layered segments at the abdomen. The shoulders are rounded and the neck is short, often partly protected by a raised collar of armor-like plate.
+Chitinfolk are upright, two-legged arthropod humanoids with a broad, beetle-like body plan. Their skeleton is an internal frame reinforced by thick external plates. The torso is wrapped in hard chitin that forms a chest shell, back plates, and layered segments at the abdomen. The shoulders are rounded and the neck is short, often partly protected by a raised collar of armor-like plate.
 
 The head is insect-like rather than human. It is smooth and domed, with large, dark compound eyes that curve around the sides of the skull. Smaller simple eyes may appear as tiny glossy bumps along the brow ridge. The mouth is made for chewing and grinding, with strong jaw plates and short mandible edges. Antennae are common, usually two, emerging from the forehead and bending forward in gentle arcs. Arms and legs end in jointed hands and feet; hands typically have thick fingers with a strong pinch grip, and nails are replaced by small hooked claws. Their surface color ranges from deep brown and black to dark green, bronze, or dull red, often with a natural shine like polished shell. Hair is absent; instead, fine sensory bristles may appear along joints and the back of the neck.
 ###### Racial Abilities
-- **Tier 1:** **Shell Plate.** While not wearing heavy armor, gain +1 AC.
-- **Tier 2:** **Brace.** As a bonus action become immune to the prone condition until your next turn.
-- **Tier 3:** **Carapace Recovery.** Once per combat as a BAp, gain temporary HP equal to your CON modifier + your Racial Tier.
-- **Tier 4:** **Hardened Segments.** Gain Resistance to one of: Bludgeoning, Piercing, or Slashing (choose when you gain this tier).
-- **Tier 5:** **Shell Rush.** After you take the Attack action, you may move 10 ft without provoking opportunity attacks from the target you attacked. 
-- **Tier 6:** **Reinforced Frame.** Gain +1 AC (stacks with Tier 1).
-- **Tier 7:** **Deflecting Plate.** As a Rp, reduce damage from one hit by 1d10 + CON modifier. 
-- **Tier 8:** **Siege Grip.** You have advantage on checks to grapple, resist grapples, shove, or resist shoves.
-- **Tier 9:** **Living Armor.** While not wearing heavy armor, your AC can’t be reduced below 15 + your CON modifier.
-- **Tier 10:** **Perfect Carapace.** Choose one:
-    - **Adamant Shell:** Critical hits against you become normal hits (damage must be rolled normally and doesn't bypass Vitality).
-    - **Spined Shell:** When a creature hits you with a melee attack, it takes 1d6 piercing damage.
-    - **Sealed Plate:** You gain immunity to poisoned condition and poison damage.
+Natural armor which grants +5 AC, your Natural armor will not give its bonuses if you are wearing other armors. 
+- **Tier 1:** **Shell Plate:** Your Natural armor gains +2 AC. You gain resistance to Slashing damage.
+- **Tier 2:** **Brace:** As a Bonus Action you may brace, bracing reduces your movement to 0 for the rest of the turn but makes you immune to all forced movement and prone conditions. While braced you have +2 AC and +3 to DEX and STR saving throws. 
+- **Tier 3:** **Carapace Recovery:** Each turn regain 1d4 + Racial Tier Vitality if your vitality is lower than 75%. 
+- **Tier 4:** **Hardened Segments:** Gain resistance to Bludgeoning and Piercing damage. Your resistances also effect magical Slashing, Bludgeoning and Piercing. You have 5 damage mitigation (reduce all damage taken by 5 to a minimum of 0). 
+- **Tier 5:** **Shell Spikes:** After being hit by a melee attack the attacker will take 1d4 Piercing damage. 
+- **Tier 6:** **Reinforced Frame:** Your Natural armor gains +4 AC and your Brace will grant an additional +2 AC and +2 to DEX and STR saving throws. Your damage mitigation raises to 8. 
+- **Tier 7:** **Deflecting Plate:** Your reflective damage is percentage-based. Whenever a creature damages you with a melee attack, it takes damage equal to 50% of the damage dealt, calculated before any reductions from your resistances, immunities, or other effects. The reflected damage is the same damage type as the original attack and ignores the attacker's resistances and immunities. You still take the full damage from the attack.
+- **Tier 8:** **Regeneration King:** At the start of each of your turns, if your Health is below 50% of its maximum, you regain 1d4 + your Racial Tier Health. Your Vitality regeneration also increases based on your current Vitality: while below 75%, you regain 1d8 + your Racial Tier Vitality each turn; while below 50%, this instead becomes 2 + 1d10 + your Racial Tier Vitality; and while below 25%, it instead becomes 5 + 1d12 + your Racial Tier Vitality. Only the highest applicable Vitality regeneration value is applied each turn.
+- **Tier 9:** **Adamant Shell:** Critical hits against you become normal hits (damage must be rolled normally and doesn't bypass Vitality).
+- **Tier 10:** **Perfect Carapace** Choose one:
+    - **Unhittable:** Your natural armor gains +3 AC. Your Brace gains +5 AC and +5 to STR and DEX saves. When you pass a DEX save which would normally halve damage you take none instead. 
+    - **Ultimate Reflection:** 75% of damage is reflected back onto attackers and you take 20% less damage. All damage is now reflected, including ranged and magical damage. 
+    - **Unlimited Regeneration:** At the start of each of your turns, if your Health is below 75% of its maximum, you regain 2d6 + your Racial Tier Health. If your Health is below 50%, this instead becomes 4d6 + your Racial Tier, and if it is below 25%, it instead becomes 8d6 + your Racial Tier. Your Vitality regeneration scales in the same way: while below 75%, you regain 2d12 + your Racial Tier Vitality each turn; while below 50%, this instead becomes 5 + 4d12 + your Racial Tier; and while below 25%, it instead becomes 10 + 8d12 + your Racial Tier. Only the highest applicable Health and Vitality regeneration values are applied each turn.
 ## Skorren
 Skorren have a centaur-like build, but the lower body is that of a scorpion rather than a horse. The upper body is humanoid in shape, rising from the front of the scorpion thorax. The chest is broad, the shoulders are thick, and the arms are muscular to balance the heavy lower body. The skin of the upper body is a mix of tough hide and chitin plating, with plates most visible along the spine, shoulders, and ribs.
 
 The lower body has a wide scorpion shell with multiple plate segments and eight walking legs. The legs are thick near the body and narrow toward the tips, ending in sharp hooked feet made for grip. The tail arches upward from the rear, made of stacked segments that can curl forward over the back. At the end is a large stinger bulb, glossy and hard, often darker than the rest of the shell. Two heavy pincers sit at the front of the lower body; they are thick, curved, and capable of crushing force, with serrated inner edges. The head tends toward an insectoid shape with wide-set eyes and a hard faceplate. Colors are usually dark earth tones, black, charcoal, rust, or dusty brown, with lighter edges on plate seams.
 ###### Racial Abilities
-- **Tier 1:** **Stinger Strike.** You gain a natural stinger melee attack: 1d8 Piercing + STR mod, with a range of 10 ft. 
-- **Tier 2:** **Venom Gland.** Your stinger attack deals an additional 1d6 poison damage.
-- **Tier 3:** **Crushing Pincers.** You have double advantage on grapple checks.
-- **Tier 4:** **Tail Reach.** Your stinger gains +5 ft reach.
-- **Tier 5:** **Deep Venom.** Your stinger’s bonus poison becomes 1d10.
-- **Tier 6:** **Armor Plates.** Gain +1 AC.
-- **Tier 7:** **Stinger Flurry.** When you hit with your stinger, you may spend 1 BAp to immediately make one additional stinger attack.
-- **Tier 8:** **Paralytic Dose.** When you deal poison damage with your stinger, the target must pass a CON save (DC 10 + your STR mod + Racial Tier) or have its speed reduced to 0 until the start of your next turn. 
-- **Tier 9:** **Punishing Pin.** While you have a creature grappled all stinger attacks against that creature automatically crit.
-- **Tier 10:** **Apex Stinger.** Choose one:
-    - **Execution Venom:** Your stingers poison damage becomes 2d12
-    - **Barbed Hook:** On a stinger hit you may also make a grapple check against that creature for free. 
+Natural armor which grants +2 AC (this does not stack with worn armor). You possess a pair of heavy pincers at your front; you have advantage on grapple checks, and you may grapple creatures up to one size category larger than you.
+- **Tier 1:** **Stinger Strike:** You gain a natural stinger melee attack: 1d10 Piercing + STR mod, with a range of 10 ft. 
+- **Tier 2:** **Infectious Venom:** When you hit a creature with your Stinger Strike, it gains the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical Conditions|Skorren Venom]] condition for 3 turns (subsequent hits increase stacks by +1). 
+- **Tier 3:** **Crushing Pincers:** You have double advantage on grapple checks. Creatures grappled by you have disadvantage on checks to escape. Each turn a creature is grappled by you they take 1d8 + Racial Tier bludgeoning damage at the start of their turn. 
+- **Tier 4:** **Tail Reach:** Your stinger gains +5 ft reach. Your Stinger Strike damage die increases to 1d12.
+- **Tier 5:** **Necrotic Compound:** Each stack of Skorren Venom now increases damage by +2 instead of +1 and the condition lasts for 5 turns. 
+- **Tier 6:** **Chitin Carapace:** Gain +1 AC to your Natural Armor and 2 Damage Mitigation against Piercing and Slashing damage. While you have a creature grappled, you gain +3 AC.
+- **Tier 7:** **Scorpion's Frenzy:** When you hit a creature with your Stinger Strike, you may spend 1 BAp to make an additional Stinger Strike attack against the same target. If a target is grappled by you all attacks against that creature have advantage and deal +5 piercing damage. 
+- **Tier 8:** **Paralytic Toxin:** Each stack of Skorren Venom you do increases damage by +3 instead of +2. If a creature has greater than 7 stacks of Skorren Poison they must make a CON save or gain the Paralyzed condition for 1 turn. Skorren Venom now deals +8 damage per turn to any creature who is Paralyzed. 
+- **Tier 9:** **Executioner's Grip:** While you have a creature grappled, your Stinger Strike attacks against that creature automatically crit. 
+- **Tier 10:** **Apex Scorpion** Choose one:
+    - **Lethal Injection:** Your Stinger Strikes now inject 3 stacks of Skorren Venom per attack and each stack deals +5 damage instead of +2. Stacks also deal +10 damage against any creature with Necrosis condition per turn. 
+    - **Barbed Telson:** When you hit a creature with your Stinger Strike you may immediately make a grapple check against it as a free action even if they are out of range, on success they are pulled into your pinches and into range. Your natural stinger gains +15 ft of range. 
+    - **Skittering Horror:** Gain +15 ft movement speed. You may use your Crushing Pincers to grapple a creature as a Bonus Action. As an Action you may violently twist a creature you have grappled, dealing 4d10 Piercing damage and 4d8 Necrotic damage and the creature must make a CON save (DC 10 + your STR mod + your Racial Tier) or be Stunned for 1 turn.
 ## Kheprid
 Kheprid resemble Chitinfolk but are denser and more heavily built, with a thicker shell and four arms. The torso is compact and blocky, with overlapping plates forming a strong barrel-like chest. The abdomen is segmented and stiff, giving them a braced posture and a heavy center of mass. Their shoulders are wide enough to support two pairs of arms without crowding; the upper pair is usually stronger, while the lower pair is slightly shorter and built for grip and control. 
 
 The head is beetle-like with a reinforced faceplate and obvious mouth parts. Large mandibles sit at the mouth, shaped like short pincers, with inner ridges for gripping and tearing. The eyes are glossy and dark, often slightly smaller than those of Chitinfolk, giving a more armored look. Antennae are thick and short, angled forward. Their hands are broad with strong fingers, and their joints are visibly plated, especially at elbows, knees, and hips. Shell colors range from deep brown and black to dark bronze and muted green. The surface often shows scratches, scuffs, and pale stress lines where plates overlap, like worn armor.
 ###### Racial Abilities
-- **Tier 1:** **Bulwark Shell.** Gain +1 AC.
-- **Tier 2:** **Four-Arm Guard.** If you are holding a shield or have a free hand, gain +2 to checks to resist being disarmed, grappled or shoved.
-- **Tier 3:** **Stable Stance.** You have advantage on saves/checks against prone, forced movement, and being restrained.
-- **Tier 4:** **Shielded Advance.** When you take the Dodge or Disengage action, you may move an additional 10 ft as part of it.
-- **Tier 5:** **Thickened Plate.** Gain 2 Damage Reduction.
-- **Tier 6:** **Layered Carapace.** Gain +1 AC (stacks with Tier 1).
-- **Tier 7:** **Interpose.** As a Rp, when an ally within 5 ft is hit, you may take the hit instead and reduce the damage by 1d10 + CON mod.
-- **Tier 8:** **Lockdown Grip.** Creatures you grapple have double disadvantage on checks to escape.
-- **Tier 9:** **Hardened Core.** Your Damage Reduction becomes 6.
-- **Tier 10:** **Living Fortress.** Choose one:
-    - **Iron Guard:** You gain immunity to forced movement effects and the prone condition.
-    - **Chitin Wall:** Gain +4 AC.
-    - **Unbreakable:** When reduced to 0 HP, drop to 1 HP instead (once per combat).
+You have four arms. You may equip and wield up to four one-handed weapons or shields at once, or up to two two-handed weapons alongside one shield. You also possess a powerful mandible bite attack: 1d6 Piercing + STR mod that ignores 5 points of the target's AC from armor. Wielding multiple weapons divides your focus: for each weapon or shield you are wielding beyond the first, you take -2 to all attack rolls (-2 with two, -4 with three, -6 with four).
+- **Tier 1:** **Quad-Wield:** Whenever you take the Attack action, you may make one additional weapon attack as a free action using a different equipped weapon. Each equipped weapon can only be used for one free attack granted by this ability per turn. Gaining additional Attack actions does not grant additional free attacks with the same weapon. For example, if you take four Attack actions in a turn, you may still gain free attacks, but each equipped weapon can only make one free attack from this ability during that turn.
+- **Tier 2:** **Armor-Cracker Mandibles:** Your mandible bite damage increases to 1d10 and now ignores 10 points of AC from armor instead of 5. When you hit a creature wearing armor with your bite, that armor's AC bonus is reduced by 2 until the end of your next turn (cumulative).
+- **Tier 3:** **Dervish of Blades:** Once per turn you may use an Action to make one attack with each weapon you are currently wielding (up to 4). This attack does not benefit from Quad-Wield.  
+- **Tier 4:** **Pincer Lock:** When you hit a creature with your mandible bite the creature is grappled. While grappled this way, you may still make bite attacks against them each turn; these attacks automatically hit. You cannot bite a different creature while using your mandibles to grapple. While grappling a creature this way you have -5 AC and -10 to hit any other creature. You may end this grapple at any time, the creature you are attacking can make a STR save (DC 10 + your STR mod) at the start of its turn to end the condition. 
+- **Tier 5:** **Reinforced Carapace:** You have 3 Damage Mitigation. Your Damage Mitigation increases by +2 for each shield you are currently wielding. The accuracy penalty for wielding multiple weapons is reduced to -1 per extra weapon instead of -2.
+- **Tier 6:** **Endless Onslaught:** When you make an attack using Dervish of Blades it gains the benefits of Quad-Wield (1 free attack per attack made up to 4).
+- **Tier 7:** **Shredding Blows:** Your weapon attacks ignore 2 points of the target's Damage Mitigation per weapon you are wielding. Your mandible bite now ignores 20 points of AC from armor and reduces the target's armor AC by 4 instead of 2. 
+- **Tier 8:** **Beetle's Endurance:** Your Damage Mitigation increases to 7 and gains +4 for each shield. While you are wielding at least one shield, critical hits against you become normal hits (damage must be rolled normally and does not bypass Vitality). 
+- **Tier 9:** **Weapon Storm:** You no longer take any accuracy penalty for wielding multiple weapons. Quad-Wield can now grant up to 2 free attacks per weapon per turn. 
+- **Tier 10:** **Living Arsenal** Choose one:
+    - **Eternal Barrage:** Your Dervish of Blades Action now costs a Bonus Action. Your mandible bite now deals 2d10 damage and ignores 30 points of AC from armor.
+    - **Adamant Shell:** Gain +4 AC and your Damage Mitigation increases by +10 and +6 for each shield equipped. When you are reduced to 0 HP, you may instead drop to 1 HP (once per combat). 
+    - **Perfect Synchronization:** Each time you hit the same creature with a different weapon during your turn, the damage of subsequent attacks against that creature increases by +5. The first unique weapon gains no bonus, the second gains +5, the third gains +10, and the fourth gains +15. Once all four unique weapons have hit the target, all further weapon attacks against that creature this turn deal +15 damage, even if they reuse one of those weapons. This bonus is reset upon hitting another creature or at the end of your turn. In addition, Quad-Wield can now grant up to three free attacks per weapon each turn instead of two.
 ## Verdleap
 Verdleap are grasshopper-like humanoids with long, powerful legs and a narrow, segmented torso. The hips and thighs are oversized and heavily muscled, built for sudden leaps and fast climbing. Their lower legs are bent in an insect pattern, giving them a spring-loaded stance. The torso is slimmer than most bugfolk, with a tight waist and a rib-like plate pattern along the sides.
 
 The head is insectoid, with prominent antennae and large eyes. The most distinctive feature is the mouth: it opens as a round opening rather than a normal jaw hinge, and from its rim extend two large curved pincers. These pincers can fold inward or flare outward and are strong enough to grip and lift objects. Hands usually have three thick fingers with hardened tips, suited for grasping rather than fine tool work. Their skin is a blend of hard plate and tough flexible segments, often green, yellow-green, tan, or bark-brown, commonly with striping or speckling like field insects. Hair is absent; instead, fine bristles may line the forearms and the back of the neck.
 ###### Racial Abilities
-- **Tier 1:** **Spring Legs.** Your jump distance is doubled, and you ignore the first 10 ft of falling damage each turn.
-- **Tier 2:** **Wall Kick.** You may move up to 20 ft vertically on a wall during movement if you end on a surface without any checks or penalties.
-- **Tier 3:** **Burst Step.** As a BAp, gain +10 ft speed until end of turn.
-- **Tier 4:** **Skitter Climb.** Your climb speed increases by +10 ft.
-- **Tier 5:** **Evasive Leap.** If you moved at least 10 ft on your turn, gain +2 AC until start of your next turn.
-- **Tier 6:** **Predator Angle.** Gain +5 Accuracy on melee attacks you make after moving at least 15 ft in a straight line this turn.
-- **Tier 7:** **Pounce.** If you move at least 15 ft before a melee attack, you may spend 1 BAp to make an additional melee attack against the same target. (Once per turn)
-- **Tier 8:** **No-Stop Momentum.** If you have moved more than 20 ft already this turn you become immune to difficult terrain. 
-- **Tier 9:** **Impossible Bound.** You no longer provoke opportunity attacks.
-- **Tier 10:** **Skyhopper.** Choose one:
-    - **Lightning Reflex:** Gain +2 Rp and +1 BAp.
-    - **Crushing Landing:** When you drop at least 10 ft onto a creature, it takes 1d10 + DEX mod bludgeoning (DEX save halves). For each additional 10 feat gain +1d10 damage.
-    - **Speed Freak:** Gain +25 ft base speed.
+You can jump twice as far as a normal creature. You ignore the first 20 ft of falling damage each turn and take half damage from falling.
+- **Tier 1:** **Spring Kick:** Your unarmed strikes deal 1d6 Bludgeoning + STR mod. When you make an unarmed strike immediately after jumping at least 10 ft toward a creature, that attack deals an additional 1d8 Bludgeoning and the target must make a STR save (DC 10 + your STR mod + your Racial Tier) or be knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental-Positional-Conditions|Prone]].
+- **Tier 2:** **Wall Rebound:** You may jump off of walls. When adjacent to a wall, your jump distance is doubled for jumps that move away from it. You may chain wall jumps in a single movement without touching the ground.
+- **Tier 3:** **Burst Leap:** As a Bonus Action you may leap up to your remaining movement speed in a straight line. This movement does not provoke opportunity attacks and may pass through enemy spaces. 
+- **Tier 4:** **Airborne Predator:** While you are in the air (after a jump and before landing), you have +2 AC and melee and ranged attacks against you have disadvantage. Your Spring Kick damage increases to 2d6 + 1d8 on a jump attack.
+- **Tier 5:** **Skitter Sprint:** Your base speed increases by +15 ft. You may now take the Dash action as a Bonus Action. 
+- **Tier 6:** **Dive Kick:** When you fall or jump from at least 10 ft above a creature and land adjacent to it, you may use your Reaction to make a Spring Kick attack against it. This attack deals an additional 1d10 per 10 ft fallen beyond the first 10 (max 5d10) and the creature is automatically knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental-Positional-Conditions|Prone]] on hit.
+- **Tier 7:** **Pounce Chain:** When you reduce a creature to 0 HP with a melee attack you may immediately use Burst Leap as a Free Action. On turns you do this, your next Spring Kick that turn deals double damage.
+- **Tier 8:** **Impossible Momentum:** You can ignore Difficult terrain. You gain +1 damage to all attacks per 5 ft moved this turn. 
+- **Tier 9:** **Untouchable:** Opportunity attacks against you automatically miss. When a creature misses you with an opportunity attack, you may immediately make a Spring Kick against them as a Reaction.
+- **Tier 10:** **King of the Leap** Choose one:
+    - **Echo Kick:** When you hit with Spring Kick, all other enemies within 10 ft of the target take damage equal to half the damage dealt (rounded down) as the shockwave ripples outward. This damage cannot be reduced.
+    - **Hurricane Skitter:** Your base speed increases by +20 ft. You gain an additional Action Point (Ap) and Bonus Action Point (BAp). 
+    - **One-Strike Impact:** Once per turn, when you make a Spring Kick after moving at least 30 ft in a straight line toward the target, the attack automatically crits. If the target is reduced to 0 HP by this attack, you may immediately move up to your speed and make another Spring Kick against a different target.
 ## Miregnat
 Miregnats are more humanoid in overall outline, but their features are unmistakably fly-like. They are small-bodied relative to head size, with a large rounded skull and prominent eyes. Two compact, round wings emerge from the upper back. The wings are thin, glossy, and slightly translucent, often showing faint vein lines. Their torso is narrow, and their limbs are slim, built for quick movement rather than strength.
 
@@ -125,35 +130,40 @@ Longweavers have a centaur-like shape, with a human upper body joined to a spide
 
 The spider legs are long and strong, built for climbing and sudden bursts of speed. Each leg has multiple sharp joints and ends in narrow hooked tips that grip surfaces. The abdomen is large and rounded, often with visible patterning, and may carry fine hairs. The head is mostly human in silhouette but altered by spider traits: the eyes are arranged as spider eyes, often with two larger forward-facing eyes and additional smaller eyes above or to the sides. The mouth includes visible fangs that fold down from the upper jaw. The upper body may have normal human skin, but it often shows patches of chitin along the shoulders, spine, and forearms. Colors commonly range from dark brown and black to deep red, with lighter markings on the abdomen.
 ###### Racial Abilities
-- **Tier 1:** **Web Thread.** As a Bonus Action, create a 10 ft line of webbing you can climb on; it lasts 10 minutes.
-- **Tier 2:** **Spinner’s Trap.** As an Action, place a 5 ft web patch (circle). First creature entering must pass a DEX save (DC 10 + DEX mod + Tier) or have speed reduced by half for 1 round.
-- **Tier 3:** **Silk Craft.** You can create simple rope, bindings, or nets from silk during a short rest with no checks. 
-- **Tier 4:** **Wall Walker.** Your climb speed gains +10 ft.
-- **Tier 5:** **Web Snare.** When you hit a creature with a melee attack, you may apply webbing; target makes a STR save or is restrained until end of its next turn.
-- **Tier 6:** **Silk Armor.** Gain +2 AC while not wearing heavy armor.
-- **Tier 7:** **Bind and Bite.** If a target is restrained by you, you may spend 1 BAp to make a melee attack against it.
-- **Tier 8:** **Threaded Battlefield.** Your web patches increase to 15 ft.
-- **Tier 9:** **True Cocoon.** Creatures restrained from your webbing effect become [[2.4 Conditions#Physical-Conditions|Paralyzed]] for 1 turn.  
-- **Tier 10:** **Master Weaver.** Choose one:
-    - **Poison Fangs:** Once per turn, add 3d10 Poison to a melee hit.
-    - **Web Fortress:** Your web patches grow to be 25 ft and all creatures who start their turn in the web or enter the web must make a STR save (DC 20 + STR mod) or be restrained until the end of their next turn. If the creature fails the check by >10 they become paralyzed for 1 turn. 
+You produce silk from spinnerets at your abdomen; you have a pool of Web Points equal to your 1 + Racial Tier + your CON mod. Web Points refresh on a long rest. You may spend Web Points to create the following:
+	- **Web Line** (1 point): As a Bonus Action, anchor a silk line between yourself and a point within 30 ft. The line can support your weight plus 500 lbs, can be climbed at full speed, and lasts 1 hour. You may cut your own lines as a free action. Any creature who is not a Longweaver may climb the web but treats it as difficult terrain. Falling onto this webbing reduces fall damage by 70%.
+	- **Web Patch** (2 points): As an Action, coat a 10 ft square of ground or wall within 30 ft in sticky webbing for 10 minutes. The area is Difficult Terrain. The first creature to enter the patch each round must make a DEX save (DC 10 + your DEX mod + your Racial Tier) or become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Restrained]] until the start of their next turn. A creature that starts its turn Restrained by the web may repeat the save at the start of its turn to break free. Falling onto this webbing reduces fall damage by 50%. These web patches exist until burned. 
+- **Tier 1:** **Anchor Thread:** Your Web Line range increases to 60 ft and you can fire it as a Reaction when you or an ally within 30 ft would fall, halting the fall instantly (still take fall damage). Your Web Patch radius increases to 15 ft and creatures restrained by your Web Patch take 1d4 Vacuum damage per turn. 
+- **Tier 2:** **Tripwire Trap:** You may spend 3 Web Points as an Action to string a nearly invisible web tripwire between two solid points up to 20 ft apart. The tripwire lasts until triggered or 1 hour. The first creature to cross the wire must make a DEX save (DC 10 + your DEX mod + your Racial Tier) or be knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental-Positional-Conditions|Prone]] and [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Restrained]] in webbing for 2 turns. You may have a number of active tripwires equal to your Racial Tier at once.
+- **Tier 3:** **Silk Craft:** During a short or long rest you may produce up to 50 ft of silk rope, a silk net, or silk bindings without spending Web Points or making checks. These silk items have double the normal durability for their type. You may also spend 1 Web Point to instantly produce 10 ft of silk rope as a Bonus Action.
+- **Tier 4:** **Web Walker:** Your climb speed increases to 50 ft and you gain +20 ft of movement speed on webbing. While on webbing it always counts as climb speed even if you are walking on a flat surface. 
+- **Tier 5:** **Snare Strike:** When you hit a creature with a melee attack you may spend 1 Web Point as a free action to fire webbing at the target. The creature must make a STR save (DC 10 + your STR mod + your Racial Tier). On a failure it is [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Restrained]] for 2 turns. On a success its speed is halved until the end of its next turn. A creature Restrained by this ability will take 1d8 + Racial Tier Vacuum damage at the start of their turn. 
+- **Tier 6:** **Silk Storage:** Your Web Point pool increases by +4. Whenever you take a short rest you may regenerate 50% of your Web Points.
+- **Tier 7:** **Predator's Web:** When you hit a creature that is Restrained by your webs with a melee attack, the attack deals an additional 1d8 Piercing damage and you regain 1 Web Point. You may now spend 2 Web Points as a Bonus Action to shoot a Web Line that attempts to [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Restrain]] the target (same save as Snare Strike).
+- **Tier 8:** **Web Domain:** Your Web Patch now covers a 20 ft radius. Your tripwire range increases to 40 ft and creatures that fail the tripwire save are Restrained for 3 turns instead of 2. 
+- **Tier 9:** **Cocoon:** As an Action you may spend 4 Web Points to fully encase a creature that is Restrained by your webs within 30 ft. The target must make a CON save (DC 10 + your CON mod + your Racial Tier). On a failure it becomes [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Paralyzed]] for 2 turns as it is wrapped in a dense silk cocoon. On a success it remains Restrained for 2 turns instead. A cocooned creature may be attacked; the cocoon has 20 HP, 10 AC, and immunity to Poison and Psychic damage. When the cocoon is reduced to 0 HP the creature inside is freed. A creature in this cocoon will gain the Suffocating condition. You may spend your Bonus action on your turn to deal 4d10 + Racial Tier Vacuum damage to any creature inside of one of your Cocoons within 5 ft. You may have any number of active cocoons. 
+- **Tier 10:** **Master Weaver** Choose one:
+    - **Silk Fortress:** As an Action you may spend 6 Web Points to create a 25 ft radius dome of thick silk webbing centered on yourself. The dome has 200 HP and 30 AC. Creatures inside have half cover against attacks from outside. Creatures other than you that attempt to enter or pass through the dome must make a STR save (DC 10 + STR mod + Racial Tier) or be Restrained in the silk. The dome lasts for 1 minute and you may have one active at a time.
+    - **Arachnid Sovereignty:** Your Web Point pool increases by +10 and you regain 2 Web Points at the start of each of your turns during combat. Your Cocoon now costs 2 Web Points instead of 4 and you may use it as a Bonus Action. Each turn a creature is inside of one of your cocoons (after 4 turns) they may make a CON save (DC 10 + STR mod + Racial Tier), on success they escape. If they fail 3 times in a row they are unconscious and the cocoon is maintained indefinitely. 
 ## Webjack
 Webjacks appear mostly human at first glance: a humanoid torso, two normal legs, and two normal arms. The defining trait is an additional set of spider legs that sprout from the back, usually four to six long limbs anchored around the shoulder blades and mid-back. These extra legs are jointed and flexible, capable of lifting, bracing, climbing, and striking outward for balance.
 
 The face is mostly human in shape but with spider eyes: usually two large, glossy eyes in the normal position, plus six smaller eyes placed around them in a rough arc. The mouth is humanlike but may show small fangs when open. Body hair exists, but it is uneven, often thicker along the forearms, spine, and shoulders. The back limbs are covered in fine hair or short bristles and end in hooked tips. Skin tones range from humanlike to slightly gray or ashen, sometimes with faint mottling. 
 ###### Racial Abilities
-- **Tier 1:** **Back-Leg Strikes.** You gain a natural melee attack (spider-leg jab): 1d6 Piercing + DEX mod, range of 10 ft.
-- **Tier 2:** **Extra Grip.** Gain advantage on Athletics/Acrobatics checks and advantage on checks for being knocked prone.
-- **Tier 3:** **Multi-Limb Parry.** As a Rp, add +5 AC against one attack.
-- **Tier 4:** **Back-Leg Reach.** Your spider-leg jab gains +5 ft reach.
-- **Tier 5:** **Pinning Legs.** When you hit with a back-leg jab, target has -10 ft speed until start of your next turn (not cumulative).
-- **Tier 6:** **Spider Climb.** Increase climb speed by +10 ft and become immune to difficult terrain.
-- **Tier 7:** **Leg Combo.** If you hit with a melee attack, you may spend 1 BAp to make one back-leg jab.
-- **Tier 8:** **Stability Frame.** You have advantage on saves against being restrained, prone, or grappled.
-- **Tier 9:** **Whirling Limbs.** Each time you make a spider-leg jab you may make another for free. 
-- **Tier 10:** **Spider Adept.** Choose one:
-    - **Deadly Precision:** +3 Base Melee Accuracy.
-    - **Hard Jabs:** +2d6 Piercing damage to spider-leg jabs. 
+You have four to six spider legs sprouting from your back. These legs can grip, climb, throw, and strike. You may use them to climb at 40 ft speed while keeping both hands free for weapons or items. You may also use your spider legs to interact with objects, open doors, or pick up and throw small items (up to 10 lbs) as a free action once per turn. Your spider legs grant you advantage on checks to avoid being knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental-Positional-Conditions|Prone]].
+- **Tier 1:** **Back-Leg Strike:** You gain a natural melee attack with your spider legs: 1d8 Piercing + DEX mod, range of 10 ft. This attack may be made as a Reaction when a creature enters your reach. 
+- **Tier 2:** **Wall-Runner:** Your climb speed increases to 50 ft. You may move along walls and ceilings at full speed without checks. While climbing you do not grant advantage to attackers and you cannot be knocked off a surface by forced movement.
+- **Tier 3:** **Leg Parry:** As a Reaction when you are targeted by a melee or ranged attack, you may deflect it with your spider legs. Roll 1d6 + your DEX mod and reduce the attack roll by that amount. If this causes the attack to miss, you may immediately make a Back-Leg Strike against the attacker. You may use this ability a number of times per combat equal to your Racial Tier.
+- **Tier 4:** **Leg Reach:** Your spider leg attacks gain +5 ft reach. When you make a Back-Leg Strike as a Reaction, you do so with advantage.
+- **Tier 5:** **Hooked Limbs:** When you hit a creature with Back-Leg Strike, its speed is reduced by 10 ft and it cannot take the Disengage action until the start of your next turn. These effects stack with consecutive leg hits (max -30 ft speed).
+- **Tier 6:** **Leg-Walker:** Your spider legs are now strong enough to bear your full weight. While standing on a surface, you may use your spider legs as your primary locomotion. While doing so your hands count as completely free regardless of what you are holding, you gain +10 ft movement speed, and you leave no tracks. You may switch between leg-walking and normal walking as a free action at the start of your turn.
+- **Tier 7:** **Flurry of Limbs:** When you take the Attack action you may spend 1 BAp to make an additional Back-Leg Strike. This attack does not consume your Reaction. If you are leg-walking this additional attack has advantage.
+- **Tier 8:** **Evasive Skitter:** When a creature misses you with an attack you may use your Reaction to move up to 15 ft without provoking opportunity attacks. If you are leg-walking this movement increases to 25 ft. While leg-walking opportunity attacks against you have disadvantage. 
+- **Tier 9:** **Whirling Barrage:** Each Back-Leg Strike you make during your turn grants you an additional Back-Leg Strike against a different target within range as a free action (each target may only be struck once per turn this way). You may use Leg Parry an unlimited number of times per combat.
+- **Tier 10:** **Arachnid Ascendant** Choose one:
+    - **Eightfold Strike:** Your Back-Leg Strike damage increases to 2d8. When you hit a creature with Back-Leg Strike you may immediately make one additional Back-Leg Strike against it. Your Reaction Back-Leg Strikes also trigger this effect.
+    - **Projectile Deflector:** Your Leg Parry now rolls 1d12 + DEX mod instead of 1d6. When you successfully deflect a ranged attack you may spend your Reaction to catch the projectile and immediately throw it back using your spider legs as a ranged attack dealing the projectile's normal damage + your DEX mod with a range of 30/60.
+    - **Leg Weaver:** You gain two additional spider legs (8 to 10 total). While leg-walking your speed increases by +20 ft, you may occupy enemy spaces, and creatures treat spaces within 10 ft of you as Difficult Terrain. You may make one Back-Leg Strike as a Free Action at the start of each of your turns.
 ## Broodweaver
 Broodweavers are tall, slim humanoids with an almost starved silhouette: narrow shoulders, thin limbs, and sharply defined ribs. Their skin appears wet or slick, as if coated in a thin film. The body surface often has many narrow slits, straight, seam-like openings, placed along the torso, sides, hips, and sometimes the upper arms. These slits can widen, like soft valves, and are used as hatch points for hatchlings.
 
