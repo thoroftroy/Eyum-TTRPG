@@ -104,67 +104,71 @@ Skin ranges from pale blue to blue-gray or frost-white and feels cold to the tou
 Gain +2 Ice/Cold Affinity and lesser weakness to Fire damage. 
 - **Tier 1:** **Cold Adaptation:** Gain Resistance to Ice/Cold and unlock the Ice/Cold affinity to be used like normal skipping its prerequisites. Gain +5 Ice/Cold Affinity.
 - **Tier 2:** **Frost Affinity:** Gain +10 Ice/Cold Affinity.
-- **Tier 3:** **Ice Shards:** Learn the Unique Spell Ice Shards. 
-- **Tier 4:** **Glacial Skin:** Gain +1 AC, you gain greater resistance to Ice/Cold damage.
-- **Tier 5:** **Freeze Step:** Once per combat as a BAp, gain +15 ft movement and ignore difficult terrain until end of turn.
-- **Tier 6:** **Winter Casting:** You may optionally change your Water and Air Affinity spells to Ice/Cold (both affinity and damage).
-- **Tier 7:** **Frostbite:** When you deal Ice/Cold damage, target must pass a CON save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) or suffer -10 ft speed until the end of its next turn (stacks, minimum of 0 speed).
-- **Tier 8:** **Frozen:** Whenever you deal Ice/Cold your target gains 1 stack of [[2.4 Conditions#Physical-Conditions|Frostbitten]] for 3 turns (End DC is raised to 10 + Racial Tier). 
-- **Tier 9:** **Ice Ward:** Gain +3 AC (stacks).
+- **Tier 3:** **Ice Shards:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Ice Shards]]. 
+- **Tier 4:** **Glacial Skin:** Gain +1 AC, you gain Greater Resistance to Ice/Cold damage.
+- **Tier 5:** **Freeze Step:** When in snowy, icy, or cold (below 32 F) environments gain +20 ft movement speed and ignore all difficult terrain. 
+- **Tier 6:** **Winter Casting:** You may optionally change your Water and Air Affinity spells (or any spell which uses Water, Air, or Ice/Cold in its component affinities) to Ice/Cold (both affinity and damage).
+- **Tier 7:** **Frostbite:** All attacks you make deal +1 stack of Frozen. Any attack which deals more than 20 damage at once automatically applies +1 Stack of Frostbite. 
+- **Tier 8:** **Frozen:** You gain +1 Ice/Cold affinity per level (retroactive and subsequent).
+- **Tier 9:** **Ice Ward:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Ice Ward]]. 
 - **Tier 10:** **Apex Iceborn** Choose one:
-    - **Absolute Cold:** Your Cold damage ignores Resistances and Immunizes.
-    - **Glacier Heart:** Regenerate 1d8 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]) HP at the start of your turn while below half HP if you didn't take Fire damage on the last turn.
-    - **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save (DC 15 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) halves). 
+    - **Absolute Cold:** All Ice/Cold damage you deal is doubled, you gain Immunity to Ice/Cold damage.
+    - **Glacier Heart:** Regenerate 1d8 + Ice/Cold [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] Vitality at the start of your turn while below half HP if you didn't take Fire damage on the last turn or are in an environment which is below freezing (32 F).
+    - **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save halves). 
 ## Fireborn
 Fireborn have a strong, grounded humanoid build with thick legs and a reinforced core. The spine is flexible, and musculature is dense around the abdomen and thighs. Hands are broad with toughened palms.
 
 Skin tones range from light red and copper to dark gray with warm undertones. The skin radiates noticeable heat and feels dry even in humid conditions. Hair is uniformly black, coarse, and thick. Eyes are also black, with little contrast between iris and pupil, giving a deep, reflective look. Teeth are slightly sharper than human average but not true fangs. The body often appears warm, tense, and active even at rest.
 ###### Racial Abilities
-- **Tier 1:** **Heatborn.** Gain Greater Resistance to Fire damage and become immune to the [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]] and [[2.4 Conditions#Physical-Conditions|Burned]] conditions.
-- **Tier 2:** **Flame Affinity.** Gain +5 Fire Affinity and +2 Magma Affinity.
-- **Tier 3:** **Cinder Bolt.** Once per turn as an Action, ranged spell attack (90 ft): 2d10 Fire Affinity/Damage.
-- **Tier 4:** **Burning Body.** When a creature hits you with a melee attack, it takes 1d4 Fire damage and gains the burned condition.
-- **Tier 5:** **Ignition.** When you deal Fire damage, target must pass a CON save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) or gain [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]] for 3 turns.
-- **Tier 6:** **Firecasting.** Your Fire Affinity attack spells deal +1d6 Fire damage, you also gain +3 Magma Affinity.
-- **Tier 7:** **Flare Step.** Once per combat as a Bonus Action, teleport 15 ft and deal 1d10 Fire to one creature adjacent to your destination (fire spell attack roll).
-- **Tier 8:** **Blazing Will.** You may add your Fire Affinity to Wisdom Saves and gain +10 Vitality. 
-- **Tier 9:** **Inferno Surge.** Once per turn as a Bonus Action, your next fire spell deals max damage; you take 1d10 True damage.
-- **Tier 10:** **Apex Fireborn.** Choose one:
-    - **Walking Furnace:** Your melee attackers take 2d10 Fire, whenever you deal fire damage you heal 1d4 vitality.
+Gain +2 Fire Affinity and lesser weakness to Water damage. 
+- **Tier 1:** **Heatborn:** Gain Greater Resistance to Fire damage and become immune to the [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]] and [[2.4 Conditions#Physical-Conditions|Burned]] conditions.
+- **Tier 2:** **Flame Affinity:** Gain +1 Fire Affinity each level (retroactive and subsequent)
+- **Tier 3:** **Cinder Bolt:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Cinder Bolt]]. 
+- **Tier 4:** **Burning Body:** When a creature hits you with a melee attack, it takes 1d4 Fire damage and gains the burned condition.
+- **Tier 5:** **Ignition:** As a Bonus Action (or for free outside of combat) you may ignite any flammable object, the object gains the On Fire condition. This effect cannot be used on living/sentient creatures. 
+- **Tier 6:** **Firecasting:** Your Fire Affinity attack spells deal +1d6 Fire damage, you also gain +3 Fire Affinity.
+- **Tier 7:** **Flamethrower:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Flamethrower]]. 
+- **Tier 8:** **Blazing Will:** You may add your Fire [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Save DC Bonus|Save DC Bonus]] to Wisdom Saves.
+- **Tier 9:** **Inferno Surge:** At the start of your turn as a Bonus Action you may spend 10 mana, all Fire damage you deal this turn is doubled. 
+- **Tier 10:** **Apex Fireborn** Choose one:
+    - **Walking Furnace:** Your melee attackers take 2d10 Fire, your Fire Affinity attacks deal +2d8 Fire damage. 
     - **Flame Lord:** Gain +5 Fire Affinity, +2 Magic Accuracy, and your fire spells ignore immunity and resistances.
-    - **Flamethrower.** Your Cinder Bolt may be used as many times as you wish per turn (1 Ap per cast) and the damage increases to be 3d10 + Fire Affinity fire damage.
+    - **Mana Furnace:** You gain +1 Fire Damage for every 10 mana you currently have to any Fire Spell you cast.
 ## Kravari
 Kravari are humanoid but massively overbuilt. Arms, legs, hands, and feet are oversized relative to the torso, with extreme muscle density and thick bone. Hands are especially large, with wide palms and thick fingers that appear disproportionate even among their own kind. The chest is deep, shoulders wide, and neck thick.
 
 Skin is dark gray to near-black and scars easily, thickening over time into a tough surface. Hair is coarse, dark, and limited to black or deep brown. Eyes are dark brown, black, or dull red. Teeth are thick and strong. Their silhouette is unmistakably heavy and powerful, with little visible finesse or delicacy in movement.
 ###### Racial Abilities
-- **Tier 1:** **War Frame.** Gain +1 Base Melee and Ranged Accuracy.
-- **Tier 2:** **Weapon Training.** Gain Proficiency in two weapon types of your choice or Expertise in one which you were already proficient in.
-- **Tier 3:** **Brutal Hit.** You may reroll 1s on weapon attack (melee or ranged) dice rolls until they are not 1s.
-- **Tier 4:** **Heavy Stance.** Gain +2 AC, but -1 Initiative.
-- **Tier 5:** **Overpower.** When you hit with a melee weapon, target must pass a STR save (DC 10 + STR mod + Racial Tier) or be pushed 5 ft and knocked prone.
-- **Tier 6:** **Sharpsense.** Gain +3 Base Melee and Ranged Accuracy.
-- **Tier 7:** **Kravari Volley.** If you take the Attack action, you may spend 1 BAp to make one additional weapon attack at -2 Accuracy.
-- **Tier 8:** **Very Brutal Hit.** You may reroll 2s on weapon attack (melee or ranged) dice rolls until they are not 2s.
-- **Tier 9:** **Relentless.** Gain +2 Vitality per level (retroactive).
-- **Tier 10:** **Apex Kravari.** Choose one:
-    - **Executioner:** Once per turn you may spend a BAp to ensure your next hit is a guaranteed critical hit.
-    - **Perfect Hit:** You may reroll 3s on weapon attack (melee or ranged) dice rolls until they are not 3s.
+Gain +2 Base Melee and Ranged Damage but -2 to Magical Damage and Accuracy and -1 to all skill checks.
+- **Tier 1:** **War Frame:** Gain +2 Base Melee and Ranged Accuracy and Damage.
+- **Tier 2:** **Weapon Training:** Gain Proficiency in two weapon types of your choice or Expertise in one which you were already proficient in. Gain proficiency in Light, Medium and Heavy Armor. 
+- **Tier 3:** **Brutal Hit:** You may reroll 1s on weapon attack (melee or ranged) dice rolls until they are not 1s. 
+- **Tier 4:** **Heavy Stance:** Gain +2 AC when wearing armor and while having a weapon equipped. Gain +3 Base Melee and Ranged Accuracy. 
+- **Tier 5:** **Overpower:** When you hit with a melee weapon, target must pass a STR save (DC 10 + STR mod + Racial Tier) or be pushed 5 ft and knocked prone.
+- **Tier 6:** **Sharpsense:** Gain +3 Base Melee and Ranged Accuracy. Gain Expertise in Light armor. 
+- **Tier 7:** **Kravari Volley:** If you take the Attack action, you may spend 1 BAp to make one additional weapon attack at -2 Accuracy.
+- **Tier 8:** **Very Brutal Hit:** You may reroll 2s on weapon attack (melee or ranged) dice rolls until they are not 2s. Rolling an 18, 19, or 20 counts as a critical hit for Weapon Attacks. 
+- **Tier 9:** **Relentless:** Gain +2 Vitality and +1 Hp per level (retroactive and subsequent). Gain Expertise in Medium Armor. 
+- **Tier 10:** **Apex Kravari** Choose one:
+    - **Executioner:** You may spend a BAp to ensure your next hit is a guaranteed critical hit. All attacks against a creature with lower than 10% HP which land count as Crits. 
+    - **Perfect Hit:** You may reroll 3s on weapon attack (melee or ranged) dice rolls until they are not 3s. Gain +2 Base Melee and Ranged damage. 
+    - **Perfect Soldier:** Gain Expertise in Heavy Armor. Your Critical attacks deal 50% more damage. Gain +5 Base Melee and Ranged damage. 
 ## Sandmen
 Sandmen appear humanoid but immediately feel abnormal on close inspection. The body proportions are humanlike, but movements are fluid and slightly too smooth. Skin is semi-translucent, pearl, pale sand-pink, or soft gray, allowing faint shadows of veins and muscle to show beneath the surface.
 
 The skin is constantly damp, as if lightly sweating at all times, giving a slick or humid sheen rather than true slime. Hair is absent; the scalp is smooth. Eyes are milky white, soft violet, or deep black, sometimes with faint internal speckling. Teeth are normal and blunt.
 ###### Racial Abilities
-- **Tier 1:** **Mind Touch.** Gain +3 Psychic Affinity.
-- **Tier 2:** **Psychic Sense.** Gain +2 to Social Insight, Situational Insight, Search, and Spot checks.
-- **Tier 3:** **Mental Spike.** Once per combat as an Action, ranged spell attack (60 ft): 2d6 Psychic Damage/Affinity.
-- **Tier 4:** **Dream Slip.** Once per round as a Reaction, you may make an attacker who just missed their attack against you gain the [[2.4 Conditions#Environmental-Positional-Conditions|Unconscious]] condition until the start of your next turn.
-- **Tier 5:** **Mind Shield.** Gain +2 to Wisdom saving throws and Greater Resistance to Psychic.
-- **Tier 6:** **Thought Reading.** As an Action, you may read surface thoughts (GM's Digression) of a creature within 30 ft that fails a WIS save (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]).
-- **Tier 7:** **Psychic Slash.** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + your Psychic [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] (see the [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] table in [[2.1 Affinities#Affinity Bonus Tables]]). 
-- **Tier 8:** **Nightmare Twist.** Whenever you deal Psychic damage you may take 1d4 True damage to inflict the despair condition on the target. 
-- **Tier 9:** **Mind Spike Mastery.** Your Mental Spike damage increases to 2d10 Psychic Damage and targets hit by it gain the [[2.4 Conditions#Mental-Conditions|Demoralized]] condition. 
-- **Tier 10:** **Apex Sandman.** Choose one:
-    - **Dominant Will:** Gain +2 to all skill checks, saving throws, and attack rolls and advantage on WIS saves.
-    - **Psychic Storm:** You may target up to two creatures with your Mental Spike per attack. 
-    - **Dream Master:** You may enter the mind of an unconscious target. While you are inside their mind, time is frozen in the outside world and you may converse freely. While inside a creature’s mind, all attacks deal psychic damage, and any damage they would deal is reduced to 1d8. All resistances and immunities are ignored. You gain triple advantage on Intimidation checks while inside someone’s mind, along with a flat +5 bonus. On its turn, the creature whose mind you are in may attempt a Wisdom saving throw (DC 10 + [[2.1 Affinities#Save DC Bonus|Save DC Bonus]]) to banish you. On a success, you are forcibly removed and take 2d10 psychic damage (ignoring resistances and immunities). On a failure, the creature gains the [[2.4 Conditions#Mental-Conditions|Demoralized]] condition. After failing 3 times, it gains the [[2.4 Conditions#Mental-Conditions|Despair]] condition. After failing 3 additional times, it can no longer attempt saves to banish you. Checks to remove [[2.4 Conditions#Mental-Conditions|Demoralized]] and [[2.4 Conditions#Mental-Conditions|Despair]] conditions cannot be made while a Dream Master is there and the conditions remain even after the Dream Master leaves. 
+Gain resistance to Psychic damage. 
+- **Tier 1:** **Mind Touch:** Gain +3 Psychic Affinity and unlock the Psychic affinity to be used like normal skipping its prerequisites.
+- **Tier 2:** **Psychic Sense:** Gain +2 to Social Insight, Situational Insight, Search, and Spot checks and Proficiency in Search and Spot. If you already had proficiency gain Expertise instead.
+- **Tier 3:** **Mental Spike:** When you deal Psychic damage you may deal the damage to HP instead of Vitality but the damage is reduced by 20% (rounding down). 
+- **Tier 4:** **Dream Slip:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Dream Slip]].
+- **Tier 5:** **Mind Shield:** You may add your Psychic [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Save DC Bonus|Save DC Bonus]] to Wisdom saving rolls instead of your wisdom modifier. 
+- **Tier 6:** **Thought Reading:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Thought Reading]].
+- **Tier 7:** **Psychic Slash:** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + your Psychic [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]]. If you deal more than 50% of a creatures Vitality in a single turn or reduce their health below 50% they must make a Con Save or gain the unconscious condition until the start of your next turn. Each time you deal Psychic damage to a creature who's health is below 50% they must make the same check again. 
+- **Tier 8:** **Nightmare Twist:** Whenever you deal Psychic damage you may take 1d4 True damage to inflict the despair condition on the target. 
+- **Tier 9:** **Mind Spike Mastery:** When dealing Psychic damage to health it no longer has any damage reduction. 
+- **Tier 10:** **Apex Sandman** Choose one:
+    - **Dominant Will:** You may add your Psychic [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Save DC Bonus|Save DC Bonus]] to any WIS check and to the saving throws (instead of it replacing the Wisdom modifier for saving throws). You automatically succeed all WIS saves if your WIS score is higher than the creature inflicting the save. Gain +4 WIS.  
+    - **Psychic Storm:** Whenever you make a Psychic attack you may inflict the same attack against a creature within 10 ft of the target as a BAp. 
+    - **Dream Master:** Learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Dream Master]].
