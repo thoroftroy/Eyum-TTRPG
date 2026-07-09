@@ -26,7 +26,7 @@
 | Longweaver  | 30, climb 40 | Radiant, Air        | Generic, Fire, Water          | Earth, Necrotic, Psychic | +2 STR, +2 CON, -2 WIS                 |
 | Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +2 DEX, +1 STR, -1 CHA                 |
 | Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   | +3 CHA, +2 INT, +1 WIS, -1 STR, -3 CON |
-| Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   |                                        |
+| Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   | +2 DEX, +1 CHA, -1 STR |
 | Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water, Psychic | Air, Radiant             |                                        |
 | Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     |                                        |
 | Formid      | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic |                                        |
@@ -199,19 +199,20 @@ Duskwings are humanoid with large moth-like wings emerging from the upper back. 
 
 The head has insect traits: large bug-like eyes that curve outward, short antennae rising from the forehead, and a mouth that can reveal small fangs. The skin looks “dusty,” with a matte, slightly dry surface, as if coated in very fine powder. Hair is present but appears more like thick, fuzzy strands or bristle-like growth, often around the scalp and forearms. Hands remain humanlike, but the nails may be sharper and darker. 
 ###### Racial Abilities
-- **Tier 1:** **Dustcast.** You learn 1 spell and gain +1 Generic Affinity.
-- **Tier 2:** **Moon Sense.** Gain +2 to Arcana and Search checks and Proficiency in Arcana. 
-- **Tier 3:** **Powder Veil.** As a Bonus Action, gain +3 AC until your next turn.
-- **Tier 4:** **Night Glide.** While gliding, you can move through enemies’ threatened spaces without provoking reactions/opportunity attacks.
-- **Tier 5:** **Shadowed Casting.** If you cast a spell after moving 10 ft this turn, gain +1 Magic Accuracy for that spell.
-- **Tier 6:** **Arcane Scales.** Gain Resistance and +3 Affinity to one: Fire, Cold, Lightning, Necrotic (choose) (bypasses normal restrictions for gaining affinity in complex affinities).
-- **Tier 7:** **Quick Spell.** Once per combat, you may spend 1 BAp to cast a spell that normally costs 1 Ap.
-- **Tier 8:** **Dust of Dread.** Once per combat as an Action, create a 10 ft cloud; enemies inside have -2 to attack rolls until end of your next turn and take 1d4 toxic damage at the start of their turn.
-- **Tier 9:** **Nightborn Focus.** Gain +2 Base Magical Accuracy and +1 Generic Affinity. 
-- **Tier 10:** **Mystic Wing.** Choose one:
-    - **True Quickcast:** Your Tier 7 can be used twice per combat.
-    - **Wing Ward:** Once per combat, negate one spell that targets only you (reaction).
-    - **Affinity Bloom:** Gain +3 generic affinity. 
+You have large moth wings that grant a 30 ft glide speed (see [[Eyum TTRPG/1.0 The basics/1.4 Actions#Movement|Gliding]]). 
+- **Tier 1:** **Moonbeam:** You learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Moonbeam]]. Your glide speed increases to 40 ft.
+- **Tier 2:** **Moon Sense:** While in dim light or darkness you gain +3 to Search and Spot checks and +1 Base Magic Accuracy. You can see in non-magical darkness up to 30 ft.
+- **Tier 3:** **Slumber Dust:** You learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Slumber Dust]]. 
+- **Tier 4:** **Powder Veil:** As a Bonus Action shed a thick cloud of wing dust around yourself. Until the start of your next turn you have +3 AC and ranged attacks against you have disadvantage. Creatures that end their turn within 5 ft of you must make a CON save (DC 10 + your CON mod + your Racial Tier) or be [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Blinded]] for 1 turn.
+- **Tier 5:** **Night Glide:** While gliding your speed increases to 50 ft and you do not provoke opportunity attacks. If you begin and end your turn in dim light or darkness you gain the benefits of the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental-Positional-Conditions|Invisible]] condition until the start of your next turn.
+- **Tier 6:** **Fungal Immunity:** You are immune to the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Poisoned]] and [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Diseased]] conditions. You gain Resistance to Poison damage. 
+- **Tier 7:** **True Flight:** Your glide becomes true flight at 50 ft speed. When you cast Moonbeam while flying, the beam's radius increases to 10 ft and creatures inside have disadvantage on their saving throw.
+- **Tier 8:** **Dust of Dread:** You learn the unique spell [[Eyum TTRPG/6.0 Magic/6.1 Spells#Unique Spells|Dust of Dread]]. 
+- **Tier 9:** **Lunar Empowerment:** While in dim light or darkness your spells deal +2d6 Radiant damage and your Moonbeam damage increases by one die size (d8 becomes d10, etc). You gain +2 Base Magic Accuracy and +2 Generic Affinity. 
+- **Tier 10:** **Mystic Wing** Choose one:
+    - **Eclipse Form:** As an Action, become a silhouette of pure shadow and moonlight for 3 turns. While in this form you may move through creatures and solid objects as if they were difficult terrain, you gain +4 AC, and spells you cast cost half their normal mana (rounded down). You may use this once per long rest.
+    - **Moonfire Rain:** When you cast Moonbeam you may spend an additional 5 Mana to create a second beam at a different point within range. You may concentrate on both beams simultaneously; when you take damage make a separate concentration save for each.
+    - **Toxic Bloom:** Your Slumber Dust and Dust of Dread now also deal 2d8 Poison damage to creatures that fail their save. Creatures that fail by more than 5 gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Poisoned]] condition for 2 turns.
 ## Glimmerwing
 Glimmerwings are similar in body plan to Duskwings but carry butterfly-like traits instead of moth traits. Their wings are thinner, brighter, and more visually clean, often with clear banding or eye-spot patterns. Wing colors are more vivid and high-contrast, bright blues, oranges, reds, whites, and yellows, often with sharp borders. The wings still support mostly gliding rather than full flight, but they look lighter and more delicate.
 
