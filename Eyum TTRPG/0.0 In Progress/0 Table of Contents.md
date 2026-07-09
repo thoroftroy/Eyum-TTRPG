@@ -41,7 +41,11 @@
 	- [[Fiendish Pacts]]
 	- [[Godly Pacts]]
 #### 6.0 Magic
-- [[6.1 Spells]]
+- 6.1 Spells
+	- [[Eyum TTRPG/6.0 Magic/6.1 Spells/6.1 Spells|6.1 Spells]]
+	- [[6.1.1 Elemental Spells]]
+	- [[6.1.2 Unique, Racial, and Healing Spells]]
+- [[6.1.1 Elemental Spells]]
 - [[6.2 Runes]]
 - [[6.3 Alchemy]]
 #### 7.0 Monsters (WIP)
@@ -54,7 +58,7 @@
 	- 7.3.4 Aquatic
 	- 7.3.5 Monstrosities
 
-Current Handbook Version: v3.25.14.14
+Current Handbook Version: v3.25.15.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
