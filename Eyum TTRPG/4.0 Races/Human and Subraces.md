@@ -87,7 +87,7 @@ You have disadvantage on any roll which uses Affinity. You have -5 to your Gener
 - **Tier 2:** **Thick Hide:** Gain +1 AC and +3 to your CON score. You have lesser resistance to Slashing and Piercing damage. 
 - **Tier 3:** **Heavy Swing:** You may spend a BAp to double the damage an Unarmed attack. 
 - **Tier 4:** **Stone Bones:** Gain 3 + Racial Tier Damage Reduction. 
-- **Tier 5:** **Groundshaker:** As an Action once per turn, stomp: creatures within 10 ft must pass a DEX save (DC 10 + STR mod + Tier) or fall [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and take 2d10 Bludgeoning (half on save, not prone).
+- **Tier 5:** **Groundshaker:** As an Action once per turn, stomp: creatures within 10 ft must pass a DEX save (DC 10 + STR mod + Tier) or fall [[2.4 Conditions#Environmental / Positional Conditions|Prone]] and take 2d10 Bludgeoning (half on save, not prone).
 - **Tier 6:** **Unmovable:** You cannot be forcibly moved, shoved, or knocked prone. Your movement ignores difficult terrain. 
 - **Tier 7:** **Titan Grip:** You may wield Two-Handed weapons in one hand (still treated as heavy) and may dual wield them.
 - **Tier 8:** **Juggernaut:** Gain +2 AC and +2 CON but suffer -2 Initiative.
@@ -104,13 +104,13 @@ Skin ranges from pale blue to blue-gray or frost-white and feels cold to the tou
 Gain +2 Ice/Cold Affinity and lesser weakness to Fire damage. 
 - **Tier 1:** **Cold Adaptation:** Gain Resistance to Ice/Cold and unlock the Ice/Cold affinity to be used like normal skipping its prerequisites. Gain +5 Ice/Cold Affinity.
 - **Tier 2:** **Frost Affinity:** Gain +10 Ice/Cold Affinity.
-- **Tier 3:** **Ice Shards:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Ice Shards]]. 
+- **Tier 3:** **Ice Shards:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Ice Shards]]. 
 - **Tier 4:** **Glacial Skin:** Gain +1 AC, you gain Greater Resistance to Ice/Cold damage.
 - **Tier 5:** **Freeze Step:** When in snowy, icy, or cold (below 32 F) environments gain +20 ft movement speed and ignore all difficult terrain. 
 - **Tier 6:** **Winter Casting:** You may optionally change your Water and Air Affinity spells (or any spell which uses Water, Air, or Ice/Cold in its component affinities) to Ice/Cold (both affinity and damage).
 - **Tier 7:** **Frostbite:** All attacks you make deal +1 stack of Frozen. Any attack which deals more than 20 damage at once automatically applies +1 Stack of Frostbite. 
 - **Tier 8:** **Frozen:** You gain +1 Ice/Cold affinity per level (retroactive and subsequent).
-- **Tier 9:** **Ice Ward:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Ice Ward]]. 
+- **Tier 9:** **Ice Ward:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Ice Ward]]. 
 - **Tier 10:** **Apex Iceborn** Choose one:
     - **Absolute Cold:** All Ice/Cold damage you deal is doubled, you gain Immunity to Ice/Cold damage.
     - **Glacier Heart:** Regenerate 1d8 + Ice/Cold [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]] Vitality at the start of your turn while below half HP if you didn't take Fire damage on the last turn or are in an environment which is below freezing (32 F).
@@ -121,13 +121,13 @@ Fireborn have a strong, grounded humanoid build with thick legs and a reinforced
 Skin tones range from light red and copper to dark gray with warm undertones. The skin radiates noticeable heat and feels dry even in humid conditions. Hair is uniformly black, coarse, and thick. Eyes are also black, with little contrast between iris and pupil, giving a deep, reflective look. Teeth are slightly sharper than human average but not true fangs. The body often appears warm, tense, and active even at rest.
 ###### Racial Abilities
 Gain +2 Fire Affinity and lesser weakness to Water damage. 
-- **Tier 1:** **Heatborn:** Gain Greater Resistance to Fire damage and become immune to the [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]] and [[2.4 Conditions#Physical-Conditions|Burned]] conditions.
+- **Tier 1:** **Heatborn:** Gain Greater Resistance to Fire damage and become immune to the [[2.4 Conditions#Environmental / Positional Conditions|On Fire]] and [[2.4 Conditions#Physical-Conditions|Burned]] conditions.
 - **Tier 2:** **Flame Affinity:** Gain +1 Fire Affinity each level (retroactive and subsequent)
-- **Tier 3:** **Cinder Bolt:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Cinder Bolt]]. 
+- **Tier 3:** **Cinder Bolt:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Cinder Bolt]]. 
 - **Tier 4:** **Burning Body:** When a creature hits you with a melee attack, it takes 1d4 Fire damage and gains the burned condition.
 - **Tier 5:** **Ignition:** As a Bonus Action (or for free outside of combat) you may ignite any flammable object, the object gains the On Fire condition. This effect cannot be used on living/sentient creatures. 
 - **Tier 6:** **Firecasting:** Your Fire Affinity attack spells deal +1d6 Fire damage, you also gain +3 Fire Affinity.
-- **Tier 7:** **Flamethrower:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Flamethrower]]. 
+- **Tier 7:** **Flamethrower:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Flamethrower]]. 
 - **Tier 8:** **Blazing Will:** You may add your Fire [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Save DC Bonus|Save DC Bonus]] to Wisdom Saves.
 - **Tier 9:** **Inferno Surge:** At the start of your turn as a Bonus Action you may spend 10 mana, all Fire damage you deal this turn is doubled. 
 - **Tier 10:** **Apex Fireborn** Choose one:
@@ -162,13 +162,13 @@ Gain resistance to Psychic damage.
 - **Tier 1:** **Mind Touch:** Gain +3 Psychic Affinity and unlock the Psychic affinity to be used like normal skipping its prerequisites.
 - **Tier 2:** **Psychic Sense:** Gain +2 to Social Insight, Situational Insight, Search, and Spot checks and Proficiency in Search and Spot. If you already had proficiency gain Expertise instead.
 - **Tier 3:** **Mental Spike:** When you deal Psychic damage you may deal the damage to HP instead of Vitality but the damage is reduced by 20% (rounding down). 
-- **Tier 4:** **Dream Slip:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Dream Slip]].
+- **Tier 4:** **Dream Slip:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Dream Slip]].
 - **Tier 5:** **Mind Shield:** You may add your Psychic [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Save DC Bonus|Save DC Bonus]] to Wisdom saving rolls instead of your wisdom modifier. 
-- **Tier 6:** **Thought Reading:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Thought Reading]].
+- **Tier 6:** **Thought Reading:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Thought Reading]].
 - **Tier 7:** **Psychic Slash:** Whenever you deal Psychic damage, deal bonus damage equal to your Racial Tier + your Psychic [[2.1 Affinities#Attack Damage Bonus|Attack Damage Bonus]]. If you deal more than 50% of a creatures Vitality in a single turn or reduce their health below 50% they must make a Con Save or gain the unconscious condition until the start of your next turn. Each time you deal Psychic damage to a creature who's health is below 50% they must make the same check again. 
 - **Tier 8:** **Nightmare Twist:** Whenever you deal Psychic damage you may take 1d4 True damage to inflict the despair condition on the target. 
 - **Tier 9:** **Mind Spike Mastery:** When dealing Psychic damage to health it no longer has any damage reduction. 
 - **Tier 10:** **Apex Sandman** Choose one:
     - **Dominant Will:** You may add your Psychic [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Save DC Bonus|Save DC Bonus]] to any WIS check and to the saving throws (instead of it replacing the Wisdom modifier for saving throws). You automatically succeed all WIS saves if your WIS score is higher than the creature inflicting the save. Gain +4 WIS.  
     - **Psychic Storm:** Whenever you make a Psychic attack you may inflict the same attack against a creature within 10 ft of the target as a BAp. 
-    - **Dream Master:** Learn the unique spell [[6.1.1 Elemental Spells#Unique Spells|Dream Master]].
+    - **Dream Master:** Learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Dream Master]].

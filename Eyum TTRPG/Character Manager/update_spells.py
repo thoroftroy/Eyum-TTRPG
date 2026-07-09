@@ -4,7 +4,7 @@ Handbook Syncer — syncs spells AND feats from the handbook to JSON data.
 Run from the Character Manager root directory:
     python3 update_spells.py
 
-Parses 6.1 Spells.md and 3.4 Feats.md, compares against
+Parses 6.1.1 Elemental Spells.md and 6.1.2 Unique, Racial, and Healing Spells.md and 3.4 Feats.md, compares against
 data/spells.json and data/feats.json, and writes output/updater_log.txt.
 Preserves all generator custom keys.
 """
@@ -13,7 +13,8 @@ import json, re, os, sys
 from datetime import datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-HANDBOOK_PATH = os.path.join(os.path.dirname(SCRIPT_DIR), '6.0 Magic', '6.1 Spells.md')
+HANDBOOK_PATH = os.path.join(os.path.dirname(SCRIPT_DIR), '6.0 Magic', '6.1 Spells', '6.1.1 Elemental Spells.md')
+HANDBOOK_PATH_2 = os.path.join(os.path.dirname(SCRIPT_DIR), '6.0 Magic', '6.1 Spells', '6.1.2 Unique, Racial, and Healing Spells.md')
 FEATS_PATH = os.path.join(os.path.dirname(SCRIPT_DIR), '3.0 Character Management', '3.4 Feats.md')
 SPELLS_JSON = os.path.join(SCRIPT_DIR, 'data', 'spells.json')
 FEATS_JSON = os.path.join(SCRIPT_DIR, 'data', 'feats.json')
@@ -294,11 +295,16 @@ def main():
 
 def sync_spells(log_lines, log):
     if not os.path.exists(HANDBOOK_PATH):
-        print(f"ERROR: Handbook not found at {HANDBOOK_PATH}")
+        print(f"ERROR: Elemental spells not found at {HANDBOOK_PATH}")
+        _flush(log_lines); sys.exit(1)
+    if not os.path.exists(HANDBOOK_PATH_2):
+        print(f"ERROR: Unique/racial/healing spells not found at {HANDBOOK_PATH_2}")
         _flush(log_lines); sys.exit(1)
 
     handbook = parse_handbook(HANDBOOK_PATH)
-    log(f"Parsed {len(handbook)} spells from handbook")
+    handbook2 = parse_handbook(HANDBOOK_PATH_2)
+    handbook.update(handbook2)
+    log(f"Parsed {len(handbook)} spells from handbook ({len(handbook2)} unique/racial/healing)")
 
     clear_affinity_markers()
 

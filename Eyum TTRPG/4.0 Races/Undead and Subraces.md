@@ -52,7 +52,7 @@ You have Weakness to Radiant and Bludgeoning damage and resistance to Slashing a
 - **Tier 4:** **Skeleton Guard.** Gain +2 AC.
 - **Tier 5:** **Shard Step.** Once per turn as a Bonus Action, move 15 ft without provoking opportunity attacks.
 - **Tier 6:** **Dry-Bone Resilience.** Gain resistance to physical damage.
-- **Tier 7:** **Spine Hook.** Once per turn on a melee hit, force a STR save (DC 10 + DEX mod + Tier). Fail: target is [[2.4 Conditions#Environmental-Positional-Conditions|Grappled]] by you.
+- **Tier 7:** **Spine Hook.** Once per turn on a melee hit, force a STR save (DC 10 + DEX mod + Tier). Fail: target is [[2.4 Conditions#Environmental / Positional Conditions|Grappled]] by you.
 - **Tier 8:** **Hemorrhage Law.** [[2.4 Conditions#Physical-Conditions|Bleeding]] you apply has its end DC increased to 10 + Tier and healing spells no longer end the condition. If a creature damages you in melee, it gains 1 stack of [[2.4 Conditions#Physical-Conditions|Bleeding]]. (No save)
 - **Tier 9:** **Blood Rattle.** Once per combat as an Action, enemies within 15 ft must pass a WIS save (DC 10 + DEX mod + Tier) or suffer -10 Accuracy until your next turn.
 - **Tier 10:** **True Ossid.** Choose one:
@@ -68,7 +68,7 @@ You have Greater weakness to Radiant damage.
 - **Tier 1:** **Shadow Claws.** Your unarmed strikes deal 1d6 + DEX mod Necrotic.
 - **Tier 2:** **Lightless Body.** Gain greater resistance to Physical and Elemental damage (other than Radiant). 
 - **Tier 3:** **Shadow Anchor.** If you are in dim light/darkness, you may take the Hide action as a Bonus Action, and you gain +10 to Stealth checks.
-- **Tier 4:** **Shade Slip.** Once per turn as a Bonus Action, you become [[2.4 Conditions#Environmental-Positional-Conditions|Intangible]] until the start of your next turn. While intangible you may move through creatures/objects as difficult terrain; you cannot end inside an object (if you do, take 2d6 True damage). While intangible you are immune to Physical damage and have +10 AC.
+- **Tier 4:** **Shade Slip.** Once per turn as a Bonus Action, you become [[2.4 Conditions#Environmental / Positional Conditions|Intangible]] until the start of your next turn. While intangible you may move through creatures/objects as difficult terrain; you cannot end inside an object (if you do, take 2d6 True damage). While intangible you are immune to Physical damage and have +10 AC.
 - **Tier 5:** **Umbral Step.** If you start your turn in dim light/darkness, you may teleport 20 ft to another dim-light/darkness space you can see. (Once per turn)
 - **Tier 6:** **Shadow Veil.** Gain +2 AC and +5 to Stealth.
 - **Tier 7:** **Cold Touch.** Add +2d10 Necrotic to all unarmed attacks.
@@ -85,7 +85,7 @@ Skin is very pale, often porcelain white, light gray, or faintly pink, with almo
 ###### Racial Abilities
 You have Weakness to Radiant damage.
 - **Tier 1:** **Fang Strike.** You gain a bite attack: 1d8 + STR mod Piercing. If this deals damage to HP, it inflicts 1 stack of [[2.4 Conditions#Physical-Conditions|Bleeding]].
-- **Tier 2:** **Blood Sense.** You detect living creatures below half HP or creatures with the [[2.4 Conditions#Physical-Conditions|Bleeding]] condition within 60 ft with no checks and know exact location (they automatically fail stealth vs you even if [[2.4 Conditions#Environmental-Positional-Conditions|Invisible]]/[[2.4 Conditions#Environmental-Positional-Conditions|Intangible]]).
+- **Tier 2:** **Blood Sense.** You detect living creatures below half HP or creatures with the [[2.4 Conditions#Physical-Conditions|Bleeding]] condition within 60 ft with no checks and know exact location (they automatically fail stealth vs you even if [[2.4 Conditions#Environmental / Positional Conditions|Invisible]]/[[2.4 Conditions#Environmental / Positional Conditions|Intangible]]).
 - **Tier 3:** **Siphon Bite.** When you hit with Fang Strike, heal 2d8 + CON mod Vitality.
 - **Tier 4:** **Night Skin.** Gain resistance to Necrotic damage and +1 AC.
 - **Tier 5:** **Mist Rush.** Once per turn as a Bonus Action, move 25 ft without provoking opportunity attacks. During this movement you may pass through creatures as difficult terrain (cannot end inside).
@@ -125,7 +125,7 @@ You have Lesser Weakness to Radiant damage.
 - **Tier 1:** **Claw and Fang.** Gain natural attacks: Claws 1d8 + Racial Tier + STR mod Slashing and Bite + Racial Tier 1d10 + STR mod Piercing.
 - **Tier 2:** **Moon Sprint.** Gain +10 ft speed, and you ignore the first 20 ft of difficult terrain each turn.
 - **Tier 3:** **Half-Change.** As a Bonus Action, enter Hybrid Form: +2 AC, +10 Base Melee Damage, +5 Base Melee Accuracy, and +5 to Initiative. You may switch between forms at the cost of a BAp. 
-- **Tier 4:** **Predator Senses.** Gain +10 to Search and Spot checks, and you cannot be [[2.4 Conditions#Environmental-Positional-Conditions|Surprised]].
+- **Tier 4:** **Predator Senses.** Gain +10 to Search and Spot checks, and you cannot be [[2.4 Conditions#Environmental / Positional Conditions|Surprised]].
 - **Tier 5:** **Full Change.** As a Bonus Action, enter Wolf Form: +40 speed,+3 AC, and your Claws and Bite attacks deal double damage. You may switch between forms at the cost of a BAp.
 - **Tier 6:** **Regrowth.** At the start of your turn, heal 1d10 + CON mod HP and 1d20 + CON mod Vitality while in Hybrid or Wolf Form.
 - **Tier 7:** **Savage Chain.** After you hit with an attack, you may spend 1 BAp to make a second natural attack with -2 Accuracy.
@@ -144,10 +144,10 @@ You have Lesser Weakness to Radiant damage.
 - **Tier 1:** **Spore Touch.** Once per turn on a hit, add 1d8 Blight and force a CON save (DC 10 + WIS mod + Tier). Fail: target gains [[2.4 Conditions#Physical-Conditions|Poisoned]] (end DC becomes 10 + Tier).
 - **Tier 2:** **Fungal Immunity.** Gain immunity to [[2.4 Conditions#Physical-Conditions|Poisoned]] and [[2.4 Conditions#Physical-Conditions|Diseased]]. Gain resistance to Blight damage.
 - **Tier 3:** **Rot Bloom.** Once per turn when you deal Blight/Necrotic damage, you may also apply [[2.4 Conditions#Physical-Conditions|Diseased]] condition to that target.
-- **Tier 4:** **Mycelial Grip.** As an Action, one creature within 30 ft makes a STR save (DC 10 + WIS mod + Tier). Fail: [[2.4 Conditions#Environmental-Positional-Conditions|Entangled]] for 1 turn.
+- **Tier 4:** **Mycelial Grip.** As an Action, one creature within 30 ft makes a STR save (DC 10 + WIS mod + Tier). Fail: [[2.4 Conditions#Environmental / Positional Conditions|Entangled]] for 1 turn.
 - **Tier 5:** **Harvest the Weak.** When a creature within 30 ft drops to 0 HP, gain +10 + 2(Racial Tier) Vitality and +5 Base Melee Damage for 3 turns.
 - **Tier 6:** **Spore Cloud.** Once per combat as an Action, create a 20 ft (radius) cloud for 3 turns. Enemies inside take 2d10 Blight at start of turn and have disadvantage on saving throws.
-- **Tier 7:** **Condition Mastery.** When you apply [[2.4 Conditions#Physical-Conditions|Poisoned]]/[[2.4 Conditions#Physical-Conditions|Diseased]]/[[2.4 Conditions#Physical-Conditions|Necrosis]]/[[2.4 Conditions#Environmental-Positional-Conditions|Entangled]]/[[2.4 Conditions#Magical-Conditions|Slowed]], you may apply one additional condition from that list at the same time. (Once per turn)
+- **Tier 7:** **Condition Mastery.** When you apply [[2.4 Conditions#Physical-Conditions|Poisoned]]/[[2.4 Conditions#Physical-Conditions|Diseased]]/[[2.4 Conditions#Physical-Conditions|Necrosis]]/[[2.4 Conditions#Environmental / Positional Conditions|Entangled]]/[[2.4 Conditions#Magical-Conditions|Slowed]], you may apply one additional condition from that list at the same time. (Once per turn)
 - **Tier 8:** **Mushroom Thralls.** As an Action, create 2 + (Racial Tier/3) thralls (Small). They act after you, have 1 HP, and on hit deal 2d4 Blight damage and apply [[2.4 Conditions#Physical-Conditions|Poisoned]] (DC 10 + Tier) for 1 turn. Thralls last 1 minute or until killed. Thralls have 20 ft of movement and an AC of 10. As long as you have one Thrall active you may spend a Bonus Action to summon enough thralls to replace your maximum on your turn. You may only summon Thralls once per turn. 
 - **Tier 9:** **Spore Sovereign.** Once per combat choose a target; you have advantage on all attacks against it and deal double damage to it.
 - **Tier 10:** **True Mycelari.** Choose one:

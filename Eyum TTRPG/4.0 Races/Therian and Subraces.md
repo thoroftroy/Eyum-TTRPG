@@ -41,7 +41,7 @@ The head is animal-like rather than human. The face usually has a muzzle, a larg
 - **Tier 5:** **Predator Step.** Once per turn as a Bonus Action, gain +15 ft speed until end of turn and you do not provoke opportunity attacks from the creature you most recently attacked.
 - **Tier 6:** **Brutal Grip.** Gain +5 to grapple checks and checks to resist grapples.
 - **Tier 7:** **Tear Down.** When you hit a creature you have grappled, add +2d6 Slashing.
-- **Tier 8:** **Instinct Guard.** Gain +5 to Initiative and immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Surprised]].
+- **Tier 8:** **Instinct Guard.** Gain +5 to Initiative and immunity to [[2.4 Conditions#Environmental / Positional Conditions|Surprised]].
 - **Tier 9:** **Blood Frenzy.** Once per combat choose a target; you gain advantage on all melee attacks against it and deal double damage to it.
 - **Tier 10:** **Apex Therian.** Choose one:
     - **Alpha Hunter:** Gain +5 STR, +3 DEX, and +2 AC.
@@ -88,15 +88,15 @@ Centaurs have a true two-part body plan: a human upper body joined smoothly at t
 
 The horse body has a deep barrel chest, strong hips, and long legs with large joints built for speed and load. Each leg ends in a hoof made of hard keratin, with visible growth rings and a thick, worn edge. The tail is horse-like, long, hair-heavy, and used for balance and to swat irritants. Coat hair covers the horse half and can be short and sleek or thicker and rougher depending on climate. Coat colors include black, brown, tan, gray, white, and patterned coats such as spots or patches; many also have darker lower legs or a lighter belly. The human half has normal human skin tones and normal head hair. The hairline, facial structure, eyes, and teeth are fully human, and the arms end in normal human hands with five fingers. The overall look is a clean blend: human above, horse below, with no extra limbs beyond the two human arms and four horse legs.
 ###### Racial Abilities
-- **Tier 1:** **Charge Frame.** Gain +15 Max Vitality and you have advantage on saves vs being knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]].
+- **Tier 1:** **Charge Frame.** Gain +15 Max Vitality and you have advantage on saves vs being knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]].
 - **Tier 2:** **Hoof Strike.** Your unarmed strikes deal 1d8 Bludgeoning + STR mod.
 - **Tier 3:** **Trample.** If you move at least 20 ft in a straight line, the first creature you pass within 5 ft takes 2d6 Bludgeoning (DEX save DC 10 + STR mod + Tier halves). 
 - **Tier 4:** **Surefoot Gallop.** You are immune to difficult terrain on land.
 - **Tier 5:** **Momentum Guard.** If you used all your movement this turn, gain +3 AC until start of next turn.
 - **Tier 6:** **Heavy Kick.** When you hit with Hoof Strike, add +1d10 Bludgeoning. 
 - **Tier 7:** **Drive-By.** After you hit with a melee attack during movement, you may move 10 ft without provoking opportunity attacks from that target.
-- **Tier 8:** **Stampede Line.** As an Action, move up to your speed in a straight line; each enemy in the path makes a DEX save (DC 20) or takes 4d10 Bludgeoning and is knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] (half/no prone on success). 
-- **Tier 9:** **Warhorse Instinct.** Gain +5 to Initiative and immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Surprised]]; while above half HP you are immune to [[2.4 Conditions#Physical-Conditions|Stunned]].
+- **Tier 8:** **Stampede Line.** As an Action, move up to your speed in a straight line; each enemy in the path makes a DEX save (DC 20) or takes 4d10 Bludgeoning and is knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]] (half/no prone on success). 
+- **Tier 9:** **Warhorse Instinct.** Gain +5 to Initiative and immunity to [[2.4 Conditions#Environmental / Positional Conditions|Surprised]]; while above half HP you are immune to [[2.4 Conditions#Physical-Conditions|Stunned]].
 - **Tier 10:** **Apex Centaur.** Choose one:
     - **Thunder Charger:** Trample becomes every creature you pass and damage becomes 6d10.
     - **Iron Haunch:** Gain +4 AC and +40 Max Vitality.
@@ -126,7 +126,7 @@ The head is that of a bull: a long, broad muzzle, wide nostrils, and a heavy jaw
 ###### Racial Abilities
 - **Tier 1:** **Horn Gore.** Natural gore: 1d10 Piercing + STR mod. 
 - **Tier 2:** **Labyrinth Sense.** You cannot be lost by mundane means; gain +5 to navigation/tracking in tunnels.
-- **Tier 3:** **Power Charge.** If you move 20 ft straight and hit, add +3d8 damage and knock [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] (STR save DC 10 + STR mod + Tier negates).
+- **Tier 3:** **Power Charge.** If you move 20 ft straight and hit, add +3d8 damage and knock [[2.4 Conditions#Environmental / Positional Conditions|Prone]] (STR save DC 10 + STR mod + Tier negates).
 - **Tier 4:** **Bull Hide.** Gain +1 AC and +10 Max HP.
 - **Tier 5:** **Ramming Momentum.** After you hit, you may move 10 ft without provoking reactions from that target. (Once per turn)
 - **Tier 6:** **Unbreakable Neck.** Gain immunity to [[2.4 Conditions#Mental-Conditions|Charmed]] and advantage on WIS saves.
@@ -165,9 +165,9 @@ The head is elephant-like with a large skull and a long trunk. The trunk is musc
 - **Tier 3:** **Tusk Gore.** Natural gore: 1d10 Piercing + STR mod.
 - **Tier 4:** **Stone Skin.** Gain +1 AC and resistance to Earth damage.
 - **Tier 5:** **Heavy Step.** Once per turn when you move at least 10 ft, creatures within 5 ft of your path take 1d6 Bludgeoning (no save).
-- **Tier 6:** **Unshakeable.** Immunity to [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and advantage on CON saves.
+- **Tier 6:** **Unshakeable.** Immunity to [[2.4 Conditions#Environmental / Positional Conditions|Prone]] and advantage on CON saves.
 - **Tier 7:** **Crush Combo.** After you hit with a melee attack, you may spend 1 BAp to make a second melee attack at -2 Accuracy. 
-- **Tier 8:** **Stamping Ground.** As an Action, enemies within 10 ft make a DEX save (DC 20) or take 4d12 Bludgeoning and are knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] (half/no prone on success). (Once per combat)
+- **Tier 8:** **Stamping Ground.** As an Action, enemies within 10 ft make a DEX save (DC 20) or take 4d12 Bludgeoning and are knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]] (half/no prone on success). (Once per combat)
 - **Tier 9:** **Titan Dominance.** Once per combat choose a target; you gain advantage on attacks vs it and deal double damage to it.
 - **Tier 10:** **Apex Probassan.** Choose one:
     - **Living Fortress:** Gain +5 AC and +60 Max Vitality.

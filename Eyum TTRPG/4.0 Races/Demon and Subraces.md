@@ -69,10 +69,10 @@ Gain +1 to Infernal Affinity and +4 to Fire Affinity.
 - **Tier 5:** **Evasive Skitter.** If you move at least 10 ft on your turn, gain +3 AC until start of your next turn. (Once per round)
 - **Tier 6:** **Fire Resilience.** Gain Greater Resistance to Fire.
 - **Tier 7:** **Skirmish Combo.** After you hit with an attack, you may spend 1 BAp to make a second attack with a -2 Accuracy penalty.
-- **Tier 8:** **No-Stop Momentum.** If you spend all of your movement on your turn you become immune to forced movement effects and the [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] condition until the start of your next turn
+- **Tier 8:** **No-Stop Momentum.** If you spend all of your movement on your turn you become immune to forced movement effects and the [[2.4 Conditions#Environmental / Positional Conditions|Prone]] condition until the start of your next turn
 - **Tier 9:** **Blazing Afterimage.** If enemies take opportunity attacks against you and fail their attack roll they take 3d10 Fire damage (ignoring resistance).
 - **Tier 10:** **Inferno Runner.** Choose one:
-    - **Flame Trail:** Your movement leaves flame on the ground everywhere you move during combat, this flame lasts until the start of your next turn. Any creature who enters this flame gains the [[2.4 Conditions#Environmental-Positional-Conditions|On Fire]] condition and takes 1d6 fire damage. Any creature within 5 ft of the fire trail will take 1d4 fire damage at the start of their turn. 
+    - **Flame Trail:** Your movement leaves flame on the ground everywhere you move during combat, this flame lasts until the start of your next turn. Any creature who enters this flame gains the [[2.4 Conditions#Environmental / Positional Conditions|On Fire]] condition and takes 1d6 fire damage. Any creature within 5 ft of the fire trail will take 1d4 fire damage at the start of their turn. 
     - **Pyro Focus:** All fire damage you deal deals double damage.
     - **Taunt Escape:** You may now take the Taunt Escape action. After taking this action when you would normally provoke an opportunity attack this round the creature must make the attack if they are able but they get -15 to their attack roll as well as disadvantage. Your Blazing Afterimage passive now deals 4d12 fire damage and can ignore immunity as well. 
 ## Drakari

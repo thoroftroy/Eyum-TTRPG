@@ -157,7 +157,7 @@ Skin is opaque and rough, colored tan, deep brown, or dark umber. Thick callused
 ###### Racial Abilities
 - **Tier 1:** **Iron Frame.** Gain +1 AC and count as one size larger during combat by get -5 ft speed. 
 - **Tier 2:** **Slow Power.** Your melee attacks deal +2 + Racial Tier force damage if you moved 10 ft or less this turn, if you utilize this you cannot move this turn.
-- **Tier 3:** **Reinforced Bones.** Become immune to [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] condition.
+- **Tier 3:** **Reinforced Bones.** Become immune to [[2.4 Conditions#Environmental / Positional Conditions|Prone]] condition.
 - **Tier 4:** **Plated Body.** Gain 3 Damage Reduction.
 - **Tier 5:** **Crushing Grip.** Gain advantage on grapple checks; While you are grappling a creature they take 1d6 true damage at the start of their turn each turn.
 - **Tier 6:** **Second Plate.** Gain +1 AC (stacks).

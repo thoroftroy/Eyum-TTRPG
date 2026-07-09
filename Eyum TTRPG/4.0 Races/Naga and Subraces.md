@@ -35,7 +35,7 @@ The tail is thick at the base and tapers gradually toward the tip, providing bal
 - **Tier 5:** **Crushing Wrap.** Your constrict damage increases to 2d12 + Racial Tier Bludgeoning.
 - **Tier 6:** **Serpent Guard.** Gain +5 AC while you are grappling a creature.
 - **Tier 7:** **Super Coil.** You now have triple advantage on grapple checks and +6 to grapple. 
-- **Tier 8:** **Bonebreaker Hold.** If a creature takes damage from Constrict two times they gain the [[2.4 Conditions#Environmental-Positional-Conditions|Suffocating]] condition for as long as they are grappled.
+- **Tier 8:** **Bonebreaker Hold.** If a creature takes damage from Constrict two times they gain the [[2.4 Conditions#Environmental / Positional Conditions|Suffocating]] condition for as long as they are grappled.
 - **Tier 9:** **Execution Coil.** Once per turn as an action you may deal 3d20 Bludgeoning damage (ignoring resistances and immunities) to whatever creature you are currently grappling.
 - **Tier 10:** **Apex Naga.** Choose one:
     - **Titan Coil:** Your Constrict activates as soon as you succeed a grapple and the damage increases to 4d20 + Racial Tier Bludgeoning.
@@ -45,9 +45,9 @@ Slarik share the same basic body plan as naga but replace the snake tail with a 
 
 The skin of the lower body is smooth, rubbery, and hairless, colored pale pink, raw flesh tones, or dull gray. It appears moist at all times and shows subtle rippling during movement. The upper body is hairless as well, with smooth skin and no visible body hair. The head is human in shape, though facial features often appear swollen or slack due to soft tissue density. Eyes are forward-facing and often pale or watery in appearance. Teeth are blunt and small. 
 ###### Racial Abilities
-- **Tier 1:** **Heavy Flesh.** Gain +10 Max HP and advantage on checks to resist being knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]].
+- **Tier 1:** **Heavy Flesh.** Gain +10 Max HP and advantage on checks to resist being knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]].
 - **Tier 2:** **Grind Move.** You ignore the first 10 ft of difficult terrain each turn.
-- **Tier 3:** **[[2.4 Conditions#Environmental-Positional-Conditions|Suffocating]] Wrap.** When you grapple a creature, it takes 1d4 Necrotic at the start of its turn and gains the [[2.4 Conditions#Environmental-Positional-Conditions|Suffocating]] Condition.
+- **Tier 3:** **[[2.4 Conditions#Environmental / Positional Conditions|Suffocating]] Wrap.** When you grapple a creature, it takes 1d4 Necrotic at the start of its turn and gains the [[2.4 Conditions#Environmental / Positional Conditions|Suffocating]] Condition.
 - **Tier 4:** **Boneless Compression.** You may move through any gap you could fit your head through, you have triple advantage on checks to escape grapples and +5 to those checks. 
 - **Tier 5:** **Anchor Body.** You gain immunity to forced movement unless the effect is from a creature two sizes larger than you or from a spell.    
 - **Tier 6:** **Thickened Hide.** Gain +2 AC.
@@ -57,7 +57,7 @@ The skin of the lower body is smooth, rubbery, and hairless, colored pale pink, 
 - **Tier 10:** **Elder Slarik.** Choose one:
     - **Living Rampart:** Gain +4 AC and +40 Max HP and +80 Max Vitality.
     - **Meat Grinder:** While a creature is grappled you may make a athletics check (DC 20), on success your grappled target takes 10d20 + 10 bludgeoning damage (bypassing resistances and immunities).
-    - **Unstoppable Mass:** You become immune to [[2.4 Conditions#Environmental-Positional-Conditions|Prone]], [[2.4 Conditions#Physical-Conditions|Stunned]], [[2.4 Conditions#Physical-Conditions|Paralyzed]], and [[2.4 Conditions#Physical-Conditions|Petrified]], and your Anchor Body ignores size and prevents movement from spells.
+    - **Unstoppable Mass:** You become immune to [[2.4 Conditions#Environmental / Positional Conditions|Prone]], [[2.4 Conditions#Physical-Conditions|Stunned]], [[2.4 Conditions#Physical-Conditions|Paralyzed]], and [[2.4 Conditions#Physical-Conditions|Petrified]], and your Anchor Body ignores size and prevents movement from spells.
 ## Scaledrake
 Scaledrakes are heavily muscled naga with thick torsos and broad shoulders. The humanoid upper body shows extreme muscle development, especially across the chest, arms, and back. Small but sturdy wings grow from the upper back, with short bone supports and leathery membranes stretched between elongated fingers. These wings are not large enough for full flight but aid in gliding and balance.
 
@@ -68,7 +68,7 @@ The tail is thick and powerful, covered entirely in bright, vividly colored scal
 - **Tier 3:** **Brightscale Intimidation.** Gain Proficiency in Intimidation and Expertise in Intimidation.
 - **Tier 4:** **Ridge Armor.** Gain +2 AC and +5 to your STR score.
 - **Tier 5:** **Wing Juke.** If you moved at least 10 ft this turn, gain +3 AC until the start of your next turn. (Once per round)
-- **Tier 6:** **Stone-Sure.** Gain resistance to Earth damage and advantage on saves vs being knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]].
+- **Tier 6:** **Stone-Sure.** Gain resistance to Earth damage and advantage on saves vs being knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]].
 - **Tier 7:** **Sky Pounce.** If you glided at least 10 ft toward a target this turn, you may spend 1 BAp to make an additional unarmed strike at -2 Accuracy.
 - **Tier 8:** **Backdraft Lift.** As an Action, leap and glide: you may immediately move up to 40 ft (including vertical movement). This movement does not provoke opportunity attacks. (Once per short rest)
 - **Tier 9:** **Pattern Shock.** Once per combat as an Action, creatures of your choice within 15 ft must make a WIS save (DC 10 + CON mod + Tier) or take 6d10 Psychic and suffer -10 Accuracy until your next turn.
@@ -140,7 +140,7 @@ Scales are large, thick, and overlapping, colored primarily in reds, oranges, ru
 - **Tier 5:** **Grip of Stone.** Gain +5 to grapple checks.
 - **Tier 6:** **Body of Brick.** Gain resistance to Earth damage and 10 Elemental Damage Reduction.
 - **Tier 7:** **Crush Combo.** After you hit with a melee attack, you may spend 1 BAp to make another melee attack at -2 Accuracy. (Once per turn)
-- **Tier 8:** **Siege Slam.** Once per combat as an Action, slam the ground. Creatures of your choice within 10 ft make a DEX save (DC 10 + STR mod + Tier). Fail: [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] and take 4d10 Bludgeoning. Success: half damage, no prone.
+- **Tier 8:** **Siege Slam.** Once per combat as an Action, slam the ground. Creatures of your choice within 10 ft make a DEX save (DC 10 + STR mod + Tier). Fail: [[2.4 Conditions#Environmental / Positional Conditions|Prone]] and take 4d10 Bludgeoning. Success: half damage, no prone.
 - **Tier 9:** **Unyielding Pressure.** While you are above half HP, you are immune to [[2.4 Conditions#Physical-Conditions|Stunned]] and [[2.4 Conditions#Physical-Conditions|Paralyzed]], and you gain +5 to all saving throws.
 - **Tier 10:** **Apex Serpentarii.** Choose one:
     - **Mountain Coil:** Gain +5 STR, +3 CON, and +2 AC.
@@ -154,7 +154,7 @@ The tail is thick and short relative to other naga, covered in dense green or mo
 - **Tier 1:** **Shellback.** Gain +4 AC and advantage on constitution saving throws.
 - **Tier 2:** **Brace.** As a Reaction when you are hit, reduce the damage by 1d10 + CON mod.
 - **Tier 3:** **Plated Body.** Gain Damage Reduction equal to 1 + Racial Tier.
-- **Tier 4:** **Hard Turning.** You cannot be knocked [[2.4 Conditions#Environmental-Positional-Conditions|Prone]] unless the effect comes from a creature two sizes larger than you.
+- **Tier 4:** **Hard Turning.** You cannot be knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]] unless the effect comes from a creature two sizes larger than you.
 - **Tier 5:** **Shield Curl.** As a BAp, gain +3 AC until the start of your next turn, but your speed is reduced by 10 ft during that time.
 - **Tier 6:** **Reinforced Carapace.** Gain +2 AC (stacks).
 - **Tier 7:** **Shell Counter.** Once per turn when a creature hits you with a melee attack, it takes 2d10 Necrotic.
