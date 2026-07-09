@@ -24,8 +24,8 @@
 | Verdleap    | 40, climb 30 | Earth, Necrotic     | Generic, Fire, Water, Psychic | Air, Radiant             | +6 DEX, +2 CON, -2 INT, -2 WIS, -2 CHA |
 | Miregnat    | 25, fly 30   | Earth, Radiant      | Generic, Fire, Water, Psychic | Air, Necrotic            |                                        |
 | Longweaver  | 30, climb 40 | Radiant, Air        | Generic, Fire, Water          | Earth, Necrotic, Psychic | +2 STR, +2 CON, -2 WIS                 |
-| Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +2 DEX, +1 STR, -1 CHA |
-| Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   |                                        |
+| Webjack     | 30, climb 40 | Radiant, Air        | Generic, Fire, Water, Psychic | Earth, Necrotic          | +2 DEX, +1 STR, -1 CHA                 |
+| Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   | +3 CHA, +2 INT, +1 WIS, -1 STR, -3 CON |
 | Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   |                                        |
 | Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water, Psychic | Air, Radiant             |                                        |
 | Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     |                                        |
@@ -151,49 +151,49 @@ Webjacks appear mostly human at first glance: a humanoid torso, two normal legs,
 The face is mostly human in shape but with spider eyes: usually two large, glossy eyes in the normal position, plus six smaller eyes placed around them in a rough arc. The mouth is humanlike but may show small fangs when open. Body hair exists, but it is uneven, often thicker along the forearms, spine, and shoulders. The back limbs are covered in fine hair or short bristles and end in hooked tips. Skin tones range from humanlike to slightly gray or ashen, sometimes with faint mottling. 
 ###### Racial Abilities
 You have six spider legs sprouting from your back. These legs can grip, climb, throw, and strike. You may use them to climb at 40 ft speed while keeping both hands free for weapons or items. You may also use your spider legs to interact with objects, open doors, or pick up and throw small items (up to 10 lbs) as a free action once per turn. Your spider legs grant you advantage on checks to avoid being knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental-Positional-Conditions|Prone]].
-- **Tier 1:** **Back-Leg Strike:** You gain a natural melee attack with your spider legs: 1d8 Piercing + DEX mod, range of 10 ft. This attack may be made as a Reaction when a creature enters your reach. If you make this attack on your turn you may make up to 6 strikes with -5 to hit on all attacks. You may not make the extra attacks if climbing. 
+- **Tier 1:** **Back-Leg Strike:** You gain a natural melee attack with your spider legs: 1d8 Piercing + DEX mod, range of 10 ft. This attack may be made as a Reaction when a creature enters your reach. If you make this attack on your turn you may make up to 6 strikes with -6 to hit on all attacks. You may not make the extra attacks if climbing. 
 - **Tier 2:** **Wall-Runner:** Your climb speed increases to 50 ft. You may move along walls and ceilings at full speed without checks. 
 - **Tier 3:** **Leg Parry:** As a Reaction when you are targeted by a melee or ranged attack, you may deflect it with your spider legs. Roll 1d6 + your DEX mod and reduce the attack roll by that amount. If this causes the attack to miss, you may immediately make a Back-Leg Strike against the attacker if they are within range. 
 - **Tier 4:** **Leg Reach:** Your spider leg attacks gain +5 ft reach. When you make a Back-Leg Strike as a Reaction, you do so with advantage.
 - **Tier 5:** **Hooked Limbs:** When you hit a creature with Back-Leg Strike, it must make a STR save (13 + Racial Tier), on failure it is pulled 5 ft towards you, its speed is reduced by 10 ft and it cannot take the Disengage action until the start of your next turn. These effects stack with consecutive leg hits (max -30 ft speed).
-- **Tier 6:** **Back Leg Strength:** When you use your reaction to make a Back-Leg Strike you may make 6 strikes at once each with -5 on all attacks. You may not make the extra attacks if climbing. 
-- **Tier 7:** **Flurry of Limbs:** When you take the Attack action you may spend 1 BAp to make an additional Back-Leg Strike. This attack does not consume your Reaction. If you are leg-walking this additional attack has advantage. 
-- **Tier 8:** **Evasive Skitter:** When a creature misses you with an attack you may use your Reaction to move up to 15 ft without provoking opportunity attacks. If you are leg-walking this movement increases to 25 ft. While leg-walking opportunity attacks against you have disadvantage. 
-- **Tier 9:** **Whirling Barrage:** Each Back-Leg Strike you make during your turn grants you an additional Back-Leg Strike against a different target within range as a free action (each target may only be struck once per turn this way). You may use Leg Parry an unlimited number of times per combat.
+- **Tier 6:** **Back Leg Strength:** When you use your reaction to make a Back-Leg Strike you may make 6 strikes at once each with -6 on all attacks. You may not make the extra attacks if climbing. 
+- **Tier 7:** **Flurry of Limbs:** Your subsequent Back-Leg Strikes suffer only a -2 penalty instead of -6 and deal 2d10 + DEX mod piercing instead of 1d8 + DEX mod.
+- **Tier 8:** **Evasive Skitter:** When a creature misses you with an attack you may use your Reaction to move up to 15 ft without provoking opportunity attacks. 
+- **Tier 9:** **Whirling Barrage:** Each subsequent Back-Leg Strike against a single creature each turn (resets on each turn or new creature) deals +2 Piercing damage. Your Back-Leg Strikes ignore resistances and treat immunity as greater resistance. 
 - **Tier 10:** **Arachnid Ascendant** Choose one:
-    - **Eightfold Strike:** Your Back-Leg Strike damage increases to 2d8. When you hit a creature with Back-Leg Strike you may immediately make one additional Back-Leg Strike against it. Your Reaction Back-Leg Strikes also trigger this effect.
-    - **Projectile Deflector:** Your Leg Parry now rolls 1d12 + DEX mod instead of 1d6. When you successfully deflect a ranged attack you may spend your Reaction to catch the projectile and immediately throw it back using your spider legs as a ranged attack dealing the projectile's normal damage + your DEX mod with a range of 30/60.
-    - **Leg Weaver:** You gain two additional spider legs (8 to 10 total). While leg-walking your speed increases by +20 ft, you may occupy enemy spaces, and creatures treat spaces within 10 ft of you as Difficult Terrain. You may make one Back-Leg Strike as a Free Action at the start of each of your turns.
+    - **Twelvefold Strike:** You may make two attacks for each Back-Leg strike (12 per attack instead of 6). 
+    - **Projectile Deflector:** Your Leg Parry now rolls 2d12 + DEX mod. When you successfully deflect a ranged attack you may spend your Reaction to catch the projectile and immediately throw it back using your spider legs as a ranged attack dealing the projectile's normal damage + DEX mod with a range of 30/60.
+    - **Leg Weaver:** You gain two additional spider legs (now 8 total) and can make up to 8 strikes any time your max was 6. Your speed increases by +20 ft, you may occupy enemy spaces, and creatures treat spaces within 10 ft of you as Difficult Terrain. 
 ## Broodweaver
 Broodweavers are tall, slim humanoids with an almost starved silhouette: narrow shoulders, thin limbs, and sharply defined ribs. Their skin appears wet or slick, as if coated in a thin film. The body surface often has many narrow slits, straight, seam-like openings, placed along the torso, sides, hips, and sometimes the upper arms. These slits can widen, like soft valves, and are used as hatch points for hatchlings.
 
 The head is humanoid but altered: they have four eyes rather than two, often arranged as two normal eyes with two smaller ones above or slightly outward. The eyes tend to be pale, glossy, or dark with a reflective shine. Hair grows on the scalp and is distinctly colored, commonly cobalt blue or deep green. Their skin bruises easily and shows purple discoloration from even minor impact, leaving blotchy marks along the arms and ribs. The mouth is humanlike but often appears tense or thin-lipped, and the teeth are small and sharp-edged rather than blunt. 
 ###### Racial Abilities
-- **Tier 1:** **Hatchling Brood.** As an Action, summon 1 hatchling. You can have up to your Racial Tier hatchlings at once. Hatchlings act on your turn and require 1 BAp to command. All hatchlings follow the same command at once. You may only issue one command to your hatchlings per turn. Hatchlings may be in the same square as each other and other creatures. 
-	- Your hatchlings have the following Stats:
-		- **Vitality**: 5
-		- **Hp**: 3
-		- **AC:** 12
-		- **Attack Damage**: 1d4 Piercing
-		- **Speed**: 30
-		- **Size**: Tiny
-	- You may give the following commands to your hatchlings: 
-		- **Move**, move up to their movement speed. If no command is given for movement it is assumed that they move with you
-		- **Attack**, make a melee attack (1d20 + (Racial Tier/2 (rounded down)) to hit) against a creature within 5 ft
-		- **Defend**, for every 2 hatchlings within 5 ft increase your AC by +1 until the start of your next turn (max of +6)
-- **Tier 2:** **Brood Accuracy.** Hatchlings gain +1 Accuracy for each hatchling within 5 ft of themselves.
-- **Tier 3:** **Brood Body.** Hatchlings HP max is now equal to 3 + Racial Tier and their Vitality is equal to 5 + Racial Tier.
-- **Tier 4:** **Brood Strike.** Hatchlings damage increases to 1d6 Piercing
-- **Tier 5:** **Brood Shield.** When giving the Defend command you now gain +1 AC for every 1 Hatchling (max of +6) 
-- **Tier 6:** **Rapid Hatch.** Summoning hatchlings becomes a BAp instead of an Ap (still limited by max brood).
-- **Tier 7:** **Swarm Order.** When you command >4 hatchlings at once to Attack they deal double damage. 
-- **Tier 8:** **Brood Frenzy.** All remaining hatchlings gain +1d4 damage per hatchling killed on the previous turn.
-- **Tier 9:** **Brood Sacrifice.** As a Rp, when you take damage, you may command your hatchlings (within 5 ft of you) to take the damage for you (excess damage goes to you).
-- **Tier 10:** **Brood Queen.** Choose one:
-    - **Endless Brood:** Your max brood increases by +5.
-    - **Mutant Hatchlings:** Hatchling attacks deal 1d6 + Racial Tier Magical Piercing instead of just 1d6 Piercing.
-    - **Split Mind:** You may command your hatchlings in groups or individually by specifying which hatchlings each command applies to. It costs 1 BAp per command but you may give as many commands per turn as you wish. 
-    - **Poison Queen:** Hatchling attacks now deal an additional +Tier (10) Poison damage. You become immune to the poisoned condition and gain resistance to poison damage. 
+As an Action you may summon 1 hatchling from the slits along your body. You may have up to 1 + your Racial Tier hatchlings at once (plus any bonuses from your tier). Hatchlings act on your turn and all follow the same command (1 BAp per command, one command per turn). Hatchlings may occupy the same space as each other and other creatures. Any time your hatchlings gain bonuses from Racial Tier / x round the result down. You can send commands to any hatchling within 60 ft of you telepathically and they can maintain your connection with them for up to 120 ft, if they go beyond that range they take 10 damage to health per turn until they die, they will not attempt to move or get back to you. 
+- Your hatchling has the following stats:
+	- **Vitality:** 5 + Racial Tier
+	- **HP:** 3 + Racial Tier
+	- **AC:** 12 + (Racial Tier / 3)
+	- **Attack:** 1d4 Piercing, to-hit: 1d20 + (Racial Tier / 2)
+	- **Speed:** 30 ft
+	- **Size:** Tiny
+- Commands (choose one per turn):
+	- **Move:** Hatchlings move up to their speed. If no movement command is given they move with you (unless you tell them to stay).
+	- **Attack:** Each hatchling makes one melee attack against a creature within 5 ft.
+	- **Defend:** For every 2 hatchlings within 5 ft of you, gain +1 AC until the start of your next turn (max +6) and for every 3 hatchlings beyond the first 3 gain 1 damage mitigation.
+- **Tier 1:** **Brood Expansion:** Your max hatchlings increases by +2. When you summon a hatchling you may summon 2 instead of 1 as the same Action. 
+- **Tier 2:** **Swarm Tactics:** Hatchlings gain +1 Accuracy for each other hatchling within 5 ft of themselves. When you command hatchlings to Attack, if 4 or more hatchlings target the same creature that creature has disadvantage on attacks against your hatchlings until the start of your next turn.
+- **Tier 3:** **Brood Maturation:** Hatchling HP becomes 5 + (Racial Tier x 2), Vitality becomes 8 + (Racial Tier x 2). Hatchling AC becomes 13 + (Racial Tier / 2). 
+- **Tier 4:** **Venomous Bite:** Hatchling attacks deal 1d6 Piercing + 1 Poison damage. A creature hit by 3 or more hatchlings in a single turn must make a CON save (DC 10 + your CHA mod + your Racial Tier) or be [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Poisoned]] for 1 turn.
+- **Tier 5:** **Brood Shield:** Defend now grants +1 AC per hatchling (max +8) and damage mitigation becomes 1 per 2. When you give the Defend command your hatchlings also heal 5 Vitality.
+- **Tier 6:** **Rapid Gestation:** Summoning hatchlings costs a Bonus Action instead of an Action. When one of your hatchlings is reduced to 0 HP, you may use your Reaction to immediately summon a replacement hatchling. You max hatchlings increases by +3. 
+- **Tier 7:** **Hive Mind Fury:** When you command >3 hatchlings to Attack the same creature, their attacks deal double damage and score a critical hit on a roll of 18-20. 
+- **Tier 8:** **Brood Frenzy:** When a hatchling is reduced to 0 HP within 30 ft of you, all remaining hatchlings gain x2 damage on their attacks until the end of your next turn. This effect stacks per hatchling killed gaining +1x multiplier (2x on 1, 3x on 2, 4x on 3 and so on) up to a max of 10x. 
+- **Tier 9:** **Living Shield:** As a Reaction when you take damage, any number of hatchlings within 5 ft of you may intercept it. Each hatchling takes the full damage before you; any excess damage passes to you. Hatchlings reduced to 0 HP this way explode dealing 1d8 Poison damage to the attacker if within 5 ft.
+- **Tier 10:** **Brood Queen** Choose one:
+    - **Endless Swarm:** Your max hatchlings increases by +8. You may summon up to 3 hatchlings as a single Bonus Action. Hatchling attacks deal +2 damage for every 3 hatchlings currently alive within 20 ft. 
+    - **Eldritch Brood:** Hatchling attacks deal Magical Piercing. Your hatchlings gain +1 damage for each creature killed that day, this bonus resets on a long rest. 
+    - **Queen's Dominion:** You may command hatchlings in up to 3 separate groups per turn (1 BAp per group), allowing different commands to different subsets. Your max hatchlings increases by +3. 
 ## Duskwing
 Duskwings are humanoid with large moth-like wings emerging from the upper back. The wings are broad and soft-edged, covered in fine powdery scales, and often patterned in muted colors like tan, brown, gray, dusty purple, or off-black. When they move, the wing scales can shed as a faint dust. Their build is usually lean, with long arms and a light frame to support gliding.
 
