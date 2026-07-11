@@ -11,16 +11,16 @@
 | Kravari  | Medium | 5'7" - 6'11"  | 180 - 310 lb   | 40 - 60 years    | 12               |
 | Sandman  | Medium | 5'2" - 6'3"   | 100 - 185 lb   | 50 - 75 years    | 15               |
 
-| Race     | Speed | Negative Affinities                                   | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           |
-| -------- | ----- | ----------------------------------------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- |
-| Human    | 25    |                                                       | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    |
-| Aurian   | 25    | Psychic                                               | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +2 WIS, +1 INT, -1 CON                 |
-| Halofade | 25    | Fire, Earth                                           | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         |
-| Giant    | 30    | Air, Psychic, Water, Fire, Radiant, Necrotic, Generic | Earth                                                        |                                   | +8 STR, +4 CON, -2 DEX, -4 INT, -4 WIS |
-| Iceborn  | 25    | Fire                                                  | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         |
-| Fireborn | 25    | Water, Radiant                                        | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, +1 WIS, -1 CON                 |
-| Kravari  | 25    | Psychic, Air                                          | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                 |
-| Sandman  | 25    | Earth                                                 | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                         |
+| Race     | Speed | Negative Affinities                                   | Neutral Affinities                                           | Positive Affinities               | Stat Bonuses                           | Karma |
+| -------- | ----- | ----------------------------------------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- | ----- |
+| Human    | 25    |                                                       | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    | 0     |
+| Aurian   | 25    | Psychic                                               | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +2 WIS, +1 INT, -1 CON                 | 0     |
+| Halofade | 25    | Fire, Earth                                           | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         | 0     |
+| Giant    | 30    | Air, Psychic, Water, Fire, Radiant, Necrotic, Generic | Earth                                                        |                                   | +8 STR, +4 CON, -2 DEX, -4 INT, -4 WIS | 0     |
+| Iceborn  | 25    | Fire                                                  | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         | 0     |
+| Fireborn | 25    | Water, Radiant                                        | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, +1 WIS, -1 CON                 | 0     |
+| Kravari  | 25    | Psychic, Air                                          | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                 | 0     |
+| Sandman  | 25    | Earth                                                 | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                         | 0     |
 ## Human
 Humans are upright, two-legged mammals with a balanced and highly variable build. The skeleton is internally rigid with flexible joints at the neck, shoulders, elbows, hips, knees, and ankles, allowing both endurance walking and short bursts of speed. The torso is widest at the shoulders, narrows toward the waist, and widens again at the hips, giving stable upright balance. Arms are shorter than legs and end in hands with five flexible fingers capable of both fine manipulation and strong grip.
 

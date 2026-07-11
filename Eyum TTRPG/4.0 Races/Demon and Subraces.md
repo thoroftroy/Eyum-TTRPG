@@ -10,34 +10,34 @@
 | Sylphamare | Huge   | 6'0" - 8'2"  | 260 - 620 lb | 200 - 300 years  | 60               |
 | Varkuun    | Medium | 5'4" - 7'1"  | 170 - 390 lb | 95 - 142 years   | 29               |
 
-| Race       | Speed        | Negative Affinities    | Neutral Affinities                     | Positive Affinities     | Stat Bonuses                  |
-| ---------- | ------------ | ---------------------- | -------------------------------------- | ----------------------- | ----------------------------- |
-| Demon      | 30           | Radiant, Cold          | Generic, Earth, Water, Air, Psychic    | Fire, Necrotic          | +3 STR, +2 CON, +1 AC         |
-| Ferramite  | 30, climb 30 | Radiant, Psychic, Cold | Generic, Earth, Air                    | Fire, Necrotic, Water   | +3 STR, +1 CON, -1 CHA, +3 AC |
-| Pyrrakin   | 35, climb 30 | Radiant, Water, Cold   | Generic, Earth, Air, Psychic, Necrotic | Fire                    | +2 DEX, +1 STR, +1 AC         |
-| Drakari    | 30, climb 20 | Radiant, Psychic, Cold | Generic, Earth, Water                  | Fire, Air, Necrotic     | +2 STR, +1 CON, +1 AC         |
-| Cinderkin  | 30           | Water, Radiant, Cold   | Generic, Earth, Air, Psychic           | Fire, Necrotic          | +2 CHA, +1 INT                |
-| Sylphamare | 25           | Air, Psychic, Cold     | Generic, Earth, Water, Necrotic        | Fire, Radiant           | +3 WIS, +2 INT, -2 DEX, +1 AC |
-| Varkuun    | 30, climb 20 | Radiant, Cold          | Generic, Earth, Water, Air             | Fire, Necrotic, Psychic | +2 STR, +1 CHA, +1 AC         |
+| Race       | Speed        | Negative Affinities    | Neutral Affinities                     | Positive Affinities      | Stat Bonuses                   | Karma |
+| ---------- | ------------ | ---------------------- | -------------------------------------- | ------------------------ | ------------------------------ | ----- |
+| Demon      | 30           | Radiant, Cold          | Generic, Earth, Water, Air, Psychic    | Fire, Necrotic, Infernal | +4 CHA, +2 CON, -2 STR, -2 DEX | -70   |
+| Ferramite  | 30, climb 30 | Radiant, Psychic, Cold | Generic, Earth, Air                    | Fire, Necrotic, Water    |                                | -20   |
+| Pyrrakin   | 35, climb 30 | Radiant, Water, Cold   | Generic, Earth, Air, Psychic, Necrotic | Fire                     |                                | -20   |
+| Drakari    | 30, climb 20 | Radiant, Psychic, Cold | Generic, Earth, Water                  | Fire, Air, Necrotic      |                                | -20   |
+| Cinderkin  | 30           | Water, Radiant, Cold   | Generic, Earth, Air, Psychic           | Fire, Necrotic           |                                | -20   |
+| Sylphamare | 25           | Air, Psychic, Cold     | Generic, Earth, Water, Necrotic        | Fire, Radiant            |                                | -40   |
+| Varkuun    | 30, climb 20 | Radiant, Cold          | Generic, Earth, Water, Air             | Fire, Necrotic, Psychic  |                                | -20   |
 ## Demon
 Demons follow a humanoid body plan but with heavy predatory traits that make the human shape feel secondary. The skeleton is tall and rigid through the chest, with broad shoulders, a thick spine, and joints that look slightly overbuilt. The head is usually larger than human average with a heavier brow ridge, a stronger jaw, and cheekbones that sit high and sharp. Horns rise from the skull in many forms, straight, swept back, curled, forked, or uneven, and their bases look fused to the bone, not like surface growth. A tail extends from the lower spine. It is muscular, flexible, and often ends in a hard tip, ridge, or spade-like shape.
 
 Skin tones trend toward gray, charcoal black, deep purple, dark red, and sometimes yellowed tones. The surface is not soft; it is rough, dry, and uneven, with thickened patches like natural armor. Many demons have scaly ridges along the spine, shoulders, forearms, and shins. These ridges can form raised lines, small plates, or jagged crests that catch light on their edges. Facial skin often looks tighter over the bones, making expressions appear sharper and more threatening. Eyes tend to look intense: smaller visible whites, deeper-set sockets, and irises that can be bright against dark skin. Teeth include clear fangs. The canines are longer and narrower than human, and the back teeth are heavier for tearing and crushing. Fingernails are thick and may form short claws. 
 ###### Racial Abilities
-Gain +2 to Infernal Affinity and +3 to Fire Affinity.
-- **Tier 1:** **Infernal Claws.** Your unarmed strikes deal 1d6 Slashing +1d4 Infernal + STR mod.
-- **Tier 2:** **Hellish Presence.** Gain proficiency in Intimidation and Social Insight checks and Expertise in Intimidation.
-- **Tier 3:** **Burning Blood.** When you take damage, the attacker takes 1d4 Fire damage. (Melee only)
-- **Tier 4:** **Demonic Resilience.** Gain Immunity to Fire damage and resistance to Infernal damage. You may add your Infernal Affinity to melee damage rolls. 
-- **Tier 5:** **Predator’s Surge.** Once per turn as a BAp, gain +2 Accuracy on your next attack and +10 ft speed until end of turn.
-- **Tier 6:** **Hardened Hide.** Gain +3 AC.
-- **Tier 7:** **Cruel Finish.** When you reduce a creature to 0 HP, you may make one unarmed strike as a Bonus Action.
-- **Tier 8:** **Fear Scent.** If you have successfully intimidated a creature you are able to follow their sent and track them with no checks. 
-- **Tier 9:** **Abyssal Fury.** Once per combat choose a target, you have advantage on all attacks against that creature and deal double damage to it. 
-- **Tier 10:** **True Demon.** Choose one:
-    - **Hellbrand:** Your melee strikes deal +2d6 Infernal damage and all fire damage dealt is doubled.
-    - **Abyssal Carapace:** You gain Immunity to Necrotic damage and when you are hit by a melee attack the attacker takes 2d10 necrotic damage.
-    - **Dread Aura:** Enemies within 10 ft take -10 on attack rolls.
+Gain +3 Infernal Affinity. You gain +3 to Intimidation and Social Insight checks. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Darkvision]] at 30 ft. You permanently unlock the Infernal affinity to be upgraded with Affinity Points even if you have not met the prerequisites.
+- **Tier 1:** **Infernal Bargain:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Infernal Bargain]]. You may maintain 1 active bargain at a time.
+- **Tier 2:** **Dark Pactkeeper:** For each creature within 30 ft that is benefiting from your Infernal Bargain, you gain +1 AC and +1 to all saving throws. You may end any of your active Infernal Bargains as a Bonus Action from any distance; the target takes 2d8 + Racial Tier Infernal damage (no save). You may now maintain 2 active bargains.
+- **Tier 3:** **Soul Tithe:** At the start of each of your turns, for every active Infernal Bargain you have, you regain 1d8 + Racial Tier HP and gain +1 Base Spell Damage until the end of your next turn. If a creature under your bargain attacks you or an ally, the bargain ends immediately and that creature takes 3d10 + Racial Tier Infernal damage (no save). 
+- **Tier 4:** **Hellfire Mark:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Hellfire Mark]].
+- **Tier 5:** **Contractual Investment:** Creatures under your Infernal Bargain gain +5 ft movement speed and their attacks deal +1d6 Infernal damage. While you have at least one active bargain, you gain resistance to Fire and Infernal damage. You may now maintain 3 active bargains.
+- **Tier 6:** **Bound by Blood:** You always know the exact location, current HP percentage, and active conditions of any creature under your Infernal Bargain, across any distance or plane. You may communicate telepathically with bargained creatures at any range. Bargained creatures cannot lie to you (they may refuse to answer, but any answer they give is truthful).
+- **Tier 7:** **Infernal Contract:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Infernal Contract]].
+- **Tier 8:** **Harvest of Oaths:** When a creature under your Infernal Bargain kills another creature, you gain +2 to all d20 rolls until the end of your next turn and the bargain's remaining duration is doubled. When a creature under your bargain dies, you may immediately cast Infernal Bargain on a willing creature you can see for 0 mana (this does not require your Action), and you gain +3 to all d20 rolls for 2 turns. You may now maintain 4 active bargains.
+- **Tier 9:** **Archfiend's Dominion:** You may maintain 5 active bargains. Once per combat as a Bonus Action, you may issue a Decree: all creatures under your Infernal Bargain gain advantage on their next attack roll, +3d8 Infernal damage on their next hit, and may immediately move up to half their speed without provoking opportunity attacks. For each bargained creature that lands an attack this turn, you gain one additional Bonus Action on your next turn. You may cast Infernal Bargain as a Bonus Action.
+- **Tier 10:** **Lord of Pacts** Choose one:
+    - **Infernal Ascendancy:** You may maintain unlimited active bargains (max +8 bonus from any single bargain-granting source). For each active bargain you have, gain +1 to all d20 rolls. When a creature under your bargain dies, permanently gain +4 maximum HP. You may end any number of bargains as a free action, dealing 4d12 Infernal damage to each target.
+    - **Hellfire Sovereign:** Creatures under your Infernal Bargain deal +2d10 Infernal damage on all attacks and gain immunity to Fire damage. Soul Tithe's oathbreaker damage becomes 10d12 Infernal and chains to all enemies within 20 ft of the oathbreaker (DEX save halves, DC 10 + CHA mod + Tier). Creatures that break your bargain gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Magical-Conditions|Cursed]] condition for 24 hours.
+    - **Soul Harvest:** You gain a reservoir of Soul Tokens (max 15). Whenever a bargain resolves (fulfilled, broken, or the creature dies), you gain 1 Soul Token. As a free action you may spend tokens: 1 token = regain 3d8 HP, 2 tokens = +5 to your next d20 roll, 3 tokens = cast any Infernal spell for 0 mana, 5 tokens = all creatures under your bargains gain +8 AC until the start of your next turn. Tokens persist until spent.
 ## Ferramite
 Ferramites are large, dragonic humanoids built like moving armor. The frame is thick and heavy in every segment: wide chest, thick neck, dense limbs, and large joints. The hands and feet are broad with powerful claws, and the fingers look reinforced, as if designed to grip stone and bend metal. Their stance reads as weight-forward and stable, with a low, grounded center of mass.
 
