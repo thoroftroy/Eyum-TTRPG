@@ -28,8 +28,8 @@
 | Broodweaver | 30           | Radiant             | Generic, Fire, Earth, Water   | Necrotic, Psychic, Air   | +3 CHA, +2 INT, +1 WIS, -1 STR, -3 CON |
 | Duskwing    | 30, glide 30 | Earth, Fire         | Generic, Water, Psychic       | Air, Radiant, Necrotic   | +2 DEX, +1 CHA, -1 STR                 |
 | Glimmerwing | 30, glide 35 | Necrotic, Earth     | Generic, Fire, Water          | Air, Radiant, Psychic    | +4 CHA, +1 DEX, -2 STR, -1 CON         |
-| Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     |                                        |
-| Formid      | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic |                                        |
+| Twigwrought | 30, climb 30 | Fire, Radiant       | Generic, Water, Psychic       | Earth, Air, Necrotic     | +5 DEX, +2 WIS, -3 STR, -2 CHA         |
+| Formid      | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic | +5 STR, +4 CON, -3 DEX, -2 INT, -2 CHA |
 | Plateroll   | 25           | Air, Psychic        | Generic, Fire, Water          | Earth, Radiant, Necrotic |                                        |
 ## Chitinfolk
 Chitinfolk are upright, two-legged arthropod humanoids with a broad, beetle-like body plan. Their skeleton is an internal frame reinforced by thick external plates. The torso is wrapped in hard chitin that forms a chest shell, back plates, and layered segments at the abdomen. The shoulders are rounded and the neck is short, often partly protected by a raised collar of armor-like plate.
@@ -237,37 +237,39 @@ Twigwrought are tall, extremely thin humanoids shaped like stick insects. Limbs 
 
 The body is slightly armored with thin chitin plates that resemble bark or dried plant fiber. The surface color is usually tan, pale brown, gray-brown, or dull green, with fine lines that mimic wood grain. Hair is absent; the head is smooth or lightly textured like shell. The face is minimal and insect-like, with small eyes and a narrow mouth. Fingers are long and stick-like, often ending in small hooked tips for climbing. 
 ###### Racial Abilities
-- **Tier 1:** **Camouflage Fiber.** Gain +5 to Stealth checks while in wooded/forest terrain.
-- **Tier 2:** **Stick-Frame Climb.** While in wooded/forest terrain your climb speed doubles.
-- **Tier 3:** **Barkskin Plate.** Gain +2 AC while not wearing heavy armor.
-- **Tier 4:** **Rooted.** You have advantage on saves against being shoved, grappled or knocked prone while standing on natural ground.    
-- **Tier 5:** **Splinter Strike.** Gain +Racial Tier Base Melee Damage
-- **Tier 6:** **Quiet Step.** Gain +5 to stealth checks.
-- **Tier 7:** **Vine Snag.** As a Bonus Action, attempt to restrain a creature within 10 ft (STR save (DC 10 + STR mod + Racial Tier)).  
-- **Tier 8:** **Nature’s Sense.** Gain +5 to Nature checks as well as Proficiency and Expertise in Nature. 
-- **Tier 9:** **Wooden Resilience.** Gain Resistance to non-magical slashing, bludgeoning, and piercing damage.
-- **Tier 10:** **Elder Twig.** Choose one:
-    - **Perfect Camouflage:** Once per round, become untargetable by all attacks until your next turn (must be taken at the start of your turn, ends you turn).
-    - **Ironwood:** All bonuses that rely on nature now take effect in any terrain.
-    - **Splinterstorm:** When you make a melee attack you may reroll damage dice and take the higher number. You also gain +3 Base Melee Accuracy and +3 Base Melee Damage. 
+Natural bark-skin armor grants +2 AC (does not stack with worn armor). You gain +5 to Stealth checks. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Darkvision]] at 20 ft.
+- **Tier 1:** **Stillness Camouflage:** As a Bonus Action you may freeze in place, your body blending seamlessly with the environment. Until you move, attack, or cast a spell, you gain the benefits of the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Invisible]] condition against creatures more than 10 ft away. Creatures who's WIS mod is +4 or higher or creatures who were previously aware you were in the area and are looking for you may make a WIS save (DC 14 + Your Racial Tier), on success they see you and are aware of your presence. 
+- **Tier 2:** **Vine Lash:** You gain a natural vine whip attack: 1d8 + DEX mod Piercing with 15 ft reach. On hit, you may pull the target 5 ft toward you or, if the target is Large or larger, pull yourself 5 ft toward it. This attack can initiate a grapple at range using your DEX instead of STR.
+- **Tier 3:** **Rapid Regrowth:** At the start of each of your turns, if your HP is below 50% of its maximum, you regain 1d8 + Racial Tier HP. If your Vitality is below 50% of its maximum, you regain 2d8 + Racial Tier Vitality. 
+- **Tier 4:** **Root Tether:** As a Bonus Action, you may drive roots from your feet deep into the ground, becoming anchored. While anchored, you cannot be forcibly moved by any means (shove, pull, teleportation, spells, etc.), you are immune to the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Prone]] condition, and you gain +3 AC, you gain +4 on attack rolls and your Rapid Regrowth skill heals for twice the amount. While anchored your speed becomes 0 and you cannot take the Dash action. You may end the anchor as a free action but it will automatically end your turn.
+- **Tier 5:** **Barkhide:** Your natural bark armor increases by +3 AC. You gain 3 Damage Mitigation. When a creature damages you with a melee attack that is reduced by your Damage Mitigation, it takes 1d4 Piercing damage.
+- **Tier 6:** **Patient Predator:** Your Stillness Camouflage now activates at the end of any turn in which you moved 10 ft or less for free. While camouflaged, the first attack you make against a creature that is unaware of you deals x2 damage.
+- **Tier 7:** **Strangling Vines:** When you hit a creature with Vine Lash, you may forgo pulling them to instead entangle them. The target must make a STR save (DC 10 + DEX mod + Tier). On failure, it gains the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Restrained]] condition for 1 turn. While Restrained by your vines, the creature takes 1d8 + Racial Tier Piercing at the start of its turn. You may continue making Vine Lash attacks against other creatures without ending the restraint. A creature Restrained this way may attempt to break free as an Action (STR save, same DC).
+- **Tier 8:** **Verdant Resilience:** Your Rapid Regrowth healing increases: 2d10 + Racial Tier HP while below 50% HP, and 3d12 + Racial Tier Vitality while below 50% Vitality. While you are anchored by Root Tether, your regrowth healing is now tripled (x3) and you regain HP every turn, if your HP is above 50% the healing is reduced by half.
+- **Tier 9:** **Thorned Overgrowth:** Once per combat as an Action, cause a 25 ft radius eruption of thorned vines centered on yourself. All creatures in the area must make a DEX save (DC 10 + DEX mod + Tier). On failure, they take 5d10 + Racial Tier Piercing damage and gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Restrained]] condition for 2 turns. On success, half damage and speed halved for 1 turn. The area becomes Difficult Terrain for 3 turns; you are unaffected by this Difficult Terrain.
+- **Tier 10:** **Elder Twig** Choose one:
+    - **Perfect Camouflage:** While camouflaged you are fully [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Invisible]] to all creatures regardless of distance. You gain Proficiency and Expertise in Stealth. If you already had Proficiency in stealth instead gain +5 to Stealth and if you already had Expertise instead gain +10. 
+    - **Ironwood Fortress:** Your natural bark armor gains +8 AC total and your Damage Mitigation increases to 10. While anchored by Root Tether, you gain +7 AC and cannot be critically hit. Your splinter retaliation damage increases to 1d12 + Racial Tier.
+    - **Verdant Sovereign:** Your Vine Lash reach increases to 25 ft. Your Vine Lash deals +10 Bludgeoning and +5 Piercing damage. While any creature is Restrained by your vines, you regain 1d8 HP at the start of your turn. While in forested or wooded areas you have +2 to all d20 rolls. 
 ## Formid
 Formids are compact, muscular bugfolk that resemble a titan beetle shaped into a humanoid frame. They have a thick barrel chest, wide shoulders, and short, dense limbs. Their posture is heavy and forward-set, with a thick neck and a head that blends into the upper torso due to armor plating. The entire body looks built for pushing force and absorbing impact.
 
 The head is beetle-like, with a hard faceplate and strong jaw structures. Eyes are smaller and deeper set than many other bugfolk, often appearing as glossy black ovals under an armored brow. The mouth is crushing rather than slicing, with thick plates and powerful bite force. The back and shoulders are covered in heavy chitin segments that look like layered armor. Colors are usually dark, black, deep brown, dark green, or blue-black, with a strong shell shine. 
 ###### Racial Abilities
-- **Tier 1:** **Power Frame.** You count as one size larger than you are in combat (other than instances of fitting into spaces).
-- **Tier 2:** **Bull Rush.** When you shove, add +Racial Tier to the roll and when you take the Dash action gain +10 ft movement speed.
-- **Tier 3:** **Crushing Blow.** Once per turn on a melee hit, add +2 true damage.
-- **Tier 4:** **Thick Skull.** Taking massive damage no longer triggers the Massive Damage Rule and you gain +3 on Injury Saves. 
-- **Tier 5:** **Iron Grip.** You have advantage on checks to grapple and to resist being disarmed.
-- **Tier 6:** **Armor Plate.** Gain +3 AC.
-- **Tier 7:** **Overpower.** When you hit with a melee attack, you may spend 1 BAp to attempt a shove as part of the hit. A shove from this skill will knock the target prone. 
-- **Tier 8:** **Break the Line.** If there are greater than four enemies within 15 ft of you you gain +10 to all attack rolls. 
-- **Tier 9:** **Titan Strike.** Gain +2d12 Base Melee Damage.
-- **Tier 10:** **Formid Prime.** Choose one:
-    - **Unstoppable:** You can’t be slowed, pushed, or grappled and become immune to difficult terrain.
-    - **Juggernaut:** +5 STR and +10 CON (If it goes above 20 each point will be .5 like normal and so on).
-    - **Crush Armor:** You ignore resistances with your melee attacks and after hitting an enemy wearing medium or heavy armor they lose -5 AC until your next turn.
+You count as one size larger for purposes of grappling, shoving, and determining what spaces you can occupy or move through. You ignore all Difficult Terrain. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Darkvision]] at 20 ft.
+- **Tier 1:** **Juggernaut Charge:** When you Dash, you may move through enemy spaces and do not provoke reactions. The first time you enter a creature's space during a Dash each turn, you may make a free Shove attempt against it with advantage. 
+- **Tier 2:** **Crushing Mandibles:** You gain a natural bite attack: 1d10 + STR mod Piercing. On hit, reduce the target's AC by 2 until the start of your next turn (stacks per hit, max -6).
+- **Tier 3:** **Immovable Object:** You have double advantage on all saves and checks to resist forced movement, being knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Prone]], disarmed, or [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Grappled]]. When an effect would forcibly move you, you may instead choose not to move once per combat.
+- **Tier 4:** **Titanic Frame:** You count as one size larger for purposes of grappling, shoving, and determining what spaces you can occupy or move through (now two sizes larger total). Your melee reach increases by +10 ft. Your movement speed increases by +5 ft. 
+- **Tier 5:** **Armor Crusher:** When you hit with a melee attack, add +1d12 + Racial Tier Bludgeoning damage and the targets AC bonus from armor is reduced by 3 until the end of combat (does not stack with itself). Your melee damage cannot be reduced by Damage Mitigation.
+- **Tier 6:** **Beetle Carapace:** You gain natural armor granting +4 AC (does not stack with worn armor) and 4 Damage Mitigation. When you take damage that is reduced by your Damage Mitigation, gain +2 AC until the start of your next turn (stacks up to +6).
+- **Tier 7:** **Unstoppable Advance:** Your speed cannot be reduced by any effect. When you Dash, you may make one melee attack as a free action at any point during the movement. Your movement speed increases by +5 ft. 
+- **Tier 8:** **Shockwave Slam:** As an Action, strike the ground creating a shockwave in a 30 ft cone. Creatures in the area must make a DEX save (DC 10 + STR mod + Tier). On failure: 4d10 + Racial Tier Bludgeoning damage, knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Prone]], and speed halved for 1 turn. On success: half damage, not Prone. Structures and objects take double damage. 
+- **Tier 9:** **Walking Cataclysm:** When you move at least 20 ft in a straight line and then make a melee attack, that attack automatically crits. You may Dash as a Bonus Action. 
+- **Tier 10:** **Formid Prime** Choose one:
+    - **Unstoppable Force:** You are immune to all forced movement and the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Prone]] condition. You have triple advantage to resist grapples, on shoves, and can throw objects twice as far. Your movement speed increases by 10 ft. 
+    - **Titan Beetle:** Your effective size increases by another category (now three sizes larger total). +10 STR, +5 CON, +3 DEX. Your melee reach increases by another +5 ft. 
+    - **Worldbreaker:** Shockwave Slam becomes a 40 ft radius centered on yourself and deals 6d12 + Racial Tier Bludgeoning damage. When you destroy a structure or reduce a creature to 0 HP, all creatures within 15 ft of it take 3d10 Bludgeoning damage from the debris and are knocked [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Prone]] unless they pass a DEX save (DC 10 + STR Mod + Racial Tier).
 ## Plateroll
 Platerolls resemble a giant isopod adapted into a more human-presenting shape. Their core body is wide and heavily plated, with overlapping shell segments running from the upper back down toward the hips like layered shields. Along the sides of the body and lower torso, many small limb structures may exist, reduced walking limbs compared to a true isopod, but still visible as clusters of short, jointed appendages that help with stability, gripping surfaces, or anchoring while moving.
 
