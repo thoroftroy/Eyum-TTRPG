@@ -13,7 +13,7 @@
 | Race       | Speed | Negative Affinities     | Neutral Affinities                     | Positive Affinities     | Stat Bonuses                                   | Karma |
 | ---------- | ----- | ----------------------- | -------------------------------------- | ----------------------- | ---------------------------------------------- | ----- |
 | Demon      | 30    | Radiant, Water          | Generic, Earth, Air, Psychic           | Fire, Necrotic          | +4 CHA, +2 CON, -2 STR, -2 DEX                 | -85   |
-| Ferramite  | 30    | Radiant, Psychic, Water | Generic, Earth, Air                    | Fire, Necrotic,         | +5 STR, +3 CON, +2 DEX, -3 INT, -1 WIS, -4 CHA | -20   |
+| Ferramite  | 30    | Radiant, Psychic, Water | Generic, Earth, Air                    | Fire, Necrotic          | +5 STR, +3 CON, +2 DEX, -3 INT, -1 WIS, -4 CHA | -20   |
 | Pyrrakin   | 35    | Radiant, Water          | Generic, Earth, Air, Psychic, Necrotic | Fire                    |                                                | -20   |
 | Drakari    | 30    | Radiant, Psychic, Water | Generic, Earth                         | Fire, Air, Necrotic     |                                                | -20   |
 | Cinderkin  | 30    | Water, Radiant          | Generic, Earth, Air, Psychic           | Fire, Necrotic          |                                                | -20   |
