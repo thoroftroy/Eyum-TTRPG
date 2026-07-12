@@ -368,14 +368,14 @@
           "skirmish_move_after_hit": 10
         },
         "3.75": {
-          "melee_damage": 3,
+          "melee_damage": 2,
           "repeatable": true
         },
         "4": {
-          "skirmish_movement_damage": 2
+          "skirmish_movement_damage": 1
         },
         "4.5": {
-          "skirmish_movement_damage": 5
+          "melee_damage": 5
         }
       },
       "Sentinel": {
@@ -656,35 +656,24 @@
           "repeatable": true,
           "max_repeats": 2
         },
-        "7": {
-          "magic_damage": 3
-        },
-        "8": {
-          "magic_damage": 3
-        },
+        "7": {},
+        "8": {},
         "8.5": {
-          "magic_damage": 1,
           "repeatable": true,
           "max_repeats": 3
         },
-        "9": {
-          "magic_damage": 4
-        },
+        "9": {},
         "10": {
-          "radiant_damage_bonus": "5d10",
-          "magic_damage": 3
+          "radiant_damage_bonus": "5d10"
         },
         "10.5": {
-          "magic_damage": 2,
           "repeatable": true
         },
         "11": {
-          "magic_damage": 3,
           "radiant_damage_bonus": "3d8"
         },
         "12": {
-          "radiant_damage_bonus": "12d12",
-          "magic_damage": 5
+          "radiant_damage_bonus": "12d12"
         }
       },
       "Necromancer": {
@@ -723,41 +712,26 @@
           "repeatable": true
         },
         "6": {
-          "necrotic_damage_bonus": "2d8",
-          "magic_damage": 2
+          "necrotic_damage_bonus": "2d8"
         },
         "6.5": {
           "necrotic_damage_bonus": "1d8",
           "repeatable": true,
           "max_repeats": 3
         },
-        "7": {
-          "magic_damage": 3
-        },
-        "8": {
-          "magic_damage": 3
-        },
         "8.5": {
-          "magic_damage": 1,
           "repeatable": true
         },
-        "9": {
-          "magic_damage": 4
-        },
         "10": {
-          "necrotic_damage_bonus": "5d10",
-          "magic_damage": 4
+          "necrotic_damage_bonus": "5d10"
         },
         "10.5": {
-          "magic_damage": 2,
           "repeatable": true
         },
         "11": {
-          "magic_damage": 3,
           "damage_reduction": 3
         },
         "12": {
-          "magic_damage": 5,
           "necrotic_damage_bonus": "3d12"
         }
       },

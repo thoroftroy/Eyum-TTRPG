@@ -54,7 +54,8 @@
       "extra_effect": "Lethargic+Hasted",
       "description": "Touch a creature. It gains the Hasted condition for 3 turns. When Haste ends, that creature gains Lethargic as normal.",
       "upcast_rule": "x2, increase duration by 1 turn",
-      "range": "Touch"
+      "range": "Touch",
+      "concentration": true
     },
     {
       "name": "Gale Lance",
@@ -214,83 +215,78 @@
     },
     {
       "name": "Go Atomic",
-      "mana": 100,
+      "mana": 125,
       "affinity_required": 21,
-      "damage_dice": "4d12",
-      "damage_flat": 200,
+      "damage_flat": 150,
       "damage_type": "atomic",
       "aoe_radius": 200,
-      "costs_bonus_action": true,
       "extra_effect": "Radiation x15",
       "save_half": true,
-      "description": "This spell costs an additional Bonus Action to cast. Explode into a massive atomic detonation centered on yourself. All creatures in 200 ft including you take 150 Atomic damage and gain Radiation x15. You take half damage from the explosion.",
+      "description": "Explode into a massive atomic detonation centered on yourself. All creatures in 200 ft including you take 150 Atomic damage and gain Radiation x15. You take half damage from the explosion.",
       "upcast_to": "Critical Atomicity",
-      "aoe_self": true
+      "aoe_self": true,
+      "save": "dex"
     },
     {
       "name": "Critical Atomicity",
-      "mana": 200,
+      "mana": 250,
       "affinity_required": 41,
       "int_required": 33,
-      "damage_dice": "6d12",
-      "damage_flat": 250,
+      "damage_flat": 200,
       "damage_type": "atomic",
       "aoe_radius": 200,
-      "costs_bonus_action": true,
       "extra_effect": "Radiation x18",
       "aoe_self": true,
       "save_half": true,
-      "description": "This spell costs an additional Bonus Action to cast. Choose a point you can see instead of centering it on yourself. Creatures in a 200 ft radius take 200 Atomic damage and gain Radiation x18. Structures, terrain, and mundane matter in the zone are devastated at GM discretion. You take half damage from the explosion.",
+      "description": "Choose a point you can see instead of centering it on yourself. Creatures in a 200 ft radius take 200 Atomic damage and gain Radiation x18. Structures, terrain, and mundane matter in the zone are devastated at GM discretion. You take half damage from the explosion.",
       "upcast_to": "Fallout Crown",
-      "range": 300
+      "range": 300,
+      "save": "dex"
     },
     {
       "name": "Fallout Crown",
-      "mana": 300,
+      "mana": 375,
       "affinity_required": 61,
       "int_required": 37,
-      "damage_dice": "4d12",
-      "damage_flat": 300,
       "damage_type": "atomic",
       "aoe_radius": 220,
-      "costs_bonus_action": true,
       "extra_effect": "Radiation x20",
       "save_half": true,
-      "description": "This spell costs an additional Bonus Action to cast. Choose a point. The initial blast deals 300 Atomic damage in a 220 ft radius and applies Radiation x20. The zone then remains irradiated for 3 turns; creatures entering or ending their turn there gain Radiation x3 and take 4d12 Atomic damage. You take half damage from the explosion.",
+      "description": "Choose a point. The initial blast deals 300 Atomic damage in a 220 ft radius and applies Radiation x20. The zone then remains irradiated for 3 turns; creatures entering or ending their turn there gain Radiation x3 and take 4d12 Atomic damage. You take half damage from the explosion.",
       "upcast_to": "Fission Verdict",
-      "range": 300
+      "range": 300,
+      "save": "dex",
+      "damage_dice": "4d12"
     },
     {
       "name": "Fission Verdict",
-      "mana": 400,
+      "mana": 500,
       "affinity_required": 81,
       "int_required": 41,
-      "damage_dice": "30d12",
-      "damage_flat": 600,
+      "damage_flat": 150,
       "damage_type": "atomic",
       "aoe_radius": 120,
-      "costs_bonus_action": true,
       "extra_effect": "Radiation x12",
       "save_half": true,
-      "description": "This spell costs an additional Bonus Action to cast. Choose up to 3 points you can see within range. At each point, a small detonation erupts in a 120 ft radius, each dealing 150 Atomic damage and Radiation x12. Any creature caught in more than one radius takes all damage and stacks all Radiation. You take half damage from the explosion.",
+      "description": "Choose up to 3 points you can see within range. At each point, a small detonation erupts in a 120 ft radius, each dealing 150 Atomic damage and Radiation x12. Any creature caught in more than one radius takes all damage and stacks all Radiation. You take half damage from the explosion.",
       "upcast_to": "Last Sun",
-      "range": 360
+      "range": 360,
+      "save": "dex"
     },
     {
       "name": "Last Sun",
-      "mana": 500,
+      "mana": 750,
       "affinity_required": 101,
       "int_required": 46,
-      "damage_dice": "15d12",
-      "damage_flat": 750,
+      "damage_flat": 550,
       "damage_type": "atomic",
       "aoe_radius": 300,
-      "costs_bonus_action": true,
       "extra_effect": "Radiation x35",
       "save_half": true,
-      "description": "This spell costs an additional Bonus Action to cast. Create an absolute end-state blast at a point you can see. Creatures in a 300 ft radius take 550 Atomic damage and gain Radiation x35. The ground remains terminally irradiated for 5 turns, applying Radiation x30 and 8d20 Atomic damage to creatures entering or ending their turn there. You take half damage from the explosion.",
+      "description": "Create an absolute end-state blast at a point you can see. Creatures in a 300 ft radius take 550 Atomic damage and gain Radiation x35. The ground remains terminally irradiated for 5 turns, applying Radiation x30 and 8d20 Atomic damage to creatures entering or ending their turn there. You take half damage from the explosion.",
       "upcast_rule": "x3, +550 flat damage, +50 ft radius, +10 Radiation stacks",
-      "range": 500
+      "range": 500,
+      "save": "dex"
     }
   ],
   "Blight": [
@@ -365,11 +361,11 @@
       "mana": 64,
       "affinity_required": 26,
       "int_required": 23,
-      "damage_dice": "14d8",
+      "damage_dice": "8d8",
       "damage_type": "blight",
       "attack_roll": true,
       "extra_effect": "Restrained+Withered x4",
-      "description": "Make a spell attack. On hit, deal 1408 Blight damage, apply Withered x4, and until the end of its next two turns the target cannot regain Vitality by any means. If it is a plant creature, it instead takes double damage and is Restrained by its own dead growth.",
+      "description": "Make a spell attack. On hit, deal 8d8 Blight damage, apply Withered x4, and until the end of its next two turns the target cannot regain Vitality by any means. If it is a plant creature, it instead takes double damage and is Restrained by its own dead growth.",
       "upcast_rule": "x2, +4d8 damage and +1 Withered stack",
       "range": 150
     }
@@ -739,7 +735,8 @@
       "damage_type": "earth",
       "description": "Touch a creature. It gains Resistance to Physical Damage for 3 turns.",
       "upcast_rule": "x2, increase duration by 2 turns",
-      "range": "Touch"
+      "range": "Touch",
+      "concentration": true
     },
     {
       "name": "Quake",
@@ -810,7 +807,8 @@
       "extra_effect": "Prone",
       "description": "Choose up to four 5 ft squares of ground you can see within range. Thick stone pillars rise 25 ft there and remain for 3 turns. If a creature was on the space you formed a pillar they must make a Strength save or take 3d6 Earth damage and become Prone. If a creature succeed the roll they may make an acrobatics check (DC 12) to stay on the top of the Pillar. The pillars create solid cover and block normal movement until destroyed or the spell ends.",
       "upcast_rule": "x2, +2 pillars",
-      "range": 60
+      "range": 60,
+      "concentration": true
     },
     {
       "name": "Worldbreak",
@@ -1151,7 +1149,8 @@
       "extra_effect": "Prone+Difficult Terrain",
       "description": "Freezing rain and hail pound the area for 3 turns. The area is heavily obscured and becomes Difficult Terrain. Creatures entering or ending their turn there take 2d6 Cold damage and must make a Dex save or fall Prone.",
       "upcast_rule": "x2, +10 ft radius",
-      "range": 60
+      "range": 60,
+      "concentration": true
     },
     {
       "name": "Deep Freeze",
@@ -1435,11 +1434,11 @@
       "name": "Magma Ball",
       "mana": 12,
       "affinity_required": 6,
-      "damage_dice": "4d8",
+      "damage_dice": "2d8",
       "damage_type": "magma",
       "attack_roll": true,
       "extra_effect": "On Fire x3",
-      "description": "Make a spell attack. On hit, deal 4d8 Magma damage, apply On Fire x3, and the magma hardens, reducing the target\u2019s Speed to 0 until it breaks free with a Strength check vs your Spell Save DC.",
+      "description": "Make a spell attack. On hit, deal 2d8 Magma damage, apply On Fire x3, and the magma hardens, reducing the target\u2019s Speed to 0 until it breaks free with a Strength check vs your Spell Save DC.",
       "upcast_to": "Crustbreaker",
       "range": 60
     },
@@ -1448,11 +1447,11 @@
       "mana": 23,
       "affinity_required": 11,
       "int_required": 19,
-      "damage_dice": "7d8",
+      "damage_dice": "4d8",
       "damage_type": "magma",
       "attack_roll": true,
       "extra_effect": "On Fire x4",
-      "description": "Make a spell attack. On hit, deal 7d8 Magma damage, apply On Fire x4, and create a hardened shell around one limb or section of the target. The target has Disadvantage on its next attack or loses 10 ft movement, your choice on hit.",
+      "description": "Make a spell attack. On hit, deal 4d8 Magma damage, apply On Fire x4, and create a hardened shell around one limb or section of the target. The target has Disadvantage on its next attack or loses 10 ft movement, your choice on hit.",
       "upcast_to": "Lava Mantle",
       "range": 60
     },
@@ -1474,14 +1473,14 @@
       "mana": 52,
       "affinity_required": 21,
       "int_required": 23,
-      "damage_dice": "8d8",
+      "damage_dice": "6d8",
       "damage_type": "magma",
       "save": "dex",
       "attack_roll": false,
       "aoe_radius": 10,
       "extra_effect": "On Fire x5+Blinded",
       "save_half": true,
-      "description": "Choose a point on the ground. Magma erupts upward in a focused column. Creatures in a 10 ft radius must make a Dexterity save. On fail, take 8d8 Magma damage, gain On Fire x5, and become Blinded for 1 turn. On success, take half. The ground remains molten until the end of your next turn.",
+      "description": "Choose a point on the ground. Magma erupts upward in a focused column. Creatures in a 10 ft radius must make a Dexterity save. On fail, take 6d8 Magma damage, gain On Fire x5, and become Blinded for 1 turn. On success, take half. The ground remains molten until the end of your next turn.",
       "upcast_to": "Caldera Break",
       "range": 90
     },
@@ -1490,13 +1489,13 @@
       "mana": 78,
       "affinity_required": 26,
       "int_required": 27,
-      "damage_dice": "12d8",
+      "damage_dice": "8d8",
       "damage_type": "magma",
       "save": "dex",
       "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "On Fire x6+Blinded",
-      "description": "Split the battlefield open into a brief caldera. Creatures in the area must make a Dexterity save. On fail, take 12d8 Magma damage, gain On Fire x6, and become Blinded for 2 turns. The area remains molten for 2 turns and deals 3d8 Magma damage to creatures entering or ending their turn there.",
+      "description": "Split the battlefield open into a brief caldera. Creatures in the area must make a Dexterity save. On fail, take 8d8 Magma damage, gain On Fire x6, and become Blinded for 2 turns. The area remains molten for 2 turns and deals 3d8 Magma damage to creatures entering or ending their turn there.",
       "upcast_rule": "x2, +4d8 initial and +2d8 terrain damage",
       "range": 120
     }
@@ -1613,61 +1612,62 @@
   "Miasma": [
     {
       "name": "Miasma Cloud",
-      "mana": 15,
+      "mana": 30,
       "affinity_required": 16,
       "damage_dice": "4d4",
       "damage_type": "miasma",
       "concentration": true,
       "extra_effect": "Poisoned+Diseased",
-      "description": "Concentration. Create a 20 ft cloud. Creatures inside at the end of their turn take 4d4 Miasma damage and gain Diseased and Poisoned while in the cloud and for 1 turn after leaving.",
+      "description": "Concentration. Create a 20 ft cloud. Creatures inside at the end of their turn must make a CON save or take 4d4 Miasma damage and gain Diseased and Poisoned while in the cloud and for 1 turn after leaving.",
       "upcast_to": "Rot Lung",
-      "range": 60
+      "range": 60,
+      "save": "con"
     },
     {
       "name": "Rot Lung",
-      "mana": 30,
+      "mana": 50,
       "affinity_required": 31,
       "int_required": 19,
-      "damage_dice": "3d8",
+      "damage_dice": "2d8",
       "damage_type": "miasma",
       "attack_roll": true,
-      "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x2",
-      "description": "Make a spell attack. On hit, deal 3d8 Miasma damage and the target gains Diseased, Poisoned, and Suffocating for 1 turn. If already Diseased or Poisoned, it instead also gains Necrosis x2.",
+      "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x1",
+      "description": "Make a spell attack. On hit, deal 2d8 Miasma damage and the target gains Diseased, Poisoned, and Suffocating for 1 turn. If already Diseased or Poisoned, it instead also gains Necrosis x1.",
       "upcast_to": "Grave Weather",
       "range": 90
     },
     {
       "name": "Grave Weather",
-      "mana": 40,
+      "mana": 55,
       "affinity_required": 46,
       "int_required": 23,
-      "damage_dice": "3d8",
+      "damage_dice": "2d8",
       "damage_type": "miasma",
       "aoe_radius": 25,
       "concentration": true,
-      "extra_effect": "Poisoned+Diseased+Necrosis x3",
-      "description": "Concentration. Spread a dense miasmic weather front for 3 turns. Creatures entering or ending their turn there take 3d8 Miasma damage and gain Diseased and Poisoned. Creatures already suffering both also gain Necrosis x3.",
+      "extra_effect": "Poisoned+Diseased+Necrosis x2",
+      "description": "Concentration. Spread a dense miasmic weather front for 3 turns. Creatures entering or ending their turn there must make a CON save or take 2d8 Miasma damage and gain Diseased and Poisoned. Creatures already suffering both also gain Necrosis x2.",
       "upcast_to": "Sepulcher Breath",
-      "range": 120
+      "range": 120,
+      "save": "con"
     },
     {
       "name": "Sepulcher Breath",
-      "mana": 55,
+      "mana": 60,
       "affinity_required": 61,
       "int_required": 27,
       "damage_dice": "4d8",
       "damage_type": "miasma",
-      "save": "con",
-      "attack_roll": false,
+      "attack_roll": true,
       "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x4",
-      "save_half": true,
-      "description": "Choose a creature. It must make a Constitution save. On fail, take 4d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 2 turns, and Necrosis x4. On success, take half and gain Diseased.",
+      "description": "Choose a creature you can see and make a spell attack against it. On fail, take 4d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 2 turns, and Necrosis x4. On success, take half and gain Diseased.",
       "upcast_to": "Rot Kingdom",
-      "range": 120
+      "range": 120,
+      "save_half": true
     },
     {
       "name": "Rot Kingdom",
-      "mana": 70,
+      "mana": 75,
       "affinity_required": 76,
       "int_required": 31,
       "damage_dice": "8d8",
@@ -1677,7 +1677,7 @@
       "aoe_radius": 30,
       "concentration": true,
       "extra_effect": "Suffocating+Poisoned+Diseased+Necrosis x2",
-      "description": "Concentration. Create a catastrophic death-fog. Creatures in the area must make a Constitution save. On fail, take 8d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 3 turns, and Necrosis x2. Creatures already suffering Diseased or Poisoned instead gain Necrosis x5.",
+      "description": "Concentration. Create a catastrophic death-fog. Creatures in the area must make a CON save. On fail, take 8d8 Miasma damage, gain Diseased, Poisoned, Suffocating for 3 turns, and Necrosis x2. Creatures already suffering Diseased or Poisoned instead gain Necrosis x5.",
       "upcast_rule": "x2, +5d8 damage and +1 Necrosis stack",
       "range": 150
     }
@@ -1698,7 +1698,8 @@
       "affinity_required": 9,
       "damage_type": "mirage",
       "description": "Create 3 illusory duplicates that surround you for 3 turns. When a creature attacks you, roll a d4. On a 1, the attack hits you. On a 2-4, it destroys a duplicate instead. Each destroyed duplicate reduces the die size by 1 (1-2 will hit you then 1-3 will hit you, etc).",
-      "aoe_self": true
+      "aoe_self": true,
+      "concentration": true
     },
     {
       "name": "False Advance",
@@ -2097,7 +2098,6 @@
       "aoe_line": true,
       "attack_roll": true,
       "save_half": true,
-      "bap_attack": true,
       "retaliation": {
         "dice": "8d8"
       }
@@ -2270,7 +2270,8 @@
       "attack_roll": false,
       "description": "Observe a creature you know personally (have met, know by name) from afar for 5 minutes. You see through its eyes and hear through its ears. The target makes a Wis save; on a success, it senses it is being watched but cannot identify you. On a failure, it is unaware.",
       "upcast_rule": "x2, +5 minutes",
-      "range": "Unlimited"
+      "range": "Unlimited",
+      "concentration": true
     },
     {
       "name": "Mind Break",
@@ -2414,7 +2415,8 @@
       "damage_type": "radiant",
       "range": 90,
       "damage_dice": "3d8",
-      "upcast_rule": "Blinded]] for 1 turn. On a success they take half damage and are not Blinded. A creature that enters the beam for the first time on a turn or ends its turn there also triggers this save. Undead and creatures with the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Magical-Conditions\\"
+      "upcast_rule": "Blinded]] for 1 turn. On a success they take half damage and are not Blinded. A creature that enters the beam for the first time on a turn or ends its turn there also triggers this save. Undead and creatures with the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Magical-Conditions\\",
+      "concentration": true
     },
     {
       "name": "Manaskin",
@@ -2423,7 +2425,8 @@
       "damage_type": "radiant",
       "description": "Touch a creature. It gains Resistance to Elemental Damage for 3 turns.",
       "upcast_rule": "x2, increase duration by 2 turns",
-      "range": "Touch"
+      "range": "Touch",
+      "concentration": true
     },
     {
       "name": "Bless",
@@ -2978,8 +2981,7 @@
       "extra_effect": "Soaked+Storm Shocked+Shocked",
       "affinity_required": 11,
       "attack_roll": true,
-      "upcast_rule": "x2, +3d8 damage",
-      "bap_attack": true
+      "upcast_rule": "x2, +3d8 damage"
     },
     {
       "name": "Storm Call",
@@ -2991,8 +2993,7 @@
       "concentration": true,
       "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 1d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
       "upcast_to": "Thunderstorm",
-      "range": 240,
-      "bap_attack": true
+      "range": 240
     },
     {
       "name": "Thunderstorm",
@@ -3005,8 +3006,7 @@
       "concentration": true,
       "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 2d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
       "upcast_to": "Tempest",
-      "range": 240,
-      "bap_attack": true
+      "range": 240
     },
     {
       "name": "Tempest",
@@ -3019,8 +3019,7 @@
       "concentration": true,
       "description": "You summon a raging tempest centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 3d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
       "upcast_to": "Hurricane Aura",
-      "range": 300,
-      "bap_attack": true
+      "range": 300
     },
     {
       "name": "Hurricane Aura",
@@ -3569,7 +3568,8 @@
       "damage_type": "water",
       "description": "Touch a creature. It gains Resistance to Magical Damage for 3 turns.",
       "upcast_rule": "x2, increase duration by 2 turns",
-      "range": "Touch"
+      "range": "Touch",
+      "concentration": true
     },
     {
       "name": "Cleansing Waters",
@@ -3894,7 +3894,8 @@
       "description": "Choose a creature within range. It either increases by 1 size category or decreases by 1 size category.",
       "upcast_rule": "x2, increase the size change by 1 additional category",
       "range": 20,
-      "damage_type": "generic"
+      "damage_type": "generic",
+      "concentration": true
     },
     {
       "name": "Force Share Burden",
@@ -3921,7 +3922,8 @@
       "description": "Touch a creature. Choose one damage type for which you have more than 10 Affinity. The target gains Resistance to that damage type for 1 minute.",
       "upcast_rule": "x2, grant 1 additional chosen resistance type",
       "range": "Touch",
-      "damage_type": "generic"
+      "damage_type": "generic",
+      "concentration": true
     },
     {
       "name": "Rebirth",
@@ -4065,7 +4067,6 @@
       "affinity_required": 26,
       "int_required": 23,
       "concentration": true,
-      "bap_attack": true,
       "attack_roll": true,
       "damage_dice": "1d4",
       "damage_type": "cursed",
@@ -4312,7 +4313,6 @@
       "affinity_required": 21,
       "int_required": 19,
       "concentration": true,
-      "bap_attack": true,
       "attack_roll": true,
       "damage_dice": "3d12",
       "damage_type": "glacial",
@@ -4327,7 +4327,6 @@
       "affinity_required": 31,
       "int_required": 21,
       "concentration": true,
-      "bap_attack": true,
       "damage_dice": "2d12",
       "damage_flat": 6,
       "damage_type": "glacial",
@@ -4377,12 +4376,13 @@
       "name": "Photon Lance",
       "mana": 1,
       "affinity_required": 1,
-      "damage_flat": 10,
       "damage_type": "quantum",
       "attack_roll": true,
-      "description": "Make a ranged spell attack against a creature within range. This attack ignores all cover (including total cover), passes through walls and solid objects, and has a bonus +5 to hit (in addition to all normal spell attack bonuses). On hit, the target takes Quantum damage equal to your current Mana divided by 5 (rounded down).",
+      "description": "Make a ranged spell attack against a creature within range. This attack ignores all cover (including total cover), passes through walls and solid objects, and has a bonus +5 to hit (in addition to all normal spell attack bonuses). On hit, the target takes 1 + ([[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\",
       "range": 300,
-      "upcast_rule": "x2, mana divisor becomes 4"
+      "upcast_rule": "Attack Damage Bonus]] x 2) + Racial Tier Quantum damage.",
+      "damage_formula": "1 + affinity_mod/0.5",
+      "damage_flat": 6
     },
     {
       "name": "Phase Walk",
@@ -4439,38 +4439,41 @@
       "extra_effect": "NoAdvantage",
       "upcast_to": "Reality Lance",
       "range": "Self",
-      "aoe_self": true
+      "aoe_self": true,
+      "level_required": 20
     },
     {
       "name": "Reality Lance",
       "mana": 75,
       "affinity_required": 41,
       "int_required": 33,
-      "damage_flat": 100,
+      "damage_flat": 200,
       "damage_type": "quantum",
       "aoe_line": true,
       "aoe_radius": 1000,
       "save": "dex",
       "save_half": true,
       "extra_effect": "Vibrating x6",
-      "description": "Fire a searing beam of quantum energy in a straight line. The beam passes through all cover, walls, and solid objects without obstruction. All creatures in the line must make a DEX save (DC 16 + your Quantum Save DC Bonus). On failure: 100 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "description": "Fire a searing beam of quantum energy in a straight line. The beam passes through all cover, walls, and solid objects without obstruction. All creatures in the line must make a DEX save (DC 16 + your Quantum Save DC Bonus). On failure: 125 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
       "upcast_to": "Scintillate",
       "range": 1000,
-      "upcast_rule": "Vibrating]] x6. On success: half damage and Vibrating x3. The beam continues for its full 1000 ft range regardless of what it passes through unless it his alchemcially pure metal which causes it to stop instantly."
+      "upcast_rule": "Vibrating]] x6. On success: half damage and Vibrating x3. The beam continues for its full 1000 ft range regardless of what it passes through unless it his alchemcially pure metal which causes it to stop instantly.",
+      "level_required": 20
     },
     {
       "name": "Scintillate",
       "mana": 90,
       "affinity_required": 61,
       "int_required": 37,
-      "damage_flat": 50,
+      "damage_flat": 100,
       "damage_type": "quantum",
       "attack_roll": true,
       "extra_effect": "Vibrating x4",
-      "description": "Fire 4 independently-targeted quantum beams from your position. You may aim each beam in any direction you choose. Each beam is a spell attack roll against a single creature of your choice in its path. Each beam passes through all cover, walls, and solid objects without obstruction, and you may choose any creature along the beam's 1000 ft line as its target (line of sight is not required, but you must know the creature's location). On hit: 50 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "description": "Fire 4 independently-targeted quantum beams from your position. You may aim each beam in any direction you choose. Each beam is a spell attack roll against a single creature of your choice in its path. Each beam passes through all cover, walls, and solid objects without obstruction, and you may choose any creature along the beam's 1000 ft line as its target (line of sight is not required, but you must know the creature's location). On hit: 75 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
       "upcast_to": "Bifurcate",
       "range": 1000,
-      "upcast_rule": "Vibrating]] x4. On a miss: half damage and Vibrating x2. A single creature may be targeted by multiple beams."
+      "upcast_rule": "Vibrating]] x4. On a miss: half damage and Vibrating x2. A single creature may be targeted by multiple beams.",
+      "level_required": 25
     },
     {
       "name": "Bifurcate",
@@ -4484,20 +4487,23 @@
       "upcast_to": "Cascade Ruin",
       "range": "Self",
       "attack_roll": true,
-      "aoe_self": true
+      "aoe_self": true,
+      "level_required": 30
     },
     {
       "name": "Cascade Ruin",
-      "mana": 150,
+      "mana": 175,
       "affinity_required": 101,
       "int_required": 46,
-      "damage_dice": "15d20",
       "damage_type": "quantum",
       "attack_roll": true,
       "extra_effect": "Vibrating x3",
-      "description": "Fire a cataclysmic quantum beam at a creature you can see. Make a spell attack with a bonus +12 to hit (in addition to all normal spell attack bonuses). The beam passes through all cover, walls, and solid objects. On hit: the target takes 100 Quantum damage and gains [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
-      "upcast_rule": "Vibrating]] x3. Whether you hit or miss, the beam then splits, choose a new creature within 60 ft of the target the beam just struck (cannot be the creature the beam is currently splitting from; may be a creature struck by an earlier split). Make a new spell attack against the new target with the same bonuses. This split repeats up to 5 total targets. Each subsequent split deals 100 Quantum damage and applies +3 Vibrating stacks. Missing a split will cause the attack to stop splitting,",
-      "range": 500
+      "description": "Fire a cataclysmic quantum beam at a creature you can see. Make a spell attack with a bonus +12 to hit (in addition to all normal spell attack bonuses). The beam passes through all cover, walls, and solid objects. On hit: the target takes 75 Quantum damage and gains [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "upcast_rule": "Vibrating]] x3. Whether you hit or miss, the beam then splits, choose a new creature within 60 ft of the target the beam just struck (cannot be the creature the beam is currently splitting from; may be a creature struck by an earlier split). Make a new spell attack against the new target with the same bonuses. This split repeats up to 8 total targets. Each subsequent split deals 100 Quantum damage and applies +3 Vibrating stacks. Missing a split will cause the attack to stop splitting,",
+      "range": 500,
+      "aoe_radius": 60,
+      "damage_flat": 75,
+      "level_required": 35
     }
   ]
 }

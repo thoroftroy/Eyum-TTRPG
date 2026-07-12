@@ -40,7 +40,10 @@
           "Earth": -3,
           "Necrotic": -3
         },
-        "speed": 25
+        "speed": 25,
+        "unlocks_affinities": [
+          "Quantum"
+        ]
       },
       "Giant": {
         "stat_bonuses": {
@@ -284,7 +287,10 @@
           "Radiant": -3,
           "Water": -3
         },
-        "speed": 30
+        "speed": 30,
+        "unlocks_affinities": [
+          "Infernal"
+        ]
       },
       "Ferramite": {
         "stat_bonuses": {
@@ -302,7 +308,11 @@
           "Psychic": -3,
           "Water": -3
         },
-        "speed": 30
+        "speed": 30,
+        "unlocks_affinities": [
+          "Infernal",
+          "Metal"
+        ]
       },
       "Pyrrakin": {
         "stat_bonuses": {
@@ -451,7 +461,10 @@
           "Earth": -3,
           "Radiant": -3
         },
-        "speed": 25
+        "speed": 25,
+        "unlocks_affinities": [
+          "Toxin"
+        ]
       },
       "Longweaver": {
         "stat_bonuses": {

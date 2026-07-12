@@ -12,6 +12,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 HANDBOOK = os.path.join(os.path.dirname(SCRIPT_DIR))
 DATA_DIR = os.path.join(SCRIPT_DIR, 'data')
 LOG_PATH = os.path.join(SCRIPT_DIR, 'output', 'updater_log.txt')
+CHANGES_PATH = os.path.join(SCRIPT_DIR, 'changes.txt')
+_changed_items = []  # Tracks all changed things for build regeneration
 
 # ── Files to sync ──────────────────────────────────────────────
 SPELL_FILES = [
@@ -73,6 +75,9 @@ DAMAGE_PAT = re.compile(
     re.IGNORECASE)
 DICE_ONLY = re.compile(
     r'(?:take|deal|taking|dealing|taken|suffer)s?\s+(?P<dice>\d+d\d+)',
+    re.IGNORECASE)
+FLAT_ONLY = re.compile(
+    r'(?:take|deal|taking|dealing|taken|suffer)s?\s+(?:an?\s+)?(?P<flat>\d+(?:\.\d+)?)\s+(?!d\d)(?!\d+d)\w+\s+damage',
     re.IGNORECASE)
 SAVE_RE = re.compile(
     r'make\s+a(?:n)?\s+(Strength|Dexterity|Constitution|Wisdom|Intelligence|Charisma)\s+save',
@@ -163,6 +168,9 @@ def extract_spell_info(desc, prereq_str, rng_str):
     else:
         m = DICE_ONLY.search(desc)
         if m: info['damage_dice'] = m.group('dice')
+        else:
+            m = FLAT_ONLY.search(desc)
+            if m: info['damage_flat'] = int(float(m.group('flat')))
 
     # Conditions
     conditions = []
@@ -373,6 +381,7 @@ def sync_races(log_lines, log):
 
             if diffs:
                 changes += 1
+                _changed_items.append(f"RACE|{family_key}/{json_name}")
                 log(f"  ~ {family_key}/{json_name}: {'; '.join(diffs)}")
                 print(f"  RACE: {family_key}/{json_name}: {'; '.join(diffs)}")
 
@@ -456,6 +465,7 @@ def sync_spells(log_lines, log):
 
                 if diffs:
                     changed += 1
+                    _changed_items.append(f"SPELL|{hname}|{hdata.get('affinity','')}")
                     log(f"  ~ {hname} ({aff}): {'; '.join(diffs)}")
         else:
             new_spells[hname] = hdata
@@ -487,6 +497,7 @@ def sync_spells(log_lines, log):
         for k, v in up.items(): entry[k] = v
         spells_json[aff].append(entry)
         added += 1
+        _changed_items.append(f"SPELL|{hname}|{aff}")
         log(f"  + ADDED {hname} ({aff})")
 
     # Sort each affinity's spells
@@ -545,26 +556,330 @@ def sync_conditions(log_lines, log):
         log("  Conditions: all synced")
 
 
+# ── Racial Tier syncing ─────────────────────────────────────────────
+def parse_racial_tier_table(filepath, race_section_header):
+    """Parse a racial tier table from a markdown file.
+    Returns dict of {tier: ability_text} or None if no table found."""
+    tables = parse_markdown_tables(filepath)
+    for header, rows in tables:
+        # Check if this is a racial tier table (has 'Tier' in headers)
+        header_lower = [h.lower() for h in header]
+        if 'tier' not in header_lower:
+            continue
+        tier_idx = header_lower.index('tier')
+        ability_idx = 1 if len(header) > 1 else tier_idx + 1
+        tiers = {}
+        for row in rows:
+            if len(row) <= tier_idx:
+                continue
+            tier_str = row[tier_idx]
+            if not tier_str or tier_str.startswith('-'):
+                continue
+            try:
+                tier_num = int(float(tier_str))
+            except ValueError:
+                continue
+            ability = row[ability_idx] if ability_idx < len(row) else ''
+            tiers[tier_num] = ability
+        if tiers:
+            return tiers
+    return None
+
+
+def extract_tier_effects(ability_text):
+    """Extract generator-compatible effects from a racial tier ability description."""
+    effects = {}
+    ab = ability_text
+
+    # Affinity bonuses
+    for m in re.finditer(r'Gain\s+([+-]?\d+)\s+(\w[\w/]*?)\s+Affinity', ab, re.IGNORECASE):
+        aff = m.group(2)
+        try: val = int(m.group(1)); effects.setdefault('affinity', {})[aff] = val
+        except: pass
+
+    # AC bonus
+    for m in re.finditer(r'(?:gain|grant(?:ing)?)\s+([+-]?\d+)\s+AC\b', ab, re.IGNORECASE):
+        try: effects['ac_bonus'] = int(m.group(1))
+        except: pass
+
+    # Speed
+    for m in re.finditer(r'(?:speed|movement)\s+.*?increases?\s+by\s+([+-]?\d+)', ab, re.IGNORECASE):
+        try: effects['speed'] = int(m.group(1))
+        except: pass
+
+    # Affinity points
+    m = re.search(r'Gain\s+([+-]?\d+)\s+Affinity\s+Points?', ab, re.IGNORECASE)
+    if m: effects['affinity_points'] = int(m.group(1))
+
+    # Stat bonuses
+    for m in re.finditer(r'Gain\s+([+-]?\d+)\s+(STR|DEX|CON|WIS|INT|CHA)\b', ab, re.IGNORECASE):
+        try:
+            s = m.group(2).lower()
+            effects.setdefault('stat', {})[s] = int(m.group(1))
+        except: pass
+
+    # Damage Mitigation
+    for m in re.finditer(r'(\d+)\s+Damage\s+Mitigation', ab, re.IGNORECASE):
+        try: effects['damage_reduction'] = int(m.group(1))
+        except: pass
+
+    # Magic Accuracy
+    for m in re.finditer(r'([+-]?\d+)\s+(?:Base\s+)?Magic\s+Accuracy', ab, re.IGNORECASE):
+        try: effects['magic_accuracy'] = int(m.group(1))
+        except: pass
+
+    # Weapon accuracy
+    for m in re.finditer(r'([+-]?\d+)\s+(?:Base\s+)?(?:Melee|Ranged|Weapon)\s+Accuracy', ab, re.IGNORECASE):
+        try: effects['weapon_group_accuracy'] = int(m.group(1))
+        except: pass
+
+    # Melee damage
+    for m in re.finditer(r'([+-]?\d+)\s+(?:Base\s+)?Melee\s+Damage', ab, re.IGNORECASE):
+        try: effects['melee_damage'] = int(m.group(1))
+        except: pass
+
+    # Initiative
+    for m in re.finditer(r'([+-]?\d+)\s+(?:to\s+)?Initiative', ab, re.IGNORECASE):
+        try: effects['initiative'] = int(m.group(1))
+        except: pass
+
+    # Critical block
+    if re.search(r'cannot be critically hit|Critical hits become normal', ab, re.IGNORECASE):
+        effects['crit_block'] = True
+
+    # Extra BAp attack
+    if re.search(r'make\s+(?:one|an)\s+additional\s+(?:weapon\s+)?attack.*?Bonus\s+Action', ab, re.IGNORECASE):
+        effects['extra_attack_bap'] = True
+
+    # HP per level
+    for m in re.finditer(r'([+-]?\d+)\s+HP\s+(?:per|every)\s+level', ab, re.IGNORECASE):
+        try: effects['hp_per_level'] = int(m.group(1))
+        except: pass
+
+    # Vit per level
+    for m in re.finditer(r'([+-]?\d+)\s+(?:Vit|Vitality)\s+(?:per|every)\s+level', ab, re.IGNORECASE):
+        try: effects['vit_per_level'] = int(m.group(1))
+        except: pass
+
+    # Mana per level
+    for m in re.finditer(r'([+-]?\d+)\s+Mana\s+(?:per|every)\s+level', ab, re.IGNORECASE):
+        try: effects['mana_per_level'] = int(m.group(1))
+        except: pass
+
+    # Fly speed
+    for m in re.finditer(r'(?:fly|flight)\s+speed\s+.*?(\d+)', ab, re.IGNORECASE):
+        try: effects['fly_speed'] = int(m.group(1))
+        except: pass
+
+    # Second chance (drop to 1 HP)
+    if re.search(r'drop\s+to\s+1\s+HP\s+instead', ab, re.IGNORECASE):
+        effects['second_chance'] = True
+
+    return effects if effects else None
+
+
+def sync_racial_tiers(log_lines, log):
+    """Sync racial tier data from race files into bloodline_data.py."""
+    log("─" * 60)
+    log("RACIAL TIER SYNC")
+    log("─" * 60)
+
+    # Read existing bloodline data
+    bd_path = os.path.join(DATA_DIR, 'bloodline_data.py')
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("bloodline_data", bd_path)
+        bd_mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(bd_mod)
+        bloodline = getattr(bd_mod, 'BLOODLINE_DATA', {})
+    except Exception as e:
+        log(f"  ERROR loading bloodline_data.py: {e}")
+        bloodline = {}
+
+    updated = 0
+    no_table = []
+    manual_needed = []
+
+    for rf in RACE_FILES:
+        path = os.path.join(HANDBOOK, rf)
+        if not os.path.exists(path):
+            continue
+
+        # Find family name
+        family_key = None
+        for fn in ['Human', 'Bugfolk', 'Demon', 'Elf', 'Fishfolk', 'Harpy',
+                    'Naga', 'Shapeshifter', 'Therian', 'Tull', 'Undead']:
+            if f'{fn} and' in rf or f'{fn}.md' in rf:
+                family_key = fn; break
+        if not family_key:
+            continue
+
+        # Read the file to find race sections
+        with open(path) as f:
+            content = f.read()
+
+        # Split by '## RaceName' to find individual subrace sections
+        sections = {}
+        current = None
+        for line in content.split('\n'):
+            line = line.strip()
+            if line.startswith('## ') and 'subraces' not in line.lower() and 'language' not in line.lower():
+                current = line[3:].strip()
+                sections[current] = {'text': ''}
+            elif current:
+                sections[current]['text'] += line + '\n'
+
+        # Process each section
+        for section_name, section_data in sections.items():
+            text = section_data['text']
+
+            # Find the racial tier table in this section
+            # Write section text to temp file for parse_racial_tier_table
+            tmp_path = '/tmp/eyum_race_tier_tmp.md'
+            with open(tmp_path, 'w') as f:
+                f.write(text)
+            tiers = parse_racial_tier_table(tmp_path, section_name)
+
+            if not tiers:
+                # Check if any subrace in this family matches section_name
+                matched = False
+                for sub_name in sections:
+                    if sub_name == section_name and 'Racial Abilities' in sections[sub_name].get('text', ''):
+                        # Has abilities section but no table format
+                        no_table.append(f"{family_key}/{section_name}")
+                        manual_needed.append(f"{family_key}/{section_name} (has abilities but not in table format)")
+                        matched = True
+                continue
+
+            # Map handbook section name to JSON subrace key
+            json_name = section_name
+            if family_key not in bloodline:
+                bloodline[family_key] = {}
+
+            # Build tier effects
+            tier_effects = {}
+            for tier_num, ability_text in tiers.items():
+                effects = extract_tier_effects(ability_text)
+                if effects:
+                    tier_effects[str(int(tier_num))] = effects
+
+            if tier_effects:
+                old = bloodline.get(family_key, {}).get(json_name, {})
+                if old != tier_effects:
+                    bloodline.setdefault(family_key, {})[json_name] = tier_effects
+                    updated += 1
+                    _changed_items.append(f"RACE|{family_key}/{json_name}")
+                    log(f"  ~ {family_key}/{json_name}: {len(tier_effects)} tiers updated")
+                    print(f"  TIER: {family_key}/{json_name}: {len(tier_effects)} tiers")
+
+    # Write updated bloodline data (Python format, not JSON)
+    if updated:
+        with open(bd_path, 'w') as f:
+            f.write('BLOODLINE_DATA = ')
+            # Use json.dumps then convert to Python bool literals
+            raw = json.dumps(bloodline, indent=2)
+            raw = raw.replace('true', 'True').replace('false', 'False')
+            f.write(raw)
+            f.write('\n')
+        log(f"\nRacial tier sync: {updated} subraces updated")
+    else:
+        log("Racial tier sync: all up to date")
+
+    if manual_needed:
+        log(f"\nRaces needing manual tier data ({len(manual_needed)}):")
+        for mn in manual_needed:
+            log(f"  MANUAL: {mn}")
+        print(f"\nRacial tiers: {len(manual_needed)} races need manual data (not in table format)")
+
+
+class LogSink:
+    """Routes log output to both a file log and an optional GUI console."""
+    def __init__(self, gui=None):
+        self.gui = gui
+        self.lines = []
+
+    def log(self, s='', tag='normal'):
+        self.lines.append(s)
+        if self.gui:
+            self.gui.log(s, tag)
+        else:
+            colors = {'green': '\033[92m', 'red': '\033[91m', 'yellow': '\033[93m', 'bold': '\033[1m',
+                       'normal': '\033[0m'}
+            c = colors.get(tag, '')
+            reset = '\033[0m' if c else ''
+            import sys as _sys2
+            _sys2.__stdout__.write(f"{c}{s}{reset}\n")
+
+    def flush(self, path):
+        with open(path, 'w') as f:
+            f.write('\n'.join(self.lines) + '\n')
+
+
 # ── Main ──────────────────────────────────────────────────────────
-def main():
-    log_lines = []
-    def log(s=''): log_lines.append(s)
+def run_update(win=None):
+    import sys as _sys
+    _sys.path.insert(0, SCRIPT_DIR)
+    sink = LogSink(win)
 
     ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    log(f"EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER")
-    log(f"Run at: {ts}")
-    log("=" * 70)
+    sink.log(f"EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER", 'bold')
+    sink.log(f"Run at: {ts}")
+    sink.log("=" * 70)
 
-    sync_races(log_lines, log)
-    sync_spells(log_lines, log)
-    sync_conditions(log_lines, log)
+    # Redirect print to sink for GUI output
+    _builtin_print = __builtins__.print if hasattr(__builtins__, 'print') else print
+    def _print(*args, **kwargs):
+        msg = ' '.join(str(a) for a in args)
+        tag = 'normal'
+        if 'MANUAL' in msg or 'ERROR' in msg or 'manual' in msg:
+            tag = 'red'
+        elif 'ADDED' in msg or 'added' in msg or '+ ADDED' in msg:
+            tag = 'green'
+        elif 'updated' in msg.lower() or 'synced' in msg.lower() or 'up to date' in msg.lower():
+            tag = 'green'
+        sink.log(msg, tag)
+    import builtins
+    builtins.print = _print
 
-    log(f"\n{'='*70}\nEnd of log — {ts}")
+    _changed_items.clear()
 
-    with open(LOG_PATH, 'w') as f:
-        f.write('\n'.join(log_lines) + '\n')
+    def log_fn(s=''):
+        sink.log(s)
 
-    print(f"\nFull report: {LOG_PATH}")
+    sync_races(sink.lines, log_fn)
+    sync_spells(sink.lines, log_fn)
+    sync_conditions(sink.lines, log_fn)
+    sync_racial_tiers(sink.lines, log_fn)
+
+    # Write changes.txt
+    if _changed_items:
+        with open(CHANGES_PATH, 'w') as f:
+            for item in _changed_items:
+                f.write(item + '\n')
+        sink.log(f"\nChanges tracked: {len(_changed_items)} items -> changes.txt", 'green')
+    else:
+        with open(CHANGES_PATH, 'w') as f:
+            f.write('')
+        sink.log("\nNo changes detected.", 'green')
+
+    sink.log(f"\n{'='*70}\nEnd of log — {ts}")
+    sink.flush(LOG_PATH)
+
+    # Restore print
+    if '_builtin_print' in dir():
+        import builtins
+        builtins.print = _builtin_print
+
+    if not win:
+        _builtin_print(f"\nFull report: {LOG_PATH}")
+
+
+def main():
+    try:
+        from console_gui import run_with_gui
+        run_with_gui("Eyum Handbook Sync", run_update, auto_close=True, close_delay=1)
+    except ImportError:
+        run_update(None)
 
 
 if __name__ == '__main__':

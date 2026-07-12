@@ -137,11 +137,10 @@ def apply_paths(char, target_level, build_config, settings):
         whole_levels = 0
         sorted_keys = sorted(arch_rule.keys(), key=lambda k: float(k))
 
-        # Apply base levels up to desired_points (capped by share)
-        whole_keys = sorted([k for k in sorted_keys if float(k) == int(float(k))], key=float)
-        sub_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and not arch_rule[k].get('repeatable', False)], key=float)
-        base_keys = whole_keys + sub_keys
-        for key in base_keys:
+        # Pass 1: Take EVERY tier (whole + sub + repeatable-sub) exactly once, in order.
+        # This matches how a player levels: unlock the full tree before repeating anything.
+        all_keys = sorted_keys
+        for key in all_keys:
             if achievements >= min(share, desired_points):
                 break
             apply_effects(char, arch_rule[key], cost_table)
@@ -149,29 +148,20 @@ def apply_paths(char, target_level, build_config, settings):
             if float(key) == int(float(key)):
                 whole_levels += 1
 
-        # Apply repeatable sub-levels with remaining points
+        # Pass 2: Spend any remaining STP on the single best repeatable tier.
         remaining = share - achievements
         if remaining > 0:
-            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)], key=lambda k: -_repeatable_priority(arch_rule[k]))
-            for key in repeat_keys:
+            repeat_keys = sorted([k for k in sorted_keys if float(k) != int(float(k)) and arch_rule[k].get('repeatable', False)],
+                                key=lambda k: (-_repeatable_priority(arch_rule[k]),
+                                               -arch_rule[k].get('melee_damage', 0) - arch_rule[k].get('ranged_damage', 0) - arch_rule[k].get('magic_damage', 0),
+                                               float(k)))
+            if repeat_keys:
+                key = repeat_keys[0]
                 max_count = repeatables.get(key, 999)
                 already = repeat_taken_global.get((path_name, arch_name, key), 0)
                 can_take = min(remaining, max_count - already)
                 for _ in range(can_take):
                     apply_effects(char, arch_rule[key], cost_table)
-                    remaining -= 1
-                repeat_taken_global[(path_name, arch_name, key)] = already + can_take
-                achievements += can_take
-
-        remaining = share - achievements
-        if remaining > 0:
-            for key in repeat_keys:
-                max_count = repeatables.get(key, 999)
-                already = repeat_taken_global.get((path_name, arch_name, key), 0)
-                can_take = min(remaining, max_count - already)
-                for _ in range(can_take):
-                    apply_effects(char, arch_rule[key], cost_table)
-                    remaining -= 1
                 repeat_taken_global[(path_name, arch_name, key)] = already + can_take
                 achievements += can_take
 

@@ -264,7 +264,9 @@ def apply_effects(char, effects, cost_table=None):
     if 'charging_strike' in effects:
         char.melee_damage += die_average_sub(effects['charging_strike'])
     if 'skirmish_movement_damage' in effects:
-        char.melee_damage += effects['skirmish_movement_damage']
+        if not hasattr(char, 'skirmish_per_5ft'):
+            char.skirmish_per_5ft = 0
+        char.skirmish_per_5ft += effects['skirmish_movement_damage']
     if 'disengage_dash_bonus' in effects:
         char.speed += 5
     if 'ac_bonus_shield' in effects:

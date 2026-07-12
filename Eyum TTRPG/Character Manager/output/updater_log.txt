@@ -1,5 +1,5 @@
 EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER
-Run at: 2026-07-12 09:45:46
+Run at: 2026-07-12 14:06:01
 ======================================================================
 ────────────────────────────────────────────────────────────
 RACE SYNC
@@ -16,10 +16,62 @@ Spell sync: 0 updated, 0 added
 
 Spells in JSON not in handbook (1):
   Full Restore (Generic)
+
+Spells: 0 updated, 0 new, 0 in handbook only
 ────────────────────────────────────────────────────────────
 CONDITION SYNC
 ────────────────────────────────────────────────────────────
   Conditions in updater but not handbook (11): ['Collision', 'Difficult Terrain', 'DoT', 'GroundBurn', 'Heal', 'Marked by Light', 'NoAdvantage', 'NoFlight', 'Pull', 'Push', 'Scaling']
+────────────────────────────────────────────────────────────
+RACIAL TIER SYNC
+────────────────────────────────────────────────────────────
+Racial tier sync: all up to date
+
+Races needing manual tier data (40):
+  MANUAL: Fishfolk/Nerid (has abilities but not in table format)
+  MANUAL: Fishfolk/Mermaid (has abilities but not in table format)
+  MANUAL: Fishfolk/Cephalid (has abilities but not in table format)
+  MANUAL: Fishfolk/Deepmantle (has abilities but not in table format)
+  MANUAL: Fishfolk/Chelonar (has abilities but not in table format)
+  MANUAL: Harpy/Harpy (has abilities but not in table format)
+  MANUAL: Harpy/Hushwing (has abilities but not in table format)
+  MANUAL: Harpy/Skyclaw (has abilities but not in table format)
+  MANUAL: Harpy/Blackfeather (has abilities but not in table format)
+  MANUAL: Harpy/Palehook (has abilities but not in table format)
+  MANUAL: Harpy/Earfang (has abilities but not in table format)
+  MANUAL: Naga/Naga (has abilities but not in table format)
+  MANUAL: Naga/Slarik (has abilities but not in table format)
+  MANUAL: Naga/Scaledrake (has abilities but not in table format)
+  MANUAL: Naga/Ophidian (has abilities but not in table format)
+  MANUAL: Naga/Viperean (has abilities but not in table format)
+  MANUAL: Naga/Nagaith (has abilities but not in table format)
+  MANUAL: Naga/Serpentarii (has abilities but not in table format)
+  MANUAL: Naga/Carapax (has abilities but not in table format)
+  MANUAL: Naga/Anuran (has abilities but not in table format)
+  MANUAL: Therian/Therian (has abilities but not in table format)
+  MANUAL: Therian/Felar (has abilities but not in table format)
+  MANUAL: Therian/Wolfkin (has abilities but not in table format)
+  MANUAL: Therian/Centaur (has abilities but not in table format)
+  MANUAL: Therian/Tuskwroth (has abilities but not in table format)
+  MANUAL: Therian/Minotaur (has abilities but not in table format)
+  MANUAL: Therian/Murren (has abilities but not in table format)
+  MANUAL: Therian/Probassan (has abilities but not in table format)
+  MANUAL: Therian/Drowseer (has abilities but not in table format)
+  MANUAL: Therian/Spinekin (has abilities but not in table format)
+  MANUAL: Therian/Ursworn (has abilities but not in table format)
+  MANUAL: Therian/Gnoll (has abilities but not in table format)
+  MANUAL: Tull/Naram-Sin (has abilities but not in table format)
+  MANUAL: Undead/Revenant (has abilities but not in table format)
+  MANUAL: Undead/Ossid (has abilities but not in table format)
+  MANUAL: Undead/Shadowman (has abilities but not in table format)
+  MANUAL: Undead/Sanguivar (has abilities but not in table format)
+  MANUAL: Undead/Relicwraith (has abilities but not in table format)
+  MANUAL: Undead/Lycanthrex (has abilities but not in table format)
+  MANUAL: Undead/Mycelari (has abilities but not in table format)
+
+Racial tiers: 40 races need manual data (not in table format)
+
+No changes detected.
 
 ======================================================================
-End of log — 2026-07-12 09:45:46
+End of log — 2026-07-12 14:06:01

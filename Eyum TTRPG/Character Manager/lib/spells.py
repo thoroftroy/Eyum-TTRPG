@@ -77,7 +77,10 @@ def avg_ac(proficiency):
 
 
 def avg_save_mod(proficiency):
-    return proficiency + 3
+    # Target's save = their stat modifier (not proficiency).
+    # Handbook: "A saving throw just uses your raw stat modifier."
+    # Average stat scales with ~level/3, so stat mod ≈ level/6 ≈ proficiency/2.
+    return max(0, proficiency // 2)
 
 
 def spell_save_dc(char, element):
@@ -98,6 +101,8 @@ def get_best_affinity(char):
 
 def check_spell_prereqs(char, spell, element, aff_val, affinity_prereqs=None):
     if spell.get('affinity_required', 0) > aff_val:
+        return False
+    if spell.get('level_required', 0) > char.level:
         return False
     if 'int_required' in spell and char.int < spell['int_required']:
         return False
@@ -135,7 +140,7 @@ def check_spell_prereqs(char, spell, element, aff_val, affinity_prereqs=None):
     return True
 
 
-def spell_avg_damage(spell, element, aff_val, hit_chance, char=None, weapon_info=None):
+def spell_avg_damage(spell, element, aff_val, hit_chance, char=None, weapon_info=None, max_mana=None):
     if 'damage_dice' in spell:
         dmg = die_average(spell['damage_dice'], 0)
         dmg += spell.get('damage_flat', 0)
@@ -159,6 +164,13 @@ def spell_avg_damage(spell, element, aff_val, hit_chance, char=None, weapon_info
                 dmg = base + aff_val * mul
             else:
                 dmg = base + affinity_mod(aff_val)
+        elif 'mana' in formula:
+            parts = formula.split('/')
+            if len(parts) == 2 and parts[0].strip() == 'mana':
+                pool = max_mana if max_mana else (getattr(char, 'mana_max_val', 100) if char else 100)
+                dmg = pool / float(parts[1].strip())
+            else:
+                dmg = int(formula)
         else:
             dmg = int(formula)
     else:
@@ -209,10 +221,10 @@ def _add_spell_candidate(spell, element, aff_val, candidates, char, settings,
         else:
             fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
             save_mul = fail_chance
-        dmg = spell_avg_damage(spell, element, aff_val, spell_hit_chance, char, weapon_info)
+        dmg = spell_avg_damage(spell, element, aff_val, spell_hit_chance, char, weapon_info, max_mana)
         dmg *= save_mul
     else:
-        dmg = spell_avg_damage(spell, element, aff_val, spell_hit_chance, char, weapon_info)
+        dmg = spell_avg_damage(spell, element, aff_val, spell_hit_chance, char, weapon_info, max_mana)
 
     if dmg <= 0:
         return
@@ -303,9 +315,55 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
     if not candidates:
         return None, 0
 
-    # Pick the highest-damage castable spell from the primary/element candidates.
-    # Sort by raw damage first, then by mana cost as tiebreaker for equal-damage spells.
-    best = max(candidates, key=lambda x: (x[0], x[1].get('mana', 0)))
+    # Check for Providence (all-d20s-nat20, all-dice-max for one turn)
+    # Model: if Providence is available and castable, multiply best spell dmg by 1.5
+    providence_boost = 1.0
+    bifurcate_boost = 1.0
+    primary = getattr(char, 'primary_affinity', None)
+    if primary and primary in spells_data:
+        for ps in spells_data[primary]:
+            if ps['name'] == 'Providence' and check_spell_prereqs(char, ps, primary, char.affinities.get(primary, 0), affinity_prereqs):
+                # Providence costs 200 mana but effectively doubles the value of the next spell
+                # Model as 1.5x multiplier (some mana cost inefficiency)
+                providence_boost = 1.5
+                break
+            if ps['name'] == 'Bifurcate' and check_spell_prereqs(char, ps, primary, char.affinities.get(primary, 0), affinity_prereqs):
+                # Bifurcate duplicates all projectile spells for one turn
+                bifurcate_boost = 2.0
+                break
+
+    # Pick the spell with the best base (unmultiplied) damage.
+    # The mana multiplier affects all spells equally, so we compare raw power.
+    # When base damages are equal, prefer lower mana cost.
+    best = max(candidates, key=lambda x: (
+        x[0] / getattr(char, 'spell_damage_mult', 1) if x[3] else x[0],
+        -x[1].get('mana', 999)))
+
+    # If the best spell is NOT concentration, check whether a concentration spell
+    # + secondary casts would do more total damage. Concentration spells persist,
+    # freeing AP/BAp to cast non-concentration spells alongside them.
+    if not best[1].get('concentration'):
+        conc_candidates = [c for c in candidates if c[1].get('concentration')]
+        if conc_candidates and not exclude_concentration:
+            best_conc = max(conc_candidates, key=lambda x: (
+                x[0] / getattr(char, 'spell_damage_mult', 1) if x[3] else x[0],
+                -x[1].get('mana', 999)))
+            # Find the best non-concentration secondary spell
+            secondary_cands = [c for c in candidates
+                             if not c[1].get('concentration') and c[1]['name'] != best_conc[1]['name']]
+            if secondary_cands:
+                best_sec = max(secondary_cands, key=lambda x: (
+                    x[0] / getattr(char, 'spell_damage_mult', 1) if x[3] else x[0],
+                    -x[1].get('mana', 999)))
+                # Total: 1 conc cast + (ap + bap - 1) * sec casts
+                extra_actions = max(0, getattr(char, 'ap', 1) + getattr(char, 'bap', 1) - 1)
+                conc_total = best_conc[0] + best_sec[0] * extra_actions
+                if conc_total > best[0]:
+                    best = best_conc
+    # Apply Providence/Bifurcate synergy to final damage
+    if providence_boost > 1.0 and best[0] > 0:
+        adjusted_dmg = best[0] * providence_boost
+        best = (adjusted_dmg, best[1], best[2], best[3])
     use_mult = len(best) > 3 and best[3]
     cond_dmg, cond_names = _get_condition_damage(best[1])
 
@@ -321,7 +379,7 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
                 continue
             if not check_spell_prereqs(char, ps, primary, primary_val, affinity_prereqs):
                 continue
-            pdmg = spell_avg_damage(ps, primary, primary_val, spell_hit_chance, char, weapon_info)
+            pdmg = spell_avg_damage(ps, primary, primary_val, spell_hit_chance, char, weapon_info, max_mana)
             if pdmg <= 0:
                 skipped.append({'name': ps['name'], 'mana': ps['mana'],
                                'reason': 'non_damaging', 'dmg': 0})

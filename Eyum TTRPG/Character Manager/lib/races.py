@@ -57,6 +57,16 @@ def select_best_race(build_config, races_data):
 
     def classify_race(data):
         affs = data.get('affinity_bonuses', {})
+        # Tier -1: race unlocks the primary affinity for free at base (no prereqs needed)
+        unlocks = data.get('unlocks_affinities', [])
+        if is_magical and primary_affinity and primary_affinity in unlocks:
+            return -1
+        # Check prereq affinities for unlock too
+        if is_magical and prereq_affinities:
+            for pa in prereq_affinities:
+                if pa in unlocks:
+                    return -1
+        # Tier 0: race has positive primary affinity
         if is_magical and primary_affinity:
             if affs.get(primary_affinity, 0) > 0:
                 return 0

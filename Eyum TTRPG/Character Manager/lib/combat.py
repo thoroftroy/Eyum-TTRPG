@@ -68,6 +68,12 @@ def calculate_damage(char, settings):
         charge_bonus_avg = die_average(char.charge_die, 0)
 
     per_hit_feat_bonus = crit_bonus_avg + cleave_bonus_avg + (charge_bonus_avg / max(atk_per_round, 1))
+    # Skirmisher movement damage: (speed / 5) * per_5ft_bonus, applies once per round then resets.
+    # Model as average bonus spread across all attacks.
+    skirmish_bonus = 0
+    if hasattr(char, 'skirmish_per_5ft') and char.skirmish_per_5ft > 0:
+        skirmish_bonus = (char.speed / 5.0) * char.skirmish_per_5ft
+    per_hit_feat_bonus += skirmish_bonus / max(atk_per_round, 1)
 
     if char.has_physical:
         melee_total_die = base_weapon + damage_bonus + extra_damage + char.melee_damage
@@ -128,7 +134,6 @@ def calculate_damage(char, settings):
                 # Passive concentration: 1 AP on concentration, remaining on next-best non-conc spell
                 si2, sd2 = select_spell(char, settings, max_mana=char.mana_max(settings['rules']),
                                         exclude_concentration=True)
-                # Only use secondary if it's a DIFFERENT spell
                 same = si2 and si2.get('spell', {}).get('name') == spell_info['spell'].get('name')
                 if si2 and sd2 > 0 and not same:
                     mn2 = getattr(char, 'spell_mana_mult', 1)
@@ -138,7 +143,39 @@ def calculate_damage(char, settings):
                     secondary_actions = max(0, char.ap - 1) + char.bap
                     max_cast2 = max(1, char.mana_max(settings['rules']) // max(1, cost2)) if cost2 > 0 else secondary_actions
                     casts2 = min(secondary_actions, max_cast2)
-                    magic = int(spell_dmg + sd2 * casts2 + retal_dmg)
+                    best_total = int(spell_dmg + sd2 * casts2 + retal_dmg)
+                    best_secondary = (si2, sd2, casts2)
+                    
+                    # Try other non-concentration spells — a cheaper spell cast more times
+                    # might out-damage the highest per-cast spell with fewer casts
+                    mana_pool = char.mana_max(settings['rules'])
+                    spells_data = settings.get('spells', {})
+                    from .spells import check_spell_prereqs, spell_avg_damage
+                    affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
+                    primary = getattr(char, 'primary_affinity', None)
+                    for elem, slist in spells_data.items():
+                        for s in slist:
+                            if s.get('concentration'): continue
+                            if s['name'] == spell_info['spell'].get('name'): continue
+                            if s['name'] == si2['spell']['name']: continue
+                            elem_val = char.affinities.get(elem, 0)
+                            if not check_spell_prereqs(char, s, elem, elem_val, affinity_prereqs):
+                                continue
+                            sd = spell_avg_damage(s, elem, elem_val, 0.75, char)
+                            if sd <= 0: continue
+                            c2 = s['mana'] * mn2
+                            if c2 <= 0: continue
+                            mc2 = max(1, mana_pool // max(1, c2))
+                            cs2 = min(secondary_actions, mc2)
+                            total = int(spell_dmg + sd * cs2 + retal_dmg)
+                            if total > best_total:
+                                best_total = total
+                                best_secondary = ({'spell': s, 'element': elem, 'damage_per_cast': sd,
+                                                   'use_multiplier': True, 'cond_dmg': 0, 'cond_names': [],
+                                                   'extra_effect': s.get('extra_effect', '')}, sd, cs2)
+                    
+                    magic = best_total
+                    si2, sd2, casts2 = best_secondary
                     result['magic'] = magic
                     result['magic_dmg'] = spell_dmg + sd2
                     result['secondary_spell'] = si2.get('spell', {}).get('name', '')
