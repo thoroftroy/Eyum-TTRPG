@@ -1062,3 +1062,35 @@ def write_summary(all_tier_results, settings, output_path, build_configs=None):
             f.write("  This means another archetype scored higher than the specialized one.\n")
             f.write("  The named archetype may need buffing or the driftee may need nerfing.\n")
         f.write("\n")
+        f.write("SPELL TIER SKIP ANALYSIS\n")
+        f.write("-" * 40 + "\n")
+        f.write("Tracks when a build's primary affinity has a castable spell that was\n")
+        f.write("skipped because a different spell (often from another affinity) deals more\n")
+        f.write("damage or because the primary spell is non-damaging.\n\n")
+        skip_entries = []
+        seen = set()
+        for tier_name, all_results in all_tier_results:
+            for build_name, results in all_results.items():
+                if not results:
+                    continue
+                max_res = max(results, key=lambda r: r['level'])
+                si = max_res.get('dmg_perturn', {}).get('skip_info', {})
+                if not si or not si.get('skipped'):
+                    continue
+                key = (build_name, si.get('chosen', ''))
+                if key in seen:
+                    continue
+                seen.add(key)
+                skip_entries.append((build_name, si))
+        if not skip_entries:
+            f.write("  No skipped spells detected.\n")
+        else:
+            for build_name, si in sorted(skip_entries, key=lambda x: x[0]):
+                chosen = si.get('chosen', '?')
+                chosen_dmg = si.get('chosen_dmg', 0)
+                aff = si.get('affinity', '?')
+                f.write(f"  {build_name} (chose {chosen} [{aff}] for {chosen_dmg:.1f} dmg):\n")
+                for s in si.get('skipped', []):
+                    tag = "NON-DAMAGE" if s['reason'] == 'non_damaging' else f"LOWER ({s['dmg']:.1f} vs {s.get('best_dmg', 0):.1f})"
+                    f.write(f"    SKIPPED {s['name']} ({s['mana']} mana) — {tag}\n")
+        f.write("\n")

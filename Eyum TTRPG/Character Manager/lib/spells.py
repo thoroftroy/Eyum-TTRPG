@@ -35,7 +35,16 @@ CONDITION_DMG = {
     'Pull': (0, 0), 'Heal': (0, 0), 'NoFlight': (0, 2),
     'NoAdvantage': (0, 2), 'DoT': (7.0, 2), 'GroundBurn': (7.0, 2),
     'Scaling': (0, 2), 'Collision': (0, 0),
-    'DifficultTerrain': (0, 2),
+    'Vibrating': (1.0, 3),
+    'Nauseated': (0, 2), 'Charmed': (0, 2), 'Hypnotized': (0, 2),
+    'Silenced': (0, 2), 'Hexed': (0, 2), 'Hexproof': (0, 2),
+    'Blurred': (0, 2), 'Grounded': (0, 2), 'Purged': (0, 2),
+    'Gelled': (0, 2), 'Pinned': (0, 2), 'Sickened': (0, 2),
+    'Addicted': (0, 2), 'Overcrowded': (0, 2),
+    'Arsenic Poisoning': (5.0, 3), 'Bromine Toxin': (4.5, 3),
+    'Cancer': (0, 3), 'Paralytic Toxin': (2.5, 3),
+    'Skorren Venom': (3.5, 3), 'Infernal Brand': (0, 2),
+    'Infernal Ally Brand': (0, 2),
 }
 
 
@@ -130,6 +139,8 @@ def spell_avg_damage(spell, element, aff_val, hit_chance, char=None, weapon_info
     if 'damage_dice' in spell:
         dmg = die_average(spell['damage_dice'], 0)
         dmg += spell.get('damage_flat', 0)
+    elif spell.get('damage_flat', 0) > 0:
+        dmg = spell['damage_flat']
     elif 'damage_formula' in spell:
         formula = spell['damage_formula']
         if '+' in formula:
@@ -292,13 +303,37 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
     if not candidates:
         return None, 0
 
-    # Always use the highest-tier (highest mana) castable spell.
-    # The mage should use their best spell; fall back to cheaper ones
-    # only when mana runs out.
-    best = max(candidates, key=lambda x: (x[1].get('mana', 0), x[0]))
+    # Pick the highest-damage castable spell from the primary/element candidates.
+    # Sort by raw damage first, then by mana cost as tiebreaker for equal-damage spells.
+    best = max(candidates, key=lambda x: (x[0], x[1].get('mana', 0)))
     use_mult = len(best) > 3 and best[3]
     cond_dmg, cond_names = _get_condition_damage(best[1])
+
+    # Track skipped primary-affinity spells for summary reporting
+    spell_skip_info = {}
+    primary = getattr(char, 'primary_affinity', None)
+    if primary and primary in spells_data:
+        primary_spells = spells_data[primary]
+        skipped = []
+        primary_val = char.affinities.get(primary, 0)
+        for ps in primary_spells:
+            if ps['name'] == best[1]['name']:
+                continue
+            if not check_spell_prereqs(char, ps, primary, primary_val, affinity_prereqs):
+                continue
+            pdmg = spell_avg_damage(ps, primary, primary_val, spell_hit_chance, char, weapon_info)
+            if pdmg <= 0:
+                skipped.append({'name': ps['name'], 'mana': ps['mana'],
+                               'reason': 'non_damaging', 'dmg': 0})
+            elif pdmg < best[0] and pdmg > 0:
+                skipped.append({'name': ps['name'], 'mana': ps['mana'],
+                               'reason': 'lower_damage', 'dmg': pdmg, 'best_dmg': best[0]})
+        if skipped:
+            spell_skip_info = {'affinity': primary, 'skipped': skipped,
+                              'chosen': best[1]['name'], 'chosen_dmg': best[0]}
+
     return {'spell': best[1], 'element': best[2], 'damage_per_cast': best[0],
             'use_multiplier': use_mult,
             'cond_dmg': cond_dmg, 'cond_names': cond_names,
-            'extra_effect': best[1].get('extra_effect', '')}, best[0]
+            'extra_effect': best[1].get('extra_effect', ''),
+            'skip_info': spell_skip_info}, best[0]

@@ -7536,5 +7536,45 @@
         "Magician"
       ]
     }
+  },
+  "Affinity: Quantum Mage": {
+    "description": "Quantum affinity mage",
+    "color": "#7b2d8b",
+    "race": "auto",
+    "base_stats": {
+      "str": 8,
+      "dex": 8,
+      "con": 8,
+      "wis": 12,
+      "int": 14,
+      "cha": 8
+    },
+    "stat_priority": [
+      "int",
+      "wis",
+      "con"
+    ],
+    "spend_stat_points": "all",
+    "preferred_paths": [
+      "Magical"
+    ],
+    "has_physical": false,
+    "has_magical": true,
+    "has_utility": false,
+    "primary_affinity": "Quantum",
+    "starting_affinities": {
+      "Generic": 1,
+      "Quantum": 10
+    },
+    "gear": {
+      "armor": "light"
+    },
+    "generate": true,
+    "paths": {
+      "Magical": [
+        "Priest",
+        "Magician"
+      ]
+    }
   }
 }

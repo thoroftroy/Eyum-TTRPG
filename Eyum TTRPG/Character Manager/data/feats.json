@@ -994,7 +994,7 @@
     "prereq": {},
     "value": 0,
     "repeatable": false,
-    "description": "Psychic spells deal half of their damage to HP.",
+    "description": "Psychic spells deal half of their damage to HP optionally but the part done to HP is reduced by 40%.",
     "prerequisites": {
       "affinity": {
         "Psychic": 5
@@ -1523,6 +1523,17 @@
       },
       "path": {
         "Magician": 4
+      }
+    },
+    "effects": {},
+    "value": 0
+  },
+  "Forced Heritage": {
+    "type": "Passive",
+    "description": "You learn one spell from the Racial Spell List in [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells]], ignoring all racial and Racial Tier prerequisites. The chosen spell costs x5 its normal Mana Cost and treats your Racial Tier as the caster's Racial Tier for any effects that depend on it. You do not gain any Tier 0 racial traits or abilities associated with that race, even if they are normally required for the spell to function as intended. Temporary Racial Spells cannot be learned through this feat. You may take this feat multiple times. Each time you do, you learn one different Racial Spell.",
+    "prerequisites": {
+      "stat": {
+        "int": 20
       }
     },
     "effects": {},

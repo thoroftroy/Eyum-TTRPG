@@ -1,10 +1,24 @@
 def select_best_race(build_config, races_data):
     pickup = build_config.get('race', 'auto')
     if pickup != 'auto':
+        build_name = build_config.get('_build_name', '')
+        # Priority 1: build name has explicit family+subrace (e.g., "Race: Bugfolk Twigwrought")
+        if build_name and build_name.startswith('Race: '):
+            parts = build_name[6:].split(' ', 1)
+            if len(parts) == 2:
+                fam, sub = parts
+                if fam in races_data and sub in races_data[fam].get('subraces', {}):
+                    return fam, sub
+        # Priority 2: exact subrace name or family+subrace
         for family_name, family in races_data.items():
             for subrace_name, data in family.get('subraces', {}).items():
-                if subrace_name == pickup or family_name == pickup:
+                if subrace_name == pickup or f"{family_name} {subrace_name}" == pickup:
                     return family_name, subrace_name
+        # Priority 3: family name only — pick first subrace
+        for family_name, family in races_data.items():
+            if family_name == pickup and family.get('subraces'):
+                first_sub = list(family['subraces'].keys())[0]
+                return family_name, first_sub
         return None, None
 
     stat_priority = build_config.get('stat_priority', ['str', 'dex', 'con', 'wis', 'int', 'cha'])

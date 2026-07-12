@@ -348,6 +348,7 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
 
     race_pickup = build_config.get('race', None)
     if race_pickup and not is_worst:
+        build_config['_build_name'] = build_name
         family_name, subrace_name = select_best_race(build_config, all_races)
         if family_name and subrace_name:
             race_data = all_races[family_name]['subraces'][subrace_name]
@@ -480,6 +481,19 @@ def main():
         levels = gen['levels']
     gear_tiers = settings.get('gear_tiers', [{"name": "bad_gear", "label": "Bad Gear", "gold_per_level": 1}])
 
+    # --- Test mode filtering ---
+    test_mode = gen.get('test_mode', {})
+    if test_mode.get('enabled', False):
+        build_filter = test_mode.get('build_filter', [])
+        level_range = test_mode.get('level_range', None)
+        if build_filter:
+            print(f"[TEST MODE] Build filter: {build_filter}")
+        if level_range:
+            levels = [l for l in levels if level_range[0] <= l <= level_range[1]]
+            print(f"[TEST MODE] Level range: {level_range} -> {len(levels)} levels")
+        print(f"[TEST MODE] Active — only running filtered builds/levels")
+    # --- End test mode ---
+
     # Load equipment data for dynamic gear selection
     eq_data = get_equipment()
     if eq_data:
@@ -499,6 +513,9 @@ def main():
 
         for build_name, build_config in settings['builds'].items():
             if not build_config.get('generate', True):
+                continue
+            # Test mode: skip builds not in the filter (if filter is non-empty)
+            if test_mode.get('enabled', False) and build_filter and build_name not in build_filter:
                 continue
 
             print(f"  Generating: {build_name} (levels: {min(levels)}-{max_level})")

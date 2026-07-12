@@ -26,6 +26,22 @@ Humans are upright, two-legged mammals with a balanced and highly variable build
 
 Skin is opaque, elastic, and soft, thickening naturally at areas of repeated pressure such as palms, soles, knees, and elbows. Skin tones range widely from pale pink-beige through tan, brown, and deep brown. Hair grows primarily on the scalp, with finer growth on limbs and torso. Hair texture ranges from straight to tightly curled. Eyes are forward-facing with visible whites and a colored iris, commonly brown, blue, green, gray, or hazel. Teeth are flat and blunt, suited for mixed diets. Humans have no claws, fangs, horns, wings, or other extreme features.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Adaptable:** Gain +1 Skill Point on every level (retroactive).
 - **Tier 2:** **Hard to Kill:** Gain +1 HP and +1 Vit per level (retroactive).
 - **Tier 3:** **Sheer Freaking Will:** Once per long rest when you would drop to 0 HP, drop to 1 HP instead.
@@ -44,6 +60,22 @@ Aurians share a human skeletal plan but with distinct proportional differences. 
 
 Skin is tan to bronze, smooth, and resistant to discoloration. Beneath the skin, veins are visibly red or orange rather than blue, faintly glowing under exertion or heat. Hair grows thickly on the scalp and is uniformly white or pale silver. Eyes are solid red or ember-orange, with little or no visible white. Facial features tend to be angular, with strong jawlines and pronounced cheekbones. Teeth remain blunt and humanlike. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 +5 ft Melee Range. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Affinity Sense]] and [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Mana Sense]]. 
 - **Tier 1:** **Magic Veins:** Gain +2 Generic Affinity and +1 Base Magic Accuracy.
 - **Tier 2:** **Inner Mana Furnace:** When you roll a Mana Dice on a level up double the mana gain (this level and all future levels).
@@ -64,6 +96,22 @@ Halofades are extremely tall and thin, with exaggerated limb length and narrow f
 
 Skin is very pale, cream, pearl-white, or faint yellow-gold, and reflects light strongly, giving a soft glow rather than shine. The surface feels cool and smooth. Hair is very fine and light, usually pale blonde, white-gold, or near translucent. Eyes are pale blue, gold, violet, or white, with clearly visible pupils even in low light. Teeth are small and blunt. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +5 Quantum Affinity. You permanently unlock the Quantum affinity to be upgraded with Affinity Points even if you have not met the prerequisites. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Mana Sense]] at 60 ft. 
 - **Tier 1:** **Photon Lance:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Photon Lance]].
 - **Tier 2:** **Phase Cloak:** While you have not attacked or cast a hostile spell since the end of your last turn, you gain +3 AC and attack rolls against you have disadvantage. This effect ends the moment you attack or cast a hostile spell and does not resume until the end of your non hostile next turn.
@@ -83,6 +131,22 @@ Giants are massive humanoids scaled far beyond human size. The skeleton is extre
 
 Skin is thick, rough, and resilient, commonly stone-gray, dark tan, or earth-toned. Calluses form rapidly and scars remain raised and visible. Hair is coarse and heavy, usually dark brown, black, or rust-red. Eyes are dark, brown, green, or nearly black. Teeth are broad and flat. Movement is slow but powerful, and the body carries a constant sense of weight and pressure.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 You have disadvantage on any roll which uses Affinity. You have -5 to your Generic Affinity. 
 - **Tier 1:** **Crushing Hands:** Your unarmed attacks deal 2d12 Bludgeoning damage and you have advantage on Grapple Checks. 
 - **Tier 2:** **Thick Hide:** Gain +1 AC and +3 to your CON score. You have lesser resistance to Slashing and Piercing damage. 
@@ -102,6 +166,22 @@ Iceborn resemble humans in proportion but are more compact and dense. The torso 
 
 Skin ranges from pale blue to blue-gray or frost-white and feels cold to the touch even in warm conditions. Hair is thick and white, silver, or pale blue. Eyes are ice-blue, pale gray, or clear white, with rare green variants. Skin texture firms and stiffens slightly in extreme cold. Teeth are blunt and humanlike. Their overall appearance is solid, heavy, and resistant to environmental stress.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +2 Ice/Cold Affinity and lesser weakness to Fire damage. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Heat Sense]]. 
 - **Tier 1:** **Cold Adaptation:** Gain Resistance to Ice/Cold and unlock the Ice/Cold affinity to be used like normal skipping its prerequisites. Gain +5 Ice/Cold Affinity.
 - **Tier 2:** **Frost Affinity:** Gain +10 Ice/Cold Affinity.
@@ -121,6 +201,22 @@ Fireborn have a strong, grounded humanoid build with thick legs and a reinforced
 
 Skin tones range from light red and copper to dark gray with warm undertones. The skin radiates noticeable heat and feels dry even in humid conditions. Hair is uniformly black, coarse, and thick. Eyes are also black, with little contrast between iris and pupil, giving a deep, reflective look. Teeth are slightly sharper than human average but not true fangs. The body often appears warm, tense, and active even at rest.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +2 Fire Affinity and lesser weakness to Water damage. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Heat Sense]]. 
 - **Tier 1:** **Heatborn:** Gain Greater Resistance to Fire damage and become immune to the [[2.4 Conditions#Environmental / Positional Conditions|On Fire]] and [[2.4 Conditions#Physical-Conditions|Burned]] conditions.
 - **Tier 2:** **Flame Affinity:** Gain +1 Fire Affinity each level (retroactive and subsequent)
@@ -140,6 +236,22 @@ Kravari are humanoid but massively overbuilt. Arms, legs, hands, and feet are ov
 
 Skin is dark gray to near-black and scars easily, thickening over time into a tough surface. Hair is coarse, dark, and limited to black or deep brown. Eyes are dark brown, black, or dull red. Teeth are thick and strong. Their silhouette is unmistakably heavy and powerful, with little visible finesse or delicacy in movement.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +2 Base Melee and Ranged Damage but -2 to Magical Damage and Accuracy and -1 to all skill checks. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|True Vision]] at 5 ft. 
 - **Tier 1:** **War Frame:** Gain +2 Base Melee and Ranged Accuracy and Damage.
 - **Tier 2:** **Weapon Training:** Gain Proficiency in two weapon types of your choice or Expertise in one which you were already proficient in. Gain proficiency in Light, Medium and Heavy Armor. 
@@ -159,6 +271,22 @@ Sandmen appear humanoid but immediately feel abnormal on close inspection. The b
 
 The skin is constantly damp, as if lightly sweating at all times, giving a slick or humid sheen rather than true slime. Hair is absent; the scalp is smooth. Eyes are milky white, soft violet, or deep black, sometimes with faint internal speckling. Teeth are normal and blunt.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain resistance to Psychic damage. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Darkvision]]. 
 - **Tier 1:** **Mind Touch:** Gain +3 Psychic Affinity and unlock the Psychic affinity to be used like normal skipping its prerequisites.
 - **Tier 2:** **Psychic Sense:** Gain +2 to Social Insight, Situational Insight, Search, and Spot checks and Proficiency in Search and Spot. If you already had proficiency gain Expertise instead.

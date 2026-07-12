@@ -24,6 +24,22 @@ Demons follow a humanoid body plan but with heavy predatory traits that make the
 
 Skin tones trend toward gray, charcoal black, deep purple, dark red, and sometimes yellowed tones. The surface is not soft; it is rough, dry, and uneven, with thickened patches like natural armor. Many demons have scaly ridges along the spine, shoulders, forearms, and shins. These ridges can form raised lines, small plates, or jagged crests that catch light on their edges. Facial skin often looks tighter over the bones, making expressions appear sharper and more threatening. Eyes tend to look intense: smaller visible whites, deeper-set sockets, and irises that can be bright against dark skin. Teeth include clear fangs. The canines are longer and narrower than human, and the back teeth are heavier for tearing and crushing. Fingernails are thick and may form short claws. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +3 Infernal Affinity. You gain +3 to Intimidation and Social Insight checks. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Darkvision]] at 30 ft. You permanently unlock the Infernal affinity to be upgraded with Affinity Points even if you have not met the prerequisites. You are capable of forming pacts with creatures. All pacts you create share these universal rules: you always know the exact location, Vitality, HP, and Mana of any pact-bound creature across any distance; a creature bound by your pact cannot knowingly and willingly lie to you. You and the bound creature are bound to the rules of the pact which you set. If your bound creature breaks the rules of the pact they will suffer the penalties agreed on by the party at the time of signing the pact, the standard penalty is death. If you break the rules of the pact you will also die.
 - **Tier 1:** **Infernal Bargain:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Infernal Contract: Pact of Power]]. You may maintain 1 active pact at a time per racial Tier.
 - **Tier 2:** **Pactkeeper's Due:** For each active pact you maintain, you gain +1 AC and +1 to all saving throws. Each time you complete a pact successfully (the creature upholds their end of the bargain) you gain +1 to your Max Vitality and +3 to your Max Mana. 
@@ -43,6 +59,22 @@ Ferramites are large, dragonic humanoids built like moving armor. The frame is t
 
 The defining trait is their full-body scale armor. From head to toe, the skin is covered in thick, metal-like plates that overlap like a natural suit of mail. These plates are not smooth skin scales; they look like forged segments, hard, edged, and layered, yet they still move with the body. The plating is thickest over the shoulders, chest, spine, hips, and shins, forming natural guard areas. Smaller plates cover the joints, arranged so the body can still bend. The face is draconic, with a strong snout, heavy jaw, and a skull shape that suggests thick bone under the plating. Horns or crown-like ridges may rise from the head, often appearing like sharpened metal growth. Eyes sit deep behind armored ridges, giving a narrow, protected gaze. The mouth holds strong teeth suited for tearing, with fangs that are shorter and thicker than a demon’s, more like a predator built for force rather than needle-sharp bite. Ferramites look extremely difficult to injure even before they wear gear, because their outer layer already functions like heavy armor.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Your body is forged from dense iron-like plating, granting +4 AC natural armor (does not stack with worn armor). You gain +2 Infernal Affinity and +2 Metal Affinity. You permanently unlock the Infernal and Metal affinities to be upgraded with Affinity Points even if you have not met the prerequisites. While you are under any active pact, you gain +2 AC, your weapon attacks deal +1d8 Infernal damage, and you have advantage on saving throws against [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions|Frightened]]. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Darkvision]] at 30 ft.
 - **Tier 1:** **Infernal Edge:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Infernal Edge]].
 - **Tier 2:** **Oathforged:** While under a pact, you gain +2 to all d20 rolls and +10 ft speed. You permanently gain +5 maximum Vitality per Racial Tier (retroactive and subsequent).
@@ -62,6 +94,22 @@ Pyrrakin are lean, fast humanoids designed for sprinting and climbing. Their bui
 
 The head is fully reptilian, not human. It has a blunt snout, a wide mouth line, and a jaw hinge that opens farther than a human jaw. The skull is smooth and streamlined, and the neck is strong but not bulky. Skin texture is scaled or toughened, with fine plates that lie close to the body and reduce drag when moving. Many have heat-like coloration, dark base tones with warmer highlights, though the exact palette varies. Eyes are forward and alert, with a focused stare and a pupil shape that can appear narrow in bright light. Teeth are sharp and uniform, with fangs that are present but not oversized; the whole mouth reads as a practical hunting bite rather than a dramatic display.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +1 to Infernal Affinity and +4 to Fire Affinity.
 - **Tier 1:** **Claw Climber.** You ignore the first 20 ft of difficult terrain each turn; gain +2 to Acrobatics.
 - **Tier 2:** **Heatstep.** Once per turn as a Bonus Action, gain +20 ft speed until end of turn and deal 1d6 Fire damage to all creatures within 5 ft of your starting location when you Heatstep. This 20 ft of movement does not provoke opportunity attacks. 
@@ -83,6 +131,22 @@ Scales cover the body in continuous patterns, thicker along the spine, shoulders
 
 Wings extend from the back, attached near the shoulder blades and upper ribs. The wing bones are long and segmented, and the membrane or wing surface stretches between them, forming a wide airfoil. When folded, the wings rest against the back like layered limbs; when spread, they dominate the silhouette. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +2 to Infernal Affinity and +3 to Fire Affinity.
 - **Tier 1:** **Winged Balance.** When you would fall prone, you may stay instead standing. (Once per round)
 - **Tier 2:** **Glide Control.** Your gliding is safer: you can change direction freely while gliding and ignore the first 20 ft of falling damage.
@@ -102,6 +166,22 @@ Cinderkin are the near-human demon-blooded type. Their skeleton and proportions 
 
 They still carry clear infernal traits. Horns are common, often smaller and more refined than a demon’s, with shapes that can look decorative but still grow from the skull. A tail is typical, usually slimmer and more flexible than a demon’s, and it may end in a small hardened tip. Skin tones can be close to human ranges, but often carry unnatural undertones, ashen gray, faint red, deep warm shadows, or darker gradients near joints. Skin texture is smoother than a demon’s, though some have faint scale patches on the shoulders, hips, or along the spine. Eyes often stand out: unusually bright irises, darker sclera, or a sharp contrast that makes eye contact feel intense. Some cinderkin have small wings. These wings are present as physical structures, short, thin, and often folded tight, but they are not built for true flight. The wing bones are underss and the membranes can look delicate, more like an extra trait than a working limb. Teeth are mostly humanlike but may include slightly sharper canines. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +1 to Infernal Affinity and +4 to Fire Affinity.
 - **Tier 1:** **Infernal Allure.** Gain +2 to Persuasion and Deception and +3 to your CHAR score.
 - **Tier 2:** **Hellglow.** You learn 1 spell and gain +2 Generic Affinity.
@@ -121,6 +201,22 @@ Sylphamare are huge, long-limbed humanoids with a frail-looking frame that is de
 
 The head is elongated, with a long face and soft, hanging features. The most obvious trait is the ears: large, droopy ears that fall downward along the sides of the head, with thick, soft-looking cartilage and heavy folds. The ears move subtly with posture and mood, and they give the face a tired, solemn look. The skin is pale and matte, often in muted tones like gray-beige, dusty tan, or softened brown. The surface can look dry and fine-textured, like very thin skin stretched over bone. Eyes are large and set deep, with a calm but unsettling stillness. The mouth is small compared to the face, and the jawline is long and gently rounded rather than sharply angular. Hair is sparse or very fine in many individuals, sometimes present as thin strands or a light down rather than full human hair. Teeth are small and even, not built for obvious predation. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +3 to Infernal Affinity and +3 to Radiant Affinity.
 - **Tier 1:** **Grave Calm.** Gain +5 to Wisdom saving throws, Social Insight, and Generic Affinity.
 - **Tier 2:** **Long Reach.** Your melee reach increases by +5 ft.
@@ -142,6 +238,22 @@ They commonly have horns and a tail, but these traits are less extreme than a fu
 
 Teeth include fangs that are visible when the mouth opens, though they are often shorter than a demon’s and less needle-like. Eyes are intense and predatory, with less visible white and deeper sockets. Varkuun look clearly infernal and intimidating, but they do not reach the most exaggerated monster shapes of full demons. The result is a form that reads as a threatening near-human: demonic structure, armored texture, horns and tail, and a face that is almost human until you look closely.
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 Gain +2 to Infernal Affinity and +2 to Fire Affinity.
 - **Tier 1:** **Demonic Edge.** Gain +1 Base Melee Accuracy.
 - **Tier 2:** **Psychic Needle.** Once per turn on a melee hit, add 1d4 Psychic damage.

@@ -1,12 +1,25 @@
-EYUM TTRPG — HANDBOOK SYNCER LOG
-Run at: 2026-07-03 11:03:02
+EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER
+Run at: 2026-07-12 09:45:46
 ======================================================================
-Parsed 297 spells from handbook
+────────────────────────────────────────────────────────────
+RACE SYNC
+────────────────────────────────────────────────────────────
+Race sync: all up to date
+────────────────────────────────────────────────────────────
+SPELL SYNC
+────────────────────────────────────────────────────────────
+  Parsed 225 spells from 6.1.1 Elemental Spells.md
+  Parsed 101 spells from 6.1.2 Unique, Racial, and Healing Spells.md
+  Total handbook spells: 325
 
-Spells: 0 changed, 305 unchanged, 0 new
-Parsed 97 feats from handbook
+Spell sync: 0 updated, 0 added
 
-Feats: 0 updated, 0 new, 0 removed
+Spells in JSON not in handbook (1):
+  Full Restore (Generic)
+────────────────────────────────────────────────────────────
+CONDITION SYNC
+────────────────────────────────────────────────────────────
+  Conditions in updater but not handbook (11): ['Collision', 'Difficult Terrain', 'DoT', 'GroundBurn', 'Heal', 'Marked by Light', 'NoAdvantage', 'NoFlight', 'Pull', 'Push', 'Scaling']
 
 ======================================================================
-End of log — 2026-07-03 11:03:02
+End of log — 2026-07-12 09:45:46

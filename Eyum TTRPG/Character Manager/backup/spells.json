@@ -1,6 +1,26 @@
 {
   "Air": [
     {
+      "name": "Slumber Dust",
+      "mana": 8,
+      "description": "You release a cloud of fine sleep-inducing dust from your wings in a 15 ft cone. Creatures in the cone must make a CON save (DC 10 + your Save DC Bonus). On a failure they gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\",
+      "damage_type": "air",
+      "range": 30,
+      "aoe_radius": 15,
+      "aoe_cone": true,
+      "upcast_rule": "Unconscious]] condition until the start of your next turn, or until they take damage. On a success they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\"
+    },
+    {
+      "name": "Dust of Dread",
+      "mana": 12,
+      "description": "A billowing cloud of hallucinogenic wing dust erupts at a point you can see for 3 turns. Creatures entering or starting their turn in the cloud must make a WIS save (DC 10 + your Save DC Bonus). On a failure they take 2d4 Poison damage and are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\",
+      "damage_type": "air",
+      "range": 60,
+      "damage_dice": "2d4",
+      "aoe_radius": 15,
+      "upcast_rule": "Frightened]] of you for 1 turn and gain the Despair condition for 1 turn. On a success they take half damage and are not Frightened. The cloud is lightly obscured. This spell requires Concentration."
+    },
+    {
       "name": "Gust",
       "mana": 5,
       "affinity_required": 6,
@@ -759,7 +779,7 @@
       "attack_roll": false,
       "aoe_radius": 30,
       "aoe_self": true,
-      "extra_effect": "Prone+DifficultTerrain",
+      "extra_effect": "Prone+Difficult Terrain",
       "description": "The ground rises and rolls outward from you. All creatures other than you within 30 ft must make a Strength save. On a failure they take 2d6 Earth damage, are Prone, and the area in the spell\u2019s radius becomes Difficult Terrain until the end of your next turn. On a success they take half damage and are not knocked prone.",
       "upcast_to": "Earthshatter"
     },
@@ -887,6 +907,25 @@
       "description": "Touch a creature. If it is Bleeding, that condition ends immediately. The target then takes 1d4 Fire damage and gains Burned for 1 turn. If the target is unwilling, make a spell attack against it first.",
       "upcast_rule": "x2, apply +1 additional Burned stack",
       "range": "Touch"
+    },
+    {
+      "name": "Cinder Bolt",
+      "mana": 6,
+      "description": "Hurl a large firebolt at a creature within range, on hit the creature takes 1d8 + [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\",
+      "damage_type": "fire",
+      "range": 15,
+      "damage_dice": "1d8",
+      "upcast_rule": "Attack Damage Bonus]] Fire damage and must make a Con Save. On fail they gain On Fire for 1 turn. If the target is already On Fire they take an additional +1d8 damage."
+    },
+    {
+      "name": "Flamethrower",
+      "mana": 20,
+      "description": "Concentration. Shoot a line of flame which is 15 ft long, all creatures who enter the line or start or end their turn in the line take 2d10 + [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\",
+      "damage_type": "fire",
+      "range": 15,
+      "damage_dice": "2d10",
+      "aoe_line": true,
+      "upcast_rule": "Attack Damage Bonus]] Fire damage damage and Gain On Fire condition, DEX save halves but still gain On Fire."
     },
     {
       "name": "Firebolt",
@@ -1059,6 +1098,23 @@
   ],
   "Ice/Cold": [
     {
+      "name": "Ice Shards",
+      "mana": 5,
+      "description": "Shoot 2 ice shards at creatures in range. On hit target takes 1d10 + [[2.1 Affinities#Attack Damage Bonus \\",
+      "damage_type": "ice/cold",
+      "range": 30,
+      "damage_dice": "1d10",
+      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 1 stack of Frozen."
+    },
+    {
+      "name": "Ice Ward",
+      "mana": 10,
+      "description": "Concentration. Gain + [[2.1 Affinities#Attack Damage Bonus \\",
+      "damage_type": "ice/cold",
+      "aoe_self": true,
+      "upcast_rule": "Attack Damage Bonus]] AC during the duration. All enemies starting their turn within 5 ft must make a Con Save or gain +3 Stacks of Frozen at the start of their turn. Any enemy which hits you with a melee attack during the duration takes 1d8 Ice/Cold damage."
+    },
+    {
       "name": "Flash Freeze",
       "mana": 6,
       "affinity_required": 6,
@@ -1066,9 +1122,9 @@
       "damage_type": "cold",
       "save": "con",
       "attack_roll": true,
-      "extra_effect": "Frozen+Soaked",
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Ice/Cold damage and apply 2 stacks of Frozen.",
-      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
+      "extra_effect": "Soaked",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\",
+      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
       "range": 30
     },
     {
@@ -1078,9 +1134,9 @@
       "damage_dice": "2d6",
       "damage_type": "cold",
       "attack_roll": true,
-      "extra_effect": "Frozen+Soaked",
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Ice/Cold damage and apply 2 stacks of Frozen.",
-      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
+      "extra_effect": "Soaked",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\",
+      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
       "range": 30
     },
     {
@@ -1092,7 +1148,7 @@
       "save": "dex",
       "attack_roll": false,
       "aoe_radius": 20,
-      "extra_effect": "Prone+DifficultTerrain",
+      "extra_effect": "Prone+Difficult Terrain",
       "description": "Freezing rain and hail pound the area for 3 turns. The area is heavily obscured and becomes Difficult Terrain. Creatures entering or ending their turn there take 2d6 Cold damage and must make a Dex save or fall Prone.",
       "upcast_rule": "x2, +10 ft radius",
       "range": 60
@@ -1120,7 +1176,7 @@
       "save": "con",
       "attack_roll": false,
       "aoe_radius": 15,
-      "extra_effect": "Frozen+DifficultTerrain+Petrified",
+      "extra_effect": "Frozen+Difficult Terrain+Petrified",
       "description": "Choose a point. Creatures must make a Con save. On fail take 6d6 Cold damage and gain 4 stacks Frozen. Any creature that reaches max Frozen becomes Petrified for 1 turn. The area becomes Difficult Terrain.",
       "upcast_to": "Absolute Zero",
       "range": 60
@@ -1158,82 +1214,134 @@
   ],
   "Infernal": [
     {
+      "name": "Infernal Edge",
+      "mana": 5,
+      "affinity_required": 1,
+      "damage_dice": "1d10",
+      "damage_type": "infernal",
+      "description": "Bonus Action. Imbue your held melee weapon with hellfire for 3 turns. While imbued, the weapon's attacks deal +1d8 Infernal damage. You gain a pool of Heat Charges whenever you deal Infernal damage with a weapon attack (maximum charges = Racial Tier x 2, one charge per instance of Infernal damage dealt). As a free action you may spend Heat Charges: 1 charge = regain 1d6 Vitality, 5 charges = detonate all accumulated charges, dealing 1d10 Infernal damage per charge to all enemies within 10 ft of you (DEX save halves, DC 14 + Infernal Save DC Bonus).",
+      "costs_bonus_action": true,
+      "range": "Self",
+      "upcast_rule": "x2, +1d8 Infernal damage on weapon attacks",
+      "extra_effect": "Hellfire",
+      "aoe_self": true
+    },
+    {
+      "name": "Infernal Cataclysm",
+      "mana": 10,
+      "affinity_required": 1,
+      "damage_flat": 40,
+      "damage_type": "infernal",
+      "aoe_radius": 30,
+      "save": "dex",
+      "save_half": true,
+      "description": "This spell can only be learned temperately, you gain it while under the Pact of Dominion and lose it as soon as the pact ends. Throw a large Infernal Fireball up to 120 ft in any direction. When the fireball lands A 30 ft radius explosion erupts centered on the targeted area, dealing 40 Infernal damage to all creatures in the area who fail a DEX save (DC 17 + Infernal Save DC Bonus) and half as much to all creatures who succeed. Creatures under pacts from the same demon as you and the demon who granted you this pact are immune to this damage.",
+      "upcast_rule": "x2, +40 Infernal damage",
+      "range": 120
+    },
+    {
+      "name": "Infernal Contract: Pact of Power",
+      "mana": 15,
+      "affinity_required": 1,
+      "damage_dice": "3d8",
+      "damage_type": "infernal",
+      "description": "Offer a Pact of Power to a willing creature for a duration of 1 to 24 hours. As part of the pact, you may write a contract of any length describing the task the creature must complete before the pact expires, along with any additional promises or benefits you agree to provide. While bound by the pact, the creature gains +6 to Attack Rolls, +3d8 Infernal damage on all attacks, +20 maximum Vitality, +20 ft Movement Speed, and scores a Critical Hit on a natural 19-20. While at least one creature is bound by your Pact of Power, you gain +1 to all d20 rolls for each creature currently under contract, and whenever a bound creature deals Infernal damage, you regain Health equal to 20% of the Infernal damage dealt. If a bound creature fulfills its contract, the pact ends normally when its duration expires. If it fails to fulfill the contract before then, it immediately dies and you gain +10 maximum Vitality. If it dies by any means other than your own actions while still bound, you instead permanently gain +2 maximum Vitality. A Pact of Power is absolutely binding upon both parties: if you intentionally sabotage the creature's ability to fulfill the contract, or fail to uphold any promise or benefit you agreed to provide, you immediately die. Creatures can only be under one infernal contract at a time.",
+      "upcast_rule": "x5, Double all numerical effects of this Pact, including all bonuses granted to both creatures, temporary or otherwise",
+      "range": "Touch"
+    },
+    {
+      "name": "Infernal Contract: Pact of Resilience",
+      "mana": 20,
+      "affinity_required": 1,
+      "damage_type": "infernal",
+      "description": "Offer a Pact of Resilience to a willing creature for a duration of 1 to 24 hours. As part of the pact, you may write a contract of any length describing the task the creature must complete before the pact expires, along with any additional promises or protections you agree to provide. While bound by the pact, the creature gains +10 AC, Resistance to all damage types, +50 maximum Health, +80 maximum Vitality, +8 Damage Mitigation, Immunity to Frightened, Charmed, and Forced Movement, and Advantage on CON and WIS saving throws. While at least one creature is bound by your Pact of Resilience, you gain +5 AC and +3 to all Saving Throws and +5 Damage Mitigation for each creature currently under contract. Whenever a bound creature takes damage, you regain Vitality equal to 15% of the damage taken (minimum 1), and whenever it succeeds on a saving throw or resists a condition, you regain 2 Health. If a bound creature fulfills its contract, the pact ends normally when its duration expires. If it fails to fulfill the contract before then, it immediately dies and you gain +15 maximum Health. If it dies by any means other than your own actions while still bound, you instead permanently gain +4 maximum Health. A Pact of Resilience is absolutely binding upon both parties: if you intentionally sabotage the creature's ability to fulfill the contract, or fail to uphold any promise or protection you agreed to provide, you immediately die. Creatures can only be under one infernal contract at a time.",
+      "upcast_rule": "x5, Double all numerical effects of this Pact, including all bonuses granted to both creatures, temporary or otherwise",
+      "range": "Touch",
+      "extra_effect": "Charmed+Frightened"
+    },
+    {
+      "name": "Infernal Contract: Pact of Dominion",
+      "mana": 60,
+      "affinity_required": 1,
+      "damage_type": "infernal",
+      "description": "Offer a Pact of Dominion to a willing creature for a duration of 1 to 24 hours. As part of the pact, you may write a contract of any length describing the task the creature must complete before the pact expires, along with any additional promises you agree to provide. While bound by the pact, the creature becomes an Infernal Champion, gaining +3 to all d20 rolls, +25 ft Movement Speed, Resistance to all damage types, Immunity to Fear, Charm, and Mind Control, +15 Infernal Affinity and learns the spell Infernal Cataclysm. While at least one creature is bound by your Pact of Dominion, you gain +1 AP. Whenever a bound creature casts Infernal Cataclysm, you regain Mana equal to 25% of the spell's Mana Cost (rounded down). If a bound creature fulfills its contract, the pact ends normally when its duration expires. If it fails to fulfill the contract before then, it immediately dies and you permanently gain +10 maximum Health, +20 maximum Vitality, and +1 maximum Mana. If it dies by any means other than your own actions while still bound, you instead permanently gain +5 maximum Health, +5 maximum Vitality, and +1 maximum Mana. A Pact of Dominion is absolutely binding upon both parties: if you intentionally sabotage the creature's ability to fulfill the contract, or fail to uphold any promise or benefit you agreed to provide, you immediately die. Creatures can only be under one infernal contract at a time.",
+      "upcast_rule": "x5, Double all numerical effects of this Pact, including all bonuses granted to both creatures, temporary or otherwise",
+      "range": 30
+    },
+    {
       "name": "Hellfire Orb",
       "mana": 16,
-      "affinity_required": 6,
-      "damage_dice": "4d8",
-      "damage_type": "infernal",
-      "attack_roll": true,
-      "aoe_radius": 20,
-      "extra_effect": "Hellfire",
       "description": "Hurl a dark fire orb. Make a separate spell attack against each creature within a 20 ft radius of impact. On hit, deal 4d8 Infernal damage and apply Hellfire.",
-      "upcast_rule": "Devil\u2019s Brand",
-      "range": 120
+      "damage_type": "infernal",
+      "range": 120,
+      "damage_dice": "4d8",
+      "extra_effect": "Hellfire",
+      "affinity_required": 6,
+      "attack_roll": true,
+      "upcast_rule": "Devil\u2019s Brand"
     },
     {
       "name": "Desperate Pact",
       "mana": 12,
-      "affinity_required": 11,
-      "damage_dice": "5d8",
-      "damage_type": "infernal",
       "description": "Touch a willing creature. It gains +2 to all d20 rolls for 2 turns. If it drops below 25% of its max HP while the pact is active, the pact ends early and it takes 5d8 Infernal damage.",
-      "upcast_rule": "x2, +1 turn duration and +2 to rolls",
-      "range": "Touch"
+      "damage_type": "infernal",
+      "range": "Touch",
+      "damage_dice": "5d8",
+      "affinity_required": 11,
+      "upcast_rule": "x2, +1 turn duration and +2 to rolls"
     },
     {
       "name": "Devil\u2019s Brand",
       "mana": 24,
+      "description": "Make a spell attack. On hit, deal 6d8 Infernal damage and brand the target with Hellfire for 3 turns. While branded, if the target damages one of your allies, it immediately takes 4d8 Infernal damage.",
+      "damage_type": "infernal",
+      "range": 90,
+      "damage_dice": "6d8",
+      "extra_effect": "Hellfire",
       "affinity_required": 11,
       "cha_required": 19,
-      "damage_dice": "6d8",
-      "damage_type": "infernal",
       "attack_roll": true,
-      "extra_effect": "Hellfire",
-      "description": "Make a spell attack. On hit, deal 6d8 Infernal damage and brand the target with Hellfire for 3 turns. While branded, if the target damages one of your allies, it immediately takes 4d8 Infernal damage.",
-      "upcast_to": "Pitflame Circuit",
-      "range": 90
+      "upcast_to": "Pitflame Circuit"
     },
     {
       "name": "Pitflame Circuit",
       "mana": 43,
+      "description": "Choose up to 3 creatures you can see. Make separate spell attacks. On hit, each takes 8d8 Infernal damage and gains Hellfire. If two branded targets move within 10 ft of each other, both take 4d8 Infernal damage once per turn.",
+      "damage_type": "infernal",
+      "range": 120,
+      "damage_dice": "8d8",
+      "extra_effect": "Hellfire",
       "affinity_required": 16,
       "cha_required": 21,
-      "damage_dice": "8d8",
-      "damage_type": "infernal",
       "attack_roll": true,
-      "extra_effect": "Hellfire",
-      "description": "Choose up to 3 creatures you can see. Make separate spell attacks. On hit, each takes 8d8 Infernal damage and gains Hellfire. If two branded targets move within 10 ft of each other, both take 4d8 Infernal damage once per turn.",
-      "upcast_to": "Contract Pyre",
-      "range": 120
+      "upcast_to": "Contract Pyre"
     },
     {
       "name": "Contract Pyre",
       "mana": 60,
+      "description": "Choose one creature. It must make a Charisma save. On fail, take 10d8 Infernal damage, gain Hellfire, and for 2 turns whenever it casts a spell or uses a magical ability it takes 5d8 Infernal damage.",
+      "damage_type": "infernal",
+      "range": 120,
+      "damage_dice": "10d8",
+      "extra_effect": "Hellfire",
+      "save": "cha",
       "affinity_required": 21,
       "cha_required": 23,
-      "damage_dice": "10d8",
-      "damage_type": "infernal",
-      "save": "cha",
-      "attack_roll": false,
-      "extra_effect": "Hellfire",
-      "description": "Choose one creature. It must make a Charisma save. On fail, take 10d8 Infernal damage, gain Hellfire, and for 2 turns whenever it casts a spell or uses a magical ability it takes 5d8 Infernal damage.",
-      "upcast_to": "Thronefire",
-      "range": 120
+      "upcast_to": "Thronefire"
     },
     {
       "name": "Thronefire",
       "mana": 88,
+      "description": "A circle of infernal law ignites. Creatures in the area must make a Charisma save. On fail, take 12d8 Infernal damage, gain Hellfire, and for 3 turns take 4d8 Infernal damage whenever they attack, cast, or move more than 15 ft in a turn.",
+      "damage_type": "infernal",
+      "range": 150,
+      "damage_dice": "12d8",
+      "extra_effect": "Hellfire",
+      "save": "cha",
+      "aoe_radius": 25,
       "affinity_required": 26,
       "cha_required": 27,
-      "damage_dice": "12d8",
-      "damage_type": "infernal",
-      "save": "cha",
-      "attack_roll": false,
-      "aoe_radius": 25,
-      "extra_effect": "Hellfire",
-      "description": "A circle of infernal law ignites. Creatures in the area must make a Charisma save. On fail, take 12d8 Infernal damage, gain Hellfire, and for 3 turns take 4d8 Infernal damage whenever they attack, cast, or move more than 15 ft in a turn.",
-      "upcast_rule": "x2, +4d8 entry damage and +2d8 trigger damage",
-      "range": 150
+      "upcast_rule": "x2, +4d8 entry damage and +2d8 trigger damage"
     }
   ],
   "Lightning": [
@@ -1395,106 +1503,111 @@
   ],
   "Metal": [
     {
+      "name": "Molten Carapace",
+      "mana": 15,
+      "affinity_required": 1,
+      "damage_dice": "1d8",
+      "damage_type": "metal",
+      "damage_flat": 0,
+      "description": "Concentration. While active you gain +4 AC and +15 Damage Mitigation. Any creature that hits you with a melee attack takes 1d8 Infernal + 1d4 Metal damage. As an Action while this spell is active, you may vent the stored heat in a concentrated burst: all creatures within 15 ft of you must make a DEX save (DC 14 + Metal Save DC Bonus) or take 2d8 Metal + 1d8 Infernal damage (half damage on success), after which the spell ends.",
+      "concentration": true,
+      "upcast_rule": "x2, +1d8 to both damage types",
+      "range": "Self",
+      "save_half": true,
+      "aoe_self": true
+    },
+    {
       "name": "Mend",
       "mana": 9,
-      "affinity_required": 6,
-      "damage_type": "metal",
       "description": "Repair a non-magical object or construct up to 1 ft cube. Cracks seal, breaks rejoin. Cannot restore destroyed items.",
-      "upcast_rule": "x2, repair up to 3 ft cube",
+      "damage_type": "metal",
       "range": "Touch",
-      "aoe_radius": 1,
-      "aoe_cube": true
+      "affinity_required": 6,
+      "upcast_rule": "x2, repair up to 3 ft cube"
     },
     {
       "name": "Iron Grave",
       "mana": 13,
-      "affinity_required": 6,
-      "damage_dice": "4d8",
-      "damage_type": "metal",
-      "save": "str",
-      "save_half": true,
-      "attack_roll": false,
-      "extra_effect": "Hurting+Grappled+Pierced",
       "description": "Choose a creature you can see within range. Jagged metal spikes erupt from the ground and surrounding space, snapping inward with crushing force. The target must make a Strength save. On a failure, it takes 4d8 Metal damage, becomes Grappled (DC = Spell Save DC), and gains Pierced. While Grappled in this way, the creature is considered Pinned: it cannot stand up, cannot be moved by external effects, and cannot take Dash or Disengage actions. At the start of each of its turns while pinned, it gains 2 stacks of Hurting as the metal tightens. On a success, the creature takes half damage and is not Grappled, but still gains Pierced.",
-      "upcast_to": "Iron Dominion",
-      "range": 30
+      "damage_type": "metal",
+      "range": 30,
+      "damage_dice": "4d8",
+      "extra_effect": "Hurting+Grappled+Pierced",
+      "save": "str",
+      "affinity_required": 6,
+      "save_half": true,
+      "upcast_to": "Iron Dominion"
     },
     {
       "name": "Iron Dominion",
       "mana": 28,
+      "description": "Choose a point you can see. Metallic structures erupt violently from the ground in a 15 ft radius, forming spikes, walls, and cages simultaneously. Creatures in the area must make a Strength save. On a failure, they take 8d8 Metal damage, become Grappled, gain Pierced, and have their movement reduced to 0 while inside the structure. While Grappled this way, they take 3 stacks of Hurting per turn instead of 2. The terrain becomes Impassable Terrain for all creatures except the caster. On a success, creatures take half damage and are not Grappled but must treat the area as Difficult Terrain.",
+      "damage_type": "metal",
+      "range": 60,
+      "damage_dice": "8d8",
+      "extra_effect": "Hurting+Grappled+Difficult Terrain+Pierced",
+      "save": "str",
+      "aoe_radius": 15,
       "affinity_required": 11,
       "con_required": 17,
-      "damage_dice": "8d8",
-      "damage_type": "metal",
-      "save": "str",
       "save_half": true,
-      "attack_roll": false,
-      "aoe_radius": 15,
-      "extra_effect": "Hurting+Grappled+DifficultTerrain+DifficultTerrain+Pierced",
-      "description": "Choose a point you can see. Metallic structures erupt violently from the ground in a 15 ft radius, forming spikes, walls, and cages simultaneously. Creatures in the area must make a Strength save. On a failure, they take 8d8 Metal damage, become Grappled, gain Pierced, and have their movement reduced to 0 while inside the structure. While Grappled this way, they take 3 stacks of Hurting per turn instead of 2. The terrain becomes Impassable Terrain for all creatures except the caster. On a success, creatures take half damage and are not Grappled but must treat the area as Difficult Terrain.",
-      "upcast_to": "Steel Catacomb",
-      "range": 60
+      "upcast_to": "Steel Catacomb"
     },
     {
       "name": "Blade Barrier",
       "mana": 21,
-      "affinity_required": 13,
-      "damage_dice": "6d8",
-      "damage_type": "metal",
-      "save": "dex",
-      "attack_roll": false,
-      "concentration": true,
-      "extra_effect": "Pierced",
-      "save_half": true,
       "description": "Whirling metal blades form a wall for 3 turns. Creatures passing through must make a Dex save. On fail, they take 6d8 Metal damage and gain Pierced. On success, they take half damage. The wall blocks line of sight and movement. This spell requires Concentration.",
-      "upcast_rule": "x2, +15 ft wall length",
-      "range": 60
+      "damage_type": "metal",
+      "range": 60,
+      "damage_dice": "6d8",
+      "extra_effect": "Pierced",
+      "affinity_required": 13,
+      "concentration": true,
+      "save_half": true,
+      "upcast_rule": "x2, +15 ft wall length"
     },
     {
       "name": "Steel Catacomb",
       "mana": 46,
+      "description": "A massive prison of metal forms instantly, enclosing the area in a crushing lattice. Creatures must make a Strength save. On a failure, they take 10d8 Metal damage, become Grappled, gain Pierced, and are fully Restrained (cannot take Actions that require movement or weapon use requiring space). At the start of each turn, they take 4 stacks of Hurting. If they fail their escape check by 5 or more, they instead take an additional 6d8 Metal damage as the structure crushes inward.",
+      "damage_type": "metal",
+      "range": 90,
+      "damage_dice": "10d8",
+      "extra_effect": "Hurting+Grappled+Restrained+Pierced",
+      "save": "str",
+      "aoe_radius": 20,
       "affinity_required": 16,
       "con_required": 19,
-      "damage_dice": "10d8",
-      "damage_type": "metal",
-      "save": "str",
-      "attack_roll": false,
-      "aoe_radius": 20,
-      "extra_effect": "Hurting+Grappled+Restrained+Pierced",
-      "description": "A massive prison of metal forms instantly, enclosing the area in a crushing lattice. Creatures must make a Strength save. On a failure, they take 10d8 Metal damage, become Grappled, gain Pierced, and are fully Restrained (cannot take Actions that require movement or weapon use requiring space). At the start of each turn, they take 4 stacks of Hurting. If they fail their escape check by 5 or more, they instead take an additional 6d8 Metal damage as the structure crushes inward.",
-      "upcast_to": "Iron Judgment",
-      "range": 90
+      "upcast_to": "Iron Judgment"
     },
     {
       "name": "Iron Judgment",
       "mana": 73,
+      "description": "The battlefield is forcibly reshaped into a killing structure. All creatures in the area must make a Strength save. On a failure, they take 12d8 Metal damage, become Grappled, gain Pierced, and are Pinned and Restrained simultaneously. At the start of each turn, they take 5 stacks of Hurting, and cannot regain movement by any means except escaping the grapple. Any forced movement into or out of the structure deals 8d8 Metal damage due to tearing metal edges.",
+      "damage_type": "metal",
+      "range": 120,
+      "damage_dice": "12d8",
+      "extra_effect": "Hurting+Grappled+Restrained+Pierced",
+      "save": "str",
+      "aoe_radius": 25,
       "affinity_required": 21,
       "con_required": 21,
-      "damage_dice": "12d8",
-      "damage_type": "metal",
-      "save": "str",
-      "attack_roll": false,
-      "aoe_radius": 25,
-      "extra_effect": "Hurting+Grappled+Restrained+Pierced",
-      "description": "The battlefield is forcibly reshaped into a killing structure. All creatures in the area must make a Strength save. On a failure, they take 12d8 Metal damage, become Grappled, gain Pierced, and are Pinned and Restrained simultaneously. At the start of each turn, they take 5 stacks of Hurting, and cannot regain movement by any means except escaping the grapple. Any forced movement into or out of the structure deals 8d8 Metal damage due to tearing metal edges.",
-      "upcast_to": "Worldforge Collapse",
-      "range": 120
+      "upcast_to": "Worldforge Collapse"
     },
     {
       "name": "Worldforge Collapse",
       "mana": 120,
+      "description": "The entire area collapses into a dense, grinding mass of metal. All creatures must make a Strength save. On a failure, they take 14d8 Metal damage, become Pinned, Restrained, and gain Pierced. At the start of each turn, they take 6 stacks of Hurting and 6d8 Metal damage if they fail to escape. Any creature that escapes is immediately pushed out and takes 6d8 Metal damage from tearing free. On a success, they take half damage and are not restrained but still gain Pierced.",
+      "damage_type": "metal",
+      "range": 150,
+      "damage_dice": "14d8",
+      "extra_effect": "Hurting+Restrained+Pierced",
+      "save": "str",
+      "aoe_radius": 30,
       "affinity_required": 26,
       "con_required": 23,
-      "damage_dice": "14d8",
-      "damage_type": "metal",
-      "save": "str",
       "save_half": true,
-      "attack_roll": false,
-      "aoe_radius": 30,
-      "extra_effect": "Hurting+Restrained+Pierced",
-      "description": "The entire area collapses into a dense, grinding mass of metal. All creatures must make a Strength save. On a failure, they take 14d8 Metal damage, become Pinned, Restrained, and gain Pierced. At the start of each turn, they take 6 stacks of Hurting and 6d8 Metal damage if they fail to escape. Any creature that escapes is immediately pushed out and takes 6d8 Metal damage from tearing free. On a success, they take half damage and are not restrained but still gain Pierced.",
-      "upcast_rule": "x2, +8d8 damage and +1 Hurting stack per turn",
-      "range": 150
+      "upcast_rule": "x2, +8d8 damage and +1 Hurting stack per turn"
     }
   ],
   "Miasma": [
@@ -1621,7 +1734,7 @@
       "attack_roll": false,
       "aoe_radius": 20,
       "concentration": true,
-      "extra_effect": "DifficultTerrain",
+      "extra_effect": "Difficult Terrain",
       "description": "Fill an area with false bodies, false terrain, and false openings for 3 turns. Creatures inside treat all movement as Difficult Terrain unless they pass a Wisdom save at the start of turn. On failure, they also cannot make opportunity attacks that turn. Concentration.",
       "upcast_to": "Sovereign Reflection",
       "range": 90
@@ -1650,7 +1763,7 @@
       "attack_roll": false,
       "aoe_cone": true,
       "aoe_radius": 40,
-      "extra_effect": "Prone+DifficultTerrain+Slowed",
+      "extra_effect": "Prone+Difficult Terrain+Slowed",
       "description": "A wave of sludge surges out. Creatures in the cone must make a Dexterity save or take 2d6 Mud damage, fall Prone, and gain Slowed for 1 turn. The area becomes Difficult Terrain until the end of your next turn.",
       "upcast_to": "Sinkstep",
       "range": 40
@@ -1677,7 +1790,7 @@
       "attack_roll": false,
       "aoe_radius": 20,
       "concentration": true,
-      "extra_effect": "Prone+DifficultTerrain+Slowed",
+      "extra_effect": "Prone+Difficult Terrain+Slowed",
       "description": "Turn ground you can see into deep mire for 3 turns. The area is Difficult Terrain, and creatures entering it or ending their turn there gain Slowed for 1 turn. A creature that dashes in the area must make a Dexterity save or fall Prone immediately. Concentration.",
       "upcast_to": "Bog Drag",
       "range": 60
@@ -1720,7 +1833,7 @@
       "damage_type": "necrotic",
       "description": "Deal 2d6 Necrotic damage to a creature. One ally within 30 ft of the target heals for half the damage dealt.",
       "upcast_rule": "x2, +2d6 damage and healing",
-      "range": "30 ft"
+      "range": 30
     },
     {
       "name": "Bane",
@@ -1898,12 +2011,14 @@
       "mana": 12,
       "description": "Spray a cone of razor-sharp obsidian shards. Creatures in the cone must make a Dex save. On fail, they take 5d8 Obsidian damage and gain Pierced. On success, they take half damage.",
       "damage_type": "obsidian",
-      "range": "30 ft cone",
+      "range": 30,
       "damage_dice": "5d8",
       "extra_effect": "Pierced",
       "affinity_required": 9,
       "save_half": true,
-      "upcast_rule": "x2, +3d8 damage"
+      "upcast_rule": "x2, +3d8 damage",
+      "aoe_radius": 30,
+      "aoe_cone": true
     },
     {
       "name": "Obsidian Skin",
@@ -2068,6 +2183,47 @@
     }
   ],
   "Psychic": [
+    {
+      "name": "Hypnotic Gaze",
+      "mana": 5,
+      "description": "Choose a creature you can see within range. It must make a WIS save (DC 10 + your Save DC Bonus). On a failure it is [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\",
+      "damage_type": "psychic",
+      "range": 30,
+      "upcast_rule": "Hypnotized]] for 1 turn. A creature Hypnotized this way cannot take actions or move of its own accord. The effect ends if the creature takes damage. After 5 upcasts (or after Glimmerwing Tier 9) the damage removal of the condition is removed, instead when a creature takes damage they may make a WIS save (DC 10 + Save DC Bonus), on success they lose the Hypnotized condition. On a success nothing happens and the creature is unaware of the attempt."
+    },
+    {
+      "name": "Dream Slip",
+      "mana": 10,
+      "description": "As a Reaction (Rp), you may give an attacker who just missed their attack against you the [[2.4 Conditions#Environmental / Positional Conditions\\",
+      "damage_type": "psychic",
+      "upcast_rule": "Unconscious]] condition until the start of your next turn."
+    },
+    {
+      "name": "Mass Hypnosis",
+      "mana": 18,
+      "description": "Choose a point you can see within range. All creatures in a 20 ft radius must make a WIS save (DC 10 + your Save DC Bonus). On a failure they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\",
+      "damage_type": "psychic",
+      "range": 60,
+      "aoe_radius": 20,
+      "upcast_rule": "Hypnotized]] for 10 turns. On a success they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\"
+    },
+    {
+      "name": "Thought Reading",
+      "mana": 20,
+      "description": "Concentration. You may read surface thoughts (GM's Digression) of a creature within 30 ft that fails a WIS save, the creature may make an additional WIS save at the start of each turn, on success you can no longer read their thoughts and they are aware you have been reading them, if you end the spell willingly they will not be aware.",
+      "damage_type": "psychic",
+      "range": 30
+    },
+    {
+      "name": "Dream Master",
+      "mana": 30,
+      "description": "You may enter the mind of an unconscious target. While you are inside their mind, time is frozen in the outside world and you may converse freely. While inside a creature\u2019s mind, all attacks deal psychic damage. All resistances and immunities are ignored. Your Health and Vitality pools are fully restored at the start of entering this state but leaving it will revert it to the original state or the new state whichever is lower. You gain triple advantage on Intimidation checks while inside someone\u2019s mind, along with a flat +5 bonus. On its turn, the creature whose mind you are in may attempt a Wisdom saving throw to banish you. On a success, you are forcibly removed and take 2d10 psychic damage (ignoring resistances and immunities). On a failure, the creature gains the [[2.4 Conditions#Mental-Conditions\\",
+      "damage_type": "psychic",
+      "range": "Touch",
+      "damage_dice": "2d10",
+      "extra_effect": "Frozen+Unconscious",
+      "upcast_rule": "Demoralized]] condition. After failing 3 times, it gains the [[2.4 Conditions#Mental-Conditions\\"
+    },
     {
       "name": "Steady Mind",
       "mana": 6,
@@ -2251,6 +2407,15 @@
     }
   ],
   "Radiant": [
+    {
+      "name": "Moonbeam",
+      "mana": 10,
+      "description": "A 5 ft radius cylinder of pale moonlight descends on a point you can see for 3 turns. When the beam appears and at the start of each of your turns while it persists, each creature in the beam must make a CON save (DC 10 + your Save DC Bonus). On a failure they take 3d8 Radiant damage and become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "damage_type": "radiant",
+      "range": 90,
+      "damage_dice": "3d8",
+      "upcast_rule": "Blinded]] for 1 turn. On a success they take half damage and are not Blinded. A creature that enters the beam for the first time on a turn or ends its turn there also triggers this save. Undead and creatures with the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Magical-Conditions\\"
+    },
     {
       "name": "Manaskin",
       "mana": 6,
@@ -3221,17 +3386,6 @@
       "range": 60
     },
     {
-      "name": "Mana Drain",
-      "mana": 12,
-      "affinity_required": 11,
-      "damage_dice": "4d8",
-      "damage_type": "void",
-      "attack_roll": true,
-      "description": "Make a spell attack. On hit, the target loses 4d6 Mana. You regain half the mana drained. If the target has no mana, it instead takes 4d8 Void damage.",
-      "upcast_rule": "x2, +2d6 mana drained",
-      "range": 60
-    },
-    {
       "name": "Void Slash",
       "mana": 8,
       "affinity_required": 11,
@@ -3241,6 +3395,17 @@
       "description": "Make a melee spell attack with a blade of nothingness. On hit, deal 8d8 Void damage. If this kills a target or destroys an object, the remains are erased completely.",
       "upcast_to": "Null Edge",
       "range": "Touch"
+    },
+    {
+      "name": "Mana Drain",
+      "mana": 12,
+      "affinity_required": 11,
+      "damage_dice": "4d8",
+      "damage_type": "void",
+      "attack_roll": true,
+      "description": "Make a spell attack. On hit, the target loses 4d6 Mana. You regain half the mana drained. If the target has no mana, it instead takes 4d8 Void damage.",
+      "upcast_rule": "x2, +2d6 mana drained",
+      "range": 60
     },
     {
       "name": "Anti-Magic Zone",
@@ -3457,11 +3622,11 @@
       "save": "str",
       "save_half": true,
       "attack_roll": false,
-      "aoe_radius": 20,
+      "aoe_radius": 15,
       "extra_effect": "Soaked+Suffocating+Demoralized",
       "description": "Creatures in the area must make a Strength save. On a failure they take 5d8 Deluge damage, are pulled up to 15 ft toward the center of the spell, gain Soaked, and become Demoralized. Any creature already Soaked instead gains Suffocating until the start of its next turn. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
       "upcast_to": "Abyssal Weight",
-      "range": "90 ft (15 ft radius)",
+      "range": 90,
       "concentration": true
     },
     {
@@ -3571,7 +3736,7 @@
       "name": "Revivify",
       "mana": 9,
       "description": "Instantly removes one level of exhaustion from the target.",
-      "upcast_rule": "x2 +1 additional level",
+      "upcast_rule": "x2, +1 additional level",
       "range": "Touch",
       "damage_type": "generic"
     },
@@ -3580,7 +3745,7 @@
       "mana": 9,
       "description": "Heal all creatures within range 1d4 + Generic Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Health",
       "upcast_rule": "x2, +10 ft range",
-      "range": "15 ft",
+      "range": 15,
       "extra_effect": "Heal",
       "damage_type": "generic"
     },
@@ -3589,7 +3754,7 @@
       "mana": 9,
       "description": "Heal all creatures within range 1d6 + Generic Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Vitality",
       "upcast_rule": "x2, +10 ft range",
-      "range": "15 ft",
+      "range": 15,
       "extra_effect": "Heal",
       "damage_type": "generic"
     },
@@ -3606,7 +3771,7 @@
       "mana": 10,
       "description": "Place an invisible ward on a creature that lasts 1 minute. The next time it would take damage, it instead heals for 2d8 + Healer Level HP, then the ward ends.",
       "upcast_rule": "x2, +1d8 healing, +1 instance of damage, x2 duration",
-      "range": "30 ft",
+      "range": 30,
       "extra_effect": "Invisible",
       "damage_type": "generic"
     },
@@ -3632,7 +3797,7 @@
       "concentration": true,
       "description": "Heal all creatures within range 1d4 + Generic Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Health at the start of your turn. This spell requires concentration",
       "upcast_rule": "x2, +10 ft range",
-      "range": "10 ft",
+      "range": 10,
       "extra_effect": "Heal",
       "damage_type": "generic"
     },
@@ -3642,7 +3807,7 @@
       "concentration": true,
       "description": "Heal all creatures within range 1d6 + Generic Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Vitality at the start of your turn. This spell requires concentration",
       "upcast_rule": "x2, +10 ft range",
-      "range": "10 ft",
+      "range": 10,
       "extra_effect": "Heal",
       "damage_type": "generic"
     },
@@ -3694,7 +3859,7 @@
       "extra_effect": "Blessed+Heal",
       "description": "Requires Concentration. Create a 15 ft radius zone. Allies inside cannot be targeted by hostile spells or attacks (area effects still affect them) and gain the Blessed condition (condition ends when you exit the Sanctuary). Allies inside heal 1d6 Vitality at the start of your turn.",
       "upcast_rule": "x2, +10 ft radius",
-      "range": "30 ft (15 ft zone)",
+      "range": 30,
       "damage_type": "generic"
     },
     {
@@ -3780,27 +3945,6 @@
       "damage_type": "generic"
     },
     {
-      "name": "Mana Bomb",
-      "mana": 15,
-      "int_required": 18,
-      "extra_prereqs": {
-        "affinities_at": {
-          "6": 3
-        }
-      },
-      "damage_formula": "10+affinity_mod/2",
-      "save": "dex",
-      "save_half": true,
-      "attack_roll": false,
-      "description": "Choose an affinity type you have at least 5 in choose a 10 ft area within range that you can see, that area explodes with magic dealing 10 + your Attack Damage Bonus for the chosen affinity damage to all creatures in the area who fail a Dex Save, on a success they take half.",
-      "upcast_to": "Mana Explosion",
-      "range": 60,
-      "affinity_required": 18,
-      "affinities_at_required": 6,
-      "affinities_at_count": 3,
-      "damage_type": "generic"
-    },
-    {
       "name": "Mana Explosion",
       "mana": 20,
       "extra_prereqs": {
@@ -3839,6 +3983,27 @@
       "affinity_required": 16,
       "affinities_at_required": 16,
       "affinities_at_count": 4,
+      "damage_type": "generic"
+    },
+    {
+      "name": "Mana Bomb",
+      "mana": 15,
+      "int_required": 18,
+      "extra_prereqs": {
+        "affinities_at": {
+          "6": 3
+        }
+      },
+      "damage_formula": "10+affinity_mod/2",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "description": "Choose an affinity type you have at least 5 in choose a 10 ft area within range that you can see, that area explodes with magic dealing 10 + your Attack Damage Bonus for the chosen affinity damage to all creatures in the area who fail a Dex Save, on a success they take half.",
+      "upcast_to": "Mana Explosion",
+      "range": 60,
+      "affinity_required": 18,
+      "affinities_at_required": 6,
+      "affinities_at_count": 3,
       "damage_type": "generic"
     }
   ],
@@ -3908,7 +4073,7 @@
       "aoe_self": true,
       "description": "This spell requires concentration. While concentrating all creatures in range which you choose have -4 to all d20 rolls. You may spend any number of BAp to make spell attack rolls against creatures within the radius, on hit they gain 1 stack of the Taboo condition and take 1d4 Cursed damage. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
       "upcast_rule": "x2, -1 to d20, +1 taboo stack, +1d6 damage",
-      "range": "25 ft radius",
+      "range": 25,
       "extra_effect": "Cursed+Taboo"
     }
   ],
@@ -3922,7 +4087,7 @@
       "damage_type": "tremor",
       "description": "Choose a creature you can see. It must make a Wisdom save. On a failure it takes 3d8 Tremor damage and gains Demoralized. Until the end of your next turn, the next time that creature takes damage from any source it takes an additional 2d8 Tremor damage and is knocked Prone.",
       "upcast_to": "Aftershock",
-      "range": "60 ft",
+      "range": 60,
       "extra_effect": "Prone+Demoralized"
     },
     {
@@ -3936,7 +4101,7 @@
       "aoe_radius": 15,
       "description": "The ground violently shakes beneath creatures in the area. Each creature must make a Strength save. On a failure it takes 5d8 Tremor damage, becomes Prone, and gains Demoralized. Any creature already suffering Demoralized instead gains Despair for 1 turn.",
       "upcast_to": "Resonance Cascade",
-      "range": "90 ft (15 ft radius)",
+      "range": 90,
       "extra_effect": "Prone+Demoralized+Despair"
     },
     {
@@ -3949,7 +4114,7 @@
       "aoe_radius": 20,
       "description": "A chain reaction of mental and physical shockwaves tears through the area. Creatures must make both a Strength save and a Wisdom save. If they fail either save they take 8d8 Tremor damage. If they fail both they also gain Despair and cannot cast spells until the end of their next turn. For the next 2 turns, whenever an affected creature takes damage it takes an additional 1d8 Tremor damage.",
       "upcast_to": "Faultline of The Mind",
-      "range": "120 ft (20 ft radius)",
+      "range": 120,
       "extra_effect": "Despair"
     },
     {
@@ -3963,7 +4128,7 @@
       "aoe_line": true,
       "description": "Tear open a massive imaginary faultline. Creatures in the line must make a Wisdom save. On a failure they take 10d8 Tremor damage, gain Despair, and become Stunned for 1 turn. Any creature already suffering Demoralized, Despair, Frightened, or Psychic Drain instead automatically takes an additional 5d8 Tremor damage. Affected creatures will believe the faultline to be real.",
       "upcast_to": "Worldbreaker Resonance",
-      "range": "120 ft (30 ft line)",
+      "range": 120,
       "extra_effect": "Stunned+Frightened+Demoralized+Despair+Psychic Drain"
     },
     {
@@ -3976,7 +4141,7 @@
       "aoe_radius": 40,
       "description": "A catastrophic resonance spreads through reality itself. Creatures must make a Strength save and a Wisdom save. On a failure of either they take 14d8 Tremor damage, become Prone, gain Despair for 3 turns, and cannot gain advantage on any rolls for the duration. For the next 3 turns, whenever an affected creature takes damage from any source it immediately takes an additional 4d8 Tremor damage.",
       "upcast_rule": "x2, +8d8 damage, +4d8 residual damage",
-      "range": "150 ft (40 ft radius)",
+      "range": 150,
       "extra_effect": "Prone+Despair",
       "save": "str"
     }
@@ -3991,7 +4156,7 @@
       "damage_type": "deluge",
       "description": "Choose a creature you can see. It must make a Wisdom save. On a failure it takes 3d8 Deluge damage, gains Soaked, and becomes Demoralized. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
       "upcast_to": "Undertow",
-      "range": "60 ft",
+      "range": 60,
       "extra_effect": "Soaked+Demoralized",
       "concentration": true
     },
@@ -4006,7 +4171,7 @@
       "aoe_radius": 15,
       "description": "Creatures in the area must make a Strength save. On a failure they take 5d8 Deluge damage, are pulled up to 15 ft toward the center of the spell, gain Soaked, and become Demoralized. Any creature already Soaked instead gains Suffocating until the start of its next turn. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
       "upcast_to": "Abyssal Weight",
-      "range": "90 ft (15 ft radius)",
+      "range": 90,
       "extra_effect": "Soaked+Suffocating+Demoralized",
       "concentration": true
     },
@@ -4020,7 +4185,7 @@
       "damage_type": "deluge",
       "description": "Choose a creature you can see. It must make a Constitution save. On a failure it takes 8d8 Deluge damage, gains Suffocating, and immediately loses 20% of its maximum Vitality. If the target already has Psychic Drain, it instead loses 40% of its maximum Vitality. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
       "upcast_to": "Black Tide",
-      "range": "120 ft",
+      "range": 120,
       "extra_effect": "Soaked+Suffocating+Psychic Drain",
       "concentration": true
     },
@@ -4035,7 +4200,7 @@
       "aoe_radius": 25,
       "description": "A crushing sea of dark water erupts from nowhere. Creatures in the area must make a Constitution save. On a failure they take 10d8 Deluge damage, gain Soaked and Suffocating, and cannot regain Vitality until the end of their next turn. Creatures already suffering Soaked, Suffocating, Demoralized, Despair, or Psychic Drain take an additional 4d8 Deluge damage. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
       "upcast_to": "Mariana Grave",
-      "range": "120 ft (25 ft radius)",
+      "range": 120,
       "extra_effect": "Soaked+Suffocating+Demoralized+Despair+Psychic Drain",
       "concentration": true
     },
@@ -4050,7 +4215,7 @@
       "aoe_radius": 35,
       "description": "The pressure of the deepest ocean descends upon the battlefield. Creatures must make a Constitution save. On a failure they take 15d8 Deluge damage, gain Soaked, Suffocating, and Despair for 3 turns. While affected, any Vitality they lose is lost directly from Health instead. If a creature begins its turn with the Soaked condition from this spell they take 4d8 Deluge damage. While Soaked from this spell, the creature has disadvantage on any checks made to maintain Concentration.",
       "upcast_rule": "x2, +10d8 Deluge damage",
-      "range": "150 ft (35 ft radius)",
+      "range": 150,
       "extra_effect": "Soaked+Suffocating+Despair",
       "concentration": true
     }
@@ -4065,7 +4230,7 @@
       "damage_type": "frostfire",
       "description": "Make a spell attack. On a hit the target takes 5d8 Frostfire damage and gains 1 stack of the Frostburned condition. If the target already has Burned, On Fire, Frozen, or Frostbitten, it takes an additional 2d8 Frostfire damage.",
       "upcast_to": "Thermal Rupture",
-      "range": "60 ft",
+      "range": 60,
       "extra_effect": "On Fire+Frozen+Burned+Frostbitten+Frostburned"
     },
     {
@@ -4079,7 +4244,7 @@
       "aoe_radius": 15,
       "description": "Creatures must make a Dexterity save. On a failure they take 8d8 Frostfire damage and gain 2 stacks of the Frostburned condition. If a creature is already suffering a Fire or Ice condition, all damage it takes from conditions is doubled until the start of its next turn. On success damage is halved and no Frostburned is gained.",
       "upcast_to": "Cryo-Inferno",
-      "range": "90 ft (15 ft radius)",
+      "range": 90,
       "upcast_rule": "Cryo-Inferno",
       "extra_effect": "Frostburned"
     },
@@ -4094,7 +4259,7 @@
       "aoe_radius": 20,
       "description": "A storm of burning ice engulfs the area. Creatures must make a Dexterity save. On a failure they take 10d8 Frostfire damage, gain 5x Frostburned, on success damage is halved and no Frostburned is gained.",
       "upcast_to": "Absolute Contradiction",
-      "range": "120 ft (20 ft radius)",
+      "range": 120,
       "extra_effect": "Frostburned"
     },
     {
@@ -4107,7 +4272,7 @@
       "damage_type": "frostfire",
       "description": "Choose a creature you can see. It must make a Constitution save. On a failure it takes 12d8 Frostfire damage and gain x10 Frostburned. For the next 3 turns, every time the creature takes damage which uses Fire or Ice/Cold as its damage type (or as a component of the damage type) they must make a Constitution save or gain an additional 3 stacks of Frostburned per 5 damage taken (minimum of 3).",
       "upcast_to": "Heat Death",
-      "range": "120 ft",
+      "range": 120,
       "extra_effect": "Frostburned"
     },
     {
@@ -4121,7 +4286,7 @@
       "aoe_radius": 30,
       "description": "Creatures must make a Constitution save. On a failure they take 16d8 Frostfire damage and x20 Frostburned and gain the OnFire Condition and 10 stacks of Frostbitten.",
       "upcast_rule": "x2, +8d8 damage, +10 Frostburned stacks",
-      "range": "150 ft (30 ft radius)",
+      "range": 150,
       "extra_effect": "Frostbitten+Frostburned"
     }
   ],
@@ -4134,11 +4299,11 @@
       "damage_dice": "2d6",
       "damage_type": "glacial",
       "aoe_radius": 10,
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold Attack Damage Bonus (see [[2.1 Affinities#Attack Damage Bonus]]) Ice/Cold damage and apply 2 stacks of Frozen.",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\",
       "upcast_to": "Glacier Rise",
       "range": 30,
-      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
-      "extra_effect": "Frozen+Soaked",
+      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
+      "extra_effect": "Soaked",
       "attack_roll": true
     },
     {
@@ -4153,7 +4318,7 @@
       "damage_type": "glacial",
       "description": "Concentration. Raise a massive wall of ice up to 30 ft long, 10 ft tall, and 5 ft thick. The wall provides Full Cover and lasts 5 turns. Creatures adjacent to the wall at the start of their turn gain 3 stack of Frostbitten. The wall may be targeted and destroyed and has 50 + Glacial Affinity health hand 10 AC. When it is destroyed it explodes causing all creatures within 10 ft to make a DEX save or take 3d12 Glacial damage. While the wall if up the caster may expend BAp to shoot a shard of ice (spell attack) at creatures within 40 ft of the wall. On hit deal 3d10 Glacial damage and target gains 3 stacks of Frostbitten.",
       "upcast_to": "Whiteout Expanse",
-      "range": "90 ft",
+      "range": 90,
       "extra_effect": "Frostbitten"
     },
     {
@@ -4170,8 +4335,8 @@
       "save": "con",
       "description": "Concentration. A blizzard fills the area during concentration. Creatures inside have Blurred and must make a Constitution save at the start of each turn or gain 6 stacks of Frostbitten and become Soaked. The terrain becomes Difficult Terrain and line of sight through the area is blocked beyond 10 ft. While the blizzard is active the caster may expend BAp to target a creature in the Blizzard with the raining ice, the creature must make a Dex save or take 2d12 + 6 Glacial damage and gains 3 stacks of Frostbitten.",
       "upcast_to": "Moving Glacier",
-      "range": "120 ft (20 ft radius)",
-      "extra_effect": "Soaked+DifficultTerrain+Frostbitten+Blurred"
+      "range": 120,
+      "extra_effect": "Soaked+Difficult Terrain+Frostbitten+Blurred"
     },
     {
       "name": "Moving Glacier",
@@ -4201,10 +4366,138 @@
       "aoe_radius": 100,
       "description": "Concentration. Choose a point within range. A supernatural ice age instantly descends upon the area for concentration. When the spell is cast, all creatures in the area must make a Constitution save. On a failure they take 8d12 + 20 Glacial damage, gain Soaked, gain 8 stacks of Frostbitten, and are knocked Prone. On a success they take half damage and gain half as many Frostbitten stacks. The entire area becomes Difficult Terrain and is considered completely frozen over. At the start of each turn, every creature in the area gains 2 stacks of Frostbitten and takes 2d12 Glacial damage. Any creature that reaches 10 or more Frostbitten stacks immediately becomes Petrified for 1 turn as they are completely encased in ice. Massive glaciers continuously erupt from the frozen landscape. At the end of each of your turns choose up to three points within the affected area. From each point, a glacier 20 ft long, 5 ft wide, and 10 ft tall erupts and surges up to 30 ft in a direction of your choice. These glaciers use all rules from Moving Glacier except they deal half damage. Structures, walls, and terrain within the area become coated in magically reinforced ice, doubling their HP and AC. If a creature begins its turn both Soaked and Frostbitten within the area, it must immediately make a Constitution save or become Petrified for 1 turn. When the spell ends, every glacier and ice formation created by the spell violently shatters. All creatures still within the area (+50 ft) must make a Dexterity save, taking 10d12 + 20 Glacial damage on a failure or half as much on a success. Each time you summon a glacier from this spell effect it costs an additional 20 mana.",
       "upcast_rule": "x2, +100 ft radius, +2 Glaciers per turn",
-      "range": "300 ft (100 ft radius)",
-      "extra_effect": "Frozen+Soaked+Prone+DifficultTerrain+Frostbitten+Petrified",
+      "range": 300,
+      "extra_effect": "Frozen+Soaked+Prone+Difficult Terrain+Frostbitten+Petrified",
       "save_half": true,
       "concentration": true
+    }
+  ],
+  "Quantum": [
+    {
+      "name": "Photon Lance",
+      "mana": 1,
+      "affinity_required": 1,
+      "damage_flat": 10,
+      "damage_type": "quantum",
+      "attack_roll": true,
+      "description": "Make a ranged spell attack against a creature within range. This attack ignores all cover (including total cover), passes through walls and solid objects, and has a bonus +5 to hit (in addition to all normal spell attack bonuses). On hit, the target takes Quantum damage equal to your current Mana divided by 5 (rounded down).",
+      "range": 300,
+      "upcast_rule": "x2, mana divisor becomes 4"
+    },
+    {
+      "name": "Phase Walk",
+      "mana": 8,
+      "affinity_required": 1,
+      "damage_type": "quantum",
+      "description": "Concentration. As a Bonus Action, you become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\",
+      "costs_bonus_action": true,
+      "concentration": true,
+      "range": "Self",
+      "upcast_rule": "Intangible]] and [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\",
+      "aoe_self": true
+    },
+    {
+      "name": "Quantum Entanglement",
+      "mana": 12,
+      "affinity_required": 1,
+      "damage_type": "quantum",
+      "description": "Concentration. Choose two creatures or objects (under 1,000 lbs and 10x10x10 ft cube) within range (one may be yourself). They become Quantum Entangled. While entangled you may use a Bonus Action to instantly swap positions one with the other across any distance. If both entangled things are creatures, when one entangled creature would take damage, you may use your Reaction to split that damage evenly between both entangled creatures (you take any overflow damage). You may only maintain one entangled pair at a time; creating a new pair ends the previous entanglement.",
+      "concentration": true,
+      "range": 60,
+      "extra_effect": "Entangled"
+    },
+    {
+      "name": "Quantum Tunneling",
+      "mana": 18,
+      "affinity_required": 1,
+      "damage_flat": 0,
+      "damage_type": "quantum",
+      "extra_effect": "Vibrating x1",
+      "description": "As an Action, you instantly teleport to any unoccupied space you can see or have previously visited within range. This teleportation passes through all physical barriers, walls, magical wards, and anti-teleportation effects (with the exception of Alchemically Pure Metal). Upon arrival, all creatures within 10 ft of your destination, you, and all creature you brought with you, must make a CON save (DC 16 + your Quantum Save DC Bonus) or gain 1 stack of the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "upcast_rule": "Vibrating]] condition. You may bring one willing creature you are touching with you.",
+      "range": 500
+    },
+    {
+      "name": "Superposition",
+      "mana": 20,
+      "affinity_required": 1,
+      "damage_type": "quantum",
+      "description": "Concentration. As an Action, you create 3 quantum duplicates of yourself in unoccupied spaces within 10 ft. Duplicates have your AC, your movement speed, and 1 HP each. They act on your turn immediately after you and obey your commands. Each duplicate may move and take one of the following actions: Help, Dash, Disengage, or make a single weapon attack using your weapon's damage dice and your STR or DEX mod (dealing half damage, rounded down). Duplicates cannot cast spells or use items (other than your weapon). When a duplicate is reduced to 0 HP it vanishes. The duplicates are visually indistinguishable from you; enemies must succeed on a Search check (DC 10 + your CHA mod + your Racial Tier) to identify the real you.",
+      "concentration": true,
+      "upcast_rule": "x2, +1 Duplicate",
+      "range": "Self",
+      "save_half": true,
+      "aoe_self": true
+    },
+    {
+      "name": "Providence",
+      "mana": 200,
+      "affinity_required": 21,
+      "damage_type": "quantum",
+      "description": "Bonus Action. You collapse all probability into absolute certainty for the remainder of your turn. Every d20 roll you make this turn is treated as though you rolled a natural 20 (automatic critical success on attack rolls, saving throws, and skill checks). Every damage die you roll this turn is treated as though you rolled its maximum value. If used outside of combat the effect lasts 6 seconds.",
+      "costs_bonus_action": true,
+      "extra_effect": "NoAdvantage",
+      "upcast_to": "Reality Lance",
+      "range": "Self",
+      "aoe_self": true
+    },
+    {
+      "name": "Reality Lance",
+      "mana": 75,
+      "affinity_required": 41,
+      "int_required": 33,
+      "damage_flat": 100,
+      "damage_type": "quantum",
+      "aoe_line": true,
+      "aoe_radius": 1000,
+      "save": "dex",
+      "save_half": true,
+      "extra_effect": "Vibrating x6",
+      "description": "Fire a searing beam of quantum energy in a straight line. The beam passes through all cover, walls, and solid objects without obstruction. All creatures in the line must make a DEX save (DC 16 + your Quantum Save DC Bonus). On failure: 100 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "upcast_to": "Scintillate",
+      "range": 1000,
+      "upcast_rule": "Vibrating]] x6. On success: half damage and Vibrating x3. The beam continues for its full 1000 ft range regardless of what it passes through unless it his alchemcially pure metal which causes it to stop instantly."
+    },
+    {
+      "name": "Scintillate",
+      "mana": 90,
+      "affinity_required": 61,
+      "int_required": 37,
+      "damage_flat": 50,
+      "damage_type": "quantum",
+      "attack_roll": true,
+      "extra_effect": "Vibrating x4",
+      "description": "Fire 4 independently-targeted quantum beams from your position. You may aim each beam in any direction you choose. Each beam is a spell attack roll against a single creature of your choice in its path. Each beam passes through all cover, walls, and solid objects without obstruction, and you may choose any creature along the beam's 1000 ft line as its target (line of sight is not required, but you must know the creature's location). On hit: 50 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "upcast_to": "Bifurcate",
+      "range": 1000,
+      "upcast_rule": "Vibrating]] x4. On a miss: half damage and Vibrating x2. A single creature may be targeted by multiple beams."
+    },
+    {
+      "name": "Bifurcate",
+      "mana": 60,
+      "affinity_required": 81,
+      "int_required": 41,
+      "damage_type": "quantum",
+      "description": "Bonus Action. For the remainder of your turn, every projectile you fire is duplicated by a quantum twin. When you cast a spell that makes a spell attack roll with a single projectile, or when you make a ranged weapon attack, you simultaneously fire a second identical copy. The duplicate uses a separate attack roll, may be aimed at the same target or any other valid target within range, and benefits from all of your normal bonuses. Duplicated spells do not cost additional Mana and duplicated projectiles do not consume any additional resources. This effect applies to every qualifying attack and spell (any projectile or ranged attack) you make for the remainder of the turn.",
+      "costs_bonus_action": true,
+      "extra_effect": "NoAdvantage",
+      "upcast_to": "Cascade Ruin",
+      "range": "Self",
+      "attack_roll": true,
+      "aoe_self": true
+    },
+    {
+      "name": "Cascade Ruin",
+      "mana": 150,
+      "affinity_required": 101,
+      "int_required": 46,
+      "damage_dice": "15d20",
+      "damage_type": "quantum",
+      "attack_roll": true,
+      "extra_effect": "Vibrating x3",
+      "description": "Fire a cataclysmic quantum beam at a creature you can see. Make a spell attack with a bonus +12 to hit (in addition to all normal spell attack bonuses). The beam passes through all cover, walls, and solid objects. On hit: the target takes 100 Quantum damage and gains [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "upcast_rule": "Vibrating]] x3. Whether you hit or miss, the beam then splits, choose a new creature within 60 ft of the target the beam just struck (cannot be the creature the beam is currently splitting from; may be a creature struck by an earlier split). Make a new spell attack against the new target with the same bonuses. This split repeats up to 5 total targets. Each subsequent split deals 100 Quantum damage and applies +3 Vibrating stacks. Missing a split will cause the attack to stop splitting,",
+      "range": 500
     }
   ]
 }

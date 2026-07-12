@@ -176,6 +176,7 @@ def calculate_damage(char, settings):
             result['spell_name'] = spell_info['spell'].get('name', '')
             result['spell_element'] = spell_info.get('element', '')
             result['retal_dmg'] = retal_dmg
+            result['skip_info'] = spell_info.get('skip_info', {})
 
     result['per_turn'] = max(result['melee'], result['ranged'], result['magic'])
     result['attacks_per_turn'] = atk_per_round

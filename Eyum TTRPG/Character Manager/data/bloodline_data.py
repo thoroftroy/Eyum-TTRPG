@@ -15,9 +15,15 @@ BLOODLINE_DATA = {
       "10": {"affinity_points": 35}
     },
     "Halofade": {
-      "4": {"initiative": 2},
-      "6": {"speed": 10},
-      "10": {"magic_accuracy": 2}
+      "1": {"affinity_points": 2},
+      "2": {"ac_bonus": 3},
+      "4": {"speed": 5},
+      "5": {"affinity_points": 3},
+      "6": {"condition_save": True},
+      "7": {"affinity_points": 4},
+      "8": {"magic_accuracy": 3},
+      "9": {"affinity_points": 5},
+      "10": {"magic_accuracy": 5, "affinity_points": 10}
     },
     "Giant": {
       "2": {"ac_bonus": 1, "stat": {"str": 5}},
@@ -186,15 +192,28 @@ BLOODLINE_DATA = {
   },
   "Demon": {
     "Demon": {
-      "1": {"brawler_stacks": 0},
-      "5": {"speed": 10},
-      "6": {"ac_bonus": 3},
-      "10": {"melee_damage": 7}
+      "1": {"affinity_points": 3},
+      "2": {"ac_bonus": 2},
+      "3": {"spell_damage_mult": 1.1, "affinity_points": 2},
+      "4": {"affinity_points": 3},
+      "5": {"ac_bonus": 2, "affinity_points": 2},
+      "6": {"affinity_points": 3},
+      "7": {"affinity_points": 4},
+      "8": {"affinity_points": 3, "magic_accuracy": 2},
+      "9": {"ap": 1},
+      "10": {"affinity_points": 15, "magic_accuracy": 5}
     },
     "Ferramite": {
-      "1": {"ac_bonus": 1},
-      "6": {"ac_bonus": 2},
-      "10": {"crit_block": True}
+      "1": {"ac_bonus": 1, "affinity_points": 1},
+      "2": {"ac_bonus": 1, "speed": 10},
+      "3": {"ac_bonus": 2, "affinity_points": 2},
+      "4": {"affinity_points": 2},
+      "5": {"melee_damage": 5, "affinity_points": 2},
+      "6": {"ac_bonus": 2, "crit_block": True},
+      "7": {"melee_damage": 10},
+      "8": {"ac_bonus": 2, "weapon_group_accuracy": 3},
+      "9": {"ac_bonus": 5, "damage_reduction": 10},
+      "10": {"stat": {"str": 10, "con": 5}}
     },
     "Pyrrakin": {
       "7": {"extra_attack_bap": True}
@@ -258,61 +277,99 @@ BLOODLINE_DATA = {
   },
   "Bugfolk": {
     "Chitinfolk": {
-      "1": {"ac_bonus": 1},
-      "6": {"ac_bonus": 1},
-      "10": {"crit_block": True}
+      "1": {"ac_bonus": 2, "damage_reduction": 2},
+      "3": {"vit_per_level": 2},
+      "4": {"damage_reduction": 5},
+      "6": {"ac_bonus": 4, "damage_reduction": 8},
+      "10": {"ac_bonus": 3, "crit_block": True}
     },
     "Skorren": {
-      "1": {"brawler_stacks": 0},
+      "1": {"brawler_stacks": 2},
+      "3": {"brawler_stacks": 2},
       "6": {"ac_bonus": 1},
-      "7": {"extra_attack_bap": True}
+      "7": {"extra_attack_bap": True},
+      "10": {"brawler_stacks": 4}
     },
     "Kheprid": {
-      "1": {"ac_bonus": 1},
-      "5": {"damage_reduction": 2},
+      "1": {"brawler_stacks": 0, "weapon_group_accuracy": -2},
+      "5": {"damage_reduction": 2, "weapon_group_accuracy": 2},
       "6": {"ac_bonus": 1},
-      "9": {"damage_reduction": 6},
+      "8": {"damage_reduction": 7, "crit_block": True},
       "10": {"ac_bonus": 4, "second_chance": True}
     },
     "Verdleap": {
+      "1": {"speed": 10, "brawler_stacks": 0},
+      "3": {"speed": 10},
+      "5": {"speed": 15},
       "7": {"extra_attack_bap": True},
-      "10": {"rp": 2, "bap": 1, "speed": 25}
+      "10": {"rp": 2, "bap": 1, "speed": 20}
     },
     "Miregnat": {
       "1": {"fly_speed": 30},
-      "2": {"initiative": 2},
+      "2": {"ac_bonus": 1, "fly_speed": 10},
+      "3": {"affinity_points": 2},
+      "5": {"magic_accuracy": 2},
       "6": {"fly_speed": 10},
-      "10": {"ac_bonus": 5, "weapon_group_accuracy": 2, "magic_accuracy": 2}
+      "9": {"magic_accuracy": 2, "affinity_points": 3},
+      "10": {"ac_bonus": 5, "magic_accuracy": 3}
     },
     "Longweaver": {
-      "6": {"ac_bonus": 2}
+      "3": {"ac_bonus": 1},
+      "6": {"ac_bonus": 2, "affinity_points": 4},
+      "10": {"affinity_points": 6}
     },
     "Webjack": {
-      "1": {"brawler_stacks": 0},
-      "7": {"extra_attack_bap": True},
+      "1": {"brawler_stacks": 1, "weapon_group_accuracy": -2},
+      "3": {"brawler_stacks": 2},
+      "7": {"brawler_stacks": 2, "extra_attack_bap": True},
       "10": {"weapon_group_accuracy": 3, "melee_damage": 7}
     },
-    "Broodweaver": {},
+    "Broodweaver": {
+      "1": {"affinity_points": 2},
+      "3": {"affinity_points": 2},
+      "6": {"affinity_points": 3},
+      "10": {"affinity_points": 8}
+    },
     "Duskwing": {
-      "1": {"affinity_points": 1},
-      "9": {"magic_accuracy": 2, "affinity_points": 1},
-      "10": {"affinity_points": 3}
+      "1": {"affinity_points": 2},
+      "2": {"magic_accuracy": 1, "affinity_points": 1},
+      "4": {"ac_bonus": 3},
+      "7": {"fly_speed": 20},
+      "9": {"magic_accuracy": 2, "affinity_points": 2},
+      "10": {"magic_accuracy": 3, "affinity_points": 5}
     },
     "Glimmerwing": {
+      "1": {"affinity_points": 2},
+      "4": {"ac_bonus": 2},
+      "5": {"affinity_points": 4},
+      "7": {"fly_speed": 20},
       "10": {"affinity_points": 5, "magic_accuracy": 3}
     },
     "Twigwrought": {
-      "3": {"ac_bonus": 2},
-      "5": {"melee_damage": 5},
-      "10": {"weapon_group_accuracy": 3, "melee_damage": 3}
+      "1": {"affinity_points": 1},
+      "3": {"ac_bonus": 2, "affinity_points": 2},
+      "4": {"ac_bonus": 3},
+      "5": {"ac_bonus": 3},
+      "8": {"affinity_points": 3, "ac_bonus": 2},
+      "10": {"ac_bonus": 3, "weapon_group_accuracy": 5, "melee_damage": 5}
     },
     "Formid": {
-      "6": {"ac_bonus": 3},
-      "9": {"melee_damage": 14},
-      "10": {"stat": {"str": 5, "con": 10}}
+      "2": {"ac_bonus": 2},
+      "3": {"ac_bonus": 1, "brawler_stacks": 2},
+      "5": {"melee_damage": 10},
+      "6": {"ac_bonus": 4, "damage_reduction": 3},
+      "7": {"extra_attack_bap": True},
+      "9": {"melee_damage": 15},
+      "10": {"stat": {"str": 10, "con": 5}}
     },
     "Plateroll": {
-      "10": {"crit_block": True}
+      "1": {"ac_bonus": 2, "damage_reduction": 5},
+      "2": {"damage_reduction": 8},
+      "3": {"speed": 5, "ac_bonus": 1},
+      "5": {"damage_reduction": 5},
+      "6": {"brawler_stacks": 2},
+      "8": {"damage_reduction": 12, "crit_block": True},
+      "10": {"crit_block": True, "damage_reduction": 20}
     }
   },
   "Fishfolk": {
