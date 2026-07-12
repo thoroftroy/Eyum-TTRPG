@@ -29,7 +29,8 @@ def apply_level_progression(char, target_level, settings):
     prof = r['proficiency']
 
     elemental_cycle = ['Fire', 'Earth', 'Water', 'Air']
-    elem_idx = 0
+    # Handbook: player chooses which element each even level. Auto-pick best match
+    elem_cycle_order = list(elemental_cycle)
 
     for lvl in range(2, target_level + 1):
         char.level = lvl
@@ -43,9 +44,19 @@ def apply_level_progression(char, target_level, settings):
                 char.flat_vit += e2['if_physical']['flat_vit']
                 char.flat_hp += e2['if_physical']['flat_hp']
             if char.has_magical and 'if_magical' in e2:
-                elem = elemental_cycle[elem_idx % len(elemental_cycle)]
-                char.affinities[elem] = char.affinities.get(elem, 0) + e2['if_magical']['elemental_affinity']
-                elem_idx += 1
+                # Player choice: pick the highest-priority element from the cycle
+                # that matches best the character's affinities
+                best_elem = None
+                best_val = -1
+                for elem in elem_cycle_order:
+                    val = char.affinities.get(elem, 0)
+                    if val > best_val:
+                        best_val = val
+                        best_elem = elem
+                if best_elem is None:
+                    best_elem = elem_cycle_order[elem_idx % len(elemental_cycle)]
+                    elem_idx += 1
+                char.affinities[best_elem] = char.affinities.get(best_elem, 0) + e2['if_magical']['elemental_affinity']
             if any(p == 'Utility' for (p, a), v in char.archetype_levels.items() if v > 0) and 'if_utility' in e2:
                 char.skill_points += e2['if_utility']['skill_points']
 
@@ -221,11 +232,21 @@ def apply_paths(char, target_level, build_config, settings):
                 if idx > 0:
                     char.vit_die = die_order[idx - 1]
 
-    # Magician tier 5 applies only when 5+ whole levels achieved in Magician
+    # Magician tier 5 and 7: handbook says "choose to use either" — not stack/override.
+    # Store both options; player selects per cast via set_magician_tier().
     magician_whole_levels = char.archetype_whole_levels.get(('Magical', 'Magician'), 0)
-    if magician_whole_levels >= 5:
-        magician_t5 = paths_rules.get('Magical', {}).get('archetypes', {}).get('Magician', {}).get('5', {})
-        apply_effects(char, magician_t5, cost_table)
+    mag_archetype = paths_rules.get('Magical', {}).get('archetypes', {}).get('Magician', {})
+    if magician_whole_levels >= 5 and '5' in mag_archetype:
+        char._magician_has_2x = True
+        char._magician_damage_mult_2x = mag_archetype['5'].get('spell_damage_mult', 2)
+        char._magician_mana_mult_2x = mag_archetype['5'].get('spell_mana_mult', 4)
+        if char._magician_tier_choice is None:
+            char.set_magician_tier('2x')
+    if magician_whole_levels >= 7 and '7' in mag_archetype:
+        char._magician_has_3x = True
+        char._magician_damage_mult_3x = mag_archetype['7'].get('spell_damage_mult', 3)
+        char._magician_mana_mult_3x = mag_archetype['7'].get('spell_mana_mult', 6)
+        char.set_magician_tier('3x')
 
 
 def apply_per_level_bonuses(char, target_level):

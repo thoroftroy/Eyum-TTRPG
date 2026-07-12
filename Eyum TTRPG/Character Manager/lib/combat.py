@@ -140,47 +140,69 @@ def calculate_damage(char, settings):
                     if not si2.get('use_multiplier', True):
                         mn2 = 1
                     cost2 = si2['spell']['mana'] * mn2
-                    secondary_actions = max(0, char.ap - 1) + char.bap
-                    max_cast2 = max(1, char.mana_max(settings['rules']) // max(1, cost2)) if cost2 > 0 else secondary_actions
-                    casts2 = min(secondary_actions, max_cast2)
-                    best_total = int(spell_dmg + sd2 * casts2 + retal_dmg)
-                    best_secondary = (si2, sd2, casts2)
-                    
-                    # Try other non-concentration spells — a cheaper spell cast more times
-                    # might out-damage the highest per-cast spell with fewer casts
-                    mana_pool = char.mana_max(settings['rules'])
-                    spells_data = settings.get('spells', {})
-                    from .spells import check_spell_prereqs, spell_avg_damage
-                    affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
-                    primary = getattr(char, 'primary_affinity', None)
-                    for elem, slist in spells_data.items():
-                        for s in slist:
-                            if s.get('concentration'): continue
-                            if s['name'] == spell_info['spell'].get('name'): continue
-                            if s['name'] == si2['spell']['name']: continue
-                            elem_val = char.affinities.get(elem, 0)
-                            if not check_spell_prereqs(char, s, elem, elem_val, affinity_prereqs):
+                    secondary_actions = max(0, char.ap - 1) + char.bap // 2  # BAp converts to Ap at 2:1
+                    # Mana pool AFTER paying for the concentration spell
+                    mana_pool_for_secondary = char.mana_max(settings['rules']) - cost
+                    max_cast2 = mana_pool_for_secondary // max(1, cost2) if cost2 > 0 else secondary_actions
+                    if max_cast2 <= 0:
+                        result['magic'] = int(spell_dmg + retal_dmg)
+                        result['magic_dmg'] = spell_dmg
+                    else:
+                        casts2 = min(secondary_actions, max_cast2)
+                        best_total = int(spell_dmg + sd2 * casts2 + retal_dmg)
+                        best_secondary = (si2, sd2, casts2)
+                        
+                        # Try other non-concentration spells — a cheaper spell cast more times
+                        # might out-damage the highest per-cast spell with fewer casts.
+                        # Restrict to primary affinity only (same as select_spell).
+                        spells_data = settings.get('spells', {})
+                        from .spells import check_spell_prereqs, spell_avg_damage, spell_save_dc
+                        affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
+                        primary = getattr(char, 'primary_affinity', None)
+                        target_save = __import__('lib.spells', fromlist=['avg_save_mod']).avg_save_mod(char.prof)
+                        search_elements = [primary] if primary else list(spells_data.keys())
+                        for elem in search_elements:
+                            if elem not in spells_data:
                                 continue
-                            sd = spell_avg_damage(s, elem, elem_val, 0.75, char)
-                            if sd <= 0: continue
-                            c2 = s['mana'] * mn2
-                            if c2 <= 0: continue
-                            mc2 = max(1, mana_pool // max(1, c2))
-                            cs2 = min(secondary_actions, mc2)
-                            total = int(spell_dmg + sd * cs2 + retal_dmg)
-                            if total > best_total:
-                                best_total = total
-                                best_secondary = ({'spell': s, 'element': elem, 'damage_per_cast': sd,
-                                                   'use_multiplier': True, 'cond_dmg': 0, 'cond_names': [],
-                                                   'extra_effect': s.get('extra_effect', '')}, sd, cs2)
-                    
-                    magic = best_total
-                    si2, sd2, casts2 = best_secondary
-                    result['magic'] = magic
-                    result['magic_dmg'] = spell_dmg + sd2
-                    result['secondary_spell'] = si2.get('spell', {}).get('name', '')
-                    result['secondary_dmg'] = sd2
-                    result['secondary_casts'] = casts2
+                            for s in spells_data[elem]:
+                                if s.get('concentration'): continue
+                                if s['name'] == spell_info['spell'].get('name'): continue
+                                if s['name'] == si2['spell']['name']: continue
+                                elem_val = char.affinities.get(elem, 0)
+                                if not check_spell_prereqs(char, s, elem, elem_val, affinity_prereqs):
+                                    continue
+                                sd = spell_avg_damage(s, elem, elem_val, 0.75, char)
+                                # Apply save multiplier for save spells (matching select_spell logic)
+                                if s.get('save'):
+                                    dc = spell_save_dc(char, elem) if elem else 0
+                                    if s.get('save_half', False):
+                                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
+                                        save_mul = fail_chance + (1 - fail_chance) * 0.5
+                                    else:
+                                        fail_chance = min(0.95, max(0.05, (dc - 1 - target_save) / 20.0))
+                                        save_mul = fail_chance
+                                    sd *= save_mul
+                                if sd <= 0: continue
+                                c2 = s['mana'] * mn2
+                                if c2 <= 0: continue
+                                mc2 = mana_pool_for_secondary // max(1, c2)
+                                if mc2 <= 0: continue
+                                cs2 = min(secondary_actions, mc2)
+                                total = int(spell_dmg + sd * cs2 + retal_dmg)
+                                if total > best_total:
+                                    best_total = total
+                                    best_secondary = ({'spell': s, 'element': elem, 'damage_per_cast': sd,
+                                                       'use_multiplier': True, 'cond_dmg': 0, 'cond_names': [],
+                                                       'extra_effect': s.get('extra_effect', '')}, sd, cs2)
+                        
+                        magic = best_total
+                        si2, sd2, casts2 = best_secondary
+                        result['magic'] = magic
+                        result['magic_dmg'] = spell_dmg + sd2
+                        result['secondary_spell'] = si2.get('spell', {}).get('name', '')
+                        result['secondary_dmg'] = sd2
+                        result['secondary_casts'] = casts2
+                        result['secondary_mana'] = si2.get('spell', {}).get('mana', 0)
                 else:
                     result['magic'] = int(spell_dmg + retal_dmg)
                     result['magic_dmg'] = spell_dmg
@@ -212,6 +234,7 @@ def calculate_damage(char, settings):
             result['spell_extra_effect'] = spell_info.get('extra_effect', '')
             result['spell_name'] = spell_info['spell'].get('name', '')
             result['spell_element'] = spell_info.get('element', '')
+            result['concentration'] = spell_info['spell'].get('concentration', False)
             result['retal_dmg'] = retal_dmg
             result['skip_info'] = spell_info.get('skip_info', {})
 
@@ -294,39 +317,65 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
                 'rounds_casting': num_rounds,
                 'mana_per_round': int(mana_cost)}
 
-    # Check if the primary spell has concentration and a non-conc alternative exists
-    is_conc_spell = False
-    si_check, _ = select_spell(char, settings, max_mana=max_mana)
-    si_nc, sd_nc = select_spell(char, settings, max_mana=max_mana, exclude_concentration=True)
-    if si_check and si_check['spell'].get('concentration') and not si_check['spell'].get('bap_attack'):
-        same = si_nc and si_nc.get('spell', {}).get('name') == si_check['spell'].get('name')
-        if si_nc and sd_nc > 0 and not same:
-            is_conc_spell = True
+    # Use calculate_damage's results — don't re-select spells.
+    is_conc_spell = dmg_per_turn.get('concentration', False)
+    if is_conc_spell:
+        mana_cost = dmg_per_turn.get('mana_cost', mana_cost)
 
     if is_conc_spell:
-        # Passive concentration: 1 AP first round, then next-best spell remaining rounds
-        si2, sd2 = select_spell(char, settings, max_mana=max_mana, exclude_concentration=True)
-        if si2 and sd2 > magic_dmg_per_cast * 0.5:
-            mn2 = getattr(char, 'spell_mana_mult', 1)
-            if not si2.get('use_multiplier', True): mn2 = 1
-            cost2 = si2['spell']['mana'] * mn2
-            secondary_actions = max(0, char.ap - 1) + char.bap
-            max_cast2 = max(1, max_mana // max(1, cost2)) if cost2 > 0 else secondary_actions
-            casts2 = min(secondary_actions, max_cast2)
-            first_round = int(magic_dmg_per_cast + sd2 * casts2 + retal)
-            full_actions = char.ap + char.bap
-            casts2_full = min(full_actions, max_cast2)
-            later_round = int(sd2 * casts2_full + retal)
-            total_dmg = int(first_round + later_round * (num_rounds - 1))
-            remaining_mana = max_mana - mana_cost - casts2 * cost2 * (1 if num_rounds >= 1 else 0)
+        conc_drain = mana_cost // 5
+        sec_name = dmg_per_turn.get('secondary_spell', '')
+        sec_dmg = dmg_per_turn.get('secondary_dmg', 0)
+        sec_casts = dmg_per_turn.get('secondary_casts', 0)
+        sec_mana = dmg_per_turn.get('secondary_mana', 0)
+
+        if sec_name and sec_dmg > 0 and sec_casts > 0:
+            round_full_dmg = int(magic_dmg_per_cast + sec_dmg * sec_casts + retal)
+            round_conc_only = int(magic_dmg_per_cast + retal)
+            round1_mana = mana_cost + sec_mana * sec_casts
+            later_full_mana = conc_drain + sec_mana * sec_casts
+
+            # How many full-secondary rounds can we afford?
+            mana_after_r1 = max(0, max_mana - round1_mana)
+            full_rounds_after_r1 = max(0, mana_after_r1 // max(1, later_full_mana)) if later_full_mana > 0 else (num_rounds - 1)
+            full_rounds = 1 + full_rounds_after_r1  # round 1 + extra full rounds
+
+            # Remaining rounds: concentration only (just conc_drain per turn)
+            conc_only_rounds = 0
+            if full_rounds < num_rounds:
+                remaining_mana = max(0, max_mana - round1_mana - full_rounds_after_r1 * later_full_mana)
+                conc_only_rounds = min(num_rounds - full_rounds, remaining_mana // max(1, conc_drain))
+
+            total_dmg = int(round_full_dmg * full_rounds + round_conc_only * conc_only_rounds)
             return {'total': total_dmg,
                     'mana_start': int(max_mana),
-                    'mana_end': int(max(0, remaining_mana)),
-                    'rounds_casting': num_rounds,
-                    'mana_per_round': int(mana_cost + (cost2 * casts2_full if num_rounds > 1 else 0))}
+                    'mana_end': int(max(0, max_mana - round1_mana - full_rounds_after_r1 * later_full_mana - conc_only_rounds * conc_drain)),
+                    'rounds_casting': full_rounds + conc_only_rounds,
+                    'mana_per_round': int(mana_cost + conc_drain + sec_mana * sec_casts)}
+        else:
+            # No secondary — concentration damage every turn, limited by mana for conc_drain
+            round_dmg = int(magic_dmg_per_cast + retal)
+            affordable = min(num_rounds, 1 + (max_mana - mana_cost) // max(1, conc_drain))
+            total_dmg = int(round_dmg * affordable)
+            total_mana = mana_cost + conc_drain * (affordable - 1)
+            return {'total': total_dmg,
+                    'mana_start': int(max_mana),
+                    'mana_end': int(max(0, max_mana - total_mana)),
+                    'rounds_casting': affordable,
+                    'mana_per_round': int(mana_cost + conc_drain)}
 
     # Default: proceed with normal multi-round calculation
+    conc_active_cost = 0  # mana cost of currently active concentration spell
     for round_idx in range(num_rounds):
+        # Deduct concentration drain from active concentration spell
+        if conc_active_cost > 0:
+            conc_drain = conc_active_cost // 5
+            if remaining_mana >= conc_drain:
+                remaining_mana -= conc_drain
+            else:
+                conc_active_cost = 0  # can't pay, spell ends
+        remaining_mana = max(0, remaining_mana)
+
         spell_info, spell_dmg = select_spell(char, settings, max_mana=remaining_mana)
         if spell_info and spell_dmg > phys_per_hit:
             mana_mult = getattr(char, 'spell_mana_mult', 1)
@@ -340,6 +389,9 @@ def _x_round_damage(char, r, dmg_per_turn, settings, num_rounds):
             remaining_mana -= r_casts * cost
             if r_casts > 0:
                 rounds_casting += 1
+            # Track concentration: if this spell has concentration, it becomes the active one
+            if spell_info['spell'].get('concentration') and r_casts > 0:
+                conc_active_cost = spell_info['spell']['mana']  # base mana for drain calc
         else:
             if round_idx == 0:
                 round_dmg = (atk_per_round + bonus_attacks) * (r1_phys + r1_fr + r1_adv_dmg)

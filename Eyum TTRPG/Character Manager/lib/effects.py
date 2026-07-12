@@ -194,9 +194,9 @@ def apply_effects(char, effects, cost_table=None):
     if 'skill_tree_level_bonus' in effects:
         char.skill_tree_level_bonus = True
     if 'spell_damage_mult' in effects:
-        char.spell_damage_mult = effects['spell_damage_mult']
+        char.spell_damage_mult = max(char.spell_damage_mult, effects['spell_damage_mult'])
     if 'spell_mana_mult' in effects:
-        char.spell_mana_mult = effects['spell_mana_mult']
+        char.spell_mana_mult = max(char.spell_mana_mult, effects['spell_mana_mult'])
     if 'generic_affinity_spendable' in effects:
         char.generic_affinity_spendable = True
     if 'monster_damage' in effects:

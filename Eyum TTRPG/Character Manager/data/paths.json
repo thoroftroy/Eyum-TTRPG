@@ -1097,11 +1097,6 @@
         }
       },
       "Dragonslayer": {
-        "1": {
-          "melee_damage": 2,
-          "ranged_damage": 2,
-          "magic_damage": 2
-        },
         "2": {
           "damage_reduction": 3
         },
@@ -1132,19 +1127,11 @@
         "5.6": {
           "skill_points": 3
         },
-        "6": {
-          "melee_damage": 4,
-          "ranged_damage": 4
-        },
         "7": {
           "damage_reduction": 3
         },
         "8": {
           "melee_accuracy": 3
-        },
-        "9": {
-          "melee_damage": 8,
-          "ranged_damage": 8
         }
       },
       "Monster Hunter": {
@@ -1398,18 +1385,14 @@
         "7": {
           "melee_damage": 4
         },
-        "8": {
-          "melee_damage": 5
-        },
+        "8": {},
         "8.5": {
-          "melee_damage": 2,
           "repeatable": true
         },
         "9": {
           "melee_damage": 5
         },
         "9.5": {
-          "melee_damage": 2,
           "repeatable": true
         },
         "10": {

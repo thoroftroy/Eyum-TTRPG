@@ -122,10 +122,10 @@
   "Weapon Master": {
     "type": "Passive",
     "effects": {
-      "weapon_group_accuracy": 1
+      "weapon_group_accuracy": 2
     },
     "prereq": {},
-    "value": 2,
+    "value": 3,
     "repeatable": false,
     "description": "Choose 1 weapon type; gain +2 Accuracy with it and Expertise in it.",
     "prerequisites": {
@@ -139,7 +139,7 @@
     },
     "prereq": {
       "stat": {
-        "dex": 16
+        "dex": 18
       }
     },
     "value": 3,
@@ -292,13 +292,18 @@
   },
   "Linguist": {
     "type": "Passive",
-    "effects": {},
+    "effects": {
+      "stat": {
+        "int": 3,
+        "cha": 4
+      }
+    },
     "prereq": {
       "stat": {
         "int": 12
       }
     },
-    "value": 0,
+    "value": 4,
     "repeatable": false,
     "description": "Learn 3 additional languages and gain +3 to your INT score and +4 to your CHA score. It takes you half as long to learn a new language.",
     "prerequisites": {
@@ -631,16 +636,22 @@
     "type": "Conditional",
     "effects": {
       "armor_training_ac_heavy": 3,
-      "armor_training_ac_medium": 2
+      "armor_training_ac_medium": 2,
+      "armor_training_ac_light": 1
     },
     "prereq": {
       "stat": {
-        "str": 13
+        "con": 16
       }
     },
     "value": 5,
     "repeatable": false,
-    "description": "While wearing armor you gain extra AC. Light: +1 \\"
+    "description": "While wearing armor you gain extra AC. Light: +1 | Medium: +2 | Heavy: +3",
+    "prerequisites": {
+      "stat": {
+        "con": 16
+      }
+    }
   },
   "Heavy Hitter": {
     "type": "Conditional",
@@ -1404,7 +1415,7 @@
     "effects": {
       "affinity_points": 3
     },
-    "value": 0
+    "value": 3
   },
   "Cat\u2019s Grace": {
     "type": "Passive",
@@ -1430,10 +1441,18 @@
   },
   "Affinity Master": {
     "type": "Passive",
-    "description": "Instantly gain +2 affinity in Fire, Earth Water, and air affinities and +3 Affinity Points (Affp)",
+    "description": "Instantly gain +2 affinity in Fire, Earth, Water, and Air affinities and +3 Affinity Points (Affp)",
     "prerequisites": {},
-    "effects": {},
-    "value": 0
+    "effects": {
+      "affinity": {
+        "Fire": 2,
+        "Earth": 2,
+        "Water": 2,
+        "Air": 2
+      },
+      "affinity_points": 3
+    },
+    "value": 4
   },
   "Karma Hoarder": {
     "type": "Passive",

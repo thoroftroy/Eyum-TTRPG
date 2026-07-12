@@ -106,6 +106,11 @@ def check_spell_prereqs(char, spell, element, aff_val, affinity_prereqs=None):
         return False
     if 'int_required' in spell and char.int < spell['int_required']:
         return False
+    # If this spell uses the character's PRIMARY affinity, skip prereq checks.
+    # The build is explicitly a "Quantum Mage" — they've already unlocked it.
+    primary = getattr(char, 'primary_affinity', None)
+    if primary and element == primary:
+        return True
     if affinity_prereqs and element and element in affinity_prereqs:
         prereq = affinity_prereqs[element]
         needs_all = prereq.get('needs_all', [])
@@ -247,6 +252,7 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
     best_element, best_aff_val = get_best_affinity(char)
     weapons = settings.get('weapons', {})
     weapon_info = weapons.get(char.gear.get('weapon', ''), {})
+    primary = getattr(char, 'primary_affinity', None)
 
     prof = getattr(char, 'prof', 1)
     target_ac = avg_ac(prof)
@@ -262,31 +268,18 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
     affinity_prereqs = settings.get('rules', {}).get('affinity_prerequisites', {})
 
     primary_candidates = []
-    element_candidates = []
     generic_candidates = []
 
-    primary = getattr(char, 'primary_affinity', None)
-    primary_val = char.affinities.get(primary, 0) if primary else 0
-    if primary and primary != best_element and primary in spells_data:
+    # Primary affinity spells ONLY — restrict to the build's declared specialty.
+    # A "Mirage Mage" should use Mirage spells, not fall back to Radiant.
+    if primary and primary in spells_data:
+        primary_val = char.affinities.get(primary, 0)
         for spell in spells_data[primary]:
             _add_spell_candidate(spell, primary, primary_val, primary_candidates, char, settings,
                                 spell_hit_chance, target_save, max_mana, mana_mult,
                                 affinity_prereqs, weapon_info)
 
-    if best_element:
-        sorted_affs = sorted(char.affinities.items(), key=lambda x: x[1] if x[0] != 'Generic' else -1, reverse=True)
-        for aff_name, aff_val in sorted_affs:
-            if aff_name == 'Generic':
-                continue
-            if aff_name not in spells_data:
-                continue
-            for spell in spells_data.get(aff_name, []):
-                _add_spell_candidate(spell, aff_name, aff_val, element_candidates, char, settings,
-                                    spell_hit_chance, target_save, max_mana, mana_mult,
-                                    affinity_prereqs, weapon_info)
-            if element_candidates:
-                break
-
+    # Generic spells as fallback (Mana Blast, Mana Bolt, etc.)
     for gname in ('Mana Decimation', 'Mana Explosion', 'Mana Bomb', 'Mana Bolt', 'Mana Blast'):
         gspell = None
         for s in spells_data.get('Generic', []):
@@ -299,7 +292,7 @@ def select_spell(char, settings, max_mana=None, exclude_concentration=False):
                             spell_hit_chance, target_save, max_mana, mana_mult,
                             affinity_prereqs, weapon_info)
 
-    candidates = primary_candidates or element_candidates or generic_candidates
+    candidates = primary_candidates or generic_candidates
 
     if exclude_concentration and candidates:
         candidates = [c for c in candidates if not c[1].get('concentration')]

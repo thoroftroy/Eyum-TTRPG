@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eyum Character Manager</title>
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--accent:#58a6ff;--red:#f85149;--green:#3fb950;--gold:#d2991d;--purple:#a371f7}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:14px}
+h1,h2,h3{color:var(--accent);margin-bottom:8px}
+h1{font-size:18px}h2{font-size:15px}h3{font-size:13px}
+input,select,button,textarea{font-family:inherit;font-size:13px}
+.toolbar{position:sticky;top:0;z-index:100;display:flex;gap:6px;padding:8px 14px;background:var(--surface);border-bottom:1px solid var(--border);align-items:center;flex-wrap:wrap}
+.toolbar h1{font-size:15px;margin-right:auto}
+.toolbar button{padding:5px 12px;border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:4px;cursor:pointer}
+.toolbar button:hover{border-color:var(--accent)}
+.toolbar button.primary{background:var(--accent);color:#000;font-weight:600}
+.toolbar .sep{width:1px;height:20px;background:var(--border);margin:0 4px}
+.main{display:grid;grid-template-columns:300px 1fr 240px;gap:8px;padding:8px;max-width:1400px;margin:0 auto;height:calc(100vh - 50px)}
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px;overflow-y:auto}
+.panel h2{border-bottom:1px solid var(--border);padding-bottom:4px;margin-bottom:8px}
+.field{display:flex;align-items:center;gap:4px;margin:3px 0}
+.field label{font-size:11px;color:var(--muted);width:60px;flex-shrink:0;text-align:right}
+.field input,.field select{flex:1;min-width:0;padding:3px 5px;border:1px solid var(--border);background:var(--bg);color:var(--text);border-radius:3px;font-size:12px}
+.field input[type=number]{width:50px;flex:0 0 auto;text-align:center}
+.field-inline{display:inline-flex;align-items:center;gap:4px;margin:2px 8px 2px 0}
+.field-inline label{font-size:11px;color:var(--muted)}
+.field-inline input{width:45px;padding:2px 4px;border:1px solid var(--border);background:var(--bg);color:var(--text);border-radius:3px;font-size:12px;text-align:center}
+.stat-row{display:grid;grid-template-columns:80px 50px 50px;gap:4px;align-items:center;margin:2px 0}
+.stat-row .stat-name{font-size:11px;font-weight:600;color:var(--accent)}
+.stat-row input{width:100%;padding:3px;border:1px solid var(--border);background:var(--bg);color:var(--text);border-radius:3px;font-size:12px;text-align:center}
+.mod-badge{display:inline-block;min-width:24px;text-align:center;font-weight:700;font-size:13px;padding:1px 4px;border-radius:3px}
+.mod-pos{background:#1a3a1a;color:var(--green)}
+.mod-neg{background:#3a1a1a;color:var(--red)}
+.mod-zero{background:#1a1a2e;color:var(--muted)}
+.stat-section{margin:6px 0}
+.section-header{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);border-bottom:1px solid var(--border);padding-bottom:2px;margin:8px 0 4px}
+.calc-row{display:flex;justify-content:space-between;font-size:12px;margin:2px 0;padding:2px 4px;border-radius:2px}
+.calc-row:hover{background:rgba(88,166,255,0.05)}
+.calc-row .label{color:var(--muted)}
+.calc-row .value{font-weight:600;font-family:monospace}
+.calc-row .value.big{font-size:16px;color:var(--accent)}
+.dice-btn{padding:2px 8px;border:1px solid var(--gold);background:transparent;color:var(--gold);border-radius:3px;cursor:pointer;font-size:11px}
+.dice-btn:hover{background:rgba(210,153,29,0.1)}
+.btn-sm{padding:2px 8px;font-size:11px;border:1px solid var(--border);background:transparent;color:var(--text);border-radius:3px;cursor:pointer}
+.btn-sm:hover{border-color:var(--accent)}
+.btn-sm.active{border-color:var(--accent);background:rgba(88,166,255,0.1)}
+.btn-sm.danger{color:var(--red);border-color:var(--red)}
+.btn-sm.success{color:var(--green);border-color:var(--green)}
+.cond-tag{display:inline-block;padding:2px 6px;margin:2px;border-radius:3px;font-size:11px;cursor:pointer;border:1px solid var(--border)}
+.cond-tag:hover{opacity:0.8}
+.cond-tag.env{background:#1a2a1a;border-color:#2a4a2a;color:#7ee87e}
+.cond-tag.phys{background:#2a1a1a;border-color:#4a2a2a;color:#f87171}
+.cond-tag.mag{background:#1a1a2a;border-color:#2a2a4a;color:#a78bfa}
+.cond-tag.ment{background:#2a2a1a;border-color:#4a4a2a;color:#fbbf24}
+#log-panel{font-size:11px;font-family:monospace;white-space:pre-wrap;max-height:300px;overflow-y:auto}
+#log-panel .log-success{color:var(--green)}
+#log-panel .log-danger{color:var(--red)}
+#log-panel .log-info{color:var(--accent)}
+#log-panel .log-warn{color:var(--gold)}
+.tab-bar{display:flex;gap:2px;margin-bottom:8px}
+.tab-bar button{flex:1;padding:4px 8px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;font-size:11px;border-radius:3px 3px 0 0}
+.tab-bar button:hover{color:var(--text)}
+.tab-bar button.active{background:var(--accent);color:#000;font-weight:600;border-color:var(--accent)}
+.hidden{display:none!important}
+.progress-bar{width:100%;height:8px;background:var(--bg);border-radius:4px;overflow:hidden}
+.progress-bar .fill{height:100%;transition:width 0.3s}
+.progress-bar .fill.vit{background:var(--accent)}
+.progress-bar .fill.hp{background:var(--red)}
+.progress-bar .fill.mana{background:var(--purple)}
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <h1>Eyum Character Manager</h1>
+  <button onclick="levelUp()" title="Level up">⬆ Level Up</button>
+  <button onclick="shortRest()">Short Rest</button>
+  <button onclick="longRest()">Long Rest</button>
+  <span class="sep"></span>
+  <button onclick="simulateCombat()" class="primary">Simulate Combat</button>
+  <span class="sep"></span>
+  <button onclick="resetCharacter()">New Character</button>
+  <button onclick="saveCharacter()">Save</button>
+  <button onclick="loadCharacter()">Load</button>
+  <span class="sep"></span>
+  <span style="font-size:11px;color:var(--muted)">v2.0 — Full Rules</span>
+</div>
+
+<div class="main">
+  <!-- LEFT: Stats & Pools -->
+  <div class="panel" id="stats-panel">
+    <h2>Stats</h2>
+    <div class="stat-section">
+      <div id="stats-display"></div>
+    </div>
+    <div class="field-inline">
+      <label>Unspent Stp:</label>
+      <input type="number" id="stp-remaining" value="24" min="0" disabled style="width:50px">
+    </div>
+    <div class="field-inline">
+      <label>Skill Pts:</label>
+      <input type="number" id="skp-remaining" value="5" min="0" disabled style="width:50px">
+    </div>
+    <div class="field-inline">
+      <label>Aff Pts:</label>
+      <input type="number" id="affp-remaining" value="5" min="0" disabled style="width:50px">
+    </div>
+
+    <div class="section-header">Pools</div>
+    <div id="pools-display"></div>
+
+    <div class="section-header">Combat</div>
+    <div id="combat-stats"></div>
+  </div>
+
+  <!-- CENTER: Main sheet -->
+  <div class="panel" id="main-panel">
+    <div class="tab-bar">
+      <button class="active" onclick="switchTab('info')">Info</button>
+      <button onclick="switchTab('skills')">Skills</button>
+      <button onclick="switchTab('affinities')">Affinities</button>
+      <button onclick="switchTab('paths')">Paths</button>
+      <button onclick="switchTab('conditions')">Conditions</button>
+      <button onclick="switchTab('combat')">Combat Log</button>
+    </div>
+
+    <!-- Info Tab -->
+    <div id="tab-info" class="tab-content">
+      <div class="field"><label>Name</label><input type="text" id="cname" value="Adventurer" onchange="updateDisplay()"></div>
+      <div class="field"><label>Race</label><select id="crace" onchange="onRaceChange()"><option value="">-- Choose Race --</option></select><select id="csubrace" onchange="updateDisplay()"><option value="">-- Subrace --</option></select></div>
+      <div class="field"><label>Level</label><input type="number" id="clevel" value="1" min="1" max="100" disabled></div>
+      <div class="field"><label>Size</label><select id="csize" onchange="updateDisplay()"><option>Medium</option><option>Tiny</option><option>Small</option><option>Large</option><option>Huge</option><option>Gargantuan</option></select></div>
+      <div class="field"><label>Speed</label><input type="number" id="cspeed" value="30" min="5" onchange="updateDisplay()"></div>
+      <div class="field"><label>Karma</label><input type="number" id="ckarma" value="0" min="-500" max="500" onchange="updateDisplay()"> <span id="kalignment" style="font-size:11px;font-weight:600">Neutral</span></div>
+    </div>
+
+    <!-- Skills Tab -->
+    <div id="tab-skills" class="tab-content hidden">
+      <div class="section-header">Strength</div>
+      <div id="skills-str"></div>
+      <div class="section-header">Constitution</div>
+      <div id="skills-con"></div>
+      <div class="section-header">Dexterity</div>
+      <div id="skills-dex"></div>
+      <div class="section-header">Wisdom</div>
+      <div id="skills-wis"></div>
+      <div class="section-header">Intelligence</div>
+      <div id="skills-int"></div>
+      <div class="section-header">Charisma</div>
+      <div id="skills-cha"></div>
+    </div>
+
+    <!-- Affinities Tab -->
+    <div id="tab-affinities" class="tab-content hidden">
+      <div class="section-header">Affinity Points: <span id="affp-display">5</span></div>
+      <div id="affinities-display"></div>
+    </div>
+
+    <!-- Paths Tab -->
+    <div id="tab-paths" class="tab-content hidden">
+      <div class="section-header">Skill Tree Levels: <span id="stl-display">1</span></div>
+      <div class="field"><label>Path</label><select id="path1-path" onchange="updatePathPreview()"><option value="">-- Choose --</option><option>Physical</option><option>Magical</option><option>Utility</option><option>Racial</option><option>Pact</option></select></div>
+      <div class="field"><label>Archetype</label><select id="path1-arch" onchange="updatePathPreview()"><option value="">-- Choose --</option></select></div>
+      <div class="field"><label>Levels</label><input type="number" id="path1-lvl" value="1" min="1" max="20" onchange="updatePathPreview()"></div>
+      <div id="path-preview"></div>
+      <div class="section-header">Magician Multiplier</div>
+      <div id="magician-tier-select" class="hidden">
+        <button class="btn-sm active" onclick="setMagicianTier('2x')">2x Dmg / 4x Mana</button>
+        <button class="btn-sm" onclick="setMagicianTier('3x')">3x Dmg / 6x Mana</button>
+        <span style="font-size:10px;color:var(--muted)">Choose per cast</span>
+      </div>
+    </div>
+
+    <!-- Conditions Tab -->
+    <div id="tab-conditions" class="tab-content hidden">
+      <div class="section-header">Active Conditions</div>
+      <div id="active-conditions">No active conditions</div>
+      <div class="section-header">Injuries</div>
+      <div id="active-injuries">No active injuries</div>
+      <div class="section-header">Exhaustion: <span id="exhaustion-lvl">0</span>/6</div>
+      <div style="margin-top:4px">
+        <button class="btn-sm danger" onclick="addExhaustion()">+ Exhaustion</button>
+        <button class="btn-sm success" onclick="removeExhaustion()">- Exhaustion</button>
+      </div>
+      <div class="section-header">Overkill: <span id="overkill-lvl">0</span>/5</div>
+      <div class="section-header">Add Condition</div>
+      <select id="cond-select" style="width:100%;margin-bottom:4px"></select>
+      <button class="btn-sm" onclick="addCondition()">Apply</button>
+      <button class="btn-sm danger" onclick="tickConditions()">Tick Conditions</button>
+    </div>
+
+    <!-- Combat Log Tab -->
+    <div id="tab-combat" class="tab-content hidden">
+      <div id="log-panel"></div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Combat Sim -->
+  <div class="panel" id="combat-panel">
+    <h2>Combat Sim</h2>
+    <div class="field"><label>Target AC</label><input type="number" id="target-ac" value="14" min="1"></div>
+    <div class="field"><label>Weapon</label><select id="sim-weapon" onchange="updateCombatSim()"><option value="unarmed">Unarmed (1d4)</option><option value="longsword">Longsword (1d8)</option><option value="greatsword">Greatsword (2d6)</option><option value="greataxe">Greataxe (1d12)</option><option value="dagger">Dagger (1d4)</option><option value="rapier">Rapier (1d8)</option><option value="shortbow">Shortbow (1d4)</option><option value="longbow">Longbow (1d6)</option></select></div>
+    <div class="field-inline"><label>Attack Type:</label><select id="sim-atktype" onchange="updateCombatSim()"><option>Melee</option><option>Ranged</option><option>Magic</option></select></div>
+    <div class="field-inline"><label>Crit on:</label><select id="sim-crit" onchange="updateCombatSim()"><option value="20">Nat 20</option><option value="19">Nat 19-20</option><option value="18">Nat 18-20</option></select></div>
+    <div class="field-inline"><input type="checkbox" id="sim-advantage" onchange="updateCombatSim()"><label>Advantage</label></div>
+    <div class="field-inline"><input type="checkbox" id="sim-disadvantage" onchange="updateCombatSim()"><label>Disadvantage</label></div>
+    <div class="section-header">Single Attack</div>
+    <button class="dice-btn" onclick="rollAttack()" style="font-size:16px;padding:6px 20px">🎲 Roll Attack!</button>
+    <div id="attack-result" style="margin-top:6px;font-size:11px"></div>
+    <div class="section-header">Results</div>
+    <div id="combat-sim-results"></div>
+  </div>
+</div>
+
+<script>
+// ============ CORE DATA ============
+const RACES = {
+  Human: { language: "Common", subraces: {
+    Human: { stats: {}, affs: {}, speed: 25 },
+    Aurian: { stats: {wis:2,int:1,con:-1}, affs: {Psychic:-3,Generic:3,Fire:3,Earth:3,Water:3,Air:3}, speed: 25 },
+    Giant: { stats: {str:8,con:4,dex:-2,int:-4,wis:-4}, affs: {Water:-3,Air:-3,Psychic:-3,Fire:-3,Radiant:-3,Necrotic:-3,Generic:-3}, speed: 30 },
+    Iceborn: { stats: {con:1,wis:1}, affs: {Water:3,Radiant:3,Fire:-3}, speed: 25 },
+    Fireborn: { stats: {str:2,wis:1,con:-1}, affs: {Fire:3,Psychic:3,Water:-3,Radiant:-3}, speed: 25 },
+    Kravari: { stats: {str:3,dex:1,int:-2}, affs: {Radiant:3,Necrotic:3,Psychic:-3,Air:-3}, speed: 25 },
+    Sandman: { stats: {wis:1,cha:1}, affs: {Psychic:3,Water:3,Radiant:3,Earth:-3}, speed: 25 },
+  }},
+  Elf: { language: "Elvish", subraces: {
+    Elf: { stats: {dex:2,wis:1}, affs: {Air:3,Radiant:3,Earth:-3,Necrotic:-3}, speed: 30 },
+    Dryad: { stats: {wis:2,con:1}, affs: {Earth:3,Radiant:3,Fire:-3,Necrotic:-3}, speed: 30 },
+    Dwarf: { stats: {con:2,str:1}, affs: {Earth:3,Necrotic:3,Air:-3,Psychic:-3}, speed: 25 },
+    Fairy: { stats: {dex:3,str:-2}, affs: {Air:3,Radiant:3,Earth:-3,Necrotic:-3}, speed: 10 },
+    Pixy: { stats: {dex:2,cha:1}, affs: {Psychic:3,Necrotic:3,Earth:-3,Radiant:-3}, speed: 10 },
+  }},
+  Demon: { language: "Infernal", subraces: {
+    Demon: { stats: {cha:4,con:2,str:-2,dex:-2}, affs: {Fire:3,Necrotic:3,Radiant:-3,Water:-3}, speed: 30 },
+    Pyrrakin: { stats: {dex:0,str:0}, affs: {Fire:3,Radiant:-3,Water:-3}, speed: 35 },
+  }},
+  Bugfolk: { language: "Bugish", subraces: {
+    Chitinfolk: { stats: {con:4,str:1,cha:-3}, affs: {Earth:3,Necrotic:3,Radiant:-3,Psychic:-3}, speed: 25 },
+    Verdleap: { stats: {dex:6,con:2,int:-2,wis:-2,cha:-2}, affs: {Air:3,Radiant:3,Earth:-3,Necrotic:-3}, speed: 40 },
+  }},
+  Fishfolk: { language: "Fishish", subraces: {
+    Nerid: { stats: {con:2,str:1}, affs: {Water:3,Necrotic:3,Fire:-3,Earth:-3}, speed: 25 },
+  }},
+  Harpy: { language: "Harpy", subraces: {
+    Harpy: { stats: {dex:1,cha:1}, affs: {Air:3,Radiant:3,Earth:-3,Necrotic:-3}, speed: 30 },
+  }},
+  Naga: { language: "Ophedian", subraces: {
+    Naga: { stats: {con:1,dex:1}, affs: {Water:3,Necrotic:3,Fire:-3,Radiant:-3}, speed: 30 },
+  }},
+  Therian: { language: "Common", subraces: {
+    Therian: { stats: {str:1,con:1}, affs: {Necrotic:3,Psychic:-3}, speed: 30 },
+    Wolfkin: { stats: {con:2,str:1}, affs: {Necrotic:3,Psychic:-3,Water:3,Fire:-3}, speed: 35 },
+    Minotaur: { stats: {str:5,con:2}, affs: {Earth:3,Necrotic:3,Psychic:-3,Water:3,Air:-3}, speed: 35 },
+    Centaur: { stats: {str:3,con:2,dex:-1}, affs: {Earth:3,Air:-3,Psychic:-3,Water:3,Necrotic:3}, speed: 40 },
+  }},
+  Tull: { language: "Tullish", subraces: {
+    Tull: { stats: {str:1,con:1,cha:-1}, affs: {Necrotic:3,Radiant:-3,Psychic:-3}, speed: 30 },
+    Troll: { stats: {str:8,con:9,int:-2,cha:-1}, affs: {Necrotic:3,Radiant:-3,Psychic:-3}, speed: 40 },
+  }},
+  Undead: { language: "Common", subraces: {
+    Revenant: { stats: {con:2,dex:-2,cha:-5}, affs: {Necrotic:3,Radiant:-3,Fire:-3}, speed: 20 },
+    Shadowman: { stats: {dex:2,int:1}, affs: {Necrotic:3,Psychic:3,Radiant:-3}, speed: 30 },
+  }},
+};
+
+const SKILLS = {
+  str: ["Athletics"],
+  con: [],
+  dex: ["Acrobatics","Sleight of Hand","Stealth"],
+  wis: ["Arcana","History","Search","Situational Insight"],
+  int: ["Spot","Nature","Religion","Medicine"],
+  cha: ["Deception","Intimidation","Performance","Persuasion","Social Insight","Barter"],
+};
+
+const ALL_AFFINITIES = ["Generic","Fire","Earth","Water","Air","Radiant","Necrotic","Psychic",
+  "Lightning","Steam","Magma","Ice/Cold","Dust","Mud","Nova","Solar","Hallowed","Starlight",
+  "Cursed","Ash","Blight","Poison","Toxin","Bloodfire","Tremor","Deluge","Shatter","Sorrow",
+  "Chaos","Infernal","Metal","Torrent","Thunder","Mirage","Vacuum","Warp","Storm","Frostfire",
+  "Glacial","Void","Obsidian","Quake","Corruption","Miasma","Gel","Atomic","Quantum","Eldritch"];
+
+const CONDITION_LIST = [
+  "Bleeding","Burned","Suffocating","Necrosis","On Fire","Prone","Stunned","Blinded",
+  "Hurting","Shocked","Frozen","Frostbitten","Frostburned","Poisoned","Demoralized",
+  "Despair","Enraged","Deafened","Unconscious","Paralyzed","Petrified","Slowed","Pierced",
+  "Withered","Hellfire","Radiation","Plagued","Storm Shocked","Eldritch Curse","Cursed",
+  "Purged","Corrupt","Diseased","Soaked","Threatened","Overcrowded","Vibrating","Gelled",
+  "Entangled","Grappled","Restrained","Surprised","Lethargic","Invisible"
+];
+
+let char = {
+  name: "Adventurer", race: "", subrace: "", level: 1,
+  stats: {str:8,dex:8,con:8,wis:8,int:8,cha:8},
+  stp: 24, skp: 5, affp: 5, skill_tree: 1,
+  vit_n: 2, hp_n: 2, mana_n: 2,
+  vit_die: "1d8", hp_die: "1d6", mana_die: "1d6",
+  vit_flat: 0, hp_flat: 0, mana_flat: 0, ac_bonus: 0,
+  curr_vit: 0, curr_hp: 0, curr_mana: 0,
+  ap: 1, bap: 1, rp: 1, prof: 1,
+  speed: 30, size: "Medium", karma: 0,
+  affinities: {Generic: 1},
+  melee_dmg: 0, melee_acc: 0, ranged_dmg: 0, ranged_acc: 0, magic_dmg: 0, magic_acc: 0,
+  conditions: {}, injuries: [], exhaustion: 0, overkill: 0,
+  weapon_prof: [], armor_prof: [], shield_prof: false,
+  magician_has2x: false, magician_has3x: false, magician_tier: "2x",
+  path: "", archetype: "", arch_level: 0,
+  combat_log: [],
+};
+
+function mod(stat) { return Math.floor((char.stats[stat] - 10) / 2); }
+
+function vitMax() {
+  let avg = ({1:2.5,2:3.5,3:4.5,4:5.5,5:6.5,6:10.5})[parseInt(char.vit_die[1])];
+  return char.vit_flat + Math.floor(char.vit_n * avg + mod('con') * char.vit_n);
+}
+function hpMax() {
+  let avg = ({1:2.5,2:3.5,3:4.5,4:5.5,5:6.5,6:10.5})[parseInt(char.hp_die[1])];
+  return char.hp_flat + Math.floor(char.hp_n * avg);
+}
+function manaMax() {
+  let avg = ({1:2.5,2:3.5,3:4.5,4:5.5,5:6.5,6:10.5})[parseInt(char.mana_die[1])];
+  return char.mana_flat + Math.floor(char.mana_n * avg + mod('wis') * char.mana_n);
+}
+function ac() {
+  let dexMod = mod('dex');
+  let dexTable = {1:1,2:2,3:3,4:3,5:4,6:4,7:4,8:5,9:5,10:5,11:5,12:6,13:6,14:6,15:6,16:6,17:6,18:7};
+  let dexBonus = dexTable[Math.min(Math.max(0, dexMod), 18)] || Math.min(dexMod, 7);
+  if (dexMod <= 0 && char.armor_prof.length === 0) dexBonus = dexMod;
+  return 10 + dexBonus + char.ac_bonus;
+}
+function toHitMelee() { return char.prof + char.melee_acc + mod('str'); }
+function toHitRanged() { return char.prof + char.ranged_acc + mod('dex'); }
+function toHitMagic() {
+  let generic = char.affinities.Generic || 0;
+  let bestAff = 0;
+  for (let [k,v] of Object.entries(char.affinities)) { if (k !== 'Generic' && v > bestAff) bestAff = v; }
+  let atkGen = affinityAttackBonus(generic, 'generic');
+  let atkStd = affinityAttackBonus(bestAff, 'standard');
+  return atkGen + atkStd + char.magic_acc;
+}
+
+// Affinity bonus tables (from 2.1 Affinities)
+function affinityAttackBonus(val, col) {
+  let table = col === 'generic' ? [
+    [0,0],[3,1],[4,2],[6,3],[8,4],[12,5],[16,6],[20,7],[24,8],[30,9],[36,10],[42,11],[48,12],[56,13],[64,14],[72,15]
+  ] : [[-10,-10],[-6,-8],[-3,-5],[0,-3],[2,0],[4,1],[7,2],[12,3],[18,4],[25,5],[33,6],[42,7],[52,8],[64,9],[76,10],[90,11],[104,12],[120,13],[137,14],[155,15]];
+  for (let [limit, bonus] of table) { if (val <= limit) return bonus; }
+  return 15;
+}
+
+// ============ UI RENDERING ============
+function updateDisplay() {
+  readForm();
+  renderStats();
+  renderPools();
+  renderCombat();
+  renderSkills();
+  renderAffinities();
+  updateCombatSim();
+}
+
+function readForm() {
+  char.name = document.getElementById('cname').value || "Adventurer";
+  char.race = document.getElementById('crace').value;
+  char.subrace = document.getElementById('csubrace').value;
+  char.size = document.getElementById('csize').value;
+  char.speed = parseInt(document.getElementById('cspeed').value) || 30;
+  char.karma = parseInt(document.getElementById('ckarma').value) || 0;
+}
+
+function renderStats() {
+  let html = '';
+  for (let s of ['str','dex','con','wis','int','cha']) {
+    let val = char.stats[s];
+    let m = mod(s);
+    let cls = m > 0 ? 'mod-pos' : m < 0 ? 'mod-neg' : 'mod-zero';
+    html += `<div class="stat-row">
+      <span class="stat-name">${s.toUpperCase()}</span>
+      <input type="number" value="${val}" min="1" id="stat-${s}" onchange="updateStat('${s}', this.value)">
+      <span class="mod-badge ${cls}">${m >= 0 ? '+' + m : m}</span>
+    </div>`;
+  }
+  document.getElementById('stats-display').innerHTML = html;
+  document.getElementById('stp-remaining').value = char.stp;
+  document.getElementById('skp-remaining').value = char.skp;
+  document.getElementById('affp-remaining').value = char.affp;
+  document.getElementById('kalignment').textContent =
+    char.karma >= 250 ? 'Good' : char.karma <= -250 ? 'Evil' : 'Neutral';
+  document.getElementById('exhaustion-lvl').textContent = char.exhaustion;
+  document.getElementById('overkill-lvl').textContent = char.overkill;
+}
+
+function updateStat(stat, val) {
+  let newVal = parseInt(val) || 0;
+  let oldVal = char.stats[stat];
+  let diff = newVal - oldVal;
+  if (diff === 0) return;
+  let cost = 0;
+  for (let i = 0; i < Math.abs(diff); i++) {
+    let cur = oldVal + (diff > 0 ? i : -i);
+    cost += statPointCost(cur + (diff > 0 ? 1 : 0));
+  }
+  if (diff > 0) {
+    if (cost <= char.stp) { char.stp -= cost; char.stats[stat] = newVal; }
+  } else {
+    char.stp += cost;
+    char.stats[stat] = Math.max(1, newVal);
+  }
+  updateDisplay();
+}
+
+function statPointCost(targetVal) {
+  let tier = Math.floor((targetVal - 1) / 10);
+  return tier + 1;
+}
+
+function renderPools() {
+  let vit = vitMax(), hp = hpMax(), mana = manaMax();
+  let vitPct = char.curr_vit ? Math.min(100, char.curr_vit / vit * 100) : 100;
+  let hpPct = char.curr_hp ? Math.min(100, char.curr_hp / hp * 100) : 100;
+  let manaPct = char.curr_mana ? Math.min(100, char.curr_mana / mana * 100) : 100;
+  document.getElementById('pools-display').innerHTML = `
+    <div class="calc-row"><span class="label">Vitality</span><span class="value">${char.curr_vit||vit} / ${vit}</span></div>
+    <div class="progress-bar"><div class="fill vit" style="width:${vitPct}%"></div></div>
+    <div class="calc-row"><span class="label">Health</span><span class="value">${char.curr_hp||hp} / ${hp}</span></div>
+    <div class="progress-bar"><div class="fill hp" style="width:${hpPct}%"></div></div>
+    <div class="calc-row"><span class="label">Mana</span><span class="value">${char.curr_mana||mana} / ${mana}</span></div>
+    <div class="progress-bar"><div class="fill mana" style="width:${manaPct}%"></div></div>
+  `;
+}
+
+function renderCombat() {
+  document.getElementById('combat-stats').innerHTML = `
+    <div class="calc-row"><span class="label">AC</span><span class="value big">${ac()}</span></div>
+    <div class="calc-row"><span class="label">Initiative</span><span class="value">${mod('dex') >= 0 ? '+' + mod('dex') : mod('dex')}</span></div>
+    <div class="calc-row"><span class="label">Speed</span><span class="value">${char.speed} ft</span></div>
+    <div class="calc-row"><span class="label">AP/BAp/Rp</span><span class="value">${char.ap} / ${char.bap} / ${char.rp}</span></div>
+    <div class="calc-row"><span class="label">Prof Bonus</span><span class="value">+${char.prof}</span></div>
+    <div class="calc-row"><span class="label">Melee Hit</span><span class="value">${toHitMelee()>=0?'+':''}${toHitMelee()}</span></div>
+    <div class="calc-row"><span class="label">Ranged Hit</span><span class="value">${toHitRanged()>=0?'+':''}${toHitRanged()}</span></div>
+    <div class="calc-row"><span class="label">Magic Hit</span><span class="value">${toHitMagic()>=0?'+':''}${toHitMagic()}</span></div>
+  `;
+  document.getElementById('clevel').value = char.level;
+}
+
+function renderSkills() {
+  for (let attr of ['str','con','dex','wis','int','cha']) {
+    let html = '';
+    html += `<div class="calc-row"><span class="label">${attr.charAt(0).toUpperCase()+attr.slice(1)} Save</span><span class="value">${mod(attr)>=0?'+':''}${mod(attr)}</span></div>`;
+    for (let sk of (SKILLS[attr] || [])) {
+      html += `<div class="calc-row"><span class="label">${sk}</span><span class="value">${mod(attr)>=0?'+':''}${mod(attr)}</span></div>`;
+    }
+    document.getElementById('skills-' + attr).innerHTML = html;
+  }
+}
+
+function renderAffinities() {
+  let html = '';
+  for (let aff of ALL_AFFINITIES) {
+    let val = char.affinities[aff] || 0;
+    if (val === 0 && aff !== 'Generic' && aff !== 'Fire' && aff !== 'Earth' && aff !== 'Water' && aff !== 'Air' && aff !== 'Radiant' && aff !== 'Necrotic' && aff !== 'Psychic') continue;
+    html += `<div class="calc-row">
+      <span class="label">${aff}</span>
+      <input type="number" value="${val}" style="width:50px;text-align:center;font-size:11px;padding:1px 3px" onchange="setAffinity('${aff}', this.value)">
+    </div>`;
+  }
+  document.getElementById('affinities-display').innerHTML = html || '<div style="color:var(--muted);font-size:11px">No affinities assigned</div>';
+}
+
+function setAffinity(name, val) {
+  let newVal = parseInt(val) || 0;
+  let oldVal = char.affinities[name] || 0;
+  let diff = newVal - oldVal;
+  if (diff > 0 && diff <= char.affp) {
+    char.affp -= diff;
+    char.affinities[name] = newVal;
+  } else if (diff < 0) {
+    char.affp += Math.abs(diff);
+    char.affinities[name] = Math.max(0, newVal);
+  }
+  updateDisplay();
+}
+
+// ============ RACE ============
+function initRaceDropdown() {
+  let raceSel = document.getElementById('crace');
+  raceSel.innerHTML = '<option value="">-- Choose Race --</option>';
+  for (let race of Object.keys(RACES)) {
+    raceSel.innerHTML += `<option value="${race}">${race}</option>`;
+  }
+}
+
+function onRaceChange() {
+  let race = document.getElementById('crace').value;
+  let subSel = document.getElementById('csubrace');
+  subSel.innerHTML = '<option value="">-- Subrace --</option>';
+  if (race && RACES[race]) {
+    for (let sub of Object.keys(RACES[race].subraces)) {
+      subSel.innerHTML += `<option value="${sub}">${sub}</option>`;
+    }
+    updateDisplay();
+  }
+}
+
+document.getElementById('crace').addEventListener('change', onRaceChange);
+
+// ============ PATHS ============
+const PATH_ARCHETYPES = {
+  Physical: ["Indomitable","Marksman","Duelist","Mageslayer","Brawler","Vanguard","Juggernaut","Skirmisher","Sentinel"],
+  Magical: ["Magician","Pyromancer","Geomancer","Tidemaster","Windwalker","Priest","Necromancer","Psychic","Healer","Jack","Ritualist"],
+  Utility: ["Scholar","Scoundrel","Rune Master","Alchemist","Butcher","Slime Rancher","Golem Tamer","Dragonslayer","Monster Hunter","Human Hunter"],
+  Racial: ["Bloodline Evolution","General Evolution","Tull Tull","Tull Grivlit"],
+  Pact: ["Pact Taker","Beacon","Occultist","Reaper","Eldritch Horror","Godslayer"],
+};
+
+const PATH_INITIALS = {
+  Physical: { melee_dmg: 2, ranged_dmg: 2, melee_acc: 1, ranged_acc: 1 },
+  Magical: { generic_aff: 1, magic_blast: true },
+  Utility: { skp: 2 },
+  Racial: { tier1_racial: true },
+  Pact: { pact_tier1: true },
+};
+
+function updatePathPreview() {
+  let path = document.getElementById('path1-path').value;
+  let arch = document.getElementById('path1-arch').value;
+  document.getElementById('magician-tier-select').classList.toggle('hidden', arch !== 'Magician' || char.magician_has3x !== true);
+  let sel = document.getElementById('path1-arch');
+  sel.innerHTML = '<option value="">-- Choose --</option>';
+  if (path && PATH_ARCHETYPES[path]) {
+    for (let a of PATH_ARCHETYPES[path]) {
+      sel.innerHTML += `<option value="${a}">${a}</option>`;
+      if (a === arch) sel.value = arch;
+    }
+  }
+  let init = PATH_INITIALS[path] || {};
+  let preview = '';
+  if (arch === 'Magician') {
+    preview += `<div style="font-size:10px;color:var(--gold)">Magician tier 1: Mana die → 1d8, +1 Base Magic Damage</div>`;
+    preview += `<div style="font-size:10px;color:var(--gold)">Tier 5: 2x spell damage at 4x mana cost</div>`;
+    preview += `<div style="font-size:10px;color:var(--gold)">Tier 7: 3x spell damage at 6x mana cost</div>`;
+    preview += `<div style="font-size:10px;color:var(--muted)">Handbook: choose per cast (they do not stack)</div>`;
+  }
+  document.getElementById('path-preview').innerHTML = preview;
+  updateDisplay();
+}
+
+document.getElementById('path1-path').addEventListener('change', updatePathPreview);
+
+function setMagicianTier(tier) {
+  char.magician_tier = tier;
+  document.querySelectorAll('#magician-tier-select button').forEach((b,i) => {
+    b.classList.toggle('active', (i === 0 && tier === '2x') || (i === 1 && tier === '3x'));
+  });
+  addLog(`Magician multiplier set to ${tier}`, 'log-info');
+}
+
+// ============ RESTS ============
+function shortRest() {
+  let vit = vitMax(), mana = manaMax();
+  let hasInjury = char.injuries.length > 0;
+  char.curr_vit = hasInjury ? Math.floor(vit * 0.5) : vit;
+  char.curr_mana = Math.floor(mana * (hasInjury ? 0.5 : 0.5));
+  addLog(`Short rest: Vit ${char.curr_vit}/${vit}, Mana ${char.curr_mana}/${mana}${hasInjury?' (50% due to injury)':''}`, 'log-success');
+  updateDisplay();
+}
+
+function longRest() {
+  let vit = vitMax(), hp = hpMax(), mana = manaMax();
+  let hasInjury = char.injuries.length > 0;
+  char.curr_hp = Math.floor(hp * (hasInjury ? 0.5 : 1));
+  char.curr_vit = Math.floor(vit * (hasInjury ? 0.75 : 1));
+  char.curr_mana = Math.floor(mana * (hasInjury ? 0.75 : 1));
+  if (char.exhaustion > 0) char.exhaustion--;
+  addLog(`Long rest: HP ${char.curr_hp}/${hp}, Vit ${char.curr_vit}/${vit}, Mana ${char.curr_mana}/${mana}, Exhaustion ${char.exhaustion}${hasInjury?' (reduced due to injury)':''}`, 'log-success');
+  updateDisplay();
+}
+
+// ============ COMBAT SIMULATION ============
+function updateCombatSim() {
+  let wpn = document.getElementById('sim-weapon').value;
+  let atkType = document.getElementById('sim-atktype').value;
+  let toHit = atkType === 'Melee' ? toHitMelee() : atkType === 'Ranged' ? toHitRanged() : toHitMagic();
+  let dmgBonus = atkType === 'Melee' ? char.melee_dmg : atkType === 'Ranged' ? char.ranged_dmg : char.magic_dmg;
+  let statMod = atkType === 'Melee' ? mod('str') : atkType === 'Ranged' ? mod('dex') : 0;
+
+  let wpnDice = { unarmed: '1d4', longsword: '1d8', greatsword: '2d6', greataxe: '1d12', dagger: '1d4', rapier: '1d8', shortbow: '1d4', longbow: '1d6' };
+  let dice = wpnDice[wpn] || '1d4';
+  let [num, sides] = dice.split('d').map(Number);
+  let avgDmg = num * (sides + 1) / 2;
+  let totalDmg = Math.floor(avgDmg + statMod + dmgBonus);
+  let critDmg = num * sides + statMod + dmgBonus;
+
+  let targetAC = parseInt(document.getElementById('target-ac').value) || 14;
+  let missChance = Math.max(0.05, Math.min(0.95, (targetAC - toHit - 1) / 20));
+  let hitChance = Math.max(0.05, 1 - missChance);
+  let critRange = parseInt(document.getElementById('sim-crit').value);
+  let critChance = (21 - critRange) / 20;
+  let normHitChance = Math.max(0, hitChance - critChance);
+
+  let hasAdv = document.getElementById('sim-advantage').checked;
+  let hasDisadv = document.getElementById('sim-disadvantage').checked;
+  if (hasAdv && !hasDisadv) {
+    hitChance = 1 - (1 - hitChance) ** 2;
+  } else if (hasDisadv && !hasAdv) {
+    hitChance = hitChance ** 2;
+  }
+
+  let expectedDmg = Math.floor(totalDmg * hitChance);
+  document.getElementById('combat-sim-results').innerHTML = `
+    <div class="calc-row"><span class="label">To Hit</span><span class="value">${toHit>=0?'+':''}${toHit}</span></div>
+    <div class="calc-row"><span class="label">Hit Chance</span><span class="value">${Math.round(hitChance * 100)}%</span></div>
+    <div class="calc-row"><span class="label">Avg Hit Dmg</span><span class="value">${totalDmg}</span></div>
+    <div class="calc-row"><span class="label">Crit Dmg</span><span class="value" style="color:var(--red)">${critDmg} (bypasses Vit)</span></div>
+    <div class="calc-row"><span class="label">Expected/Turn</span><span class="value big">${expectedDmg}</span></div>
+  `;
+}
+
+function rollAttack() {
+  let targetAC = parseInt(document.getElementById('target-ac').value) || 14;
+  let atkType = document.getElementById('sim-atktype').value;
+  let toHit = atkType === 'Melee' ? toHitMelee() : atkType === 'Ranged' ? toHitRanged() : toHitMagic();
+  let hasAdv = document.getElementById('sim-advantage').checked;
+  let hasDisadv = document.getElementById('sim-disadvantage').checked;
+
+  let roll = Math.floor(Math.random() * 20) + 1;
+  let roll2 = (hasAdv || hasDisadv) ? Math.floor(Math.random() * 20) + 1 : null;
+  let finalRoll = hasAdv && !hasDisadv ? Math.max(roll, roll2) : hasDisadv && !hasAdv ? Math.min(roll, roll2) : roll;
+  let total = finalRoll + toHit;
+
+  let wpn = document.getElementById('sim-weapon').value;
+  let dmgBonus = atkType === 'Melee' ? char.melee_dmg : atkType === 'Ranged' ? char.ranged_dmg : char.magic_dmg;
+  let statMod = atkType === 'Melee' ? mod('str') : atkType === 'Ranged' ? mod('dex') : 0;
+  let wpnDice = { unarmed: '1d4', longsword: '1d8', greatsword: '2d6', greataxe: '1d12', dagger: '1d4', rapier: '1d8', shortbow: '1d4', longbow: '1d6' };
+  let [num, sides] = (wpnDice[wpn] || '1d4').split('d').map(Number);
+  let isCrit = finalRoll === 20 || total >= targetAC + 10;
+  let dmgRoll = isCrit ? num * sides : Math.floor(Math.random() * sides) * num + statMod + dmgBonus;
+  let dmg = isCrit ? dmgRoll + statMod + dmgBonus : dmgRoll + statMod + dmgBonus;
+  if (isCrit) dmg = num * sides + statMod + dmgBonus;
+
+  let hit = finalRoll >= targetAC || isCrit;
+  let resultHTML = `<b>Roll:</b> ${finalRoll}${roll2!==null?' ('+(hasAdv?'adv: '+roll+','+roll2:'disadv: '+roll+','+roll2)+')':''} + ${toHit} = <b>${total}</b> vs AC ${targetAC}<br>`;
+  if (isCrit) resultHTML += `<b style="color:var(--red)">CRITICAL HIT!</b> `;
+  else if (hit) resultHTML += `<b style="color:var(--green)">HIT!</b> `;
+  else resultHTML += `<b style="color:var(--muted)">MISS</b> `;
+
+  if (hit) {
+    resultHTML += `<b>Damage:</b> ${dmg} (${isCrit?'<span style="color:var(--red)">bypasses Vitality → HP!</span>':'goes to Vitality first'})`;
+    if (isCrit) {
+      char.curr_hp = Math.max(0, (char.curr_hp || hpMax()) - dmg);
+    } else {
+      let vit = char.curr_vit || vitMax();
+      if (dmg <= vit) {
+        char.curr_vit = vit - dmg;
+      } else {
+        char.curr_vit = 0;
+        char.curr_hp = Math.max(0, (char.curr_hp || hpMax()) - (dmg - vit));
+      }
+    }
+  }
+  document.getElementById('attack-result').innerHTML = resultHTML;
+  addLog(`Attack: Roll ${total} vs AC ${targetAC} — ${isCrit?'CRIT':'hit?'+hit}, ${hit ? dmg + ' dmg' : '0 dmg'}`, hit ? (isCrit ? 'log-danger' : 'log-success') : 'log-info');
+  updateDisplay();
+}
+
+// ============ LEVEL UP ============
+function levelUp() {
+  char.level++;
+  char.vit_n++; char.hp_n++; char.mana_n++;
+  char.skill_tree++;
+  char.skp += 2;
+  char.prof = 1 + Math.floor(char.level / 3);
+
+  if (char.level % 2 === 0) {
+    let affNames = ['Fire','Earth','Water','Air'];
+    let best = affNames.reduce((a,b) => (char.affinities[a]||0) > (char.affinities[b]||0) ? a : b);
+    char.affinities[best] = (char.affinities[best] || 0) + 1;
+  }
+  if (char.level % 3 === 0) {
+    char.stp += 2; char.affp += 2; char.skp += 2;
+  }
+  if (char.level % 8 === 0) { char.bap++; char.skp += 5; }
+  if (char.level % 10 === 0) { char.ap++; char.stp += 5; }
+
+  if (char.arch_level > 0 && char.path === 'Magical' && char.archetype === 'Magician') {
+    char.arch_level++;
+    if (char.arch_level >= 5) { char.magician_has2x = true; char.magician_tier = '2x'; }
+    if (char.arch_level >= 7) { char.magician_has3x = true; char.magician_tier = '3x'; }
+  }
+
+  addLog(`Leveled up to ${char.level}! +1 Vit/HP/Mana dice, +2 Skp, +1 Skill Tree`, 'log-success');
+  updateDisplay();
+  document.getElementById('magician-tier-select').classList.toggle('hidden', char.archetype !== 'Magician' || !char.magician_has3x);
+}
+
+// ============ CONDITIONS ============
+function initCondSelect() {
+  let sel = document.getElementById('cond-select');
+  for (let c of CONDITION_LIST) {
+    sel.innerHTML += `<option value="${c}">${c}</option>`;
+  }
+}
+
+function addCondition() {
+  let name = document.getElementById('cond-select').value;
+  if (!name) return;
+  if (char.conditions[name]) {
+    char.conditions[name].stacks++;
+  } else {
+    char.conditions[name] = { stacks: 1, duration: 2 };
+  }
+  addLog(`Condition added: ${name}`, 'log-warn');
+  updateConditionsUI();
+}
+
+function tickConditions() {
+  for (let [name, data] of Object.entries(char.conditions)) {
+    data.duration--;
+    if (data.duration <= 0) {
+      delete char.conditions[name];
+      addLog(`Condition expired: ${name}`, 'log-success');
+    }
+  }
+  updateConditionsUI();
+}
+
+function updateConditionsUI() {
+  let html = '';
+  for (let [name, data] of Object.entries(char.conditions)) {
+    let cls = ['Environmental','Physical','Mental','Magical'];
+    let cat = name === 'Bleeding' || name === 'Necrosis' ? 'phys' : name === 'Frozen' || name === 'On Fire' ? 'env' : name === 'Demoralized' ? 'ment' : 'phys';
+    html += `<span class="cond-tag ${cat}" title="${name} — Stacks: ${data.stacks}, Remaining: ${data.duration} turns">${name} x${data.stacks} (${data.duration}t)</span>`;
+  }
+  document.getElementById('active-conditions').innerHTML = html || 'No active conditions';
+  document.getElementById('active-injuries').innerHTML = char.injuries.length > 0 ? char.injuries.map(i => `${i.condition} (${i.turns}t)`).join(', ') : 'No active injuries';
+}
+
+function addExhaustion() { char.exhaustion = Math.min(6, char.exhaustion + 1); addLog('Exhaustion: ' + char.exhaustion, 'log-danger'); updateDisplay(); }
+function removeExhaustion() { char.exhaustion = Math.max(0, char.exhaustion - 1); addLog('Exhaustion reduced to ' + char.exhaustion, 'log-success'); updateDisplay(); }
+
+// ============ UTILITY ============
+function switchTab(tab) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+  document.getElementById('tab-' + tab).classList.remove('hidden');
+  document.querySelectorAll('.tab-bar button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  if (tab === 'skills') renderSkills();
+  if (tab === 'affinities') renderAffinities();
+  if (tab === 'conditions') updateConditionsUI();
+}
+
+function addLog(msg, cls) {
+  char.combat_log.push({ msg, cls, time: new Date().toLocaleTimeString() });
+  if (char.combat_log.length > 100) char.combat_log.shift();
+  let panel = document.getElementById('log-panel');
+  panel.innerHTML = char.combat_log.map(l => `<span class="${l.cls}">[${l.time}] ${l.msg}</span>`).join('<br>') + '<br>';
+}
+
+function simulateCombat() {
+  addLog('=== Combat Simulation (10 rounds) ===', 'log-info');
+  let targetAC = parseInt(document.getElementById('target-ac').value) || 14;
+  let totalDmg = 0;
+  for (let r = 0; r < 10; r++) {
+    let roll = Math.floor(Math.random() * 20) + 1;
+    let toHit = toHitMelee();
+    let total = roll + toHit;
+    let isCrit = roll === 20 || total >= targetAC + 10;
+    if (total >= targetAC || isCrit) {
+      let dmg = isCrit ? 8 + mod('str') + char.melee_dmg : Math.floor(Math.random() * 8) + 1 + mod('str') + char.melee_dmg;
+      totalDmg += dmg;
+    }
+  }
+  addLog(`10 rounds: Total damage = ${totalDmg} (avg ${Math.round(totalDmg/10)}/round)`, 'log-info');
+}
+
+function resetCharacter() {
+  if (confirm('Reset character to defaults?')) {
+    char = {
+      name: "Adventurer", race: "", subrace: "", level: 1,
+      stats: {str:8,dex:8,con:8,wis:8,int:8,cha:8},
+      stp: 24, skp: 5, affp: 5, skill_tree: 1,
+      vit_n: 2, hp_n: 2, mana_n: 2,
+      vit_die: "1d8", hp_die: "1d6", mana_die: "1d6",
+      vit_flat: 0, hp_flat: 0, mana_flat: 0, ac_bonus: 0,
+      curr_vit: 0, curr_hp: 0, curr_mana: 0,
+      ap: 1, bap: 1, rp: 1, prof: 1,
+      speed: 30, size: "Medium", karma: 0,
+      affinities: {Generic: 1},
+      melee_dmg: 0, melee_acc: 0, ranged_dmg: 0, ranged_acc: 0, magic_dmg: 0, magic_acc: 0,
+      conditions: {}, injuries: [], exhaustion: 0, overkill: 0,
+      weapon_prof: [], armor_prof: [], shield_prof: false,
+      magician_has2x: false, magician_has3x: false, magician_tier: "2x",
+      path: "", archetype: "", arch_level: 0,
+      combat_log: [],
+    };
+    document.getElementById('crace').value = '';
+    document.getElementById('csubrace').innerHTML = '<option value="">-- Subrace --</option>';
+    updateDisplay();
+    addLog('Character reset', 'log-info');
+  }
+}
+
+function saveCharacter() {
+  localStorage.setItem('eyum-char-v2', JSON.stringify(char));
+  addLog('Character saved to browser storage', 'log-success');
+}
+
+function loadCharacter() {
+  let raw = localStorage.getItem('eyum-char-v2');
+  if (!raw) { addLog('No saved character found', 'log-warn'); return; }
+  try {
+    char = JSON.parse(raw);
+    updateDisplay();
+    addLog('Character loaded', 'log-success');
+  } catch { addLog('Failed to load character', 'log-danger'); }
+}
+
+// ============ INIT ============
+document.addEventListener('DOMContentLoaded', function() {
+  initRaceDropdown();
+  initCondSelect();
+  char.curr_vit = vitMax();
+  char.curr_hp = hpMax();
+  char.curr_mana = manaMax();
+  updateDisplay();
+  addLog('Eyum Character Manager v2.0 ready', 'log-info');
+  addLog('Character sheet models full handbook rules: combat, injuries, conditions, resting, exhaustion', 'log-info');
+});
+</script>
+</body>
+</html>

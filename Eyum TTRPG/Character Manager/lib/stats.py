@@ -144,7 +144,9 @@ def spend_affinity_points(char, primary_affinity=None, affinity_prereqs=None):
                     char.affinities[aff_name] = char.affinities.get(aff_name, 0) + take
                     affp -= take * 3
                 return
-            if aff_name in affinity_prereqs and not _affinity_prereqs_met(aff_name, char, affinity_prereqs):
+            # Skip prereq spending for the primary affinity — the build already unlocked it
+            is_primary = (getattr(char, 'primary_affinity', None) == aff_name)
+            if not is_primary and aff_name in affinity_prereqs and not _affinity_prereqs_met(aff_name, char, affinity_prereqs):
                 prereq = affinity_prereqs[aff_name]
                 needs_all = prereq.get('needs_all', [])
                 if needs_all:
