@@ -15,7 +15,7 @@
 | -------- | ----- | ----------------------------------------------------- | ------------------------------------------------------------ | --------------------------------- | -------------------------------------- | ----- |
 | Human    | 25    |                                                       | Generic, Fire, Earth, Water, Air, Necrotic, Radiant, Psychic |                                   | +1 to any two stats                    | 0     |
 | Aurian   | 25    | Psychic                                               | Radient, Necrotic                                            | Generic, Fire, Earth, Water, Air, | +2 WIS, +1 INT, -1 CON                 | 0     |
-| Halofade | 25    | Fire, Earth                                           | Generic, Water, Air                                          | Radiant, Psychic, Necrotic        | +2 CHA, -1 STR                         | 0     |
+| Halofade | 25    | Fire, Earth, Necrotic                                 | Generic, Water, Air                                          | Radiant, Psychic                  | +3 CHA, +2 WIS, +2 INT, -2 STR, -3 CON | 0     |
 | Giant    | 30    | Air, Psychic, Water, Fire, Radiant, Necrotic, Generic | Earth                                                        |                                   | +8 STR, +4 CON, -2 DEX, -4 INT, -4 WIS | 0     |
 | Iceborn  | 25    | Fire                                                  | Generic, Earth, Air, Psychic                                 | Water, Radiant                    | +1 CON, +1 WIS                         | 0     |
 | Fireborn | 25    | Water, Radiant                                        | Generic, Earth, Air                                          | Fire, Psychic                     | +2 STR, +1 WIS, -1 CON                 | 0     |
@@ -64,20 +64,20 @@ Halofades are extremely tall and thin, with exaggerated limb length and narrow f
 
 Skin is very pale, cream, pearl-white, or faint yellow-gold, and reflects light strongly, giving a soft glow rather than shine. The surface feels cool and smooth. Hair is very fine and light, usually pale blonde, white-gold, or near translucent. Eyes are pale blue, gold, violet, or white, with clearly visible pupils even in low light. Teeth are small and blunt. 
 ###### Racial Abilities
-You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Mana Sense]]. 
-- **Tier 1:** **Fade Step.** As an Action, you become intangible until the start of your next turn. You can move through creatures/objects as difficult terrain; can’t end inside an object (if you do you take 2d8 True damage but remain intangible). While intangible you are immune to non-magical damage. While in this state any attacks you make have a -10 Accuracy penalty. 
-- **Tier 2:** **Misalignment.** Gain Resistance to Force and Radiant damage.
-- **Tier 3:** **Anchor Link.** As an Action, mark a creature/object you can see within 60 ft for 1 minute. As a Bonus Action while it lasts, you and the target swap positions if both are within 120 ft. Link ends after a swap and you can only be Linked to one creature at a time, attempting a new Link will override the last. 
-- **Tier 4:** **Phase Instinct.** Gain +2 Initiative and +2 to Dexterity saving throws.
-- **Tier 5:** **Photon Lance.** As an Action, ranged spell attack within 300 ft that ignores all cover and has +5 to hit (in addition to normal bonuses). On hit: 1d4 Radiant. Damage increases by +1d4 every 4 levels (retroactive). You may spend 20 Mana to fire one additional beam (each beam rolls separately).
-- **Tier 6:** **Lightframe.** Gain +10 ft movement speed.
-- **Tier 7:** **Slip Between.** Once per combat as a Bonus Action, teleport 40 ft to a space you can see.
-- **Tier 8:** **Unstable Body.** You have advantage on checks/saves to resist being grappled or restrained.
-- **Tier 9:** **Afterimage.** Once per combat, when you are hit, you may use a Reaction to force the attacker to reroll (must use new roll).
-- **Tier 10:** **Halofade Apex.** Choose one:
-    - **True Intangibility:** Fade Step also makes you immune to all damage.
-    - **Chain Swap:** You may link creatures other than yourself. Both linked creature will take 2d10 True Damage after being swapped if you choose.
-    - **Photon Array:** Photon Lance base damage becomes 1d8 and increases by 1d8 every 4 levels (retroactive), and each extra beam costs 10 Mana instead of 20.
+Gain +5 Quantum Affinity. You permanently unlock the Quantum affinity to be upgraded with Affinity Points even if you have not met the prerequisites. You gain [[Eyum TTRPG/1.0 The basics/1.6 Other Rules#Types of Vision|Mana Sense]] at 60 ft. 
+- **Tier 1:** **Photon Lance:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Photon Lance]].
+- **Tier 2:** **Phase Cloak:** While you have not attacked or cast a hostile spell since the end of your last turn, you gain +3 AC and attack rolls against you have disadvantage. This effect ends the moment you attack or cast a hostile spell and does not resume until the end of your non hostile next turn.
+- **Tier 3:** **Phase Walk:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Phase Walk]].
+- **Tier 4:** **Quantum Uncertainty:** When a creature makes an attack roll against you while you have moved at least 15 ft on your last turn, the attack has a 25% miss chance (roll a d4 before the attack is resolved; on a 1, the attack automatically misses regardless of the roll). Your movement speed increases by +5 ft. You gain +3 Quantum Affinity.
+- **Tier 5:** **Quantum Entanglement:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Quantum Entanglement]].
+- **Tier 6:** **Eigenstate:** When you would gain any condition, you may spend 5 Mana as a Reaction to attempt to avoid the condtion. Roll a d20. On an 11 or higher, you ignore the condition entirely. On a 10 or lower, you suffer the condition as normal. 
+- **Tier 7:** **Superposition:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Superposition]].
+- **Tier 8:** **Probability Collapse:** Once per round, when a creature within 60 ft of you succeeds on an attack roll, saving throw, or skill check, you may use your Reaction to force that creature to reroll the d20 and use the lower result. If the new result causes them to fail, you regain 5 Mana. You may also use this on yourself when you fail a d20 roll, forcing a reroll and taking the higher result (still once per round total). You gain +3 Quantum Affinity.
+- **Tier 9:** **Quantum Tunneling:** You learn the racial spell [[6.1.2 Unique, Racial, and Healing Spells#Racial Spells|Quantum Tunneling]].
+- **Tier 10:** **Halofade Apex** Choose one:
+    - **Wave Function Collapse:** All Quantum damage you deal is doubled. When you would reduce a creature to 0 HP with a Quantum spell, you may instead reduce them to 1 HP and place them in quantum stasis: they gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Paralyzed]] condition and become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions|Intangible]] for 1 minute (or until you end it) with no save. 
+    - **Many Worlds:** When you cast Superposition your duplicates can cast spells using your mana and use items, they gain 40 HP and +2 AC. 
+    - **Quantum Immortality:** When you would drop to 0 HP, you instead drop to 1 HP and immediately teleport to any unoccupied space you can see or have previously visited within 60 ft. This triggers once per combat. You permanently gain resistance to Quantum damage and immunity to the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions|Vibrating]] condition.
 ## Giant
 Giants are massive humanoids scaled far beyond human size. The skeleton is extremely thick, with oversized joints designed to support enormous weight. The torso is deep and wide, housing proportionally large organs. Limbs are thick and heavily muscled, with hands and feet far larger relative to the body than in humans. The neck is short and heavily muscled to support the large head.
 
