@@ -72,7 +72,7 @@ def calculate_damage(char, settings):
     # Model as average bonus spread across all attacks.
     skirmish_bonus = 0
     if hasattr(char, 'skirmish_per_5ft') and char.skirmish_per_5ft > 0:
-        skirmish_bonus = (char.speed / 5.0) * char.skirmish_per_5ft
+        skirmish_bonus = (char.speed / 10.0) * char.skirmish_per_5ft
     per_hit_feat_bonus += skirmish_bonus / max(atk_per_round, 1)
 
     if char.has_physical:

@@ -1,5 +1,5 @@
 EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER
-Run at: 2026-07-12 14:06:01
+Run at: 2026-07-12 14:18:53
 ======================================================================
 ────────────────────────────────────────────────────────────
 RACE SYNC
@@ -11,13 +11,18 @@ SPELL SYNC
   Parsed 225 spells from 6.1.1 Elemental Spells.md
   Parsed 101 spells from 6.1.2 Unique, Racial, and Healing Spells.md
   Total handbook spells: 325
+  ~ Abyssal Chains (Corruption): mana: 8 -> 20
+  ~ Black Binding (Corruption): mana: 23 -> 30
+  ~ Corrupt Dominion (Corruption): mana: 39 -> 40
+  ~ Fallen Throne (Corruption): mana: 68 -> 70
+  ~ Ruin of the Soul (Corruption): mana: 120 -> 140
 
-Spell sync: 0 updated, 0 added
+Spell sync: 5 updated, 0 added
 
 Spells in JSON not in handbook (1):
   Full Restore (Generic)
 
-Spells: 0 updated, 0 new, 0 in handbook only
+Spells: 5 updated, 0 new, 0 in handbook only
 ────────────────────────────────────────────────────────────
 CONDITION SYNC
 ────────────────────────────────────────────────────────────
@@ -71,7 +76,7 @@ Races needing manual tier data (40):
 
 Racial tiers: 40 races need manual data (not in table format)
 
-No changes detected.
+Changes tracked: 5 items -> changes.txt
 
 ======================================================================
-End of log — 2026-07-12 14:06:01
+End of log — 2026-07-12 14:18:53

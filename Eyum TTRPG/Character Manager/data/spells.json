@@ -572,7 +572,7 @@
     },
     {
       "name": "Abyssal Chains",
-      "mana": 8,
+      "mana": 20,
       "affinity_required": 21,
       "damage_dice": "6d8",
       "damage_type": "corruption",
@@ -587,7 +587,7 @@
     },
     {
       "name": "Black Binding",
-      "mana": 23,
+      "mana": 30,
       "affinity_required": 41,
       "int_required": 17,
       "damage_dice": "12d8",
@@ -603,7 +603,7 @@
     },
     {
       "name": "Corrupt Dominion",
-      "mana": 39,
+      "mana": 40,
       "affinity_required": 61,
       "int_required": 19,
       "damage_dice": "16d8",
@@ -620,7 +620,7 @@
     },
     {
       "name": "Fallen Throne",
-      "mana": 68,
+      "mana": 70,
       "affinity_required": 81,
       "int_required": 21,
       "damage_dice": "20d8",
@@ -637,7 +637,7 @@
     },
     {
       "name": "Ruin of the Soul",
-      "mana": 120,
+      "mana": 140,
       "affinity_required": 101,
       "int_required": 23,
       "damage_dice": "24d8",
