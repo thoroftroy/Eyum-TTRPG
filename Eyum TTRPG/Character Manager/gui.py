@@ -31,6 +31,7 @@ sys.path.insert(0, SCRIPT_DIR)
 from lib.config import load_settings
 from lib.gear import resolve_gear, select_gear
 from generator import generate_build
+from lib.output import write_build_file
 
 ALL_STATS = [
     'Vitality', 'Health', 'Mana', 'AC', 'Feats', 'Spells', 'To Hit',
@@ -199,7 +200,6 @@ def _gen_one_build(args):
     build_name, build_config, settings, levels, tier_dict, tier_label = args
     if not build_config.get('generate', True):
         return build_name, None
-    # Use select_gear with max level budget for proper tiered gear
     tier_name = tier_dict.get('name', '')
     max_level = max(levels)
     if tier_name == 'no_gear':
@@ -207,6 +207,14 @@ def _gen_one_build(args):
     else:
         gear_override = select_gear(build_config, tier_name, max_level)
     results = generate_build(build_name, build_config, settings, levels, gear_override, tier_label)
+    # Also write output files so the output/ directory stays in sync with graph data
+    try:
+        script_dir = SCRIPT_DIR
+        tier_dir = os.path.join(script_dir, "output", tier_name)
+        os.makedirs(tier_dir, exist_ok=True)
+        write_build_file(build_name, results, tier_dir, tier_label)
+    except Exception:
+        pass  # File writing is best-effort, don't break graph generation
     bd, _ = extract_build_data(settings, results)
     flattened = {lvl: bd[lvl] for lvl in sorted(bd.keys())}
     return build_name, flattened

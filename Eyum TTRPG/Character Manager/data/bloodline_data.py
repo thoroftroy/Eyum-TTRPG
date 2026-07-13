@@ -634,10 +634,19 @@ BLOODLINE_DATA = {
       }
     },
     "Miregnat": {
+      "0": {
+        "initiative": 3,
+        "fly_speed": 30
+      },
       "2": {
         "ac_bonus": 1,
         "speed": 10,
         "fly_speed": 10
+      },
+      "4": {
+        "affinity": {
+          "Toxin": 5
+        }
       },
       "8": {
         "ac_bonus": 4
@@ -661,17 +670,9 @@ BLOODLINE_DATA = {
       }
     },
     "Broodweaver": {
-      "1": {
-        "affinity_points": 2
-      },
-      "3": {
-        "affinity_points": 2
-      },
-      "6": {
-        "affinity_points": 3
-      },
-      "10": {
-        "affinity_points": 8
+      "0": {
+        "ac_bonus": 1,
+        "damage_reduction": 1
       }
     },
     "Duskwing": {
@@ -683,6 +684,11 @@ BLOODLINE_DATA = {
       }
     },
     "Glimmerwing": {
+      "0": {
+        "affinity": {
+          "Radiant": 2
+        }
+      },
       "4": {
         "ac_bonus": 2,
         "speed": 10
@@ -699,6 +705,9 @@ BLOODLINE_DATA = {
       }
     },
     "Twigwrought": {
+      "4": {
+        "ac_bonus": 3
+      },
       "5": {
         "damage_reduction": 3
       }
@@ -875,7 +884,7 @@ BLOODLINE_DATA = {
         }
       },
       "10": {
-        "true_sight_range": 120
+        "True_sight_range": 120
       }
     },
     "Palehook": {

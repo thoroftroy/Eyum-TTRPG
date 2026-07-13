@@ -646,7 +646,7 @@
     },
     "value": 5,
     "repeatable": false,
-    "description": "While wearing armor you gain extra AC. Light: +1 | Medium: +2 | Heavy: +3",
+    "description": "While wearing armor you gain extra AC. Light: +1 \\",
     "prerequisites": {
       "stat": {
         "con": 16
@@ -670,7 +670,8 @@
       "stat": {
         "str": 14
       }
-    }
+    },
+    "conditional": "gear_conditional"
   },
   "Point Blank Shot": {
     "type": "Conditional",
@@ -793,7 +794,8 @@
       "stat": {
         "str": 14
       }
-    }
+    },
+    "conditional": "charging"
   },
   "Endurance": {
     "type": "Conditional",
@@ -810,7 +812,8 @@
       "path": {
         "Indomitable": 1
       }
-    }
+    },
+    "conditional": "limited_use"
   },
   "Disarming Attack": {
     "type": "Conditional",
@@ -844,7 +847,8 @@
       "stat": {
         "dex": 14
       }
-    }
+    },
+    "conditional": "target_state"
   },
   "Vital Spot": {
     "type": "Conditional",
@@ -858,7 +862,8 @@
     },
     "value": 2,
     "repeatable": false,
-    "description": "Deal +1d12 damage to targets that are Prone or Restrained."
+    "description": "Deal +1d12 damage to targets that are Prone or Restrained.",
+    "conditional": "target_state"
   },
   "Executioner": {
     "type": "Conditional",
@@ -1095,7 +1100,8 @@
       "path": {
         "Reaper": 1
       }
-    }
+    },
+    "conditional": "retaliation"
   },
   "1,000 Paper Cuts": {
     "type": "Conditional",
@@ -1144,7 +1150,8 @@
       "path": {
         "Duelist": 1
       }
-    }
+    },
+    "conditional": "dueling"
   },
   "Sentinel": {
     "type": "Active (Rp)",
@@ -1224,7 +1231,8 @@
       "stat": {
         "con": 14
       }
-    }
+    },
+    "conditional": "limited_use"
   },
   "Hunker Down": {
     "type": "Active (BAp)",
@@ -1285,7 +1293,8 @@
       "path": {
         "Beacon": 1
       }
-    }
+    },
+    "conditional": "limited_use"
   },
   "Overdrive": {
     "type": "Active (BAp)",
@@ -1426,7 +1435,8 @@
       }
     },
     "effects": {},
-    "value": 0
+    "value": 0,
+    "conditional": "target_state"
   },
   "Titan\u2019s Grip": {
     "type": "Passive",
@@ -1441,7 +1451,7 @@
   },
   "Affinity Master": {
     "type": "Passive",
-    "description": "Instantly gain +2 affinity in Fire, Earth, Water, and Air affinities and +3 Affinity Points (Affp)",
+    "description": "Instantly gain +2 affinity in Fire, Earth Water, and air affinities and +3 Affinity Points (Affp)",
     "prerequisites": {},
     "effects": {
       "affinity": {
@@ -1517,7 +1527,8 @@
       }
     },
     "effects": {},
-    "value": 0
+    "value": 0,
+    "conditional": "limited_use"
   },
   "Mana Well II": {
     "type": "Active (BAp)",
@@ -1531,7 +1542,8 @@
       }
     },
     "effects": {},
-    "value": 0
+    "value": 0,
+    "conditional": "limited_use"
   },
   "Mana Well III": {
     "type": "Active (BAp)",
@@ -1556,6 +1568,14 @@
       }
     },
     "effects": {},
+    "value": 0
+  },
+  "Distiller's Fortune<br>": {
+    "type": "Passive",
+    "description": "When you roll a Natural 20 on a Distillation check, the product's Potency increases by +3 instead of +2. When you succeed on a Distillation check by 10 or more, the product's weight and volume are reduced to 2/3 of their previous amount instead of 1/2. When a Distillation check fails by 5 or less, the product remains at its current Potency rather than becoming Junk (the distillation simply fails with no effect other than losing 1/3 of the volume).",
+    "effects": {},
+    "prerequisites": {},
+    "conditional": null,
     "value": 0
   }
 }

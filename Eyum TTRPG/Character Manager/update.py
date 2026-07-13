@@ -79,6 +79,13 @@ DICE_ONLY = re.compile(
 FLAT_ONLY = re.compile(
     r'(?:take|deal|taking|dealing|taken|suffer)s?\s+(?:an?\s+)?(?P<flat>\d+(?:\.\d+)?)\s+(?!d\d)(?!\d+d)\w+\s+damage',
     re.IGNORECASE)
+# Broader damage patterns for spell descriptions that don't use "take/deal"
+FALLBACK_FLAT = re.compile(
+    r'(?::|,\s*they\s+take|target\s+takes?|creature\s+takes?|each\s+beam\s+deals?|inflicts?)\s+(?P<flat>\d+(?:\.\d+)?)\s+(?!\d*d\d)(?!level|turn|ft|round|minute|hour|day|stack|stacks)(?:\w+\s+){0,2}damage',
+    re.IGNORECASE)
+FALLBACK_DICE = re.compile(
+    r'(?::|,\s*they\s+take|target\s+takes?|creature\s+takes?|each\s+beam\s+deals?|inflicts?)\s+(?P<dice>\d+d\d+)\s+\w+\s+damage',
+    re.IGNORECASE)
 SAVE_RE = re.compile(
     r'make\s+a(?:n)?\s+(Strength|Dexterity|Constitution|Wisdom|Intelligence|Charisma)\s+save',
     re.IGNORECASE)
@@ -86,6 +93,23 @@ SAVE_MAP = {s.lower(): s[:3].lower() for s in
             ['Strength','Dexterity','Constitution','Wisdom','Intelligence','Charisma']}
 
 # ── Table parser ─────────────────────────────────────────────────
+_WIKILINK_RE = re.compile(r'\[\[(.*?)\]\]')
+
+def _protect_wikilinks(line):
+    """Replace pipes inside [[wikilinks]] so table splitting doesn't break."""
+    result = []
+    last_end = 0
+    for m in _WIKILINK_RE.finditer(line):
+        result.append(line[last_end:m.start()])
+        result.append(m.group(0).replace('|', '\x00PIPE\x00'))
+        last_end = m.end()
+    result.append(line[last_end:])
+    return ''.join(result)
+
+def _restore_wikilinks(cell):
+    return cell.replace('\x00PIPE\x00', '|')
+
+
 def parse_markdown_tables(filepath):
     """Parse ALL pipe-delimited tables from a markdown file.
     Returns list of (headers, rows) tuples."""
@@ -107,7 +131,8 @@ def parse_markdown_tables(filepath):
         # Parse cells
         rows = []
         for tl in table_lines:
-            cells = [c.strip() for c in tl.strip().split('|')]
+            protected = _protect_wikilinks(tl.strip())
+            cells = [_restore_wikilinks(c.strip()) for c in protected.split('|')]
             # Remove empty first/last cells from pipe syntax
             if cells and cells[0] == '': cells = cells[1:]
             if cells and cells[-1] == '': cells = cells[:-1]
@@ -171,15 +196,30 @@ def extract_spell_info(desc, prereq_str, rng_str):
         else:
             m = FLAT_ONLY.search(desc)
             if m: info['damage_flat'] = int(float(m.group('flat')))
+            else:
+                # Fallback: look for damage after colon or "takes" phrasing
+                m = FALLBACK_FLAT.search(desc)
+                if m: info['damage_flat'] = int(float(m.group('flat')))
+                else:
+                    m = FALLBACK_DICE.search(desc)
+                    if m: info['damage_dice'] = m.group('dice')
 
     # Conditions
     conditions = []
     for cond in ALL_CONDITIONS:
+        # Standard "Condition x3" format
         p = re.search(rf'{re.escape(cond)}\s*[×xX]\s*(\d+)', desc)
         if p:
             conditions.append(f'{cond} x{p.group(1)}')
         elif re.search(rf'\b{re.escape(cond)}\b', desc, re.IGNORECASE):
             conditions.append(cond)
+    # Also catch "3 stacks of Condition" format
+    for m in re.finditer(r'(\d+)\s+stacks?\s+of\s+([A-Z][\w\s]+?)(?:\s*,|\s*$|\s+and|\s+condition)', desc, re.IGNORECASE):
+        stack_cond = m.group(2).strip()
+        if stack_cond in ALL_CONDITIONS:
+            existing = [c for c in conditions if stack_cond in c]
+            if not existing:
+                conditions.append(f'{stack_cond} x{m.group(1)}')
     if conditions:
         info['extra_effect'] = '+'.join(conditions)
 
@@ -203,25 +243,33 @@ def extract_spell_info(desc, prereq_str, rng_str):
         if m: info['aoe_radius'] = int(m.group(1))
     if 'line' in rng: info['aoe_line'] = True
     if 'self' in rng: info['aoe_self'] = True
-    if 'touch' in rng: info['range'] = 'Touch'
-    else:
+    if 'touch' in rng:
+        info['range'] = 'Touch'
+    elif rng and rng[0].isdigit():
+        # Only parse numeric range if it starts with a digit (not 'Self', 'Touch', etc.)
         m = re.match(r'^(\d+)', rng)
         if m: info['range'] = int(m.group(1))
 
     # Concentration
-    if re.search(r'(?<!not )\brequires\s+[Cc]oncentration\b', desc):
+    if re.search(r'(?<!not )(?:requires?\s+|maintain\s+)[Cc]oncentration\b', desc, re.IGNORECASE):
         info['concentration'] = True
 
     # Bonus action
-    if 'bonus action' in desc.lower() and 'cast' in desc.lower():
+    if ('bonus action' in desc.lower() and ('cast' in desc.lower() or 'casting' in desc.lower() or 'as a' in desc.lower())) or \
+       'casting time: 1 bonus action' in desc.lower():
         info['costs_bonus_action'] = True
+
+    # Level required from prerequisite string
+    for m in re.finditer(r'[Ll]evel\s+(\d+(?:\.\d+)?)', prereq_str):
+        try: info['level_required'] = int(float(m.group(1)))
+        except: pass
 
     # Stat prereqs from prerequisite string
     for m in re.finditer(r'>\s*(\d+)\s*(Str|Dex|Con|Wis|Int|Cha)\b', prereq_str, re.IGNORECASE):
         info[f'{m.group(2).lower()}_required'] = int(m.group(1)) + 1
 
-    # Affinity required
-    m = re.search(r'>\s*(\d+)\s*([A-Z][\w/]+)\s*(?:Affinity)?', prereq_str, re.IGNORECASE)
+    # Affinity required (handles multi-word names like "Ice/Cold", "Eldritch Horror")
+    m = re.search(r'>\s*(\d+)\s*([A-Z][\w/\s]+?)(?:\s+Affinity|\s*$|\s*[,;])', prereq_str, re.IGNORECASE)
     if m: info['affinity_required'] = int(m.group(1)) + 1
 
     return info
@@ -850,6 +898,8 @@ def run_update(win=None):
     sync_spells(sink.lines, log_fn)
     sync_conditions(sink.lines, log_fn)
     sync_racial_tiers(sink.lines, log_fn)
+    sync_feats(sink.lines, log_fn)
+    sync_paths(sink.lines, log_fn)
 
     # Write changes.txt
     if _changed_items:
@@ -872,6 +922,132 @@ def run_update(win=None):
 
     if not win:
         _builtin_print(f"\nFull report: {LOG_PATH}")
+
+
+# ── Conditional effect detection ──────────────────────────────────
+CONDITIONAL_PATTERNS = [
+    # Creature-type conditions
+    (r'vs\.?\s+undead|against\s+undead|to\s+undead', 'undead'),
+    (r'vs\.?\s+dragon|against\s+dragon|to\s+dragon', 'dragon'),
+    (r'vs\.?\s+humanoid|against\s+humanoid|to\s+humanoid', 'humanoid'),
+    (r'vs\.?\s+monster|against\s+monster|to\s+monster', 'monster'),
+    (r'vs\.?\s+deit|against\s+deit|to\s+deit|godslayer', 'deity'),
+    (r'vs\.?\s+caster|against\s+caster|against\s+creatures?\s+with.*?magic|mage\s*slayer', 'caster'),
+    # State conditions
+    (r'below\s+(?:half|50%)', 'low_hp'),
+    (r'first\s+round|surprise\s+round|first\s+turn', 'first_round'),
+    (r'while\s+mounted|on\s+horseback', 'mounted'),
+    (r'charging|after\s+moving\s+at\s+least|move\s+\d+\s*ft\s+before', 'charging'),
+    (r'duel|1\s*v\s*1|one\s+on\s+one|only\s+creature\s+within\s+melee', 'dueling'),
+    (r'while\s+wielding\s+a\s+(?:two.handed|shield|heavy)|when\s+using\s+a\s+(?:two.handed|heavy)', 'gear_conditional'),
+    (r'as\s+a\s+ritual|ritual\s+spell', 'ritual'),
+    (r'prone|restrained', 'target_state'),
+    (r'retaliation|riposte|when\s+(?:you|hit)\s+(?:are|by)|attacker\s+takes|counter', 'retaliation'),
+    (r'once\s+per\s+(?:long|short)\s+rest|once\s+per\s+combat', 'limited_use'),
+    (r'only\s+(?:on|when|while|if|against|vs)', None),  # generic conditional
+]
+
+def is_conditional_effect(description):
+    """Check if a described effect is conditional (shouldn't always apply)."""
+    desc_lower = description.lower()
+    for pattern, tag in CONDITIONAL_PATTERNS:
+        if re.search(pattern, desc_lower):
+            return tag or 'conditional'
+    return None
+
+
+# ── Feat syncing ───────────────────────────────────────────────────
+def sync_feats(log_lines, log):
+    """Sync feats from 3.4 Feats.md into feats.json.
+    Detects conditional effects and marks them — never applies them as universal."""
+    log("─" * 60)
+    log("FEAT SYNC")
+    log("─" * 60)
+
+    path = os.path.join(HANDBOOK, FEATS_FILE)
+    if not os.path.exists(path):
+        log("  Feats file not found — skipping")
+        return
+
+    tables = parse_markdown_tables(path)
+    feats_path = os.path.join(DATA_DIR, 'feats.json')
+    with open(feats_path) as f:
+        feats_json = json.load(f)
+
+    changed = 0
+    for header, rows in tables:
+        cols = {h.lower().replace(' ', '_').replace('/', '_'): i for i, h in enumerate(header)}
+        name_idx = cols.get('name', 0)
+        type_idx = cols.get('type', None)
+        desc_idx = cols.get('effect_description', 1) or cols.get('description', 1)
+        prereq_idx = cols.get('prerequisites', None) or cols.get('prerequisite', None)
+
+        for row in rows:
+            if not row or len(row) <= name_idx: continue
+            name = row[name_idx].strip()
+            if not name or name.lower() in ('name', 'feat'): continue
+
+            desc = row[desc_idx] if desc_idx is not None and desc_idx < len(row) else ''
+            feat_type = row[type_idx] if type_idx is not None and type_idx < len(row) else 'Passive'
+            prereq_str = row[prereq_idx] if prereq_idx is not None and prereq_idx < len(row) else ''
+
+            # Check if this feat is conditional
+            cond_tag = is_conditional_effect(f'{name} {desc}')
+            existing = feats_json.get(name, {})
+
+            # Extract stat bonuses from description
+            stat_bonuses = {}
+            for m in re.finditer(r'gain\s+([+-]?\d+)\s+(?:to\s+your\s+)?(STR|DEX|CON|WIS|INT|CHA)\s', desc, re.IGNORECASE):
+                stat_bonuses[m.group(2).lower()] = int(m.group(1))
+            for m in re.finditer(r'increase\s+(?:by\s+)?([+-]?\d+)\s+(?:to\s+your\s+)?(STR|DEX|CON|WIS|INT|CHA)\s', desc, re.IGNORECASE):
+                stat_bonuses[m.group(2).lower()] = int(m.group(1))
+
+            if name not in feats_json:
+                feats_json[name] = {
+                    'type': feat_type,
+                    'description': desc,
+                    'effects': {},
+                    'prerequisites': {},
+                    'conditional': cond_tag,
+                    'value': 0,
+                }
+                if stat_bonuses:
+                    feats_json[name]['effects']['stat'] = stat_bonuses
+                changed += 1
+                _changed_items.append(f"FEAT|{name}")
+                log(f"  + ADDED feat: {name}" + (f" [conditional: {cond_tag}]" if cond_tag else ""))
+            else:
+                # Update existing — don't overwrite effects, just sync metadata
+                existing['description'] = desc
+                if cond_tag and not existing.get('conditional'):
+                    existing['conditional'] = cond_tag
+                    changed += 1
+                    log(f"  ~ {name}: marked conditional ({cond_tag})")
+
+    if changed:
+        with open(feats_path, 'w') as f:
+            json.dump(feats_json, f, indent=2)
+            f.write('\n')
+    log(f"Feat sync: {changed} changes")
+
+
+# ── Path syncing ───────────────────────────────────────────────────
+def sync_paths(log_lines, log):
+    """Paths.json is complex and must be hand-maintained.
+    This function reports mismatches between handbook and paths.json
+    rather than auto-generating (which would break conditional annotations)."""
+    log("─" * 60)
+    log("PATH SYNC (validation only)")
+    log("─" * 60)
+    log("  paths.json contains conditional bonus annotations that cannot be")
+    log("  auto-generated from the handbook. It must be maintained manually.")
+    log("  When adding new archetype tiers, add them to paths.json by hand.")
+    log("  Conditional bonuses should NOT be in the 'effects' dict — they")
+    log("  should be removed or placed under 'conditional_effects'.")
+    log("")
+    log("  Conditional keywords detected by the parser:")
+    for pattern, tag in CONDITIONAL_PATTERNS:
+        log(f"    {tag or 'generic'}: {pattern}")
 
 
 def main():

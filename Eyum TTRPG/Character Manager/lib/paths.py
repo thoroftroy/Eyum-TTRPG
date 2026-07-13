@@ -44,19 +44,22 @@ def apply_level_progression(char, target_level, settings):
                 char.flat_vit += e2['if_physical']['flat_vit']
                 char.flat_hp += e2['if_physical']['flat_hp']
             if char.has_magical and 'if_magical' in e2:
-                # Player choice: pick the highest-priority element from the cycle
-                # that matches best the character's affinities
-                best_elem = None
-                best_val = -1
-                for elem in elem_cycle_order:
-                    val = char.affinities.get(elem, 0)
-                    if val > best_val:
-                        best_val = val
-                        best_elem = elem
-                if best_elem is None:
-                    best_elem = elem_cycle_order[elem_idx % len(elemental_cycle)]
-                    elem_idx += 1
-                char.affinities[best_elem] = char.affinities.get(best_elem, 0) + e2['if_magical']['elemental_affinity']
+                # Handbook: +1 to Fire/Earth/Water/Air. Generator: primary first.
+                primary = getattr(char, 'primary_affinity', None)
+                if primary and primary not in ('Generic', 'Force') and primary in char.affinities:
+                    char.affinities[primary] = char.affinities.get(primary, 0) + e2['if_magical']['elemental_affinity']
+                else:
+                    best_elem = None
+                    best_val = -1
+                    for elem in elem_cycle_order:
+                        val = char.affinities.get(elem, 0)
+                        if val > best_val:
+                            best_val = val
+                            best_elem = elem
+                    if best_elem is None:
+                        best_elem = elem_cycle_order[elem_idx % len(elemental_cycle)]
+                        elem_idx += 1
+                    char.affinities[best_elem] = char.affinities.get(best_elem, 0) + e2['if_magical']['elemental_affinity']
             if any(p == 'Utility' for (p, a), v in char.archetype_levels.items() if v > 0) and 'if_utility' in e2:
                 char.skill_points += e2['if_utility']['skill_points']
 

@@ -10,7 +10,7 @@ def format_mod(m):
     return str(m)
 
 
-def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, tier_label=None):
+def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, tier_label=None, changes=None):
     r = settings['rules']
     lines = []
     sep = "=" * 60
@@ -20,6 +20,9 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, ti
         title += " (" + tier_label + ")"
     lines.append(title)
     lines.append(sep)
+    if changes:
+        lines.append("")
+        lines.append("  Changes: " + changes)
     lines.append("")
 
     die_avg = r['die_averages']
@@ -89,6 +92,20 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, ti
             lines.append("    Magic Dmg/Cast: " + str(int(magic_cast)) + " | Dmg/Turn: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
         else:
             lines.append("    Magic Dmg/Cast: " + str(dmg_perturn['magic']) + " (x" + str(mana_cost) + " mana)")
+        spell_name = dmg_perturn.get('spell_name', '')
+        spell_elem = dmg_perturn.get('spell_element', '')
+        if spell_name:
+            lines.append("    Spell: " + spell_name + (f" ({spell_elem})" if spell_elem else ""))
+        sec_name = dmg_perturn.get('secondary_spell', '')
+        if sec_name:
+            sec_dmg = dmg_perturn.get('secondary_dmg', 0)
+            sec_casts = dmg_perturn.get('secondary_casts', 0)
+            lines.append(f"    Secondary: {sec_name} x{sec_casts} casts (+{sec_dmg:.0f}/cast)")
+        skip_info = dmg_perturn.get('skip_info', {})
+        if skip_info and skip_info.get('skipped'):
+            lines.append("    Skipped spells:")
+            for s in skip_info['skipped'][:5]:
+                lines.append(f"      {s['name']}: dmg={s.get('dmg',0):.0f} mana={s['mana']} ({s.get('reason','?')})")
     lines.append("    Total Dmg/5R:  " + str(int(dmg_5round['total'])))
     lines.append("    Total Dmg/10R: " + str(int(dmg_10round['total'])))
     if mana_cost > 0:
@@ -122,7 +139,8 @@ def format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, ti
     if char.archetype_levels:
         lines.append("  PATHS:")
         for (path, arch), lvl in char.archetype_levels.items():
-            lines.append("    " + path + " -> " + arch + " (Lvl " + str(lvl) + ")")
+            if lvl > 0 and not (path == 'Racial' and lvl <= 1 and 'Bloodline Evolution' not in arch):
+                lines.append("    " + path + " -> " + arch + " (Lvl " + str(lvl) + ")")
         lines.append("")
 
     if char.affinities:

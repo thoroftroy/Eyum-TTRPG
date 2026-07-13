@@ -3,22 +3,26 @@
     {
       "name": "Slumber Dust",
       "mana": 8,
-      "description": "You release a cloud of fine sleep-inducing dust from your wings in a 15 ft cone. Creatures in the cone must make a CON save (DC 10 + your Save DC Bonus). On a failure they gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\",
+      "description": "You release a cloud of fine sleep-inducing dust from your wings in a 15 ft cone. Creatures in the cone must make a CON save (DC 10 + your Save DC Bonus). On a failure they gain the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\|Unconscious]] condition until the start of your next turn, or until they take damage. On a success they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\|Slowed]] for 1 turn instead. Creatures with 30 or more maximum HP have advantage on this save.",
       "damage_type": "air",
       "range": 30,
       "aoe_radius": 15,
       "aoe_cone": true,
-      "upcast_rule": "Unconscious]] condition until the start of your next turn, or until they take damage. On a success they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\"
+      "upcast_rule": "x2, +10 ft cone length and targets with <50 HP lose advantage",
+      "extra_effect": "Unconscious+Slowed"
     },
     {
       "name": "Dust of Dread",
       "mana": 12,
-      "description": "A billowing cloud of hallucinogenic wing dust erupts at a point you can see for 3 turns. Creatures entering or starting their turn in the cloud must make a WIS save (DC 10 + your Save DC Bonus). On a failure they take 2d4 Poison damage and are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\",
+      "description": "A billowing cloud of hallucinogenic wing dust erupts at a point you can see for 3 turns. Creatures entering or starting their turn in the cloud must make a WIS save (DC 10 + your Save DC Bonus). On a failure they take 2d4 Poison damage and are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\|Frightened]] of you for 1 turn and gain the Despair condition for 1 turn. On a success they take half damage and are not Frightened. The cloud is lightly obscured. This spell requires Concentration.",
       "damage_type": "air",
       "range": 60,
       "damage_dice": "2d4",
       "aoe_radius": 15,
-      "upcast_rule": "Frightened]] of you for 1 turn and gain the Despair condition for 1 turn. On a success they take half damage and are not Frightened. The cloud is lightly obscured. This spell requires Concentration."
+      "upcast_rule": "x2, +5 ft radius and +1d4 damage",
+      "extra_effect": "Frightened+Despair",
+      "concentration": true,
+      "save_half": true
     },
     {
       "name": "Gust",
@@ -217,12 +221,12 @@
       "name": "Go Atomic",
       "mana": 125,
       "affinity_required": 21,
-      "damage_flat": 150,
+      "damage_flat": 180,
       "damage_type": "atomic",
       "aoe_radius": 200,
       "extra_effect": "Radiation x15",
       "save_half": true,
-      "description": "Explode into a massive atomic detonation centered on yourself. All creatures in 200 ft including you take 150 Atomic damage and gain Radiation x15. You take half damage from the explosion.",
+      "description": "Explode into a massive atomic detonation centered on yourself. All creatures in 200 ft including you take 180 Atomic damage and gain Radiation x15. You take half damage from the explosion.",
       "upcast_to": "Critical Atomicity",
       "aoe_self": true,
       "save": "dex"
@@ -232,13 +236,13 @@
       "mana": 250,
       "affinity_required": 41,
       "int_required": 33,
-      "damage_flat": 200,
+      "damage_flat": 230,
       "damage_type": "atomic",
       "aoe_radius": 200,
       "extra_effect": "Radiation x18",
       "aoe_self": true,
       "save_half": true,
-      "description": "Choose a point you can see instead of centering it on yourself. Creatures in a 200 ft radius take 200 Atomic damage and gain Radiation x18. Structures, terrain, and mundane matter in the zone are devastated at GM discretion. You take half damage from the explosion.",
+      "description": "Choose a point you can see instead of centering it on yourself. Creatures in a 200 ft radius take 230 Atomic damage and gain Radiation x18. Structures, terrain, and mundane matter in the zone are devastated at GM discretion. You take half damage from the explosion.",
       "upcast_to": "Fallout Crown",
       "range": 300,
       "save": "dex"
@@ -252,23 +256,24 @@
       "aoe_radius": 220,
       "extra_effect": "Radiation x20",
       "save_half": true,
-      "description": "Choose a point. The initial blast deals 300 Atomic damage in a 220 ft radius and applies Radiation x20. The zone then remains irradiated for 3 turns; creatures entering or ending their turn there gain Radiation x3 and take 4d12 Atomic damage. You take half damage from the explosion.",
+      "description": "Choose a point. The initial blast deals 330 Atomic damage in a 220 ft radius and applies Radiation x20. The zone then remains irradiated for 3 turns; creatures entering or ending their turn there gain Radiation x3 and take 170 Atomic damage. You take half damage from the explosion.",
       "upcast_to": "Fission Verdict",
       "range": 300,
       "save": "dex",
-      "damage_dice": "4d12"
+      "damage_dice": "4d12",
+      "damage_flat": 330
     },
     {
       "name": "Fission Verdict",
       "mana": 500,
       "affinity_required": 81,
       "int_required": 41,
-      "damage_flat": 150,
+      "damage_flat": 180,
       "damage_type": "atomic",
       "aoe_radius": 120,
       "extra_effect": "Radiation x12",
       "save_half": true,
-      "description": "Choose up to 3 points you can see within range. At each point, a small detonation erupts in a 120 ft radius, each dealing 150 Atomic damage and Radiation x12. Any creature caught in more than one radius takes all damage and stacks all Radiation. You take half damage from the explosion.",
+      "description": "Choose up to 3 points you can see within range. At each point, a small detonation erupts in a 120 ft radius, each dealing 180 Atomic damage and Radiation x12. Any creature caught in more than one radius takes all damage and stacks all Radiation. You take half damage from the explosion.",
       "upcast_to": "Last Sun",
       "range": 360,
       "save": "dex"
@@ -278,13 +283,13 @@
       "mana": 750,
       "affinity_required": 101,
       "int_required": 46,
-      "damage_flat": 550,
+      "damage_flat": 620,
       "damage_type": "atomic",
       "aoe_radius": 300,
       "extra_effect": "Radiation x35",
       "save_half": true,
-      "description": "Create an absolute end-state blast at a point you can see. Creatures in a 300 ft radius take 550 Atomic damage and gain Radiation x35. The ground remains terminally irradiated for 5 turns, applying Radiation x30 and 8d20 Atomic damage to creatures entering or ending their turn there. You take half damage from the explosion.",
-      "upcast_rule": "x3, +550 flat damage, +50 ft radius, +10 Radiation stacks",
+      "description": "Create an absolute end-state blast at a point you can see. Creatures in a 300 ft radius take 620 Atomic damage and gain Radiation x35. The ground remains terminally irradiated for 5 turns, applying Radiation x30 and 200 Atomic damage to creatures entering or ending their turn there. You take half damage from the explosion.",
+      "upcast_rule": "x3, +600 flat damage, +50 ft radius, +10 Radiation stacks",
       "range": 500,
       "save": "dex"
     }
@@ -547,6 +552,22 @@
   ],
   "Corruption": [
     {
+      "name": "Black Tentacles",
+      "mana": 35,
+      "affinity_required": 2,
+      "damage_dice": "2d8",
+      "damage_type": "corruption",
+      "save": "str",
+      "attack_roll": false,
+      "aoe_radius": 20,
+      "concentration": true,
+      "extra_effect": "Restrained",
+      "description": "Tentacles of dark energy erupt for the duration. Creatures in the area must make a Str save. On fail, they take 5 Corruption damage and become Restrained. While Restrained this way, they take 5 Corruption damage at the start of each of your turns. This spell requires Concentration.",
+      "upcast_rule": "x2, +5 ft radius",
+      "range": 60,
+      "damage_flat": 5
+    },
+    {
       "name": "Bestow Curse",
       "mana": 15,
       "affinity_required": 11,
@@ -556,23 +577,8 @@
       "range": "Touch"
     },
     {
-      "name": "Black Tentacles",
-      "mana": 21,
-      "affinity_required": 13,
-      "damage_dice": "4d8",
-      "damage_type": "corruption",
-      "save": "str",
-      "attack_roll": false,
-      "aoe_radius": 20,
-      "concentration": true,
-      "extra_effect": "Restrained",
-      "description": "Tentacles of dark energy erupt for 3 turns. Creatures in the area must make a Str save. On fail, they take 4d8 Corruption damage and become Restrained. While Restrained this way, they take 4d8 Corruption damage at the start of each of your turns. Escape DC = your Spell Save DC. This spell requires Concentration.",
-      "upcast_rule": "x2, +5 ft radius",
-      "range": 60
-    },
-    {
       "name": "Abyssal Chains",
-      "mana": 20,
+      "mana": 25,
       "affinity_required": 21,
       "damage_dice": "6d8",
       "damage_type": "corruption",
@@ -580,14 +586,14 @@
       "save_half": true,
       "attack_roll": false,
       "extra_effect": "Entangled+Restrained+Corrupt+Mute",
-      "description": "Shadowy chains erupt from the ground beneath a creature you can see within range. The target must make a Strength save. On a failure, it takes 6d8 + 20 Corruption damage, becomes Entangled, gains 1 stack of Corrupt, and is also Mute while restrained this way. On a success, it takes half damage and is not Entangled or Muted. If the target is already suffering from Corrupt, increase the damage by +3d8 + 10 and reduce its Ap, BAp, and Rp by 1 until the end of its next turn.",
+      "description": "Shadowy chains erupt from the ground beneath a creature you can see within range. The target must make a Strength save. On a failure, it takes 5 Corruption damage, becomes Entangled, gains 1 stack of Corrupt, and is also Mute while restrained this way. On a success, it takes half damage and is not Entangled or Muted. If the target is already suffering from Corrupt, increase the damage by +5 and reduce its Ap, BAp, and Rp by 1 until the end of its next turn.",
       "upcast_to": "Black Binding",
       "range": 40,
-      "damage_flat": 20
+      "damage_flat": 5
     },
     {
       "name": "Black Binding",
-      "mana": 30,
+      "mana": 50,
       "affinity_required": 41,
       "int_required": 17,
       "damage_dice": "12d8",
@@ -596,14 +602,14 @@
       "save_half": true,
       "attack_roll": false,
       "extra_effect": "Entangled+Corrupt+Mute+Cursed+Slowed",
-      "description": "Choose a creature you can see within range. Black restraints and cursed weight crush downward on the target. It must make a Strength save. On a failure, it takes 12d8 + 40 Corruption damage, becomes Entangled, gains 2 stacks of Corrupt, becomes Mute, and gains Slowed for 2 turns. On a success, it takes half damage and gains 1 stack of Corrupt. A creature already affected by Corrupt must also make a Wisdom save or become Cursed for 2 turns.",
+      "description": "Choose a creature you can see within range. Black restraints and cursed weight crush downward on the target. It must make a Strength save. On a failure, it takes 20 Corruption damage, becomes Entangled, gains 2 stacks of Corrupt, becomes Mute, and gains Slowed for 2 turns. On a success, it takes half damage and gains 1 stack of Corrupt. A creature already affected by Corrupt must also make a Wisdom save or become Cursed for 2 turns.",
       "upcast_to": "Corrupt Dominion",
       "range": 60,
-      "damage_flat": 40
+      "damage_flat": 20
     },
     {
       "name": "Corrupt Dominion",
-      "mana": 40,
+      "mana": 65,
       "affinity_required": 61,
       "int_required": 19,
       "damage_dice": "16d8",
@@ -613,14 +619,14 @@
       "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Entangled+Corrupt+Mute+Slow Death",
-      "description": "Choose a point you can see within range. A field of corruptive force blossoms in a 20 ft radius. All creatures in the area must make a Strength save. On a failure, a creature takes 16d8 + 60 Corruption damage, gains 2 stacks of Corrupt, becomes Mute, and is Entangled until it escapes normally. On a success, the creature takes half damage and gains 1 stack of Corrupt. Creatures already affected by Corrupt also gain Slow Death on a failed save.",
+      "description": "Choose a point you can see within range. A field of corruptive force blossoms in a 20 ft radius. All creatures in the area must make a Strength save. On a failure, a creature takes 40 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, and is Entangled until it escapes normally. On a success, the creature takes half damage and gains 1 stack of Corrupt. Creatures already affected by Corrupt also gain Slow Death on a failed save.",
       "upcast_to": "Fallen Throne",
       "range": 90,
-      "damage_flat": 60
+      "damage_flat": 40
     },
     {
       "name": "Fallen Throne",
-      "mana": 70,
+      "mana": 80,
       "affinity_required": 81,
       "int_required": 21,
       "damage_dice": "20d8",
@@ -630,14 +636,14 @@
       "attack_roll": false,
       "aoe_radius": 25,
       "extra_effect": "Entangled+Corrupt+Mute+Slow Death",
-      "description": "Choose a point you can see within range. Corruption floods the battlefield like a kingdom collapsing into rot. All creatures in a 25 ft radius must make a Strength save. On a failure, a creature takes 20d8 + 80 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, becomes Entangled, and gains Slow Death (2 stacks). On a success, the creature takes half damage and gains 1 stack of Corrupt. Any creature already affected by Corrupt automatically fails the Mute and Corrupt portions of the spell even on a successful save.",
+      "description": "Choose a point you can see within range. Corruption floods the battlefield like a kingdom collapsing into rot. All creatures in a 25 ft radius must make a Strength save. On a failure, a creature takes 55 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, becomes Entangled, and gains Slow Death (2 stacks). On a success, the creature takes half damage and gains 1 stack of Corrupt. Any creature already affected by Corrupt automatically fails the Mute and Corrupt portions of the spell even on a successful save.",
       "upcast_to": "Ruin of the Soul",
       "range": 120,
-      "damage_flat": 80
+      "damage_flat": 55
     },
     {
       "name": "Ruin of the Soul",
-      "mana": 140,
+      "mana": 110,
       "affinity_required": 101,
       "int_required": 23,
       "damage_dice": "24d8",
@@ -647,10 +653,10 @@
       "attack_roll": false,
       "aoe_radius": 30,
       "extra_effect": "Entangled+Corrupt+Mute+Slow Death+Slowed",
-      "description": "Choose a point you can see within range. The area is consumed by overwhelming corruption that tears apart body, will, and magic. All creatures in a 30 ft radius must make a Strength save. On a failure, a creature takes 24d8 + 120 Corruption damage, gains 4 stacks of Corrupt, becomes Mute, becomes Entangled, gains Slowed for 3 turns, and gains Slow Death (4 stacks). On a success, the creature takes half damage, gains 2 stacks of Corrupt, and becomes Mute for 1 turn. Any creature that was already suffering from Corrupt before this spell was cast instead takes an additional 10d8 + 60 Corruption damage and automatically gains the full Slow Death effect on a failed save.",
+      "description": "Choose a point you can see within range. The area is consumed by overwhelming corruption that tears apart body, will, and magic. All creatures in a 30 ft radius must make a Strength save. On a failure, a creature takes 75 Corruption damage, gains 4 stacks of Corrupt, becomes Mute, becomes Entangled, gains Slowed for 3 turns, and gains Slow Death (4 stacks). On a success, the creature takes half damage, gains 2 stacks of Corrupt, and becomes Mute for 1 turn. Any creature that was already suffering from Corrupt before this spell was cast instead takes an additional 20 Corruption damage and automatically gains the full Slow Death effect on a failed save.",
       "upcast_rule": "x2, +12d8 damage and +1 Slow Death stack",
       "range": 150,
-      "damage_flat": 120
+      "damage_flat": 75
     }
   ],
   "Dust": [
@@ -785,20 +791,20 @@
       "mana": 15,
       "affinity_required": 11,
       "int_required": 17,
-      "damage_dice": "4d6",
+      "damage_dice": "3d6",
       "damage_type": "earth",
       "save": "str",
       "save_half": true,
       "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Prone+Slowed",
-      "description": "Choose a point on the ground you can see. Jagged stone erupts in a 20 ft radius. Creatures in the area must make a Strength save. On a failure they take 4d6 Earth damage, are Prone, and become Slowed for 2 turns. On a success they take half damage and are not Slowed or knocked prone.",
+      "description": "Choose a point on the ground you can see. Jagged stone erupts in a 20 ft radius. Creatures in the area must make a Strength save. On a failure they take 3d6 Earth damage, are Prone, and become Slowed for 2 turns. On a success they take half damage and are not Slowed or knocked prone.",
       "upcast_to": "Faultline",
       "range": 60
     },
     {
       "name": "Bastion Rise",
-      "mana": 20,
+      "mana": 30,
       "affinity_required": 13,
       "damage_dice": "3d6",
       "damage_type": "earth",
@@ -909,21 +915,23 @@
     {
       "name": "Cinder Bolt",
       "mana": 6,
-      "description": "Hurl a large firebolt at a creature within range, on hit the creature takes 1d8 + [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\",
+      "description": "Hurl a large firebolt at a creature within range, on hit the creature takes 1d8 + [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\|Attack Damage Bonus]] Fire damage and must make a Con Save. On fail they gain On Fire for 1 turn. If the target is already On Fire they take an additional +1d8 damage.",
       "damage_type": "fire",
       "range": 15,
       "damage_dice": "1d8",
-      "upcast_rule": "Attack Damage Bonus]] Fire damage and must make a Con Save. On fail they gain On Fire for 1 turn. If the target is already On Fire they take an additional +1d8 damage."
+      "upcast_rule": "x2, +1d8 damage (both base and bonus)",
+      "extra_effect": "On Fire"
     },
     {
       "name": "Flamethrower",
       "mana": 20,
-      "description": "Concentration. Shoot a line of flame which is 15 ft long, all creatures who enter the line or start or end their turn in the line take 2d10 + [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\",
+      "description": "Concentration. Shoot a line of flame which is 15 ft long, all creatures who enter the line or start or end their turn in the line take 2d10 + [[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\|Attack Damage Bonus]] Fire damage damage and Gain On Fire condition, DEX save halves but still gain On Fire.",
       "damage_type": "fire",
       "range": 15,
       "damage_dice": "2d10",
       "aoe_line": true,
-      "upcast_rule": "Attack Damage Bonus]] Fire damage damage and Gain On Fire condition, DEX save halves but still gain On Fire."
+      "upcast_rule": "x2, +1 Line or +5 ft width",
+      "extra_effect": "On Fire"
     },
     {
       "name": "Firebolt",
@@ -1098,19 +1106,22 @@
     {
       "name": "Ice Shards",
       "mana": 5,
-      "description": "Shoot 2 ice shards at creatures in range. On hit target takes 1d10 + [[2.1 Affinities#Attack Damage Bonus \\",
+      "description": "Shoot 2 ice shards at creatures in range. On hit target takes 1d10 + [[2.1 Affinities#Attack Damage Bonus \\|Attack Damage Bonus]] Ice/Cold damage and apply 1 stack of Frozen.",
       "damage_type": "ice/cold",
       "range": 30,
       "damage_dice": "1d10",
-      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 1 stack of Frozen."
+      "upcast_rule": "x2, +1 Projectile",
+      "extra_effect": "Frozen"
     },
     {
       "name": "Ice Ward",
       "mana": 10,
-      "description": "Concentration. Gain + [[2.1 Affinities#Attack Damage Bonus \\",
+      "description": "Concentration. Gain + [[2.1 Affinities#Attack Damage Bonus \\|Attack Damage Bonus]] AC during the duration. All enemies starting their turn within 5 ft must make a Con Save or gain +3 Stacks of Frozen at the start of their turn. Any enemy which hits you with a melee attack during the duration takes 1d8 Ice/Cold damage.",
       "damage_type": "ice/cold",
       "aoe_self": true,
-      "upcast_rule": "Attack Damage Bonus]] AC during the duration. All enemies starting their turn within 5 ft must make a Con Save or gain +3 Stacks of Frozen at the start of their turn. Any enemy which hits you with a melee attack during the duration takes 1d8 Ice/Cold damage."
+      "upcast_rule": "x2, +5 ft radius and +2 Stacks of Frozen",
+      "damage_dice": "1d8",
+      "extra_effect": "Frozen"
     },
     {
       "name": "Flash Freeze",
@@ -1120,9 +1131,9 @@
       "damage_type": "cold",
       "save": "con",
       "attack_roll": true,
-      "extra_effect": "Soaked",
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\",
-      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
+      "extra_effect": "Frozen+Soaked",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\|Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
+      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
       "range": 30
     },
     {
@@ -1132,9 +1143,9 @@
       "damage_dice": "2d6",
       "damage_type": "cold",
       "attack_roll": true,
-      "extra_effect": "Soaked",
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\",
-      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
+      "extra_effect": "Frozen+Soaked",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\|Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
+      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
       "range": 30
     },
     {
@@ -1168,7 +1179,7 @@
     {
       "name": "Glacial Prison",
       "mana": 30,
-      "affinity_required": 16,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "6d6",
       "damage_type": "cold",
@@ -1183,7 +1194,7 @@
     {
       "name": "Absolute Zero",
       "mana": 49,
-      "affinity_required": 21,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "15d6",
       "damage_type": "cold",
@@ -1198,7 +1209,7 @@
     {
       "name": "Frozen Cataclysm",
       "mana": 90,
-      "affinity_required": 26,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "10d6",
       "damage_type": "cold",
@@ -1385,7 +1396,7 @@
     {
       "name": "Lightning Surge",
       "mana": 28,
-      "affinity_required": 16,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "8d6",
       "damage_type": "lightning",
@@ -1401,7 +1412,7 @@
     {
       "name": "Lightning Collapse",
       "mana": 46,
-      "affinity_required": 21,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "10d6",
       "damage_type": "lightning",
@@ -1416,7 +1427,7 @@
     {
       "name": "Judgment Strike",
       "mana": 84,
-      "affinity_required": 26,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "10d8",
       "damage_type": "lightning",
@@ -1538,21 +1549,6 @@
       "upcast_to": "Iron Dominion"
     },
     {
-      "name": "Iron Dominion",
-      "mana": 28,
-      "description": "Choose a point you can see. Metallic structures erupt violently from the ground in a 15 ft radius, forming spikes, walls, and cages simultaneously. Creatures in the area must make a Strength save. On a failure, they take 8d8 Metal damage, become Grappled, gain Pierced, and have their movement reduced to 0 while inside the structure. While Grappled this way, they take 3 stacks of Hurting per turn instead of 2. The terrain becomes Impassable Terrain for all creatures except the caster. On a success, creatures take half damage and are not Grappled but must treat the area as Difficult Terrain.",
-      "damage_type": "metal",
-      "range": 60,
-      "damage_dice": "8d8",
-      "extra_effect": "Hurting+Grappled+Difficult Terrain+Pierced",
-      "save": "str",
-      "aoe_radius": 15,
-      "affinity_required": 11,
-      "con_required": 17,
-      "save_half": true,
-      "upcast_to": "Steel Catacomb"
-    },
-    {
       "name": "Blade Barrier",
       "mana": 21,
       "description": "Whirling metal blades form a wall for 3 turns. Creatures passing through must make a Dex save. On fail, they take 6d8 Metal damage and gain Pierced. On success, they take half damage. The wall blocks line of sight and movement. This spell requires Concentration.",
@@ -1566,6 +1562,21 @@
       "upcast_rule": "x2, +15 ft wall length"
     },
     {
+      "name": "Iron Dominion",
+      "mana": 28,
+      "description": "Choose a point you can see. Metallic structures erupt violently from the ground in a 15 ft radius, forming spikes, walls, and cages simultaneously. Creatures in the area must make a Strength save. On a failure, they take 8d8 Metal damage, become Grappled, gain Pierced, and have their movement reduced to 0 while inside the structure. While Grappled this way, they take 3 stacks of Hurting per turn instead of 2. The terrain becomes Impassable Terrain for all creatures except the caster. On a success, creatures take half damage and are not Grappled but must treat the area as Difficult Terrain.",
+      "damage_type": "metal",
+      "range": 60,
+      "damage_dice": "8d8",
+      "extra_effect": "Hurting+Grappled+Difficult Terrain+Pierced",
+      "save": "str",
+      "aoe_radius": 15,
+      "affinity_required": 17,
+      "con_required": 17,
+      "save_half": true,
+      "upcast_to": "Steel Catacomb"
+    },
+    {
       "name": "Steel Catacomb",
       "mana": 46,
       "description": "A massive prison of metal forms instantly, enclosing the area in a crushing lattice. Creatures must make a Strength save. On a failure, they take 10d8 Metal damage, become Grappled, gain Pierced, and are fully Restrained (cannot take Actions that require movement or weapon use requiring space). At the start of each turn, they take 4 stacks of Hurting. If they fail their escape check by 5 or more, they instead take an additional 6d8 Metal damage as the structure crushes inward.",
@@ -1575,7 +1586,7 @@
       "extra_effect": "Hurting+Grappled+Restrained+Pierced",
       "save": "str",
       "aoe_radius": 20,
-      "affinity_required": 16,
+      "affinity_required": 19,
       "con_required": 19,
       "upcast_to": "Iron Judgment"
     },
@@ -1603,7 +1614,7 @@
       "extra_effect": "Hurting+Restrained+Pierced",
       "save": "str",
       "aoe_radius": 30,
-      "affinity_required": 26,
+      "affinity_required": 23,
       "con_required": 23,
       "save_half": true,
       "upcast_rule": "x2, +8d8 damage and +1 Hurting stack per turn"
@@ -1885,7 +1896,7 @@
     {
       "name": "Contagion Field",
       "mana": 30,
-      "affinity_required": 11,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_type": "necrotic",
       "save": "con",
@@ -1899,7 +1910,7 @@
     {
       "name": "Death Bloom",
       "mana": 54,
-      "affinity_required": 13,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "6d6",
       "damage_type": "necrotic",
@@ -1914,7 +1925,7 @@
     {
       "name": "Necrotic Collapse",
       "mana": 78,
-      "affinity_required": 16,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "8d6",
       "damage_type": "necrotic",
@@ -1946,7 +1957,7 @@
     {
       "name": "Nova Compression",
       "mana": 84,
-      "affinity_required": 11,
+      "affinity_required": 29,
       "int_required": 29,
       "damage_dice": "9d12",
       "damage_type": "nova",
@@ -1961,7 +1972,7 @@
     {
       "name": "Supernova Collapse",
       "mana": 114,
-      "affinity_required": 16,
+      "affinity_required": 31,
       "int_required": 31,
       "damage_dice": "12d12",
       "damage_type": "nova",
@@ -1977,7 +1988,7 @@
     {
       "name": "Stellar Annihilation",
       "mana": 150,
-      "affinity_required": 21,
+      "affinity_required": 33,
       "int_required": 33,
       "damage_dice": "15d12",
       "damage_type": "nova",
@@ -1992,7 +2003,7 @@
     {
       "name": "Terminal Nova",
       "mana": 225,
-      "affinity_required": 26,
+      "affinity_required": 35,
       "int_required": 35,
       "damage_dice": "20d12",
       "damage_type": "nova",
@@ -2040,10 +2051,10 @@
       "mana": 4,
       "affinity_required": 31,
       "con_required": 17,
-      "damage_dice": "3d12",
+      "damage_dice": "2d12",
       "damage_type": "obsidian",
       "concentration": true,
-      "description": "Your skin becomes dark strong black glass. Gain +10 AC but -10 ft Speed and resistance to slashing and piercing damage. Anyone hitting you with melee takes 3d12 Obsidian damage. This spell requires concentration.",
+      "description": "Your skin becomes dark strong black glass. Gain +10 AC but -10 ft Speed and resistance to slashing and piercing damage. Anyone hitting you with melee takes 2d12 Obsidian damage. This spell requires concentration.",
       "upcast_to": "Shard Reprisal",
       "aoe_self": true,
       "retaliation": {
@@ -2055,11 +2066,11 @@
       "mana": 8,
       "affinity_required": 46,
       "con_required": 19,
-      "damage_dice": "4d12",
+      "damage_dice": "3d12",
       "damage_flat": 15,
       "damage_type": "obsidian",
       "attack_roll": true,
-      "description": "Make a spell attack. On hit, deal 4d12 + 15 Obsidian damage and the target gains Pierced. If the target attacks you before the end of your next turn, it takes 2d8 + 10 Obsidian damage immediately after their attack lands.",
+      "description": "Make a spell attack. On hit, deal 3d12 + 15 Obsidian damage and the target gains Pierced. If the target attacks you before the end of your next turn, it takes 1d8 + 10 Obsidian damage immediately after their attack lands.",
       "upcast_to": "Obsidian Mirror",
       "range": 60,
       "extra_effect": "Pierced"
@@ -2086,10 +2097,10 @@
       "mana": 32,
       "affinity_required": 76,
       "con_required": 25,
-      "damage_dice": "4d8",
+      "damage_dice": "3d8",
       "damage_type": "obsidian",
       "concentration": true,
-      "description": "Raise a 15 ft tall and 5 ft wide obsidian monolith in an empty space within range. The monolith has 100 + Obsidian Affinity health and no Vitality with an AC of 20. The monolith provides full cover, blocks movement and line of sight, and lasts until destroyed, dismissed, or your Concentration ends. While the monolith exists, you are encased in obsidian. You gain +5 AC, reduce all incoming damage by 10, and cannot be forcibly moved against your will. Whenever a creature hits you with a melee attack or targets you with a spell attack, it takes 4d8 Obsidian damage. At the cost of a BAp you may cause obsidian spikes to erupt from the ground within 15 ft of the monolith. Creatures of your choice in the area must make a Dexterity save or take 3d8 Obsidian damage and gain Pierced. When the monolith is destroyed or dismissed, it explodes into razor-sharp shards. Creatures within 20 ft must make a Dexterity save. On a failure, they take 16d8 Obsidian damage and gain Pierced. On a success, they take half damage and do not gain Pierced. This spell requires Concentration. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
+      "description": "Raise a 15 ft tall and 5 ft wide obsidian monolith in an empty space within range. The monolith has 100 + Obsidian Affinity health and no Vitality with an AC of 20. The monolith provides full cover, blocks movement and line of sight, and lasts until destroyed, dismissed, or your Concentration ends. While the monolith exists, you are encased in obsidian. You gain +5 AC, reduce all incoming damage by 10, and cannot be forcibly moved against your will. Whenever a creature hits you with a melee attack or targets you with a spell attack, it takes 3d8 Obsidian damage. At the cost of a BAp you may cause obsidian spikes to erupt from the ground within 15 ft of the monolith. Creatures of your choice in the area must make a Dexterity save or take 2d8 Obsidian damage and gain Pierced. When the monolith is destroyed or dismissed, it explodes into razor-sharp shards. Creatures within 20 ft must make a Dexterity save. On a failure, they take 10d8 Obsidian damage and gain Pierced. On a success, they take half damage and do not gain Pierced. This spell requires Concentration. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_rule": "x2, +1 monolith or +4d8 burst damage",
       "range": 90,
       "aoe_radius": 15,
@@ -2186,26 +2197,29 @@
     {
       "name": "Hypnotic Gaze",
       "mana": 5,
-      "description": "Choose a creature you can see within range. It must make a WIS save (DC 10 + your Save DC Bonus). On a failure it is [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\",
+      "description": "Choose a creature you can see within range. It must make a WIS save (DC 10 + your Save DC Bonus). On a failure it is [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\|Hypnotized]] for 1 turn. A creature Hypnotized this way cannot take actions or move of its own accord. The effect ends if the creature takes damage. After 5 upcasts (or after Glimmerwing Tier 9) the damage removal of the condition is removed, instead when a creature takes damage they may make a WIS save (DC 10 + Save DC Bonus), on success they lose the Hypnotized condition. On a success nothing happens and the creature is unaware of the attempt.",
       "damage_type": "psychic",
       "range": 30,
-      "upcast_rule": "Hypnotized]] for 1 turn. A creature Hypnotized this way cannot take actions or move of its own accord. The effect ends if the creature takes damage. After 5 upcasts (or after Glimmerwing Tier 9) the damage removal of the condition is removed, instead when a creature takes damage they may make a WIS save (DC 10 + Save DC Bonus), on success they lose the Hypnotized condition. On a success nothing happens and the creature is unaware of the attempt."
+      "upcast_rule": "x2, +1 turn duration",
+      "extra_effect": "Hypnotized"
     },
     {
       "name": "Dream Slip",
       "mana": 10,
-      "description": "As a Reaction (Rp), you may give an attacker who just missed their attack against you the [[2.4 Conditions#Environmental / Positional Conditions\\",
+      "description": "As a Reaction (Rp), you may give an attacker who just missed their attack against you the [[2.4 Conditions#Environmental / Positional Conditions\\|Unconscious]] condition until the start of your next turn.",
       "damage_type": "psychic",
-      "upcast_rule": "Unconscious]] condition until the start of your next turn."
+      "upcast_rule": "Unconscious]] condition until the start of your next turn.",
+      "extra_effect": "Unconscious"
     },
     {
       "name": "Mass Hypnosis",
       "mana": 18,
-      "description": "Choose a point you can see within range. All creatures in a 20 ft radius must make a WIS save (DC 10 + your Save DC Bonus). On a failure they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\",
+      "description": "Choose a point you can see within range. All creatures in a 20 ft radius must make a WIS save (DC 10 + your Save DC Bonus). On a failure they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Mental-Conditions\\|Hypnotized]] for 10 turns. On a success they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\|Slowed]] for 1 turn instead. A creature Hypnotized this way cannot take actions or move of its own accord. When a creature takes damage they may make a WIS save (DC 10 + Save DC Bonus), on success they lose the Hypnotized condition. Creatures that cannot see are immune.",
       "damage_type": "psychic",
       "range": 60,
       "aoe_radius": 20,
-      "upcast_rule": "Hypnotized]] for 10 turns. On a success they are [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\"
+      "upcast_rule": "x2, +1 turn duration and +5 ft radius",
+      "extra_effect": "Hypnotized+Slowed"
     },
     {
       "name": "Thought Reading",
@@ -2217,11 +2231,11 @@
     {
       "name": "Dream Master",
       "mana": 30,
-      "description": "You may enter the mind of an unconscious target. While you are inside their mind, time is frozen in the outside world and you may converse freely. While inside a creature\u2019s mind, all attacks deal psychic damage. All resistances and immunities are ignored. Your Health and Vitality pools are fully restored at the start of entering this state but leaving it will revert it to the original state or the new state whichever is lower. You gain triple advantage on Intimidation checks while inside someone\u2019s mind, along with a flat +5 bonus. On its turn, the creature whose mind you are in may attempt a Wisdom saving throw to banish you. On a success, you are forcibly removed and take 2d10 psychic damage (ignoring resistances and immunities). On a failure, the creature gains the [[2.4 Conditions#Mental-Conditions\\",
+      "description": "You may enter the mind of an unconscious target. While you are inside their mind, time is frozen in the outside world and you may converse freely. While inside a creature\u2019s mind, all attacks deal psychic damage. All resistances and immunities are ignored. Your Health and Vitality pools are fully restored at the start of entering this state but leaving it will revert it to the original state or the new state whichever is lower. You gain triple advantage on Intimidation checks while inside someone\u2019s mind, along with a flat +5 bonus. On its turn, the creature whose mind you are in may attempt a Wisdom saving throw to banish you. On a success, you are forcibly removed and take 2d10 psychic damage (ignoring resistances and immunities). On a failure, the creature gains the [[2.4 Conditions#Mental-Conditions\\|Demoralized]] condition. After failing 3 times, it gains the [[2.4 Conditions#Mental-Conditions\\|Despair]] condition. After failing 3 additional times, it can no longer attempt saves to banish you. Checks to remove [[2.4 Conditions#Mental-Conditions\\|Demoralized]] and [[2.4 Conditions#Mental-Conditions\\|Despair]] conditions cannot be made while a Dream Master is there and the conditions remain even after the Dream Master leaves.",
       "damage_type": "psychic",
       "range": "Touch",
       "damage_dice": "2d10",
-      "extra_effect": "Frozen+Unconscious",
+      "extra_effect": "Frozen+Unconscious+Demoralized+Despair",
       "upcast_rule": "Demoralized]] condition. After failing 3 times, it gains the [[2.4 Conditions#Mental-Conditions\\"
     },
     {
@@ -2276,7 +2290,7 @@
     {
       "name": "Mind Break",
       "mana": 20,
-      "affinity_required": 11,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "4d8",
       "damage_type": "psychic",
@@ -2290,7 +2304,7 @@
     {
       "name": "Psychic Collapse",
       "mana": 30,
-      "affinity_required": 13,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "6d8",
       "damage_type": "psychic",
@@ -2306,7 +2320,7 @@
     {
       "name": "Ego Shatter",
       "mana": 63,
-      "affinity_required": 16,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "8d8",
       "damage_type": "psychic",
@@ -2411,12 +2425,14 @@
     {
       "name": "Moonbeam",
       "mana": 20,
-      "description": "A 5 ft radius cylinder of pale moonlight descends on a point you can see for 3 turns. When the beam appears and at the start of each of your turns while it persists, each creature in the beam must make a CON save (DC 10 + your Save DC Bonus). On a failure they take 3d8 Radiant damage and become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "description": "A 5 ft radius cylinder of pale moonlight descends on a point you can see for 3 turns. When the beam appears and at the start of each of your turns while it persists, each creature in the beam must make a CON save (DC 10 + your Save DC Bonus). On a failure they take 3d8 Radiant damage and become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\|Blinded]] for 1 turn. On a success they take half damage and are not Blinded. A creature that enters the beam for the first time on a turn or ends its turn there also triggers this save. Undead and creatures with the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Magical-Conditions\\|Cursed]] condition have disadvantage on this save. This spell requires Concentration.",
       "damage_type": "radiant",
       "range": 90,
       "damage_dice": "3d8",
-      "upcast_rule": "Blinded]] for 1 turn. On a success they take half damage and are not Blinded. A creature that enters the beam for the first time on a turn or ends its turn there also triggers this save. Undead and creatures with the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Magical-Conditions\\",
-      "concentration": true
+      "upcast_rule": "x2, +2d8 damage and +5 ft beam radius",
+      "concentration": true,
+      "extra_effect": "Blinded+Cursed",
+      "save_half": true
     },
     {
       "name": "Manaskin",
@@ -2492,9 +2508,18 @@
       "upcast_rule": "x2, +2d8 damage and +5 ft radius"
     },
     {
+      "name": "Resurrection",
+      "mana": 41,
+      "affinity_required": 11,
+      "damage_type": "radiant",
+      "description": "Touch a creature that has been dead for less than 10 minutes. It returns to life with 1 HP.",
+      "upcast_rule": "x2, increase the maximum time since death by 10 minutes per upcast, to a maximum of 48 hours",
+      "range": "Touch"
+    },
+    {
       "name": "Solar Lance (Radiant)",
       "mana": 23,
-      "affinity_required": 11,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "5d10",
       "damage_type": "radiant",
@@ -2509,18 +2534,9 @@
       "range": 90
     },
     {
-      "name": "Resurrection",
-      "mana": 41,
-      "affinity_required": 11,
-      "damage_type": "radiant",
-      "description": "Touch a creature that has been dead for less than 10 minutes. It returns to life with 1 HP.",
-      "upcast_rule": "x2, increase the maximum time since death by 10 minutes per upcast, to a maximum of 48 hours",
-      "range": "Touch"
-    },
-    {
       "name": "Divine Eruption",
       "mana": 33,
-      "affinity_required": 13,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "6d6",
       "damage_type": "radiant",
@@ -2536,7 +2552,7 @@
     {
       "name": "Ascension Nova",
       "mana": 59,
-      "affinity_required": 16,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "8d6",
       "damage_type": "radiant",
@@ -2662,7 +2678,7 @@
     {
       "name": "Solar Lance (Solar)",
       "mana": 23,
-      "affinity_required": 11,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "5d10",
       "damage_type": "solar",
@@ -2679,7 +2695,7 @@
     {
       "name": "Solar Lance (Solar)",
       "mana": 23,
-      "affinity_required": 11,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "5d10",
       "damage_type": "solar",
@@ -2695,7 +2711,7 @@
     {
       "name": "Solar Collapse",
       "mana": 39,
-      "affinity_required": 16,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "8d10",
       "damage_type": "solar",
@@ -2711,7 +2727,7 @@
     {
       "name": "Solar Collapse",
       "mana": 39,
-      "affinity_required": 16,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "8d10",
       "damage_type": "solar",
@@ -2742,7 +2758,7 @@
     {
       "name": "Solar Cataclysm",
       "mana": 114,
-      "affinity_required": 26,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "15d10",
       "damage_type": "solar",
@@ -3004,7 +3020,7 @@
       "damage_type": "storm",
       "attack_roll": true,
       "concentration": true,
-      "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 2d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
+      "description": "You summon a raging storm centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 2d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_to": "Tempest",
       "range": 240
     },
@@ -3017,7 +3033,7 @@
       "damage_type": "storm",
       "attack_roll": true,
       "concentration": true,
-      "description": "You summon a raging tempest centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 3d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
+      "description": "You summon a raging tempest centered on a point you can see within range. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 3d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_to": "Hurricane Aura",
       "range": 300
     },
@@ -3032,7 +3048,7 @@
       "concentration": true,
       "aoe_self": true,
       "aoe_radius": 40,
-      "description": "You summon a devastating hurricane centered on yourself with a radius of 40 ft. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 4d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
+      "description": "You summon a devastating hurricane centered on yourself with a radius of 40 ft. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 4d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_to": "Maelstrom",
       "range": "Self",
       "bap_attack": true
@@ -3047,7 +3063,7 @@
       "attack_roll": true,
       "concentration": true,
       "aoe_radius": 60,
-      "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 5d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
+      "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 5d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_rule": "x2, +10d10 Storm Damage",
       "range": 360,
       "bap_attack": true
@@ -3329,7 +3345,7 @@
     {
       "name": "Gravity Tear",
       "mana": 37,
-      "affinity_required": 16,
+      "affinity_required": 17,
       "int_required": 17,
       "damage_dice": "6d8",
       "damage_type": "vacuum",
@@ -3344,7 +3360,7 @@
     {
       "name": "Event Collapse",
       "mana": 60,
-      "affinity_required": 21,
+      "affinity_required": 19,
       "int_required": 19,
       "damage_dice": "8d8",
       "damage_type": "vacuum",
@@ -3359,7 +3375,7 @@
     {
       "name": "Singularity Core",
       "mana": 114,
-      "affinity_required": 26,
+      "affinity_required": 23,
       "int_required": 23,
       "damage_dice": "12d8",
       "damage_type": "vacuum",
@@ -3658,7 +3674,7 @@
       "aoe_radius": 30,
       "concentration": true,
       "extra_effect": "Soaked+DifficultTerrain",
-      "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 5d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell.",
+      "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 5d10 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/4 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_rule": "x2, +10d10 Storm Damage",
       "range": 360
     }
@@ -3947,6 +3963,27 @@
       "damage_type": "generic"
     },
     {
+      "name": "Mana Bomb",
+      "mana": 15,
+      "int_required": 18,
+      "extra_prereqs": {
+        "affinities_at": {
+          "6": 3
+        }
+      },
+      "damage_formula": "10+affinity_mod/2",
+      "save": "dex",
+      "save_half": true,
+      "attack_roll": false,
+      "description": "Choose an affinity type you have at least 5 in choose a 10 ft area within range that you can see, that area explodes with magic dealing 10 + your Attack Damage Bonus for the chosen affinity damage to all creatures in the area who fail a Dex Save, on a success they take half.",
+      "upcast_to": "Mana Explosion",
+      "range": 60,
+      "affinity_required": 6,
+      "affinities_at_required": 6,
+      "affinities_at_count": 3,
+      "damage_type": "generic"
+    },
+    {
       "name": "Mana Explosion",
       "mana": 20,
       "extra_prereqs": {
@@ -3982,30 +4019,9 @@
       "description": "Choose an affinity type you have at least 15 in choose a 25 ft area within range that you can see, that area explodes with magic dealing 30 + your Attack Damage Bonus for the chosen affinity damage to all creatures in the area who fail a Dex Save, on a success they take half.",
       "upcast_rule": "x2, +30 damage",
       "range": 60,
-      "affinity_required": 16,
+      "affinity_required": 21,
       "affinities_at_required": 16,
       "affinities_at_count": 4,
-      "damage_type": "generic"
-    },
-    {
-      "name": "Mana Bomb",
-      "mana": 15,
-      "int_required": 18,
-      "extra_prereqs": {
-        "affinities_at": {
-          "6": 3
-        }
-      },
-      "damage_formula": "10+affinity_mod/2",
-      "save": "dex",
-      "save_half": true,
-      "attack_roll": false,
-      "description": "Choose an affinity type you have at least 5 in choose a 10 ft area within range that you can see, that area explodes with magic dealing 10 + your Attack Damage Bonus for the chosen affinity damage to all creatures in the area who fail a Dex Save, on a success they take half.",
-      "upcast_to": "Mana Explosion",
-      "range": 60,
-      "affinity_required": 18,
-      "affinities_at_required": 6,
-      "affinities_at_count": 3,
       "damage_type": "generic"
     }
   ],
@@ -4300,11 +4316,11 @@
       "damage_dice": "2d6",
       "damage_type": "glacial",
       "aoe_radius": 10,
-      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\",
+      "description": "Make a spell attack against a creature with the Soaked condition. On hit, deal 2d6 + your Ice/Cold [[2.1 Affinities#Attack Damage Bonus \\|Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
       "upcast_to": "Glacier Rise",
       "range": 30,
-      "upcast_rule": "Attack Damage Bonus]] Ice/Cold damage and apply 2 stacks of Frozen.",
-      "extra_effect": "Soaked",
+      "upcast_rule": "x2, +2d6 damage and +1 Frozen stack",
+      "extra_effect": "Frozen+Soaked",
       "attack_roll": true
     },
     {
@@ -4378,7 +4394,7 @@
       "affinity_required": 1,
       "damage_type": "quantum",
       "attack_roll": true,
-      "description": "Make a ranged spell attack against a creature within range. This attack ignores all cover (including total cover), passes through walls and solid objects, and has a bonus +5 to hit (in addition to all normal spell attack bonuses). On hit, the target takes 1 + ([[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\",
+      "description": "Make a ranged spell attack against a creature within range. This attack ignores all cover (including total cover), passes through walls and solid objects, and has a bonus +5 to hit (in addition to all normal spell attack bonuses). On hit, the target takes 1 + ([[Eyum TTRPG/2.0 Reference Tables/2.1 Affinities#Attack Damage Bonus\\|Attack Damage Bonus]] x 2) + Racial Tier Quantum damage.",
       "range": 300,
       "upcast_rule": "Attack Damage Bonus]] x 2) + Racial Tier Quantum damage.",
       "damage_formula": "1 + affinity_mod/0.5",
@@ -4389,12 +4405,14 @@
       "mana": 8,
       "affinity_required": 1,
       "damage_type": "quantum",
-      "description": "Concentration. As a Bonus Action, you become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\",
+      "description": "Concentration. As a Bonus Action, you become [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\|Intangible]] and [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\|Invisible]]. While Intangible you may move through solid objects and creatures as if they were normal terrain. You cannot end your turn inside an object; if you do, you are shunted to the nearest unoccupied space and take 2d8 True damage. While in this state you cannot attack, cast other spells, or physically interact with objects or creatures. The concentration cost for this spell raises by 1 mana per turn which you maintain it and can go beyond the initial cost of casting the spell.",
       "costs_bonus_action": true,
       "concentration": true,
       "range": "Self",
       "upcast_rule": "Intangible]] and [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Environmental / Positional Conditions\\",
-      "aoe_self": true
+      "aoe_self": true,
+      "damage_dice": "2d8",
+      "extra_effect": "Invisible+Intangible"
     },
     {
       "name": "Quantum Entanglement",
@@ -4412,9 +4430,9 @@
       "affinity_required": 1,
       "damage_flat": 0,
       "damage_type": "quantum",
-      "extra_effect": "Vibrating x1",
-      "description": "As an Action, you instantly teleport to any unoccupied space you can see or have previously visited within range. This teleportation passes through all physical barriers, walls, magical wards, and anti-teleportation effects (with the exception of Alchemically Pure Metal). Upon arrival, all creatures within 10 ft of your destination, you, and all creature you brought with you, must make a CON save (DC 16 + your Quantum Save DC Bonus) or gain 1 stack of the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
-      "upcast_rule": "Vibrating]] condition. You may bring one willing creature you are touching with you.",
+      "extra_effect": "Vibrating",
+      "description": "As an Action, you instantly teleport to any unoccupied space you can see or have previously visited within range. This teleportation passes through all physical barriers, walls, magical wards, and anti-teleportation effects (with the exception of Alchemically Pure Metal). Upon arrival, all creatures within 10 ft of your destination, you, and all creature you brought with you, must make a CON save (DC 16 + your Quantum Save DC Bonus) or gain 1 stack of the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\|Vibrating]] condition. You may bring one willing creature you are touching with you.",
+      "upcast_rule": "x2, +500 ft range, and you may bring one additional willing creature you are touching",
       "range": 500
     },
     {
@@ -4431,12 +4449,12 @@
     },
     {
       "name": "Providence",
-      "mana": 200,
+      "mana": 250,
       "affinity_required": 21,
       "damage_type": "quantum",
-      "description": "Bonus Action. You collapse all probability into absolute certainty for the remainder of your turn. Every d20 roll you make this turn is treated as though you rolled a natural 20 (automatic critical success on attack rolls, saving throws, and skill checks). Every damage die you roll this turn is treated as though you rolled its maximum value. If used outside of combat the effect lasts 6 seconds.",
+      "description": "Bonus Action. You collapse all probability into absolute certainty for the remainder of your turn. Every d20 roll you make this turn is treated as though you rolled a natural 20 (automatic critical success on attack rolls, saving throws, and skill checks). Every damage die you roll this turn is treated as though you rolled its maximum value. If used outside of combat the effect lasts 6 seconds. After the spell ends you gain the Cursed condition for 3 turns (18 seconds) and cannot use providence again during this window.",
       "costs_bonus_action": true,
-      "extra_effect": "NoAdvantage",
+      "extra_effect": "Cursed",
       "upcast_to": "Reality Lance",
       "range": "Self",
       "aoe_self": true,
@@ -4444,17 +4462,17 @@
     },
     {
       "name": "Reality Lance",
-      "mana": 75,
+      "mana": 90,
       "affinity_required": 41,
       "int_required": 33,
-      "damage_flat": 200,
+      "damage_flat": 35,
       "damage_type": "quantum",
       "aoe_line": true,
       "aoe_radius": 1000,
       "save": "dex",
       "save_half": true,
-      "extra_effect": "Vibrating x6",
-      "description": "Fire a searing beam of quantum energy in a straight line. The beam passes through all cover, walls, and solid objects without obstruction. All creatures in the line must make a DEX save (DC 16 + your Quantum Save DC Bonus). On failure: 125 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "extra_effect": "Vibrating x3",
+      "description": "Fire a searing beam of quantum energy in a straight line. The beam passes through all cover, walls, and solid objects without obstruction. All creatures in the line must make a DEX save (DC 16 + your Quantum Save DC Bonus). On failure: 35 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\|Vibrating]] x6. On success: half damage and Vibrating x3. The beam continues for its full 1000 ft range regardless of what it passes through unless it his alchemcially pure metal which causes it to stop instantly.",
       "upcast_to": "Scintillate",
       "range": 1000,
       "upcast_rule": "Vibrating]] x6. On success: half damage and Vibrating x3. The beam continues for its full 1000 ft range regardless of what it passes through unless it his alchemcially pure metal which causes it to stop instantly.",
@@ -4462,22 +4480,23 @@
     },
     {
       "name": "Scintillate",
-      "mana": 90,
+      "mana": 100,
       "affinity_required": 61,
       "int_required": 37,
-      "damage_flat": 100,
+      "damage_flat": 50,
       "damage_type": "quantum",
       "attack_roll": true,
-      "extra_effect": "Vibrating x4",
-      "description": "Fire 4 independently-targeted quantum beams from your position. You may aim each beam in any direction you choose. Each beam is a spell attack roll against a single creature of your choice in its path. Each beam passes through all cover, walls, and solid objects without obstruction, and you may choose any creature along the beam's 1000 ft line as its target (line of sight is not required, but you must know the creature's location). On hit: 75 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
+      "extra_effect": "Vibrating x2",
+      "description": "Fire 4 independently-targeted quantum beams from your position. You may aim each beam in any direction you choose. Each beam is a spell attack roll against a single creature of your choice in its path. Each beam passes through all cover, walls, and solid objects without obstruction, and you may choose any creature along the beam's 1000 ft line as its target (line of sight is not required, but you must know the creature's location). On hit: 50 Quantum damage and gain [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\|Vibrating]] x7. On a miss: half damage and Vibrating x2. A single creature may be targeted by multiple beams.",
       "upcast_to": "Bifurcate",
       "range": 1000,
-      "upcast_rule": "Vibrating]] x4. On a miss: half damage and Vibrating x2. A single creature may be targeted by multiple beams.",
-      "level_required": 25
+      "upcast_rule": "Vibrating]] x7. On a miss: half damage and Vibrating x2. A single creature may be targeted by multiple beams.",
+      "level_required": 25,
+      "save_half": true
     },
     {
       "name": "Bifurcate",
-      "mana": 60,
+      "mana": 75,
       "affinity_required": 81,
       "int_required": 41,
       "damage_type": "quantum",
@@ -4492,17 +4511,17 @@
     },
     {
       "name": "Cascade Ruin",
-      "mana": 175,
+      "mana": 120,
       "affinity_required": 101,
       "int_required": 46,
       "damage_type": "quantum",
       "attack_roll": true,
-      "extra_effect": "Vibrating x3",
-      "description": "Fire a cataclysmic quantum beam at a creature you can see. Make a spell attack with a bonus +12 to hit (in addition to all normal spell attack bonuses). The beam passes through all cover, walls, and solid objects. On hit: the target takes 75 Quantum damage and gains [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\",
-      "upcast_rule": "Vibrating]] x3. Whether you hit or miss, the beam then splits, choose a new creature within 60 ft of the target the beam just struck (cannot be the creature the beam is currently splitting from; may be a creature struck by an earlier split). Make a new spell attack against the new target with the same bonuses. This split repeats up to 8 total targets. Each subsequent split deals 100 Quantum damage and applies +3 Vibrating stacks. Missing a split will cause the attack to stop splitting,",
+      "extra_effect": "Vibrating",
+      "description": "Fire a cataclysmic quantum beam at a creature you can see. Make a spell attack with a bonus +12 to hit (in addition to all normal spell attack bonuses). The beam passes through all cover, walls, and solid objects. On hit: the target takes 55 Quantum damage and gains [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\\|Vibrating]] x6. Whether you hit or miss, the beam then splits, choose a new creature within 60 ft of the target the beam just struck (cannot be the creature the beam is currently splitting from; may be a creature struck by an earlier split). Make a new spell attack against the new target with the same bonuses. This split repeats up to 6 total targets. Each subsequent split deals 50 Quantum damage and applies +6 Vibrating stacks. Missing a split will cause the attack to stop splitting,",
+      "upcast_rule": "x2, +6 max splits and +50 damage",
       "range": 500,
       "aoe_radius": 60,
-      "damage_flat": 75,
+      "damage_flat": 55,
       "level_required": 35
     }
   ]

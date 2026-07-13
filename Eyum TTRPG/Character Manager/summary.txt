@@ -1,93 +1,107 @@
 EYUM TTRPG - BALANCE SUMMARY & RECOMMENDATIONS
 ============================================================
 
-Generated from analysis of 6 levels across 4 gear tiers and 1 builds.
+Generated from analysis of 200 levels across 4 gear tiers and 2 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Affinity: Radiant Mage: 255 category-level wins (100.0%)
+  Affinity: Corruption Mage: 6859 category-level wins (61.3%)
+  Affinity: Quantum Mage: 4335 category-level wins (38.7%)
 
-  >>> WARNING: Affinity: Radiant Mage dominates with 94.1% of all BEST wins across all tiers.
+  >>> WARNING: Affinity: Corruption Mage dominates with 61.1% of all BEST wins across all tiers.
       This suggests significant balance issues where other builds cannot compete.
+      Next best (Affinity: Quantum Mage) has only 38.6%.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
-  Magical builds  :  72 damage BEST wins (100.0%)
+  Magical builds  : 2400 damage BEST wins (100.0%)
   Physical builds :   0 damage BEST wins (0.0%)
 
   >>> Magical builds dominate damage output. Consider buffing physical options.
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Vitality almost exclusively.
+  Vitality  : mostly Affinity: Corruption Mage (780/800 levels, 97.5%)
+    >>> MONOPOLY: Affinity: Corruption Mage wins Vitality almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Health    : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Health almost exclusively.
-    This is expected for dedicated tank builds. No action needed.
-  Mana      : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Mana almost exclusively.
+  Health    : tied across all builds (all 800/800)
+  Mana      : mostly Affinity: Corruption Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Corruption Mage wins Mana almost exclusively.
     This is expected for magical builds. No action needed.
-  AC        : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins AC almost exclusively.
+  AC        : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins AC almost exclusively.
     This is expected for tank/heavy-armor builds. No action needed.
-  Feats     : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Feats almost exclusively.
-    (Tied across all builds since every build gets +1 feat every 3 levels.)
-  Spells    : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Spells almost exclusively.
-    This is expected for magical builds. No action needed.
-  To Hit    : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins To Hit almost exclusively.
-  Dmg/Turn  : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Dmg/Turn almost exclusively.
+  Feats     : tied across all builds (all 800/800)
+    (Expected: every build gets +1 feat every 3 levels. No action needed.)
+  Spells    : tied across all builds (all 800/800)
+  To Hit    : mostly Affinity: Corruption Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Corruption Mage wins To Hit almost exclusively.
+  Dmg/Turn  : mostly Affinity: Corruption Mage (788/800 levels, 98.5%)
+    >>> MONOPOLY: Affinity: Corruption Mage wins Dmg/Turn almost exclusively.
     >>> IMBALANCE: Damage output is concentrated in one build.
     Consider: rebalancing damage scaling so other builds can compete.
-  Dmg/5R    : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Dmg/5R almost exclusively.
-    >>> IMBALANCE: Damage output is concentrated in one build.
-    Consider: rebalancing damage scaling so other builds can compete.
-  Dmg/10R   : mostly Affinity: Radiant Mage (24/24 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Radiant Mage wins Dmg/10R almost exclusively.
-    >>> IMBALANCE: Damage output is concentrated in one build.
-    Consider: rebalancing damage scaling so other builds can compete.
+  Dmg/5R    : mostly Affinity: Corruption Mage (636/800 levels, 79.5%)
+    (Moderate concentration)
+  Dmg/10R   : mostly Affinity: Corruption Mage (612/800 levels, 76.5%)
+    (Moderate concentration)
 
 STAT ANALYSIS
 ----------------------------------------
-  STR   : avg= 8  max=Affinity: Radiant Mage ( 8)  min=Affinity: Radiant Mage ( 8)
-  DEX   : avg= 6  max=Affinity: Radiant Mage ( 6)  min=Affinity: Radiant Mage ( 6)
-  CON   : avg=25  max=Affinity: Radiant Mage (25)  min=Affinity: Radiant Mage (25)
-  WIS   : avg=26  max=Affinity: Radiant Mage (26)  min=Affinity: Radiant Mage (26)
-  INT   : avg=42  max=Affinity: Radiant Mage (42)  min=Affinity: Radiant Mage (42)
-  CHA   : avg= 6  max=Affinity: Radiant Mage ( 6)  min=Affinity: Radiant Mage ( 6)
+  STR   : avg= 7  max=Affinity: Corruption Mage ( 8)  min=Affinity: Quantum Mage ( 6)
+  DEX   : avg= 8  max=Affinity: Corruption Mage ( 8)  min=Affinity: Corruption Mage ( 8)
+  CON   : avg= 8  max=Affinity: Corruption Mage (12)  min=Affinity: Quantum Mage ( 5)
+  WIS   : avg=15  max=Affinity: Corruption Mage (16)  min=Affinity: Quantum Mage (14)
+  INT   : avg=27  max=Affinity: Quantum Mage (30)  min=Affinity: Corruption Mage (25)
+  CHA   : avg= 9  max=Affinity: Quantum Mage (11)  min=Affinity: Corruption Mage ( 8)
 
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Affinity: Radiant Mage: avg dmg/turn 1679.7
+    Affinity: Corruption Mage: avg dmg/turn 2347.9
+    Affinity: Quantum Mage: avg dmg/turn 900.4
   Bad Gear:
-    Affinity: Radiant Mage: avg dmg/turn 2370.0
-    >> Affinity: Radiant Mage benefits most from this tier (+41% dmg vs previous tier).
+    Affinity: Corruption Mage: avg dmg/turn 2347.9
+    Affinity: Quantum Mage: avg dmg/turn 900.4
   Good Gear:
-    Affinity: Radiant Mage: avg dmg/turn 2370.0
-    >> Affinity: Radiant Mage benefits most from this tier (+41% dmg vs previous tier).
+    Affinity: Corruption Mage: avg dmg/turn 2347.9
+    Affinity: Quantum Mage: avg dmg/turn 900.4
   Amazing Gear:
-    Affinity: Radiant Mage: avg dmg/turn 2370.0
-    >> Affinity: Radiant Mage benefits most from this tier (+41% dmg vs previous tier).
+    Affinity: Corruption Mage: avg dmg/turn 2347.9
+    Affinity: Quantum Mage: avg dmg/turn 900.4
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
-    Level 50+ (50+): dmg leader Affinity: Radiant Mage (1/1 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
 
   Bad Gear:
-    Level 50+ (50+): dmg leader Affinity: Radiant Mage (1/1 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
 
   Good Gear:
-    Level 50+ (50+): dmg leader Affinity: Radiant Mage (1/1 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
 
   Amazing Gear:
-    Level 50+ (50+): dmg leader Affinity: Radiant Mage (1/1 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
@@ -95,39 +109,33 @@ DETAILED RECOMMENDATIONS
        - Increase base weapon damage or weapon damage_bonus values.
        - Add more damage-boosting feats for physical builds.
        - Check if extra_damage_die on weapons is being applied correctly.
-  2. Affinity: Radiant Mage wins 94% of all BEST categories, indicating severe over-tuning.
-       - Reduce Affinity: Radiant Mage's stat scaling or damage output.
-       - Verify Affinity: Radiant Mage is not receiving unintended bonuses from paths or gear.
+  2. Affinity: Corruption Mage wins 61% of all BEST categories, indicating severe over-tuning.
+       - Reduce Affinity: Corruption Mage's stat scaling or damage output.
+       - Verify Affinity: Corruption Mage is not receiving unintended bonuses from paths or gear.
        - Consider splitting its advantages across multiple builds.
-  3. Affinity: Radiant Mage has a monopoly on Dmg/Turn (100%).
+  3. Affinity: Corruption Mage has a monopoly on Dmg/Turn (98%).
        - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Radiant Mage has unintended damage synergies.
-  4. Affinity: Radiant Mage has a monopoly on Dmg/5R (100%).
-       - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Radiant Mage has unintended damage synergies.
-  5. Affinity: Radiant Mage has a monopoly on Dmg/10R (100%).
-       - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Radiant Mage has unintended damage synergies.
-  6. Jack (hybrid build) wins no BEST categories.
+       - Check if Affinity: Corruption Mage has unintended damage synergies.
+  4. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.
 
 RACE POPULARITY ANALYSIS
 ----------------------------------------
-  Bugfolk Plateroll       :  1/1 (100%)  <<< OVER-TUNED: chosen by over half of all builds
+  Human Aurian            :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
+  Human Halofade          :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
 
-  >>> Bugfolk Plateroll is overwhelmingly popular. Consider reducing its stat bonuses,
-      racial path benefits, or affinity bonuses so other races are competitive.
+  >>> Human Aurian is very popular (>50% pick rate). Review if its power budget is too high.
 
 SPELL ANALYSIS & RANKINGS
 ----------------------------------------
 
 Top 5 by base damage:
-  Atomic:Last Sun — 550.0 dmg, 750 mana
-  Atomic:Critical Atomicity — 200.0 dmg, 250 mana
-  Quantum:Reality Lance — 200.0 dmg, 75 mana
-  Corruption:Fallen Throne — 170.0 dmg, 70 mana
-  Atomic:Go Atomic — 150.0 dmg, 125 mana
+  Atomic:Last Sun — 620.0 dmg, 750 mana
+  Atomic:Fallout Crown — 330.0 dmg, 375 mana
+  Atomic:Critical Atomicity — 230.0 dmg, 250 mana
+  Atomic:Go Atomic — 180.0 dmg, 125 mana
+  Atomic:Fission Verdict — 180.0 dmg, 500 mana
 
 Top 5 by mana efficiency:
   Quantum:Photon Lance — 16.00 dmg/mana, 16.0 dmg, 1 mana
@@ -140,11 +148,11 @@ Free spells (0 mana):
   Generic:Mana Blast — 2.5 dmg
 
 Highest-cost spells (50+ mana):
-  Atomic:Last Sun — 550.0 dmg, 750 mana, 0.73 dmg/mana
-  Quantum:Reality Lance — 200.0 dmg, 75 mana, 2.67 dmg/mana
-  Atomic:Critical Atomicity — 200.0 dmg, 250 mana, 0.80 dmg/mana
-  Corruption:Fallen Throne — 170.0 dmg, 70 mana, 2.43 dmg/mana
-  Atomic:Go Atomic — 150.0 dmg, 125 mana, 1.20 dmg/mana
+  Atomic:Last Sun — 620.0 dmg, 750 mana, 0.83 dmg/mana
+  Atomic:Fallout Crown — 330.0 dmg, 375 mana, 0.88 dmg/mana
+  Atomic:Critical Atomicity — 230.0 dmg, 250 mana, 0.92 dmg/mana
+  Atomic:Go Atomic — 180.0 dmg, 125 mana, 1.44 dmg/mana
+  Atomic:Fission Verdict — 180.0 dmg, 500 mana, 0.36 dmg/mana
 
 ARCHETYPE DRIFT DETECTION
 ----------------------------------------
@@ -160,61 +168,13 @@ Tracks when a build's primary affinity has a castable spell that was
 skipped because a different spell (often from another affinity) deals more
 damage or because the primary spell is non-damaging.
 
-  Affinity: Radiant Mage (chose Spirit Guardians [Radiant] for 304.5 dmg):
-    SKIPPED Manaskin (6 mana) — NON-DAMAGE
-    SKIPPED Bless (6 mana) — NON-DAMAGE
-    SKIPPED Radiant Pulse (8 mana) — LOWER (285.0 vs 304.5)
-    SKIPPED Radiant Wave (12 mana) — LOWER (295.5 vs 304.5)
-    SKIPPED Consecrate (12 mana) — NON-DAMAGE
-    SKIPPED Resurrection (41 mana) — NON-DAMAGE
+  Affinity: Corruption Mage (chose Black Tentacles [Corruption] for 68.4 dmg):
+    SKIPPED Bestow Curse (15 mana) — NON-DAMAGE
+  Affinity: Quantum Mage (chose Phase Walk [Quantum] for 85.5 dmg):
+    SKIPPED Photon Lance (1 mana) — LOWER (45.6 vs 85.5)
+    SKIPPED Quantum Entanglement (12 mana) — NON-DAMAGE
+    SKIPPED Quantum Tunneling (18 mana) — NON-DAMAGE
+    SKIPPED Superposition (20 mana) — NON-DAMAGE
+    SKIPPED Providence (250 mana) — NON-DAMAGE
+    SKIPPED Bifurcate (75 mana) — NON-DAMAGE
 
-
-======================================================================
-WEAPON BALANCE ANALYSIS (from Equipment Analyzer)
-======================================================================
-
-DPR Distribution (vs AC 16, 1828 weapons):
-  Min: 0.1  Q1: 0.9  Median: 1.6  Q3: 3.3  Max: 9.1
-
-Top 10 Weapons by DPR (vs AC 16):
-  1. Voidsteel Greatsword                               DPR:9.1  DMG:14.0  Acc:7  best
-  2. Voidsteel Maul                                     DPR:9.1  DMG:14.0  Acc:7  best
-  3. Voidsteel Greataxe                                 DPR:8.8  DMG:13.5  Acc:7  best
-  4. Voidsteel Longsword                                DPR:8.1  DMG:12.5  Acc:7  best
-  5. Voidsteel Warhammer                                DPR:8.1  DMG:12.5  Acc:7  best
-  6. Voidsteel Battleaxe                                DPR:8.1  DMG:12.5  Acc:7  best
-  7. Voidsteel Halberd                                  DPR:8.1  DMG:12.5  Acc:7  best
-  8. Voidsteel Glaive                                   DPR:8.1  DMG:12.5  Acc:7  best
-  9. Macuahuitl (Dragon Scale (Radiant))                DPR:8.1  DMG:12.5  Acc:7  best
-  10. Macuahuitl (Dragon Scale (Necrotic))               DPR:8.1  DMG:12.5  Acc:7  best
-
-Material Performance (sum DPR vs AC 16):
-  1. Voidsteel                 Sum DPR: 336
-  2. Nerite                    Sum DPR: 281
-  3. Uranium                   Sum DPR: 254
-  4. Carbon                    Sum DPR: 211
-  5. Infernal Iron             Sum DPR: 211
-  6. Titanium                  Sum DPR: 168
-  7. Duralumin                 Sum DPR: 168
-  8. Mithril                   Sum DPR: 168
-  9. Hallowed Iron             Sum DPR: 164
-  10. Adamantine                Sum DPR: 149
-
-Category Performance (sum DPR vs AC 16):
-  Two-Handed           Sum DPR: 1348
-  Heavy                Sum DPR: 1148
-  Ranged               Sum DPR: 1051
-  Light                Sum DPR: 750
-  Thrown               Sum DPR: 697
-  Finesse              Sum DPR: 630
-  Versatile            Sum DPR: 592
-  Loading              Sum DPR: 461
-  Reach                Sum DPR: 376
-  Martial              Sum DPR: 376
-  Magical              Sum DPR: 175
-  Unarmed              Sum DPR: 147
-  Hooking              Sum DPR: 94
-  Restraining          Sum DPR: 67
-  Special              Sum DPR: 67
-
-DPR Tier Distribution: {'best': 428, 'above_avg': 480, 'below_avg': 403, 'worst': 564}

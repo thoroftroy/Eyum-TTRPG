@@ -361,6 +361,8 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
             if arch_name not in settings['paths'].get('Racial', {}).get('archetypes', {}):
                 settings['paths']['Racial']['archetypes'][arch_name] = build_racial_archetype(race_data, family_name, subrace_name)
 
+    prev_snapshot = None
+    build_config['_prev_arch_levels'] = {}  # Reset per-build, not shared across builds
     for level in levels:
         stats = build_config['base_stats']
         char = Character(build_name, stats, settings)
@@ -461,10 +463,133 @@ def generate_build(build_name, build_config, settings, levels, gear_override=Non
         dmg_5round = calculate_5_round_damage(char, settings['rules'], dmg_perturn, settings)
         dmg_10round = calculate_10_round_damage(char, settings['rules'], dmg_perturn, settings)
 
-        sheet = format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, tier_label)
+        # Compute changes from previous level
+        changes = _compute_changes(prev_snapshot, char, level)
+
+        # Capture snapshot for next level comparison
+        prev_snapshot = _capture_snapshot(char)
+
+        sheet = format_sheet(char, level, settings, dmg_perturn, dmg_5round, dmg_10round, tier_label, changes)
         results.append({'level': level, 'char': char, 'sheet': sheet, 'dmg_perturn': dmg_perturn, 'dmg_5round': dmg_5round, 'dmg_10round': dmg_10round,
                         'race': f"{family_name} {subrace_name}" if race_pickup and family_name else 'none'})
     return results
+
+
+def _capture_snapshot(char):
+    """Capture key character state for level-to-level diffing."""
+    return {
+        'level': char.level,
+        'str': char.str, 'dex': char.dex, 'con': char.con,
+        'wis': char.wis, 'int': char.int, 'cha': char.cha,
+        'ap': char.ap, 'bap': char.bap, 'rp': char.rp,
+        'prof': char.prof,
+        'speed': char.speed,
+        'vit_n': char.vit_n, 'hp_n': char.hp_n, 'mana_n': char.mana_n,
+        'vit_die': char.vit_die, 'hp_die': char.hp_die, 'mana_die': char.mana_die,
+        'feat_count': char.feats,
+        'feats_taken': list(char.feats_taken),
+        'spells': char.starting_spells + char.spells_from_levels,
+        'melee_dmg': char.melee_damage, 'ranged_dmg': char.ranged_damage,
+        'melee_acc': char.melee_accuracy, 'ranged_acc': char.ranged_accuracy,
+        'magic_acc': char.magic_accuracy, 'magic_dmg': char.magic_damage,
+        'affinities': dict(char.affinities),
+        'archetype_levels': dict(char.archetype_levels),
+        'stat_points_spent': char.stat_points_spent,
+        'spell_dmg_mult': char.spell_damage_mult,
+        'ac_bonus': char.ac_bonus,
+        'flat_vit': char.flat_vit, 'flat_hp': char.flat_hp, 'flat_mana': char.flat_mana,
+        'archetype_whole_levels': dict(char.archetype_whole_levels),
+    }
+
+
+STAT_LABELS = {'str': 'STR', 'dex': 'DEX', 'con': 'CON', 'wis': 'WIS', 'int': 'INT', 'cha': 'CHA'}
+
+
+def _compute_changes(prev, char, level):
+    """Build a human-readable summary of what changed since the previous level."""
+    if prev is None:
+        return None
+    parts = []
+
+    # Level-up basics
+    parts.append(f"Level {prev['level']}→{level}")
+
+    # Stats that changed
+    stat_changes = []
+    for s in ['str', 'dex', 'con', 'wis', 'int', 'cha']:
+        old = prev[s]
+        new = getattr(char, s)
+        if old != new:
+            stat_changes.append(f"{STAT_LABELS[s]} {old}→{new}")
+    if stat_changes:
+        parts.append("Stats: " + ", ".join(stat_changes))
+
+    # Combat points
+    ap_changed = prev['ap'] != char.ap
+    bap_changed = prev['bap'] != char.bap
+    rp_changed = prev['rp'] != char.rp
+    prof_changed = prev['prof'] != char.prof
+    combat_changes = []
+    if ap_changed: combat_changes.append(f"AP {prev['ap']}→{char.ap}")
+    if bap_changed: combat_changes.append(f"BAp {prev['bap']}→{char.bap}")
+    if rp_changed: combat_changes.append(f"Rp {prev['rp']}→{char.rp}")
+    if prof_changed: combat_changes.append(f"Prof +{prev['prof']}→+{char.prof}")
+    if combat_changes:
+        parts.append("Combat: " + ", ".join(combat_changes))
+
+    # HP/Vit/Mana dice
+    pool_changes = []
+    if prev['vit_n'] != char.vit_n: pool_changes.append(f"+1 Vit die (now {char.vit_n}d{char.vit_die[-1]})")
+    if prev['hp_n'] != char.hp_n: pool_changes.append(f"+1 HP die (now {char.hp_n}d{char.hp_die[-1]})")
+    if prev['mana_n'] != char.mana_n: pool_changes.append(f"+1 Mana die (now {char.mana_n}d{char.mana_die[-1]})")
+    if prev['vit_die'] != char.vit_die: pool_changes.append(f"Vit die {prev['vit_die']}→{char.vit_die}")
+    if prev['hp_die'] != char.hp_die: pool_changes.append(f"HP die {prev['hp_die']}→{char.hp_die}")
+    if prev['mana_die'] != char.mana_die: pool_changes.append(f"Mana die {prev['mana_die']}→{char.mana_die}")
+    if pool_changes:
+        parts.append("Pools: " + "; ".join(pool_changes))
+
+    # New feats
+    new_feats = [f for f in char.feats_taken if f not in prev['feats_taken']]
+    if new_feats:
+        parts.append("Feats: gained " + ", ".join(new_feats))
+
+    # Affinity changes
+    aff_changes = []
+    for aff in set(list(prev['affinities'].keys()) + list(char.affinities.keys())):
+        old = prev['affinities'].get(aff, 0)
+        new = char.affinities.get(aff, 0)
+        if old != new:
+            aff_changes.append(f"{aff} {old}→{new}")
+    if aff_changes and len(aff_changes) <= 6:
+        parts.append("Affinities: " + ", ".join(aff_changes))
+    elif aff_changes:
+        parts.append(f"Affinities: {len(aff_changes)} changed")
+
+    # Archetype level changes
+    arch_changes = []
+    for (pn, an), lv in char.archetype_levels.items():
+        old_lv = prev['archetype_levels'].get((pn, an), 0)
+        if lv != old_lv:
+            arch_changes.append(f"+{lv - old_lv} STP in {pn}→{an} (now Lvl {lv})")
+    if arch_changes:
+        parts.append("Skill Tree: " + "; ".join(arch_changes))
+
+    # Damage/accuracy changes
+    dmg_changes = []
+    if prev['melee_dmg'] != char.melee_damage: dmg_changes.append(f"Melee Dmg {prev['melee_dmg']}→{char.melee_damage}")
+    if prev['ranged_dmg'] != char.ranged_damage: dmg_changes.append(f"Ranged Dmg {prev['ranged_dmg']}→{char.ranged_damage}")
+    if prev['magic_dmg'] != char.magic_damage: dmg_changes.append(f"Magic Dmg {prev['magic_dmg']}→{char.magic_damage}")
+    if prev['melee_acc'] != char.melee_accuracy: dmg_changes.append(f"Melee Acc {prev['melee_acc']}→{char.melee_accuracy}")
+    if prev['ranged_acc'] != char.ranged_accuracy: dmg_changes.append(f"Ranged Acc {prev['ranged_acc']}→{char.ranged_accuracy}")
+    if prev['magic_acc'] != char.magic_accuracy: dmg_changes.append(f"Magic Acc {prev['magic_acc']}→{char.magic_accuracy}")
+    if dmg_changes and len(dmg_changes) <= 4:
+        parts.append("Damage: " + ", ".join(dmg_changes))
+
+    # Spell damage multiplier change
+    if prev.get('spell_dmg_mult', 1) != char.spell_damage_mult:
+        parts.append(f"Spell multiplier {prev.get('spell_dmg_mult',1)}x→{char.spell_damage_mult}x")
+
+    return " | ".join(parts) if parts else None
 
 
 def main():

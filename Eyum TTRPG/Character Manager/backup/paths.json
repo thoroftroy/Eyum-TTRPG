@@ -20,9 +20,7 @@
         "2.5": {
           "hp_die_type": "1d8"
         },
-        "2.75": {
-          "melee_damage_below_half": "1d6"
-        },
+        "2.75": {},
         "3": {
           "vit_die_type": "1d20"
         },
@@ -65,16 +63,11 @@
         "6.75": {
           "vit_per_level": 5
         },
-        "7": {
-          "retaliation_damage_con_mod": true
-        },
+        "7": {},
         "7.5": {
-          "retaliation_damage_flat": 2,
           "repeatable": true
         },
-        "7.75": {
-          "retaliation_magic_ranged": true
-        },
+        "7.75": {},
         "8": {
           "ally_damage_take": true
         }
@@ -188,7 +181,6 @@
           "dueling_bonus": true
         },
         "7.5": {
-          "dueling_damage_bonus": "1d6",
           "repeatable": true
         },
         "8": {
@@ -204,24 +196,18 @@
         },
         "3": {
           "melee_damage": 2,
-          "ranged_damage": 2,
-          "caster_enemy_hit_bonus": 3
+          "ranged_damage": 2
         },
-        "4": {
-          "caster_enemy_damage_bonus": "2d8"
-        },
+        "4": {},
         "5": {
           "melee_damage": 3,
           "ranged_damage": 3,
           "mana_burn_on_hit": true
         },
-        "6": {
-          "caster_enemy_damage_mult": 1.5
-        },
+        "6": {},
         "7": {
           "melee_damage": 4,
-          "ranged_damage": 4,
-          "caster_enemy_hit_bonus": 3
+          "ranged_damage": 4
         },
         "8": {
           "caster_enemy_advantage": true
@@ -311,9 +297,7 @@
         }
       },
       "Juggernaut": {
-        "1": {
-          "melee_damage_two_handed": 2
-        },
+        "1": {},
         "1.5": {
           "proficiency_melee": true,
           "repeatable": true
@@ -322,7 +306,6 @@
           "melee_knockdown_heavy": true
         },
         "2.5": {
-          "melee_damage_two_handed": 1,
           "repeatable": true
         },
         "3": {
@@ -350,15 +333,12 @@
           "speed": 5,
           "repeatable": true
         },
-        "2": {
-          "charging_strike": "1d6"
-        },
+        "2": {},
         "2.5": {
           "initiative": 1,
           "repeatable": true
         },
         "2.75": {
-          "charging_strike": "1d6",
           "repeatable": true
         },
         "3": {
@@ -648,13 +628,13 @@
           "repeatable": true
         },
         "6": {
-          "radiant_damage_bonus": "2d8",
-          "anti_undead_damage_bonus": true
+          "anti_undead_damage_bonus": true,
+          "_note": "radiant_damage_bonus applies vs undead only, kept for undead-scenario testing"
         },
         "6.5": {
-          "radiant_damage_bonus": "1d8",
           "repeatable": true,
-          "max_repeats": 2
+          "max_repeats": 2,
+          "_note": "radiant_damage_bonus applies vs undead only"
         },
         "7": {},
         "8": {},
@@ -663,18 +643,12 @@
           "max_repeats": 3
         },
         "9": {},
-        "10": {
-          "radiant_damage_bonus": "5d10"
-        },
+        "10": {},
         "10.5": {
           "repeatable": true
         },
-        "11": {
-          "radiant_damage_bonus": "3d8"
-        },
-        "12": {
-          "radiant_damage_bonus": "12d12"
-        }
+        "11": {},
+        "12": {}
       },
       "Necromancer": {
         "1": {
@@ -711,29 +685,22 @@
           },
           "repeatable": true
         },
-        "6": {
-          "necrotic_damage_bonus": "2d8"
-        },
+        "6": {},
         "6.5": {
-          "necrotic_damage_bonus": "1d8",
           "repeatable": true,
           "max_repeats": 3
         },
         "8.5": {
           "repeatable": true
         },
-        "10": {
-          "necrotic_damage_bonus": "5d10"
-        },
+        "10": {},
         "10.5": {
           "repeatable": true
         },
         "11": {
           "damage_reduction": 3
         },
-        "12": {
-          "necrotic_damage_bonus": "3d12"
-        }
+        "12": {}
       },
       "Psychic": {
         "1": {
@@ -892,12 +859,10 @@
           "skill_points": 2
         },
         "3": {
-          "skill_points": 2,
-          "ritual_damage_bonus_pct": 50
+          "skill_points": 2
         },
         "4": {
-          "skill_points": 2,
-          "ritual_damage_bonus_pct": 100
+          "skill_points": 2
         },
         "5": {
           "skill_points": 2
@@ -1136,7 +1101,6 @@
       },
       "Monster Hunter": {
         "1": {
-          "monster_damage": 1,
           "repeatable": true
         },
         "2": {
@@ -1145,32 +1109,21 @@
         }
       },
       "Human Hunter": {
-        "1": {
-          "humanoid_damage": 3
-        },
+        "1": {},
         "1.5": {
-          "humanoid_damage": 2,
           "repeatable": true
         },
-        "2": {
-          "humanoid_damage": 2
-        },
+        "2": {},
         "2.5": {
-          "humanoid_damage": 1,
           "repeatable": true,
           "max_repeats": 5
         },
-        "3": {
-          "humanoid_damage": 6
-        },
+        "3": {},
         "3.5": {
-          "humanoid_damage": 6,
           "repeatable": true,
           "max_repeats": 3
         },
-        "4": {
-          "humanoid_damage": 4
-        }
+        "4": {}
       }
     }
   },
@@ -1360,9 +1313,7 @@
         }
       },
       "Godslayer": {
-        "1": {
-          "anti_deity_damage": true
-        },
+        "1": {},
         "2": {
           "melee_accuracy": 3
         },

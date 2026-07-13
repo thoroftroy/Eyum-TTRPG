@@ -156,7 +156,7 @@ def apply_effects(char, effects, cost_table=None):
     if 'pact_access_tier' in effects:
         char.pact_access_tier = max(char.pact_access_tier, effects['pact_access_tier'])
     if 'anti_deity_damage' in effects:
-        char.anti_deity_damage = True
+        pass  # Conditional: vs deities only
     if 'hallowed_affinity' in effects:
         char.hallowed_affinity += effects['hallowed_affinity']
     if 'eldritch_affinity' in effects:
@@ -200,29 +200,21 @@ def apply_effects(char, effects, cost_table=None):
     if 'generic_affinity_spendable' in effects:
         char.generic_affinity_spendable = True
     if 'monster_damage' in effects:
-        char.melee_damage += effects['monster_damage']
-        char.ranged_damage += effects['monster_damage']
-        char.magic_damage += effects['monster_damage']
+        pass  # Conditional bonus vs monsters — not applied universally
     if 'humanoid_attack_penalty' in effects:
-        pass
+        pass  # Conditional bonus vs humanoids — not applied universally
     if 'monster_attack_penalty' in effects:
-        pass
-    if 'humanoid_damage' in effects:
-        char.melee_damage += effects['humanoid_damage']
-    if 'humanoid_attack_penalty' in effects:
-        char.ac_bonus += effects['humanoid_attack_penalty']
+        pass  # Conditional bonus vs monsters — not applied universally
     if 'melee_damage_two_handed' in effects:
-        char.melee_damage += effects['melee_damage_two_handed']
+        pass  # Conditional: 2H weapons only
     if 'riposte_damage' in effects:
-        char.melee_damage += die_average_sub(effects['riposte_damage'])
+        pass  # Conditional: riposte only
     if 'melee_pierce_attack' in effects:
-        char.melee_damage += die_average_sub(effects['melee_pierce_attack'])
+        pass  # Conditional: pierce attack only
     if 'dueling_damage_bonus' in effects:
-        char.melee_damage += die_average_sub(effects['dueling_damage_bonus'])
-    if 'ranged_adv_damage' in effects and 'ranged_adv_damage_stacks' in dir(char):
-        char.ranged_adv_damage_stacks += effects['ranged_adv_damage']
+        pass  # Conditional: 1v1 duel only
     if 'retaliation_damage_flat' in effects:
-        char.melee_damage += effects['retaliation_damage_flat']
+        pass  # Conditional: retaliation only
     if 'aura_ac' in effects:
         char.ac_bonus += effects['aura_ac']
     if 'aura_attack_bonus' in effects:
@@ -235,14 +227,11 @@ def apply_effects(char, effects, cost_table=None):
     if 'aura_damage_reduction' in effects:
         char.damage_reduction += effects['aura_damage_reduction']
     if 'caster_enemy_damage_bonus' in effects:
-        char.melee_damage += die_average_sub(effects['caster_enemy_damage_bonus'])
-        char.ranged_damage += die_average_sub(effects['caster_enemy_damage_bonus'])
+        pass  # Conditional: vs magic-users only
     if 'caster_enemy_hit_bonus' in effects:
-        char.melee_accuracy += effects['caster_enemy_hit_bonus']
-        char.ranged_accuracy += effects['caster_enemy_hit_bonus']
+        pass  # Conditional: accuracy vs magic-users only
     if 'caster_enemy_damage_mult' in effects:
-        char.melee_damage = int(char.melee_damage * effects['caster_enemy_damage_mult'])
-        char.ranged_damage = int(char.ranged_damage * effects['caster_enemy_damage_mult'])
+        pass  # Conditional: dmg mult vs magic-users only
     if 'psychic_save_dc_bonus' in effects:
         char.magic_damage += effects['psychic_save_dc_bonus']
     if 'spell_add_damage_bonus' in effects:
@@ -256,17 +245,15 @@ def apply_effects(char, effects, cost_table=None):
     if 'affinity_double_spend' in effects:
         char.affinity_points *= 2
     if 'ritual_damage_bonus_pct' in effects:
-        char.magic_damage = int(char.magic_damage * (1 + effects['ritual_damage_bonus_pct'] / 100.0))
+        pass  # Conditional: ritual spells only
     if 'rp_bonus' in effects:
         char.rp += effects['rp_bonus']
     if 'heavy_reach' in effects:
         char.melee_damage += effects['heavy_reach']
     if 'charging_strike' in effects:
-        char.melee_damage += die_average_sub(effects['charging_strike'])
+        pass  # Conditional: only when charging
     if 'skirmish_movement_damage' in effects:
-        if not hasattr(char, 'skirmish_per_5ft'):
-            char.skirmish_per_5ft = 0
-        char.skirmish_per_5ft += effects['skirmish_movement_damage']
+        pass  # Conditional: only with movement
     if 'disengage_dash_bonus' in effects:
         char.speed += 5
     if 'ac_bonus_shield' in effects:

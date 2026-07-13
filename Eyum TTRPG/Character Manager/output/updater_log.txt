@@ -1,5 +1,5 @@
 EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER
-Run at: 2026-07-12 17:37:41
+Run at: 2026-07-13 11:25:31
 ======================================================================
 ────────────────────────────────────────────────────────────
 RACE SYNC
@@ -11,13 +11,17 @@ SPELL SYNC
   Parsed 225 spells from 6.1.1 Elemental Spells.md
   Parsed 101 spells from 6.1.2 Unique, Racial, and Healing Spells.md
   Total handbook spells: 325
+  ~ Ruin of the Soul (Corruption): damage_flat: 105 -> 75
+  ~ Providence (Quantum): extra_effect: NoAdvantage -> Cursed
+  ~ Bifurcate (Quantum): mana: 100 -> 75
+  ~ Cascade Ruin (Quantum): mana: 130 -> 120; damage_flat: 50 -> 55
 
-Spell sync: 0 updated, 0 added
+Spell sync: 4 updated, 0 added
 
 Spells in JSON not in handbook (1):
   Full Restore (Generic)
 
-Spells: 0 updated, 0 new, 0 in handbook only
+Spells: 4 updated, 0 new, 0 in handbook only
 ────────────────────────────────────────────────────────────
 CONDITION SYNC
 ────────────────────────────────────────────────────────────
@@ -70,8 +74,39 @@ Races needing manual tier data (40):
   MANUAL: Undead/Mycelari (has abilities but not in table format)
 
 Racial tiers: 40 races need manual data (not in table format)
+────────────────────────────────────────────────────────────
+FEAT SYNC
+────────────────────────────────────────────────────────────
+Feat sync: 0 changes
+────────────────────────────────────────────────────────────
+PATH SYNC (validation only)
+────────────────────────────────────────────────────────────
+  paths.json contains conditional bonus annotations that cannot be
+  auto-generated from the handbook. It must be maintained manually.
+  When adding new archetype tiers, add them to paths.json by hand.
+  Conditional bonuses should NOT be in the 'effects' dict — they
+  should be removed or placed under 'conditional_effects'.
 
-No changes detected.
+  Conditional keywords detected by the parser:
+    undead: vs\.?\s+undead|against\s+undead|to\s+undead
+    dragon: vs\.?\s+dragon|against\s+dragon|to\s+dragon
+    humanoid: vs\.?\s+humanoid|against\s+humanoid|to\s+humanoid
+    monster: vs\.?\s+monster|against\s+monster|to\s+monster
+    deity: vs\.?\s+deit|against\s+deit|to\s+deit|godslayer
+    caster: vs\.?\s+caster|against\s+caster|against\s+creatures?\s+with.*?magic|mage\s*slayer
+    low_hp: below\s+(?:half|50%)
+    first_round: first\s+round|surprise\s+round|first\s+turn
+    mounted: while\s+mounted|on\s+horseback
+    charging: charging|after\s+moving\s+at\s+least|move\s+\d+\s*ft\s+before
+    dueling: duel|1\s*v\s*1|one\s+on\s+one|only\s+creature\s+within\s+melee
+    gear_conditional: while\s+wielding\s+a\s+(?:two.handed|shield|heavy)|when\s+using\s+a\s+(?:two.handed|heavy)
+    ritual: as\s+a\s+ritual|ritual\s+spell
+    target_state: prone|restrained
+    retaliation: retaliation|riposte|when\s+(?:you|hit)\s+(?:are|by)|attacker\s+takes|counter
+    limited_use: once\s+per\s+(?:long|short)\s+rest|once\s+per\s+combat
+    generic: only\s+(?:on|when|while|if|against|vs)
+
+Changes tracked: 4 items -> changes.txt
 
 ======================================================================
-End of log — 2026-07-12 17:37:41
+End of log — 2026-07-13 11:25:31
