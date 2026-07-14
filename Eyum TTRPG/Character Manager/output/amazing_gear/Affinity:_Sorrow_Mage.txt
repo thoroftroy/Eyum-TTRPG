@@ -28,12 +28,12 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 14 (x19 mana)
+    Magic Dmg/Cast: 11 (x19 mana)
     Spell: Mourning Glance (Sorrow)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21
-    Total Dmg/10R: 29
+    Total Dmg/5R:  18
+    Total Dmg/10R: 26
     Mana: 23 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -89,13 +89,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 22 (x30 mana)
+    Magic Dmg/Cast: 18 (x30 mana)
     Spell: Grief Well (Sorrow)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-      Mourning Glance: dmg=15 mana=19 (lower_damage)
-    Total Dmg/5R:  28
-    Total Dmg/10R: 36
+      Mourning Glance: dmg=12 mana=19 (lower_damage)
+    Total Dmg/5R:  25
+    Total Dmg/10R: 33
     Mana: 34 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -126,7 +126,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 3 (Amazing Gear)
 ============================================================
 
-  Changes: Level 2→3 | Stats: CON 11→12, WIS 26→27, INT 16→17 | Combat: Prof +1→+2 | Pools: +1 Vit die (now 4d8); +1 HP die (now 4d6); +1 Mana die (now 4d6) | Feats: gained Toughness | Affinities: Psychic 0→4, Sorrow 16→18 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 1)
+  Changes: Level 2→3 | Stats: CON 11→12, WIS 26→27, INT 16→17 | Combat: Prof +1→+2 | Pools: +1 Vit die (now 4d8); +1 HP die (now 4d6); +1 Mana die (now 4d6) | Feats: gained Toughness | Affinities: Sorrow 16→18, Psychic 0→4 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 1)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -151,13 +151,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 20 (x30 mana)
+    Magic Dmg/Cast: 17 (x30 mana)
     Spell: Grief Well (Sorrow)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-      Mourning Glance: dmg=15 mana=19 (lower_damage)
-    Total Dmg/5R:  26
-    Total Dmg/10R: 35
+      Mourning Glance: dmg=12 mana=19 (lower_damage)
+    Total Dmg/5R:  24
+    Total Dmg/10R: 32
     Mana: 46 start, 16 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -216,13 +216,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 21 (x30 mana)
+    Magic Dmg/Cast: 18 (x30 mana)
     Spell: Grief Well (Sorrow)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-      Mourning Glance: dmg=16 mana=19 (lower_damage)
-    Total Dmg/5R:  49
-    Total Dmg/10R: 61
+      Mourning Glance: dmg=13 mana=19 (lower_damage)
+    Total Dmg/5R:  43
+    Total Dmg/10R: 56
     Mana: 62 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -282,13 +282,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 21 (x30 mana)
+    Magic Dmg/Cast: 18 (x30 mana)
     Spell: Grief Well (Sorrow)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-      Mourning Glance: dmg=16 mana=19 (lower_damage)
-    Total Dmg/5R:  49
-    Total Dmg/10R: 61
+      Mourning Glance: dmg=13 mana=19 (lower_damage)
+    Total Dmg/5R:  43
+    Total Dmg/10R: 56
     Mana: 75 start, 15 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -323,7 +323,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 6 (Amazing Gear)
 ============================================================
 
-  Changes: Level 5→6 | Stats: WIS 27→28, INT 17→19 | Combat: Prof +2→+3 | Pools: +1 Vit die (now 7d6); +1 HP die (now 7d6); +1 Mana die (now 7d8) | Feats: gained Mana Flow | Affinities: Psychic 4→5, Sorrow 19→22 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 2)
+  Changes: Level 5→6 | Stats: WIS 27→28, INT 17→19 | Combat: Prof +2→+3 | Pools: +1 Vit die (now 7d6); +1 HP die (now 7d6); +1 Mana die (now 7d8) | Feats: gained Mana Flow | Affinities: Sorrow 19→22, Psychic 4→5 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 2)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -350,11 +350,11 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
     Attacks/Turn: 1
     Magic Dmg/Cast: 13 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x0 casts (+23/cast)
+    Secondary: Grief Well x0 casts (+20/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  180
-    Total Dmg/10R: 360
+    Total Dmg/5R:  160
+    Total Dmg/10R: 320
     Mana: 106 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -416,11 +416,11 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
     Attacks/Turn: 1
     Magic Dmg/Cast: 13 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x0 casts (+23/cast)
+    Secondary: Grief Well x0 casts (+20/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  180
-    Total Dmg/10R: 360
+    Total Dmg/5R:  160
+    Total Dmg/10R: 320
     Mana: 122 start, 20 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -480,13 +480,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 36 | Dmg/Turn: 36 (x39 mana)
+    Magic Dmg/Cast: 32 | Dmg/Turn: 32 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x1 casts (+23/cast)
+    Secondary: Grief Well x1 casts (+20/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  224
-    Total Dmg/10R: 260
+    Total Dmg/5R:  200
+    Total Dmg/10R: 232
     Mana: 137 start, 3 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -547,13 +547,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 50 | Dmg/Turn: 50 (x39 mana)
+    Magic Dmg/Cast: 46 | Dmg/Turn: 46 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x1 casts (+38/cast)
+    Secondary: Last Lament x1 casts (+34/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  288
-    Total Dmg/10R: 388
+    Total Dmg/5R:  264
+    Total Dmg/10R: 356
     Mana: 153 start, 5 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -614,13 +614,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 33 | Dmg/Turn: 54 (x39 mana)
+    Magic Dmg/Cast: 30 | Dmg/Turn: 48 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x2 casts (+21/cast)
+    Secondary: Grief Well x2 casts (+18/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  150
-    Total Dmg/10R: 150
+    Total Dmg/5R:  132
+    Total Dmg/10R: 132
     Mana: 168 start, 2 after 10R (cast magic 2/10 rounds)
 
   RESOURCES:
@@ -681,13 +681,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 50 | Dmg/Turn: 88 (x39 mana)
+    Magic Dmg/Cast: 46 | Dmg/Turn: 80 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+38/cast)
+    Secondary: Last Lament x2 casts (+34/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  176
-    Total Dmg/10R: 176
+    Total Dmg/5R:  161
+    Total Dmg/10R: 161
     Mana: 184 start, 4 after 10R (cast magic 2/10 rounds)
 
   RESOURCES:
@@ -748,13 +748,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 63 | Dmg/Turn: 108 (x39 mana)
+    Magic Dmg/Cast: 59 | Dmg/Turn: 100 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+45/cast)
+    Secondary: Last Lament x2 casts (+41/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  342
-    Total Dmg/10R: 342
+    Total Dmg/5R:  318
+    Total Dmg/10R: 318
     Mana: 199 start, 5 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -815,13 +815,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 63 | Dmg/Turn: 108 (x39 mana)
+    Magic Dmg/Cast: 59 | Dmg/Turn: 100 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+45/cast)
+    Secondary: Last Lament x2 casts (+41/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  405
-    Total Dmg/10R: 657
+    Total Dmg/5R:  377
+    Total Dmg/10R: 613
     Mana: 229 start, 0 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -882,13 +882,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 63 | Dmg/Turn: 108 (x39 mana)
+    Magic Dmg/Cast: 59 | Dmg/Turn: 100 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+45/cast)
+    Secondary: Last Lament x2 casts (+41/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  405
-    Total Dmg/10R: 720
+    Total Dmg/5R:  377
+    Total Dmg/10R: 672
     Mana: 245 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -924,7 +924,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 15 (Amazing Gear)
 ============================================================
 
-  Changes: Level 14→15 | Stats: WIS 29→30, INT 24→25 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Overdrive | Affinities: Chaos 0→2, Warp 0→2, Tremor 0→2, Sorrow 32→36, Deluge 0→2, Shatter 0→2 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 5)
+  Changes: Level 14→15 | Stats: WIS 29→30, INT 24→25 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Overdrive | Affinities: Deluge 0→2, Warp 0→2, Chaos 0→2, Sorrow 32→36, Tremor 0→2, Shatter 0→2 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 5)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -949,13 +949,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 60 | Dmg/Turn: 104 (x39 mana)
+    Magic Dmg/Cast: 56 | Dmg/Turn: 96 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+44/cast)
+    Secondary: Last Lament x2 casts (+40/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  388
-    Total Dmg/10R: 688
+    Total Dmg/5R:  360
+    Total Dmg/10R: 640
     Mana: 278 start, 42 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1021,13 +1021,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 63 | Dmg/Turn: 108 (x39 mana)
+    Magic Dmg/Cast: 59 | Dmg/Turn: 100 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+45/cast)
+    Secondary: Last Lament x2 casts (+41/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  405
-    Total Dmg/10R: 720
+    Total Dmg/5R:  377
+    Total Dmg/10R: 672
     Mana: 295 start, 59 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1093,13 +1093,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 65 | Dmg/Turn: 112 (x39 mana)
+    Magic Dmg/Cast: 61 | Dmg/Turn: 104 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+46/cast)
+    Secondary: Last Lament x2 casts (+42/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  418
-    Total Dmg/10R: 743
+    Total Dmg/5R:  390
+    Total Dmg/10R: 695
     Mana: 313 start, 77 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1140,7 +1140,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 18 (Amazing Gear)
 ============================================================
 
-  Changes: Level 17→18 | Stats: INT 25→27 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Affinity Master | Affinities: Fire -3→-1, Earth 8→10, Psychic 5→6, Water 0→2, Sorrow 37→43, Air 0→2 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 6)
+  Changes: Level 17→18 | Stats: INT 25→27 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Affinity Master | Affinities: Water 0→2, Earth 8→10, Sorrow 37→43, Air 0→2, Fire -3→-1, Psychic 5→6 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 6)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1165,13 +1165,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 65 | Dmg/Turn: 112 (x39 mana)
+    Magic Dmg/Cast: 61 | Dmg/Turn: 104 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+46/cast)
+    Secondary: Last Lament x2 casts (+42/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  446
-    Total Dmg/10R: 446
+    Total Dmg/5R:  414
+    Total Dmg/10R: 414
     Mana: 330 start, 2 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -1239,13 +1239,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 67 | Dmg/Turn: 114 (x39 mana)
+    Magic Dmg/Cast: 63 | Dmg/Turn: 106 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x2 casts (+47/cast)
+    Secondary: Last Lament x2 casts (+43/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  525
-    Total Dmg/10R: 793
+    Total Dmg/5R:  489
+    Total Dmg/10R: 741
     Mana: 368 start, 5 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -1288,7 +1288,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 20 (Amazing Gear)
 ============================================================
 
-  Changes: Level 19→20 | Stats: CON 14→16, WIS 30→31 | Combat: AP 2→3 | Pools: +1 Vit die (now 21d4); +1 HP die (now 21d6); +1 Mana die (now 21d2) | Feats: gained Armor Training | Affinities: Fire -1→-3, Earth 10→8, Water 2→0, Generic 4→5, Sorrow 43→41, Air 2→0 | Skill Tree: +1 STP in Magical→Magician (now Lvl 9)
+  Changes: Level 19→20 | Stats: CON 14→16, WIS 30→31 | Combat: AP 2→3 | Pools: +1 Vit die (now 21d4); +1 HP die (now 21d6); +1 Mana die (now 21d2) | Feats: gained Armor Training | Affinities: Water 2→0, Earth 10→8, Generic 4→5, Sorrow 43→41, Air 2→0, Fire -1→-3 | Skill Tree: +1 STP in Magical→Magician (now Lvl 9)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1313,13 +1313,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 70 | Dmg/Turn: 167 (x39 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 155 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x3 casts (+49/cast)
+    Secondary: Last Lament x3 casts (+45/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  496
-    Total Dmg/10R: 846
+    Total Dmg/5R:  463
+    Total Dmg/10R: 793
     Mana: 386 start, 83 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1360,7 +1360,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 21 (Amazing Gear)
 ============================================================
 
-  Changes: Level 20→21 | Stats: INT 27→29 | Combat: Prof +7→+8 | Pools: +1 Vit die (now 22d4); +1 HP die (now 22d6); +1 Mana die (now 22d2) | Feats: gained Affinity Master | Affinities: Fire -3→-1, Earth 8→10, Psychic 6→7, Water 0→2, Sorrow 41→46, Air 0→2 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 7)
+  Changes: Level 20→21 | Stats: INT 27→29 | Combat: Prof +7→+8 | Pools: +1 Vit die (now 22d4); +1 HP die (now 22d6); +1 Mana die (now 22d2) | Feats: gained Affinity Master | Affinities: Water 0→2, Earth 8→10, Sorrow 41→46, Air 0→2, Fire -3→-1, Psychic 6→7 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 7)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1385,13 +1385,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 70 | Dmg/Turn: 167 (x39 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 155 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x3 casts (+49/cast)
+    Secondary: Last Lament x3 casts (+45/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  496
-    Total Dmg/10R: 846
+    Total Dmg/5R:  463
+    Total Dmg/10R: 793
     Mana: 405 start, 102 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1459,13 +1459,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 71 | Dmg/Turn: 170 (x39 mana)
+    Magic Dmg/Cast: 67 | Dmg/Turn: 158 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x3 casts (+50/cast)
+    Secondary: Last Lament x3 casts (+45/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  504
-    Total Dmg/10R: 859
+    Total Dmg/5R:  472
+    Total Dmg/10R: 807
     Mana: 423 start, 120 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1533,13 +1533,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 74 | Dmg/Turn: 176 (x39 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 163 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x3 casts (+51/cast)
+    Secondary: Last Lament x3 casts (+47/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  523
-    Total Dmg/10R: 893
+    Total Dmg/5R:  490
+    Total Dmg/10R: 840
     Mana: 442 start, 139 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1582,7 +1582,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 24 (Amazing Gear)
 ============================================================
 
-  Changes: Level 23→24 | Stats: CON 16→18, INT 29→30 | Combat: BAp 3→4, Prof +8→+9 | Pools: +1 Vit die (now 25d4); +1 HP die (now 25d6); +1 Mana die (now 25d2) | Feats: gained Weapon Master | Affinities: Psychic 7→8, Sorrow 47→50 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 8)
+  Changes: Level 23→24 | Stats: CON 16→18, INT 29→30 | Combat: BAp 3→4, Prof +8→+9 | Pools: +1 Vit die (now 25d4); +1 HP die (now 25d6); +1 Mana die (now 25d2) | Feats: gained Weapon Master | Affinities: Sorrow 47→50, Psychic 7→8 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 8)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1607,13 +1607,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 74 | Dmg/Turn: 227 (x39 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x4 casts (+51/cast)
+    Secondary: Last Lament x4 casts (+47/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  574
-    Total Dmg/10R: 944
+    Total Dmg/5R:  537
+    Total Dmg/10R: 887
     Mana: 460 start, 90 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1681,13 +1681,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 74 | Dmg/Turn: 227 (x39 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x4 casts (+51/cast)
+    Secondary: Last Lament x4 casts (+47/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  556
-    Total Dmg/10R: 556
+    Total Dmg/5R:  514
+    Total Dmg/10R: 514
     Mana: 583 start, 1 after 10R (cast magic 2/10 rounds)
 
   RESOURCES:
@@ -1755,13 +1755,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 74 | Dmg/Turn: 227 (x39 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x4 casts (+51/cast)
+    Secondary: Last Lament x4 casts (+47/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  778
-    Total Dmg/10R: 778
+    Total Dmg/5R:  724
+    Total Dmg/10R: 724
     Mana: 605 start, 2 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -1804,7 +1804,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 27 (Amazing Gear)
 ============================================================
 
-  Changes: Level 26→27 | Stats: CON 18→16, WIS 31→32, INT 30→31 | Combat: Prof +9→+10 | Pools: +1 Vit die (now 28d4); +1 HP die (now 28d6); +1 Mana die (now 28d0) | Feats: gained Skill Expert | Affinities: Psychic 8→9, Sorrow 51→53 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 9)
+  Changes: Level 26→27 | Stats: CON 18→16, WIS 31→32, INT 30→31 | Combat: Prof +9→+10 | Pools: +1 Vit die (now 28d4); +1 HP die (now 28d6); +1 Mana die (now 28d0) | Feats: gained Skill Expert | Affinities: Sorrow 51→53, Psychic 8→9 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 9)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1829,13 +1829,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 71 | Dmg/Turn: 220 (x39 mana)
+    Magic Dmg/Cast: 67 | Dmg/Turn: 204 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x4 casts (+50/cast)
+    Secondary: Last Lament x4 casts (+45/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  751
-    Total Dmg/10R: 1106
+    Total Dmg/5R:  699
+    Total Dmg/10R: 1034
     Mana: 656 start, 18 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1903,13 +1903,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 71 | Dmg/Turn: 220 (x39 mana)
+    Magic Dmg/Cast: 67 | Dmg/Turn: 204 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x4 casts (+50/cast)
+    Secondary: Last Lament x4 casts (+45/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  751
-    Total Dmg/10R: 1106
+    Total Dmg/5R:  699
+    Total Dmg/10R: 1034
     Mana: 722 start, 84 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1977,13 +1977,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 74 | Dmg/Turn: 227 (x39 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 210 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x4 casts (+51/cast)
+    Secondary: Last Lament x4 casts (+47/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  778
-    Total Dmg/10R: 1148
+    Total Dmg/5R:  724
+    Total Dmg/10R: 1074
     Mana: 746 start, 108 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2026,7 +2026,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 30 (Amazing Gear)
 ============================================================
 
-  Changes: Level 29→30 | Stats: CON 16→19, INT 31→33 | Combat: AP 3→4, Prof +10→+11 | Pools: +1 Vit die (now 31d4); +1 HP die (now 31d6); +1 Mana die (now 33d0) | Affinities: Psychic 9→10, Sorrow 54→57 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 10)
+  Changes: Level 29→30 | Stats: CON 16→19, INT 31→33 | Combat: AP 3→4, Prof +10→+11 | Pools: +1 Vit die (now 31d4); +1 HP die (now 31d6); +1 Mana die (now 33d0) | Affinities: Sorrow 54→57, Psychic 9→10 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 10)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2051,13 +2051,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 77 | Dmg/Turn: 286 (x39 mana)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 265 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x5 casts (+52/cast)
+    Secondary: Last Lament x5 casts (+48/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  907
-    Total Dmg/10R: 1215
+    Total Dmg/5R:  845
+    Total Dmg/10R: 1137
     Mana: 769 start, 4 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -2125,13 +2125,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 77 | Dmg/Turn: 286 (x39 mana)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 265 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x5 casts (+52/cast)
+    Secondary: Last Lament x5 casts (+48/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  907
-    Total Dmg/10R: 1292
+    Total Dmg/5R:  845
+    Total Dmg/10R: 1210
     Mana: 793 start, 21 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2199,13 +2199,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 77 | Dmg/Turn: 286 (x39 mana)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 265 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x5 casts (+52/cast)
+    Secondary: Last Lament x5 casts (+48/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  907
-    Total Dmg/10R: 1292
+    Total Dmg/5R:  845
+    Total Dmg/10R: 1210
     Mana: 816 start, 44 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2248,7 +2248,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 33 (Amazing Gear)
 ============================================================
 
-  Changes: Level 32→33 | Stats: CON 19→17, WIS 32→33, INT 33→34 | Combat: Prof +11→+12 | Pools: +1 Vit die (now 34d4); +1 HP die (now 34d6); +1 Mana die (now 36d0) | Affinities: Psychic 10→11, Sorrow 58→60 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 11)
+  Changes: Level 32→33 | Stats: CON 19→17, WIS 32→33, INT 33→34 | Combat: Prof +11→+12 | Pools: +1 Vit die (now 34d4); +1 HP die (now 34d6); +1 Mana die (now 36d0) | Affinities: Sorrow 58→60, Psychic 10→11 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 11)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2273,13 +2273,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 74 | Dmg/Turn: 278 (x39 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 257 (x39 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Last Lament x5 casts (+51/cast)
+    Secondary: Last Lament x5 casts (+47/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  880
-    Total Dmg/10R: 1250
+    Total Dmg/5R:  818
+    Total Dmg/10R: 1168
     Mana: 840 start, 68 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2347,13 +2347,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 118 | Dmg/Turn: 400 (x156 mana)
+    Magic Dmg/Cast: 110 | Dmg/Turn: 362 (x156 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+71/cast)
+    Secondary: Grief Well x5 casts (+63/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  1880
-    Total Dmg/10R: 1880
+    Total Dmg/5R:  1700
+    Total Dmg/10R: 1700
     Mana: 863 start, 14 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -2421,13 +2421,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 125 | Dmg/Turn: 423 (x156 mana)
+    Magic Dmg/Cast: 117 | Dmg/Turn: 383 (x156 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+75/cast)
+    Secondary: Grief Well x5 casts (+67/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2117
-    Total Dmg/10R: 2117
+    Total Dmg/5R:  1917
+    Total Dmg/10R: 1917
     Mana: 887 start, 7 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -2470,7 +2470,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 36 (Amazing Gear)
 ============================================================
 
-  Changes: Level 35→36 | Stats: CON 17→18, INT 34→35 | Combat: Prof +12→+13 | Pools: +1 Vit die (now 37d4); +1 HP die (now 37d6); +1 Mana die (now 39d0) | Affinities: Psychic 11→12, Sorrow 61→64 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 12)
+  Changes: Level 35→36 | Stats: CON 17→18, INT 34→35 | Combat: Prof +12→+13 | Pools: +1 Vit die (now 37d4); +1 HP die (now 37d6); +1 Mana die (now 39d0) | Affinities: Sorrow 61→64, Psychic 11→12 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 12)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2495,13 +2495,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 125 | Dmg/Turn: 423 (x156 mana)
+    Magic Dmg/Cast: 117 | Dmg/Turn: 383 (x156 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+75/cast)
+    Secondary: Grief Well x5 casts (+67/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2117
-    Total Dmg/10R: 2117
+    Total Dmg/5R:  1917
+    Total Dmg/10R: 1917
     Mana: 910 start, 30 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -2569,13 +2569,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 132 | Dmg/Turn: 447 (x156 mana)
+    Magic Dmg/Cast: 123 | Dmg/Turn: 404 (x156 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+79/cast)
+    Secondary: Grief Well x5 casts (+70/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2236
-    Total Dmg/10R: 2368
+    Total Dmg/5R:  2023
+    Total Dmg/10R: 2146
     Mana: 934 start, 23 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -2643,13 +2643,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 132 | Dmg/Turn: 447 (x156 mana)
+    Magic Dmg/Cast: 123 | Dmg/Turn: 404 (x156 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+79/cast)
+    Secondary: Grief Well x5 casts (+70/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2236
-    Total Dmg/10R: 2500
+    Total Dmg/5R:  2023
+    Total Dmg/10R: 2269
     Mana: 957 start, 15 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -2692,7 +2692,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 39 (Amazing Gear)
 ============================================================
 
-  Changes: Level 38→39 | Stats: CON 18→19, INT 35→36 | Combat: Prof +13→+14 | Pools: +1 Vit die (now 40d4); +1 HP die (now 40d6); +1 Mana die (now 42d0) | Affinities: Psychic 12→13, Sorrow 75→77 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 13)
+  Changes: Level 38→39 | Stats: CON 18→19, INT 35→36 | Combat: Prof +13→+14 | Pools: +1 Vit die (now 40d4); +1 HP die (now 40d6); +1 Mana die (now 42d0) | Affinities: Sorrow 75→77, Psychic 12→13 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 13)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2717,13 +2717,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 132 | Dmg/Turn: 447 (x156 mana)
+    Magic Dmg/Cast: 123 | Dmg/Turn: 404 (x156 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+79/cast)
+    Secondary: Grief Well x5 casts (+70/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2236
-    Total Dmg/10R: 2632
+    Total Dmg/5R:  2023
+    Total Dmg/10R: 2392
     Mana: 981 start, 8 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -2791,13 +2791,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 591 (x234 mana)
+    Magic Dmg/Cast: 142 | Dmg/Turn: 520 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Mourning Glance x7 casts (+73/cast)
+    Secondary: Mourning Glance x7 casts (+63/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2808
-    Total Dmg/10R: 3112
+    Total Dmg/5R:  2474
+    Total Dmg/10R: 2758
     Mana: 1047 start, 5 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -2865,13 +2865,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 591 (x234 mana)
+    Magic Dmg/Cast: 142 | Dmg/Turn: 520 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Mourning Glance x7 casts (+73/cast)
+    Secondary: Mourning Glance x7 casts (+63/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  2808
-    Total Dmg/10R: 3112
+    Total Dmg/5R:  2474
+    Total Dmg/10R: 2758
     Mana: 1072 start, 30 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -2914,7 +2914,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 42 (Amazing Gear)
 ============================================================
 
-  Changes: Level 41→42 | Stats: CON 18→19, INT 37→38 | Combat: Prof +14→+15 | Pools: +1 Vit die (now 43d4); +1 HP die (now 43d6); +1 Mana die (now 45d0) | Affinities: Psychic 13→14, Sorrow 78→81 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 14)
+  Changes: Level 41→42 | Stats: CON 18→19, INT 37→38 | Combat: Prof +14→+15 | Pools: +1 Vit die (now 43d4); +1 HP die (now 43d6); +1 Mana die (now 45d0) | Affinities: Sorrow 78→81, Psychic 13→14 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 14)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2939,13 +2939,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 591 (x234 mana)
+    Magic Dmg/Cast: 142 | Dmg/Turn: 520 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Mourning Glance x7 casts (+73/cast)
+    Secondary: Mourning Glance x7 casts (+63/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  3320
-    Total Dmg/10R: 3320
+    Total Dmg/5R:  2915
+    Total Dmg/10R: 2915
     Mana: 1096 start, 13 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3013,13 +3013,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 152 | Dmg/Turn: 591 (x234 mana)
+    Magic Dmg/Cast: 142 | Dmg/Turn: 520 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Mourning Glance x7 casts (+73/cast)
+    Secondary: Mourning Glance x7 casts (+63/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  3320
-    Total Dmg/10R: 3320
+    Total Dmg/5R:  2915
+    Total Dmg/10R: 2915
     Mana: 1121 start, 38 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3087,13 +3087,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 198 | Dmg/Turn: 671 (x234 mana)
+    Magic Dmg/Cast: 185 | Dmg/Turn: 607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+118/cast)
+    Secondary: Grief Well x5 casts (+105/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  3354
-    Total Dmg/10R: 3750
+    Total Dmg/5R:  3033
+    Total Dmg/10R: 3403
     Mana: 1145 start, 35 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -3136,7 +3136,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 45 (Amazing Gear)
 ============================================================
 
-  Changes: Level 44→45 | Stats: CON 19→18, INT 38→39 | Combat: Prof +15→+16 | Pools: +1 Vit die (now 46d4); +1 HP die (now 46d6); +1 Mana die (now 48d0) | Affinities: Psychic 14→15, Sorrow 82→84 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 15)
+  Changes: Level 44→45 | Stats: CON 19→18, INT 38→39 | Combat: Prof +15→+16 | Pools: +1 Vit die (now 46d4); +1 HP die (now 46d6); +1 Mana die (now 48d0) | Affinities: Sorrow 82→84, Psychic 14→15 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 15)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3161,13 +3161,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 198 | Dmg/Turn: 671 (x234 mana)
+    Magic Dmg/Cast: 185 | Dmg/Turn: 607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+118/cast)
+    Secondary: Grief Well x5 casts (+105/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  3945
-    Total Dmg/10R: 3945
+    Total Dmg/5R:  3560
+    Total Dmg/10R: 3560
     Mana: 1170 start, 2 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3235,13 +3235,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 215 | Dmg/Turn: 722 (x234 mana)
+    Magic Dmg/Cast: 202 | Dmg/Turn: 658 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+127/cast)
+    Secondary: Grief Well x5 casts (+114/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  4245
-    Total Dmg/10R: 4245
+    Total Dmg/5R:  3860
+    Total Dmg/10R: 3860
     Mana: 1194 start, 26 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3309,13 +3309,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 215 | Dmg/Turn: 722 (x234 mana)
+    Magic Dmg/Cast: 202 | Dmg/Turn: 658 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+127/cast)
+    Secondary: Grief Well x5 casts (+114/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  4245
-    Total Dmg/10R: 4460
+    Total Dmg/5R:  3860
+    Total Dmg/10R: 4062
     Mana: 1219 start, 5 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -3358,7 +3358,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 48 (Amazing Gear)
 ============================================================
 
-  Changes: Level 47→48 | Stats: CON 18→20, INT 39→40 | Combat: BAp 6→7, Prof +16→+17 | Pools: +1 Vit die (now 49d4); +1 HP die (now 49d6); +1 Mana die (now 51d0) | Affinities: Psychic 15→16, Sorrow 85→88 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 16)
+  Changes: Level 47→48 | Stats: CON 18→20, INT 39→40 | Combat: BAp 6→7, Prof +16→+17 | Pools: +1 Vit die (now 49d4); +1 HP die (now 49d6); +1 Mana die (now 51d0) | Affinities: Sorrow 85→88, Psychic 15→16 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 16)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3383,13 +3383,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 215 | Dmg/Turn: 722 (x234 mana)
+    Magic Dmg/Cast: 202 | Dmg/Turn: 658 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+127/cast)
+    Secondary: Grief Well x5 casts (+114/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  4245
-    Total Dmg/10R: 4460
+    Total Dmg/5R:  3860
+    Total Dmg/10R: 4062
     Mana: 1243 start, 29 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -3457,13 +3457,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 226 | Dmg/Turn: 756 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 692 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x5 casts (+133/cast)
+    Secondary: Grief Well x5 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  4445
-    Total Dmg/10R: 4897
+    Total Dmg/5R:  4060
+    Total Dmg/10R: 4486
     Mana: 1268 start, 8 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -3531,14 +3531,14 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 178 | Dmg/Turn: 769 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 692 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Mourning Glance x8 casts (+84/cast)
+    Secondary: Grief Well x5 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  4265
-    Total Dmg/10R: 4621
-    Mana: 1292 start, 22 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  4060
+    Total Dmg/10R: 4486
+    Mana: 1292 start, 32 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3580,7 +3580,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 51 (Amazing Gear)
 ============================================================
 
-  Changes: Level 50→51 | Stats: CON 21→20, INT 40→41 | Combat: Prof +17→+18 | Pools: +1 Vit die (now 52d4); +1 HP die (now 52d6); +1 Mana die (now 54d0) | Affinities: Psychic 16→17, Sorrow 89→91 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 17)
+  Changes: Level 50→51 | Stats: CON 21→20, INT 40→41 | Combat: Prof +17→+18 | Pools: +1 Vit die (now 52d4); +1 HP die (now 52d6); +1 Mana die (now 54d0) | Affinities: Sorrow 89→91, Psychic 16→17 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 17)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3605,13 +3605,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  4310
-    Total Dmg/10R: 4988
+    Total Dmg/5R:  3937
+    Total Dmg/10R: 4576
     Mana: 1317 start, 41 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -3679,13 +3679,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5105
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 4655
     Mana: 1341 start, 23 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3753,13 +3753,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5331
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 4868
     Mana: 1366 start, 2 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -3802,7 +3802,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 54 (Amazing Gear)
 ============================================================
 
-  Changes: Level 53→54 | Stats: INT 41→42 | Combat: Prof +18→+19 | Pools: +1 Vit die (now 55d4); +1 HP die (now 55d6); +1 Mana die (now 57d0) | Affinities: Psychic 17→18, Sorrow 92→95 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 18)
+  Changes: Level 53→54 | Stats: INT 41→42 | Combat: Prof +18→+19 | Pools: +1 Vit die (now 55d4); +1 HP die (now 55d6); +1 Mana die (now 57d0) | Affinities: Sorrow 92→95, Psychic 17→18 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 18)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3827,13 +3827,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5331
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 4868
     Mana: 1390 start, 26 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -3901,13 +3901,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5557
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 5081
     Mana: 1415 start, 5 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -3975,13 +3975,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5557
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 5081
     Mana: 1439 start, 29 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -4024,7 +4024,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 57 (Amazing Gear)
 ============================================================
 
-  Changes: Level 56→57 | Stats: CON 20→21, INT 42→43 | Combat: Prof +19→+20 | Pools: +1 Vit die (now 58d4); +1 HP die (now 58d6); +1 Mana die (now 60d0) | Affinities: Psychic 18→19, Sorrow 96→98 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 19)
+  Changes: Level 56→57 | Stats: CON 20→21, INT 42→43 | Combat: Prof +19→+20 | Pools: +1 Vit die (now 58d4); +1 HP die (now 58d6); +1 Mana die (now 60d0) | Affinities: Sorrow 96→98, Psychic 18→19 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 19)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4049,13 +4049,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5783
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 5294
     Mana: 1464 start, 8 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4123,13 +4123,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 889 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 812 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x6 casts (+133/cast)
+    Secondary: Grief Well x6 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5105
-    Total Dmg/10R: 5783
+    Total Dmg/5R:  4655
+    Total Dmg/10R: 5294
     Mana: 1488 start, 32 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4197,13 +4197,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1021 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 931 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x7 casts (+133/cast)
+    Secondary: Grief Well x7 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5770
-    Total Dmg/10R: 5770
+    Total Dmg/5R:  5255
+    Total Dmg/10R: 5255
     Mana: 1513 start, 45 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -4246,7 +4246,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 60 (Amazing Gear)
 ============================================================
 
-  Changes: Level 59→60 | Stats: WIS 35→36, INT 43→44 | Combat: AP 6→7, Prof +20→+21 | Pools: +1 Vit die (now 61d4); +1 HP die (now 61d6); +1 Mana die (now 63d0) | Affinities: Psychic 19→20, Sorrow 99→102 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 20)
+  Changes: Level 59→60 | Stats: WIS 35→36, INT 43→44 | Combat: AP 6→7, Prof +20→+21 | Pools: +1 Vit die (now 61d4); +1 HP die (now 61d6); +1 Mana die (now 63d0) | Affinities: Sorrow 99→102, Psychic 19→20 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 20)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4271,13 +4271,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1021 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 931 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x7 casts (+133/cast)
+    Secondary: Grief Well x7 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5770
-    Total Dmg/10R: 6222
+    Total Dmg/5R:  5255
+    Total Dmg/10R: 5681
     Mana: 1600 start, 40 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -4345,13 +4345,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1021 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 931 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x7 casts (+133/cast)
+    Secondary: Grief Well x7 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5770
-    Total Dmg/10R: 6448
+    Total Dmg/5R:  5255
+    Total Dmg/10R: 5894
     Mana: 1626 start, 20 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4419,13 +4419,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1021 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 931 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x7 casts (+133/cast)
+    Secondary: Grief Well x7 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  5770
-    Total Dmg/10R: 6448
+    Total Dmg/5R:  5255
+    Total Dmg/10R: 5894
     Mana: 1651 start, 45 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4468,7 +4468,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 63 (Amazing Gear)
 ============================================================
 
-  Changes: Level 62→63 | Stats: INT 44→45 | Combat: Prof +21→+22 | Pools: +1 Vit die (now 64d4); +1 HP die (now 64d6); +1 Mana die (now 66d0) | Affinities: Psychic 20→21, Sorrow 103→105 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 21)
+  Changes: Level 62→63 | Stats: INT 44→45 | Combat: Prof +21→+22 | Pools: +1 Vit die (now 64d4); +1 HP die (now 64d6); +1 Mana die (now 66d0) | Affinities: Sorrow 103→105, Psychic 20→21 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 21)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4493,13 +4493,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 6656
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6068
     Mana: 1677 start, 13 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -4567,13 +4567,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 6656
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6068
     Mana: 1702 start, 38 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -4641,13 +4641,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 6882
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6281
     Mana: 1728 start, 18 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -4690,7 +4690,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 66 (Amazing Gear)
 ============================================================
 
-  Changes: Level 65→66 | Stats: CON 21→22, INT 45→46 | Combat: Prof +22→+23 | Pools: +1 Vit die (now 67d4); +1 HP die (now 67d6); +1 Mana die (now 69d0) | Affinities: Psychic 21→22, Sorrow 106→109 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 22)
+  Changes: Level 65→66 | Stats: CON 21→22, INT 45→46 | Combat: Prof +22→+23 | Pools: +1 Vit die (now 67d4); +1 HP die (now 67d6); +1 Mana die (now 69d0) | Affinities: Sorrow 106→109, Psychic 21→22 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 22)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4715,13 +4715,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 6882
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6281
     Mana: 1753 start, 43 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -4789,13 +4789,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 7108
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6494
     Mana: 1779 start, 23 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4863,13 +4863,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 7334
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6707
     Mana: 1804 start, 2 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -4912,7 +4912,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 69 (Amazing Gear)
 ============================================================
 
-  Changes: Level 68→69 | Stats: CON 22→21, WIS 36→37 | Combat: Prof +23→+24 | Pools: +1 Vit die (now 70d4); +1 HP die (now 70d6); +1 Mana die (now 72d0) | Affinities: Psychic 22→23, Sorrow 110→112 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 23)
+  Changes: Level 68→69 | Stats: CON 22→21, WIS 36→37 | Combat: Prof +23→+24 | Pools: +1 Vit die (now 70d4); +1 HP die (now 70d6); +1 Mana die (now 72d0) | Affinities: Sorrow 110→112, Psychic 22→23 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 23)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4937,13 +4937,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1154 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1051 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x8 casts (+133/cast)
+    Secondary: Grief Well x8 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  6430
-    Total Dmg/10R: 7334
+    Total Dmg/5R:  5855
+    Total Dmg/10R: 6707
     Mana: 1830 start, 28 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -5011,13 +5011,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 7321
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 6668
     Mana: 1855 start, 41 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -5085,13 +5085,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 7547
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 6881
     Mana: 1881 start, 21 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -5134,7 +5134,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 72 (Amazing Gear)
 ============================================================
 
-  Changes: Level 71→72 | Stats: INT 47→48 | Combat: BAp 9→10, Prof +24→+25 | Pools: +1 Vit die (now 73d4); +1 HP die (now 73d6); +1 Mana die (now 75d0) | Affinities: Psychic 23→24, Sorrow 113→116 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 24)
+  Changes: Level 71→72 | Stats: INT 47→48 | Combat: BAp 9→10, Prof +24→+25 | Pools: +1 Vit die (now 73d4); +1 HP die (now 73d6); +1 Mana die (now 75d0) | Affinities: Sorrow 113→116, Psychic 23→24 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 24)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5159,13 +5159,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 7773
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 7094
     Mana: 1906 start, 0 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -5233,13 +5233,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 7773
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 7094
     Mana: 1932 start, 26 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -5307,13 +5307,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 7999
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 7307
     Mana: 1957 start, 5 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -5356,7 +5356,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 75 (Amazing Gear)
 ============================================================
 
-  Changes: Level 74→75 | Stats: CON 22→23, INT 48→49 | Combat: Prof +25→+26 | Pools: +1 Vit die (now 76d4); +1 HP die (now 76d6); +1 Mana die (now 78d0) | Affinities: Psychic 24→25, Sorrow 117→119 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 25)
+  Changes: Level 74→75 | Stats: CON 22→23, INT 48→49 | Combat: Prof +25→+26 | Pools: +1 Vit die (now 76d4); +1 HP die (now 76d6); +1 Mana die (now 78d0) | Affinities: Sorrow 117→119, Psychic 24→25 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 25)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5381,13 +5381,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 7999
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 7307
     Mana: 1983 start, 31 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -5455,13 +5455,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1286 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1171 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x9 casts (+133/cast)
+    Secondary: Grief Well x9 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7095
-    Total Dmg/10R: 8225
+    Total Dmg/5R:  6455
+    Total Dmg/10R: 7520
     Mana: 2008 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5529,13 +5529,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1419 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1291 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x10 casts (+133/cast)
+    Secondary: Grief Well x10 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7755
-    Total Dmg/10R: 8207
+    Total Dmg/5R:  7050
+    Total Dmg/10R: 7476
     Mana: 2034 start, 24 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -5578,7 +5578,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 78 (Amazing Gear)
 ============================================================
 
-  Changes: Level 77→78 | Stats: CON 23→22, WIS 37→38 | Combat: Prof +26→+27 | Pools: +1 Vit die (now 79d4); +1 HP die (now 79d6); +1 Mana die (now 81d0) | Affinities: Psychic 25→26, Sorrow 120→123 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 26)
+  Changes: Level 77→78 | Stats: CON 23→22, WIS 37→38 | Combat: Prof +26→+27 | Pools: +1 Vit die (now 79d4); +1 HP die (now 79d6); +1 Mana die (now 81d0) | Affinities: Sorrow 120→123, Psychic 25→26 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 26)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5603,13 +5603,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1419 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1291 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x10 casts (+133/cast)
+    Secondary: Grief Well x10 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7755
-    Total Dmg/10R: 8659
+    Total Dmg/5R:  7050
+    Total Dmg/10R: 7902
     Mana: 2140 start, 38 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -5677,13 +5677,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1419 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1291 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x10 casts (+133/cast)
+    Secondary: Grief Well x10 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7755
-    Total Dmg/10R: 8885
+    Total Dmg/5R:  7050
+    Total Dmg/10R: 8115
     Mana: 2167 start, 19 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5751,13 +5751,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1419 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1291 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x10 casts (+133/cast)
+    Secondary: Grief Well x10 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  7755
-    Total Dmg/10R: 8885
+    Total Dmg/5R:  7050
+    Total Dmg/10R: 8115
     Mana: 2193 start, 45 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -5800,7 +5800,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 81 (Amazing Gear)
 ============================================================
 
-  Changes: Level 80→81 | Stats: INT 50→51 | Combat: Prof +27→+28 | Pools: +1 Vit die (now 82d4); +1 HP die (now 82d6); +1 Mana die (now 84d0) | Affinities: Psychic 26→27, Sorrow 124→126 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 27)
+  Changes: Level 80→81 | Stats: INT 50→51 | Combat: Prof +27→+28 | Pools: +1 Vit die (now 82d4); +1 HP die (now 82d6); +1 Mana die (now 84d0) | Affinities: Sorrow 124→126, Psychic 26→27 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 27)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5825,13 +5825,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9098
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8289
     Mana: 2220 start, 14 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -5899,13 +5899,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9098
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8289
     Mana: 2246 start, 40 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -5973,13 +5973,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9324
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8502
     Mana: 2273 start, 21 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -6022,7 +6022,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 84 (Amazing Gear)
 ============================================================
 
-  Changes: Level 83→84 | Stats: INT 51→52 | Combat: Prof +28→+29 | Pools: +1 Vit die (now 85d4); +1 HP die (now 85d6); +1 Mana die (now 87d0) | Affinities: Psychic 27→28, Sorrow 127→130 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 28)
+  Changes: Level 83→84 | Stats: INT 51→52 | Combat: Prof +28→+29 | Pools: +1 Vit die (now 85d4); +1 HP die (now 85d6); +1 Mana die (now 87d0) | Affinities: Sorrow 127→130, Psychic 27→28 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 28)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6047,13 +6047,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9550
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8715
     Mana: 2299 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6121,13 +6121,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9550
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8715
     Mana: 2326 start, 28 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6195,13 +6195,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9550
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8715
     Mana: 2352 start, 54 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6244,7 +6244,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 87 (Amazing Gear)
 ============================================================
 
-  Changes: Level 86→87 | Stats: CON 23→24 | Combat: Prof +29→+30 | Pools: +1 Vit die (now 88d4); +1 HP die (now 88d6); +1 Mana die (now 90d0) | Affinities: Psychic 28→29, Sorrow 131→133 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 29)
+  Changes: Level 86→87 | Stats: CON 23→24 | Combat: Prof +29→+30 | Pools: +1 Vit die (now 88d4); +1 HP die (now 88d6); +1 Mana die (now 90d0) | Affinities: Sorrow 131→133, Psychic 28→29 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 29)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6269,13 +6269,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1551 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1410 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x11 casts (+133/cast)
+    Secondary: Grief Well x11 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  8420
-    Total Dmg/10R: 9550
+    Total Dmg/5R:  7650
+    Total Dmg/10R: 8715
     Mana: 2379 start, 81 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6343,13 +6343,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 9984
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9102
     Mana: 2405 start, 3 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -6417,13 +6417,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 9984
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9102
     Mana: 2432 start, 30 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -6466,7 +6466,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 90 (Amazing Gear)
 ============================================================
 
-  Changes: Level 89→90 | Stats: CON 24→25, WIS 38→39, INT 52→53 | Combat: AP 9→10, Prof +30→+31 | Pools: +1 Vit die (now 91d4); +1 HP die (now 91d6); +1 Mana die (now 93d0) | Affinities: Psychic 29→30, Sorrow 134→137 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 30)
+  Changes: Level 89→90 | Stats: CON 24→25, WIS 38→39, INT 52→53 | Combat: AP 9→10, Prof +30→+31 | Pools: +1 Vit die (now 91d4); +1 HP die (now 91d6); +1 Mana die (now 93d0) | Affinities: Sorrow 134→137, Psychic 29→30 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 30)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6491,13 +6491,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 10210
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9315
     Mana: 2458 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6565,13 +6565,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 10210
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9315
     Mana: 2485 start, 37 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6639,13 +6639,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 10210
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9315
     Mana: 2511 start, 63 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6688,7 +6688,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 93 (Amazing Gear)
 ============================================================
 
-  Changes: Level 92→93 | Stats: CON 25→23, INT 53→55 | Combat: Prof +31→+32 | Pools: +1 Vit die (now 94d4); +1 HP die (now 94d6); +1 Mana die (now 96d0) | Affinities: Psychic 30→31, Sorrow 138→140 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 31)
+  Changes: Level 92→93 | Stats: CON 25→23, INT 53→55 | Combat: Prof +31→+32 | Pools: +1 Vit die (now 94d4); +1 HP die (now 94d6); +1 Mana die (now 96d0) | Affinities: Sorrow 138→140, Psychic 30→31 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 31)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6713,13 +6713,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 10210
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9315
     Mana: 2538 start, 90 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6787,13 +6787,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1684 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1530 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x12 casts (+133/cast)
+    Secondary: Grief Well x12 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9080
-    Total Dmg/10R: 10210
+    Total Dmg/5R:  8250
+    Total Dmg/10R: 9315
     Mana: 2564 start, 116 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6861,13 +6861,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1816 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1650 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x13 casts (+133/cast)
+    Secondary: Grief Well x13 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9745
-    Total Dmg/10R: 10649
+    Total Dmg/5R:  8845
+    Total Dmg/10R: 9697
     Mana: 2591 start, 39 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -6910,7 +6910,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 96 (Amazing Gear)
 ============================================================
 
-  Changes: Level 95→96 | Stats: CON 23→24 | Combat: BAp 12→13, Prof +32→+33 | Pools: +1 Vit die (now 97d4); +1 HP die (now 97d6); +1 Mana die (now 99d0) | Affinities: Psychic 31→32, Sorrow 141→144 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 32)
+  Changes: Level 95→96 | Stats: CON 23→24 | Combat: BAp 12→13, Prof +32→+33 | Pools: +1 Vit die (now 97d4); +1 HP die (now 97d6); +1 Mana die (now 99d0) | Affinities: Sorrow 141→144, Psychic 31→32 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 32)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6935,13 +6935,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1816 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1650 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x13 casts (+133/cast)
+    Secondary: Grief Well x13 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9745
-    Total Dmg/10R: 10875
+    Total Dmg/5R:  8845
+    Total Dmg/10R: 9910
     Mana: 2617 start, 19 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7009,13 +7009,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1816 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1650 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x13 casts (+133/cast)
+    Secondary: Grief Well x13 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9745
-    Total Dmg/10R: 10875
+    Total Dmg/5R:  8845
+    Total Dmg/10R: 9910
     Mana: 2644 start, 46 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7083,13 +7083,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1816 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1650 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x13 casts (+133/cast)
+    Secondary: Grief Well x13 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9745
-    Total Dmg/10R: 10875
+    Total Dmg/5R:  8845
+    Total Dmg/10R: 9910
     Mana: 2670 start, 72 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7132,7 +7132,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 99 (Amazing Gear)
 ============================================================
 
-  Changes: Level 98→99 | Stats: INT 55→56 | Combat: Prof +33→+34 | Pools: +1 Vit die (now 100d4); +1 HP die (now 100d6); +1 Mana die (now 102d0) | Affinities: Psychic 32→33, Sorrow 145→147 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 33)
+  Changes: Level 98→99 | Stats: INT 55→56 | Combat: Prof +33→+34 | Pools: +1 Vit die (now 100d4); +1 HP die (now 100d6); +1 Mana die (now 102d0) | Affinities: Sorrow 145→147, Psychic 32→33 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 33)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7157,13 +7157,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1816 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1650 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x13 casts (+133/cast)
+    Secondary: Grief Well x13 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  9745
-    Total Dmg/10R: 10875
+    Total Dmg/5R:  8845
+    Total Dmg/10R: 9910
     Mana: 2697 start, 99 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7231,13 +7231,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1949 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1769 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x14 casts (+133/cast)
+    Secondary: Grief Well x14 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  10405
-    Total Dmg/10R: 11535
+    Total Dmg/5R:  9445
+    Total Dmg/10R: 10510
     Mana: 2826 start, 78 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7305,13 +7305,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1949 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1769 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x14 casts (+133/cast)
+    Secondary: Grief Well x14 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  10405
-    Total Dmg/10R: 11535
+    Total Dmg/5R:  9445
+    Total Dmg/10R: 10510
     Mana: 2854 start, 106 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7354,7 +7354,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 102 (Amazing Gear)
 ============================================================
 
-  Changes: Level 101→102 | Stats: CON 25→24, INT 56→57 | Combat: Prof +34→+35 | Pools: +1 Vit die (now 103d4); +1 HP die (now 103d6); +1 Mana die (now 105d0) | Affinities: Psychic 33→34, Sorrow 148→151 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 34)
+  Changes: Level 101→102 | Stats: CON 25→24, INT 56→57 | Combat: Prof +34→+35 | Pools: +1 Vit die (now 103d4); +1 HP die (now 103d6); +1 Mana die (now 105d0) | Affinities: Sorrow 148→151, Psychic 33→34 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 34)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7379,13 +7379,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1949 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1769 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x14 casts (+133/cast)
+    Secondary: Grief Well x14 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  10405
-    Total Dmg/10R: 11535
+    Total Dmg/5R:  9445
+    Total Dmg/10R: 10510
     Mana: 2881 start, 133 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7453,13 +7453,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 226 | Dmg/Turn: 1949 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1769 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x14 casts (+133/cast)
+    Secondary: Grief Well x14 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  10405
-    Total Dmg/10R: 11535
+    Total Dmg/5R:  9445
+    Total Dmg/10R: 10510
     Mana: 2909 start, 161 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7527,13 +7527,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 2936 start, 38 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7576,7 +7576,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 105 (Amazing Gear)
 ============================================================
 
-  Changes: Level 104→105 | Stats: INT 57→58 | Combat: Prof +35→+36 | Pools: +1 Vit die (now 106d4); +1 HP die (now 106d6); +1 Mana die (now 108d0) | Affinities: Psychic 34→35, Sorrow 152→154 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 35)
+  Changes: Level 104→105 | Stats: INT 57→58 | Combat: Prof +35→+36 | Pools: +1 Vit die (now 106d4); +1 HP die (now 106d6); +1 Mana die (now 108d0) | Affinities: Sorrow 152→154, Psychic 34→35 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 35)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7601,13 +7601,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 2964 start, 66 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7675,13 +7675,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 2991 start, 93 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7749,13 +7749,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 3019 start, 121 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7798,7 +7798,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 108 (Amazing Gear)
 ============================================================
 
-  Changes: Level 107→108 | Stats: CON 24→25 | Combat: Prof +36→+37 | Pools: +1 Vit die (now 109d4); +1 HP die (now 109d6); +1 Mana die (now 111d0) | Affinities: Psychic 35→36, Sorrow 155→158 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 36)
+  Changes: Level 107→108 | Stats: CON 24→25 | Combat: Prof +36→+37 | Pools: +1 Vit die (now 109d4); +1 HP die (now 109d6); +1 Mana die (now 111d0) | Affinities: Sorrow 155→158, Psychic 35→36 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 36)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7823,13 +7823,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 3046 start, 148 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7897,13 +7897,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 3074 start, 176 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7971,13 +7971,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2081 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 1889 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x15 casts (+133/cast)
+    Secondary: Grief Well x15 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11070
-    Total Dmg/10R: 12200
+    Total Dmg/5R:  10045
+    Total Dmg/10R: 11110
     Mana: 3101 start, 203 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8020,7 +8020,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 111 (Amazing Gear)
 ============================================================
 
-  Changes: Level 110→111 | Stats: INT 58→59 | Combat: Prof +37→+38 | Pools: +1 Vit die (now 112d4); +1 HP die (now 112d6); +1 Mana die (now 114d0) | Affinities: Psychic 36→37, Sorrow 159→161 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 37)
+  Changes: Level 110→111 | Stats: INT 58→59 | Combat: Prof +37→+38 | Pools: +1 Vit die (now 112d4); +1 HP die (now 112d6); +1 Mana die (now 114d0) | Affinities: Sorrow 159→161, Psychic 36→37 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 37)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8045,13 +8045,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2214 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2009 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x16 casts (+133/cast)
+    Secondary: Grief Well x16 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11730
-    Total Dmg/10R: 12860
+    Total Dmg/5R:  10640
+    Total Dmg/10R: 11705
     Mana: 3129 start, 81 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8119,13 +8119,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2214 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2009 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x16 casts (+133/cast)
+    Secondary: Grief Well x16 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11730
-    Total Dmg/10R: 12860
+    Total Dmg/5R:  10640
+    Total Dmg/10R: 11705
     Mana: 3156 start, 108 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8193,13 +8193,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2214 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2009 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x16 casts (+133/cast)
+    Secondary: Grief Well x16 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11730
-    Total Dmg/10R: 12860
+    Total Dmg/5R:  10640
+    Total Dmg/10R: 11705
     Mana: 3184 start, 136 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8242,7 +8242,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 114 (Amazing Gear)
 ============================================================
 
-  Changes: Level 113→114 | Stats: CON 26→25, INT 59→60 | Combat: Prof +38→+39 | Pools: +1 Vit die (now 115d4); +1 HP die (now 115d6); +1 Mana die (now 117d0) | Affinities: Psychic 37→38, Sorrow 162→165 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 38)
+  Changes: Level 113→114 | Stats: CON 26→25, INT 59→60 | Combat: Prof +38→+39 | Pools: +1 Vit die (now 115d4); +1 HP die (now 115d6); +1 Mana die (now 117d0) | Affinities: Sorrow 162→165, Psychic 37→38 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 38)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8267,13 +8267,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2214 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2009 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x16 casts (+133/cast)
+    Secondary: Grief Well x16 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11730
-    Total Dmg/10R: 12860
+    Total Dmg/5R:  10640
+    Total Dmg/10R: 11705
     Mana: 3211 start, 163 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8341,13 +8341,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2214 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2009 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x16 casts (+133/cast)
+    Secondary: Grief Well x16 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11730
-    Total Dmg/10R: 12860
+    Total Dmg/5R:  10640
+    Total Dmg/10R: 11705
     Mana: 3239 start, 191 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8415,13 +8415,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2214 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2009 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x16 casts (+133/cast)
+    Secondary: Grief Well x16 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  11730
-    Total Dmg/10R: 12860
+    Total Dmg/5R:  10640
+    Total Dmg/10R: 11705
     Mana: 3266 start, 218 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8464,7 +8464,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 117 (Amazing Gear)
 ============================================================
 
-  Changes: Level 116→117 | Stats: INT 60→61 | Combat: Prof +39→+40 | Pools: +1 Vit die (now 118d4); +1 HP die (now 118d6); +1 Mana die (now 120d0) | Affinities: Psychic 38→39, Sorrow 166→168 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 39)
+  Changes: Level 116→117 | Stats: INT 60→61 | Combat: Prof +39→+40 | Pools: +1 Vit die (now 118d4); +1 HP die (now 118d6); +1 Mana die (now 120d0) | Affinities: Sorrow 166→168, Psychic 38→39 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 39)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8489,13 +8489,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2346 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2128 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x17 casts (+133/cast)
+    Secondary: Grief Well x17 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  12395
-    Total Dmg/10R: 13525
+    Total Dmg/5R:  11240
+    Total Dmg/10R: 12305
     Mana: 3294 start, 96 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8563,13 +8563,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2346 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2128 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x17 casts (+133/cast)
+    Secondary: Grief Well x17 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  12395
-    Total Dmg/10R: 13525
+    Total Dmg/5R:  11240
+    Total Dmg/10R: 12305
     Mana: 3321 start, 123 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8637,13 +8637,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2346 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2128 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x17 casts (+133/cast)
+    Secondary: Grief Well x17 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  12395
-    Total Dmg/10R: 13525
+    Total Dmg/5R:  11240
+    Total Dmg/10R: 12305
     Mana: 3349 start, 151 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8686,7 +8686,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 120 (Amazing Gear)
 ============================================================
 
-  Changes: Level 119→120 | Stats: CON 25→26, WIS 41→42 | Combat: AP 12→13, BAp 15→16, Prof +40→+41 | Pools: +1 Vit die (now 121d4); +1 HP die (now 121d6); +1 Mana die (now 123d0) | Affinities: Psychic 39→40, Sorrow 169→172 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 40)
+  Changes: Level 119→120 | Stats: CON 25→26, WIS 41→42 | Combat: AP 12→13, BAp 15→16, Prof +40→+41 | Pools: +1 Vit die (now 121d4); +1 HP die (now 121d6); +1 Mana die (now 123d0) | Affinities: Sorrow 169→172, Psychic 39→40 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 40)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8711,13 +8711,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2479 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2248 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x18 casts (+133/cast)
+    Secondary: Grief Well x18 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13060
-    Total Dmg/10R: 14190
+    Total Dmg/5R:  11840
+    Total Dmg/10R: 12905
     Mana: 3499 start, 151 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8785,13 +8785,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2479 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2248 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x18 casts (+133/cast)
+    Secondary: Grief Well x18 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13060
-    Total Dmg/10R: 14190
+    Total Dmg/5R:  11840
+    Total Dmg/10R: 12905
     Mana: 3528 start, 180 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8859,13 +8859,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2479 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2248 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x18 casts (+133/cast)
+    Secondary: Grief Well x18 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13060
-    Total Dmg/10R: 14190
+    Total Dmg/5R:  11840
+    Total Dmg/10R: 12905
     Mana: 3556 start, 208 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8908,7 +8908,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 123 (Amazing Gear)
 ============================================================
 
-  Changes: Level 122→123 | Stats: INT 61→62 | Combat: Prof +41→+42 | Pools: +1 Vit die (now 124d4); +1 HP die (now 124d6); +1 Mana die (now 126d0) | Affinities: Psychic 40→41, Sorrow 173→175 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 41)
+  Changes: Level 122→123 | Stats: INT 61→62 | Combat: Prof +41→+42 | Pools: +1 Vit die (now 124d4); +1 HP die (now 124d6); +1 Mana die (now 126d0) | Affinities: Sorrow 173→175, Psychic 40→41 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 41)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8933,13 +8933,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2479 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2248 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x18 casts (+133/cast)
+    Secondary: Grief Well x18 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13060
-    Total Dmg/10R: 14190
+    Total Dmg/5R:  11840
+    Total Dmg/10R: 12905
     Mana: 3585 start, 237 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9007,13 +9007,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2479 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2248 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x18 casts (+133/cast)
+    Secondary: Grief Well x18 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13060
-    Total Dmg/10R: 14190
+    Total Dmg/5R:  11840
+    Total Dmg/10R: 12905
     Mana: 3613 start, 265 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9081,13 +9081,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2479 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2248 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x18 casts (+133/cast)
+    Secondary: Grief Well x18 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13060
-    Total Dmg/10R: 14190
+    Total Dmg/5R:  11840
+    Total Dmg/10R: 12905
     Mana: 3642 start, 294 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9130,7 +9130,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 126 (Amazing Gear)
 ============================================================
 
-  Changes: Level 125→126 | Stats: CON 26→27 | Combat: Prof +42→+43 | Pools: +1 Vit die (now 127d4); +1 HP die (now 127d6); +1 Mana die (now 129d0) | Affinities: Psychic 41→42, Sorrow 176→179 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 42)
+  Changes: Level 125→126 | Stats: CON 26→27 | Combat: Prof +42→+43 | Pools: +1 Vit die (now 127d4); +1 HP die (now 127d6); +1 Mana die (now 129d0) | Affinities: Sorrow 176→179, Psychic 41→42 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 42)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9155,13 +9155,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2612 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2368 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x19 casts (+133/cast)
+    Secondary: Grief Well x19 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13720
-    Total Dmg/10R: 14850
+    Total Dmg/5R:  12440
+    Total Dmg/10R: 13505
     Mana: 3670 start, 172 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9229,13 +9229,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2612 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2368 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x19 casts (+133/cast)
+    Secondary: Grief Well x19 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13720
-    Total Dmg/10R: 14850
+    Total Dmg/5R:  12440
+    Total Dmg/10R: 13505
     Mana: 3699 start, 201 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9303,13 +9303,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2612 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2368 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x19 casts (+133/cast)
+    Secondary: Grief Well x19 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13720
-    Total Dmg/10R: 14850
+    Total Dmg/5R:  12440
+    Total Dmg/10R: 13505
     Mana: 3727 start, 229 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9352,7 +9352,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 129 (Amazing Gear)
 ============================================================
 
-  Changes: Level 128→129 | Stats: INT 62→63 | Combat: Prof +43→+44 | Pools: +1 Vit die (now 130d4); +1 HP die (now 130d6); +1 Mana die (now 132d0) | Affinities: Psychic 42→43, Sorrow 180→182 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 43)
+  Changes: Level 128→129 | Stats: INT 62→63 | Combat: Prof +43→+44 | Pools: +1 Vit die (now 130d4); +1 HP die (now 130d6); +1 Mana die (now 132d0) | Affinities: Sorrow 180→182, Psychic 42→43 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 43)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9377,13 +9377,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2612 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2368 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x19 casts (+133/cast)
+    Secondary: Grief Well x19 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13720
-    Total Dmg/10R: 14850
+    Total Dmg/5R:  12440
+    Total Dmg/10R: 13505
     Mana: 3756 start, 258 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9451,13 +9451,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2612 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2368 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x19 casts (+133/cast)
+    Secondary: Grief Well x19 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13720
-    Total Dmg/10R: 14850
+    Total Dmg/5R:  12440
+    Total Dmg/10R: 13505
     Mana: 3784 start, 286 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9525,13 +9525,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2612 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2368 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x19 casts (+133/cast)
+    Secondary: Grief Well x19 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  13720
-    Total Dmg/10R: 14850
+    Total Dmg/5R:  12440
+    Total Dmg/10R: 13505
     Mana: 3813 start, 315 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9574,7 +9574,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 132 (Amazing Gear)
 ============================================================
 
-  Changes: Level 131→132 | Stats: CON 27→28 | Combat: Prof +44→+45 | Pools: +1 Vit die (now 133d4); +1 HP die (now 133d6); +1 Mana die (now 135d0) | Affinities: Psychic 43→44, Sorrow 183→186 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 44)
+  Changes: Level 131→132 | Stats: CON 27→28 | Combat: Prof +44→+45 | Pools: +1 Vit die (now 133d4); +1 HP die (now 133d6); +1 Mana die (now 135d0) | Affinities: Sorrow 183→186, Psychic 43→44 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 44)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9599,13 +9599,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 3841 start, 193 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9673,13 +9673,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 3870 start, 222 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9747,13 +9747,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 3898 start, 250 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9796,7 +9796,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 135 (Amazing Gear)
 ============================================================
 
-  Changes: Level 134→135 | Stats: INT 64→65 | Combat: Prof +45→+46 | Pools: +1 Vit die (now 136d4); +1 HP die (now 136d6); +1 Mana die (now 138d0) | Affinities: Psychic 44→45, Sorrow 187→189 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 45)
+  Changes: Level 134→135 | Stats: INT 64→65 | Combat: Prof +45→+46 | Pools: +1 Vit die (now 136d4); +1 HP die (now 136d6); +1 Mana die (now 138d0) | Affinities: Sorrow 187→189, Psychic 44→45 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 45)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9821,13 +9821,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 3927 start, 279 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9895,13 +9895,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 3955 start, 307 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9969,13 +9969,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 3984 start, 336 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10018,7 +10018,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 138 (Amazing Gear)
 ============================================================
 
-  Changes: Level 137→138 | Stats: CON 28→27, WIS 42→43 | Combat: Prof +46→+47 | Pools: +1 Vit die (now 139d4); +1 HP die (now 139d6); +1 Mana die (now 141d0) | Affinities: Psychic 45→46, Sorrow 190→193 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 46)
+  Changes: Level 137→138 | Stats: CON 28→27, WIS 42→43 | Combat: Prof +46→+47 | Pools: +1 Vit die (now 139d4); +1 HP die (now 139d6); +1 Mana die (now 141d0) | Affinities: Sorrow 190→193, Psychic 45→46 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 46)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10043,13 +10043,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2744 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2488 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x20 casts (+133/cast)
+    Secondary: Grief Well x20 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  14385
-    Total Dmg/10R: 15515
+    Total Dmg/5R:  13035
+    Total Dmg/10R: 14100
     Mana: 4012 start, 364 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10117,13 +10117,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2877 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x21 casts (+133/cast)
+    Secondary: Grief Well x21 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15045
-    Total Dmg/10R: 16175
+    Total Dmg/5R:  13635
+    Total Dmg/10R: 14700
     Mana: 4041 start, 243 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10191,13 +10191,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2877 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x21 casts (+133/cast)
+    Secondary: Grief Well x21 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15045
-    Total Dmg/10R: 16175
+    Total Dmg/5R:  13635
+    Total Dmg/10R: 14700
     Mana: 4069 start, 271 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10240,7 +10240,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 141 (Amazing Gear)
 ============================================================
 
-  Changes: Level 140→141 | Stats: INT 65→66 | Combat: Prof +47→+48 | Pools: +1 Vit die (now 142d4); +1 HP die (now 142d6); +1 Mana die (now 144d0) | Affinities: Psychic 46→47, Sorrow 194→196 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 47)
+  Changes: Level 140→141 | Stats: INT 65→66 | Combat: Prof +47→+48 | Pools: +1 Vit die (now 142d4); +1 HP die (now 142d6); +1 Mana die (now 144d0) | Affinities: Sorrow 194→196, Psychic 46→47 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 47)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10265,13 +10265,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2877 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x21 casts (+133/cast)
+    Secondary: Grief Well x21 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15045
-    Total Dmg/10R: 16175
+    Total Dmg/5R:  13635
+    Total Dmg/10R: 14700
     Mana: 4098 start, 300 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10339,13 +10339,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2877 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x21 casts (+133/cast)
+    Secondary: Grief Well x21 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15045
-    Total Dmg/10R: 16175
+    Total Dmg/5R:  13635
+    Total Dmg/10R: 14700
     Mana: 4126 start, 328 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10413,13 +10413,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2877 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x21 casts (+133/cast)
+    Secondary: Grief Well x21 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15045
-    Total Dmg/10R: 16175
+    Total Dmg/5R:  13635
+    Total Dmg/10R: 14700
     Mana: 4155 start, 357 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10462,7 +10462,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 144 (Amazing Gear)
 ============================================================
 
-  Changes: Level 143→144 | Stats: CON 29→27, INT 66→67 | Combat: BAp 18→19, Prof +48→+49 | Pools: +1 Vit die (now 145d4); +1 HP die (now 145d6); +1 Mana die (now 147d0) | Affinities: Psychic 47→48, Sorrow 197→200 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 48)
+  Changes: Level 143→144 | Stats: CON 29→27, INT 66→67 | Combat: BAp 18→19, Prof +48→+49 | Pools: +1 Vit die (now 145d4); +1 HP die (now 145d6); +1 Mana die (now 147d0) | Affinities: Sorrow 197→200, Psychic 47→48 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 48)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10487,13 +10487,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 2877 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2607 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x21 casts (+133/cast)
+    Secondary: Grief Well x21 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15045
-    Total Dmg/10R: 16175
+    Total Dmg/5R:  13635
+    Total Dmg/10R: 14700
     Mana: 4183 start, 385 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10561,13 +10561,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3009 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2727 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x22 casts (+133/cast)
+    Secondary: Grief Well x22 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15710
-    Total Dmg/10R: 16840
+    Total Dmg/5R:  14235
+    Total Dmg/10R: 15300
     Mana: 4212 start, 264 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10635,13 +10635,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3009 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2727 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x22 casts (+133/cast)
+    Secondary: Grief Well x22 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15710
-    Total Dmg/10R: 16840
+    Total Dmg/5R:  14235
+    Total Dmg/10R: 15300
     Mana: 4240 start, 292 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10684,7 +10684,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 147 (Amazing Gear)
 ============================================================
 
-  Changes: Level 146→147 | Stats: INT 67→68 | Combat: Prof +49→+50 | Pools: +1 Vit die (now 148d4); +1 HP die (now 148d6); +1 Mana die (now 150d0) | Affinities: Psychic 48→49, Sorrow 201→203 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 49)
+  Changes: Level 146→147 | Stats: INT 67→68 | Combat: Prof +49→+50 | Pools: +1 Vit die (now 148d4); +1 HP die (now 148d6); +1 Mana die (now 150d0) | Affinities: Sorrow 201→203, Psychic 48→49 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 49)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10709,13 +10709,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3009 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2727 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x22 casts (+133/cast)
+    Secondary: Grief Well x22 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15710
-    Total Dmg/10R: 16840
+    Total Dmg/5R:  14235
+    Total Dmg/10R: 15300
     Mana: 4269 start, 321 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10783,13 +10783,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3009 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2727 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x22 casts (+133/cast)
+    Secondary: Grief Well x22 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15710
-    Total Dmg/10R: 16840
+    Total Dmg/5R:  14235
+    Total Dmg/10R: 15300
     Mana: 4297 start, 349 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10857,13 +10857,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3009 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2727 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x22 casts (+133/cast)
+    Secondary: Grief Well x22 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  15710
-    Total Dmg/10R: 16840
+    Total Dmg/5R:  14235
+    Total Dmg/10R: 15300
     Mana: 4326 start, 378 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10906,7 +10906,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 150 (Amazing Gear)
 ============================================================
 
-  Changes: Level 149→150 | Stats: CON 27→29, WIS 43→44 | Combat: AP 15→16, Prof +50→+51 | Pools: +1 Vit die (now 151d4); +1 HP die (now 151d6); +1 Mana die (now 153d0) | Affinities: Psychic 49→50, Sorrow 204→207 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 50)
+  Changes: Level 149→150 | Stats: CON 27→29, WIS 43→44 | Combat: AP 15→16, Prof +50→+51 | Pools: +1 Vit die (now 151d4); +1 HP die (now 151d6); +1 Mana die (now 153d0) | Affinities: Sorrow 204→207, Psychic 49→50 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 50)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10931,13 +10931,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3142 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2847 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x23 casts (+133/cast)
+    Secondary: Grief Well x23 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  16370
-    Total Dmg/10R: 17500
+    Total Dmg/5R:  14830
+    Total Dmg/10R: 15895
     Mana: 4507 start, 409 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11005,13 +11005,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3142 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2847 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x23 casts (+133/cast)
+    Secondary: Grief Well x23 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  16370
-    Total Dmg/10R: 17500
+    Total Dmg/5R:  14830
+    Total Dmg/10R: 15895
     Mana: 4537 start, 439 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11079,13 +11079,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3274 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2966 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x24 casts (+133/cast)
+    Secondary: Grief Well x24 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17035
-    Total Dmg/10R: 18165
+    Total Dmg/5R:  15430
+    Total Dmg/10R: 16495
     Mana: 4566 start, 318 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11128,7 +11128,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 153 (Amazing Gear)
 ============================================================
 
-  Changes: Level 152→153 | Stats: CON 29→30 | Combat: Prof +51→+52 | Pools: +1 Vit die (now 154d4); +1 HP die (now 154d6); +1 Mana die (now 156d0) | Affinities: Psychic 50→51, Sorrow 208→210 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 51)
+  Changes: Level 152→153 | Stats: CON 29→30 | Combat: Prof +51→+52 | Pools: +1 Vit die (now 154d4); +1 HP die (now 154d6); +1 Mana die (now 156d0) | Affinities: Sorrow 208→210, Psychic 50→51 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 51)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11153,13 +11153,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3274 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2966 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x24 casts (+133/cast)
+    Secondary: Grief Well x24 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17035
-    Total Dmg/10R: 18165
+    Total Dmg/5R:  15430
+    Total Dmg/10R: 16495
     Mana: 4596 start, 348 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11227,13 +11227,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3274 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2966 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x24 casts (+133/cast)
+    Secondary: Grief Well x24 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17035
-    Total Dmg/10R: 18165
+    Total Dmg/5R:  15430
+    Total Dmg/10R: 16495
     Mana: 4625 start, 377 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11301,13 +11301,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3274 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2966 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x24 casts (+133/cast)
+    Secondary: Grief Well x24 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17035
-    Total Dmg/10R: 18165
+    Total Dmg/5R:  15430
+    Total Dmg/10R: 16495
     Mana: 4655 start, 407 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11350,7 +11350,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 156 (Amazing Gear)
 ============================================================
 
-  Changes: Level 155→156 | Stats: INT 68→69 | Combat: Prof +52→+53 | Pools: +1 Vit die (now 157d4); +1 HP die (now 157d6); +1 Mana die (now 159d0) | Affinities: Psychic 51→52, Sorrow 211→214 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 52)
+  Changes: Level 155→156 | Stats: INT 68→69 | Combat: Prof +52→+53 | Pools: +1 Vit die (now 157d4); +1 HP die (now 157d6); +1 Mana die (now 159d0) | Affinities: Sorrow 211→214, Psychic 51→52 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 52)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11375,13 +11375,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3274 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2966 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x24 casts (+133/cast)
+    Secondary: Grief Well x24 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17035
-    Total Dmg/10R: 18165
+    Total Dmg/5R:  15430
+    Total Dmg/10R: 16495
     Mana: 4684 start, 436 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11449,13 +11449,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3274 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 2966 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x24 casts (+133/cast)
+    Secondary: Grief Well x24 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17035
-    Total Dmg/10R: 18165
+    Total Dmg/5R:  15430
+    Total Dmg/10R: 16495
     Mana: 4714 start, 466 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11523,13 +11523,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3407 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3086 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x25 casts (+133/cast)
+    Secondary: Grief Well x25 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17695
-    Total Dmg/10R: 18825
+    Total Dmg/5R:  16030
+    Total Dmg/10R: 17095
     Mana: 4743 start, 345 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11572,7 +11572,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 159 (Amazing Gear)
 ============================================================
 
-  Changes: Level 158→159 | Stats: CON 30→28, INT 69→70 | Combat: Prof +53→+54 | Pools: +1 Vit die (now 160d4); +1 HP die (now 160d6); +1 Mana die (now 162d0) | Affinities: Psychic 52→53, Sorrow 215→217 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 53)
+  Changes: Level 158→159 | Stats: CON 30→28, INT 69→70 | Combat: Prof +53→+54 | Pools: +1 Vit die (now 160d4); +1 HP die (now 160d6); +1 Mana die (now 162d0) | Affinities: Sorrow 215→217, Psychic 52→53 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 53)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11597,13 +11597,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3407 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3086 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x25 casts (+133/cast)
+    Secondary: Grief Well x25 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17695
-    Total Dmg/10R: 18825
+    Total Dmg/5R:  16030
+    Total Dmg/10R: 17095
     Mana: 4773 start, 375 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11671,13 +11671,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3407 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3086 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x25 casts (+133/cast)
+    Secondary: Grief Well x25 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17695
-    Total Dmg/10R: 18825
+    Total Dmg/5R:  16030
+    Total Dmg/10R: 17095
     Mana: 4802 start, 404 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11745,13 +11745,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3407 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3086 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x25 casts (+133/cast)
+    Secondary: Grief Well x25 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17695
-    Total Dmg/10R: 18825
+    Total Dmg/5R:  16030
+    Total Dmg/10R: 17095
     Mana: 4832 start, 434 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11794,7 +11794,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 162 (Amazing Gear)
 ============================================================
 
-  Changes: Level 161→162 | Stats: INT 70→71 | Combat: Prof +54→+55 | Pools: +1 Vit die (now 163d4); +1 HP die (now 163d6); +1 Mana die (now 165d0) | Affinities: Psychic 53→54, Sorrow 218→221 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 54)
+  Changes: Level 161→162 | Stats: INT 70→71 | Combat: Prof +54→+55 | Pools: +1 Vit die (now 163d4); +1 HP die (now 163d6); +1 Mana die (now 165d0) | Affinities: Sorrow 218→221, Psychic 53→54 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 54)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11819,13 +11819,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3407 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3086 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x25 casts (+133/cast)
+    Secondary: Grief Well x25 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17695
-    Total Dmg/10R: 18825
+    Total Dmg/5R:  16030
+    Total Dmg/10R: 17095
     Mana: 4861 start, 463 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11893,13 +11893,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3407 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3086 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x25 casts (+133/cast)
+    Secondary: Grief Well x25 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  17695
-    Total Dmg/10R: 18825
+    Total Dmg/5R:  16030
+    Total Dmg/10R: 17095
     Mana: 4891 start, 493 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11967,13 +11967,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3539 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3206 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x26 casts (+133/cast)
+    Secondary: Grief Well x26 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  18360
-    Total Dmg/10R: 19490
+    Total Dmg/5R:  16625
+    Total Dmg/10R: 17690
     Mana: 4920 start, 372 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12016,7 +12016,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 165 (Amazing Gear)
 ============================================================
 
-  Changes: Level 164→165 | Stats: CON 29→30 | Combat: Prof +55→+56 | Pools: +1 Vit die (now 166d4); +1 HP die (now 166d6); +1 Mana die (now 168d0) | Affinities: Psychic 54→55, Sorrow 222→224 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 55)
+  Changes: Level 164→165 | Stats: CON 29→30 | Combat: Prof +55→+56 | Pools: +1 Vit die (now 166d4); +1 HP die (now 166d6); +1 Mana die (now 168d0) | Affinities: Sorrow 222→224, Psychic 54→55 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 55)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12041,13 +12041,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3539 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3206 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x26 casts (+133/cast)
+    Secondary: Grief Well x26 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  18360
-    Total Dmg/10R: 19490
+    Total Dmg/5R:  16625
+    Total Dmg/10R: 17690
     Mana: 4950 start, 402 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12115,13 +12115,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3539 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3206 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x26 casts (+133/cast)
+    Secondary: Grief Well x26 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  18360
-    Total Dmg/10R: 19490
+    Total Dmg/5R:  16625
+    Total Dmg/10R: 17690
     Mana: 4979 start, 431 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12189,13 +12189,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3539 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3206 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x26 casts (+133/cast)
+    Secondary: Grief Well x26 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  18360
-    Total Dmg/10R: 19490
+    Total Dmg/5R:  16625
+    Total Dmg/10R: 17690
     Mana: 5009 start, 461 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12238,7 +12238,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 168 (Amazing Gear)
 ============================================================
 
-  Changes: Level 167→168 | Combat: BAp 21→22, Prof +56→+57 | Pools: +1 Vit die (now 169d4); +1 HP die (now 169d6); +1 Mana die (now 171d0) | Affinities: Psychic 55→56, Sorrow 225→228 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 56)
+  Changes: Level 167→168 | Combat: BAp 21→22, Prof +56→+57 | Pools: +1 Vit die (now 169d4); +1 HP die (now 169d6); +1 Mana die (now 171d0) | Affinities: Sorrow 225→228, Psychic 55→56 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 56)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12263,13 +12263,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3539 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3206 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x26 casts (+133/cast)
+    Secondary: Grief Well x26 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  18360
-    Total Dmg/10R: 19490
+    Total Dmg/5R:  16625
+    Total Dmg/10R: 17690
     Mana: 5038 start, 490 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12337,13 +12337,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3539 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3206 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x26 casts (+133/cast)
+    Secondary: Grief Well x26 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  18360
-    Total Dmg/10R: 19490
+    Total Dmg/5R:  16625
+    Total Dmg/10R: 17690
     Mana: 5068 start, 520 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12411,13 +12411,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3672 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3325 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x27 casts (+133/cast)
+    Secondary: Grief Well x27 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19020
-    Total Dmg/10R: 20150
+    Total Dmg/5R:  17225
+    Total Dmg/10R: 18290
     Mana: 5097 start, 399 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12460,7 +12460,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 171 (Amazing Gear)
 ============================================================
 
-  Changes: Level 170→171 | Stats: INT 72→73 | Combat: Prof +57→+58 | Pools: +1 Vit die (now 172d4); +1 HP die (now 172d6); +1 Mana die (now 174d0) | Affinities: Psychic 56→57, Sorrow 229→231 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 57)
+  Changes: Level 170→171 | Stats: INT 72→73 | Combat: Prof +57→+58 | Pools: +1 Vit die (now 172d4); +1 HP die (now 172d6); +1 Mana die (now 174d0) | Affinities: Sorrow 229→231, Psychic 56→57 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 57)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12485,13 +12485,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3672 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3325 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x27 casts (+133/cast)
+    Secondary: Grief Well x27 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19020
-    Total Dmg/10R: 20150
+    Total Dmg/5R:  17225
+    Total Dmg/10R: 18290
     Mana: 5127 start, 429 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12559,13 +12559,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3672 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3325 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x27 casts (+133/cast)
+    Secondary: Grief Well x27 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19020
-    Total Dmg/10R: 20150
+    Total Dmg/5R:  17225
+    Total Dmg/10R: 18290
     Mana: 5156 start, 458 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12633,13 +12633,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3672 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3325 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x27 casts (+133/cast)
+    Secondary: Grief Well x27 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19020
-    Total Dmg/10R: 20150
+    Total Dmg/5R:  17225
+    Total Dmg/10R: 18290
     Mana: 5186 start, 488 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12682,7 +12682,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 174 (Amazing Gear)
 ============================================================
 
-  Changes: Level 173→174 | Combat: Prof +58→+59 | Pools: +1 Vit die (now 175d4); +1 HP die (now 175d6); +1 Mana die (now 177d0) | Affinities: Psychic 57→58, Sorrow 232→235 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 58)
+  Changes: Level 173→174 | Combat: Prof +58→+59 | Pools: +1 Vit die (now 175d4); +1 HP die (now 175d6); +1 Mana die (now 177d0) | Affinities: Sorrow 232→235, Psychic 57→58 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 58)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12707,13 +12707,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3672 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3325 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x27 casts (+133/cast)
+    Secondary: Grief Well x27 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19020
-    Total Dmg/10R: 20150
+    Total Dmg/5R:  17225
+    Total Dmg/10R: 18290
     Mana: 5215 start, 517 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12781,13 +12781,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3672 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3325 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x27 casts (+133/cast)
+    Secondary: Grief Well x27 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19020
-    Total Dmg/10R: 20150
+    Total Dmg/5R:  17225
+    Total Dmg/10R: 18290
     Mana: 5245 start, 547 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12855,13 +12855,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3804 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3445 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x28 casts (+133/cast)
+    Secondary: Grief Well x28 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19685
-    Total Dmg/10R: 20815
+    Total Dmg/5R:  17825
+    Total Dmg/10R: 18890
     Mana: 5274 start, 426 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12904,7 +12904,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 177 (Amazing Gear)
 ============================================================
 
-  Changes: Level 176→177 | Stats: INT 73→74 | Combat: Prof +59→+60 | Pools: +1 Vit die (now 178d4); +1 HP die (now 178d6); +1 Mana die (now 180d0) | Affinities: Psychic 58→59, Sorrow 236→238 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 59)
+  Changes: Level 176→177 | Stats: INT 73→74 | Combat: Prof +59→+60 | Pools: +1 Vit die (now 178d4); +1 HP die (now 178d6); +1 Mana die (now 180d0) | Affinities: Sorrow 236→238, Psychic 58→59 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 59)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12929,13 +12929,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3804 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3445 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x28 casts (+133/cast)
+    Secondary: Grief Well x28 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19685
-    Total Dmg/10R: 20815
+    Total Dmg/5R:  17825
+    Total Dmg/10R: 18890
     Mana: 5304 start, 456 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13003,13 +13003,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3804 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3445 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x28 casts (+133/cast)
+    Secondary: Grief Well x28 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19685
-    Total Dmg/10R: 20815
+    Total Dmg/5R:  17825
+    Total Dmg/10R: 18890
     Mana: 5333 start, 485 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13077,13 +13077,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3804 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3445 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x28 casts (+133/cast)
+    Secondary: Grief Well x28 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  19685
-    Total Dmg/10R: 20815
+    Total Dmg/5R:  17825
+    Total Dmg/10R: 18890
     Mana: 5363 start, 515 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13126,7 +13126,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 180 (Amazing Gear)
 ============================================================
 
-  Changes: Level 179→180 | Stats: CON 30→31, WIS 45→46 | Combat: AP 18→19, Prof +60→+61 | Pools: +1 Vit die (now 181d4); +1 HP die (now 181d6); +1 Mana die (now 183d0) | Affinities: Psychic 59→60, Sorrow 239→242 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 60)
+  Changes: Level 179→180 | Stats: CON 30→31, WIS 45→46 | Combat: AP 18→19, Prof +60→+61 | Pools: +1 Vit die (now 181d4); +1 HP die (now 181d6); +1 Mana die (now 183d0) | Affinities: Sorrow 239→242, Psychic 59→60 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 60)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13151,13 +13151,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3937 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3565 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x29 casts (+133/cast)
+    Secondary: Grief Well x29 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  20345
-    Total Dmg/10R: 21475
+    Total Dmg/5R:  18425
+    Total Dmg/10R: 19490
     Mana: 5575 start, 577 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13225,13 +13225,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3937 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3565 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x29 casts (+133/cast)
+    Secondary: Grief Well x29 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  20345
-    Total Dmg/10R: 21475
+    Total Dmg/5R:  18425
+    Total Dmg/10R: 19490
     Mana: 5606 start, 608 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13299,13 +13299,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3937 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3565 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x29 casts (+133/cast)
+    Secondary: Grief Well x29 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  20345
-    Total Dmg/10R: 21475
+    Total Dmg/5R:  18425
+    Total Dmg/10R: 19490
     Mana: 5636 start, 638 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13348,7 +13348,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 183 (Amazing Gear)
 ============================================================
 
-  Changes: Level 182→183 | Stats: CON 31→30, INT 74→75 | Combat: Prof +61→+62 | Pools: +1 Vit die (now 184d4); +1 HP die (now 184d6); +1 Mana die (now 186d0) | Affinities: Psychic 60→61, Sorrow 243→245 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 61)
+  Changes: Level 182→183 | Stats: CON 31→30, INT 74→75 | Combat: Prof +61→+62 | Pools: +1 Vit die (now 184d4); +1 HP die (now 184d6); +1 Mana die (now 186d0) | Affinities: Sorrow 243→245, Psychic 60→61 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 61)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13373,13 +13373,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 226 | Dmg/Turn: 3937 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3565 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x29 casts (+133/cast)
+    Secondary: Grief Well x29 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  20345
-    Total Dmg/10R: 21475
+    Total Dmg/5R:  18425
+    Total Dmg/10R: 19490
     Mana: 5667 start, 669 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13447,13 +13447,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4069 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3685 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x30 casts (+133/cast)
+    Secondary: Grief Well x30 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21010
-    Total Dmg/10R: 22140
+    Total Dmg/5R:  19020
+    Total Dmg/10R: 20085
     Mana: 5697 start, 549 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13521,13 +13521,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4069 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3685 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x30 casts (+133/cast)
+    Secondary: Grief Well x30 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21010
-    Total Dmg/10R: 22140
+    Total Dmg/5R:  19020
+    Total Dmg/10R: 20085
     Mana: 5728 start, 580 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13570,7 +13570,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 186 (Amazing Gear)
 ============================================================
 
-  Changes: Level 185→186 | Stats: INT 75→76 | Combat: Prof +62→+63 | Pools: +1 Vit die (now 187d4); +1 HP die (now 187d6); +1 Mana die (now 189d0) | Affinities: Psychic 61→62, Sorrow 246→249 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 62)
+  Changes: Level 185→186 | Stats: INT 75→76 | Combat: Prof +62→+63 | Pools: +1 Vit die (now 187d4); +1 HP die (now 187d6); +1 Mana die (now 189d0) | Affinities: Sorrow 246→249, Psychic 61→62 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 62)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13595,13 +13595,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4069 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3685 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x30 casts (+133/cast)
+    Secondary: Grief Well x30 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21010
-    Total Dmg/10R: 22140
+    Total Dmg/5R:  19020
+    Total Dmg/10R: 20085
     Mana: 5758 start, 610 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13669,13 +13669,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4069 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3685 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x30 casts (+133/cast)
+    Secondary: Grief Well x30 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21010
-    Total Dmg/10R: 22140
+    Total Dmg/5R:  19020
+    Total Dmg/10R: 20085
     Mana: 5789 start, 641 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13743,13 +13743,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4069 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3685 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x30 casts (+133/cast)
+    Secondary: Grief Well x30 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21010
-    Total Dmg/10R: 22140
+    Total Dmg/5R:  19020
+    Total Dmg/10R: 20085
     Mana: 5819 start, 671 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13792,7 +13792,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 189 (Amazing Gear)
 ============================================================
 
-  Changes: Level 188→189 | Combat: Prof +63→+64 | Pools: +1 Vit die (now 190d4); +1 HP die (now 190d6); +1 Mana die (now 192d0) | Affinities: Psychic 62→63, Sorrow 250→252 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 63)
+  Changes: Level 188→189 | Combat: Prof +63→+64 | Pools: +1 Vit die (now 190d4); +1 HP die (now 190d6); +1 Mana die (now 192d0) | Affinities: Sorrow 250→252, Psychic 62→63 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 63)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13817,13 +13817,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4069 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3685 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x30 casts (+133/cast)
+    Secondary: Grief Well x30 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21010
-    Total Dmg/10R: 22140
+    Total Dmg/5R:  19020
+    Total Dmg/10R: 20085
     Mana: 5850 start, 702 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13891,13 +13891,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21670
-    Total Dmg/10R: 22800
+    Total Dmg/5R:  19620
+    Total Dmg/10R: 20685
     Mana: 5880 start, 582 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13965,13 +13965,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21670
-    Total Dmg/10R: 22800
+    Total Dmg/5R:  19620
+    Total Dmg/10R: 20685
     Mana: 5911 start, 613 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14014,7 +14014,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 192 (Amazing Gear)
 ============================================================
 
-  Changes: Level 191→192 | Stats: INT 76→77 | Combat: BAp 24→25, Prof +64→+65 | Pools: +1 Vit die (now 193d4); +1 HP die (now 193d6); +1 Mana die (now 195d0) | Affinities: Psychic 63→64, Sorrow 253→256 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 64)
+  Changes: Level 191→192 | Stats: INT 76→77 | Combat: BAp 24→25, Prof +64→+65 | Pools: +1 Vit die (now 193d4); +1 HP die (now 193d6); +1 Mana die (now 195d0) | Affinities: Sorrow 253→256, Psychic 63→64 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 64)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14039,13 +14039,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21670
-    Total Dmg/10R: 22800
+    Total Dmg/5R:  19620
+    Total Dmg/10R: 20685
     Mana: 5941 start, 643 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14113,13 +14113,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21670
-    Total Dmg/10R: 22800
+    Total Dmg/5R:  19620
+    Total Dmg/10R: 20685
     Mana: 5972 start, 674 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14187,13 +14187,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21670
-    Total Dmg/10R: 22800
+    Total Dmg/5R:  19620
+    Total Dmg/10R: 20685
     Mana: 6002 start, 704 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14236,7 +14236,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 195 (Amazing Gear)
 ============================================================
 
-  Changes: Level 194→195 | Combat: Prof +65→+66 | Pools: +1 Vit die (now 196d4); +1 HP die (now 196d6); +1 Mana die (now 198d0) | Affinities: Psychic 64→65, Sorrow 257→259 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 65)
+  Changes: Level 194→195 | Combat: Prof +65→+66 | Pools: +1 Vit die (now 196d4); +1 HP die (now 196d6); +1 Mana die (now 198d0) | Affinities: Sorrow 257→259, Psychic 64→65 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 65)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14261,13 +14261,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  21670
-    Total Dmg/10R: 22800
+    Total Dmg/5R:  19620
+    Total Dmg/10R: 20685
     Mana: 6033 start, 735 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14335,13 +14335,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  26004
-    Total Dmg/10R: 26004
+    Total Dmg/5R:  23544
+    Total Dmg/10R: 23544
     Mana: 6063 start, 19 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -14409,13 +14409,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  26004
-    Total Dmg/10R: 26230
+    Total Dmg/5R:  23544
+    Total Dmg/10R: 23757
     Mana: 6094 start, 4 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -14458,7 +14458,7 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
   Affinity: Sorrow Mage - Level 198 (Amazing Gear)
 ============================================================
 
-  Changes: Level 197→198 | Stats: CON 31→32 | Combat: Prof +66→+67 | Pools: +1 Vit die (now 199d4); +1 HP die (now 199d6); +1 Mana die (now 201d0) | Affinities: Psychic 65→66, Sorrow 260→263 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 66)
+  Changes: Level 197→198 | Stats: CON 31→32 | Combat: Prof +66→+67 | Pools: +1 Vit die (now 199d4); +1 HP die (now 199d6); +1 Mana die (now 201d0) | Affinities: Sorrow 260→263, Psychic 65→66 | Skill Tree: +1 STP in Magical→Psychic (now Lvl 66)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14483,13 +14483,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  26004
-    Total Dmg/10R: 26230
+    Total Dmg/5R:  23544
+    Total Dmg/10R: 23757
     Mana: 6124 start, 34 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -14557,13 +14557,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4202 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 3804 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x31 casts (+133/cast)
+    Secondary: Grief Well x31 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  26004
-    Total Dmg/10R: 26456
+    Total Dmg/5R:  23544
+    Total Dmg/10R: 23970
     Mana: 6155 start, 19 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -14631,13 +14631,13 @@ EYUM TTRPG - AFFINITY: SORROW MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 14
-    Magic Dmg/Cast: 226 | Dmg/Turn: 4467 (x234 mana)
+    Magic Dmg/Cast: 213 | Dmg/Turn: 4044 (x234 mana)
     Spell: Widow’s Field (Sorrow)
-    Secondary: Grief Well x33 casts (+133/cast)
+    Secondary: Grief Well x33 casts (+120/cast)
     Skipped spells:
       Despair Aura: dmg=0 mana=8 (non_damaging)
-    Total Dmg/5R:  22995
-    Total Dmg/10R: 24125
+    Total Dmg/5R:  20815
+    Total Dmg/10R: 21880
     Mana: 6185 start, 587 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:

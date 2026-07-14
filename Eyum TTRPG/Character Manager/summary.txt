@@ -5,12 +5,12 @@ Generated from analysis of 200 levels across 4 gear tiers and 2 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Affinity: Corruption Mage: 6859 category-level wins (61.3%)
-  Affinity: Quantum Mage: 4335 category-level wins (38.7%)
+  Affinity: Storm Mage: 6056 category-level wins (55.2%)
+  Affinity: Water Mage: 4923 category-level wins (44.8%)
 
-  >>> WARNING: Affinity: Corruption Mage dominates with 61.1% of all BEST wins across all tiers.
+  >>> WARNING: Affinity: Storm Mage dominates with 55.0% of all BEST wins across all tiers.
       This suggests significant balance issues where other builds cannot compete.
-      Next best (Affinity: Quantum Mage) has only 38.6%.
+      Next best (Affinity: Water Mage) has only 44.7%.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
@@ -21,87 +21,91 @@ DAMAGE TYPE BALANCE
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : mostly Affinity: Corruption Mage (780/800 levels, 97.5%)
-    >>> MONOPOLY: Affinity: Corruption Mage wins Vitality almost exclusively.
+  Vitality  : mostly Affinity: Water Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Water Mage wins Vitality almost exclusively.
     This is expected for dedicated tank builds. No action needed.
   Health    : tied across all builds (all 800/800)
-  Mana      : mostly Affinity: Corruption Mage (800/800 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Corruption Mage wins Mana almost exclusively.
+  Mana      : mostly Affinity: Storm Mage (684/800 levels, 85.5%)
+    >>> MONOPOLY: Affinity: Storm Mage wins Mana almost exclusively.
     This is expected for magical builds. No action needed.
-  AC        : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Quantum Mage wins AC almost exclusively.
+  AC        : mostly Affinity: Water Mage (796/800 levels, 99.5%)
+    >>> MONOPOLY: Affinity: Water Mage wins AC almost exclusively.
     This is expected for tank/heavy-armor builds. No action needed.
   Feats     : tied across all builds (all 800/800)
     (Expected: every build gets +1 feat every 3 levels. No action needed.)
   Spells    : tied across all builds (all 800/800)
-  To Hit    : mostly Affinity: Corruption Mage (800/800 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Corruption Mage wins To Hit almost exclusively.
-  Dmg/Turn  : mostly Affinity: Corruption Mage (788/800 levels, 98.5%)
-    >>> MONOPOLY: Affinity: Corruption Mage wins Dmg/Turn almost exclusively.
+  To Hit    : mostly Affinity: Storm Mage (796/800 levels, 99.5%)
+    >>> MONOPOLY: Affinity: Storm Mage wins To Hit almost exclusively.
+  Dmg/Turn  : mostly Affinity: Storm Mage (704/800 levels, 88.0%)
+    >>> MONOPOLY: Affinity: Storm Mage wins Dmg/Turn almost exclusively.
     >>> IMBALANCE: Damage output is concentrated in one build.
     Consider: rebalancing damage scaling so other builds can compete.
-  Dmg/5R    : mostly Affinity: Corruption Mage (636/800 levels, 79.5%)
-    (Moderate concentration)
-  Dmg/10R   : mostly Affinity: Corruption Mage (612/800 levels, 76.5%)
-    (Moderate concentration)
+  Dmg/5R    : mostly Affinity: Storm Mage (688/800 levels, 86.0%)
+    >>> MONOPOLY: Affinity: Storm Mage wins Dmg/5R almost exclusively.
+    >>> IMBALANCE: Damage output is concentrated in one build.
+    Consider: rebalancing damage scaling so other builds can compete.
+  Dmg/10R   : mostly Affinity: Storm Mage (744/800 levels, 93.0%)
+    >>> MONOPOLY: Affinity: Storm Mage wins Dmg/10R almost exclusively.
+    >>> IMBALANCE: Damage output is concentrated in one build.
+    Consider: rebalancing damage scaling so other builds can compete.
 
 STAT ANALYSIS
 ----------------------------------------
-  STR   : avg= 7  max=Affinity: Corruption Mage ( 8)  min=Affinity: Quantum Mage ( 6)
-  DEX   : avg= 8  max=Affinity: Corruption Mage ( 8)  min=Affinity: Corruption Mage ( 8)
-  CON   : avg= 8  max=Affinity: Corruption Mage (12)  min=Affinity: Quantum Mage ( 5)
-  WIS   : avg=15  max=Affinity: Corruption Mage (16)  min=Affinity: Quantum Mage (14)
-  INT   : avg=27  max=Affinity: Quantum Mage (30)  min=Affinity: Corruption Mage (25)
-  CHA   : avg= 9  max=Affinity: Quantum Mage (11)  min=Affinity: Corruption Mage ( 8)
+  STR   : avg= 8  max=Affinity: Water Mage ( 9)  min=Affinity: Storm Mage ( 8)
+  DEX   : avg= 7  max=Affinity: Storm Mage ( 8)  min=Affinity: Water Mage ( 7)
+  CON   : avg=11  max=Affinity: Water Mage (15)  min=Affinity: Storm Mage ( 8)
+  WIS   : avg=15  max=Affinity: Water Mage (16)  min=Affinity: Storm Mage (14)
+  INT   : avg=26  max=Affinity: Storm Mage (28)  min=Affinity: Water Mage (25)
+  CHA   : avg= 8  max=Affinity: Storm Mage ( 8)  min=Affinity: Storm Mage ( 8)
 
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Affinity: Corruption Mage: avg dmg/turn 2347.9
-    Affinity: Quantum Mage: avg dmg/turn 900.4
+    Affinity: Storm Mage: avg dmg/turn 4476.7
+    Affinity: Water Mage: avg dmg/turn 1043.7
   Bad Gear:
-    Affinity: Corruption Mage: avg dmg/turn 2347.9
-    Affinity: Quantum Mage: avg dmg/turn 900.4
+    Affinity: Storm Mage: avg dmg/turn 4476.7
+    Affinity: Water Mage: avg dmg/turn 1043.7
   Good Gear:
-    Affinity: Corruption Mage: avg dmg/turn 2347.9
-    Affinity: Quantum Mage: avg dmg/turn 900.4
+    Affinity: Storm Mage: avg dmg/turn 4476.7
+    Affinity: Water Mage: avg dmg/turn 1043.7
   Amazing Gear:
-    Affinity: Corruption Mage: avg dmg/turn 2347.9
-    Affinity: Quantum Mage: avg dmg/turn 900.4
+    Affinity: Storm Mage: avg dmg/turn 4476.7
+    Affinity: Water Mage: avg dmg/turn 1043.7
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
-    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
 
   Bad Gear:
-    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
 
   Good Gear:
-    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
 
   Amazing Gear:
-    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Corruption Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Corruption Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Corruption Mage (151/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
@@ -109,21 +113,27 @@ DETAILED RECOMMENDATIONS
        - Increase base weapon damage or weapon damage_bonus values.
        - Add more damage-boosting feats for physical builds.
        - Check if extra_damage_die on weapons is being applied correctly.
-  2. Affinity: Corruption Mage wins 61% of all BEST categories, indicating severe over-tuning.
-       - Reduce Affinity: Corruption Mage's stat scaling or damage output.
-       - Verify Affinity: Corruption Mage is not receiving unintended bonuses from paths or gear.
+  2. Affinity: Storm Mage wins 55% of all BEST categories, indicating severe over-tuning.
+       - Reduce Affinity: Storm Mage's stat scaling or damage output.
+       - Verify Affinity: Storm Mage is not receiving unintended bonuses from paths or gear.
        - Consider splitting its advantages across multiple builds.
-  3. Affinity: Corruption Mage has a monopoly on Dmg/Turn (98%).
+  3. Affinity: Storm Mage has a monopoly on Dmg/Turn (88%).
        - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Corruption Mage has unintended damage synergies.
-  4. Jack (hybrid build) wins no BEST categories.
+       - Check if Affinity: Storm Mage has unintended damage synergies.
+  4. Affinity: Storm Mage has a monopoly on Dmg/5R (86%).
+       - Rebalance damage formulas so other builds can compete in this category.
+       - Check if Affinity: Storm Mage has unintended damage synergies.
+  5. Affinity: Storm Mage has a monopoly on Dmg/10R (93%).
+       - Rebalance damage formulas so other builds can compete in this category.
+       - Check if Affinity: Storm Mage has unintended damage synergies.
+  6. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.
 
 RACE POPULARITY ANALYSIS
 ----------------------------------------
   Human Aurian            :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
-  Human Halofade          :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
+  Fishfolk Chelonar       :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
 
   >>> Human Aurian is very popular (>50% pick rate). Review if its power budget is too high.
 
@@ -142,7 +152,7 @@ Top 5 by mana efficiency:
   Void:Void Slash — 4.50 dmg/mana, 36.0 dmg, 8 mana
   Solar:Solar Beam — 4.12 dmg/mana, 33.0 dmg, 8 mana
   Infernal:Infernal Cataclysm — 4.00 dmg/mana, 40.0 dmg, 10 mana
-  Earth:Faultline (Earth) — 3.60 dmg/mana, 36.0 dmg, 10 mana
+  Quake:Faultline (Quake) — 3.60 dmg/mana, 36.0 dmg, 10 mana
 
 Free spells (0 mana):
   Generic:Mana Blast — 2.5 dmg
@@ -168,13 +178,19 @@ Tracks when a build's primary affinity has a castable spell that was
 skipped because a different spell (often from another affinity) deals more
 damage or because the primary spell is non-damaging.
 
-  Affinity: Corruption Mage (chose Black Tentacles [Corruption] for 68.4 dmg):
-    SKIPPED Bestow Curse (15 mana) — NON-DAMAGE
-  Affinity: Quantum Mage (chose Phase Walk [Quantum] for 85.5 dmg):
-    SKIPPED Photon Lance (1 mana) — LOWER (45.6 vs 85.5)
-    SKIPPED Quantum Entanglement (12 mana) — NON-DAMAGE
-    SKIPPED Quantum Tunneling (18 mana) — NON-DAMAGE
-    SKIPPED Superposition (20 mana) — NON-DAMAGE
-    SKIPPED Providence (250 mana) — NON-DAMAGE
-    SKIPPED Bifurcate (75 mana) — NON-DAMAGE
+  Affinity: Storm Mage (chose Maelstrom [Storm] for 206.6 dmg):
+    SKIPPED Tempest Strike (12 mana) — LOWER (89.8 vs 206.6)
+    SKIPPED Storm Call (40 mana) — LOWER (58.4 vs 206.6)
+    SKIPPED Thunderstorm (50 mana) — LOWER (88.3 vs 206.6)
+    SKIPPED Tempest (70 mana) — LOWER (118.3 vs 206.6)
+    SKIPPED Hurricane Aura (120 mana) — LOWER (162.4 vs 206.6)
+  Affinity: Water Mage (chose Maelstrom [Water] for 189.5 dmg):
+    SKIPPED Quench (5 mana) — NON-DAMAGE
+    SKIPPED Cleanse (9 mana) — NON-DAMAGE
+    SKIPPED Waterskin (6 mana) — NON-DAMAGE
+    SKIPPED Cleansing Waters (8 mana) — NON-DAMAGE
+    SKIPPED Jetstream (6 mana) — LOWER (48.0 vs 189.5)
+    SKIPPED Riptide (10 mana) — LOWER (58.5 vs 189.5)
+    SKIPPED Undertow (15 mana) — LOWER (69.0 vs 189.5)
+    SKIPPED Floodwall (20 mana) — LOWER (79.5 vs 189.5)
 

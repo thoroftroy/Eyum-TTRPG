@@ -113,8 +113,8 @@ def calculate_damage(char, settings):
                 bap_actions = char.bap
                 total_actions = ap_actions + bap_actions
                 cond_dmg_val = spell_info.get('cond_dmg', 0)
-                # BAp attacks cost 1/4 of the spell's base mana per bolt per the handbook
-                bolt_mana = max(1, spell_info['spell']['mana'] // 4)
+                # BAp attacks cost 1/3 of the spell's base mana per bolt per the handbook
+                bolt_mana = max(1, spell_info['spell']['mana'] // 3)
                 total_mana = cost + total_actions * bolt_mana
                 mana_pool = char.mana_max(settings['rules'])
                 max_by_mana = max(0, (mana_pool - cost) // max(1, bolt_mana))

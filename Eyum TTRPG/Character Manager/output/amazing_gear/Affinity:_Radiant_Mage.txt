@@ -225,17 +225,17 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 24 (x23 mana)
-    Spell: Solar Lance (Radiant) (Radiant)
+    Magic Dmg/Cast: 19 (x33 mana)
+    Spell: Divine Eruption (Radiant)
     Skipped spells:
       Moonbeam: dmg=14 mana=20 (lower_damage)
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=8 mana=8 (lower_damage)
       Radiant Wave: dmg=12 mana=12 (lower_damage)
-    Total Dmg/5R:  43
-    Total Dmg/10R: 57
-    Mana: 37 start, 2 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  30
+    Total Dmg/10R: 44
+    Mana: 37 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  15
@@ -293,17 +293,17 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 24 (x23 mana)
-    Spell: Solar Lance (Radiant) (Radiant)
+    Magic Dmg/Cast: 19 (x33 mana)
+    Spell: Divine Eruption (Radiant)
     Skipped spells:
       Moonbeam: dmg=14 mana=20 (lower_damage)
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=8 mana=8 (lower_damage)
       Radiant Wave: dmg=12 mana=12 (lower_damage)
-    Total Dmg/5R:  47
-    Total Dmg/10R: 61
-    Mana: 45 start, 1 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  37
+    Total Dmg/10R: 51
+    Mana: 45 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  17
@@ -636,18 +636,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 44 | Dmg/Turn: 72 (x18 mana)
+    Magic Dmg/Cast: 39 | Dmg/Turn: 61 (x18 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x2 casts (+28/cast)
+    Secondary: Divine Eruption x2 casts (+22/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=10 mana=8 (lower_damage)
       Radiant Wave: dmg=14 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  332
-    Total Dmg/10R: 332
-    Mana: 124 start, 2 after 10R (cast magic 5/10 rounds)
+    Total Dmg/5R:  239
+    Total Dmg/10R: 434
+    Mana: 124 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  36
@@ -961,7 +961,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 15 (Amazing Gear)
 ============================================================
 
-  Changes: Level 14→15 | Stats: CON 20→21, INT 30→31 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Save or Don't Suck | Affinities: Hallowed 0→2, Solar 0→2, Starlight 0→2, Mirage 0→2, Radiant 50→52 | Skill Tree: +1 STP in Magical→Priest (now Lvl 5)
+  Changes: Level 14→15 | Stats: CON 20→21, INT 30→31 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Save or Don't Suck | Affinities: Radiant 50→52, Hallowed 0→2, Mirage 0→2, Solar 0→2, Starlight 0→2 | Skill Tree: +1 STP in Magical→Priest (now Lvl 5)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1183,7 +1183,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 18 (Amazing Gear)
 ============================================================
 
-  Changes: Level 17→18 | Stats: CON 21→22, WIS 21→22 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Overdrive | Affinities: Radiant 53→56, Atomic 0→2 | Skill Tree: +1 STP in Magical→Priest (now Lvl 6)
+  Changes: Level 17→18 | Stats: CON 21→22, WIS 21→22 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Overdrive | Affinities: Atomic 0→2, Radiant 53→56 | Skill Tree: +1 STP in Magical→Priest (now Lvl 6)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1333,7 +1333,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 20 (Amazing Gear)
 ============================================================
 
-  Changes: Level 19→20 | Stats: WIS 22→23, INT 31→32 | Combat: AP 2→3 | Pools: +1 Vit die (now 21d4); +1 HP die (now 21d6); +1 Mana die (now 21d2) | Affinities: Generic 3→4, Radiant 56→57 | Skill Tree: +1 STP in Magical→Magician (now Lvl 8)
+  Changes: Level 19→20 | Stats: WIS 22→23, INT 31→32 | Combat: AP 2→3 | Pools: +1 Vit die (now 21d4); +1 HP die (now 21d6); +1 Mana die (now 21d2) | Affinities: Radiant 56→57, Generic 3→4 | Skill Tree: +1 STP in Magical→Magician (now Lvl 8)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1408,7 +1408,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 21 (Amazing Gear)
 ============================================================
 
-  Changes: Level 20→21 | Stats: CON 22→23, WIS 23→24 | Combat: Prof +7→+8 | Pools: +1 Vit die (now 22d4); +1 HP die (now 22d6); +1 Mana die (now 22d2) | Feats: gained Affinity Master | Affinities: Fire 0→2, Earth 3→5, Water 0→2, Air -3→-1, Radiant 57→62 | Skill Tree: +1 STP in Magical→Priest (now Lvl 7)
+  Changes: Level 20→21 | Stats: CON 22→23, WIS 23→24 | Combat: Prof +7→+8 | Pools: +1 Vit die (now 22d4); +1 HP die (now 22d6); +1 Mana die (now 22d2) | Feats: gained Affinity Master | Affinities: Water 0→2, Radiant 57→62, Earth 3→5, Fire 0→2, Air -3→-1 | Skill Tree: +1 STP in Magical→Priest (now Lvl 7)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1793,7 +1793,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 26 (Amazing Gear)
 ============================================================
 
-  Changes: Level 25→26 | Pools: +1 Vit die (now 27d4); +1 HP die (now 27d6); +1 Mana die (now 27d0) | Affinities: Generic 5→6, Radiant 66→67 | Skill Tree: +1 STP in Magical→Magician (now Lvl 12)
+  Changes: Level 25→26 | Pools: +1 Vit die (now 27d4); +1 HP die (now 27d6); +1 Mana die (now 27d0) | Affinities: Radiant 66→67, Generic 5→6 | Skill Tree: +1 STP in Magical→Magician (now Lvl 12)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2255,7 +2255,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 32 (Amazing Gear)
 ============================================================
 
-  Changes: Level 31→32 | Combat: BAp 4→5 | Pools: +1 Vit die (now 33d4); +1 HP die (now 33d6); +1 Mana die (now 35d0) | Affinities: Generic 8→9, Radiant 73→74 | Skill Tree: +1 STP in Magical→Magician (now Lvl 16)
+  Changes: Level 31→32 | Combat: BAp 4→5 | Pools: +1 Vit die (now 33d4); +1 HP die (now 33d6); +1 Mana die (now 35d0) | Affinities: Radiant 73→74, Generic 8→9 | Skill Tree: +1 STP in Magical→Magician (now Lvl 16)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2434,18 +2434,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 110 | Dmg/Turn: 383 (x72 mana)
+    Magic Dmg/Cast: 91 | Dmg/Turn: 290 (x72 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+68/cast)
+    Secondary: Solar Lance (Radiant) x5 casts (+50/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=29 mana=8 (lower_damage)
       Radiant Wave: dmg=36 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  2255
-    Total Dmg/10R: 2255
-    Mana: 715 start, 12 after 10R (cast magic 5/10 rounds)
+    Total Dmg/5R:  1700
+    Total Dmg/10R: 2155
+    Mana: 715 start, 17 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  115
@@ -2511,18 +2511,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 110 | Dmg/Turn: 383 (x72 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 319 (x72 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+68/cast)
+    Secondary: Divine Eruption x5 casts (+56/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=29 mana=8 (lower_damage)
       Radiant Wave: dmg=36 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  2255
-    Total Dmg/10R: 2475
-    Mana: 735 start, 4 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  1319
+    Total Dmg/10R: 1804
+    Mana: 735 start, 42 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  117
@@ -2588,18 +2588,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 110 | Dmg/Turn: 383 (x72 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 319 (x72 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+68/cast)
+    Secondary: Divine Eruption x5 casts (+56/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=29 mana=8 (lower_damage)
       Radiant Wave: dmg=36 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  2255
-    Total Dmg/10R: 2585
-    Mana: 754 start, 9 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  1319
+    Total Dmg/10R: 1804
+    Mana: 754 start, 61 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  121
@@ -2665,18 +2665,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 110 | Dmg/Turn: 383 (x72 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 319 (x72 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+68/cast)
+    Secondary: Divine Eruption x5 casts (+56/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=29 mana=8 (lower_damage)
       Radiant Wave: dmg=36 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  2255
-    Total Dmg/10R: 2805
-    Mana: 774 start, 1 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  1500
+    Total Dmg/10R: 1500
+    Mana: 774 start, 0 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2717,7 +2717,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 38 (Amazing Gear)
 ============================================================
 
-  Changes: Level 37→38 | Pools: +1 Vit die (now 39d4); +1 HP die (now 39d6); +1 Mana die (now 41d0) | Affinities: Generic 10→11, Radiant 90→91 | Skill Tree: +1 STP in Magical→Magician (now Lvl 20)
+  Changes: Level 37→38 | Pools: +1 Vit die (now 39d4); +1 HP die (now 39d6); +1 Mana die (now 41d0) | Affinities: Radiant 90→91, Generic 10→11 | Skill Tree: +1 STP in Magical→Magician (now Lvl 20)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2742,18 +2742,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 110 | Dmg/Turn: 383 (x72 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 319 (x72 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+68/cast)
+    Secondary: Divine Eruption x5 casts (+56/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=29 mana=8 (lower_damage)
       Radiant Wave: dmg=36 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  2255
-    Total Dmg/10R: 2805
-    Mana: 793 start, 20 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  1597
+    Total Dmg/10R: 1597
+    Mana: 793 start, 5 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2819,18 +2819,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 110 | Dmg/Turn: 383 (x72 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 319 (x72 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+68/cast)
+    Secondary: Divine Eruption x5 casts (+56/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=29 mana=8 (lower_damage)
       Radiant Wave: dmg=36 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  2255
-    Total Dmg/10R: 2805
-    Mana: 813 start, 40 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  1597
+    Total Dmg/10R: 1694
+    Mana: 813 start, 11 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  129
@@ -2896,18 +2896,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 165 | Dmg/Turn: 574 (x108 mana)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 510 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+102/cast)
+    Secondary: Solar Lance (Radiant) x6 casts (+75/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=44 mana=8 (lower_damage)
       Radiant Wave: dmg=54 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  3385
-    Total Dmg/10R: 3880
-    Mana: 832 start, 2 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  2925
+    Total Dmg/10R: 3062
+    Mana: 832 start, 19 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -2973,18 +2973,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 165 | Dmg/Turn: 574 (x108 mana)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 510 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+102/cast)
+    Secondary: Solar Lance (Radiant) x6 casts (+75/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=44 mana=8 (lower_damage)
       Radiant Wave: dmg=54 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  3385
-    Total Dmg/10R: 4045
-    Mana: 852 start, 1 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  2925
+    Total Dmg/10R: 3199
+    Mana: 852 start, 18 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -3050,18 +3050,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 165 | Dmg/Turn: 574 (x108 mana)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 510 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+102/cast)
+    Secondary: Solar Lance (Radiant) x6 casts (+75/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=44 mana=8 (lower_damage)
       Radiant Wave: dmg=54 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  3385
-    Total Dmg/10R: 4045
-    Mana: 871 start, 20 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  2925
+    Total Dmg/10R: 3336
+    Mana: 871 start, 16 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  142
@@ -3127,18 +3127,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 165 | Dmg/Turn: 574 (x108 mana)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 510 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+102/cast)
+    Secondary: Solar Lance (Radiant) x6 casts (+75/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=44 mana=8 (lower_damage)
       Radiant Wave: dmg=54 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  3385
-    Total Dmg/10R: 4210
-    Mana: 891 start, 19 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  2925
+    Total Dmg/10R: 3473
+    Mana: 891 start, 15 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -3179,7 +3179,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 44 (Amazing Gear)
 ============================================================
 
-  Changes: Level 43→44 | Pools: +1 Vit die (now 45d4); +1 HP die (now 45d6); +1 Mana die (now 47d0) | Affinities: Generic 12→13, Radiant 97→98 | Skill Tree: +1 STP in Magical→Magician (now Lvl 24)
+  Changes: Level 43→44 | Pools: +1 Vit die (now 45d4); +1 HP die (now 45d6); +1 Mana die (now 47d0) | Affinities: Radiant 97→98, Generic 12→13 | Skill Tree: +1 STP in Magical→Magician (now Lvl 24)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3204,18 +3204,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 165 | Dmg/Turn: 574 (x108 mana)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 510 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x5 casts (+102/cast)
+    Secondary: Solar Lance (Radiant) x6 casts (+75/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=44 mana=8 (lower_damage)
       Radiant Wave: dmg=54 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  4062
-    Total Dmg/10R: 4062
-    Mana: 910 start, 7 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  2925
+    Total Dmg/10R: 3610
+    Mana: 910 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -3281,18 +3281,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 165 | Dmg/Turn: 677 (x108 mana)
+    Magic Dmg/Cast: 137 | Dmg/Turn: 585 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x6 casts (+102/cast)
+    Secondary: Solar Lance (Radiant) x7 casts (+75/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=44 mana=8 (lower_damage)
       Radiant Wave: dmg=54 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  3895
-    Total Dmg/10R: 4555
-    Mana: 978 start, 12 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  3295
+    Total Dmg/10R: 3843
+    Mana: 978 start, 2 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  150
@@ -3358,18 +3358,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 183 | Dmg/Turn: 738 (x108 mana)
+    Magic Dmg/Cast: 155 | Dmg/Turn: 655 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x6 casts (+111/cast)
+    Secondary: Solar Lance (Radiant) x7 casts (+83/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=52 mana=8 (lower_damage)
       Radiant Wave: dmg=63 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  4250
-    Total Dmg/10R: 5165
-    Mana: 998 start, 11 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  3690
+    Total Dmg/10R: 4465
+    Mana: 998 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3435,18 +3435,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 183 | Dmg/Turn: 738 (x108 mana)
+    Magic Dmg/Cast: 155 | Dmg/Turn: 655 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x6 casts (+111/cast)
+    Secondary: Solar Lance (Radiant) x7 casts (+83/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=52 mana=8 (lower_damage)
       Radiant Wave: dmg=63 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  4250
-    Total Dmg/10R: 5165
-    Mana: 1019 start, 32 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  3690
+    Total Dmg/10R: 4465
+    Mana: 1019 start, 22 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3512,18 +3512,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 183 | Dmg/Turn: 738 (x108 mana)
+    Magic Dmg/Cast: 155 | Dmg/Turn: 655 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x6 casts (+111/cast)
+    Secondary: Solar Lance (Radiant) x7 casts (+83/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=52 mana=8 (lower_damage)
       Radiant Wave: dmg=63 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  4250
-    Total Dmg/10R: 5165
-    Mana: 1039 start, 52 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  3690
+    Total Dmg/10R: 4465
+    Mana: 1039 start, 42 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  163
@@ -3589,18 +3589,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 780 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 702 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x6 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x7 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5382
-    Total Dmg/10R: 5382
-    Mana: 1060 start, 19 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  4746
+    Total Dmg/10R: 4746
+    Mana: 1060 start, 7 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  165
@@ -3641,7 +3641,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 50 (Amazing Gear)
 ============================================================
 
-  Changes: Level 49→50 | Stats: CON 25→26, INT 43→44 | Combat: AP 5→6 | Pools: +1 Vit die (now 51d4); +1 HP die (now 51d6); +1 Mana die (now 53d0) | Affinities: Generic 14→15, Radiant 104→105 | Skill Tree: +1 STP in Magical→Magician (now Lvl 28)
+  Changes: Level 49→50 | Stats: CON 25→26, INT 43→44 | Combat: AP 5→6 | Pools: +1 Vit die (now 51d4); +1 HP die (now 51d6); +1 Mana die (now 53d0) | Affinities: Radiant 104→105, Generic 14→15 | Skill Tree: +1 STP in Magical→Magician (now Lvl 28)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3666,18 +3666,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 791 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x8 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5070
-    Total Dmg/10R: 5655
-    Mana: 1080 start, 20 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  4400
+    Total Dmg/10R: 5068
+    Mana: 1080 start, 4 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3743,18 +3743,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 791 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x8 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5070
-    Total Dmg/10R: 5850
-    Mana: 1101 start, 20 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  4400
+    Total Dmg/10R: 5235
+    Mana: 1101 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -3795,7 +3795,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 52 (Amazing Gear)
 ============================================================
 
-  Changes: Level 51→52 | Pools: +1 Vit die (now 53d4); +1 HP die (now 53d6); +1 Mana die (now 55d0) | Affinities: Generic 15→16, Radiant 108→109 | Skill Tree: +1 STP in Magical→Magician (now Lvl 29)
+  Changes: Level 51→52 | Pools: +1 Vit die (now 53d4); +1 HP die (now 53d6); +1 Mana die (now 55d0) | Affinities: Radiant 108→109, Generic 15→16 | Skill Tree: +1 STP in Magical→Magician (now Lvl 29)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3820,18 +3820,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 791 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x8 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5070
-    Total Dmg/10R: 6045
-    Mana: 1121 start, 19 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  4400
+    Total Dmg/10R: 5235
+    Mana: 1121 start, 24 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  173
@@ -3897,18 +3897,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 791 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x8 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5070
-    Total Dmg/10R: 6045
-    Mana: 1142 start, 40 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  4400
+    Total Dmg/10R: 5235
+    Mana: 1142 start, 45 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3974,18 +3974,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 791 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x8 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5070
-    Total Dmg/10R: 6045
-    Mana: 1162 start, 60 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  4400
+    Total Dmg/10R: 5235
+    Mana: 1162 start, 65 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -4051,18 +4051,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 791 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x8 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6084
-    Total Dmg/10R: 6084
-    Mana: 1183 start, 4 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  5280
+    Total Dmg/10R: 5280
+    Mana: 1183 start, 10 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -4103,7 +4103,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 56 (Amazing Gear)
 ============================================================
 
-  Changes: Level 55→56 | Combat: BAp 7→8 | Pools: +1 Vit die (now 57d4); +1 HP die (now 57d6); +1 Mana die (now 59d0) | Affinities: Generic 18→19, Radiant 113→114 | Skill Tree: +1 STP in Magical→Magician (now Lvl 32)
+  Changes: Level 55→56 | Combat: BAp 7→8 | Pools: +1 Vit die (now 57d4); +1 HP die (now 57d6); +1 Mana die (now 59d0) | Affinities: Radiant 113→114, Generic 18→19 | Skill Tree: +1 STP in Magical→Magician (now Lvl 32)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4128,18 +4128,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 897 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 880 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x7 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x9 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6084
-    Total Dmg/10R: 6279
-    Mana: 1203 start, 3 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  4850
+    Total Dmg/10R: 5685
+    Mana: 1203 start, 6 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  188
@@ -4205,18 +4205,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1014 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 880 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x8 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x9 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5655
-    Total Dmg/10R: 6630
-    Mana: 1224 start, 7 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  4850
+    Total Dmg/10R: 5685
+    Mana: 1224 start, 27 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -4257,7 +4257,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 58 (Amazing Gear)
 ============================================================
 
-  Changes: Level 57→58 | Pools: +1 Vit die (now 59d4); +1 HP die (now 59d6); +1 Mana die (now 61d0) | Affinities: Generic 19→20, Radiant 117→118 | Skill Tree: +1 STP in Magical→Magician (now Lvl 33)
+  Changes: Level 57→58 | Pools: +1 Vit die (now 59d4); +1 HP die (now 59d6); +1 Mana die (now 61d0) | Affinities: Radiant 117→118, Generic 19→20 | Skill Tree: +1 STP in Magical→Magician (now Lvl 33)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4282,18 +4282,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1014 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 880 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x8 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x9 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5655
-    Total Dmg/10R: 6630
-    Mana: 1244 start, 27 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  4850
+    Total Dmg/10R: 5685
+    Mana: 1244 start, 47 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  194
@@ -4359,18 +4359,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1014 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 880 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x8 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x9 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  5655
-    Total Dmg/10R: 6630
-    Mana: 1265 start, 48 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  4850
+    Total Dmg/10R: 5685
+    Mana: 1265 start, 68 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -4436,18 +4436,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1014 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x8 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6786
-    Total Dmg/10R: 6981
-    Mana: 1348 start, 10 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  5295
+    Total Dmg/10R: 6130
+    Mana: 1348 start, 51 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -4513,18 +4513,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1131 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x9 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6240
-    Total Dmg/10R: 7215
-    Mana: 1370 start, 38 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  5295
+    Total Dmg/10R: 6130
+    Mana: 1370 start, 73 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  202
@@ -4565,7 +4565,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 62 (Amazing Gear)
 ============================================================
 
-  Changes: Level 61→62 | Pools: +1 Vit die (now 63d4); +1 HP die (now 63d6); +1 Mana die (now 65d0) | Affinities: Generic 22→23, Radiant 122→123 | Skill Tree: +1 STP in Magical→Magician (now Lvl 36)
+  Changes: Level 61→62 | Pools: +1 Vit die (now 63d4); +1 HP die (now 63d6); +1 Mana die (now 65d0) | Affinities: Radiant 122→123, Generic 22→23 | Skill Tree: +1 STP in Magical→Magician (now Lvl 36)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4590,18 +4590,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1131 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x9 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6240
-    Total Dmg/10R: 7215
-    Mana: 1391 start, 59 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  5295
+    Total Dmg/10R: 6130
+    Mana: 1391 start, 94 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4667,18 +4667,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1131 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x9 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6240
-    Total Dmg/10R: 7215
-    Mana: 1413 start, 81 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 6354
+    Mana: 1413 start, 0 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  208
@@ -4719,7 +4719,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 64 (Amazing Gear)
 ============================================================
 
-  Changes: Level 63→64 | Combat: BAp 8→9 | Pools: +1 Vit die (now 65d4); +1 HP die (now 65d6); +1 Mana die (now 67d0) | Affinities: Generic 23→24, Radiant 126→127 | Skill Tree: +1 STP in Magical→Magician (now Lvl 37)
+  Changes: Level 63→64 | Combat: BAp 8→9 | Pools: +1 Vit die (now 65d4); +1 HP die (now 65d6); +1 Mana die (now 67d0) | Affinities: Radiant 126→127, Generic 23→24 | Skill Tree: +1 STP in Magical→Magician (now Lvl 37)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4744,18 +4744,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1131 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x9 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6240
-    Total Dmg/10R: 7215
-    Mana: 1434 start, 102 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 6521
+    Mana: 1434 start, 0 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  215
@@ -4821,18 +4821,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1131 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x9 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7488
-    Total Dmg/10R: 7488
-    Mana: 1456 start, 1 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 6688
+    Mana: 1456 start, 1 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  217
@@ -4898,18 +4898,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1131 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x9 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7488
-    Total Dmg/10R: 7683
-    Mana: 1477 start, 1 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 6855
+    Mana: 1477 start, 1 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4975,18 +4975,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1248 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x10 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6825
-    Total Dmg/10R: 7800
-    Mana: 1499 start, 52 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 7022
+    Mana: 1499 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  223
@@ -5027,7 +5027,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 68 (Amazing Gear)
 ============================================================
 
-  Changes: Level 67→68 | Pools: +1 Vit die (now 69d4); +1 HP die (now 69d6); +1 Mana die (now 71d0) | Affinities: Generic 26→27, Radiant 131→132 | Skill Tree: +1 STP in Magical→Magician (now Lvl 40)
+  Changes: Level 67→68 | Pools: +1 Vit die (now 69d4); +1 HP die (now 69d6); +1 Mana die (now 71d0) | Affinities: Radiant 131→132, Generic 26→27 | Skill Tree: +1 STP in Magical→Magician (now Lvl 40)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5052,18 +5052,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1248 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x10 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6825
-    Total Dmg/10R: 7800
-    Mana: 1520 start, 73 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 7022
+    Mana: 1520 start, 23 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  225
@@ -5129,18 +5129,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1248 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 970 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x10 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x10 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6825
-    Total Dmg/10R: 7800
-    Mana: 1542 start, 95 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6354
+    Total Dmg/10R: 7022
+    Mana: 1542 start, 45 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  229
@@ -5181,7 +5181,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 70 (Amazing Gear)
 ============================================================
 
-  Changes: Level 69→70 | Stats: CON 28→29, INT 49→50 | Combat: AP 7→8 | Pools: +1 Vit die (now 71d4); +1 HP die (now 71d6); +1 Mana die (now 73d0) | Affinities: Generic 27→28, Radiant 135→136 | Skill Tree: +1 STP in Magical→Magician (now Lvl 41)
+  Changes: Level 69→70 | Stats: CON 28→29, INT 49→50 | Combat: AP 7→8 | Pools: +1 Vit die (now 71d4); +1 HP die (now 71d6); +1 Mana die (now 73d0) | Affinities: Radiant 135→136, Generic 27→28 | Skill Tree: +1 STP in Magical→Magician (now Lvl 41)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5206,18 +5206,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1248 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1059 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x10 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x11 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6825
-    Total Dmg/10R: 7800
-    Mana: 1563 start, 116 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6888
+    Total Dmg/10R: 7055
+    Mana: 1563 start, 9 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  231
@@ -5283,18 +5283,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1248 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1059 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x10 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x11 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  6825
-    Total Dmg/10R: 7800
-    Mana: 1585 start, 138 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6888
+    Total Dmg/10R: 7222
+    Mana: 1585 start, 10 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  233
@@ -5360,18 +5360,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1248 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x10 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  8190
-    Total Dmg/10R: 8190
-    Mana: 1606 start, 13 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  6185
+    Total Dmg/10R: 7020
+    Mana: 1606 start, 109 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  242
@@ -5437,18 +5437,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1365 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x11 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7410
-    Total Dmg/10R: 8385
-    Mana: 1628 start, 66 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6185
+    Total Dmg/10R: 7020
+    Mana: 1628 start, 131 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  244
@@ -5489,7 +5489,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 74 (Amazing Gear)
 ============================================================
 
-  Changes: Level 73→74 | Pools: +1 Vit die (now 75d4); +1 HP die (now 75d6); +1 Mana die (now 77d0) | Affinities: Generic 30→31, Radiant 140→141 | Skill Tree: +1 STP in Magical→Magician (now Lvl 44)
+  Changes: Level 73→74 | Pools: +1 Vit die (now 75d4); +1 HP die (now 75d6); +1 Mana die (now 77d0) | Affinities: Radiant 140→141, Generic 30→31 | Skill Tree: +1 STP in Magical→Magician (now Lvl 44)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5514,18 +5514,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1365 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x11 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7410
-    Total Dmg/10R: 8385
-    Mana: 1649 start, 87 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  6185
+    Total Dmg/10R: 7020
+    Mana: 1649 start, 152 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  246
@@ -5591,18 +5591,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1365 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x11 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7410
-    Total Dmg/10R: 8385
-    Mana: 1671 start, 109 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7422
+    Total Dmg/10R: 7422
+    Mana: 1671 start, 18 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  250
@@ -5643,7 +5643,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 76 (Amazing Gear)
 ============================================================
 
-  Changes: Level 75→76 | Pools: +1 Vit die (now 77d4); +1 HP die (now 77d6); +1 Mana die (now 79d0) | Affinities: Generic 31→32, Radiant 144→145 | Skill Tree: +1 STP in Magical→Magician (now Lvl 45)
+  Changes: Level 75→76 | Pools: +1 Vit die (now 77d4); +1 HP die (now 77d6); +1 Mana die (now 79d0) | Affinities: Radiant 144→145, Generic 31→32 | Skill Tree: +1 STP in Magical→Magician (now Lvl 45)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5668,18 +5668,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1365 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x11 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7410
-    Total Dmg/10R: 8385
-    Mana: 1692 start, 130 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7422
+    Total Dmg/10R: 7589
+    Mana: 1692 start, 18 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  252
@@ -5745,18 +5745,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1365 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x11 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7410
-    Total Dmg/10R: 8385
-    Mana: 1714 start, 152 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7422
+    Total Dmg/10R: 7756
+    Mana: 1714 start, 19 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  254
@@ -5822,18 +5822,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1482 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x12 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7995
-    Total Dmg/10R: 8970
-    Mana: 1816 start, 139 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7422
+    Total Dmg/10R: 8090
+    Mana: 1816 start, 79 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  258
@@ -5899,18 +5899,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1482 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1148 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x12 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x12 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7995
-    Total Dmg/10R: 8970
-    Mana: 1839 start, 162 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7422
+    Total Dmg/10R: 8090
+    Mana: 1839 start, 102 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  260
@@ -5951,7 +5951,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 80 (Amazing Gear)
 ============================================================
 
-  Changes: Level 79→80 | Stats: INT 52→53 | Combat: AP 8→9, BAp 10→11 | Pools: +1 Vit die (now 81d4); +1 HP die (now 81d6); +1 Mana die (now 83d0) | Affinities: Generic 34→35, Radiant 149→150 | Skill Tree: +1 STP in Magical→Magician (now Lvl 48)
+  Changes: Level 79→80 | Stats: INT 52→53 | Combat: AP 8→9, BAp 10→11 | Pools: +1 Vit die (now 81d4); +1 HP die (now 81d6); +1 Mana die (now 83d0) | Affinities: Radiant 149→150, Generic 34→35 | Skill Tree: +1 STP in Magical→Magician (now Lvl 48)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5976,18 +5976,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1482 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x12 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  7995
-    Total Dmg/10R: 8970
-    Mana: 1861 start, 184 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1861 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  267
@@ -6053,18 +6053,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1482 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x12 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9594
-    Total Dmg/10R: 9594
-    Mana: 1884 start, 15 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1884 start, 27 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  271
@@ -6105,7 +6105,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 82 (Amazing Gear)
 ============================================================
 
-  Changes: Level 81→82 | Pools: +1 Vit die (now 83d4); +1 HP die (now 83d6); +1 Mana die (now 85d0) | Affinities: Generic 35→36, Radiant 153→154 | Skill Tree: +1 STP in Magical→Magician (now Lvl 49)
+  Changes: Level 81→82 | Pools: +1 Vit die (now 83d4); +1 HP die (now 83d6); +1 Mana die (now 85d0) | Affinities: Radiant 153→154, Generic 35→36 | Skill Tree: +1 STP in Magical→Magician (now Lvl 49)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6130,18 +6130,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1599 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x13 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  8580
-    Total Dmg/10R: 9555
-    Mana: 1906 start, 114 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1906 start, 49 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  273
@@ -6207,18 +6207,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1599 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x13 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  8580
-    Total Dmg/10R: 9555
-    Mana: 1929 start, 137 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1929 start, 72 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  275
@@ -6284,18 +6284,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1599 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x13 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  8580
-    Total Dmg/10R: 9555
-    Mana: 1951 start, 159 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1951 start, 94 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  279
@@ -6361,18 +6361,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1599 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x13 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  8580
-    Total Dmg/10R: 9555
-    Mana: 1974 start, 182 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1974 start, 117 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  281
@@ -6413,7 +6413,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 86 (Amazing Gear)
 ============================================================
 
-  Changes: Level 85→86 | Pools: +1 Vit die (now 87d4); +1 HP die (now 87d6); +1 Mana die (now 89d0) | Affinities: Generic 38→39, Radiant 158→159 | Skill Tree: +1 STP in Magical→Magician (now Lvl 52)
+  Changes: Level 85→86 | Pools: +1 Vit die (now 87d4); +1 HP die (now 87d6); +1 Mana die (now 89d0) | Affinities: Radiant 158→159, Generic 38→39 | Skill Tree: +1 STP in Magical→Magician (now Lvl 52)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6438,18 +6438,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1599 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x13 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  8580
-    Total Dmg/10R: 9555
-    Mana: 1996 start, 204 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 1996 start, 139 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  283
@@ -6515,18 +6515,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1599 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1237 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x13 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x13 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10296
-    Total Dmg/10R: 10296
-    Mana: 2019 start, 12 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  7956
+    Total Dmg/10R: 8624
+    Mana: 2019 start, 162 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  287
@@ -6567,7 +6567,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 88 (Amazing Gear)
 ============================================================
 
-  Changes: Level 87→88 | Combat: BAp 11→12 | Pools: +1 Vit die (now 89d4); +1 HP die (now 89d6); +1 Mana die (now 91d0) | Affinities: Generic 39→40, Radiant 162→163 | Skill Tree: +1 STP in Magical→Magician (now Lvl 53)
+  Changes: Level 87→88 | Combat: BAp 11→12 | Pools: +1 Vit die (now 89d4); +1 HP die (now 89d6); +1 Mana die (now 91d0) | Affinities: Radiant 162→163, Generic 39→40 | Skill Tree: +1 STP in Magical→Magician (now Lvl 53)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6592,18 +6592,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1326 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x14 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9165
-    Total Dmg/10R: 10140
-    Mana: 2041 start, 134 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  8496
+    Total Dmg/10R: 9164
+    Mana: 2041 start, 64 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  294
@@ -6669,18 +6669,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1326 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x14 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9165
-    Total Dmg/10R: 10140
-    Mana: 2064 start, 157 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  8496
+    Total Dmg/10R: 9164
+    Mana: 2064 start, 87 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  296
@@ -6746,18 +6746,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9165
-    Total Dmg/10R: 10140
-    Mana: 2086 start, 179 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9531
+    Mana: 2086 start, 10 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  300
@@ -6823,18 +6823,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9165
-    Total Dmg/10R: 10140
-    Mana: 2109 start, 202 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2109 start, 12 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  302
@@ -6875,7 +6875,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 92 (Amazing Gear)
 ============================================================
 
-  Changes: Level 91→92 | Pools: +1 Vit die (now 93d4); +1 HP die (now 93d6); +1 Mana die (now 95d0) | Affinities: Generic 42→43, Radiant 167→168 | Skill Tree: +1 STP in Magical→Magician (now Lvl 56)
+  Changes: Level 91→92 | Pools: +1 Vit die (now 93d4); +1 HP die (now 93d6); +1 Mana die (now 95d0) | Affinities: Radiant 167→168, Generic 42→43 | Skill Tree: +1 STP in Magical→Magician (now Lvl 56)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6900,18 +6900,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9165
-    Total Dmg/10R: 10140
-    Mana: 2131 start, 224 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2131 start, 34 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  304
@@ -6977,18 +6977,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10998
-    Total Dmg/10R: 10998
-    Mana: 2154 start, 9 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2154 start, 57 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  308
@@ -7029,7 +7029,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 94 (Amazing Gear)
 ============================================================
 
-  Changes: Level 93→94 | Pools: +1 Vit die (now 95d4); +1 HP die (now 95d6); +1 Mana die (now 97d0) | Affinities: Generic 43→44, Radiant 171→172 | Skill Tree: +1 STP in Magical→Magician (now Lvl 57)
+  Changes: Level 93→94 | Pools: +1 Vit die (now 95d4); +1 HP die (now 95d6); +1 Mana die (now 97d0) | Affinities: Radiant 171→172, Generic 43→44 | Skill Tree: +1 STP in Magical→Magician (now Lvl 57)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7054,18 +7054,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1716 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x14 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10998
-    Total Dmg/10R: 11193
-    Mana: 2176 start, 10 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2176 start, 79 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  310
@@ -7131,18 +7131,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1833 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x15 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9750
-    Total Dmg/10R: 10725
-    Mana: 2199 start, 177 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2199 start, 102 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  312
@@ -7208,18 +7208,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1833 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x15 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9750
-    Total Dmg/10R: 10725
-    Mana: 2221 start, 199 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2221 start, 124 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  321
@@ -7285,18 +7285,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1833 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x15 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9750
-    Total Dmg/10R: 10725
-    Mana: 2244 start, 222 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2244 start, 147 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  323
@@ -7337,7 +7337,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 98 (Amazing Gear)
 ============================================================
 
-  Changes: Level 97→98 | Pools: +1 Vit die (now 99d4); +1 HP die (now 99d6); +1 Mana die (now 101d0) | Affinities: Generic 46→47, Radiant 176→177 | Skill Tree: +1 STP in Magical→Magician (now Lvl 60)
+  Changes: Level 97→98 | Pools: +1 Vit die (now 99d4); +1 HP die (now 99d6); +1 Mana die (now 101d0) | Affinities: Radiant 176→177, Generic 46→47 | Skill Tree: +1 STP in Magical→Magician (now Lvl 60)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7362,18 +7362,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1833 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x15 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  9750
-    Total Dmg/10R: 10725
-    Mana: 2266 start, 244 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2266 start, 169 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  325
@@ -7439,18 +7439,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1833 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1416 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x15 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x15 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  11700
-    Total Dmg/10R: 11700
-    Mana: 2289 start, 6 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  9030
+    Total Dmg/10R: 9698
+    Mana: 2289 start, 192 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  329
@@ -7491,7 +7491,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 100 (Amazing Gear)
 ============================================================
 
-  Changes: Level 99→100 | Stats: CON 30→31, WIS 31→32 | Combat: AP 10→11 | Pools: +1 Vit die (now 101d4); +1 HP die (now 101d6); +1 Mana die (now 103d0) | Affinities: Generic 47→48, Radiant 180→181 | Skill Tree: +1 STP in Magical→Magician (now Lvl 61)
+  Changes: Level 99→100 | Stats: CON 30→31, WIS 31→32 | Combat: AP 10→11 | Pools: +1 Vit die (now 101d4); +1 HP die (now 101d6); +1 Mana die (now 103d0) | Affinities: Radiant 180→181, Generic 47→48 | Skill Tree: +1 STP in Magical→Magician (now Lvl 61)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7516,18 +7516,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1505 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x16 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10335
-    Total Dmg/10R: 11310
-    Mana: 2414 start, 277 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9564
+    Total Dmg/10R: 10232
+    Mana: 2414 start, 197 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  331
@@ -7593,18 +7593,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1505 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x16 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12402
-    Total Dmg/10R: 12402
-    Mana: 2438 start, 17 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  9564
+    Total Dmg/10R: 10232
+    Mana: 2438 start, 221 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  333
@@ -7670,18 +7670,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1505 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x16 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10335
-    Total Dmg/10R: 11310
-    Mana: 2356 start, 219 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9564
+    Total Dmg/10R: 10232
+    Mana: 2356 start, 139 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  337
@@ -7747,18 +7747,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1505 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x16 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10335
-    Total Dmg/10R: 11310
-    Mana: 2379 start, 242 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  9564
+    Total Dmg/10R: 10232
+    Mana: 2379 start, 162 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  339
@@ -7799,7 +7799,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 104 (Amazing Gear)
 ============================================================
 
-  Changes: Level 103→104 | Combat: BAp 13→14 | Pools: +1 Vit die (now 105d4); +1 HP die (now 105d6); +1 Mana die (now 107d0) | Affinities: Generic 50→51, Radiant 185→186 | Skill Tree: +1 STP in Magical→Magician (now Lvl 64)
+  Changes: Level 103→104 | Combat: BAp 13→14 | Pools: +1 Vit die (now 105d4); +1 HP die (now 105d6); +1 Mana die (now 107d0) | Affinities: Radiant 185→186, Generic 50→51 | Skill Tree: +1 STP in Magical→Magician (now Lvl 64)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7824,18 +7824,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1594 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x17 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10335
-    Total Dmg/10R: 11310
-    Mana: 2401 start, 264 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10098
+    Total Dmg/10R: 10766
+    Mana: 2401 start, 64 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  346
@@ -7901,18 +7901,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1594 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x17 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12402
-    Total Dmg/10R: 12402
-    Mana: 2424 start, 3 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  10098
+    Total Dmg/10R: 10766
+    Mana: 2424 start, 87 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  350
@@ -7953,7 +7953,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 106 (Amazing Gear)
 ============================================================
 
-  Changes: Level 105→106 | Pools: +1 Vit die (now 107d4); +1 HP die (now 107d6); +1 Mana die (now 109d0) | Affinities: Generic 51→52, Radiant 189→190 | Skill Tree: +1 STP in Magical→Magician (now Lvl 65)
+  Changes: Level 105→106 | Pools: +1 Vit die (now 107d4); +1 HP die (now 107d6); +1 Mana die (now 109d0) | Affinities: Radiant 189→190, Generic 51→52 | Skill Tree: +1 STP in Magical→Magician (now Lvl 65)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7978,18 +7978,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 1950 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1594 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x16 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x17 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12402
-    Total Dmg/10R: 12597
-    Mana: 2446 start, 4 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  10098
+    Total Dmg/10R: 10766
+    Mana: 2446 start, 109 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  352
@@ -8055,18 +8055,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2067 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1594 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x17 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x17 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10920
-    Total Dmg/10R: 11895
-    Mana: 2469 start, 217 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10098
+    Total Dmg/10R: 10766
+    Mana: 2469 start, 132 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  354
@@ -8132,18 +8132,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2067 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1594 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x17 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x17 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10920
-    Total Dmg/10R: 11895
-    Mana: 2491 start, 239 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10098
+    Total Dmg/10R: 10766
+    Mana: 2491 start, 154 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  358
@@ -8209,18 +8209,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2067 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1594 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x17 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x17 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  10920
-    Total Dmg/10R: 11895
-    Mana: 2514 start, 262 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10098
+    Total Dmg/10R: 10766
+    Mana: 2514 start, 177 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  360
@@ -8261,7 +8261,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 110 (Amazing Gear)
 ============================================================
 
-  Changes: Level 109→110 | Stats: CON 31→32, WIS 31→32 | Combat: AP 11→12 | Pools: +1 Vit die (now 111d4); +1 HP die (now 111d6); +1 Mana die (now 113d0) | Affinities: Generic 54→55, Radiant 194→195 | Skill Tree: +1 STP in Magical→Magician (now Lvl 68)
+  Changes: Level 109→110 | Stats: CON 31→32, WIS 31→32 | Combat: AP 11→12 | Pools: +1 Vit die (now 111d4); +1 HP die (now 111d6); +1 Mana die (now 113d0) | Affinities: Radiant 194→195, Generic 54→55 | Skill Tree: +1 STP in Magical→Magician (now Lvl 68)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8286,18 +8286,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  11505
-    Total Dmg/10R: 12480
-    Mana: 2649 start, 282 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10638
+    Total Dmg/10R: 11306
+    Mana: 2649 start, 192 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  362
@@ -8363,18 +8363,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  11505
-    Total Dmg/10R: 12480
-    Mana: 2673 start, 306 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10638
+    Total Dmg/10R: 11306
+    Mana: 2673 start, 216 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  366
@@ -8415,7 +8415,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 112 (Amazing Gear)
 ============================================================
 
-  Changes: Level 111→112 | Combat: BAp 14→15 | Pools: +1 Vit die (now 113d4); +1 HP die (now 113d6); +1 Mana die (now 115d0) | Affinities: Generic 55→56, Radiant 198→199 | Skill Tree: +1 STP in Magical→Magician (now Lvl 69)
+  Changes: Level 111→112 | Combat: BAp 14→15 | Pools: +1 Vit die (now 113d4); +1 HP die (now 113d6); +1 Mana die (now 115d0) | Affinities: Radiant 198→199, Generic 55→56 | Skill Tree: +1 STP in Magical→Magician (now Lvl 69)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8440,18 +8440,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  11505
-    Total Dmg/10R: 12480
-    Mana: 2696 start, 329 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10638
+    Total Dmg/10R: 11306
+    Mana: 2696 start, 239 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  373
@@ -8517,18 +8517,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14001
-    Mana: 2720 start, 2 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  10638
+    Total Dmg/10R: 11306
+    Mana: 2720 start, 263 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  375
@@ -8594,18 +8594,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14196
-    Mana: 2743 start, 4 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  10638
+    Total Dmg/10R: 11306
+    Mana: 2743 start, 286 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  379
@@ -8671,18 +8671,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14391
-    Mana: 2767 start, 7 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  12411
+    Total Dmg/10R: 12411
+    Mana: 2767 start, 13 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  381
@@ -8723,7 +8723,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 116 (Amazing Gear)
 ============================================================
 
-  Changes: Level 115→116 | Pools: +1 Vit die (now 117d4); +1 HP die (now 117d6); +1 Mana die (now 119d0) | Affinities: Generic 58→59, Radiant 203→204 | Skill Tree: +1 STP in Magical→Magician (now Lvl 72)
+  Changes: Level 115→116 | Pools: +1 Vit die (now 117d4); +1 HP die (now 117d6); +1 Mana die (now 119d0) | Affinities: Radiant 203→204, Generic 58→59 | Skill Tree: +1 STP in Magical→Magician (now Lvl 72)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8748,18 +8748,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14586
-    Mana: 2790 start, 9 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  12411
+    Total Dmg/10R: 12578
+    Mana: 2790 start, 15 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  383
@@ -8825,18 +8825,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14586
-    Mana: 2814 start, 33 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  12411
+    Total Dmg/10R: 12745
+    Mana: 2814 start, 18 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  387
@@ -8877,7 +8877,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 118 (Amazing Gear)
 ============================================================
 
-  Changes: Level 117→118 | Pools: +1 Vit die (now 119d4); +1 HP die (now 119d6); +1 Mana die (now 121d0) | Affinities: Generic 59→60, Radiant 207→208 | Skill Tree: +1 STP in Magical→Magician (now Lvl 73)
+  Changes: Level 117→118 | Pools: +1 Vit die (now 119d4); +1 HP die (now 119d6); +1 Mana die (now 121d0) | Affinities: Radiant 207→208, Generic 59→60 | Skill Tree: +1 STP in Magical→Magician (now Lvl 73)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8902,18 +8902,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14586
-    Mana: 2837 start, 56 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  12411
+    Total Dmg/10R: 12912
+    Mana: 2837 start, 20 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  389
@@ -8979,18 +8979,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2184 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1683 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x18 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x18 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  13806
-    Total Dmg/10R: 14586
-    Mana: 2861 start, 80 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  12411
+    Total Dmg/10R: 12912
+    Mana: 2861 start, 44 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  391
@@ -9056,18 +9056,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12675
-    Total Dmg/10R: 13650
-    Mana: 2884 start, 287 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 2884 start, 187 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  400
@@ -9133,18 +9133,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12675
-    Total Dmg/10R: 13650
-    Mana: 2908 start, 311 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 2908 start, 211 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  402
@@ -9185,7 +9185,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 122 (Amazing Gear)
 ============================================================
 
-  Changes: Level 121→122 | Pools: +1 Vit die (now 123d4); +1 HP die (now 123d6); +1 Mana die (now 125d0) | Affinities: Generic 62→63, Radiant 212→213 | Skill Tree: +1 STP in Magical→Magician (now Lvl 76)
+  Changes: Level 121→122 | Pools: +1 Vit die (now 123d4); +1 HP die (now 123d6); +1 Mana die (now 125d0) | Affinities: Radiant 212→213, Generic 62→63 | Skill Tree: +1 STP in Magical→Magician (now Lvl 76)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9210,18 +9210,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12675
-    Total Dmg/10R: 13650
-    Mana: 2931 start, 334 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 2931 start, 234 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  404
@@ -9287,18 +9287,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  12675
-    Total Dmg/10R: 13650
-    Mana: 2955 start, 358 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 2955 start, 258 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  408
@@ -9339,7 +9339,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 124 (Amazing Gear)
 ============================================================
 
-  Changes: Level 123→124 | Pools: +1 Vit die (now 125d4); +1 HP die (now 125d6); +1 Mana die (now 127d0) | Affinities: Generic 63→64, Radiant 216→217 | Skill Tree: +1 STP in Magical→Magician (now Lvl 77)
+  Changes: Level 123→124 | Pools: +1 Vit die (now 125d4); +1 HP die (now 125d6); +1 Mana die (now 127d0) | Affinities: Radiant 216→217, Generic 63→64 | Skill Tree: +1 STP in Magical→Magician (now Lvl 77)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9364,18 +9364,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15210
-    Total Dmg/10R: 15210
-    Mana: 2978 start, 5 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 2978 start, 281 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  410
@@ -9441,18 +9441,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15210
-    Total Dmg/10R: 15405
-    Mana: 3002 start, 8 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 3002 start, 305 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  412
@@ -9518,18 +9518,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15210
-    Total Dmg/10R: 15600
-    Mana: 3025 start, 10 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  11706
+    Total Dmg/10R: 12374
+    Mana: 3025 start, 328 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  416
@@ -9595,18 +9595,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15210
-    Total Dmg/10R: 15795
-    Mana: 3049 start, 13 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  13657
+    Total Dmg/10R: 13657
+    Mana: 3049 start, 15 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  418
@@ -9647,7 +9647,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 128 (Amazing Gear)
 ============================================================
 
-  Changes: Level 127→128 | Combat: BAp 16→17 | Pools: +1 Vit die (now 129d4); +1 HP die (now 129d6); +1 Mana die (now 131d0) | Affinities: Generic 66→67, Radiant 221→222 | Skill Tree: +1 STP in Magical→Magician (now Lvl 80)
+  Changes: Level 127→128 | Combat: BAp 16→17 | Pools: +1 Vit die (now 129d4); +1 HP die (now 129d6); +1 Mana die (now 131d0) | Affinities: Radiant 221→222, Generic 66→67 | Skill Tree: +1 STP in Magical→Magician (now Lvl 80)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9672,18 +9672,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15210
-    Total Dmg/10R: 15990
-    Mana: 3072 start, 15 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  13657
+    Total Dmg/10R: 13824
+    Mana: 3072 start, 17 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  425
@@ -9749,18 +9749,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2418 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1862 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x20 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x20 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15210
-    Total Dmg/10R: 15990
-    Mana: 3096 start, 39 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  13657
+    Total Dmg/10R: 13991
+    Mana: 3096 start, 20 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  429
@@ -9801,7 +9801,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 130 (Amazing Gear)
 ============================================================
 
-  Changes: Level 129→130 | Stats: WIS 33→34 | Combat: AP 13→14 | Pools: +1 Vit die (now 131d4); +1 HP die (now 131d6); +1 Mana die (now 133d0) | Affinities: Generic 67→68, Radiant 225→226 | Skill Tree: +1 STP in Magical→Magician (now Lvl 81)
+  Changes: Level 129→130 | Stats: WIS 33→34 | Combat: AP 13→14 | Pools: +1 Vit die (now 131d4); +1 HP die (now 131d6); +1 Mana die (now 133d0) | Affinities: Radiant 225→226, Generic 67→68 | Skill Tree: +1 STP in Magical→Magician (now Lvl 81)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9826,18 +9826,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2535 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1951 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x21 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x21 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15912
-    Total Dmg/10R: 16692
-    Mana: 3252 start, 57 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  14280
+    Total Dmg/10R: 14781
+    Mana: 3252 start, 15 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  431
@@ -9903,18 +9903,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2535 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1951 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x21 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x21 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15912
-    Total Dmg/10R: 16692
-    Mana: 3277 start, 82 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  14280
+    Total Dmg/10R: 14781
+    Mana: 3277 start, 40 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  433
@@ -9980,18 +9980,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2535 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1951 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x21 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x21 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15912
-    Total Dmg/10R: 16302
-    Mana: 3166 start, 13 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  12240
+    Total Dmg/10R: 12908
+    Mana: 3166 start, 349 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  437
@@ -10057,18 +10057,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2535 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1951 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x21 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x21 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15912
-    Total Dmg/10R: 16497
-    Mana: 3190 start, 16 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  14280
+    Total Dmg/10R: 14280
+    Mana: 3190 start, 16 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  439
@@ -10109,7 +10109,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 134 (Amazing Gear)
 ============================================================
 
-  Changes: Level 133→134 | Pools: +1 Vit die (now 135d4); +1 HP die (now 135d6); +1 Mana die (now 137d0) | Affinities: Generic 70→71, Radiant 230→231 | Skill Tree: +1 STP in Magical→Magician (now Lvl 84)
+  Changes: Level 133→134 | Pools: +1 Vit die (now 135d4); +1 HP die (now 135d6); +1 Mana die (now 137d0) | Affinities: Radiant 230→231, Generic 70→71 | Skill Tree: +1 STP in Magical→Magician (now Lvl 84)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10134,18 +10134,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2535 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1951 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x21 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x21 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15912
-    Total Dmg/10R: 16692
-    Mana: 3213 start, 18 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  14280
+    Total Dmg/10R: 14447
+    Mana: 3213 start, 18 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  441
@@ -10211,18 +10211,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2535 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 1951 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x21 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x21 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  15912
-    Total Dmg/10R: 16692
-    Mana: 3237 start, 42 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  14280
+    Total Dmg/10R: 14781
+    Mana: 3237 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  445
@@ -10263,7 +10263,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 136 (Amazing Gear)
 ============================================================
 
-  Changes: Level 135→136 | Combat: BAp 17→18 | Pools: +1 Vit die (now 137d4); +1 HP die (now 137d6); +1 Mana die (now 139d0) | Affinities: Generic 71→72, Radiant 234→235 | Skill Tree: +1 STP in Magical→Magician (now Lvl 85)
+  Changes: Level 135→136 | Combat: BAp 17→18 | Pools: +1 Vit die (now 137d4); +1 HP die (now 137d6); +1 Mana die (now 139d0) | Affinities: Radiant 234→235, Generic 71→72 | Skill Tree: +1 STP in Magical→Magician (now Lvl 85)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10288,18 +10288,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2652 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2040 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x22 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x22 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  16614
-    Total Dmg/10R: 16614
-    Mana: 3260 start, 11 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  12774
+    Total Dmg/10R: 13442
+    Mana: 3260 start, 323 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  452
@@ -10365,18 +10365,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2652 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2040 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x22 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x22 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  16614
-    Total Dmg/10R: 16809
-    Mana: 3284 start, 14 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  12774
+    Total Dmg/10R: 13442
+    Mana: 3284 start, 347 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  454
@@ -10442,18 +10442,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2652 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2040 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x22 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x22 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  16614
-    Total Dmg/10R: 17394
-    Mana: 3448 start, 115 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  14903
+    Total Dmg/10R: 15404
+    Mana: 3448 start, 71 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  458
@@ -10519,18 +10519,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2652 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2040 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x22 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x22 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  16614
-    Total Dmg/10R: 17394
-    Mana: 3473 start, 140 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  14903
+    Total Dmg/10R: 15404
+    Mana: 3473 start, 96 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  460
@@ -10571,7 +10571,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 140 (Amazing Gear)
 ============================================================
 
-  Changes: Level 139→140 | Stats: CON 33→34 | Combat: AP 14→15 | Pools: +1 Vit die (now 141d4); +1 HP die (now 141d6); +1 Mana die (now 143d0) | Affinities: Generic 74→75, Radiant 239→240 | Skill Tree: +1 STP in Magical→Magician (now Lvl 88)
+  Changes: Level 139→140 | Stats: CON 33→34 | Combat: AP 14→15 | Pools: +1 Vit die (now 141d4); +1 HP die (now 141d6); +1 Mana die (now 143d0) | Affinities: Radiant 239→240, Generic 74→75 | Skill Tree: +1 STP in Magical→Magician (now Lvl 88)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10596,18 +10596,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3497 start, 26 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 15867
+    Mana: 3497 start, 1 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  462
@@ -10673,18 +10673,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3522 start, 51 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3522 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  466
@@ -10725,7 +10725,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 142 (Amazing Gear)
 ============================================================
 
-  Changes: Level 141→142 | Pools: +1 Vit die (now 143d4); +1 HP die (now 143d6); +1 Mana die (now 145d0) | Affinities: Generic 75→76, Radiant 243→244 | Skill Tree: +1 STP in Magical→Magician (now Lvl 89)
+  Changes: Level 141→142 | Pools: +1 Vit die (now 143d4); +1 HP die (now 143d6); +1 Mana die (now 145d0) | Affinities: Radiant 243→244, Generic 75→76 | Skill Tree: +1 STP in Magical→Magician (now Lvl 89)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10750,18 +10750,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3546 start, 75 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3546 start, 29 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  468
@@ -10827,18 +10827,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3571 start, 100 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3571 start, 54 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  470
@@ -10904,18 +10904,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3595 start, 124 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3595 start, 78 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  479
@@ -10981,18 +10981,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3620 start, 149 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3620 start, 103 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  481
@@ -11033,7 +11033,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 146 (Amazing Gear)
 ============================================================
 
-  Changes: Level 145→146 | Pools: +1 Vit die (now 147d4); +1 HP die (now 147d6); +1 Mana die (now 149d0) | Affinities: Generic 78→79, Radiant 248→249 | Skill Tree: +1 STP in Magical→Magician (now Lvl 92)
+  Changes: Level 145→146 | Pools: +1 Vit die (now 147d4); +1 HP die (now 147d6); +1 Mana die (now 149d0) | Affinities: Radiant 248→249, Generic 78→79 | Skill Tree: +1 STP in Magical→Magician (now Lvl 92)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11058,18 +11058,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3644 start, 173 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3644 start, 127 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  483
@@ -11135,18 +11135,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3669 start, 198 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3669 start, 152 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  487
@@ -11187,7 +11187,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 148 (Amazing Gear)
 ============================================================
 
-  Changes: Level 147→148 | Pools: +1 Vit die (now 149d4); +1 HP die (now 149d6); +1 Mana die (now 151d0) | Affinities: Generic 79→80, Radiant 252→253 | Skill Tree: +1 STP in Magical→Magician (now Lvl 93)
+  Changes: Level 147→148 | Pools: +1 Vit die (now 149d4); +1 HP die (now 149d6); +1 Mana die (now 151d0) | Affinities: Radiant 252→253, Generic 79→80 | Skill Tree: +1 STP in Magical→Magician (now Lvl 93)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11212,18 +11212,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3693 start, 222 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3693 start, 176 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  489
@@ -11289,18 +11289,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2769 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2129 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x23 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x23 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  17316
-    Total Dmg/10R: 18096
-    Mana: 3718 start, 247 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  15533
+    Total Dmg/10R: 16034
+    Mana: 3718 start, 201 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  491
@@ -11366,18 +11366,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2886 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2219 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x24 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x24 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18018
-    Total Dmg/10R: 18798
-    Mana: 3742 start, 133 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16156
+    Total Dmg/10R: 16657
+    Mana: 3742 start, 85 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  495
@@ -11443,18 +11443,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 195 | Dmg/Turn: 2886 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2219 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x24 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x24 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18018
-    Total Dmg/10R: 18798
-    Mana: 3767 start, 158 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16156
+    Total Dmg/10R: 16657
+    Mana: 3767 start, 110 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  497
@@ -11495,7 +11495,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 152 (Amazing Gear)
 ============================================================
 
-  Changes: Level 151→152 | Combat: BAp 19→20 | Pools: +1 Vit die (now 153d4); +1 HP die (now 153d6); +1 Mana die (now 155d0) | Affinities: Generic 82→83, Radiant 257→258 | Skill Tree: +1 STP in Magical→Magician (now Lvl 96)
+  Changes: Level 151→152 | Combat: BAp 19→20 | Pools: +1 Vit die (now 153d4); +1 HP die (now 153d6); +1 Mana die (now 155d0) | Affinities: Radiant 257→258, Generic 82→83 | Skill Tree: +1 STP in Magical→Magician (now Lvl 96)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11520,18 +11520,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3791 start, 44 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17113
+    Mana: 3791 start, 15 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  504
@@ -11597,18 +11597,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3816 start, 69 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3816 start, 19 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  508
@@ -11649,7 +11649,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 154 (Amazing Gear)
 ============================================================
 
-  Changes: Level 153→154 | Pools: +1 Vit die (now 155d4); +1 HP die (now 155d6); +1 Mana die (now 157d0) | Affinities: Generic 83→84, Radiant 261→262 | Skill Tree: +1 STP in Magical→Magician (now Lvl 97)
+  Changes: Level 153→154 | Pools: +1 Vit die (now 155d4); +1 HP die (now 155d6); +1 Mana die (now 157d0) | Affinities: Radiant 261→262, Generic 83→84 | Skill Tree: +1 STP in Magical→Magician (now Lvl 97)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11674,18 +11674,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3840 start, 93 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3840 start, 43 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  510
@@ -11751,18 +11751,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3865 start, 118 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3865 start, 68 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  512
@@ -11828,18 +11828,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3889 start, 142 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3889 start, 92 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  516
@@ -11905,18 +11905,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3914 start, 167 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3914 start, 117 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  518
@@ -11957,7 +11957,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 158 (Amazing Gear)
 ============================================================
 
-  Changes: Level 157→158 | Pools: +1 Vit die (now 159d4); +1 HP die (now 159d6); +1 Mana die (now 161d0) | Affinities: Generic 86→87, Radiant 266→267 | Skill Tree: +1 STP in Magical→Magician (now Lvl 100)
+  Changes: Level 157→158 | Pools: +1 Vit die (now 159d4); +1 HP die (now 159d6); +1 Mana die (now 161d0) | Affinities: Radiant 266→267, Generic 86→87 | Skill Tree: +1 STP in Magical→Magician (now Lvl 100)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11982,18 +11982,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3938 start, 191 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3938 start, 141 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  520
@@ -12059,18 +12059,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3003 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2308 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x25 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x25 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  18720
-    Total Dmg/10R: 19500
-    Mana: 3963 start, 216 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  16779
+    Total Dmg/10R: 17280
+    Mana: 3963 start, 166 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  524
@@ -12111,7 +12111,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 160 (Amazing Gear)
 ============================================================
 
-  Changes: Level 159→160 | Stats: INT 72→73 | Combat: AP 16→17, BAp 20→21 | Pools: +1 Vit die (now 161d4); +1 HP die (now 161d6); +1 Mana die (now 163d0) | Affinities: Generic 87→88, Radiant 270→271 | Skill Tree: +1 STP in Magical→Magician (now Lvl 101)
+  Changes: Level 159→160 | Stats: INT 72→73 | Combat: AP 16→17, BAp 20→21 | Pools: +1 Vit die (now 161d4); +1 HP die (now 161d6); +1 Mana die (now 163d0) | Affinities: Radiant 270→271, Generic 87→88 | Skill Tree: +1 STP in Magical→Magician (now Lvl 101)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12136,18 +12136,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 3987 start, 102 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 3987 start, 50 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  531
@@ -12213,18 +12213,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4012 start, 127 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4012 start, 75 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  533
@@ -12290,18 +12290,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4036 start, 151 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4036 start, 99 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  537
@@ -12367,18 +12367,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4061 start, 176 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4061 start, 124 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  539
@@ -12419,7 +12419,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 164 (Amazing Gear)
 ============================================================
 
-  Changes: Level 163→164 | Pools: +1 Vit die (now 165d4); +1 HP die (now 165d6); +1 Mana die (now 167d0) | Affinities: Generic 90→91, Radiant 275→276 | Skill Tree: +1 STP in Magical→Magician (now Lvl 104)
+  Changes: Level 163→164 | Pools: +1 Vit die (now 165d4); +1 HP die (now 165d6); +1 Mana die (now 167d0) | Affinities: Radiant 275→276, Generic 90→91 | Skill Tree: +1 STP in Magical→Magician (now Lvl 104)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12444,18 +12444,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4085 start, 200 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4085 start, 148 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  541
@@ -12521,18 +12521,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4110 start, 225 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4110 start, 173 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  545
@@ -12573,7 +12573,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 166 (Amazing Gear)
 ============================================================
 
-  Changes: Level 165→166 | Pools: +1 Vit die (now 167d4); +1 HP die (now 167d6); +1 Mana die (now 169d0) | Affinities: Generic 91→92, Radiant 279→280 | Skill Tree: +1 STP in Magical→Magician (now Lvl 105)
+  Changes: Level 165→166 | Pools: +1 Vit die (now 167d4); +1 HP die (now 167d6); +1 Mana die (now 169d0) | Affinities: Radiant 279→280, Generic 91→92 | Skill Tree: +1 STP in Magical→Magician (now Lvl 105)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12598,18 +12598,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4134 start, 249 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4134 start, 197 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  547
@@ -12675,18 +12675,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3120 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2397 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x26 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x26 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  19422
-    Total Dmg/10R: 20202
-    Mana: 4159 start, 274 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  17402
+    Total Dmg/10R: 17903
+    Mana: 4159 start, 222 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  549
@@ -12752,18 +12752,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3237 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2486 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x27 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x27 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20124
-    Total Dmg/10R: 20904
-    Mana: 4354 start, 331 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18025
+    Total Dmg/10R: 18526
+    Mana: 4354 start, 277 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  558
@@ -12829,18 +12829,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3237 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2486 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x27 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x27 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20124
-    Total Dmg/10R: 20904
-    Mana: 4380 start, 357 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18025
+    Total Dmg/10R: 18526
+    Mana: 4380 start, 303 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  560
@@ -12881,7 +12881,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 170 (Amazing Gear)
 ============================================================
 
-  Changes: Level 169→170 | Stats: CON 35→36, WIS 36→37 | Combat: AP 17→18 | Pools: +1 Vit die (now 171d4); +1 HP die (now 171d6); +1 Mana die (now 173d0) | Affinities: Generic 94→95, Radiant 284→285 | Skill Tree: +1 STP in Magical→Magician (now Lvl 108)
+  Changes: Level 169→170 | Stats: CON 35→36, WIS 36→37 | Combat: AP 17→18 | Pools: +1 Vit die (now 171d4); +1 HP die (now 171d6); +1 Mana die (now 173d0) | Affinities: Radiant 284→285, Generic 94→95 | Skill Tree: +1 STP in Magical→Magician (now Lvl 108)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12906,18 +12906,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4405 start, 244 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4405 start, 188 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  562
@@ -12983,18 +12983,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4431 start, 270 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4431 start, 214 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  566
@@ -13035,7 +13035,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 172 (Amazing Gear)
 ============================================================
 
-  Changes: Level 171→172 | Pools: +1 Vit die (now 173d4); +1 HP die (now 173d6); +1 Mana die (now 175d0) | Affinities: Generic 95→96, Radiant 288→289 | Skill Tree: +1 STP in Magical→Magician (now Lvl 109)
+  Changes: Level 171→172 | Pools: +1 Vit die (now 173d4); +1 HP die (now 173d6); +1 Mana die (now 175d0) | Affinities: Radiant 288→289, Generic 95→96 | Skill Tree: +1 STP in Magical→Magician (now Lvl 109)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13060,18 +13060,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4456 start, 295 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4456 start, 239 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  568
@@ -13137,18 +13137,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4482 start, 321 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4482 start, 265 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  570
@@ -13214,18 +13214,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4507 start, 346 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4507 start, 290 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  574
@@ -13291,18 +13291,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4533 start, 372 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4533 start, 316 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  576
@@ -13343,7 +13343,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 176 (Amazing Gear)
 ============================================================
 
-  Changes: Level 175→176 | Combat: BAp 22→23 | Pools: +1 Vit die (now 177d4); +1 HP die (now 177d6); +1 Mana die (now 179d0) | Affinities: Generic 98→99, Radiant 293→294 | Skill Tree: +1 STP in Magical→Magician (now Lvl 112)
+  Changes: Level 175→176 | Combat: BAp 22→23 | Pools: +1 Vit die (now 177d4); +1 HP die (now 177d6); +1 Mana die (now 179d0) | Affinities: Radiant 293→294, Generic 98→99 | Skill Tree: +1 STP in Magical→Magician (now Lvl 112)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13368,18 +13368,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4558 start, 397 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4558 start, 341 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  583
@@ -13445,18 +13445,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4584 start, 423 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4584 start, 367 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  587
@@ -13497,7 +13497,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 178 (Amazing Gear)
 ============================================================
 
-  Changes: Level 177→178 | Pools: +1 Vit die (now 179d4); +1 HP die (now 179d6); +1 Mana die (now 181d0) | Affinities: Generic 99→100, Radiant 297→298 | Skill Tree: +1 STP in Magical→Magician (now Lvl 113)
+  Changes: Level 177→178 | Pools: +1 Vit die (now 179d4); +1 HP die (now 179d6); +1 Mana die (now 181d0) | Affinities: Radiant 297→298, Generic 99→100 | Skill Tree: +1 STP in Magical→Magician (now Lvl 113)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13522,18 +13522,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4609 start, 448 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4609 start, 392 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  589
@@ -13599,18 +13599,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3354 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2575 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x28 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x28 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  20826
-    Total Dmg/10R: 21606
-    Mana: 4635 start, 474 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  18655
+    Total Dmg/10R: 19156
+    Mana: 4635 start, 418 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  591
@@ -13676,18 +13676,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3471 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2665 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x29 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x29 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  21528
-    Total Dmg/10R: 22308
-    Mana: 4660 start, 361 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19278
+    Total Dmg/10R: 19779
+    Mana: 4660 start, 303 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  595
@@ -13753,18 +13753,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3471 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2665 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x29 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x29 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  21528
-    Total Dmg/10R: 22308
-    Mana: 4686 start, 387 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19278
+    Total Dmg/10R: 19779
+    Mana: 4686 start, 329 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  597
@@ -13805,7 +13805,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 182 (Amazing Gear)
 ============================================================
 
-  Changes: Level 181→182 | Pools: +1 Vit die (now 183d4); +1 HP die (now 183d6); +1 Mana die (now 185d0) | Affinities: Generic 102→103, Radiant 302→303 | Skill Tree: +1 STP in Magical→Magician (now Lvl 116)
+  Changes: Level 181→182 | Pools: +1 Vit die (now 183d4); +1 HP die (now 183d6); +1 Mana die (now 185d0) | Affinities: Radiant 302→303, Generic 102→103 | Skill Tree: +1 STP in Magical→Magician (now Lvl 116)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13830,18 +13830,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3471 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2665 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x29 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x29 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  21528
-    Total Dmg/10R: 22308
-    Mana: 4711 start, 412 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19278
+    Total Dmg/10R: 19779
+    Mana: 4711 start, 354 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  599
@@ -13907,18 +13907,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3471 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2665 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x29 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x29 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  21528
-    Total Dmg/10R: 22308
-    Mana: 4737 start, 438 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19278
+    Total Dmg/10R: 19779
+    Mana: 4737 start, 380 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  603
@@ -13959,7 +13959,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 184 (Amazing Gear)
 ============================================================
 
-  Changes: Level 183→184 | Combat: BAp 23→24 | Pools: +1 Vit die (now 185d4); +1 HP die (now 185d6); +1 Mana die (now 187d0) | Affinities: Generic 103→104, Radiant 306→307 | Skill Tree: +1 STP in Magical→Magician (now Lvl 117)
+  Changes: Level 183→184 | Combat: BAp 23→24 | Pools: +1 Vit die (now 185d4); +1 HP die (now 185d6); +1 Mana die (now 187d0) | Affinities: Radiant 306→307, Generic 103→104 | Skill Tree: +1 STP in Magical→Magician (now Lvl 117)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13984,18 +13984,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3588 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2754 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x30 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x30 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22230
-    Total Dmg/10R: 23010
-    Mana: 4762 start, 325 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19901
+    Total Dmg/10R: 20402
+    Mana: 4762 start, 265 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  610
@@ -14061,18 +14061,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3588 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2754 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x30 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x30 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22230
-    Total Dmg/10R: 23010
-    Mana: 4788 start, 351 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19901
+    Total Dmg/10R: 20402
+    Mana: 4788 start, 291 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  612
@@ -14138,18 +14138,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3588 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2754 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x30 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x30 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22230
-    Total Dmg/10R: 23010
-    Mana: 4813 start, 376 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19901
+    Total Dmg/10R: 20402
+    Mana: 4813 start, 316 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  616
@@ -14215,18 +14215,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3588 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2754 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x30 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x30 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22230
-    Total Dmg/10R: 23010
-    Mana: 4839 start, 402 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19901
+    Total Dmg/10R: 20402
+    Mana: 4839 start, 342 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  618
@@ -14267,7 +14267,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 188 (Amazing Gear)
 ============================================================
 
-  Changes: Level 187→188 | Pools: +1 Vit die (now 189d4); +1 HP die (now 189d6); +1 Mana die (now 191d0) | Affinities: Generic 106→107, Radiant 311→312 | Skill Tree: +1 STP in Magical→Magician (now Lvl 120)
+  Changes: Level 187→188 | Pools: +1 Vit die (now 189d4); +1 HP die (now 189d6); +1 Mana die (now 191d0) | Affinities: Radiant 311→312, Generic 106→107 | Skill Tree: +1 STP in Magical→Magician (now Lvl 120)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14292,18 +14292,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3588 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2754 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x30 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x30 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22230
-    Total Dmg/10R: 23010
-    Mana: 4864 start, 427 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  19901
+    Total Dmg/10R: 20402
+    Mana: 4864 start, 367 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  620
@@ -14369,18 +14369,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3588 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2754 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x30 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x30 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  25935
-    Total Dmg/10R: 25935
-    Mana: 5082 start, 18 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  22744
+    Total Dmg/10R: 22911
+    Mana: 5082 start, 6 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  624
@@ -14421,7 +14421,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 190 (Amazing Gear)
 ============================================================
 
-  Changes: Level 189→190 | Stats: WIS 38→37, INT 78→79 | Combat: AP 19→20 | Pools: +1 Vit die (now 191d4); +1 HP die (now 191d6); +1 Mana die (now 193d0) | Affinities: Generic 107→108, Radiant 315→316 | Skill Tree: +1 STP in Magical→Magician (now Lvl 121)
+  Changes: Level 189→190 | Stats: WIS 38→37, INT 78→79 | Combat: AP 19→20 | Pools: +1 Vit die (now 191d4); +1 HP die (now 191d6); +1 Mana die (now 193d0) | Affinities: Radiant 315→316, Generic 107→108 | Skill Tree: +1 STP in Magical→Magician (now Lvl 121)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14446,18 +14446,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22932
-    Total Dmg/10R: 23712
-    Mana: 4915 start, 340 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  20524
+    Total Dmg/10R: 21025
+    Mana: 4915 start, 278 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  626
@@ -14523,18 +14523,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22932
-    Total Dmg/10R: 23712
-    Mana: 4941 start, 366 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  20524
+    Total Dmg/10R: 21025
+    Mana: 4941 start, 304 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  628
@@ -14600,18 +14600,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22932
-    Total Dmg/10R: 23712
-    Mana: 4966 start, 391 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  20524
+    Total Dmg/10R: 21025
+    Mana: 4966 start, 329 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  637
@@ -14677,18 +14677,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22932
-    Total Dmg/10R: 23712
-    Mana: 4992 start, 417 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  20524
+    Total Dmg/10R: 21025
+    Mana: 4992 start, 355 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  639
@@ -14729,7 +14729,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 194 (Amazing Gear)
 ============================================================
 
-  Changes: Level 193→194 | Pools: +1 Vit die (now 195d4); +1 HP die (now 195d6); +1 Mana die (now 197d0) | Affinities: Generic 110→111, Radiant 320→321 | Skill Tree: +1 STP in Magical→Magician (now Lvl 124)
+  Changes: Level 193→194 | Pools: +1 Vit die (now 195d4); +1 HP die (now 195d6); +1 Mana die (now 197d0) | Affinities: Radiant 320→321, Generic 110→111 | Skill Tree: +1 STP in Magical→Magician (now Lvl 124)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14754,18 +14754,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  22932
-    Total Dmg/10R: 23712
-    Mana: 5017 start, 442 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  20524
+    Total Dmg/10R: 21025
+    Mana: 5017 start, 380 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  641
@@ -14831,18 +14831,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  26754
-    Total Dmg/10R: 26754
-    Mana: 5241 start, 16 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  23456
+    Total Dmg/10R: 23623
+    Mana: 5241 start, 5 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  645
@@ -14883,7 +14883,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 196 (Amazing Gear)
 ============================================================
 
-  Changes: Level 195→196 | Pools: +1 Vit die (now 197d4); +1 HP die (now 197d6); +1 Mana die (now 199d0) | Affinities: Generic 111→112, Radiant 324→325 | Skill Tree: +1 STP in Magical→Magician (now Lvl 125)
+  Changes: Level 195→196 | Pools: +1 Vit die (now 197d4); +1 HP die (now 197d6); +1 Mana die (now 199d0) | Affinities: Radiant 324→325, Generic 111→112 | Skill Tree: +1 STP in Magical→Magician (now Lvl 125)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14908,18 +14908,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  26754
-    Total Dmg/10R: 27144
-    Mana: 5267 start, 0 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  23456
+    Total Dmg/10R: 23790
+    Mana: 5267 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  647
@@ -14985,18 +14985,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  26754
-    Total Dmg/10R: 27339
-    Mana: 5294 start, 6 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  23456
+    Total Dmg/10R: 23790
+    Mana: 5294 start, 37 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  649
@@ -15062,18 +15062,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  26754
-    Total Dmg/10R: 27339
-    Mana: 5320 start, 32 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  23456
+    Total Dmg/10R: 23790
+    Mana: 5320 start, 63 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  653
@@ -15139,18 +15139,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3705 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 2843 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x31 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x31 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  26754
-    Total Dmg/10R: 27339
-    Mana: 5347 start, 59 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  23456
+    Total Dmg/10R: 23790
+    Mana: 5347 start, 90 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  655
@@ -15191,7 +15191,7 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
   Affinity: Radiant Mage - Level 200 (Amazing Gear)
 ============================================================
 
-  Changes: Level 199→200 | Stats: CON 37→38, WIS 38→39 | Combat: AP 20→21, BAp 25→26 | Pools: +1 Vit die (now 201d4); +1 HP die (now 201d6); +1 Mana die (now 203d0) | Affinities: Generic 114→115, Radiant 329→330 | Skill Tree: +1 STP in Magical→Magician (now Lvl 128)
+  Changes: Level 199→200 | Stats: CON 37→38, WIS 38→39 | Combat: AP 20→21, BAp 25→26 | Pools: +1 Vit die (now 201d4); +1 HP die (now 201d6); +1 Mana die (now 203d0) | Affinities: Radiant 329→330, Generic 114→115 | Skill Tree: +1 STP in Magical→Magician (now Lvl 128)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -15216,18 +15216,18 @@ EYUM TTRPG - AFFINITY: RADIANT MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 14
-    Magic Dmg/Cast: 195 | Dmg/Turn: 3939 (x108 mana)
+    Magic Dmg/Cast: 167 | Dmg/Turn: 3022 (x108 mana)
     Spell: Spirit Guardians (Radiant)
-    Secondary: Solar Lance (Radiant) x33 casts (+117/cast)
+    Secondary: Solar Lance (Radiant) x33 casts (+89/cast)
     Skipped spells:
       Manaskin: dmg=0 mana=6 (non_damaging)
       Bless: dmg=0 mana=6 (non_damaging)
       Radiant Pulse: dmg=58 mana=8 (lower_damage)
       Radiant Wave: dmg=69 mana=12 (lower_damage)
       Consecrate: dmg=0 mana=12 (non_damaging)
-    Total Dmg/5R:  24336
-    Total Dmg/10R: 25116
-    Mana: 5373 start, 522 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  21777
+    Total Dmg/10R: 22278
+    Mana: 5373 start, 456 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  662

@@ -1,5 +1,5 @@
 EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER
-Run at: 2026-07-13 11:25:31
+Run at: 2026-07-14 11:35:32
 ======================================================================
 ────────────────────────────────────────────────────────────
 RACE SYNC
@@ -8,20 +8,16 @@ Race sync: all up to date
 ────────────────────────────────────────────────────────────
 SPELL SYNC
 ────────────────────────────────────────────────────────────
-  Parsed 225 spells from 6.1.1 Elemental Spells.md
+  Parsed 230 spells from 6.1.1 Elemental Spells.md
   Parsed 101 spells from 6.1.2 Unique, Racial, and Healing Spells.md
-  Total handbook spells: 325
-  ~ Ruin of the Soul (Corruption): damage_flat: 105 -> 75
-  ~ Providence (Quantum): extra_effect: NoAdvantage -> Cursed
-  ~ Bifurcate (Quantum): mana: 100 -> 75
-  ~ Cascade Ruin (Quantum): mana: 130 -> 120; damage_flat: 50 -> 55
+  Total handbook spells: 330
 
-Spell sync: 4 updated, 0 added
+Spell sync: 0 updated, 0 added
 
 Spells in JSON not in handbook (1):
   Full Restore (Generic)
 
-Spells: 4 updated, 0 new, 0 in handbook only
+Spells: 0 updated, 0 new, 0 in handbook only
 ────────────────────────────────────────────────────────────
 CONDITION SYNC
 ────────────────────────────────────────────────────────────
@@ -106,7 +102,7 @@ PATH SYNC (validation only)
     limited_use: once\s+per\s+(?:long|short)\s+rest|once\s+per\s+combat
     generic: only\s+(?:on|when|while|if|against|vs)
 
-Changes tracked: 4 items -> changes.txt
+No changes detected.
 
 ======================================================================
-End of log — 2026-07-13 11:25:31
+End of log — 2026-07-14 11:35:32

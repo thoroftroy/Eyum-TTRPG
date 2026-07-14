@@ -516,11 +516,22 @@ class CharacterManagerGUI:
 
         ttk.Separator(toolbar_frame, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=5)
 
-        self.update_spells_btn = ttk.Button(
-            toolbar_frame, text="⟳ Update Spells",
-            command=self._update_spells_and_regen
+        self.live_monitoring = tk.BooleanVar(value=False)
+        self.live_monitor_btn = ttk.Checkbutton(
+            toolbar_frame, text="🔴 Live Monitor",
+            variable=self.live_monitoring,
+            command=self._toggle_live_monitoring
         )
-        self.update_spells_btn.pack(side=tk.LEFT, padx=5)
+        self.live_monitor_btn.pack(side=tk.LEFT, padx=5)
+        self._live_timer_id = None
+        self._live_running = False
+
+        # Mini console for live update output
+        self.live_console = tk.Text(toolbar_frame, height=3, width=60,
+                                     bg='#0d1117', fg='#8b949e',
+                                     font=('Consolas', 9), state=tk.DISABLED,
+                                     wrap=tk.WORD, relief=tk.SUNKEN, borderwidth=1)
+        self.live_console.pack(side=tk.LEFT, padx=5, fill=tk.X, expand=True)
 
         main_pane = ttk.PanedWindow(self.graph_frame, orient=tk.HORIZONTAL)
         main_pane.pack(fill=tk.BOTH, expand=True)
@@ -2248,7 +2259,6 @@ class CharacterManagerGUI:
             self.run_btn.config(state=tk.NORMAL)
             self.settings_run_btn.config(state=tk.NORMAL)
             self.settings_run_temp_btn.config(state=tk.NORMAL)
-            self.update_spells_btn.config(state=tk.NORMAL)
 
         def done(data):
             if build_filter and self.data:
@@ -2288,6 +2298,9 @@ class CharacterManagerGUI:
             self.settings_status.config(text="Ready")
             _reenable()
             self._save_graph_data()
+            # Resume live monitoring if it was active
+            if self.live_monitoring.get() and not self._live_running:
+                self._live_schedule_next()
 
         def error(exc):
             _reenable()
@@ -2332,76 +2345,172 @@ class CharacterManagerGUI:
         self.level_slider_label.config(text=str(int(float(val))))
         self._update_graph()
 
-    def _update_spells_and_regen(self):
-        """Run the spell updater script then regenerate all builds."""
-        if self.generating:
-            messagebox.showinfo("Busy", "Already generating.")
+    def _toggle_live_monitoring(self):
+        if self.live_monitoring.get():
+            self._start_live_monitoring()
+        else:
+            self._stop_live_monitoring()
+
+    def _start_live_monitoring(self):
+        self._live_running = True
+        self.live_monitor_btn.config(text="🟢 Live Monitor")
+        self.status_label.config(text="Live monitoring active")
+        self._live_poll()
+
+    def _stop_live_monitoring(self):
+        self._live_running = False
+        if self._live_timer_id:
+            self.root.after_cancel(self._live_timer_id)
+            self._live_timer_id = None
+        self.live_monitor_btn.config(text="🔴 Live Monitor")
+        self.status_label.config(text="Ready")
+
+    def _live_poll(self):
+        if not self._live_running:
             return
+        self._live_running = False  # Pause timer during operation
+        self.status_label.config(text='Live monitoring — checking...')
+        self._run_live_update()
+
+    def _live_schedule_next(self):
+        """Schedule next poll with countdown display."""
+        if not self.live_monitoring.get():
+            return
+        self._live_running = True
+        self._live_countdown = 10
+        self._live_tick_countdown()
+
+    def _live_tick_countdown(self):
+        if not self.live_monitoring.get() or not self._live_running:
+            return
+        if self._live_countdown > 0:
+            self.status_label.config(text=f'Live monitoring — next check in {self._live_countdown}s')
+            self._live_countdown -= 1
+            self._live_timer_id = self.root.after(1000, self._live_tick_countdown)
+        else:
+            self._live_poll()
+
+    def _live_console_log(self, msg, tag='info'):
+        """Write a timestamped message to the live console widget."""
+        import datetime
+        ts = datetime.datetime.now().strftime('%H:%M:%S')
+        self.root.after(0, lambda: self._live_console_write(f'[{ts}] {msg}\n', tag))
+
+    def _live_console_write(self, text, tag='info'):
+        self.live_console.config(state=tk.NORMAL)
+        self.live_console.insert(tk.END, text)
+        # Auto-scroll and trim
+        lines = int(self.live_console.index('end-1c').split('.')[0])
+        if lines > 50:
+            self.live_console.delete('1.0', f'{lines - 50}.0')
+        self.live_console.see(tk.END)
+        self.live_console.config(state=tk.DISABLED)
+
+    def _run_live_update(self):
         import subprocess, threading
-        script = os.path.join(SCRIPT_DIR, 'update_spells.py')
-        if not os.path.exists(script):
-            messagebox.showerror("Error", f"update_spells.py not found at:\n{script}")
+
+        def worker():
+            try:
+                update_script = os.path.join(SCRIPT_DIR, 'update.py')
+                self._live_console_log('Running update.py...')
+                proc = subprocess.run(
+                    [sys.executable, update_script, '--no-gui', '--quiet'],
+                    capture_output=True, text=True, timeout=30,
+                    cwd=SCRIPT_DIR
+                )
+                summary_lines = []
+                for line in proc.stdout.splitlines():
+                    s = line.strip()
+                    if not s: continue
+                    if any(kw in s for kw in ('changed', 'updated', 'added', 'ADDED',
+                                               'SPELL|', 'RACE|', 'FEAT|',
+                                               'ERROR', 'error', 'MANUAL',
+                                               'No changes', 'Done', 'sync:')):
+                        s_clean = re.sub(r'\x1b\[[0-9;]*m', '', s)
+                        summary_lines.append(s_clean)
+                if summary_lines:
+                    for line in summary_lines[-8:]:
+                        self._live_console_log(line)
+
+                # Read changes BEFORE running builds script (it clears changes.txt)
+                changes_path = os.path.join(SCRIPT_DIR, 'changes.txt')
+                has_changes = False
+                saved_changes = []
+                if os.path.exists(changes_path):
+                    with open(changes_path) as f:
+                        content = f.read().strip()
+                        saved_changes = [l.strip() for l in content.split('\n') if l.strip()]
+                        has_changes = bool(saved_changes)
+
+                if has_changes:
+                    self._live_console_log(f'{len(saved_changes)} changes detected — rebuilding affected builds...')
+                    build_script = os.path.join(SCRIPT_DIR, 'update_specific_builds.py')
+                    if os.path.exists(build_script):
+                        proc2 = subprocess.run(
+                            [sys.executable, build_script, '--no-gui', '--quiet'],
+                            capture_output=True, text=True, timeout=120,
+                            cwd=SCRIPT_DIR
+                        )
+                        for line in proc2.stdout.splitlines():
+                            s = line.strip()
+                            if s and any(kw in s for kw in ('Regenerating', 'regenerated', 'Done', 'ERROR', 'error', 'changed')):
+                                self._live_console_log(re.sub(r'\x1b\[[0-9;]*m', '', s))
+                    # Pass saved changes so we know which builds to refresh
+                    self.root.after(0, lambda: self._live_refresh_graph(saved_changes))
+                else:
+                    if self.live_monitoring.get():
+                        self._live_schedule_next()
+            except subprocess.TimeoutExpired:
+                self._live_console_log('Timeout expired')
+                if self.live_monitoring.get():
+                    self._live_schedule_next()
+            except Exception as e:
+                self._live_console_log(f'Error: {e}')
+                if self.live_monitoring.get():
+                    self._live_schedule_next()
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _live_refresh_graph(self, changed_items=None):
+        """Refresh only changed builds using existing generator filter."""
+        self._live_console_log('Refreshing graph...')
+        if self.generating:
+            self._live_console_log('Generator busy, retrying')
+            if self.live_monitoring.get():
+                self._live_schedule_next()
             return
 
-        self.generating = True
-        self.update_spells_btn.config(state=tk.DISABLED)
-        self.run_btn.config(state=tk.DISABLED)
+        # Map changed items to affected build names
+        affected = set()
+        if changed_items:
+            fresh = load_settings(DATA_DIR)
+            if fresh:
+                self.settings = fresh
+                builds_config = self.settings.get('builds', {})
+                for item in changed_items:
+                    parts = item.split('|')
+                    if parts[0] == 'SPELL' and len(parts) > 2:
+                        aff = parts[2]
+                        for bn, bc in builds_config.items():
+                            if bc.get('primary_affinity') == aff:
+                                affected.add(bn)
+                    elif parts[0] == 'RACE' and len(parts) > 1:
+                        family = parts[1].split('/')[0]
+                        for bn, bc in builds_config.items():
+                            if bc.get('race') == family:
+                                affected.add(bn)
 
-        def run():
-            self.root.after(0, lambda: self.status_label.config(text="Running spell updater..."))
-            self.root.after(0, lambda: self.settings_status.config(text="Updating..."))
-            try:
-                proc = subprocess.run(
-                    [sys.executable, script],
-                    input='n\n',
-                    capture_output=True, text=True, timeout=120,
-                    cwd=SCRIPT_DIR
-                )
-                if proc.returncode == 0:
-                    self.root.after(0, lambda: self.status_label.config(
-                        text="Spells updated. Rebuilding affected builds..."))
-                else:
-                    self.root.after(0, lambda: messagebox.showerror(
-                        "Updater Error", proc.stderr[:500] or f"Exit code {proc.returncode}"))
-                    self.root.after(0, lambda: self._regen_reenable())
-                    return
-                proc = subprocess.run(
-                    [sys.executable, script],
-                    input='n\n',
-                    capture_output=True, text=True, timeout=120,
-                    cwd=SCRIPT_DIR
-                )
-
-                # Parse stdout: "Spell Updater — 3 changed, 302 unchanged"
-                changed_count = 0
-                for line in proc.stdout.splitlines():
-                    m = re.search(r'(\d+)\s+changed', line)
-                    if m:
-                        changed_count = int(m.group(1))
-                        break
-
-                if changed_count == 0:
-                    self.root.after(0, lambda: self.status_label.config(text="No handbook changes detected"))
-                    self.root.after(0, lambda: self._regen_reenable())
-                    self.generating = False
-                    return
-
-                self.root.after(0, lambda: self.status_label.config(text=f"{changed_count} spells changed, rebuilding..."))
-                self.settings = None
-                self.generating = False
-                self.root.after(100, lambda: self._run_generator())
-            except subprocess.TimeoutExpired:
-                self.root.after(0, lambda: messagebox.showerror("Updater Error", "Timed out after 120s"))
-                self.root.after(0, lambda: self._regen_reenable())
-            except Exception as e:
-                self.root.after(0, lambda: messagebox.showerror("Updater Error", str(e)))
-                self.root.after(0, lambda: self._regen_reenable())
-
-        threading.Thread(target=run, daemon=True).start()
+        if affected:
+            self._live_console_log(f'Regenerating {len(affected)} builds: {", ".join(sorted(affected)[:5])}{"..." if len(affected)>5 else ""}')
+            self._run_generator(build_filter=list(affected))
+        else:
+            self._live_console_log('No specific builds affected — skipping refresh')
+            if self.live_monitoring.get():
+                self._live_schedule_next()
+        # done() callback restarts live timer if generator ran
 
     def _regen_reenable(self):
         self.generating = False
-        self.update_spells_btn.config(state=tk.NORMAL)
         self.run_btn.config(state=tk.NORMAL)
 
     def _rebuild_legend_panel(self, build_names, colors):

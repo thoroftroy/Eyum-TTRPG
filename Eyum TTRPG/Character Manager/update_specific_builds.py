@@ -109,6 +109,7 @@ def run_regenerator(win=None):
     import sys as _sys
     _sys.path.insert(0, SCRIPT_DIR)
     sink = _LogSink(win)
+    quiet = '--quiet' in _sys.argv
 
     # Redirect print
     try:
@@ -118,6 +119,10 @@ def run_regenerator(win=None):
     def _print(*args, **kwargs):
         msg = ' '.join(str(a) for a in args)
         tag = 'red' if ('ERROR' in msg or 'error' in msg) else ('green' if ('Done' in msg or 'OK' in msg) else 'normal')
+        # Always show key status lines even in quiet mode
+        is_status = any(kw in msg for kw in ('Regenerating', 'affected', 'changed', 'No builds', 'Found'))
+        if quiet and tag == 'normal' and not is_status:
+            return
         sink.log(msg, tag)
     import builtins
     builtins.print = _print
@@ -162,7 +167,7 @@ def run_regenerator(win=None):
         except: pass
         return
 
-    print(f"Regenerating {len(affected)} affected builds...")
+    print(f"Regenerating {len(affected)} affected builds: {', '.join(sorted(affected))}")
 
     from lib.config import load_settings
     from generator import generate_build, select_gear
@@ -267,11 +272,14 @@ class _LogSink:
 
 
 def main():
-    try:
-        from console_gui import run_with_gui
-        run_with_gui("Eyum Build Regenerator", run_regenerator, auto_close=True, close_delay=1)
-    except ImportError:
+    if '--no-gui' in sys.argv:
         run_regenerator(None)
+    else:
+        try:
+            from console_gui import run_with_gui
+            run_with_gui("Eyum Build Regenerator", run_regenerator, auto_close=True, close_delay=1)
+        except ImportError:
+            run_regenerator(None)
 
 
 if __name__ == '__main__':

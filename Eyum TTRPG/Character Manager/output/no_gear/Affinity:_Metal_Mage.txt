@@ -362,12 +362,13 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
     Attacks/Turn: 1
     Magic Dmg/Cast: 28 (x21 mana)
     Spell: Blade Barrier (Metal)
+    Secondary: Iron Dominion x0 casts (+34/cast)
     Skipped spells:
       Molten Carapace: dmg=6 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=22 mana=13 (lower_damage)
-    Total Dmg/5R:  140
-    Total Dmg/10R: 280
+    Total Dmg/5R:  310
+    Total Dmg/10R: 620
     Mana: 64 start, 7 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -429,17 +430,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 40 (x73 mana)
-    Spell: Iron Judgment (Metal)
+    Magic Dmg/Cast: 28 (x21 mana)
+    Spell: Blade Barrier (Metal)
+    Secondary: Iron Dominion x0 casts (+34/cast)
     Skipped spells:
       Molten Carapace: dmg=6 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=22 mana=13 (lower_damage)
-      Blade Barrier: dmg=28 mana=21 (lower_damage)
-      Iron Dominion: dmg=40 mana=28 (lower_damage)
-    Total Dmg/5R:  50
-    Total Dmg/10R: 62
-    Mana: 74 start, 1 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  310
+    Total Dmg/10R: 620
+    Mana: 74 start, 17 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  23
@@ -500,17 +500,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 40 | Dmg/Turn: 40 (x73 mana)
-    Spell: Iron Judgment (Metal)
+    Magic Dmg/Cast: 62 | Dmg/Turn: 62 (x21 mana)
+    Spell: Blade Barrier (Metal)
+    Secondary: Iron Dominion x1 casts (+34/cast)
     Skipped spells:
       Molten Carapace: dmg=6 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=22 mana=13 (lower_damage)
-      Blade Barrier: dmg=28 mana=21 (lower_damage)
-      Iron Dominion: dmg=40 mana=28 (lower_damage)
-    Total Dmg/5R:  60
-    Total Dmg/10R: 84
-    Mana: 83 start, 10 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  192
+    Total Dmg/10R: 192
+    Mana: 83 start, 2 after 10R (cast magic 2/10 rounds)
 
   RESOURCES:
     Skill Points:  30
@@ -572,15 +571,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 28 | Dmg/Turn: 28 (x21 mana)
+    Magic Dmg/Cast: 61 | Dmg/Turn: 61 (x21 mana)
     Spell: Blade Barrier (Metal)
+    Secondary: Iron Dominion x1 casts (+33/cast)
     Skipped spells:
       Molten Carapace: dmg=6 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=22 mana=13 (lower_damage)
-    Total Dmg/5R:  140
-    Total Dmg/10R: 280
-    Mana: 93 start, 36 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  371
+    Total Dmg/10R: 371
+    Mana: 93 start, 0 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
     Skill Points:  34
@@ -924,16 +924,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 72 | Dmg/Turn: 114 (x21 mana)
+    Magic Dmg/Cast: 65 | Dmg/Turn: 101 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x2 casts (+42/cast)
+    Secondary: Iron Dominion x2 casts (+36/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=24 mana=13 (lower_damage)
-    Total Dmg/5R:  156
-    Total Dmg/10R: 156
-    Mana: 170 start, 3 after 10R (cast magic 1/10 rounds)
+    Total Dmg/5R:  469
+    Total Dmg/10R: 794
+    Mana: 170 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  46
@@ -970,7 +970,7 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
   Affinity: Metal Mage - Level 15 (No Gear)
 ============================================================
 
-  Changes: Level 14→15 | Stats: INT 21→23 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Stone Skin | Affinities: Dust 0→2, Earth 17→19, Mud 0→2, Metal 32→36 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 5)
+  Changes: Level 14→15 | Stats: INT 21→23 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Stone Skin | Affinities: Earth 17→19, Mud 0→2, Dust 0→2, Metal 32→36 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 5)
 
   STATS:
     STR: 13 (+1) = 13 + 0
@@ -995,16 +995,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 69 | Dmg/Turn: 108 (x21 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 99 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x2 casts (+39/cast)
+    Secondary: Iron Dominion x2 casts (+35/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=24 mana=13 (lower_damage)
-    Total Dmg/5R:  354
-    Total Dmg/10R: 354
-    Mana: 182 start, 3 after 10R (cast magic 4/10 rounds)
+    Total Dmg/5R:  458
+    Total Dmg/10R: 778
+    Mana: 182 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  50
@@ -1068,16 +1068,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 72 | Dmg/Turn: 114 (x21 mana)
+    Magic Dmg/Cast: 65 | Dmg/Turn: 101 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x2 casts (+42/cast)
+    Secondary: Iron Dominion x2 casts (+36/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=24 mana=13 (lower_damage)
-    Total Dmg/5R:  444
-    Total Dmg/10R: 588
-    Mana: 193 start, 2 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  469
+    Total Dmg/10R: 794
+    Mana: 193 start, 24 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  57
@@ -1141,16 +1141,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 75 | Dmg/Turn: 120 (x21 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 103 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x2 casts (+45/cast)
+    Secondary: Iron Dominion x2 casts (+37/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=24 mana=13 (lower_damage)
-    Total Dmg/5R:  465
-    Total Dmg/10R: 840
-    Mana: 205 start, 2 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  552
+    Total Dmg/10R: 552
+    Mana: 205 start, 0 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
     Skill Points:  59
@@ -1189,7 +1189,7 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
   Affinity: Metal Mage - Level 18 (No Gear)
 ============================================================
 
-  Changes: Level 17→18 | Stats: WIS 18→19, INT 23→25 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Linguist | Affinities: Corruption 0→2, Metal 37→40, Quake 0→2, Obsidian 0→2 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 6)
+  Changes: Level 17→18 | Stats: WIS 18→19, INT 23→25 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Linguist | Affinities: Obsidian 0→2, Corruption 0→2, Quake 0→2, Metal 37→40 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 6)
 
   STATS:
     STR: 13 (+1) = 13 + 0
@@ -1214,16 +1214,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 75 | Dmg/Turn: 120 (x21 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 103 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x2 casts (+45/cast)
+    Secondary: Iron Dominion x2 casts (+37/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=24 mana=13 (lower_damage)
-    Total Dmg/5R:  465
-    Total Dmg/10R: 840
-    Mana: 216 start, 13 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  552
+    Total Dmg/10R: 684
+    Mana: 216 start, 3 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  63
@@ -1290,16 +1290,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 76 | Dmg/Turn: 122 (x21 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 106 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x2 casts (+46/cast)
+    Secondary: Iron Dominion x2 casts (+38/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=25 mana=13 (lower_damage)
-    Total Dmg/5R:  472
-    Total Dmg/10R: 852
-    Mana: 248 start, 45 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  565
+    Total Dmg/10R: 905
+    Mana: 248 start, 23 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  65
@@ -1366,16 +1366,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 79 | Dmg/Turn: 177 (x21 mana)
+    Magic Dmg/Cast: 69 | Dmg/Turn: 147 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x3 casts (+49/cast)
+    Secondary: Iron Dominion x3 casts (+39/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=25 mana=13 (lower_damage)
-    Total Dmg/5R:  542
-    Total Dmg/10R: 937
-    Mana: 281 start, 5 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  555
+    Total Dmg/10R: 555
+    Mana: 281 start, 0 after 10R (cast magic 3/10 rounds)
 
   RESOURCES:
     Skill Points:  67
@@ -1442,16 +1442,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 76 | Dmg/Turn: 168 (x21 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 143 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x3 casts (+46/cast)
+    Secondary: Iron Dominion x3 casts (+38/cast)
     Skipped spells:
       Molten Carapace: dmg=8 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=25 mana=13 (lower_damage)
-    Total Dmg/5R:  518
-    Total Dmg/10R: 898
-    Mana: 295 start, 19 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  679
+    Total Dmg/10R: 747
+    Mana: 295 start, 2 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  71
@@ -1518,16 +1518,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 78 | Dmg/Turn: 171 (x21 mana)
+    Magic Dmg/Cast: 70 | Dmg/Turn: 147 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x3 casts (+46/cast)
+    Secondary: Iron Dominion x3 casts (+38/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  530
-    Total Dmg/10R: 920
-    Mana: 308 start, 32 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  698
+    Total Dmg/10R: 978
+    Mana: 308 start, 3 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  73
@@ -1594,16 +1594,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 81 | Dmg/Turn: 180 (x21 mana)
+    Magic Dmg/Cast: 71 | Dmg/Turn: 150 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x3 casts (+50/cast)
+    Secondary: Iron Dominion x3 casts (+40/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  554
-    Total Dmg/10R: 959
-    Mana: 322 start, 46 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  712
+    Total Dmg/10R: 1067
+    Mana: 322 start, 13 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  75
@@ -1670,16 +1670,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 84 | Dmg/Turn: 242 (x21 mana)
+    Magic Dmg/Cast: 72 | Dmg/Turn: 194 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x4 casts (+53/cast)
+    Secondary: Iron Dominion x4 casts (+41/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  631
-    Total Dmg/10R: 715
-    Mana: 335 start, 2 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  686
+    Total Dmg/10R: 1046
+    Mana: 335 start, 54 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  84
@@ -1746,16 +1746,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 84 | Dmg/Turn: 242 (x21 mana)
+    Magic Dmg/Cast: 72 | Dmg/Turn: 194 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x4 casts (+53/cast)
+    Secondary: Iron Dominion x4 casts (+41/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  631
-    Total Dmg/10R: 1051
-    Mana: 453 start, 104 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  849
+    Total Dmg/10R: 1209
+    Mana: 453 start, 60 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  86
@@ -1822,16 +1822,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 84 | Dmg/Turn: 242 (x21 mana)
+    Magic Dmg/Cast: 72 | Dmg/Turn: 194 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x4 casts (+53/cast)
+    Secondary: Iron Dominion x4 casts (+41/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  631
-    Total Dmg/10R: 1051
-    Mana: 470 start, 121 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  849
+    Total Dmg/10R: 1209
+    Mana: 470 start, 77 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  88
@@ -1873,7 +1873,7 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
   Affinity: Metal Mage - Level 27 (No Gear)
 ============================================================
 
-  Changes: Level 26→27 | Stats: WIS 20→21, INT 29→30 | Combat: Prof +9→+10 | Pools: +1 Vit die (now 28d4); +1 HP die (now 28d6); +1 Mana die (now 28d0) | Feats: gained Affinity Master | Affinities: Fire 3→5, Earth 21→24, Water -3→-1, Air 0→2, Metal 48→53 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 9)
+  Changes: Level 26→27 | Stats: WIS 20→21, INT 29→30 | Combat: Prof +9→+10 | Pools: +1 Vit die (now 28d4); +1 HP die (now 28d6); +1 Mana die (now 28d0) | Feats: gained Affinity Master | Affinities: Water -3→-1, Earth 21→24, Air 0→2, Metal 48→53, Fire 3→5 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 9)
 
   STATS:
     STR: 13 (+1) = 13 + 0
@@ -1898,16 +1898,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 81 | Dmg/Turn: 230 (x21 mana)
+    Magic Dmg/Cast: 71 | Dmg/Turn: 190 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x4 casts (+50/cast)
+    Secondary: Iron Dominion x4 casts (+40/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  604
-    Total Dmg/10R: 1009
-    Mana: 488 start, 139 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  991
+    Total Dmg/10R: 991
+    Mana: 488 start, 3 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
     Skill Points:  92
@@ -1975,15 +1975,15 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 95 | Dmg/Turn: 287 (x21 mana)
+    Magic Dmg/Cast: 79 | Dmg/Turn: 222 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Worldforge Collapse x4 casts (+64/cast)
+    Secondary: Worldforge Collapse x4 casts (+48/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  731
-    Total Dmg/10R: 1111
+    Total Dmg/5R:  586
+    Total Dmg/10R: 902
     Mana: 536 start, 3 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -2052,15 +2052,15 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 97 | Dmg/Turn: 294 (x21 mana)
+    Magic Dmg/Cast: 81 | Dmg/Turn: 228 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Worldforge Collapse x4 casts (+66/cast)
+    Secondary: Worldforge Collapse x4 casts (+49/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  748
-    Total Dmg/10R: 1233
+    Total Dmg/5R:  601
+    Total Dmg/10R: 1006
     Mana: 554 start, 17 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2129,16 +2129,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 87 | Dmg/Turn: 311 (x21 mana)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 241 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x5 casts (+56/cast)
+    Secondary: Iron Dominion x5 casts (+42/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  714
-    Total Dmg/10R: 1149
-    Mana: 571 start, 149 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  992
+    Total Dmg/10R: 1357
+    Mana: 571 start, 94 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  100
@@ -2206,16 +2206,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 87 | Dmg/Turn: 311 (x21 mana)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 241 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x5 casts (+56/cast)
+    Secondary: Iron Dominion x5 casts (+42/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  714
-    Total Dmg/10R: 1149
-    Mana: 589 start, 167 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  992
+    Total Dmg/10R: 1357
+    Mana: 589 start, 112 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  102
@@ -2283,16 +2283,16 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 87 | Dmg/Turn: 311 (x21 mana)
+    Magic Dmg/Cast: 73 | Dmg/Turn: 241 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Iron Judgment x5 casts (+56/cast)
+    Secondary: Iron Dominion x5 casts (+42/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  714
-    Total Dmg/10R: 1149
-    Mana: 606 start, 184 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  1201
+    Total Dmg/10R: 1347
+    Mana: 606 start, 1 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
     Skill Points:  109
@@ -2360,15 +2360,15 @@ EYUM TTRPG - AFFINITY: METAL MAGE (NO GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 97 | Dmg/Turn: 360 (x21 mana)
+    Magic Dmg/Cast: 81 | Dmg/Turn: 277 (x21 mana)
     Spell: Blade Barrier (Metal)
-    Secondary: Worldforge Collapse x5 casts (+66/cast)
+    Secondary: Worldforge Collapse x5 casts (+49/cast)
     Skipped spells:
       Molten Carapace: dmg=10 mana=15 (lower_damage)
       Mend: dmg=0 mana=9 (non_damaging)
       Iron Grave: dmg=26 mana=13 (lower_damage)
-    Total Dmg/5R:  426
-    Total Dmg/10R: 426
+    Total Dmg/5R:  326
+    Total Dmg/10R: 326
     Mana: 624 start, 3 after 10R (cast magic 1/10 rounds)
 
   RESOURCES:

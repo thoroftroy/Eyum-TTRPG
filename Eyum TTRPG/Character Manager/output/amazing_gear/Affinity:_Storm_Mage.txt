@@ -88,7 +88,7 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
     Magic Dmg/Cast: 23 (x12 mana)
     Spell: Tempest Strike (Storm)
     Skipped spells:
-      Storm Call: dmg=4 mana=40 (lower_damage)
+      Storm Call: dmg=8 mana=40 (lower_damage)
     Total Dmg/5R:  31
     Total Dmg/10R: 40
     Mana: 16 start, 4 after 10R (cast magic 10/10 rounds)
@@ -150,7 +150,7 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
     Magic Dmg/Cast: 23 (x12 mana)
     Spell: Tempest Strike (Storm)
     Skipped spells:
-      Storm Call: dmg=4 mana=40 (lower_damage)
+      Storm Call: dmg=8 mana=40 (lower_damage)
     Total Dmg/5R:  31
     Total Dmg/10R: 40
     Mana: 22 start, 10 after 10R (cast magic 10/10 rounds)
@@ -214,7 +214,7 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
     Magic Dmg/Cast: 25 (x12 mana)
     Spell: Tempest Strike (Storm)
     Skipped spells:
-      Storm Call: dmg=5 mana=40 (lower_damage)
+      Storm Call: dmg=9 mana=40 (lower_damage)
     Total Dmg/5R:  58
     Total Dmg/10R: 72
     Mana: 32 start, 8 after 10R (cast magic 10/10 rounds)
@@ -279,7 +279,7 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
     Magic Dmg/Cast: 27 (x12 mana)
     Spell: Tempest Strike (Storm)
     Skipped spells:
-      Storm Call: dmg=6 mana=40 (lower_damage)
+      Storm Call: dmg=10 mana=40 (lower_damage)
     Total Dmg/5R:  87
     Total Dmg/10R: 103
     Mana: 39 start, 3 after 10R (cast magic 10/10 rounds)
@@ -341,11 +341,11 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 5 (x40 mana)
+    Magic Dmg/Cast: 10 (x40 mana)
     Spell: Storm Call (Storm)
     Secondary: Tempest Strike x0 casts (+27/cast)
-    Total Dmg/5R:  96
-    Total Dmg/10R: 96
+    Total Dmg/5R:  111
+    Total Dmg/10R: 111
     Mana: 57 start, 1 after 10R (cast magic 3/10 rounds)
 
   RESOURCES:
@@ -405,11 +405,11 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 1
-    Magic Dmg/Cast: 5 (x40 mana)
+    Magic Dmg/Cast: 10 (x40 mana)
     Spell: Storm Call (Storm)
     Secondary: Tempest Strike x0 casts (+27/cast)
-    Total Dmg/5R:  128
-    Total Dmg/10R: 128
+    Total Dmg/5R:  148
+    Total Dmg/10R: 148
     Mana: 66 start, 2 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -469,11 +469,11 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 32 | Dmg/Turn: 32 (x40 mana)
+    Magic Dmg/Cast: 37 | Dmg/Turn: 37 (x40 mana)
     Spell: Storm Call (Storm)
     Secondary: Tempest Strike x1 casts (+27/cast)
-    Total Dmg/5R:  184
-    Total Dmg/10R: 184
+    Total Dmg/5R:  202
+    Total Dmg/10R: 202
     Mana: 90 start, 2 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -534,11 +534,11 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 34 | Dmg/Turn: 34 (x40 mana)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 38 (x40 mana)
     Spell: Storm Call (Storm)
     Secondary: Tempest Strike x1 casts (+28/cast)
-    Total Dmg/5R:  220
-    Total Dmg/10R: 220
+    Total Dmg/5R:  239
+    Total Dmg/10R: 239
     Mana: 101 start, 1 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -599,11 +599,11 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 34 | Dmg/Turn: 62 (x40 mana)
+    Magic Dmg/Cast: 38 | Dmg/Turn: 67 (x40 mana)
     Spell: Storm Call (Storm)
     Secondary: Tempest Strike x2 casts (+28/cast)
-    Total Dmg/5R:  214
-    Total Dmg/10R: 214
+    Total Dmg/5R:  228
+    Total Dmg/10R: 228
     Mana: 111 start, 7 after 10R (cast magic 3/10 rounds)
 
   RESOURCES:
@@ -664,13 +664,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 39 | Dmg/Turn: 67 (x50 mana)
+    Magic Dmg/Cast: 48 | Dmg/Turn: 77 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+28/cast)
     Skipped spells:
-      Storm Call: dmg=6 mana=40 (lower_damage)
-    Total Dmg/5R:  229
-    Total Dmg/10R: 229
+      Storm Call: dmg=11 mana=40 (lower_damage)
+    Total Dmg/5R:  258
+    Total Dmg/10R: 258
     Mana: 122 start, 4 after 10R (cast magic 3/10 rounds)
 
   RESOURCES:
@@ -731,13 +731,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 73 (x50 mana)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 82 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-    Total Dmg/5R:  309
-    Total Dmg/10R: 309
+      Storm Call: dmg=13 mana=40 (lower_damage)
+    Total Dmg/5R:  336
+    Total Dmg/10R: 336
     Mana: 145 start, 3 after 10R (cast magic 3/10 rounds)
 
   RESOURCES:
@@ -798,13 +798,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 73 (x50 mana)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 82 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-    Total Dmg/5R:  395
-    Total Dmg/10R: 395
+      Storm Call: dmg=13 mana=40 (lower_damage)
+    Total Dmg/5R:  440
+    Total Dmg/10R: 440
     Mana: 171 start, 9 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -865,13 +865,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 73 (x50 mana)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 82 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-    Total Dmg/5R:  412
-    Total Dmg/10R: 412
+      Storm Call: dmg=13 mana=40 (lower_damage)
+    Total Dmg/5R:  448
+    Total Dmg/10R: 448
     Mana: 183 start, 7 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -932,13 +932,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 73 (x50 mana)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 82 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-    Total Dmg/5R:  455
-    Total Dmg/10R: 498
+      Storm Call: dmg=13 mana=40 (lower_damage)
+    Total Dmg/5R:  500
+    Total Dmg/10R: 552
     Mana: 196 start, 0 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -1001,13 +1001,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 73 (x50 mana)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 82 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-    Total Dmg/5R:  455
-    Total Dmg/10R: 541
+      Storm Call: dmg=13 mana=40 (lower_damage)
+    Total Dmg/5R:  500
+    Total Dmg/10R: 604
     Mana: 208 start, 2 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -1070,13 +1070,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 43 | Dmg/Turn: 73 (x50 mana)
+    Magic Dmg/Cast: 52 | Dmg/Turn: 82 (x50 mana)
     Spell: Thunderstorm (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-    Total Dmg/5R:  515
-    Total Dmg/10R: 558
+      Storm Call: dmg=13 mana=40 (lower_damage)
+    Total Dmg/5R:  560
+    Total Dmg/10R: 612
     Mana: 221 start, 1 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -1139,14 +1139,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 48 | Dmg/Turn: 78 (x70 mana)
+    Magic Dmg/Cast: 62 | Dmg/Turn: 92 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x2 casts (+30/cast)
     Skipped spells:
-      Storm Call: dmg=8 mana=40 (lower_damage)
-      Thunderstorm: dmg=13 mana=50 (lower_damage)
-    Total Dmg/5R:  480
-    Total Dmg/10R: 480
+      Tempest Strike: dmg=30 mana=12 (lower_damage)
+      Storm Call: dmg=13 mana=40 (lower_damage)
+      Thunderstorm: dmg=23 mana=50 (lower_damage)
+    Total Dmg/5R:  550
+    Total Dmg/10R: 550
     Mana: 233 start, 11 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -1212,14 +1213,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 50 | Dmg/Turn: 81 (x70 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 95 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x2 casts (+31/cast)
     Skipped spells:
-      Storm Call: dmg=9 mana=40 (lower_damage)
-      Thunderstorm: dmg=14 mana=50 (lower_damage)
-    Total Dmg/5R:  560
-    Total Dmg/10R: 610
+      Tempest Strike: dmg=31 mana=12 (lower_damage)
+      Storm Call: dmg=14 mana=40 (lower_damage)
+      Thunderstorm: dmg=24 mana=50 (lower_damage)
+    Total Dmg/5R:  630
+    Total Dmg/10R: 694
     Mana: 266 start, 6 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -1285,14 +1287,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 50 | Dmg/Turn: 112 (x70 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 126 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x3 casts (+31/cast)
     Skipped spells:
-      Storm Call: dmg=9 mana=40 (lower_damage)
-      Thunderstorm: dmg=14 mana=50 (lower_damage)
-    Total Dmg/5R:  622
-    Total Dmg/10R: 722
+      Tempest Strike: dmg=31 mana=12 (lower_damage)
+      Storm Call: dmg=14 mana=40 (lower_damage)
+      Thunderstorm: dmg=24 mana=50 (lower_damage)
+    Total Dmg/5R:  692
+    Total Dmg/10R: 820
     Mana: 300 start, 2 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -1358,14 +1361,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 50 | Dmg/Turn: 112 (x70 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 126 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x3 casts (+31/cast)
     Skipped spells:
-      Storm Call: dmg=9 mana=40 (lower_damage)
-      Thunderstorm: dmg=14 mana=50 (lower_damage)
-    Total Dmg/5R:  715
-    Total Dmg/10R: 715
+      Tempest Strike: dmg=31 mana=12 (lower_damage)
+      Storm Call: dmg=14 mana=40 (lower_damage)
+      Thunderstorm: dmg=24 mana=50 (lower_damage)
+    Total Dmg/5R:  785
+    Total Dmg/10R: 785
     Mana: 315 start, 9 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -1431,14 +1435,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 52 | Dmg/Turn: 115 (x70 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 130 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x3 casts (+32/cast)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-    Total Dmg/5R:  735
-    Total Dmg/10R: 787
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+    Total Dmg/5R:  810
+    Total Dmg/10R: 876
     Mana: 329 start, 9 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -1504,14 +1509,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 52 | Dmg/Turn: 115 (x70 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 130 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x3 casts (+32/cast)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-    Total Dmg/5R:  735
-    Total Dmg/10R: 839
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+    Total Dmg/5R:  810
+    Total Dmg/10R: 942
     Mana: 344 start, 10 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -1577,14 +1583,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 52 | Dmg/Turn: 147 (x70 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 162 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x4 casts (+32/cast)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-    Total Dmg/5R:  768
-    Total Dmg/10R: 872
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+    Total Dmg/5R:  838
+    Total Dmg/10R: 970
     Mana: 358 start, 12 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -1650,14 +1657,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 52 | Dmg/Turn: 147 (x70 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 162 (x70 mana)
     Spell: Tempest (Storm)
     Secondary: Tempest Strike x4 casts (+32/cast)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-    Total Dmg/5R:  1074
-    Total Dmg/10R: 1230
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+    Total Dmg/5R:  1158
+    Total Dmg/10R: 1356
     Mana: 477 start, 7 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -1723,14 +1731,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 165 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 355 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  991
-    Total Dmg/10R: 2023
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2131
+    Total Dmg/10R: 4351
     Mana: 495 start, 375 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1796,14 +1805,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 165 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 355 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  991
-    Total Dmg/10R: 2023
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2131
+    Total Dmg/10R: 4351
     Mana: 542 start, 422 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1869,14 +1879,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 165 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 355 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  991
-    Total Dmg/10R: 2023
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2131
+    Total Dmg/10R: 4351
     Mana: 592 start, 472 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1942,14 +1953,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 165 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 355 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  991
-    Total Dmg/10R: 2023
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2131
+    Total Dmg/10R: 4351
     Mana: 612 start, 492 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2015,14 +2027,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 206 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 444 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  1197
-    Total Dmg/10R: 2436
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2575
+    Total Dmg/10R: 5239
     Mana: 631 start, 511 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2088,14 +2101,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 206 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 444 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  1197
-    Total Dmg/10R: 2436
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2575
+    Total Dmg/10R: 5239
     Mana: 651 start, 531 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2161,14 +2175,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 227 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 488 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  1300
-    Total Dmg/10R: 2643
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2797
+    Total Dmg/10R: 5683
     Mana: 670 start, 550 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2234,14 +2249,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 25 | Dmg/Turn: 227 (x120 mana)
+    Magic Dmg/Cast: 49 | Dmg/Turn: 488 (x120 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=10 mana=40 (lower_damage)
-      Thunderstorm: dmg=15 mana=50 (lower_damage)
-      Tempest: dmg=20 mana=70 (lower_damage)
-    Total Dmg/5R:  1300
-    Total Dmg/10R: 2643
+      Tempest Strike: dmg=32 mana=12 (lower_damage)
+      Storm Call: dmg=15 mana=40 (lower_damage)
+      Thunderstorm: dmg=25 mana=50 (lower_damage)
+      Tempest: dmg=35 mana=70 (lower_damage)
+    Total Dmg/5R:  2797
+    Total Dmg/10R: 5683
     Mana: 726 start, 606 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2307,14 +2323,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 51 | Dmg/Turn: 454 (x480 mana)
+    Magic Dmg/Cast: 98 | Dmg/Turn: 799 (x480 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=20 mana=40 (lower_damage)
-      Thunderstorm: dmg=30 mana=50 (lower_damage)
-      Tempest: dmg=41 mana=70 (lower_damage)
-    Total Dmg/5R:  2601
-    Total Dmg/10R: 5286
+      Tempest Strike: dmg=54 mana=12 (lower_damage)
+      Storm Call: dmg=29 mana=40 (lower_damage)
+      Thunderstorm: dmg=49 mana=50 (lower_damage)
+      Tempest: dmg=69 mana=70 (lower_damage)
+    Total Dmg/5R:  5594
+    Total Dmg/10R: 11366
     Mana: 746 start, 266 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2380,14 +2397,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 51 | Dmg/Turn: 454 (x480 mana)
+    Magic Dmg/Cast: 98 | Dmg/Turn: 888 (x480 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=20 mana=40 (lower_damage)
-      Thunderstorm: dmg=30 mana=50 (lower_damage)
-      Tempest: dmg=41 mana=70 (lower_damage)
-    Total Dmg/5R:  2601
-    Total Dmg/10R: 5286
+      Tempest Strike: dmg=54 mana=12 (lower_damage)
+      Storm Call: dmg=29 mana=40 (lower_damage)
+      Thunderstorm: dmg=49 mana=50 (lower_damage)
+      Tempest: dmg=69 mana=70 (lower_damage)
+    Total Dmg/5R:  5594
+    Total Dmg/10R: 11366
     Mana: 767 start, 287 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2453,14 +2471,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 51 | Dmg/Turn: 454 (x480 mana)
+    Magic Dmg/Cast: 98 | Dmg/Turn: 888 (x480 mana)
     Spell: Hurricane Aura (Storm)
     Skipped spells:
-      Storm Call: dmg=20 mana=40 (lower_damage)
-      Thunderstorm: dmg=30 mana=50 (lower_damage)
-      Tempest: dmg=41 mana=70 (lower_damage)
-    Total Dmg/5R:  2601
-    Total Dmg/10R: 5286
+      Tempest Strike: dmg=54 mana=12 (lower_damage)
+      Storm Call: dmg=29 mana=40 (lower_damage)
+      Thunderstorm: dmg=49 mana=50 (lower_damage)
+      Tempest: dmg=69 mana=70 (lower_damage)
+    Total Dmg/5R:  5594
+    Total Dmg/10R: 11366
     Mana: 787 start, 307 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2526,17 +2545,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 61 | Dmg/Turn: 0 (x800 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 487 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=54 mana=12 (lower_damage)
-      Storm Call: dmg=20 mana=40 (lower_damage)
-      Thunderstorm: dmg=30 mana=50 (lower_damage)
-      Tempest: dmg=41 mana=70 (lower_damage)
-      Hurricane Aura: dmg=51 mana=120 (lower_damage)
-    Total Dmg/5R:  0
-    Total Dmg/10R: 0
-    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+      Storm Call: dmg=29 mana=40 (lower_damage)
+      Thunderstorm: dmg=49 mana=50 (lower_damage)
+    Total Dmg/5R:  3409
+    Total Dmg/10R: 6928
+    Mana: 808 start, 558 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  123
@@ -2601,17 +2618,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 61 | Dmg/Turn: 0 (x800 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 487 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=54 mana=12 (lower_damage)
-      Storm Call: dmg=20 mana=40 (lower_damage)
-      Thunderstorm: dmg=30 mana=50 (lower_damage)
-      Tempest: dmg=41 mana=70 (lower_damage)
-      Hurricane Aura: dmg=51 mana=120 (lower_damage)
-    Total Dmg/5R:  0
-    Total Dmg/10R: 0
-    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+      Storm Call: dmg=29 mana=40 (lower_damage)
+      Thunderstorm: dmg=49 mana=50 (lower_damage)
+    Total Dmg/5R:  3409
+    Total Dmg/10R: 6928
+    Mana: 828 start, 578 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  125
@@ -2676,17 +2691,15 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 61 | Dmg/Turn: 103 (x800 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 541 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=54 mana=12 (lower_damage)
-      Storm Call: dmg=20 mana=40 (lower_damage)
-      Thunderstorm: dmg=30 mana=50 (lower_damage)
-      Tempest: dmg=41 mana=70 (lower_damage)
-      Hurricane Aura: dmg=51 mana=120 (lower_damage)
-    Total Dmg/5R:  3260
-    Total Dmg/10R: 6624
-    Mana: 891 start, 91 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=29 mana=40 (lower_damage)
+      Thunderstorm: dmg=49 mana=50 (lower_damage)
+    Total Dmg/5R:  3409
+    Total Dmg/10R: 6928
+    Mana: 891 start, 641 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  129
@@ -2751,13 +2764,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 30 | Dmg/Turn: 222 (x200 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 540 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Storm Call: dmg=30 mana=40 (lower_damage)
-    Total Dmg/5R:  1238
-    Total Dmg/10R: 2508
-    Mana: 912 start, 712 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=44 mana=40 (lower_damage)
+    Total Dmg/5R:  3831
+    Total Dmg/10R: 7761
+    Mana: 912 start, 662 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  136
@@ -2822,13 +2835,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 30 | Dmg/Turn: 222 (x200 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 589 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Storm Call: dmg=30 mana=40 (lower_damage)
-    Total Dmg/5R:  1238
-    Total Dmg/10R: 2508
-    Mana: 934 start, 734 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=44 mana=40 (lower_damage)
+    Total Dmg/5R:  3831
+    Total Dmg/10R: 7761
+    Mana: 934 start, 684 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  138
@@ -2893,13 +2906,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 30 | Dmg/Turn: 222 (x200 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 589 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Storm Call: dmg=30 mana=40 (lower_damage)
-    Total Dmg/5R:  1238
-    Total Dmg/10R: 2508
-    Mana: 955 start, 755 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=44 mana=40 (lower_damage)
+    Total Dmg/5R:  3831
+    Total Dmg/10R: 7761
+    Mana: 955 start, 705 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  142
@@ -2964,13 +2977,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 30 | Dmg/Turn: 222 (x200 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 589 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Storm Call: dmg=30 mana=40 (lower_damage)
-    Total Dmg/5R:  1238
-    Total Dmg/10R: 2508
-    Mana: 977 start, 777 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=44 mana=40 (lower_damage)
+    Total Dmg/5R:  3831
+    Total Dmg/10R: 7761
+    Mana: 977 start, 727 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  144
@@ -3035,13 +3048,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 30 | Dmg/Turn: 222 (x200 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 638 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Storm Call: dmg=30 mana=40 (lower_damage)
-    Total Dmg/5R:  1238
-    Total Dmg/10R: 2508
-    Mana: 998 start, 798 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=44 mana=40 (lower_damage)
+    Total Dmg/5R:  3831
+    Total Dmg/10R: 7761
+    Mana: 998 start, 748 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  146
@@ -3106,13 +3119,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 30 | Dmg/Turn: 222 (x200 mana)
+    Magic Dmg/Cast: 64 | Dmg/Turn: 638 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Storm Call: dmg=30 mana=40 (lower_damage)
-    Total Dmg/5R:  1238
-    Total Dmg/10R: 2508
-    Mana: 1020 start, 820 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=44 mana=40 (lower_damage)
+    Total Dmg/5R:  3831
+    Total Dmg/10R: 7761
+    Mana: 1020 start, 770 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  150
@@ -3177,11 +3190,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 33 | Dmg/Turn: 136 (x200 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 558 (x250 mana)
     Spell: Maelstrom (Storm)
-    Total Dmg/5R:  758
-    Total Dmg/10R: 1536
-    Mana: 1041 start, 841 after 10R (cast magic 10/10 rounds)
+    Skipped spells:
+      Storm Call: dmg=53 mana=40 (lower_damage)
+    Total Dmg/5R:  3352
+    Total Dmg/10R: 6790
+    Mana: 1041 start, 791 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  152
@@ -3246,11 +3261,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 33 | Dmg/Turn: 136 (x200 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 558 (x250 mana)
     Spell: Maelstrom (Storm)
-    Total Dmg/5R:  758
-    Total Dmg/10R: 1536
-    Mana: 1063 start, 863 after 10R (cast magic 10/10 rounds)
+    Skipped spells:
+      Storm Call: dmg=53 mana=40 (lower_damage)
+    Total Dmg/5R:  3352
+    Total Dmg/10R: 6790
+    Mana: 1063 start, 813 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  154
@@ -3315,11 +3332,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 33 | Dmg/Turn: 145 (x200 mana)
+    Magic Dmg/Cast: 66 | Dmg/Turn: 601 (x250 mana)
     Spell: Maelstrom (Storm)
-    Total Dmg/5R:  807
-    Total Dmg/10R: 1633
-    Mana: 1135 start, 935 after 10R (cast magic 10/10 rounds)
+    Skipped spells:
+      Storm Call: dmg=53 mana=40 (lower_damage)
+    Total Dmg/5R:  3566
+    Total Dmg/10R: 7219
+    Mana: 1135 start, 885 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  163
@@ -3384,11 +3403,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 35 | Dmg/Turn: 84 (x200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 544 (x250 mana)
     Spell: Maelstrom (Storm)
-    Total Dmg/5R:  466
-    Total Dmg/10R: 945
-    Mana: 1158 start, 958 after 10R (cast magic 10/10 rounds)
+    Skipped spells:
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3226
+    Total Dmg/10R: 6531
+    Mana: 1158 start, 908 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  165
@@ -3453,11 +3474,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 35 | Dmg/Turn: 95 (x200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 622 (x250 mana)
     Spell: Maelstrom (Storm)
-    Total Dmg/5R:  523
-    Total Dmg/10R: 1057
-    Mana: 1180 start, 980 after 10R (cast magic 10/10 rounds)
+    Skipped spells:
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3615
+    Total Dmg/10R: 7308
+    Mana: 1180 start, 930 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  167
@@ -3522,17 +3545,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 106 | Dmg/Turn: 0 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 622 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  0
-    Total Dmg/10R: 0
-    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3615
+    Total Dmg/10R: 7308
+    Mana: 1203 start, 953 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  171
@@ -3597,17 +3616,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 106 | Dmg/Turn: 0 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 622 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  0
-    Total Dmg/10R: 0
-    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3615
+    Total Dmg/10R: 7308
+    Mana: 1225 start, 975 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  173
@@ -3672,17 +3687,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 106 | Dmg/Turn: 0 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 660 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  0
-    Total Dmg/10R: 0
-    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3615
+    Total Dmg/10R: 7308
+    Mana: 1248 start, 998 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  175
@@ -3747,17 +3758,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 106 | Dmg/Turn: 153 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 660 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  7149
-    Total Dmg/10R: 14452
-    Mana: 1270 start, 70 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3615
+    Total Dmg/10R: 7308
+    Mana: 1270 start, 1020 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  179
@@ -3822,17 +3829,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 106 | Dmg/Turn: 153 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 660 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  7149
-    Total Dmg/10R: 14452
-    Mana: 1293 start, 93 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3615
+    Total Dmg/10R: 7308
+    Mana: 1293 start, 1043 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -3897,17 +3900,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 307 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 660 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  7533
-    Total Dmg/10R: 15221
-    Mana: 1315 start, 115 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3809
+    Total Dmg/10R: 7697
+    Mana: 1315 start, 1065 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  188
@@ -3972,17 +3971,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 461 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 699 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  7533
-    Total Dmg/10R: 15221
-    Mana: 1398 start, 198 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3809
+    Total Dmg/10R: 7697
+    Mana: 1398 start, 1148 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  192
@@ -4047,17 +4042,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 615 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 699 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  7533
-    Total Dmg/10R: 15221
-    Mana: 1421 start, 221 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3809
+    Total Dmg/10R: 7697
+    Mana: 1421 start, 1171 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  194
@@ -4122,17 +4113,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 615 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 699 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  7533
-    Total Dmg/10R: 15221
-    Mana: 1445 start, 245 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  3809
+    Total Dmg/10R: 7697
+    Mana: 1445 start, 1195 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  196
@@ -4197,17 +4184,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 768 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 777 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8302
-    Total Dmg/10R: 16758
-    Mana: 1468 start, 268 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  4198
+    Total Dmg/10R: 8474
+    Mana: 1468 start, 1218 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  200
@@ -4272,17 +4255,13 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 768 (x1200 mana)
+    Magic Dmg/Cast: 68 | Dmg/Turn: 777 (x250 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
-      Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8302
-    Total Dmg/10R: 16758
-    Mana: 1492 start, 292 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+    Total Dmg/5R:  4198
+    Total Dmg/10R: 8474
+    Mana: 1492 start, 1242 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  202
@@ -4347,17 +4326,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 922 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 0 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8302
-    Total Dmg/10R: 16758
-    Mana: 1515 start, 315 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
     Skill Points:  204
@@ -4422,17 +4401,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 922 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 0 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8302
-    Total Dmg/10R: 16758
-    Mana: 1539 start, 339 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
     Skill Points:  208
@@ -4497,17 +4476,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 999 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 0 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8686
-    Total Dmg/10R: 17527
-    Mana: 1562 start, 362 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  0
+    Total Dmg/10R: 0
+    Mana: 0 start, 0 after 10R (cast magic 0/10 rounds)
 
   RESOURCES:
     Skill Points:  215
@@ -4572,17 +4551,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 999 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 353 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8686
-    Total Dmg/10R: 17527
-    Mana: 1586 start, 386 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  19958
+    Total Dmg/10R: 40270
+    Mana: 1586 start, 86 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  217
@@ -4647,17 +4626,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1076 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 353 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8686
-    Total Dmg/10R: 17527
-    Mana: 1609 start, 409 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  19958
+    Total Dmg/10R: 40270
+    Mana: 1609 start, 109 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  221
@@ -4722,17 +4701,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1076 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 353 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8686
-    Total Dmg/10R: 17527
-    Mana: 1633 start, 433 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  19958
+    Total Dmg/10R: 40270
+    Mana: 1633 start, 133 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  223
@@ -4797,17 +4776,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1153 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 353 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8686
-    Total Dmg/10R: 17527
-    Mana: 1656 start, 456 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  19958
+    Total Dmg/10R: 40270
+    Mana: 1656 start, 156 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  225
@@ -4872,17 +4851,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1153 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 706 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  8686
-    Total Dmg/10R: 17527
-    Mana: 1680 start, 480 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  19958
+    Total Dmg/10R: 40270
+    Mana: 1680 start, 180 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  229
@@ -4947,17 +4926,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 706 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9455
-    Total Dmg/10R: 19065
-    Mana: 1703 start, 503 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  21724
+    Total Dmg/10R: 43803
+    Mana: 1703 start, 203 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  231
@@ -5022,17 +5001,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 706 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9455
-    Total Dmg/10R: 19065
-    Mana: 1727 start, 527 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  21724
+    Total Dmg/10R: 43803
+    Mana: 1727 start, 227 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  233
@@ -5097,17 +5076,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1059 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1750 start, 550 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1750 start, 250 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  242
@@ -5172,17 +5151,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1059 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1774 start, 574 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1774 start, 274 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  244
@@ -5247,17 +5226,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1059 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1797 start, 597 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1797 start, 297 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  246
@@ -5322,17 +5301,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1537 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1413 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1899 start, 699 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1899 start, 399 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  250
@@ -5397,17 +5376,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1614 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1766 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1923 start, 723 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1923 start, 423 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  252
@@ -5472,17 +5451,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1614 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1766 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1948 start, 748 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1948 start, 448 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  254
@@ -5547,17 +5526,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1691 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1766 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1972 start, 772 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1972 start, 472 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  258
@@ -5622,17 +5601,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1691 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 1766 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  9840
-    Total Dmg/10R: 19833
-    Mana: 1997 start, 797 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  22608
+    Total Dmg/10R: 45569
+    Mana: 1997 start, 497 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  260
@@ -5697,17 +5676,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1845 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2119 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2021 start, 821 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2021 start, 521 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  267
@@ -5772,17 +5751,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1845 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2119 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2046 start, 846 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2046 start, 546 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  271
@@ -5847,17 +5826,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1921 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2119 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2070 start, 870 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2070 start, 570 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  273
@@ -5922,17 +5901,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1921 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2472 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2095 start, 895 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2095 start, 595 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  275
@@ -5997,17 +5976,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1998 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2472 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2119 start, 919 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2119 start, 619 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  279
@@ -6072,17 +6051,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 1998 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2472 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2144 start, 944 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2144 start, 644 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  281
@@ -6147,17 +6126,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2826 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2168 start, 968 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2168 start, 668 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  283
@@ -6222,17 +6201,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2826 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  10993
-    Total Dmg/10R: 22140
-    Mana: 2193 start, 993 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  25257
+    Total Dmg/10R: 50868
+    Mana: 2193 start, 693 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  287
@@ -6297,17 +6276,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2152 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2826 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  11377
-    Total Dmg/10R: 22908
-    Mana: 2217 start, 1017 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  26140
+    Total Dmg/10R: 52634
+    Mana: 2217 start, 717 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  294
@@ -6372,17 +6351,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2152 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 2826 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  11377
-    Total Dmg/10R: 22908
-    Mana: 2242 start, 1042 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  26140
+    Total Dmg/10R: 52634
+    Mana: 2242 start, 742 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  296
@@ -6447,17 +6426,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3179 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12146
-    Total Dmg/10R: 24446
-    Mana: 2266 start, 1066 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  27906
+    Total Dmg/10R: 56166
+    Mana: 2266 start, 766 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  300
@@ -6522,17 +6501,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3179 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12146
-    Total Dmg/10R: 24446
-    Mana: 2291 start, 1091 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  27906
+    Total Dmg/10R: 56166
+    Mana: 2291 start, 791 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  302
@@ -6597,17 +6576,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3179 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12146
-    Total Dmg/10R: 24446
-    Mana: 2315 start, 1115 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  27906
+    Total Dmg/10R: 56166
+    Mana: 2315 start, 815 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  304
@@ -6672,17 +6651,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3355 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12146
-    Total Dmg/10R: 24446
-    Mana: 2340 start, 1140 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  27906
+    Total Dmg/10R: 56166
+    Mana: 2340 start, 840 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  308
@@ -6747,17 +6726,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3355 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12146
-    Total Dmg/10R: 24446
-    Mana: 2364 start, 1164 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  27906
+    Total Dmg/10R: 56166
+    Mana: 2364 start, 864 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  310
@@ -6822,17 +6801,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2306 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3355 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12146
-    Total Dmg/10R: 24446
-    Mana: 2389 start, 1189 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  27906
+    Total Dmg/10R: 56166
+    Mana: 2389 start, 889 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  312
@@ -6897,17 +6876,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3532 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12530
-    Total Dmg/10R: 25215
-    Mana: 2413 start, 1213 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  28789
+    Total Dmg/10R: 57933
+    Mana: 2413 start, 913 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  321
@@ -6972,17 +6951,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3532 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12530
-    Total Dmg/10R: 25215
-    Mana: 2438 start, 1238 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  28789
+    Total Dmg/10R: 57933
+    Mana: 2438 start, 938 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  323
@@ -7047,17 +7026,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3532 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12530
-    Total Dmg/10R: 25215
-    Mana: 2462 start, 1262 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  28789
+    Total Dmg/10R: 57933
+    Mana: 2462 start, 962 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  325
@@ -7122,17 +7101,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2383 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3532 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  12530
-    Total Dmg/10R: 25215
-    Mana: 2487 start, 1287 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  28789
+    Total Dmg/10R: 57933
+    Mana: 2487 start, 987 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  329
@@ -7197,17 +7176,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3885 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13299
-    Total Dmg/10R: 26752
-    Mana: 2511 start, 1311 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  30556
+    Total Dmg/10R: 61465
+    Mana: 2511 start, 1011 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  331
@@ -7272,17 +7251,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3885 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13299
-    Total Dmg/10R: 26752
-    Mana: 2536 start, 1336 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  30556
+    Total Dmg/10R: 61465
+    Mana: 2536 start, 1036 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  333
@@ -7347,17 +7326,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 3885 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13299
-    Total Dmg/10R: 26752
-    Mana: 2560 start, 1360 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  30556
+    Total Dmg/10R: 61465
+    Mana: 2560 start, 1060 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  337
@@ -7422,17 +7401,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4062 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13299
-    Total Dmg/10R: 26752
-    Mana: 2585 start, 1385 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  30556
+    Total Dmg/10R: 61465
+    Mana: 2585 start, 1085 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  339
@@ -7497,17 +7476,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4062 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13683
-    Total Dmg/10R: 27521
-    Mana: 2609 start, 1409 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  31439
+    Total Dmg/10R: 63231
+    Mana: 2609 start, 1109 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  346
@@ -7572,17 +7551,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4239 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13683
-    Total Dmg/10R: 27521
-    Mana: 2742 start, 1542 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  31439
+    Total Dmg/10R: 63231
+    Mana: 2742 start, 1242 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  350
@@ -7647,17 +7626,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4415 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13683
-    Total Dmg/10R: 27521
-    Mana: 2767 start, 1567 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  31439
+    Total Dmg/10R: 63231
+    Mana: 2767 start, 1267 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  352
@@ -7722,17 +7701,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4415 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13683
-    Total Dmg/10R: 27521
-    Mana: 2793 start, 1593 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  31439
+    Total Dmg/10R: 63231
+    Mana: 2793 start, 1293 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  354
@@ -7797,17 +7776,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4415 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13683
-    Total Dmg/10R: 27521
-    Mana: 2818 start, 1618 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  31439
+    Total Dmg/10R: 63231
+    Mana: 2818 start, 1318 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  358
@@ -7872,17 +7851,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4592 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  13683
-    Total Dmg/10R: 27521
-    Mana: 2844 start, 1644 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  31439
+    Total Dmg/10R: 63231
+    Mana: 2844 start, 1344 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  360
@@ -7947,17 +7926,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2767 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4768 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14452
-    Total Dmg/10R: 29058
-    Mana: 2869 start, 1669 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  33205
+    Total Dmg/10R: 66764
+    Mana: 2869 start, 1369 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  362
@@ -8022,17 +8001,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2767 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4768 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14452
-    Total Dmg/10R: 29058
-    Mana: 2895 start, 1695 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  33205
+    Total Dmg/10R: 66764
+    Mana: 2895 start, 1395 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  366
@@ -8097,17 +8076,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4945 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 2920 start, 1720 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 2920 start, 1420 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  373
@@ -8172,17 +8151,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4945 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 2946 start, 1746 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 2946 start, 1446 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  375
@@ -8247,17 +8226,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 4945 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 2971 start, 1771 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 2971 start, 1471 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  379
@@ -8322,17 +8301,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5122 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 2997 start, 1797 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 2997 start, 1497 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  381
@@ -8397,17 +8376,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5122 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 3022 start, 1822 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 3022 start, 1522 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  383
@@ -8472,17 +8451,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5122 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 3048 start, 1848 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 3048 start, 1548 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  387
@@ -8547,17 +8526,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5122 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 3073 start, 1873 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 3073 start, 1573 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  389
@@ -8622,17 +8601,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 106 | Dmg/Turn: 2844 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5298 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  14836
-    Total Dmg/10R: 29827
-    Mana: 3099 start, 1899 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  34088
+    Total Dmg/10R: 68530
+    Mana: 3099 start, 1599 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  391
@@ -8697,17 +8676,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5475 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3124 start, 1924 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3124 start, 1624 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  400
@@ -8772,17 +8751,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5475 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3150 start, 1950 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3150 start, 1650 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  402
@@ -8847,17 +8826,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 5652 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3175 start, 1975 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3175 start, 1675 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  404
@@ -8922,17 +8901,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6005 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3327 start, 2127 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3327 start, 1827 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  408
@@ -8997,17 +8976,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6005 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3353 start, 2153 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3353 start, 1853 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  410
@@ -9072,17 +9051,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6005 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3380 start, 2180 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3380 start, 1880 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  412
@@ -9147,17 +9126,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6005 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3406 start, 2206 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3406 start, 1906 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  416
@@ -9222,17 +9201,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3075 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6181 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  15990
-    Total Dmg/10R: 32133
-    Mana: 3433 start, 2233 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  36738
+    Total Dmg/10R: 73829
+    Mana: 3433 start, 1933 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  418
@@ -9297,17 +9276,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3151 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6181 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  16374
-    Total Dmg/10R: 32902
-    Mana: 3459 start, 2259 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  37621
+    Total Dmg/10R: 75595
+    Mana: 3459 start, 1959 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  425
@@ -9372,17 +9351,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3151 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6005 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  16374
-    Total Dmg/10R: 32902
-    Mana: 3354 start, 2154 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  37621
+    Total Dmg/10R: 75595
+    Mana: 3354 start, 1854 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  429
@@ -9447,17 +9426,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6535 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17143
-    Total Dmg/10R: 34440
-    Mana: 3512 start, 2312 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  39387
+    Total Dmg/10R: 79128
+    Mana: 3512 start, 2012 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  431
@@ -9522,17 +9501,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6535 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17143
-    Total Dmg/10R: 34440
-    Mana: 3539 start, 2339 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  39387
+    Total Dmg/10R: 79128
+    Mana: 3539 start, 2039 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  433
@@ -9597,17 +9576,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6535 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17143
-    Total Dmg/10R: 34440
-    Mana: 3565 start, 2365 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  39387
+    Total Dmg/10R: 79128
+    Mana: 3565 start, 2065 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  437
@@ -9672,17 +9651,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6711 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17143
-    Total Dmg/10R: 34440
-    Mana: 3592 start, 2392 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  39387
+    Total Dmg/10R: 79128
+    Mana: 3592 start, 2092 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  439
@@ -9747,17 +9726,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6711 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17143
-    Total Dmg/10R: 34440
-    Mana: 3618 start, 2418 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  39387
+    Total Dmg/10R: 79128
+    Mana: 3618 start, 2118 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  441
@@ -9822,17 +9801,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6711 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17143
-    Total Dmg/10R: 34440
-    Mana: 3645 start, 2445 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  39387
+    Total Dmg/10R: 79128
+    Mana: 3645 start, 2145 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  445
@@ -9897,17 +9876,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3382 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6888 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17527
-    Total Dmg/10R: 35208
-    Mana: 3671 start, 2471 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  40270
+    Total Dmg/10R: 80894
+    Mana: 3671 start, 2171 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  452
@@ -9972,17 +9951,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3382 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6888 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17527
-    Total Dmg/10R: 35208
-    Mana: 3698 start, 2498 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  40270
+    Total Dmg/10R: 80894
+    Mana: 3698 start, 2198 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  454
@@ -10047,17 +10026,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3382 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 6888 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17527
-    Total Dmg/10R: 35208
-    Mana: 3724 start, 2524 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  40270
+    Total Dmg/10R: 80894
+    Mana: 3724 start, 2224 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  458
@@ -10122,17 +10101,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3382 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7065 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  17527
-    Total Dmg/10R: 35208
-    Mana: 3751 start, 2551 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  40270
+    Total Dmg/10R: 80894
+    Mana: 3751 start, 2251 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  460
@@ -10197,17 +10176,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7241 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18296
-    Total Dmg/10R: 36746
-    Mana: 3777 start, 2577 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42036
+    Total Dmg/10R: 84426
+    Mana: 3777 start, 2277 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  462
@@ -10272,17 +10251,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7241 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18296
-    Total Dmg/10R: 36746
-    Mana: 3804 start, 2604 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42036
+    Total Dmg/10R: 84426
+    Mana: 3804 start, 2304 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  466
@@ -10347,17 +10326,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7418 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18296
-    Total Dmg/10R: 36746
-    Mana: 3830 start, 2630 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42036
+    Total Dmg/10R: 84426
+    Mana: 3830 start, 2330 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  468
@@ -10422,17 +10401,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3536 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7418 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18296
-    Total Dmg/10R: 36746
-    Mana: 3857 start, 2657 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42036
+    Total Dmg/10R: 84426
+    Mana: 3857 start, 2357 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  470
@@ -10497,17 +10476,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7418 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18680
-    Total Dmg/10R: 37515
-    Mana: 3883 start, 2683 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42919
+    Total Dmg/10R: 86193
+    Mana: 3883 start, 2383 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  479
@@ -10572,17 +10551,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7594 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18680
-    Total Dmg/10R: 37515
-    Mana: 3910 start, 2710 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42919
+    Total Dmg/10R: 86193
+    Mana: 3910 start, 2410 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  481
@@ -10647,17 +10626,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7594 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18680
-    Total Dmg/10R: 37515
-    Mana: 3936 start, 2736 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42919
+    Total Dmg/10R: 86193
+    Mana: 3936 start, 2436 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  483
@@ -10722,17 +10701,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7594 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18680
-    Total Dmg/10R: 37515
-    Mana: 3963 start, 2763 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42919
+    Total Dmg/10R: 86193
+    Mana: 3963 start, 2463 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  487
@@ -10797,17 +10776,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7594 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18680
-    Total Dmg/10R: 37515
-    Mana: 3989 start, 2789 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42919
+    Total Dmg/10R: 86193
+    Mana: 3989 start, 2489 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  489
@@ -10872,17 +10851,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3613 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 7771 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  18680
-    Total Dmg/10R: 37515
-    Mana: 4016 start, 2816 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  42919
+    Total Dmg/10R: 86193
+    Mana: 4016 start, 2516 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  491
@@ -10947,17 +10926,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3766 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8301 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19449
-    Total Dmg/10R: 39052
-    Mana: 4195 start, 2995 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  44686
+    Total Dmg/10R: 89725
+    Mana: 4195 start, 2695 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  495
@@ -11022,17 +11001,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3766 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8301 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19449
-    Total Dmg/10R: 39052
-    Mana: 4223 start, 3023 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  44686
+    Total Dmg/10R: 89725
+    Mana: 4223 start, 2723 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  497
@@ -11097,17 +11076,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8478 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4250 start, 3050 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4250 start, 2750 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  504
@@ -11172,17 +11151,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8478 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4278 start, 3078 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4278 start, 2778 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  508
@@ -11247,17 +11226,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8478 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4305 start, 3105 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4305 start, 2805 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  510
@@ -11322,17 +11301,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8654 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4333 start, 3133 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4333 start, 2833 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  512
@@ -11397,17 +11376,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8301 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4201 start, 3001 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4201 start, 2701 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  516
@@ -11472,17 +11451,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8301 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4228 start, 3028 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4228 start, 2728 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  518
@@ -11547,17 +11526,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8478 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4254 start, 3054 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4254 start, 2754 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  520
@@ -11622,17 +11601,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 3843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 8478 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  19833
-    Total Dmg/10R: 39821
-    Mana: 4281 start, 3081 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  45569
+    Total Dmg/10R: 91491
+    Mana: 4281 start, 2781 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  524
@@ -11697,17 +11676,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9007 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4470 start, 3270 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4470 start, 2970 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  531
@@ -11772,17 +11751,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9184 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4498 start, 3298 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4498 start, 2998 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  533
@@ -11847,17 +11826,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9184 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4525 start, 3325 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4525 start, 3025 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  537
@@ -11922,17 +11901,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9184 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4553 start, 3353 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4553 start, 3053 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  539
@@ -11997,17 +11976,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9361 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4580 start, 3380 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4580 start, 3080 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  541
@@ -12072,17 +12051,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9361 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4608 start, 3408 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4608 start, 3108 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  545
@@ -12147,17 +12126,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9361 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4635 start, 3435 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4635 start, 3135 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  547
@@ -12222,17 +12201,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4074 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9361 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  20986
-    Total Dmg/10R: 42127
-    Mana: 4663 start, 3463 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  48218
+    Total Dmg/10R: 96790
+    Mana: 4663 start, 3163 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  549
@@ -12297,17 +12276,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4151 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9537 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  21371
-    Total Dmg/10R: 42896
-    Mana: 4690 start, 3490 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  49101
+    Total Dmg/10R: 98556
+    Mana: 4690 start, 3190 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  558
@@ -12372,17 +12351,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4151 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9537 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  21371
-    Total Dmg/10R: 42896
-    Mana: 4718 start, 3518 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  49101
+    Total Dmg/10R: 98556
+    Mana: 4718 start, 3218 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  560
@@ -12447,17 +12426,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9891 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22140
-    Total Dmg/10R: 44433
-    Mana: 4745 start, 3545 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  50868
+    Total Dmg/10R: 102089
+    Mana: 4745 start, 3245 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  562
@@ -12522,17 +12501,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9891 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22140
-    Total Dmg/10R: 44433
-    Mana: 4773 start, 3573 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  50868
+    Total Dmg/10R: 102089
+    Mana: 4773 start, 3273 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  566
@@ -12597,17 +12576,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9891 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22140
-    Total Dmg/10R: 44433
-    Mana: 4800 start, 3600 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  50868
+    Total Dmg/10R: 102089
+    Mana: 4800 start, 3300 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  568
@@ -12672,17 +12651,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9891 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22140
-    Total Dmg/10R: 44433
-    Mana: 4828 start, 3628 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  50868
+    Total Dmg/10R: 102089
+    Mana: 4828 start, 3328 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  570
@@ -12747,17 +12726,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9891 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22140
-    Total Dmg/10R: 44433
-    Mana: 4855 start, 3655 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  50868
+    Total Dmg/10R: 102089
+    Mana: 4855 start, 3355 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  574
@@ -12822,17 +12801,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4305 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 9891 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22140
-    Total Dmg/10R: 44433
-    Mana: 4883 start, 3683 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  50868
+    Total Dmg/10R: 102089
+    Mana: 4883 start, 3383 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  576
@@ -12897,17 +12876,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4381 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10067 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22524
-    Total Dmg/10R: 45202
-    Mana: 4910 start, 3710 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  51751
+    Total Dmg/10R: 103855
+    Mana: 4910 start, 3410 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  583
@@ -12972,17 +12951,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4381 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10067 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22524
-    Total Dmg/10R: 45202
-    Mana: 4938 start, 3738 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  51751
+    Total Dmg/10R: 103855
+    Mana: 4938 start, 3438 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  587
@@ -13047,17 +13026,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4381 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10067 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22524
-    Total Dmg/10R: 45202
-    Mana: 4965 start, 3765 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  51751
+    Total Dmg/10R: 103855
+    Mana: 4965 start, 3465 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  589
@@ -13122,17 +13101,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4381 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10067 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  22524
-    Total Dmg/10R: 45202
-    Mana: 4993 start, 3793 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  51751
+    Total Dmg/10R: 103855
+    Mana: 4993 start, 3493 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  591
@@ -13197,17 +13176,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4535 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10420 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23293
-    Total Dmg/10R: 46740
-    Mana: 5203 start, 4003 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  53517
+    Total Dmg/10R: 107388
+    Mana: 5203 start, 3703 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  595
@@ -13272,17 +13251,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4535 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10420 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23293
-    Total Dmg/10R: 46740
-    Mana: 5232 start, 4032 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  53517
+    Total Dmg/10R: 107388
+    Mana: 5232 start, 3732 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  597
@@ -13347,17 +13326,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4535 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10420 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23293
-    Total Dmg/10R: 46740
-    Mana: 5260 start, 4060 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  53517
+    Total Dmg/10R: 107388
+    Mana: 5260 start, 3760 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  599
@@ -13422,17 +13401,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4535 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10420 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23293
-    Total Dmg/10R: 46740
-    Mana: 5289 start, 4089 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  53517
+    Total Dmg/10R: 107388
+    Mana: 5289 start, 3789 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  603
@@ -13497,17 +13476,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4612 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10597 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23677
-    Total Dmg/10R: 47508
-    Mana: 5317 start, 4117 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  54400
+    Total Dmg/10R: 109154
+    Mana: 5317 start, 3817 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  610
@@ -13572,17 +13551,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4612 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10597 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23677
-    Total Dmg/10R: 47508
-    Mana: 5346 start, 4146 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  54400
+    Total Dmg/10R: 109154
+    Mana: 5346 start, 3846 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  612
@@ -13647,17 +13626,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4612 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10597 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23677
-    Total Dmg/10R: 47508
-    Mana: 5185 start, 3985 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  54400
+    Total Dmg/10R: 109154
+    Mana: 5185 start, 3685 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  616
@@ -13722,17 +13701,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4612 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10597 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23677
-    Total Dmg/10R: 47508
-    Mana: 5213 start, 4013 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  54400
+    Total Dmg/10R: 109154
+    Mana: 5213 start, 3713 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  618
@@ -13797,17 +13776,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4612 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10597 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23677
-    Total Dmg/10R: 47508
-    Mana: 5240 start, 4040 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  54400
+    Total Dmg/10R: 109154
+    Mana: 5240 start, 3740 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  620
@@ -13872,17 +13851,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4612 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10597 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  23677
-    Total Dmg/10R: 47508
-    Mana: 5268 start, 4068 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  54400
+    Total Dmg/10R: 109154
+    Mana: 5268 start, 3768 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  624
@@ -13947,17 +13926,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4766 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10950 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24446
-    Total Dmg/10R: 49046
-    Mana: 5488 start, 4288 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  56166
+    Total Dmg/10R: 112686
+    Mana: 5488 start, 3988 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  626
@@ -14022,17 +14001,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4766 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 10950 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24446
-    Total Dmg/10R: 49046
-    Mana: 5517 start, 4317 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  56166
+    Total Dmg/10R: 112686
+    Mana: 5517 start, 4017 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  628
@@ -14097,17 +14076,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5545 start, 4345 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5545 start, 4045 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  637
@@ -14172,17 +14151,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5574 start, 4374 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5574 start, 4074 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  639
@@ -14247,17 +14226,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5602 start, 4402 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5602 start, 4102 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  641
@@ -14322,17 +14301,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5631 start, 4431 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5631 start, 4131 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  645
@@ -14397,17 +14376,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5659 start, 4459 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5659 start, 4159 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  647
@@ -14472,17 +14451,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5688 start, 4488 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5688 start, 4188 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  649
@@ -14547,17 +14526,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5716 start, 4516 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5716 start, 4216 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  653
@@ -14622,17 +14601,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 106 | Dmg/Turn: 4843 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11127 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  24830
-    Total Dmg/10R: 49815
-    Mana: 5745 start, 4545 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  57049
+    Total Dmg/10R: 114453
+    Mana: 5745 start, 4245 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  655
@@ -14697,17 +14676,17 @@ EYUM TTRPG - AFFINITY: STORM MAGE (AMAZING GEAR)
 
   DAMAGE:
     Attacks/Turn: 14
-    Magic Dmg/Cast: 106 | Dmg/Turn: 5073 (x1200 mana)
+    Magic Dmg/Cast: 206 | Dmg/Turn: 11657 (x1500 mana)
     Spell: Maelstrom (Storm)
     Skipped spells:
       Tempest Strike: dmg=90 mana=12 (lower_damage)
-      Storm Call: dmg=44 mana=40 (lower_damage)
-      Thunderstorm: dmg=60 mana=50 (lower_damage)
-      Tempest: dmg=76 mana=70 (lower_damage)
-      Hurricane Aura: dmg=91 mana=120 (lower_damage)
-    Total Dmg/5R:  25983
-    Total Dmg/10R: 52121
-    Mana: 5773 start, 4573 after 10R (cast magic 10/10 rounds)
+      Storm Call: dmg=58 mana=40 (lower_damage)
+      Thunderstorm: dmg=88 mana=50 (lower_damage)
+      Tempest: dmg=118 mana=70 (lower_damage)
+      Hurricane Aura: dmg=162 mana=120 (lower_damage)
+    Total Dmg/5R:  59699
+    Total Dmg/10R: 119751
+    Mana: 5773 start, 4273 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  662

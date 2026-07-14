@@ -171,7 +171,7 @@ def parse_spell_table(filepath):
                 mana = int(row[mana_idx]) if mana_idx < len(row) else 0
             except (ValueError, IndexError):
                 continue
-            spells[name] = {
+            spells[f"{name}||{row[aff_idx] if aff_idx < len(row) else ''}"] = {
                 'mana': mana,
                 'range': row[range_idx] if range_idx < len(row) else '',
                 'affinity': row[aff_idx] if aff_idx < len(row) else '',
@@ -474,13 +474,18 @@ def sync_spells(log_lines, log):
     new_spells = {}
     not_found = []
 
-    for hname, hdata in handbook.items():
+    for hkey, hdata in handbook.items():
+        # hkey is "SpellName||Affinity" — split to get the name for matching
+        hname = hkey.split('||')[0]
+        haff = hkey.split('||')[1] if '||' in hkey else ''
         if hname in json_index:
-            # Update existing spell
+            # Find matching affinity entry (preferred) or fall back to first
+            json_entries = json_index[hname]
+            matching = [(a, s) for a, s in json_entries if a.lower() == haff.lower()]
+            target_entries = matching if matching else json_entries
             info = extract_spell_info(hdata['desc'], hdata['prereq'], hdata['range'])
             upcast = parse_upcast(hdata['upcast'])
-
-            for aff, s in json_index[hname]:
+            for aff, s in target_entries:
                 diffs = []
                 if s.get('mana') != hdata['mana']:
                     diffs.append(f"mana: {s['mana']} -> {hdata['mana']}")
@@ -519,8 +524,9 @@ def sync_spells(log_lines, log):
             new_spells[hname] = hdata
 
     # Check for spells in JSON but not handbook
+    handbook_names = {k.split('||')[0] for k in handbook.keys()}
     for base, entries in json_index.items():
-        if base not in handbook:
+        if base not in handbook_names:
             for aff, s in entries:
                 not_found.append(f"  {s['name']} ({aff})")
 
@@ -868,11 +874,13 @@ def run_update(win=None):
     import sys as _sys
     _sys.path.insert(0, SCRIPT_DIR)
     sink = LogSink(win)
+    quiet = '--quiet' in _sys.argv
 
     ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    sink.log(f"EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER", 'bold')
-    sink.log(f"Run at: {ts}")
-    sink.log("=" * 70)
+    if not quiet:
+        sink.log(f"EYUM TTRPG — UNIVERSAL HANDBOOK SYNCER", 'bold')
+        sink.log(f"Run at: {ts}")
+        sink.log("=" * 70)
 
     # Redirect print to sink for GUI output
     _builtin_print = __builtins__.print if hasattr(__builtins__, 'print') else print
@@ -885,6 +893,8 @@ def run_update(win=None):
             tag = 'green'
         elif 'updated' in msg.lower() or 'synced' in msg.lower() or 'up to date' in msg.lower():
             tag = 'green'
+        if quiet and tag == 'normal':
+            return  # Suppress verbose info in quiet mode
         sink.log(msg, tag)
     import builtins
     builtins.print = _print
@@ -1051,11 +1061,14 @@ def sync_paths(log_lines, log):
 
 
 def main():
-    try:
-        from console_gui import run_with_gui
-        run_with_gui("Eyum Handbook Sync", run_update, auto_close=True, close_delay=1)
-    except ImportError:
+    if '--no-gui' in sys.argv:
         run_update(None)
+    else:
+        try:
+            from console_gui import run_with_gui
+            run_with_gui("Eyum Handbook Sync", run_update, auto_close=True, close_delay=1)
+        except ImportError:
+            run_update(None)
 
 
 if __name__ == '__main__':
