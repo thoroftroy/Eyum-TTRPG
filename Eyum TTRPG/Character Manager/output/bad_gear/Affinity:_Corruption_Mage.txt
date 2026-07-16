@@ -117,7 +117,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 3 (Bad Gear)
 ============================================================
 
-  Changes: Level 2→3 | Stats: CON 12→13, WIS 16→17, INT 25→26 | Combat: Prof +1→+2 | Pools: +1 Vit die (now 4d8); +1 HP die (now 4d6); +1 Mana die (now 4d6) | Feats: gained Toughness | Affinities: Corruption 16→18, Earth 3→7 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 1)
+  Changes: Level 2→3 | Stats: CON 12→13, WIS 16→17, INT 25→26 | Combat: Prof +1→+2 | Pools: +1 Vit die (now 4d8); +1 HP die (now 4d6); +1 Mana die (now 4d6) | Feats: gained Toughness | Affinities: Earth 3→7, Corruption 16→18 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 1)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -306,7 +306,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 6 (Bad Gear)
 ============================================================
 
-  Changes: Level 5→6 | Stats: CON 13→14, WIS 17→18, INT 26→27 | Combat: Prof +2→+3 | Pools: +1 Vit die (now 7d6); +1 HP die (now 7d6); +1 Mana die (now 7d8) | Feats: gained Mana Flow | Affinities: Corruption 19→22, Earth 7→8 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 2)
+  Changes: Level 5→6 | Stats: CON 13→14, WIS 17→18, INT 26→27 | Combat: Prof +2→+3 | Pools: +1 Vit die (now 7d6); +1 HP die (now 7d6); +1 Mana die (now 7d8) | Feats: gained Mana Flow | Affinities: Earth 7→8, Corruption 19→22 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 2)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -505,7 +505,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 9 (Bad Gear)
 ============================================================
 
-  Changes: Level 8→9 | Stats: CON 14→15, WIS 18→19, INT 27→28 | Combat: Prof +3→+4 | Pools: +1 Vit die (now 10d6); +1 HP die (now 10d6); +1 Mana die (now 10d8) | Feats: gained Stone Skin | Affinities: Corruption 25→27, Earth 8→10 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 3)
+  Changes: Level 8→9 | Stats: CON 14→15, WIS 18→19, INT 27→28 | Combat: Prof +3→+4 | Pools: +1 Vit die (now 10d6); +1 HP die (now 10d6); +1 Mana die (now 10d8) | Feats: gained Stone Skin | Affinities: Earth 8→10, Corruption 25→27 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 3)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -572,7 +572,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 10 (Bad Gear)
 ============================================================
 
-  Changes: Level 9→10 | Stats: CON 15→17, WIS 19→20, INT 28→29 | Combat: AP 1→2 | Pools: +1 Vit die (now 11d6); +1 HP die (now 11d6); +1 Mana die (now 11d8) | Feats: gained Armor Training | Affinities: Corruption 27→28, Earth 10→8 | Skill Tree: +1 STP in Magical→Magician (now Lvl 3)
+  Changes: Level 9→10 | Stats: CON 15→17, WIS 19→20, INT 28→29 | Combat: AP 1→2 | Pools: +1 Vit die (now 11d6); +1 HP die (now 11d6); +1 Mana die (now 11d8) | Feats: gained Armor Training | Affinities: Earth 10→8, Corruption 27→28 | Skill Tree: +1 STP in Magical→Magician (now Lvl 3)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -706,7 +706,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 12 (Bad Gear)
 ============================================================
 
-  Changes: Level 11→12 | Stats: CON 17→18, WIS 20→21, INT 29→30 | Combat: Prof +4→+5 | Pools: +1 Vit die (now 13d6); +1 HP die (now 13d6); +1 Mana die (now 13d8) | Feats: gained Stone Skin | Affinities: Corruption 38→41, Earth 8→10 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 4) | Damage: Magic Dmg 1→3
+  Changes: Level 11→12 | Stats: CON 17→18, WIS 20→21, INT 29→30 | Combat: Prof +4→+5 | Pools: +1 Vit die (now 13d6); +1 HP die (now 13d6); +1 Mana die (now 13d8) | Feats: gained Stone Skin | Affinities: Earth 8→10, Corruption 38→41 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 4) | Damage: Magic Dmg 1→3
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -731,13 +731,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 95 | Dmg/Turn: 175 (x35 mana)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 166 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+80/cast)
+    Secondary: Black Binding x2 casts (+76/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  636
-    Total Dmg/10R: 731
+    Total Dmg/5R:  601
+    Total Dmg/10R: 691
     Mana: 171 start, 1 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -798,13 +798,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 95 | Dmg/Turn: 175 (x35 mana)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 166 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+80/cast)
+    Secondary: Black Binding x2 casts (+76/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  636
-    Total Dmg/10R: 1111
+    Total Dmg/5R:  601
+    Total Dmg/10R: 1051
     Mana: 199 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -865,13 +865,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 98 | Dmg/Turn: 180 (x35 mana)
+    Magic Dmg/Cast: 93 | Dmg/Turn: 171 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+82/cast)
+    Secondary: Black Binding x2 casts (+78/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  655
-    Total Dmg/10R: 1145
+    Total Dmg/5R:  620
+    Total Dmg/10R: 1085
     Mana: 213 start, 15 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -907,7 +907,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 15 (Bad Gear)
 ============================================================
 
-  Changes: Level 14→15 | Stats: CON 18→17, WIS 21→22, INT 30→31 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Linguist | Affinities: Corruption 42→44, Mud 0→2, Dust 0→2, Metal 0→2 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 5)
+  Changes: Level 14→15 | Stats: CON 18→17, WIS 21→22, INT 30→31 | Combat: Prof +5→+6 | Pools: +1 Vit die (now 16d4); +1 HP die (now 16d6); +1 Mana die (now 16d0) | Feats: gained Linguist | Affinities: Mud 0→2, Metal 0→2, Corruption 42→44, Dust 0→2 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 5)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -932,13 +932,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 95 | Dmg/Turn: 175 (x35 mana)
+    Magic Dmg/Cast: 90 | Dmg/Turn: 166 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+80/cast)
+    Secondary: Black Binding x2 casts (+76/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  512
-    Total Dmg/10R: 512
+    Total Dmg/5R:  482
+    Total Dmg/10R: 482
     Mana: 244 start, 2 after 10R (cast magic 2/10 rounds)
 
   RESOURCES:
@@ -1002,13 +1002,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 98 | Dmg/Turn: 180 (x35 mana)
+    Magic Dmg/Cast: 93 | Dmg/Turn: 171 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+82/cast)
+    Secondary: Black Binding x2 casts (+78/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  722
-    Total Dmg/10R: 722
+    Total Dmg/5R:  682
+    Total Dmg/10R: 682
     Mana: 259 start, 3 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -1072,13 +1072,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 98 | Dmg/Turn: 180 (x35 mana)
+    Magic Dmg/Cast: 93 | Dmg/Turn: 171 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+82/cast)
+    Secondary: Black Binding x2 casts (+78/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  820
-    Total Dmg/10R: 918
+    Total Dmg/5R:  775
+    Total Dmg/10R: 868
     Mana: 275 start, 5 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -1117,7 +1117,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 18 (Bad Gear)
 ============================================================
 
-  Changes: Level 17→18 | Stats: CON 17→18, INT 31→32 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Save or Don't Suck | Affinities: Obsidian 0→2, Corruption 45→50, Quake 0→2 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 6)
+  Changes: Level 17→18 | Stats: CON 17→18, INT 31→32 | Combat: Prof +6→+7 | Pools: +1 Vit die (now 19d4); +1 HP die (now 19d6); +1 Mana die (now 19d0) | Feats: gained Save or Don't Suck | Affinities: Obsidian 0→2, Quake 0→2, Corruption 45→50 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 6)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1142,13 +1142,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 98 | Dmg/Turn: 180 (x35 mana)
+    Magic Dmg/Cast: 93 | Dmg/Turn: 171 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+82/cast)
+    Secondary: Black Binding x2 casts (+78/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  820
-    Total Dmg/10R: 1114
+    Total Dmg/5R:  775
+    Total Dmg/10R: 1054
     Mana: 290 start, 6 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -1214,13 +1214,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 100 | Dmg/Turn: 183 (x35 mana)
+    Magic Dmg/Cast: 95 | Dmg/Turn: 174 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+83/cast)
+    Secondary: Black Binding x2 casts (+78/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  834
-    Total Dmg/10R: 1334
+    Total Dmg/5R:  789
+    Total Dmg/10R: 1264
     Mana: 326 start, 28 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1286,13 +1286,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 100 | Dmg/Turn: 267 (x35 mana)
+    Magic Dmg/Cast: 95 | Dmg/Turn: 252 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x3 casts (+83/cast)
+    Secondary: Black Binding x3 casts (+78/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1000
-    Total Dmg/10R: 1000
+    Total Dmg/5R:  947
+    Total Dmg/10R: 947
     Mana: 363 start, 0 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -1333,7 +1333,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 21 (Bad Gear)
 ============================================================
 
-  Changes: Level 20→21 | Stats: WIS 24→23, INT 32→34 | Combat: Prof +7→+8 | Pools: +1 Vit die (now 22d4); +1 HP die (now 22d6); +1 Mana die (now 22d2) | Feats: gained Overdrive | Affinities: Corruption 51→53, Earth 10→11 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 7)
+  Changes: Level 20→21 | Stats: WIS 24→23, INT 32→34 | Combat: Prof +7→+8 | Pools: +1 Vit die (now 22d4); +1 HP die (now 22d6); +1 Mana die (now 22d2) | Feats: gained Overdrive | Affinities: Earth 10→11, Corruption 51→53 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 7)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1358,13 +1358,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 97 | Dmg/Turn: 259 (x35 mana)
+    Magic Dmg/Cast: 92 | Dmg/Turn: 245 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x3 casts (+81/cast)
+    Secondary: Black Binding x3 casts (+76/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  876
-    Total Dmg/10R: 876
+    Total Dmg/5R:  828
+    Total Dmg/10R: 828
     Mana: 359 start, 3 after 10R (cast magic 4/10 rounds)
 
   RESOURCES:
@@ -1430,13 +1430,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 99 | Dmg/Turn: 263 (x35 mana)
+    Magic Dmg/Cast: 94 | Dmg/Turn: 249 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x3 casts (+82/cast)
+    Secondary: Black Binding x3 casts (+77/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  987
-    Total Dmg/10R: 1086
+    Total Dmg/5R:  934
+    Total Dmg/10R: 1028
     Mana: 375 start, 5 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -1502,13 +1502,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 2
-    Magic Dmg/Cast: 102 | Dmg/Turn: 271 (x35 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 256 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x3 casts (+84/cast)
+    Secondary: Black Binding x3 casts (+79/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1016
-    Total Dmg/10R: 1424
+    Total Dmg/5R:  961
+    Total Dmg/10R: 1349
     Mana: 392 start, 1 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -1549,7 +1549,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 24 (Bad Gear)
 ============================================================
 
-  Changes: Level 23→24 | Stats: CON 19→20, INT 34→35 | Combat: BAp 3→4, Prof +8→+9 | Pools: +1 Vit die (now 25d4); +1 HP die (now 25d6); +1 Mana die (now 25d2) | Feats: gained Affinity Master | Affinities: Corruption 54→60, Water 3→5, Earth 11→14, Air 3→5, Fire 3→5 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 8)
+  Changes: Level 23→24 | Stats: CON 19→20, INT 34→35 | Combat: BAp 3→4, Prof +8→+9 | Pools: +1 Vit die (now 25d4); +1 HP die (now 25d6); +1 Mana die (now 25d2) | Feats: gained Affinity Master | Affinities: Water 3→5, Earth 11→14, Corruption 54→60, Air 3→5, Fire 3→5 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 8)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1574,13 +1574,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 102 | Dmg/Turn: 355 (x35 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 335 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x4 casts (+84/cast)
+    Secondary: Black Binding x4 casts (+79/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  847
-    Total Dmg/10R: 1357
+    Total Dmg/5R:  803
+    Total Dmg/10R: 1288
     Mana: 408 start, 110 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1646,13 +1646,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 102 | Dmg/Turn: 355 (x35 mana)
+    Magic Dmg/Cast: 97 | Dmg/Turn: 335 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x4 casts (+84/cast)
+    Secondary: Black Binding x4 casts (+79/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1184
-    Total Dmg/10R: 1694
+    Total Dmg/5R:  1121
+    Total Dmg/10R: 1606
     Mana: 529 start, 31 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1718,13 +1718,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 532 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 513 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+129/cast)
+    Secondary: Corrupt Dominion x4 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1245
-    Total Dmg/10R: 1975
+    Total Dmg/5R:  1201
+    Total Dmg/10R: 1906
     Mana: 549 start, 191 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1765,7 +1765,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 27 (Bad Gear)
 ============================================================
 
-  Changes: Level 26→27 | Stats: CON 20→19, WIS 23→24, INT 35→36 | Combat: Prof +9→+10 | Pools: +1 Vit die (now 28d4); +1 HP die (now 28d6); +1 Mana die (now 28d0) | Feats: gained Weapon Master | Affinities: Corruption 61→63, Earth 14→15 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 9)
+  Changes: Level 26→27 | Stats: CON 20→19, WIS 23→24, INT 35→36 | Combat: Prof +9→+10 | Pools: +1 Vit die (now 28d4); +1 HP die (now 28d6); +1 Mana die (now 28d0) | Feats: gained Weapon Master | Affinities: Earth 14→15, Corruption 61→63 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 9)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -1790,13 +1790,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 532 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 513 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+129/cast)
+    Secondary: Corrupt Dominion x4 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1760
-    Total Dmg/10R: 2052
+    Total Dmg/5R:  1697
+    Total Dmg/10R: 1979
     Mana: 598 start, 1 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -1862,13 +1862,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 532 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 513 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+129/cast)
+    Secondary: Corrupt Dominion x4 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1760
-    Total Dmg/10R: 2490
+    Total Dmg/5R:  1697
+    Total Dmg/10R: 2402
     Mana: 654 start, 36 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1934,13 +1934,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 532 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 513 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+129/cast)
+    Secondary: Corrupt Dominion x4 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1760
-    Total Dmg/10R: 2490
+    Total Dmg/5R:  1697
+    Total Dmg/10R: 2402
     Mana: 676 start, 58 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -1981,7 +1981,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 30 (Bad Gear)
 ============================================================
 
-  Changes: Level 29→30 | Stats: CON 19→20, WIS 24→25, INT 36→38 | Combat: AP 3→4, Prof +10→+11 | Pools: +1 Vit die (now 31d4); +1 HP die (now 31d6); +1 Mana die (now 33d0) | Feats: gained Skill Expert | Affinities: Corruption 64→67, Earth 15→16 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 10)
+  Changes: Level 29→30 | Stats: CON 19→20, WIS 24→25, INT 36→38 | Combat: AP 3→4, Prof +10→+11 | Pools: +1 Vit die (now 31d4); +1 HP die (now 31d6); +1 Mana die (now 33d0) | Feats: gained Skill Expert | Affinities: Earth 15→16, Corruption 64→67 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 10)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2006,13 +2006,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 661 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 637 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+129/cast)
+    Secondary: Corrupt Dominion x5 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  1580
-    Total Dmg/10R: 1580
+    Total Dmg/5R:  1522
+    Total Dmg/10R: 1522
     Mana: 697 start, 5 after 10R (cast magic 2/10 rounds)
 
   RESOURCES:
@@ -2078,13 +2078,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 661 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 637 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+129/cast)
+    Secondary: Corrupt Dominion x5 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  2018
-    Total Dmg/10R: 2018
+    Total Dmg/5R:  1945
+    Total Dmg/10R: 1945
     Mana: 719 start, 6 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -2150,13 +2150,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 661 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 637 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+129/cast)
+    Secondary: Corrupt Dominion x5 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  2018
-    Total Dmg/10R: 2456
+    Total Dmg/5R:  1945
+    Total Dmg/10R: 2368
     Mana: 740 start, 6 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -2197,7 +2197,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 33 (Bad Gear)
 ============================================================
 
-  Changes: Level 32→33 | Stats: INT 38→39 | Combat: Prof +11→+12 | Pools: +1 Vit die (now 34d4); +1 HP die (now 34d6); +1 Mana die (now 36d0) | Affinities: Corruption 68→70, Earth 16→17 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 11)
+  Changes: Level 32→33 | Stats: INT 38→39 | Combat: Prof +11→+12 | Pools: +1 Vit die (now 34d4); +1 HP die (now 34d6); +1 Mana die (now 36d0) | Affinities: Earth 16→17, Corruption 68→70 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 11)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2222,13 +2222,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 146 | Dmg/Turn: 661 (x35 mana)
+    Magic Dmg/Cast: 141 | Dmg/Turn: 637 (x35 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+129/cast)
+    Secondary: Corrupt Dominion x5 casts (+124/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  2018
-    Total Dmg/10R: 2748
+    Total Dmg/5R:  1945
+    Total Dmg/10R: 2650
     Mana: 762 start, 14 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -2294,13 +2294,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 278 | Dmg/Turn: 521 (x140 mana)
+    Magic Dmg/Cast: 269 | Dmg/Turn: 502 (x140 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+243/cast)
+    Secondary: Corrupt Dominion x2 casts (+233/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3334
-    Total Dmg/10R: 3334
+    Total Dmg/5R:  3209
+    Total Dmg/10R: 3209
     Mana: 783 start, 11 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -2366,13 +2366,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 278 | Dmg/Turn: 521 (x140 mana)
+    Magic Dmg/Cast: 269 | Dmg/Turn: 502 (x140 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+243/cast)
+    Secondary: Corrupt Dominion x2 casts (+233/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3334
-    Total Dmg/10R: 3612
+    Total Dmg/5R:  3209
+    Total Dmg/10R: 3478
     Mana: 805 start, 5 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -2413,7 +2413,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 36 (Bad Gear)
 ============================================================
 
-  Changes: Level 35→36 | Stats: CON 20→21, INT 39→40 | Combat: Prof +12→+13 | Pools: +1 Vit die (now 37d4); +1 HP die (now 37d6); +1 Mana die (now 39d0) | Affinities: Corruption 71→74, Earth 17→18 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 12)
+  Changes: Level 35→36 | Stats: CON 20→21, INT 39→40 | Combat: Prof +12→+13 | Pools: +1 Vit die (now 37d4); +1 HP die (now 37d6); +1 Mana die (now 39d0) | Affinities: Earth 17→18, Corruption 71→74 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 12)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2438,13 +2438,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 278 | Dmg/Turn: 521 (x140 mana)
+    Magic Dmg/Cast: 269 | Dmg/Turn: 502 (x140 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+243/cast)
+    Secondary: Corrupt Dominion x2 casts (+233/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3334
-    Total Dmg/10R: 3612
+    Total Dmg/5R:  3209
+    Total Dmg/10R: 3478
     Mana: 826 start, 26 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -2510,13 +2510,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 278 | Dmg/Turn: 521 (x140 mana)
+    Magic Dmg/Cast: 269 | Dmg/Turn: 502 (x140 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+243/cast)
+    Secondary: Corrupt Dominion x2 casts (+233/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3334
-    Total Dmg/10R: 3890
+    Total Dmg/5R:  3209
+    Total Dmg/10R: 3747
     Mana: 848 start, 20 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -2582,13 +2582,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 343 | Dmg/Turn: 650 (x140 mana)
+    Magic Dmg/Cast: 333 | Dmg/Turn: 630 (x140 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x2 casts (+307/cast)
+    Secondary: Fallen Throne x2 casts (+297/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3557
-    Total Dmg/10R: 4243
+    Total Dmg/5R:  3450
+    Total Dmg/10R: 4116
     Mana: 869 start, 21 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -2629,7 +2629,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 39 (Bad Gear)
 ============================================================
 
-  Changes: Level 38→39 | Stats: INT 40→41 | Combat: Prof +13→+14 | Pools: +1 Vit die (now 40d4); +1 HP die (now 40d6); +1 Mana die (now 42d0) | Affinities: Corruption 85→87, Earth 18→19 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 13)
+  Changes: Level 38→39 | Stats: INT 40→41 | Combat: Prof +13→+14 | Pools: +1 Vit die (now 40d4); +1 HP die (now 40d6); +1 Mana die (now 42d0) | Affinities: Earth 18→19, Corruption 85→87 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 13)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2654,13 +2654,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 3
-    Magic Dmg/Cast: 343 | Dmg/Turn: 650 (x140 mana)
+    Magic Dmg/Cast: 333 | Dmg/Turn: 630 (x140 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x2 casts (+307/cast)
+    Secondary: Fallen Throne x2 casts (+297/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3557
-    Total Dmg/10R: 4586
+    Total Dmg/5R:  3450
+    Total Dmg/10R: 4449
     Mana: 891 start, 15 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -2726,13 +2726,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 292 | Dmg/Turn: 530 (x210 mana)
+    Magic Dmg/Cast: 169 | Dmg/Turn: 516 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+238/cast)
+    Secondary: Abyssal Chains x4 casts (+116/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3845
-    Total Dmg/10R: 3845
+    Total Dmg/5R:  3155
+    Total Dmg/10R: 3155
     Mana: 912 start, 34 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -2798,13 +2798,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 292 | Dmg/Turn: 530 (x210 mana)
+    Magic Dmg/Cast: 169 | Dmg/Turn: 516 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Black Binding x2 casts (+238/cast)
+    Secondary: Abyssal Chains x4 casts (+116/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  3845
-    Total Dmg/10R: 4137
+    Total Dmg/5R:  3155
+    Total Dmg/10R: 3324
     Mana: 934 start, 14 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -2845,7 +2845,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 42 (Bad Gear)
 ============================================================
 
-  Changes: Level 41→42 | Stats: WIS 25→26 | Combat: Prof +14→+15 | Pools: +1 Vit die (now 43d4); +1 HP die (now 43d6); +1 Mana die (now 45d0) | Affinities: Corruption 88→91, Earth 19→20 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 14)
+  Changes: Level 41→42 | Stats: WIS 25→26 | Combat: Prof +14→+15 | Pools: +1 Vit die (now 43d4); +1 HP die (now 43d6); +1 Mana die (now 45d0) | Affinities: Earth 19→20, Corruption 88→91 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 14)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -2870,13 +2870,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 410 | Dmg/Turn: 767 (x210 mana)
+    Magic Dmg/Cast: 396 | Dmg/Turn: 738 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+357/cast)
+    Secondary: Corrupt Dominion x2 casts (+342/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  4906
-    Total Dmg/10R: 5726
+    Total Dmg/5R:  4716
+    Total Dmg/10R: 5508
     Mana: 1000 start, 18 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -2942,13 +2942,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 410 | Dmg/Turn: 767 (x210 mana)
+    Magic Dmg/Cast: 396 | Dmg/Turn: 738 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+357/cast)
+    Secondary: Corrupt Dominion x2 casts (+342/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  4906
-    Total Dmg/10R: 5726
+    Total Dmg/5R:  4716
+    Total Dmg/10R: 5508
     Mana: 1023 start, 41 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -3014,13 +3014,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 410 | Dmg/Turn: 767 (x210 mana)
+    Magic Dmg/Cast: 396 | Dmg/Turn: 738 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+357/cast)
+    Secondary: Corrupt Dominion x2 casts (+342/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  5620
-    Total Dmg/10R: 5620
+    Total Dmg/5R:  5400
+    Total Dmg/10R: 5400
     Mana: 1045 start, 17 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3061,7 +3061,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 45 (Bad Gear)
 ============================================================
 
-  Changes: Level 44→45 | Stats: CON 21→22, INT 42→43 | Combat: Prof +15→+16 | Pools: +1 Vit die (now 46d4); +1 HP die (now 46d6); +1 Mana die (now 48d0) | Affinities: Corruption 92→94, Earth 20→21 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 15)
+  Changes: Level 44→45 | Stats: CON 21→22, INT 42→43 | Combat: Prof +15→+16 | Pools: +1 Vit die (now 46d4); +1 HP die (now 46d6); +1 Mana die (now 48d0) | Affinities: Earth 20→21, Corruption 92→94 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 15)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3086,13 +3086,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 410 | Dmg/Turn: 767 (x210 mana)
+    Magic Dmg/Cast: 396 | Dmg/Turn: 738 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+357/cast)
+    Secondary: Corrupt Dominion x2 casts (+342/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  5620
-    Total Dmg/10R: 5620
+    Total Dmg/5R:  5400
+    Total Dmg/10R: 5400
     Mana: 1068 start, 40 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
@@ -3158,13 +3158,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 428 | Dmg/Turn: 793 (x210 mana)
+    Magic Dmg/Cast: 413 | Dmg/Turn: 764 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x2 casts (+366/cast)
+    Secondary: Corrupt Dominion x2 casts (+351/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  5795
-    Total Dmg/10R: 6223
+    Total Dmg/5R:  5575
+    Total Dmg/10R: 5988
     Mana: 1090 start, 20 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -3277,7 +3277,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 48 (Bad Gear)
 ============================================================
 
-  Changes: Level 47→48 | Stats: WIS 26→27 | Combat: BAp 6→7, Prof +16→+17 | Pools: +1 Vit die (now 49d4); +1 HP die (now 49d6); +1 Mana die (now 51d0) | Affinities: Corruption 95→98, Earth 21→22 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 16)
+  Changes: Level 47→48 | Stats: WIS 26→27 | Combat: BAp 6→7, Prof +16→+17 | Pools: +1 Vit die (now 49d4); +1 HP die (now 49d6); +1 Mana die (now 51d0) | Affinities: Earth 21→22, Corruption 95→98 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 16)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3493,7 +3493,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 51 (Bad Gear)
 ============================================================
 
-  Changes: Level 50→51 | Stats: CON 22→23, INT 44→45 | Combat: Prof +17→+18 | Pools: +1 Vit die (now 52d4); +1 HP die (now 52d6); +1 Mana die (now 54d0) | Affinities: Corruption 99→101, Earth 22→23 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 17)
+  Changes: Level 50→51 | Stats: CON 22→23, INT 44→45 | Combat: Prof +17→+18 | Pools: +1 Vit die (now 52d4); +1 HP die (now 52d6); +1 Mana die (now 54d0) | Affinities: Earth 22→23, Corruption 99→101 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 17)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3709,7 +3709,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 54 (Bad Gear)
 ============================================================
 
-  Changes: Level 53→54 | Stats: INT 45→46 | Combat: Prof +18→+19 | Pools: +1 Vit die (now 55d4); +1 HP die (now 55d6); +1 Mana die (now 57d0) | Affinities: Corruption 102→105, Earth 23→24 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 18)
+  Changes: Level 53→54 | Stats: INT 45→46 | Combat: Prof +18→+19 | Pools: +1 Vit die (now 55d4); +1 HP die (now 55d6); +1 Mana die (now 57d0) | Affinities: Earth 23→24, Corruption 102→105 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 18)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3806,14 +3806,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 4
-    Magic Dmg/Cast: 536 | Dmg/Turn: 1004 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 979 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x2 casts (+468/cast)
+    Secondary: Abyssal Chains x7 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7360
-    Total Dmg/10R: 7360
-    Mana: 1293 start, 15 after 10R (cast magic 5/10 rounds)
+    Total Dmg/5R:  5545
+    Total Dmg/10R: 5545
+    Mana: 1293 start, 40 after 10R (cast magic 5/10 rounds)
 
   RESOURCES:
     Skill Points:  181
@@ -3878,14 +3878,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 536 | Dmg/Turn: 1004 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 979 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x2 casts (+468/cast)
+    Secondary: Abyssal Chains x7 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7360
-    Total Dmg/10R: 7360
-    Mana: 1315 start, 37 after 10R (cast magic 5/10 rounds)
+    Total Dmg/5R:  5545
+    Total Dmg/10R: 5743
+    Mana: 1315 start, 20 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
     Skill Points:  188
@@ -3925,7 +3925,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 57 (Bad Gear)
 ============================================================
 
-  Changes: Level 56→57 | Stats: WIS 27→28 | Combat: Prof +19→+20 | Pools: +1 Vit die (now 58d4); +1 HP die (now 58d6); +1 Mana die (now 60d0) | Affinities: Corruption 106→108, Earth 24→25 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 19)
+  Changes: Level 56→57 | Stats: WIS 27→28 | Combat: Prof +19→+20 | Pools: +1 Vit die (now 58d4); +1 HP die (now 58d6); +1 Mana die (now 60d0) | Affinities: Earth 24→25, Corruption 106→108 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 19)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -3950,13 +3950,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 8209
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 7900
     Mana: 1398 start, 3 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -4022,13 +4022,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 8209
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 7900
     Mana: 1421 start, 26 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -4094,13 +4094,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 8648
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 8325
     Mana: 1445 start, 8 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -4141,7 +4141,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 60 (Bad Gear)
 ============================================================
 
-  Changes: Level 59→60 | Stats: CON 23→24, INT 46→48 | Combat: AP 6→7, Prof +20→+21 | Pools: +1 Vit die (now 61d4); +1 HP die (now 61d6); +1 Mana die (now 63d0) | Affinities: Corruption 109→112, Earth 25→26 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 20)
+  Changes: Level 59→60 | Stats: CON 23→24, INT 46→48 | Combat: AP 6→7, Prof +20→+21 | Pools: +1 Vit die (now 61d4); +1 HP die (now 61d6); +1 Mana die (now 63d0) | Affinities: Earth 25→26, Corruption 109→112 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 20)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4166,13 +4166,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 8648
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 8325
     Mana: 1468 start, 31 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -4238,13 +4238,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 9087
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 8750
     Mana: 1492 start, 13 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4310,13 +4310,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 9087
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 8750
     Mana: 1515 start, 36 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -4357,7 +4357,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 63 (Bad Gear)
 ============================================================
 
-  Changes: Level 62→63 | Stats: WIS 28→29, INT 48→49 | Combat: Prof +21→+22 | Pools: +1 Vit die (now 64d4); +1 HP die (now 64d6); +1 Mana die (now 66d0) | Affinities: Corruption 113→115, Earth 26→27 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 21)
+  Changes: Level 62→63 | Stats: WIS 28→29, INT 48→49 | Combat: Prof +21→+22 | Pools: +1 Vit die (now 64d4); +1 HP die (now 64d6); +1 Mana die (now 66d0) | Affinities: Earth 26→27, Corruption 113→115 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 21)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4382,13 +4382,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 5
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1182 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1138 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x3 casts (+371/cast)
+    Secondary: Corrupt Dominion x3 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  7770
-    Total Dmg/10R: 9526
+    Total Dmg/5R:  7475
+    Total Dmg/10R: 9175
     Mana: 1539 start, 18 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -4573,7 +4573,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 66 (Bad Gear)
 ============================================================
 
-  Changes: Level 65→66 | Stats: WIS 29→28, INT 49→50 | Combat: Prof +22→+23 | Pools: +1 Vit die (now 67d4); +1 HP die (now 67d6); +1 Mana die (now 69d0) | Affinities: Corruption 116→119, Earth 27→28 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 22)
+  Changes: Level 65→66 | Stats: WIS 29→28, INT 49→50 | Combat: Prof +22→+23 | Pools: +1 Vit die (now 67d4); +1 HP die (now 67d6); +1 Mana die (now 69d0) | Affinities: Earth 27→28, Corruption 116→119 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 22)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -4789,7 +4789,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 69 (Bad Gear)
 ============================================================
 
-  Changes: Level 68→69 | Stats: INT 50→51 | Combat: Prof +23→+24 | Pools: +1 Vit die (now 70d4); +1 HP die (now 70d6); +1 Mana die (now 72d0) | Affinities: Corruption 120→122, Earth 28→29 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 23)
+  Changes: Level 68→69 | Stats: INT 50→51 | Combat: Prof +23→+24 | Pools: +1 Vit die (now 70d4); +1 HP die (now 70d6); +1 Mana die (now 72d0) | Affinities: Earth 28→29, Corruption 120→122 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 23)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5005,7 +5005,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 72 (Bad Gear)
 ============================================================
 
-  Changes: Level 71→72 | Stats: INT 51→52 | Combat: BAp 9→10, Prof +24→+25 | Pools: +1 Vit die (now 73d4); +1 HP die (now 73d6); +1 Mana die (now 75d0) | Affinities: Corruption 123→126, Earth 29→30 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 24)
+  Changes: Level 71→72 | Stats: INT 51→52 | Combat: BAp 9→10, Prof +24→+25 | Pools: +1 Vit die (now 73d4); +1 HP die (now 73d6); +1 Mana die (now 75d0) | Affinities: Earth 29→30, Corruption 123→126 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 24)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5102,13 +5102,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1495 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Corrupt Dominion x4 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  9625
-    Total Dmg/10R: 10503
+    Total Dmg/5R:  9260
+    Total Dmg/10R: 10110
     Mana: 1774 start, 12 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -5174,13 +5174,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1495 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Corrupt Dominion x4 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  9625
-    Total Dmg/10R: 10503
+    Total Dmg/5R:  9260
+    Total Dmg/10R: 10110
     Mana: 1797 start, 35 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -5221,7 +5221,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 75 (Bad Gear)
 ============================================================
 
-  Changes: Level 74→75 | Stats: WIS 29→30 | Combat: Prof +25→+26 | Pools: +1 Vit die (now 76d4); +1 HP die (now 76d6); +1 Mana die (now 78d0) | Affinities: Corruption 127→129, Earth 30→31 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 25)
+  Changes: Level 74→75 | Stats: WIS 29→30 | Combat: Prof +25→+26 | Pools: +1 Vit die (now 76d4); +1 HP die (now 76d6); +1 Mana die (now 78d0) | Affinities: Earth 30→31, Corruption 127→129 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 25)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5246,14 +5246,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1500 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Abyssal Chains x11 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  9625
-    Total Dmg/10R: 11820
-    Mana: 1899 start, 11 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  8150
+    Total Dmg/10R: 8744
+    Mana: 1899 start, 20 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
     Skill Points:  250
@@ -5318,14 +5318,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1500 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Abyssal Chains x11 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  9625
-    Total Dmg/10R: 11820
-    Mana: 1923 start, 35 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  8150
+    Total Dmg/10R: 8942
+    Mana: 1923 start, 2 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  252
@@ -5390,14 +5390,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1500 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Abyssal Chains x11 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  9625
-    Total Dmg/10R: 11820
-    Mana: 1948 start, 60 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  8150
+    Total Dmg/10R: 8942
+    Mana: 1948 start, 27 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  254
@@ -5437,7 +5437,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 78 (Bad Gear)
 ============================================================
 
-  Changes: Level 77→78 | Stats: INT 52→53 | Combat: Prof +26→+27 | Pools: +1 Vit die (now 79d4); +1 HP die (now 79d6); +1 Mana die (now 81d0) | Affinities: Corruption 130→133, Earth 31→32 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 26)
+  Changes: Level 77→78 | Stats: INT 52→53 | Combat: Prof +26→+27 | Pools: +1 Vit die (now 79d4); +1 HP die (now 79d6); +1 Mana die (now 81d0) | Affinities: Earth 31→32, Corruption 130→133 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 26)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5462,14 +5462,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1500 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Abyssal Chains x11 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  9625
-    Total Dmg/10R: 11820
-    Mana: 1972 start, 84 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  8150
+    Total Dmg/10R: 9140
+    Mana: 1972 start, 9 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  258
@@ -5534,14 +5534,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1554 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1500 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x4 casts (+371/cast)
+    Secondary: Abyssal Chains x11 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11550
-    Total Dmg/10R: 11550
-    Mana: 1997 start, 17 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  8150
+    Total Dmg/10R: 9140
+    Mana: 1997 start, 34 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  260
@@ -5653,7 +5653,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 81 (Bad Gear)
 ============================================================
 
-  Changes: Level 80→81 | Stats: INT 54→55 | Combat: Prof +27→+28 | Pools: +1 Vit die (now 82d4); +1 HP die (now 82d6); +1 Mana die (now 84d0) | Affinities: Corruption 134→136, Earth 32→33 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 27)
+  Changes: Level 80→81 | Stats: INT 54→55 | Combat: Prof +27→+28 | Pools: +1 Vit die (now 82d4); +1 HP die (now 82d6); +1 Mana die (now 84d0) | Affinities: Earth 32→33, Corruption 134→136 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 27)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -5869,7 +5869,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 84 (Bad Gear)
 ============================================================
 
-  Changes: Level 83→84 | Stats: CON 25→26 | Combat: Prof +28→+29 | Pools: +1 Vit die (now 85d4); +1 HP die (now 85d6); +1 Mana die (now 87d0) | Affinities: Corruption 137→140, Earth 33→34 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 28)
+  Changes: Level 83→84 | Stats: CON 25→26 | Combat: Prof +28→+29 | Pools: +1 Vit die (now 85d4); +1 HP die (now 85d6); +1 Mana die (now 87d0) | Affinities: Earth 33→34, Corruption 137→140 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 28)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6038,13 +6038,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1852 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Corrupt Dominion x5 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 12802
+    Total Dmg/5R:  11045
+    Total Dmg/10R: 12320
     Mana: 2168 start, 39 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -6085,7 +6085,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 87 (Bad Gear)
 ============================================================
 
-  Changes: Level 86→87 | Stats: INT 55→56 | Combat: Prof +29→+30 | Pools: +1 Vit die (now 88d4); +1 HP die (now 88d6); +1 Mana die (now 90d0) | Affinities: Corruption 141→143, Earth 34→35 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 29)
+  Changes: Level 86→87 | Stats: INT 55→56 | Combat: Prof +29→+30 | Pools: +1 Vit die (now 88d4); +1 HP die (now 88d6); +1 Mana die (now 90d0) | Affinities: Earth 34→35, Corruption 141→143 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 29)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6110,13 +6110,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 6
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1852 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Corrupt Dominion x5 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13241
+    Total Dmg/5R:  11045
+    Total Dmg/10R: 12745
     Mana: 2193 start, 22 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -6182,13 +6182,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1852 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Corrupt Dominion x5 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
+    Total Dmg/5R:  11045
+    Total Dmg/10R: 13170
     Mana: 2217 start, 4 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6254,13 +6254,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1852 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Corrupt Dominion x5 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
+    Total Dmg/5R:  11045
+    Total Dmg/10R: 13170
     Mana: 2242 start, 29 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6301,7 +6301,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 90 (Bad Gear)
 ============================================================
 
-  Changes: Level 89→90 | Stats: CON 26→27, INT 56→58 | Combat: AP 9→10, Prof +30→+31 | Pools: +1 Vit die (now 91d4); +1 HP die (now 91d6); +1 Mana die (now 93d0) | Affinities: Corruption 144→147, Earth 35→36 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 30)
+  Changes: Level 89→90 | Stats: CON 26→27, INT 56→58 | Combat: AP 9→10, Prof +30→+31 | Pools: +1 Vit die (now 91d4); +1 HP die (now 91d6); +1 Mana die (now 93d0) | Affinities: Earth 35→36, Corruption 144→147 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 30)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6326,13 +6326,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1852 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Corrupt Dominion x5 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
+    Total Dmg/5R:  11045
+    Total Dmg/10R: 13170
     Mana: 2266 start, 53 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6398,13 +6398,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 1852 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Corrupt Dominion x5 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
+    Total Dmg/5R:  11045
+    Total Dmg/10R: 13170
     Mana: 2291 start, 78 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -6470,14 +6470,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1890 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Abyssal Chains x14 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
-    Mana: 2315 start, 102 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10100
+    Total Dmg/10R: 10892
+    Mana: 2315 start, 19 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
     Skill Points:  304
@@ -6517,7 +6517,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 93 (Bad Gear)
 ============================================================
 
-  Changes: Level 92→93 | Stats: CON 27→26, WIS 30→31 | Combat: Prof +31→+32 | Pools: +1 Vit die (now 94d4); +1 HP die (now 94d6); +1 Mana die (now 96d0) | Affinities: Corruption 148→150, Earth 36→37 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 31)
+  Changes: Level 92→93 | Stats: CON 27→26, WIS 30→31 | Combat: Prof +31→+32 | Pools: +1 Vit die (now 94d4); +1 HP die (now 94d6); +1 Mana die (now 96d0) | Affinities: Earth 36→37, Corruption 148→150 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 31)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6542,14 +6542,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1890 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Abyssal Chains x14 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
-    Mana: 2340 start, 127 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10100
+    Total Dmg/10R: 11090
+    Mana: 2340 start, 2 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  308
@@ -6614,14 +6614,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 1925 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1890 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x5 casts (+371/cast)
+    Secondary: Abyssal Chains x14 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  11485
-    Total Dmg/10R: 13680
-    Mana: 2364 start, 151 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10100
+    Total Dmg/10R: 11090
+    Mana: 2364 start, 26 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  310
@@ -6686,14 +6686,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 536 | Dmg/Turn: 1940 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1890 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x4 casts (+468/cast)
+    Secondary: Abyssal Chains x14 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  12040
-    Total Dmg/10R: 14720
-    Mana: 2389 start, 1 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10100
+    Total Dmg/10R: 11090
+    Mana: 2389 start, 51 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  312
@@ -6733,7 +6733,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 96 (Bad Gear)
 ============================================================
 
-  Changes: Level 95→96 | Stats: CON 26→27, INT 58→59 | Combat: BAp 12→13, Prof +32→+33 | Pools: +1 Vit die (now 97d4); +1 HP die (now 97d6); +1 Mana die (now 99d0) | Affinities: Corruption 151→154, Earth 37→38 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 32)
+  Changes: Level 95→96 | Stats: CON 26→27, INT 58→59 | Combat: BAp 12→13, Prof +32→+33 | Pools: +1 Vit die (now 97d4); +1 HP die (now 97d6); +1 Mana die (now 99d0) | Affinities: Earth 37→38, Corruption 151→154 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 32)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -6758,14 +6758,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 536 | Dmg/Turn: 1940 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1890 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x4 casts (+468/cast)
+    Secondary: Abyssal Chains x14 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  12040
-    Total Dmg/10R: 14720
-    Mana: 2413 start, 25 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10100
+    Total Dmg/10R: 11090
+    Mana: 2413 start, 75 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  321
@@ -6830,14 +6830,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 536 | Dmg/Turn: 1940 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 1890 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Fallen Throne x4 casts (+468/cast)
+    Secondary: Abyssal Chains x14 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  12040
-    Total Dmg/10R: 14720
-    Mana: 2438 start, 50 after 10R (cast magic 10/10 rounds)
+    Total Dmg/5R:  10100
+    Total Dmg/10R: 11090
+    Mana: 2438 start, 100 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  323
@@ -6949,7 +6949,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 99 (Bad Gear)
 ============================================================
 
-  Changes: Level 98→99 | Stats: CON 27→28 | Combat: Prof +33→+34 | Pools: +1 Vit die (now 100d4); +1 HP die (now 100d6); +1 Mana die (now 102d0) | Affinities: Corruption 155→157, Earth 38→39 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 33)
+  Changes: Level 98→99 | Stats: CON 27→28 | Combat: Prof +33→+34 | Pools: +1 Vit die (now 100d4); +1 HP die (now 100d6); +1 Mana die (now 102d0) | Affinities: Earth 38→39, Corruption 155→157 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 33)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7165,7 +7165,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 102 (Bad Gear)
 ============================================================
 
-  Changes: Level 101→102 | Stats: INT 60→61 | Combat: Prof +34→+35 | Pools: +1 Vit die (now 103d4); +1 HP die (now 103d6); +1 Mana die (now 105d0) | Affinities: Corruption 158→161, Earth 39→40 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 34)
+  Changes: Level 101→102 | Stats: INT 60→61 | Combat: Prof +34→+35 | Pools: +1 Vit die (now 103d4); +1 HP die (now 103d6); +1 Mana die (now 105d0) | Affinities: Earth 39→40, Corruption 158→161 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 34)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7190,13 +7190,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2209 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Corrupt Dominion x6 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  13340
-    Total Dmg/10R: 15535
+    Total Dmg/5R:  12830
+    Total Dmg/10R: 14955
     Mana: 2560 start, 22 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7262,13 +7262,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 7
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2209 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Corrupt Dominion x6 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  13340
-    Total Dmg/10R: 15535
+    Total Dmg/5R:  12830
+    Total Dmg/10R: 14955
     Mana: 2585 start, 47 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7334,13 +7334,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2209 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Corrupt Dominion x6 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  13340
-    Total Dmg/10R: 15535
+    Total Dmg/5R:  12830
+    Total Dmg/10R: 14955
     Mana: 2609 start, 71 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7381,7 +7381,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 105 (Bad Gear)
 ============================================================
 
-  Changes: Level 104→105 | Stats: CON 28→27, WIS 31→32 | Combat: Prof +35→+36 | Pools: +1 Vit die (now 106d4); +1 HP die (now 106d6); +1 Mana die (now 108d0) | Affinities: Corruption 162→164, Earth 40→41 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 35)
+  Changes: Level 104→105 | Stats: CON 28→27, WIS 31→32 | Combat: Prof +35→+36 | Pools: +1 Vit die (now 106d4); +1 HP die (now 106d6); +1 Mana die (now 108d0) | Affinities: Earth 40→41, Corruption 162→164 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 35)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7406,13 +7406,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2209 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Corrupt Dominion x6 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  13340
-    Total Dmg/10R: 15535
+    Total Dmg/5R:  12830
+    Total Dmg/10R: 14955
     Mana: 2742 start, 204 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -7478,14 +7478,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2281 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Abyssal Chains x17 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  16008
-    Total Dmg/10R: 16008
-    Mana: 2767 start, 7 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  12055
+    Total Dmg/10R: 13045
+    Mana: 2767 start, 54 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  352
@@ -7550,14 +7550,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2281 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Abyssal Chains x17 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  16008
-    Total Dmg/10R: 16008
-    Mana: 2793 start, 33 after 10R (cast magic 6/10 rounds)
+    Total Dmg/5R:  12055
+    Total Dmg/10R: 13045
+    Mana: 2793 start, 80 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  354
@@ -7597,7 +7597,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 108 (Bad Gear)
 ============================================================
 
-  Changes: Level 107→108 | Stats: INT 61→62 | Combat: Prof +36→+37 | Pools: +1 Vit die (now 109d4); +1 HP die (now 109d6); +1 Mana die (now 111d0) | Affinities: Corruption 165→168, Earth 41→42 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 36)
+  Changes: Level 107→108 | Stats: INT 61→62 | Combat: Prof +36→+37 | Pools: +1 Vit die (now 109d4); +1 HP die (now 109d6); +1 Mana die (now 111d0) | Affinities: Earth 41→42, Corruption 165→168 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 36)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7622,14 +7622,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2281 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Abyssal Chains x17 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  16008
-    Total Dmg/10R: 16447
-    Mana: 2818 start, 16 after 10R (cast magic 7/10 rounds)
+    Total Dmg/5R:  12055
+    Total Dmg/10R: 13045
+    Mana: 2818 start, 105 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  358
@@ -7694,14 +7694,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2281 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Abyssal Chains x17 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  16008
-    Total Dmg/10R: 16886
-    Mana: 2844 start, 0 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  12055
+    Total Dmg/10R: 13045
+    Mana: 2844 start, 131 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  360
@@ -7766,14 +7766,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2281 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Abyssal Chains x17 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  16008
-    Total Dmg/10R: 16886
-    Mana: 2869 start, 25 after 10R (cast magic 8/10 rounds)
+    Total Dmg/5R:  12055
+    Total Dmg/10R: 13045
+    Mana: 2869 start, 156 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  362
@@ -7813,7 +7813,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 111 (Bad Gear)
 ============================================================
 
-  Changes: Level 110→111 | Stats: WIS 33→32, INT 62→63 | Combat: Prof +37→+38 | Pools: +1 Vit die (now 112d4); +1 HP die (now 112d6); +1 Mana die (now 114d0) | Affinities: Corruption 169→171, Earth 42→43 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 37)
+  Changes: Level 110→111 | Stats: WIS 33→32, INT 62→63 | Combat: Prof +37→+38 | Pools: +1 Vit die (now 112d4); +1 HP die (now 112d6); +1 Mana die (now 114d0) | Affinities: Earth 42→43, Corruption 169→171 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 37)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -7838,14 +7838,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2297 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2281 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x6 casts (+371/cast)
+    Secondary: Abyssal Chains x17 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  16008
-    Total Dmg/10R: 17325
-    Mana: 2895 start, 9 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  12055
+    Total Dmg/10R: 13045
+    Mana: 2895 start, 182 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  366
@@ -7982,13 +7982,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 2946 start, 83 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8029,7 +8029,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 114 (Bad Gear)
 ============================================================
 
-  Changes: Level 113→114 | Stats: INT 63→64 | Combat: Prof +38→+39 | Pools: +1 Vit die (now 115d4); +1 HP die (now 115d6); +1 Mana die (now 117d0) | Affinities: Corruption 172→175, Earth 43→44 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 38)
+  Changes: Level 113→114 | Stats: INT 63→64 | Combat: Prof +38→+39 | Pools: +1 Vit die (now 115d4); +1 HP die (now 115d6); +1 Mana die (now 117d0) | Affinities: Earth 43→44, Corruption 172→175 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 38)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8054,13 +8054,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 2971 start, 108 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8126,13 +8126,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 2997 start, 134 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8198,13 +8198,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 3022 start, 159 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8245,7 +8245,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 117 (Bad Gear)
 ============================================================
 
-  Changes: Level 116→117 | Stats: CON 28→29 | Combat: Prof +39→+40 | Pools: +1 Vit die (now 118d4); +1 HP die (now 118d6); +1 Mana die (now 120d0) | Affinities: Corruption 176→178, Earth 44→45 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 39)
+  Changes: Level 116→117 | Stats: CON 28→29 | Combat: Prof +39→+40 | Pools: +1 Vit die (now 118d4); +1 HP die (now 118d6); +1 Mana die (now 120d0) | Affinities: Earth 44→45, Corruption 176→178 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 39)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8270,13 +8270,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 3048 start, 185 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8342,13 +8342,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 3073 start, 210 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8414,13 +8414,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 8
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 3099 start, 236 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8461,7 +8461,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 120 (Bad Gear)
 ============================================================
 
-  Changes: Level 119→120 | Stats: CON 29→30, WIS 32→33, INT 64→65 | Combat: AP 12→13, BAp 15→16, Prof +40→+41 | Pools: +1 Vit die (now 121d4); +1 HP die (now 121d6); +1 Mana die (now 123d0) | Affinities: Corruption 179→182, Earth 45→46 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 40)
+  Changes: Level 119→120 | Stats: CON 29→30, WIS 32→33, INT 64→65 | Combat: AP 12→13, BAp 15→16, Prof +40→+41 | Pools: +1 Vit die (now 121d4); +1 HP die (now 121d6); +1 Mana die (now 123d0) | Affinities: Earth 45→46, Corruption 179→182 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 40)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8486,13 +8486,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  15200
-    Total Dmg/10R: 17395
+    Total Dmg/5R:  14615
+    Total Dmg/10R: 16740
     Mana: 3124 start, 261 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8558,13 +8558,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18240
-    Total Dmg/10R: 18240
+    Total Dmg/5R:  17538
+    Total Dmg/10R: 17538
     Mana: 3150 start, 0 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -8630,13 +8630,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 2668 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2566 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x7 casts (+371/cast)
+    Secondary: Corrupt Dominion x7 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18240
-    Total Dmg/10R: 18240
+    Total Dmg/5R:  17538
+    Total Dmg/10R: 17538
     Mana: 3175 start, 25 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -8677,7 +8677,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 123 (Bad Gear)
 ============================================================
 
-  Changes: Level 122→123 | Stats: CON 30→29, WIS 33→34 | Combat: Prof +41→+42 | Pools: +1 Vit die (now 124d4); +1 HP die (now 124d6); +1 Mana die (now 126d0) | Affinities: Corruption 183→185, Earth 46→47 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 41)
+  Changes: Level 122→123 | Stats: CON 30→29, WIS 33→34 | Combat: Prof +41→+42 | Pools: +1 Vit die (now 124d4); +1 HP die (now 124d6); +1 Mana die (now 126d0) | Affinities: Earth 46→47, Corruption 183→185 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 41)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8774,13 +8774,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3353 start, 165 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8846,13 +8846,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3380 start, 192 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8893,7 +8893,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 126 (Bad Gear)
 ============================================================
 
-  Changes: Level 125→126 | Stats: INT 65→66 | Combat: Prof +42→+43 | Pools: +1 Vit die (now 127d4); +1 HP die (now 127d6); +1 Mana die (now 129d0) | Affinities: Corruption 186→189, Earth 47→48 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 42)
+  Changes: Level 125→126 | Stats: INT 65→66 | Combat: Prof +42→+43 | Pools: +1 Vit die (now 127d4); +1 HP die (now 127d6); +1 Mana die (now 129d0) | Affinities: Earth 47→48, Corruption 186→189 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 42)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -8918,13 +8918,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3406 start, 218 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -8990,13 +8990,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3433 start, 245 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9062,13 +9062,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3459 start, 271 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9109,7 +9109,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 129 (Bad Gear)
 ============================================================
 
-  Changes: Level 128→129 | Stats: WIS 34→33, INT 66→67 | Combat: Prof +43→+44 | Pools: +1 Vit die (now 130d4); +1 HP die (now 130d6); +1 Mana die (now 132d0) | Affinities: Corruption 190→192, Earth 48→49 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 43)
+  Changes: Level 128→129 | Stats: WIS 34→33, INT 66→67 | Combat: Prof +43→+44 | Pools: +1 Vit die (now 130d4); +1 HP die (now 130d6); +1 Mana die (now 132d0) | Affinities: Earth 48→49, Corruption 190→192 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 43)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9134,13 +9134,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3354 start, 166 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9206,13 +9206,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3512 start, 324 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9278,13 +9278,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  17055
-    Total Dmg/10R: 19250
+    Total Dmg/5R:  16400
+    Total Dmg/10R: 18525
     Mana: 3539 start, 351 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9325,7 +9325,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 132 (Bad Gear)
 ============================================================
 
-  Changes: Level 131→132 | Stats: INT 67→68 | Combat: Prof +44→+45 | Pools: +1 Vit die (now 133d4); +1 HP die (now 133d6); +1 Mana die (now 135d0) | Affinities: Corruption 193→196, Earth 49→50 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 44)
+  Changes: Level 131→132 | Stats: INT 67→68 | Combat: Prof +44→+45 | Pools: +1 Vit die (now 133d4); +1 HP die (now 133d6); +1 Mana die (now 135d0) | Affinities: Earth 49→50, Corruption 193→196 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 44)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9350,13 +9350,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20466
-    Total Dmg/10R: 20466
+    Total Dmg/5R:  19680
+    Total Dmg/10R: 19680
     Mana: 3565 start, 25 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -9422,13 +9422,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20466
-    Total Dmg/10R: 20905
+    Total Dmg/5R:  19680
+    Total Dmg/10R: 20105
     Mana: 3592 start, 10 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -9494,13 +9494,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20466
-    Total Dmg/10R: 20905
+    Total Dmg/5R:  19680
+    Total Dmg/10R: 20105
     Mana: 3618 start, 36 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -9541,7 +9541,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 135 (Bad Gear)
 ============================================================
 
-  Changes: Level 134→135 | Combat: Prof +45→+46 | Pools: +1 Vit die (now 136d4); +1 HP die (now 136d6); +1 Mana die (now 138d0) | Affinities: Corruption 197→199, Earth 50→51 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 45)
+  Changes: Level 134→135 | Combat: Prof +45→+46 | Pools: +1 Vit die (now 136d4); +1 HP die (now 136d6); +1 Mana die (now 138d0) | Affinities: Earth 50→51, Corruption 197→199 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 45)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9566,13 +9566,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 9
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 2923 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Corrupt Dominion x8 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20466
-    Total Dmg/10R: 21344
+    Total Dmg/5R:  19680
+    Total Dmg/10R: 20530
     Mana: 3645 start, 21 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -9638,14 +9638,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2931 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Abyssal Chains x22 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20466
-    Total Dmg/10R: 21783
-    Mana: 3671 start, 5 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  15310
+    Total Dmg/10R: 16300
+    Mana: 3671 start, 333 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  452
@@ -9710,14 +9710,14 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3040 (x210 mana)
+    Magic Dmg/Cast: 198 | Dmg/Turn: 2931 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x8 casts (+371/cast)
+    Secondary: Abyssal Chains x22 casts (+130/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20466
-    Total Dmg/10R: 21783
-    Mana: 3698 start, 32 after 10R (cast magic 9/10 rounds)
+    Total Dmg/5R:  15310
+    Total Dmg/10R: 16300
+    Mana: 3698 start, 360 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
     Skill Points:  454
@@ -9757,7 +9757,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 138 (Bad Gear)
 ============================================================
 
-  Changes: Level 137→138 | Stats: INT 68→69 | Combat: Prof +46→+47 | Pools: +1 Vit die (now 139d4); +1 HP die (now 139d6); +1 Mana die (now 141d0) | Affinities: Corruption 200→203, Earth 51→52 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 46)
+  Changes: Level 137→138 | Stats: INT 68→69 | Combat: Prof +46→+47 | Pools: +1 Vit die (now 139d4); +1 HP die (now 139d6); +1 Mana die (now 141d0) | Affinities: Earth 51→52, Corruption 200→203 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 46)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9782,13 +9782,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3724 start, 211 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9854,13 +9854,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3751 start, 238 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9926,13 +9926,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3777 start, 264 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -9973,7 +9973,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 141 (Bad Gear)
 ============================================================
 
-  Changes: Level 140→141 | Stats: WIS 34→35 | Combat: Prof +47→+48 | Pools: +1 Vit die (now 142d4); +1 HP die (now 142d6); +1 Mana die (now 144d0) | Affinities: Corruption 204→206, Earth 52→53 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 47)
+  Changes: Level 140→141 | Stats: WIS 34→35 | Combat: Prof +47→+48 | Pools: +1 Vit die (now 142d4); +1 HP die (now 142d6); +1 Mana die (now 144d0) | Affinities: Earth 52→53, Corruption 204→206 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 47)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -9998,13 +9998,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3804 start, 291 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10070,13 +10070,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3830 start, 317 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10142,13 +10142,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3857 start, 344 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10189,7 +10189,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 144 (Bad Gear)
 ============================================================
 
-  Changes: Level 143→144 | Stats: WIS 35→34, INT 70→71 | Combat: BAp 18→19, Prof +48→+49 | Pools: +1 Vit die (now 145d4); +1 HP die (now 145d6); +1 Mana die (now 147d0) | Affinities: Corruption 207→210, Earth 53→54 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 48)
+  Changes: Level 143→144 | Stats: WIS 35→34, INT 70→71 | Combat: BAp 18→19, Prof +48→+49 | Pools: +1 Vit die (now 145d4); +1 HP die (now 145d6); +1 Mana die (now 147d0) | Affinities: Earth 53→54, Corruption 207→210 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 48)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10214,13 +10214,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3883 start, 370 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10286,13 +10286,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  18915
-    Total Dmg/10R: 21110
+    Total Dmg/5R:  18180
+    Total Dmg/10R: 20305
     Mana: 3910 start, 397 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10358,13 +10358,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22698
-    Total Dmg/10R: 22698
+    Total Dmg/5R:  21816
+    Total Dmg/10R: 21816
     Mana: 3936 start, 6 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -10405,7 +10405,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 147 (Bad Gear)
 ============================================================
 
-  Changes: Level 146→147 | Stats: WIS 34→35 | Combat: Prof +49→+50 | Pools: +1 Vit die (now 148d4); +1 HP die (now 148d6); +1 Mana die (now 150d0) | Affinities: Corruption 211→213, Earth 54→55 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 49)
+  Changes: Level 146→147 | Stats: WIS 34→35 | Combat: Prof +49→+50 | Pools: +1 Vit die (now 148d4); +1 HP die (now 148d6); +1 Mana die (now 150d0) | Affinities: Earth 54→55, Corruption 211→213 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 49)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10430,13 +10430,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22698
-    Total Dmg/10R: 22698
+    Total Dmg/5R:  21816
+    Total Dmg/10R: 21816
     Mana: 3963 start, 33 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -10502,13 +10502,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22698
-    Total Dmg/10R: 23137
+    Total Dmg/5R:  21816
+    Total Dmg/10R: 22241
     Mana: 3989 start, 17 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -10574,13 +10574,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3411 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3280 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x9 casts (+371/cast)
+    Secondary: Corrupt Dominion x9 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22698
-    Total Dmg/10R: 23576
+    Total Dmg/5R:  21816
+    Total Dmg/10R: 22666
     Mana: 4016 start, 2 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -10621,7 +10621,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 150 (Bad Gear)
 ============================================================
 
-  Changes: Level 149→150 | Stats: CON 30→31, WIS 35→36 | Combat: AP 15→16, Prof +50→+51 | Pools: +1 Vit die (now 151d4); +1 HP die (now 151d6); +1 Mana die (now 153d0) | Affinities: Corruption 214→217, Earth 55→56 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 50)
+  Changes: Level 149→150 | Stats: CON 30→31, WIS 35→36 | Combat: AP 15→16, Prof +50→+51 | Pools: +1 Vit die (now 151d4); +1 HP die (now 151d6); +1 Mana die (now 153d0) | Affinities: Earth 55→56, Corruption 214→217 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 50)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10646,13 +10646,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4195 start, 357 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10718,13 +10718,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 10
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4223 start, 385 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10790,13 +10790,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4250 start, 412 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10837,7 +10837,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 153 (Bad Gear)
 ============================================================
 
-  Changes: Level 152→153 | Stats: INT 71→72 | Combat: Prof +51→+52 | Pools: +1 Vit die (now 154d4); +1 HP die (now 154d6); +1 Mana die (now 156d0) | Affinities: Corruption 218→220, Earth 56→57 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 51)
+  Changes: Level 152→153 | Stats: INT 71→72 | Combat: Prof +51→+52 | Pools: +1 Vit die (now 154d4); +1 HP die (now 154d6); +1 Mana die (now 156d0) | Affinities: Earth 56→57, Corruption 218→220 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 51)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -10862,13 +10862,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4278 start, 440 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -10934,13 +10934,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4305 start, 467 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11006,13 +11006,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24924
-    Total Dmg/10R: 24924
+    Total Dmg/5R:  23958
+    Total Dmg/10R: 23958
     Mana: 4333 start, 13 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -11053,7 +11053,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 156 (Bad Gear)
 ============================================================
 
-  Changes: Level 155→156 | Stats: WIS 36→35, INT 72→73 | Combat: Prof +52→+53 | Pools: +1 Vit die (now 157d4); +1 HP die (now 157d6); +1 Mana die (now 159d0) | Affinities: Corruption 221→224, Earth 57→58 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 52)
+  Changes: Level 155→156 | Stats: WIS 36→35, INT 72→73 | Combat: Prof +52→+53 | Pools: +1 Vit die (now 157d4); +1 HP die (now 157d6); +1 Mana die (now 159d0) | Affinities: Earth 57→58, Corruption 221→224 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 52)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11078,13 +11078,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4201 start, 363 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11150,13 +11150,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4228 start, 390 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11222,13 +11222,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4254 start, 416 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11269,7 +11269,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 159 (Bad Gear)
 ============================================================
 
-  Changes: Level 158→159 | Stats: INT 73→74 | Combat: Prof +53→+54 | Pools: +1 Vit die (now 160d4); +1 HP die (now 160d6); +1 Mana die (now 162d0) | Affinities: Corruption 225→227, Earth 58→59 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 53)
+  Changes: Level 158→159 | Stats: INT 73→74 | Combat: Prof +53→+54 | Pools: +1 Vit die (now 160d4); +1 HP die (now 160d6); +1 Mana die (now 162d0) | Affinities: Earth 58→59, Corruption 225→227 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 53)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11294,13 +11294,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  20770
-    Total Dmg/10R: 22965
+    Total Dmg/5R:  19965
+    Total Dmg/10R: 22090
     Mana: 4281 start, 443 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11366,13 +11366,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24924
-    Total Dmg/10R: 26241
+    Total Dmg/5R:  23958
+    Total Dmg/10R: 25233
     Mana: 4470 start, 24 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -11438,13 +11438,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 3783 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3636 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x10 casts (+371/cast)
+    Secondary: Corrupt Dominion x10 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24924
-    Total Dmg/10R: 26680
+    Total Dmg/5R:  23958
+    Total Dmg/10R: 25658
     Mana: 4498 start, 10 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11485,7 +11485,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 162 (Bad Gear)
 ============================================================
 
-  Changes: Level 161→162 | Stats: CON 31→32 | Combat: Prof +54→+55 | Pools: +1 Vit die (now 163d4); +1 HP die (now 163d6); +1 Mana die (now 165d0) | Affinities: Corruption 228→231, Earth 59→60 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 54)
+  Changes: Level 161→162 | Stats: CON 31→32 | Combat: Prof +54→+55 | Pools: +1 Vit die (now 163d4); +1 HP die (now 163d6); +1 Mana die (now 165d0) | Affinities: Earth 59→60, Corruption 228→231 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 54)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11510,13 +11510,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4525 start, 362 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11582,13 +11582,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4553 start, 390 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11654,13 +11654,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4580 start, 417 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11701,7 +11701,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 165 (Bad Gear)
 ============================================================
 
-  Changes: Level 164→165 | Stats: WIS 36→37 | Combat: Prof +55→+56 | Pools: +1 Vit die (now 166d4); +1 HP die (now 166d6); +1 Mana die (now 168d0) | Affinities: Corruption 232→234, Earth 60→61 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 55)
+  Changes: Level 164→165 | Stats: WIS 36→37 | Combat: Prof +55→+56 | Pools: +1 Vit die (now 166d4); +1 HP die (now 166d6); +1 Mana die (now 168d0) | Affinities: Earth 60→61, Corruption 232→234 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 55)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11726,13 +11726,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4608 start, 445 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11798,13 +11798,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4635 start, 472 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11870,13 +11870,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 11
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4663 start, 500 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -11917,7 +11917,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 168 (Bad Gear)
 ============================================================
 
-  Changes: Level 167→168 | Stats: INT 74→75 | Combat: BAp 21→22, Prof +56→+57 | Pools: +1 Vit die (now 169d4); +1 HP die (now 169d6); +1 Mana die (now 171d0) | Affinities: Corruption 235→238, Earth 61→62 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 56)
+  Changes: Level 167→168 | Stats: INT 74→75 | Combat: BAp 21→22, Prof +56→+57 | Pools: +1 Vit die (now 169d4); +1 HP die (now 169d6); +1 Mana die (now 171d0) | Affinities: Earth 61→62, Corruption 235→238 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 56)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -11942,13 +11942,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  22630
-    Total Dmg/10R: 24825
+    Total Dmg/5R:  21750
+    Total Dmg/10R: 23875
     Mana: 4690 start, 527 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12014,13 +12014,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 27156
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 26100
     Mana: 4718 start, 8 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -12086,13 +12086,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 27156
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 26100
     Mana: 4745 start, 35 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -12133,7 +12133,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 171 (Bad Gear)
 ============================================================
 
-  Changes: Level 170→171 | Stats: WIS 36→37 | Combat: Prof +57→+58 | Pools: +1 Vit die (now 172d4); +1 HP die (now 172d6); +1 Mana die (now 174d0) | Affinities: Corruption 239→241, Earth 62→63 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 57)
+  Changes: Level 170→171 | Stats: WIS 36→37 | Combat: Prof +57→+58 | Pools: +1 Vit die (now 172d4); +1 HP die (now 172d6); +1 Mana die (now 174d0) | Affinities: Earth 62→63, Corruption 239→241 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 57)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12158,13 +12158,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 27595
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 26525
     Mana: 4773 start, 21 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -12230,13 +12230,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 28034
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 26950
     Mana: 4800 start, 6 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -12302,13 +12302,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 28034
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 26950
     Mana: 4828 start, 34 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -12349,7 +12349,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 174 (Bad Gear)
 ============================================================
 
-  Changes: Level 173→174 | Stats: INT 76→77 | Combat: Prof +58→+59 | Pools: +1 Vit die (now 175d4); +1 HP die (now 175d6); +1 Mana die (now 177d0) | Affinities: Corruption 242→245, Earth 63→64 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 58)
+  Changes: Level 173→174 | Stats: INT 76→77 | Combat: Prof +58→+59 | Pools: +1 Vit die (now 175d4); +1 HP die (now 175d6); +1 Mana die (now 177d0) | Affinities: Earth 63→64, Corruption 242→245 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 58)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12374,13 +12374,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 28473
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 27375
     Mana: 4855 start, 19 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -12446,13 +12446,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4154 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 3993 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x11 casts (+371/cast)
+    Secondary: Corrupt Dominion x11 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  27156
-    Total Dmg/10R: 28912
+    Total Dmg/5R:  26100
+    Total Dmg/10R: 27800
     Mana: 4883 start, 5 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12518,13 +12518,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24485
-    Total Dmg/10R: 26680
+    Total Dmg/5R:  23535
+    Total Dmg/10R: 25660
     Mana: 4910 start, 422 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12565,7 +12565,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 177 (Bad Gear)
 ============================================================
 
-  Changes: Level 176→177 | Combat: Prof +59→+60 | Pools: +1 Vit die (now 178d4); +1 HP die (now 178d6); +1 Mana die (now 180d0) | Affinities: Corruption 246→248, Earth 64→65 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 59)
+  Changes: Level 176→177 | Combat: Prof +59→+60 | Pools: +1 Vit die (now 178d4); +1 HP die (now 178d6); +1 Mana die (now 180d0) | Affinities: Earth 64→65, Corruption 246→248 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 59)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12590,13 +12590,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24485
-    Total Dmg/10R: 26680
+    Total Dmg/5R:  23535
+    Total Dmg/10R: 25660
     Mana: 4938 start, 450 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12662,13 +12662,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24485
-    Total Dmg/10R: 26680
+    Total Dmg/5R:  23535
+    Total Dmg/10R: 25660
     Mana: 4965 start, 477 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12734,13 +12734,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  24485
-    Total Dmg/10R: 26680
+    Total Dmg/5R:  23535
+    Total Dmg/10R: 25660
     Mana: 4993 start, 505 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -12781,7 +12781,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 180 (Bad Gear)
 ============================================================
 
-  Changes: Level 179→180 | Stats: CON 32→34, WIS 37→38 | Combat: AP 18→19, Prof +60→+61 | Pools: +1 Vit die (now 181d4); +1 HP die (now 181d6); +1 Mana die (now 183d0) | Affinities: Corruption 249→252, Earth 65→66 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 60)
+  Changes: Level 179→180 | Stats: CON 32→34, WIS 37→38 | Combat: AP 18→19, Prof +60→+61 | Pools: +1 Vit die (now 181d4); +1 HP die (now 181d6); +1 Mana die (now 183d0) | Affinities: Earth 65→66, Corruption 249→252 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 60)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -12806,13 +12806,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 30260
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29092
     Mana: 5203 start, 19 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -12878,13 +12878,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 30699
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29517
     Mana: 5232 start, 6 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -12950,13 +12950,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 30699
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29517
     Mana: 5260 start, 34 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -12997,7 +12997,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 183 (Bad Gear)
 ============================================================
 
-  Changes: Level 182→183 | Stats: INT 77→78 | Combat: Prof +61→+62 | Pools: +1 Vit die (now 184d4); +1 HP die (now 184d6); +1 Mana die (now 186d0) | Affinities: Corruption 253→255, Earth 66→67 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 61)
+  Changes: Level 182→183 | Stats: INT 77→78 | Combat: Prof +61→+62 | Pools: +1 Vit die (now 184d4); +1 HP die (now 184d6); +1 Mana die (now 186d0) | Affinities: Earth 66→67, Corruption 253→255 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 61)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13022,13 +13022,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 12
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  26345
-    Total Dmg/10R: 28540
+    Total Dmg/5R:  25320
+    Total Dmg/10R: 27445
     Mana: 5289 start, 476 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13094,13 +13094,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  26345
-    Total Dmg/10R: 28540
+    Total Dmg/5R:  25320
+    Total Dmg/10R: 27445
     Mana: 5317 start, 504 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13166,13 +13166,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  26345
-    Total Dmg/10R: 28540
+    Total Dmg/5R:  25320
+    Total Dmg/10R: 27445
     Mana: 5346 start, 533 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13213,7 +13213,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 186 (Bad Gear)
 ============================================================
 
-  Changes: Level 185→186 | Stats: CON 34→33, WIS 38→37, INT 78→79 | Combat: Prof +62→+63 | Pools: +1 Vit die (now 187d4); +1 HP die (now 187d6); +1 Mana die (now 189d0) | Affinities: Corruption 256→259, Earth 67→68 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 62)
+  Changes: Level 185→186 | Stats: CON 34→33, WIS 38→37, INT 78→79 | Combat: Prof +62→+63 | Pools: +1 Vit die (now 187d4); +1 HP die (now 187d6); +1 Mana die (now 189d0) | Affinities: Earth 67→68, Corruption 256→259 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 62)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13238,13 +13238,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 30260
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29092
     Mana: 5185 start, 1 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -13310,13 +13310,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 30260
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29092
     Mana: 5213 start, 29 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -13382,13 +13382,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 30699
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29517
     Mana: 5240 start, 14 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -13429,7 +13429,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 189 (Bad Gear)
 ============================================================
 
-  Changes: Level 188→189 | Stats: INT 79→80 | Combat: Prof +63→+64 | Pools: +1 Vit die (now 190d4); +1 HP die (now 190d6); +1 Mana die (now 192d0) | Affinities: Corruption 260→262, Earth 68→69 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 63)
+  Changes: Level 188→189 | Stats: INT 79→80 | Combat: Prof +63→+64 | Pools: +1 Vit die (now 190d4); +1 HP die (now 190d6); +1 Mana die (now 192d0) | Affinities: Earth 68→69, Corruption 260→262 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 63)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13454,13 +13454,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4526 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4350 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x12 casts (+371/cast)
+    Secondary: Corrupt Dominion x12 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  29382
-    Total Dmg/10R: 31138
+    Total Dmg/5R:  28242
+    Total Dmg/10R: 29942
     Mana: 5268 start, 0 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13526,13 +13526,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  26345
-    Total Dmg/10R: 28540
+    Total Dmg/5R:  25320
+    Total Dmg/10R: 27445
     Mana: 5488 start, 675 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -13598,13 +13598,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  31614
-    Total Dmg/10R: 31614
+    Total Dmg/5R:  30384
+    Total Dmg/10R: 30384
     Mana: 5517 start, 27 after 10R (cast magic 6/10 rounds)
 
   RESOURCES:
@@ -13645,7 +13645,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 192 (Bad Gear)
 ============================================================
 
-  Changes: Level 191→192 | Combat: BAp 24→25, Prof +64→+65 | Pools: +1 Vit die (now 193d4); +1 HP die (now 193d6); +1 Mana die (now 195d0) | Affinities: Corruption 263→266, Earth 69→70 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 64)
+  Changes: Level 191→192 | Combat: BAp 24→25, Prof +64→+65 | Pools: +1 Vit die (now 193d4); +1 HP die (now 193d6); +1 Mana die (now 195d0) | Affinities: Earth 69→70, Corruption 263→266 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 64)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13670,13 +13670,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  31614
-    Total Dmg/10R: 32053
+    Total Dmg/5R:  30384
+    Total Dmg/10R: 30809
     Mana: 5545 start, 13 after 10R (cast magic 7/10 rounds)
 
   RESOURCES:
@@ -13742,13 +13742,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  31614
-    Total Dmg/10R: 32492
+    Total Dmg/5R:  30384
+    Total Dmg/10R: 31234
     Mana: 5574 start, 0 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -13814,13 +13814,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  31614
-    Total Dmg/10R: 32492
+    Total Dmg/5R:  30384
+    Total Dmg/10R: 31234
     Mana: 5602 start, 28 after 10R (cast magic 8/10 rounds)
 
   RESOURCES:
@@ -13861,7 +13861,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 195 (Bad Gear)
 ============================================================
 
-  Changes: Level 194→195 | Stats: WIS 38→39 | Combat: Prof +65→+66 | Pools: +1 Vit die (now 196d4); +1 HP die (now 196d6); +1 Mana die (now 198d0) | Affinities: Corruption 267→269, Earth 70→71 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 65)
+  Changes: Level 194→195 | Stats: WIS 38→39 | Combat: Prof +65→+66 | Pools: +1 Vit die (now 196d4); +1 HP die (now 196d6); +1 Mana die (now 198d0) | Affinities: Earth 70→71, Corruption 267→269 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 65)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -13886,13 +13886,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  31614
-    Total Dmg/10R: 32931
+    Total Dmg/5R:  30384
+    Total Dmg/10R: 31659
     Mana: 5631 start, 15 after 10R (cast magic 9/10 rounds)
 
   RESOURCES:
@@ -13958,13 +13958,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 4897 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 4707 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x13 casts (+371/cast)
+    Secondary: Corrupt Dominion x13 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  31614
-    Total Dmg/10R: 33370
+    Total Dmg/5R:  30384
+    Total Dmg/10R: 32084
     Mana: 5659 start, 1 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14030,13 +14030,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 5269 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 5064 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x14 casts (+371/cast)
+    Secondary: Corrupt Dominion x14 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  28200
-    Total Dmg/10R: 30395
+    Total Dmg/5R:  27105
+    Total Dmg/10R: 29230
     Mana: 5688 start, 550 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14077,7 +14077,7 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
   Affinity: Corruption Mage - Level 198 (Bad Gear)
 ============================================================
 
-  Changes: Level 197→198 | Stats: INT 80→81 | Combat: Prof +66→+67 | Pools: +1 Vit die (now 199d4); +1 HP die (now 199d6); +1 Mana die (now 201d0) | Affinities: Corruption 270→273, Earth 71→72 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 66)
+  Changes: Level 197→198 | Stats: INT 80→81 | Combat: Prof +66→+67 | Pools: +1 Vit die (now 199d4); +1 HP die (now 199d6); +1 Mana die (now 201d0) | Affinities: Earth 71→72, Corruption 270→273 | Skill Tree: +1 STP in Magical→Geomancer (now Lvl 66)
 
   STATS:
     STR:  8 (-1) = 8 + 0
@@ -14102,13 +14102,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 5269 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 5064 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x14 casts (+371/cast)
+    Secondary: Corrupt Dominion x14 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  28200
-    Total Dmg/10R: 30395
+    Total Dmg/5R:  27105
+    Total Dmg/10R: 29230
     Mana: 5716 start, 578 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14174,13 +14174,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 13
-    Magic Dmg/Cast: 439 | Dmg/Turn: 5269 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 5064 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x14 casts (+371/cast)
+    Secondary: Corrupt Dominion x14 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  28200
-    Total Dmg/10R: 30395
+    Total Dmg/5R:  27105
+    Total Dmg/10R: 29230
     Mana: 5745 start, 607 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:
@@ -14246,13 +14246,13 @@ EYUM TTRPG - AFFINITY: CORRUPTION MAGE (BAD GEAR)
 
   DAMAGE:
     Attacks/Turn: 14
-    Magic Dmg/Cast: 439 | Dmg/Turn: 5269 (x210 mana)
+    Magic Dmg/Cast: 425 | Dmg/Turn: 5064 (x210 mana)
     Spell: Black Tentacles (Corruption)
-    Secondary: Corrupt Dominion x14 casts (+371/cast)
+    Secondary: Corrupt Dominion x14 casts (+357/cast)
     Skipped spells:
       Bestow Curse: dmg=0 mana=15 (non_damaging)
-    Total Dmg/5R:  28200
-    Total Dmg/10R: 30395
+    Total Dmg/5R:  27105
+    Total Dmg/10R: 29230
     Mana: 5773 start, 635 after 10R (cast magic 10/10 rounds)
 
   RESOURCES:

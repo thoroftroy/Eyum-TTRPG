@@ -602,10 +602,10 @@
       "save_half": true,
       "attack_roll": false,
       "extra_effect": "Entangled+Corrupt+Mute+Cursed+Slowed",
-      "description": "Choose a creature you can see within range. Black restraints and cursed weight crush downward on the target. It must make a Strength save. On a failure, it takes 20 Corruption damage, becomes Entangled, gains 2 stacks of Corrupt, becomes Mute, and gains Slowed for 2 turns. On a success, it takes half damage and gains 1 stack of Corrupt. A creature already affected by Corrupt must also make a Wisdom save or become Cursed for 2 turns.",
+      "description": "Choose a creature you can see within range. Black restraints and cursed weight crush downward on the target. It must make a Strength save. On a failure, it takes 15 Corruption damage, becomes Entangled, gains 2 stacks of Corrupt, becomes Mute, and gains Slowed for 2 turns. On a success, it takes half damage and gains 1 stack of Corrupt. A creature already affected by Corrupt must also make a Wisdom save or become Cursed for 2 turns.",
       "upcast_to": "Corrupt Dominion",
       "range": 60,
-      "damage_flat": 20
+      "damage_flat": 15
     },
     {
       "name": "Corrupt Dominion",
@@ -619,10 +619,10 @@
       "attack_roll": false,
       "aoe_radius": 20,
       "extra_effect": "Entangled+Corrupt+Mute+Slow Death",
-      "description": "Choose a point you can see within range. A field of corruptive force blossoms in a 20 ft radius. All creatures in the area must make a Strength save. On a failure, a creature takes 40 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, and is Entangled until it escapes normally. On a success, the creature takes half damage and gains 1 stack of Corrupt. Creatures already affected by Corrupt also gain Slow Death on a failed save.",
+      "description": "Choose a point you can see within range. A field of corruptive force blossoms in a 20 ft radius. All creatures in the area must make a Strength save. On a failure, a creature takes 35 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, and is Entangled until it escapes normally. On a success, the creature takes half damage and gains 1 stack of Corrupt. Creatures already affected by Corrupt also gain Slow Death on a failed save.",
       "upcast_to": "Fallen Throne",
       "range": 90,
-      "damage_flat": 40
+      "damage_flat": 35
     },
     {
       "name": "Fallen Throne",
@@ -636,14 +636,14 @@
       "attack_roll": false,
       "aoe_radius": 25,
       "extra_effect": "Entangled+Corrupt+Mute+Slow Death",
-      "description": "Choose a point you can see within range. Corruption floods the battlefield like a kingdom collapsing into rot. All creatures in a 25 ft radius must make a Strength save. On a failure, a creature takes 55 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, becomes Entangled, and gains Slow Death (2 stacks). On a success, the creature takes half damage and gains 1 stack of Corrupt. Any creature already affected by Corrupt automatically fails the Mute and Corrupt portions of the spell even on a successful save.",
+      "description": "Choose a point you can see within range. Corruption floods the battlefield like a kingdom collapsing into rot. All creatures in a 25 ft radius must make a Strength save. On a failure, a creature takes 50 Corruption damage, gains 3 stacks of Corrupt, becomes Mute, becomes Entangled, and gains Slow Death (2 stacks). On a success, the creature takes half damage and gains 1 stack of Corrupt. Any creature already affected by Corrupt automatically fails the Mute and Corrupt portions of the spell even on a successful save.",
       "upcast_to": "Ruin of the Soul",
       "range": 120,
-      "damage_flat": 55
+      "damage_flat": 50
     },
     {
       "name": "Ruin of the Soul",
-      "mana": 110,
+      "mana": 115,
       "affinity_required": 101,
       "int_required": 23,
       "damage_dice": "24d8",
@@ -653,10 +653,10 @@
       "attack_roll": false,
       "aoe_radius": 30,
       "extra_effect": "Entangled+Corrupt+Mute+Slow Death+Slowed",
-      "description": "Choose a point you can see within range. The area is consumed by overwhelming corruption that tears apart body, will, and magic. All creatures in a 30 ft radius must make a Strength save. On a failure, a creature takes 65 Corruption damage, gains 4 stacks of Corrupt, becomes Mute, becomes Entangled, gains Slowed for 3 turns, and gains Slow Death (4 stacks). On a success, the creature takes half damage, gains 2 stacks of Corrupt, and becomes Mute for 1 turn. Any creature that was already suffering from Corrupt before this spell was cast instead takes an additional 10 Corruption damage and automatically gains the full Slow Death effect on a failed save.",
+      "description": "Choose a point you can see within range. The area is consumed by overwhelming corruption that tears apart body, will, and magic. All creatures in a 30 ft radius must make a Strength save. On a failure, a creature takes 60 Corruption damage, gains 4 stacks of Corrupt, becomes Mute, becomes Entangled, gains Slowed for 3 turns, and gains Slow Death (4 stacks). On a success, the creature takes half damage, gains 2 stacks of Corrupt, and becomes Mute for 1 turn. Any creature that was already suffering from Corrupt before this spell was cast instead takes an additional 10 Corruption damage and automatically gains the full Slow Death effect on a failed save.",
       "upcast_rule": "x2, +60 damage and +1 Slow Death stack",
       "range": 150,
-      "damage_flat": 65
+      "damage_flat": 60
     }
   ],
   "Dust": [
@@ -804,10 +804,10 @@
     },
     {
       "name": "Faultline (Earth)",
-      "mana": 30,
+      "mana": 28,
       "affinity_required": 13,
       "int_required": 19,
-      "damage_dice": "3d6",
+      "damage_dice": "5d6",
       "damage_type": "earth",
       "save": "str",
       "save_half": true,
@@ -816,7 +816,7 @@
       "aoe_self": true,
       "aoe_line": true,
       "extra_effect": "Prone+Restrained+Difficult Terrain",
-      "description": "Choose a line up to 40 ft long and 10 ft wide on the ground that you can see. The earth splits open along the line. Creatures in the area must make a Strength save. On a failure they take 3d6 Earth damage and are knocked Prone and Restrained until the end of their next turn. On a success they take half damage and are not Prone or Restrained. The area remains Difficult Terrain until the end of your next turn.",
+      "description": "Choose a line up to 40 ft long and 10 ft wide on the ground that you can see. The earth splits open along the line. Creatures in the area must make a Strength save. On a failure they take 5d6 Earth damage and are knocked Prone and Restrained until the end of their next turn. On a success they take half damage and are not Prone or Restrained. The area remains Difficult Terrain until the end of your next turn.",
       "upcast_to": "Worldbreak",
       "range": 120,
       "str_required": 19
@@ -2100,7 +2100,7 @@
       "damage_dice": "3d8",
       "damage_type": "obsidian",
       "concentration": true,
-      "description": "Raise a 15 ft tall and 5 ft wide obsidian monolith in an empty space within range. The monolith has 100 + Obsidian Affinity health and no Vitality with an AC of 20. The monolith provides full cover, blocks movement and line of sight, and lasts until destroyed, dismissed, or your Concentration ends. While the monolith exists, you are encased in obsidian. You gain +5 AC, reduce all incoming damage by 10, and cannot be forcibly moved against your will. Whenever a creature hits you with a melee attack or targets you with a spell attack, it takes 3d8 Obsidian damage. At the cost of a BAp you may cause obsidian spikes to erupt from the ground within 15 ft of the monolith. Creatures of your choice in the area must make a Dexterity save or take 2d8 Obsidian damage and gain Pierced. When the monolith is destroyed or dismissed, it explodes into razor-sharp shards. Creatures within 20 ft must make a Dexterity save. On a failure, they take 10d8 Obsidian damage and gain Pierced. On a success, they take half damage and do not gain Pierced. This spell requires Concentration. Each time you cast one of the BAp spell attacks you must expend 1/3 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
+      "description": "Raise a 15 ft tall and 5 ft wide obsidian monolith in an empty space within range. The monolith has 100 + Obsidian Affinity health and no Vitality with an AC of 20. The monolith provides full cover, blocks movement and line of sight, and lasts until destroyed, dismissed, or your Concentration ends. While the monolith exists, you are encased in obsidian. You gain +5 AC, reduce all incoming damage by 10, and cannot be forcibly moved against your will. Whenever a creature hits you with a melee attack or targets you with a spell attack, it takes 3d8 Obsidian damage. At the cost of a BAp you may cause obsidian spikes to erupt from the ground within 15 ft of the monolith. Creatures of your choice in the area must make a Dexterity save or take 2d8 Obsidian damage and gain Pierced. When the monolith is destroyed or dismissed, it explodes into razor-sharp shards. Creatures within 20 ft must make a Dexterity save. On a failure, they take 6d8 Obsidian damage and gain Pierced. On a success, they take half damage and do not gain Pierced. This spell requires Concentration. Each time you cast one of the BAp spell attacks you must expend 1/3 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_rule": "x2, +1 monolith or +4d8 burst damage",
       "range": 90,
       "aoe_radius": 15,
@@ -3065,15 +3065,15 @@
       "concentration": true,
       "aoe_self": true,
       "aoe_radius": 40,
-      "description": "You summon a devastating hurricane centered on yourself with a radius of 40 ft. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 25 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/3 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
+      "description": "You summon a devastating hurricane centered on yourself with a radius of 40 ft. The storm lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 20 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/3 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_to": "Maelstrom",
       "range": "Self",
       "bap_attack": true,
-      "damage_flat": 25
+      "damage_flat": 20
     },
     {
       "name": "Maelstrom",
-      "mana": 250,
+      "mana": 255,
       "affinity_required": 76,
       "int_required": 33,
       "damage_dice": "5d10",
@@ -3081,11 +3081,11 @@
       "attack_roll": true,
       "concentration": true,
       "aoe_radius": 60,
-      "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 35 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/3 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
+      "description": "You summon a world-shaking Maelstrom centered on a point you can see within range. The storm has a radius of 60 ft and lasts until your Concentration ends. While concentrating, you may call down bolts of lightning from the storm. Each bolt requires either 1 AP or 1 BAp and targets a creature you can see within the storm. Make a spell attack for each bolt. On hit, the target takes 25 Storm damage. Any number of bolts may be called down each turn, provided you have sufficient AP or BAp remaining to pay their costs. Bolts called down using AP are treated as critical hits. When you make BAp spell attacks you may not add your Base Magic Damage to the damage of the attack. Each time you cast one of the BAp spell attacks you must expend 1/3 (rounding down) of the mana cost of the spell (additional to the normal concentration drain).",
       "upcast_rule": "x2, +30 Storm Damage",
       "range": 360,
       "bap_attack": true,
-      "damage_flat": 35
+      "damage_flat": 25
     }
   ],
   "Thunder": [

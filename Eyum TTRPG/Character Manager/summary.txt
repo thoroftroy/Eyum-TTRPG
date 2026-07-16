@@ -1,16 +1,14 @@
 EYUM TTRPG - BALANCE SUMMARY & RECOMMENDATIONS
 ============================================================
 
-Generated from analysis of 200 levels across 4 gear tiers and 2 builds.
+Generated from analysis of 200 levels across 4 gear tiers and 1 builds.
 
 OVERALL BUILD DOMINANCE
 ----------------------------------------
-  Affinity: Storm Mage: 6056 category-level wins (55.2%)
-  Affinity: Water Mage: 4923 category-level wins (44.8%)
+  Affinity: Quantum Mage: 8015 category-level wins (100.0%)
 
-  >>> WARNING: Affinity: Storm Mage dominates with 55.0% of all BEST wins across all tiers.
+  >>> WARNING: Affinity: Quantum Mage dominates with 99.8% of all BEST wins across all tiers.
       This suggests significant balance issues where other builds cannot compete.
-      Next best (Affinity: Water Mage) has only 44.7%.
 
 DAMAGE TYPE BALANCE
 ----------------------------------------
@@ -21,91 +19,92 @@ DAMAGE TYPE BALANCE
 
 CATEGORY MONOPOLY ANALYSIS
 ----------------------------------------
-  Vitality  : mostly Affinity: Water Mage (800/800 levels, 100.0%)
-    >>> MONOPOLY: Affinity: Water Mage wins Vitality almost exclusively.
+  Vitality  : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Vitality almost exclusively.
     This is expected for dedicated tank builds. No action needed.
-  Health    : tied across all builds (all 800/800)
-  Mana      : mostly Affinity: Storm Mage (684/800 levels, 85.5%)
-    >>> MONOPOLY: Affinity: Storm Mage wins Mana almost exclusively.
+  Health    : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Health almost exclusively.
+    This is expected for dedicated tank builds. No action needed.
+  Mana      : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Mana almost exclusively.
     This is expected for magical builds. No action needed.
-  AC        : mostly Affinity: Water Mage (796/800 levels, 99.5%)
-    >>> MONOPOLY: Affinity: Water Mage wins AC almost exclusively.
+  AC        : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins AC almost exclusively.
     This is expected for tank/heavy-armor builds. No action needed.
-  Feats     : tied across all builds (all 800/800)
-    (Expected: every build gets +1 feat every 3 levels. No action needed.)
-  Spells    : tied across all builds (all 800/800)
-  To Hit    : mostly Affinity: Storm Mage (796/800 levels, 99.5%)
-    >>> MONOPOLY: Affinity: Storm Mage wins To Hit almost exclusively.
-  Dmg/Turn  : mostly Affinity: Storm Mage (704/800 levels, 88.0%)
-    >>> MONOPOLY: Affinity: Storm Mage wins Dmg/Turn almost exclusively.
+  Feats     : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Feats almost exclusively.
+    (Tied across all builds since every build gets +1 feat every 3 levels.)
+  Spells    : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Spells almost exclusively.
+    This is expected for magical builds. No action needed.
+  To Hit    : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins To Hit almost exclusively.
+  Dmg/Turn  : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Dmg/Turn almost exclusively.
     >>> IMBALANCE: Damage output is concentrated in one build.
     Consider: rebalancing damage scaling so other builds can compete.
-  Dmg/5R    : mostly Affinity: Storm Mage (688/800 levels, 86.0%)
-    >>> MONOPOLY: Affinity: Storm Mage wins Dmg/5R almost exclusively.
+  Dmg/5R    : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Dmg/5R almost exclusively.
     >>> IMBALANCE: Damage output is concentrated in one build.
     Consider: rebalancing damage scaling so other builds can compete.
-  Dmg/10R   : mostly Affinity: Storm Mage (744/800 levels, 93.0%)
-    >>> MONOPOLY: Affinity: Storm Mage wins Dmg/10R almost exclusively.
+  Dmg/10R   : mostly Affinity: Quantum Mage (800/800 levels, 100.0%)
+    >>> MONOPOLY: Affinity: Quantum Mage wins Dmg/10R almost exclusively.
     >>> IMBALANCE: Damage output is concentrated in one build.
     Consider: rebalancing damage scaling so other builds can compete.
 
 STAT ANALYSIS
 ----------------------------------------
-  STR   : avg= 8  max=Affinity: Water Mage ( 9)  min=Affinity: Storm Mage ( 8)
-  DEX   : avg= 7  max=Affinity: Storm Mage ( 8)  min=Affinity: Water Mage ( 7)
-  CON   : avg=11  max=Affinity: Water Mage (15)  min=Affinity: Storm Mage ( 8)
-  WIS   : avg=15  max=Affinity: Water Mage (16)  min=Affinity: Storm Mage (14)
-  INT   : avg=26  max=Affinity: Storm Mage (28)  min=Affinity: Water Mage (25)
-  CHA   : avg= 8  max=Affinity: Storm Mage ( 8)  min=Affinity: Storm Mage ( 8)
+  STR   : avg= 6  max=Affinity: Quantum Mage ( 6)  min=Affinity: Quantum Mage ( 6)
+  DEX   : avg= 8  max=Affinity: Quantum Mage ( 8)  min=Affinity: Quantum Mage ( 8)
+  CON   : avg= 5  max=Affinity: Quantum Mage ( 5)  min=Affinity: Quantum Mage ( 5)
+  WIS   : avg=14  max=Affinity: Quantum Mage (14)  min=Affinity: Quantum Mage (14)
+  INT   : avg=30  max=Affinity: Quantum Mage (30)  min=Affinity: Quantum Mage (30)
+  CHA   : avg=11  max=Affinity: Quantum Mage (11)  min=Affinity: Quantum Mage (11)
 
 GEAR TIER IMPACT
 ----------------------------------------
   No Gear:
-    Affinity: Storm Mage: avg dmg/turn 4476.7
-    Affinity: Water Mage: avg dmg/turn 1043.7
+    Affinity: Quantum Mage: avg dmg/turn 1039.9
   Bad Gear:
-    Affinity: Storm Mage: avg dmg/turn 4476.7
-    Affinity: Water Mage: avg dmg/turn 1043.7
+    Affinity: Quantum Mage: avg dmg/turn 1039.9
   Good Gear:
-    Affinity: Storm Mage: avg dmg/turn 4476.7
-    Affinity: Water Mage: avg dmg/turn 1043.7
+    Affinity: Quantum Mage: avg dmg/turn 1039.9
   Amazing Gear:
-    Affinity: Storm Mage: avg dmg/turn 4476.7
-    Affinity: Water Mage: avg dmg/turn 1043.7
+    Affinity: Quantum Mage: avg dmg/turn 1039.9
 
 PROGRESSION BALANCE (EARLY vs LATE)
 ----------------------------------------
   No Gear:
-    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Quantum Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Quantum Mage (151/151 levels)
 
   Bad Gear:
-    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Quantum Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Quantum Mage (151/151 levels)
 
   Good Gear:
-    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Quantum Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Quantum Mage (151/151 levels)
 
   Amazing Gear:
-    Level 5  (1-5) : dmg leader Affinity: Storm Mage (3/5 levels)
-    Level 10 (6-10): dmg leader Affinity: Water Mage (4/5 levels)
-    Level 15 (11-15): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 20 (16-20): dmg leader Affinity: Storm Mage (5/5 levels)
-    Level 30 (21-30): dmg leader Affinity: Storm Mage (10/10 levels)
-    Level 50+ (50+): dmg leader Affinity: Storm Mage (134/151 levels)
+    Level 5  (1-5) : dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 10 (6-10): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 15 (11-15): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 20 (16-20): dmg leader Affinity: Quantum Mage (5/5 levels)
+    Level 30 (21-30): dmg leader Affinity: Quantum Mage (10/10 levels)
+    Level 50+ (50+): dmg leader Affinity: Quantum Mage (151/151 levels)
 
 DETAILED RECOMMENDATIONS
 ----------------------------------------
@@ -113,29 +112,29 @@ DETAILED RECOMMENDATIONS
        - Increase base weapon damage or weapon damage_bonus values.
        - Add more damage-boosting feats for physical builds.
        - Check if extra_damage_die on weapons is being applied correctly.
-  2. Affinity: Storm Mage wins 55% of all BEST categories, indicating severe over-tuning.
-       - Reduce Affinity: Storm Mage's stat scaling or damage output.
-       - Verify Affinity: Storm Mage is not receiving unintended bonuses from paths or gear.
+  2. Affinity: Quantum Mage wins 100% of all BEST categories, indicating severe over-tuning.
+       - Reduce Affinity: Quantum Mage's stat scaling or damage output.
+       - Verify Affinity: Quantum Mage is not receiving unintended bonuses from paths or gear.
        - Consider splitting its advantages across multiple builds.
-  3. Affinity: Storm Mage has a monopoly on Dmg/Turn (88%).
+  3. Affinity: Quantum Mage has a monopoly on Dmg/Turn (100%).
        - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Storm Mage has unintended damage synergies.
-  4. Affinity: Storm Mage has a monopoly on Dmg/5R (86%).
+       - Check if Affinity: Quantum Mage has unintended damage synergies.
+  4. Affinity: Quantum Mage has a monopoly on Dmg/5R (100%).
        - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Storm Mage has unintended damage synergies.
-  5. Affinity: Storm Mage has a monopoly on Dmg/10R (93%).
+       - Check if Affinity: Quantum Mage has unintended damage synergies.
+  5. Affinity: Quantum Mage has a monopoly on Dmg/10R (100%).
        - Rebalance damage formulas so other builds can compete in this category.
-       - Check if Affinity: Storm Mage has unintended damage synergies.
+       - Check if Affinity: Quantum Mage has unintended damage synergies.
   6. Jack (hybrid build) wins no BEST categories.
        - This may be acceptable if Jack's niche is flexibility, not specialization.
        - If Jack should be viable, consider giving it unique hybrid bonuses or more skill/stat points.
 
 RACE POPULARITY ANALYSIS
 ----------------------------------------
-  Human Aurian            :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
-  Fishfolk Chelonar       :  1/2 (50%)  <<< STRONG: chosen by over a third of all builds
+  Human Halofade          :  1/1 (100%)  <<< OVER-TUNED: chosen by over half of all builds
 
-  >>> Human Aurian is very popular (>50% pick rate). Review if its power budget is too high.
+  >>> Human Halofade is overwhelmingly popular. Consider reducing its stat bonuses,
+      racial path benefits, or affinity bonuses so other races are competitive.
 
 SPELL ANALYSIS & RANKINGS
 ----------------------------------------
@@ -178,19 +177,11 @@ Tracks when a build's primary affinity has a castable spell that was
 skipped because a different spell (often from another affinity) deals more
 damage or because the primary spell is non-damaging.
 
-  Affinity: Storm Mage (chose Maelstrom [Storm] for 206.6 dmg):
-    SKIPPED Tempest Strike (12 mana) — LOWER (89.8 vs 206.6)
-    SKIPPED Storm Call (40 mana) — LOWER (58.4 vs 206.6)
-    SKIPPED Thunderstorm (50 mana) — LOWER (88.3 vs 206.6)
-    SKIPPED Tempest (70 mana) — LOWER (118.3 vs 206.6)
-    SKIPPED Hurricane Aura (120 mana) — LOWER (162.4 vs 206.6)
-  Affinity: Water Mage (chose Maelstrom [Water] for 189.5 dmg):
-    SKIPPED Quench (5 mana) — NON-DAMAGE
-    SKIPPED Cleanse (9 mana) — NON-DAMAGE
-    SKIPPED Waterskin (6 mana) — NON-DAMAGE
-    SKIPPED Cleansing Waters (8 mana) — NON-DAMAGE
-    SKIPPED Jetstream (6 mana) — LOWER (48.0 vs 189.5)
-    SKIPPED Riptide (10 mana) — LOWER (58.5 vs 189.5)
-    SKIPPED Undertow (15 mana) — LOWER (69.0 vs 189.5)
-    SKIPPED Floodwall (20 mana) — LOWER (79.5 vs 189.5)
+  Affinity: Quantum Mage (chose Phase Walk [Quantum] for 85.5 dmg):
+    SKIPPED Photon Lance (1 mana) — LOWER (45.6 vs 85.5)
+    SKIPPED Quantum Entanglement (12 mana) — NON-DAMAGE
+    SKIPPED Quantum Tunneling (18 mana) — NON-DAMAGE
+    SKIPPED Superposition (20 mana) — NON-DAMAGE
+    SKIPPED Providence (250 mana) — NON-DAMAGE
+    SKIPPED Bifurcate (75 mana) — NON-DAMAGE
 
