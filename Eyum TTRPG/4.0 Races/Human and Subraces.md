@@ -22,9 +22,7 @@
 | Kravari  | 25    | Psychic, Air                                          | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                    | 0     |
 | Sandman  | 25    | Earth                                                 | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                            | 0     |
 ## Human
-Humans are upright, two-legged mammals with a balanced and highly variable build. The skeleton is internally rigid with flexible joints at the neck, shoulders, elbows, hips, knees, and ankles, allowing both endurance walking and short bursts of speed. The torso is widest at the shoulders, narrows toward the waist, and widens again at the hips, giving stable upright balance. Arms are shorter than legs and end in hands with five flexible fingers capable of both fine manipulation and strong grip.
-
-Skin is opaque, elastic, and soft, thickening naturally at areas of repeated pressure such as palms, soles, knees, and elbows. Skin tones range widely from pale pink-beige through tan, brown, and deep brown. Hair grows primarily on the scalp, with finer growth on limbs and torso. Hair texture ranges from straight to tightly curled. Eyes are forward-facing with visible whites and a colored iris, commonly brown, blue, green, gray, or hazel. Teeth are flat and blunt, suited for mixed diets. Humans have no claws, fangs, horns, wings, or other extreme features.
+Just people.
 ###### Racial Abilities
 | Tier | Ability                                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -43,9 +41,7 @@ Skin is opaque, elastic, and soft, thickening naturally at areas of repeated pre
 | 10.2 | **Toughened:** Gain +2 AC and +50 Vitality.                                                                                |
 | 10.3 | **Specialist:** Gain +15 to attack rolls with one weapon type OR +10 Generic Affinity (choose one).                        |
 ## Aurian
-Aurians share a human skeletal plan but with distinct proportional differences. Their arms are unusually long, nearly equal in length to their legs, giving them a wide reach and a slightly hanging resting posture. The bones are denser than human average, producing a heavier feel even at similar size. The shoulders are broad, and the joints appear sharply defined.
-
-Skin is tan to bronze, smooth, and resistant to discoloration. Beneath the skin, veins are visibly red or orange rather than blue, faintly glowing under exertion or heat. Hair grows thickly on the scalp and is uniformly white or pale silver. Eyes are solid red or ember-orange, with little or no visible white. Facial features tend to be angular, with strong jawlines and pronounced cheekbones. Teeth remain blunt and humanlike. 
+People with arms as long as their legs who always have tan/bronze skin which almost never discolors. Their eyes are always red or orange. Their viable veins are red/orange instead of blue. Hair is always white or silver. Very strong and sharp jawlines. They never have much fat. 
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -65,9 +61,7 @@ Skin is tan to bronze, smooth, and resistant to discoloration. Beneath the skin,
 | 10.3 | **Mana Engine:** Gain +40 Max Mana and +10 Mana for every level after this. |
 | 10.4 | **Overchannel God:** The damage from Overchanneling spells is reduced to d4s and the damage is dealt to Vitality first (still ignores all resistances, immunities, and damage mitigation effects). |
 ## Halofade
-Halofades are extremely tall and thin, with exaggerated limb length and narrow frames. Arms and legs are disproportionately long, and fingers and toes are elongated with many visible joints, giving the hands and feet a spindled, almost skeletal look. The ribcage is narrow, shoulders slope downward, and the neck is long and delicate. Despite the fragile appearance, joints are reinforced and do not bend unnaturally.
-
-Skin is very pale, cream, pearl-white, or faint yellow-gold, and reflects light strongly, giving a soft glow rather than shine. The surface feels cool and smooth. Hair is very fine and light, usually pale blonde, white-gold, or near translucent. Eyes are pale blue, gold, violet, or white, with clearly visible pupils even in low light. Teeth are small and blunt. 
+People but very tall, long necks, long arms, longer legs. Fingers and toes are about twice as long as regular people. Rib cage is short but torso is long, very long stomach. Very pale cream colored skin with always golden blonde hair. Eyes are typically bright yellow but occasionally can be shades of violet.
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -86,9 +80,7 @@ Skin is very pale, cream, pearl-white, or faint yellow-gold, and reflects light 
 | 10.2 | **Many Worlds:** When you cast Superposition your duplicates can cast spells using your mana and use items, they gain 40 HP and +2 AC. |
 | 10.3 | **Quantum Immortality:** When you would drop to 0 HP, you instead drop to 1 HP and immediately teleport to any unoccupied space you can see or have previously visited within 60 ft. This triggers once per combat. You permanently gain resistance to Quantum damage and immunity to the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\|Vibrating]] condition. |
 ## Giant
-Giants are massive humanoids scaled far beyond human size. The skeleton is extremely thick, with oversized joints designed to support enormous weight. The torso is deep and wide, housing proportionally large organs. Limbs are thick and heavily muscled, with hands and feet far larger relative to the body than in humans. The neck is short and heavily muscled to support the large head.
-
-Skin is thick, rough, and resilient, commonly stone-gray, dark tan, or earth-toned. Calluses form rapidly and scars remain raised and visible. Hair is coarse and heavy, usually dark brown, black, or rust-red. Eyes are dark, brown, green, or nearly black. Teeth are broad and flat. Movement is slow but powerful, and the body carries a constant sense of weight and pressure.
+Like a person but like really big and extra wide and thick even for how big they are. 
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -107,9 +99,7 @@ Skin is thick, rough, and resilient, commonly stone-gray, dark tan, or earth-ton
 | 10.2 | **Siegebreaker:** Skills that only work with Unarmed Attacks now work with any melee attack. |
 | 10.3 | **Unstoppable:** You automatically succeed all constitution and strength saves and gain +5 to your STR and CON scores. |
 ## Iceborn
-Iceborn resemble humans in proportion but are more compact and dense. The torso is short and solid, shoulders are broad, and muscles are packed tightly rather than elongated. Limbs are slightly shorter relative to body length, increasing stability. Fat layers favor insulation rather than bulk.
-
-Skin ranges from pale blue to blue-gray or frost-white and feels cold to the touch even in warm conditions. Hair is thick and white, silver, or pale blue. Eyes are ice-blue, pale gray, or clear white, with rare green variants. Skin texture firms and stiffens slightly in extreme cold. Teeth are blunt and humanlike. Their overall appearance is solid, heavy, and resistant to environmental stress.
+Person but arms and legs are slightly shorter than normal, skin is light blue or gray or even sometimes a pure white. Hair is white, silver or light blue. Eyes are various shades of blue and gray and can rarely be green. Typically heaver set/fatter.
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -128,9 +118,7 @@ Skin ranges from pale blue to blue-gray or frost-white and feels cold to the tou
 | 10.2 | **Glacier Heart:** Regenerate 1d8 + Ice/Cold [[2.1 Affinities#Attack Damage Bonus\|Attack Damage Bonus]] Vitality at the start of your turn while below half HP if you didn't take Fire damage on the last turn or are in an environment which is below freezing (32 F). |
 | 10.3 | **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save halves). |
 ## Fireborn
-Fireborn have a strong, grounded humanoid build with thick legs and a reinforced core. The spine is flexible, and musculature is dense around the abdomen and thighs. Hands are broad with toughened palms.
-
-Skin tones range from light red and copper to dark gray with warm undertones. The skin radiates noticeable heat and feels dry even in humid conditions. Hair is uniformly black, coarse, and thick. Eyes are also black, with little contrast between iris and pupil, giving a deep, reflective look. Teeth are slightly sharper than human average but not true fangs. The body often appears warm, tense, and active even at rest.
+Person but arms and legs are slightly shorter than normal, skin is various shades of orange, yellow, red, and dark gray to nearly black. Eyes are totally black, hair is always black. Teeth are slightly sharp. 
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -149,9 +137,7 @@ Skin tones range from light red and copper to dark gray with warm undertones. Th
 | 10.2 | **Flame Lord:** Gain +5 Fire Affinity, +2 Magic Accuracy, and your fire spells ignore immunity and resistances. |
 | 10.3 | **Mana Furnace:** You gain +1 Fire Damage for every 10 mana you currently have to any Fire Spell you cast. |
 ## Kravari
-Kravari are humanoid but massively overbuilt. Arms, legs, hands, and feet are oversized relative to the torso, with extreme muscle density and thick bone. Hands are especially large, with wide palms and thick fingers that appear disproportionate even among their own kind. The chest is deep, shoulders wide, and neck thick.
-
-Skin is dark gray to near-black and scars easily, thickening over time into a tough surface. Hair is coarse, dark, and limited to black or deep brown. Eyes are dark brown, black, or dull red. Teeth are thick and strong. Their silhouette is unmistakably heavy and powerful, with little visible finesse or delicacy in movement.
+An entire race of people who look just like Jeff Dabe. Basically a person but larger with massive arms and hands, very thick, very muscular. Normal human skin colors and hair colors and eye colors. 
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -170,9 +156,7 @@ Skin is dark gray to near-black and scars easily, thickening over time into a to
 | 10.2 | **Perfect Hit:** You may reroll 3s on weapon attack (melee or ranged) dice rolls until they are not 3s. Gain +2 Base Melee and Ranged damage. |
 | 10.3 | **Perfect Soldier:** Gain Expertise in Heavy Armor. Your Critical attacks deal 50% more damage. Gain +5 Base Melee and Ranged damage. |
 ## Sandmen
-Sandmen appear humanoid but immediately feel abnormal on close inspection. The body proportions are humanlike, but movements are fluid and slightly too smooth. Skin is semi-translucent, pearl, pale sand-pink, or soft gray, allowing faint shadows of veins and muscle to show beneath the surface.
-
-The skin is constantly damp, as if lightly sweating at all times, giving a slick or humid sheen rather than true slime. Hair is absent; the scalp is smooth. Eyes are milky white, soft violet, or deep black, sometimes with faint internal speckling. Teeth are normal and blunt.
+People but skin is slightly transparent and much paler than a typical white person. They have no hair at all. Their veins are more of a purple/lavender color and are very visible. 
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |

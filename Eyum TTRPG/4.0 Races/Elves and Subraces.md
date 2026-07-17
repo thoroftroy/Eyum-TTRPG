@@ -26,10 +26,25 @@
 | Fairy      | 10, fly 40   | Earth, Necrotic     | Generic, Fire, Water, Psychic  | Air, Radiant            | +3 DEX, -2 STR |
 | Pixy       | 10, fly 40   | Earth, Radiant      | Generic, Fire, Water, Air      | Psychic, Necrotic       | +2 DEX, +1 CHA |
 ## Elf
-Elves are upright, two-legged humanoids with a light, refined skeletal structure and long, balanced proportions. Their limbs are slightly longer relative to the torso than in humans, giving them a tall, narrow silhouette even at average height. Joints are smooth and flexible, allowing quiet, precise movement with minimal wasted motion. The spine is straight and elastic, supporting an upright posture that appears relaxed but controlled. Elves are known far and wide for their beauty. 
-
-Skin is smooth, opaque, and evenly textured, ranging from pale cream through tan to warm brown. It scars less visibly than human skin and tends to heal cleanly. Hair grows thickly on the scalp and is usually straight or gently wavy, with colors including black, brown, blonde, bright red, and white. Ears taper into subtle points extending past the head’s outline. Eyes are forward-facing with visible whites and clear irises, most often green, blue, gray, hazel, or deep brown. Teeth are small and blunt, with no pronounced canines. 
+Its a thin attractive human with always white/pale skin and pointed ears. Eyes are typically blue or green. Hair is typically red or blonde but can be brown but never black. 
 ###### Racial Abilities 
+
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Keen Shot.** Gain +2 Base Ranged Accuracy.
 - **Tier 2:** **Fleet Aim.** If you move 10 ft or less on your turn, gain +3 Ranged Accuracy on your next turn. 
 - **Tier 3:** **Deep Range.** Double the range of your ranged weapons.
@@ -44,10 +59,24 @@ Skin is smooth, opaque, and evenly textured, ranging from pale cream through tan
     - **Storm of Arrows:** Once per turn as an Action, make 3 ranged attacks at -2 Accuracy each (can target different creatures).
     - **Perfect Precision:** Gain +10 Base Ranged Accuracy and your ranged attacks ignore 3/4 cover.
 ## Draugir
-Draugir share the same skeletal plan as elves but with slightly denser muscle and a heavier lower body. The hips and calves are more developed, giving them a grounded stance and controlled weight distribution. Limb length matches that of elves, but the posture feels lower and more deliberate, with less upward lift.
-
-Skin is opaque and matte, colored charcoal, deep gray-brown, cool violet-brown, or near-black. It reflects very little light and shows pale scars clearly when damaged. Hair is straight and coarse, typically black, blue-black, ash-gray, or silver-white. Ears retain the pointed elven shape but are often thicker at the base. Eyes are forward-facing with visible whites, though pupils appear larger, making the eyes seem darker in low light. Iris colors include pale gray, icy blue, violet, and red-brown. Teeth are blunt with slightly sharper canines that do not protrude. 
+Its an elf but with gray or black skin and always black or white hair. Eyes are typically red or purple. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Grave Shot.** Once per turn on a ranged hit, add 1d6 Necrotic damage.
 - **Tier 2:** **Night Eyes.** You gain 90 ft of darkvision and gain +5 Ranged Accuracy while in Dim Light or Darkness. 
 - **Tier 3:** **Chill Mark.** Once per combat when you hit a creature with a ranged attack, its speed is reduced to 10 ft until the start of your next turn.
@@ -62,10 +91,24 @@ Skin is opaque and matte, colored charcoal, deep gray-brown, cool violet-brown, 
     - **Deathproof:** When reduced to 0 HP, drop to 1 HP instead (twice per combat).
     - **Cold Shadow:** When you would deal necrotic damage double the damage, half of that damage becomes cold damage instead. Gain resistance to cold damage. 
 ## Dryad
-Dryads have tall, flexible humanoid frames with long limbs and a spine capable of subtle, fluid shifts. Shoulders are broad relative to the waist, giving a balanced but upright stance. Hands and feet are long-fingered, and nails are slightly thicker than human nails, though not clawed. The body often appears lightly reinforced at joints and along the collarbones.
-
-Skin is opaque and firm, ranging from pale bark-beige to warm tan and deep brown, often marked by faint streaks or grain-like patterns. The surface may feel subtly textured along forearms, shins, and shoulders. Hair grows thickly and often appears rope-like or clustered rather than silky, in colors such as dark brown, black, mossy green, copper, or pale gold. Ears taper into points. Eyes are forward-facing with visible whites and irises of leaf-green, amber, hazel, or dark brown. Teeth are flat and uniform. 
+Its an elf but with brown skin and hair which is brown to dark green. Eyes are always green. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Rooted Step.** Difficult terrain from plants/natural ground does not count as difficult terrain for you.
 - **Tier 2:** **Barkskin.** Gain +2 AC while not wearing heavy armor.
 - **Tier 3:** **Earthbind.** Once per combat as a Bonus Action, a creature within 20 ft must pass a STR save (DC 10 + WIS mod + Tier) or have its speed reduced to 10 ft until your next turn.
@@ -80,10 +123,24 @@ Skin is opaque and firm, ranging from pale bark-beige to warm tan and deep brown
     - **Stoneheart:** You have double advantage on Wisdom Saving Throws and immunity to poison and necrotic damage.
     - **Living Grove:** Each time you deal earth damage from Wrath of the Grove you may heal 1d6 HP. 
 ## Nymph
-Nymphs are slender humanoids with smooth, flowing proportions and slightly wider hips than other elves. Limbs are long and flexible, with joints that rotate easily and silently. Hands have faint webbing between the fingers, most visible when spread. The neck is long and the head is held high, giving an open, lifted posture.
-
-Skin is smooth, opaque, and often appears moist or glossy, ranging from pale pearl to tan and deep brown. The surface feels cool and slick, especially in humid air. Hair lies heavy and flat, as if damp even when dry, commonly black, dark brown, sea-green, deep blue, or silver. Eyes are forward-facing with visible whites and irises of sea-green, blue-gray, dark brown, or pale silver. Teeth are blunt and even. 
+An elf with slightly blue tinted skin, hair is usually black or shades of dark blue. Eyes are always blue. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 You always have the soaked condition.
 - **Tier 1:** **Water Affinity Bloom.** Gain +10 Water Affinity, you can breath underwater indefinitely. 
 - **Tier 2:** **Fluid Motion.** You may move 5 ft after casting a spell without provoking reactions. (Once per turn)
@@ -99,10 +156,24 @@ You always have the soaked condition.
     - **Sea Ward:** Gain Immunity to Cold and Water damage. When you normally would take water damage heal half of it as Vitality instead. 
     - **Tidal Mastery:** Your Tidebite becomes 2d10 + Racial Tier Water and can be used on all spell and weapon attacks.
 ## Siren
-Sirens resemble elves in height and general structure but have stronger necks, broader chests, and more pronounced jawlines. The limbs remain long and narrow, but the upper body carries more muscle mass. Posture is confident and forward-facing, with a deliberate stillness when at rest. Sirens are often considered the most beautiful of all the elves. 
-
-Skin is smooth and opaque, ranging from pale cream to tan and deep brown, often with a subtle reflective sheen. Hair is thick and glossy, commonly black, dark brown, blonde, copper-red, or silver-white. Ears are pointed like other elves. Eyes are forward-facing with visible whites and irises in green, blue, gray, hazel, or deep brown. Teeth include clear upper and lower canines that are longer and sharper than the rest, forming visible fangs when the mouth opens. 
+A human but really attractive always with small fangs, sharp teeth, ears are long and pointed like elves but slightly wider
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Alluring Voice.** Gain Proficiency and Expertise in Persuasion and Deception and +5 to your CHAR score.
 - **Tier 2:** **Mind Touch.** Gain +2 Psychic Affinity and you learn 1 spell.
 - **Tier 3:** **Charm Pulse.** Once per turn as an Action, a creature within 30 ft must pass a WIS save (DC 10 + CHA mod + Racial Tier) or gain the [[2.4 Conditions#Mental-Conditions|Charmed]] Condition with a removal DC of 10 + Racial Tier.
@@ -116,10 +187,24 @@ Skin is smooth and opaque, ranging from pale cream to tan and deep brown, often 
     - **Mindbreaker:** Your Psychic Spike becomes 2d12 Psychic and can be used on all attacks.
     - **Irresistible:** Gain +20 to your Charisma score.  
 ## Dwarf
-Dwarves are short, compact humanoids with thick skeletal structures and broad joints. The torso is wide and deep, and limbs are short but heavily muscled. The neck is thick and short, and the head sits low between the shoulders. Hands are large relative to height, with thick fingers and broad palms.
-
-Skin is opaque and tough, ranging from pale beige to deep brown. It thickens rapidly into callus at hands, elbows, knees, and feet. Scars are common and remain textured. Hair grows dense and coarse on the scalp, often accompanied by heavy facial hair, in colors such as black, brown, red, gray, or white. Eyes are forward-facing with visible whites and irises of brown, hazel, green, or gray. Teeth are thick and blunt. 
+Basically a short person with pointed ears who is very stocky, typically long flowing hair and beards. Come in all colors of skin, hair, and eyes. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Stonebones.** Gain 2 Damage Reduction and +2 to your CON score.
 - **Tier 2:** **Forge Hands.** Gain +5 to any checks relating to crafting, repairing, or building something including rune inscriptions.
 - **Tier 3:** **Stubborn.** Gain Advantage on Constitution saving throws.
@@ -134,10 +219,24 @@ Skin is opaque and tough, ranging from pale beige to deep brown. It thickens rap
     - **Forge Lord:** Your Forge Hands bonus increases to +10 and you gain advantage on those checks. 
     - **Warlord:** Gain +5 Melee Accuracy and +1 AC and your Heavy Swing can be used on all melee hits.
 ## Snerin
-Snerin are extremely compact humanoids with very short limbs and barrel-shaped torsos. The shoulders sit high, giving a naturally hunched-ready posture. The head is large relative to the body, with a heavy brow ridge and short, blunt facial structure. Hands are strong but less precise, with short, thick fingers.
-
-Skin is opaque, thick, and rough-textured, colored slate-gray, stone-gray, or pale gray-blue. Calluses form quickly, and scars remain highly visible. Hair is sparse or patchy, usually black, dark brown, iron-gray, or dull white. Eyes are forward-facing with visible whites and dark irises, commonly brown, gray, or muddy green. Teeth are blunt and tightly packed. Their silhouette is dense, low, and stone-like.
+A dwarf with blue-gray skin who is typically bald and less stocky, still has pointed ears but slightly less so. 
 ###### Racial Abilities 
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Stonequiet.** Gain +2 to Stealth checks in dim light, darkness, or underground.
 - **Tier 2:** **Compact Body.** Gain +1 AC while not wearing heavy armor.
 - **Tier 3:** **Fade.** Once per round as a Bonus Action, become invisible until you attack something or after 3 rounds. (once per turn)
@@ -151,10 +250,24 @@ Skin is opaque, thick, and rough-textured, colored slate-gray, stone-gray, or pa
     - **Endless Fade:** You can maintain your invisibility indefinitely as concentration.  
     - **Assassin’s Stone:** Gain +1 Base Melee Accuracy and your Backstab Weight becomes +3d8.
 ## Ironwroth
-Ironwroth are large, heavy-built dwarven kin with longer limbs and near-human height. The torso is massive, shoulders are thick and squared, and the chest is deep. Bone density is extreme, giving the body a thick, compressed appearance. Hands are large with crushing grip strength, and movement appears deliberate rather than quick.
-
-Skin is opaque and rough, colored tan, deep brown, or dark umber. Thick callused plates form naturally on knuckles, elbows, and shins. Hair is coarse and heavy, commonly black, dark brown, rust-red, gray, or white. Eyes are forward-facing with visible whites and dark irises such as brown, dark green, or gray. Teeth are thick and blunt. 
+A dwarf but the ears are hardly pointed and they are larger than normal, always red hair and very muscular/built. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Iron Frame.** Gain +1 AC and count as one size larger during combat by get -5 ft speed. 
 - **Tier 2:** **Slow Power.** Your melee attacks deal +2 + Racial Tier force damage if you moved 10 ft or less this turn, if you utilize this you cannot move this turn.
 - **Tier 3:** **Reinforced Bones.** Become immune to [[2.4 Conditions#Environmental / Positional Conditions|Prone]] condition.
@@ -169,10 +282,24 @@ Skin is opaque and rough, colored tan, deep brown, or dark umber. Thick callused
     - **Iron Giant:** Gain +7 STR and +5 CON but -3 DEX.
     - **Hammer King:** Gain +3 Melee Accuracy and your Slow Power bonus becomes +5 + racial Tier True damage.
 ## Fairy
-Fairies are tiny humanoids with extremely light skeletal frames and delicate joints. Limbs are long relative to body size, giving them a thin, fragile silhouette. Hands are small but fully articulated. A pair of large, veined wings grows from the upper back, proportionally enormous compared to the body.
-
-Skin is smooth, thin, and lightly reflective, ranging from pale peach to tan and warm brown, often with a faint shimmer. Hair is fine and wispy, growing quickly in black, brown, blonde, red, white, or pastel tones. Eyes are forward-facing, large for the face, with visible whites and bright irises such as green, blue, gray, hazel, or violet. Teeth are small and blunt.
+Just a really small elf with large translucent wings coming out of their back
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Radiant Spark.** Gain +3 Radiant Affinity and learn 1 spell.
 - **Tier 2:** **Glitter Ward.** Once per turn as a Bonus Action, gain +2 AC until your next turn.
 - **Tier 3:** **Lightstep.** You may take Disengage as a free action.
@@ -187,10 +314,24 @@ Skin is smooth, thin, and lightly reflective, ranging from pale peach to tan and
     - **Wings of Mercy:** Your Healing Dust can be used once per turn.
     - **Sunlance:** Once per turn as an Action, deal 4d10 + Racial Tier + Radiant Affinity Radiant damage to one target within 60 ft.
 ## Pixy
-Pixies share fairy size but have sturdier shoulders and stronger jawlines. Limbs are slim but more defined, and wing joints are thicker, built for rapid fluttering rather than long glide. Wings are veined and fast-moving, folding tightly when at rest.
-
-Skin is smooth and opaque, commonly purple-gray, slate-gray, charcoal, or cool lavender. Hair is fine but messy, in black, white, silver, deep purple, or gray. Eyes are forward-facing with visible whites and irises of pale gray, violet, icy blue, or bright green. Teeth are sharp and include small but visible fangs.
+Just a relaly small Draugir with large translucent wings coming out of their back
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Shadow Spark.** Gain +2 Psychic Affinity and learn 1 spell.
 - **Tier 2:** **Umbral Veil.** Gain +2 AC until your next turn.
 - **Tier 3:** **Hex Prick.** Once per turn when you deal damage with a spell or weapon, add 1d6 + Racial Tier Necrotic damage.

@@ -14,10 +14,24 @@
 | Mirr         | 30          | Earth, Necrotic     | Generic, Fire, Water, Air, Psychic                  | Radiant             | +2 CHA, +1 INT, -1 STR |
 | Skinwalker   | 30          | Radiant, Psychic    | Generic, Fire, Earth, Water, Air                    | Necrotic            | +2 DEX, +1 CON         |
 ## Shapeshifter
-Shapeshifters have a default body that is humanoid but not fully stable in its proportions. The skeleton exists, but the bones are lighter and slightly flexible, with joints that can shift position without breaking. The shoulders, hips, ribcage, and spine can subtly re-shape, so a shapeshifter’s baseline stance often looks like it is never fully settled. Limb length and hand size vary more than in most peoples, even within the same individual over time. When standing still, the posture may drift: the neck angle changes, the shoulders roll, and the hands hang at a slightly different height from moment to moment.
-
-Their skin is smooth and highly elastic, able to stretch, fold, or tighten without tearing. In a calm state it looks normal, but up close it often has a faint pulled look at the corners of joints, like the surface is under gentle tension. Skin tones can be almost anything, but many look slightly muted or washed, as if the color is close to real skin but not perfectly natural. Small details, freckles, scars, sharp color breaks, tend to blur over time unless maintained with focus. Hair can exist, but it is unreliable: it may thin, thicken, shorten, or change texture slowly, and the hairline often looks too clean or too evenly placed. Eyes are forward-facing and usually normal in shape, but the iris pattern can look slightly plain, and when the face shifts the eyes may be the last feature to fully match, creating a brief mismatch in spacing or lid shape. Teeth are usually humanlike, though during stress they may sharpen slightly or change spacing, then settle back.
+They can look like anyhting really, their true form is basically a human though just without eye lids, they dont blink. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Fluid Face.** As a BAp, alter your face/voice/clothing silhouette. You gain +10 to Deception checks to pass as a specific person you’ve seen.
 - **Tier 2:** **Borrowed Step.** Choose one movement mode you have seen in the last 24 hours (swim, climb, glide, fly). You gain that mode at 20 ft for 1 hour. (Once per short rest)
 - **Tier 3:** **Soft-Bone Evasion.** Once per round when you are hit as a reaction, reduce that hit’s damage by 1d10 + DEX mod.
@@ -32,10 +46,24 @@ Their skin is smooth and highly elastic, able to stretch, fold, or tighten witho
     - **Perfect Body:** Gain +5 to all saving throws, and your Soft-Bone Evasion becomes 3d10 + DEX mod.
     - **True Shell:** The shells you create with Man of Many Shells and Split Mask gain 30 ft of movement on your turn. They may take any actions that you can take and they actually happen and do their effects. Shells cannot create more shells and you can only have 8 shells active at once. You can now activate Man of Many Shells or Split Mask as many times as you wish per combat but you must not have any shells currently active. 
 ## Mireglopian
-Mireglopians are semi-liquid beings with no permanent bones. Their body holds shape through internal thickness changes, like a living gel that can harden in one place and soften in another. At rest they often keep a humanoid outline, but the silhouette is never perfectly crisp. The edges of the body look rounded, and fine angles, sharp jawlines, pointed elbows, hard kneecaps, tend to look softened, as if carved from thick wax. When they move, the mass lags a fraction of a second behind the motion, creating a slow, heavy sway. Limbs can lengthen or shorten as needed, but thin, delicate shapes are hard to hold for long; the body prefers thick, smooth forms.
-
-The surface is slick and wet-looking even when dry, with a light sheen that reflects in broad highlights rather than sharp shine. Skin color ranges from milky clear to swampy greens, muddy browns, deep blues, and dark gray. In paler individuals, internal flow lines are visible: slow drifting streaks, cloudy pockets, or dense knots that move like currents. In darker individuals, the body may look opaque, but still shows subtle shifting patterns under the surface. Hair does not grow naturally. They can push up hair shapes as thin strands or ridges, but it behaves like soft gel and slumps or dissolves when attention fades. Eyes are made by condensing material into clear lenses; they can place them anywhere, and can make more than two, but the details are often simple, smooth iris rings, dark pupil spots, and a glassy look without fine veins. A mouth can be a normal slit or a soft opening that reshapes as they speak or feed. Teeth, if present, are usually formed as hard nodules inside the mouth rather than rooted enamel.
+Its a person, but they are entirly made of slime. Typically in green, blue and pink varieties. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 You have Less Weakness to Fire damage and Greater resistance to Water damage. You are immune to Gel damage and the [[2.4 Conditions#Physical-Conditions|Gelled]] Condition. 
 - **Tier 1:** **Gel Body.** You have double advantage on checks to resist Grapple/Restrain, and you can squeeze through any gap you can fit your head through. You may form your body into any simple shape but no part of your body can be thinner than 3 in in diameter. When you hit a creature with an unarmed attack it does Gel damage instead of Bludgeoning. You gain +3 Gel Affinity.
 - **Tier 2:** **Mire Regeneration.** At the start of your turn, heal 1d8 + CON mod if you are above half HP.
@@ -51,10 +79,24 @@ You have Less Weakness to Fire damage and Greater resistance to Water damage. Yo
     - **Dissolving God:** If you are grappling a creature it takes 10d6 Gel and 10d6 Miasma damage at the start of each turn. 
     - **Endless Split:** After splitting with Body Split you can split each half again as an additional Action (you will have 4 bodies), each one gets an even split of your HP and Vitality and can act independently on your turn, you can Merge any two bodies the same as with a normal Body Split. 
 ## Mirr
-Mirr have a fixed physical body that stays the same beneath all forms. Their true shape is humanoid and consistent: normal bone placement, normal muscle layout, and a stable height and build. The body tends to look clean and symmetrical, with fewer natural messy details like uneven pores, broken capillaries, or random skin texture. The movement is always tied to that true frame, so even when they appear bulky or animal-like, their gait still carries the rhythm of a biped with the same limb lengths and joint angles.
-
-Their true skin is pale white to soft gray, smooth, and slightly reflective in a flat, wax-like way rather than a healthy skin sheen. Fine skin features are minimal. Hair in the true form is usually sparse and fine, sometimes almost downy, with a soft texture that does not clump much. Eyes in the true form have visible whites and a normal pupil, but the iris often looks faint or washed, as if the pigment is thin. When disguised, the new body can look extremely convincing at a glance, but close inspection can reveal small mismatches: fur that does not separate into true strands under touch, scales that do not shift with muscle correctly, or hair that does not react to wind in a fully natural way. Illusory scars and dirt may look perfect visually but lack raised edges, flaking, or true depth. The mouth and teeth may look different in disguise, but the bite alignment and jaw motion still match the true skull, wide animal snarls can look slightly stiff, and very long fangs may not line up with how the jaw closes.
+Just looks like a person
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Mirror Skin.** As a Bonus Action, cloak yourself in a perfect visual disguise of a creature you have seen within the last hour. Gain +10 to Deception checks to pass visually.
 - **Tier 2:** **Favored Forms.** You may choose up to 1 + Racial Tier forms which you Favor and can change into at any time. You may spend a period of 10 min of uninterrupted focus to replace a form with someone else. 
 - **Tier 3:** **Mind-Wear.** Once per turn when you deal damage, add 1d8 Psychic and the target takes -2 to its next saving throw.
@@ -68,10 +110,24 @@ Their true skin is pale white to soft gray, smooth, and slightly reflective in a
     - **Absolute Illusion:** Your Hall of Copies becomes 8 copies, and while any copy remains you gain +3 AC and +5 to hit. Rolling a 3 or higher on the percentage die (or a 1d10) will now cause a copy to be struck instead of a 5 or higher. 
     - **Mind Crown:** Your Mind-Wear becomes 4d10 Psychic (still once per turn) and your Compulsion Glance also applies -10 to saving throws.
 ## Skinwalker
-Skinwalkers are true physical mimics. Their baseline body is humanoid, but it is built around extreme internal re-organization. Bones can change length and shape, joints can relocate, and muscles can re-anchor to new attachment points. During change, the body briefly shows intermediate states: ribs shifting under the skin, shoulders widening, neck shortening, or the pelvis rotating to support a new stance. When finished, the form is fully functional: posture, balance, and weight distribution match the copied creature rather than remaining human-shaped.
-
-Their skin can reproduce fine surface detail with high precision. Texture changes are real: copied scales are hard and overlapping, copied fur grows as true strands, copied calluses thicken in the correct places, and copied scars become raised or indented with real depth. Pigment can match complex patterns, spots, stripes, mottling, or uneven sun-darkening. Hands and feet can become paws, hooves, claws, or other structures, with nails and pads that feel correct under pressure. Hair grows as real filament with accurate direction and density; it clumps when wet, blows in wind, and tangles naturally. Eyes replicate well enough to capture species-specific traits: slit pupils, reflective layers, cloudy lenses, or odd iris shapes. The eyes also move and focus correctly for the form, predatory forward focus or wide prey-like side vision. Teeth and jaw structure are fully rebuilt, so bites, snarls, and chewing mechanics match the copied mouth. Even small asymmetries can be carried over: a crooked tooth, a torn ear edge, or an uneven scar line, if the skinwalker has seen it clearly.
+Looks just like a regular person but also doesnt have eye lids and cant blink when they arent mimicing anyhting. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **True Mimicry.** You can physically copy a humanoid you have observed for 1 minute. The copy includes scent/texture/voice. Your speed and size change to match the race of the creature you copy but your weight stays the same. You can remember up to 1 + (Racial Tier/3 (rounded down)) forms. 
 - **Tier 2:** **Predator Frame.** While in any form other than your own gain +1 Base Accuracy. 
 - **Tier 3:** **Borrowed Muscle.** When you change form into a different race add or subtract the Strength, Dexterity and Con bonuses that the race grants to yours (changing back to your normal form will revert back to your normal stats).

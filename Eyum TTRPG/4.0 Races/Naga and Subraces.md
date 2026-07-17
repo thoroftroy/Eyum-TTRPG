@@ -24,10 +24,24 @@
 | Carapax     | 25, swim 20  | Air, Psychic        | Generic, Fire, Water             | Earth, Necrotic, Radiant | +3 CON, -1 DEX, +3 AC |
 | Anuran      | 30, swim 40  | Fire, Radiant       | Generic, Earth, Psychic          | Water, Air, Necrotic     | +2 DEX, +1 WIS        |
 ## Naga
-Naga possess a humanoid upper body joined at the waist to a long serpentine lower body. From the head to the hips, the skeletal structure is humanlike, with two arms, a ribcage, shoulders, and a flexible spine. Below the waist, the pelvis transitions into an elongated spinal column composed of many small, repeating vertebrae, forming a powerful snake tail capable of tight coils and strong lateral motion.
-
-The tail is thick at the base and tapers gradually toward the tip, providing balance, locomotion, and striking force. Scales fully cover the tail and often extend partially onto the hips and lower abdomen. These scales are smooth, overlapping, and glossy, typically colored dark red, deep green, or earthy brown. The upper body skin is opaque and humanoid in tone, while the head is fully human in shape. Hair grows normally on the scalp. Eyes are forward-facing with visible whites and colored irises. Teeth are slightly sharp and they have small fangs. 
+Human on the top half then snake tail replacing the legs from about the waist down. Usually pinks, reds, and oranges. Very long tail. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Coiling Body.** Gain +3 to grapple checks and checks to resist grapples, you also gain advantage on grapple checks.
 - **Tier 2:** **Tail Strike.** Your unarmed strikes deal 1d6 + Racial Tier + STR mod Bludgeoning.
 - **Tier 3:** **Constrict.** While a creature is grappled by you it takes 1d12 + Racial Tier Bludgeoning damage at the start of each turn.
@@ -41,10 +55,24 @@ The tail is thick at the base and tapers gradually toward the tip, providing bal
     - **Titan Coil:** Your Constrict activates as soon as you succeed a grapple and the damage increases to 4d20 + Racial Tier Bludgeoning.
     - **Unbeatable Coil:** Your Constrict damage bypasses resistances and immunities. 
 ## Slarik
-Slarik share the same basic body plan as naga but replace the snake tail with a thick, segmented, worm-like lower body. The transition at the waist is abrupt, with the humanoid torso sitting atop a soft, cylindrical mass rather than a tapered tail. The lower body lacks rigid bone and instead relies on dense muscle bands arranged in rings, allowing slow but forceful compression and expansion.
-
-The skin of the lower body is smooth, rubbery, and hairless, colored pale pink, raw flesh tones, or dull gray. It appears moist at all times and shows subtle rippling during movement. The upper body is hairless as well, with smooth skin and no visible body hair. The head is human in shape, though facial features often appear swollen or slack due to soft tissue density. Eyes are forward-facing and often pale or watery in appearance. Teeth are blunt and small. 
+Its a human body with no hair and always making a little bit of mucus instead of sweat and their legs are replaced with a wet pink worm "tail" which is a couple feet long
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Heavy Flesh.** Gain +10 Max HP and advantage on checks to resist being knocked [[2.4 Conditions#Environmental / Positional Conditions|Prone]].
 - **Tier 2:** **Grind Move.** You ignore the first 10 ft of difficult terrain each turn.
 - **Tier 3:** **[[2.4 Conditions#Environmental / Positional Conditions|Suffocating]] Wrap.** When you grapple a creature, it takes 1d4 Necrotic at the start of its turn and gains the [[2.4 Conditions#Environmental / Positional Conditions|Suffocating]] Condition.
@@ -59,10 +87,24 @@ The skin of the lower body is smooth, rubbery, and hairless, colored pale pink, 
     - **Meat Grinder:** While a creature is grappled you may make a athletics check (DC 20), on success your grappled target takes 10d20 + 10 bludgeoning damage (bypassing resistances and immunities).
     - **Unstoppable Mass:** You become immune to [[2.4 Conditions#Environmental / Positional Conditions|Prone]], [[2.4 Conditions#Physical-Conditions|Stunned]], [[2.4 Conditions#Physical-Conditions|Paralyzed]], and [[2.4 Conditions#Physical-Conditions|Petrified]], and your Anchor Body ignores size and prevents movement from spells.
 ## Scaledrake
-Scaledrakes are heavily muscled naga with thick torsos and broad shoulders. The humanoid upper body shows extreme muscle development, especially across the chest, arms, and back. Small but sturdy wings grow from the upper back, with short bone supports and leathery membranes stretched between elongated fingers. These wings are not large enough for full flight but aid in gliding and balance.
-
-The tail is thick and powerful, covered entirely in bright, vividly colored scales arranged in complex patterns such as stripes, bands, or diamond shapes. Colors include saturated reds, blues, greens, yellows, and purples, often in high contrast. Scales extend partially onto the torso, neck, and upper arms. The head remains mostly human in structure, though the jaw is heavier and the brow ridge more pronounced. Teeth are larger and sharper than human average but they lack true fangs. 
+Muscular snake person, they have a fully snake head which goes into a fully scaled humanoid torso which is muscular and has a pair of small wings coming out of it then the torso goes into a large thick snake tail. They have large fanges and a frilled cobra like head. Colors are typically dark green or blacks with ligher colors on their belly sides. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Glide Control.** You may glide safely: you can change direction freely while gliding and ignore fall damage.
 - **Tier 2:** **Scaled Knuckles.** Your unarmed strikes deal 1d8 + Racial Tier + STR mod Bludgeoning.
 - **Tier 3:** **Brightscale Intimidation.** Gain Proficiency in Intimidation and Expertise in Intimidation.
@@ -77,10 +119,24 @@ The tail is thick and powerful, covered entirely in bright, vividly colored scal
     - **Razor Glide:** Your glide speed doubles, and the first time each turn you pass within 5 ft of a creature while gliding it takes 4d10 Slashing (ignores resistance).
     - **Titan Grappler:** Gain +8 to grapple checks, and any creature you grapple takes 1d8 bludgeoning damage at the start of their turn.
 ## Ophidian
-Ophidians are slim, elongated naga with extremely long, flexible tails capable of tight coiling. Their skeletal structure is lighter than that of other naga, and the torso is narrow with reduced muscle bulk. Arms are long and thin, fully covered in small, smooth scales rather than skin.
-
-The head is distinctly serpentine, resembling a cobra. The skull is flattened, with an expandable neck hood formed by extended ribs and loose skin. Eyes are large and forward-facing with slit pupils. The mouth opens wider than a human’s, though the jaw remains hinged normally. Teeth are sharp and slightly curved with two massive fangs. Scale coloration is high-contrast, usually a dark base color, black, deep brown, or navy, with large, circular or oval markings in pale cream, yellow, or white.
+Head is cobra like, body is humanoid but scaled, goes into a thin long tail. Very thin and agile looking race with 2 large fangs. Dark main colors with vibrant patterns and shapes and colors. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Cobra Sight.** Gain +3 to Initiative and +2 to Situational Insight, Spot, and Search.
 - **Tier 2:** **Venom Fangs.** You gain a natural bite attack: 1d6 + STR mod Piercing + 1d4 + Racial Tier Poison damage. 
 - **Tier 3:** **Hood Flare.** As a Bonus Action, one creature within 20 ft must make a WIS save (DC 10 + INT mod + Tier) or take -10 Accuracy until the start of your next turn.
@@ -95,10 +151,24 @@ The head is distinctly serpentine, resembling a cobra. The skull is flattened, w
     - **Venom Flood:** Your Venom Fangs now deal 2d12 + STR mod Piercing + 2d10 + Racial Tier Poison damage and bypass resistance and immunity. 
     - **Mindcoil:** Gain +10 INT, and you may force one creature per turn to reroll a successful WIS save against you (must use new roll).
 ## Viperean
-Vipereans are slender naga with narrow waists and relatively short tails compared to other naga types. The upper body is long-limbed and lean, with narrow shoulders and extended arms. The humanoid head is mostly human in shape but sharper, with a wider jaw and more angular cheekbones.
-
-The mouth contains long, clearly visible large sharp venomous fangs that rest folded along the upper jaw when closed. The neck is thickened with muscle to support rapid striking motions. Scales cover the tail and extend partially onto the hips and sides of the torso. Scale colors are muted blues, greens, and reds, often dulled or dusty rather than bright. Eyes are forward-facing with narrow pupils and intense focus. Hair grows normally but is often thin. 
+Human head and mostly human torso but some scales going into a thin long tail, have 2 large fangs and sharp teeth. Can be basically any color. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Viper Reflex.** Gain +5 to Initiative and +1 Base Melee Accuracy.
 - **Tier 2:** **Venom Bite.** You gain a natural bite attack: 1d6 + Racial Tier + DEX mod Piercing. On hit, the target makes a CON save (DC 10 + CHA mod + Tier). Fail: [[2.4 Conditions#Physical-Conditions|Poisoned]] for 1 turn (does not stack). 
 - **Tier 3:** **Serpent Charm.** Gain proficiency in Persuasion and Deception; gain +2 to both.
@@ -112,10 +182,24 @@ The mouth contains long, clearly visible large sharp venomous fangs that rest fo
     - **Royal Temptation:** Gain +10 CHA, and Persuasion, Deception, and Intimidation checks can never be made with disadvantage.
     - **Black Venom:** Your Venom Bite’s save fail damage increases to 10d20 + 20 Necrotic and bypasses resistances and immunities. 
 ## Nagaith
-Nagaith resemble naga with eel-like lower bodies rather than snake tails. The transition from torso to tail is smooth, with no visible segmentation. The tail is long, thick, and laterally compressed, built for powerful swimming and fluid motion. A low, flexible fin runs along part of the tail’s length, usually starting near the lower back.
-
-The tail surface is smooth rather than scaly, with thick, rubbery skin colored deep black, dark gray, or oil-slick blue. The upper body remains humanoid, with normal skin and arms. Hair grows on the head but is often sparse. Eyes are forward-facing and dark, with minimal visible sclera. Teeth are blunt and humanlike, other than two small fangs.  
+Eal like head going into a smooth black/gray body with thin arms and a short tail. They have a frill running down the back of their head to the end of their tail. They are thick and compressed and have rubbery skin. Teeth are blunt. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Eel Body.** Your swim speed increases by +10 ft, and you have advantage on checks to escape grapples.
 - **Tier 2:** **Shock Nerve.** Once per turn when you hit with an attack, add 1d6 Lightning damage.
 - **Tier 3:** **Deep Breath.** You can hold your breath for 1 hour, and you can ignore difficult terrain underwater.    
@@ -129,10 +213,24 @@ The tail surface is smooth rather than scaly, with thick, rubbery skin colored d
     - **Living Current:** You gain +10 Lightning Affinity, whenever you deal Lightning damage your lightning damage is doubled. 
     - **Abyss Swimmer:** Swim speed triples and you gain +5 AC while submerged.
 ## Serpentarii
-Serpentarii are massive, wide-bodied naga built for raw strength. The torso is large and barrel-chested, with thick arms and reinforced shoulders. The tail is extremely thick and heavy, tapering only slightly toward the end. Vertebrae are larger and fewer, giving the tail a more rigid, crushing motion rather than fine coiling.
-
-Scales are large, thick, and overlapping, colored primarily in reds, oranges, rust, and dark browns. These scales extend high onto the torso, neck, and sometimes the jawline. The head is humanlike but broad, with a heavy jaw and thick neck. Teeth are large  and sharp with no fangs. Hair is coarse and dark. 
+Really big naga, they have human heads and torsos and a big snake tail which can be basically any color but typically reds, organges, rusts and browns. Scales come onto body somewhat and even somewhat onto their face. They are very large and very flexible and muscular. They have two small fangs. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Crushing Frame.** Gain +15 Max Vitality and +2 to Athletics.
 - **Tier 2:** **Heavy Tail.** Your unarmed strikes deal 1d8 + Racial Tier + STR mod Bludgeoning.
 - **Tier 3:** **Wrecking Coil.** When you shove a creature, you may shove it an extra 5 ft. If it hits a solid surface it takes 1d10 Bludgeoning. 
@@ -147,10 +245,24 @@ Scales are large, thick, and overlapping, colored primarily in reds, oranges, ru
     - **Siege Engine:**  Your Siege Slam becomes 6d12 and ignores resistance.
     - **Tyrant Grappler:** Any creature you grapple takes 4d10 Bludgeoning at the start of its turn.
 ## Carapax
-Carapax naga are thick-bodied and heavily armored. The most defining feature is a large, rigid shell fused to the upper back, spanning from the shoulders down to the lower spine. The shell is composed of layered plates with visible growth lines and provides significant protection. The torso beneath is wide and muscular to support the shell’s weight.
-
-The tail is thick and short relative to other naga, covered in dense green or moss-colored scales. Skin on exposed upper areas is rough and leathery. The head is human in structure, with a broad face and strong jaw. Hair grows sparsely and is often dark green-black or brown. Eyes are forward-facing, usually brown or hazel. Teeth are blunt and thick. 
+okay so its a naga but it has a shell
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Shellback.** Gain +4 AC and advantage on constitution saving throws.
 - **Tier 2:** **Brace.** As a Reaction when you are hit, reduce the damage by 1d10 + CON mod.
 - **Tier 3:** **Plated Body.** Gain Damage Reduction equal to 1 + Racial Tier.
@@ -165,10 +277,24 @@ The tail is thick and short relative to other naga, covered in dense green or mo
     - **Spine Burst:** As a Bonus Action, deal 3d8 Necrotic to all creatures within 10 ft (DEX save (DC 20) halves). This ignores resistance.
     - **Unbreakable:** Critical hits against you become normal hits, and you become immune to [[2.4 Conditions#Physical-Conditions|Bleeding]], [[2.4 Conditions#Physical-Conditions|Poisoned]], [[2.4 Conditions#Physical-Conditions|Diseased]], [[2.4 Conditions#Physical-Conditions|Frostbitten]], [[2.4 Conditions#Physical-Conditions|Burned]], [[2.4 Conditions#Physical-Conditions|Shocked]].
 ## Anuran
-Anurans have a hybrid body plan combining humanoid, amphibian, and naga traits. The upper body is humanoid with broad shoulders and long arms. Hands feature webbing between the fingers, and the skin is smooth and moist. Unlike other naga, Anurans possess actual legs extending from the hips, ending in webbed feet.
-
-Behind the legs extends a thick, muscular tail, giving the body a silhouette similar to a standing tadpole. The tail is smooth-skinned and flexible, used primarily for swimming and balance. Skin coloration includes black, gray, deep green, and mottled patterns. The head is frog-like, with a wide mouth, flattened skull, and large forward-facing eyes. They have no teeth but their gums are powerful and hard and capable of strong bites which crush their food. 
+Its like a naga but more frog shaped and with a frog head and it has a tail like normal but also frog like feat and legs. 
 ###### Racial Abilities
+| Tier | Ability |
+| ---- | ------- |
+| 0    |         |
+| 1    |         |
+| 2    |         |
+| 3    |         |
+| 4    |         |
+| 5    |         |
+| 6    |         |
+| 7    |         |
+| 8    |         |
+| 9    |         |
+| 10   |         |
+| 10.1 |         |
+| 10.2 |         |
+| 10.3 |         |
 - **Tier 1:** **Frog Leap.** Your long jump and high jump distances are doubled; you ignore fall damage from the first 20 ft.
 - **Tier 2:** **Tongue Lash.** You gain a natural ranged attack (30 ft): 1d6 + DEX mod Bludgeoning. On hit, you may pull the target 5 ft toward you.
 - **Tier 3:** **Sticky Grip.** You gain a climb speed of 30 ft. 
