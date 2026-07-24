@@ -36,7 +36,7 @@ Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, nose is mo
 
 **Females**
 Female humans are typically around 5'4 and 140 lbs
-Female humans have thin shoulders and a hourglass body shape
+Female humans have thin shoulders and a hourglass body shape, average bust is B to C
 Arms are 26-28 inches on average, 3-4 inches in diameter
 Legs are 28-30 inches on average, 6-7 inches in diameter
 Torso is 15-17 inches tall, hourglass shaped, 12-14 inches wide at the shoulders narrowing to 9-10 at the waist and flaring to 12-13 at the hips
@@ -75,7 +75,7 @@ Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, jawline is
 
 **Females**
 Female Aurians are typically around 5'8 and 160 lbs
-Female Aurians have thin shoulders and a lean hourglass shape with little body fat
+Female Aurians have thin shoulders and a lean hourglass shape with little body fat, bust is C to D
 Arms are 42-46 inches on average, 3-4 inches in diameter, disproportionately long with fingertips that hang down near the ankles when standing
 Legs are 33-35 inches on average, 6-7 inches in diameter
 Torso is 17-19 inches tall, lean hourglass, 11-13 inches wide at the shoulders narrowing to 8-10 at the waist and flaring to 11-13 at the hips
@@ -115,7 +115,7 @@ Head is 9-10 inches tall crown to chin and 5-6 inches wide ear to ear, eyes are 
 
 **Females**
 Female Halofades are typically around 6'7 and 145 lbs
-Female Halofades have very narrow shoulders and a stretched hourglass shape
+Female Halofades have very narrow shoulders and a stretched hourglass shape, bust is nearly flat at A
 Arms are 66-70 inches on average, 3-4 inches in diameter, so long the knuckles or fingertips rest on the ground when standing upright, fingers roughly 5-6 inches long
 Legs are 40-44 inches on average, 5-6 inches in diameter, long but far shorter than the arms, toes roughly 3-4 inches long
 Torso is 13-15 inches tall, extremely short and narrow for their height, hourglass shaped but elongated, 10-12 inches wide at the shoulders narrowing to 8-10 at the waist and flaring to 10-12 at the hips
@@ -154,7 +154,7 @@ Head is 13-15 inches tall crown to chin and 9-11 inches wide ear to ear, larger 
 
 **Females**
 Female Giants are typically around 10'0 and 800 lbs
-Female Giants have broad shoulders and a thick hourglass shape, heavily muscled and wide-set
+Female Giants have broad shoulders and a thick hourglass shape, heavily muscled and wide-set, bust is G to H
 Arms are 44-48 inches on average, 7-9 inches in diameter, thick as tree limbs
 Legs are 50-54 inches on average, 11-13 inches in diameter, massive columns
 Torso is 28-32 inches tall, thick hourglass, 22-26 inches wide at the shoulders narrowing to 18-22 at the waist and flaring to 24-28 at the hips
@@ -193,7 +193,7 @@ Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, nose is br
 
 **Females**
 Female Iceborn are typically around 5'6 and 160 lbs
-Female Iceborn have wide shoulders and a thick, stocky hourglass shape with significant body fat
+Female Iceborn have wide shoulders and a thick, stocky hourglass shape with significant body fat, bust is B to C
 Arms are 24-26 inches on average, 4-5 inches in diameter, short and thick for their height
 Legs are 26-28 inches on average, 7-8 inches in diameter, short and stocky for their height
 Torso is 16-18 inches tall, thick hourglass, 14-16 inches wide at the shoulders narrowing to 11-13 at the waist and flaring to 15-17 at the hips
@@ -232,7 +232,7 @@ Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, sharp jawl
 
 **Females**
 Female Fireborn are typically around 5'7 and 150 lbs
-Female Fireborn have moderate shoulders and an hourglass shape, lean and wiry with sharp features
+Female Fireborn have moderate shoulders and an hourglass shape, lean and wiry with sharp features, bust is B to C
 Arms are 25-27 inches on average, 4-5 inches in diameter, short and wiry for their height
 Legs are 27-29 inches on average, 6-7 inches in diameter, short and lean for their height
 Torso is 16-18 inches tall, lean hourglass, 13-15 inches wide at the shoulders narrowing to 10-12 at the waist and flaring to 13-15 at the hips, angular and sharp
@@ -271,7 +271,7 @@ Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, thick neck
 
 **Females**
 Female Kravari are typically around 6'5 and 310 lbs
-Female Kravari have broad shoulders and a thick, heavily muscled hourglass shape, larger and heavier than the males
+Female Kravari have broad shoulders and a thick, heavily muscled hourglass shape, larger and heavier than the males, bust is D to E
 Arms are 35-37 inches on average, 7-8 inches in diameter, with forearms nearly as thick as the upper arm
 Legs are 35-37 inches on average, 10-11 inches in diameter, thick and powerful
 Torso is 19-21 inches tall, heavily muscled hourglass, 20-24 inches wide at the shoulders narrowing to 16-19 at the waist and flaring to 20-23 at the hips
@@ -310,7 +310,7 @@ Head is 8-9 inches tall crown to chin and 5-6 inches wide ear to ear, completely
 
 **Females**
 Female Sandmen are typically around 5'3 and 120 lbs
-Female Sandmen have the same feminine hourglass silhouette as the males, just slightly thinner and smaller overall, no body hair anywhere
+Female Sandmen have the same feminine hourglass silhouette as the males, just slightly thinner and smaller overall, no body hair anywhere, bust is A to C
 Arms are 25-27 inches on average, 3-4 inches in diameter, thin and graceful
 Legs are 27-29 inches on average, 5-6 inches in diameter, slender
 Torso is 15-17 inches tall, slender hourglass, 11-13 inches wide at the shoulders narrowing to 9-11 at the waist and flaring to 12-14 at the hips
