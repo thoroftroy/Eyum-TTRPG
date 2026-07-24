@@ -22,7 +22,27 @@
 | Kravari  | 25    | Psychic, Air                                          | Generic, Fire, Earth                                         | Radiant, Necrotic                 | +3 STR, +1 DEX, -2 INT                    | 0     |
 | Sandman  | 25    | Earth                                                 | Generic, Fire, Air                                           | Water, Psychic, Radiant           | +1 WIS, +1 CHA                            | 0     |
 ## Human
-Just people.
+Just people. Skin colors range from dark black to pale white but are typically somewhere in between and tan. Teeth are all blunt, omnivore. 
+
+**Males**
+Male humans are typically around 5'9 and 190 lbs
+Male humans have broad shoulders and a rectangular body shape
+Arms are 30-32 inches on average, 4-5 inches in diameter
+Legs are 32-34 inches on average, 7-8 inches in diameter
+Torso is 17-19 inches tall, rectangular, 14-16 inches wide at the shoulders tapering to 12-14 at the waist
+Hands are 7-8 inches long and 3-4 inches wide, fingers are proportional and blunt at the tips
+Feet are 10-11 inches long and 4 inches wide
+Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, nose is moderate in size with a defined bridge, eyes are round with visible whites, ears are rounded and proportional
+
+**Females**
+Female humans are typically around 5'4 and 140 lbs
+Female humans have thin shoulders and a hourglass body shape
+Arms are 26-28 inches on average, 3-4 inches in diameter
+Legs are 28-30 inches on average, 6-7 inches in diameter
+Torso is 15-17 inches tall, hourglass shaped, 12-14 inches wide at the shoulders narrowing to 9-10 at the waist and flaring to 12-13 at the hips
+Hands are 6-7 inches long and 3-3.5 inches wide, fingers are proportional and tapered at the tips
+Feet are 8-9 inches long and 3-3.5 inches wide
+Head is 7-8 inches tall crown to chin and 5-6 inches wide ear to ear, nose is moderate in size with a softer bridge, eyes are round with visible whites, ears are rounded and proportional
 ###### Racial Abilities
 | Tier | Ability                                                                                                                    |
 | ---- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -42,6 +62,26 @@ Just people.
 | 10.3 | **Specialist:** Gain +15 to attack rolls with one weapon type OR +10 Generic Affinity (choose one).                        |
 ## Aurian
 People with arms as long as their legs who always have tan/bronze skin which almost never discolors. Their eyes are always red or orange. Their viable veins are red/orange instead of blue. Hair is always white or silver. Very strong and sharp jawlines. They never have much fat. 
+
+**Males**
+Male Aurians are typically around 6'2 and 210 lbs
+Male Aurians have broad shoulders and a lean, lanky rectangular frame
+Arms are 46-50 inches on average, 4-5 inches in diameter, disproportionately long with fingertips that hang down near the ankles when standing
+Legs are 36-38 inches on average, 7-8 inches in diameter
+Torso is 19-21 inches tall, rectangular and narrow, 14-16 inches wide at the shoulders tapering to a lean 11-13 at the waist
+Hands are 8-9 inches long and 3.5-4 inches wide, fingers are slightly longer and thinner than human with prominent knuckles
+Feet are 11-12 inches long and 4-4.5 inches wide
+Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, jawline is very strong and sharp, nose is long and straight with a narrow bridge, eyes are red or orange with no visible whites and slightly tilted upward, ears are long and tapering to a subtle point
+
+**Females**
+Female Aurians are typically around 5'8 and 160 lbs
+Female Aurians have thin shoulders and a lean hourglass shape with little body fat
+Arms are 42-46 inches on average, 3-4 inches in diameter, disproportionately long with fingertips that hang down near the ankles when standing
+Legs are 33-35 inches on average, 6-7 inches in diameter
+Torso is 17-19 inches tall, lean hourglass, 11-13 inches wide at the shoulders narrowing to 8-10 at the waist and flaring to 11-13 at the hips
+Hands are 7-8 inches long and 3-3.5 inches wide, fingers are slightly longer and thinner than human with prominent knuckles
+Feet are 10-11 inches long and 3.5-4 inches wide
+Head is 7-8 inches tall crown to chin and 5-6 inches wide ear to ear, jawline is very strong and sharp, nose is long and straight with a narrow bridge, eyes are red or orange with no visible whites and slightly tilted upward, ears are long and tapering to a subtle point
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -61,7 +101,27 @@ People with arms as long as their legs who always have tan/bronze skin which alm
 | 10.3 | **Mana Engine:** Gain +40 Max Mana and +10 Mana for every level after this. |
 | 10.4 | **Overchannel God:** The damage from Overchanneling spells is reduced to d4s and the damage is dealt to Vitality first (still ignores all resistances, immunities, and damage mitigation effects). |
 ## Halofade
-People but very tall, long necks, long arms, longer legs. Fingers and toes are about twice as long as regular people. Rib cage is short but torso is long, very long stomach. Very pale cream colored skin with always golden blonde hair. Eyes are typically bright yellow but occasionally can be shades of violet.
+People but very tall, long necks, and arms so long they drag on the ground. Legs are long but arms are far longer, giving them a hunched or knuckle-walking posture when standing. Torso is extremely short relative to their height, rib cage is tiny and the abdomen is compact. Fingers and toes are about twice as long as regular people. Very pale cream colored skin with always golden blonde hair. Eyes are typically bright yellow but occasionally can be shades of violet.
+
+**Males**
+Male Halofades are typically around 7'1 and 170 lbs
+Male Halofades have narrow, thin shoulders and an extremely stretched rectangular frame
+Arms are 72-76 inches on average, 3-4 inches in diameter, so long the knuckles or fingertips rest on the ground when standing upright, fingers roughly 6-7 inches long
+Legs are 44-48 inches on average, 6-7 inches in diameter, long but far shorter than the arms, toes roughly 4-5 inches long
+Torso is 15-17 inches tall, extremely short and narrow for their height, rectangular, 12-14 inches wide at the shoulders tapering to 10-12 at the waist
+Hands are 8-9 inches long and 3-3.5 inches wide, fingers are extremely long and spindly with extra knuckles giving them a spider-like appearance
+Feet are 12-14 inches long and 3-4 inches wide, toes are extremely long and spindly
+Head is 9-10 inches tall crown to chin and 5-6 inches wide ear to ear, eyes are massive and bulbous taking up much of the face with bright yellow or violet irises and barely any visible whites, nose is small and almost flat, ears are small and pressed flat against the head
+
+**Females**
+Female Halofades are typically around 6'7 and 145 lbs
+Female Halofades have very narrow shoulders and a stretched hourglass shape
+Arms are 66-70 inches on average, 3-4 inches in diameter, so long the knuckles or fingertips rest on the ground when standing upright, fingers roughly 5-6 inches long
+Legs are 40-44 inches on average, 5-6 inches in diameter, long but far shorter than the arms, toes roughly 3-4 inches long
+Torso is 13-15 inches tall, extremely short and narrow for their height, hourglass shaped but elongated, 10-12 inches wide at the shoulders narrowing to 8-10 at the waist and flaring to 10-12 at the hips
+Hands are 7-8 inches long and 3-3.5 inches wide, fingers are extremely long and spindly with extra knuckles giving them a spider-like appearance
+Feet are 10-12 inches long and 3-4 inches wide, toes are extremely long and spindly
+Head is 8-9 inches tall crown to chin and 5-6 inches wide ear to ear, eyes are massive and bulbous taking up much of the face with bright yellow or violet irises and barely any visible whites, nose is small and almost flat, ears are small and pressed flat against the head
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -81,6 +141,26 @@ People but very tall, long necks, long arms, longer legs. Fingers and toes are a
 | 10.3 | **Quantum Immortality:** When you would drop to 0 HP, you instead drop to 1 HP and immediately teleport to any unoccupied space you can see or have previously visited within 60 ft. This triggers once per combat. You permanently gain resistance to Quantum damage and immunity to the [[Eyum TTRPG/2.0 Reference Tables/2.4 Conditions#Physical-Conditions\|Vibrating]] condition. |
 ## Giant
 Like a person but like really big and extra wide and thick even for how big they are. 
+
+**Males**
+Male Giants are typically around 11'0 and 950 lbs
+Male Giants have extremely broad shoulders and a massive rectangular frame, built thick and dense like a living wall
+Arms are 50-54 inches on average, 8-10 inches in diameter, thick as tree trunks
+Legs are 56-60 inches on average, 12-14 inches in diameter, massive columns of muscle and bone
+Torso is 32-36 inches tall, rectangular and enormously thick, 24-30 inches wide at the shoulders barely tapering to 22-26 at the waist
+Hands are 12-14 inches long and 7-8 inches wide, fingers are thick and blunt with massive knuckles, each finger as thick as a human wrist
+Feet are 18-20 inches long and 8-10 inches wide
+Head is 13-15 inches tall crown to chin and 9-11 inches wide ear to ear, larger and thicker than proportional for their height, nose is broad and wide with flared nostrils, eyes are small and deep-set under a heavy brow ridge, ears are large and flared outward noticeably
+
+**Females**
+Female Giants are typically around 10'0 and 800 lbs
+Female Giants have broad shoulders and a thick hourglass shape, heavily muscled and wide-set
+Arms are 44-48 inches on average, 7-9 inches in diameter, thick as tree limbs
+Legs are 50-54 inches on average, 11-13 inches in diameter, massive columns
+Torso is 28-32 inches tall, thick hourglass, 22-26 inches wide at the shoulders narrowing to 18-22 at the waist and flaring to 24-28 at the hips
+Hands are 11-13 inches long and 6-7 inches wide, fingers are thick and blunt with massive knuckles
+Feet are 16-18 inches long and 7-9 inches wide
+Head is 12-14 inches tall crown to chin and 8-10 inches wide ear to ear, larger and thicker than proportional, nose is broad and wide with flared nostrils, eyes are small and deep-set under a heavy brow ridge, ears are large and flared outward noticeably
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -100,6 +180,26 @@ Like a person but like really big and extra wide and thick even for how big they
 | 10.3 | **Unstoppable:** You automatically succeed all constitution and strength saves and gain +5 to your STR and CON scores. |
 ## Iceborn
 Person but arms and legs are slightly shorter than normal, skin is light blue or gray or even sometimes a pure white. Hair is white, silver or light blue. Eyes are various shades of blue and gray and can rarely be green. Typically heaver set/fatter.
+
+**Males**
+Male Iceborn are typically around 6'0 and 200 lbs
+Male Iceborn have broad shoulders and a thick rectangular frame, typically carrying extra fat for insulation
+Arms are 28-30 inches on average, 5-6 inches in diameter, short and thick for their height
+Legs are 30-32 inches on average, 8-9 inches in diameter, short and stocky for their height
+Torso is 18-20 inches tall, rectangular and thick, 16-18 inches wide at the shoulders with little taper to 15-17 at the waist
+Hands are 7-8 inches long and 4-4.5 inches wide, fingers are thick and blunt with short, wide tips
+Feet are 9-10 inches long and 4-5 inches wide, wide and flat
+Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, nose is broad and flat with a wide bridge for warming cold air, eyes are deep-set and narrow with blue or gray irises, ears are small and rounded pressed close to the head
+
+**Females**
+Female Iceborn are typically around 5'6 and 160 lbs
+Female Iceborn have wide shoulders and a thick, stocky hourglass shape with significant body fat
+Arms are 24-26 inches on average, 4-5 inches in diameter, short and thick for their height
+Legs are 26-28 inches on average, 7-8 inches in diameter, short and stocky for their height
+Torso is 16-18 inches tall, thick hourglass, 14-16 inches wide at the shoulders narrowing to 11-13 at the waist and flaring to 15-17 at the hips
+Hands are 6-7 inches long and 3-4 inches wide, fingers are thick and blunt with short, wide tips
+Feet are 8-9 inches long and 4-5 inches wide, wide and flat
+Head is 7-8 inches tall crown to chin and 5-6 inches wide ear to ear, nose is broad and flat with a wide bridge, eyes are deep-set and narrow with blue or gray irises, ears are small and rounded pressed close to the head
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -119,6 +219,26 @@ Person but arms and legs are slightly shorter than normal, skin is light blue or
 | 10.3 | **Storm of Ice:** On hit your Ice Shards creates an aoe mist of ice which does 2d20 Ice/Cold damage to the creature you hit and all creatures within 10 ft (DEX save halves). |
 ## Fireborn
 Person but arms and legs are slightly shorter than normal, skin is various shades of orange, yellow, red, and dark gray to nearly black. Eyes are totally black, hair is always black. Teeth are slightly sharp. 
+
+**Males**
+Male Fireborn are typically around 6'0 and 185 lbs
+Male Fireborn have broad shoulders and a rectangular frame, leaner than Iceborn but still stocky
+Arms are 28-30 inches on average, 5-6 inches in diameter, short and wiry for their height
+Legs are 30-32 inches on average, 7-8 inches in diameter, short and lean for their height
+Torso is 18-20 inches tall, rectangular, 15-17 inches wide at the shoulders tapering to 13-15 at the waist, lean and angular
+Hands are 7-8 inches long and 3.5-4 inches wide, fingers end in slightly sharp pointed tips but otherwise have normal proportions
+Feet are 9-10 inches long and 4-4.5 inches wide
+Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, sharp jawline and slightly sharp teeth visible when mouth is open, nose is long and narrow with a prominent bridge, eyes are totally black with no visible iris or white and slightly slanted, ears are moderately sized and taper to a subtle point
+
+**Females**
+Female Fireborn are typically around 5'7 and 150 lbs
+Female Fireborn have moderate shoulders and an hourglass shape, lean and wiry with sharp features
+Arms are 25-27 inches on average, 4-5 inches in diameter, short and wiry for their height
+Legs are 27-29 inches on average, 6-7 inches in diameter, short and lean for their height
+Torso is 16-18 inches tall, lean hourglass, 13-15 inches wide at the shoulders narrowing to 10-12 at the waist and flaring to 13-15 at the hips, angular and sharp
+Hands are 6-7 inches long and 3-3.5 inches wide, fingers end in slightly sharp pointed tips but otherwise have normal proportions
+Feet are 8-9 inches long and 3-4 inches wide
+Head is 7-8 inches tall crown to chin and 5-6 inches wide ear to ear, sharp jawline and slightly sharp teeth, nose is long and narrow with a prominent bridge, eyes are totally black with no visible iris or white and slightly slanted, ears are moderately sized and taper to a subtle point
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -138,6 +258,26 @@ Person but arms and legs are slightly shorter than normal, skin is various shade
 | 10.3 | **Mana Furnace:** You gain +1 Fire Damage for every 10 mana you currently have to any Fire Spell you cast. |
 ## Kravari
 An entire race of people who look just like Jeff Dabe. Basically a person but larger with massive arms and hands, very thick, very muscular. Normal human skin colors and hair colors and eye colors. 
+
+**Males**
+Male Kravari are typically around 5'10 and 230 lbs
+Male Kravari have extremely broad shoulders and a heavily muscled rectangular frame, built like a powerlifter
+Arms are 32-34 inches on average, 6-7 inches in diameter, with forearms nearly as thick as the upper arm
+Legs are 32-34 inches on average, 9-10 inches in diameter, thick and powerful
+Torso is 18-20 inches tall, rectangular and heavily muscled, 18-22 inches wide at the shoulders tapering to 15-17 at the waist, barrel-chested and dense
+Hands are 9-10 inches long and 5-6 inches wide, disproportionately massive, fingers are extremely thick and meaty but remain long and dexterous
+Feet are 11-13 inches long and 5-6 inches wide, proportionally large
+Head is 8-9 inches tall crown to chin and 6-7 inches wide ear to ear, thick neck and heavy brow, nose is broad and thick with a flattened bridge, eyes are small and squinted under a heavy brow giving a permanent scowl, ears are thick and rounded
+
+**Females**
+Female Kravari are typically around 6'5 and 310 lbs
+Female Kravari have broad shoulders and a thick, heavily muscled hourglass shape, larger and heavier than the males
+Arms are 35-37 inches on average, 7-8 inches in diameter, with forearms nearly as thick as the upper arm
+Legs are 35-37 inches on average, 10-11 inches in diameter, thick and powerful
+Torso is 19-21 inches tall, heavily muscled hourglass, 20-24 inches wide at the shoulders narrowing to 16-19 at the waist and flaring to 20-23 at the hips
+Hands are 10-11 inches long and 6-7 inches wide, disproportionately massive, fingers are extremely thick and meaty but remain long and dexterous
+Feet are 12-14 inches long and 6-7 inches wide, proportionally large
+Head is 9-10 inches tall crown to chin and 7-8 inches wide ear to ear, thick neck and heavy brow, nose is broad and thick with a flattened bridge, eyes are small and squinted under a heavy brow giving a permanent scowl, ears are thick and rounded
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
@@ -157,6 +297,26 @@ An entire race of people who look just like Jeff Dabe. Basically a person but la
 | 10.3 | **Perfect Soldier:** Gain Expertise in Heavy Armor. Your Critical attacks deal 50% more damage. Gain +5 Base Melee and Ranged damage. |
 ## Sandmen
 People but skin is slightly transparent and much paler than a typical white person. They have no hair at all. Their veins are more of a purple/lavender color and are very visible. 
+
+**Males**
+Male Sandmen are typically around 5'8 and 155 lbs
+Male Sandmen have thin, narrow shoulders and a slender hourglass shape, willowy and delicate with a distinctly feminine silhouette, no body hair anywhere
+Arms are 29-31 inches on average, 3-4 inches in diameter, thin and graceful
+Legs are 31-33 inches on average, 5-6 inches in diameter, slender
+Torso is 17-19 inches tall, slender hourglass, 13-15 inches wide at the shoulders narrowing to 10-12 at the waist and flaring to 13-15 at the hips
+Hands are 7-8 inches long and 3-3.5 inches wide, long and thin fingers with extremely pronounced knuckles
+Feet are 10-11 inches long and 3.5-4 inches wide, narrow
+Head is 8-9 inches tall crown to chin and 5-6 inches wide ear to ear, completely hairless with visible purple veins at the temples, eyes are large and round and close by meeting horizontally in the middle rather than from top and bottom, nose is very small and almost vestigial with barely visible nostrils, ears are small and delicate
+
+**Females**
+Female Sandmen are typically around 5'3 and 120 lbs
+Female Sandmen have the same feminine hourglass silhouette as the males, just slightly thinner and smaller overall, no body hair anywhere
+Arms are 25-27 inches on average, 3-4 inches in diameter, thin and graceful
+Legs are 27-29 inches on average, 5-6 inches in diameter, slender
+Torso is 15-17 inches tall, slender hourglass, 11-13 inches wide at the shoulders narrowing to 9-11 at the waist and flaring to 12-14 at the hips
+Hands are 6-7 inches long and 2.5-3 inches wide, long and thin fingers with extremely pronounced knuckles
+Feet are 8-9 inches long and 3-3.5 inches wide, narrow
+Head is 7-8 inches tall crown to chin and 4-5 inches wide ear to ear, completely hairless with visible purple veins at the temples, eyes are large and round and close by meeting horizontally in the middle rather than from top and bottom, nose is very small and almost vestigial with barely visible nostrils, ears are small and delicate
 ###### Racial Abilities
 | Tier | Ability |
 | ---- | ------- |
