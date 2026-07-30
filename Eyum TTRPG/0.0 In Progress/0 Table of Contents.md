@@ -12,7 +12,7 @@
 - [[2.3 Injuries]]
 - [[2.4 Conditions]]
 - [[2.5 Weapons, Armors, and Tools]]
-	- [[2.5.1 Supplies]]
+	- [[2.5.1 Supplies and Services]]
 	- [[2.5.2 Weapons]]
 	- [[2.5.3 Armors]]
 	- [[2.5.4 Tools and Equipment]]
@@ -65,7 +65,7 @@
 	- 7.3.4 Aquatic
 	- 7.3.5 Monstrosities
 
-Current Handbook Version: v3.25.29.1
+Current Handbook Version: v3.25.30.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 

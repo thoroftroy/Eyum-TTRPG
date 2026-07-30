@@ -1058,7 +1058,7 @@
       "affinity_required": 31,
       "int_required": 19,
       "damage_type": "gel",
-      "description": "Shape raw gel into any non-living object you can hold or place which you can see or imagine. The object is solid, about as durable as copper, and has the material modifier of a Steel item (see [[2.6 Materials]] for more). A weapon created this way uses the statblock of any weapon from [[2.5 Weapons, Armors, and Tools]] but deals Gel damage instead of its listed type. You are proficient with this weapon. The object lasts permanently after creation (until you make another one). You may only have one such object shaped at a time; shaping a new one causes the previous to dissolve.",
+      "description": "Shape raw gel into any non-living object you can hold or place which you can see or imagine. The object is solid, about as durable as copper, and has the material modifier of a Steel item (see [[2.6.1 Metals and Stones Materials]] for more). A weapon created this way uses the statblock of any weapon from [[2.5.2 Weapons]] but deals Gel damage instead of its listed type. You are proficient with this weapon. The object lasts permanently after creation (until you make another one). You may only have one such object shaped at a time; shaping a new one causes the previous to dissolve.",
       "upcast_to": "Caustic Prison",
       "range": "Touch"
     },
