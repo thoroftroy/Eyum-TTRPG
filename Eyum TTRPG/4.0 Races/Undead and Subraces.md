@@ -94,7 +94,7 @@ You have Greater weakness to Radiant damage.
 - **Tier 1:** **Shadow Claws.** Your unarmed strikes deal 1d6 + DEX mod Necrotic.
 - **Tier 2:** **Lightless Body.** Gain greater resistance to Physical and Elemental damage (other than Radiant). 
 - **Tier 3:** **Shadow Anchor.** If you are in dim light/darkness, you may take the Hide action as a Bonus Action, and you gain +10 to Stealth checks.
-- **Tier 4:** **Shade Slip.** Once per turn as a Bonus Action, you become [[2.4 Conditions#Environmental / Positional Conditions|Intangible]] until the start of your next turn. While intangible you may move through creatures/objects as difficult terrain; you cannot end inside an object (if you do, take 2d6 True damage). While intangible you are immune to Physical damage and have +10 AC.
+- **Tier 4:** **Shade Slip.** Once per turn as a Bonus Action, you become [[2.4 Conditions#Environmental / Positional Conditions|Intangible]] until the start of your next turn. While intangible you may move through creatures and objects as difficult terrain. While intangible you are immune to Physical damage and have +10 AC. See [[1.6 Other Rules#Moving Through Objects and Displacement]] for displacement rules.
 - **Tier 5:** **Umbral Step.** If you start your turn in dim light/darkness, you may teleport 20 ft to another dim-light/darkness space you can see. (Once per turn)
 - **Tier 6:** **Shadow Veil.** Gain +2 AC and +5 to Stealth.
 - **Tier 7:** **Cold Touch.** Add +2d10 Necrotic to all unarmed attacks.
@@ -128,7 +128,7 @@ You have Weakness to Radiant damage.
 - **Tier 2:** **Blood Sense.** You detect living creatures below half HP or creatures with the [[2.4 Conditions#Physical-Conditions|Bleeding]] condition within 60 ft with no checks and know exact location (they automatically fail stealth vs you even if [[2.4 Conditions#Environmental / Positional Conditions|Invisible]]/[[2.4 Conditions#Environmental / Positional Conditions|Intangible]]).
 - **Tier 3:** **Siphon Bite.** When you hit with Fang Strike, heal 2d8 + CON mod Vitality.
 - **Tier 4:** **Night Skin.** Gain resistance to Necrotic damage and +1 AC.
-- **Tier 5:** **Mist Rush.** Once per turn as a Bonus Action, move 25 ft without provoking opportunity attacks. During this movement you may pass through creatures as difficult terrain (cannot end inside).
+- **Tier 5:** **Mist Rush.** Once per turn as a Bonus Action, move 25 ft without provoking opportunity attacks. During this movement you may pass through creatures as difficult terrain. See [[1.6 Other Rules#Moving Through Objects and Displacement]] for displacement rules.
 - **Tier 6:** **Vampiric Might.** Gain +15 Base Melee Damage while above half HP.
 - **Tier 7:** **Royal Bite.** Once per turn when you hit with Fang Strike, force a WIS save (DC 10 + CHA mod + Tier). Fail: target is [[2.4 Conditions#Mental-Conditions|Charmed]] for 1 turn.
 - **Tier 8:** **Crimson Punishment.** If a creature is [[2.4 Conditions#Physical-Conditions|Bleeding]] or below half HP, you gain +5 to hit and your attacks deal +3d10 Necrotic.
@@ -158,7 +158,7 @@ Ghost with an object they are bound to
 | 10.3 |         |
 You have Weakness to Radiant Damage. You are bound to one object; you cannot be hit/targeted, only the object can. If the object is destroyed you die. You have no Vitality pool; all Vitality is merged into HP. Effects that would target Vitality target HP instead. You may move your bound object telepathically during your movement in combat or for free outside of combat. You may never be more than 60 ft from your bound object. You can pass through solid objects at will or interact with them as a normal person would. You gain +5 to Intimidation Checks. 
 - **Tier 1:** **Relic Control.** If a creature misses an attack against you you may spend your reaction to make a melee attack against it dealing 1d10 + Racial Tier Necrotic damage. 
-- **Tier 2:** **Ethereal Drift.** You gain +15 ft of fly speed. As a bonus action you may move your bound object through any objects you wish but you cannot end your turn with your object inside of something else. 
+- **Tier 2:** **Ethereal Drift.** You gain +15 ft of fly speed. As a bonus action you may move your bound object through any objects you wish. See [[1.6 Other Rules#Moving Through Objects and Displacement]] for displacement rules.
 - **Tier 3:** **Haunted Guard.** Gain +2 AC. If an enemy misses an attack against you they take 1d10 Necrotic.
 - **Tier 4:** **Anchor Snap.** As a Bonus Action, teleport yourself (your ghost form) to your bound object.
 - **Tier 5:** **Poltergeist Magic.** You gain +5 Generic Affinity. 

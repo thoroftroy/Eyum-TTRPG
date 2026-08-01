@@ -311,7 +311,7 @@ Okay picture this, its a sloth. Yeah thats it, maybe closer to the prehistoric g
 - **Tier 5:** **Drowsing Aura.** As an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier) or becomes [[2.4 Conditions#Magical-Conditions|Slowed]] for 1 turn. (Once per turn)
 - **Tier 6:** **Pain Dull.** Gain resistance to Necrotic damage and +5 to CON saves.
 - **Tier 7:** **Crushing Clutch.** When you hit a creature you are grappling, add +3d8 Bludgeoning.
-- **Tier 8:** **Nap Step.** Once per short rest as a Bonus Action, become intangible until the start of your next turn; you may move through creatures/objects as difficult terrain (if you end your turn in a creature or object you take 10d20 True Damage but remain intangible for an additional turn).
+- **Tier 8:** **Nap Step.** Once per short rest as a Bonus Action, become intangible until the start of your next turn; you may move through creatures and objects as difficult terrain. If you would be displaced, you instead remain intangible for an additional turn. See [[1.6 Other Rules#Moving Through Objects and Displacement]] for displacement rules.
 - **Tier 9:** **Sleep End.** Once per combat as an Action, one creature within 30 ft makes a WIS save (DC 10 + CON mod + Tier). Fail: [[2.4 Conditions#Physical-Conditions|Stunned]] for 1 turn and takes 8d10 Psychic. Success: half damage.
 - **Tier 10:** **Apex Drowseer.** Choose one:
     - **Hibernation Tank:** Gain +4 AC and +40 Max Vitality.

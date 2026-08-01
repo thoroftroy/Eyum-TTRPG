@@ -5,7 +5,8 @@
 - [[1.4 Actions]]
 - [[1.5 Mounts and Familiars]]
 - [[1.6 Other Rules]]
-- [[1.7 Actually Playing The Game]]
+- [[1.7 Plains of Existence (WIP)]]
+- [[1.8 Actually Playing The Game]]
 #### 2.0 Reference Tables
 - [[2.1 Affinities]]
 - [[2.2 Damage Types]]
@@ -65,7 +66,7 @@
 	- 7.3.4 Aquatic
 	- 7.3.5 Monstrosities
 
-Current Handbook Version: v3.25.32.1
+Current Handbook Version: v3.25.33.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
