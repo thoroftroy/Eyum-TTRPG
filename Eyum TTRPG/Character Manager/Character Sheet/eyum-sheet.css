@@ -168,14 +168,95 @@ body {
 /* Debug */
 #debugPanel { white-space: pre-wrap; user-select: text; }
 
+/* === Page controls === */
+.page-controls {
+  display: flex; align-items: center; gap: 3px;
+  font-size: 11px; color: var(--muted);
+}
+.page-controls button {
+  padding: 2px 6px; min-width: 22px; font-size: 11px; line-height: 1;
+}
+
+/* === Side Control Panel === */
+.ctrl-panel {
+  position: fixed; top: 50px; left: 10px; bottom: 10px;
+  width: 260px; z-index: 9998;
+  background: var(--surface); border: 1px solid var(--accent);
+  border-radius: 6px; padding: 12px;
+  overflow-y: auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+.ctrl-panel h3 {
+  font-size: 12px; color: var(--accent); margin-bottom: 8px;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.ctrl-panel .ctrl-group {
+  margin-bottom: 10px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.ctrl-panel .ctrl-group:last-child { border-bottom: none; }
+.ctrl-panel label {
+  display: block; font-size: 10px; color: var(--muted);
+  text-transform: uppercase; margin-bottom: 3px;
+}
+.ctrl-panel .ctrl-row {
+  display: flex; gap: 6px; align-items: center; margin-bottom: 5px;
+}
+.ctrl-panel input[type="number"] {
+  width: 55px; padding: 3px 4px;
+  border: 1px solid var(--border);
+  background: #1a1a2e; color: var(--text);
+  border-radius: 3px; font-size: 11px; font-family: inherit;
+}
+.ctrl-panel input[type="text"] {
+  flex: 1; padding: 3px 5px;
+  border: 1px solid var(--border);
+  background: #1a1a2e; color: var(--text);
+  border-radius: 3px; font-size: 11px; font-family: inherit;
+}
+.ctrl-panel select {
+  width: 100%; padding: 3px 4px;
+  border: 1px solid var(--border);
+  background: #1a1a2e; color: var(--text);
+  border-radius: 3px; font-size: 11px; font-family: inherit; cursor: pointer;
+}
+.ctrl-panel button {
+  padding: 4px 8px; font-size: 11px;
+  border: 1px solid var(--border);
+  background: #1e2a3a; color: var(--text);
+  border-radius: 3px; cursor: pointer; font-family: inherit;
+}
+.ctrl-panel button:hover { border-color: var(--accent); }
+.ctrl-panel button.danger { background: #5c1a1a; border-color: #e74c3c; color: #e74c3c; }
+
+/* === Plain Text Element === */
+.el-plaintext .el-plaintext-content {
+  outline: none; cursor: text; width: 100%; height: 100%;
+  color: inherit; font-family: inherit; font-size: inherit;
+}
+
+/* === Empty table cell min-height === */
+.editable-table td:empty::after,
+.editable-table th:empty::after {
+  content: '\00a0'; /* non-breaking space to give height */
+}
+.editable-table td, .editable-table th {
+  min-height: 1.4em;
+}
+
+/* Workspace offset for control panel */
+body.has-ctrl-panel .workspace {
+  margin-left: 280px;
+}
+
 /* === PRINT - preserves exact positions === */
 @media print {
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { background: #fff !important; margin: 0; padding: 0; }
   .toolbar, .el-drag-handle, .el-resize-handle, .el-delete-btn,
   .prop-panel, #debugPanel, .table-btns, .row-delete-btn,
-  .col-resize-handle, .guide-line { display: none !important; }
-  .workspace { padding: 0 !important; gap: 0 !important; }
+  .col-resize-handle, .guide-line, .ctrl-panel, .page-controls { display: none !important; }
+  .workspace { padding: 0 !important; gap: 0 !important; margin-left: 0 !important; }
   .page-sheet {
     box-shadow: none !important; border-radius: 0 !important;
     margin: 0 !important; width: 8.5in !important; height: 11in !important;
@@ -211,6 +292,8 @@ body {
   .field-input { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
   .el-textarea { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
   .el-label-text { color: #000 !important; }
+  .el-plaintext-content { color: #000 !important; }
   input, textarea { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
+  [contenteditable] { border: 1px dotted #ccc !important; }
   @page { size: letter; margin: 0; }
 }

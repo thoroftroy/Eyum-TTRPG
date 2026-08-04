@@ -1,4 +1,4 @@
-// === Eyum Sheet Editor v6 - Grid snap + alignment guides ===
+// === Eyum Sheet Editor v7 - Grid snap + alignment guides + control panel ===
 var PAGE_W = 816, PAGE_H = 1056, NUMPAGES = 3;
 var elCounter = 0;
 var elements = {};
@@ -8,6 +8,7 @@ var GRID_SIZE = 10;
 var SNAP_THRESHOLD = 5;
 var showGrid = true;
 var guideLines = [];
+var defaultSheetJSON = null;
 
 var LOG = [];
 function log(msg) { var ts = new Date().toISOString().slice(11,23); LOG.push('['+ts+'] '+msg); console.log('['+ts+'] '+msg); var dp = document.getElementById('debugPanel'); if(dp) { dp.textContent = LOG.join('\n'); dp.scrollTop = dp.scrollHeight; } }
@@ -135,33 +136,222 @@ function selectElement(el) {
   deselectAll();
   selectedEl = el;
   el.classList.add('selected');
-  showPropPanel(el);
+  showControlPanel(el);
 }
 function deselectAll() {
-  if (selectedEl) { selectedEl.classList.remove('selected'); hidePropPanel(); selectedEl = null; }
+  if (selectedEl) { selectedEl.classList.remove('selected'); hideControlPanel(); selectedEl = null; }
 }
 
-// === Properties Panel ===
-var propPanel;
-function showPropPanel(el) {
-  hidePropPanel();
-  propPanel = document.createElement('div');
-  propPanel.className = 'prop-panel';
-  propPanel.innerHTML =
-    '<label>Size <input type="number" id="propFontSize" min="6" max="72" value="'+(parseInt(el.style.fontSize)||12)+'" style="width:45px"></label>'+
-    '<label><input type="color" id="propColor" value="'+(rgbToHex(el.style.color)||'#222222')+'" style="width:24px;height:22px;padding:0;border:none;" title="Text color"></label>'+
-    '<label><input type="color" id="propBg" value="'+(rgbToHex(el.style.backgroundColor)||'#ffffff')+'" style="width:24px;height:22px;padding:0;border:none;" title="Background"></label>'+
-    '<button id="propBold" style="font-weight:bold;">B</button>'+
-    '<button id="propItalic" style="font-style:italic;">I</button>';
-  document.body.appendChild(propPanel);
-  var rect = el.getBoundingClientRect();
-  propPanel.style.left = px(Math.min(rect.left, window.innerWidth-250));
-  propPanel.style.top = px(Math.max(rect.top - 40, 50));
-  $('propFontSize').addEventListener('input', function() { el.style.fontSize = px(this.value); saveAll(); });
-  $('propColor').addEventListener('input', function() { el.style.color = this.value; saveAll(); });
-  $('propBg').addEventListener('input', function() { el.style.backgroundColor = this.value; saveAll(); });
-  $('propBold').addEventListener('click', function() { el.style.fontWeight = el.style.fontWeight==='bold'?'normal':'bold'; saveAll(); });
-  $('propItalic').addEventListener('click', function() { el.style.fontStyle = el.style.fontStyle==='italic'?'normal':'italic'; saveAll(); });
+// === Control Panel (side panel) ===
+var ctrlPanel;
+function showControlPanel(el) {
+  hideControlPanel();
+  ctrlPanel = document.getElementById('ctrlPanel');
+  if (!ctrlPanel) return;
+  ctrlPanel.style.display = 'block';
+  document.body.classList.add('has-ctrl-panel');
+
+  var pageIdx = getPageOfElement(el);
+  var elType = el.classList.contains('el-field') ? 'field' : el.classList.contains('el-table') ? 'table' : el.classList.contains('el-textarea') ? 'textarea' : el.classList.contains('el-label') ? 'label' : el.classList.contains('el-plaintext') ? 'plaintext' : 'unknown';
+  var w = parseInt(el.style.width), h = parseInt(el.style.height);
+  var fs = parseInt(el.style.fontSize) || 12;
+  var fc = el.style.color || '#222';
+  var bg = el.style.backgroundColor || '#ffffff';
+  var fw = el.style.fontWeight || 'normal';
+  var fi = el.style.fontStyle || 'normal';
+
+  // Count table rows/cols
+  var tblRows = 0, tblCols = 0;
+  if (elType === 'table') {
+    var table = el.querySelector('table');
+    if (table) {
+      var ths = table.querySelectorAll('thead th');
+      tblCols = ths.length;
+      tblRows = table.querySelectorAll('tbody tr').length;
+    }
+  }
+
+  var html = '<h3>' + elType.toUpperCase() + ' Properties <span style="font-weight:normal;color:#888;">(#'+el.id+')</span></h3>';
+
+  // Type selector
+  html += '<div class="ctrl-group"><label>Type</label><select id="ctrlType">';
+  ['field','table','textarea','label','plaintext'].forEach(function(t) {
+    html += '<option value="'+t+'"'+(t===elType?' selected':'')+'>'+t+'</option>';
+  });
+  html += '</select></div>';
+
+  // Dimensions
+  html += '<div class="ctrl-group"><label>Position &amp; Size</label>';
+  html += '<div class="ctrl-row"><span style="font-size:10px;color:#888;width:45px;">Left</span><input type="number" id="ctrlLeft" value="'+parseInt(el.style.left)+'">';
+  html += '<span style="font-size:10px;color:#888;width:30px;">Top</span><input type="number" id="ctrlTop" value="'+parseInt(el.style.top)+'"></div>';
+  html += '<div class="ctrl-row"><span style="font-size:10px;color:#888;width:45px;">Width</span><input type="number" id="ctrlWidth" value="'+w+'">';
+  html += '<span style="font-size:10px;color:#888;width:30px;">Ht</span><input type="number" id="ctrlHeight" value="'+h+'"></div></div>';
+
+  // Font
+  html += '<div class="ctrl-group"><label>Font</label>';
+  html += '<div class="ctrl-row"><span style="font-size:10px;color:#888;width:45px;">Size</span><input type="number" id="ctrlFontSize" min="6" max="72" value="'+fs+'">';
+  html += '<input type="color" id="ctrlColor" value="'+rgbToHex(fc)+'" style="width:30px;height:24px;padding:0;border:none;" title="Text color">';
+  html += '<input type="color" id="ctrlBg" value="'+rgbToHex(bg)+'" style="width:30px;height:24px;padding:0;border:none;" title="Background"></div>';
+  html += '<div class="ctrl-row">';
+  html += '<button id="ctrlBold" style="font-weight:bold;'+(fw==='bold'?'border-color:#4fc3f7;':'')+'">B</button>';
+  html += '<button id="ctrlItalic" style="font-style:italic;'+(fi==='italic'?'border-color:#4fc3f7;':'')+'">I</button>';
+  html += '</div></div>';
+
+  // Table-specific
+  if (elType === 'table') {
+    html += '<div class="ctrl-group"><label>Table Structure</label>';
+    html += '<div class="ctrl-row"><span style="font-size:10px;color:#888;width:45px;">Columns</span><input type="number" id="ctrlCols" value="'+tblCols+'" min="1" max="20">';
+    html += '<span style="font-size:10px;color:#888;width:30px;">Rows</span><input type="number" id="ctrlRows" value="'+tblRows+'" min="0" max="100"></div>';
+    html += '<button id="ctrlApplyTable" style="width:100%;margin-top:4px;">Apply Table Changes</button></div>';
+  }
+
+  // Content
+  if (elType === 'label' || elType === 'plaintext') {
+    var content = '';
+    if (elType === 'label') {
+      var lc = el.querySelector('.el-label-text');
+      if (lc) content = lc.textContent;
+    } else if (elType === 'plaintext') {
+      var pc = el.querySelector('.el-plaintext-content');
+      if (pc) content = pc.textContent;
+    }
+    html += '<div class="ctrl-group"><label>Content</label><input type="text" id="ctrlContent" value="'+escAttr(content)+'"></div>';
+  }
+
+  // Actions
+  html += '<div class="ctrl-group"><label>Actions</label>';
+  html += '<button id="ctrlDelete" class="danger" style="width:100%;">Delete Element</button></div>';
+
+  // Floating prop panel (redundant, kept as requested)
+  html += '<div class="ctrl-group"><label>Quick Tools <span style="font-weight:normal;font-size:9px;">(redundant)</span></label>';
+  html += '<div class="ctrl-row">';
+  html += '<button id="ctrlBold2" style="font-weight:bold;">B</button>';
+  html += '<button id="ctrlItalic2" style="font-style:italic;">I</button>';
+  html += '<span style="font-size:10px;color:#888;">Size</span><input type="number" id="ctrlFontSize2" min="6" max="72" value="'+fs+'" style="width:45px;">';
+  html += '</div></div>';
+
+  ctrlPanel.innerHTML = html;
+
+  // Wire up events
+  function wire(id, evt, fn) { var e = document.getElementById(id); if (e) e.addEventListener(evt, fn); }
+
+  wire('ctrlLeft', 'input', function() { el.style.left = px(parseInt(this.value)||0); saveAll(); });
+  wire('ctrlTop', 'input', function() { el.style.top = px(parseInt(this.value)||0); saveAll(); });
+  wire('ctrlWidth', 'input', function() { el.style.width = px(Math.max(60, parseInt(this.value)||60)); saveAll(); });
+  wire('ctrlHeight', 'input', function() { el.style.height = px(Math.max(20, parseInt(this.value)||20)); saveAll(); });
+  wire('ctrlFontSize', 'input', function() { el.style.fontSize = px(this.value); var f2=document.getElementById('ctrlFontSize2'); if(f2) f2.value=this.value; saveAll(); });
+  wire('ctrlColor', 'input', function() { el.style.color = this.value; saveAll(); });
+  wire('ctrlBg', 'input', function() { el.style.backgroundColor = this.value; saveAll(); });
+  wire('ctrlBold', 'click', function() { el.style.fontWeight = el.style.fontWeight==='bold'?'normal':'bold'; saveAll(); showControlPanel(el); });
+  wire('ctrlItalic', 'click', function() { el.style.fontStyle = el.style.fontStyle==='italic'?'normal':'italic'; saveAll(); showControlPanel(el); });
+  wire('ctrlFontSize2', 'input', function() { el.style.fontSize = px(this.value); var f1=document.getElementById('ctrlFontSize'); if(f1) f1.value=this.value; saveAll(); });
+  wire('ctrlBold2', 'click', function() { el.style.fontWeight = el.style.fontWeight==='bold'?'normal':'bold'; saveAll(); showControlPanel(el); });
+  wire('ctrlItalic2', 'click', function() { el.style.fontStyle = el.style.fontStyle==='italic'?'normal':'italic'; saveAll(); showControlPanel(el); });
+  wire('ctrlDelete', 'click', function() { if (pageIdx>=0) { deleteElement(el, pageIdx); hideControlPanel(); } });
+  wire('ctrlContent', 'input', function() {
+    var lc = el.querySelector('.el-label-text');
+    var pc = el.querySelector('.el-plaintext-content');
+    if (lc) lc.textContent = this.value;
+    if (pc) pc.textContent = this.value;
+    saveAll();
+  });
+  wire('ctrlType', 'change', function() {
+    var newType = this.value;
+    if (newType === elType) return;
+    changeElementType(el, pageIdx, newType);
+  });
+
+  if (elType === 'table') {
+    wire('ctrlApplyTable', 'click', function() {
+      var nc = parseInt(document.getElementById('ctrlCols').value) || 1;
+      var nr = parseInt(document.getElementById('ctrlRows').value) || 0;
+      resizeTable(el, nc, nr);
+      saveAll();
+      showControlPanel(el); // refresh
+    });
+  }
+}
+function changeElementType(el, pageIdx, newType) {
+  var rect = { left: parseInt(el.style.left), top: parseInt(el.style.top), width: parseInt(el.style.width), height: parseInt(el.style.height) };
+  var fs = el.style.fontSize, fc = el.style.color, bg = el.style.backgroundColor;
+  var fw = el.style.fontWeight, fi = el.style.fontStyle;
+  var oldId = el.id;
+
+  // Get any text content from the old element
+  var oldContent = '';
+  var innerEl = el.querySelector('.el-label-text, .el-plaintext-content, textarea, input');
+  if (innerEl) oldContent = innerEl.textContent || innerEl.value || '';
+
+  // Build new HTML
+  var newHtml = '';
+  if (newType === 'field') newHtml = hField('Label', oldContent);
+  else if (newType === 'table') newHtml = hTable(['Col1','Col2'], [['',''],['','']], [80,80]);
+  else if (newType === 'textarea') newHtml = hTextarea(oldContent || '...');
+  else if (newType === 'label') newHtml = hLabel(oldContent || 'Label');
+  else if (newType === 'plaintext') newHtml = hPlainText(oldContent || 'Text');
+
+  // Delete old, create new
+  deleteElement(el, pageIdx);
+  var newEl = createElement(pageIdx, newType, rect.left, rect.top, rect.width, rect.height, newHtml, oldId);
+  if (newEl) {
+    if (fs) newEl.style.fontSize = fs;
+    if (fc) newEl.style.color = fc;
+    if (bg) newEl.style.backgroundColor = bg;
+    if (fw) newEl.style.fontWeight = fw;
+    if (fi) newEl.style.fontStyle = fi;
+    selectElement(newEl);
+  }
+}
+function resizeTable(el, newCols, newRows) {
+  var table = el.querySelector('table');
+  if (!table) return;
+  var thead = table.querySelector('thead tr');
+  var tbody = table.querySelector('tbody');
+  if (!thead || !tbody) return;
+  var curCols = thead.querySelectorAll('th').length;
+  var curRows = tbody.querySelectorAll('tr').length;
+
+  // Adjust columns
+  while (curCols > newCols && curCols > 1) {
+    thead.lastElementChild.remove();
+    tbody.querySelectorAll('tr').forEach(function(tr) { if (tr.lastElementChild) tr.lastElementChild.remove(); });
+    curCols--;
+  }
+  while (curCols < newCols) {
+    var th = document.createElement('th'); th.contentEditable = 'true'; th.textContent = 'Col';
+    th.style.position = 'relative';
+    var handle = document.createElement('div'); handle.className = 'col-resize-handle';
+    handle.addEventListener('mousedown', function(ev) {
+      ev.preventDefault(); ev.stopPropagation();
+      colResizeInfo = { th: th, startX: ev.clientX, origW: th.offsetWidth, table: table, colIdx: thead.children.length };
+    });
+    th.appendChild(handle);
+    thead.appendChild(th);
+    tbody.querySelectorAll('tr').forEach(function(tr) {
+      var td = document.createElement('td'); td.contentEditable = 'true'; tr.appendChild(td);
+    });
+    curCols++;
+  }
+
+  // Adjust rows
+  while (curRows > newRows) {
+    tbody.lastElementChild.remove();
+    curRows--;
+  }
+  while (curRows < newRows) {
+    var tr = document.createElement('tr');
+    for (var i=0; i<curCols; i++) { var td = document.createElement('td'); td.contentEditable = 'true'; tr.appendChild(td); }
+    tbody.appendChild(tr);
+    curRows++;
+  }
+}
+function hideControlPanel() {
+  if (ctrlPanel) { ctrlPanel.style.display = 'none'; ctrlPanel.innerHTML = ''; }
+  document.body.classList.remove('has-ctrl-panel');
+}
+
+function escAttr(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 function rgbToHex(c) {
   if (!c || c==='transparent'||c==='rgba(0, 0, 0, 0)') return '#ffffff';
@@ -170,7 +360,6 @@ function rgbToHex(c) {
   if (m) return '#' + ('0'+parseInt(m[1]).toString(16)).slice(-2) + ('0'+parseInt(m[2]).toString(16)).slice(-2) + ('0'+parseInt(m[3]).toString(16)).slice(-2);
   return '#ffffff';
 }
-function hidePropPanel() { if (propPanel) { propPanel.remove(); propPanel = null; } }
 
 // === Create Element ===
 function createElement(pageIdx, type, left, top, width, height, html, id) {
@@ -470,10 +659,14 @@ function hTextarea(content) {
 function hLabel(text) {
   return '<div contenteditable="true" class="el-label-text">'+text+'</div>';
 }
+function hPlainText(text) {
+  return '<div contenteditable="true" class="el-plaintext-content">'+(text||'')+'</div>';
+}
 
 // === Init ===
-document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
   log('DOM ready');
+  // Initialize page containers for existing HTML pages
   for (var i=0; i<NUMPAGES; i++) {
     var ps = $('pageSheet'+i);
     if (ps) { ps.style.width = px(PAGE_W); ps.style.height = px(PAGE_H); }
@@ -485,7 +678,7 @@ document.addEventListener('DOMContentLoaded', function() {
       gs.style.overflow = 'visible';
       gs.style.background = '#fff';
     }
-    elements[i] = [];
+    if (!elements[i]) elements[i] = [];
   }
 
   updateGridOverlays();
@@ -517,12 +710,22 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   $('btnAddTextarea').addEventListener('click', function(){ var p=askPage(); if(p>=0){ createElement(p,'textarea',40,40,300,150,hTextarea('Notes...'),null); saveAll(); } });
   $('btnAddLabel').addEventListener('click', function(){ var p=askPage(); if(p>=0){ createElement(p,'label',40,40,200,30,hLabel(''),null); saveAll(); } });
+  $('btnAddPlainText').addEventListener('click', function(){ var p=askPage(); if(p>=0){ createElement(p,'plaintext',40,40,200,30,hPlainText('Text'),null); saveAll(); } });
+
+  $('btnClearAll').addEventListener('click', clearAll);
+  $('btnSaveDefault').addEventListener('click', saveToDefault);
+
+  // Page management
+  $('btnPagePlus').addEventListener('click', addPage);
+  $('btnPageMinus').addEventListener('click', removePage);
+  updatePageCountLabel();
 
   // Save on page unload
   window.addEventListener('beforeunload', function() { saveAll(); });
 
   document.addEventListener('mousedown', function(e) {
-    if (e.target.closest('.grid-canvas') && !e.target.closest('.el') && !e.target.closest('.prop-panel')) deselectAll();
+    if (e.target.closest('.ctrl-panel') || e.target.closest('.toolbar')) return;
+    if (e.target.closest('.grid-canvas') && !e.target.closest('.el')) deselectAll();
   });
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Delete' && selectedEl && !e.target.closest('[contenteditable]') && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
@@ -537,6 +740,117 @@ document.addEventListener('DOMContentLoaded', function() {
 function askPage() { var p=parseInt(prompt('Page? (1, 2, or 3)','1'))-1; return (isNaN(p)||p<0||p>2)?-1:p; }
 function getPageOfElement(el) { for (var k in elements) for (var i=0;i<elements[k].length;i++) if (elements[k][i].el===el) return parseInt(k); return -1; }
 function countAll() { var n=0; for (var k in elements) n+=elements[k].length; return n; }
+
+// === Clear All Pages ===
+function clearAll() {
+  if (!confirm('Clear ALL pages? This cannot be undone.')) return;
+  log('=== Clear All ===');
+  for (var i=0; i<NUMPAGES; i++) {
+    var gs = $('grid'+i);
+    if (gs) gs.innerHTML = '';
+    elements[i] = [];
+  }
+  elCounter = 0; selectedEl = null;
+  hideControlPanel();
+  localStorage.removeItem('eyum-sheet-v6');
+  localStorage.removeItem('eyum-sheet-v7');
+  saveAll();
+}
+
+// === Save to Default ===
+function saveToDefault() {
+  if (!confirm('Overwrite the hardcoded default sheet with the current state? This replaces what Reset restores to.')) return;
+  log('=== Saving to Default ===');
+  var data = { nextId: elCounter, pages: {}, gridSize: GRID_SIZE, showGrid: showGrid };
+  for (var k in elements) {
+    data.pages[k] = elements[k].map(function(rec) {
+      var el = rec.el;
+      return {
+        id: el.id, type: rec.type,
+        left: parseInt(el.style.left), top: parseInt(el.style.top),
+        width: parseInt(el.style.width), height: parseInt(el.style.height),
+        fontSize: el.style.fontSize, color: el.style.color,
+        bgColor: el.style.backgroundColor, fontWeight: el.style.fontWeight,
+        fontStyle: el.style.fontStyle, html: getCleanHTML(el)
+      };
+    });
+  }
+  localStorage.setItem('eyum-sheet-default', JSON.stringify(data));
+  log('Default saved (' + countAll() + ' elements across ' + NUMPAGES + ' pages)');
+}
+
+// === Page management ===
+function updatePageCountLabel() {
+  var lbl = $('lblPageCount');
+  if (lbl) lbl.textContent = NUMPAGES;
+}
+function addPage() {
+  NUMPAGES++;
+  var idx = NUMPAGES - 1;
+  log('Adding page ' + (idx+1));
+  // Create page DOM
+  var ws = document.querySelector('.workspace');
+  var ps = document.createElement('div');
+  ps.className = 'page-sheet';
+  ps.id = 'pageSheet' + idx;
+  ps.style.width = px(PAGE_W); ps.style.height = px(PAGE_H);
+  var label = document.createElement('span');
+  label.className = 'page-label';
+  label.textContent = 'Page ' + (idx+1);
+  ps.appendChild(label);
+  var gs = document.createElement('div');
+  gs.className = 'grid-canvas';
+  gs.id = 'grid' + idx;
+  gs.style.width = px(PAGE_W);
+  gs.style.minHeight = px(PAGE_H);
+  gs.style.position = 'relative';
+  gs.style.overflow = 'visible';
+  gs.style.background = '#fff';
+  ps.appendChild(gs);
+  ws.appendChild(ps);
+  elements[idx] = [];
+  updateGridOverlays();
+  updatePageCountLabel();
+  saveAll();
+}
+function removePage() {
+  if (NUMPAGES <= 1) { alert('Cannot remove the last page.'); return; }
+  var lastIdx = NUMPAGES - 1;
+  var hasContent = elements[lastIdx] && elements[lastIdx].length > 0;
+  if (hasContent) {
+    if (!confirm('Page ' + (lastIdx+1) + ' has ' + elements[lastIdx].length + ' element(s).\n\nRemove this page and lose its contents?')) return;
+  }
+  log('Removing page ' + (lastIdx+1));
+  var ps = $('pageSheet'+lastIdx);
+  if (ps) ps.remove();
+  delete elements[lastIdx];
+  NUMPAGES--;
+  updateGridOverlays();
+  updatePageCountLabel();
+  if (selectedEl && getPageOfElement(selectedEl) < 0) { deselectAll(); }
+  saveAll();
+}
+function addPageSilent() {
+  NUMPAGES++;
+  var idx = NUMPAGES - 1;
+  var ws = document.querySelector('.workspace');
+  var ps = document.createElement('div');
+  ps.className = 'page-sheet';
+  ps.id = 'pageSheet' + idx;
+  ps.style.width = px(PAGE_W); ps.style.height = px(PAGE_H);
+  var label = document.createElement('span');
+  label.className = 'page-label';
+  label.textContent = 'Page ' + (idx+1);
+  ps.appendChild(label);
+  var gs = document.createElement('div');
+  gs.className = 'grid-canvas';
+  gs.id = 'grid' + idx;
+  gs.style.width = px(PAGE_W); gs.style.minHeight = px(PAGE_H);
+  gs.style.position = 'relative'; gs.style.overflow = 'visible'; gs.style.background = '#fff';
+  ps.appendChild(gs);
+  ws.appendChild(ps);
+  elements[idx] = [];
+}
 
 // === Save / Load ===
 function syncValues(el) {
@@ -582,7 +896,11 @@ function loadAll() {
     $('btnToggleGrid').textContent = showGrid ? 'Grid: ON' : 'Grid: OFF';
     $('btnGridSize').value = GRID_SIZE;
     SNAP_THRESHOLD = Math.max(3, GRID_SIZE / 2);
-    for (var i=0; i<NUMPAGES; i++) { $('grid'+i).innerHTML = ''; elements[i] = []; }
+    // Ensure enough pages exist
+    var maxPage = 0;
+    for (var k in data.pages) { var pk = parseInt(k); if (pk > maxPage) maxPage = pk; }
+    while (NUMPAGES <= maxPage) { addPageSilent(); }
+    for (var i=0; i<NUMPAGES; i++) { var gs=$('grid'+i); if(gs) gs.innerHTML = ''; elements[i] = []; }
     for (var k in data.pages) {
       var pi = parseInt(k);
       data.pages[k].forEach(function(d) {
@@ -597,17 +915,61 @@ function loadAll() {
       });
     }
     updateGridOverlays();
+    updatePageCountLabel();
     log('Loaded ' + countAll() + ' elements');
     return true;
   } catch(e) { log('Load error: '+e.message); return false; }
 }
 function resetAll() {
   log('=== Reset ===');
-  for (var i=0; i<NUMPAGES; i++) { $('grid'+i).innerHTML = ''; elements[i] = []; }
-  elCounter = 0; selectedEl = null;
+  // Remove extra pages beyond 3
+  while (NUMPAGES > 3) { removePageSilent(); }
+  updatePageCountLabel();
+  for (var i=0; i<NUMPAGES; i++) { var gs=$('grid'+i); if(gs) gs.innerHTML = ''; elements[i] = []; }
+  elCounter = 0; selectedEl = null; hideControlPanel();
   localStorage.removeItem('eyum-sheet-v6');
   localStorage.removeItem('eyum-sheet-v7');
+  // Check if user saved a custom default
+  var defRaw = localStorage.getItem('eyum-sheet-default');
+  if (defRaw) {
+    try {
+      var defData = JSON.parse(defRaw);
+      // Restore page count
+      var maxPage = 0;
+      for (var k in defData.pages) { var pk = parseInt(k); if (pk > maxPage) maxPage = pk; }
+      while (NUMPAGES <= maxPage) { addPageSilent(); }
+      while (NUMPAGES > maxPage+1) { removePageSilent(); }
+      for (var i=0; i<NUMPAGES; i++) { var gs=$('grid'+i); if(gs) gs.innerHTML = ''; elements[i] = []; }
+      for (var k in defData.pages) {
+        var pi = parseInt(k);
+        defData.pages[k].forEach(function(d) {
+          var el = createElement(pi, d.type, d.left, d.top, d.width, d.height, d.html, d.id);
+          if (el) {
+            if (d.fontSize) el.style.fontSize = d.fontSize;
+            if (d.color) el.style.color = d.color;
+            if (d.bgColor) el.style.backgroundColor = d.bgColor;
+            if (d.fontWeight) el.style.fontWeight = d.fontWeight;
+            if (d.fontStyle) el.style.fontStyle = d.fontStyle;
+          }
+        });
+      }
+      updateGridOverlays();
+      updatePageCountLabel();
+      log('Reset to custom default: ' + countAll() + ' elements');
+      saveAll();
+      return;
+    } catch(e) { log('Custom default error: '+e.message); }
+  }
   buildDefaultSheet(); saveAll();
+}
+function removePageSilent() {
+  if (NUMPAGES <= 1) return;
+  var lastIdx = NUMPAGES - 1;
+  var ps = $('pageSheet'+lastIdx);
+  if (ps) ps.remove();
+  delete elements[lastIdx];
+  NUMPAGES--;
+  if (selectedEl && getPageOfElement(selectedEl) < 0) { deselectAll(); }
 }
 
 // === Default Sheet ===
@@ -616,31 +978,31 @@ function buildDefaultSheet() {
   var x = 20, y = 20, fw = 260, fh = 38, c2 = 290, c3 = 560;
 
   createElement(0, 'field', x, 20, fw, fh, hField('Name', '')); 
-  createElement(0, 'field', c2, 20, 180, fh, hField('Level', '1', 60)); 
-  createElement(0, 'field', c3, 20, 200, fh, hField('Stat Points (STP)', '24', 60));
+  createElement(0, 'field', c2, 20, 180, fh, hField('Level', '', 60)); 
+  createElement(0, 'field', c3, 20, 220, fh, hField('Stat Points (STP)', '', 60));
   y = 60;
   createElement(0, 'field', x, y, fw, fh, hField('Race', '')); 
-  createElement(0, 'field', c2, y, 180, fh, hField('Inspiration', '0', 60));
-  createElement(0, 'field', c3, y, 200, fh, hField('Skill Points (SKP)', '5', 60));
+  createElement(0, 'field', c2, y, 180, fh, hField('Inspiration', '', 60));
+  createElement(0, 'field', c3, y, 220, fh, hField('Skill Points (SKP)', '', 60));
   y+=42;
   createElement(0, 'field', x, y, fw, fh, hField('Background', ''));
   createElement(0, 'field', c2, y, 180, fh, hField('Armor Class', '', 60));
-  createElement(0, 'field', c3, y, 200, fh, hField('Affinity Points (AFFP)', '5', 60));
+  createElement(0, 'field', c3, y, 220, fh, hField('Affinity Points (AFFP)', '', 60));
   y+=42;
   createElement(0, 'field', x, y, fw, fh, hField('Title(s)', ''));
   createElement(0, 'field', c2, y, 180, fh, hField('Initiative', '', 60));
   y+=42;
   createElement(0, 'field', x, y, fw, fh, hField('Sex', ''));
   createElement(0, 'field', c2, y, 180, fh, hField('Speed', '', 60));
-  createElement(0, 'field', c3, y, 200, fh, hField('Karma', '', 60));
+  createElement(0, 'field', c3, y, 220, fh, hField('Karma', '', 60));
   y+=42;
   createElement(0, 'field', x, y, fw, fh, hField('Size', ''));
-  createElement(0, 'field', c2, y, 180, fh, hField('Proficiency Bonus', '+1', 60));
-  createElement(0, 'field', c3, y, 200, fh, hField('Action Points (AP)', '1', 60));
+  createElement(0, 'field', c2, y, 210, fh, hField('Proficiency Bonus', '', 60));
+  createElement(0, 'field', c3, y, 220, fh, hField('Action Points (AP)', '', 60));
   y+=42;
   createElement(0, 'field', x, y, fw, fh, hField('Height', ''));
-  createElement(0, 'field', c2, y, 210, fh, hField('Bonus Action Pts (BAP)', '1', 60));
-  createElement(0, 'field', c3, y, 200, fh, hField('Reaction Points (RP)', '1', 60));
+  createElement(0, 'field', c2, y, 230, fh, hField('Bonus Action Pts (BAP)', '', 60));
+  createElement(0, 'field', c3, y, 220, fh, hField('Reaction Points (RP)', '', 60));
   y+=42;
   createElement(0, 'field', x, y, fw, fh, hField('Weight', ''));
   createElement(0, 'field', c2, y, 180, fh, hField('Build', '', 60));
@@ -648,7 +1010,7 @@ function buildDefaultSheet() {
   createElement(0, 'field', x, y, fw, fh, hField('Age', ''));
 
   var statsH = ['Stat','Score','Modifier'];
-  var statsR = [['Strength','8','-1'],['Dexterity','8','-1'],['Constitution','8','-1'],['Wisdom','8','-1'],['Intelligence','8','-1'],['Charisma','8','-1']];
+  var statsR = [['Strength','',''],['Dexterity','',''],['Constitution','',''],['Wisdom','',''],['Intelligence','',''],['Charisma','','']];
   createElement(0, 'table', 20, 400, 300, 230, hTable(statsH, statsR, [110,60,60]));
 
   var poolH = ['Pool','Max','Current','Dice'];
@@ -656,7 +1018,7 @@ function buildDefaultSheet() {
   createElement(0, 'table', 340, 400, 260, 130, hTable(poolH, poolR, [100,50,55,50]));
 
   var cmbH = ['Combat','Base Dmg','Base Acc'];
-  var cmbR = [['Melee','0','0'],['Ranged','0','0'],['Magical','0','0']];
+  var cmbR = [['Melee','',''],['Ranged','',''],['Magical','','']];
   createElement(0, 'table', 620, 400, 170, 130, hTable(cmbH, cmbR, [60,70,70]));
 
   var affH = ['Affinity','Val','Affinity','Val','Affinity','Val','Affinity','Val','Affinity','Val','Affinity','Val'];
