@@ -13,7 +13,7 @@
 - [[2.4 Conditions]]
 - [[2.5 Weapons, Armors, and Tools]]
 - [[2.6 Materials]]
-- [[2.7 Character Reference]]
+- [[2.7 Character Sheet]]
 #### 3.0 Character Management
 - [[3.1 Building Your Character]]
 - [[3.2 Character Information]]

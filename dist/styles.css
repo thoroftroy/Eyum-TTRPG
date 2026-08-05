@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 60px; }
 .cs-container { max-width: 816px; margin: 0 auto; }
 .cs-page { box-shadow: 0 2px 12px rgba(0,0,0,0.5); border-radius: 2px; overflow: hidden; }
 .cs-input {
-  background: transparent; color: inherit; border: none; outline: none;
+  background: transparent; color: #111; border: none; outline: none;
   font-family: inherit; padding: 0 2px; margin: 0; box-sizing: border-box;
   resize: none; overflow: hidden; line-height: 1.2; border-radius: 0;
   position: absolute;
