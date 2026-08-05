@@ -662,7 +662,7 @@ function slugifyFragment(text) {
 
 async function loadPage(path, scrollToId) {
   // Section 2.7 - Character Reference -> load editable character sheet
-  if (path.includes('2.7 Character Reference')) {
+  if (path.includes('2.7 Character Sheet')) {
     currentPath = path;
     setBreadcrumbs(path);
     updateActiveLink();
