@@ -1,8 +1,8 @@
 # MonsterName (Type (Monstrosity, Sprite, etc))
 (quick description to show what the monster is like for editing) Detailed Physical Description, how they behave, what they gain per level, how they breed, what they drop etc
 ###### Any unique abilities if any (if not skip)
-- **AbilityActive (Active, # Mana):** Descirption
-- **AbilityPassive (Passive):** Descirption
+- **AbilityActive (Active, # Mana):** Description
+- **AbilityPassive (Passive):** Description
 
 ### Statblock/Growth Table/Harvestable Materials for MonsterName
 | Name | DR  | AC  | Speed | Type | Affinity | Gen Dmg Mod | Resistance | Weakness | Vitality | Health | Mana | Stats (STR/CON/DEX/WIS/INT/CHA) | Passives | Actives |
