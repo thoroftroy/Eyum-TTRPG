@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 60px; }
 }
 
 
-/* === Character Sheet (2.7) PDF overlay === */
+/* === Character Sheet (2.7) PDF embed === */
 .cs-toolbar {
   display: flex; align-items: center; justify-content: space-between;
   flex-wrap: wrap; gap: 12px; margin-bottom: 16px;
@@ -361,51 +361,23 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 60px; }
 .char-sheet-btn:hover { background: rgba(255,255,255,.1); border-color: #7ab7ff; }
 .char-sheet-btn.download { background: #7ab7ff; color: #000; border-color: #7ab7ff; font-weight: 600; }
 .char-sheet-btn.download:hover { opacity: 0.85; }
-.char-sheet-saved { font-size: 12px; color: #4caf50; opacity: 0; transition: opacity .2s; }
-.char-sheet-saved.visible { opacity: 1; }
+.char-sheet-btn.save { background: #4fc3f7; color: #000; border-color: #4fc3f7; font-weight: 600; }
+.char-sheet-btn.save:hover { opacity: 0.85; }
+.cs-hint { font-size: 0.78em; opacity: 0.65; margin: 4px 0 0 0; }
 
-.cs-pages { display: flex; flex-direction: column; gap: 20px; align-items: center; }
-.cs-page { width: 100%; max-width: 800px; }
-.cs-overlay {
-  position: relative; width: 100%; aspect-ratio: 918 / 1188;
-  background-size: 100% 100%; background-repeat: no-repeat;
-  border: 1px solid var(--border);
-  -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
-}
-.cs-overlay input {
-  position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
-  background: transparent; color: #000; border: none; outline: none;
-  text-align: left; caret-color: #000;
-}
-.cs-overlay textarea {
-  position: absolute; padding: 2px 4px; font-size: 14px; font-family: var(--font);
-  background: transparent; color: #000; border: none; outline: none;
-  resize: none; overflow: hidden; caret-color: #000;
-}
-.cs-overlay input:focus, .cs-overlay textarea:focus {
-  background: rgba(122,183,255,.15); border: 1px dashed #7ab7ff; border-radius: 2px; color: #000;
-}
-.cs-overlay input:hover, .cs-overlay textarea:hover { background: rgba(255,255,255,.03); }
+.cs-pdf-embed { width: 100%; max-width: 900px; margin: 0 auto; }
+.cs-pdf-embed iframe { width: 100%; min-height: 80vh; }
 
-@media print {
-  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  body { background: #fff !important; color: #000 !important; }
-  .sidebar, .toolbar, .graph-toggle, .graph-panel, .cs-toolbar,
-  #mobileSidebar, #toggleSidebar, .char-sheet-saved { display: none !important; }
-  .app { display: block !important; }
-  .main { max-width: 100% !important; }
-  .content { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
-  .cs-pages { gap: 0 !important; }
-  .cs-page { max-width: 100% !important; page-break-after: always; }
-  .cs-page:last-child { page-break-after: avoid; }
-  .cs-overlay { border: none !important; }
-  .cs-overlay input, .cs-overlay textarea {
-    background: transparent !important; color: #000 !important;
-    border: none !important;
-  }
-  .cs-overlay input:focus, .cs-overlay textarea:focus {
-    background: transparent !important; border: none !important;
-  }
-  @page { size: letter; margin: 10mm; }
+.cs-container { max-width: 816px; margin: 0 auto; }
+.cs-page { box-shadow: 0 2px 12px rgba(0,0,0,0.5); border-radius: 2px; overflow: hidden; }
+.cs-input {
+  background: transparent; color: inherit; border: none; outline: none;
+  font-family: inherit; padding: 0 2px; margin: 0; box-sizing: border-box;
+  resize: none; overflow: hidden; line-height: 1.2; border-radius: 0;
+  position: absolute;
 }
+.cs-input:focus {
+  background: rgba(255,255,255,0.08); outline: 1px solid rgba(122,183,255,0.6);
+  outline-offset: -1px; z-index: 2;
+}
+textarea.cs-input { white-space: pre-wrap; word-wrap: break-word; }

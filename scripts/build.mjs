@@ -138,6 +138,14 @@ try {
   execSync(`python3 "${splitScript}" "${path.join(outDir, 'graph_cache.json')}" "${path.join(outDir, 'graph_data')}"`, { stdio: 'inherit' });
 } catch { console.log('  Skipped graph cache split (python3 not available)'); }
 
+// Copy fillable character sheet PDF (v3 with AcroForm fields)
+try {
+  const csSrc = path.join(repoRoot, 'Eyum TTRPG', 'Character Manager', 'Character Sheet', 'Eyum Character Sheet v3.pdf');
+  const csDest = path.join(outDir, 'character-sheet.pdf');
+  await fs.copyFile(csSrc, csDest);
+  console.log('  Copied fillable character sheet v3');
+} catch { console.log('  Skipped character sheet PDF (v3 not found)'); }
+
 // Generate equipment combinations JSON
 try {
   const eqScript = path.join(repoRoot, 'scripts', 'generate_equipment.py');

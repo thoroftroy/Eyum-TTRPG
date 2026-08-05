@@ -743,159 +743,157 @@ function getDefaultFile(node) {
   return null;
 }
 
-// ========== CHARACTER SHEET (2.7) - PDF overlay edition ==========
-const CS_KEY = 'eyum-character-sheet-v2';
+// ========== CHARACTER SHEET (2.7) - pdf.js render + AcroForm annotation overlays ==========
+const CS_STORAGE_KEY = 'eyum-char-sheet-v3';
+var _csReady = false;
+var _csLoading = false;
+var _csPageData = [];        // [{canvas, fields:[{name,x,y,w,h,multiline}], width, height}]
+var _csFieldValues = {};
+var _csSaveTimer = null;
 
-const CS_FIELDS_P1 = [
-  ["name",70,37,240,18,"text"],["level",370,37,60,18,"text"],["stp",685,37,60,18,"text"],
-  ["race",62,82,250,18,"text"],["insp",405,217,60,18,"text"],["skp",685,82,60,18,"text"],
-  ["background",105,127,210,18,"text"],["ac",410,82,60,18,"text"],["affp",710,127,60,18,"text"],
-  ["title",72,172,245,18,"text"],["initiative",395,127,60,18,"text"],
-  ["sex",52,217,260,18,"text"],["karma",618,172,60,18,"text"],
-  ["size",55,262,260,18,"text"],["prof_bonus",445,172,60,18,"text"],
-  ["ap",450,284,60,18,"text"],["height",72,307,240,18,"text"],
-  ["bap",475,329,60,18,"text"],["rp",505,374,60,18,"text"],
-  ["weight",75,352,240,18,"text"],["build",62,442,250,18,"text"],["age",55,397,250,18,"text"],
-  ["str_score",740,250,50,18,"text"],["str_mod",860,250,40,18,"text"],
-  ["dex_score",740,276,50,18,"text"],["dex_mod",860,276,40,18,"text"],
-  ["con_score",740,302,50,18,"text"],["con_mod",860,302,40,18,"text"],
-  ["wis_score",740,329,50,18,"text"],["wis_mod",860,329,40,18,"text"],
-  ["int_score",740,355,50,18,"text"],["int_mod",860,355,40,18,"text"],
-  ["cha_score",740,381,50,18,"text"],["cha_mod",860,381,40,18,"text"],
-  ["vit_max",168,520,50,18,"text"],["vit_cur",250,520,50,18,"text"],["vit_dice",330,520,50,18,"text"],
-  ["hp_max",168,546,50,18,"text"],["hp_cur",250,546,50,18,"text"],["hp_dice",330,546,50,18,"text"],
-  ["mp_max",168,572,50,18,"text"],["mp_cur",250,572,50,18,"text"],["mp_dice",330,572,50,18,"text"],
-  ["melee_dmg",475,520,50,18,"text"],["melee_acc",580,520,50,18,"text"],
-  ["ranged_dmg",475,546,50,18,"text"],["ranged_acc",580,546,50,18,"text"],
-  ["magical_dmg",475,572,50,18,"text"],["magical_acc",580,572,50,18,"text"],
-];
-const AFF_COLS = [130,278,426,574,722,870];
-const AFF_ROWS = [689,715,741,767,794,820,846,872];
-const AFF_NAMES = [
-  ['Generic','Lightning','Hallowed','Tremor','Thunder','Obsidian'],
-  ['Fire','Steam','Starlight','Deluge','Mirage','Quake'],
-  ['Earth','Magma','Cursed','Shatter','Vacuum','Corruption'],
-  ['Water','Ice/Cold','Ash','Sorrow','Warp','Miasma'],
-  ['Air','Dust','Blight','Chaos','Storm','Gel'],
-  ['Radiant','Mud','Poison','Infernal','Frostfire','Atomic'],
-  ['Necrotic','Nova','Toxin','Metal','Glacial','Eldritch'],
-  ['Psychic','Solar','Bloodfire','Torrent','Void',''],
-];
-function buildAffFields() {
-  var f = [];
-  for (var ri=0; ri<8; ri++)
-    for (var ci=0; ci<6; ci++)
-      if (AFF_NAMES[ri][ci])
-        f.push(['aff_'+AFF_NAMES[ri][ci], AFF_COLS[ci], AFF_ROWS[ri], 35, 18, 'text']);
-  return f;
-}
-
-const CS_FIELDS_P2 = (function() {
-  var f = [];
-  var ly=[72,98,149,200,227,253,279,330,356,383,409,435], ln=['str_save','athletics','con_save','dex_save','acrobatics','sleight','stealth','wis_save','arcana','history','search','situational'];
-  var ry=[72,98,125,151,177,228,254,281,307,333,359,386], rn=['int_save','spot','nature','religion','medicine','cha_save','deception','intimidation','performance','persuasion','social_insight','barter'];
-  for (var i=0;i<ly.length;i++) { f.push([ln[i]+'_mod',260,ly[i],45,18,'text']); f.push([ln[i]+'_prof',324,ly[i],45,18,'text']); f.push([ln[i]+'_exp',387,ly[i],45,18,'text']); }
-  for (var i=0;i<ry.length;i++) { f.push([rn[i]+'_mod',710,ry[i],45,18,'text']); f.push([rn[i]+'_prof',774,ry[i],45,18,'text']); f.push([rn[i]+'_exp',837,ry[i],45,18,'text']); }
-  for (var i=0;i<3;i++) { var y=778+i*26; f.push(['passive'+(i+1)+'_name',23,y,170,18,'text']); f.push(['passive'+(i+1)+'_desc',206,y,500,18,'text']); f.push(['passive'+(i+1)+'_uses',718,y,170,18,'text']); }
-  for (var i=0;i<3;i++) { var y=870+i*26; f.push(['active'+(i+1)+'_name',23,y,170,18,'text']); f.push(['active'+(i+1)+'_desc',206,y,500,18,'text']); f.push(['active'+(i+1)+'_cost',718,y,70,18,'text']); f.push(['active'+(i+1)+'_uses',800,y,100,18,'text']); }
-  return f;
-})();
-
-const CS_FIELDS_P3 = (function() {
-  var f = [];
-  var cn=['copper','silver','gold','platinum','nerite'], cy=[59,85,111,137,164];
-  for (var i=0;i<5;i++) f.push([cn[i]+'_amt',150,cy[i],55,18,'text']);
-  for (var i=0;i<4;i++) { var y=272+i*26; f.push(['item'+(i+1)+'_name',34,y,190,18,'text']); f.push(['item'+(i+1)+'_desc',232,y,360,18,'text']); f.push(['item'+(i+1)+'_dmg',603,y,80,18,'text']); f.push(['item'+(i+1)+'_val',702,y,80,18,'text']); f.push(['item'+(i+1)+'_qty',801,y,80,18,'text']); }
-  f.push(['notes_text',26,660,400,200,'textarea']);
-  f.push(['backstory_text',668,660,220,400,'textarea']);
-  return f;
-})();
-
-function loadSheetData() {
+function loadCsData() {
   try {
-    var d = JSON.parse(localStorage.getItem(CS_KEY));
-    if (d && typeof d === 'object') return d;
-  } catch(e) {}
-  return {};
+    var d = JSON.parse(localStorage.getItem(CS_STORAGE_KEY));
+    if (d && typeof d === 'object') _csFieldValues = d;
+    else _csFieldValues = {};
+  } catch(e) { _csFieldValues = {}; }
 }
-function saveSheetData() {
-  var d = loadSheetData();
-  document.querySelectorAll('.cs-overlay input, .cs-overlay textarea').forEach(function(el) {
-    var n = el.getAttribute('data-cs');
-    if (n) d[n] = el.value;
-  });
-  localStorage.setItem(CS_KEY, JSON.stringify(d));
-  var el = document.getElementById('csSaved');
-  if (el) { el.classList.add('visible'); clearTimeout(el._ht); el._ht = setTimeout(function(){ el.classList.remove('visible'); }, 2000); }
-}
-var _csTimer = null;
-function autoSave() { clearTimeout(_csTimer); _csTimer = setTimeout(saveSheetData, 300); }
 
-function buildOverlayHTML(fields, W, H) {
-  var h = '';
-  fields.forEach(function(f) {
-    var name=f[0],x=f[1],y=f[2],w=f[3],fh=f[4],type=f[5];
-    var lp=(x/W*100),tp=(y/H*100),wp=(w/W*100),hp=(fh/H*100);
-    if (type==='textarea') {
-      h += '<textarea data-cs="'+name+'" oninput="autoSave()" style="position:absolute;left:'+lp.toFixed(2)+'%;top:'+tp.toFixed(2)+'%;width:'+wp.toFixed(2)+'%;height:'+hp.toFixed(2)+'%;"></textarea>';
-    } else {
-      h += '<input data-cs="'+name+'" oninput="autoSave()" style="position:absolute;left:'+lp.toFixed(2)+'%;top:'+tp.toFixed(2)+'%;width:'+wp.toFixed(2)+'%;height:'+hp.toFixed(2)+'%;">';
+function saveCsData() {
+  document.querySelectorAll('.cs-input').forEach(function(el) {
+    _csFieldValues[el.name] = el.value;
+  });
+  localStorage.setItem(CS_STORAGE_KEY, JSON.stringify(_csFieldValues));
+}
+window.addEventListener('beforeunload', saveCsData);
+
+function autoSaveCs() {
+  clearTimeout(_csSaveTimer);
+  _csSaveTimer = setTimeout(saveCsData, 400);
+}
+window.autoSaveCs = autoSaveCs;
+
+window.saveFilledCsPdf = async function() {
+  saveCsData();
+  try {
+    var resp = await fetch('./character-sheet.pdf');
+    var buf = new Uint8Array(await resp.arrayBuffer());
+    var PDFLib = window.PDFLib;
+    if (!PDFLib || !PDFLib.PDFDocument) {
+      // Load pdf-lib lazily
+      await new Promise(function(ok, fail) {
+        var s = document.createElement('script');
+        s.src = 'https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js';
+        s.onload = ok; s.onerror = fail;
+        document.head.appendChild(s);
+      });
+      PDFLib = window.PDFLib;
     }
-  });
-  return h;
+    var doc = await PDFLib.PDFDocument.load(buf);
+    var form = doc.getForm();
+    var fields = form.getFields();
+    fields.forEach(function(f) {
+      var nm = f.getName();
+      if (_csFieldValues[nm] !== undefined && f.setText) {
+        f.setText(_csFieldValues[nm]);
+      }
+    });
+    var bytes = await doc.save();
+    var blob = new Blob([bytes], {type:'application/pdf'});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = 'Eyum Character Sheet (Filled).pdf'; a.click();
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 5000);
+  } catch(e) {
+    alert('Failed to save filled PDF: ' + e.message);
+  }
+};
+
+async function initCs() {
+  loadCsData();
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
+
+  var resp = await fetch('./character-sheet.pdf');
+  var buf = await resp.arrayBuffer();
+  var pdfDoc = await pdfjsLib.getDocument({data: buf}).promise;
+  _csPageData = [];
+
+  for (var pi = 0; pi < pdfDoc.numPages; pi++) {
+    var page = await pdfDoc.getPage(pi + 1);
+    var viewport = page.getViewport({scale: 1});
+    var ph = viewport.height;
+    var pw = viewport.width;
+
+    var fields = [];
+    try {
+      var annots = await page.getAnnotations();
+      annots.forEach(function(a) {
+        if (a.subtype === 'Widget' && a.fieldType === 'Tx') {
+          var r = a.rect;
+          fields.push({
+            name: a.fieldName,
+            x: r[0], y: ph - r[3], w: r[2] - r[0], h: r[3] - r[1],
+            multiline: !!(a.fieldFlags & 0x1000)
+          });
+        }
+      });
+    } catch(e) {}
+
+    var canvas = document.createElement('canvas');
+    canvas.width = pw; canvas.height = ph;
+    var ctx = canvas.getContext('2d');
+    await page.render({canvasContext: ctx, viewport: viewport}).promise;
+    _csPageData.push({canvas: canvas, fields: fields, width: pw, height: ph});
+  }
+  _csReady = true;
 }
 
-function populateFields() {
-  var d = loadSheetData();
-  document.querySelectorAll('.cs-overlay input, .cs-overlay textarea').forEach(function(el) {
-    var n = el.getAttribute('data-cs');
-    if (d[n] !== undefined) el.value = d[n];
-  });
-}
+function escAttr(s) { return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-function renderCharacterSheet() {
-  var W=918, H=1188;
-  var allP1 = CS_FIELDS_P1.concat(buildAffFields());
-  allP1.push(['spells',26,970,870,100,'textarea']);
-  allP1.push(['notes_p1',680,465,200,120,'textarea']);
-
+function buildCsHTML() {
   var html = '<div class="cs-toolbar">';
   html += '<h2>Character Reference</h2>';
   html += '<div class="cs-btns">';
   html += '<a href="./character-sheet.pdf" download class="char-sheet-btn download">Download Blank PDF</a>';
-  html += '<button class="char-sheet-btn" onclick="window.print()">Print Filled Sheet</button>';
-  html += '<button class="char-sheet-btn" onclick="clearSheet()">Clear All</button>';
-  html += '<span class="char-sheet-saved" id="csSaved">Saved</span>';
-  html += '</div></div>';
+  html += '<button class="char-sheet-btn save" onclick="saveFilledCsPdf()">Save Filled Copy</button>';
+  html += '</div>';
+  html += '<p class="cs-hint">Fill fields directly below. Your data is saved automatically in your browser and will persist when you navigate away.</p>';
+  html += '</div>';
+  html += '<div class="cs-container">';
 
-  html += '<div class="cs-pages">';
-
-  // Page 1
-  html += '<div class="cs-page"><div class="cs-overlay" style="background-image:url(./cs_page-1.png);">';
-  html += buildOverlayHTML(allP1, W, H);
-  html += '</div></div>';
-
-  // Page 2
-  html += '<div class="cs-page"><div class="cs-overlay" style="background-image:url(./cs_page-2.png);">';
-  html += buildOverlayHTML(CS_FIELDS_P2, W, H);
-  html += '</div></div>';
-
-  // Page 3
-  html += '<div class="cs-page"><div class="cs-overlay" style="background-image:url(./cs_page-3.png);">';
-  html += buildOverlayHTML(CS_FIELDS_P3, W, H);
-  html += '</div></div>';
+  _csPageData.forEach(function(pd, pi) {
+    html += '<div class="cs-page" style="position:relative;width:' + pd.width + 'px;height:' + pd.height + 'px;margin:0 auto 8px auto;">';
+    html += '<img src="' + pd.canvas.toDataURL() + '" style="display:block;width:100%;height:100%;" alt="Character Sheet page ' + (pi+1) + '">';
+    pd.fields.forEach(function(f) {
+      var val = _csFieldValues[f.name] || '';
+      var fs = Math.round(Math.min(f.h * 0.65, 14));
+      if (f.multiline) {
+        html += '<textarea class="cs-input" name="' + f.name + '" oninput="autoSaveCs()" style="position:absolute;left:' + f.x + 'px;top:' + f.y + 'px;width:' + f.w + 'px;height:' + f.h + 'px;font-size:' + fs + 'px;">' + escAttr(val) + '</textarea>';
+      } else {
+        html += '<input class="cs-input" name="' + f.name + '" value="' + escAttr(val) + '" oninput="autoSaveCs()" style="position:absolute;left:' + f.x + 'px;top:' + f.y + 'px;width:' + f.w + 'px;height:' + f.h + 'px;font-size:' + fs + 'px;">';
+      }
+    });
+    html += '</div>';
+  });
 
   html += '</div>';
-
-  els.content.innerHTML = html;
-  populateFields();
-  window.scrollTo({ top: 0, behavior: 'instant' });
+  return html;
 }
 
-function clearSheet() {
-  if (!confirm('Clear all character sheet data?')) return;
-  localStorage.removeItem(CS_KEY);
-  renderCharacterSheet();
+async function renderCharacterSheet() {
+  if (_csLoading) return;
+  if (!_csReady) {
+    _csLoading = true;
+    els.content.innerHTML = '<div class="loading">Loading character sheet...</div>';
+    try { await initCs(); } catch(e) {
+      _csLoading = false;
+      els.content.innerHTML = '<div class="error">Failed to load character sheet: ' + e.message + '</div>';
+      return;
+    }
+    _csLoading = false;
+  }
+  els.content.innerHTML = buildCsHTML();
+  window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 let graphView = null;

@@ -684,7 +684,15 @@ function hPlainText(text) {
   updateGridOverlays();
 
   $('btnReset').addEventListener('click', resetAll);
-  $('btnPrint').addEventListener('click', function(){ window.print(); });
+  $('btnPrint').addEventListener('click', function(){
+    loadHtml2Canvas(function(h2cOk) {
+      if (!h2cOk) { window.print(); return; }
+      loadPdfLib(function(pdfOk) {
+        if (pdfOk) { _buildFillablePDF(); }
+        else { window.print(); }
+      });
+    });
+  });
   $('btnDebug').addEventListener('click', function(){
     var dp = $('debugPanel'); dp.style.display = dp.style.display==='none'?'block':'none';
   });
@@ -733,7 +741,12 @@ function hPlainText(text) {
     }
   });
 
-  if (!loadAll()) { buildDefaultSheet(); saveAll(); }
+  if (!loadAll()) {
+    // Try custom default before hardcoded
+    if (!loadFromDefault()) {
+      buildDefaultSheet(); saveAll();
+    }
+  }
   log('Init done. ' + countAll() + ' elements');
 });
 
@@ -776,6 +789,7 @@ function saveToDefault() {
     });
   }
   localStorage.setItem('eyum-sheet-default', JSON.stringify(data));
+  saveAll(); // also update the working save so reload picks it up
   log('Default saved (' + countAll() + ' elements across ' + NUMPAGES + ' pages)');
 }
 
@@ -862,11 +876,233 @@ function syncValues(el) {
   });
 }
 function getCleanHTML(el) {
+  // Capture live values from the original before cloning
+  var liveInputs = [];
+  el.querySelectorAll('input').forEach(function(inp) { liveInputs.push({ el: inp, val: inp.value }); });
+  el.querySelectorAll('textarea').forEach(function(ta) { liveInputs.push({ el: ta, val: ta.value }); });
+  el.querySelectorAll('select').forEach(function(sel) { liveInputs.push({ el: sel, val: sel.value }); });
+
   var clone = el.cloneNode(true);
   clone.querySelectorAll('.el-drag-handle, .el-resize-handle, .el-delete-btn, .table-btns').forEach(function(h) { h.remove(); });
-  syncValues(clone);
+
+  // Apply captured live values to the clone's matching elements
+  var cloneInputs = clone.querySelectorAll('input');
+  var cloneTextareas = clone.querySelectorAll('textarea');
+  var cloneSelects = clone.querySelectorAll('select');
+  var ci = 0, ct = 0, cs = 0;
+  liveInputs.forEach(function(item) {
+    if (item.el.tagName === 'INPUT' && ci < cloneInputs.length) {
+      cloneInputs[ci].setAttribute('value', item.val);
+      ci++;
+    } else if (item.el.tagName === 'TEXTAREA' && ct < cloneTextareas.length) {
+      cloneTextareas[ct].textContent = item.val;
+      ct++;
+    } else if (item.el.tagName === 'SELECT' && cs < cloneSelects.length) {
+      var opt = cloneSelects[cs].querySelector('option[value="' + item.val.replace(/"/g, '&quot;') + '"]');
+      if (opt) opt.setAttribute('selected', '');
+      cs++;
+    }
+  });
+
   return clone.innerHTML;
 }
+
+// === Fillable PDF Export (captures page as image, overlays editable AcroForm fields) ===
+var _pdfLibReady = false;
+var _pdfLibFailed = false;
+function loadPdfLib(cb) {
+  if (_pdfLibReady) { cb(true); return; }
+  if (_pdfLibFailed) { cb(false); return; }
+  if (window.PDFLib && window.PDFLib.PDFDocument) { _pdfLibReady = true; cb(true); return; }
+  var script = document.createElement('script');
+  script.src = 'https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js';
+  script.onload = function() {
+    if (window.PDFLib && window.PDFLib.PDFDocument) { _pdfLibReady = true; cb(true); }
+    else { _pdfLibFailed = true; cb(false); }
+  };
+  script.onerror = function() { _pdfLibFailed = true; cb(false); };
+  document.head.appendChild(script);
+}
+
+var _h2cReady = false;
+var _h2cFailed = false;
+function loadHtml2Canvas(cb) {
+  if (_h2cReady) { cb(true); return; }
+  if (_h2cFailed) { cb(false); return; }
+  if (window.html2canvas) { _h2cReady = true; cb(true); return; }
+  var script = document.createElement('script');
+  script.src = 'https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js';
+  script.onload = function() {
+    if (window.html2canvas) { _h2cReady = true; cb(true); }
+    else { _h2cFailed = true; cb(false); }
+  };
+  script.onerror = function() { _h2cFailed = true; cb(false); };
+  document.head.appendChild(script);
+}
+
+async function _buildFillablePDF() {
+  var hideStyle = null;
+  var gridBgs = {};
+
+  try {
+    // Hide editor-only artifacts before capture
+    hideStyle = document.createElement('style');
+    hideStyle.id = '_pdfhide';
+    hideStyle.textContent = '.el-drag-handle,.el-resize-handle,.el-delete-btn,.table-btns,.col-resize-handle{display:none!important}';
+    document.head.appendChild(hideStyle);
+    for (var bp = 0; bp < NUMPAGES; bp++) {
+      var g = $('grid' + bp);
+      if (g) { gridBgs[bp] = g.style.backgroundImage; g.style.backgroundImage = 'none'; }
+    }
+
+    var PDFLib = window.PDFLib;
+    var SCALE = 612 / 816;
+    var doc = await PDFLib.PDFDocument.create();
+    var form = doc.getForm();
+
+    var F = {
+      h:  await doc.embedFont(PDFLib.StandardFonts.Helvetica),
+      hb: await doc.embedFont(PDFLib.StandardFonts.HelveticaBold),
+      t:  await doc.embedFont(PDFLib.StandardFonts.TimesRoman),
+      tb: await doc.embedFont(PDFLib.StandardFonts.TimesRomanBold),
+      c:  await doc.embedFont(PDFLib.StandardFonts.Courier),
+      cb: await doc.embedFont(PDFLib.StandardFonts.CourierBold)
+    };
+
+    for (var pi = 0; pi < NUMPAGES; pi++) {
+      var pageDiv = $('grid' + pi);
+      if (!pageDiv) continue;
+
+      var canvas = await html2canvas(pageDiv, {
+        scale: 1.5,
+        useCORS: true,
+        logging: false,
+        backgroundColor: '#ffffff'
+      });
+
+      var page = doc.addPage([612, 792]);
+      var pngBytes = _dataUriToBytes(canvas.toDataURL('image/png'));
+      var pngImage = await doc.embedPng(pngBytes);
+      page.drawImage(pngImage, { x: 0, y: 0, width: 612, height: 792 });
+
+      if (!elements[pi]) continue;
+      var pageRect = pageDiv.getBoundingClientRect();
+
+      elements[pi].forEach(function(rec) {
+        var el = rec.el;
+
+        if (rec.type === 'field') {
+          var inputEl = el.querySelector('.field-input');
+          if (!inputEl) return;
+          if (inputEl.value.trim()) return;
+          var ir = inputEl.getBoundingClientRect();
+          if (ir.width < 4 || ir.height < 4) return;
+          var cs = getComputedStyle(inputEl);
+          var ff = _matchFont(cs.fontFamily, cs.fontWeight, F);
+          var fz = Math.round(parseFloat(cs.fontSize) * SCALE);
+          var ix = Math.round((ir.left - pageRect.left) * SCALE);
+          var iy = 792 - Math.round((ir.bottom - pageRect.top) * SCALE);
+          var iw = Math.round(ir.width * SCALE);
+          var ih = Math.round(ir.height * SCALE);
+          var tf = form.createTextField(el.id);
+          tf.addToPage(page, { x: ix, y: iy, width: iw, height: Math.max(8, ih), font: ff, borderWidth: 0, backgroundColor: PDFLib.rgb(1,1,1) });
+          tf.setFontSize(Math.max(6, fz));
+          if (inputEl.value) tf.setText(inputEl.value);
+        } else if (rec.type === 'table') {
+          var table = el.querySelector('table');
+          if (!table) return;
+          var theadRow = table.querySelector('thead tr');
+          var ths = theadRow ? theadRow.querySelectorAll('th') : [];
+          var ncols = ths.length;
+          var rows = table.querySelectorAll('tbody tr');
+          var rowIdx = 0;
+          rows.forEach(function(tr) {
+            var cells = tr.querySelectorAll('td');
+            var ci = 0;
+            cells.forEach(function(td) {
+              var colspan = parseInt(td.getAttribute('colspan') || '1');
+              var text = (td.textContent || '').trim();
+              if (!text) {
+                var tr2 = td.getBoundingClientRect();
+                if (tr2.width >= 4 && tr2.height >= 4) {
+                  var cs = getComputedStyle(td);
+                  var ff = _matchFont(cs.fontFamily, cs.fontWeight, F);
+                  var fz = Math.round(parseFloat(cs.fontSize) * SCALE);
+                  var tx = Math.round((tr2.left - pageRect.left) * SCALE);
+                  var ty = 792 - Math.round((tr2.bottom - pageRect.top) * SCALE);
+                  var tw = Math.round(tr2.width * SCALE);
+                  var th = Math.round(tr2.height * SCALE);
+                  var tf = form.createTextField(el.id + '_r' + rowIdx + '_c' + ci);
+                  tf.addToPage(page, { x: tx + 1, y: ty + 1, width: Math.max(4, tw - 2), height: Math.max(4, th - 2), font: ff, borderWidth: 0, backgroundColor: PDFLib.rgb(1,1,1) });
+                  tf.setFontSize(Math.max(5, fz));
+                }
+              }
+              ci += colspan;
+            });
+            rowIdx++;
+          });
+        } else if (rec.type === 'textarea') {
+          var textareaEl = el.querySelector('.el-textarea');
+          if (!textareaEl) return;
+          if (textareaEl.value.trim()) return;
+          var tr3 = textareaEl.getBoundingClientRect();
+          if (tr3.width < 4 || tr3.height < 4) return;
+          var cs = getComputedStyle(textareaEl);
+          var ff = _matchFont(cs.fontFamily, cs.fontWeight, F);
+          var fz = Math.round(parseFloat(cs.fontSize) * SCALE);
+          var tx3 = Math.round((tr3.left - pageRect.left) * SCALE);
+          var ty3 = 792 - Math.round((tr3.bottom - pageRect.top) * SCALE);
+          var tw3 = Math.round(tr3.width * SCALE);
+          var th3 = Math.round(tr3.height * SCALE);
+          var tf = form.createTextField(el.id);
+          tf.addToPage(page, { x: tx3, y: ty3, width: tw3, height: th3, font: ff, borderWidth: 0, backgroundColor: PDFLib.rgb(1,1,1) });
+          tf.setFontSize(Math.max(6, fz));
+          tf.enableMultiline();
+        }
+      });
+    }
+
+    var bytes = await doc.save();
+    var blob = new Blob([bytes], { type: 'application/pdf' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'Eyum Character Sheet.pdf';
+    a.click();
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 5000);
+    log('Fillable PDF exported (' + countAll() + ' elements)');
+  } catch(e) {
+    alert('PDF generation failed: ' + e.message + '\n\nFalling back to browser print.');
+    log('PDF error: ' + e.message + ' — falling back to print');
+    window.print();
+  }
+  // Always restore editor artifacts
+  if (hideStyle && hideStyle.parentNode) hideStyle.parentNode.removeChild(hideStyle);
+  for (var rp = 0; rp < NUMPAGES; rp++) {
+    var rg = $('grid' + rp);
+    if (rg && gridBgs[rp] !== undefined) rg.style.backgroundImage = gridBgs[rp];
+  }
+}
+
+function _dataUriToBytes(dataUri) {
+  var commaIdx = dataUri.indexOf(',');
+  var b64 = dataUri.slice(commaIdx + 1);
+  var raw = atob(b64);
+  var bytes = new Uint8Array(raw.length);
+  for (var i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i);
+  return bytes;
+}
+
+function _matchFont(family, weight, F) {
+  family = (family || '').toLowerCase();
+  var bold = (weight === 'bold' || parseInt(weight) >= 600);
+  if (family.indexOf('courier') >= 0 || family.indexOf('monospace') >= 0 || family.indexOf('console') >= 0)
+    return bold ? F.cb : F.c;
+  if (family.indexOf('times') >= 0 || family.indexOf('serif') >= 0)
+    return bold ? F.tb : F.t;
+  return bold ? F.hb : F.h;
+}
+
 function saveAll() {
   var data = { nextId: elCounter, pages: {}, gridSize: GRID_SIZE, showGrid: showGrid };
   for (var k in elements) {
@@ -920,8 +1156,53 @@ function loadAll() {
     return true;
   } catch(e) { log('Load error: '+e.message); return false; }
 }
+function loadFromDefault() {
+  var raw = localStorage.getItem('eyum-sheet-default');
+  if (!raw) return false;
+  try {
+    var data = JSON.parse(raw);
+    elCounter = data.nextId || 0;
+    GRID_SIZE = data.gridSize || 10;
+    showGrid = data.showGrid !== false;
+    $('btnToggleGrid').textContent = showGrid ? 'Grid: ON' : 'Grid: OFF';
+    $('btnGridSize').value = GRID_SIZE;
+    SNAP_THRESHOLD = Math.max(3, GRID_SIZE / 2);
+    var maxPage = 0;
+    for (var k in data.pages) { var pk = parseInt(k); if (pk > maxPage) maxPage = pk; }
+    while (NUMPAGES <= maxPage) { addPageSilent(); }
+    while (NUMPAGES > maxPage+1) { removePageSilent(); }
+    for (var i=0; i<NUMPAGES; i++) { var gs=$('grid'+i); if(gs) gs.innerHTML = ''; elements[i] = []; }
+    for (var k in data.pages) {
+      var pi = parseInt(k);
+      data.pages[k].forEach(function(d) {
+        var el = createElement(pi, d.type, d.left, d.top, d.width, d.height, d.html, d.id);
+        if (el) {
+          if (d.fontSize) el.style.fontSize = d.fontSize;
+          if (d.color) el.style.color = d.color;
+          if (d.bgColor) el.style.backgroundColor = d.bgColor;
+          if (d.fontWeight) el.style.fontWeight = d.fontWeight;
+          if (d.fontStyle) el.style.fontStyle = d.fontStyle;
+        }
+      });
+    }
+    updateGridOverlays();
+    updatePageCountLabel();
+    log('Loaded from custom default: ' + countAll() + ' elements');
+    return true;
+  } catch(e) { log('Load from default error: '+e.message); return false; }
+}
 function resetAll() {
+  if (!confirm('Reset entire sheet to the saved default? Your current work will be lost.')) return;
   log('=== Reset ===');
+  // Backup current state before resetting
+  var backup = { nextId: elCounter, pages: {}, gridSize: GRID_SIZE, showGrid: showGrid };
+  for (var k in elements) {
+    backup.pages[k] = elements[k].map(function(rec) {
+      var el = rec.el;
+      return { id: el.id, type: rec.type, left: parseInt(el.style.left), top: parseInt(el.style.top), width: parseInt(el.style.width), height: parseInt(el.style.height), fontSize: el.style.fontSize, color: el.style.color, bgColor: el.style.backgroundColor, fontWeight: el.style.fontWeight, fontStyle: el.style.fontStyle, html: getCleanHTML(el) };
+    });
+  }
+  localStorage.setItem('eyum-sheet-pre-reset-backup', JSON.stringify(backup));
   // Remove extra pages beyond 3
   while (NUMPAGES > 3) { removePageSilent(); }
   updatePageCountLabel();

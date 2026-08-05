@@ -99,19 +99,19 @@ body {
 
 /* Field */
 .field-wrap { display: flex; align-items: center; gap: 6px; height: 100%; }
-.field-label { font-size: 11px; font-weight: 600; color: #333; white-space: nowrap; min-width: 0; outline: none; cursor: text; }
-.field-input { flex: 1; min-width: 60px; padding: 2px 5px; border: 1px solid #ccc; border-radius: 2px; font-size: 12px; font-family: inherit; background: #fafafa; outline: none; }
+.field-label { font-size: inherit; font-weight: 600; color: #333; white-space: nowrap; min-width: 0; outline: none; cursor: text; }
+.field-input { flex: 1; min-width: 60px; padding: 2px 5px; border: 1px solid #ccc; border-radius: 2px; font-size: inherit; font-family: inherit; background: #fafafa; outline: none; }
 .field-input:focus { border-color: #4fc3f7; background: #fff; }
 
 /* Textarea */
-.el-textarea { width: 100%; height: 100%; resize: none; border: 1px solid #ccc; padding: 6px; font-size: 12px; font-family: inherit; background: #fafafa; border-radius: 2px; outline: none; }
+.el-textarea { width: 100%; height: 100%; resize: none; border: 1px solid #ccc; padding: 6px; font-size: inherit; font-family: inherit; background: #fafafa; border-radius: 2px; outline: none; }
 .el-textarea:focus { border-color: #4fc3f7; background: #fff; }
 
 /* Label */
-.el-label-text { outline: none; cursor: text; font-weight: 700; color: #2c3e50; }
+.el-label-text { outline: none; cursor: text; font-weight: 700; color: #2c3e50; font-size: inherit; }
 
 /* Tables */
-.editable-table { width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; }
+.editable-table { width: 100%; border-collapse: collapse; font-size: inherit; table-layout: fixed; }
 .editable-table th {
   background: #f0f0f0; font-weight: 700; color: #333;
   border: 1px solid #ccc; padding: 4px 6px;
@@ -294,6 +294,5 @@ body.has-ctrl-panel .workspace {
   .el-label-text { color: #000 !important; }
   .el-plaintext-content { color: #000 !important; }
   input, textarea { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
-  [contenteditable] { border: 1px dotted #ccc !important; }
   @page { size: letter; margin: 0; }
 }
