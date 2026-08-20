@@ -43,10 +43,9 @@ async function walkMarkdown(dir, rel = '') {
     }
   }
 
-  children.sort((a, b) => {
-    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
-    return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
-  });
+  children.sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
+  );
 
   return { type: 'folder', name: rel ? path.basename(rel) : 'root', path: rel, children };
 }

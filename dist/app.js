@@ -598,10 +598,9 @@ function updateNavButtons() {
 }
 
 function renderTree(node, container) {
-  const sorted = [...(node.children || [])].sort((a, b) => {
-    if (a.type !== b.type) return a.type === 'folder' ? -1 : 1;
-    return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
-  });
+  const sorted = [...(node.children || [])].sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
+  );
 
   for (const child of sorted) {
     if (child.type === 'folder') {
@@ -614,6 +613,7 @@ function renderTree(node, container) {
       summary.appendChild(span);
       details.appendChild(summary);
       const inner = document.createElement('div');
+      inner.style.paddingLeft = '14px';
       renderTree(child, inner);
       details.appendChild(inner);
       container.appendChild(details);
@@ -710,10 +710,10 @@ async function loadPage(path, scrollToId) {
           }
         }
         if (el) el.scrollIntoView({ behavior: 'instant' });
-        else window.scrollTo({ top: 0, behavior: 'instant' });
+        else els.content.scrollTop = 0;
       });
     } else {
-      window.scrollTo({ top: 0, behavior: 'instant' });
+      els.content.scrollTop = 0;
     }
   } catch (err) {
     els.content.innerHTML = `<div class="error">${err.message}</div>`;
@@ -893,7 +893,7 @@ async function renderCharacterSheet() {
     _csLoading = false;
   }
   els.content.innerHTML = buildCsHTML();
-  window.scrollTo({ top: 0, behavior: 'instant' });
+  els.content.scrollTop = 0;
 }
 
 let graphView = null;

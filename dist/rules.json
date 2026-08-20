@@ -635,6 +635,19 @@
       "min_each": 10,
       "total_spent": 60
     },
+    "Quantum": {
+      "needs_all": [
+        {
+          "affinities": ["Atomic"],
+          "min_each": 10
+        },
+        {
+          "affinities": ["Corruption"],
+          "min_each": 10
+        }
+      ],
+      "total_spent": 70
+    },
     "Eldritch": {
       "needs": {
         "all_of": [

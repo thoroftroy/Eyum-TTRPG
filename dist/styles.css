@@ -18,7 +18,8 @@ body { font-family: var(--font); }
 .app {
   display: grid;
   grid-template-columns: 320px 1fr;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .sidebar {
@@ -59,11 +60,11 @@ body { font-family: var(--font); }
 #mobileSidebar { display: none; }
 
 .tree {
-  padding: 12px;
+  padding: 14px 12px 24px;
 }
 
 .tree details {
-  margin: 4px 0;
+  margin: 5px 0;
   border-radius: 8px;
 }
 
@@ -96,7 +97,13 @@ body { font-family: var(--font); }
 .tree .file-link:hover,
 .tree .file-link.active { background: rgba(255,255,255,.08); }
 
-.main { min-width: 0; }
+.main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
 .toolbar {
   position: sticky;
   top: 0;
@@ -134,9 +141,9 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 60px; }
 }
 
 .content {
-  max-width: var(--max-width);
+  flex: 1 1 auto;
+  overflow: auto;
   padding: 32px 24px 96px;
-  margin: 0 auto;
   line-height: 1.6;
   word-wrap: break-word;
 }

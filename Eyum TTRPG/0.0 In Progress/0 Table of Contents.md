@@ -68,7 +68,7 @@
 	- 7.3.4 Aquatic
 	- 7.3.5 Monstrosities
 
-Current Handbook Version: v3.25.44.2
+Current Handbook Version: v3.25.44.3
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
