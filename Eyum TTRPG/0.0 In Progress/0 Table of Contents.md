@@ -27,6 +27,7 @@
 - [[3.1 Building Your Character]]
 - [[3.2 Character Information]]
 - [[3.3 Leveling Up]]
+	- [[3.3.1 Leveling Up Table]]
 - [[3.4 Feats]]
 #### 4.0 Races
 - [[4.1 Races]]
@@ -67,7 +68,7 @@
 	- 7.3.4 Aquatic
 	- 7.3.5 Monstrosities
 
-Current Handbook Version: v3.25.42.0
+Current Handbook Version: v3.25.44.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
