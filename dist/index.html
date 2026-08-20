@@ -25,15 +25,33 @@
         <div class="toolbar-right">
           <button id="prevFile" class="ghost-button" title="Previous file" disabled>◂</button>
           <button id="nextFile" class="ghost-button" title="Next file" disabled>▸</button>
-          <label class="picker-group">
-            <span>Text</span>
-            <input type="color" id="textColor" value="#ffffff" />
-          </label>
-          <label class="picker-group">
-            <span>Background</span>
-            <input type="color" id="bgColor" value="#000000" />
-          </label>
-          <button id="resetTheme" class="ghost-button">Reset</button>
+          <div class="settings-wrap">
+            <button id="settingsBtn" class="ghost-button" title="Settings">⚙ Settings</button>
+            <div id="settingsPanel" class="settings-panel">
+              <div class="settings-title">Colors</div>
+              <label class="settings-row">
+                <span>Text</span>
+                <input type="color" id="textColor" value="#ffffff" />
+              </label>
+              <label class="settings-row">
+                <span>Background</span>
+                <input type="color" id="bgColor" value="#000000" />
+              </label>
+              <label class="settings-row">
+                <span>Table Header</span>
+                <input type="color" id="tableHeaderColor" value="#161616" />
+              </label>
+              <label class="settings-row">
+                <span>Table Row A</span>
+                <input type="color" id="tableRowAColor" value="#242424" />
+              </label>
+              <label class="settings-row">
+                <span>Table Row B</span>
+                <input type="color" id="tableRowBColor" value="#1d1d1d" />
+              </label>
+              <button id="resetTheme" class="ghost-button settings-reset">Reset Colors</button>
+            </div>
+          </div>
         </div>
       </header>
 

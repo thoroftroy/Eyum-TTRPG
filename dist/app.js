@@ -1,5 +1,11 @@
 const THEME_KEY = 'eyum-theme';
-const DEFAULTS = { text: '#ffffff', bg: '#000000' };
+const DEFAULTS = {
+  text: '#ffffff',
+  bg: '#000000',
+  tableHeader: '#161616',
+  tableRowA: '#242424',
+  tableRowB: '#1d1d1d',
+};
 
 const els = {
   tree: document.getElementById('tree'),
@@ -8,6 +14,11 @@ const els = {
   textColor: document.getElementById('textColor'),
   bgColor: document.getElementById('bgColor'),
   resetTheme: document.getElementById('resetTheme'),
+  settingsBtn: document.getElementById('settingsBtn'),
+  settingsPanel: document.getElementById('settingsPanel'),
+  tableHeaderColor: document.getElementById('tableHeaderColor'),
+  tableRowAColor: document.getElementById('tableRowAColor'),
+  tableRowBColor: document.getElementById('tableRowBColor'),
   sidebar: document.getElementById('sidebar'),
   mobileSidebar: document.getElementById('mobileSidebar'),
   toggleSidebar: document.getElementById('toggleSidebar'),
@@ -35,8 +46,14 @@ marked.setOptions({
 function applyTheme(theme) {
   document.documentElement.style.setProperty('--text', theme.text);
   document.documentElement.style.setProperty('--bg', theme.bg);
+  document.documentElement.style.setProperty('--table-header', theme.tableHeader);
+  document.documentElement.style.setProperty('--table-row-a', theme.tableRowA);
+  document.documentElement.style.setProperty('--table-row-b', theme.tableRowB);
   els.textColor.value = theme.text;
   els.bgColor.value = theme.bg;
+  els.tableHeaderColor.value = theme.tableHeader;
+  els.tableRowAColor.value = theme.tableRowA;
+  els.tableRowBColor.value = theme.tableRowB;
 }
 
 function saveTheme(theme) {
@@ -46,9 +63,9 @@ function saveTheme(theme) {
 function loadTheme() {
   try {
     const theme = JSON.parse(localStorage.getItem(THEME_KEY));
-    if (theme?.text && theme?.bg) return theme;
+    if (theme && typeof theme === 'object') return { ...DEFAULTS, ...theme };
   } catch {}
-  return DEFAULTS;
+  return { ...DEFAULTS };
 }
 
 class GraphView {
@@ -949,21 +966,36 @@ function registerUIEvents() {
     if (path) loadPage(path, fragment || undefined);
   });
 
-  els.textColor.addEventListener('input', () => {
-    const theme = { text: els.textColor.value, bg: els.bgColor.value };
-    applyTheme(theme);
-    saveTheme(theme);
+  [els.textColor, els.bgColor, els.tableHeaderColor, els.tableRowAColor, els.tableRowBColor].forEach((input) => {
+    input.addEventListener('input', () => {
+      const theme = {
+        text: els.textColor.value,
+        bg: els.bgColor.value,
+        tableHeader: els.tableHeaderColor.value,
+        tableRowA: els.tableRowAColor.value,
+        tableRowB: els.tableRowBColor.value,
+      };
+      applyTheme(theme);
+      saveTheme(theme);
+    });
   });
 
-  els.bgColor.addEventListener('input', () => {
-    const theme = { text: els.textColor.value, bg: els.bgColor.value };
-    applyTheme(theme);
-    saveTheme(theme);
+  els.settingsBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    els.settingsPanel.classList.toggle('open');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!els.settingsPanel.classList.contains('open')) return;
+    if (!els.settingsPanel.contains(e.target) && !els.settingsBtn.contains(e.target)) {
+      els.settingsPanel.classList.remove('open');
+    }
   });
 
   els.resetTheme.addEventListener('click', () => {
     applyTheme(DEFAULTS);
     saveTheme(DEFAULTS);
+    els.settingsPanel.classList.remove('open');
   });
 
   els.mobileSidebar.addEventListener('click', () => els.sidebar.classList.add('open'));
@@ -1003,10 +1035,14 @@ function registerUIEvents() {
     });
   }
 
-  // Escape key closes graph panel
+  // Escape key closes graph panel and settings panel
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && els.graphPanel && els.graphPanel.classList.contains('open')) {
+    if (e.key !== 'Escape') return;
+    if (els.graphPanel && els.graphPanel.classList.contains('open')) {
       els.graphPanel.classList.remove('open');
+    }
+    if (els.settingsPanel && els.settingsPanel.classList.contains('open')) {
+      els.settingsPanel.classList.remove('open');
     }
   });
 }
