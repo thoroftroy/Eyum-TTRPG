@@ -665,7 +665,10 @@ function fixWikiLinks(markdown) {
     const hashIdx = raw.indexOf('#');
     const pageName = hashIdx >= 0 ? raw.slice(0, hashIdx).trim() : raw;
     const fragment = hashIdx >= 0 ? raw.slice(hashIdx + 1).trim() : null;
-    const mapped = wikiMap.get(slugifyTitle(pageName));
+    let mapped = wikiMap.get(slugifyTitle(pageName));
+    if (!mapped && pageName.includes('/')) {
+      mapped = wikiMap.get(slugifyTitle(pageName.split('/').pop()));
+    }
     if (!mapped) return display;
     const url = `#${encodeURIComponent(mapped)}`;
     const fullUrl = fragment ? url + '%23' + slugifyFragment(fragment) : url;
@@ -675,6 +678,38 @@ function fixWikiLinks(markdown) {
 
 function slugifyFragment(text) {
   return text.toLowerCase().replace(/[^\w]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+// marked's GFM table parser treats any non-empty line directly after a table as
+// a table row. Make sure tables are always terminated by a blank line so notes
+// and paragraphs after a table are not swallowed into it.
+const TABLE_ROW = /^\s*\|/;
+const TABLE_SEP = /^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)*\|?\s*$/;
+const BLOCK_START = /^(\s{0,3}#|\s*>|\s*```|\s*~~~|\s*[-*+]\s|\s*\d+[.)]\s|\s{0,3}(-{3,}|\*{3,}|_{3,})\s*$| {4}\S)/;
+
+function guardTableBorders(markdown) {
+  const lines = markdown.split('\n');
+  const out = [];
+  let inTable = false;
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (inTable && line.trim() !== '') {
+      const next = i + 1 < lines.length ? lines[i + 1] : '';
+      const gluedTable = TABLE_ROW.test(line) && TABLE_SEP.test(next);
+      const stillTable = TABLE_ROW.test(line) || (line.includes('|') && !BLOCK_START.test(line));
+      if (!stillTable || gluedTable) {
+        out.push('');
+        inTable = false;
+      }
+    }
+    if (!inTable && TABLE_ROW.test(line)) {
+      const next = i + 1 < lines.length ? lines[i + 1] : '';
+      if (TABLE_SEP.test(next)) inTable = true;
+    }
+    if (inTable && line.trim() === '') inTable = false;
+    out.push(line);
+  }
+  return out.join('\n');
 }
 
 async function loadPage(path, scrollToId) {
@@ -702,6 +737,7 @@ async function loadPage(path, scrollToId) {
     if (!res.ok) throw new Error(`Could not load ${path}`);
     let markdown = await res.text();
     markdown = fixWikiLinks(markdown);
+    markdown = guardTableBorders(markdown);
     const html = marked.parse(markdown);
     const sanitized = DOMPurify.sanitize(html);
     els.content.innerHTML = sanitized;
