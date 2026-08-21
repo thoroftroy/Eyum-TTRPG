@@ -50,12 +50,12 @@ Head is 7-8 inches tall crown to chin and 5-6 inches wide ear to ear, nose is mo
 | 1    | **Adaptable:** Gain +1 Skill Point on every level (retroactive).                                                           |
 | 2    | **Hard to Kill:** Gain +1 HP and +1 Vit per level (retroactive).                                                           |
 | 3    | **Sheer Freaking Will:** Once per long rest when you would drop to 0 HP, drop to 1 HP instead.                             |
-| 4    | **Quick Learner:** Gain +1 Stat Point every 2 levels (retroactive, stacks with level 1).                                   |
+| 4    | **Quick Learner:** Gain +1 Stat Point every 2 levels (retroactive).                                                        |
 | 5    | **Second Breath:** Once per combat when reduced to 0 Vitality heal 1d8 + ConMod Vitality and deal x2 damage for that turn. |
 | 6    | **Versatile Training:** Gain 3 Proficiency Upgrades or +5 Stat Points.                                                     |
 | 7    | **Clutch Focus:** When on 20% HP or lower gain advantage on all attack rolls and deal +20% more damage.                    |
 | 8    | **Battle Routine:** Gain +3 Initiative and +1 to all saving throws.                                                        |
-| 9    | **Stubborn Survivor:** Sheer Freaking Will can activate once per short rests and drops you to 50% HP instead of 1.         |
+| 9    | **Stubborn Survivor:** Sheer Freaking Will can activate once per short rest and drops you to 50% HP instead of 1.          |
 | 10   | **Peak Human** Choose one:                                                                                                 |
 | 10.1 | **Generalist:** Gain +4 to all skill checks.                                                                               |
 | 10.2 | **Toughened:** Gain +2 AC and +50 Vitality.                                                                                |
