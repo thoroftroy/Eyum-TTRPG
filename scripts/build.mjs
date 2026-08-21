@@ -43,9 +43,14 @@ async function walkMarkdown(dir, rel = '') {
     }
   }
 
-  children.sort((a, b) =>
-    a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
-  );
+  children.sort((a, b) => {
+    const baseA = a.name.replace(/\.md$/i, '');
+    const baseB = b.name.replace(/\.md$/i, '');
+    if (baseA.localeCompare(baseB, undefined, { sensitivity: 'base' }) === 0) {
+      return a.type === 'file' ? -1 : 1;
+    }
+    return baseA.localeCompare(baseB, undefined, { numeric: true, sensitivity: 'base' });
+  });
 
   return { type: 'folder', name: rel ? path.basename(rel) : 'root', path: rel, children };
 }

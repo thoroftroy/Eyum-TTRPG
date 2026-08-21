@@ -19,6 +19,10 @@ const els = {
   tableHeaderColor: document.getElementById('tableHeaderColor'),
   tableRowAColor: document.getElementById('tableRowAColor'),
   tableRowBColor: document.getElementById('tableRowBColor'),
+  downloadsBtn: document.getElementById('downloadsBtn'),
+  downloadsPanel: document.getElementById('downloadsPanel'),
+  dlObsidian: document.getElementById('dlObsidian'),
+  dlText: document.getElementById('dlText'),
   sidebar: document.getElementById('sidebar'),
   mobileSidebar: document.getElementById('mobileSidebar'),
   toggleSidebar: document.getElementById('toggleSidebar'),
@@ -614,10 +618,25 @@ function updateNavButtons() {
   if (els.nextFile) els.nextFile.disabled = idx < 0 || idx >= flatFileList.length - 1;
 }
 
+function treeCompare(a, b) {
+  const baseA = a.name.replace(/\.md$/i, '');
+  const baseB = b.name.replace(/\.md$/i, '');
+  if (baseA.localeCompare(baseB, undefined, { sensitivity: 'base' }) === 0) {
+    return a.type === 'file' ? -1 : 1;
+  }
+  return baseA.localeCompare(baseB, undefined, { numeric: true, sensitivity: 'base' });
+}
+
+function numPrefix(name) {
+  const match = name.match(/^\d+(?:\.\d+)*/);
+  return match ? match[0] : '';
+}
+
 function renderTree(node, container) {
-  const sorted = [...(node.children || [])].sort((a, b) =>
-    a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' })
-  );
+  const sorted = [...(node.children || [])].sort(treeCompare);
+  const filePrefixes = sorted
+    .filter((c) => c.type === 'file')
+    .map((c) => numPrefix(c.name));
 
   for (const child of sorted) {
     if (child.type === 'folder') {
@@ -640,6 +659,11 @@ function renderTree(node, container) {
       link.className = 'file-link';
       link.dataset.path = child.path;
       link.textContent = child.name.replace(/\.md$/i, '');
+      const prefix = numPrefix(child.name);
+      const isSubfile = prefix.includes('.') && filePrefixes.some(
+        (f) => f !== prefix && f.includes('.') && prefix.startsWith(f + '.')
+      );
+      if (isSubfile) link.style.paddingLeft = '40px';
       container.appendChild(link);
     }
   }
@@ -949,6 +973,73 @@ async function renderCharacterSheet() {
   els.content.scrollTop = 0;
 }
 
+// ========== HANDBOOK DOWNLOADS ==========
+function collectHandbookFiles(node, acc) {
+  if (node.type === 'file') { acc.push(node.path); return; }
+  for (const child of node.children || []) collectHandbookFiles(child, acc);
+}
+
+let jsZipPromise = null;
+function loadJSZip() {
+  if (!jsZipPromise) {
+    jsZipPromise = new Promise((resolve, reject) => {
+      if (window.JSZip) return resolve(window.JSZip);
+      const s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';
+      s.onload = () => resolve(window.JSZip);
+      s.onerror = () => reject(new Error('Could not load JSZip'));
+      document.head.appendChild(s);
+    });
+  }
+  return jsZipPromise;
+}
+
+async function downloadHandbook(mode) {
+  const btn = mode === 'text' ? els.dlText : els.dlObsidian;
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Preparing...';
+  try {
+    const paths = [];
+    collectHandbookFiles(manifest.tree, paths);
+    if (mode === 'text') {
+      const parts = ['EYUM TTRPG - COMPLETE HANDBOOK\n'];
+      for (const path of paths) {
+        const res = await fetch(`./content/${path}`);
+        if (!res.ok) continue;
+        parts.push('\n======================================================================\n  MARKDOWN: ' + path + '\n======================================================================\n\n' + await res.text() + '\n');
+      }
+      const blob = new Blob(parts, { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Eyum-TTRPG-Handbook.txt';
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(url), 5000);
+    } else {
+      const JSZip = await loadJSZip();
+      const zip = new JSZip();
+      for (const path of paths) {
+        const res = await fetch(`./content/${path}`);
+        if (!res.ok) continue;
+        zip.file(path, await res.text());
+      }
+      const blob = await zip.generateAsync({ type: 'blob' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Eyum-TTRPG-Handbook-Obsidian.zip';
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(url), 5000);
+    }
+  } catch (err) {
+    alert('Download failed: ' + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+}
+
 let graphView = null;
 
 function showGraphError(msg) {
@@ -1021,12 +1112,24 @@ function registerUIEvents() {
     els.settingsPanel.classList.toggle('open');
   });
 
+  els.downloadsBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    els.downloadsPanel.classList.toggle('open');
+  });
+
   document.addEventListener('click', (e) => {
-    if (!els.settingsPanel.classList.contains('open')) return;
-    if (!els.settingsPanel.contains(e.target) && !els.settingsBtn.contains(e.target)) {
+    if (els.settingsPanel.classList.contains('open') &&
+        !els.settingsPanel.contains(e.target) && !els.settingsBtn.contains(e.target)) {
       els.settingsPanel.classList.remove('open');
     }
+    if (els.downloadsPanel.classList.contains('open') &&
+        !els.downloadsPanel.contains(e.target) && !els.downloadsBtn.contains(e.target)) {
+      els.downloadsPanel.classList.remove('open');
+    }
   });
+
+  els.dlObsidian.addEventListener('click', () => downloadHandbook('md'));
+  els.dlText.addEventListener('click', () => downloadHandbook('text'));
 
   els.resetTheme.addEventListener('click', () => {
     applyTheme(DEFAULTS);
@@ -1071,7 +1174,7 @@ function registerUIEvents() {
     });
   }
 
-  // Escape key closes graph panel and settings panel
+  // Escape key closes graph panel, settings panel, and downloads panel
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
     if (els.graphPanel && els.graphPanel.classList.contains('open')) {
@@ -1079,6 +1182,9 @@ function registerUIEvents() {
     }
     if (els.settingsPanel && els.settingsPanel.classList.contains('open')) {
       els.settingsPanel.classList.remove('open');
+    }
+    if (els.downloadsPanel && els.downloadsPanel.classList.contains('open')) {
+      els.downloadsPanel.classList.remove('open');
     }
   });
 }
