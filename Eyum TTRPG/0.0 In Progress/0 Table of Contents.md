@@ -23,6 +23,7 @@
 	- [[2.6.2 Animal and Monster Materials]]
 	- [[2.6.3 Special and Other Materials]]
 - [[2.7 Character Sheet]]
+- [[2.8 Economy]]
 #### 3.0 Character Management
 - [[3.1 Building Your Character]]
 - [[3.2 Character Information]]
@@ -68,7 +69,7 @@
 	- 7.3.4 Aquatic
 	- 7.3.5 Monstrosities
 
-Current Handbook Version: v3.25.45.1
+Current Handbook Version: v3.25.46.0
 
 > Major version (#).#.#.# indicates how many major overhauls have taken place which make the system play entirely differently.
 > 
