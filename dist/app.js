@@ -821,7 +821,7 @@ function getDefaultFile(node) {
 }
 
 // ========== CHARACTER SHEET (2.7) - pdf.js render + AcroForm annotation overlays ==========
-const CS_STORAGE_KEY = 'eyum-char-sheet-v3';
+const CS_STORAGE_KEY = 'eyum-char-sheet-filled';
 var _csReady = false;
 var _csLoading = false;
 var _csPageData = [];        // [{canvas, fields:[{name,x,y,w,h,multiline}], width, height}]
@@ -831,6 +831,23 @@ var _csSaveTimer = null;
 function loadCsData() {
   try {
     var d = JSON.parse(localStorage.getItem(CS_STORAGE_KEY));
+    if (!d || typeof d !== 'object') {
+      // Migrate once from an older versioned key (eyum-char-sheet-v3, v4, ...).
+      // Take the highest version found and store it under the new stable key.
+      var bestKey = null, bestV = -1;
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        var m = k && k.match(/^eyum-char-sheet-v(\d+)$/);
+        if (m) {
+          var v = parseInt(m[1], 10);
+          if (v > bestV) { bestV = v; bestKey = k; }
+        }
+      }
+      if (bestKey) {
+        d = JSON.parse(localStorage.getItem(bestKey));
+        localStorage.setItem(CS_STORAGE_KEY, localStorage.getItem(bestKey));
+      }
+    }
     if (d && typeof d === 'object') _csFieldValues = d;
     else _csFieldValues = {};
   } catch(e) { _csFieldValues = {}; }

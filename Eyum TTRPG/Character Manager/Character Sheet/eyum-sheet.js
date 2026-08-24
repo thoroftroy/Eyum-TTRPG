@@ -1,6 +1,8 @@
 // === Eyum Sheet Editor v7 - Grid snap + alignment guides + control panel ===
 var PAGE_W = 816, PAGE_H = 1056, NUMPAGES = 3;
 var elCounter = 0;
+var zCounter = 0;
+var healedDuplicates = false;
 var elements = {};
 var selectedEl = null;
 var dragInfo = null;
@@ -365,12 +367,17 @@ function rgbToHex(c) {
 function createElement(pageIdx, type, left, top, width, height, html, id) {
   var grid = $('grid'+pageIdx);
   if (!grid) return null;
+  // Never allow duplicate element ids. A stale save can contain two elements
+  // with the same id, which breaks fillable PDF export ("field already exists").
+  // If the requested id (or a freshly minted one) is already taken, mint a new one.
   id = id || elid();
+  while (document.getElementById(id)) { healedDuplicates = true; id = elid(); }
   if (!elements[pageIdx]) elements[pageIdx] = [];
 
   var el = document.createElement('div');
   el.className = 'el el-'+type;
   el.id = id;
+  el.style.zIndex = String(++zCounter);
   el.style.left = px(left); el.style.top = px(top);
   el.style.width = px(width); el.style.height = px(height);
   el.style.fontSize = '12px';
@@ -750,7 +757,7 @@ function hPlainText(text) {
   log('Init done. ' + countAll() + ' elements');
 });
 
-function askPage() { var p=parseInt(prompt('Page? (1, 2, or 3)','1'))-1; return (isNaN(p)||p<0||p>2)?-1:p; }
+function askPage() { var p=parseInt(prompt('Page? (1 to ' + NUMPAGES + ')','1'))-1; return (isNaN(p)||p<0||p>=NUMPAGES)?-1:p; }
 function getPageOfElement(el) { for (var k in elements) for (var i=0;i<elements[k].length;i++) if (elements[k][i].el===el) return parseInt(k); return -1; }
 function countAll() { var n=0; for (var k in elements) n+=elements[k].length; return n; }
 
@@ -960,6 +967,16 @@ async function _buildFillablePDF() {
     var doc = await PDFLib.PDFDocument.create();
     var form = doc.getForm();
 
+    // pdf-lib throws if two form fields share a name. Even with ids healed on
+    // load, never trust the data: make every field name unique.
+    var usedFieldNames = {};
+    function uniqueFieldName(base) {
+      var n = base, i = 2;
+      while (usedFieldNames[n]) { n = base + '_' + (i++); }
+      usedFieldNames[n] = true;
+      return n;
+    }
+
     var F = {
       h:  await doc.embedFont(PDFLib.StandardFonts.Helvetica),
       hb: await doc.embedFont(PDFLib.StandardFonts.HelveticaBold),
@@ -1004,7 +1021,7 @@ async function _buildFillablePDF() {
           var iy = 792 - Math.round((ir.bottom - pageRect.top) * SCALE);
           var iw = Math.round(ir.width * SCALE);
           var ih = Math.round(ir.height * SCALE);
-          var tf = form.createTextField(el.id);
+          var tf = form.createTextField(uniqueFieldName(el.id));
           tf.addToPage(page, { x: ix, y: iy, width: iw, height: Math.max(8, ih), font: ff, borderWidth: 0, backgroundColor: PDFLib.rgb(1,1,1) });
           tf.setFontSize(Math.max(6, fz));
           if (inputEl.value) tf.setText(inputEl.value);
@@ -1032,7 +1049,7 @@ async function _buildFillablePDF() {
                   var ty = 792 - Math.round((tr2.bottom - pageRect.top) * SCALE);
                   var tw = Math.round(tr2.width * SCALE);
                   var th = Math.round(tr2.height * SCALE);
-                  var tf = form.createTextField(el.id + '_r' + rowIdx + '_c' + ci);
+                  var tf = form.createTextField(uniqueFieldName(el.id + '_r' + rowIdx + '_c' + ci));
                   tf.addToPage(page, { x: tx + 1, y: ty + 1, width: Math.max(4, tw - 2), height: Math.max(4, th - 2), font: ff, borderWidth: 0, backgroundColor: PDFLib.rgb(1,1,1) });
                   tf.setFontSize(Math.max(5, fz));
                 }
@@ -1054,7 +1071,7 @@ async function _buildFillablePDF() {
           var ty3 = 792 - Math.round((tr3.bottom - pageRect.top) * SCALE);
           var tw3 = Math.round(tr3.width * SCALE);
           var th3 = Math.round(tr3.height * SCALE);
-          var tf = form.createTextField(el.id);
+          var tf = form.createTextField(uniqueFieldName(el.id));
           tf.addToPage(page, { x: tx3, y: ty3, width: tw3, height: th3, font: ff, borderWidth: 0, backgroundColor: PDFLib.rgb(1,1,1) });
           tf.setFontSize(Math.max(6, fz));
           tf.enableMultiline();
@@ -1153,6 +1170,7 @@ function loadAll() {
     updateGridOverlays();
     updatePageCountLabel();
     log('Loaded ' + countAll() + ' elements');
+    if (healedDuplicates) { log('Healed duplicate element ids — saving cleaned sheet.'); saveAll(); }
     return true;
   } catch(e) { log('Load error: '+e.message); return false; }
 }
@@ -1188,6 +1206,7 @@ function loadFromDefault() {
     updateGridOverlays();
     updatePageCountLabel();
     log('Loaded from custom default: ' + countAll() + ' elements');
+    if (healedDuplicates) { log('Healed duplicate element ids — saving cleaned sheet.'); saveAll(); }
     return true;
   } catch(e) { log('Load from default error: '+e.message); return false; }
 }

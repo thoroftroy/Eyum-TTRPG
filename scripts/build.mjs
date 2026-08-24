@@ -142,13 +142,80 @@ try {
   execSync(`python3 "${splitScript}" "${path.join(outDir, 'graph_cache.json')}" "${path.join(outDir, 'graph_data')}"`, { stdio: 'inherit' });
 } catch { console.log('  Skipped graph cache split (python3 not available)'); }
 
-// Copy fillable character sheet PDF (v3 with AcroForm fields)
+// Copy the newest fillable character sheet PDF.
+// Convention: "Eyum Character Sheet vN.pdf" in the Character Sheet folder.
+// Always pick the highest version number so new sheets need zero manual work.
 try {
-  const csSrc = path.join(repoRoot, 'Eyum TTRPG', 'Character Manager', 'Character Sheet', 'Eyum Character Sheet v3.pdf');
-  const csDest = path.join(outDir, 'character-sheet.pdf');
-  await fs.copyFile(csSrc, csDest);
-  console.log('  Copied fillable character sheet v3');
-} catch { console.log('  Skipped character sheet PDF (v3 not found)'); }
+  const sheetDir = path.join(repoRoot, 'Eyum TTRPG', 'Character Manager', 'Character Sheet');
+  const sheetRegex = /^Eyum Character Sheet v(\d+)\.pdf$/i;
+  const entries = await fs.readdir(sheetDir);
+  let best = null, bestV = -1;
+  for (const name of entries) {
+    const m = name.match(sheetRegex);
+    if (m) {
+      const v = parseInt(m[1], 10);
+      if (v > bestV) { bestV = v; best = name; }
+    }
+  }
+  if (best) {
+    const csSrc = path.join(sheetDir, best);
+    const pdfPath = path.join(outDir, 'character-sheet.pdf');
+    await fs.copyFile(csSrc, pdfPath);
+    console.log(`  Copied fillable character sheet: ${best} (auto-detected newest)`);
+
+    // Keep the handbook's own copy of the sheet PDF in sync (local builds)
+    try {
+      await fs.copyFile(csSrc, path.join(repoRoot, 'Eyum TTRPG', '2.0 Reference Tables', 'Eyum Character Sheet.pdf'));
+    } catch { console.log('  Skipped handbook sheet PDF copy'); }
+
+    // Regenerate page preview PNGs from the new PDF (best-effort)
+    try {
+      for (const n of (await fs.readdir(outDir)).filter(n => /^cs_page-\d+\.png$/.test(n))) {
+        await fs.rm(path.join(outDir, n), { force: true });
+      }
+      let rendered = false;
+      try {
+        execSync(`pdftoppm -png -r 150 "${pdfPath}" "${path.join(outDir, 'cs_page')}"`, { stdio: 'ignore' });
+        rendered = true;
+      } catch {
+        for (const tool of ['magick -density 150', 'convert -density 150']) {
+          try {
+            execSync(`${tool} "${pdfPath}" "${path.join(outDir, 'cs_page')}"`, { stdio: 'ignore' });
+            rendered = true;
+            break;
+          } catch { /* try next tool */ }
+        }
+        if (rendered) {
+          // magick/convert emit cs_page-0.png, cs_page-1.png... -> shift to 1-based, drop page 0.
+          // Rename from highest to lowest so targets are always free.
+          const files = (await fs.readdir(outDir))
+            .filter(n => /^cs_page-\d+\.png$/.test(n))
+            .map(n => ({ n, i: parseInt(n.match(/-(\d+)\.png$/)[1], 10) }))
+            .sort((a, b) => b.i - a.i);
+          for (const f of files) {
+            if (f.i === 0) await fs.rm(path.join(outDir, f.n), { force: true });
+            else await fs.rename(path.join(outDir, f.n), path.join(outDir, `cs_page-${f.i + 1}.png`));
+          }
+        }
+      }
+      console.log(rendered ? '  Regenerated character sheet page previews' : '  Skipped page previews (no PDF renderer available)');
+    } catch { console.log('  Skipped page previews (render error)'); }
+
+    // Keep the download filename in index.html in sync with the newest version
+    try {
+      const idxPath = path.join(outDir, 'index.html');
+      let html = await fs.readFile(idxPath, 'utf-8');
+      const before = html;
+      html = html.replace(/download="Eyum Character Sheet(?: v\d+)?\.pdf"/, `download="Eyum Character Sheet v${bestV}.pdf"`);
+      if (html !== before) {
+        await fs.writeFile(idxPath, html);
+        console.log(`  Updated index.html download name to v${bestV}`);
+      }
+    } catch { console.log('  Skipped index.html download name update'); }
+  } else {
+    console.log('  Skipped character sheet (no "Eyum Character Sheet vN.pdf" found)');
+  }
+} catch { console.log('  Skipped character sheet PDF (folder not found)'); }
 
 // Generate equipment combinations JSON
 try {

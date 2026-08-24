@@ -7,7 +7,7 @@ Gods gain power from their subjects. They typically want people to spread their 
 
 **Tier 1 (1 day):** You gain Resistance to Fire damage. As a bonus action, you may wreathe your weapon or fists in flame until the end of your turn, dealing +1d10 Fire damage on hit. You must, today, start a fight or publicly challenge someone. Failure results in you being unable to take the Attack action for 1 day (you can still cast spells and use abilities).
 
-**Tier 2 (2 days):** Once per turn when you take damage, you build 1 Heat Charge (max 5). Your next attack deals +2d10 Fire damage per Charge spent. You must, once per day, destroy something of value (at least 10 Gold worth). Failure results in [[2.4 Conditions#Environmental / Positional Conditions|On Fire]] (3 stacks) at the start of each day for 2 days.
+**Tier 2 (2 days):** Once per turn when you take damage, you build 1 Heat Charge (max 5). Your next attack deals +2d10 Fire damage per Charge spent. You must, once per day, destroy something of value (at least 1 Silver worth). Failure results in [[2.4 Conditions#Environmental / Positional Conditions|On Fire]] (3 stacks) at the start of each day for 2 days.
 
 **Tier 3 (4 days):** Once per short rest, as an action, you unleash a 60 ft line of fire (10 ft wide). Creatures must make a DEX save (DC 14) or take 6d10 Fire damage and gain [[2.4 Conditions#Environmental / Positional Conditions|On Fire]] (3 stacks). Those who succeed take half damage. You must, once per day, make an attack that puts yourself in danger (provoke an opportunity attack, attack from unstable ground, etc.). Failure results in losing your bonus action each turn for 4 days.
 
