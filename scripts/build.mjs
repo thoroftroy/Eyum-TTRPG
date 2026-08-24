@@ -229,6 +229,34 @@ try {
 const tree = await walkMarkdown(repoRoot);
 await copyMarkdownFiles(tree);
 
+// Copy embedded images into the site content tree and build a name -> path map
+// so Obsidian-style embeds like ![[image.png]] resolve by filename no matter
+// which folder the image lives in.
+const IMAGE_EXTS = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.bmp', '.avif']);
+const imageMap = {};
+async function copyImages(dir, rel = '') {
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.name.startsWith('.') && entry.name !== '.obsidian') continue;
+    if (IGNORE_DIRS.has(entry.name)) continue;
+    const abs = path.join(dir, entry.name);
+    const childRel = rel ? path.posix.join(rel, entry.name) : entry.name;
+    if (entry.isDirectory()) {
+      await copyImages(abs, childRel);
+    } else if (entry.isFile() && IMAGE_EXTS.has(path.extname(entry.name).toLowerCase())) {
+      const dest = path.join(contentDir, childRel);
+      await mkdirp(path.dirname(dest));
+      await fs.copyFile(abs, dest);
+      const key = childRel.toLowerCase();
+      if (!imageMap[key]) imageMap[key] = childRel;
+      const nameKey = entry.name.toLowerCase();
+      if (!imageMap[nameKey]) imageMap[nameKey] = childRel;
+    }
+  }
+}
+await copyImages(repoRoot);
+if (Object.keys(imageMap).length > 0) console.log(`  Copied ${Object.keys(imageMap).length} embedded image file(s)`);
+
 const nameMap = new Map();
 buildNameMap(tree, nameMap);
 const edges = extractAllEdges(tree, nameMap);
@@ -238,6 +266,7 @@ const manifest = {
   defaultFile: findDefaultFile(tree),
   tree,
   edges,
+  images: imageMap,
 };
 
 await fs.writeFile(path.join(outDir, 'manifest.json'), JSON.stringify(manifest, null, 2));

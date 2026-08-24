@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:20:03.327Z",
+  "generatedAt": "2026-08-24T14:34:48.247Z",
   "defaultFile": "Eyum TTRPG/0.0 In Progress/0 Table of Contents.md",
   "tree": {
     "type": "folder",
@@ -30,11 +30,6 @@
                 "type": "file",
                 "name": "0.2 TODO.md",
                 "path": "Eyum TTRPG/0.0 In Progress/0.2 TODO.md"
-              },
-              {
-                "type": "file",
-                "name": "0.3 Todo Economy.md",
-                "path": "Eyum TTRPG/0.0 In Progress/0.3 Todo Economy.md"
               }
             ]
           },
@@ -1884,10 +1879,6 @@
     [
       "Eyum TTRPG/0.0 In Progress/0.2 TODO.md",
       "Eyum TTRPG/2.0 Reference Tables/2.1 Affinities.md"
-    ],
-    [
-      "Eyum TTRPG/0.0 In Progress/0.3 Todo Economy.md",
-      "Eyum TTRPG/2.0 Reference Tables/2.8 Economy.md"
     ],
     [
       "Eyum TTRPG/1.0 The basics/1.1 Introduction and Basics.md",
@@ -8009,5 +8000,9 @@
       "Eyum TTRPG/7.0 Monsters (WIP)/7.3 Monster Lists/7.3.5 Monster Modifiers.md",
       "Eyum TTRPG/1.0 The basics/1.8 Forces of Nature.md"
     ]
-  ]
+  ],
+  "images": {
+    "eyum ttrpg/assets/tesimg.webp": "Eyum TTRPG/Assets/tesimg.webp",
+    "tesimg.webp": "Eyum TTRPG/Assets/tesimg.webp"
+  }
 }

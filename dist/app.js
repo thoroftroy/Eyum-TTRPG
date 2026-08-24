@@ -39,6 +39,7 @@ const els = {
 let manifest;
 let currentPath = null;
 let wikiMap = new Map();
+let imageMap = new Map();
 
 marked.setOptions({
   gfm: true,
@@ -681,7 +682,26 @@ function setBreadcrumbs(path) {
   els.breadcrumbs.textContent = path;
 }
 
-function fixWikiLinks(markdown) {
+function fixWikiLinks(markdown, pagePath) {
+  // Obsidian image embeds: ![[image.png]], ![[image.png|300]], ![[folder/image.png|300x200]]
+  markdown = markdown.replace(/!\[\[([^\]]+)\]\]/g, (_, target) => {
+    const parts = target.split('|');
+    const raw = parts[0].trim();
+    if (!IMAGE_EXTS_RE.test(raw)) {
+      // Not an image embed (embedded note) - fall back to a normal wiki link
+      return '[[' + target + ']]';
+    }
+    const src = resolveImageSrc(raw, pagePath);
+    const size = parts.length > 1 ? parts[1].trim() : '';
+    if (size) {
+      const m = size.match(/^(\d+)(?:x(\d+))?$/);
+      if (m) {
+        return '<img src="' + src + '" width="' + m[1] + '"' + (m[2] ? ' height="' + m[2] + '"' : '') + ' alt="' + raw + '">';
+      }
+    }
+    return '![' + raw + '](' + src + ')';
+  });
+
   return markdown.replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
     const parts = target.split('|');
     const raw = parts[0].trim();
@@ -697,6 +717,29 @@ function fixWikiLinks(markdown) {
     const url = `#${encodeURIComponent(mapped)}`;
     const fullUrl = fragment ? url + '%23' + slugifyFragment(fragment) : url;
     return `[${display}](${fullUrl})`;
+  });
+}
+
+const IMAGE_EXTS_RE = /\.(png|jpe?g|gif|webp|svg|bmp|avif)$/i;
+
+function resolveImageSrc(target, pagePath) {
+  // Try the image map first (bare filename or full vault path), then fall back
+  // to a path relative to the current page's folder.
+  const lower = target.toLowerCase();
+  if (imageMap.has(lower)) return './content/' + imageMap.get(lower);
+  if (target.includes('/')) return './content/' + target;
+  const dir = pagePath.includes('/') ? pagePath.split('/').slice(0, -1).join('/') : '';
+  return './content/' + (dir ? dir + '/' : '') + target;
+}
+
+function fixImageSrcs(markdown, pagePath) {
+  // Standard markdown images: ![](relative/path.png) - resolve against the site
+  // content folder. Absolute/external/data URLs are left alone.
+  return markdown.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => {
+    const s = src.trim();
+    if (/^(https?:|data:|\/\/|\/|#|\.\/content\/)/i.test(s)) return '![' + alt + '](' + s + ')';
+    if (!IMAGE_EXTS_RE.test(s.split(/[?#]/)[0])) return '![' + alt + '](' + s + ')';
+    return '![' + alt + '](' + resolveImageSrc(s, pagePath) + ')';
   });
 }
 
@@ -760,7 +803,8 @@ async function loadPage(path, scrollToId) {
     const res = await fetch(`./content/${path}`);
     if (!res.ok) throw new Error(`Could not load ${path}`);
     let markdown = await res.text();
-    markdown = fixWikiLinks(markdown);
+    markdown = fixWikiLinks(markdown, path);
+    markdown = fixImageSrcs(markdown, path);
     markdown = guardTableBorders(markdown);
     const html = marked.parse(markdown);
     const sanitized = DOMPurify.sanitize(html);
@@ -957,7 +1001,7 @@ function buildCsHTML() {
 
   _csPageData.forEach(function(pd, pi) {
     html += '<div class="cs-page" style="position:relative;width:' + pd.width + 'px;height:' + pd.height + 'px;margin:0 auto 8px auto;">';
-    html += '<img src="' + pd.canvas.toDataURL() + '" style="display:block;width:100%;height:100%;" alt="Character Sheet page ' + (pi+1) + '">';
+    html += '<img class="cs-page-img" src="' + pd.canvas.toDataURL() + '" style="display:block;width:100%;height:100%;" alt="Character Sheet page ' + (pi+1) + '">';
     pd.fields.forEach(function(f) {
       var val = _csFieldValues[f.name] || '';
       var fs = Math.round(Math.min(f.h * 0.65, 14));
@@ -1215,6 +1259,7 @@ async function init() {
   try {
     const manifestRes = await fetch('./manifest.json');
     manifest = await manifestRes.json();
+    imageMap = new Map(Object.entries(manifest.images || {}));
     buildWikiMap(manifest.tree);
     buildFlatList(manifest.tree);
     renderTree(manifest.tree, els.tree);

@@ -222,6 +222,13 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 60px; }
   margin-bottom: .5em;
 }
 .content a { color: var(--link); }
+.content img:not(.cs-page-img) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 0.5em 0;
+}
 .content p, .content ul, .content ol, .content blockquote, .content table, .content pre {
   margin: 0 0 1rem;
 }
