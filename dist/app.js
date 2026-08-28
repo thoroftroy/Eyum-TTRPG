@@ -34,6 +34,11 @@ const els = {
   graphReset: document.getElementById('graphReset'),
   prevFile: document.getElementById('prevFile'),
   nextFile: document.getElementById('nextFile'),
+  searchWrap: document.getElementById('searchWrap'),
+  searchBox: document.getElementById('searchBox'),
+  searchInput: document.getElementById('searchInput'),
+  searchClear: document.getElementById('searchClear'),
+  searchDropdown: document.getElementById('searchDropdown'),
 };
 
 let manifest;
@@ -780,6 +785,13 @@ function guardTableBorders(markdown) {
 }
 
 async function loadPage(path, scrollToId) {
+  // A real page is being shown — the search page (if any) is done, so clear its
+  // ?search= URL param without triggering navigation events.
+  searchPageActive = false;
+  if (location.search) {
+    history.replaceState(null, '', location.pathname + location.hash);
+  }
+
   // Section 2.7 - Character Reference -> load editable character sheet
   if (path.includes('2.7 Character Sheet')) {
     currentPath = path;
@@ -1248,6 +1260,8 @@ function registerUIEvents() {
       els.downloadsPanel.classList.remove('open');
     }
   });
+
+  initSearchUI();
 }
 
 async function init() {
@@ -1266,11 +1280,972 @@ async function init() {
 
     const raw = location.hash ? decodeURIComponent(location.hash.slice(1)) : null;
     const [requestedPath, requestedFragment] = raw ? raw.split('#') : [null, null];
-    const start = requestedPath || manifest.defaultFile || getDefaultFile(manifest.tree);
-    if (start) await loadPage(start, requestedFragment || undefined);
+
+    // Build the search index in the background (runtime-generated so it is
+    // always fresh against the current content — never hardcoded).
+    startSearchIndex();
+
+    // A ?search= URL opens the search page directly (so users can share/edit
+    // search URLs). Otherwise load the requested/default page as usual.
+    const urlSearch = getSearchParam();
+    if (urlSearch) {
+      showSearchPage(urlSearch);
+    } else {
+      const start = requestedPath || manifest.defaultFile || getDefaultFile(manifest.tree);
+      if (start) await loadPage(start, requestedFragment || undefined);
+    }
   } catch (err) {
     els.content.innerHTML = `<div class="error">Failed to load site data: ${err.message}</div>`;
   }
+}
+
+// ==================== SEARCH ====================
+// The search index is generated at runtime from manifest.json + freshly
+// fetched content files on every page load, so it always reflects the current
+// handbook content. Nothing in this section is hardcoded or pre-generated.
+
+let searchPageActive = false;
+let currentSearchTerm = null;
+let searchIndexPromise = null;
+let searchIndex = null; // { files, glossary, glossaryPath, wordFiles, docCount }
+let searchDebounce = null;
+let searchSelIdx = -1;
+let searchDropdownItems = [];
+
+const GLOSSARY_MIN = 650;
+const PAGE_MIN = 600;
+const HEADING_MIN = 650;
+const CONTENT_CAP = 50;
+const HEADING_CAP = 60;
+
+function escHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function escRe(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function normText(s) {
+  return String(s || '').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim();
+}
+
+function singularize(w) {
+  if (w.length <= 3) return w;
+  if (w.endsWith('ies')) return w.slice(0, -3) + 'y';
+  if (w.endsWith('ches') || w.endsWith('shes') || w.endsWith('xes') || w.endsWith('zes') || w.endsWith('ses')) return w.slice(0, -2);
+  if (w.endsWith('s') && !w.endsWith('ss') && !w.endsWith('us') && !w.endsWith('is')) return w.slice(0, -1);
+  return w;
+}
+
+function lev(a, b, max) {
+  if (a === b) return 0;
+  const la = a.length, lb = b.length;
+  if (Math.abs(la - lb) > max) return max + 1;
+  let v0 = new Array(lb + 1), v1 = new Array(lb + 1);
+  for (let j = 0; j <= lb; j++) v0[j] = j;
+  for (let i = 1; i <= la; i++) {
+    v1[0] = i;
+    let rowMin = v1[0];
+    const ca = a.charCodeAt(i - 1);
+    for (let j = 1; j <= lb; j++) {
+      const cost = ca === b.charCodeAt(j - 1) ? 0 : 1;
+      const m = Math.min(v0[j] + 1, v1[j - 1] + 1, v0[j - 1] + cost);
+      v1[j] = m;
+      if (m < rowMin) rowMin = m;
+    }
+    if (rowMin > max) return max + 1;
+    const tmp = v0; v0 = v1; v1 = tmp;
+  }
+  return v0[lb];
+}
+
+// Score a normalized query against a normalized target string. Higher is
+// better. Tiers: exact > prefix > suffix > substring > whole-word > word
+// prefix > acronym > ordered multi-token > edit-distance (typos).
+function matchScore(q, t) {
+  if (!q || !t) return 0;
+  const qw = q.split(' ');
+  const tw = t.split(' ').filter(Boolean);
+  if (t === q) return 1000;
+  if (t.startsWith(q)) return 920 - Math.min(60, t.length - q.length);
+  if (t.endsWith(q)) return 885;
+  if (t.includes(q)) return 860;
+  if (tw.includes(q)) return 840;
+  for (const w of tw) if (w.startsWith(q)) return 805;
+  if (tw.length >= 2 && q.length >= 2) {
+    const initials = tw.map((w) => w[0]).join('');
+    if (initials === q) return 780;
+    if (initials.startsWith(q)) return 765;
+  }
+  if (qw.length > 1) {
+    let all = true;
+    for (const tok of qw) {
+      let found = false;
+      for (const w of tw) {
+        if (w.startsWith(tok)) { found = true; break; }
+      }
+      if (!found) { all = false; break; }
+    }
+    if (all) return t.includes(q) ? 830 : 725;
+  }
+  if (q.length >= 3) {
+    const maxWhole = q.length <= 6 ? 2 : 3;
+    if (t.length <= 60) {
+      const d = lev(q, t, maxWhole);
+      if (d <= maxWhole) return Math.max(0, 700 - d * 18 - Math.max(0, t.length - q.length) * 0.5);
+    }
+    const maxWord = q.length <= 4 ? 1 : 2;
+    let best = 0;
+    for (const w of tw) {
+      const d = lev(q, w, maxWord);
+      if (d <= maxWord) {
+        const s = 690 - d * 25 - Math.abs(w.length - q.length) * 2;
+        if (s > best) best = s;
+      }
+    }
+    return best;
+  }
+  return 0;
+}
+
+// ---- URL handling: ?search=<term> opens the search page ----
+function getSearchParam() {
+  try {
+    const q = new URLSearchParams(location.search).get('search');
+    return q ? q.trim().slice(0, 120) : null;
+  } catch { return null; }
+}
+
+function setSearchParam(term, replace) {
+  const url = term
+    ? location.pathname + '?search=' + encodeURIComponent(term)
+    : location.pathname;
+  if (replace) history.replaceState(null, '', url);
+  else history.pushState(null, '', url);
+}
+
+// ---- Runtime index builder ----
+function startSearchIndex() {
+  if (searchIndexPromise) return searchIndexPromise;
+  searchIndexPromise = buildSearchIndex()
+    .then((idx) => {
+      searchIndex = idx;
+      // Refresh a dropdown that was opened while indexing
+      if (els.searchDropdown && els.searchDropdown.classList.contains('open')) {
+        renderSearchDropdown((els.searchInput && els.searchInput.value || '').trim());
+      }
+      return idx;
+    })
+    .catch((err) => {
+      console.error('Search index build failed:', err);
+      if (els.searchDropdown && els.searchDropdown.classList.contains('open')) {
+        els.searchDropdown.innerHTML = '<div class="sd-note">Search index failed to build.</div>';
+      }
+      return null;
+    });
+  return searchIndexPromise;
+}
+
+async function waitForIndex() {
+  if (searchIndex) return true;
+  if (!manifest) return false;
+  try { await startSearchIndex(); return !!searchIndex; } catch { return false; }
+}
+
+function stripMd(md) {
+  return md
+    .replace(/```[\s\S]*?(?:```|$)/g, ' ')
+    .replace(/`([^`]*)`/g, '$1')
+    .replace(/!\[\[[^\]]*\]\]/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+    .replace(/\[\[([^\]|#]*)(?:#[^\]]*)?(?:\|[^\]]*)?\]\]/g, '$1')
+    .replace(/\[([^\]]*)\]\(([^)]*)\)/g, '$1')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/^\s{0,3}#{1,6}\s+/gm, '')
+    .replace(/\|/g, ' ')
+    .replace(/^[ \t]*>+\s?/gm, ' ')
+    .replace(/^[ \t]*([-*+]|\d+[.)])\s+/gm, ' ')
+    .replace(/^\s{0,3}([-*_])(\s*\1){2,}\s*$/gm, ' ')
+    .replace(/[*_~]{1,3}/g, '')
+    .replace(/[ \t]{2,}/g, ' ')
+    .replace(/\n{3,}/g, '\n\n');
+}
+
+function extractHeadings(md, plain) {
+  const out = [];
+  const re = /^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$/gm;
+  let m;
+  let searchFrom = 0;
+  while ((m = re.exec(md)) !== null) {
+    const text = stripInline(m[2].trim());
+    if (!text) continue;
+    const pos = plain.indexOf(text, searchFrom);
+    if (pos >= 0) searchFrom = pos + text.length;
+    out.push({ text, norm: normText(text), id: slugifyFragment(text), pos: pos >= 0 ? pos : -1 });
+  }
+  return out;
+}
+
+function stripInline(s) {
+  return String(s)
+    .replace(/!\[\[[^\]]*\]\]/g, ' ')
+    .replace(/\[\[([^\]]*)\]\]/g, (m, inner) => {
+      const parts = inner.split('|');
+      let raw = parts[0].trim();
+      const hash = raw.indexOf('#');
+      if (hash >= 0) raw = raw.slice(0, hash);
+      return raw;
+    })
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[*_~`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function splitTableRow(line) {
+  const cells = [];
+  let cur = '', depth = 0, i = 0;
+  const s = line.trim();
+  const end = s.endsWith('|') ? s.length - 1 : s.length;
+  while (i < end) {
+    const ch = s[i];
+    if (ch === '[' && s[i + 1] === '[') { cur += ch + s[i + 1]; i += 2; depth++; continue; }
+    if (ch === ']' && s[i + 1] === ']' && depth > 0) { cur += ch + s[i + 1]; i += 2; depth--; continue; }
+    if (ch === '|' && depth === 0) { cells.push(cur.trim()); cur = ''; i++; continue; }
+    cur += ch; i++;
+  }
+  cells.push(cur.trim());
+  return cells;
+}
+
+function extractWikiRefs(s) {
+  const refs = [];
+  const re = /\[\[([^\]]+)\]\]/g;
+  let m;
+  while ((m = re.exec(s)) !== null) {
+    const parts = m[1].split('|');
+    const raw = parts[0].trim();
+    const hash = raw.indexOf('#');
+    const label = (hash >= 0 ? raw.slice(0, hash) : raw).trim();
+    const frag = hash >= 0 ? raw.slice(hash + 1).trim() : null;
+    refs.push({
+      label,
+      path: wikiMap.get(slugifyTitle(label)) || null,
+      frag: frag ? slugifyFragment(frag) : null,
+    });
+  }
+  return refs;
+}
+
+function parseGlossary(md) {
+  const entries = [];
+  const lines = md.split('\n');
+  let category = 'Glossary';
+  let inDefTable = false;
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) { inDefTable = false; continue; }
+    const cat = line.match(/^#{4}\s+(.+)$/);
+    if (cat) { category = stripInline(cat[1]); inDefTable = false; continue; }
+    if (/^#{1,3}\s/.test(line)) { inDefTable = false; continue; }
+    if (!line.startsWith('|')) { inDefTable = false; continue; }
+    const cells = splitTableRow(line);
+    while (cells.length && !cells[0]) cells.shift();
+    if (cells.length < 2) continue;
+    const header = cells.map((c) => normText(stripInline(c)));
+    if (header.includes('term') && header.includes('definition')) { inDefTable = true; continue; }
+    if (!inDefTable) continue;
+    const term = stripInline(cells[0]);
+    if (!term || /^[-:]+$/.test(term)) continue;
+    const definition = stripInline(cells[1]);
+    const refs = [];
+    for (const cell of cells.slice(2)) refs.push(...extractWikiRefs(cell));
+    entries.push({
+      term,
+      termNorm: normText(term),
+      aliasNorm: normText(term.replace(/\([^)]*\)/g, '')),
+      definition,
+      category,
+      refs,
+    });
+  }
+  return entries;
+}
+
+function countOccurrences(hay, needle) {
+  if (!hay || !needle) return 0;
+  let n = 0, i = 0;
+  while ((i = hay.indexOf(needle, i)) !== -1) {
+    n++;
+    i += needle.length;
+  }
+  return n;
+}
+
+function editCandidates1(w) {
+  const out = new Set();
+  const letters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+  for (let i = 0; i < w.length; i++) out.add(w.slice(0, i) + w.slice(i + 1));
+  for (let i = 0; i < w.length - 1; i++) out.add(w.slice(0, i) + w[i + 1] + w[i] + w.slice(i + 2));
+  for (let i = 0; i < w.length; i++) for (const c of letters) out.add(w.slice(0, i) + c + w.slice(i + 1));
+  for (let i = 0; i <= w.length; i++) for (const c of letters) out.add(w.slice(0, i) + c + w.slice(i));
+  return out;
+}
+
+// SymSpell-style expansion: return dictionary words within a small edit
+// distance of the token, sorted by distance then popularity.
+function expandToken(tok) {
+  const dict = searchIndex.wordFiles;
+  const found = new Map();
+  for (const c of editCandidates1(tok)) {
+    if (dict.has(c)) found.set(c, 1);
+  }
+  if (!found.size && tok.length >= 5 && tok.length <= 10) {
+    let outer = 0;
+    for (const c of editCandidates1(tok)) {
+      if (++outer > 40) break;
+      for (const c2 of editCandidates1(c)) {
+        if (dict.has(c2) && !found.has(c2)) found.set(c2, 2);
+      }
+    }
+  }
+  return [...found.entries()].map(([w, d]) => ({ w, d, pop: dict.get(w).size, set: dict.get(w) }));
+}
+
+function isGlossaryExact(g, qNorm, qSing) {
+  for (const k of [g.termNorm, g.aliasNorm]) {
+    if (!k) continue;
+    if (k === qNorm) return true;
+    if (qNorm.length >= 4 && singularize(k) === qSing) return true;
+    const words = k.split(' ');
+    // Terminal word matches the query: catches parenthetical abbreviations
+    // like (DC), (Ap), (HP) even for 2-3 char queries.
+    if (qNorm.length >= 2 && words[words.length - 1] === qNorm) return true;
+    if (qNorm.length >= 3) {
+      for (const w of words) {
+        if (w === qNorm || (qNorm.length >= 4 && singularize(w) === qSing)) return true;
+      }
+    }
+  }
+  return false;
+}
+
+function buildSnippets(f, tokens, qNorm) {
+  const hay = f.text;
+  const lower = hay.toLowerCase();
+  const wins = [];
+  let idx = -1;
+  let firstIdx = -1;
+  let guard = 0;
+  let tok = null;
+  for (const t of tokens) {
+    if (lower.indexOf(t) !== -1) { tok = t; break; }
+  }
+  if (!tok) {
+    // All tokens were matched via fuzzy expansion — search normalized text
+    tok = tokens[0];
+    const t = f.textNorm;
+    idx = t.indexOf(tok);
+    if (idx === -1) return { snippet: null, frag: null };
+    const start = Math.max(0, idx - 90);
+    wins.push(t.slice(start, Math.min(t.length, idx + tok.length + 130)).trim());
+    return { snippet: wins.join(' … '), frag: null };
+  }
+  while (wins.length < 3 && guard++ < 300) {
+    idx = lower.indexOf(tok, idx + 1);
+    if (idx === -1) break;
+    if (firstIdx === -1) firstIdx = idx;
+    const start = Math.max(0, idx - 90);
+    const end = Math.min(hay.length, idx + tok.length + 130);
+    wins.push(hay.slice(start, end).replace(/\s+/g, ' ').trim());
+  }
+  let frag = null;
+  if (firstIdx !== -1) {
+    for (let i = f.headings.length - 1; i >= 0; i--) {
+      if (f.headings[i].pos >= 0 && f.headings[i].pos <= firstIdx) { frag = f.headings[i].id; break; }
+    }
+  }
+  return { snippet: wins.join(' … '), frag };
+}
+
+async function buildSearchIndex() {
+  const paths = [];
+  collectHandbookFiles(manifest.tree, paths);
+  const glossaryPath = paths.find((p) => /glossary\.md$/i.test(p)) || null;
+  const docs = new Array(paths.length);
+  let next = 0;
+  const CONC = 8;
+  async function worker() {
+    while (next < paths.length) {
+      const i = next++;
+      const p = paths[i];
+      let md = '';
+      try {
+        const res = await fetch('./content/' + p);
+        if (res.ok) md = await res.text();
+      } catch { /* keep empty */ }
+      docs[i] = { path: p, md };
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(CONC, paths.length) }, worker));
+
+  const files = [];
+  const wordFiles = new Map(); // word -> Set(fileIdx)
+  for (let i = 0; i < docs.length; i++) {
+    const d = docs[i];
+    const name = d.path.replace(/\.md$/i, '').split('/').pop();
+    const text = stripMd(d.md);
+    const textNorm = normText(text);
+    const headings = extractHeadings(d.md, text);
+    files.push({
+      path: d.path,
+      name,
+      nameNorm: normText(name),
+      section: getSection(d.path),
+      text,
+      textNorm,
+      headings,
+    });
+    const seen = new Set();
+    for (const w of textNorm.split(' ')) {
+      if (w.length < 3 || seen.has(w)) continue;
+      seen.add(w);
+      let set = wordFiles.get(w);
+      if (!set) { set = new Set(); wordFiles.set(w, set); }
+      set.add(i);
+    }
+  }
+
+  let glossary = [];
+  if (glossaryPath) {
+    const doc = docs.find((d) => d.path === glossaryPath);
+    if (doc) glossary = parseGlossary(doc.md);
+  }
+  return { files, glossary, glossaryPath, wordFiles, docCount: files.length };
+}
+
+// ---- Query engine ----
+function runSearch(query, opts = {}) {
+  const q = (query || '').trim().slice(0, 120);
+  const qNorm = normText(q);
+  const tokens = qNorm ? qNorm.split(' ').filter(Boolean) : [];
+  const empty = {
+    query: q, tokens,
+    glossary: [], pages: [], headings: [], content: [],
+    suggestions: [], contentTruncated: false,
+    counts: { glossary: 0, pages: 0, headings: 0, content: 0 },
+  };
+  if (!tokens.length || !searchIndex) return empty;
+
+  const res = {
+    query: q, tokens,
+    glossary: [], pages: [], headings: [], content: [],
+    suggestions: [], contentTruncated: false,
+    counts: { glossary: 0, pages: 0, headings: 0, content: 0 },
+  };
+  const qSing = singularize(qNorm);
+  const shortQuery = qNorm.length < 3;
+  const expandedByToken = new Map();
+
+  // Glossary
+  for (const g of searchIndex.glossary) {
+    const exact = isGlossaryExact(g, qNorm, qSing);
+    let s = Math.max(matchScore(qNorm, g.termNorm), matchScore(qNorm, g.aliasNorm));
+    if (s < GLOSSARY_MIN) {
+      s = Math.max(s, matchScore(qSing, singularize(g.termNorm)), matchScore(qSing, singularize(g.aliasNorm)));
+    }
+    if (exact || s >= GLOSSARY_MIN) {
+      res.glossary.push({ term: g.term, definition: g.definition, category: g.category, refs: g.refs, score: s, exact });
+    }
+  }
+  res.glossary.sort((a, b) => (b.exact - a.exact) || (b.score - a.score) || (a.term.length - b.term.length));
+  res.counts.glossary = res.glossary.length;
+
+  const glossHas = res.glossary.length > 0;
+  const glossPath = searchIndex.glossaryPath;
+
+  // Pages / file names
+  for (const f of searchIndex.files) {
+    const s = matchScore(qNorm, f.nameNorm);
+    if (s >= PAGE_MIN) res.pages.push({ path: f.path, name: f.name, score: s });
+  }
+  res.pages.sort((a, b) => b.score - a.score || (a.name.length - b.name.length));
+  res.counts.pages = res.pages.length;
+
+  // Headings
+  for (const f of searchIndex.files) {
+    if (glossHas && f.path === glossPath) continue;
+    for (const h of f.headings) {
+      const s = matchScore(qNorm, h.norm);
+      if (s >= HEADING_MIN) res.headings.push({ path: f.path, page: f.name, text: h.text, frag: h.id, score: s });
+    }
+  }
+  res.headings.sort((a, b) => b.score - a.score || (a.text.length - b.text.length));
+  res.counts.headings = res.headings.length;
+  if (opts.dropdown) res.headings = res.headings.slice(0, 4);
+  else if (res.headings.length > HEADING_CAP) res.headings = res.headings.slice(0, HEADING_CAP);
+
+  // In-text matches (skipped for very short queries to avoid noise)
+  if (!shortQuery) {
+    const files = searchIndex.files;
+    const acc = new Map(); // fileIdx -> {score, direct}
+    const addScore = (i, s, d) => {
+      let e = acc.get(i);
+      if (!e) { e = { score: 0, direct: 0 }; acc.set(i, e); }
+      e.score += s;
+      if (d) e.direct += d;
+    };
+    for (const t of tokens) {
+      let anyDirect = false;
+      for (let i = 0; i < files.length; i++) {
+        const c = countOccurrences(files[i].textNorm, t);
+        if (c > 0) { anyDirect = true; addScore(i, c * 5, c); }
+      }
+      if (!anyDirect) {
+        const cands = expandToken(t).sort((a, b) => a.d - b.d || (b.pop - a.pop));
+        if (cands.length) {
+          const best = cands[0];
+          expandedByToken.set(t, best);
+          if (best.d === 1) res.suggestions.push({ from: t, to: best.w });
+          const mult = best.d === 1 ? 0.55 : 0.25;
+          for (const i of best.set) {
+            const c = countOccurrences(files[i].textNorm, best.w);
+            if (c > 0) addScore(i, c * 5 * mult, 0);
+          }
+        }
+      }
+    }
+    for (let i = 0; i < files.length; i++) {
+      const pc = countOccurrences(files[i].textNorm, qNorm);
+      if (pc > 0) addScore(i, pc * 25, pc);
+    }
+    const directTokens = tokens.length - expandedByToken.size;
+    for (const [i, e] of acc) {
+      if (glossHas && files[i].path === glossPath) { acc.delete(i); continue; }
+      if (e.score <= 0) { acc.delete(i); continue; }
+      if (tokens.length > 1 && directTokens < tokens.length) {
+        e.score = Math.floor(e.score * (0.4 + 0.6 * directTokens / tokens.length));
+      }
+    }
+    const entries = [...acc.entries()]
+      .map(([i, e]) => ({ i, score: e.score, count: e.direct }))
+      .sort((a, b) => b.score - a.score);
+    res.counts.content = entries.length;
+    const cap = opts.dropdown ? 3 : CONTENT_CAP;
+    res.contentTruncated = entries.length > cap;
+    for (const en of entries.slice(0, cap)) {
+      const f = files[en.i];
+      const { snippet, frag } = buildSnippets(f, tokens, qNorm);
+      res.content.push({ path: f.path, page: f.name, score: en.score, count: en.count, snippet, frag });
+    }
+    res.suggestions = res.suggestions.slice(0, 5);
+  }
+  return res;
+}
+
+// ---- Shared rendering helpers ----
+function highlightHTML(text, tokens) {
+  const esc = escHtml(text);
+  if (!tokens || !tokens.length) return esc;
+  const parts = tokens.filter(Boolean).map(escRe);
+  if (!parts.length) return esc;
+  return esc.replace(new RegExp('(' + parts.join('|') + ')', 'gi'), '<mark class="search-hl">$1</mark>');
+}
+
+function groupHeader(title, n) {
+  return '<div class="sp-group-title"><h2>' + escHtml(title) + '</h2><span>' + n + ' result' + (n === 1 ? '' : 's') + '</span></div>';
+}
+
+function glossaryBubbleHTML(g, tokens, compact) {
+  const cls = compact ? 'sd-gloss' : 'sp-gloss';
+  const def = g.definition.length > 420 ? g.definition.slice(0, 420) + '…' : g.definition;
+  const refs = g.refs.filter((r) => r.path).slice(0, 3);
+  const refsHtml = refs.length
+    ? '<div class="sd-gloss-refs">' + refs.map((r) =>
+        '<a class="sd-ref" data-path="' + escAttr(r.path) + '" data-frag="' + escAttr(r.frag || '') + '" href="#' + encodeURIComponent(r.path) + (r.frag ? '#' + r.frag : '') + '">' + escHtml(r.label) + '</a>'
+      ).join('') + '</div>'
+    : '';
+  return '<div class="' + cls + '"><div class="sd-gloss-term">' + escHtml(g.term)
+    + ' <span class="sd-gloss-cat">' + escHtml(g.category) + '</span></div>'
+    + '<div class="sd-gloss-def">' + highlightHTML(def, tokens) + '</div>'
+    + refsHtml + '</div>';
+}
+
+function renderSearchResultsHTML(res) {
+  const parts = [];
+  const total = res.counts.glossary + res.counts.pages + res.counts.headings + res.counts.content;
+  if (total === 0) {
+    parts.push('<div class="sp-empty">No results for “' + escHtml(res.query) + '”.</div>');
+    if (res.suggestions.length) {
+      parts.push('<div class="sp-empty-sugg">Did you mean: ');
+      for (const s of res.suggestions.slice(0, 5)) {
+        parts.push('<button class="sd-sugg" data-sugg="' + escAttr(s.to) + '">' + escHtml(s.to) + '</button> ');
+      }
+      parts.push('</div>');
+    }
+  }
+  if (res.glossary.length) {
+    parts.push(groupHeader('Glossary', res.counts.glossary));
+    for (const g of res.glossary) parts.push(glossaryBubbleHTML(g, res.tokens, false));
+  }
+  if (res.pages.length) {
+    parts.push(groupHeader('Chapters & Pages', res.counts.pages));
+    for (const p of res.pages) {
+      parts.push('<a class="sp-row" data-path="' + escAttr(p.path) + '" data-frag="" href="#' + encodeURIComponent(p.path) + '">'
+        + '<div class="sp-row-main">' + highlightHTML(p.name, res.tokens) + '</div>'
+        + '<div class="sp-row-sub">' + escHtml(p.path) + '</div></a>');
+    }
+  }
+  if (res.headings.length) {
+    parts.push(groupHeader('Headings', res.counts.headings));
+    for (const h of res.headings) {
+      const href = '#' + encodeURIComponent(h.path) + (h.frag ? '#' + h.frag : '');
+      parts.push('<a class="sp-row" data-path="' + escAttr(h.path) + '" data-frag="' + escAttr(h.frag || '') + '" href="' + escAttr(href) + '">'
+        + '<div class="sp-row-main">' + highlightHTML(h.text, res.tokens) + '</div>'
+        + '<div class="sp-row-sub">' + escHtml(h.page) + ' — ' + escHtml(h.path) + '</div></a>');
+    }
+  }
+  if (res.content.length) {
+    parts.push(groupHeader('In Text', res.counts.content));
+    for (const c of res.content) {
+      const href = '#' + encodeURIComponent(c.path) + (c.frag ? '#' + c.frag : '');
+      parts.push('<a class="sp-row" data-path="' + escAttr(c.path) + '" data-frag="' + escAttr(c.frag || '') + '" href="' + escAttr(href) + '">'
+        + '<div class="sp-row-main">' + escHtml(c.page) + '</div>'
+        + (c.snippet ? '<div class="sp-snippet">…' + highlightHTML(c.snippet, res.tokens) + '…</div>' : '')
+        + '<div class="sp-row-sub">' + escHtml(c.path) + '</div></a>');
+    }
+    if (res.contentTruncated) {
+      parts.push('<div class="sp-hint">Showing the top ' + res.content.length + ' in-text matches. Refine your query to narrow results.</div>');
+    }
+  }
+  return parts.join('');
+}
+
+// ---- Full search page (rendered in the main content area) ----
+function buildSearchPageFrame(q) {
+  return '<div class="search-page">'
+    + '<div class="sp-header">'
+    + '<div class="sp-box"><span class="search-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.2" y2="16.2"></line></svg></span>'
+    + '<input id="spInput" class="sp-input" type="text" value="' + escAttr(q) + '" placeholder="Search the handbook…" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Search the handbook" />'
+    + '<button id="spClear" class="search-clear" title="Clear search" aria-label="Clear search">✕</button>'
+    + '</div>'
+    + '<div class="sp-meta" id="spMeta"></div>'
+    + '<div class="sp-hint">Matches update as you type · press Enter to jump to the first result</div>'
+    + '</div>'
+    + '<div id="spResults" class="sp-results"></div>'
+    + '</div>';
+}
+
+function navigateSearchResult(path, frag) {
+  if (!path) return;
+  hideSearchDropdown();
+  location.hash = encodeURIComponent(path) + (frag ? '#' + frag : '');
+}
+
+async function updateSearchPageResults(q) {
+  const meta = document.getElementById('spMeta');
+  const results = document.getElementById('spResults');
+  if (!results) return;
+  results.innerHTML = '<div class="loading">Searching…</div>';
+  const ok = await waitForIndex();
+  if (!ok) {
+    results.innerHTML = '<div class="error">The search index failed to build. Reload the page to retry.</div>';
+    return;
+  }
+  const res = runSearch(q, {});
+  const total = res.counts.glossary + res.counts.pages + res.counts.headings + res.counts.content;
+  if (meta) meta.textContent = total === 0
+    ? 'No results'
+    : total + ' result' + (total === 1 ? '' : 's') + ' for “' + q + '”';
+  results.innerHTML = renderSearchResultsHTML(res);
+}
+
+function bindSearchPageEvents() {
+  const input = document.getElementById('spInput');
+  const clear = document.getElementById('spClear');
+  const results = document.getElementById('spResults');
+  if (!input || !results) return;
+  let timer = null;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      const q = input.value.trim();
+      currentSearchTerm = q;
+      if (q) {
+        setSearchParam(q, true);
+        setBreadcrumbs('Search: "' + q + '"');
+        document.title = 'Search: ' + q + ': Eyum TTRPG';
+        updateSearchPageResults(q);
+      } else {
+        setSearchParam('', true);
+        setBreadcrumbs('Search');
+        document.title = 'Search: Eyum TTRPG';
+        if (results) results.innerHTML = '<div class="sp-empty">Type a query to search the whole handbook.</div>';
+        const meta = document.getElementById('spMeta');
+        if (meta) meta.textContent = '';
+      }
+    }, 180);
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const first = results.querySelector('[data-path]');
+      if (first) {
+        e.preventDefault();
+        navigateSearchResult(first.getAttribute('data-path'), first.getAttribute('data-frag'));
+      }
+    }
+  });
+  if (clear) {
+    clear.addEventListener('click', () => {
+      input.value = '';
+      input.dispatchEvent(new Event('input'));
+      input.focus();
+    });
+  }
+  results.addEventListener('click', (e) => {
+    const sugg = e.target.closest('[data-sugg]');
+    if (sugg) {
+      input.value = sugg.getAttribute('data-sugg');
+      input.dispatchEvent(new Event('input'));
+      input.focus();
+      return;
+    }
+    const el = e.target.closest('[data-path]');
+    if (el) {
+      if (!e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey) e.preventDefault();
+      navigateSearchResult(el.getAttribute('data-path'), el.getAttribute('data-frag'));
+    }
+  });
+}
+
+function refreshSearchPage(q) {
+  currentSearchTerm = q;
+  const input = document.getElementById('spInput');
+  if (input && input.value !== q) input.value = q;
+  setBreadcrumbs('Search: "' + q + '"');
+  document.title = 'Search: ' + q + ': Eyum TTRPG';
+  updateSearchPageResults(q);
+}
+
+function showSearchPage(q) {
+  searchPageActive = true;
+  currentSearchTerm = q;
+  currentPath = null;
+  document.title = 'Search: ' + q + ': Eyum TTRPG';
+  setBreadcrumbs('Search: "' + q + '"');
+  updateActiveLink();
+  if (els.prevFile) els.prevFile.disabled = true;
+  if (els.nextFile) els.nextFile.disabled = true;
+  els.content.innerHTML = buildSearchPageFrame(q);
+  bindSearchPageEvents();
+  els.content.scrollTop = 0;
+  updateSearchPageResults(q);
+}
+
+function openSearchPage(term, replace) {
+  if (!term) return;
+  hideSearchDropdown();
+  if (searchPageActive) {
+    setSearchParam(term, true);
+    refreshSearchPage(term);
+  } else {
+    setSearchParam(term, false);
+    showSearchPage(term);
+  }
+}
+
+// ---- Quick-search dropdown (sidebar) ----
+function hideSearchDropdown() {
+  if (els.searchDropdown) els.searchDropdown.classList.remove('open');
+  searchSelIdx = -1;
+}
+
+function positionDropdown(dd) {
+  const r = els.searchWrap ? els.searchWrap.getBoundingClientRect() : null;
+  if (!r || r.width === 0) return;
+  const maxH = Math.min(window.innerHeight * 0.7, 560);
+  if (window.innerWidth <= 900) {
+    // The mobile sidebar is transform-animated, which makes it the containing
+    // block for fixed children — position the dropdown relative to the wrap.
+    dd.classList.add('absolute-mode');
+    dd.style.left = '0px';
+    dd.style.top = Math.round(r.height + 4) + 'px';
+    dd.style.width = Math.round(r.width) + 'px';
+  } else {
+    dd.classList.remove('absolute-mode');
+    dd.style.left = Math.round(r.left) + 'px';
+    dd.style.top = Math.round(Math.min(r.bottom + 4, window.innerHeight - maxH - 8)) + 'px';
+    dd.style.width = Math.max(260, Math.round(r.width)) + 'px';
+  }
+  dd.style.maxHeight = maxH + 'px';
+}
+
+function renderSearchDropdown(q) {
+  const dd = els.searchDropdown;
+  if (!dd) return;
+  if (!q) { dd.classList.remove('open'); dd.innerHTML = ''; searchDropdownItems = []; return; }
+  positionDropdown(dd);
+  dd.classList.add('open');
+  if (!searchIndex) {
+    if (manifest) startSearchIndex();
+    dd.innerHTML = '<div class="sd-note">' + (manifest ? 'Indexing the handbook…' : 'Loading…') + '</div>';
+    searchDropdownItems = [];
+    return;
+  }
+  const res = runSearch(q, { dropdown: true });
+  let html = '';
+  for (const g of res.glossary.filter((g2) => g2.exact).slice(0, 2)) {
+    html += glossaryBubbleHTML(g, res.tokens, true);
+  }
+  if (res.pages.length) {
+    html += '<div class="sd-group">Chapters &amp; Pages</div>';
+    for (const p of res.pages.slice(0, 6)) {
+      html += '<a class="sd-row" role="option" data-path="' + escAttr(p.path) + '" data-frag="" href="#' + encodeURIComponent(p.path) + '">'
+        + '<span class="sd-row-main">' + highlightHTML(p.name, res.tokens) + '</span>'
+        + '<span class="sd-row-sub">' + escHtml(p.path) + '</span></a>';
+    }
+  }
+  if (res.headings.length) {
+    html += '<div class="sd-group">Headings</div>';
+    for (const h of res.headings.slice(0, 4)) {
+      html += '<a class="sd-row" role="option" data-path="' + escAttr(h.path) + '" data-frag="' + escAttr(h.frag || '') + '" href="#' + encodeURIComponent(h.path) + '">'
+        + '<span class="sd-row-main">' + highlightHTML(h.text, res.tokens) + '</span>'
+        + '<span class="sd-row-sub">' + escHtml(h.page) + '</span></a>';
+    }
+  }
+  if (res.content.length) {
+    html += '<div class="sd-group">In Text</div>';
+    for (const c of res.content.slice(0, 3)) {
+      html += '<a class="sd-row" role="option" data-path="' + escAttr(c.path) + '" data-frag="' + escAttr(c.frag || '') + '" href="#' + encodeURIComponent(c.path) + '">'
+        + '<span class="sd-row-main">' + escHtml(c.page) + '</span>'
+        + (c.snippet ? '<span class="sd-row-sub">…' + highlightHTML(c.snippet, res.tokens) + '…</span>' : '') + '</a>';
+    }
+  }
+  const total = res.counts.glossary + res.counts.pages + res.counts.headings + res.counts.content;
+  if (!res.glossary.length && !res.pages.length && !res.headings.length && !res.content.length) {
+    html += '<div class="sd-empty">No matches for “' + escHtml(res.query) + '”</div>';
+    for (const s of res.suggestions.slice(0, 4)) {
+      html += '<button class="sd-sugg" data-sugg="' + escAttr(s.to) + '">' + escHtml(s.to) + '</button>';
+    }
+  }
+  html += '<button class="sd-footer" data-action="open">↵ Open search page'
+    + (total ? ' · ' + total + ' result' + (total === 1 ? '' : 's') : '') + '</button>';
+  dd.innerHTML = html;
+  searchDropdownItems = [...dd.querySelectorAll('.sd-row')];
+  searchSelIdx = -1;
+}
+
+function scheduleDropdownRender() {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(() => {
+    const q = els.searchInput.value.trim();
+    if (els.searchClear) els.searchClear.hidden = !q;
+    renderSearchDropdown(q);
+  }, 140);
+}
+
+function initSearchUI() {
+  if (!els.searchInput || !els.searchDropdown) return;
+
+  els.searchInput.addEventListener('input', scheduleDropdownRender);
+  els.searchInput.addEventListener('focus', () => {
+    if (window.innerWidth <= 900 && els.sidebar) els.sidebar.classList.add('open');
+    const q = els.searchInput.value.trim();
+    if (q) renderSearchDropdown(q);
+  });
+  els.searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (!searchDropdownItems.length) return;
+      const dir = e.key === 'ArrowDown' ? 1 : -1;
+      searchSelIdx = searchSelIdx < 0
+        ? (dir === 1 ? 0 : searchDropdownItems.length - 1)
+        : (searchSelIdx + dir + searchDropdownItems.length) % searchDropdownItems.length;
+      searchDropdownItems.forEach((el, i) => el.classList.toggle('selected', i === searchSelIdx));
+      const cur = searchDropdownItems[searchSelIdx];
+      if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (searchSelIdx >= 0 && searchDropdownItems[searchSelIdx]) {
+        const row = searchDropdownItems[searchSelIdx];
+        navigateSearchResult(row.getAttribute('data-path'), row.getAttribute('data-frag'));
+      } else {
+        const q = els.searchInput.value.trim();
+        if (q) openSearchPage(q, false);
+      }
+    } else if (e.key === 'Escape') {
+      hideSearchDropdown();
+    }
+  });
+
+  if (els.searchClear) {
+    els.searchClear.addEventListener('click', () => {
+      els.searchInput.value = '';
+      els.searchClear.hidden = true;
+      hideSearchDropdown();
+      els.searchInput.focus();
+    });
+  }
+
+  els.searchDropdown.addEventListener('click', (e) => {
+    if (e.target.closest('[data-action="open"]')) {
+      openSearchPage(els.searchInput.value.trim(), false);
+      return;
+    }
+    const sugg = e.target.closest('[data-sugg]');
+    if (sugg) {
+      els.searchInput.value = sugg.getAttribute('data-sugg');
+      els.searchInput.focus();
+      scheduleDropdownRender();
+      return;
+    }
+    const row = e.target.closest('.sd-row');
+    if (row) {
+      // Keep Ctrl/Cmd-click working for new tabs (href fallback); otherwise
+      // navigate with the fragment so heading anchors are honored.
+      if (!e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey) e.preventDefault();
+      navigateSearchResult(row.getAttribute('data-path'), row.getAttribute('data-frag'));
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!els.searchWrap || els.searchWrap.contains(e.target)) return;
+    hideSearchDropdown();
+  });
+
+  document.addEventListener('scroll', (e) => {
+    if (els.searchDropdown && (e.target === els.searchDropdown || els.searchDropdown.contains(e.target))) return;
+    hideSearchDropdown();
+  }, true);
+
+  window.addEventListener('resize', hideSearchDropdown);
+  window.addEventListener('hashchange', hideSearchDropdown);
+
+  // Ctrl/Cmd+K focuses search
+  document.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      els.searchInput.focus();
+      els.searchInput.select();
+      if (window.innerWidth <= 900 && els.sidebar) els.sidebar.classList.add('open');
+    }
+  });
+
+  // Back/forward between search URLs and page URLs
+  window.addEventListener('popstate', () => {
+    const q = getSearchParam();
+    if (q) {
+      if (!searchPageActive) showSearchPage(q);
+      else if (q !== currentSearchTerm) refreshSearchPage(q);
+    } else if (searchPageActive) {
+      searchPageActive = false;
+    }
+  });
 }
 
 init();

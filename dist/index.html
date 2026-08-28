@@ -13,6 +13,14 @@
         <div class="title">Eyum TTRPG</div>
         <button id="toggleSidebar" class="ghost-button" title="Toggle sidebar">☰</button>
       </div>
+      <div class="search-wrap" id="searchWrap">
+        <div class="search-box" id="searchBox">
+          <span class="search-icon" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.2" y2="16.2"></line></svg></span>
+          <input id="searchInput" class="search-input" type="text" placeholder="Search the handbook…" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Search the handbook" />
+          <button id="searchClear" class="search-clear" title="Clear search" aria-label="Clear search" hidden>✕</button>
+        </div>
+        <div id="searchDropdown" class="search-dropdown" role="listbox" aria-label="Search results"></div>
+      </div>
       <nav id="tree" class="tree" aria-label="Files"></nav>
     </aside>
 
