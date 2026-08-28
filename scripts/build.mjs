@@ -136,6 +136,11 @@ for (const f of dataFiles) {
   catch { console.log(`  Skipped ${f} (not found, run generator first)`); }
 }
 
+// Copy search aliases for the website (site loads dist/aliases.json at runtime)
+try {
+  await fs.copyFile(path.join(repoRoot, 'aliases.json'), path.join(outDir, 'aliases.json'));
+} catch { console.log('  Skipped aliases.json (not found)'); }
+
 // Split massive graph_cache.json into per-tier files for the web graph view
 try {
   const splitScript = path.join(repoRoot, 'scripts', 'split_graph_cache.py');

@@ -1,0 +1,8740 @@
+{
+  "_comment": "Search aliases for the handbook website. Each alias maps a common search term to handbook pages and/or glossary terms, so e.g. searching 'sword' surfaces the Weapons chapter. Targets are page names (as shown in the sidebar, with or without the .md) or glossary terms (e.g. 'Health (HP)'). Targets resolve SOFTLY: if a page is renamed, the site still finds it by section number, similar name, or a matching heading inside it, so aliases keep working after renames. Unknown targets are silently ignored. Edits take effect on page reload.",
+  "aliases": [
+    {
+      "alias": "1,000 paper cuts",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "ability check",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "aboleth blood",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "aboleth meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "abrasion line",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "absolute contradiction",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "absolute zero",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "abyssal chains",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "abyssal weight",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "ac",
+      "targets": [
+        "Armor Class (AC)",
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "acrobat",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "acrobatics",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "adamantine",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "addicted",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "aegirion",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "aeolus",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "affinity",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "affinity ink",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "affinity master",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "affinity specialist",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "aftershock",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "age of ice",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "air",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "air damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "air dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "air unicorn horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "alchemically pure metal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "alchemy",
+      "targets": [
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "alignment",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "all gods",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "all rounded mage",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "alnico",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "aluminum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "amber",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "ambush",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "amethyst",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "ammit egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ammit meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ammit tongue",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ammit tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ammo",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "ammunition",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "ancient pact",
+      "targets": [
+        "Ancient Pacts"
+      ]
+    },
+    {
+      "alias": "anti-magic zone",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "antimony",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "antlers (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "anzu beak",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "anzu egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "anzu fang",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "anzu feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "anzu hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "anzu meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "apex predator",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "arcana",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "arcane overload",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "archetype",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "armor class",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "armor master",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "armor training",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "armour",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "arrows",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "arsenic",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "arsenic poisoning",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "ascension nova",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "ash",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "ash cloud",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "ash dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "aspis",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "athletics",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "atlatl",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "atomic",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "atomic dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "attack of opportunity",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "attack roll",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "aura of healing",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "aura of protection",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "aura of revitalization",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "aura of taboo",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "axe",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "background",
+      "targets": [
+        "3.2 Character Information"
+      ]
+    },
+    {
+      "alias": "bane",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "barbed",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "barium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "barkskin",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "barter",
+      "targets": [
+        "1.2 Dice and Skills",
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "basilisk crest",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "basilisk egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "basilisk fang",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "basilisk meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "basilisk scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bastion rise",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "bat wing membrane (manticore)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "battleaxe",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "beryllium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "bestow curse",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "bifurcate",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "bile sac (hydra)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bismuth",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "black binding",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "black mercy",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "black mirror",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "black monolith",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "black onyx",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "black sky",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "black tentacles",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "black tide",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "blacksmithing",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "blade",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "blade barrier",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "blank runic medium",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "blazing trail",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "bleeding",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "bless",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "blessed",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "blessed touch",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "blight",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "blight dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "blight spores",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "blight venom",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "blighted",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "blinded",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "blindsight",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "blood boil",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "blood heal",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "bloodfire",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "bloodfire dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bloodletting",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "bloodstone",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "bloodstorm pyre",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "blowgun",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "bludgeoning",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "blunt",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "blurred",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "bodkin",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "bog drag",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "boiler jet",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "bolas",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "bolts",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "bone",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bonus action",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "boron",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "boss",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "bouche shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "bow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "boyle",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "brass",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "brawler",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "breach current",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "breaking note",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "breakwater",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "breastplate",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "breath of ruin",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "brew",
+      "targets": [
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "brewing",
+      "targets": [
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "broadhead",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "bromine",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "bromine toxin",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "bronze",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "brutal critical",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "buckler",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "bugfolk",
+      "targets": [
+        "4.1 Races",
+        "Bugfolk and Subraces"
+      ]
+    },
+    {
+      "alias": "build",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "bulette claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bulette egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bulette meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bulette scale (earth)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip blubber",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip oil",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "bunyip tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "burial wind",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "burned",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "buy",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "cadmium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "calcium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "caldera break",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cancer",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "carbon",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "careful spells",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "carrying capacity",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "cascade ruin",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cast",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "casting",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cataclysm pyre",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "catoblepas hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "catoblepas meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "catoblepas toxin gland",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cat’s grace",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "caustic kiss",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "caustic prison",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cauterize",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "celestial",
+      "targets": [
+        "Godly Pacts",
+        "5.1 Deities and Pacts"
+      ]
+    },
+    {
+      "alias": "celestial body",
+      "targets": [
+        "5.1 Deities and Pacts"
+      ]
+    },
+    {
+      "alias": "celestial script",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cerberus claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cerberus hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cerberus meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cerium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "cesium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "chain lightning",
+      "targets": [
+        "3.4 Feats",
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "chain mail",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "chain shirt",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "chainmail",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "chakram",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "chaos",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "chaos bolt",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "chaos dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chaos shrooms",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "chaotic exchange",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "character creation",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "character sheet",
+      "targets": [
+        "2.7 Character Sheet"
+      ]
+    },
+    {
+      "alias": "charcoal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "charging strike",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "charmed",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "chimera bones",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chimera claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chimera egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chimera hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chimera meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chimera tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "chromium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "cinder bolt",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "cinder shroud",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "class",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "class feature",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "claws (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cleanse",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "cleansing burst",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "cleansing waters",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "climb",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "climbing",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "cloud cloth",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "cobalt",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "cockatrice beak",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cockatrice claws",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cockatrice egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cockatrice feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cockatrice meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "coin",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "cold damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "cold dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "collapse identity",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "collapse point",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "comb and wattles (cockatrice)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "combat",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "combination damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "companion",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "concentrate",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "concentration",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "condemn",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "consecrate",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "contagion",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "contagion field",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "contents",
+      "targets": [
+        "0 Table of Contents"
+      ]
+    },
+    {
+      "alias": "contested roll",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "continental break",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "contract pyre",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "copper",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "corrosive breath",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "corrupt",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "corrupt crystal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "corrupt dominion",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "corrupt liquid",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "corrupt metal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "corrupt resin",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "corrupt stone",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "corruption",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "corruption aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "corruption dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cost",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "cotton",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "cover",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "crafting",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "crimson eruption",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "crit",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "crit fail",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "critical",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "critical atomicity",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "critical hit",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "crocodile hide (ammit)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "crossbow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "crushing",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "crustbreaker",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cryo-inferno",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "cryolith",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "cryovara",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "cs",
+      "targets": [
+        "2.7 Character Sheet"
+      ]
+    },
+    {
+      "alias": "cure",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "cure wounds",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "currency",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "curse",
+      "targets": [
+        "2.4 Conditions",
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "cursed",
+      "targets": [
+        "2.4 Conditions",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "cursed blood",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "cursed dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "cursed powder",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "cyclone",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "da vinci",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "dagger",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "damage type",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "dark unicorn horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "darkness",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "darkness seer",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "darkvision",
+      "targets": [
+        "1.6 Other Rules",
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "darwin",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "dash",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "dead orchard",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "deafened",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "death",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "death bloom",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "death saves",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "death worm mucus",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "deception",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "deep freeze",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "deer hide (peryton)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "defensive duelist",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "definitions",
+      "targets": [
+        "0.1 Glossary"
+      ]
+    },
+    {
+      "alias": "dehydrated",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "deity",
+      "targets": [
+        "5.1 Deities and Pacts",
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "deity list",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "deluge",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "deluge aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "deluge dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "demon",
+      "targets": [
+        "4.1 Races",
+        "Demon and Subraces"
+      ]
+    },
+    {
+      "alias": "demon pact",
+      "targets": [
+        "Fiendish Pacts"
+      ]
+    },
+    {
+      "alias": "demonic bargain",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "demoralized",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "desecrate",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "despair",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "despair aura",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "desperate pact",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "devil",
+      "targets": [
+        "Fiendish Pacts"
+      ]
+    },
+    {
+      "alias": "devil’s brand",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "diamond",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "dice",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "difficult terrain",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "difficulty",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "difficulty rating",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "dirt",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "disarming attack",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "disease",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "diseased",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "dislocation gate",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "disorder engine",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "dissonant whispers",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "distant shot",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "distiller's fortune",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "divine eruption",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "divinely favored",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "dm",
+      "targets": [
+        "1.1 Introduction and Basics"
+      ]
+    },
+    {
+      "alias": "dodge",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "dodge master",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "dog fur (bunyip)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "doom",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "dr",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "dragon",
+      "targets": [
+        "7.3.1.3 Dragons"
+      ]
+    },
+    {
+      "alias": "dragon bones",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "dragon meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "dragon's breath",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "dragonic aura",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "dream master",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "dream slip",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "drops",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "drown thought",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "drowned prophet",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "drowning",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "drunk",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "dry ice",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "dual wielder",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "dune mantle",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "dungeon delver",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "dungeon master",
+      "targets": [
+        "1.1 Introduction and Basics"
+      ]
+    },
+    {
+      "alias": "duralumin",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "dust",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "dust bulette scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "dust dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "dust of dread",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "dust storm",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "dying",
+      "targets": [
+        "2.3 Injuries",
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "dysprosium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "eagle beak (griffin)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "eagle eye",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "eagle talon (griffin)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "earth",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "earth damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "earth dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "earth unicorn horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "earthquake",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "earthshatter",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "echoquake",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "edison",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "egg (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ego shatter",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "einstein",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "eldathis",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "eldritch blast",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "eldritch curse",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "eldritch dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "eldritch explosion",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "eldritch shadow",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "eldritch tentacle",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "electrum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "element",
+      "targets": [
+        "2.1 Affinities",
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "elemental damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "elemental shield",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "elemental ward",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "elf",
+      "targets": [
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "elves",
+      "targets": [
+        "4.1 Races",
+        "Elves and Subraces"
+      ]
+    },
+    {
+      "alias": "emerald",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "empty sheet",
+      "targets": [
+        "2.7 Character Sheet"
+      ]
+    },
+    {
+      "alias": "enchant",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "enchanting",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "enchantment",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "encumbrance",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "endurance",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "enemies",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "enemy",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "engine rupture",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "enlarge or reduce",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "enraged",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "entangled",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "equipment",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "erbium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "eternal mana",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "eternal stain",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "europium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "event collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "executioner",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "exhaustion",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "experience",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "explosive power",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "expose weakness",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "facehugger acid",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "fall damage",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "fallen throne",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "falling",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "falling choir",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "fallout crown",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "false advance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "familiar",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "fast hands",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "fat (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "fault",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "faultline",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "faultline of the mind",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "feat",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "feathers (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "fiend",
+      "targets": [
+        "Fiendish Pacts"
+      ]
+    },
+    {
+      "alias": "fiendish pact",
+      "targets": [
+        "Fiendish Pacts"
+      ]
+    },
+    {
+      "alias": "final malediction",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "final season",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "fire",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "fire arrow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "fire damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "fire dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "fire gland (chimera)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "fireball",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "firebolt",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "firebrand",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "fireburst",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "fish tail (hippocampus)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "fishfolk",
+      "targets": [
+        "4.1 Races",
+        "Fishfolk and Subraces"
+      ]
+    },
+    {
+      "alias": "fission verdict",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "fist",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "flail",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "flame unicorn horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "flamethrower",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "flank",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "flanking",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "flash freeze",
+      "targets": [
+        "6.1.1 Elemental Spells",
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "flight",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "flight feather (hippogriff)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "floodwall",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "flowing water",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "flying",
+      "targets": [
+        "1.5 Mounts and Familiars",
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "fold path",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "food",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "forbidden knowledge",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "force damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "force share burden",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "forced heritage",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "fossilize",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "fracture thought",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "frightened",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "frostbitten",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "frostburn lance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "frostburned",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "frostfire",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "frostfire dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "frozen",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "frozen cataclysm",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "full restore",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "funeral drift",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "fungal shelf",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "fur (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "gadolinium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "gale lance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gallium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "game master",
+      "targets": [
+        "1.1 Introduction and Basics"
+      ]
+    },
+    {
+      "alias": "garnet",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "gashadokuro bones",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "gear",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "gel",
+      "targets": [
+        "2.6.3 Special and Other Materials",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "gel bulwark",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gel coating",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gel dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "gel shaper",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gel sovereign",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gel trap",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "gelidra",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "gelled",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "gem",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "gemstone",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "germanium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "giant's strength",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "glacial",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "glacial aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "glacial dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "glacial prison",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "glacier rise",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "glaive",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "glass",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "glass carapace",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "glass soul",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "glossary",
+      "targets": [
+        "0.1 Glossary"
+      ]
+    },
+    {
+      "alias": "gm",
+      "targets": [
+        "1.1 Introduction and Basics"
+      ]
+    },
+    {
+      "alias": "gm screen",
+      "targets": [
+        "0 Table of Contents"
+      ]
+    },
+    {
+      "alias": "go atomic",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "goat horn (chimera)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "god",
+      "targets": [
+        "5.1 Deities and Pacts",
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "godly pact",
+      "targets": [
+        "Godly Pacts"
+      ]
+    },
+    {
+      "alias": "gods",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "gold",
+      "targets": [
+        "2.8 Economy",
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "golden hoof (lamassu)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "golem",
+      "targets": [
+        "7.3.1.2 Golems"
+      ]
+    },
+    {
+      "alias": "golem poison",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "golem rot",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "golem solid toxin",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "grapple",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "grappled",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "grappler",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "grasping roots",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "grave weather",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gravity lift",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "gravity tear",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gravity well",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "great arrow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "great cleave",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "greataxe",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "greatclub",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "greater infernal smite",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "greatsword",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "green chamber",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "grief well",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "griffin claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "griffin egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "griffin feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "griffin gizzard stone",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "griffin hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "griffin meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "grounded",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "guiding constellation",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "gust",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hafnium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "halberd",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "half-plate",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "hall of glass",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hallowed dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hallowed iron",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "hallowed water",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "halo",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "hammer",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "hand crossbow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "handaxe",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "hardened soul",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "harpy",
+      "targets": [
+        "4.1 Races",
+        "Harpy and Subraces"
+      ]
+    },
+    {
+      "alias": "harvesting",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "haste",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "hasted",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "hawking",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "heal",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "healer",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "healing",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "healing burst",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "healing potion",
+      "targets": [
+        "2.5.4 Tools and Equipment",
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "health potion",
+      "targets": [
+        "2.5.4 Tools and Equipment",
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "heat death",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "heater shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "heavenfall pattern",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "heavy armor",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "heavy crossbow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "heavy hitter",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "hellfire",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "hellfire orb",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hemalux",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "hemorrhage inferno",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hephaestion",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "hexed",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "hexing word",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hexproof",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials",
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "hide (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hide action",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "high ground",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "high moral",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "hippo hide (ammit)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippocampus egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippocampus gill",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippocampus mane",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippocampus meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippocampus scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippocampus tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippogriff beak",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippogriff egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippogriff feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippogriff hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippogriff meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hippogriff talon",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hire",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "hiring",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "historian",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "history",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "hold breath",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "hollow corridor",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hollow season",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "holmium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "holy radiance",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "hoof (hippogriff)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hoof (pegasus)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "horns (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "howling gale",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "hp",
+      "targets": [
+        "Health (HP)",
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "hubble",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "human",
+      "targets": [
+        "4.1 Races",
+        "Human and Subraces"
+      ]
+    },
+    {
+      "alias": "hunker down",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "hunter",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "hunting",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "hurricane aura",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "hurting",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "hush field",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "hydra blood",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hydra claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hydra egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hydra meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hydra scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hydra tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "hypnotic gaze",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "hypnotized",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "ice damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "ice dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ice shards",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "ice ward",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "ice/cold",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "ice/cold aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ignivar",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "indium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "indravajra",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "infected",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "infected mucus",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "infernal",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "infernal ally brand",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "infernal brand",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "infernal cataclysm",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "infernal contract: pact of dominion",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "infernal contract: pact of power",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "infernal contract: pact of resilience",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "infernal dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "infernal edge",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "infernal iron",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "infernal smite",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "inferno ring",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "infiltrator",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "initiative",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "inn",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "inscription",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "insight",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "inspiration",
+      "targets": [
+        "1.9 Actually Playing The Game"
+      ]
+    },
+    {
+      "alias": "intangible",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "intimidation",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "inventory",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "investigator",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "invisibility",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "invisible",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "iodine",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "iridium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "iron",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "iron dominion",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "iron grave",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "iron judgment",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "iron pit",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "iron will",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "items",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "jack of all trades",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "jade",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "jar o' air",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' ash slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' atomic slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' blight slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' bloodfire slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' chaos slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' corruption slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' cursed slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' deluge slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' dirt",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' eldritch slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' fire slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' frostfire slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' gel cube slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' glacial slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' hallowed slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' ice/cold slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' infernal slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' lightning slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' magma slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' metal slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' miasma slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' mud slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' necrotic slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' nova slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' obsidian slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' poison slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' psychic slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' quake slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' radiant slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' shatter slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' solar slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' sorrow slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' starlight slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' steam slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' storm slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' thunder slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' toxin slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' vacuum mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' void slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' warp slime mass",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jar o' water",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "jetstream",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "judgment strike",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "jump",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "jumping",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "junk metal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "karma",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "karma hoarder",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "katar",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "kelpie hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "kelpie meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "kepler",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "keraunos",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "khopesh",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "kite shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "knife",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "knotted word",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "knuckles",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "kraken egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "kraken hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "kraken meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "kraken teeth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lamassu egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lamassu feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lamassu hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lamassu horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lamassu mane",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lamassu meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lance",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "language",
+      "targets": [
+        "4.2 Languages"
+      ]
+    },
+    {
+      "alias": "lanthanum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "lapis lazuli",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "large shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "last lament",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "last sun",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "lava mantle",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "lead",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "leather",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "leech",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "leech life",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "lethargic",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "level",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "level up",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "leveling",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "levelling",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "levels",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "leviathan drive",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "light",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "light armor",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "light crossbow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "light unicorn horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lightning",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "lightning collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "lightning damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "lightning dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lightning surge",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "lingering shadow",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "linguist",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "lion claw (ammit)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lion mane (chimera)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lithium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "lizard scale (cockatrice)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lockpick",
+      "targets": [
+        "2.5.4 Tools and Equipment"
+      ]
+    },
+    {
+      "alias": "lockpicks",
+      "targets": [
+        "2.5.4 Tools and Equipment"
+      ]
+    },
+    {
+      "alias": "lodging",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "long rest",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "longbow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "longsword",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "loot",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "lorenz",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "low light vision",
+      "targets": [
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "lung spore",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "lutetium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "mace",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "macuahuitl",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "maelstrom",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "magic item",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "magical damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "magma",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "magma ball",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "magma bulette scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "magma dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "magnesium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "malachite",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "mana blast",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mana bolt",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mana bomb",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mana burn",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "mana decimation",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mana drain",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "mana explosion",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mana flow",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "mana well i",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "mana well ii",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "mana well iii",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "manaskin",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "mane hair (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "manganese",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "manticore claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "manticore egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "manticore hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "manticore meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "manticore tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "marathon runner",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "mariana grave",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "martyr's bond",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "mass hypnosis",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "massive damage",
+      "targets": [
+        "2.3 Injuries"
+      ]
+    },
+    {
+      "alias": "master of disguise",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "material",
+      "targets": [
+        "2.6 Materials",
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "maul",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "meat (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "medic",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "medicinal heal",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "medicinal revitalize",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "medicine",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "medium armor",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "medium shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "megalodon blubber",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "megalodon bones",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "megalodon hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "megalodon meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "megalodon teeth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "melee",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "melee weapon",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "mend",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "mercenary",
+      "targets": [
+        "2.8 Economy",
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "mercury",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "metal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "metal dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "miasma",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "miasma cloud",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "miasma dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "milk (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "mind break",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mind fog",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mind spike",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "minor curse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mirage",
+      "targets": [
+        "6.1.1 Elemental Spells",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "mirage dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "mirage host",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mire field",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mirror image",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "mithril",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "mixed damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "mnemosyne",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "mob",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "mobile",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "molten carapace",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "molybdenum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "money",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "monster",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "monster list",
+      "targets": [
+        "7.3 Monster Lists",
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "monster part",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "moonbeam",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "moonstone",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "morningstar",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "mount",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "mourning glance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "moving glacier",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "mp",
+      "targets": [
+        "Mana (MP)",
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "mud",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "mud aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "mud bulette scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "mud dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "mud slide",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "multiclass",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "mundane arrow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "mundane bolt",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "mute",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "naga",
+      "targets": [
+        "4.1 Races",
+        "Naga and Subraces"
+      ]
+    },
+    {
+      "alias": "nat 1",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "nat 20",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "nature",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "nauseated",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "necrosis",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "necrotic",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "necrotic collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "necrotic damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "necrotic dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "nerite",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "newcomen",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "newton",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "nickel",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "niobium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "nova",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "nova burst",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "nova compression",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "nova dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "nuclear strike",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "null edge",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "nunchaku",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "oblivion cut",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "observant",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "obsidian",
+      "targets": [
+        "2.6.1 Metals and Stones Materials",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "obsidian dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "obsidian mirror",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "obsidian skin",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "obsidian spray",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "on fire",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "opal",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "oppenheimer",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "opportunity attack",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "ore",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "orichalcum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "osmium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "overcrowded",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "overdrive",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "pact",
+      "targets": [
+        "5.1 Deities and Pacts"
+      ]
+    },
+    {
+      "alias": "pact tactics",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "padded",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "pale cinder",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "palladium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "pantheon",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "paralytic bolt",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "paralytic toxin",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "paralyzed",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "parry",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "pasteur",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "pavise",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "pearl",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "pegasus egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "pegasus feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "pegasus hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "pegasus mane",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "pegasus meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "pelagion",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "perception",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "performance",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "persuasion",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "peryton antler",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "peryton egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "peryton feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "peryton hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "peryton meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "peryton talon",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "pet",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "petrified",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "pewter",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "phase step",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "phase walk",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "phoenix egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "phoenix feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "phoenix tear",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "phosphorus",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "photon lance",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "physical damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "pierced",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "piercing",
+      "targets": [
+        "2.5.2 Weapons",
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "pitflame circuit",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "plague grasp",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "plague sludge",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "plagued",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "plaguefall",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "plate",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "platinum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "point blank shot",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "poison",
+      "targets": [
+        "6.3 Alchemy",
+        "2.4 Conditions",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "poison aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "poison dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "poison tide",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "poisoned",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "potassium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "potion",
+      "targets": [
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "potion of healing",
+      "targets": [
+        "2.5.4 Tools and Equipment",
+        "6.3 Alchemy"
+      ]
+    },
+    {
+      "alias": "power word: pain",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "praseodymium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "pray",
+      "targets": [
+        "5.1 Deities and Pacts"
+      ]
+    },
+    {
+      "alias": "pressure crown",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "pressure ram",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "pressure spike",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "price",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "prone",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "providence",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "psychic",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "psychic collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "psychic damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "psychic dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "psychic drain",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "purged",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "purify",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "quake",
+      "targets": [
+        "6.1.1 Elemental Spells",
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "quake dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "quantum",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "quantum entanglement",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "quantum tunneling",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "quarterstaff",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "quartz",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "quench",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "quick draw",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "quick reflexes",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "quick spells",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "race",
+      "targets": [
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "radiant",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "radiant damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "radiant dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "radiant pulse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "radiant wave",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "radiation",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "ranged",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "ranged weapon",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "rapier",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "rations",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "reaction",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "reactive ward",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "reality lance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rebirth",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "red cataclysm",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "red furnace",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "regeneration tissue (hydra)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "religion",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "remove curse",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "resonance cascade",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "resonant shot",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "respec",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "rest",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "resting",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "restoration",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "restore energy",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "restrained",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "resurrection",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "revitalization burst",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "revitalize",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "revive",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "revivify",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "rhenium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "rhodium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "richter",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "riding",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "rimeflame",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "ring mail",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "riptide",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "ritual",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "roc egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "roc feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "roc meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "roc talon",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "roll",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "rolling",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "rolling choir",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rope arrow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "rot kingdom",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rot lung",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rotsap",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rotting touch",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rotting wood",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "rounded mage",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "rubidium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "ruby",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "ruin chime",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "ruin of the soul",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "rune",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "runic circle",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "ruthenium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "saddle",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "salary",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "samarium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "sanctuary",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "sand veil",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "sapphire",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "save",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "save or don't suck",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "saving throw",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "scald",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "scale mail",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "scandium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "scent gland (skunk)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "scimitar",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "scintillate",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "scorpion tail (manticore)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "scorpion tail (tarasque)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "screaming hymn",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "scry",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "scythe",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "search",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "second wind",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "selenium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "sell",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "sentinel",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "sepulcher breath",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "seraphael",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "serpent scale (chimera)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "serpent's kiss",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "services",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "sever distance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "shadow core (peryton)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "shapeshifter",
+      "targets": [
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "shapeshifters",
+      "targets": [
+        "Shapeshifters and Subraces"
+      ]
+    },
+    {
+      "alias": "shard reprisal",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "share burden",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "shatter",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "shatter dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "shatter mind",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "sheet",
+      "targets": [
+        "2.7 Character Sheet"
+      ]
+    },
+    {
+      "alias": "shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "shield master",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "shocked",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "shop",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "shopping",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "short rest",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "shortbow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "shortsword",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "shove",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "shuddering idol",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "sickened",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "sickle",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "siege",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "siege weapon",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "signal arrow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "silence",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "silenced",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "silicon",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "silver",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "silver tongue",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "singularity core",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "sinkstep",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "situational insight",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "skill",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "skill check",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "skill expert",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "skill point",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "skill tree",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "skorren venom",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "sky rend",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "slashing",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "sleep",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "sleet storm",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "sleight of hand",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "slime",
+      "targets": [
+        "7.3.1.1 Slimes"
+      ]
+    },
+    {
+      "alias": "sling",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "slow",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "slow death",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "slowed",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "slumber dust",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "small shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "snake scale (anzu)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sneak",
+      "targets": [
+        "1.2 Dice and Skills",
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "sneaking",
+      "targets": [
+        "1.2 Dice and Skills",
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "soaked",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "social insight",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "sodium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "solar",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "solar beam",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "solar cataclysm",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "solar collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "solar dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "solar judgment",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "solar lance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "solid cloud",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "solid helium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "solid hydrogen",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "solid oil",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "solid water",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "soot mark",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "sorrow",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "sorrow dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "soul fragment",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "soul reaper",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "sovereign reflection",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "speak",
+      "targets": [
+        "4.2 Languages"
+      ]
+    },
+    {
+      "alias": "spear",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "special",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "special damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "special material",
+      "targets": [
+        "2.6.3 Special and Other Materials"
+      ]
+    },
+    {
+      "alias": "species",
+      "targets": [
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "spell",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "spell sniper",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "spellcasting",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "sphinx claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sphinx egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sphinx eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sphinx feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sphinx hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sphinx meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "sphinx tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "spirit guardians",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "splint",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "splinter will",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "spot",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "stable compounds",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "staff",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "stardust",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "starlight",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "starlight dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "starting gold",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "starting money",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "starting stats",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "stat",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "stat block",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "stat point",
+      "targets": [
+        "3.1 Building Your Character"
+      ]
+    },
+    {
+      "alias": "statblock",
+      "targets": [
+        "7.1 Monsters"
+      ]
+    },
+    {
+      "alias": "static discharge",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "static shock",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "stats",
+      "targets": [
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "status",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "status effect",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "steady aim",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "steady mind",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "stealth",
+      "targets": [
+        "1.2 Dice and Skills",
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "stealth check",
+      "targets": [
+        "1.2 Dice and Skills"
+      ]
+    },
+    {
+      "alias": "steam",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "steam dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "steel",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "steel catacomb",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "stellar annihilation",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "still mind",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "stomach acid (ammit)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "stone",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "stone skin",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "stoneskin",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "stonewave",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "store",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "storm",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "storm call",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "storm dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "storm essence (anzu)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "storm shocked",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "strontium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "studded leather",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "stunned",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "subrace",
+      "targets": [
+        "4.1 Races"
+      ]
+    },
+    {
+      "alias": "suffocate",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "suffocating",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "suffocation",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "suffocation engine",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "sulfur",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "summon",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "summoning",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "supernova collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "superposition",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "supplies",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "surprise",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "surprised",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "swallowing fen",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "swim",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "swimming",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "sword",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "table of contents",
+      "targets": [
+        "0 Table of Contents"
+      ]
+    },
+    {
+      "alias": "taboo",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "talons (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tame",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "taming",
+      "targets": [
+        "1.5 Mounts and Familiars"
+      ]
+    },
+    {
+      "alias": "tantalum",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "tarasque claw",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque egg",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque shell",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque spike",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque tallow",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tarasque tooth",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "targe",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "tavern",
+      "targets": [
+        "2.5.1 Supplies and Services"
+      ]
+    },
+    {
+      "alias": "tectonic crush",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "teeth (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "telekinesis",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "tellurium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "tempest",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "tempest prison",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "tempest strike",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "terbium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "terminal nova",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "terms",
+      "targets": [
+        "0.1 Glossary"
+      ]
+    },
+    {
+      "alias": "thallium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "therian",
+      "targets": [
+        "4.1 Races",
+        "Therian and Subraces"
+      ]
+    },
+    {
+      "alias": "thermal overdrive",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "thermal rupture",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "thieves tools",
+      "targets": [
+        "2.5.4 Tools and Equipment"
+      ]
+    },
+    {
+      "alias": "thorn whip",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "thought pierce",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "thought reading",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "threatened",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "thronefire",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "throwing shield",
+      "targets": [
+        "2.5.2 Weapons",
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "thrown",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "thulium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "thunder",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "thunder dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "thunderbird feather",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "thunderbird meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "thunderclap",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "thunderstorm",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "tin",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "titanium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "titan’s grip",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "title",
+      "targets": [
+        "3.2 Character Information"
+      ]
+    },
+    {
+      "alias": "toc",
+      "targets": [
+        "0 Table of Contents"
+      ]
+    },
+    {
+      "alias": "todo",
+      "targets": [
+        "0.2 TODO"
+      ]
+    },
+    {
+      "alias": "tool",
+      "targets": [
+        "2.5.4 Tools and Equipment"
+      ]
+    },
+    {
+      "alias": "tool kit",
+      "targets": [
+        "2.5.4 Tools and Equipment"
+      ]
+    },
+    {
+      "alias": "toolkit",
+      "targets": [
+        "2.5.4 Tools and Equipment"
+      ]
+    },
+    {
+      "alias": "topaz",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "torrent",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "torrent aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "torrent dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "torrential smash",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "toughness",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "tower shield",
+      "targets": [
+        "2.5.3 Armors"
+      ]
+    },
+    {
+      "alias": "toxic cloud",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "toxin",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "toxin dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "trade",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "trader",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "travel",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "tremor",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "tremor bulette scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tremor dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "trident",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "trip attack",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "true damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "true sight",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "true strike",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "tull",
+      "targets": [
+        "4.1 Races",
+        "Tull and Subraces"
+      ]
+    },
+    {
+      "alias": "tungsten",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "turing",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "turn order",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "turns",
+      "targets": [
+        "1.4 Actions"
+      ]
+    },
+    {
+      "alias": "turquoise",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "turtle shell scute (tarasque)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "tusks (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "twin cast",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "two handed",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "unconscious",
+      "targets": [
+        "2.4 Conditions",
+        "2.3 Injuries"
+      ]
+    },
+    {
+      "alias": "undead",
+      "targets": [
+        "4.1 Races",
+        "Undead and Subraces"
+      ]
+    },
+    {
+      "alias": "undertow",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "underwater",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "unicorn hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "unicorn meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "unstable matter",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "unstoppable force",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "unwritten turn",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "upcast",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "upcasting",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "upheaval",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "uranium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "vacuum",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "vacuum dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "vampiric link",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "vanadium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "vault",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "venom burst",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "venom gland (basilisk)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "venom gland (hydra)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "venom gland (manticore)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "venom gland (snake)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "vibrating",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "vindroth",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "vision",
+      "targets": [
+        "1.6 Other Rules"
+      ]
+    },
+    {
+      "alias": "vit",
+      "targets": [
+        "Vitality (Vit)",
+        "1.3 Player Stats"
+      ]
+    },
+    {
+      "alias": "vital spot",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "void",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "void dart",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "void dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "void slash",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "void touched",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "voidglass",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "voidsand",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "voidsteel",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "volcanic snap",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "wage",
+      "targets": [
+        "2.8 Economy"
+      ]
+    },
+    {
+      "alias": "wand",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "war pick",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "warg hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "warg meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "warhammer",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "warp",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "warp dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "warp slice",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "warp step",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "warpstone",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "water",
+      "targets": [
+        "2.1 Affinities"
+      ]
+    },
+    {
+      "alias": "water aboleth eye",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "water damage",
+      "targets": [
+        "2.2 Damage Types"
+      ]
+    },
+    {
+      "alias": "water dragon scale",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "water unicorn horn",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "waterskin",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "weapon",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "weapon master",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "weeping star",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "weight",
+      "targets": [
+        "2.5 Weapons, Armors, and Tools"
+      ]
+    },
+    {
+      "alias": "weight of presence",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "whip",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "whistling arrow",
+      "targets": [
+        "2.5.2 Weapons"
+      ]
+    },
+    {
+      "alias": "whiteout expanse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "whiteout vent",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "widow’s field",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "wild sequence",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "wind rush",
+      "targets": [
+        "3.4 Feats"
+      ]
+    },
+    {
+      "alias": "wing buffet",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "wither",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "wither bloom",
+      "targets": [
+        "5.2 Specific Deities"
+      ]
+    },
+    {
+      "alias": "withered",
+      "targets": [
+        "2.4 Conditions"
+      ]
+    },
+    {
+      "alias": "withering grasp",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "wool (generic)",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "worldbreak",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "worldbreaker resonance",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "worldforge collapse",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "worship",
+      "targets": [
+        "5.1 Deities and Pacts"
+      ]
+    },
+    {
+      "alias": "wound",
+      "targets": [
+        "2.3 Injuries"
+      ]
+    },
+    {
+      "alias": "wounds",
+      "targets": [
+        "2.3 Injuries"
+      ]
+    },
+    {
+      "alias": "wrath of the grove",
+      "targets": [
+        "6.1.2 Unique, Racial, and Healing Spells"
+      ]
+    },
+    {
+      "alias": "xeran",
+      "targets": [
+        "6.2 Runes"
+      ]
+    },
+    {
+      "alias": "xp",
+      "targets": [
+        "3.3 Leveling Up"
+      ]
+    },
+    {
+      "alias": "yeti hide",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "yeti meat",
+      "targets": [
+        "2.6.2 Animal and Monster Materials"
+      ]
+    },
+    {
+      "alias": "ytterbium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "yttrium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "zero mark",
+      "targets": [
+        "6.1.1 Elemental Spells"
+      ]
+    },
+    {
+      "alias": "zinc",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    },
+    {
+      "alias": "zirconium",
+      "targets": [
+        "2.6.1 Metals and Stones Materials"
+      ]
+    }
+  ]
+}

@@ -1393,16 +1393,21 @@ function matchScore(q, t) {
     if (all) return t.includes(q) ? 830 : 725;
   }
   if (q.length >= 3) {
+    // Typo tolerance with two guards: the first character must match (typos
+    // rarely hit the first letter) and the allowed edit distance is scaled
+    // by word length, so short words don't fuzzy-match unrelated short words
+    // ("sword" must never match "worm").
     const maxWhole = q.length <= 6 ? 2 : 3;
-    if (t.length <= 60) {
+    if (t.length <= 60 && t[0] === q[0]) {
       const d = lev(q, t, maxWhole);
       if (d <= maxWhole) return Math.max(0, 700 - d * 18 - Math.max(0, t.length - q.length) * 0.5);
     }
-    const maxWord = q.length <= 4 ? 1 : 2;
     let best = 0;
     for (const w of tw) {
-      const d = lev(q, w, maxWord);
-      if (d <= maxWord) {
+      if (w.length < 3 || w[0] !== q[0]) continue;
+      const allow = q.length >= 6 && w.length >= 6 ? 2 : 1;
+      const d = lev(q, w, allow);
+      if (d <= allow) {
         const s = 690 - d * 25 - Math.abs(w.length - q.length) * 2;
         if (s > best) best = s;
       }
@@ -1673,6 +1678,144 @@ function buildSnippets(f, tokens, qNorm) {
   return { snippet: wins.join(' … '), frag };
 }
 
+// ---- Search aliases (editable aliases.json) ----
+// Each alias maps a common search term to handbook pages and/or glossary
+// terms. The file is fetched at runtime, so edits take effect on reload.
+// Targets resolve SOFTLY: if a page is renamed, the site still finds it by
+// section number, similar name, or a matching heading inside it.
+function aliasMatchesQuery(a, tokens, qNorm) {
+  const aNorm = a.aliasNorm;
+  const aSing = a.aliasSing;
+  if (aNorm === qNorm) return 3;
+  if (aNorm.length >= 4 && aSing === singularize(qNorm)) return 3;
+  let best = 0;
+  for (const t of tokens) {
+    if (!t || t.length < 2) continue;
+    if (t === aNorm) best = Math.max(best, 2);
+    else if (aNorm.length >= 4 && singularize(t) === aSing) best = Math.max(best, 2);
+    else if (aNorm.length >= 5 && t.length > aNorm.length && (t.startsWith(aNorm) || t.endsWith(aNorm))) best = Math.max(best, 1);
+    else if (aNorm.length >= 5 && t.length >= 4 && t[0] === aNorm[0] && lev(t, aNorm, 1) <= 1) best = Math.max(best, 1);
+  }
+  return best;
+}
+
+async function loadAliases(files, glossary) {
+  let raw = null;
+  try {
+    const res = await fetch('./aliases.json');
+    if (res.ok) raw = await res.json();
+  } catch { raw = null; }
+  const list = (raw && Array.isArray(raw.aliases) ? raw.aliases : []).slice(0, 3000);
+
+  const glossIdx = new Map();
+  for (let i = 0; i < glossary.length; i++) {
+    const g = glossary[i];
+    if (!glossIdx.has(g.termNorm)) glossIdx.set(g.termNorm, i);
+    if (g.aliasNorm && !glossIdx.has(g.aliasNorm)) glossIdx.set(g.aliasNorm, i);
+  }
+  const nameToPath = new Map();
+  for (const f of files) nameToPath.set(f.nameNorm, f.path);
+
+  function numPrefix(norm) {
+    const m = norm.match(/^(\d+(?: \d+)*)/);
+    return m ? m[1] : '';
+  }
+
+  function findSuffixPage(tNorm) {
+    for (const [n, p] of nameToPath) {
+      if (n.endsWith(' ' + tNorm)) return p;
+    }
+    return null;
+  }
+
+  // Soft page match: best-scoring file name above min. With requirePrefix,
+  // only files sharing the target's numeric section prefix are considered.
+  function softPage(tNorm, requirePrefix, min) {
+    const wantPrefix = numPrefix(tNorm);
+    if (requirePrefix && !wantPrefix) return null;
+    let best = null, bestScore = 0;
+    for (const f of files) {
+      if (requirePrefix && numPrefix(f.nameNorm) !== wantPrefix) continue;
+      const s = matchScore(tNorm, f.nameNorm);
+      if (s > bestScore) { bestScore = s; best = f.path; }
+    }
+    return bestScore >= min ? best : null;
+  }
+
+  function softGlossary(tNorm, min) {
+    let best = null, bestScore = 0;
+    for (let i = 0; i < glossary.length; i++) {
+      const g = glossary[i];
+      const s = Math.max(matchScore(tNorm, g.termNorm), matchScore(tNorm, g.aliasNorm));
+      if (s > bestScore) { bestScore = s; best = i; }
+    }
+    return bestScore >= min ? best : null;
+  }
+
+  function softHeading(tNorm, tokens) {
+    const queries = tokens.length > 1 ? [tNorm, tokens[tokens.length - 1]] : [tNorm];
+    let bestPath = null, bestScore = 0;
+    for (const f of files) {
+      for (const h of f.headings) {
+        for (const q of queries) {
+          const s = matchScore(q, h.norm);
+          if (s > bestScore) { bestScore = s; bestPath = f.path; }
+        }
+      }
+    }
+    return bestScore >= 720 ? bestPath : null;
+  }
+
+  function resolveTarget(label) {
+    const tNorm = normText(label);
+    if (!tNorm) return null;
+    const tokens = tNorm.split(' ').filter(Boolean);
+    // 1. Exact glossary term
+    const gIdx = glossIdx.get(tNorm) ?? glossIdx.get(normText(label.replace(/\([^)]*\)/g, '')));
+    if (gIdx != null) return { kind: 'glossary', idx: gIdx };
+    // 2. Exact page name (wiki slug or normalized full name)
+    let path = wikiMap.get(slugifyTitle(label)) || nameToPath.get(tNorm) || null;
+    if (path) return { kind: 'page', path };
+    // 3. Page whose name ends with the target words ("Weapons" -> "2.5.2 Weapons")
+    path = findSuffixPage(tNorm);
+    if (path) return { kind: 'page', path };
+    // 4. Soft: renamed page keeps its section number and a similar name
+    path = softPage(tNorm, true, 600);
+    if (path) return { kind: 'page', path };
+    // 5. Soft: any page with a close name
+    path = softPage(tNorm, false, 640);
+    if (path) return { kind: 'page', path };
+    // 6. Soft: glossary term with a close name
+    const gSoft = softGlossary(tNorm, 660);
+    if (gSoft != null) return { kind: 'glossary', idx: gSoft };
+    // 7. Soft: page containing a matching heading (content moved to a new file)
+    path = softHeading(tNorm, tokens);
+    if (path) return { kind: 'page', path };
+    return null;
+  }
+
+  const aliases = [];
+  for (const a of list) {
+    if (!a || typeof a.alias !== 'string' || !Array.isArray(a.targets)) continue;
+    const alias = a.alias.trim().slice(0, 60);
+    if (!alias) continue;
+    const targets = [];
+    for (const t of a.targets.slice(0, 12)) {
+      if (typeof t !== 'string' || !t.trim()) continue;
+      const label = t.trim();
+      const resolved = resolveTarget(label);
+      if (resolved) targets.push({ ...resolved, label });
+    }
+    aliases.push({
+      alias,
+      aliasNorm: normText(alias),
+      aliasSing: singularize(normText(alias)),
+      targets,
+    });
+  }
+  return aliases;
+}
+
 async function buildSearchIndex() {
   const paths = [];
   collectHandbookFiles(manifest.tree, paths);
@@ -1726,7 +1869,8 @@ async function buildSearchIndex() {
     const doc = docs.find((d) => d.path === glossaryPath);
     if (doc) glossary = parseGlossary(doc.md);
   }
-  return { files, glossary, glossaryPath, wordFiles, docCount: files.length };
+  const aliases = await loadAliases(files, glossary);
+  return { files, glossary, glossaryPath, wordFiles, docCount: files.length, aliases };
 }
 
 // ---- Query engine ----
@@ -1736,17 +1880,17 @@ function runSearch(query, opts = {}) {
   const tokens = qNorm ? qNorm.split(' ').filter(Boolean) : [];
   const empty = {
     query: q, tokens,
-    glossary: [], pages: [], headings: [], content: [],
+    glossary: [], pages: [], headings: [], content: [], related: [],
     suggestions: [], contentTruncated: false,
-    counts: { glossary: 0, pages: 0, headings: 0, content: 0 },
+    counts: { glossary: 0, pages: 0, headings: 0, content: 0, related: 0 },
   };
   if (!tokens.length || !searchIndex) return empty;
 
   const res = {
     query: q, tokens,
-    glossary: [], pages: [], headings: [], content: [],
+    glossary: [], pages: [], headings: [], content: [], related: [],
     suggestions: [], contentTruncated: false,
-    counts: { glossary: 0, pages: 0, headings: 0, content: 0 },
+    counts: { glossary: 0, pages: 0, headings: 0, content: 0, related: 0 },
   };
   const qSing = singularize(qNorm);
   const shortQuery = qNorm.length < 3;
@@ -1760,7 +1904,7 @@ function runSearch(query, opts = {}) {
       s = Math.max(s, matchScore(qSing, singularize(g.termNorm)), matchScore(qSing, singularize(g.aliasNorm)));
     }
     if (exact || s >= GLOSSARY_MIN) {
-      res.glossary.push({ term: g.term, definition: g.definition, category: g.category, refs: g.refs, score: s, exact });
+      res.glossary.push({ term: g.term, termNorm: g.termNorm, definition: g.definition, category: g.category, refs: g.refs, score: s, exact });
     }
   }
   res.glossary.sort((a, b) => (b.exact - a.exact) || (b.score - a.score) || (a.term.length - b.term.length));
@@ -1776,6 +1920,29 @@ function runSearch(query, opts = {}) {
   }
   res.pages.sort((a, b) => b.score - a.score || (a.name.length - b.name.length));
   res.counts.pages = res.pages.length;
+
+  // Related pages/terms via aliases (only when not already matched directly)
+  const seenGloss = new Set(res.glossary.map((g) => g.termNorm));
+  const seenPages = new Set(res.pages.map((p) => p.path));
+  for (const a of (searchIndex.aliases || [])) {
+    const strength = aliasMatchesQuery(a, tokens, qNorm);
+    if (!strength) continue;
+    for (const t of a.targets) {
+      if (t.kind === 'glossary') {
+        const g = searchIndex.glossary[t.idx];
+        if (!g || seenGloss.has(g.termNorm)) continue;
+        seenGloss.add(g.termNorm);
+        res.related.push({ kind: 'glossary', term: g.term, definition: g.definition, category: g.category, refs: g.refs, alias: a.alias, strength });
+      } else {
+        if (seenPages.has(t.path)) continue;
+        seenPages.add(t.path);
+        const f = searchIndex.files.find((ff) => ff.path === t.path);
+        res.related.push({ kind: 'page', path: t.path, name: f ? f.name : t.label, alias: a.alias, strength });
+      }
+    }
+  }
+  res.related.sort((a, b) => b.strength - a.strength);
+  res.counts.related = res.related.length;
 
   // Headings
   for (const f of searchIndex.files) {
@@ -1793,12 +1960,13 @@ function runSearch(query, opts = {}) {
   // In-text matches (skipped for very short queries to avoid noise)
   if (!shortQuery) {
     const files = searchIndex.files;
-    const acc = new Map(); // fileIdx -> {score, direct}
-    const addScore = (i, s, d) => {
+    const acc = new Map(); // fileIdx -> {score, direct, via:Set}
+    const addScore = (i, s, d, via) => {
       let e = acc.get(i);
-      if (!e) { e = { score: 0, direct: 0 }; acc.set(i, e); }
+      if (!e) { e = { score: 0, direct: 0, via: new Set() }; acc.set(i, e); }
       e.score += s;
       if (d) e.direct += d;
+      if (via) e.via.add(via);
     };
     for (const t of tokens) {
       let anyDirect = false;
@@ -1815,7 +1983,7 @@ function runSearch(query, opts = {}) {
           const mult = best.d === 1 ? 0.55 : 0.25;
           for (const i of best.set) {
             const c = countOccurrences(files[i].textNorm, best.w);
-            if (c > 0) addScore(i, c * 5 * mult, 0);
+            if (c > 0) addScore(i, c * 5 * mult, 0, best.w);
           }
         }
       }
@@ -1833,7 +2001,7 @@ function runSearch(query, opts = {}) {
       }
     }
     const entries = [...acc.entries()]
-      .map(([i, e]) => ({ i, score: e.score, count: e.direct }))
+      .map(([i, e]) => ({ i, score: e.score, count: e.direct, via: e.via && e.via.size ? [...e.via].slice(0, 2) : null }))
       .sort((a, b) => b.score - a.score);
     res.counts.content = entries.length;
     const cap = opts.dropdown ? 3 : CONTENT_CAP;
@@ -1841,7 +2009,7 @@ function runSearch(query, opts = {}) {
     for (const en of entries.slice(0, cap)) {
       const f = files[en.i];
       const { snippet, frag } = buildSnippets(f, tokens, qNorm);
-      res.content.push({ path: f.path, page: f.name, score: en.score, count: en.count, snippet, frag });
+      res.content.push({ path: f.path, page: f.name, score: en.score, count: en.count, via: en.via, snippet, frag });
     }
     res.suggestions = res.suggestions.slice(0, 5);
   }
@@ -1861,7 +2029,11 @@ function groupHeader(title, n) {
   return '<div class="sp-group-title"><h2>' + escHtml(title) + '</h2><span>' + n + ' result' + (n === 1 ? '' : 's') + '</span></div>';
 }
 
-function glossaryBubbleHTML(g, tokens, compact) {
+function badgeHTML(text) {
+  return '<span class="sd-badge">' + escHtml(text) + '</span>';
+}
+
+function glossaryBubbleHTML(g, tokens, compact, badge) {
   const cls = compact ? 'sd-gloss' : 'sp-gloss';
   const def = g.definition.length > 420 ? g.definition.slice(0, 420) + '…' : g.definition;
   const refs = g.refs.filter((r) => r.path).slice(0, 3);
@@ -1871,6 +2043,7 @@ function glossaryBubbleHTML(g, tokens, compact) {
       ).join('') + '</div>'
     : '';
   return '<div class="' + cls + '"><div class="sd-gloss-term">' + escHtml(g.term)
+    + (badge ? ' <span class="sd-badge">' + escHtml(badge) + '</span>' : '')
     + ' <span class="sd-gloss-cat">' + escHtml(g.category) + '</span></div>'
     + '<div class="sd-gloss-def">' + highlightHTML(def, tokens) + '</div>'
     + refsHtml + '</div>';
@@ -1878,7 +2051,7 @@ function glossaryBubbleHTML(g, tokens, compact) {
 
 function renderSearchResultsHTML(res) {
   const parts = [];
-  const total = res.counts.glossary + res.counts.pages + res.counts.headings + res.counts.content;
+  const total = res.counts.glossary + res.counts.pages + res.counts.related + res.counts.headings + res.counts.content;
   if (total === 0) {
     parts.push('<div class="sp-empty">No results for “' + escHtml(res.query) + '”.</div>');
     if (res.suggestions.length) {
@@ -1898,7 +2071,22 @@ function renderSearchResultsHTML(res) {
     for (const p of res.pages) {
       parts.push('<a class="sp-row" data-path="' + escAttr(p.path) + '" data-frag="" href="#' + encodeURIComponent(p.path) + '">'
         + '<div class="sp-row-main">' + highlightHTML(p.name, res.tokens) + '</div>'
-        + '<div class="sp-row-sub">' + escHtml(p.path) + '</div></a>');
+        + '<div class="sp-row-sub">' + (p.score < 705 ? badgeHTML('close match') : badgeHTML('title match')) + escHtml(p.path) + '</div></a>');
+    }
+  }
+  if (res.related.length) {
+    parts.push(groupHeader('Related', res.counts.related));
+    for (const r of res.related) {
+      if (r.kind === 'glossary') {
+        parts.push(glossaryBubbleHTML(
+          { term: r.term, definition: r.definition, category: r.category, refs: r.refs },
+          res.tokens, false, 'alias: ' + r.alias
+        ));
+      } else {
+        parts.push('<a class="sp-row" data-path="' + escAttr(r.path) + '" data-frag="" href="#' + encodeURIComponent(r.path) + '">'
+          + '<div class="sp-row-main">' + highlightHTML(r.name, res.tokens) + ' ' + badgeHTML('alias: ' + r.alias) + '</div>'
+          + '<div class="sp-row-sub">' + escHtml(r.path) + '</div></a>');
+      }
     }
   }
   if (res.headings.length) {
@@ -1907,17 +2095,20 @@ function renderSearchResultsHTML(res) {
       const href = '#' + encodeURIComponent(h.path) + (h.frag ? '#' + h.frag : '');
       parts.push('<a class="sp-row" data-path="' + escAttr(h.path) + '" data-frag="' + escAttr(h.frag || '') + '" href="' + escAttr(href) + '">'
         + '<div class="sp-row-main">' + highlightHTML(h.text, res.tokens) + '</div>'
-        + '<div class="sp-row-sub">' + escHtml(h.page) + ' — ' + escHtml(h.path) + '</div></a>');
+        + '<div class="sp-row-sub">' + badgeHTML('heading') + escHtml(h.page) + ' — ' + escHtml(h.path) + '</div></a>');
     }
   }
   if (res.content.length) {
     parts.push(groupHeader('In Text', res.counts.content));
     for (const c of res.content) {
       const href = '#' + encodeURIComponent(c.path) + (c.frag ? '#' + c.frag : '');
+      const badges = [];
+      if (c.count > 0) badges.push(badgeHTML(c.count + ' match' + (c.count === 1 ? '' : 'es')));
+      if (c.via && c.via.length) badges.push(badgeHTML('close match: ' + c.via[0]));
       parts.push('<a class="sp-row" data-path="' + escAttr(c.path) + '" data-frag="' + escAttr(c.frag || '') + '" href="' + escAttr(href) + '">'
         + '<div class="sp-row-main">' + escHtml(c.page) + '</div>'
         + (c.snippet ? '<div class="sp-snippet">…' + highlightHTML(c.snippet, res.tokens) + '…</div>' : '')
-        + '<div class="sp-row-sub">' + escHtml(c.path) + '</div></a>');
+        + '<div class="sp-row-sub">' + badges.join(' ') + (badges.length ? ' ' : '') + escHtml(c.path) + '</div></a>');
     }
     if (res.contentTruncated) {
       parts.push('<div class="sp-hint">Showing the top ' + res.content.length + ' in-text matches. Refine your query to narrow results.</div>');
@@ -1958,7 +2149,7 @@ async function updateSearchPageResults(q) {
     return;
   }
   const res = runSearch(q, {});
-  const total = res.counts.glossary + res.counts.pages + res.counts.headings + res.counts.content;
+  const total = res.counts.glossary + res.counts.pages + res.counts.related + res.counts.headings + res.counts.content;
   if (meta) meta.textContent = total === 0
     ? 'No results'
     : total + ' result' + (total === 1 ? '' : 's') + ' for “' + q + '”';
@@ -2107,7 +2298,22 @@ function renderSearchDropdown(q) {
     for (const p of res.pages.slice(0, 6)) {
       html += '<a class="sd-row" role="option" data-path="' + escAttr(p.path) + '" data-frag="" href="#' + encodeURIComponent(p.path) + '">'
         + '<span class="sd-row-main">' + highlightHTML(p.name, res.tokens) + '</span>'
-        + '<span class="sd-row-sub">' + escHtml(p.path) + '</span></a>';
+        + '<span class="sd-row-sub">' + (p.score < 705 ? badgeHTML('close match') + ' ' : '') + escHtml(p.path) + '</span></a>';
+    }
+  }
+  if (res.related.length) {
+    html += '<div class="sd-group">Related</div>';
+    for (const r of res.related.slice(0, 3)) {
+      if (r.kind === 'glossary') {
+        html += glossaryBubbleHTML(
+          { term: r.term, definition: r.definition, category: r.category, refs: r.refs },
+          res.tokens, true, 'alias: ' + r.alias
+        );
+      } else {
+        html += '<a class="sd-row" role="option" data-path="' + escAttr(r.path) + '" data-frag="" href="#' + encodeURIComponent(r.path) + '">'
+          + '<span class="sd-row-main">' + highlightHTML(r.name, res.tokens) + ' ' + badgeHTML('alias: ' + r.alias) + '</span>'
+          + '<span class="sd-row-sub">' + escHtml(r.path) + '</span></a>';
+      }
     }
   }
   if (res.headings.length) {
@@ -2115,19 +2321,23 @@ function renderSearchDropdown(q) {
     for (const h of res.headings.slice(0, 4)) {
       html += '<a class="sd-row" role="option" data-path="' + escAttr(h.path) + '" data-frag="' + escAttr(h.frag || '') + '" href="#' + encodeURIComponent(h.path) + '">'
         + '<span class="sd-row-main">' + highlightHTML(h.text, res.tokens) + '</span>'
-        + '<span class="sd-row-sub">' + escHtml(h.page) + '</span></a>';
+        + '<span class="sd-row-sub">' + badgeHTML('heading') + ' ' + escHtml(h.page) + '</span></a>';
     }
   }
   if (res.content.length) {
     html += '<div class="sd-group">In Text</div>';
     for (const c of res.content.slice(0, 3)) {
+      const badges = [];
+      if (c.count > 0) badges.push(badgeHTML(c.count + ' match' + (c.count === 1 ? '' : 'es')));
+      if (c.via && c.via.length) badges.push(badgeHTML('close match: ' + c.via[0]));
       html += '<a class="sd-row" role="option" data-path="' + escAttr(c.path) + '" data-frag="' + escAttr(c.frag || '') + '" href="#' + encodeURIComponent(c.path) + '">'
         + '<span class="sd-row-main">' + escHtml(c.page) + '</span>'
-        + (c.snippet ? '<span class="sd-row-sub">…' + highlightHTML(c.snippet, res.tokens) + '…</span>' : '') + '</a>';
+        + (c.snippet ? '<span class="sd-row-sub">…' + highlightHTML(c.snippet, res.tokens) + '…</span>' : '')
+        + '<span class="sd-row-sub">' + (badges.length ? badges.join(' ') + ' ' : '') + escHtml(c.path) + '</span></a>';
     }
   }
-  const total = res.counts.glossary + res.counts.pages + res.counts.headings + res.counts.content;
-  if (!res.glossary.length && !res.pages.length && !res.headings.length && !res.content.length) {
+  const total = res.counts.glossary + res.counts.pages + res.counts.related + res.counts.headings + res.counts.content;
+  if (!res.glossary.length && !res.pages.length && !res.related.length && !res.headings.length && !res.content.length) {
     html += '<div class="sd-empty">No matches for “' + escHtml(res.query) + '”</div>';
     for (const s of res.suggestions.slice(0, 4)) {
       html += '<button class="sd-sugg" data-sugg="' + escAttr(s.to) + '">' + escHtml(s.to) + '</button>';
