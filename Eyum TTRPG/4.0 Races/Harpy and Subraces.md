@@ -9,14 +9,14 @@
 | Palehook     | Large  | 5'4" - 7'2"  | 150 - 320 lb | 60 - 90 years    | 18               |
 | Earfang      | Medium | 5'0" - 6'7"  | 95 - 200 lb  | 70 - 105 years   | 21               |
 
-| Race         | Speed      | Negative Affinities | Neutral Affinities                | Positive Affinities      | Stat Bonuses   |
-| ------------ | ---------- | ------------------- | --------------------------------- | ------------------------ | -------------- |
-| Harpy        | 30, fly 40 | Earth, Necrotic     | Generic, Fire, Water, Psychic     | Air, Radiant             | +1 DEX, +1 CHA |
-| Hushwing     | 30, fly 40 | Fire, Earth         | Generic, Water, Psychic, Necrotic | Air, Radiant             | +2 WIS, +1 DEX |
-| Skyclaw      | 35, fly 45 | Water, Psychic      | Generic, Fire, Earth              | Air, Radiant, Necrotic   | +2 STR, +1 DEX |
-| Blackfeather | 30, fly 35 | Radiant, Fire       | Generic, Earth, Water, Psychic    | Air, Necrotic            | +2 INT, +1 DEX |
-| Palehook     | 30, fly 40 | Air, Psychic        | Generic, Fire, Earth              | Necrotic, Radiant, Water | +2 CON, +1 STR |
-| Earfang      | 30, fly 40 | Radiant, Earth      | Generic, Fire, Water              | Air, Psychic, Necrotic   | +2 DEX, +1 INT |
+| Race         | Speed      | Negative Affinities | Neutral Affinities                | Positive Affinities      | Stat Bonuses | Karma |
+| ------------ | ---------- | ------------------- | --------------------------------- | ------------------------ | ------------ | ----- |
+| Harpy        | 30, fly 40 | Earth, Necrotic     | Generic, Fire, Water, Psychic     | Air, Radiant             |              | -10   |
+| Hushwing     | 30, fly 40 | Fire, Earth         | Generic, Water, Psychic, Necrotic | Air, Radiant             |              | 0     |
+| Skyclaw      | 35, fly 45 | Water, Psychic      | Generic, Fire, Earth              | Air, Radiant, Necrotic   |              | +5    |
+| Blackfeather | 30, fly 35 | Radiant, Fire       | Generic, Earth, Water, Psychic    | Air, Necrotic            |              | -40   |
+| Palehook     | 30, fly 40 | Air, Psychic        | Generic, Fire, Earth              | Necrotic, Radiant, Water |              | -40   |
+| Earfang      | 30, fly 40 | Radiant, Earth      | Generic, Fire, Water              | Air, Psychic, Necrotic   |              | -20   |
 ## Harpy
 Person but their arms turn into wings like a bat would but with feathers and their body is partially covered in feathers, their legs from the knees down are replaced with like chicken legs. 
 ###### Racial Abilities

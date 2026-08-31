@@ -12,15 +12,15 @@
 | Lycanthrex  | Large  | 5'6" - 7'8"  | 160 - 420 lb | 70 - 105 years   | 21               |
 | Mycelari    | Medium | 4'0" - 6'6"  | 90 - 280 lb  | 300 - 450 years  | 18               |
 
-| Race        | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities | Stat Bonuses            |
-| ----------- | ------------ | ------------------- | ----------------------------------------- | ------------------- | ----------------------- |
-| Revenant    | 20           | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic            | +2 CON, -2 DEX, -5 CHAR |
-| Ossid       | 30           | Fire, Radiant       | Generic, Water, Air, Psychic              | Necrotic, Earth     | +2 DEX, -2 CON, -5 CHAR |
-| Shadowman   | 30, Climb 30 | Radiant             | Generic, Fire, Earth, Water, Air          | Necrotic, Psychic   | +2 DEX, +1 INT          |
-| Sanguivar   | 35           | Radiant             | Generic, Fire, Earth, Water, Air, Psychic | Necrotic            | +2 STR, +1 CHA          |
-| Relicwraith | Fly 20       | Radiant             | Generic, Fire, Earth, Water, Air          | Necrotic, Psychic   | +2 INT, -3 STR, +5 AC   |
-| Lycanthrex  | 40           | Radiant, Psychic    | Generic, Fire, Earth, Water, Air          | Necrotic            | +3 STR, +2 CON, -1 INT  |
-| Mycelari    | 25           | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic            | +2 CON, +1 WIS, -2 CHAR |
+| Race        | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities | Stat Bonuses | Karma |
+| ----------- | ------------ | ------------------- | ----------------------------------------- | ------------------- | ------------ | ----- |
+| Revenant    | 20           | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic            |              | -100  |
+| Ossid       | 30           | Fire, Radiant       | Generic, Water, Air, Psychic              | Necrotic, Earth     |              | -100  |
+| Shadowman   | 30, Climb 30 | Radiant             | Generic, Fire, Earth, Water, Air          | Necrotic, Psychic   |              | -75   |
+| Sanguivar   | 35           | Radiant             | Generic, Fire, Earth, Water, Air, Psychic | Necrotic            |              | -50   |
+| Relicwraith | Fly 20       | Radiant             | Generic, Fire, Earth, Water, Air          | Necrotic, Psychic   |              | 0     |
+| Lycanthrex  | 40           | Radiant, Psychic    | Generic, Fire, Earth, Water, Air          | Necrotic            |              | -50   |
+| Mycelari    | 25           | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic            |              | +10   |
 ## Revenant
 undead rotting human, its a zombie. 
 ###### Racial Abilities

@@ -7,12 +7,12 @@
 | Mirr         | Medium | 5'0" - 6'8"  | 110 - 260 lb | 70 - 105 years   | 21               |
 | Skinwalker   | Medium | 4'10" - 7'4" | 100 - 340 lb | 60 - 90 years    | 18               |
 
-| Race         | Speed       | Negative Affinities | Neutral Affinities                                  | Positive Affinities | Stat Bonuses           |
-| ------------ | ----------- | ------------------- | --------------------------------------------------- | ------------------- | ---------------------- |
-| Shapeshifter | 30          | Radiant             | Generic, Fire, Earth, Water, Air, Necrotic, Psychic |                     | +1 DEX, +1 CHA         |
-| Mireglopian  | 25, Swim 40 | Fire, Radiant       | Generic, Earth, Air, Psychic                        | Water, Necrotic     | +2 CON, +1 DEX, -1 STR |
-| Mirr         | 30          | Earth, Necrotic     | Generic, Fire, Water, Air, Psychic                  | Radiant             | +2 CHA, +1 INT, -1 STR |
-| Skinwalker   | 30          | Radiant, Psychic    | Generic, Fire, Earth, Water, Air                    | Necrotic            | +2 DEX, +1 CON         |
+| Race         | Speed       | Negative Affinities | Neutral Affinities                                  | Positive Affinities | Stat Bonuses | Karma |
+| ------------ | ----------- | ------------------- | --------------------------------------------------- | ------------------- | ------------ | ----- |
+| Shapeshifter | 30          | Radiant             | Generic, Fire, Earth, Water, Air, Necrotic, Psychic |                     |              | -10   |
+| Mireglopian  | 25, Swim 40 | Fire, Radiant       | Generic, Earth, Air, Psychic                        | Water, Necrotic     |              | +20   |
+| Mirr         | 30          | Earth, Necrotic     | Generic, Fire, Water, Air, Psychic                  | Radiant             |              | -10   |
+| Skinwalker   | 30          | Radiant, Psychic    | Generic, Fire, Earth, Water, Air                    | Necrotic            |              | -10   |
 ## Shapeshifter
 They can look like anyhting really, their true form is basically a human though just without eye lids, they dont blink. 
 ###### Racial Abilities

@@ -15,20 +15,20 @@
 | Ursworn   | Large  | 6'0" - 8'2"  | 260 - 720 lb   | 70 - 105 years   | 21               |
 | Gnoll     | Medium | 5'2" - 7'4"  | 140 - 360 lb   | 55 - 82 years    | 16               |
 
-| Race      | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities    | Stat Bonuses           |
-| --------- | ------------ | ------------------- | ----------------------------------------- | ---------------------- | ---------------------- |
-| Therian   | 30           | Psychic             | Generic, Fire, Earth, Water, Air, Radiant | Necrotic               | +1 STR, +1 CON         |
-| Felar     | 35, climb 30 | Water, Radiant      | Generic, Fire, Earth, Psychic             | Air, Necrotic          | +2 DEX, +1 STR         |
-| Wolfkin   | 35           | Fire, Psychic       | Generic, Earth, Air, Radiant              | Water, Necrotic        | +2 CON, +1 STR         |
-| Centaur   | 40           | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +3 STR, +2 CON, -1 DEX |
-| Tuskwroth | 30           | Air, Psychic        | Generic, Fire, Water, Radiant             | Earth, Necrotic        | +3 STR, +1 CON, -1 DEX |
-| Minotaur  | 35           | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +5 STR, +2 CON         |
-| Murren    | 30, climb 30 | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic               | +2 DEX, +1 INT, -1 STR |
-| Probassan | 30, swim 30  | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +4 STR, +3 CON, -2 DEX |
-| Drowseer  | 25, climb 30 | Fire, Air           | Generic, Earth, Water, Psychic            | Necrotic, Radiant      | +2 CON, +1 STR, -1 DEX |
-| Spinekin  | 30           | Water, Air          | Generic, Fire, Earth, Psychic             | Necrotic, Radiant      | +2 CON, +1 STR         |
-| Ursworn   | 30, swim 30  | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic | +4 STR, +2 CON         |
-| Gnoll     | 35           | Water, Radiant      | Generic, Fire, Earth, Air, Psychic        | Necrotic               | +2 STR, +1 DEX         |
+| Race      | Speed        | Negative Affinities | Neutral Affinities                        | Positive Affinities    | Stat Bonuses | Karma |
+| --------- | ------------ | ------------------- | ----------------------------------------- | ---------------------- | ------------ | ----- |
+| Therian   | 30           | Psychic             | Generic, Fire, Earth, Water, Air, Radiant | Necrotic               |              |       |
+| Felar     | 35, climb 30 | Water, Radiant      | Generic, Fire, Earth, Psychic             | Air, Necrotic          |              |       |
+| Wolfkin   | 35           | Fire, Psychic       | Generic, Earth, Air, Radiant              | Water, Necrotic        |              |       |
+| Centaur   | 40           | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic |              |       |
+| Tuskwroth | 30           | Air, Psychic        | Generic, Fire, Water, Radiant             | Earth, Necrotic        |              |       |
+| Minotaur  | 35           | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic |              |       |
+| Murren    | 30, climb 30 | Fire, Radiant       | Generic, Earth, Water, Air, Psychic       | Necrotic               |              |       |
+| Probassan | 30, swim 30  | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic |              |       |
+| Drowseer  | 25, climb 30 | Fire, Air           | Generic, Earth, Water, Psychic            | Necrotic, Radiant      |              |       |
+| Spinekin  | 30           | Water, Air          | Generic, Fire, Earth, Psychic             | Necrotic, Radiant      |              |       |
+| Ursworn   | 30, swim 30  | Air, Psychic        | Generic, Fire, Radiant                    | Earth, Water, Necrotic |              |       |
+| Gnoll     | 35           | Water, Radiant      | Generic, Fire, Earth, Air, Psychic        | Necrotic               |              |       |
 ## Therian
 Person with animal traits, usually just like cat ears or a tail or antlers or whatever, can be basically any animal. 
 ###### Racial Abilities

@@ -8,13 +8,13 @@
 | Deepmantle | Medium | 5'0" - 7'0"   | 140 - 360 lb | 75 - 112 years   | 22               |
 | Chelonar   | Large  | 4'8" - 6'4"   | 180 - 520 lb | 400 - 600 years  | 120              |
 
-| Race       | Speed                 | Negative Affinities | Neutral Affinities             | Positive Affinities    | Stat Bonuses                   |
-| ---------- | --------------------- | ------------------- | ------------------------------ | ---------------------- | ------------------------------ |
-| Nerid      | 25, swim 40           | Fire, Earth         | Generic, Air, Radiant, Psychic | Water, Necrotic        | +2 CON, +1 STR                 |
-| Mermaid    | 10, swim 25           | Fire, Earth         | Generic, Air, Radiant, Psychic | Water, Necrotic        | -1 CON, -1 DEX, -1 INT, -2 STR |
-| Cephalid   | 20, swim 30, climb 30 | Fire, Radiant       | Generic, Earth, Air, Psychic   | Water, Necrotic        | +2 INT, +1 DEX                 |
-| Deepmantle | 20, swim 35, climb 20 | Fire, Radiant       | Generic, Earth, Air, Psychic   | Water, Necrotic        | +2 CON, +1 STR                 |
-| Chelonar   | 20, swim 30           | Air, Psychic        | Generic, Fire, Radiant         | Water, Necrotic, Earth | +5 CON, +1 STR, -1 DEX         |
+| Race       | Speed                 | Negative Affinities | Neutral Affinities             | Positive Affinities    | Stat Bonuses | Karma |
+| ---------- | --------------------- | ------------------- | ------------------------------ | ---------------------- | ------------ | ----- |
+| Nerid      | 25, swim 40           | Fire, Earth         | Generic, Air, Radiant, Psychic | Water, Necrotic        |              | 0     |
+| Mermaid    | 10, swim 25           | Fire, Earth         | Generic, Air, Radiant, Psychic | Water, Necrotic        |              | +10   |
+| Cephalid   | 20, swim 30, climb 30 | Fire, Radiant       | Generic, Earth, Air, Psychic   | Water, Necrotic        |              | +10   |
+| Deepmantle | 20, swim 35, climb 20 | Fire, Radiant       | Generic, Earth, Air, Psychic   | Water, Necrotic        |              | +10   |
+| Chelonar   | 20, swim 30           | Air, Psychic        | Generic, Fire, Radiant         | Water, Necrotic, Earth |              | +20   |
 ## Nerid
 A person but their legs are a fish tail underwater, become a normal human on land. 
 ###### Racial Abilities

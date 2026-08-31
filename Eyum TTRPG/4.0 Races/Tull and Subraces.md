@@ -12,17 +12,19 @@
 | Cyclopse  | Huge   | 8'6" - 12'0" | 900 - 1,900 lb | 85 - 127 years   | 25               |
 | Naram-Sin | Medium | 5'10" - 6'8" | 210 - 360 lb   | 65 - 97 years    | 19               |
 
-| Race      | Speed | Negative Affinities | Neutral Affinities               | Positive Affinities | Stat Bonuses                           |
-| --------- | ----- | ------------------- | -------------------------------- | ------------------- | -------------------------------------- |
-| Grivlit   | 20    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +1 STR, +1 DEX, -1 CHAR                |
-| Tull      | 20    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +1 STR, +1 CON, -1 CHAR                |
-| Grull     | 25    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +3 STR, +2 CON, -1 CHAR                |
-| Gorul     | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +4 STR, +3 CON, -1 CHAR                |
-| Boaf      | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +5 STR, +4 CON, -1 CHAR                |
-| Brogath   | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +6 STR, +5 CON, -1 CHAR                |
-| Troll     | 40    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +8 STR, +9 CON, -2 INT, -1 CHAR        |
-| Cyclopse  | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +9 STR, +8 CON, -2 WIS, -1 CHAR        |
-| Naram-Sin | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +6 STR, +4 DEX, +3 CON, +5 INT, +2 WIS |
+| Race      | Speed | Negative Affinities | Neutral Affinities               | Positive Affinities | Stat Bonuses                           | Total Stats (Assuming Tull path)                 | Karma | Total Karma |
+| --------- | ----- | ------------------- | -------------------------------- | ------------------- | -------------------------------------- | ------------------------------------------------ | ----- | ----------- |
+| Grivlit   | 20    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +1 STR, +1 DEX, -1 CHA                 | +1 STR, +1 DEX, -1 CHAR                          | -10   |             |
+| Tull      | 20    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +1 STR, +1 CON, -1 CHA                 | +1 STR, +1 CON, -1 CHA                           | -10   |             |
+| -         | -     | -                   | -                                | -                   | -                                      | -                                                | -     |             |
+| Grull     | 25    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +3 STR, +2 CON, -1 CHA                 | +4 STR, +3 CON, -2 CHA                           | -20   | -30         |
+| Gorul     | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +4 STR, +3 CON, -1 CHA                 | +8 STR, +6 CON, -3 CHA                           | -30   | -60         |
+| Boaf      | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +5 STR, +4 CON, -1 CHA                 | +13 STR, +10 CON, -4 CHA                         | -40   | -100        |
+| Brogath   | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +6 STR, +5 CON, -1 CHA                 | +19 STR, +15 CON, -5 CHA                         | -50   | -150        |
+| -         | -     | -                   | -                                | -                   | -                                      | -                                                | -     |             |
+| Troll     | 40    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +8 STR, +9 CON, -2 INT, -3 CHA         | +27 STR, +24 CON, -8 CHA                         | -60   | -210        |
+| Cyclopse  | 35    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +9 STR, +8 CON, -2 WIS, -1 CHA         | +28 STR, +23 CON, -6 CHA                         | -60   | -210        |
+| Naram-Sin | 30    | Radiant, Psychic    | Generic, Fire, Earth, Water, Air | Necrotic            | +6 STR, +4 DEX, +3 CON, +5 INT, +2 WIS | +25 STR, +4 DEX, +18 CON, +5 INT, +2 WIS, -5 CHA | -60   | -210        |
 ## Grivlit
 Its a goblin
 ## Tull
@@ -42,7 +44,7 @@ Giant buff dude with regular human proportions but only one eye in the center of
 ## Naram-Sin
 More average sized buff dude with long flowing hair and massive tusks
 # Racial Abilities
-The Tull race and its subraces are unique in that they undergo physical evolution over time. All Tull characters must begin as either a **Tull** or a **Grivlit**, and as they grow and gain levels, they may evolve into progressively higher forms along the Tull lineage, up to **Brogath**. Upon reaching this stage, further evolution requires a final specialization, at which point the character must permanently choose one of three apex forms: **Troll**, **Cyclopse**, or **Naram-Sin**. When you level up and gain Stat Bonuses from your new race, they are additive.
+The Tull race and its subraces are unique in that they undergo physical evolution over time. All Tull characters must begin as either a **Tull** or a **Grivlit**, and as they grow and gain levels, they may evolve into progressively higher forms along the Tull lineage, up to **Brogath**. Upon reaching this stage, further evolution requires a final specialization, at which point the character must permanently choose one of three apex forms: **Troll**, **Cyclopse**, or **Naram-Sin**. When you evolve you gain Stat Bonuses and Karma from your new race, they are additive.
 
 | Tier | Ability |
 | ---- | ------- |

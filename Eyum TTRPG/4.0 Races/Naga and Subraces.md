@@ -12,17 +12,17 @@
 | Carapax     | Large  | 4'11" - 6'8" | 260 - 700 lb | 120 - 180 years  | 36               |
 | Anuran      | Medium | 4'8" - 6'6"  | 150 - 360 lb | 60 - 90 years    | 18               |
 
-| Race        | Speed        | Negative Affinities | Neutral Affinities               | Positive Affinities      | Stat Bonuses          |
-| ----------- | ------------ | ------------------- | -------------------------------- | ------------------------ | --------------------- |
-| Naga        | 30, swim 30  | Fire, Radiant       | Generic, Earth, Air, Psychic     | Water, Necrotic          | +1 CON, +1 DEX        |
-| Slarik      | 25           | Fire, Air           | Generic, Water, Psychic, Radiant | Earth, Necrotic          | +2 CON, -1 DEX        |
-| Scaledrake  | 30, glide 20 | Air, Psychic        | Generic, Fire, Water             | Earth, Necrotic, Radiant | +2 STR, +1 CON        |
-| Ophidian    | 35           | Radiant, Earth      | Generic, Fire, Water, Air        | Necrotic, Psychic        | +2 DEX, +1 INT        |
-| Viperean    | 35           | Radiant, Earth      | Generic, Fire, Air               | Water, Necrotic, Psychic | +2 DEX, +1 CHA        |
-| Nagaith     | 30, swim 40  | Fire, Radiant       | Generic, Earth, Psychic          | Water, Air, Necrotic     | +2 DEX, +1 CON        |
-| Serpentarii | 30           | Water, Air          | Generic, Fire, Psychic           | Earth, Necrotic, Radiant | +2 STR, +1 CON        |
-| Carapax     | 25, swim 20  | Air, Psychic        | Generic, Fire, Water             | Earth, Necrotic, Radiant | +3 CON, -1 DEX, +3 AC |
-| Anuran      | 30, swim 40  | Fire, Radiant       | Generic, Earth, Psychic          | Water, Air, Necrotic     | +2 DEX, +1 WIS        |
+| Race        | Speed        | Negative Affinities | Neutral Affinities               | Positive Affinities      | Stat Bonuses | Karma |
+| ----------- | ------------ | ------------------- | -------------------------------- | ------------------------ | ------------ | ----- |
+| Naga        | 30, swim 30  | Fire, Radiant       | Generic, Earth, Air, Psychic     | Water, Necrotic          |              | 0     |
+| Slarik      | 25           | Fire, Air           | Generic, Water, Psychic, Radiant | Earth, Necrotic          |              | +10   |
+| Scaledrake  | 30, glide 20 | Air, Psychic        | Generic, Fire, Water             | Earth, Necrotic, Radiant |              | -10   |
+| Ophidian    | 35           | Radiant, Earth      | Generic, Fire, Water, Air        | Necrotic, Psychic        |              | +20   |
+| Viperean    | 35           | Radiant, Earth      | Generic, Fire, Air               | Water, Necrotic, Psychic |              | -20   |
+| Nagaith     | 30, swim 40  | Fire, Radiant       | Generic, Earth, Psychic          | Water, Air, Necrotic     |              | +20   |
+| Serpentarii | 30           | Water, Air          | Generic, Fire, Psychic           | Earth, Necrotic, Radiant |              | -20   |
+| Carapax     | 25, swim 20  | Air, Psychic        | Generic, Fire, Water             | Earth, Necrotic, Radiant |              | +30   |
+| Anuran      | 30, swim 40  | Fire, Radiant       | Generic, Earth, Psychic          | Water, Air, Necrotic     |              | -30   |
 ## Naga
 Human on the top half then snake tail replacing the legs from about the waist down. Usually pinks, reds, and oranges. Very long tail. 
 ###### Racial Abilities
